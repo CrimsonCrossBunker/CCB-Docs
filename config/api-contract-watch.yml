@@ -1,0 +1,29 @@
+schema_version: 1
+source_repository: CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+contracts:
+  lua-v5:
+    description: Lua v5 Schema, declarations, native inventory, public contract, and coverage
+    paths:
+      - data/lua/manifest.schema.json
+      - data/lua/types/ccb_api_v5.d.lua
+      - data/lua/reference/ccb_native_inventory.json
+      - data/lua/reference/ccb_public_api_v5.json
+      - data/lua/reference/ccb_public_api_v5.schema.json
+      - data/lua/reference/ccb_public_api_v5_coverage.json
+      - data/lua/reference/ccb_public_api_v5_coverage.schema.json
+    pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565
+  json-object-types:
+    description: Detected JSON object-type registrations
+    paths:
+      - data/reference/json/ccb_json_object_types.json
+    pending_source_pr: null
+  eoc-conditions:
+    description: Detected EOC condition syntaxes
+    paths:
+      - data/reference/json/ccb_eoc_conditions.json
+    pending_source_pr: null
+  eoc-effects:
+    description: Detected EOC effect syntaxes
+    paths:
+      - data/reference/json/ccb_eoc_effects.json
+    pending_source_pr: null

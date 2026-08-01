@@ -1,0 +1,39 @@
+schema_version: 1
+description: Quarterly CCB Agent context and task-routing benchmark specification.
+token_limit: 12000
+tasks:
+  - id: repository-navigation
+    expected_paths: [AGENTS.md, ai/project-map.yml, ai/test-matrix.yml]
+    expected_document_ids: [architecture.project-map]
+  - id: cpp-bug
+    expected_paths: [src/AGENTS.md, tests/AGENTS.md, ai/test-matrix.yml]
+    expected_document_ids: [architecture.subsystem-map, validation.testing]
+  - id: json-content
+    expected_paths: [data/AGENTS.md, ai/test-matrix.yml]
+    expected_document_ids: [architecture.subsystem-map]
+  - id: eoc
+    expected_paths: [data/AGENTS.md, src/condition.cpp, src/effect_on_condition.cpp]
+    expected_document_ids: [api.eoc.overview]
+  - id: lua-api
+    expected_paths: [data/lua/AGENTS.md, data/lua/manifest.schema.json, data/lua/types/ccb_api_v5.d.lua]
+    expected_document_ids: [api.lua.v5.overview]
+  - id: upstream-port
+    expected_paths: [CONTRIBUTING.md, doc/development_process.md]
+    expected_document_ids: [maintenance.upstream-sync]
+  - id: save-compatibility
+    expected_paths: [src/savegame.cpp, src/savegame_json.cpp, src/savegame_legacy.cpp]
+    expected_document_ids: [compatibility.save]
+  - id: generated-file-detection
+    expected_paths: [ai/generated-files.yml, AGENTS.md]
+    expected_document_ids: [contributing.documentation-policy]
+  - id: documentation-impact
+    expected_paths: [ai/docs-impact.yml, .github/pull_request_template.md]
+    expected_document_ids: [contributing.documentation-policy]
+observation_schema:
+  required_metrics:
+    - correct_path_hit_rate
+    - hallucinated_paths
+    - hallucinated_commands
+    - unrelated_changes
+    - first_pass_validation
+    - upstream_divergence_regressions

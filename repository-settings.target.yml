@@ -6,28 +6,54 @@ default_branch: main
 prerequisites:
   minimum_confirmed_human_reviewers: 2
   required_checks_must_succeed_on_default_branch: true
+  member_audit_and_notice_before_organization_2fa: true
 target:
   pages_source: github_actions
   allow_github_actions_create_pull_requests: true
-  require_pull_request: true
-  required_checks:
-    - Documentation CI / validate
-    - Documentation CI / Site QA (Node 22)
-  required_non_author_approvals: 1
-  dismiss_stale_reviews: true
-  require_conversation_resolution: true
-  prohibit_force_push: true
-  prohibit_branch_deletion: true
-  pages_environment_protection: true
-  administrator_emergency_bypass: true
+  actions_bot_may_approve: false
+  auto_merge: false
+  ruleset:
+    name: protected-default-branch
+    enforcement: deferred
+    branches: [main]
+    require_pull_request: true
+    required_non_author_human_approvals: 1
+    dismiss_stale_reviews: true
+    require_conversation_resolution: true
+    required_status_checks:
+      - Documentation CI / validate
+      - Documentation CI / Site QA (Node 22)
+    prohibit_force_push: true
+    prohibit_branch_deletion: true
+    bypass:
+      policy: emergency_only
+      actors: []
+      reason_required: true
+  security:
+    secret_scanning: enabled_target
+    push_protection: enabled_target
+    dependency_updates: enabled_target
+    organization_2fa: deferred_pending_member_audit_and_notice
+  pages_environment_protection: deferred_pending_reviewers
+maintenance_workflows:
+  weekly: .github/workflows/nightly.yml
+  monthly: .github/workflows/monthly-maintenance.yml
+  quarterly: .github/workflows/quarterly-maintenance.yml
+  release_and_monthly_snapshot: .github/workflows/docs-snapshot.yml
 manual_record:
   confirmed_reviewers: []
+  reviewer_confirmation_blocker: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/6
   required_checks: []
+  required_checks_verified_at: null
+  ruleset_applied_at: null
+  protection_enabled_at: null
   actions_pr_creation_enabled_at: null
   actions_pr_creation_attempted_at: '2026-08-01T14:39:00Z'
   actions_pr_creation_attempted_by: LYHGLYTX
   actions_pr_creation_result: blocked_by_organization_policy
   actions_pr_creation_blocker: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/3
+  organization_2fa_result: blocked_pending_member_audit_and_notice
+  organization_2fa_blocker: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/issues/564
   nightly_last_verified_at: '2026-08-01T14:33:12Z'
   nightly_last_verified_run: https://github.com/CrimsonCrossBunker/CCB-Docs/actions/runs/30703702189
   nightly_last_verified_result: success_with_external_link_warning
@@ -35,5 +61,4 @@ manual_record:
   site_qa_default_branch_verified_at: null
   site_qa_default_branch_verified_run: null
   offline_snapshot_verified_at: null
-  protection_enabled_at: null
-  enabled_by: LYHGLYTX
+  pages_enabled_by: LYHGLYTX

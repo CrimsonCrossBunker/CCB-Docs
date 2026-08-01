@@ -1,0 +1,36 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    target-branch: main
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: deps(actions)
+
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: monthly
+    target-branch: main
+    open-pull-requests-limit: 5
+    groups:
+      site-qa-dependencies:
+        patterns: ['*']
+    commit-message:
+      prefix: deps(npm)
+
+  # The uv ecosystem updates pyproject.toml and uv.lock together, preserving
+  # the repository's `uv sync --frozen` contract.
+  - package-ecosystem: uv
+    directory: /
+    schedule:
+      interval: monthly
+    target-branch: main
+    open-pull-requests-limit: 5
+    groups:
+      python-documentation-dependencies:
+        patterns: ['*']
+    commit-message:
+      prefix: deps(python)

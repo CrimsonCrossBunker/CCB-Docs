@@ -26,6 +26,8 @@ This file is sufficient for basic offline work.
 | `templates/` | Tutorial, how-to, reference, explanation, API, and archive templates |
 | `scripts/` | Catalog generation, builds, links, drift, issue reports |
 | `tests/` | Policy and generator regression tests |
+| `config/` | Maintenance schedules, contract watches, approved baselines |
+| `.github/workflows/` | CI, Pages, and scheduled evidence collection |
 
 - Edit metadata in `docs-catalog.yml`, then run the generator. Do not hand-edit
   generated front matter, `docs/llms*.txt`, or any file under `docs/ai/`.
@@ -45,6 +47,12 @@ This file is sufficient for basic offline work.
   drafts and stay out of production navigation, search, and AI indexes.
 - Never update every `verified_commit` merely because CCB master advanced.
 - Do not auto-merge drift pull requests.
+- `config/api-contract-baseline.yml` is reviewed evidence. Automation may report
+  drift but must not update the accepted fingerprints.
+- Site ZIPs, link reports, benchmark observations, and large indexes are CI
+  artifacts; do not commit them unless a policy file explicitly lists them.
+- Scheduled maintenance may reconcile marker-deduplicated Issues. It must not
+  approve a PR, enable a Ruleset, or change organization security settings.
 
 ## Validation / 验证
 
@@ -59,6 +67,7 @@ uv run python scripts/check_json_eoc_example_mod.py --source-repo /path/to/CCB
 uv run python scripts/generate_legacy_migration.py \
   --source-repo /path/to/CCB --check
 uv run python -m unittest discover -s tests -p 'test_*.py'
+uv run python scripts/check_maintenance_workflows.py
 uv run flake8 --max-line-length=100 scripts tests
 uv run python scripts/build_site.py --strict --include-drafts \
   --offline-archive artifacts/ccb-docs-offline.zip
@@ -82,3 +91,17 @@ The browser commands require a loopback listener. If the execution environment
 forbids local ports, run all static checks locally and leave Playwright, axe,
 visual regression, and Lighthouse to the pinned `Site QA (Node 22)` CI job;
 report those commands as not run locally until that job succeeds.
+
+With a local CCB checkout, maintenance reports can be reproduced without
+GitHub write access:
+
+```sh
+uv run python scripts/generate_maintenance_reports.py api-diff \
+  --source-repo /path/to/CCB --json-output /tmp/ccb-api-diff.json
+uv run python scripts/generate_maintenance_reports.py docs-coverage \
+  --source-repo /path/to/CCB --target-ref HEAD \
+  --json-output /tmp/ccb-docs-coverage.json
+uv run python scripts/generate_maintenance_reports.py agent-benchmark \
+  --source-repo /path/to/CCB --run-source-benchmark \
+  --json-output /tmp/ccb-agent-readiness.json
+```

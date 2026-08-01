@@ -119,6 +119,9 @@ jobs:
       - name: Run policy tests
         run: uv run python -m unittest discover -s tests -p 'test_*.py'
 
+      - name: Check scheduled workflow policy
+        run: uv run python scripts/check_maintenance_workflows.py
+
       - name: Lint maintenance code
         run: uv run flake8 --max-line-length=100 scripts tests
 

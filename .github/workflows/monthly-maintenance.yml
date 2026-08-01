@@ -1,0 +1,100 @@
+name: Monthly documentation coverage and API contracts
+
+on:
+  schedule:
+    - cron: "17 4 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: monthly-documentation-maintenance
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out documentation repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Check out authoritative CCB source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+          ref: master
+          path: .build/ccb-source
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78 # v7
+        with:
+          version: "0.11.28"
+          enable-cache: true
+
+      - name: Sync locked dependencies
+        run: uv sync --frozen
+
+      - name: Validate authoritative CCB Lua public contracts
+        run: |
+          uv run python .build/ccb-source/tools/lua_api/generate_public_contract.py --check
+          uv run python .build/ccb-source/tools/lua_api/check_public_contract.py
+          uv run python .build/ccb-source/tools/lua_api/check_ccb_inventory.py
+          uv run python .build/ccb-source/tools/lua_api/check_luals_declarations.py
+          uv run python .build/ccb-source/tools/lua_api/check_coverage.py --require-complete
+
+      - name: Generate documentation coverage report
+        run: >-
+          uv run python scripts/generate_maintenance_reports.py docs-coverage
+          --source-repo .build/ccb-source
+          --target-ref HEAD
+          --json-output .build/monthly/docs-coverage.json
+
+      - name: Generate public-contract diff report
+        run: >-
+          uv run python scripts/generate_maintenance_reports.py api-diff
+          --source-repo .build/ccb-source
+          --target-ref HEAD
+          --json-output .build/monthly/api-diff.json
+
+      - name: Reconcile documentation coverage Issue
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          uv run python scripts/manage_tracking_issues.py maintenance
+          --report .build/monthly/docs-coverage.json
+          --key monthly-docs-coverage
+          --title "[maintenance] Monthly documentation coverage"
+
+      - name: Reconcile API contract Issue
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          uv run python scripts/manage_tracking_issues.py maintenance
+          --report .build/monthly/api-diff.json
+          --key monthly-api-diff
+          --title "[maintenance] Monthly public-contract diff"
+
+      - name: Upload monthly maintenance evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: monthly-documentation-maintenance-${{ github.run_id }}
+          path: .build/monthly/*.json
+          if-no-files-found: warn
+          retention-days: 90
+
+      - name: Write monthly Job Summary
+        if: always()
+        run: >-
+          python3 scripts/write_workflow_summary.py
+          --title "Monthly documentation maintenance"
+          --report .build/monthly/docs-coverage.json
+          --report .build/monthly/api-diff.json

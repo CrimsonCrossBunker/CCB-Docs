@@ -20,6 +20,7 @@ uv run python scripts/generate_json_eoc_reference.py --source-repo /path/to/CCB 
 uv run python scripts/check_json_eoc_example_mod.py --source-repo /path/to/CCB
 uv run python scripts/generate_legacy_migration.py --source-repo /path/to/CCB --check
 uv run python -m unittest discover -s tests -p 'test_*.py'
+uv run python scripts/check_maintenance_workflows.py
 uv run flake8 --max-line-length=100 scripts tests
 uv run python scripts/build_site.py --strict --include-drafts \
   --offline-archive artifacts/ccb-docs-offline.zip
@@ -67,6 +68,51 @@ generates page front matter, navigation, `llms.txt`, `llms-full.txt`, JSON and
 JSONL indexes, bilingual mappings, search/AI allowlists, archive exclusions,
 redirects, and sitemap metadata. Files under `docs/ai/` and generated page
 front matter must not be edited by hand.
+
+## Long-term maintenance / 长期维护
+
+Scheduled workflows collect evidence without approving or merging changes:
+
+- weekly link, translation-debt, and source-path drift checks;
+- monthly documentation coverage and public API contract diffs;
+- quarterly Agent benchmark readiness, permissions, and archive audits;
+- monthly and validated CCB-release-dispatch snapshots with restore tests;
+- monthly Dependabot updates for pinned Actions, npm, and uv lock data.
+
+All schedules also support `workflow_dispatch`, use marker-deduplicated Issues,
+publish artifacts and a Job Summary, and have explicit concurrency, timeouts,
+and permissions. The source-drift workflow has two no-empty-change guards and
+only creates a draft PR; it never auto-merges. Desired Ruleset and security
+settings remain declarative in `repository-settings.target.yml` until the
+recorded human and organization-policy blockers are resolved.
+
+Reproduce the reports locally with an existing CCB checkout:
+
+```sh
+uv run python scripts/generate_maintenance_reports.py docs-coverage \
+  --source-repo /path/to/Cataclysm-Cleanwater-Bomb \
+  --target-ref HEAD \
+  --json-output /tmp/ccb-docs-coverage.json
+uv run python scripts/generate_maintenance_reports.py api-diff \
+  --source-repo /path/to/Cataclysm-Cleanwater-Bomb \
+  --json-output /tmp/ccb-api-diff.json
+uv run python scripts/generate_maintenance_reports.py agent-benchmark \
+  --source-repo /path/to/Cataclysm-Cleanwater-Bomb \
+  --run-source-benchmark \
+  --json-output /tmp/ccb-agent-benchmark.json
+uv run python scripts/generate_maintenance_reports.py permissions \
+  --github-repository CrimsonCrossBunker/CCB-Docs \
+  --github-organization CrimsonCrossBunker \
+  --github-token-env GITHUB_TOKEN \
+  --json-output /tmp/ccb-permissions.json
+uv run python scripts/generate_maintenance_reports.py archive \
+  --json-output /tmp/ccb-archive.json
+```
+
+`config/api-contract-baseline.yml` is intentionally human-reviewed. Scheduled
+automation reports missing or changed fingerprints but never rewrites that
+baseline. Snapshot ZIPs, reports, and benchmark observation bundles are
+artifacts, not source files.
 
 The bilingual JSON/EOC registry bodies are generated from the exact CCB
 contract-inventory commit by `scripts/generate_json_eoc_reference.py`. The
