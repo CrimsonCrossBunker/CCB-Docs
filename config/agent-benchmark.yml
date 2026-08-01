@@ -13,7 +13,7 @@ tasks:
     expected_document_ids: [architecture.subsystem-map]
   - id: eoc
     expected_paths: [data/AGENTS.md, src/condition.cpp, src/effect_on_condition.cpp]
-    expected_document_ids: [api.eoc.overview]
+    expected_document_ids: [eoc.overview]
   - id: lua-api
     expected_paths: [data/lua/AGENTS.md, data/lua/manifest.schema.json, data/lua/types/ccb_api_v5.d.lua]
     expected_document_ids: [api.lua.v5.overview]

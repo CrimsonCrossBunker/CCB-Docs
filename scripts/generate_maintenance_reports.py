@@ -406,6 +406,61 @@ def source_documentation_coverage(
                 keys=sorted(duplicate_catalog_keys),
             )
         )
+    bilingual_catalog_ids = {
+        identity
+        for identity, _language in catalog_by_key
+        if {
+            language
+            for candidate, language in catalog_by_key
+            if candidate == identity
+        }
+        >= {"zh_CN", "en"}
+    }
+    context_catalog_references = 0
+    context_catalog_resolved = 0
+    unresolved_context_ids: list[dict[str, str]] = []
+    context_specs = (
+        ("ai/task-router.yml", "entries", "documentation_ids"),
+        ("ai/agent-benchmark.yml", "cases", "expected_documentation_ids"),
+    )
+    for path, collection_key, ids_key in context_specs:
+        context = load_git_yaml(source_repo, target_ref, path)
+        records = context.get(collection_key)
+        if not isinstance(records, list):
+            raise MaintenanceError(f"{path} {collection_key} must be a list")
+        for record in records:
+            if not isinstance(record, dict):
+                continue
+            for identity in record.get(ids_key, []):
+                if not isinstance(identity, str):
+                    continue
+                context_catalog_references += 1
+                if identity in bilingual_catalog_ids:
+                    context_catalog_resolved += 1
+                else:
+                    unresolved_context_ids.append(
+                        {
+                            "path": path,
+                            "record_id": str(record.get("id")),
+                            "document_id": identity,
+                        }
+                    )
+    if unresolved_context_ids:
+        findings.append(
+            finding(
+                "agent-context-unresolved-catalog-ids",
+                "error",
+                "CCB Agent routes or benchmarks reference missing bilingual catalog IDs.",
+                references=unresolved_context_ids,
+            )
+        )
+    add_coverage_regression(
+        findings,
+        "agent-context-catalog-id-mapping",
+        context_catalog_resolved,
+        context_catalog_references,
+        unresolved_references=unresolved_context_ids,
+    )
     catalog_by_url = {
         catalog_page_url(catalog, page): page for page in catalog_by_key.values()
     }
@@ -571,6 +626,11 @@ def source_documentation_coverage(
         "registry_catalog_references_resolved": registry_catalog_resolved,
         "registry_catalog_coverage_percent": percentage(
             registry_catalog_resolved, registry_catalog_references
+        ),
+        "agent_context_catalog_references": context_catalog_references,
+        "agent_context_catalog_references_resolved": context_catalog_resolved,
+        "agent_context_catalog_coverage_percent": percentage(
+            context_catalog_resolved, context_catalog_references
         ),
         "migration_catalog_mappings_expected": len(permanent_entries),
         "migration_catalog_mappings_verified": verified_catalog_migrations,

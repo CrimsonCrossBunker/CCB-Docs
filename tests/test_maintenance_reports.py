@@ -245,6 +245,36 @@ class MaintenanceReportTests(unittest.TestCase):
             ),
             encoding="utf-8",
         )
+        (self.source / "ai/task-router.yml").write_text(
+            yaml.safe_dump(
+                {
+                    "schema_version": 1,
+                    "entries": [
+                        {
+                            "id": "documentation",
+                            "documentation_ids": ["guide.target"],
+                        }
+                    ],
+                },
+                sort_keys=False,
+            ),
+            encoding="utf-8",
+        )
+        (self.source / "ai/agent-benchmark.yml").write_text(
+            yaml.safe_dump(
+                {
+                    "schema_version": 1,
+                    "cases": [
+                        {
+                            "id": "documentation",
+                            "expected_documentation_ids": ["guide.target"],
+                        }
+                    ],
+                },
+                sort_keys=False,
+            ),
+            encoding="utf-8",
+        )
         (self.source / "doc/migration/markdown-inventory.yml").write_text(
             yaml.safe_dump(
                 {
@@ -408,6 +438,10 @@ class MaintenanceReportTests(unittest.TestCase):
         self.assertEqual(result["summary"]["frozen_inventory_documents"], 175)
         self.assertEqual(result["summary"]["permanent_stub_verified"], 1)
         self.assertEqual(result["summary"]["migration_catalog_mappings_verified"], 1)
+        self.assertEqual(result["summary"]["agent_context_catalog_references"], 2)
+        self.assertEqual(
+            result["summary"]["agent_context_catalog_references_resolved"], 2
+        )
         self.assertEqual(result["summary"]["new_unregistered_markdown"], 0)
 
         (self.source / "NEW_UNREGISTERED.md").write_text("# New\n", encoding="utf-8")
@@ -418,6 +452,23 @@ class MaintenanceReportTests(unittest.TestCase):
         self.assertIn("unregistered-markdown", identities)
         self.assertIn("docs-coverage-regression:documentation-registry", identities)
         self.assertEqual(regressed["summary"]["new_unregistered_markdown"], 1)
+
+        router = yaml.safe_load(
+            (self.source / "ai/task-router.yml").read_text(encoding="utf-8")
+        )
+        router["entries"][0]["documentation_ids"] = ["missing.document"]
+        (self.source / "ai/task-router.yml").write_text(
+            yaml.safe_dump(router, sort_keys=False), encoding="utf-8"
+        )
+        commit(self.source, "break Agent document ID")
+        with patch("generate_maintenance_reports.load_catalog", return_value=catalog):
+            invalid_context = docs_coverage(date(2026, 8, 2), self.source)
+        context_identities = {item["id"] for item in invalid_context["findings"]}
+        self.assertIn("agent-context-unresolved-catalog-ids", context_identities)
+        self.assertIn(
+            "docs-coverage-regression:agent-context-catalog-id-mapping",
+            context_identities,
+        )
 
     def test_archive_review_detects_index_leaks(self) -> None:
         pages = [
