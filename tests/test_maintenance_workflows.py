@@ -16,6 +16,7 @@ from check_maintenance_workflows import (  # noqa: E402
     validate_monthly_contracts,
     validate_quarterly_live_audit,
     validate_repository,
+    validate_runtime_example_workflow,
     validate_scheduled_workflow,
     validate_snapshot_workflow,
 )
@@ -80,6 +81,39 @@ class MaintenanceWorkflowTests(unittest.TestCase):
             encoding="utf-8"
         )
         self.assertNotIn('--github-token "${{ github.token }}"', source)
+
+    def test_runtime_example_workflow_builds_and_loads_both_examples(self) -> None:
+        self.assertEqual(validate_runtime_example_workflow(), [])
+
+    def test_runtime_example_policy_rejects_an_unpinned_ccb_checkout(self) -> None:
+        source = (ROOT / ".github/workflows/runtime-example-mods.yml").read_text(
+            encoding="utf-8"
+        )
+        source = source.replace(
+            "ref: ${{ steps.json-eoc-source.outputs.commit }}",
+            "ref: master",
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "runtime-example-mods.yml"
+            path.write_text(source, encoding="utf-8")
+            errors = validate_runtime_example_workflow(path)
+
+        self.assertTrue(any("CCB checkout ref" in error for error in errors), errors)
+
+    def test_runtime_example_policy_rejects_an_unbounded_mod_load(self) -> None:
+        source = (ROOT / ".github/workflows/runtime-example-mods.yml").read_text(
+            encoding="utf-8"
+        )
+        source = source.replace(
+            "timeout --signal=TERM --kill-after=30s 10m \\",
+            "true \\",
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "runtime-example-mods.yml"
+            path.write_text(source, encoding="utf-8")
+            errors = validate_runtime_example_workflow(path)
+
+        self.assertTrue(any("bounded runtime load" in error for error in errors), errors)
 
     def test_snapshot_dispatch_is_serialized_and_cannot_reconcile_release_health(self) -> None:
         maintenance = yaml.safe_load(

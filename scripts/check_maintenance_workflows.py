@@ -20,6 +20,7 @@ EXPECTED_SCHEDULES = {
     "quarterly-maintenance.yml": "quarterly",
     "docs-snapshot.yml": "snapshot_backup",
 }
+RUNTIME_EXAMPLE_WORKFLOW = WORKFLOW_DIR / "runtime-example-mods.yml"
 ALLOWED_PERMISSION_KEYS = {"actions", "contents", "issues", "pull-requests"}
 ALLOWED_PERMISSION_VALUES = {"read", "write", "none"}
 FORBIDDEN_WORKFLOW_PATTERNS = {
@@ -287,6 +288,169 @@ def validate_quarterly_live_audit() -> list[str]:
     return errors
 
 
+def validate_runtime_example_workflow(
+    path: Path = RUNTIME_EXAMPLE_WORKFLOW,
+) -> list[str]:
+    """Validate the expensive real-binary example check without running it."""
+    if not path.is_file():
+        return ["runtime-example-mods.yml: real CCB example validation is missing"]
+
+    raw = path.read_text(encoding="utf-8")
+    workflow = load_base_yaml(path)
+    name = path.name
+    errors: list[str] = []
+    triggers = mapping(workflow.get("on"))
+    for trigger in ("pull_request", "workflow_dispatch"):
+        if trigger not in triggers:
+            errors.append(f"{name}: missing {trigger} trigger")
+    for forbidden in ("push", "schedule"):
+        if forbidden in triggers:
+            errors.append(f"{name}: unexpected expensive {forbidden} trigger")
+
+    pull_request = mapping(triggers.get("pull_request"))
+    paths = pull_request.get("paths", [])
+    required_paths = {
+        ".github/workflows/runtime-example-mods.yml",
+        "config/**",
+        "docs-catalog.yml",
+        "examples/**",
+    }
+    if not isinstance(paths, list):
+        errors.append(f"{name}: pull_request paths must be an array")
+        paths = []
+    missing_paths = sorted(required_paths - set(paths))
+    if missing_paths:
+        errors.append(f"{name}: missing pull_request paths: {', '.join(missing_paths)}")
+
+    concurrency = mapping(workflow.get("concurrency"))
+    if not concurrency.get("group") or concurrency.get("cancel-in-progress") != "true":
+        errors.append(f"{name}: concurrency requires a group and cancellation")
+
+    errors.extend(validate_permissions(name, workflow, raw))
+    errors.extend(validate_action_pins(name, raw))
+
+    jobs = mapping(workflow.get("jobs"))
+    if set(jobs) != {"runtime-examples"}:
+        errors.append(f"{name}: expected exactly the runtime-examples job")
+        return errors
+    job = mapping(jobs.get("runtime-examples"))
+    timeout = job.get("timeout-minutes")
+    if timeout is None or not str(timeout).isdigit() or int(timeout) <= 0:
+        errors.append(f"{name}: runtime-examples needs a positive timeout-minutes")
+
+    named_steps = {
+        mapping(step).get("name"): mapping(step)
+        for step in job.get("steps", [])
+        if isinstance(step, dict)
+    }
+    docs_checkout = named_steps.get("Check out CCB-Docs", {})
+    docs_checkout_with = mapping(docs_checkout.get("with"))
+    if "repository" in docs_checkout_with or "ref" in docs_checkout_with:
+        errors.append(f"{name}: CCB-Docs checkout must use the current workflow revision")
+    if docs_checkout_with.get("persist-credentials") != "false":
+        errors.append(f"{name}: CCB-Docs checkout must not persist credentials")
+
+    resolve = named_steps.get("Resolve the authoritative JSON/EOC source commit", {})
+    resolve_run = str(resolve.get("run", ""))
+    if resolve.get("id") != "json-eoc-source":
+        errors.append(f"{name}: JSON/EOC source resolver needs a stable step id")
+    for token in (
+        "generate_json_eoc_reference.py --print-source-commit",
+        "^[0-9a-f]{40}$",
+        'echo "commit=$commit" >> "$GITHUB_OUTPUT"',
+    ):
+        if token not in resolve_run:
+            errors.append(f"{name}: source resolver is missing {token}")
+
+    ccb_checkout = named_steps.get("Check out the pinned full CCB source", {})
+    ccb_with = mapping(ccb_checkout.get("with"))
+    expected_checkout = {
+        "repository": "CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb",
+        "ref": "${{ steps.json-eoc-source.outputs.commit }}",
+        "path": ".source/ccb",
+        "fetch-depth": "1",
+        "persist-credentials": "false",
+    }
+    for key, value in expected_checkout.items():
+        if ccb_with.get(key) != value:
+            errors.append(f"{name}: CCB checkout {key} must be {value}")
+    for sparse_key in ("filter", "sparse-checkout", "sparse-checkout-cone-mode"):
+        if sparse_key in ccb_with:
+            errors.append(f"{name}: CCB build checkout must be full, not {sparse_key}")
+
+    install_run = str(
+        named_steps.get("Install the minimal curses build dependency", {}).get("run", "")
+    )
+    expected_install = (
+        "sudo apt-get install --no-install-recommends --yes libncursesw5-dev"
+    )
+    if expected_install not in install_run:
+        errors.append(f"{name}: minimal curses dependency installation changed")
+    for unnecessary in ("gettext", "libsdl", "ccache"):
+        if unnecessary in install_run.lower():
+            errors.append(f"{name}: curses build installs unnecessary {unnecessary}")
+
+    build_run = str(
+        named_steps.get("Build the release curses executable with Lua enabled", {}).get(
+            "run", ""
+        )
+    )
+    for flag in (
+        "RELEASE=1",
+        "TESTS=0",
+        "LOCALIZE=0",
+        "TILES=0",
+        "SOUND=0",
+        "CATA_ENABLE_LUA_UI=1",
+    ):
+        if flag not in build_run:
+            errors.append(f"{name}: CCB build is missing {flag}")
+    if "set -o pipefail" not in build_run or "tee .build/logs/ccb-build.log" not in build_run:
+        errors.append(f"{name}: CCB build log must preserve the make exit status")
+
+    stage_run = str(
+        named_steps.get("Install both maintained examples as user Mods", {}).get("run", "")
+    )
+    for token in (
+        "data/lua/examples/api_v5_mod",
+        "examples/complete-json-eoc-mod",
+        "$CCB_RUNTIME_USER_DIR/mods/ccb_lua_v5_example",
+        "$CCB_RUNTIME_USER_DIR/mods/ccb_docs_json_eoc_example",
+    ):
+        if token not in stage_run:
+            errors.append(f"{name}: user Mod staging is missing {token}")
+
+    load_run = str(
+        named_steps.get("Load both examples with the real CCB executable", {}).get("run", "")
+    )
+    for token in (
+        "timeout --signal=TERM --kill-after=30s 10m",
+        '"$CCB_SOURCE_DIR/cataclysm"',
+        '--datadir "$CCB_SOURCE_DIR/data/"',
+        '--userdir "$CCB_RUNTIME_USER_DIR/"',
+        '--check-mods "$mod_id"',
+        "run_mod_check ccb_lua_v5_example",
+        "run_mod_check ccb_docs_json_eoc_example",
+        "set -o pipefail",
+    ):
+        if token not in load_run:
+            errors.append(f"{name}: bounded runtime load is missing {token}")
+
+    collect = named_steps.get("Collect minimal failure logs", {})
+    collect_run = str(collect.get("run", ""))
+    if collect.get("if") != "failure()" or "tail -n 400" not in collect_run:
+        errors.append(f"{name}: failure log collection must be bounded and failure-only")
+    upload = named_steps.get("Upload minimal failure logs", {})
+    upload_with = mapping(upload.get("with"))
+    if upload.get("if") != "failure()":
+        errors.append(f"{name}: failure artifact upload must be failure-only")
+    if upload_with.get("path") != ".build/failure-logs/":
+        errors.append(f"{name}: only minimal failure logs may be uploaded")
+    if upload_with.get("if-no-files-found") != "error":
+        errors.append(f"{name}: failure artifact must never be silently empty")
+    return errors
+
+
 def validate_snapshot_workflow(
     maintenance: dict[str, Any],
     path: Path = WORKFLOW_DIR / "docs-snapshot.yml",
@@ -497,6 +661,7 @@ def validate_repository() -> list[str]:
     errors.extend(validate_dependabot(maintenance))
     errors.extend(validate_monthly_contracts())
     errors.extend(validate_quarterly_live_audit())
+    errors.extend(validate_runtime_example_workflow())
     errors.extend(validate_snapshot_workflow(maintenance))
     errors.extend(validate_shared_safety())
     errors.extend(validate_governance_targets(maintenance))

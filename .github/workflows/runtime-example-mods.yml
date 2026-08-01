@@ -1,0 +1,137 @@
+name: Runtime example Mod validation
+
+on:
+  pull_request:
+    paths:
+      - .github/workflows/runtime-example-mods.yml
+      - config/**
+      - docs-catalog.yml
+      - examples/**
+      - pyproject.toml
+      - scripts/generate_json_eoc_reference.py
+      - uv.lock
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: runtime-example-mods-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  runtime-examples:
+    name: CCB runtime example Mods
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      CCB_SOURCE_DIR: .source/ccb
+      CCB_RUNTIME_USER_DIR: .build/runtime-user
+    steps:
+      - name: Check out CCB-Docs
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78 # v7
+        with:
+          version: "0.11.28"
+          enable-cache: true
+
+      - name: Sync locked documentation dependencies
+        run: uv sync --frozen
+
+      - name: Resolve the authoritative JSON/EOC source commit
+        id: json-eoc-source
+        shell: bash
+        run: |
+          commit="$(uv run python scripts/generate_json_eoc_reference.py --print-source-commit)"
+          if [[ ! "$commit" =~ ^[0-9a-f]{40}$ ]]; then
+            echo "Invalid CCB source commit: $commit" >&2
+            exit 1
+          fi
+          echo "commit=$commit" >> "$GITHUB_OUTPUT"
+
+      - name: Check out the pinned full CCB source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+          ref: ${{ steps.json-eoc-source.outputs.commit }}
+          path: .source/ccb
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Install the minimal curses build dependency
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends --yes libncursesw5-dev
+
+      - name: Build the release curses executable with Lua enabled
+        shell: bash
+        run: |
+          set -o pipefail
+          mkdir -p .build/logs
+          make -C "$CCB_SOURCE_DIR" -j2 \
+            RELEASE=1 \
+            TESTS=0 \
+            LOCALIZE=0 \
+            TILES=0 \
+            SOUND=0 \
+            CATA_ENABLE_LUA_UI=1 \
+            2>&1 | tee .build/logs/ccb-build.log
+          test -x "$CCB_SOURCE_DIR/cataclysm"
+
+      - name: Install both maintained examples as user Mods
+        shell: bash
+        run: |
+          mkdir -p "$CCB_RUNTIME_USER_DIR/mods"
+          cp -a \
+            "$CCB_SOURCE_DIR/data/lua/examples/api_v5_mod" \
+            "$CCB_RUNTIME_USER_DIR/mods/ccb_lua_v5_example"
+          cp -a \
+            examples/complete-json-eoc-mod \
+            "$CCB_RUNTIME_USER_DIR/mods/ccb_docs_json_eoc_example"
+
+      - name: Load both examples with the real CCB executable
+        shell: bash
+        env:
+          LC_ALL: C.UTF-8
+        run: |
+          set -o pipefail
+          run_mod_check() {
+            local mod_id="$1"
+            timeout --signal=TERM --kill-after=30s 10m \
+              "$CCB_SOURCE_DIR/cataclysm" \
+              --datadir "$CCB_SOURCE_DIR/data/" \
+              --userdir "$CCB_RUNTIME_USER_DIR/" \
+              --check-mods "$mod_id" \
+              2>&1 | tee ".build/logs/${mod_id}.log"
+          }
+          run_mod_check ccb_lua_v5_example
+          run_mod_check ccb_docs_json_eoc_example
+
+      - name: Collect minimal failure logs
+        if: failure()
+        shell: bash
+        env:
+          CCB_SOURCE_COMMIT: ${{ steps.json-eoc-source.outputs.commit }}
+        run: |
+          mkdir -p .build/failure-logs
+          printf 'CCB source commit: %s\nWorkflow run: %s attempt %s\n' \
+            "$CCB_SOURCE_COMMIT" "$GITHUB_RUN_ID" "$GITHUB_RUN_ATTEMPT" \
+            > .build/failure-logs/context.txt
+          for log in .build/logs/*.log "$CCB_RUNTIME_USER_DIR/config/debug.log"; do
+            if [[ -f "$log" ]]; then
+              tail -n 400 "$log" > ".build/failure-logs/$(basename "$log")"
+            fi
+          done
+
+      - name: Upload minimal failure logs
+        if: failure()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: runtime-example-mod-failure-${{ github.run_id }}-${{ github.run_attempt }}
+          path: .build/failure-logs/
+          if-no-files-found: error
+          retention-days: 7
