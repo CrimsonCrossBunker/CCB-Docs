@@ -1,4 +1,4 @@
-schema_version: 1
+schema_version: 2
 site:
   default_language: zh_CN
   languages: [zh_CN, en]
@@ -25,6 +25,27 @@ pages:
     risk_level: normal
     pending_source_pr: null
     stale_reason: null
+    doc_type: explanation
+    audiences: [new-contributor, experienced-contributor, maintainer, agent]
+    owners: []
+    reviewers: []
+    review_interval_days: 180
+    last_human_reviewer: LYHGLYTX
+    source_symbols: []
+    source_queries: []
+    source_fingerprint: d27dfc345f1f62196b482536e828d7781fbdc467c68ce6d109f8d289f2921adb
+    translation_source_fingerprint: 38a37cdddd129271ed9a5484f0b0da50d20558876d983fe7eefb471397dcd0af
+    prerequisites: []
+    depends_on: []
+    redirect_from: []
+    supersedes: []
+    license: CC-BY-SA-3.0
+    attribution: CCB and CCB-Docs contributors; see source and page history
+    generated_by: null
+    example_validation_ids: []
+    api_version: null
+    deprecated: false
+    deprecation_replacement: null
     nav: { section: 首页, order: 0 }
   - id: home
     title: CCB Developer Documentation
@@ -45,6 +66,27 @@ pages:
     risk_level: normal
     pending_source_pr: null
     stale_reason: null
+    doc_type: explanation
+    audiences: [new-contributor, experienced-contributor, maintainer, agent]
+    owners: []
+    reviewers: []
+    review_interval_days: 180
+    last_human_reviewer: LYHGLYTX
+    source_symbols: []
+    source_queries: []
+    source_fingerprint: d27dfc345f1f62196b482536e828d7781fbdc467c68ce6d109f8d289f2921adb
+    translation_source_fingerprint: 38a37cdddd129271ed9a5484f0b0da50d20558876d983fe7eefb471397dcd0af
+    prerequisites: []
+    depends_on: []
+    redirect_from: []
+    supersedes: []
+    license: CC-BY-SA-3.0
+    attribution: CCB and CCB-Docs contributors; see source and page history
+    generated_by: null
+    example_validation_ids: []
+    api_version: null
+    deprecated: false
+    deprecation_replacement: null
     nav: { section: Home, order: 0 }
 
   - id: getting-started.first-contribution
@@ -66,6 +108,27 @@ pages:
     risk_level: high
     pending_source_pr: null
     stale_reason: null
+    doc_type: tutorial
+    audiences: [new-contributor, agent]
+    owners: []
+    reviewers: []
+    review_interval_days: 90
+    last_human_reviewer: LYHGLYTX
+    source_symbols: []
+    source_queries: []
+    source_fingerprint: bfca58bb5bcc4d08fb7a11f3dfbbc87a0b2335ca46ffd1aaa5547d0bbc0e66f4
+    translation_source_fingerprint: e1294cff2297b0bbc3d6164e822d1743655a127ae19259e4b4b0260fb4f1a730
+    prerequisites: [home]
+    depends_on: [contributing.responsible-human, validation.quickstart]
+    redirect_from: []
+    supersedes: []
+    license: CC-BY-SA-3.0
+    attribution: CCB and CCB-Docs contributors; see source and page history
+    generated_by: null
+    example_validation_ids: []
+    api_version: null
+    deprecated: false
+    deprecation_replacement: null
     nav: { section: 开始贡献, order: 10 }
   - id: getting-started.first-contribution
     title: First contribution
@@ -86,6 +149,27 @@ pages:
     risk_level: high
     pending_source_pr: null
     stale_reason: null
+    doc_type: tutorial
+    audiences: [new-contributor, agent]
+    owners: []
+    reviewers: []
+    review_interval_days: 90
+    last_human_reviewer: LYHGLYTX
+    source_symbols: []
+    source_queries: []
+    source_fingerprint: bfca58bb5bcc4d08fb7a11f3dfbbc87a0b2335ca46ffd1aaa5547d0bbc0e66f4
+    translation_source_fingerprint: e1294cff2297b0bbc3d6164e822d1743655a127ae19259e4b4b0260fb4f1a730
+    prerequisites: [home]
+    depends_on: [contributing.responsible-human, validation.quickstart]
+    redirect_from: []
+    supersedes: []
+    license: CC-BY-SA-3.0
+    attribution: CCB and CCB-Docs contributors; see source and page history
+    generated_by: null
+    example_validation_ids: []
+    api_version: null
+    deprecated: false
+    deprecation_replacement: null
     nav: { section: Start contributing, order: 10 }
 
   - id: architecture.project-map
@@ -107,6 +191,27 @@ pages:
     risk_level: normal
     pending_source_pr: null
     stale_reason: null
+    doc_type: explanation
+    audiences: [new-contributor, experienced-contributor, maintainer, agent]
+    owners: []
+    reviewers: []
+    review_interval_days: 90
+    last_human_reviewer: LYHGLYTX
+    source_symbols: []
+    source_queries: []
+    source_fingerprint: be6eb00f3c20ccea84fcc2aa0f1d1ad2d196295e97249741ebb9875dee4111b7
+    translation_source_fingerprint: 90b4d70c065176f84f4ed848ba0683de783a5603c6447fcfc1db68832035e0b5
+    prerequisites: [home]
+    depends_on: []
+    redirect_from: []
+    supersedes: []
+    license: CC-BY-SA-3.0
+    attribution: CCB and CCB-Docs contributors; see source and page history
+    generated_by: null
+    example_validation_ids: []
+    api_version: null
+    deprecated: false
+    deprecation_replacement: null
     nav: { section: 架构, order: 20 }
   - id: architecture.project-map
     title: Project map
@@ -127,6 +232,27 @@ pages:
     risk_level: normal
     pending_source_pr: null
     stale_reason: null
+    doc_type: explanation
+    audiences: [new-contributor, experienced-contributor, maintainer, agent]
+    owners: []
+    reviewers: []
+    review_interval_days: 90
+    last_human_reviewer: LYHGLYTX
+    source_symbols: []
+    source_queries: []
+    source_fingerprint: be6eb00f3c20ccea84fcc2aa0f1d1ad2d196295e97249741ebb9875dee4111b7
+    translation_source_fingerprint: 90b4d70c065176f84f4ed848ba0683de783a5603c6447fcfc1db68832035e0b5
+    prerequisites: [home]
+    depends_on: []
+    redirect_from: []
+    supersedes: []
+    license: CC-BY-SA-3.0
+    attribution: CCB and CCB-Docs contributors; see source and page history
+    generated_by: null
+    example_validation_ids: []
+    api_version: null
+    deprecated: false
+    deprecation_replacement: null
     nav: { section: Architecture, order: 20 }
 
   - id: contributing.responsible-human
@@ -148,6 +274,27 @@ pages:
     risk_level: high
     pending_source_pr: null
     stale_reason: null
+    doc_type: explanation
+    audiences: [new-contributor, experienced-contributor, maintainer, agent]
+    owners: []
+    reviewers: []
+    review_interval_days: 90
+    last_human_reviewer: LYHGLYTX
+    source_symbols: []
+    source_queries: []
+    source_fingerprint: bfca58bb5bcc4d08fb7a11f3dfbbc87a0b2335ca46ffd1aaa5547d0bbc0e66f4
+    translation_source_fingerprint: 55d3f928cb2ca6ab24791556f0c374de51d4aa25e240accb35f181120453be7a
+    prerequisites: [home]
+    depends_on: []
+    redirect_from: []
+    supersedes: []
+    license: CC-BY-SA-3.0
+    attribution: CCB and CCB-Docs contributors; see source and page history
+    generated_by: null
+    example_validation_ids: []
+    api_version: null
+    deprecated: false
+    deprecation_replacement: null
     nav: { section: 贡献规范, order: 30 }
   - id: contributing.responsible-human
     title: Responsible human
@@ -168,6 +315,27 @@ pages:
     risk_level: high
     pending_source_pr: null
     stale_reason: null
+    doc_type: explanation
+    audiences: [new-contributor, experienced-contributor, maintainer, agent]
+    owners: []
+    reviewers: []
+    review_interval_days: 90
+    last_human_reviewer: LYHGLYTX
+    source_symbols: []
+    source_queries: []
+    source_fingerprint: bfca58bb5bcc4d08fb7a11f3dfbbc87a0b2335ca46ffd1aaa5547d0bbc0e66f4
+    translation_source_fingerprint: 55d3f928cb2ca6ab24791556f0c374de51d4aa25e240accb35f181120453be7a
+    prerequisites: [home]
+    depends_on: []
+    redirect_from: []
+    supersedes: []
+    license: CC-BY-SA-3.0
+    attribution: CCB and CCB-Docs contributors; see source and page history
+    generated_by: null
+    example_validation_ids: []
+    api_version: null
+    deprecated: false
+    deprecation_replacement: null
     nav: { section: Contribution policy, order: 30 }
 
   - id: validation.quickstart
@@ -189,6 +357,27 @@ pages:
     risk_level: high
     pending_source_pr: null
     stale_reason: null
+    doc_type: how-to
+    audiences: [new-contributor, experienced-contributor, maintainer, agent]
+    owners: []
+    reviewers: []
+    review_interval_days: 90
+    last_human_reviewer: LYHGLYTX
+    source_symbols: []
+    source_queries: []
+    source_fingerprint: cea022b963f38bffcd1e67d4dbc7dfcfbd17f0bcb4090298e150936954c542e8
+    translation_source_fingerprint: 7bbe452f2a9397eac25ccbfb804f71d0a081288915bb3900ef5f2c0fcb9f4114
+    prerequisites: [architecture.project-map]
+    depends_on: [architecture.project-map]
+    redirect_from: []
+    supersedes: []
+    license: CC-BY-SA-3.0
+    attribution: CCB and CCB-Docs contributors; see source and page history
+    generated_by: null
+    example_validation_ids: []
+    api_version: null
+    deprecated: false
+    deprecation_replacement: null
     nav: { section: 构建与验证, order: 40 }
   - id: validation.quickstart
     title: Build and validation quickstart
@@ -209,4 +398,25 @@ pages:
     risk_level: high
     pending_source_pr: null
     stale_reason: null
+    doc_type: how-to
+    audiences: [new-contributor, experienced-contributor, maintainer, agent]
+    owners: []
+    reviewers: []
+    review_interval_days: 90
+    last_human_reviewer: LYHGLYTX
+    source_symbols: []
+    source_queries: []
+    source_fingerprint: cea022b963f38bffcd1e67d4dbc7dfcfbd17f0bcb4090298e150936954c542e8
+    translation_source_fingerprint: 7bbe452f2a9397eac25ccbfb804f71d0a081288915bb3900ef5f2c0fcb9f4114
+    prerequisites: [architecture.project-map]
+    depends_on: [architecture.project-map]
+    redirect_from: []
+    supersedes: []
+    license: CC-BY-SA-3.0
+    attribution: CCB and CCB-Docs contributors; see source and page history
+    generated_by: null
+    example_validation_ids: []
+    api_version: null
+    deprecated: false
+    deprecation_replacement: null
     nav: { section: Build and validation, order: 40 }

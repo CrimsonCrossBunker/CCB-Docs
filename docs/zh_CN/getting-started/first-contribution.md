@@ -20,6 +20,32 @@ risk_group: governance
 risk_level: high
 pending_source_pr: null
 stale_reason: null
+doc_type: tutorial
+audiences:
+- new-contributor
+- agent
+owners: []
+reviewers: []
+review_interval_days: 90
+last_human_reviewer: LYHGLYTX
+source_symbols: []
+source_queries: []
+source_fingerprint: bfca58bb5bcc4d08fb7a11f3dfbbc87a0b2335ca46ffd1aaa5547d0bbc0e66f4
+translation_source_fingerprint: e1294cff2297b0bbc3d6164e822d1743655a127ae19259e4b4b0260fb4f1a730
+prerequisites:
+- home
+depends_on:
+- contributing.responsible-human
+- validation.quickstart
+redirect_from: []
+supersedes: []
+license: CC-BY-SA-3.0
+attribution: CCB and CCB-Docs contributors; see source and page history
+generated_by: null
+example_validation_ids: []
+api_version: null
+deprecated: false
+deprecation_replacement: null
 ---
 
 # 第一次贡献

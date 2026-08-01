@@ -20,6 +20,32 @@ risk_group: governance
 risk_level: high
 pending_source_pr: null
 stale_reason: null
+doc_type: explanation
+audiences:
+- new-contributor
+- experienced-contributor
+- maintainer
+- agent
+owners: []
+reviewers: []
+review_interval_days: 90
+last_human_reviewer: LYHGLYTX
+source_symbols: []
+source_queries: []
+source_fingerprint: bfca58bb5bcc4d08fb7a11f3dfbbc87a0b2335ca46ffd1aaa5547d0bbc0e66f4
+translation_source_fingerprint: 55d3f928cb2ca6ab24791556f0c374de51d4aa25e240accb35f181120453be7a
+prerequisites:
+- home
+depends_on: []
+redirect_from: []
+supersedes: []
+license: CC-BY-SA-3.0
+attribution: CCB and CCB-Docs contributors; see source and page history
+generated_by: null
+example_validation_ids: []
+api_version: null
+deprecated: false
+deprecation_replacement: null
 ---
 
 # Responsible human 与贡献责任

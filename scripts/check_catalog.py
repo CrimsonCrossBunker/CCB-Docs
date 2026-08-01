@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import subprocess
 import sys
@@ -39,7 +40,77 @@ def catalog_page_keys(catalog: dict) -> set[tuple[str, str]]:
     return {(page["id"], page["language"]) for page in catalog["pages"]}
 
 
-def validate_repository(catalog: dict) -> list[str]:
+def source_fingerprint(
+    source_repo: Path,
+    commit: str,
+    source_paths: list[str],
+) -> str:
+    """Hash exact authoritative blobs without checking out or walking a tree."""
+    digest = hashlib.sha256()
+    for source_path in sorted(source_paths):
+        result = subprocess.run(
+            ["git", "-C", str(source_repo), "show", f"{commit}:{source_path}"],
+            check=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+        )
+        digest.update(source_path.encode("utf-8"))
+        digest.update(b"\0")
+        digest.update(result.stdout)
+        digest.update(b"\0")
+    return digest.hexdigest()
+
+
+def validate_source_contracts(catalog: dict, source_repo: Path) -> list[str]:
+    errors: list[str] = []
+    fingerprint_cache: dict[tuple[str, tuple[str, ...]], str] = {}
+    for page in catalog["pages"]:
+        key = (page["verified_commit"], tuple(sorted(page["source_paths"])))
+        try:
+            if key not in fingerprint_cache:
+                fingerprint_cache[key] = source_fingerprint(
+                    source_repo,
+                    page["verified_commit"],
+                    page["source_paths"],
+                )
+        except subprocess.CalledProcessError as error:
+            detail = error.stderr.decode("utf-8", errors="replace").strip()
+            errors.append(
+                f"invalid source_paths for {page['id']} {page['language']}: "
+                f"{detail or 'git show failed'}"
+            )
+            continue
+        if page["source_fingerprint"] != fingerprint_cache[key]:
+            errors.append(
+                f"source fingerprint mismatch for {page['id']} "
+                f"{page['language']}"
+            )
+        for symbol in page["source_symbols"]:
+            result = run_git(
+                [
+                    "grep",
+                    "-F",
+                    "-e",
+                    symbol,
+                    page["verified_commit"],
+                    "--",
+                    *page["source_paths"],
+                ],
+                check=False,
+                repository=source_repo,
+            )
+            if result.returncode != 0:
+                errors.append(
+                    f"missing source symbol for {page['id']} "
+                    f"{page['language']}: {symbol}"
+                )
+    return errors
+
+
+def validate_repository(
+    catalog: dict,
+    source_repo: Path | None = None,
+) -> list[str]:
     errors: list[str] = []
     expected = {page_source(page).resolve() for page in catalog["pages"]}
     actual = {
@@ -75,6 +146,8 @@ def validate_repository(catalog: dict) -> list[str]:
         navigation_keys.get("en", set())
     ):
         errors.append("production navigation is not bilingual")
+    if source_repo is not None:
+        errors.extend(validate_source_contracts(catalog, source_repo.resolve()))
     return errors
 
 
@@ -102,10 +175,14 @@ def translation_debts(catalog: dict, today: date) -> list[TranslationDebt]:
     return sorted(debts, key=lambda debt: debt.id)
 
 
-def run_git(args: list[str], check: bool = True) -> subprocess.CompletedProcess[str]:
+def run_git(
+    args: list[str],
+    check: bool = True,
+    repository: Path = ROOT,
+) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
         ["git", *args],
-        cwd=ROOT,
+        cwd=repository,
         check=check,
         text=True,
         capture_output=True,
@@ -208,12 +285,13 @@ def main() -> int:
     parser.add_argument("--base-ref")
     parser.add_argument("--today", type=date.fromisoformat, default=date.today())
     parser.add_argument("--json-output", type=Path)
+    parser.add_argument("--source-repo", type=Path)
     parser.add_argument("--report-translation-debt", action="store_true")
     args = parser.parse_args()
 
     try:
         catalog = load_catalog()
-        errors = validate_repository(catalog)
+        errors = validate_repository(catalog, args.source_repo)
         debts = translation_debts(catalog, args.today)
         blockers: list[str] = []
         if args.base_ref:

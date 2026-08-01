@@ -11,7 +11,14 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from check_catalog import validate_repository  # noqa: E402
 from generate_catalog import (  # noqa: E402
+    AI_ALLOWLIST_PATH,
+    CHUNKS_PATH,
+    LLMS_FULL_PATH,
+    NAVIGATION_PATH,
+    REDIRECTS_PATH,
+    SITEMAP_METADATA_PATH,
     CatalogError,
+    all_outputs,
     index_payload,
     load_catalog,
     validate_policy,
@@ -54,6 +61,7 @@ class CatalogTests(unittest.TestCase):
         catalog = copy.deepcopy(self.catalog)
         catalog["pages"][0]["status"] = "stale"
         catalog["pages"][0]["include_in_ai_index"] = False
+        catalog["pages"][0]["stale_reason"] = "source contract changed"
 
         validate_policy(catalog)
 
@@ -66,6 +74,48 @@ class CatalogTests(unittest.TestCase):
     def test_catalog_has_exactly_one_entry_per_id_and_language(self) -> None:
         keys = [(page["id"], page["language"]) for page in self.catalog["pages"]]
         self.assertEqual(len(keys), len(set(keys)))
+
+    def test_catalog_v2_generates_every_machine_readable_view(self) -> None:
+        self.assertEqual(self.catalog["schema_version"], 2)
+        outputs = all_outputs(self.catalog)
+        for path in (
+            LLMS_FULL_PATH,
+            CHUNKS_PATH,
+            AI_ALLOWLIST_PATH,
+            NAVIGATION_PATH,
+            REDIRECTS_PATH,
+            SITEMAP_METADATA_PATH,
+        ):
+            self.assertIn(path, outputs)
+
+    def test_translation_fingerprint_must_match_chinese_body(self) -> None:
+        catalog = copy.deepcopy(self.catalog)
+        catalog["pages"][0]["translation_source_fingerprint"] = "0" * 64
+        with self.assertRaisesRegex(CatalogError, "Chinese source body"):
+            validate_policy(catalog)
+
+    def test_generated_pages_require_a_generator(self) -> None:
+        catalog = copy.deepcopy(self.catalog)
+        catalog["pages"][0]["generated"] = True
+        with self.assertRaisesRegex(CatalogError, "generated_by"):
+            validate_policy(catalog)
+
+    def test_unknown_dependencies_are_rejected(self) -> None:
+        catalog = copy.deepcopy(self.catalog)
+        catalog["pages"][0]["depends_on"] = ["missing.document"]
+        with self.assertRaisesRegex(CatalogError, "unknown document id"):
+            validate_policy(catalog)
+
+    def test_all_page_templates_are_available(self) -> None:
+        for name in (
+            "tutorial.md",
+            "how-to.md",
+            "reference.md",
+            "explanation.md",
+            "generated-api.md",
+            "archive.md",
+        ):
+            self.assertTrue((ROOT / "templates" / name).is_file(), name)
 
 
 if __name__ == "__main__":

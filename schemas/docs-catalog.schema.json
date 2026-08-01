@@ -1,11 +1,11 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://crimsoncrossbunker.github.io/CCB-Docs/schemas/docs-catalog-v1.json",
+  "$id": "https://crimsoncrossbunker.github.io/CCB-Docs/schemas/docs-catalog-v2.json",
   "title": "CCB-Docs catalog",
   "type": "object",
   "required": [ "schema_version", "site", "pages" ],
   "properties": {
-    "schema_version": { "const": 1 },
+    "schema_version": { "const": 2 },
     "site": {
       "type": "object",
       "required": [ "default_language", "languages", "base_url" ],

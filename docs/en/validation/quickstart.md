@@ -22,6 +22,33 @@ risk_group: build
 risk_level: high
 pending_source_pr: null
 stale_reason: null
+doc_type: how-to
+audiences:
+- new-contributor
+- experienced-contributor
+- maintainer
+- agent
+owners: []
+reviewers: []
+review_interval_days: 90
+last_human_reviewer: LYHGLYTX
+source_symbols: []
+source_queries: []
+source_fingerprint: cea022b963f38bffcd1e67d4dbc7dfcfbd17f0bcb4090298e150936954c542e8
+translation_source_fingerprint: 7bbe452f2a9397eac25ccbfb804f71d0a081288915bb3900ef5f2c0fcb9f4114
+prerequisites:
+- architecture.project-map
+depends_on:
+- architecture.project-map
+redirect_from: []
+supersedes: []
+license: CC-BY-SA-3.0
+attribution: CCB and CCB-Docs contributors; see source and page history
+generated_by: null
+example_validation_ids: []
+api_version: null
+deprecated: false
+deprecation_replacement: null
 ---
 
 # Build and validation quickstart

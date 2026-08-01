@@ -24,9 +24,13 @@ This file is sufficient for basic offline work.
 | `schemas/` | Catalog and generated page-metadata schemas |
 | `scripts/` | Catalog generation, builds, links, drift, issue reports |
 | `tests/` | Policy and generator regression tests |
+| `templates/` | Authored-body templates for each documentation type |
 
 - Edit metadata in `docs-catalog.yml`, then run the generator. Do not hand-edit
-  generated front matter, `docs/llms.txt`, or `docs/ai/docs-index.json`.
+  generated front matter, `docs/llms*.txt`, or anything under `docs/ai/`.
+- Catalog v2 owns navigation, bilingual mapping, search/AI allowlists, archive
+  exclusions, redirects, sitemap metadata, full-text AI chunks, license, and
+  attribution metadata. Do not maintain parallel indexes.
 - New active pages require both languages. Incomplete migration pages are
   drafts and stay out of production navigation, search, and AI indexes.
 - Never update every `verified_commit` merely because CCB master advanced.

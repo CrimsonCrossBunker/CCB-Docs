@@ -19,6 +19,31 @@ risk_group: project-context
 risk_level: normal
 pending_source_pr: null
 stale_reason: null
+doc_type: explanation
+audiences:
+- new-contributor
+- experienced-contributor
+- maintainer
+- agent
+owners: []
+reviewers: []
+review_interval_days: 180
+last_human_reviewer: LYHGLYTX
+source_symbols: []
+source_queries: []
+source_fingerprint: d27dfc345f1f62196b482536e828d7781fbdc467c68ce6d109f8d289f2921adb
+translation_source_fingerprint: 38a37cdddd129271ed9a5484f0b0da50d20558876d983fe7eefb471397dcd0af
+prerequisites: []
+depends_on: []
+redirect_from: []
+supersedes: []
+license: CC-BY-SA-3.0
+attribution: CCB and CCB-Docs contributors; see source and page history
+generated_by: null
+example_validation_ids: []
+api_version: null
+deprecated: false
+deprecation_replacement: null
 ---
 
 # CCB 开发文档

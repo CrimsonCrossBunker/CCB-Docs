@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import copy
+import hashlib
 import json
 import sys
 from collections import defaultdict
@@ -17,7 +18,16 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG_PATH = ROOT / "docs-catalog.yml"
 LLMS_PATH = ROOT / "docs/llms.txt"
+LLMS_FULL_PATH = ROOT / "docs/llms-full.txt"
 JSON_INDEX_PATH = ROOT / "docs/ai/docs-index.json"
+BILINGUAL_MAP_PATH = ROOT / "docs/ai/bilingual-map.json"
+SEARCH_ALLOWLIST_PATH = ROOT / "docs/ai/search-allowlist.json"
+AI_ALLOWLIST_PATH = ROOT / "docs/ai/ai-allowlist.json"
+ARCHIVE_EXCLUSIONS_PATH = ROOT / "docs/ai/archive-exclusions.json"
+REDIRECTS_PATH = ROOT / "docs/ai/redirects.json"
+NAVIGATION_PATH = ROOT / "docs/ai/navigation.json"
+SITEMAP_METADATA_PATH = ROOT / "docs/ai/sitemap-metadata.json"
+CHUNKS_PATH = ROOT / "docs/ai/docs-chunks.jsonl"
 LANGUAGES = ("zh_CN", "en")
 METADATA_FIELDS = (
     "id",
@@ -37,6 +47,27 @@ METADATA_FIELDS = (
     "risk_level",
     "pending_source_pr",
     "stale_reason",
+    "doc_type",
+    "audiences",
+    "owners",
+    "reviewers",
+    "review_interval_days",
+    "last_human_reviewer",
+    "source_symbols",
+    "source_queries",
+    "source_fingerprint",
+    "translation_source_fingerprint",
+    "prerequisites",
+    "depends_on",
+    "redirect_from",
+    "supersedes",
+    "license",
+    "attribution",
+    "generated_by",
+    "example_validation_ids",
+    "api_version",
+    "deprecated",
+    "deprecation_replacement",
 )
 
 
@@ -65,6 +96,7 @@ def load_json(path: Path) -> dict:
 
 def validate_policy(catalog: dict) -> None:
     pages = catalog["pages"]
+    document_ids = {page["id"] for page in pages}
     keys = [(page["id"], page["language"]) for page in pages]
     paths = [(page["language"], page["path"]) for page in pages]
     if len(keys) != len(set(keys)):
@@ -73,6 +105,7 @@ def validate_policy(catalog: dict) -> None:
         raise CatalogError("two catalog entries point to the same language path")
 
     groups: dict[str, list[dict]] = defaultdict(list)
+    redirects: dict[str, tuple[str, str]] = {}
     for page in pages:
         groups[page["translation_group"]].append(page)
         if page["translation_group"] != page["id"]:
@@ -81,10 +114,69 @@ def validate_policy(catalog: dict) -> None:
             )
         for source_path in page["source_paths"]:
             parts = Path(source_path).parts
-            if Path(source_path).is_absolute() or "obj-lua" in parts:
+            if (
+                Path(source_path).is_absolute()
+                or ".." in parts
+                or "obj-lua" in parts
+            ):
                 raise CatalogError(
                     f"forbidden source path for {page['id']}: {source_path}"
                 )
+        for source_query in page["source_queries"]:
+            if any(ord(character) < 32 for character in source_query):
+                raise CatalogError(
+                    f"control character in source query for {page['id']}"
+                )
+            if "obj-lua" in Path(source_query).parts or "obj-lua/" in source_query:
+                raise CatalogError(
+                    f"forbidden source query for {page['id']}: {source_query}"
+                )
+        for source_symbol in page["source_symbols"]:
+            if any(ord(character) < 32 for character in source_symbol):
+                raise CatalogError(
+                    f"control character in source symbol for {page['id']}"
+                )
+        for relation in (
+            *page["prerequisites"],
+            *page["depends_on"],
+            *page["supersedes"],
+        ):
+            if relation not in document_ids:
+                raise CatalogError(
+                    f"{page['id']} references unknown document id {relation}"
+                )
+        if page["deprecated"] and not page["deprecation_replacement"]:
+            raise CatalogError(
+                f"deprecated page {page['id']} needs deprecation_replacement"
+            )
+        if page["deprecation_replacement"] not in document_ids | {None}:
+            raise CatalogError(
+                f"{page['id']} has unknown deprecation replacement"
+            )
+        if page["generated"] != bool(page["generated_by"]):
+            raise CatalogError(
+                f"{page['id']} generated and generated_by must agree"
+            )
+        if page["status"] == "archived" and page["doc_type"] != "archive":
+            raise CatalogError(
+                f"archived page {page['id']} must use the archive template"
+            )
+        if page["status"] != "archived" and page["doc_type"] == "archive":
+            raise CatalogError(
+                f"non-archived page {page['id']} cannot use archive doc_type"
+            )
+        if page["status"] in {"active", "stale"} and not page["last_human_reviewer"]:
+            raise CatalogError(
+                f"published page {page['id']} needs last_human_reviewer"
+            )
+        if page["status"] == "stale" and not page["stale_reason"]:
+            raise CatalogError(f"stale page {page['id']} needs stale_reason")
+        for redirect in page["redirect_from"]:
+            previous = redirects.get(redirect)
+            key = (page["id"], page["language"])
+            if previous and previous != key:
+                raise CatalogError(f"redirect {redirect} has multiple targets")
+            redirects[redirect] = key
         if page["status"] in {"draft", "archived"}:
             if page["include_in_search"] or page["include_in_ai_index"]:
                 raise CatalogError(
@@ -118,6 +210,14 @@ def validate_policy(catalog: dict) -> None:
             raise CatalogError(
                 f"published page {group} must include both languages"
             )
+        chinese = next(entry for entry in entries if entry["language"] == "zh_CN")
+        expected_fingerprint = translation_source_fingerprint(chinese)
+        for entry in entries:
+            if entry["translation_source_fingerprint"] != expected_fingerprint:
+                raise CatalogError(
+                    f"{group} translation_source_fingerprint does not match "
+                    "the Chinese source body"
+                )
 
 
 def load_catalog(path: Path = CATALOG_PATH) -> dict:
@@ -135,6 +235,24 @@ def load_catalog(path: Path = CATALOG_PATH) -> dict:
 
 def page_source(page: dict) -> Path:
     return ROOT / "docs" / page["language"] / page["path"]
+
+
+def markdown_body(content: str) -> str:
+    """Return authored Markdown without catalog-generated front matter."""
+    if not content.startswith("---\n"):
+        return content.lstrip("\n")
+    end = content.find("\n---\n", 4)
+    if end < 0:
+        raise CatalogError("unterminated generated front matter")
+    return content[end + len("\n---\n"):].lstrip("\n")
+
+
+def translation_source_fingerprint(page: dict) -> str:
+    path = page_source(page)
+    if not path.is_file():
+        raise CatalogError(f"missing page source: {path.relative_to(ROOT)}")
+    body = markdown_body(path.read_text(encoding="utf-8"))
+    return hashlib.sha256(body.encode("utf-8")).hexdigest()
 
 
 def public_url(catalog: dict, page: dict) -> str:
@@ -170,12 +288,7 @@ def generated_front_matter(page: dict) -> str:
 
 
 def replace_front_matter(content: str, front_matter: str) -> str:
-    if not content.startswith("---\n"):
-        return front_matter + content.lstrip("\n")
-    end = content.find("\n---\n", 4)
-    if end < 0:
-        raise CatalogError("unterminated generated front matter")
-    return front_matter + content[end + len("\n---\n"):].lstrip("\n")
+    return front_matter + markdown_body(content)
 
 
 def page_outputs(catalog: dict) -> dict[Path, str]:
@@ -196,6 +309,7 @@ def index_payload(catalog: dict) -> dict:
     bilingual: dict[str, dict[str, str]] = defaultdict(dict)
     navigation: dict[str, list[dict]] = {language: [] for language in LANGUAGES}
     ai_index = []
+    search_allowlist = []
     search_exclusions = []
     archive_exclusions = []
 
@@ -210,6 +324,8 @@ def index_payload(catalog: dict) -> dict:
         bilingual[page["id"]][page["language"]] = url
         if page["include_in_ai_index"]:
             ai_index.append(url)
+        if page["include_in_search"]:
+            search_allowlist.append(url)
         if not page["include_in_search"]:
             search_exclusions.append(url)
         if page["status"] == "archived":
@@ -229,14 +345,116 @@ def index_payload(catalog: dict) -> dict:
         navigation[language].sort(key=lambda item: (item["order"], item["id"]))
     pages.sort(key=lambda item: (item["id"], item["language"]))
     return {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_from": "docs-catalog.yml",
         "pages": pages,
         "bilingual_map": dict(sorted(bilingual.items())),
         "ai_index": sorted(ai_index),
+        "search_allowlist": sorted(search_allowlist),
         "search_exclusions": sorted(search_exclusions),
         "archive_exclusions": sorted(archive_exclusions),
         "navigation": navigation,
+    }
+
+
+def json_text(value: object) -> str:
+    return json.dumps(value, ensure_ascii=False, indent=2) + "\n"
+
+
+def llms_full_text(catalog: dict) -> str:
+    lines = [
+        "# CCB Developer Documentation: full AI-approved text",
+        "",
+        "> Generated from docs-catalog.yml; do not edit by hand.",
+        "> Only pages admitted by include_in_ai_index appear below.",
+        "",
+    ]
+    pages = sorted(
+        (page for page in catalog["pages"] if page["include_in_ai_index"]),
+        key=lambda item: (item["id"], item["language"]),
+    )
+    for page in pages:
+        body = markdown_body(page_source(page).read_text(encoding="utf-8")).rstrip()
+        lines.extend(
+            [
+                f"## {page['id']} [{page['language']}] — {page['title']}",
+                "",
+                f"Source: {public_url(catalog, page)}",
+                f"Verified commit: {page['verified_commit']}",
+                f"License: {page['license']}",
+                "",
+                body,
+                "",
+            ]
+        )
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def chunks_text(catalog: dict) -> str:
+    records = []
+    for page in sorted(
+        (page for page in catalog["pages"] if page["include_in_ai_index"]),
+        key=lambda item: (item["id"], item["language"]),
+    ):
+        records.append(
+            {
+                "schema_version": 1,
+                "chunk_id": f"{page['id']}:{page['language']}:0",
+                "document_id": page["id"],
+                "language": page["language"],
+                "title": page["title"],
+                "url": public_url(catalog, page),
+                "content": markdown_body(
+                    page_source(page).read_text(encoding="utf-8")
+                ).strip(),
+                "source_paths": page["source_paths"],
+                "source_symbols": page["source_symbols"],
+                "verified_commit": page["verified_commit"],
+                "license": page["license"],
+                "attribution": page["attribution"],
+            }
+        )
+    return "".join(
+        json.dumps(record, ensure_ascii=False, separators=(",", ":")) + "\n"
+        for record in records
+    )
+
+
+def derived_payloads(catalog: dict, index: dict) -> dict[Path, str]:
+    pages = catalog["pages"]
+    redirects = {}
+    sitemap = []
+    for page in pages:
+        url = public_url(catalog, page)
+        for old_path in page["redirect_from"]:
+            redirects[old_path] = {
+                "id": page["id"],
+                "language": page["language"],
+                "target": url,
+            }
+        if page["status"] not in {"active", "stale"}:
+            continue
+        pair = index["bilingual_map"][page["id"]]
+        sitemap.append(
+            {
+                "id": page["id"],
+                "language": page["language"],
+                "url": url,
+                "canonical": url,
+                "last_verified": page["verified_at"],
+                "alternates": pair,
+                "deprecated": page["deprecated"],
+            }
+        )
+    sitemap.sort(key=lambda item: (item["id"], item["language"]))
+    return {
+        BILINGUAL_MAP_PATH: json_text(index["bilingual_map"]),
+        SEARCH_ALLOWLIST_PATH: json_text(index["search_allowlist"]),
+        AI_ALLOWLIST_PATH: json_text(index["ai_index"]),
+        ARCHIVE_EXCLUSIONS_PATH: json_text(index["archive_exclusions"]),
+        REDIRECTS_PATH: json_text(dict(sorted(redirects.items()))),
+        NAVIGATION_PATH: json_text(index["navigation"]),
+        SITEMAP_METADATA_PATH: json_text(sitemap),
     }
 
 
@@ -267,10 +485,12 @@ def llms_text(catalog: dict) -> str:
 
 def all_outputs(catalog: dict) -> dict[Path, str]:
     outputs = page_outputs(catalog)
+    index = index_payload(catalog)
     outputs[LLMS_PATH] = llms_text(catalog)
-    outputs[JSON_INDEX_PATH] = (
-        json.dumps(index_payload(catalog), ensure_ascii=False, indent=2) + "\n"
-    )
+    outputs[LLMS_FULL_PATH] = llms_full_text(catalog)
+    outputs[JSON_INDEX_PATH] = json_text(index)
+    outputs[CHUNKS_PATH] = chunks_text(catalog)
+    outputs.update(derived_payloads(catalog, index))
     return outputs
 
 

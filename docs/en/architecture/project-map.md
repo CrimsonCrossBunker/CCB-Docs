@@ -21,6 +21,32 @@ risk_group: project-context
 risk_level: normal
 pending_source_pr: null
 stale_reason: null
+doc_type: explanation
+audiences:
+- new-contributor
+- experienced-contributor
+- maintainer
+- agent
+owners: []
+reviewers: []
+review_interval_days: 90
+last_human_reviewer: LYHGLYTX
+source_symbols: []
+source_queries: []
+source_fingerprint: be6eb00f3c20ccea84fcc2aa0f1d1ad2d196295e97249741ebb9875dee4111b7
+translation_source_fingerprint: 90b4d70c065176f84f4ed848ba0683de783a5603c6447fcfc1db68832035e0b5
+prerequisites:
+- home
+depends_on: []
+redirect_from: []
+supersedes: []
+license: CC-BY-SA-3.0
+attribution: CCB and CCB-Docs contributors; see source and page history
+generated_by: null
+example_validation_ids: []
+api_version: null
+deprecated: false
+deprecation_replacement: null
 ---
 
 # Project map
