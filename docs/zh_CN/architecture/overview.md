@@ -1,0 +1,90 @@
+---
+# GENERATED FROM docs-catalog.yml. DO NOT EDIT THIS BLOCK.
+id: architecture.overview
+title: CCB 项目架构
+language: zh_CN
+status: draft
+doc_type: explanation
+audiences:
+- new-contributor
+- experienced-contributor
+- maintainer
+- mod-author
+owners:
+- CCB maintainers
+reviewers:
+- Documentation reviewers
+review_interval_days: 90
+last_human_reviewer: LYHGLYTX
+source_paths:
+- AGENTS.md
+- ai/project-map.yml
+- src/AGENTS.md
+- data/AGENTS.md
+- tests/AGENTS.md
+source_symbols: []
+source_queries: []
+source_fingerprint: 49e6f9bdf665447593d213e55f8a6692fa2c02534f1b3564a7a66710f26d5c6a
+authority: docs-explanation
+verified_commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+verified_at: '2026-08-02'
+generated: false
+generated_by: null
+include_in_search: false
+include_in_ai_index: false
+translation_status: current
+translation_stale_since: null
+translation_source_fingerprint: e43e7e2af4484e419221ff81b4eb74b9bbff52fa87bce0cdf4d762d5c7f1eede
+prerequisites:
+- home
+depends_on:
+- architecture.project-map
+redirect_from: []
+supersedes: []
+license: CC-BY-SA-3.0
+attribution: CCB contributors; see source paths and Git history.
+example_validation_ids:
+- agent-context
+api_version: null
+deprecated: false
+deprecation_replacement: null
+risk_group: architecture
+risk_level: normal
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/560
+stale_reason: null
+search:
+  exclude: true
+---
+
+# CCB 项目架构
+
+CCB 是数据驱动的 C++ 游戏。C++ 引擎负责对象生命周期、地图与存档、核心模拟、UI
+和加载流程；JSON 定义大量游戏内容；EOC 在 JSON 中表达条件化行为；Lua v5 为明确
+授权的 Mod 提供版本化公共接口。
+
+## 层次与依赖方向
+
+1. **构建与平台层**：Make、CMake、Gradle、CI 和打包脚本决定可用工具链与产物。
+2. **原生运行时**：`src/` 拥有对象、模拟、UI、序列化和 native Lua bridge。
+3. **数据契约**：`data/json/`、`data/core/` 和 `data/mods/` 由注册器、工厂和验证器加载。
+4. **脚本契约**：Lua manifest、LuaLS 声明、native 注册和生成清单必须一致。
+5. **验证层**：`tests/` 与仓库工具验证运行时、数据、公开契约和生成边界。
+
+依赖通常从数据和脚本进入已注册的引擎接口。不要让说明文档成为新的运行时契约，
+也不要为了匹配旧文档而改变源码语义。
+
+## 数据所有权
+
+- C++ 类型拥有运行时状态和序列化不变量。
+- JSON ID 是跨数据、存档和 Mod 的兼容边界；重命名需要迁移或 obsolete 记录。
+- EOC 的 talker、变量与 context 决定求值语义，不能只按字段名字猜测。
+- Lua 只能使用 manifest 中声明的 capability；公共符号以 v5 契约链为准。
+- 生成文件由源契约推导，应更新生成器或源，不应直接修补输出。
+
+## 扩展点
+
+内容优先使用现有 JSON 类型、EOC 或受支持的 Lua API。只有当数据接口无法表达所需
+行为时才扩展 C++，并同时检查注册、验证、序列化、测试和文档影响。
+
+CCB 会选择性移植 CDDA、CBN 和其他兼容来源，但保留自己的行为、数据与 Lua API。
+评审时必须明确“共同祖先行为”“上游新行为”和“CCB 有意差异”。

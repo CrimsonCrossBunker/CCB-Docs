@@ -1,22 +1,86 @@
 {
+  "architecture.design-principles": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/design-principles/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/design-principles/"
+  },
+  "architecture.overview": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/overview/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/overview/"
+  },
   "architecture.project-map": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/"
+  },
+  "architecture.subsystem-map": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystem-map/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystem-map/"
+  },
+  "build.overview": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/"
+  },
+  "compatibility.mods": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/mods/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/mods/"
+  },
+  "compatibility.save": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/save/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/save/"
+  },
+  "contributing.ai-assisted-development": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/ai-assisted-development/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/ai-assisted-development/"
+  },
+  "contributing.documentation-policy": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/documentation-policy/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/documentation-policy/"
   },
   "contributing.responsible-human": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/"
   },
+  "getting-started.common-tasks": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/common-tasks/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/common-tasks/"
+  },
+  "getting-started.experienced-index": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/experienced-index/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/experienced-index/"
+  },
   "getting-started.first-contribution": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/"
+  },
+  "governance.security-license": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/governance/security-license/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/governance/security-license/"
   },
   "home": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/"
   },
+  "maintenance.releases": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/releases/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/releases/"
+  },
+  "maintenance.upstream-sync": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/upstream-sync/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/upstream-sync/"
+  },
+  "platforms.matrix": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/"
+  },
+  "validation.debugging": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/debugging/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/debugging/"
+  },
   "validation.quickstart": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/"
+  },
+  "validation.testing": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/testing/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/testing/"
   }
 }
