@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "generated_from": "docs-catalog.yml",
+  "pages": [
+    {
+      "id": "architecture.project-map",
+      "title": "Project map",
+      "language": "en",
+      "status": "draft",
+      "source_paths": [
+        "AGENTS.md",
+        "ai/project-map.yml",
+        "ai/test-matrix.yml",
+        "ai/generated-files.yml"
+      ],
+      "authority": "docs-explanation",
+      "verified_commit": "11748581a0df8651380cfb8ae37ae91baafe054d",
+      "verified_at": "2026-08-01",
+      "generated": false,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "risk_group": "project-context",
+      "risk_level": "normal",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551",
+      "stale_reason": null,
+      "path": "architecture/project-map.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/"
+    },
+    {
+      "id": "architecture.project-map",
+      "title": "项目地图",
+      "language": "zh_CN",
+      "status": "draft",
+      "source_paths": [
+        "AGENTS.md",
+        "ai/project-map.yml",
+        "ai/test-matrix.yml",
+        "ai/generated-files.yml"
+      ],
+      "authority": "docs-explanation",
+      "verified_commit": "11748581a0df8651380cfb8ae37ae91baafe054d",
+      "verified_at": "2026-08-01",
+      "generated": false,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "risk_group": "project-context",
+      "risk_level": "normal",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551",
+      "stale_reason": null,
+      "path": "architecture/project-map.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/"
+    },
+    {
+      "id": "contributing.responsible-human",
+      "title": "Responsible human",
+      "language": "en",
+      "status": "draft",
+      "source_paths": [
+        "CONTRIBUTING.md",
+        "GOVERNANCE.md",
+        ".github/pull_request_template.md"
+      ],
+      "authority": "governance",
+      "verified_commit": "11748581a0df8651380cfb8ae37ae91baafe054d",
+      "verified_at": "2026-08-01",
+      "generated": false,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "risk_group": "governance",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551",
+      "stale_reason": null,
+      "path": "contributing/responsible-human.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/"
+    },
+    {
+      "id": "contributing.responsible-human",
+      "title": "Responsible human 与贡献责任",
+      "language": "zh_CN",
+      "status": "draft",
+      "source_paths": [
+        "CONTRIBUTING.md",
+        "GOVERNANCE.md",
+        ".github/pull_request_template.md"
+      ],
+      "authority": "governance",
+      "verified_commit": "11748581a0df8651380cfb8ae37ae91baafe054d",
+      "verified_at": "2026-08-01",
+      "generated": false,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "risk_group": "governance",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551",
+      "stale_reason": null,
+      "path": "contributing/responsible-human.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/"
+    },
+    {
+      "id": "getting-started.first-contribution",
+      "title": "First contribution",
+      "language": "en",
+      "status": "draft",
+      "source_paths": [
+        "CONTRIBUTING.md",
+        "GOVERNANCE.md",
+        ".github/pull_request_template.md"
+      ],
+      "authority": "governance",
+      "verified_commit": "11748581a0df8651380cfb8ae37ae91baafe054d",
+      "verified_at": "2026-08-01",
+      "generated": false,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "risk_group": "governance",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551",
+      "stale_reason": null,
+      "path": "getting-started/first-contribution.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/"
+    },
+    {
+      "id": "getting-started.first-contribution",
+      "title": "第一次贡献",
+      "language": "zh_CN",
+      "status": "draft",
+      "source_paths": [
+        "CONTRIBUTING.md",
+        "GOVERNANCE.md",
+        ".github/pull_request_template.md"
+      ],
+      "authority": "governance",
+      "verified_commit": "11748581a0df8651380cfb8ae37ae91baafe054d",
+      "verified_at": "2026-08-01",
+      "generated": false,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "risk_group": "governance",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551",
+      "stale_reason": null,
+      "path": "getting-started/first-contribution.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/"
+    },
+    {
+      "id": "home",
+      "title": "CCB Developer Documentation",
+      "language": "en",
+      "status": "draft",
+      "source_paths": [
+        "AGENTS.md",
+        "GOVERNANCE.md"
+      ],
+      "authority": "docs-explanation",
+      "verified_commit": "11748581a0df8651380cfb8ae37ae91baafe054d",
+      "verified_at": "2026-08-01",
+      "generated": false,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "risk_group": "project-context",
+      "risk_level": "normal",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551",
+      "stale_reason": null,
+      "path": "index.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/"
+    },
+    {
+      "id": "home",
+      "title": "CCB 开发文档",
+      "language": "zh_CN",
+      "status": "draft",
+      "source_paths": [
+        "AGENTS.md",
+        "GOVERNANCE.md"
+      ],
+      "authority": "docs-explanation",
+      "verified_commit": "11748581a0df8651380cfb8ae37ae91baafe054d",
+      "verified_at": "2026-08-01",
+      "generated": false,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "risk_group": "project-context",
+      "risk_level": "normal",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551",
+      "stale_reason": null,
+      "path": "index.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/"
+    },
+    {
+      "id": "validation.quickstart",
+      "title": "Build and validation quickstart",
+      "language": "en",
+      "status": "draft",
+      "source_paths": [
+        "AGENTS.md",
+        "ai/test-matrix.yml",
+        "Makefile",
+        "CMakePresets.json",
+        "android/gradlew"
+      ],
+      "authority": "build-config",
+      "verified_commit": "11748581a0df8651380cfb8ae37ae91baafe054d",
+      "verified_at": "2026-08-01",
+      "generated": false,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "risk_group": "build",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551",
+      "stale_reason": null,
+      "path": "validation/quickstart.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/"
+    },
+    {
+      "id": "validation.quickstart",
+      "title": "构建与验证快速入口",
+      "language": "zh_CN",
+      "status": "draft",
+      "source_paths": [
+        "AGENTS.md",
+        "ai/test-matrix.yml",
+        "Makefile",
+        "CMakePresets.json",
+        "android/gradlew"
+      ],
+      "authority": "build-config",
+      "verified_commit": "11748581a0df8651380cfb8ae37ae91baafe054d",
+      "verified_at": "2026-08-01",
+      "generated": false,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "risk_group": "build",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551",
+      "stale_reason": null,
+      "path": "validation/quickstart.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/"
+    }
+  ],
+  "bilingual_map": {
+    "architecture.project-map": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/"
+    },
+    "contributing.responsible-human": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/"
+    },
+    "getting-started.first-contribution": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/"
+    },
+    "home": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/"
+    },
+    "validation.quickstart": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/"
+    }
+  },
+  "ai_index": [],
+  "search_exclusions": [
+    "https://crimsoncrossbunker.github.io/CCB-Docs/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/"
+  ],
+  "archive_exclusions": [],
+  "navigation": {
+    "zh_CN": [],
+    "en": []
+  }
+}

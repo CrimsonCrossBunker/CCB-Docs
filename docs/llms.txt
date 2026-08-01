@@ -1,0 +1,6 @@
+# CCB Developer Documentation
+
+> Generated from docs-catalog.yml; do not edit by hand.
+> Runtime and project contracts remain authoritative in the CCB source repository.
+
+No active pages are currently admitted to the AI index. Draft, stale, and archived pages are intentionally excluded.

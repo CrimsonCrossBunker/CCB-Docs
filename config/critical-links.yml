@@ -1,0 +1,14 @@
+schema_version: 1
+links:
+  - id: ccb-source
+    url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+    reason: Official source repository
+  - id: ccb-docs-source
+    url: https://github.com/CrimsonCrossBunker/CCB-Docs
+    reason: Official documentation repository
+  - id: ccb-releases
+    url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/releases
+    reason: Official downloads
+  - id: documentation-license
+    url: https://creativecommons.org/licenses/by-sa/3.0/
+    reason: Documentation license

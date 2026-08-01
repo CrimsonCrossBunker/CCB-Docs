@@ -1,0 +1,56 @@
+name: Documentation CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: docs-ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78 # v7
+        with:
+          version: "0.11.28"
+          enable-cache: true
+
+      - name: Sync locked dependencies
+        run: uv sync --frozen
+
+      - name: Check generated catalog output
+        run: uv run python scripts/generate_catalog.py --check
+
+      - name: Check catalog and PR-scoped translation policy
+        if: github.event_name == 'pull_request'
+        run: uv run python scripts/check_catalog.py --base-ref "origin/${{ github.base_ref }}"
+
+      - name: Check catalog outside pull requests
+        if: github.event_name != 'pull_request'
+        run: uv run python scripts/check_catalog.py
+
+      - name: Run policy tests
+        run: uv run python -m unittest discover -s tests -p 'test_*.py'
+
+      - name: Lint maintenance code
+        run: uv run flake8 --max-line-length=100 scripts tests
+
+      - name: Build strict bilingual preview
+        run: uv run python scripts/build_site.py --strict --include-drafts
+
+      - name: Check internal, anchor, and critical external links
+        run: uv run python scripts/check_links.py --site-dir site --critical
