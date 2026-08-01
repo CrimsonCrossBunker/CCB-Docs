@@ -20,6 +20,18 @@ uv run python scripts/build_site.py --strict --include-drafts
 uv run python scripts/check_links.py --site-dir site --critical
 ```
 
+When a local CCB checkout is available, also validate source paths, symbols,
+queries, and fingerprints:
+
+```sh
+uv run python scripts/check_catalog.py --source-repo /path/to/Cataclysm-Cleanwater-Bomb
+```
+
+`docs-catalog.yml` v2 is the only manually maintained machine directory. It
+generates page front matter, navigation, `llms.txt`, `llms-full.txt`, JSON and
+JSONL indexes, bilingual mappings, search/AI allowlists, archive exclusions,
+redirects, and sitemap metadata. Files under `docs/ai/` are generated.
+
 Chinese source lives in `docs/zh_CN/` and is published at the site root.
 English source lives in `docs/en/` and is published under `/en/`.
 

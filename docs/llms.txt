@@ -3,13 +3,13 @@
 > Generated from docs-catalog.yml; do not edit by hand.
 > Runtime and project contracts remain authoritative in the CCB source repository.
 
-- [en] Project map: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/
-- [zh_CN] 项目地图: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/
-- [en] Responsible human: https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/
-- [zh_CN] Responsible human 与贡献责任: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/
+- [en] Project map and authority boundaries: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/
+- [zh_CN] 项目地图与权威边界: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/
+- [en] Responsible human and AI-assisted contributions: https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/
+- [zh_CN] Responsible human 与 AI 辅助贡献: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/
 - [en] First contribution: https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/
 - [zh_CN] 第一次贡献: https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/
 - [en] CCB Developer Documentation: https://crimsoncrossbunker.github.io/CCB-Docs/en/
 - [zh_CN] CCB 开发文档: https://crimsoncrossbunker.github.io/CCB-Docs/
-- [en] Build and validation quickstart: https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/
-- [zh_CN] 构建与验证快速入口: https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/
+- [en] Validation quickstart: https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/
+- [zh_CN] 验证快速入门: https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/

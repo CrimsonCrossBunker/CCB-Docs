@@ -13,11 +13,19 @@ review questions.
 1. Edit prose in both language trees or mark an existing English translation
    `translation-stale` in `docs-catalog.yml`.
 2. Edit catalog metadata only in `docs-catalog.yml`.
-3. Run `uv run python scripts/generate_catalog.py`.
-4. Run the validation commands in `AGENTS.md`.
-5. If the page depends on an unmerged CCB PR, keep it `draft`. After source
+3. Update the Chinese body fingerprint and source fingerprint when their
+   authoritative inputs change; mark English `translation-stale` if it is not
+   updated in the same PR.
+4. Run `uv run python scripts/generate_catalog.py`. Do not hand-edit generated
+   front matter, indexes, allowlists, redirects, or sitemap metadata.
+5. Run the validation commands in `AGENTS.md`.
+6. If the page depends on an unmerged CCB PR, keep it `draft`. After source
    merge, replace `verified_commit` with the final commit and regenerate before
    requesting docs merge.
+
+Use the matching file in `templates/` when starting a tutorial, how-to,
+reference, explanation, generated API page, or archive page. A generated page
+must identify its generator and must never be edited as prose.
 
 CCB governance is authoritative at
 https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/GOVERNANCE.md.

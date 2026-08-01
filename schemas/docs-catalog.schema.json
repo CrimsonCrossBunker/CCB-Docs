@@ -1,26 +1,29 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://crimsoncrossbunker.github.io/CCB-Docs/schemas/docs-catalog-v1.json",
-  "title": "CCB-Docs catalog",
+  "$id": "https://crimsoncrossbunker.github.io/CCB-Docs/schemas/docs-catalog-v2.json",
+  "title": "CCB-Docs catalog v2",
   "type": "object",
   "required": [ "schema_version", "site", "pages" ],
   "properties": {
-    "schema_version": { "const": 1 },
+    "schema_version": { "const": 2 },
     "site": {
       "type": "object",
-      "required": [ "default_language", "languages", "base_url" ],
+      "required": [ "default_language", "languages", "base_url", "source_repository", "source_branch" ],
       "properties": {
         "default_language": { "const": "zh_CN" },
         "languages": {
           "type": "array",
           "const": [ "zh_CN", "en" ]
         },
-        "base_url": { "type": "string", "format": "uri" }
+        "base_url": { "type": "string", "format": "uri" },
+        "source_repository": { "type": "string", "format": "uri" },
+        "source_branch": { "type": "string", "minLength": 1 }
       },
-      "additionalProperties": true
+      "additionalProperties": false
     },
     "pages": {
       "type": "array",
+      "minItems": 2,
       "items": {
         "allOf": [
           { "$ref": "page-metadata.schema.json" },

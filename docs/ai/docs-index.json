@@ -1,26 +1,62 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "generated_from": "docs-catalog.yml",
   "pages": [
     {
       "id": "architecture.project-map",
-      "title": "Project map",
+      "title": "Project map and authority boundaries",
       "language": "en",
       "status": "active",
+      "doc_type": "explanation",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "LYHGLYTX",
       "source_paths": [
         "AGENTS.md",
         "ai/project-map.yml",
         "ai/test-matrix.yml",
         "ai/generated-files.yml"
       ],
+      "source_symbols": [],
+      "source_queries": [
+        "Minimal project map",
+        "kind: project_map"
+      ],
+      "source_fingerprint": "70729d5938c06a6a9123419b91d0bbd25a6b8406ccef3ee140786bb5d2188e72",
       "authority": "docs-explanation",
       "verified_commit": "9d8f26582da0f53ca1e29f8f072aeef43955655b",
       "verified_at": "2026-08-01",
       "generated": false,
+      "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
+      "translation_source_fingerprint": "90b4d70c065176f84f4ed848ba0683de783a5603c6447fcfc1db68832035e0b5",
+      "prerequisites": [
+        "home"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "agent-context"
+      ],
+      "api_version": null,
+      "deprecated": false,
+      "deprecation_replacement": null,
       "risk_group": "project-context",
       "risk_level": "normal",
       "pending_source_pr": null,
@@ -30,23 +66,59 @@
     },
     {
       "id": "architecture.project-map",
-      "title": "项目地图",
+      "title": "项目地图与权威边界",
       "language": "zh_CN",
       "status": "active",
+      "doc_type": "explanation",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "LYHGLYTX",
       "source_paths": [
         "AGENTS.md",
         "ai/project-map.yml",
         "ai/test-matrix.yml",
         "ai/generated-files.yml"
       ],
+      "source_symbols": [],
+      "source_queries": [
+        "Minimal project map",
+        "kind: project_map"
+      ],
+      "source_fingerprint": "70729d5938c06a6a9123419b91d0bbd25a6b8406ccef3ee140786bb5d2188e72",
       "authority": "docs-explanation",
       "verified_commit": "9d8f26582da0f53ca1e29f8f072aeef43955655b",
       "verified_at": "2026-08-01",
       "generated": false,
+      "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
+      "translation_source_fingerprint": "90b4d70c065176f84f4ed848ba0683de783a5603c6447fcfc1db68832035e0b5",
+      "prerequisites": [
+        "home"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "agent-context"
+      ],
+      "api_version": null,
+      "deprecated": false,
+      "deprecation_replacement": null,
       "risk_group": "project-context",
       "risk_level": "normal",
       "pending_source_pr": null,
@@ -56,22 +128,55 @@
     },
     {
       "id": "contributing.responsible-human",
-      "title": "Responsible human",
+      "title": "Responsible human and AI-assisted contributions",
       "language": "en",
       "status": "active",
+      "doc_type": "explanation",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "LYHGLYTX",
       "source_paths": [
         "CONTRIBUTING.md",
         "GOVERNANCE.md",
         ".github/pull_request_template.md"
       ],
+      "source_symbols": [],
+      "source_queries": [
+        "Responsible human"
+      ],
+      "source_fingerprint": "92bbc1c991b6ad674114072e80aa45f9cc05cb3bf47bc24c8b2dc4ab2dd10695",
       "authority": "governance",
       "verified_commit": "9d8f26582da0f53ca1e29f8f072aeef43955655b",
       "verified_at": "2026-08-01",
       "generated": false,
+      "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
+      "translation_source_fingerprint": "55d3f928cb2ca6ab24791556f0c374de51d4aa25e240accb35f181120453be7a",
+      "prerequisites": [],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "agent-context"
+      ],
+      "api_version": null,
+      "deprecated": false,
+      "deprecation_replacement": null,
       "risk_group": "governance",
       "risk_level": "high",
       "pending_source_pr": null,
@@ -81,22 +186,55 @@
     },
     {
       "id": "contributing.responsible-human",
-      "title": "Responsible human 与贡献责任",
+      "title": "Responsible human 与 AI 辅助贡献",
       "language": "zh_CN",
       "status": "active",
+      "doc_type": "explanation",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "LYHGLYTX",
       "source_paths": [
         "CONTRIBUTING.md",
         "GOVERNANCE.md",
         ".github/pull_request_template.md"
       ],
+      "source_symbols": [],
+      "source_queries": [
+        "Responsible human"
+      ],
+      "source_fingerprint": "92bbc1c991b6ad674114072e80aa45f9cc05cb3bf47bc24c8b2dc4ab2dd10695",
       "authority": "governance",
       "verified_commit": "9d8f26582da0f53ca1e29f8f072aeef43955655b",
       "verified_at": "2026-08-01",
       "generated": false,
+      "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
+      "translation_source_fingerprint": "55d3f928cb2ca6ab24791556f0c374de51d4aa25e240accb35f181120453be7a",
+      "prerequisites": [],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "agent-context"
+      ],
+      "api_version": null,
+      "deprecated": false,
+      "deprecation_replacement": null,
       "risk_group": "governance",
       "risk_level": "high",
       "pending_source_pr": null,
@@ -109,19 +247,52 @@
       "title": "First contribution",
       "language": "en",
       "status": "active",
+      "doc_type": "tutorial",
+      "audiences": [
+        "new-contributor"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "LYHGLYTX",
       "source_paths": [
         "CONTRIBUTING.md",
         "GOVERNANCE.md",
         ".github/pull_request_template.md"
       ],
+      "source_symbols": [],
+      "source_queries": [
+        "Responsible human"
+      ],
+      "source_fingerprint": "92bbc1c991b6ad674114072e80aa45f9cc05cb3bf47bc24c8b2dc4ab2dd10695",
       "authority": "governance",
       "verified_commit": "9d8f26582da0f53ca1e29f8f072aeef43955655b",
       "verified_at": "2026-08-01",
       "generated": false,
+      "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
+      "translation_source_fingerprint": "e1294cff2297b0bbc3d6164e822d1743655a127ae19259e4b4b0260fb4f1a730",
+      "prerequisites": [],
+      "depends_on": [
+        "contributing.responsible-human"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "agent-context"
+      ],
+      "api_version": null,
+      "deprecated": false,
+      "deprecation_replacement": null,
       "risk_group": "governance",
       "risk_level": "high",
       "pending_source_pr": null,
@@ -134,19 +305,52 @@
       "title": "第一次贡献",
       "language": "zh_CN",
       "status": "active",
+      "doc_type": "tutorial",
+      "audiences": [
+        "new-contributor"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "LYHGLYTX",
       "source_paths": [
         "CONTRIBUTING.md",
         "GOVERNANCE.md",
         ".github/pull_request_template.md"
       ],
+      "source_symbols": [],
+      "source_queries": [
+        "Responsible human"
+      ],
+      "source_fingerprint": "92bbc1c991b6ad674114072e80aa45f9cc05cb3bf47bc24c8b2dc4ab2dd10695",
       "authority": "governance",
       "verified_commit": "9d8f26582da0f53ca1e29f8f072aeef43955655b",
       "verified_at": "2026-08-01",
       "generated": false,
+      "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
+      "translation_source_fingerprint": "e1294cff2297b0bbc3d6164e822d1743655a127ae19259e4b4b0260fb4f1a730",
+      "prerequisites": [],
+      "depends_on": [
+        "contributing.responsible-human"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "agent-context"
+      ],
+      "api_version": null,
+      "deprecated": false,
+      "deprecation_replacement": null,
       "risk_group": "governance",
       "risk_level": "high",
       "pending_source_pr": null,
@@ -159,18 +363,54 @@
       "title": "CCB Developer Documentation",
       "language": "en",
       "status": "active",
+      "doc_type": "explanation",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 180,
+      "last_human_reviewer": "LYHGLYTX",
       "source_paths": [
         "AGENTS.md",
         "GOVERNANCE.md"
       ],
+      "source_symbols": [],
+      "source_queries": [
+        "Sources of truth",
+        "Authority model"
+      ],
+      "source_fingerprint": "d27dfc345f1f62196b482536e828d7781fbdc467c68ce6d109f8d289f2921adb",
       "authority": "docs-explanation",
       "verified_commit": "9d8f26582da0f53ca1e29f8f072aeef43955655b",
       "verified_at": "2026-08-01",
       "generated": false,
+      "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
+      "translation_source_fingerprint": "38a37cdddd129271ed9a5484f0b0da50d20558876d983fe7eefb471397dcd0af",
+      "prerequisites": [],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "agent-context"
+      ],
+      "api_version": null,
+      "deprecated": false,
+      "deprecation_replacement": null,
       "risk_group": "project-context",
       "risk_level": "normal",
       "pending_source_pr": null,
@@ -183,18 +423,54 @@
       "title": "CCB 开发文档",
       "language": "zh_CN",
       "status": "active",
+      "doc_type": "explanation",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 180,
+      "last_human_reviewer": "LYHGLYTX",
       "source_paths": [
         "AGENTS.md",
         "GOVERNANCE.md"
       ],
+      "source_symbols": [],
+      "source_queries": [
+        "Sources of truth",
+        "Authority model"
+      ],
+      "source_fingerprint": "d27dfc345f1f62196b482536e828d7781fbdc467c68ce6d109f8d289f2921adb",
       "authority": "docs-explanation",
       "verified_commit": "9d8f26582da0f53ca1e29f8f072aeef43955655b",
       "verified_at": "2026-08-01",
       "generated": false,
+      "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
+      "translation_source_fingerprint": "38a37cdddd129271ed9a5484f0b0da50d20558876d983fe7eefb471397dcd0af",
+      "prerequisites": [],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "agent-context"
+      ],
+      "api_version": null,
+      "deprecated": false,
+      "deprecation_replacement": null,
       "risk_group": "project-context",
       "risk_level": "normal",
       "pending_source_pr": null,
@@ -204,9 +480,24 @@
     },
     {
       "id": "validation.quickstart",
-      "title": "Build and validation quickstart",
+      "title": "Validation quickstart",
       "language": "en",
       "status": "active",
+      "doc_type": "how-to",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "LYHGLYTX",
       "source_paths": [
         "AGENTS.md",
         "ai/test-matrix.yml",
@@ -214,14 +505,40 @@
         "CMakePresets.json",
         "android/gradlew"
       ],
+      "source_symbols": [],
+      "source_queries": [
+        "Basic discovery and validation",
+        "kind: test_matrix"
+      ],
+      "source_fingerprint": "900c3cc35f171c4bd297e703e5442b63b64871988f1284b600fca952afe88b1f",
       "authority": "build-config",
       "verified_commit": "9d8f26582da0f53ca1e29f8f072aeef43955655b",
       "verified_at": "2026-08-01",
       "generated": false,
+      "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
+      "translation_source_fingerprint": "7bbe452f2a9397eac25ccbfb804f71d0a081288915bb3900ef5f2c0fcb9f4114",
+      "prerequisites": [
+        "architecture.project-map"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "agent-context",
+        "cpp-format",
+        "cpp-tests",
+        "json-load",
+        "lua-contract"
+      ],
+      "api_version": null,
+      "deprecated": false,
+      "deprecation_replacement": null,
       "risk_group": "build",
       "risk_level": "high",
       "pending_source_pr": null,
@@ -231,9 +548,24 @@
     },
     {
       "id": "validation.quickstart",
-      "title": "构建与验证快速入口",
+      "title": "验证快速入门",
       "language": "zh_CN",
       "status": "active",
+      "doc_type": "how-to",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "LYHGLYTX",
       "source_paths": [
         "AGENTS.md",
         "ai/test-matrix.yml",
@@ -241,14 +573,40 @@
         "CMakePresets.json",
         "android/gradlew"
       ],
+      "source_symbols": [],
+      "source_queries": [
+        "Basic discovery and validation",
+        "kind: test_matrix"
+      ],
+      "source_fingerprint": "900c3cc35f171c4bd297e703e5442b63b64871988f1284b600fca952afe88b1f",
       "authority": "build-config",
       "verified_commit": "9d8f26582da0f53ca1e29f8f072aeef43955655b",
       "verified_at": "2026-08-01",
       "generated": false,
+      "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
+      "translation_source_fingerprint": "7bbe452f2a9397eac25ccbfb804f71d0a081288915bb3900ef5f2c0fcb9f4114",
+      "prerequisites": [
+        "architecture.project-map"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "agent-context",
+        "cpp-format",
+        "cpp-tests",
+        "json-load",
+        "lua-contract"
+      ],
+      "api_version": null,
+      "deprecated": false,
+      "deprecation_replacement": null,
       "risk_group": "build",
       "risk_level": "high",
       "pending_source_pr": null,
@@ -279,7 +637,31 @@
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/"
     }
   },
+  "ai_allowlist": [
+    "https://crimsoncrossbunker.github.io/CCB-Docs/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/"
+  ],
   "ai_index": [
+    "https://crimsoncrossbunker.github.io/CCB-Docs/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/"
+  ],
+  "search_allowlist": [
     "https://crimsoncrossbunker.github.io/CCB-Docs/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/",
@@ -293,6 +675,7 @@
   ],
   "search_exclusions": [],
   "archive_exclusions": [],
+  "redirects": {},
   "navigation": {
     "zh_CN": [
       {
@@ -311,22 +694,22 @@
       },
       {
         "id": "architecture.project-map",
-        "title": "项目地图",
+        "title": "项目地图与权威边界",
         "section": "架构",
         "order": 20,
         "path": "architecture/project-map.md"
       },
       {
         "id": "contributing.responsible-human",
-        "title": "Responsible human 与贡献责任",
-        "section": "贡献规范",
+        "title": "Responsible human 与 AI 辅助贡献",
+        "section": "贡献政策",
         "order": 30,
         "path": "contributing/responsible-human.md"
       },
       {
         "id": "validation.quickstart",
-        "title": "构建与验证快速入口",
-        "section": "构建与验证",
+        "title": "验证快速入门",
+        "section": "验证",
         "order": 40,
         "path": "validation/quickstart.md"
       }
@@ -348,25 +731,137 @@
       },
       {
         "id": "architecture.project-map",
-        "title": "Project map",
+        "title": "Project map and authority boundaries",
         "section": "Architecture",
         "order": 20,
         "path": "architecture/project-map.md"
       },
       {
         "id": "contributing.responsible-human",
-        "title": "Responsible human",
+        "title": "Responsible human and AI-assisted contributions",
         "section": "Contribution policy",
         "order": 30,
         "path": "contributing/responsible-human.md"
       },
       {
         "id": "validation.quickstart",
-        "title": "Build and validation quickstart",
-        "section": "Build and validation",
+        "title": "Validation quickstart",
+        "section": "Validation",
         "order": 40,
         "path": "validation/quickstart.md"
       }
     ]
-  }
+  },
+  "sitemap": [
+    {
+      "id": "architecture.project-map",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/",
+      "last_verified": "2026-08-01",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/"
+      }
+    },
+    {
+      "id": "architecture.project-map",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
+      "last_verified": "2026-08-01",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/"
+      }
+    },
+    {
+      "id": "contributing.responsible-human",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/",
+      "last_verified": "2026-08-01",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/"
+      }
+    },
+    {
+      "id": "contributing.responsible-human",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/",
+      "last_verified": "2026-08-01",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/"
+      }
+    },
+    {
+      "id": "getting-started.first-contribution",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/",
+      "last_verified": "2026-08-01",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/"
+      }
+    },
+    {
+      "id": "getting-started.first-contribution",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/",
+      "last_verified": "2026-08-01",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/"
+      }
+    },
+    {
+      "id": "home",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/",
+      "last_verified": "2026-08-01",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/"
+      }
+    },
+    {
+      "id": "home",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/",
+      "last_verified": "2026-08-01",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/"
+      }
+    },
+    {
+      "id": "validation.quickstart",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/",
+      "last_verified": "2026-08-01",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/"
+      }
+    },
+    {
+      "id": "validation.quickstart",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/",
+      "last_verified": "2026-08-01",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/"
+      }
+    }
+  ]
 }

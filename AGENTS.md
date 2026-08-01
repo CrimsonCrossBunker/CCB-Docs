@@ -22,11 +22,12 @@ This file is sufficient for basic offline work.
 | `docs/zh_CN/` | Canonical Chinese prose |
 | `docs/en/` | Paired English translation |
 | `schemas/` | Catalog and generated page-metadata schemas |
+| `templates/` | Tutorial, how-to, reference, explanation, API, and archive templates |
 | `scripts/` | Catalog generation, builds, links, drift, issue reports |
 | `tests/` | Policy and generator regression tests |
 
 - Edit metadata in `docs-catalog.yml`, then run the generator. Do not hand-edit
-  generated front matter, `docs/llms.txt`, or `docs/ai/docs-index.json`.
+  generated front matter, `docs/llms*.txt`, or any file under `docs/ai/`.
 - New active pages require both languages. Incomplete migration pages are
   drafts and stay out of production navigation, search, and AI indexes.
 - Never update every `verified_commit` merely because CCB master advanced.

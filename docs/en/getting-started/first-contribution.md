@@ -4,18 +4,45 @@ id: getting-started.first-contribution
 title: First contribution
 language: en
 status: active
+doc_type: tutorial
+audiences:
+- new-contributor
+owners:
+- CCB maintainers
+reviewers:
+- Documentation reviewers
+review_interval_days: 90
+last_human_reviewer: LYHGLYTX
 source_paths:
 - CONTRIBUTING.md
 - GOVERNANCE.md
 - .github/pull_request_template.md
+source_symbols: []
+source_queries:
+- Responsible human
+source_fingerprint: 92bbc1c991b6ad674114072e80aa45f9cc05cb3bf47bc24c8b2dc4ab2dd10695
 authority: governance
 verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
 verified_at: '2026-08-01'
 generated: false
+generated_by: null
 include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
+translation_source_fingerprint: e1294cff2297b0bbc3d6164e822d1743655a127ae19259e4b4b0260fb4f1a730
+prerequisites: []
+depends_on:
+- contributing.responsible-human
+redirect_from: []
+supersedes: []
+license: CC-BY-SA-3.0
+attribution: CCB contributors; see source paths and Git history.
+example_validation_ids:
+- agent-context
+api_version: null
+deprecated: false
+deprecation_replacement: null
 risk_group: governance
 risk_level: high
 pending_source_pr: null

@@ -89,11 +89,16 @@ def stage_language(
     shutil.copy2(stylesheet, stylesheet_target)
 
     if language == "zh_CN":
-        for relative in ("llms.txt", "ai/docs-index.json"):
+        for relative in ("llms.txt", "llms-full.txt"):
             source = ROOT / "docs" / relative
             destination = source_dir / relative
             destination.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(source, destination)
+        shutil.copytree(
+            ROOT / "docs/ai",
+            source_dir / "ai",
+            dirs_exist_ok=True,
+        )
         schemas_target = source_dir / "schemas"
         shutil.copytree(ROOT / "schemas", schemas_target, dirs_exist_ok=True)
 

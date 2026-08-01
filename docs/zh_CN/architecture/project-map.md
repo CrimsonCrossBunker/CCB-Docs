@@ -1,22 +1,52 @@
 ---
 # GENERATED FROM docs-catalog.yml. DO NOT EDIT THIS BLOCK.
 id: architecture.project-map
-title: 项目地图
+title: 项目地图与权威边界
 language: zh_CN
 status: active
+doc_type: explanation
+audiences:
+- experienced-contributor
+- maintainer
+- mod-author
+owners:
+- CCB maintainers
+reviewers:
+- Documentation reviewers
+review_interval_days: 90
+last_human_reviewer: LYHGLYTX
 source_paths:
 - AGENTS.md
 - ai/project-map.yml
 - ai/test-matrix.yml
 - ai/generated-files.yml
+source_symbols: []
+source_queries:
+- Minimal project map
+- 'kind: project_map'
+source_fingerprint: 70729d5938c06a6a9123419b91d0bbd25a6b8406ccef3ee140786bb5d2188e72
 authority: docs-explanation
 verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
 verified_at: '2026-08-01'
 generated: false
+generated_by: null
 include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
+translation_source_fingerprint: 90b4d70c065176f84f4ed848ba0683de783a5603c6447fcfc1db68832035e0b5
+prerequisites:
+- home
+depends_on: []
+redirect_from: []
+supersedes: []
+license: CC-BY-SA-3.0
+attribution: CCB contributors; see source paths and Git history.
+example_validation_ids:
+- agent-context
+api_version: null
+deprecated: false
+deprecation_replacement: null
 risk_group: project-context
 risk_level: normal
 pending_source_pr: null

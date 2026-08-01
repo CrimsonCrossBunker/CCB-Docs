@@ -1,0 +1,76 @@
+{
+  "zh_CN": [
+    {
+      "id": "home",
+      "title": "CCB 开发文档",
+      "section": "首页",
+      "order": 0,
+      "path": "index.md"
+    },
+    {
+      "id": "getting-started.first-contribution",
+      "title": "第一次贡献",
+      "section": "开始贡献",
+      "order": 10,
+      "path": "getting-started/first-contribution.md"
+    },
+    {
+      "id": "architecture.project-map",
+      "title": "项目地图与权威边界",
+      "section": "架构",
+      "order": 20,
+      "path": "architecture/project-map.md"
+    },
+    {
+      "id": "contributing.responsible-human",
+      "title": "Responsible human 与 AI 辅助贡献",
+      "section": "贡献政策",
+      "order": 30,
+      "path": "contributing/responsible-human.md"
+    },
+    {
+      "id": "validation.quickstart",
+      "title": "验证快速入门",
+      "section": "验证",
+      "order": 40,
+      "path": "validation/quickstart.md"
+    }
+  ],
+  "en": [
+    {
+      "id": "home",
+      "title": "CCB Developer Documentation",
+      "section": "Home",
+      "order": 0,
+      "path": "index.md"
+    },
+    {
+      "id": "getting-started.first-contribution",
+      "title": "First contribution",
+      "section": "Start contributing",
+      "order": 10,
+      "path": "getting-started/first-contribution.md"
+    },
+    {
+      "id": "architecture.project-map",
+      "title": "Project map and authority boundaries",
+      "section": "Architecture",
+      "order": 20,
+      "path": "architecture/project-map.md"
+    },
+    {
+      "id": "contributing.responsible-human",
+      "title": "Responsible human and AI-assisted contributions",
+      "section": "Contribution policy",
+      "order": 30,
+      "path": "contributing/responsible-human.md"
+    },
+    {
+      "id": "validation.quickstart",
+      "title": "Validation quickstart",
+      "section": "Validation",
+      "order": 40,
+      "path": "validation/quickstart.md"
+    }
+  ]
+}
