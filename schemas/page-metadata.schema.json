@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://crimsoncrossbunker.github.io/CCB-Docs/schemas/page-metadata-v1.json",
+  "title": "CCB-Docs page metadata",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "language",
+    "status",
+    "source_paths",
+    "authority",
+    "verified_commit",
+    "verified_at",
+    "generated",
+    "include_in_search",
+    "include_in_ai_index",
+    "translation_status",
+    "translation_stale_since",
+    "risk_group",
+    "risk_level",
+    "pending_source_pr",
+    "stale_reason"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$" },
+    "title": { "type": "string", "minLength": 1 },
+    "language": { "enum": [ "zh_CN", "en" ] },
+    "status": { "enum": [ "draft", "active", "stale", "archived" ] },
+    "source_paths": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "authority": {
+      "enum": [
+        "source-and-tests",
+        "api-contract",
+        "build-config",
+        "governance",
+        "docs-explanation",
+        "historical"
+      ]
+    },
+    "verified_commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
+    "verified_at": { "type": "string", "format": "date" },
+    "generated": { "type": "boolean" },
+    "include_in_search": { "type": "boolean" },
+    "include_in_ai_index": { "type": "boolean" },
+    "translation_status": {
+      "enum": [ "current", "translation-stale", "not-applicable" ]
+    },
+    "translation_stale_since": { "type": [ "string", "null" ], "format": "date" },
+    "risk_group": { "type": "string", "minLength": 1 },
+    "risk_level": { "enum": [ "normal", "high" ] },
+    "pending_source_pr": { "type": [ "string", "null" ], "format": "uri" },
+    "stale_reason": { "type": [ "string", "null" ] }
+  },
+  "additionalProperties": true
+}

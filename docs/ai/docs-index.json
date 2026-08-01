@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "generated_from": "docs-catalog.yml",
+  "pages": [
+    {
+      "id": "architecture.project-map",
+      "title": "Project map",
+      "language": "en",
+      "status": "active",
+      "source_paths": [
+        "AGENTS.md",
+        "ai/project-map.yml",
+        "ai/test-matrix.yml",
+        "ai/generated-files.yml"
+      ],
+      "authority": "docs-explanation",
+      "verified_commit": "9d8f26582da0f53ca1e29f8f072aeef43955655b",
+      "verified_at": "2026-08-01",
+      "generated": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "risk_group": "project-context",
+      "risk_level": "normal",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "architecture/project-map.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/"
+    },
+    {
+      "id": "architecture.project-map",
+      "title": "项目地图",
+      "language": "zh_CN",
+      "status": "active",
+      "source_paths": [
+        "AGENTS.md",
+        "ai/project-map.yml",
+        "ai/test-matrix.yml",
+        "ai/generated-files.yml"
+      ],
+      "authority": "docs-explanation",
+      "verified_commit": "9d8f26582da0f53ca1e29f8f072aeef43955655b",
+      "verified_at": "2026-08-01",
+      "generated": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "risk_group": "project-context",
+      "risk_level": "normal",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "architecture/project-map.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/"
+    },
+    {
+      "id": "contributing.responsible-human",
+      "title": "Responsible human",
+      "language": "en",
+      "status": "active",
+      "source_paths": [
+        "CONTRIBUTING.md",
+        "GOVERNANCE.md",
+        ".github/pull_request_template.md"
+      ],
+      "authority": "governance",
+      "verified_commit": "9d8f26582da0f53ca1e29f8f072aeef43955655b",
+      "verified_at": "2026-08-01",
+      "generated": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "risk_group": "governance",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "contributing/responsible-human.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/"
+    },
+    {
+      "id": "contributing.responsible-human",
+      "title": "Responsible human 与贡献责任",
+      "language": "zh_CN",
+      "status": "active",
+      "source_paths": [
+        "CONTRIBUTING.md",
+        "GOVERNANCE.md",
+        ".github/pull_request_template.md"
+      ],
+      "authority": "governance",
+      "verified_commit": "9d8f26582da0f53ca1e29f8f072aeef43955655b",
+      "verified_at": "2026-08-01",
+      "generated": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "risk_group": "governance",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "contributing/responsible-human.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/"
+    },
+    {
+      "id": "getting-started.first-contribution",
+      "title": "First contribution",
+      "language": "en",
+      "status": "active",
+      "source_paths": [
+        "CONTRIBUTING.md",
+        "GOVERNANCE.md",
+        ".github/pull_request_template.md"
+      ],
+      "authority": "governance",
+      "verified_commit": "9d8f26582da0f53ca1e29f8f072aeef43955655b",
+      "verified_at": "2026-08-01",
+      "generated": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "risk_group": "governance",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "getting-started/first-contribution.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/"
+    },
+    {
+      "id": "getting-started.first-contribution",
+      "title": "第一次贡献",
+      "language": "zh_CN",
+      "status": "active",
+      "source_paths": [
+        "CONTRIBUTING.md",
+        "GOVERNANCE.md",
+        ".github/pull_request_template.md"
+      ],
+      "authority": "governance",
+      "verified_commit": "9d8f26582da0f53ca1e29f8f072aeef43955655b",
+      "verified_at": "2026-08-01",
+      "generated": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "risk_group": "governance",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "getting-started/first-contribution.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/"
+    },
+    {
+      "id": "home",
+      "title": "CCB Developer Documentation",
+      "language": "en",
+      "status": "active",
+      "source_paths": [
+        "AGENTS.md",
+        "GOVERNANCE.md"
+      ],
+      "authority": "docs-explanation",
+      "verified_commit": "9d8f26582da0f53ca1e29f8f072aeef43955655b",
+      "verified_at": "2026-08-01",
+      "generated": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "risk_group": "project-context",
+      "risk_level": "normal",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "index.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/"
+    },
+    {
+      "id": "home",
+      "title": "CCB 开发文档",
+      "language": "zh_CN",
+      "status": "active",
+      "source_paths": [
+        "AGENTS.md",
+        "GOVERNANCE.md"
+      ],
+      "authority": "docs-explanation",
+      "verified_commit": "9d8f26582da0f53ca1e29f8f072aeef43955655b",
+      "verified_at": "2026-08-01",
+      "generated": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "risk_group": "project-context",
+      "risk_level": "normal",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "index.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/"
+    },
+    {
+      "id": "validation.quickstart",
+      "title": "Build and validation quickstart",
+      "language": "en",
+      "status": "active",
+      "source_paths": [
+        "AGENTS.md",
+        "ai/test-matrix.yml",
+        "Makefile",
+        "CMakePresets.json",
+        "android/gradlew"
+      ],
+      "authority": "build-config",
+      "verified_commit": "9d8f26582da0f53ca1e29f8f072aeef43955655b",
+      "verified_at": "2026-08-01",
+      "generated": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "risk_group": "build",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "validation/quickstart.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/"
+    },
+    {
+      "id": "validation.quickstart",
+      "title": "构建与验证快速入口",
+      "language": "zh_CN",
+      "status": "active",
+      "source_paths": [
+        "AGENTS.md",
+        "ai/test-matrix.yml",
+        "Makefile",
+        "CMakePresets.json",
+        "android/gradlew"
+      ],
+      "authority": "build-config",
+      "verified_commit": "9d8f26582da0f53ca1e29f8f072aeef43955655b",
+      "verified_at": "2026-08-01",
+      "generated": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "risk_group": "build",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "validation/quickstart.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/"
+    }
+  ],
+  "bilingual_map": {
+    "architecture.project-map": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/"
+    },
+    "contributing.responsible-human": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/"
+    },
+    "getting-started.first-contribution": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/"
+    },
+    "home": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/"
+    },
+    "validation.quickstart": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/"
+    }
+  },
+  "ai_index": [
+    "https://crimsoncrossbunker.github.io/CCB-Docs/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/"
+  ],
+  "search_exclusions": [],
+  "archive_exclusions": [],
+  "navigation": {
+    "zh_CN": [
+      {
+        "id": "home",
+        "title": "CCB 开发文档",
+        "section": "首页",
+        "order": 0,
+        "path": "index.md"
+      },
+      {
+        "id": "getting-started.first-contribution",
+        "title": "第一次贡献",
+        "section": "开始贡献",
+        "order": 10,
+        "path": "getting-started/first-contribution.md"
+      },
+      {
+        "id": "architecture.project-map",
+        "title": "项目地图",
+        "section": "架构",
+        "order": 20,
+        "path": "architecture/project-map.md"
+      },
+      {
+        "id": "contributing.responsible-human",
+        "title": "Responsible human 与贡献责任",
+        "section": "贡献规范",
+        "order": 30,
+        "path": "contributing/responsible-human.md"
+      },
+      {
+        "id": "validation.quickstart",
+        "title": "构建与验证快速入口",
+        "section": "构建与验证",
+        "order": 40,
+        "path": "validation/quickstart.md"
+      }
+    ],
+    "en": [
+      {
+        "id": "home",
+        "title": "CCB Developer Documentation",
+        "section": "Home",
+        "order": 0,
+        "path": "index.md"
+      },
+      {
+        "id": "getting-started.first-contribution",
+        "title": "First contribution",
+        "section": "Start contributing",
+        "order": 10,
+        "path": "getting-started/first-contribution.md"
+      },
+      {
+        "id": "architecture.project-map",
+        "title": "Project map",
+        "section": "Architecture",
+        "order": 20,
+        "path": "architecture/project-map.md"
+      },
+      {
+        "id": "contributing.responsible-human",
+        "title": "Responsible human",
+        "section": "Contribution policy",
+        "order": 30,
+        "path": "contributing/responsible-human.md"
+      },
+      {
+        "id": "validation.quickstart",
+        "title": "Build and validation quickstart",
+        "section": "Build and validation",
+        "order": 40,
+        "path": "validation/quickstart.md"
+      }
+    ]
+  }
+}
