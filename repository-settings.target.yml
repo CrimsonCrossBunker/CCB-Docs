@@ -19,6 +19,6 @@ manual_record:
   confirmed_reviewers: []
   required_checks: []
   actions_pr_creation_enabled_at: null
-  pages_enabled_at: null
+  pages_enabled_at: '2026-08-01'
   protection_enabled_at: null
-  enabled_by: null
+  enabled_by: LYHGLYTX
