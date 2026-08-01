@@ -1,0 +1,110 @@
+---
+# GENERATED FROM docs-catalog.yml. DO NOT EDIT THIS BLOCK.
+id: api.lua.v5.events
+title: Events, hooks, and callbacks
+language: en
+status: draft
+doc_type: explanation
+audiences:
+- mod-author
+- api-user
+- experienced-contributor
+- maintainer
+owners:
+- CCB Lua API maintainers
+reviewers:
+- Documentation reviewers
+- Lua API reviewers
+review_interval_days: 60
+last_human_reviewer: Not yet reviewed (draft)
+source_paths:
+- data/lua/README.md
+- data/lua/manifest.schema.json
+- data/lua/types/ccb_api_v5.d.lua
+- data/lua/reference/ccb_public_api_v5.json
+- data/lua/reference/ccb_public_api_v5_coverage.json
+- tools/lua_api/README.md
+source_symbols:
+- game.native_events
+source_queries: []
+source_fingerprint: 86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83
+authority: api-contract
+verified_commit: 3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd
+verified_at: '2026-08-02'
+generated: false
+generated_by: null
+include_in_search: false
+include_in_ai_index: false
+translation_status: current
+translation_stale_since: null
+translation_source_fingerprint: c5889f704d092b0f46fdbdd8d00c81ebf6e80985b50a1fcb935f1a4814f2ca12
+prerequisites:
+- api.lua.v5.lifecycle
+depends_on:
+- api.lua.v5.reference.events
+- api.lua.v5.reference.hooks
+- api.lua.v5.reference.callbacks
+redirect_from: []
+supersedes: []
+license: CC-BY-SA-3.0
+attribution: CCB contributors; generated contract and source paths at the verified commit.
+example_validation_ids: []
+api_version: '5'
+deprecated: false
+deprecation_replacement: null
+risk_group: lua-api
+risk_level: high
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565
+stale_reason: null
+search:
+  exclude: true
+---
+
+# Events, hooks, and callbacks
+
+Lua v5 has four notification/extension surfaces that are easy to confuse. Choose by
+ownership and call direction first, then inspect the generated contract.
+
+| Surface | Registration | Purpose | Can a return affect native flow? |
+| --- | --- | --- | --- |
+| Custom/lifecycle event | `events.on` | source messages and CCB lifecycle | `false` stops this propagation |
+| Native event bus | `game.native_events.on` | 113 schema-described game events | observe; emission is separate and strict |
+| Native hook | `game.hooks.on` | 52 explicit native boundaries | intercept hooks may return declared fields |
+| Definition callback | `game.callbacks.register` | attach methods to 11 JSON definition kinds | per-method decision/consuming contract |
+
+## Custom events
+
+A plain event name is source-local. To observe a dependency, declare it first and use
+`events.on_from`. Payloads accept bounded string keys and copied scalar values; do not use
+events to transfer tables, functions, userdata, or handles.
+
+```lua
+events.on("quest_updated", function(event)
+    game.add_msg(event.data.quest_id .. ":" .. tostring(event.data.stage))
+end)
+events.emit("quest_updated", { quest_id = "intro", stage = 2 })
+```
+
+## Native events
+
+Discover names and fields with `game.native_events.list()`/`describe(name)` rather than
+guessing. Subscription payloads carry the event type, turn, and typed fields. `emit` is
+callback-scoped and requires the exact field set, correct Lua types, and `events` plus
+`game.read` plus `game.write`.
+
+## Hooks
+
+A hook description gives its mode, payload, returns, and capabilities. Observe hooks ignore
+returns; intercept hooks accept only declared result fields. Higher priorities run first and
+equal priorities preserve registration order. An erroring or over-budget handler disables
+only itself.
+
+## Callback actors
+
+Kinds are `iuse`, `iwieldable`, `iwearable`, `iequippable`, `istate`, `imelee`, `iranged`,
+`bionic`, `mutation`, `trap`, and `monster`. Registrations bind to a target id, source, and
+hot-reload transaction. When native C++ invokes Lua, it restores the registering source's
+permission identity.
+
+See [native events](reference/events.md), [hooks](reference/hooks.md), and
+[callbacks](reference/callbacks.md) for every name, field, decision/consuming flag, and source.

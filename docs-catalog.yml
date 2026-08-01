@@ -949,3 +949,442 @@ pages:
     title: Common contribution tasks
     language: en
     nav: { section: Start contributing, order: 12 }
+
+  # Lua v5 explanatory pages remain draft until CCB #565 lands and every
+  # verified_commit can be refreshed to the final master commit.
+  - &lua_manual_defaults
+    <<: *page_defaults
+    id: api.lua.v5.overview
+    title: Lua API v5 总览
+    language: zh_CN
+    path: api/lua/v5/overview.md
+    status: draft
+    doc_type: explanation
+    audiences: [mod-author, api-user, experienced-contributor, maintainer]
+    owners: [CCB Lua API maintainers]
+    reviewers: [Documentation reviewers, Lua API reviewers]
+    review_interval_days: 60
+    last_human_reviewer: Not yet reviewed (draft)
+    source_paths: [data/lua/README.md, data/lua/manifest.schema.json, data/lua/types/ccb_api_v5.d.lua, data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_public_api_v5_coverage.json, tools/lua_api/README.md]
+    source_symbols: [Lua Mod API v5]
+    source_queries: []
+    source_fingerprint: 86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83
+    authority: api-contract
+    verified_commit: 3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd
+    verified_at: '2026-08-02'
+    generated: false
+    generated_by: null
+    include_in_search: false
+    include_in_ai_index: false
+    translation_group: api.lua.v5.overview
+    translation_status: current
+    translation_stale_since: null
+    translation_source_fingerprint: dfef84a47a5a3b5ced5529956431c598a4dc1b404dd6461699079e9076e1fc94
+    prerequisites: [architecture.overview]
+    depends_on: []
+    redirect_from: []
+    supersedes: []
+    license: CC-BY-SA-3.0
+    attribution: CCB contributors; generated contract and source paths at the verified commit.
+    example_validation_ids: []
+    api_version: '5'
+    deprecated: false
+    deprecation_replacement: null
+    risk_group: lua-api
+    risk_level: high
+    pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565
+    stale_reason: null
+    nav: { section: Lua API v5, order: 90 }
+  - <<: *lua_manual_defaults
+    title: Lua API v5 overview
+    language: en
+    nav: { section: Lua API v5, order: 90 }
+
+  - &lua_lifecycle_zh
+    <<: *lua_manual_defaults
+    id: api.lua.v5.lifecycle
+    title: Lua 来源与生命周期
+    path: api/lua/v5/lifecycle.md
+    source_symbols: [ccb.lifecycle.reload]
+    translation_group: api.lua.v5.lifecycle
+    translation_source_fingerprint: ac95dbf6b61cdeb4e9f921e901cce7c75c662e5162301423b88843b2b1176b0b
+    prerequisites: [api.lua.v5.overview]
+    depends_on: [api.lua.v5.capabilities]
+    nav: { section: Lua API v5, order: 91 }
+  - <<: *lua_lifecycle_zh
+    title: Lua sources and lifecycle
+    language: en
+
+  - &lua_events_zh
+    <<: *lua_manual_defaults
+    id: api.lua.v5.events
+    title: 事件、Hook 与 Callback
+    path: api/lua/v5/events.md
+    source_symbols: [game.native_events]
+    translation_group: api.lua.v5.events
+    translation_source_fingerprint: c5889f704d092b0f46fdbdd8d00c81ebf6e80985b50a1fcb935f1a4814f2ca12
+    prerequisites: [api.lua.v5.lifecycle]
+    depends_on: [api.lua.v5.reference.events, api.lua.v5.reference.hooks, api.lua.v5.reference.callbacks]
+    nav: { section: Lua API v5, order: 92 }
+  - <<: *lua_events_zh
+    title: Events, hooks, and callbacks
+    language: en
+
+  - &lua_capabilities_zh
+    <<: *lua_manual_defaults
+    id: api.lua.v5.capabilities
+    title: Capability 声明
+    path: api/lua/v5/capabilities.md
+    source_symbols: [game.actions.dangerous]
+    translation_group: api.lua.v5.capabilities
+    translation_source_fingerprint: 7f006e3e9d2c5d2b02a4c2c83c46c8470ea1952d15614f277e23683c27e708e6
+    prerequisites: [api.lua.v5.overview]
+    depends_on: [api.lua.v5.permissions, api.lua.v5.reference.capabilities]
+    nav: { section: Lua API v5, order: 93 }
+  - <<: *lua_capabilities_zh
+    title: Declaring capabilities
+    language: en
+
+  - &lua_permissions_zh
+    <<: *lua_manual_defaults
+    id: api.lua.v5.permissions
+    title: 权限与信任模型
+    path: api/lua/v5/permissions.md
+    source_symbols: [capability-gating]
+    translation_group: api.lua.v5.permissions
+    translation_source_fingerprint: 97e992a62f3f105811f0d23a9fdbeac395bb0c6d73ff166b944e26578916a06f
+    prerequisites: [api.lua.v5.capabilities]
+    depends_on: [api.lua.v5.reference.permissions]
+    nav: { section: Lua API v5, order: 94 }
+  - <<: *lua_permissions_zh
+    title: Permission and trust model
+    language: en
+
+  - &lua_ui_zh
+    <<: *lua_manual_defaults
+    id: api.lua.v5.ui
+    title: 跨平台 Lua UI
+    path: api/lua/v5/ui.md
+    source_symbols: ['ctx:environment()']
+    translation_group: api.lua.v5.ui
+    translation_source_fingerprint: 782c93e819b86b219cd3df29162a540afad030ae56da6d60f6d4bb207357f970
+    prerequisites: [api.lua.v5.lifecycle, api.lua.v5.capabilities]
+    depends_on: [api.lua.v5.reference.classes, api.lua.v5.reference.methods]
+    nav: { section: Lua API v5, order: 95 }
+  - <<: *lua_ui_zh
+    title: Portable Lua UI
+    language: en
+
+  - &lua_debugging_zh
+    <<: *lua_manual_defaults
+    id: api.lua.v5.debugging
+    title: Lua 调试与契约验证
+    path: api/lua/v5/debugging.md
+    doc_type: how-to
+    source_symbols: [check_public_contract.py]
+    translation_group: api.lua.v5.debugging
+    translation_source_fingerprint: f5953a3b1725321b7ef41ff313e9a5de3de53a5cd360c7322bbbb1e0cbcc8438
+    prerequisites: [api.lua.v5.overview]
+    depends_on: [api.lua.v5.example-mod]
+    example_validation_ids: [lua-contract, lua-docs]
+    nav: { section: Lua API v5, order: 96 }
+  - <<: *lua_debugging_zh
+    title: Lua debugging and contract validation
+    language: en
+
+  - &lua_performance_zh
+    <<: *lua_manual_defaults
+    id: api.lua.v5.performance
+    title: Lua 性能与资源边界
+    path: api/lua/v5/performance.md
+    source_symbols: [callback_time_total_us]
+    translation_group: api.lua.v5.performance
+    translation_source_fingerprint: 8eac9b8b799105af96a709f068d936b1590c6986f0c735b31d9fa53323d4e233
+    prerequisites: [api.lua.v5.ui, api.lua.v5.lifecycle]
+    depends_on: [api.lua.v5.debugging]
+    nav: { section: Lua API v5, order: 97 }
+  - <<: *lua_performance_zh
+    title: Lua performance and resource bounds
+    language: en
+
+  - &lua_migration_zh
+    <<: *lua_manual_defaults
+    id: api.lua.v5.migration
+    title: 迁移到 Lua API v5
+    path: api/lua/v5/migration.md
+    doc_type: how-to
+    source_symbols: [game.state_get]
+    translation_group: api.lua.v5.migration
+    translation_source_fingerprint: c8a8f098d63c7f79ce5c0ab4a7464e05da60693906e8a2215cfc398aecd0e3e8
+    prerequisites: [api.lua.v5.overview]
+    depends_on: [api.lua.v5.capabilities, api.lua.v5.lifecycle, api.lua.v5.ui]
+    nav: { section: Lua API v5, order: 98 }
+  - <<: *lua_migration_zh
+    title: Migrating to Lua API v5
+    language: en
+
+  - &lua_changelog_zh
+    <<: *lua_manual_defaults
+    id: api.lua.v5.changelog
+    title: Lua API 变更记录
+    path: api/lua/v5/changelog.md
+    doc_type: reference
+    source_symbols: [native_luals_callable_parity]
+    translation_group: api.lua.v5.changelog
+    translation_source_fingerprint: 39c073b18b6732436210edee27a6ab51c66015ee4864fd7f0c7173416ec41363
+    prerequisites: [api.lua.v5.overview]
+    depends_on: [api.lua.v5.migration]
+    nav: { section: Lua API v5, order: 99 }
+  - <<: *lua_changelog_zh
+    title: Lua API changelog
+    language: en
+
+  # Generator-owned Lua reference. Bodies and the coverage report are rebuilt
+  # by scripts/generate_lua_reference.py from the pinned CCB contract.
+  - &lua_generated_defaults
+    <<: *page_defaults
+    id: api.lua.v5.reference.modules
+    title: 模块入口参考
+    language: zh_CN
+    path: api/lua/v5/reference/modules.md
+    status: draft
+    doc_type: generated-api
+    audiences: [mod-author, api-user, experienced-contributor, maintainer]
+    owners: [CCB Lua API maintainers]
+    reviewers: [Documentation reviewers, Lua API reviewers]
+    review_interval_days: 60
+    last_human_reviewer: Not yet reviewed (draft)
+    source_paths: [data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_public_api_v5_coverage.json]
+    source_symbols: [api.lua.v5.generated.module.require]
+    source_queries: []
+    source_fingerprint: 45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d
+    authority: api-contract
+    verified_commit: 3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd
+    verified_at: '2026-08-02'
+    generated: true
+    generated_by: scripts/generate_lua_reference.py
+    include_in_search: false
+    include_in_ai_index: false
+    translation_group: api.lua.v5.reference.modules
+    translation_status: current
+    translation_stale_since: null
+    translation_source_fingerprint: 61d78a2173790fb5374fa92c1f71bd44b09e34c9d83d994bcb8274259fd355d8
+    prerequisites: [api.lua.v5.overview]
+    depends_on: []
+    redirect_from: []
+    supersedes: []
+    license: CC-BY-SA-3.0
+    attribution: Generated from the CCB Lua v5 public contract at the verified commit.
+    example_validation_ids: []
+    api_version: '5'
+    deprecated: false
+    deprecation_replacement: null
+    risk_group: lua-api
+    risk_level: high
+    pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565
+    stale_reason: null
+    nav: { section: Lua API v5 参考, order: 110 }
+  - <<: *lua_generated_defaults
+    title: Module entry points
+    language: en
+    nav: { section: Lua API v5 reference, order: 110 }
+
+  - &lua_reference_namespaces_zh
+    <<: *lua_generated_defaults
+    id: api.lua.v5.reference.namespaces
+    title: 命名空间参考
+    path: api/lua/v5/reference/namespaces.md
+    source_symbols: [api.lua.v5.generated.namespace.events]
+    translation_group: api.lua.v5.reference.namespaces
+    translation_source_fingerprint: 324ea413950d3e685eba7fb4698bf00e6caf92686a0524dc7fa1e8d554375023
+    nav: { section: Lua API v5 参考, order: 111 }
+  - <<: *lua_reference_namespaces_zh
+    title: Namespaces
+    language: en
+    nav: { section: Lua API v5 reference, order: 111 }
+
+  - &lua_reference_classes_zh
+    <<: *lua_generated_defaults
+    id: api.lua.v5.reference.classes
+    title: 类与记录参考
+    path: api/lua/v5/reference/classes.md
+    source_symbols: [api.lua.v5.generated.class.CcbAchievementDefinition]
+    translation_group: api.lua.v5.reference.classes
+    translation_source_fingerprint: a4c856d15a6625f50dee108107e46acc72398686a1aa9fc392df97799e3e63b5
+    nav: { section: Lua API v5 参考, order: 112 }
+  - <<: *lua_reference_classes_zh
+    title: Classes and records
+    language: en
+    nav: { section: Lua API v5 reference, order: 112 }
+
+  - &lua_reference_functions_zh
+    <<: *lua_generated_defaults
+    id: api.lua.v5.reference.functions
+    title: 函数参考
+    path: api/lua/v5/reference/functions.md
+    source_symbols: [api.lua.v5.generated.function.events.describe_native]
+    translation_group: api.lua.v5.reference.functions
+    translation_source_fingerprint: 658746989fef14aa79f917ce3d55b8886ce5b47e256f2781a9fbc2c2d767aabb
+    nav: { section: Lua API v5 参考, order: 113 }
+  - <<: *lua_reference_functions_zh
+    title: Functions
+    language: en
+    nav: { section: Lua API v5 reference, order: 113 }
+
+  - &lua_reference_methods_zh
+    <<: *lua_generated_defaults
+    id: api.lua.v5.reference.methods
+    title: 方法参考
+    path: api/lua/v5/reference/methods.md
+    source_symbols: [api.lua.v5.generated.method.GameHandle.is_valid]
+    translation_group: api.lua.v5.reference.methods
+    translation_source_fingerprint: d521b0e1796c6390215fe39ee0ca8beb33f0cf7add10224473174aafe86606fe
+    nav: { section: Lua API v5 参考, order: 114 }
+  - <<: *lua_reference_methods_zh
+    title: Methods
+    language: en
+    nav: { section: Lua API v5 reference, order: 114 }
+
+  - &lua_reference_properties_zh
+    <<: *lua_generated_defaults
+    id: api.lua.v5.reference.properties
+    title: 属性参考
+    path: api/lua/v5/reference/properties.md
+    source_symbols: [api.lua.v5.generated.property.GameEnum.kind]
+    translation_group: api.lua.v5.reference.properties
+    translation_source_fingerprint: 790b58c963e8024fd0b15e29436f1ec2919e93bf3b9414845579c2078584bd66
+    nav: { section: Lua API v5 参考, order: 115 }
+  - <<: *lua_reference_properties_zh
+    title: Properties
+    language: en
+    nav: { section: Lua API v5 reference, order: 115 }
+
+  - &lua_reference_operators_zh
+    <<: *lua_generated_defaults
+    id: api.lua.v5.reference.operators
+    title: 运算符参考
+    path: api/lua/v5/reference/operators.md
+    source_symbols: [api.lua.v5.generated.operator.GameEnum.__eq]
+    translation_group: api.lua.v5.reference.operators
+    translation_source_fingerprint: 0b3d4a97d1c9ced8b827f88b5961a5fc7cf1b82f387fe93b5423e729bb579cbe
+    nav: { section: Lua API v5 参考, order: 116 }
+  - <<: *lua_reference_operators_zh
+    title: Operators
+    language: en
+    nav: { section: Lua API v5 reference, order: 116 }
+
+  - &lua_reference_enums_zh
+    <<: *lua_generated_defaults
+    id: api.lua.v5.reference.enums
+    title: 枚举族参考
+    path: api/lua/v5/reference/enums.md
+    source_symbols: [api.lua.v5.generated.enum.ActionId]
+    translation_group: api.lua.v5.reference.enums
+    translation_source_fingerprint: 812ba0d5975d5b1e410e170040a2b462059a94ad8731b5c298a17f291eb4ba00
+    nav: { section: Lua API v5 参考, order: 117 }
+  - <<: *lua_reference_enums_zh
+    title: Enum families
+    language: en
+    nav: { section: Lua API v5 reference, order: 117 }
+
+  - &lua_reference_events_zh
+    <<: *lua_generated_defaults
+    id: api.lua.v5.reference.events
+    title: 原生事件参考
+    path: api/lua/v5/reference/events.md
+    source_symbols: [api.lua.v5.generated.event.activates_artifact]
+    translation_group: api.lua.v5.reference.events
+    translation_source_fingerprint: 26daa815ba4585b5b9cfaa2233232961a9233a56399d087d9baec73bfef0b346
+    nav: { section: Lua API v5 参考, order: 118 }
+  - <<: *lua_reference_events_zh
+    title: Native events
+    language: en
+    nav: { section: Lua API v5 reference, order: 118 }
+
+  - &lua_reference_hooks_zh
+    <<: *lua_generated_defaults
+    id: api.lua.v5.reference.hooks
+    title: 原生 Hook 参考
+    path: api/lua/v5/reference/hooks.md
+    source_symbols: [api.lua.v5.generated.hook.on_character_death]
+    translation_group: api.lua.v5.reference.hooks
+    translation_source_fingerprint: 4c90f5d67841841a765cc72c3d70928937d1b635aa43722ba10680329e97e918
+    nav: { section: Lua API v5 参考, order: 119 }
+  - <<: *lua_reference_hooks_zh
+    title: Native hooks
+    language: en
+    nav: { section: Lua API v5 reference, order: 119 }
+
+  - &lua_reference_callbacks_zh
+    <<: *lua_generated_defaults
+    id: api.lua.v5.reference.callbacks
+    title: 回调 Actor 参考
+    path: api/lua/v5/reference/callbacks.md
+    source_symbols: [api.lua.v5.generated.callback.bionic.on_activate]
+    translation_group: api.lua.v5.reference.callbacks
+    translation_source_fingerprint: b708c607d2976bd716f2afd07d51e8f5a770a0cbfce42f83c86d1b37c568a26a
+    nav: { section: Lua API v5 参考, order: 120 }
+  - <<: *lua_reference_callbacks_zh
+    title: Callback actors
+    language: en
+    nav: { section: Lua API v5 reference, order: 120 }
+
+  - &lua_reference_capabilities_zh
+    <<: *lua_generated_defaults
+    id: api.lua.v5.reference.capabilities
+    title: Capability 参考
+    path: api/lua/v5/reference/capabilities.md
+    source_symbols: [api.lua.v5.generated.capability.events]
+    translation_group: api.lua.v5.reference.capabilities
+    translation_source_fingerprint: 85a7ba96583da2470ca95aadc98f29b6f074b1352f849aeeeb6430b4eaf7f3d8
+    nav: { section: Lua API v5 参考, order: 121 }
+  - <<: *lua_reference_capabilities_zh
+    title: Capabilities
+    language: en
+    nav: { section: Lua API v5 reference, order: 121 }
+
+  - &lua_reference_permissions_zh
+    <<: *lua_generated_defaults
+    id: api.lua.v5.reference.permissions
+    title: 权限模型参考
+    path: api/lua/v5/reference/permissions.md
+    source_symbols: [capability-gating]
+    translation_group: api.lua.v5.reference.permissions
+    translation_source_fingerprint: 09b6adff457fdf3d7d91abe83a76ee2e25a124f479f4cd28840f477c1bacf6f5
+    nav: { section: Lua API v5 参考, order: 122 }
+  - <<: *lua_reference_permissions_zh
+    title: Permission model
+    language: en
+    nav: { section: Lua API v5 reference, order: 122 }
+
+  - &lua_reference_manifest_zh
+    <<: *lua_generated_defaults
+    id: api.lua.v5.reference.manifest-fields
+    title: Manifest 字段参考
+    path: api/lua/v5/reference/manifest-fields.md
+    source_symbols: [api.lua.v5.generated.manifest-field.schema]
+    translation_group: api.lua.v5.reference.manifest-fields
+    translation_source_fingerprint: e06e9dfc32890f9f786eccde482b539a34ec61fcd05837c57fce744b80727f44
+    nav: { section: Lua API v5 参考, order: 123 }
+  - <<: *lua_reference_manifest_zh
+    title: Manifest fields
+    language: en
+    nav: { section: Lua API v5 reference, order: 123 }
+
+  - &lua_example_mod_zh
+    <<: *lua_generated_defaults
+    id: api.lua.v5.example-mod
+    title: 完整 Lua API v5 示例 Mod
+    path: api/lua/v5/example-mod.md
+    doc_type: tutorial
+    source_paths: [data/lua/manifest.schema.json, data/lua/reference/ccb_public_api_v5.json, data/lua/examples/api_v5_mod/README.md, data/lua/examples/api_v5_mod/modinfo.json, data/lua/examples/api_v5_mod/lua/manifest.json, data/lua/examples/api_v5_mod/lua/main.lua, data/lua/examples/api_v5_mod/lua/lib/model.lua]
+    source_symbols: [ccb_lua_v5_example]
+    source_fingerprint: 760ad6bc15b888720ee8d0bbd95475e4ae45550612f42acc93f79e80b82a64c3
+    translation_group: api.lua.v5.example-mod
+    translation_source_fingerprint: 0603a0303d31c9237a97a48ddf3abdb1b146c842f0f77e81324dc2ba2c215475
+    prerequisites: [api.lua.v5.overview, api.lua.v5.capabilities]
+    depends_on: [api.lua.v5.ui, api.lua.v5.events]
+    nav: { section: Lua API v5, order: 100 }
+  - <<: *lua_example_mod_zh
+    title: Complete Lua API v5 example Mod
+    language: en

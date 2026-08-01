@@ -21,3 +21,6 @@ validations:
   lua-contract:
     description: Lua declaration, parity, and coverage validation
     authority_paths: [data/lua/types/ccb_api_v5.d.lua, tools/lua_api]
+  lua-docs:
+    description: Generated bilingual Lua v5 reference and catalog validation
+    authority_paths: [config/lua-reference-v5.yml, scripts/generate_lua_reference.py]
