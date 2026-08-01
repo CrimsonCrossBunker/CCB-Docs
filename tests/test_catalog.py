@@ -27,17 +27,26 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(validate_repository(self.catalog), [])
 
     def test_drafts_are_excluded_from_production_indexes(self) -> None:
-        payload = index_payload(self.catalog)
+        catalog = copy.deepcopy(self.catalog)
+        for page in catalog["pages"]:
+            page["status"] = "draft"
+            page["include_in_search"] = False
+            page["include_in_ai_index"] = False
+        validate_policy(catalog)
+
+        payload = index_payload(catalog)
         self.assertEqual(payload["navigation"], {"zh_CN": [], "en": []})
         self.assertEqual(payload["ai_index"], [])
         self.assertEqual(
             len(payload["search_exclusions"]),
-            len(self.catalog["pages"]),
+            len(catalog["pages"]),
         )
 
     def test_new_active_page_cannot_publish_one_language_only(self) -> None:
         catalog = copy.deepcopy(self.catalog)
-        catalog["pages"][0]["status"] = "active"
+        catalog["pages"][0]["status"] = "draft"
+        catalog["pages"][0]["include_in_search"] = False
+        catalog["pages"][0]["include_in_ai_index"] = False
         with self.assertRaisesRegex(CatalogError, "both languages"):
             validate_policy(catalog)
 

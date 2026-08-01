@@ -3,33 +3,31 @@
 id: home
 title: CCB 开发文档
 language: zh_CN
-status: draft
+status: active
 source_paths:
 - AGENTS.md
 - GOVERNANCE.md
 authority: docs-explanation
-verified_commit: 11748581a0df8651380cfb8ae37ae91baafe054d
+verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
 verified_at: '2026-08-01'
 generated: false
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
 risk_group: project-context
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551
+pending_source_pr: null
 stale_reason: null
-search:
-  exclude: true
 ---
 
 # CCB 开发文档
 
 这里是 Cataclysm: Cleanwater Bomb 的正式开发者解释、教程、架构与导航站。
 
-!!! warning "当前为 Phase 0/1 草稿"
-    这些示范页依赖 CCB 主仓库 PR #551。该 PR 经人类审核合并并刷新最终
-    commit 后，页面才会从草稿转为正式内容。
+!!! info "Phase 0/1 基础站点"
+    本轮发布首页与四个完整双语示范主题；其余 175 个第一方 Markdown 文档
+    仍按迁移清单分阶段处理，未完成双语的页面不会进入正式导航。
 
 ## 先理解权威边界
 

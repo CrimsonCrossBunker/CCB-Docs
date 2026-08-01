@@ -3,24 +3,22 @@
 id: home
 title: CCB Developer Documentation
 language: en
-status: draft
+status: active
 source_paths:
 - AGENTS.md
 - GOVERNANCE.md
 authority: docs-explanation
-verified_commit: 11748581a0df8651380cfb8ae37ae91baafe054d
+verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
 verified_at: '2026-08-01'
 generated: false
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
 risk_group: project-context
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551
+pending_source_pr: null
 stale_reason: null
-search:
-  exclude: true
 ---
 
 # CCB Developer Documentation
@@ -28,10 +26,11 @@ search:
 This is the formal developer explanation, tutorial, architecture, and
 navigation site for Cataclysm: Cleanwater Bomb.
 
-!!! warning "Phase 0/1 draft"
-    These demonstration pages depend on CCB source pull request #551. They
-    become active only after human review, source merge, and refresh to the
-    final commit.
+!!! info "Phase 0/1 foundation"
+    This release publishes the home page and four complete bilingual example
+    topics. The remaining 175 first-party Markdown documents stay staged in
+    the migration inventory; incomplete bilingual pages do not enter the
+    production navigation.
 
 ## Know the authority boundary first
 

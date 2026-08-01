@@ -3,7 +3,7 @@
 id: validation.quickstart
 title: Build and validation quickstart
 language: en
-status: draft
+status: active
 source_paths:
 - AGENTS.md
 - ai/test-matrix.yml
@@ -11,19 +11,17 @@ source_paths:
 - CMakePresets.json
 - android/gradlew
 authority: build-config
-verified_commit: 11748581a0df8651380cfb8ae37ae91baafe054d
+verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
 verified_at: '2026-08-01'
 generated: false
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
 risk_group: build
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551
+pending_source_pr: null
 stale_reason: null
-search:
-  exclude: true
 ---
 
 # Build and validation quickstart

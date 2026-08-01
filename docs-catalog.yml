@@ -10,40 +10,40 @@ pages:
     title: CCB 开发文档
     language: zh_CN
     path: index.md
-    status: draft
+    status: active
     source_paths: [AGENTS.md, GOVERNANCE.md]
     authority: docs-explanation
-    verified_commit: 11748581a0df8651380cfb8ae37ae91baafe054d
+    verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
     verified_at: '2026-08-01'
     generated: false
-    include_in_search: false
-    include_in_ai_index: false
+    include_in_search: true
+    include_in_ai_index: true
     translation_group: home
     translation_status: current
     translation_stale_since: null
     risk_group: project-context
     risk_level: normal
-    pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551
+    pending_source_pr: null
     stale_reason: null
     nav: { section: 首页, order: 0 }
   - id: home
     title: CCB Developer Documentation
     language: en
     path: index.md
-    status: draft
+    status: active
     source_paths: [AGENTS.md, GOVERNANCE.md]
     authority: docs-explanation
-    verified_commit: 11748581a0df8651380cfb8ae37ae91baafe054d
+    verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
     verified_at: '2026-08-01'
     generated: false
-    include_in_search: false
-    include_in_ai_index: false
+    include_in_search: true
+    include_in_ai_index: true
     translation_group: home
     translation_status: current
     translation_stale_since: null
     risk_group: project-context
     risk_level: normal
-    pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551
+    pending_source_pr: null
     stale_reason: null
     nav: { section: Home, order: 0 }
 
@@ -51,40 +51,40 @@ pages:
     title: 第一次贡献
     language: zh_CN
     path: getting-started/first-contribution.md
-    status: draft
+    status: active
     source_paths: [CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md]
     authority: governance
-    verified_commit: 11748581a0df8651380cfb8ae37ae91baafe054d
+    verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
     verified_at: '2026-08-01'
     generated: false
-    include_in_search: false
-    include_in_ai_index: false
+    include_in_search: true
+    include_in_ai_index: true
     translation_group: getting-started.first-contribution
     translation_status: current
     translation_stale_since: null
     risk_group: governance
     risk_level: high
-    pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551
+    pending_source_pr: null
     stale_reason: null
     nav: { section: 开始贡献, order: 10 }
   - id: getting-started.first-contribution
     title: First contribution
     language: en
     path: getting-started/first-contribution.md
-    status: draft
+    status: active
     source_paths: [CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md]
     authority: governance
-    verified_commit: 11748581a0df8651380cfb8ae37ae91baafe054d
+    verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
     verified_at: '2026-08-01'
     generated: false
-    include_in_search: false
-    include_in_ai_index: false
+    include_in_search: true
+    include_in_ai_index: true
     translation_group: getting-started.first-contribution
     translation_status: current
     translation_stale_since: null
     risk_group: governance
     risk_level: high
-    pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551
+    pending_source_pr: null
     stale_reason: null
     nav: { section: Start contributing, order: 10 }
 
@@ -92,40 +92,40 @@ pages:
     title: 项目地图
     language: zh_CN
     path: architecture/project-map.md
-    status: draft
+    status: active
     source_paths: [AGENTS.md, ai/project-map.yml, ai/test-matrix.yml, ai/generated-files.yml]
     authority: docs-explanation
-    verified_commit: 11748581a0df8651380cfb8ae37ae91baafe054d
+    verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
     verified_at: '2026-08-01'
     generated: false
-    include_in_search: false
-    include_in_ai_index: false
+    include_in_search: true
+    include_in_ai_index: true
     translation_group: architecture.project-map
     translation_status: current
     translation_stale_since: null
     risk_group: project-context
     risk_level: normal
-    pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551
+    pending_source_pr: null
     stale_reason: null
     nav: { section: 架构, order: 20 }
   - id: architecture.project-map
     title: Project map
     language: en
     path: architecture/project-map.md
-    status: draft
+    status: active
     source_paths: [AGENTS.md, ai/project-map.yml, ai/test-matrix.yml, ai/generated-files.yml]
     authority: docs-explanation
-    verified_commit: 11748581a0df8651380cfb8ae37ae91baafe054d
+    verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
     verified_at: '2026-08-01'
     generated: false
-    include_in_search: false
-    include_in_ai_index: false
+    include_in_search: true
+    include_in_ai_index: true
     translation_group: architecture.project-map
     translation_status: current
     translation_stale_since: null
     risk_group: project-context
     risk_level: normal
-    pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551
+    pending_source_pr: null
     stale_reason: null
     nav: { section: Architecture, order: 20 }
 
@@ -133,40 +133,40 @@ pages:
     title: Responsible human 与贡献责任
     language: zh_CN
     path: contributing/responsible-human.md
-    status: draft
+    status: active
     source_paths: [CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md]
     authority: governance
-    verified_commit: 11748581a0df8651380cfb8ae37ae91baafe054d
+    verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
     verified_at: '2026-08-01'
     generated: false
-    include_in_search: false
-    include_in_ai_index: false
+    include_in_search: true
+    include_in_ai_index: true
     translation_group: contributing.responsible-human
     translation_status: current
     translation_stale_since: null
     risk_group: governance
     risk_level: high
-    pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551
+    pending_source_pr: null
     stale_reason: null
     nav: { section: 贡献规范, order: 30 }
   - id: contributing.responsible-human
     title: Responsible human
     language: en
     path: contributing/responsible-human.md
-    status: draft
+    status: active
     source_paths: [CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md]
     authority: governance
-    verified_commit: 11748581a0df8651380cfb8ae37ae91baafe054d
+    verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
     verified_at: '2026-08-01'
     generated: false
-    include_in_search: false
-    include_in_ai_index: false
+    include_in_search: true
+    include_in_ai_index: true
     translation_group: contributing.responsible-human
     translation_status: current
     translation_stale_since: null
     risk_group: governance
     risk_level: high
-    pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551
+    pending_source_pr: null
     stale_reason: null
     nav: { section: Contribution policy, order: 30 }
 
@@ -174,39 +174,39 @@ pages:
     title: 构建与验证快速入口
     language: zh_CN
     path: validation/quickstart.md
-    status: draft
+    status: active
     source_paths: [AGENTS.md, ai/test-matrix.yml, Makefile, CMakePresets.json, android/gradlew]
     authority: build-config
-    verified_commit: 11748581a0df8651380cfb8ae37ae91baafe054d
+    verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
     verified_at: '2026-08-01'
     generated: false
-    include_in_search: false
-    include_in_ai_index: false
+    include_in_search: true
+    include_in_ai_index: true
     translation_group: validation.quickstart
     translation_status: current
     translation_stale_since: null
     risk_group: build
     risk_level: high
-    pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551
+    pending_source_pr: null
     stale_reason: null
     nav: { section: 构建与验证, order: 40 }
   - id: validation.quickstart
     title: Build and validation quickstart
     language: en
     path: validation/quickstart.md
-    status: draft
+    status: active
     source_paths: [AGENTS.md, ai/test-matrix.yml, Makefile, CMakePresets.json, android/gradlew]
     authority: build-config
-    verified_commit: 11748581a0df8651380cfb8ae37ae91baafe054d
+    verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
     verified_at: '2026-08-01'
     generated: false
-    include_in_search: false
-    include_in_ai_index: false
+    include_in_search: true
+    include_in_ai_index: true
     translation_group: validation.quickstart
     translation_status: current
     translation_stale_since: null
     risk_group: build
     risk_level: high
-    pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/551
+    pending_source_pr: null
     stale_reason: null
     nav: { section: Build and validation, order: 40 }
