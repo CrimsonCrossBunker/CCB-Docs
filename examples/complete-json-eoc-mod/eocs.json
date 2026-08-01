@@ -1,0 +1,9 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_CCB_DOCS_HELLO",
+    "eoc_type": "ACTIVATION",
+    "condition": { "math": [ "1 == 1" ] },
+    "effect": [ { "u_message": "The CCB Docs example EOC ran." } ]
+  }
+]

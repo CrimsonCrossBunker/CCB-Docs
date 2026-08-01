@@ -18,6 +18,9 @@ review questions.
    updated in the same PR.
 4. Run `uv run python scripts/generate_catalog.py`. Do not hand-edit generated
    front matter, indexes, allowlists, redirects, or sitemap metadata.
+   For JSON/EOC reference changes, first run
+   `scripts/generate_json_eoc_reference.py` against the catalog's exact CCB
+   `verified_commit`; do not edit the generated registry bodies.
 5. Run the validation commands in `AGENTS.md`.
 6. If the page depends on an unmerged CCB PR, keep it `draft`. After source
    merge, replace `verified_commit` with the final commit and regenerate before

@@ -4335,6 +4335,554 @@
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/"
     },
     {
+      "id": "eoc.nesting",
+      "title": "Nesting EOC conditions and effects",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "how-to",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/reference/json/ccb_eoc_conditions.json",
+        "data/reference/json/ccb_eoc_effects.json",
+        "tools/json_api/contract-inventory.schema.json",
+        "tools/json_api/generate_contracts.py",
+        "tools/json_api/test_generate_contracts.py",
+        "src/condition.cpp",
+        "src/npctalk.cpp",
+        "src/effect_on_condition.cpp",
+        "src/effect_on_condition.h",
+        "tests/eoc_test.cpp",
+        "doc/JSON/EFFECT_ON_CONDITION.md"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "f52b67e59b777a2d203f58ddaef85d38aa06ac0792196b54e829681279e2f594",
+      "authority": "api-contract",
+      "verified_commit": "a038c765568fc47a58ef8c523b2722d416f5f61c",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "4e8fdd81409a1c292a8d63686520b06e3357687cfa09c99965a731e0090d96d3",
+      "prerequisites": [
+        "eoc.overview"
+      ],
+      "depends_on": [
+        "eoc.variables-context"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; parser registrations, inventories, and tests remain authoritative.",
+      "example_validation_ids": [],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "eoc",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566",
+      "stale_reason": null,
+      "path": "eoc/nesting.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/nesting/"
+    },
+    {
+      "id": "eoc.nesting",
+      "title": "EOC 条件与效果嵌套",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "how-to",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/reference/json/ccb_eoc_conditions.json",
+        "data/reference/json/ccb_eoc_effects.json",
+        "tools/json_api/contract-inventory.schema.json",
+        "tools/json_api/generate_contracts.py",
+        "tools/json_api/test_generate_contracts.py",
+        "src/condition.cpp",
+        "src/npctalk.cpp",
+        "src/effect_on_condition.cpp",
+        "src/effect_on_condition.h",
+        "tests/eoc_test.cpp",
+        "doc/JSON/EFFECT_ON_CONDITION.md"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "f52b67e59b777a2d203f58ddaef85d38aa06ac0792196b54e829681279e2f594",
+      "authority": "api-contract",
+      "verified_commit": "a038c765568fc47a58ef8c523b2722d416f5f61c",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "4e8fdd81409a1c292a8d63686520b06e3357687cfa09c99965a731e0090d96d3",
+      "prerequisites": [
+        "eoc.overview"
+      ],
+      "depends_on": [
+        "eoc.variables-context"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; parser registrations, inventories, and tests remain authoritative.",
+      "example_validation_ids": [],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "eoc",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566",
+      "stale_reason": null,
+      "path": "eoc/nesting.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/nesting/"
+    },
+    {
+      "id": "eoc.overview",
+      "title": "EOC contracts and lifecycle",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "explanation",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/reference/json/ccb_eoc_conditions.json",
+        "data/reference/json/ccb_eoc_effects.json",
+        "tools/json_api/contract-inventory.schema.json",
+        "tools/json_api/generate_contracts.py",
+        "tools/json_api/test_generate_contracts.py",
+        "src/condition.cpp",
+        "src/npctalk.cpp",
+        "src/effect_on_condition.cpp",
+        "src/effect_on_condition.h",
+        "tests/eoc_test.cpp",
+        "doc/JSON/EFFECT_ON_CONDITION.md"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "f52b67e59b777a2d203f58ddaef85d38aa06ac0792196b54e829681279e2f594",
+      "authority": "api-contract",
+      "verified_commit": "a038c765568fc47a58ef8c523b2722d416f5f61c",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "99bd0f3eddb34fe638f11f39532dd38dc95dbb2551c9a6e9553cdbaa18b2be53",
+      "prerequisites": [
+        "json.overview"
+      ],
+      "depends_on": [
+        "reference.eoc-conditions",
+        "reference.eoc-effects"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; parser registrations, inventories, and tests remain authoritative.",
+      "example_validation_ids": [],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "eoc",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566",
+      "stale_reason": null,
+      "path": "eoc/overview.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/"
+    },
+    {
+      "id": "eoc.overview",
+      "title": "EOC 契约与生命周期",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "explanation",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/reference/json/ccb_eoc_conditions.json",
+        "data/reference/json/ccb_eoc_effects.json",
+        "tools/json_api/contract-inventory.schema.json",
+        "tools/json_api/generate_contracts.py",
+        "tools/json_api/test_generate_contracts.py",
+        "src/condition.cpp",
+        "src/npctalk.cpp",
+        "src/effect_on_condition.cpp",
+        "src/effect_on_condition.h",
+        "tests/eoc_test.cpp",
+        "doc/JSON/EFFECT_ON_CONDITION.md"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "f52b67e59b777a2d203f58ddaef85d38aa06ac0792196b54e829681279e2f594",
+      "authority": "api-contract",
+      "verified_commit": "a038c765568fc47a58ef8c523b2722d416f5f61c",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "99bd0f3eddb34fe638f11f39532dd38dc95dbb2551c9a6e9553cdbaa18b2be53",
+      "prerequisites": [
+        "json.overview"
+      ],
+      "depends_on": [
+        "reference.eoc-conditions",
+        "reference.eoc-effects"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; parser registrations, inventories, and tests remain authoritative.",
+      "example_validation_ids": [],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "eoc",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566",
+      "stale_reason": null,
+      "path": "eoc/overview.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/"
+    },
+    {
+      "id": "eoc.talkers",
+      "title": "EOC talkers and alpha/beta routing",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "explanation",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/reference/json/ccb_eoc_conditions.json",
+        "data/reference/json/ccb_eoc_effects.json",
+        "tools/json_api/contract-inventory.schema.json",
+        "tools/json_api/generate_contracts.py",
+        "tools/json_api/test_generate_contracts.py",
+        "src/condition.cpp",
+        "src/npctalk.cpp",
+        "src/effect_on_condition.cpp",
+        "src/effect_on_condition.h",
+        "tests/eoc_test.cpp",
+        "doc/JSON/EFFECT_ON_CONDITION.md"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "f52b67e59b777a2d203f58ddaef85d38aa06ac0792196b54e829681279e2f594",
+      "authority": "api-contract",
+      "verified_commit": "a038c765568fc47a58ef8c523b2722d416f5f61c",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "633c116b8ceb25994926cb0d914dc6f0b5623695fae7fddbefd46996ec0cf860",
+      "prerequisites": [
+        "eoc.overview"
+      ],
+      "depends_on": [
+        "reference.eoc-conditions",
+        "reference.eoc-effects"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; parser registrations, inventories, and tests remain authoritative.",
+      "example_validation_ids": [],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "eoc",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566",
+      "stale_reason": null,
+      "path": "eoc/talkers.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/"
+    },
+    {
+      "id": "eoc.talkers",
+      "title": "EOC Talker 与 alpha/beta 路由",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "explanation",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/reference/json/ccb_eoc_conditions.json",
+        "data/reference/json/ccb_eoc_effects.json",
+        "tools/json_api/contract-inventory.schema.json",
+        "tools/json_api/generate_contracts.py",
+        "tools/json_api/test_generate_contracts.py",
+        "src/condition.cpp",
+        "src/npctalk.cpp",
+        "src/effect_on_condition.cpp",
+        "src/effect_on_condition.h",
+        "tests/eoc_test.cpp",
+        "doc/JSON/EFFECT_ON_CONDITION.md"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "f52b67e59b777a2d203f58ddaef85d38aa06ac0792196b54e829681279e2f594",
+      "authority": "api-contract",
+      "verified_commit": "a038c765568fc47a58ef8c523b2722d416f5f61c",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "633c116b8ceb25994926cb0d914dc6f0b5623695fae7fddbefd46996ec0cf860",
+      "prerequisites": [
+        "eoc.overview"
+      ],
+      "depends_on": [
+        "reference.eoc-conditions",
+        "reference.eoc-effects"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; parser registrations, inventories, and tests remain authoritative.",
+      "example_validation_ids": [],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "eoc",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566",
+      "stale_reason": null,
+      "path": "eoc/talkers.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/"
+    },
+    {
+      "id": "eoc.variables-context",
+      "title": "EOC variables and context",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/reference/json/ccb_eoc_conditions.json",
+        "data/reference/json/ccb_eoc_effects.json",
+        "tools/json_api/contract-inventory.schema.json",
+        "tools/json_api/generate_contracts.py",
+        "tools/json_api/test_generate_contracts.py",
+        "src/condition.cpp",
+        "src/npctalk.cpp",
+        "src/effect_on_condition.cpp",
+        "src/effect_on_condition.h",
+        "tests/eoc_test.cpp",
+        "doc/JSON/EFFECT_ON_CONDITION.md"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "f52b67e59b777a2d203f58ddaef85d38aa06ac0792196b54e829681279e2f594",
+      "authority": "api-contract",
+      "verified_commit": "a038c765568fc47a58ef8c523b2722d416f5f61c",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "8e90cbae7e8c02b7eaa85d8151d686e20feb0dac08e769660feee6034b89c055",
+      "prerequisites": [
+        "eoc.overview"
+      ],
+      "depends_on": [
+        "eoc.talkers"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; parser registrations, inventories, and tests remain authoritative.",
+      "example_validation_ids": [],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "eoc",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566",
+      "stale_reason": null,
+      "path": "eoc/variables-context.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/variables-context/"
+    },
+    {
+      "id": "eoc.variables-context",
+      "title": "EOC 变量与上下文",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/reference/json/ccb_eoc_conditions.json",
+        "data/reference/json/ccb_eoc_effects.json",
+        "tools/json_api/contract-inventory.schema.json",
+        "tools/json_api/generate_contracts.py",
+        "tools/json_api/test_generate_contracts.py",
+        "src/condition.cpp",
+        "src/npctalk.cpp",
+        "src/effect_on_condition.cpp",
+        "src/effect_on_condition.h",
+        "tests/eoc_test.cpp",
+        "doc/JSON/EFFECT_ON_CONDITION.md"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "f52b67e59b777a2d203f58ddaef85d38aa06ac0792196b54e829681279e2f594",
+      "authority": "api-contract",
+      "verified_commit": "a038c765568fc47a58ef8c523b2722d416f5f61c",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "8e90cbae7e8c02b7eaa85d8151d686e20feb0dac08e769660feee6034b89c055",
+      "prerequisites": [
+        "eoc.overview"
+      ],
+      "depends_on": [
+        "eoc.talkers"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; parser registrations, inventories, and tests remain authoritative.",
+      "example_validation_ids": [],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "eoc",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566",
+      "stale_reason": null,
+      "path": "eoc/variables-context.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/"
+    },
+    {
       "id": "getting-started.common-tasks",
       "title": "Common contribution tasks",
       "language": "en",
@@ -4951,6 +5499,406 @@
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/"
     },
     {
+      "id": "json.inheritance-copy-from",
+      "title": "JSON inheritance and copy-from",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "explanation",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/reference/json/ccb_json_object_types.json",
+        "tools/json_api/contract-inventory.schema.json",
+        "tools/json_api/generate_contracts.py",
+        "tools/json_api/test_generate_contracts.py",
+        "src/init.cpp",
+        "src/generic_factory.h",
+        "tests/json_load_test.cpp",
+        "doc/JSON/JSON_INHERITANCE.md",
+        "doc/JSON/JSON_STYLE.md"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "94e31a97e0b63d9f3b6c7305bbed837cd0c5e5a3cf02417323458b7ed0757177",
+      "authority": "api-contract",
+      "verified_commit": "a038c765568fc47a58ef8c523b2722d416f5f61c",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "011b017522ac8f0fe674d25c2f3f6729ee36910b59b50abb94d54402ccefd8b1",
+      "prerequisites": [
+        "json.overview"
+      ],
+      "depends_on": [
+        "reference.json-object-types"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; source contracts and Git history remain authoritative.",
+      "example_validation_ids": [],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "json",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566",
+      "stale_reason": null,
+      "path": "json/inheritance-copy-from.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/inheritance-copy-from/"
+    },
+    {
+      "id": "json.inheritance-copy-from",
+      "title": "JSON 继承与 copy-from",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "explanation",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/reference/json/ccb_json_object_types.json",
+        "tools/json_api/contract-inventory.schema.json",
+        "tools/json_api/generate_contracts.py",
+        "tools/json_api/test_generate_contracts.py",
+        "src/init.cpp",
+        "src/generic_factory.h",
+        "tests/json_load_test.cpp",
+        "doc/JSON/JSON_INHERITANCE.md",
+        "doc/JSON/JSON_STYLE.md"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "94e31a97e0b63d9f3b6c7305bbed837cd0c5e5a3cf02417323458b7ed0757177",
+      "authority": "api-contract",
+      "verified_commit": "a038c765568fc47a58ef8c523b2722d416f5f61c",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "011b017522ac8f0fe674d25c2f3f6729ee36910b59b50abb94d54402ccefd8b1",
+      "prerequisites": [
+        "json.overview"
+      ],
+      "depends_on": [
+        "reference.json-object-types"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; source contracts and Git history remain authoritative.",
+      "example_validation_ids": [],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "json",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566",
+      "stale_reason": null,
+      "path": "json/inheritance-copy-from.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/"
+    },
+    {
+      "id": "json.overview",
+      "title": "JSON contract overview",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "explanation",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/reference/json/ccb_json_object_types.json",
+        "tools/json_api/contract-inventory.schema.json",
+        "tools/json_api/generate_contracts.py",
+        "tools/json_api/test_generate_contracts.py",
+        "src/init.cpp",
+        "src/generic_factory.h",
+        "tests/json_load_test.cpp",
+        "doc/JSON/JSON_INHERITANCE.md",
+        "doc/JSON/JSON_STYLE.md"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "94e31a97e0b63d9f3b6c7305bbed837cd0c5e5a3cf02417323458b7ed0757177",
+      "authority": "api-contract",
+      "verified_commit": "a038c765568fc47a58ef8c523b2722d416f5f61c",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "d24151da9c3f3be1b0307ecb5a26a8425e9791b3376028d77e457e08745e6012",
+      "prerequisites": [
+        "architecture.project-map"
+      ],
+      "depends_on": [
+        "reference.json-object-types",
+        "validation.testing"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; source contracts and Git history remain authoritative.",
+      "example_validation_ids": [],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "json",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566",
+      "stale_reason": null,
+      "path": "json/overview.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/"
+    },
+    {
+      "id": "json.overview",
+      "title": "JSON 契约总览",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "explanation",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/reference/json/ccb_json_object_types.json",
+        "tools/json_api/contract-inventory.schema.json",
+        "tools/json_api/generate_contracts.py",
+        "tools/json_api/test_generate_contracts.py",
+        "src/init.cpp",
+        "src/generic_factory.h",
+        "tests/json_load_test.cpp",
+        "doc/JSON/JSON_INHERITANCE.md",
+        "doc/JSON/JSON_STYLE.md"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "94e31a97e0b63d9f3b6c7305bbed837cd0c5e5a3cf02417323458b7ed0757177",
+      "authority": "api-contract",
+      "verified_commit": "a038c765568fc47a58ef8c523b2722d416f5f61c",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "d24151da9c3f3be1b0307ecb5a26a8425e9791b3376028d77e457e08745e6012",
+      "prerequisites": [
+        "architecture.project-map"
+      ],
+      "depends_on": [
+        "reference.json-object-types",
+        "validation.testing"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; source contracts and Git history remain authoritative.",
+      "example_validation_ids": [],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "json",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566",
+      "stale_reason": null,
+      "path": "json/overview.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/"
+    },
+    {
+      "id": "json.validation",
+      "title": "JSON validation and evidence levels",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "how-to",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/reference/json/ccb_json_object_types.json",
+        "tools/json_api/contract-inventory.schema.json",
+        "tools/json_api/generate_contracts.py",
+        "tools/json_api/test_generate_contracts.py",
+        "src/init.cpp",
+        "src/generic_factory.h",
+        "tests/json_load_test.cpp",
+        "doc/JSON/JSON_INHERITANCE.md",
+        "doc/JSON/JSON_STYLE.md"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "94e31a97e0b63d9f3b6c7305bbed837cd0c5e5a3cf02417323458b7ed0757177",
+      "authority": "api-contract",
+      "verified_commit": "a038c765568fc47a58ef8c523b2722d416f5f61c",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3",
+      "prerequisites": [
+        "json.overview"
+      ],
+      "depends_on": [
+        "reference.json-object-types",
+        "eoc.overview"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; source contracts and Git history remain authoritative.",
+      "example_validation_ids": [
+        "json-contract",
+        "json-load"
+      ],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "json",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566",
+      "stale_reason": null,
+      "path": "json/validation.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/"
+    },
+    {
+      "id": "json.validation",
+      "title": "JSON 验证与证据等级",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "how-to",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/reference/json/ccb_json_object_types.json",
+        "tools/json_api/contract-inventory.schema.json",
+        "tools/json_api/generate_contracts.py",
+        "tools/json_api/test_generate_contracts.py",
+        "src/init.cpp",
+        "src/generic_factory.h",
+        "tests/json_load_test.cpp",
+        "doc/JSON/JSON_INHERITANCE.md",
+        "doc/JSON/JSON_STYLE.md"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "94e31a97e0b63d9f3b6c7305bbed837cd0c5e5a3cf02417323458b7ed0757177",
+      "authority": "api-contract",
+      "verified_commit": "a038c765568fc47a58ef8c523b2722d416f5f61c",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3",
+      "prerequisites": [
+        "json.overview"
+      ],
+      "depends_on": [
+        "reference.json-object-types",
+        "eoc.overview"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; source contracts and Git history remain authoritative.",
+      "example_validation_ids": [
+        "json-contract",
+        "json-load"
+      ],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "json",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566",
+      "stale_reason": null,
+      "path": "json/validation.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/"
+    },
+    {
       "id": "maintenance.releases",
       "title": "Release maintenance",
       "language": "en",
@@ -5189,6 +6137,146 @@
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/upstream-sync/"
     },
     {
+      "id": "mods.complete-json-eoc-mod",
+      "title": "Complete JSON/EOC mod tutorial",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "tutorial",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "mod-author"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/AGENTS.md",
+        "data/mods/AGENTS.md",
+        "doc/MODDING.md",
+        "data/mods/TEST_DATA/modinfo.json",
+        "data/mods/TEST_DATA/effect_on_condition.json",
+        "Makefile",
+        "data/reference/json/ccb_json_object_types.json",
+        "data/reference/json/ccb_eoc_conditions.json",
+        "data/reference/json/ccb_eoc_effects.json"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "ec7b0afe102b19beb0f77c9ffbe6d8f82e2e06b59e057bdf76d897de092e0b2c",
+      "authority": "source-and-tests",
+      "verified_commit": "a038c765568fc47a58ef8c523b2722d416f5f61c",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "6ded0b43085f4eef208e8256f7d9d497323f2dba7a085068a440d48be7a306c8",
+      "prerequisites": [
+        "json.overview",
+        "eoc.overview"
+      ],
+      "depends_on": [
+        "json.validation",
+        "eoc.nesting"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; tutorial example is maintained in CCB-Docs.",
+      "example_validation_ids": [
+        "docs-json-eoc-example",
+        "json-load",
+        "json-mod-load"
+      ],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "mods",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566",
+      "stale_reason": null,
+      "path": "mods/complete-json-eoc-mod.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/"
+    },
+    {
+      "id": "mods.complete-json-eoc-mod",
+      "title": "完整 JSON/EOC Mod 教程",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "tutorial",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "mod-author"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/AGENTS.md",
+        "data/mods/AGENTS.md",
+        "doc/MODDING.md",
+        "data/mods/TEST_DATA/modinfo.json",
+        "data/mods/TEST_DATA/effect_on_condition.json",
+        "Makefile",
+        "data/reference/json/ccb_json_object_types.json",
+        "data/reference/json/ccb_eoc_conditions.json",
+        "data/reference/json/ccb_eoc_effects.json"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "ec7b0afe102b19beb0f77c9ffbe6d8f82e2e06b59e057bdf76d897de092e0b2c",
+      "authority": "source-and-tests",
+      "verified_commit": "a038c765568fc47a58ef8c523b2722d416f5f61c",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "6ded0b43085f4eef208e8256f7d9d497323f2dba7a085068a440d48be7a306c8",
+      "prerequisites": [
+        "json.overview",
+        "eoc.overview"
+      ],
+      "depends_on": [
+        "json.validation",
+        "eoc.nesting"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; tutorial example is maintained in CCB-Docs.",
+      "example_validation_ids": [
+        "docs-json-eoc-example",
+        "json-load",
+        "json-mod-load"
+      ],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "mods",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566",
+      "stale_reason": null,
+      "path": "mods/complete-json-eoc-mod.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/"
+    },
+    {
       "id": "platforms.matrix",
       "title": "Platform matrix",
       "language": "en",
@@ -5311,6 +6399,368 @@
       "stale_reason": null,
       "path": "platforms/matrix.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/"
+    },
+    {
+      "id": "reference.eoc-conditions",
+      "title": "EOC condition registry",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 30,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/reference/json/ccb_eoc_conditions.json",
+        "tools/json_api/contract-inventory.schema.json",
+        "tools/json_api/generate_contracts.py",
+        "src/condition.cpp"
+      ],
+      "source_symbols": [
+        "conditional_t::conditional_t"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "f3d7f571789f2deb2da7a49a570610f5edf6d4c49354d107fe8648e26c69899d",
+      "authority": "api-contract",
+      "verified_commit": "a038c765568fc47a58ef8c523b2722d416f5f61c",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_json_eoc_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "6e45a0791aa7ca97e49a7b8ae833aa5ff2b12d6932b19de90ef6a84028b0232e",
+      "prerequisites": [
+        "eoc.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from CCB source inventories; CCB contributors retain source attribution.",
+      "example_validation_ids": [],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "eoc",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566",
+      "stale_reason": null,
+      "path": "reference/eoc-conditions.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/"
+    },
+    {
+      "id": "reference.eoc-conditions",
+      "title": "EOC 条件注册表",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 30,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/reference/json/ccb_eoc_conditions.json",
+        "tools/json_api/contract-inventory.schema.json",
+        "tools/json_api/generate_contracts.py",
+        "src/condition.cpp"
+      ],
+      "source_symbols": [
+        "conditional_t::conditional_t"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "f3d7f571789f2deb2da7a49a570610f5edf6d4c49354d107fe8648e26c69899d",
+      "authority": "api-contract",
+      "verified_commit": "a038c765568fc47a58ef8c523b2722d416f5f61c",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_json_eoc_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "6e45a0791aa7ca97e49a7b8ae833aa5ff2b12d6932b19de90ef6a84028b0232e",
+      "prerequisites": [
+        "eoc.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from CCB source inventories; CCB contributors retain source attribution.",
+      "example_validation_ids": [],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "eoc",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566",
+      "stale_reason": null,
+      "path": "reference/eoc-conditions.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/"
+    },
+    {
+      "id": "reference.eoc-effects",
+      "title": "EOC effect registry",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 30,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/reference/json/ccb_eoc_effects.json",
+        "tools/json_api/contract-inventory.schema.json",
+        "tools/json_api/generate_contracts.py",
+        "src/npctalk.cpp"
+      ],
+      "source_symbols": [
+        "talk_effect_t::parse_sub_effect",
+        "talk_effect_t::parse_string_effect"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "329443b8b860f047a1270a8db5b0a0f52fa5c445c69d12dfeb81e36223efb88a",
+      "authority": "api-contract",
+      "verified_commit": "a038c765568fc47a58ef8c523b2722d416f5f61c",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_json_eoc_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "046951ab1021e4a65f28971353e179b5ae60526c3eb03ebb927688f2a9fb854e",
+      "prerequisites": [
+        "eoc.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from CCB source inventories; CCB contributors retain source attribution.",
+      "example_validation_ids": [],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "eoc",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566",
+      "stale_reason": null,
+      "path": "reference/eoc-effects.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/"
+    },
+    {
+      "id": "reference.eoc-effects",
+      "title": "EOC 效果注册表",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 30,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/reference/json/ccb_eoc_effects.json",
+        "tools/json_api/contract-inventory.schema.json",
+        "tools/json_api/generate_contracts.py",
+        "src/npctalk.cpp"
+      ],
+      "source_symbols": [
+        "talk_effect_t::parse_sub_effect",
+        "talk_effect_t::parse_string_effect"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "329443b8b860f047a1270a8db5b0a0f52fa5c445c69d12dfeb81e36223efb88a",
+      "authority": "api-contract",
+      "verified_commit": "a038c765568fc47a58ef8c523b2722d416f5f61c",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_json_eoc_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "046951ab1021e4a65f28971353e179b5ae60526c3eb03ebb927688f2a9fb854e",
+      "prerequisites": [
+        "eoc.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from CCB source inventories; CCB contributors retain source attribution.",
+      "example_validation_ids": [],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "eoc",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566",
+      "stale_reason": null,
+      "path": "reference/eoc-effects.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/"
+    },
+    {
+      "id": "reference.json-object-types",
+      "title": "JSON object-type registry",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 30,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/reference/json/ccb_json_object_types.json",
+        "tools/json_api/contract-inventory.schema.json",
+        "tools/json_api/generate_contracts.py",
+        "src/init.cpp"
+      ],
+      "source_symbols": [
+        "DynamicDataLoader::initialize"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "a46589421b0c59fb0e38d806aed2c7c1c30700335255b5cf26f2d43227461663",
+      "authority": "api-contract",
+      "verified_commit": "a038c765568fc47a58ef8c523b2722d416f5f61c",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_json_eoc_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "596751e1d6414547d647035972c9ea1a3028a0fbc1afaab964d04a09f928189e",
+      "prerequisites": [
+        "json.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from CCB source inventories; CCB contributors retain source attribution.",
+      "example_validation_ids": [],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "json",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566",
+      "stale_reason": null,
+      "path": "reference/json-object-types.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/"
+    },
+    {
+      "id": "reference.json-object-types",
+      "title": "JSON 对象类型注册表",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 30,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/reference/json/ccb_json_object_types.json",
+        "tools/json_api/contract-inventory.schema.json",
+        "tools/json_api/generate_contracts.py",
+        "src/init.cpp"
+      ],
+      "source_symbols": [
+        "DynamicDataLoader::initialize"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "a46589421b0c59fb0e38d806aed2c7c1c30700335255b5cf26f2d43227461663",
+      "authority": "api-contract",
+      "verified_commit": "a038c765568fc47a58ef8c523b2722d416f5f61c",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_json_eoc_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "596751e1d6414547d647035972c9ea1a3028a0fbc1afaab964d04a09f928189e",
+      "prerequisites": [
+        "json.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from CCB source inventories; CCB contributors retain source attribution.",
+      "example_validation_ids": [],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "json",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566",
+      "stale_reason": null,
+      "path": "reference/json-object-types.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/"
     },
     {
       "id": "validation.debugging",
@@ -5832,6 +7282,22 @@
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/"
     },
+    "eoc.nesting": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/nesting/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/nesting/"
+    },
+    "eoc.overview": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/"
+    },
+    "eoc.talkers": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/"
+    },
+    "eoc.variables-context": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/variables-context/"
+    },
     "getting-started.common-tasks": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/common-tasks/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/common-tasks/"
@@ -5852,6 +7318,18 @@
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/"
     },
+    "json.inheritance-copy-from": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/inheritance-copy-from/"
+    },
+    "json.overview": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/"
+    },
+    "json.validation": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/"
+    },
     "maintenance.releases": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/releases/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/releases/"
@@ -5860,9 +7338,25 @@
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/upstream-sync/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/upstream-sync/"
     },
+    "mods.complete-json-eoc-mod": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/"
+    },
     "platforms.matrix": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/"
+    },
+    "reference.eoc-conditions": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/"
+    },
+    "reference.eoc-effects": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/"
+    },
+    "reference.json-object-types": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/"
     },
     "validation.debugging": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/debugging/",
@@ -5980,20 +7474,42 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/save/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/ai-assisted-development/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/documentation-policy/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/nesting/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/variables-context/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/common-tasks/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/experienced-index/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/governance/security-license/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/inheritance-copy-from/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/upstream-sync/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/debugging/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/testing/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/nesting/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/common-tasks/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/experienced-index/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/governance/security-license/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/upstream-sync/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/validation/debugging/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/validation/testing/"
   ],

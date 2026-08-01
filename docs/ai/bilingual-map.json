@@ -139,6 +139,22 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/"
   },
+  "eoc.nesting": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/nesting/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/nesting/"
+  },
+  "eoc.overview": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/"
+  },
+  "eoc.talkers": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/"
+  },
+  "eoc.variables-context": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/variables-context/"
+  },
   "getting-started.common-tasks": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/common-tasks/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/common-tasks/"
@@ -159,6 +175,18 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/"
   },
+  "json.inheritance-copy-from": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/inheritance-copy-from/"
+  },
+  "json.overview": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/"
+  },
+  "json.validation": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/"
+  },
   "maintenance.releases": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/releases/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/releases/"
@@ -167,9 +195,25 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/upstream-sync/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/upstream-sync/"
   },
+  "mods.complete-json-eoc-mod": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/"
+  },
   "platforms.matrix": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/"
+  },
+  "reference.eoc-conditions": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/"
+  },
+  "reference.eoc-effects": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/"
+  },
+  "reference.json-object-types": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/"
   },
   "validation.debugging": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/debugging/",

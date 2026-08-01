@@ -1,0 +1,94 @@
+---
+# GENERATED FROM docs-catalog.yml. DO NOT EDIT THIS BLOCK.
+id: eoc.talkers
+title: EOC Talker 与 alpha/beta 路由
+language: zh_CN
+status: draft
+doc_type: explanation
+audiences:
+- new-contributor
+- experienced-contributor
+- maintainer
+- mod-author
+- api-user
+owners:
+- CCB maintainers
+reviewers:
+- Documentation reviewers
+review_interval_days: 60
+last_human_reviewer: LYHGLYTX
+source_paths:
+- data/reference/json/ccb_eoc_conditions.json
+- data/reference/json/ccb_eoc_effects.json
+- tools/json_api/contract-inventory.schema.json
+- tools/json_api/generate_contracts.py
+- tools/json_api/test_generate_contracts.py
+- src/condition.cpp
+- src/npctalk.cpp
+- src/effect_on_condition.cpp
+- src/effect_on_condition.h
+- tests/eoc_test.cpp
+- doc/JSON/EFFECT_ON_CONDITION.md
+source_symbols: []
+source_queries: []
+source_fingerprint: f52b67e59b777a2d203f58ddaef85d38aa06ac0792196b54e829681279e2f594
+authority: api-contract
+verified_commit: a038c765568fc47a58ef8c523b2722d416f5f61c
+verified_at: '2026-08-02'
+generated: false
+generated_by: null
+include_in_search: false
+include_in_ai_index: false
+translation_status: current
+translation_stale_since: null
+translation_source_fingerprint: 633c116b8ceb25994926cb0d914dc6f0b5623695fae7fddbefd46996ec0cf860
+prerequisites:
+- eoc.overview
+depends_on:
+- reference.eoc-conditions
+- reference.eoc-effects
+redirect_from: []
+supersedes: []
+license: CC-BY-SA-3.0
+attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+example_validation_ids: []
+api_version: contract-inventory-v1
+deprecated: false
+deprecation_replacement: null
+risk_group: eoc
+risk_level: high
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566
+stale_reason: null
+search:
+  exclude: true
+---
+
+# EOC Talker 与 alpha/beta 路由
+
+EOC 条件和效果在 dialogue 上下文中操作 alpha/beta talker。历史键名通常用 `u_` 和
+`npc_` 表示这两个路由方向，但前缀本身不证明对象一定是玩家 avatar 或普通 NPC。
+事件、物品、怪物、地图位置和嵌套调用可以构造不同 talker 组合。
+
+## 清单如何表达未知
+
+条件清单中 235 个键标为 `legacy_alpha_beta_alias`，40 个为 `unknown`；效果清单中对应
+为 161 和 145。这里的 `legacy_alpha_beta_alias` 只证明注册别名分组，绝不等于已分类的
+运行时 talker 类型。
+
+使用某个键之前：
+
+1. 在条件或效果注册表中找到 parser/handler。
+2. 阅读 handler 如何从 `dialogue` 取得 alpha/beta。
+3. 阅读触发 EOC 的调用点，确认事件或父 EOC 怎样构造 dialogue。
+4. 如果发生 talker 交换或嵌套调用，分别测试两个方向。
+5. 不要仅凭 `u_`/`npc_` 名称写入“玩家专用”或“NPC 专用”文档。
+
+## 失败模式
+
+- alpha/beta 为空或类型不支持所调用的接口；
+- EVENT 的焦点实体与作者假设不同；
+- 父 EOC 把 context 传入子 EOC，但没有传入预期 talker；
+- 使用别名后测试只覆盖一个路由方向。
+
+当前生成参考刻意显示 talker 分类状态。只有 handler、调用点和测试共同证明后，才能把
+具体兼容 talker 写入正式契约。
