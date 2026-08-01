@@ -53,6 +53,27 @@ risk_group: json
 risk_level: high
 pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/vehicle-prototypes/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/vehicle-prototypes/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/vehicle-prototypes/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/vehicle-prototypes/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_urls:
+- path: doc/JSON/VEHICLES_JSON.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/VEHICLES_JSON.md
+- path: src/veh_type.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/veh_type.cpp
+- path: src/veh_type.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/veh_type.h
+- path: data/json/road_vehicles.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/road_vehicles.json
+- path: data/json/vehicleparts/vehicle_parts.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/vehicleparts/vehicle_parts.json
+- path: tests/vehicle_export_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/vehicle_export_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.vehicle-prototypes%29%3A+&body=Document+ID%3A+json.vehicle-prototypes%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

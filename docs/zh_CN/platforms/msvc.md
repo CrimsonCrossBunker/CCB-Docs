@@ -50,6 +50,23 @@ risk_group: platforms-windows
 risk_level: high
 pending_source_pr: null
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/dbaedf8357408ae6f96309732d6e087e9b878e18
+source_urls:
+- path: CMakePresets.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/CMakePresets.json
+- path: build-scripts/MSVC.cmake
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/build-scripts/MSVC.cmake
+- path: build-scripts/windows-tiles-sounds-x64-msvc.cmake
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/build-scripts/windows-tiles-sounds-x64-msvc.cmake
+- path: .github/workflows/msvc-full-features.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/.github/workflows/msvc-full-features.yml
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28platforms.msvc%29%3A+&body=Document+ID%3A+platforms.msvc%0ALanguage%3A+zh_CN%0AVerified+commit%3A+dbaedf8357408ae6f96309732d6e087e9b878e18%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

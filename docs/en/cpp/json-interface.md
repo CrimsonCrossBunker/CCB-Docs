@@ -53,6 +53,25 @@ risk_group: cpp
 risk_level: high
 pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/json-interface/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/json-interface/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/json-interface/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/json-interface/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_urls:
+- path: doc/c++/JSON_INTERFACE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/c++/JSON_INTERFACE.md
+- path: src/flexbuffer_json.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/flexbuffer_json.h
+- path: src/flexbuffer_json.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/flexbuffer_json.cpp
+- path: src/generic_factory.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/generic_factory.h
+- path: tests/generic_factory_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/generic_factory_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28cpp-json-interface%29%3A+&body=Document+ID%3A+cpp-json-interface%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

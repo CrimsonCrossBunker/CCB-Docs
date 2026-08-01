@@ -50,6 +50,25 @@ risk_group: documentation-policy
 risk_level: high
 pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/560
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/documentation-policy/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/documentation-policy/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/documentation-policy/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/documentation-policy/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/2c899a3db790e11a6ff44d91f319064b1ee65d2a
+source_urls:
+- path: AGENTS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c899a3db790e11a6ff44d91f319064b1ee65d2a/AGENTS.md
+- path: GOVERNANCE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c899a3db790e11a6ff44d91f319064b1ee65d2a/GOVERNANCE.md
+- path: ai/docs-impact.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c899a3db790e11a6ff44d91f319064b1ee65d2a/ai/docs-impact.yml
+- path: ai/generated-files.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c899a3db790e11a6ff44d91f319064b1ee65d2a/ai/generated-files.yml
+- path: doc/migration/markdown-inventory.schema.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c899a3db790e11a6ff44d91f319064b1ee65d2a/doc/migration/markdown-inventory.schema.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28contributing.documentation-policy%29%3A+&body=Document+ID%3A+contributing.documentation-policy%0ALanguage%3A+zh_CN%0AVerified+commit%3A+2c899a3db790e11a6ff44d91f319064b1ee65d2a%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

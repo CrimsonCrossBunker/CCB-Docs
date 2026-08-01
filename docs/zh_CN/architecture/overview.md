@@ -52,6 +52,25 @@ risk_group: architecture
 risk_level: normal
 pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/560
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/overview/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/overview/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/overview/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/overview/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/2c899a3db790e11a6ff44d91f319064b1ee65d2a
+source_urls:
+- path: AGENTS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c899a3db790e11a6ff44d91f319064b1ee65d2a/AGENTS.md
+- path: ai/project-map.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c899a3db790e11a6ff44d91f319064b1ee65d2a/ai/project-map.yml
+- path: src/AGENTS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c899a3db790e11a6ff44d91f319064b1ee65d2a/src/AGENTS.md
+- path: data/AGENTS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c899a3db790e11a6ff44d91f319064b1ee65d2a/data/AGENTS.md
+- path: tests/AGENTS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c899a3db790e11a6ff44d91f319064b1ee65d2a/tests/AGENTS.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28architecture.overview%29%3A+&body=Document+ID%3A+architecture.overview%0ALanguage%3A+zh_CN%0AVerified+commit%3A+2c899a3db790e11a6ff44d91f319064b1ee65d2a%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

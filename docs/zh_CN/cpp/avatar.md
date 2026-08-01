@@ -49,6 +49,23 @@ risk_group: cpp-avatar
 risk_level: normal
 pending_source_pr: null
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/avatar/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/avatar/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/avatar/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/avatar/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/dbaedf8357408ae6f96309732d6e087e9b878e18
+source_urls:
+- path: src/avatar.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/src/avatar.h
+- path: src/avatar.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/src/avatar.cpp
+- path: src/savegame_json.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/src/savegame_json.cpp
+- path: tests/new_character_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/tests/new_character_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28cpp.avatar%29%3A+&body=Document+ID%3A+cpp.avatar%0ALanguage%3A+zh_CN%0AVerified+commit%3A+dbaedf8357408ae6f96309732d6e087e9b878e18%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

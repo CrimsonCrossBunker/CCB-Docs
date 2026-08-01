@@ -48,6 +48,21 @@ risk_group: design
 risk_level: normal
 pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/design/frequently-made-suggestions/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/design/frequently-made-suggestions/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/design/frequently-made-suggestions/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/design/frequently-made-suggestions/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_urls:
+- path: doc/FREQUENTLY_MADE_SUGGESTIONS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/FREQUENTLY_MADE_SUGGESTIONS.md
+- path: GOVERNANCE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/GOVERNANCE.md
+- path: README.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/README.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28design.frequently-made-suggestions%29%3A+&body=Document+ID%3A+design.frequently-made-suggestions%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

@@ -54,6 +54,23 @@ risk_group: cpp-mapgen
 risk_level: high
 pending_source_pr: null
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/mapgen/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/mapgen/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/mapgen/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/mapgen/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/dbaedf8357408ae6f96309732d6e087e9b878e18
+source_urls:
+- path: src/mapgen.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/src/mapgen.h
+- path: src/mapgen.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/src/mapgen.cpp
+- path: src/mapgendata.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/src/mapgendata.h
+- path: tests/mapgen_function_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/tests/mapgen_function_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28cpp.mapgen%29%3A+&body=Document+ID%3A+cpp.mapgen%0ALanguage%3A+zh_CN%0AVerified+commit%3A+dbaedf8357408ae6f96309732d6e087e9b878e18%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

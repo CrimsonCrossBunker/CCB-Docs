@@ -51,6 +51,25 @@ risk_group: json
 risk_level: high
 pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/json-style/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/json-style/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/json-style/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/json-style/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_urls:
+- path: doc/JSON/JSON_STYLE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/JSON_STYLE.md
+- path: Makefile
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/Makefile
+- path: .github/workflows/json.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/.github/workflows/json.yml
+- path: tools/format/format_main.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tools/format/format_main.cpp
+- path: data/AGENTS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/AGENTS.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28contributing.json-style%29%3A+&body=Document+ID%3A+contributing.json-style%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

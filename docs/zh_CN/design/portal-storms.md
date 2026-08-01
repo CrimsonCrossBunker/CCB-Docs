@@ -51,6 +51,25 @@ risk_group: design
 risk_level: normal
 pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/design/portal-storms/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/design/portal-storms/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/design/portal-storms/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/design/portal-storms/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_urls:
+- path: doc/design-balance-lore/PORTAL_STORM_BALANCE_AND_DESIGN.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/PORTAL_STORM_BALANCE_AND_DESIGN.md
+- path: src/game.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/game.cpp
+- path: data/json/effects_on_condition/nether_eocs/portal_storm_effect_on_condition.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/effects_on_condition/nether_eocs/portal_storm_effect_on_condition.json
+- path: data/json/mapgen/portal_storm.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/mapgen/portal_storm.json
+- path: tests/widget_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/widget_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28design-portal-storms%29%3A+&body=Document+ID%3A+design-portal-storms%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

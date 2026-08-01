@@ -53,6 +53,25 @@ risk_group: lua-api
 risk_level: high
 pending_source_pr: null
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/dbaedf8357408ae6f96309732d6e087e9b878e18
+source_urls:
+- path: src/catalua_bindings.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/src/catalua_bindings.cpp
+- path: src/catalua_ui_manifest.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/src/catalua_ui_manifest.cpp
+- path: src/catalua_ui_registry.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/src/catalua_ui_registry.cpp
+- path: data/lua/types/ccb_api_v5.d.lua
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/data/lua/types/ccb_api_v5.d.lua
+- path: data/lua/manifest.schema.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/data/lua/manifest.schema.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28cpp.lua-bridge%29%3A+&body=Document+ID%3A+cpp.lua-bridge%0ALanguage%3A+en%0AVerified+commit%3A+dbaedf8357408ae6f96309732d6e087e9b878e18%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

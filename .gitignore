@@ -1,6 +1,8 @@
 /.build/
 /.source/
 /.venv/
+/artifacts/
+/node_modules/
 /site/
 __pycache__/
 *.py[cod]

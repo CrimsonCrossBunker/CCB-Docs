@@ -48,6 +48,23 @@ risk_group: testing
 risk_level: normal
 pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/560
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/debugging/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/validation/debugging/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/debugging/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/validation/debugging/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/2c899a3db790e11a6ff44d91f319064b1ee65d2a
+source_urls:
+- path: CONTRIBUTING.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c899a3db790e11a6ff44d91f319064b1ee65d2a/CONTRIBUTING.md
+- path: doc/c++/TESTING.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c899a3db790e11a6ff44d91f319064b1ee65d2a/doc/c++/TESTING.md
+- path: doc/c++/PERFORMANCE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c899a3db790e11a6ff44d91f319064b1ee65d2a/doc/c++/PERFORMANCE.md
+- path: tests/AGENTS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c899a3db790e11a6ff44d91f319064b1ee65d2a/tests/AGENTS.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28validation.debugging%29%3A+&body=Document+ID%3A+validation.debugging%0ALanguage%3A+en%0AVerified+commit%3A+2c899a3db790e11a6ff44d91f319064b1ee65d2a%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

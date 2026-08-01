@@ -52,6 +52,25 @@ risk_group: json
 risk_level: high
 pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/terrain-furniture-transforms/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/terrain-furniture-transforms/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/terrain-furniture-transforms/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/terrain-furniture-transforms/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_urls:
+- path: doc/JSON/TER_FURN_TRANSFORM.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/TER_FURN_TRANSFORM.md
+- path: src/magic_ter_fur_transform.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/magic_ter_fur_transform.cpp
+- path: src/magic_ter_furn_transform.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/magic_ter_furn_transform.h
+- path: src/mapgen.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/mapgen.cpp
+- path: data/json/mapgen/haunting.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/mapgen/haunting.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.terrain-furniture-transforms%29%3A+&body=Document+ID%3A+json.terrain-furniture-transforms%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

@@ -52,6 +52,25 @@ risk_group: compatibility
 risk_level: high
 pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/560
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/mods/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/mods/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/mods/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/mods/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/2c899a3db790e11a6ff44d91f319064b1ee65d2a
+source_urls:
+- path: CONTRIBUTING.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c899a3db790e11a6ff44d91f319064b1ee65d2a/CONTRIBUTING.md
+- path: doc/MOD_COMPATIBILITY.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c899a3db790e11a6ff44d91f319064b1ee65d2a/doc/MOD_COMPATIBILITY.md
+- path: src/mod_manager.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c899a3db790e11a6ff44d91f319064b1ee65d2a/src/mod_manager.cpp
+- path: src/worldfactory.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c899a3db790e11a6ff44d91f319064b1ee65d2a/src/worldfactory.cpp
+- path: tests/worldfactory_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c899a3db790e11a6ff44d91f319064b1ee65d2a/tests/worldfactory_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28compatibility.mods%29%3A+&body=Document+ID%3A+compatibility.mods%0ALanguage%3A+zh_CN%0AVerified+commit%3A+2c899a3db790e11a6ff44d91f319064b1ee65d2a%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

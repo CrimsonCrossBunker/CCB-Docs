@@ -11,6 +11,7 @@ import re
 import sys
 from collections import defaultdict
 from pathlib import Path
+from urllib.parse import quote_plus
 
 import jsonschema
 import yaml
@@ -242,16 +243,66 @@ def public_url(catalog: dict, page: dict) -> str:
     return base + prefix + suffix
 
 
-def metadata_for(page: dict) -> dict:
+def alternate_urls(catalog: dict, page: dict) -> dict[str, str]:
+    """Return the canonical same-page URL for every catalog language."""
+    pairs = {
+        item["language"]: public_url(catalog, item)
+        for item in catalog["pages"]
+        if item["id"] == page["id"]
+    }
+    return {
+        "zh": pairs["zh_CN"],
+        "en": pairs["en"],
+        "x-default": pairs["zh_CN"],
+    }
+
+
+def documentation_issue_url(catalog: dict, page: dict) -> str:
+    repository = catalog["site"]["documentation_repository"].rstrip("/")
+    title = quote_plus(f"docs({page['id']}): ")
+    body = quote_plus(
+        "Document ID: "
+        f"{page['id']}\nLanguage: {page['language']}\n"
+        f"Verified commit: {page['verified_commit']}\n\n"
+        "Describe the documentation problem:\n"
+    )
+    return f"{repository}/issues/new?title={title}&body={body}"
+
+
+def metadata_for(catalog: dict, page: dict) -> dict:
     metadata = {field: page.get(field) for field in METADATA_FIELDS}
+    source_repository = catalog["site"]["source_repository"].rstrip("/")
+    metadata.update(
+        {
+            "canonical_url": public_url(catalog, page),
+            "alternate_urls": alternate_urls(catalog, page),
+            "source_repository": source_repository,
+            "source_commit_url": (
+                f"{source_repository}/commit/{page['verified_commit']}"
+            ),
+            "source_urls": [
+                {
+                    "path": path,
+                    "url": (
+                        f"{source_repository}/blob/{page['verified_commit']}/{path}"
+                    ),
+                }
+                for path in page["source_paths"]
+            ],
+            "documentation_issue_url": documentation_issue_url(catalog, page),
+        }
+    )
     if not page["include_in_search"]:
         metadata["search"] = {"exclude": True}
     return metadata
 
 
-def generated_front_matter(page: dict) -> str:
+def generated_front_matter(catalog: dict, page: dict) -> str:
     body = yaml.safe_dump(
-        metadata_for(page), allow_unicode=True, sort_keys=False, width=100
+        metadata_for(catalog, page),
+        allow_unicode=True,
+        sort_keys=False,
+        width=100,
     )
     return (
         "---\n"
@@ -272,7 +323,10 @@ def page_outputs(catalog: dict) -> dict[Path, str]:
         if not path.is_file():
             raise CatalogError(f"missing page source: {path.relative_to(ROOT)}")
         content = path.read_text(encoding="utf-8")
-        outputs[path] = replace_front_matter(content, generated_front_matter(page))
+        outputs[path] = replace_front_matter(
+            content,
+            generated_front_matter(catalog, page),
+        )
     return outputs
 
 
@@ -288,11 +342,13 @@ def index_payload(catalog: dict) -> dict:
     sitemap = []
 
     for page in catalog["pages"]:
+        bilingual[page["id"]][page["language"]] = public_url(catalog, page)
+
+    for page in catalog["pages"]:
         url = public_url(catalog, page)
         record = {field: page.get(field) for field in METADATA_FIELDS}
         record.update({"path": page["path"], "url": url})
         pages.append(record)
-        bilingual[page["id"]][page["language"]] = url
         if page["include_in_ai_index"]:
             ai_allowlist.append(url)
         if page["include_in_search"]:

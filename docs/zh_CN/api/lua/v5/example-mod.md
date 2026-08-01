@@ -58,6 +58,29 @@ risk_group: lua-api
 risk_level: high
 pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/example-mod/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/example-mod/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/example-mod/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/example-mod/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd
+source_urls:
+- path: data/lua/manifest.schema.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/manifest.schema.json
+- path: data/lua/reference/ccb_public_api_v5.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/reference/ccb_public_api_v5.json
+- path: data/lua/examples/api_v5_mod/README.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/examples/api_v5_mod/README.md
+- path: data/lua/examples/api_v5_mod/modinfo.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/examples/api_v5_mod/modinfo.json
+- path: data/lua/examples/api_v5_mod/lua/manifest.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/examples/api_v5_mod/lua/manifest.json
+- path: data/lua/examples/api_v5_mod/lua/main.lua
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/examples/api_v5_mod/lua/main.lua
+- path: data/lua/examples/api_v5_mod/lua/lib/model.lua
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/examples/api_v5_mod/lua/lib/model.lua
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.example-mod%29%3A+&body=Document+ID%3A+api.lua.v5.example-mod%0ALanguage%3A+zh_CN%0AVerified+commit%3A+3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

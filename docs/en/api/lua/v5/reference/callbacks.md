@@ -49,6 +49,19 @@ risk_group: lua-api
 risk_level: high
 pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/callbacks/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/callbacks/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/callbacks/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/callbacks/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd
+source_urls:
+- path: data/lua/reference/ccb_public_api_v5.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/reference/ccb_public_api_v5.json
+- path: data/lua/reference/ccb_public_api_v5_coverage.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/reference/ccb_public_api_v5_coverage.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.reference.callbacks%29%3A+&body=Document+ID%3A+api.lua.v5.reference.callbacks%0ALanguage%3A+en%0AVerified+commit%3A+3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

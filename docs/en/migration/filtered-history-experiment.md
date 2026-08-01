@@ -44,6 +44,19 @@ risk_group: migration-history
 risk_level: normal
 pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/migration/filtered-history-experiment/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/migration/filtered-history-experiment/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/migration/filtered-history-experiment/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/migration/filtered-history-experiment/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_urls:
+- path: doc/migration/markdown-inventory.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/migration/markdown-inventory.yml
+- path: doc/migration/history-assessment.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/migration/history-assessment.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28migration.filtered-history-experiment%29%3A+&body=Document+ID%3A+migration.filtered-history-experiment%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

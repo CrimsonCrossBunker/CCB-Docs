@@ -48,6 +48,21 @@ risk_group: design
 risk_level: normal
 pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/archive/design/melee-balance-spreadsheet/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/archive/design/melee-balance-spreadsheet/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/archive/design/melee-balance-spreadsheet/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/archive/design/melee-balance-spreadsheet/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_urls:
+- path: doc/design-balance-lore/melee_weapons/MELEE_BALANCE_SPREADSHEET.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/melee_weapons/MELEE_BALANCE_SPREADSHEET.md
+- path: src/melee.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/melee.cpp
+- path: tests/melee_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/melee_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28archive-melee-balance-spreadsheet%29%3A+&body=Document+ID%3A+archive-melee-balance-spreadsheet%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

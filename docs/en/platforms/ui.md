@@ -54,6 +54,23 @@ risk_group: platforms-ui
 risk_level: high
 pending_source_pr: null
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/dbaedf8357408ae6f96309732d6e087e9b878e18
+source_urls:
+- path: src/ui_manager.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/src/ui_manager.h
+- path: src/input_context.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/src/input_context.cpp
+- path: src/sdltiles.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/src/sdltiles.h
+- path: android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28platforms.ui%29%3A+&body=Document+ID%3A+platforms.ui%0ALanguage%3A+en%0AVerified+commit%3A+dbaedf8357408ae6f96309732d6e087e9b878e18%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

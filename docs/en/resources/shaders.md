@@ -50,6 +50,23 @@ risk_group: resources-shaders
 risk_level: high
 pending_source_pr: null
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/shaders/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/resources/shaders/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/shaders/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/resources/shaders/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/dbaedf8357408ae6f96309732d6e087e9b878e18
+source_urls:
+- path: tools/build_shaders.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/tools/build_shaders.py
+- path: .github/actions/build-sdl3-shaders/action.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/.github/actions/build-sdl3-shaders/action.yml
+- path: src/cata_shader.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/src/cata_shader.cpp
+- path: data/shaders/nightvision.frag
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/data/shaders/nightvision.frag
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28resources.shaders%29%3A+&body=Document+ID%3A+resources.shaders%0ALanguage%3A+en%0AVerified+commit%3A+dbaedf8357408ae6f96309732d6e087e9b878e18%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

@@ -58,6 +58,37 @@ risk_group: eoc
 risk_level: high
 pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/nesting/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/eoc/nesting/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/nesting/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/eoc/nesting/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/a038c765568fc47a58ef8c523b2722d416f5f61c
+source_urls:
+- path: data/reference/json/ccb_eoc_conditions.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a038c765568fc47a58ef8c523b2722d416f5f61c/data/reference/json/ccb_eoc_conditions.json
+- path: data/reference/json/ccb_eoc_effects.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a038c765568fc47a58ef8c523b2722d416f5f61c/data/reference/json/ccb_eoc_effects.json
+- path: tools/json_api/contract-inventory.schema.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a038c765568fc47a58ef8c523b2722d416f5f61c/tools/json_api/contract-inventory.schema.json
+- path: tools/json_api/generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a038c765568fc47a58ef8c523b2722d416f5f61c/tools/json_api/generate_contracts.py
+- path: tools/json_api/test_generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a038c765568fc47a58ef8c523b2722d416f5f61c/tools/json_api/test_generate_contracts.py
+- path: src/condition.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a038c765568fc47a58ef8c523b2722d416f5f61c/src/condition.cpp
+- path: src/npctalk.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a038c765568fc47a58ef8c523b2722d416f5f61c/src/npctalk.cpp
+- path: src/effect_on_condition.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a038c765568fc47a58ef8c523b2722d416f5f61c/src/effect_on_condition.cpp
+- path: src/effect_on_condition.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a038c765568fc47a58ef8c523b2722d416f5f61c/src/effect_on_condition.h
+- path: tests/eoc_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a038c765568fc47a58ef8c523b2722d416f5f61c/tests/eoc_test.cpp
+- path: doc/JSON/EFFECT_ON_CONDITION.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a038c765568fc47a58ef8c523b2722d416f5f61c/doc/JSON/EFFECT_ON_CONDITION.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28eoc.nesting%29%3A+&body=Document+ID%3A+eoc.nesting%0ALanguage%3A+en%0AVerified+commit%3A+a038c765568fc47a58ef8c523b2722d416f5f61c%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

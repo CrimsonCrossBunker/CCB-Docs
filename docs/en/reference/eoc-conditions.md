@@ -50,6 +50,23 @@ risk_group: eoc
 risk_level: high
 pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/a038c765568fc47a58ef8c523b2722d416f5f61c
+source_urls:
+- path: data/reference/json/ccb_eoc_conditions.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a038c765568fc47a58ef8c523b2722d416f5f61c/data/reference/json/ccb_eoc_conditions.json
+- path: tools/json_api/contract-inventory.schema.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a038c765568fc47a58ef8c523b2722d416f5f61c/tools/json_api/contract-inventory.schema.json
+- path: tools/json_api/generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a038c765568fc47a58ef8c523b2722d416f5f61c/tools/json_api/generate_contracts.py
+- path: src/condition.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a038c765568fc47a58ef8c523b2722d416f5f61c/src/condition.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28reference.eoc-conditions%29%3A+&body=Document+ID%3A+reference.eoc-conditions%0ALanguage%3A+en%0AVerified+commit%3A+a038c765568fc47a58ef8c523b2722d416f5f61c%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

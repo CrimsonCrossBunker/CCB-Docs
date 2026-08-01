@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  {% if page and page.meta %}
+    {% for language, url in page.meta.alternate_urls.items() %}
+      <link rel="alternate" hreflang="{{ language }}" href="{{ url }}">
+    {% endfor %}
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="CCB Developer Documentation">
+    <meta property="og:title" content="{{ page.meta.title | e }}">
+    <meta property="og:description" content="{{ config.site_description | e }}">
+    <meta property="og:url" content="{{ page.meta.canonical_url }}">
+    <meta property="og:locale" content="{{ 'zh_CN' if page.meta.language == 'zh_CN' else 'en_US' }}">
+    <meta property="og:locale:alternate" content="{{ 'en_US' if page.meta.language == 'zh_CN' else 'zh_CN' }}">
+    <script type="application/ld+json">{{ {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      "headline": page.meta.title,
+      "inLanguage": "zh-CN" if page.meta.language == "zh_CN" else "en",
+      "dateModified": page.meta.verified_at,
+      "url": page.meta.canonical_url,
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "CCB Developer Documentation",
+        "url": config.extra.catalog_root_url
+      },
+      "codeRepository": page.meta.source_repository,
+      "license": page.meta.license
+    } | tojson }}</script>
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+  {% if page and page.meta %}
+    {% if page.meta.status in ["draft", "stale", "archived"] %}
+      <aside class="ccb-page-banner ccb-page-banner--{{ page.meta.status }}" role="status">
+        {% if page.meta.status == "draft" %}
+          {{ "草稿：本页尚未进入正式导航或索引。" if page.meta.language == "zh_CN" else "Draft: this page is not in production navigation or indexes." }}
+        {% elif page.meta.status == "stale" %}
+          {{ "过期：本页正在复核，请以源码契约为准。" if page.meta.language == "zh_CN" else "Stale: this page is under review; follow the source contract." }}
+          {% if page.meta.stale_reason %} {{ page.meta.stale_reason }}{% endif %}
+        {% else %}
+          {{ "归档：本页仅为历史记录，不代表当前契约。" if page.meta.language == "zh_CN" else "Archive: retained for history; this is not the current contract." }}
+        {% endif %}
+      </aside>
+    {% endif %}
+    {% if page.meta.translation_status == "translation-stale" %}
+      <aside class="ccb-page-banner ccb-page-banner--translation-stale" role="status">
+        English translation is being refreshed from the current Chinese page.
+      </aside>
+    {% endif %}
+    {% if page.meta.generated %}
+      <aside class="ccb-page-banner ccb-page-banner--generated" role="status">
+        {{ "生成页面：请修改契约或生成器，不要手工编辑。" if page.meta.language == "zh_CN" else "Generated page: change the contract or generator; do not hand-edit." }}
+      </aside>
+    {% endif %}
+    <div class="ccb-page-provenance" aria-label="{{ '页面来源' if page.meta.language == 'zh_CN' else 'Page provenance' }}">
+      <span class="ccb-page-provenance__label">{{ "来源" if page.meta.language == "zh_CN" else "Sources" }}:</span>
+      {% for source in page.meta.source_urls %}
+        <a href="{{ source.url }}">{{ source.path }}</a>
+      {% endfor %}
+      <a class="ccb-badge" href="{{ page.meta.source_commit_url }}">
+        commit {{ page.meta.verified_commit[:12] }}
+      </a>
+      <span class="ccb-badge">{{ page.meta.authority }}</span>
+      {% if page.meta.generated %}<span class="ccb-badge">generated</span>{% endif %}
+    </div>
+  {% endif %}
+  {{ super() }}
+  {% if page and page.meta %}
+    <footer class="ccb-page-actions">
+      <a href="{{ page.meta.documentation_issue_url }}" data-ccb-issue-link>
+        {{ "报告本页问题（Alt+I）" if page.meta.language == "zh_CN" else "Report a page issue (Alt+I)" }}
+      </a>
+      {% set alternate_language = "en" if page.meta.language == "zh_CN" else "zh" %}
+      <a href="{{ page.meta.alternate_urls[alternate_language] }}" hreflang="{{ alternate_language }}" data-ccb-language-switch>
+        {{ "English（Alt+L）" if page.meta.language == "zh_CN" else "中文（Alt+L）" }}
+      </a>
+    </footer>
+  {% endif %}
+{% endblock %}

@@ -3,6 +3,7 @@ site:
   default_language: zh_CN
   languages: [zh_CN, en]
   base_url: https://crimsoncrossbunker.github.io/CCB-Docs/
+  documentation_repository: https://github.com/CrimsonCrossBunker/CCB-Docs
   source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
   source_branch: master
 pages:
