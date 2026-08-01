@@ -9,6 +9,7 @@ import shutil
 import sys
 from collections import OrderedDict
 from pathlib import Path
+from urllib.parse import urlsplit
 
 import yaml
 from mkdocs.commands.build import build
@@ -19,6 +20,16 @@ from generate_catalog import ROOT, CatalogError, load_catalog, page_source
 
 BUILD_ROOT = ROOT / ".build/site-source"
 LANGUAGE_PREFIX = {"zh_CN": "", "en": "en"}
+
+
+def language_alternates(catalog: dict) -> list[dict[str, str]]:
+    """Return language-root links that work on GitHub project Pages."""
+    base_path = urlsplit(catalog["site"]["base_url"]).path.rstrip("/")
+    root = f"{base_path}/" if base_path else "/"
+    return [
+        {"name": "中文", "link": root, "lang": "zh"},
+        {"name": "English", "link": f"{root}en/", "lang": "en"},
+    ]
 
 
 def included_pages(catalog: dict, language: str, include_drafts: bool) -> list[dict]:
@@ -102,6 +113,7 @@ def stage_language(
         }
     )
     config["theme"]["language"] = "zh" if language == "zh_CN" else "en"
+    config.setdefault("extra", {})["alternate"] = language_alternates(catalog)
     home = next((page for page in pages if page["path"] == "index.md"), None)
     if home:
         config["site_name"] = home["title"]
