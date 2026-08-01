@@ -28,9 +28,9 @@ navigation site for Cataclysm: Cleanwater Bomb.
 
 !!! info "Phase 0/1 foundation"
     This release publishes the home page and four complete bilingual example
-    topics. The remaining 175 first-party Markdown documents stay staged in
-    the migration inventory; incomplete bilingual pages do not enter the
-    production navigation.
+    topics. The source repository's 175 tracked Markdown files are classified
+    in the migration inventory; pages selected for migration do not enter the
+    production navigation until their bilingual pair is complete.
 
 ## Know the authority boundary first
 
