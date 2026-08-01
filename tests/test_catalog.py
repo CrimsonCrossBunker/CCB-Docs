@@ -50,6 +50,13 @@ class CatalogTests(unittest.TestCase):
         with self.assertRaisesRegex(CatalogError, "both languages"):
             validate_policy(catalog)
 
+    def test_one_language_may_be_stale_after_bilingual_publication(self) -> None:
+        catalog = copy.deepcopy(self.catalog)
+        catalog["pages"][0]["status"] = "stale"
+        catalog["pages"][0]["include_in_ai_index"] = False
+
+        validate_policy(catalog)
+
     def test_obj_lua_cannot_become_a_source_path(self) -> None:
         catalog = copy.deepcopy(self.catalog)
         catalog["pages"][0]["source_paths"] = ["obj-lua/generated/file"]

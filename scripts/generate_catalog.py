@@ -111,10 +111,12 @@ def validate_policy(catalog: dict) -> None:
         languages = {entry["language"] for entry in entries}
         if languages != set(LANGUAGES):
             raise CatalogError(f"{group} must have zh_CN and en entries")
-        active = [entry for entry in entries if entry["status"] == "active"]
-        if active and len(active) != 2:
+        published = [
+            entry for entry in entries if entry["status"] in {"active", "stale"}
+        ]
+        if published and len(published) != 2:
             raise CatalogError(
-                f"new active page {group} must publish both languages together"
+                f"published page {group} must include both languages"
             )
 
 
