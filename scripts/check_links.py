@@ -18,6 +18,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 IGNORED_SCHEMES = {"data", "javascript", "mailto", "tel"}
+IGNORED_EXTERNAL_LINK_RELS = {"dns-prefetch", "preconnect"}
 
 
 @dataclass(frozen=True)
@@ -85,6 +86,14 @@ def document_anchors(path: Path, cache: dict[Path, set[str]]) -> set[str]:
     return cache[path]
 
 
+def is_external_link_target(tag: object) -> bool:
+    """Return false for connection hints that are not fetchable documents."""
+    if getattr(tag, "name", None) != "link":
+        return True
+    relationships = {str(value).lower() for value in tag.get("rel", [])}
+    return not relationships.intersection(IGNORED_EXTERNAL_LINK_RELS)
+
+
 def check_internal_links(site_dir: Path) -> tuple[list[LinkFailure], set[str]]:
     failures: list[LinkFailure] = []
     external_urls: set[str] = set()
@@ -103,7 +112,8 @@ def check_internal_links(site_dir: Path) -> tuple[list[LinkFailure], set[str]]:
             if parsed.scheme in IGNORED_SCHEMES:
                 continue
             if parsed.scheme in {"http", "https"} or parsed.netloc:
-                external_urls.add(href)
+                if is_external_link_target(tag):
+                    external_urls.add(href)
                 continue
             candidates = target_candidates(source, site_dir, parsed.path)
             target = next((path for path in candidates if path.exists()), None)

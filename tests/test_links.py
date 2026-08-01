@@ -64,6 +64,30 @@ class InternalLinkTests(unittest.TestCase):
         self.assertEqual(failures, [])
         self.assertEqual(external, {"https://example.invalid/docs"})
 
+    def test_connection_hints_are_not_treated_as_external_documents(self) -> None:
+        (self.site / "index.html").write_text(
+            '<link rel="preconnect" href="https://fonts.gstatic.com">'
+            '<link rel="dns-prefetch" href="https://static.example.invalid">'
+            '<link rel="stylesheet" href="https://cdn.example.invalid/site.css">'
+            '<a href="https://example.invalid/docs">External</a>',
+            encoding="utf-8",
+        )
+        (self.site / "guide/index.html").write_text(
+            '<h1 id="answer">Answer</h1>',
+            encoding="utf-8",
+        )
+
+        failures, external = check_internal_links(self.site)
+
+        self.assertEqual(failures, [])
+        self.assertEqual(
+            external,
+            {
+                "https://cdn.example.invalid/site.css",
+                "https://example.invalid/docs",
+            },
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

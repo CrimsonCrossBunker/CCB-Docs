@@ -19,6 +19,13 @@ manual_record:
   confirmed_reviewers: []
   required_checks: []
   actions_pr_creation_enabled_at: null
+  actions_pr_creation_attempted_at: '2026-08-01T14:39:00Z'
+  actions_pr_creation_attempted_by: LYHGLYTX
+  actions_pr_creation_result: blocked_by_organization_policy
+  actions_pr_creation_blocker: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/3
+  nightly_last_verified_at: '2026-08-01T14:33:12Z'
+  nightly_last_verified_run: https://github.com/CrimsonCrossBunker/CCB-Docs/actions/runs/30703702189
+  nightly_last_verified_result: success_with_external_link_warning
   pages_enabled_at: '2026-08-01'
   protection_enabled_at: null
   enabled_by: LYHGLYTX
