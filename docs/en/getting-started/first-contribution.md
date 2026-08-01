@@ -35,7 +35,8 @@ prerequisites: []
 depends_on:
 - contributing.responsible-human
 redirect_from: []
-supersedes: []
+supersedes:
+- getting-started.how-you-can-help
 license: CC-BY-SA-3.0
 attribution: CCB contributors; see source paths and Git history.
 example_validation_ids:

@@ -1,0 +1,185 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://crimsoncrossbunker.github.io/CCB-Docs/schemas/legacy-migration-audit-v1.json",
+  "title": "CCB-Docs legacy Markdown migration audit",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generated_by",
+    "source_commit",
+    "inventory_source_commit",
+    "pending_source_pr",
+    "document_count",
+    "action_counts",
+    "migration_status_counts",
+    "review_count",
+    "classified_count",
+    "in_progress_count",
+    "selected_record_count",
+    "selected_unique_target_count",
+    "preexisting_covered_record_count",
+    "preexisting_unique_target_count",
+    "generated_record_count",
+    "generated_unique_target_count",
+    "missing_target_count",
+    "generated_reference_coverage",
+    "history_experiment",
+    "records"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "generated_by": { "const": "scripts/generate_legacy_migration.py" },
+    "source_commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
+    "inventory_source_commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
+    "pending_source_pr": { "type": "string", "format": "uri" },
+    "document_count": { "const": 175 },
+    "action_counts": {
+      "type": "object",
+      "additionalProperties": { "type": "integer", "minimum": 0 }
+    },
+    "migration_status_counts": {
+      "const": { "archived": 7, "stubbed": 104, "verified": 64 }
+    },
+    "review_count": { "const": 0 },
+    "classified_count": { "const": 0 },
+    "in_progress_count": { "const": 0 },
+    "selected_record_count": { "const": 111 },
+    "selected_unique_target_count": { "const": 105 },
+    "preexisting_covered_record_count": { "const": 7 },
+    "preexisting_unique_target_count": { "const": 6 },
+    "generated_record_count": { "const": 104 },
+    "generated_unique_target_count": { "const": 99 },
+    "missing_target_count": { "const": 0 },
+    "generated_reference_coverage": {
+      "type": "object",
+      "required": [
+        "json.flags",
+        "json.proficiencies-index",
+        "mods.mind-over-matter.power-reference",
+        "mods.aftershock-exoplanet.balance.ranged-weapons"
+      ],
+      "properties": {
+        "json.flags": {
+          "type": "object",
+          "required": [ "json_flags", "scope" ],
+          "properties": {
+            "json_flags": { "const": 648 },
+            "scope": { "const": "partial-direct-definitions" }
+          },
+          "additionalProperties": false
+        },
+        "json.proficiencies-index": {
+          "type": "object",
+          "required": [ "proficiencies", "proficiency_categories", "scope", "summary" ],
+          "properties": {
+            "proficiencies": { "const": 50 },
+            "proficiency_categories": { "const": 21 },
+            "scope": { "const": "partial-declared-inputs" },
+            "summary": { "type": "string", "minLength": 1 }
+          },
+          "additionalProperties": false
+        },
+        "mods.mind-over-matter.power-reference": {
+          "type": "object",
+          "required": [ "mind_over_matter_spells", "scope" ],
+          "properties": {
+            "mind_over_matter_spells": { "const": 226 },
+            "scope": { "const": "partial-direct-fields" }
+          },
+          "additionalProperties": false
+        },
+        "mods.aftershock-exoplanet.balance.ranged-weapons": {
+          "type": "object",
+          "required": [ "aftershock_item_definitions", "aftershock_item_groups", "scope" ],
+          "properties": {
+            "aftershock_item_definitions": { "const": 18 },
+            "aftershock_item_groups": { "const": 37 },
+            "scope": { "const": "partial-balance-inputs" }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "history_experiment": {
+      "type": "object",
+      "required": [
+        "selected_final_paths",
+        "self_contained_size_mib",
+        "commits",
+        "author_identities",
+        "final_paths",
+        "rename_records",
+        "fsck",
+        "decision"
+      ],
+      "properties": {
+        "selected_final_paths": { "const": 111 },
+        "self_contained_size_mib": { "const": 14 },
+        "commits": { "const": 1351 },
+        "author_identities": { "const": 226 },
+        "final_paths": { "const": 111 },
+        "rename_records": { "const": 0 },
+        "fsck": { "const": "passed" },
+        "decision": { "const": "retain-source-history-links" }
+      },
+      "additionalProperties": false
+    },
+    "records": {
+      "type": "array",
+      "minItems": 175,
+      "maxItems": 175,
+      "items": {
+        "type": "object",
+        "required": [
+          "stable_document_id",
+          "original_path",
+          "target_path",
+          "action",
+          "migration_status",
+          "source_commit",
+          "last_applicable_commit",
+          "contributors",
+          "license",
+          "history_url",
+          "replacement",
+          "catalog_id"
+        ],
+        "properties": {
+          "stable_document_id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9._-]*$"
+          },
+          "original_path": { "type": "string", "minLength": 1 },
+          "target_path": { "type": [ "string", "null" ] },
+          "action": { "type": "string", "minLength": 1 },
+          "migration_status": {
+            "enum": [ "stubbed", "archived", "verified" ]
+          },
+          "source_commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
+          "last_applicable_commit": {
+            "type": [ "string", "null" ],
+            "pattern": "^[0-9a-f]{40}$"
+          },
+          "contributors": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": { "type": "string", "minLength": 1, "maxLength": 160 }
+          },
+          "license": { "type": "string", "minLength": 1 },
+          "history_url": { "type": "string", "format": "uri" },
+          "replacement": { "type": [ "string", "null" ] },
+          "catalog_id": { "type": [ "string", "null" ] },
+          "catalog_status": {
+            "enum": [ "active", "draft", "archived" ]
+          },
+          "zh_path": { "type": "string", "minLength": 1 },
+          "en_path": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

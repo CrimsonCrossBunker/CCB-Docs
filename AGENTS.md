@@ -4,8 +4,9 @@ This file is sufficient for basic offline work.
 
 ## Authority / 权威
 
-- `docs-catalog.yml` is the only manually maintained machine-readable document
-  directory.
+- `docs-catalog.yml` is the only checked-in machine-readable document
+  directory. Normal entries are maintained there; explicitly marked generated
+  blocks remain catalog entries and are owned by their named generator.
 - CCB runtime behaviour comes from CCB source and tests.
 - JSON/Lua/API contracts come from schemas, LuaLS declarations, registrations,
   and generated inventories in CCB.
@@ -34,6 +35,12 @@ This file is sufficient for basic offline work.
 - JSON/EOC registry pages under `docs/*/reference/` are additionally owned by
   `scripts/generate_json_eoc_reference.py`; regenerate them from the exact CCB
   `verified_commit` instead of editing their bodies.
+- The catalog block between `BEGIN/END GENERATED LEGACY MIGRATION PAGES`, its
+  paired migration/archive bodies, four partial generated references, and
+  `docs/ai/legacy-migration-audit.json` are owned by
+  `scripts/generate_legacy_migration.py`. Regenerate them from the exact CCB
+  inventory commit in `config/legacy-migration-v1.yml`; never publish rejected
+  contributor identities or infer fields absent from the declared sources.
 - New active pages require both languages. Incomplete migration pages are
   drafts and stay out of production navigation, search, and AI indexes.
 - Never update every `verified_commit` merely because CCB master advanced.
@@ -49,6 +56,8 @@ uv run python scripts/generate_catalog.py --check
 uv run python scripts/check_catalog.py
 uv run python scripts/generate_json_eoc_reference.py --source-repo /path/to/CCB --check
 uv run python scripts/check_json_eoc_example_mod.py --source-repo /path/to/CCB
+uv run python scripts/generate_legacy_migration.py \
+  --source-repo /path/to/CCB --check
 uv run python -m unittest discover -s tests -p 'test_*.py'
 uv run flake8 --max-line-length=100 scripts tests
 uv run python scripts/build_site.py --strict --include-drafts

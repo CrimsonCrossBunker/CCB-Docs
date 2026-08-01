@@ -1,0 +1,3302 @@
+{
+  "action_counts": {
+    "archive_public": 7,
+    "generated_reference": 4,
+    "keep_in_repo": 57,
+    "merge_into": 15,
+    "migrate_preserve": 35,
+    "migrate_rewrite": 50,
+    "retain_third_party": 7
+  },
+  "classified_count": 0,
+  "document_count": 175,
+  "generated_by": "scripts/generate_legacy_migration.py",
+  "generated_record_count": 104,
+  "generated_reference_coverage": {
+    "json.flags": {
+      "json_flags": 648,
+      "scope": "partial-direct-definitions"
+    },
+    "json.proficiencies-index": {
+      "proficiencies": 50,
+      "proficiency_categories": 21,
+      "scope": "partial-declared-inputs",
+      "summary": "50 proficiencies and 21 categories from `data/json/proficiencies/misc.json`, `data/json/proficiencies/proficiency_categories.json`, `data/mods/Magiclysm/proficiencies.json`"
+    },
+    "mods.aftershock-exoplanet.balance.ranged-weapons": {
+      "aftershock_item_definitions": 18,
+      "aftershock_item_groups": 37,
+      "scope": "partial-balance-inputs"
+    },
+    "mods.mind-over-matter.power-reference": {
+      "mind_over_matter_spells": 226,
+      "scope": "partial-direct-fields"
+    }
+  },
+  "generated_unique_target_count": 99,
+  "history_experiment": {
+    "author_identities": 226,
+    "commits": 1351,
+    "decision": "retain-source-history-links",
+    "final_paths": 111,
+    "fsck": "passed",
+    "rename_records": 0,
+    "selected_final_paths": 111,
+    "self_contained_size_mib": 14
+  },
+  "in_progress_count": 0,
+  "inventory_source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+  "migration_status_counts": {
+    "archived": 7,
+    "stubbed": 104,
+    "verified": 64
+  },
+  "missing_target_count": 0,
+  "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568",
+  "preexisting_covered_record_count": 7,
+  "preexisting_unique_target_count": 6,
+  "records": [
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "LunaGlaze",
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/CODE_OF_CONDUCT.md",
+      "last_applicable_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "CODE_OF_CONDUCT.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "governance.code-of-conduct",
+      "target_path": "CODE_OF_CONDUCT.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "David Seguin",
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/CONTRIBUTING.md",
+      "last_applicable_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "CONTRIBUTING.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "governance.contributing",
+      "target_path": "CONTRIBUTING.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/ISSUES.md",
+      "last_applicable_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "ISSUES.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "governance.issue-workflow",
+      "target_path": "ISSUES.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "LYHGLYTX",
+        "LunaGlaze",
+        "Asthmatic123",
+        "EArias",
+        "lapp2333xhj",
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/README.md",
+      "last_applicable_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "README.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "project.readme",
+      "target_path": "README.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "LYHGLYTX",
+        "EliadOArias"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/SYNC_EXCLUDED_PRS.md",
+      "last_applicable_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "SYNC_EXCLUDED_PRS.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "upstream.excluded-prs",
+      "target_path": "SYNC_EXCLUDED_PRS.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "LYHGLYTX"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/TRANSLATION_CREDITS.md",
+      "last_applicable_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "TRANSLATION_CREDITS.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "translation.credits",
+      "target_path": "TRANSLATION_CREDITS.md"
+    },
+    {
+      "action": "merge_into",
+      "catalog_id": "json.loading-order",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "reference/json/loading-order.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/LOADING_ORDER.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "data/json/LOADING_ORDER.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/loading-order/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "legacy.data-json-loading-order",
+      "target_path": "docs/zh_CN/reference/json/loading-order.md",
+      "zh_path": "reference/json/loading-order.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/npcs/godco/NECC_INFO.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/json/npcs/godco/NECC_INFO.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "content.npc.godco-roster",
+      "target_path": "data/json/npcs/godco/NECC_INFO.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/npcs/refugee_center/FREE_MERCHANTS_INFO.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/json/npcs/refugee_center/FREE_MERCHANTS_INFO.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "content.npc.free-merchants-economy",
+      "target_path": "data/json/npcs/refugee_center/FREE_MERCHANTS_INFO.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "api.lua.v5.overview",
+      "catalog_status": "draft",
+      "contributors": [
+        "LYHGLYTX"
+      ],
+      "en_path": "api/lua/v5/overview.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/lua/README.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "data/lua/README.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/overview/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "lua.v5.overview",
+      "target_path": "docs/zh_CN/api/lua/v5/overview.md",
+      "zh_path": "api/lua/v5/overview.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "api.lua.v5.example-mod",
+      "catalog_status": "draft",
+      "contributors": [
+        "LYHGLYTX"
+      ],
+      "en_path": "api/lua/v5/example-mod.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/lua/examples/api_v5_mod/README.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "data/lua/examples/api_v5_mod/README.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/example-mod/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "lua.v5.example-mod",
+      "target_path": "docs/zh_CN/api/lua/v5/example-mod.md",
+      "zh_path": "api/lua/v5/example-mod.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/Backrooms/README.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/Backrooms/README.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.backrooms.overview",
+      "target_path": "data/mods/Backrooms/README.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/BombasticPerks/docs/contributing.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/BombasticPerks/docs/contributing.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.bombastic-perks.contributing",
+      "target_path": "data/mods/BombasticPerks/docs/contributing.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/BombasticPerks/docs/expanding_with_mods.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/BombasticPerks/docs/expanding_with_mods.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.bombastic-perks.extension-contract",
+      "target_path": "data/mods/BombasticPerks/docs/expanding_with_mods.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/DinoMod/DESIGN.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/DinoMod/DESIGN.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.dinomod.design",
+      "target_path": "data/mods/DinoMod/DESIGN.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/DinoMod/README.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/DinoMod/README.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.dinomod.overview",
+      "target_path": "data/mods/DinoMod/README.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/MA/README.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/MA/README.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.massachusetts.overview",
+      "target_path": "data/mods/MA/README.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/Magiclysm/lore.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/Magiclysm/lore.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.magiclysm.lore",
+      "target_path": "data/mods/Magiclysm/lore.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/Magiclysm/magic_balance.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/Magiclysm/magic_balance.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.magiclysm.balance",
+      "target_path": "data/mods/Magiclysm/magic_balance.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/Megafauna/readme.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/Megafauna/readme.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.megafauna.overview",
+      "target_path": "data/mods/Megafauna/readme.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/MindOverMatter/GainingPowerSpoilers.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/MindOverMatter/GainingPowerSpoilers.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.mind-over-matter.gaining-powers",
+      "target_path": "data/mods/MindOverMatter/GainingPowerSpoilers.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/MindOverMatter/NetherAttunementSpoilers.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/MindOverMatter/NetherAttunementSpoilers.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.mind-over-matter.nether-attunement",
+      "target_path": "data/mods/MindOverMatter/NetherAttunementSpoilers.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/MindOverMatter/NewPowerGuide.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/MindOverMatter/NewPowerGuide.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.mind-over-matter.new-power-guide",
+      "target_path": "data/mods/MindOverMatter/NewPowerGuide.md"
+    },
+    {
+      "action": "generated_reference",
+      "catalog_id": "mods.mind-over-matter.power-reference",
+      "catalog_status": "draft",
+      "contributors": [
+        "Standing-Storm",
+        "thaelina"
+      ],
+      "en_path": "data/mods/MindOverMatter/PowerDescriptionSpoilers.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/MindOverMatter/PowerDescriptionSpoilers.md",
+      "last_applicable_commit": null,
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "data/mods/MindOverMatter/PowerDescriptionSpoilers.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.mind-over-matter.power-reference",
+      "target_path": "docs/zh_CN/data/mods/MindOverMatter/PowerDescriptionSpoilers.md",
+      "zh_path": "data/mods/MindOverMatter/PowerDescriptionSpoilers.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "Standing-Storm",
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/MindOverMatter/README.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/MindOverMatter/README.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.mind-over-matter.overview",
+      "target_path": "data/mods/MindOverMatter/README.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/MindOverMatter/lore_spoilers.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/MindOverMatter/lore_spoilers.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.mind-over-matter.lore",
+      "target_path": "data/mods/MindOverMatter/lore_spoilers.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/MindOverMatterNoKnacks/README.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/MindOverMatterNoKnacks/README.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.mind-over-matter.no-knacks",
+      "target_path": "data/mods/MindOverMatterNoKnacks/README.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/No_Hope/CONTRIBUTING.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/No_Hope/CONTRIBUTING.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.no-hope.contributing",
+      "target_path": "data/mods/No_Hope/CONTRIBUTING.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/No_Hope/DIFFICULTY_OPTIONS.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/No_Hope/DIFFICULTY_OPTIONS.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.no-hope.difficulty-options",
+      "target_path": "data/mods/No_Hope/DIFFICULTY_OPTIONS.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/Sky_Island/README.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/Sky_Island/README.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.sky-island.overview",
+      "target_path": "data/mods/Sky_Island/README.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/Sorcerer/README.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/Sorcerer/README.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.sorcerer.overview",
+      "target_path": "data/mods/Sorcerer/README.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/TEST_DATA/README.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/TEST_DATA/README.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "testing.test-data-mod",
+      "target_path": "data/mods/TEST_DATA/README.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "Standing-Storm"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/XedraWood/README.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/XedraWood/README.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.xedra-wood.overview",
+      "target_path": "data/mods/XedraWood/README.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/Xedra_Evolved/README.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/Xedra_Evolved/README.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.xedra-evolved.overview",
+      "target_path": "data/mods/Xedra_Evolved/README.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "SariusSkelrets",
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/Xedra_Evolved/design_doc_spoilers.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/Xedra_Evolved/design_doc_spoilers.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.xedra-evolved.design",
+      "target_path": "data/mods/Xedra_Evolved/design_doc_spoilers.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/Xedra_Evolved/vampire_guide.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/Xedra_Evolved/vampire_guide.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.xedra-evolved.vampire-guide",
+      "target_path": "data/mods/Xedra_Evolved/vampire_guide.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/aftershock_exoplanet/doc/Hacking.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/aftershock_exoplanet/doc/Hacking.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.aftershock-exoplanet.hacking",
+      "target_path": "data/mods/aftershock_exoplanet/doc/Hacking.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "Mihály Verhás",
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/aftershock_exoplanet/doc/crafting_system.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/aftershock_exoplanet/doc/crafting_system.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.aftershock-exoplanet.crafting-system",
+      "target_path": "data/mods/aftershock_exoplanet/doc/crafting_system.md"
+    },
+    {
+      "action": "merge_into",
+      "catalog_id": "mods.aftershock-exoplanet.lore.organizations",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "data/mods/aftershock_exoplanet/doc/lore/organizations.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/aftershock_exoplanet/doc/lore/cyberpunk_future.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "data/mods/aftershock_exoplanet/doc/lore/cyberpunk_future.md",
+      "replacement": "mods.aftershock-exoplanet.lore.organizations",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.aftershock-exoplanet.lore.cyberpunk-future",
+      "target_path": "docs/zh_CN/data/mods/aftershock_exoplanet/doc/lore/organizations.md",
+      "zh_path": "data/mods/aftershock_exoplanet/doc/lore/organizations.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "Mihály Verhás",
+        "Standing-Storm",
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/aftershock_exoplanet/doc/lore/factions.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/aftershock_exoplanet/doc/lore/factions.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.aftershock-exoplanet.lore.factions",
+      "target_path": "data/mods/aftershock_exoplanet/doc/lore/factions.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "Mihály Verhás",
+        "Standing-Storm",
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/aftershock_exoplanet/doc/lore/organizations.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/aftershock_exoplanet/doc/lore/organizations.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.aftershock-exoplanet.lore.organizations",
+      "target_path": "data/mods/aftershock_exoplanet/doc/lore/organizations.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/aftershock_exoplanet/doc/lore/points_of_interest.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/aftershock_exoplanet/doc/lore/points_of_interest.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.aftershock-exoplanet.lore.points-of-interest",
+      "target_path": "data/mods/aftershock_exoplanet/doc/lore/points_of_interest.md"
+    },
+    {
+      "action": "generated_reference",
+      "catalog_id": "mods.aftershock-exoplanet.balance.ranged-weapons",
+      "catalog_status": "draft",
+      "contributors": [
+        "Mihály Verhás",
+        "thaelina"
+      ],
+      "en_path": "data/mods/aftershock_exoplanet/doc/lore/ranged_weapon_balance.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/aftershock_exoplanet/doc/lore/ranged_weapon_balance.md",
+      "last_applicable_commit": null,
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "data/mods/aftershock_exoplanet/doc/lore/ranged_weapon_balance.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.aftershock-exoplanet.balance.ranged-weapons",
+      "target_path": "docs/zh_CN/data/mods/aftershock_exoplanet/doc/lore/ranged_weapon_balance.md",
+      "zh_path": "data/mods/aftershock_exoplanet/doc/lore/ranged_weapon_balance.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/aftershock_exoplanet/doc/lore/salus_4.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/aftershock_exoplanet/doc/lore/salus_4.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.aftershock-exoplanet.lore.salus-iv",
+      "target_path": "data/mods/aftershock_exoplanet/doc/lore/salus_4.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "Mihály Verhás",
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/aftershock_exoplanet/doc/lore/timeline.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/aftershock_exoplanet/doc/lore/timeline.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.aftershock-exoplanet.lore.timeline",
+      "target_path": "data/mods/aftershock_exoplanet/doc/lore/timeline.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/aftershock_exoplanet/doc/suit_operating_time.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/aftershock_exoplanet/doc/suit_operating_time.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.aftershock-exoplanet.balance.powered-armor",
+      "target_path": "data/mods/aftershock_exoplanet/doc/suit_operating_time.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/aftershock_exoplanet/items/armor/exosuit/exosuit_guide.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/aftershock_exoplanet/items/armor/exosuit/exosuit_guide.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.aftershock-exoplanet.exosuit-guide",
+      "target_path": "data/mods/aftershock_exoplanet/items/armor/exosuit/exosuit_guide.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/alt_map_key/README.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/alt_map_key/README.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.alternative-map-key.overview",
+      "target_path": "data/mods/alt_map_key/README.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/classic_zombies/design-doc.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/classic_zombies/design-doc.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.classic-zombies.design",
+      "target_path": "data/mods/classic_zombies/design-doc.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/classic_zombies/place_names.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/classic_zombies/place_names.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.classic-zombies.place-names",
+      "target_path": "data/mods/classic_zombies/place_names.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "BalthazarArgall"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/hunvre/documentation/lore.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/hunvre/documentation/lore.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.hunvre.lore",
+      "target_path": "data/mods/hunvre/documentation/lore.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "BalthazarArgall"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/hunvre/progress_tracker.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/hunvre/progress_tracker.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.hunvre.progress",
+      "target_path": "data/mods/hunvre/progress_tracker.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "Asthmatic123",
+        "EliadOArias"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/immortal_path/GLOSSARY.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/immortal_path/GLOSSARY.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.immortal-path.glossary",
+      "target_path": "data/mods/immortal_path/GLOSSARY.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "EliadOArias",
+        "LYHGLYTX"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/immortal_path/LANGUAGE_CONVENTION.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/immortal_path/LANGUAGE_CONVENTION.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.immortal-path.language-convention",
+      "target_path": "data/mods/immortal_path/LANGUAGE_CONVENTION.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "EliadOArias"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/immortal_path/doc/game-design.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/immortal_path/doc/game-design.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.immortal-path.game-design",
+      "target_path": "data/mods/immortal_path/doc/game-design.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "EliadOArias"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/immortal_path/doc/lore.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/immortal_path/doc/lore.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.immortal-path.lore",
+      "target_path": "data/mods/immortal_path/doc/lore.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "EliadOArias"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/immortal_path/doc/spell-design.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/immortal_path/doc/spell-design.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.immortal-path.spell-design",
+      "target_path": "data/mods/immortal_path/doc/spell-design.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/innawood/readme.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/innawood/readme.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.innawood.overview",
+      "target_path": "data/mods/innawood/readme.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/translate-dialogue/README.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "data/mods/translate-dialogue/README.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.translate-dialogue.maintenance",
+      "target_path": "data/mods/translate-dialogue/README.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "content.ascii-art",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "content/ascii-art.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/ASCII_ART.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/ASCII_ART.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/content/ascii-art/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "content.ascii-art",
+      "target_path": "docs/zh_CN/content/ascii-art.md",
+      "zh_path": "content/ascii-art.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/CHANGELOG_GUIDELINES.md",
+      "last_applicable_commit": "5f23722ff28c5cc552baa0422b32b1f10fd890fa",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "doc/CHANGELOG_GUIDELINES.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "contributing.changelog-guidelines",
+      "target_path": "doc/CHANGELOG_GUIDELINES.md"
+    },
+    {
+      "action": "merge_into",
+      "catalog_id": "how-to.common-tasks",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "how-to/common-tasks.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/DEVELOPER_FAQ.md",
+      "last_applicable_commit": "b1ee97987589450da70f30ee2feed12c9d18f479",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/DEVELOPER_FAQ.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/how-to/common-tasks/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "contributing.developer-faq",
+      "target_path": "docs/zh_CN/how-to/common-tasks.md",
+      "zh_path": "how-to/common-tasks.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "design.frequently-made-suggestions",
+      "catalog_status": "draft",
+      "contributors": [
+        "LunaGlaze",
+        "thaelina"
+      ],
+      "en_path": "design/frequently-made-suggestions.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/FREQUENTLY_MADE_SUGGESTIONS.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/FREQUENTLY_MADE_SUGGESTIONS.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/design/frequently-made-suggestions/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "design.frequently-made-suggestions",
+      "target_path": "docs/zh_CN/design/frequently-made-suggestions.md",
+      "zh_path": "design/frequently-made-suggestions.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "content.firearms-naming-and-inclusion",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "content/firearms/naming-and-inclusion.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/GUN_NAMING_AND_INCLUSION.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/GUN_NAMING_AND_INCLUSION.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/content/firearms/naming-and-inclusion/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "content.firearms-naming-and-inclusion",
+      "target_path": "docs/zh_CN/content/firearms/naming-and-inclusion.md",
+      "zh_path": "content/firearms/naming-and-inclusion.md"
+    },
+    {
+      "action": "archive_public",
+      "catalog_id": "archive.firearms-massachusetts-data-workflow",
+      "catalog_status": "archived",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "archive/firearms/massachusetts-data-workflow.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/HOWTO_MASSAGE_MA_GUN_DATA.md",
+      "last_applicable_commit": "b1ee97987589450da70f30ee2feed12c9d18f479",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "archived",
+      "original_path": "doc/HOWTO_MASSAGE_MA_GUN_DATA.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/archive/firearms/massachusetts-data-workflow/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "archive.firearms-massachusetts-data-workflow",
+      "target_path": "docs/zh_CN/archive/firearms/massachusetts-data-workflow.md",
+      "zh_path": "archive/firearms/massachusetts-data-workflow.md"
+    },
+    {
+      "action": "merge_into",
+      "catalog_id": "getting-started.first-contribution",
+      "catalog_status": "active",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "getting-started/first-contribution.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/HOW_YOU_CAN_HELP.md",
+      "last_applicable_commit": "b1ee97987589450da70f30ee2feed12c9d18f479",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/HOW_YOU_CAN_HELP.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "getting-started.how-you-can-help",
+      "target_path": "docs/zh_CN/getting-started/first-contribution.md",
+      "zh_path": "getting-started/first-contribution.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "mods.in-repository-policy",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "mods/in-repository-policy.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/IN_REPO_MODS.md",
+      "last_applicable_commit": "b1ee97987589450da70f30ee2feed12c9d18f479",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/IN_REPO_MODS.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/in-repository-policy/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mods.in-repository-policy",
+      "target_path": "docs/zh_CN/mods/in-repository-policy.md",
+      "zh_path": "mods/in-repository-policy.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "maintainers.issue-triage",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "maintainers/issue-triage.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/ISSUE_TRIAGE.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/ISSUE_TRIAGE.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/maintainers/issue-triage/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "maintainers.issue-triage",
+      "target_path": "docs/zh_CN/maintainers/issue-triage.md",
+      "zh_path": "maintainers/issue-triage.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.artifacts",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "reference/json/artifacts.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/ARTIFACTS.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/ARTIFACTS.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/artifacts/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.artifacts",
+      "target_path": "docs/zh_CN/reference/json/artifacts.md",
+      "zh_path": "reference/json/artifacts.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.basecamp",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "reference/json/basecamp.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/BASECAMP.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/BASECAMP.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/basecamp/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.basecamp",
+      "target_path": "docs/zh_CN/reference/json/basecamp.md",
+      "zh_path": "reference/json/basecamp.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.climbing-aids",
+      "catalog_status": "draft",
+      "contributors": [
+        "Killa-bite",
+        "thaelina"
+      ],
+      "en_path": "reference/json/climbing-aids.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/CLIMBING.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/CLIMBING.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/climbing-aids/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.climbing-aids",
+      "target_path": "docs/zh_CN/reference/json/climbing-aids.md",
+      "zh_path": "reference/json/climbing-aids.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.dimensions",
+      "catalog_status": "draft",
+      "contributors": [
+        "LYHGLYTX",
+        "Anton Simakov",
+        "Maleclypse",
+        "thaelina"
+      ],
+      "en_path": "reference/json/dimensions.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/DIMENSIONS.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/DIMENSIONS.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/dimensions/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.dimensions",
+      "target_path": "docs/zh_CN/reference/json/dimensions.md",
+      "zh_path": "reference/json/dimensions.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.effects",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "reference/json/effects.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/EFFECTS_JSON.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/EFFECTS_JSON.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/effects/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.effects",
+      "target_path": "docs/zh_CN/reference/json/effects.md",
+      "zh_path": "reference/json/effects.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "eoc.reference",
+      "catalog_status": "draft",
+      "contributors": [
+        "zihanZheng",
+        "LunaGlaze",
+        "Anton Simakov",
+        "Maleclypse",
+        "GuardianDll",
+        "thaelina"
+      ],
+      "en_path": "reference/eoc/index.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/EFFECT_ON_CONDITION.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/EFFECT_ON_CONDITION.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "eoc.reference",
+      "target_path": "docs/zh_CN/reference/eoc/index.md",
+      "zh_path": "reference/eoc/index.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.examine-actions",
+      "catalog_status": "draft",
+      "contributors": [
+        "LunaGlaze",
+        "Maleclypse",
+        "thaelina"
+      ],
+      "en_path": "reference/json/examine-actions.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/EXAMINE.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/EXAMINE.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/examine-actions/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.examine-actions",
+      "target_path": "docs/zh_CN/reference/json/examine-actions.md",
+      "zh_path": "reference/json/examine-actions.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.npc-factions",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "reference/json/npc-factions.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/FACTIONS.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/FACTIONS.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/npc-factions/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.npc-factions",
+      "target_path": "docs/zh_CN/reference/json/npc-factions.md",
+      "zh_path": "reference/json/npc-factions.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.faction-missions",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "reference/json/faction-missions.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/FACTION_MISSIONS.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/FACTION_MISSIONS.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/faction-missions/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.faction-missions",
+      "target_path": "docs/zh_CN/reference/json/faction-missions.md",
+      "zh_path": "reference/json/faction-missions.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "json.comestibles-placement",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "how-to/json/comestibles.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/GUIDE_COMESTIBLES.md",
+      "last_applicable_commit": "b1ee97987589450da70f30ee2feed12c9d18f479",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/GUIDE_COMESTIBLES.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/how-to/json/comestibles/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.comestibles-placement",
+      "target_path": "docs/zh_CN/how-to/json/comestibles.md",
+      "zh_path": "how-to/json/comestibles.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.help-menu",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "reference/json/help-menu.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/HELP_MENU.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/HELP_MENU.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/help-menu/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.help-menu",
+      "target_path": "docs/zh_CN/reference/json/help-menu.md",
+      "zh_path": "reference/json/help-menu.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.items",
+      "catalog_status": "draft",
+      "contributors": [
+        "LunaGlaze",
+        "Standing-Storm",
+        "zihanZheng",
+        "Anton Simakov",
+        "EArias",
+        "RenechCDDA",
+        "dumb-kevin",
+        "thaelina"
+      ],
+      "en_path": "reference/json/items/index.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/ITEM.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/ITEM.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/items/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.items",
+      "target_path": "docs/zh_CN/reference/json/items/index.md",
+      "zh_path": "reference/json/items/index.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.recipes-and-disassembly",
+      "catalog_status": "draft",
+      "contributors": [
+        "Anton Simakov",
+        "RenechCDDA",
+        "dobbry-vechur",
+        "dumb-kevin",
+        "thaelina"
+      ],
+      "en_path": "reference/json/recipes-and-disassembly.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/ITEM_CRAFT_AND_DISASSEMBLY.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/ITEM_CRAFT_AND_DISASSEMBLY.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/recipes-and-disassembly/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.recipes-and-disassembly",
+      "target_path": "docs/zh_CN/reference/json/recipes-and-disassembly.md",
+      "zh_path": "reference/json/recipes-and-disassembly.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.item-groups",
+      "catalog_status": "draft",
+      "contributors": [
+        "dumb-kevin",
+        "thaelina"
+      ],
+      "en_path": "reference/json/item-groups.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/ITEM_SPAWN.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/ITEM_SPAWN.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/item-groups/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.item-groups",
+      "target_path": "docs/zh_CN/reference/json/item-groups.md",
+      "zh_path": "reference/json/item-groups.md"
+    },
+    {
+      "action": "generated_reference",
+      "catalog_id": "json.flags",
+      "catalog_status": "draft",
+      "contributors": [
+        "LunaGlaze",
+        "LYHGLYTX",
+        "Standing-Storm",
+        "Mihály Verhás",
+        "zihanZheng",
+        "Tektolnes",
+        "RenechCDDA",
+        "dumb-kevin",
+        "evilbananas",
+        "Anton Simakov",
+        "thaelina"
+      ],
+      "en_path": "reference/json/generated/flags.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/JSON_FLAGS.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/JSON_FLAGS.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/generated/flags/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.flags",
+      "target_path": "docs/zh_CN/reference/json/generated/flags.md",
+      "zh_path": "reference/json/generated/flags.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "json.object-types",
+      "catalog_status": "draft",
+      "contributors": [
+        "LunaGlaze",
+        "MrDraMaster",
+        "OromisElf",
+        "zihanZheng",
+        "Fris0uman",
+        "Maleclypse",
+        "Mihály Verhás",
+        "Tektolnes",
+        "ehughsbaird",
+        "Anton Simakov",
+        "RenechCDDA"
+      ],
+      "en_path": "reference/json/index.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/JSON_INFO.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/JSON_INFO.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.object-types",
+      "target_path": "docs/zh_CN/reference/json/index.md",
+      "zh_path": "reference/json/index.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.inheritance",
+      "catalog_status": "draft",
+      "contributors": [
+        "zihanZheng",
+        "ehughsbaird",
+        "thaelina"
+      ],
+      "en_path": "reference/json/inheritance.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/JSON_INHERITANCE.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/JSON_INHERITANCE.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/inheritance/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.inheritance",
+      "target_path": "docs/zh_CN/reference/json/inheritance.md",
+      "zh_path": "reference/json/inheritance.md"
+    },
+    {
+      "action": "merge_into",
+      "catalog_id": "json.loading-order",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "reference/json/loading-order.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/JSON_LOADING_ORDER.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/JSON_LOADING_ORDER.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/loading-order/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "legacy.doc-json-json-loading-order",
+      "target_path": "docs/zh_CN/reference/json/loading-order.md",
+      "zh_path": "reference/json/loading-order.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "tutorial.mapgen-beginner",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "tutorials/json-mapgen/beginner.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/JSON_Mapping_Guides/Guide_for_beginning_mapgen.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/JSON_Mapping_Guides/Guide_for_beginning_mapgen.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/tutorials/json-mapgen/beginner/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "tutorial.mapgen-beginner",
+      "target_path": "docs/zh_CN/tutorials/json-mapgen/beginner.md",
+      "zh_path": "tutorials/json-mapgen/beginner.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "tutorial.mapgen-intermediate",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "tutorials/json-mapgen/intermediate.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/JSON_Mapping_Guides/Guide_for_intermediate_mapgen.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/JSON_Mapping_Guides/Guide_for_intermediate_mapgen.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/tutorials/json-mapgen/intermediate/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "tutorial.mapgen-intermediate",
+      "target_path": "docs/zh_CN/tutorials/json-mapgen/intermediate.md",
+      "zh_path": "tutorials/json-mapgen/intermediate.md"
+    },
+    {
+      "action": "merge_into",
+      "catalog_id": "tutorial.mapgen-beginner",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "tutorials/json-mapgen/beginner.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/JSON_Mapping_Guides/JSON_ROOF_MAPGEN.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/JSON_Mapping_Guides/JSON_ROOF_MAPGEN.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/tutorials/json-mapgen/beginner/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "tutorial.mapgen-roofs",
+      "target_path": "docs/zh_CN/tutorials/json-mapgen/beginner.md",
+      "zh_path": "tutorials/json-mapgen/beginner.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "contributing.json-style",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "contributing/json-style.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/JSON_STYLE.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/JSON_STYLE.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/json-style/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "contributing.json-style",
+      "target_path": "docs/zh_CN/contributing/json-style.md",
+      "zh_path": "contributing/json-style.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "how-to.json-tools",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "how-to/json/tools.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/JSON_TOOLS.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/JSON_TOOLS.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/how-to/json/tools/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "how-to.json-tools",
+      "target_path": "docs/zh_CN/how-to/json/tools.md",
+      "zh_path": "how-to/json/tools.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.magic-spells-enchantments",
+      "catalog_status": "draft",
+      "contributors": [
+        "LYHGLYTX",
+        "Standing-Storm",
+        "LunaGlaze",
+        "thaelina"
+      ],
+      "en_path": "reference/json/magic-spells-enchantments.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/MAGIC.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/MAGIC.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/magic-spells-enchantments/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.magic-spells-enchantments",
+      "target_path": "docs/zh_CN/reference/json/magic-spells-enchantments.md",
+      "zh_path": "reference/json/magic-spells-enchantments.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.mapgen",
+      "catalog_status": "draft",
+      "contributors": [
+        "dumb-kevin",
+        "ehughsbaird",
+        "RenechCDDA",
+        "Tektolnes"
+      ],
+      "en_path": "reference/json/mapgen.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/MAPGEN.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/MAPGEN.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/mapgen/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.mapgen",
+      "target_path": "docs/zh_CN/reference/json/mapgen.md",
+      "zh_path": "reference/json/mapgen.md"
+    },
+    {
+      "action": "merge_into",
+      "catalog_id": "json.terrain-and-furniture",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "reference/json/terrain-and-furniture.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/MAP_SMASHING.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/MAP_SMASHING.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/terrain-and-furniture/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.map-smashing",
+      "target_path": "docs/zh_CN/reference/json/terrain-and-furniture.md",
+      "zh_path": "reference/json/terrain-and-furniture.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.martial-arts",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "reference/json/martial-arts.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/MARTIALART_JSON.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/MARTIALART_JSON.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/martial-arts/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.martial-arts",
+      "target_path": "docs/zh_CN/reference/json/martial-arts.md",
+      "zh_path": "reference/json/martial-arts.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.missions",
+      "catalog_status": "draft",
+      "contributors": [
+        "Maleclypse",
+        "thaelina"
+      ],
+      "en_path": "reference/json/missions.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/MISSIONS_JSON.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/MISSIONS_JSON.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/missions/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.missions",
+      "target_path": "docs/zh_CN/reference/json/missions.md",
+      "zh_path": "reference/json/missions.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.monsters",
+      "catalog_status": "draft",
+      "contributors": [
+        "Maleclypse",
+        "thaelina"
+      ],
+      "en_path": "reference/json/monsters.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/MONSTERS.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/MONSTERS.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/monsters/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.monsters",
+      "target_path": "docs/zh_CN/reference/json/monsters.md",
+      "zh_path": "reference/json/monsters.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.monster-special-attacks",
+      "catalog_status": "draft",
+      "contributors": [
+        "Maleclypse",
+        "thaelina"
+      ],
+      "en_path": "reference/json/monster-special-attacks.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/MONSTER_SPECIAL_ATTACKS.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/MONSTER_SPECIAL_ATTACKS.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/monster-special-attacks/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.monster-special-attacks",
+      "target_path": "docs/zh_CN/reference/json/monster-special-attacks.md",
+      "zh_path": "reference/json/monster-special-attacks.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.movement-modes",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "reference/json/movement-modes.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/MOVE_MODE.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/MOVE_MODE.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/movement-modes/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.movement-modes",
+      "target_path": "docs/zh_CN/reference/json/movement-modes.md",
+      "zh_path": "reference/json/movement-modes.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.mutations",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "reference/json/mutations.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/MUTATIONS.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/MUTATIONS.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/mutations/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.mutations",
+      "target_path": "docs/zh_CN/reference/json/mutations.md",
+      "zh_path": "reference/json/mutations.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.npcs-dialogue",
+      "catalog_status": "draft",
+      "contributors": [
+        "Killa-bite",
+        "Standing-Storm",
+        "Maleclypse",
+        "LunaGlaze",
+        "李诗琪",
+        "Anton Simakov",
+        "Tektolnes",
+        "RenechCDDA",
+        "thaelina"
+      ],
+      "en_path": "reference/eoc/npcs-and-dialogue.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/NPCs.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/NPCs.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc/npcs-and-dialogue/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.npcs-dialogue",
+      "target_path": "docs/zh_CN/reference/eoc/npcs-and-dialogue.md",
+      "zh_path": "reference/eoc/npcs-and-dialogue.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.obsoletion-and-migration",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "reference/json/obsoletion-and-migration.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/OBSOLETION_AND_MIGRATION.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/OBSOLETION_AND_MIGRATION.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/obsoletion-and-migration/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.obsoletion-and-migration",
+      "target_path": "docs/zh_CN/reference/json/obsoletion-and-migration.md",
+      "zh_path": "reference/json/obsoletion-and-migration.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.options",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "reference/json/options.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/OPTIONS.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/OPTIONS.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/options/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.options",
+      "target_path": "docs/zh_CN/reference/json/options.md",
+      "zh_path": "reference/json/options.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.overmap",
+      "catalog_status": "draft",
+      "contributors": [
+        "dumb-kevin",
+        "thaelina"
+      ],
+      "en_path": "reference/json/overmap.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/OVERMAP.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/OVERMAP.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/overmap/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.overmap",
+      "target_path": "docs/zh_CN/reference/json/overmap.md",
+      "zh_path": "reference/json/overmap.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.practice-recipes",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "reference/json/practice-recipes.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/PRACTICE_RECIPES.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/PRACTICE_RECIPES.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/practice-recipes/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.practice-recipes",
+      "target_path": "docs/zh_CN/reference/json/practice-recipes.md",
+      "zh_path": "reference/json/practice-recipes.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.proficiencies",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "reference/json/proficiencies.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/PROFICIENCY.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/PROFICIENCY.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/proficiencies/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.proficiencies",
+      "target_path": "docs/zh_CN/reference/json/proficiencies.md",
+      "zh_path": "reference/json/proficiencies.md"
+    },
+    {
+      "action": "generated_reference",
+      "catalog_id": "json.proficiencies-index",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "reference/json/generated/proficiencies.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/PROFICIENCY_LIST.md",
+      "last_applicable_commit": "b1ee97987589450da70f30ee2feed12c9d18f479",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/PROFICIENCY_LIST.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/generated/proficiencies/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.proficiencies-index",
+      "target_path": "docs/zh_CN/reference/json/generated/proficiencies.md",
+      "zh_path": "reference/json/generated/proficiencies.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.region-layout",
+      "catalog_status": "draft",
+      "contributors": [
+        "LYHGLYTX",
+        "Anton Simakov"
+      ],
+      "en_path": "reference/json/region-layout.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/REGION_LAYOUT.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/REGION_LAYOUT.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/region-layout/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.region-layout",
+      "target_path": "docs/zh_CN/reference/json/region-layout.md",
+      "zh_path": "reference/json/region-layout.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.region-settings",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "reference/json/region-settings.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/REGION_SETTINGS.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/REGION_SETTINGS.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/region-settings/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.region-settings",
+      "target_path": "docs/zh_CN/reference/json/region-settings.md",
+      "zh_path": "reference/json/region-settings.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.terrain-furniture-transforms",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "reference/json/terrain-furniture-transforms.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/TER_FURN_TRANSFORM.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/TER_FURN_TRANSFORM.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/terrain-furniture-transforms/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.terrain-furniture-transforms",
+      "target_path": "docs/zh_CN/reference/json/terrain-furniture-transforms.md",
+      "zh_path": "reference/json/terrain-furniture-transforms.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.vehicle-prototypes",
+      "catalog_status": "draft",
+      "contributors": [
+        "LunaGlaze",
+        "thaelina"
+      ],
+      "en_path": "reference/json/vehicle-prototypes.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/VEHICLES_JSON.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/VEHICLES_JSON.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/vehicle-prototypes/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.vehicle-prototypes",
+      "target_path": "docs/zh_CN/reference/json/vehicle-prototypes.md",
+      "zh_path": "reference/json/vehicle-prototypes.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.vitamins",
+      "catalog_status": "draft",
+      "contributors": [
+        "zihanZheng",
+        "thaelina"
+      ],
+      "en_path": "reference/json/vitamins.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/VITAMIN.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/VITAMIN.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/vitamins/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.vitamins",
+      "target_path": "docs/zh_CN/reference/json/vitamins.md",
+      "zh_path": "reference/json/vitamins.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.weather-types",
+      "catalog_status": "draft",
+      "contributors": [
+        "Anton Simakov",
+        "thaelina"
+      ],
+      "en_path": "reference/json/weather-types.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/WEATHER_TYPE.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/WEATHER_TYPE.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/weather-types/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.weather-types",
+      "target_path": "docs/zh_CN/reference/json/weather-types.md",
+      "zh_path": "reference/json/weather-types.md"
+    },
+    {
+      "action": "migrate_preserve",
+      "catalog_id": "json.wounds",
+      "catalog_status": "draft",
+      "contributors": [
+        "Anton Simakov",
+        "GuardianDll",
+        "thaelina"
+      ],
+      "en_path": "reference/json/wounds.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/WOUNDS.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/JSON/WOUNDS.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/wounds/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json.wounds",
+      "target_path": "docs/zh_CN/reference/json/wounds.md",
+      "zh_path": "reference/json/wounds.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "content.manual-of-style",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "contributing/in-game-text-style.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/MANUAL_OF_STYLE.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/MANUAL_OF_STYLE.md",
+      "replacement": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/in-game-text-style/",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "content.manual-of-style",
+      "target_path": "docs/zh_CN/contributing/in-game-text-style.md",
+      "zh_path": "contributing/in-game-text-style.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "modding-overview",
+      "catalog_status": "draft",
+      "contributors": [
+        "SpinosaurusBoat",
+        "thaelina"
+      ],
+      "en_path": "modding/overview.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/MODDING.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/MODDING.md",
+      "replacement": "modding-overview",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "modding-overview",
+      "target_path": "docs/zh_CN/modding/overview.md",
+      "zh_path": "modding/overview.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "mod-compatibility",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "modding/compatibility.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/MOD_COMPATIBILITY.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/MOD_COMPATIBILITY.md",
+      "replacement": "mod-compatibility",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mod-compatibility",
+      "target_path": "docs/zh_CN/modding/compatibility.md",
+      "zh_path": "modding/compatibility.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "cpp.activities",
+      "catalog_status": "draft",
+      "contributors": [
+        "Antonín Drdácký",
+        "thaelina"
+      ],
+      "en_path": "cpp/activities.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/PLAYER_ACTIVITY.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/PLAYER_ACTIVITY.md",
+      "replacement": "cpp-activities",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "cpp-activities",
+      "target_path": "docs/zh_CN/cpp/activities.md",
+      "zh_path": "cpp/activities.md"
+    },
+    {
+      "action": "merge_into",
+      "catalog_id": "maintenance.releases",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "maintenance/releases.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/RELEASE_DIFF.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/RELEASE_DIFF.md",
+      "replacement": "release-maintenance",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "legacy.doc-release-diff",
+      "target_path": "docs/zh_CN/maintenance/releases.md",
+      "zh_path": "maintenance/releases.md"
+    },
+    {
+      "action": "merge_into",
+      "catalog_id": "maintenance.releases",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "maintenance/releases.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/RELEASE_PROCESS.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/RELEASE_PROCESS.md",
+      "replacement": "release-maintenance",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "legacy.doc-release-process",
+      "target_path": "docs/zh_CN/maintenance/releases.md",
+      "zh_path": "maintenance/releases.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "soundpacks",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "resources/soundpacks.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/SOUNDPACKS.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/SOUNDPACKS.md",
+      "replacement": "soundpacks",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "soundpacks",
+      "target_path": "docs/zh_CN/resources/soundpacks.md",
+      "zh_path": "resources/soundpacks.md"
+    },
+    {
+      "action": "merge_into",
+      "catalog_id": "testing-manual",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "testing/manual-playtesting.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/TESTING_YOUR_CHANGES.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/TESTING_YOUR_CHANGES.md",
+      "replacement": "testing-manual",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "testing-manual",
+      "target_path": "docs/zh_CN/testing/manual-playtesting.md",
+      "zh_path": "testing/manual-playtesting.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "tilesets",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "resources/tilesets.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/TILESET.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/TILESET.md",
+      "replacement": "tilesets",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "tilesets",
+      "target_path": "docs/zh_CN/resources/tilesets.md",
+      "zh_path": "resources/tilesets.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "translation-guide",
+      "catalog_status": "draft",
+      "contributors": [
+        "LunaGlaze",
+        "thaelina"
+      ],
+      "en_path": "localization/translation-guide.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/TRANSLATING.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/TRANSLATING.md",
+      "replacement": "translation-guide",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "translation-guide",
+      "target_path": "docs/zh_CN/localization/translation-guide.md",
+      "zh_path": "localization/translation-guide.md"
+    },
+    {
+      "action": "merge_into",
+      "catalog_id": "mod-localization",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "modding/localization.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/TRANSLATING_MOD.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/TRANSLATING_MOD.md",
+      "replacement": "mod-localization",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "mod-localization",
+      "target_path": "docs/zh_CN/modding/localization.md",
+      "zh_path": "modding/localization.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "ui-accessibility",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "ui/accessibility.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/USER_INTERFACE_AND_ACCESSIBILITY.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/USER_INTERFACE_AND_ACCESSIBILITY.md",
+      "replacement": "ui-accessibility",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "ui-accessibility",
+      "target_path": "docs/zh_CN/ui/accessibility.md",
+      "zh_path": "ui/accessibility.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "json-widgets",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "json/widgets.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/WIDGETS.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/WIDGETS.md",
+      "replacement": "json-widgets",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json-widgets",
+      "target_path": "docs/zh_CN/json/widgets.md",
+      "zh_path": "json/widgets.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "cpp-code-style",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "cpp/code-style.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/c%2B%2B/CODE_STYLE.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/c++/CODE_STYLE.md",
+      "replacement": "cpp-code-style",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "cpp-code-style",
+      "target_path": "docs/zh_CN/cpp/code-style.md",
+      "zh_path": "cpp/code-style.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "platform-matrix",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "platforms/compiler-support.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/c%2B%2B/COMPILER_SUPPORT.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/c++/COMPILER_SUPPORT.md",
+      "replacement": "platform-matrix",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "platform-matrix",
+      "target_path": "docs/zh_CN/platforms/compiler-support.md",
+      "zh_path": "platforms/compiler-support.md"
+    },
+    {
+      "action": "merge_into",
+      "catalog_id": "build-windows-msvc",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "build/windows-msvc.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/c%2B%2B/COMPILING-CMAKE-VCPKG.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/c++/COMPILING-CMAKE-VCPKG.md",
+      "replacement": "build-windows-msvc",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "legacy.doc-c-compiling-cmake-vcpkg",
+      "target_path": "docs/zh_CN/build/windows-msvc.md",
+      "zh_path": "build/windows-msvc.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "build-cmake",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "build/cmake.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/c%2B%2B/COMPILING-CMAKE.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/c++/COMPILING-CMAKE.md",
+      "replacement": "build-cmake",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "build-cmake",
+      "target_path": "docs/zh_CN/build/cmake.md",
+      "zh_path": "build/cmake.md"
+    },
+    {
+      "action": "archive_public",
+      "catalog_id": "archive-build-cygwin",
+      "catalog_status": "archived",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "archive/build/cygwin.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/c%2B%2B/COMPILING-CYGWIN.md",
+      "last_applicable_commit": null,
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "archived",
+      "original_path": "doc/c++/COMPILING-CYGWIN.md",
+      "replacement": "build-windows-msys2",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "archive-build-cygwin",
+      "target_path": "docs/zh_CN/archive/build/cygwin.md",
+      "zh_path": "archive/build/cygwin.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "build-devcontainer",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "build/devcontainer.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/c%2B%2B/COMPILING-DEVCONTAINER.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/c++/COMPILING-DEVCONTAINER.md",
+      "replacement": "build-devcontainer",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "build-devcontainer",
+      "target_path": "docs/zh_CN/build/devcontainer.md",
+      "zh_path": "build/devcontainer.md"
+    },
+    {
+      "action": "archive_public",
+      "catalog_id": "archive-build-flatpak",
+      "catalog_status": "archived",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "archive/build/flatpak.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/c%2B%2B/COMPILING-FLATPAK.md",
+      "last_applicable_commit": null,
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "archived",
+      "original_path": "doc/c++/COMPILING-FLATPAK.md",
+      "replacement": "build-overview",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "archive-build-flatpak",
+      "target_path": "docs/zh_CN/archive/build/flatpak.md",
+      "zh_path": "archive/build/flatpak.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "build-windows-msys2",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "build/windows-msys2.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/c%2B%2B/COMPILING-MSYS.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/c++/COMPILING-MSYS.md",
+      "replacement": "build-windows-msys2",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "build-windows-msys2",
+      "target_path": "docs/zh_CN/build/windows-msys2.md",
+      "zh_path": "build/windows-msys2.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "build-windows-msvc",
+      "catalog_status": "draft",
+      "contributors": [
+        "Maleclypse",
+        "dumb-kevin",
+        "thaelina"
+      ],
+      "en_path": "build/windows-msvc.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/c%2B%2B/COMPILING-VS-VCPKG.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/c++/COMPILING-VS-VCPKG.md",
+      "replacement": "build-windows-msvc",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "build-windows-msvc",
+      "target_path": "docs/zh_CN/build/windows-msvc.md",
+      "zh_path": "build/windows-msvc.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "build.overview",
+      "catalog_status": "draft",
+      "contributors": [
+        "LYHGLYTX",
+        "Anton Simakov",
+        "Maleclypse",
+        "dobbry-vechur",
+        "dumb-kevin",
+        "evilbananas",
+        "thaelina"
+      ],
+      "en_path": "build/overview.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/c%2B%2B/COMPILING.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/c++/COMPILING.md",
+      "replacement": "build-overview",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "build-overview",
+      "target_path": "docs/zh_CN/build/overview.md",
+      "zh_path": "build/overview.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "developer-tooling",
+      "catalog_status": "draft",
+      "contributors": [
+        "dumb-kevin",
+        "thaelina"
+      ],
+      "en_path": "cpp/developer-tooling.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/c%2B%2B/DEVELOPER_TOOLING.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/c++/DEVELOPER_TOOLING.md",
+      "replacement": "developer-tooling",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "developer-tooling",
+      "target_path": "docs/zh_CN/cpp/developer-tooling.md",
+      "zh_path": "cpp/developer-tooling.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "cpp-json-interface",
+      "catalog_status": "draft",
+      "contributors": [
+        "ehughsbaird"
+      ],
+      "en_path": "cpp/json-interface.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/c%2B%2B/JSON_INTERFACE.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/c++/JSON_INTERFACE.md",
+      "replacement": "cpp-json-interface",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "cpp-json-interface",
+      "target_path": "docs/zh_CN/cpp/json-interface.md",
+      "zh_path": "cpp/json-interface.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "cpp-performance",
+      "catalog_status": "draft",
+      "contributors": [
+        "g1ytx"
+      ],
+      "en_path": "cpp/performance.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/c%2B%2B/PERFORMANCE.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/c++/PERFORMANCE.md",
+      "replacement": "cpp-performance",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "cpp-performance",
+      "target_path": "docs/zh_CN/cpp/performance.md",
+      "zh_path": "cpp/performance.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "cpp-coordinates",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "cpp/coordinates.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/c%2B%2B/POINTS_COORDINATES.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/c++/POINTS_COORDINATES.md",
+      "replacement": "cpp-coordinates",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "cpp-coordinates",
+      "target_path": "docs/zh_CN/cpp/coordinates.md",
+      "zh_path": "cpp/coordinates.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "cpp-testing",
+      "catalog_status": "draft",
+      "contributors": [
+        "g1ytx",
+        "thaelina"
+      ],
+      "en_path": "testing/cpp.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/c%2B%2B/TESTING.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/c++/TESTING.md",
+      "replacement": "cpp-testing",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "cpp-testing",
+      "target_path": "docs/zh_CN/testing/cpp.md",
+      "zh_path": "testing/cpp.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "json-armor-design",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "json/armor-design.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/ARMOR_BALANCE_AND_DESIGN.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/design-balance-lore/ARMOR_BALANCE_AND_DESIGN.md",
+      "replacement": "json-armor-design",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json-armor-design",
+      "target_path": "docs/zh_CN/json/armor-design.md",
+      "zh_path": "json/armor-design.md"
+    },
+    {
+      "action": "archive_public",
+      "catalog_id": "archive-construction-balance",
+      "catalog_status": "archived",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "archive/design/construction-balance.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/CONSTRUCTION_BALANCE.md",
+      "last_applicable_commit": null,
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "archived",
+      "original_path": "doc/design-balance-lore/CONSTRUCTION_BALANCE.md",
+      "replacement": "design-balance",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "archive-construction-balance",
+      "target_path": "docs/zh_CN/archive/design/construction-balance.md",
+      "zh_path": "archive/design/construction-balance.md"
+    },
+    {
+      "action": "merge_into",
+      "catalog_id": "design-balance",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "design/balance.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/GAME_BALANCE.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/design-balance-lore/GAME_BALANCE.md",
+      "replacement": "design-balance",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "legacy.doc-design-balance-lore-game-balance",
+      "target_path": "docs/zh_CN/design/balance.md",
+      "zh_path": "design/balance.md"
+    },
+    {
+      "action": "archive_public",
+      "catalog_id": "archive-lore-faq",
+      "catalog_status": "archived",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "archive/lore/faq.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/LORE_FAQ.md",
+      "last_applicable_commit": null,
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "archived",
+      "original_path": "doc/design-balance-lore/LORE_FAQ.md",
+      "replacement": "lore-overview",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "archive-lore-faq",
+      "target_path": "docs/zh_CN/archive/lore/faq.md",
+      "zh_path": "archive/lore/faq.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "design-portal-storms",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "design/portal-storms.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/PORTAL_STORM_BALANCE_AND_DESIGN.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/design-balance-lore/PORTAL_STORM_BALANCE_AND_DESIGN.md",
+      "replacement": "design-portal-storms",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "design-portal-storms",
+      "target_path": "docs/zh_CN/design/portal-storms.md",
+      "zh_path": "design/portal-storms.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "json-item-pricing",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "json/item-pricing.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/POSTAPOC_PRICE_GUIDE.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/design-balance-lore/POSTAPOC_PRICE_GUIDE.md",
+      "replacement": "json-item-pricing",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json-item-pricing",
+      "target_path": "docs/zh_CN/json/item-pricing.md",
+      "zh_path": "json/item-pricing.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "design-steel-crafting",
+      "catalog_status": "draft",
+      "contributors": [
+        "FarFarLakeSea",
+        "thaelina"
+      ],
+      "en_path": "design/steel-crafting.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/STEEL_CRAFTING.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/design-balance-lore/STEEL_CRAFTING.md",
+      "replacement": "design-steel-crafting",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "design-steel-crafting",
+      "target_path": "docs/zh_CN/design/steel-crafting.md",
+      "zh_path": "design/steel-crafting.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "json-item-variants",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "json/item-variants.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/VARIANTS.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/design-balance-lore/VARIANTS.md",
+      "replacement": "json-item-variants",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "json-item-variants",
+      "target_path": "docs/zh_CN/json/item-variants.md",
+      "zh_path": "json/item-variants.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "design-batteries-electricity",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "design/batteries-electricity.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/batteries_and_electricity.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/design-balance-lore/batteries_and_electricity.md",
+      "replacement": "design-batteries-electricity",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "design-batteries-electricity",
+      "target_path": "docs/zh_CN/design/batteries-electricity.md",
+      "zh_path": "design/batteries-electricity.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "design-balance",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "design/balance.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/design-balance.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/design-balance-lore/design-balance.md",
+      "replacement": "design-balance",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "design-balance",
+      "target_path": "docs/zh_CN/design/balance.md",
+      "zh_path": "design/balance.md"
+    },
+    {
+      "action": "merge_into",
+      "catalog_id": "design-overview",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "design/overview.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/design-doc.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/design-balance-lore/design-doc.md",
+      "replacement": "design-overview",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "design-overview",
+      "target_path": "docs/zh_CN/design/overview.md",
+      "zh_path": "design/overview.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "design-gameplay",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "design/gameplay.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/design-gameplay.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/design-balance-lore/design-gameplay.md",
+      "replacement": "design-gameplay",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "design-gameplay",
+      "target_path": "docs/zh_CN/design/gameplay.md",
+      "zh_path": "design/gameplay.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "design-user-experience",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "design/user-experience.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/design-user-experience.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/design-balance-lore/design-user-experience.md",
+      "replacement": "design-user-experience",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "design-user-experience",
+      "target_path": "docs/zh_CN/design/user-experience.md",
+      "zh_path": "design/user-experience.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "lore-background",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "lore/background.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/lore-background.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/design-balance-lore/lore-background.md",
+      "replacement": "lore-background",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "lore-background",
+      "target_path": "docs/zh_CN/lore/background.md",
+      "zh_path": "lore/background.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "lore-factions",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "lore/factions.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/lore-factions.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/design-balance-lore/lore-factions.md",
+      "replacement": "lore-factions",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "lore-factions",
+      "target_path": "docs/zh_CN/lore/factions.md",
+      "zh_path": "lore/factions.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "lore-overview",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "lore/overview.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/lore.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/design-balance-lore/lore.md",
+      "replacement": "lore-overview",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "lore-overview",
+      "target_path": "docs/zh_CN/lore/overview.md",
+      "zh_path": "lore/overview.md"
+    },
+    {
+      "action": "archive_public",
+      "catalog_id": "archive-melee-balance-spreadsheet",
+      "catalog_status": "archived",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "archive/design/melee-balance-spreadsheet.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/melee_weapons/MELEE_BALANCE_SPREADSHEET.md",
+      "last_applicable_commit": null,
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "archived",
+      "original_path": "doc/design-balance-lore/melee_weapons/MELEE_BALANCE_SPREADSHEET.md",
+      "replacement": "design-balance",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "archive-melee-balance-spreadsheet",
+      "target_path": "docs/zh_CN/archive/design/melee-balance-spreadsheet.md",
+      "zh_path": "archive/design/melee-balance-spreadsheet.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "lore-technology",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "lore/technology.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/technology.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/design-balance-lore/technology.md",
+      "replacement": "lore-technology",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "lore-technology",
+      "target_path": "docs/zh_CN/lore/technology.md",
+      "zh_path": "lore/technology.md"
+    },
+    {
+      "action": "archive_public",
+      "catalog_id": "archive-upstream-development-process",
+      "catalog_status": "archived",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "archive/governance/development-process.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/development_process.md",
+      "last_applicable_commit": null,
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "archived",
+      "original_path": "doc/development_process.md",
+      "replacement": "getting-started-first-contribution",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "archive-upstream-development-process",
+      "target_path": "docs/zh_CN/archive/governance/development-process.md",
+      "zh_path": "archive/governance/development-process.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "pr-review-guide",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "contributing/pr-review.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/reviewing_PR_guide.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/reviewing_PR_guide.md",
+      "replacement": "pr-review-guide",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "pr-review-guide",
+      "target_path": "docs/zh_CN/contributing/pr-review.md",
+      "zh_path": "contributing/pr-review.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "ui-colors",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "ui/colors.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/user-guides/COLOR.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/user-guides/COLOR.md",
+      "replacement": "ui-colors",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "ui-colors",
+      "target_path": "docs/zh_CN/ui/colors.md",
+      "zh_path": "ui/colors.md"
+    },
+    {
+      "action": "migrate_rewrite",
+      "catalog_id": "ui-fonts",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "ui/fonts.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/user-guides/FONT_OPTIONS.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "doc/user-guides/FONT_OPTIONS.md",
+      "replacement": "ui-fonts",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "ui-fonts",
+      "target_path": "docs/zh_CN/ui/fonts.md",
+      "zh_path": "ui/fonts.md"
+    },
+    {
+      "action": "merge_into",
+      "catalog_id": "translation-guide",
+      "catalog_status": "draft",
+      "contributors": [
+        "thaelina"
+      ],
+      "en_path": "localization/translation-guide.md",
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/lang/notes/README_all_translators.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "stubbed",
+      "original_path": "lang/notes/README_all_translators.md",
+      "replacement": "translation-guide",
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "legacy.lang-notes-readme-all-translators",
+      "target_path": "docs/zh_CN/localization/translation-guide.md",
+      "zh_path": "localization/translation-guide.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/lang/notes/ru-notes.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "lang/notes/ru-notes.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "translation-notes-ru",
+      "target_path": "lang/notes/ru-notes.md"
+    },
+    {
+      "action": "retain_third_party",
+      "catalog_id": null,
+      "contributors": [
+        "LYHGLYTX"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/src/lua/LICENSE.md",
+      "last_applicable_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "license": "MIT",
+      "migration_status": "verified",
+      "original_path": "src/lua/LICENSE.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "third-party.src-lua-license",
+      "target_path": "src/lua/LICENSE.md"
+    },
+    {
+      "action": "retain_third_party",
+      "catalog_id": null,
+      "contributors": [
+        "LYHGLYTX"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/src/lua/README.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "src/lua/README.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "vendor-lua-runtime-provenance",
+      "target_path": "src/lua/README.md"
+    },
+    {
+      "action": "retain_third_party",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/src/third-party/snmalloc/README.md",
+      "last_applicable_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "license": "file-specific third-party license",
+      "migration_status": "verified",
+      "original_path": "src/third-party/snmalloc/README.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "third-party.src-third-party-snmalloc-readme",
+      "target_path": "src/third-party/snmalloc/README.md"
+    },
+    {
+      "action": "retain_third_party",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/src/third-party/snmalloc/stl/README.md",
+      "last_applicable_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "license": "file-specific third-party license",
+      "migration_status": "verified",
+      "original_path": "src/third-party/snmalloc/stl/README.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "third-party.src-third-party-snmalloc-stl-readme",
+      "target_path": "src/third-party/snmalloc/stl/README.md"
+    },
+    {
+      "action": "retain_third_party",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/src/third-party/snmalloc/stl/cxx/README.md",
+      "last_applicable_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "license": "file-specific third-party license",
+      "migration_status": "verified",
+      "original_path": "src/third-party/snmalloc/stl/cxx/README.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "third-party.src-third-party-snmalloc-stl-cxx-readme",
+      "target_path": "src/third-party/snmalloc/stl/cxx/README.md"
+    },
+    {
+      "action": "retain_third_party",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/src/third-party/snmalloc/stl/gnu/README.md",
+      "last_applicable_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "license": "file-specific third-party license",
+      "migration_status": "verified",
+      "original_path": "src/third-party/snmalloc/stl/gnu/README.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "third-party.src-third-party-snmalloc-stl-gnu-readme",
+      "target_path": "src/third-party/snmalloc/stl/gnu/README.md"
+    },
+    {
+      "action": "retain_third_party",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/src/third-party/zstd/README.md",
+      "last_applicable_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "license": "file-specific third-party license",
+      "migration_status": "verified",
+      "original_path": "src/third-party/zstd/README.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "third-party.src-third-party-zstd-readme",
+      "target_path": "src/third-party/zstd/README.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "thaelina"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/tools/llama/README.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "tools/llama/README.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "tool-llama-build-acceleration",
+      "target_path": "tools/llama/README.md"
+    },
+    {
+      "action": "keep_in_repo",
+      "catalog_id": null,
+      "contributors": [
+        "LYHGLYTX"
+      ],
+      "history_url": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/tools/lua_api/README.md",
+      "last_applicable_commit": "7a008bf28d7ee7ebef549514228a0d0b45b7bac4",
+      "license": "CC-BY-SA-3.0",
+      "migration_status": "verified",
+      "original_path": "tools/lua_api/README.md",
+      "replacement": null,
+      "source_commit": "0378ca2b84303cf614c617c9d9eaa50138cd21ff",
+      "stable_document_id": "tool-lua-api-coverage",
+      "target_path": "tools/lua_api/README.md"
+    }
+  ],
+  "review_count": 0,
+  "schema_version": 1,
+  "selected_record_count": 111,
+  "selected_unique_target_count": 105,
+  "source_commit": "80828049edb3adf2a13bb2912a19373dc4e69f32"
+}

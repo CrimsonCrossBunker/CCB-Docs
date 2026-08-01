@@ -46,7 +46,8 @@ depends_on:
 - api.lua.v5.ui
 - api.lua.v5.events
 redirect_from: []
-supersedes: []
+supersedes:
+- lua.v5.example-mod
 license: CC-BY-SA-3.0
 attribution: Generated from the CCB Lua v5 public contract at the verified commit.
 example_validation_ids: []

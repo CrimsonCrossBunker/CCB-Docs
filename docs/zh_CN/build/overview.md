@@ -40,7 +40,8 @@ depends_on:
 - platforms.matrix
 - validation.quickstart
 redirect_from: []
-supersedes: []
+supersedes:
+- build-overview
 license: CC-BY-SA-3.0
 attribution: CCB contributors; see source paths and Git history.
 example_validation_ids:

@@ -1,0 +1,16 @@
+schema_version: 1
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+inventory_path: doc/migration/markdown-inventory.yml
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+verified_at: '2026-08-02'
+site_base_url: https://crimsoncrossbunker.github.io/CCB-Docs/
+history_experiment:
+  selected_final_paths: 111
+  self_contained_size_mib: 14
+  commits: 1351
+  author_identities: 226
+  final_paths: 111
+  rename_records: 0
+  fsck: passed
+  decision: retain-source-history-links
