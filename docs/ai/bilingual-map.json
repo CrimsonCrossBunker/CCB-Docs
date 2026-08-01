@@ -283,9 +283,53 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/"
   },
+  "operations.crash-reports": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/crash-reports/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/crash-reports/"
+  },
+  "operations.packaging": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/packaging/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/packaging/"
+  },
+  "operations.performance-profiling": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/performance-profiling/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/performance-profiling/"
+  },
+  "operations.releases": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/releases/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/releases/"
+  },
+  "platforms.android": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/android/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/android/"
+  },
+  "platforms.linux": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/"
+  },
   "platforms.matrix": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/"
+  },
+  "platforms.msvc": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/"
+  },
+  "platforms.msys2": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/"
+  },
+  "platforms.ui": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/"
+  },
+  "platforms.windows": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/windows/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/windows/"
+  },
+  "platforms.wsl": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/"
   },
   "reference.eoc-conditions": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
@@ -298,6 +342,26 @@
   "reference.json-object-types": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/"
+  },
+  "resources.fonts": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/resources/fonts/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/fonts/"
+  },
+  "resources.shaders": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/resources/shaders/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/shaders/"
+  },
+  "resources.sound": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/resources/sound/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/sound/"
+  },
+  "resources.tiles": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/resources/tiles/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/tiles/"
+  },
+  "resources.translation": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/resources/translation/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/translation/"
   },
   "validation.debugging": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/debugging/",

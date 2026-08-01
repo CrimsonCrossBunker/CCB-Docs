@@ -2449,3 +2449,549 @@ pages:
     title: Localization runtime
     language: en
     nav: { section: C++ subsystems, order: 120 }
+
+  # Platform, asset, and release-operation references. Bilingual content is
+  # complete; publication waits for a human technical review.
+  - &platform_linux_zh
+    <<: *page_defaults
+    id: platforms.linux
+    title: Linux 开发
+    language: zh_CN
+    path: platforms/linux.md
+    status: draft
+    doc_type: how-to
+    audiences: [new-contributor, experienced-contributor, maintainer]
+    last_human_reviewer: Pending human review
+    review_interval_days: 90
+    source_paths: [Makefile, CMakePresets.json, .github/workflows/matrix.yml, doc/c++/COMPILING.md]
+    source_symbols: []
+    source_queries: [linux-x64]
+    source_fingerprint: f9673e31237f2f19406a5b0c87562884840e5e7ef89ef570dd607aebc7926676
+    authority: build-config
+    verified_commit: dbaedf8357408ae6f96309732d6e087e9b878e18
+    verified_at: '2026-08-02'
+    include_in_search: false
+    include_in_ai_index: false
+    translation_group: platforms.linux
+    translation_source_fingerprint: 4e369a0d5512e76ab86eb50a35d7ef9d9bf57a9c01e655bdaa4c683411f050da
+    prerequisites: [platforms.matrix, build.overview]
+    depends_on: [validation.testing]
+    example_validation_ids: [cmake-configure, cpp-tests]
+    risk_group: platforms-linux
+    risk_level: normal
+    pending_source_pr: null
+    nav: { section: 平台, order: 51 }
+  - <<: *platform_linux_zh
+    title: Linux development
+    language: en
+    nav: { section: Platforms, order: 51 }
+
+  - &platform_windows_zh
+    <<: *page_defaults
+    id: platforms.windows
+    title: Windows 开发
+    language: zh_CN
+    path: platforms/windows.md
+    status: draft
+    doc_type: explanation
+    audiences: [new-contributor, experienced-contributor, maintainer]
+    last_human_reviewer: Pending human review
+    review_interval_days: 90
+    source_paths: [CMakePresets.json, .github/workflows/msvc-full-features.yml, doc/c++/COMPILING.md, build-scripts/MSVC.cmake]
+    source_symbols: []
+    source_queries: [windows-x64]
+    source_fingerprint: c3ab24337b86bdbd44d44eab2942d910822cb577576597e7a43ab52690ae13e4
+    authority: build-config
+    verified_commit: dbaedf8357408ae6f96309732d6e087e9b878e18
+    verified_at: '2026-08-02'
+    include_in_search: false
+    include_in_ai_index: false
+    translation_group: platforms.windows
+    translation_source_fingerprint: 0d041a17d3cafee4a5a57d3aa8a5ac7894acc2dba06bcfc7ae00d6c8479fbaa3
+    prerequisites: [platforms.matrix, build.overview]
+    depends_on: []
+    example_validation_ids: [cmake-configure, cpp-tests]
+    risk_group: platforms-windows
+    risk_level: high
+    pending_source_pr: null
+    nav: { section: 平台, order: 52 }
+  - <<: *platform_windows_zh
+    title: Windows development
+    language: en
+    nav: { section: Platforms, order: 52 }
+
+  - &platform_msys2_zh
+    <<: *page_defaults
+    id: platforms.msys2
+    title: MSYS2 与 MinGW
+    language: zh_CN
+    path: platforms/msys2.md
+    status: draft
+    doc_type: how-to
+    audiences: [new-contributor, experienced-contributor, maintainer]
+    last_human_reviewer: Pending human review
+    review_interval_days: 90
+    source_paths: [CMakePresets.json, doc/c++/COMPILING-MSYS.md, .github/workflows/msvc-full-features.yml]
+    source_symbols: []
+    source_queries: [windows-x64]
+    source_fingerprint: 8cd18fa5d699734e435a4a5e4adc4c4e5d73f59fd585323ec6ce56b474c752e9
+    authority: build-config
+    verified_commit: dbaedf8357408ae6f96309732d6e087e9b878e18
+    verified_at: '2026-08-02'
+    include_in_search: false
+    include_in_ai_index: false
+    translation_group: platforms.msys2
+    translation_source_fingerprint: bc3e58ed87ce480f2925aecac89f9313b9869c581272cfae45131748b7f4ae03
+    prerequisites: [platforms.windows]
+    depends_on: []
+    example_validation_ids: [cmake-configure, cpp-tests]
+    risk_group: platforms-windows
+    risk_level: high
+    pending_source_pr: null
+    nav: { section: 平台, order: 53 }
+  - <<: *platform_msys2_zh
+    title: MSYS2 and MinGW
+    language: en
+    nav: { section: Platforms, order: 53 }
+
+  - &platform_msvc_zh
+    <<: *page_defaults
+    id: platforms.msvc
+    title: MSVC 与 vcpkg
+    language: zh_CN
+    path: platforms/msvc.md
+    status: draft
+    doc_type: how-to
+    audiences: [experienced-contributor, maintainer]
+    last_human_reviewer: Pending human review
+    review_interval_days: 90
+    source_paths: [CMakePresets.json, build-scripts/MSVC.cmake, build-scripts/windows-tiles-sounds-x64-msvc.cmake, .github/workflows/msvc-full-features.yml]
+    source_symbols: []
+    source_queries: [windows-tiles-sounds-x64-msvc]
+    source_fingerprint: d2dbe858dd29b80612d853044debd594adb8e0ffeaf9d473becbc5dd3d2b0d74
+    authority: build-config
+    verified_commit: dbaedf8357408ae6f96309732d6e087e9b878e18
+    verified_at: '2026-08-02'
+    include_in_search: false
+    include_in_ai_index: false
+    translation_group: platforms.msvc
+    translation_source_fingerprint: de436d260762856faafc61fcc6f466c2b2e07c1d6c8db41648cec2681eda5411
+    prerequisites: [platforms.windows]
+    depends_on: []
+    example_validation_ids: [cmake-configure, cpp-tests]
+    risk_group: platforms-windows
+    risk_level: high
+    pending_source_pr: null
+    nav: { section: 平台, order: 54 }
+  - <<: *platform_msvc_zh
+    title: MSVC and vcpkg
+    language: en
+    nav: { section: Platforms, order: 54 }
+
+  - &platform_wsl_zh
+    <<: *page_defaults
+    id: platforms.wsl
+    title: WSL 开发
+    language: zh_CN
+    path: platforms/wsl.md
+    status: draft
+    doc_type: how-to
+    audiences: [new-contributor, experienced-contributor]
+    last_human_reviewer: Pending human review
+    review_interval_days: 120
+    source_paths: [Makefile, CMakePresets.json, doc/c++/COMPILING.md]
+    source_symbols: []
+    source_queries: [linux-x64]
+    source_fingerprint: fbd977708b89bb26456c14aa37df1c21f9ca4170fe06454a11a30d7932dad2b0
+    authority: build-config
+    verified_commit: dbaedf8357408ae6f96309732d6e087e9b878e18
+    verified_at: '2026-08-02'
+    include_in_search: false
+    include_in_ai_index: false
+    translation_group: platforms.wsl
+    translation_source_fingerprint: 0a36c080292216c43bf7099099a3ef9650b42506f28e6cc3ead4c14cbaa6e1d9
+    prerequisites: [platforms.linux, platforms.windows]
+    depends_on: []
+    example_validation_ids: [cmake-configure, cpp-tests]
+    risk_group: platforms-wsl
+    risk_level: normal
+    pending_source_pr: null
+    nav: { section: 平台, order: 55 }
+  - <<: *platform_wsl_zh
+    title: WSL development
+    language: en
+    nav: { section: Platforms, order: 55 }
+
+  - &platform_android_zh
+    <<: *page_defaults
+    id: platforms.android
+    title: Android 开发
+    language: zh_CN
+    path: platforms/android.md
+    status: draft
+    doc_type: how-to
+    audiences: [new-contributor, experienced-contributor, maintainer]
+    last_human_reviewer: Pending human review
+    review_interval_days: 90
+    source_paths: [android/AGENTS.md, android/app/build.gradle, android/app/jni/CMakeLists.txt, android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidHudModel.java, .github/workflows/release-android-bundle.yaml]
+    source_symbols: [final class AndroidHudModel]
+    source_queries: [assembleDebug]
+    source_fingerprint: abbe9136186f394a8ed5593fa4e3dd70e18ce3cf1ad53ea999973c7e90df1e3d
+    authority: build-config
+    verified_commit: dbaedf8357408ae6f96309732d6e087e9b878e18
+    verified_at: '2026-08-02'
+    include_in_search: false
+    include_in_ai_index: false
+    translation_group: platforms.android
+    translation_source_fingerprint: 8d05bff99c389df2c85486565e015a054a5ea64cd84279790224aa9d7bd3575f
+    prerequisites: [platforms.matrix, build.overview]
+    depends_on: [platforms.ui]
+    example_validation_ids: [android-unit]
+    risk_group: platforms-android
+    risk_level: high
+    pending_source_pr: null
+    nav: { section: 平台, order: 56 }
+  - <<: *platform_android_zh
+    title: Android development
+    language: en
+    nav: { section: Platforms, order: 56 }
+
+  - &platform_ui_zh
+    <<: *page_defaults
+    id: platforms.ui
+    title: UI 平台矩阵
+    language: zh_CN
+    path: platforms/ui.md
+    status: draft
+    doc_type: reference
+    audiences: [experienced-contributor, maintainer, api-user]
+    last_human_reviewer: Pending human review
+    review_interval_days: 90
+    source_paths: [src/ui_manager.h, src/input_context.cpp, src/sdltiles.h, android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java]
+    source_symbols: [class ui_adaptor, 'android_ui_mode::is_new_ui_build()']
+    source_queries: []
+    source_fingerprint: 4f2ee856289cb1352882870efe2efd69335a90b9e51750df07c43205fa0b2c12
+    authority: source-and-tests
+    verified_commit: dbaedf8357408ae6f96309732d6e087e9b878e18
+    verified_at: '2026-08-02'
+    include_in_search: false
+    include_in_ai_index: false
+    translation_group: platforms.ui
+    translation_source_fingerprint: 8e5535d38d8ae267597a3fd6a545d71f480bcb4a173599d1ee3e5f4aee0c0ace
+    prerequisites: [cpp.ui, cpp.input]
+    depends_on: []
+    example_validation_ids: [cpp-tests, android-unit, lua-contract]
+    risk_group: platforms-ui
+    risk_level: high
+    pending_source_pr: null
+    nav: { section: 平台, order: 57 }
+  - <<: *platform_ui_zh
+    title: UI platform matrix
+    language: en
+    nav: { section: Platforms, order: 57 }
+
+  - &resources_translation_zh
+    <<: *page_defaults
+    id: resources.translation
+    title: 翻译流程
+    language: zh_CN
+    path: resources/translation.md
+    status: draft
+    doc_type: how-to
+    audiences: [new-contributor, experienced-contributor, maintainer, mod-author]
+    last_human_reviewer: Pending human review
+    review_interval_days: 90
+    source_paths: [doc/TRANSLATING.md, .github/workflows/build-translations.yml, lang/Makefile, src/translations.h]
+    source_symbols: ['void set_language( const std::string &lang );']
+    source_queries: [Build translations]
+    source_fingerprint: 09f0ec9bd9d56b14fe677429ecab24bab4ac8188de480617c458cddea7a415bf
+    authority: build-config
+    verified_commit: dbaedf8357408ae6f96309732d6e087e9b878e18
+    verified_at: '2026-08-02'
+    include_in_search: false
+    include_in_ai_index: false
+    translation_group: resources.translation
+    translation_source_fingerprint: 0dcd4aa5a5b6b21e0a16bb655b6b37c976bb11b76c00a5b867d211cc459ee31b
+    prerequisites: [cpp.localization]
+    depends_on: []
+    example_validation_ids: [cpp-tests]
+    risk_group: localization
+    risk_level: high
+    pending_source_pr: null
+    nav: { section: 资源, order: 200 }
+  - <<: *resources_translation_zh
+    title: Translation workflow
+    language: en
+    nav: { section: Resources, order: 200 }
+
+  - &resources_tiles_zh
+    <<: *page_defaults
+    id: resources.tiles
+    title: Tileset
+    language: zh_CN
+    path: resources/tiles.md
+    status: draft
+    doc_type: reference
+    audiences: [new-contributor, experienced-contributor, maintainer, mod-author]
+    last_human_reviewer: Pending human review
+    review_interval_days: 120
+    source_paths: [doc/TILESET.md, gfx/tile_config_template.json, src/sdltiles.h, .github/workflows/compose-tilesets.yml]
+    source_symbols: [void load_tileset()]
+    source_queries: [TILESETS]
+    source_fingerprint: 548f727df0a5e71280243013c4da40bb2aa4e81cbcd4b78459286334a318b5c9
+    authority: source-and-tests
+    verified_commit: dbaedf8357408ae6f96309732d6e087e9b878e18
+    verified_at: '2026-08-02'
+    include_in_search: false
+    include_in_ai_index: false
+    translation_group: resources.tiles
+    translation_source_fingerprint: 61061f9df4b9952d28240b82ab556c77960a44966a74848a439c9063fb89270b
+    prerequisites: [platforms.ui]
+    depends_on: []
+    example_validation_ids: [json-load]
+    risk_group: resources-tiles
+    risk_level: normal
+    pending_source_pr: null
+    nav: { section: 资源, order: 201 }
+  - <<: *resources_tiles_zh
+    title: Tilesets
+    language: en
+    nav: { section: Resources, order: 201 }
+
+  - &resources_fonts_zh
+    <<: *page_defaults
+    id: resources.fonts
+    title: 字体
+    language: zh_CN
+    path: resources/fonts.md
+    status: draft
+    doc_type: reference
+    audiences: [experienced-contributor, maintainer]
+    last_human_reviewer: Pending human review
+    review_interval_days: 120
+    source_paths: [doc/user-guides/FONT_OPTIONS.md, src/font_loader.cpp, src/sdl_font.h]
+    source_symbols: [class Font]
+    source_queries: [gui_typeface]
+    source_fingerprint: 2a27e0ba73f9ebf7415861a346360263b5a232b4f25250cb0757261f496b779f
+    authority: source-and-tests
+    verified_commit: dbaedf8357408ae6f96309732d6e087e9b878e18
+    verified_at: '2026-08-02'
+    include_in_search: false
+    include_in_ai_index: false
+    translation_group: resources.fonts
+    translation_source_fingerprint: 8922eb552ca0384525d024eece39f14ecebad1dd58fdc11c423803d33708d1e1
+    prerequisites: [platforms.ui]
+    depends_on: [resources.translation]
+    example_validation_ids: [cpp-tests]
+    risk_group: resources-fonts
+    risk_level: normal
+    pending_source_pr: null
+    nav: { section: 资源, order: 202 }
+  - <<: *resources_fonts_zh
+    title: Fonts
+    language: en
+    nav: { section: Resources, order: 202 }
+
+  - &resources_sound_zh
+    <<: *page_defaults
+    id: resources.sound
+    title: Sound 与 soundpack
+    language: zh_CN
+    path: resources/sound.md
+    status: draft
+    doc_type: reference
+    audiences: [experienced-contributor, maintainer, mod-author]
+    last_human_reviewer: Pending human review
+    review_interval_days: 120
+    source_paths: [doc/SOUNDPACKS.md, src/sound_backend.h, src/sdlsound.h, src/sounds.h, tests/sound_backend_test.cpp]
+    source_symbols: [namespace sounds]
+    source_queries: [soundpack]
+    source_fingerprint: 9f1e5ea8a80d6091a01ff14d6ff874263d556de42bc5ea84ea11c76fda51ef24
+    authority: source-and-tests
+    verified_commit: dbaedf8357408ae6f96309732d6e087e9b878e18
+    verified_at: '2026-08-02'
+    include_in_search: false
+    include_in_ai_index: false
+    translation_group: resources.sound
+    translation_source_fingerprint: 42715b3663d7e72ab93813b14b8d1d37b2126d3889b073c471ed6d67477145c0
+    prerequisites: [platforms.ui]
+    depends_on: []
+    example_validation_ids: [cpp-tests, json-load]
+    risk_group: resources-sound
+    risk_level: normal
+    pending_source_pr: null
+    nav: { section: 资源, order: 203 }
+  - <<: *resources_sound_zh
+    title: Sound and soundpacks
+    language: en
+    nav: { section: Resources, order: 203 }
+
+  - &resources_shaders_zh
+    <<: *page_defaults
+    id: resources.shaders
+    title: SDL3 shader
+    language: zh_CN
+    path: resources/shaders.md
+    status: draft
+    doc_type: reference
+    audiences: [experienced-contributor, maintainer]
+    last_human_reviewer: Pending human review
+    review_interval_days: 90
+    source_paths: [tools/build_shaders.py, .github/actions/build-sdl3-shaders/action.yml, src/cata_shader.cpp, data/shaders/nightvision.frag]
+    source_symbols: ['shader::load_fragment']
+    source_queries: ['spv,dxil,msl']
+    source_fingerprint: 50e239f54b8be3024a35dbc60dbec52870146f8f4f0e4f7b8dd0734f4e369f90
+    authority: build-config
+    verified_commit: dbaedf8357408ae6f96309732d6e087e9b878e18
+    verified_at: '2026-08-02'
+    include_in_search: false
+    include_in_ai_index: false
+    translation_group: resources.shaders
+    translation_source_fingerprint: 6616d6bb941cc68640f4b48bfc40e9fbf57fd2aae91e0274f24bbdca417869d7
+    prerequisites: [platforms.ui]
+    depends_on: []
+    example_validation_ids: [cpp-tests]
+    risk_group: resources-shaders
+    risk_level: high
+    pending_source_pr: null
+    nav: { section: 资源, order: 204 }
+  - <<: *resources_shaders_zh
+    title: SDL3 shaders
+    language: en
+    nav: { section: Resources, order: 204 }
+
+  - &operations_packaging_zh
+    <<: *page_defaults
+    id: operations.packaging
+    title: 打包
+    language: zh_CN
+    path: operations/packaging.md
+    status: draft
+    doc_type: how-to
+    audiences: [maintainer]
+    last_human_reviewer: Pending human review
+    review_interval_days: 90
+    source_paths: [.github/workflows/release.yml, .github/workflows/release-android-bundle.yaml, build-scripts/windist.ps1, Makefile]
+    source_symbols: []
+    source_queries: [Experimental Release]
+    source_fingerprint: e20a98710d9f46b54f0958cb4194117bc664ebd8188c7e988b85d8fbf1d06e09
+    authority: build-config
+    verified_commit: dbaedf8357408ae6f96309732d6e087e9b878e18
+    verified_at: '2026-08-02'
+    include_in_search: false
+    include_in_ai_index: false
+    translation_group: operations.packaging
+    translation_source_fingerprint: a517c91c633dea4acc9e1d492c333d8f5be8b148ab981b63ac2b46b1d72db68b
+    prerequisites: [platforms.matrix, validation.testing]
+    depends_on: [resources.translation, resources.tiles, resources.fonts, resources.sound, resources.shaders]
+    example_validation_ids: []
+    risk_group: release
+    risk_level: high
+    pending_source_pr: null
+    nav: { section: 运维, order: 300 }
+  - <<: *operations_packaging_zh
+    title: Packaging
+    language: en
+    nav: { section: Operations, order: 300 }
+
+  - &operations_releases_zh
+    <<: *page_defaults
+    id: operations.releases
+    title: 发布操作
+    language: zh_CN
+    path: operations/releases.md
+    status: draft
+    doc_type: how-to
+    audiences: [maintainer]
+    last_human_reviewer: Pending human review
+    review_interval_days: 60
+    source_paths: [.github/workflows/release.yml, .github/workflows/release-android-bundle.yaml, doc/RELEASE_PROCESS.md, build-scripts/generate-release-notes.js]
+    source_symbols: []
+    source_queries: [workflow_dispatch]
+    source_fingerprint: 9b2686c6179dcc7fd3710b82931aa8b4061b7911ee1a4c4b670d0e265034702c
+    authority: build-config
+    verified_commit: dbaedf8357408ae6f96309732d6e087e9b878e18
+    verified_at: '2026-08-02'
+    include_in_search: false
+    include_in_ai_index: false
+    translation_group: operations.releases
+    translation_source_fingerprint: 968e8122bf55cc278a9f3c5c45d8fbeedfea0f436185c719787a5f53e02533fc
+    prerequisites: [operations.packaging]
+    depends_on: [maintenance.releases]
+    example_validation_ids: []
+    risk_group: release
+    risk_level: high
+    pending_source_pr: null
+    nav: { section: 运维, order: 301 }
+  - <<: *operations_releases_zh
+    title: Release operations
+    language: en
+    nav: { section: Operations, order: 301 }
+
+  - &operations_crash_zh
+    <<: *page_defaults
+    id: operations.crash-reports
+    title: Crash report 与 symbol
+    language: zh_CN
+    path: operations/crash-reports.md
+    status: draft
+    doc_type: how-to
+    audiences: [new-contributor, experienced-contributor, maintainer]
+    last_human_reviewer: Pending human review
+    review_interval_days: 120
+    source_paths: [src/crash.h, src/crash.cpp, src/debug.cpp, .github/workflows/msvc-full-features.yml]
+    source_symbols: ['void init_crash_handlers();']
+    source_queries: [BACKTRACE]
+    source_fingerprint: 84f96e7aba0cf6b109527bb678678b13f9cce878d74ec03480ebb49d390f8fe0
+    authority: source-and-tests
+    verified_commit: dbaedf8357408ae6f96309732d6e087e9b878e18
+    verified_at: '2026-08-02'
+    include_in_search: false
+    include_in_ai_index: false
+    translation_group: operations.crash-reports
+    translation_source_fingerprint: 14e660250e730d64aebabb110fc3d1a74e23ae94c705bcb34374b794001e8ef1
+    prerequisites: [validation.debugging, platforms.matrix]
+    depends_on: []
+    example_validation_ids: []
+    risk_group: diagnostics
+    risk_level: normal
+    pending_source_pr: null
+    nav: { section: 运维, order: 302 }
+  - <<: *operations_crash_zh
+    title: Crash reports and symbols
+    language: en
+    nav: { section: Operations, order: 302 }
+
+  - &operations_performance_zh
+    <<: *page_defaults
+    id: operations.performance-profiling
+    title: 性能分析
+    language: zh_CN
+    path: operations/performance-profiling.md
+    status: draft
+    doc_type: how-to
+    audiences: [experienced-contributor, maintainer]
+    last_human_reviewer: Pending human review
+    review_interval_days: 120
+    source_paths: [doc/c++/PERFORMANCE.md, src/profiling.h, CMakeLists.txt, tests/cata_catch.h]
+    source_symbols: ['CATA_PROFILE_SCOPE()']
+    source_queries: ['option(TRACY']
+    source_fingerprint: 8a73c242eba50e7d63d1fc5ced0423b9ce2df5330af4af3a98d693a84272235f
+    authority: source-and-tests
+    verified_commit: dbaedf8357408ae6f96309732d6e087e9b878e18
+    verified_at: '2026-08-02'
+    include_in_search: false
+    include_in_ai_index: false
+    translation_group: operations.performance-profiling
+    translation_source_fingerprint: 8cb921c250a51e014a9c075ad0e2ae808c596ca752bfaa6e66a2beea3bd9e545
+    prerequisites: [validation.testing, validation.debugging]
+    depends_on: []
+    example_validation_ids: [cmake-configure, cpp-tests]
+    risk_group: performance
+    risk_level: normal
+    pending_source_pr: null
+    nav: { section: 运维, order: 303 }
+  - <<: *operations_performance_zh
+    title: Performance profiling
+    language: en
+    nav: { section: Operations, order: 303 }
