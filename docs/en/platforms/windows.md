@@ -1,0 +1,94 @@
+---
+# GENERATED FROM docs-catalog.yml. DO NOT EDIT THIS BLOCK.
+id: platforms.windows
+title: Windows development
+language: en
+status: draft
+doc_type: explanation
+audiences:
+- new-contributor
+- experienced-contributor
+- maintainer
+owners:
+- CCB maintainers
+reviewers:
+- Documentation reviewers
+review_interval_days: 90
+last_human_reviewer: Pending human review
+source_paths:
+- CMakePresets.json
+- .github/workflows/msvc-full-features.yml
+- doc/c++/COMPILING.md
+- build-scripts/MSVC.cmake
+source_symbols: []
+source_queries:
+- windows-x64
+source_fingerprint: c3ab24337b86bdbd44d44eab2942d910822cb577576597e7a43ab52690ae13e4
+authority: build-config
+verified_commit: dbaedf8357408ae6f96309732d6e087e9b878e18
+verified_at: '2026-08-02'
+generated: false
+generated_by: null
+include_in_search: false
+include_in_ai_index: false
+translation_status: current
+translation_stale_since: null
+translation_source_fingerprint: 0d041a17d3cafee4a5a57d3aa8a5ac7894acc2dba06bcfc7ae00d6c8479fbaa3
+prerequisites:
+- platforms.matrix
+- build.overview
+depends_on: []
+redirect_from: []
+supersedes: []
+license: CC-BY-SA-3.0
+attribution: CCB contributors; see source paths and Git history.
+example_validation_ids:
+- cmake-configure
+- cpp-tests
+api_version: null
+deprecated: false
+deprecation_replacement: null
+risk_group: platforms-windows
+risk_level: high
+pending_source_pr: null
+stale_reason: null
+search:
+  exclude: true
+---
+
+# Windows development
+
+Windows has two maintained compiler environments with different dependency, shell, path, and
+artifact behavior: MSYS2/MinGW and native MSVC/vcpkg. Choose one before diagnosing a build.
+
+## Route selection
+
+| Route | Contract entry | Strength | Main boundary |
+| --- | --- | --- | --- |
+| MSYS2/MinGW | `windows-x64` or `windows-tiles-sounds-x64` preset | Unix-like shell and Ninja | MSYS2 package/runtime DLL set |
+| MSVC/vcpkg | `windows-x64-msvc` or `windows-tiles-sounds-x64-msvc` preset | Matches the Windows CI compiler lane | Visual Studio, vcpkg triplet and configuration |
+| ClangCL | `windows-tiles-sounds-x64-clang-cl` preset | Compiler diagnostics/time traces | Inherits the MSVC/vcpkg dependency model |
+
+Use `CMakePresets.json`, `.github/workflows/msvc-full-features.yml`, and the applicable toolchain
+files as authority. Legacy compilation prose is context, not proof that a package or command is
+still supported.
+
+## Shared checklist
+
+1. Name the shell: PowerShell, cmd, MSYS2 MinGW64, or another environment.
+2. Name architecture, compiler, generator, preset, configuration, SDL version, tiles/sound,
+   localization, tests, and static/dynamic linking.
+3. Keep source and build paths short enough for the selected tools and quote paths with spaces.
+4. Run the preset's configure and build stages in the same environment.
+5. Test the packaged directory, not only an executable beside development DLLs.
+
+## Artifacts and diagnostics
+
+Do not commit Visual Studio output, vcpkg installations, local CMake user presets, DLL staging,
+PDBs, crash dumps, or credentials. PDBs, logs, package manifests, and dumps can be uploaded as
+restricted CI/release artifacts when needed for diagnosis.
+
+## Cross-platform boundary
+
+Windows path encoding, console/SDL input, DLL discovery, and renderer recovery differ from
+Linux. A WSL build is a Linux binary and does not validate native Windows packaging.
