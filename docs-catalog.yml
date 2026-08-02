@@ -3779,7 +3779,7 @@ pages:
     translation_group: build-cmake
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 253c439d2715fae05d5ce5d3631ac72148eb7e89ff9d4d8cc6d350d150b78b78
+    translation_source_fingerprint: 4e33ea8120a73f3bb371aaebd3003cecdba0091dad79669a9480f7ccbb313bf1
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -3833,7 +3833,7 @@ pages:
     translation_group: build-cmake
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 253c439d2715fae05d5ce5d3631ac72148eb7e89ff9d4d8cc6d350d150b78b78
+    translation_source_fingerprint: 4e33ea8120a73f3bb371aaebd3003cecdba0091dad79669a9480f7ccbb313bf1
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -3888,7 +3888,7 @@ pages:
     translation_group: build-devcontainer
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 932aeb9ec06609c40c2c673b956bad680739eaca855e969736003ebd4ea09e7f
+    translation_source_fingerprint: f315bbcc7b8178911ef536a5473c747b7b5463698427283e0a270188e3e1b62b
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -3943,7 +3943,7 @@ pages:
     translation_group: build-devcontainer
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 932aeb9ec06609c40c2c673b956bad680739eaca855e969736003ebd4ea09e7f
+    translation_source_fingerprint: f315bbcc7b8178911ef536a5473c747b7b5463698427283e0a270188e3e1b62b
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4000,7 +4000,7 @@ pages:
     translation_group: build-windows-msvc
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 8d4a95ffb429c23a4f9c779018a9fcb0fb06b22acd77ae340be3a626e61724e9
+    translation_source_fingerprint: f2643fc32fc6bab74951ee37d766c14cec02ec4c4237fd1724036b9bbd3736ac
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4058,7 +4058,7 @@ pages:
     translation_group: build-windows-msvc
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 8d4a95ffb429c23a4f9c779018a9fcb0fb06b22acd77ae340be3a626e61724e9
+    translation_source_fingerprint: f2643fc32fc6bab74951ee37d766c14cec02ec4c4237fd1724036b9bbd3736ac
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4113,7 +4113,7 @@ pages:
     translation_group: build-windows-msys2
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 9fb232ee0202d268a3ffd85d387d45a4775c0e71906e259238444b817da56718
+    translation_source_fingerprint: 43a748aee4f757bcdeda57bb9bf2be1ee210390ac439517a0fa01d035f97b207
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4167,7 +4167,7 @@ pages:
     translation_group: build-windows-msys2
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 9fb232ee0202d268a3ffd85d387d45a4775c0e71906e259238444b817da56718
+    translation_source_fingerprint: 43a748aee4f757bcdeda57bb9bf2be1ee210390ac439517a0fa01d035f97b207
     prerequisites: []
     depends_on: []
     redirect_from: []

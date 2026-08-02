@@ -34,7 +34,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 932aeb9ec06609c40c2c673b956bad680739eaca855e969736003ebd4ea09e7f
+translation_source_fingerprint: f315bbcc7b8178911ef536a5473c747b7b5463698427283e0a270188e3e1b62b
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -91,6 +91,54 @@ This is the migration draft page for `build-devcontainer`. It records **1** froz
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Current Dev Container workflow
+
+The pinned source contains three separate configurations: `Standard` at the root,
+`Standard + Qt5` under `graphical/`, and `Cross-Compile w32` under `cross-compile/`.
+Select the intended configuration file; do not follow the old guide's procedure of
+commenting and uncommenting large sections of one shared Dockerfile.
+
+### Prerequisites
+
+- an editor with Dev Containers support (the checked configuration primarily targets the
+  VS Code extension);
+- Docker or a compatible container runtime;
+- a cloned CCB fork and a dedicated branch;
+- enough image, dependency, and build storage.
+
+Open the repository, select the relevant `.devcontainer/.../devcontainer.json`, and run
+“Reopen in Container”. The initial image build can take time. Preserve the build log and
+the failing layer instead of repeatedly deleting all Docker data.
+
+### Build inside the container
+
+Use authoritative repository entry points after the container opens, for example:
+
+```sh
+make -j2
+make -j2 tests
+```
+
+Repository CMake presets are also available. Run from the mounted repository root; Make or
+CMake determines artifact locations. Graphical execution additionally depends on host
+display, GPU or software rendering, and audio forwarding. A successful container compile
+does not prove that the graphical binary starts on the host.
+
+### Cross-compilation boundary
+
+Use the dedicated `cross-compile` configuration for a Windows cross-build. It proves the
+cross toolchain and target artifact, but does not replace Windows MSYS2/MSVC CI, runtime
+DLL checks, or an actual Windows launch.
+
+### Security and reproducibility
+
+- Review Dockerfiles, features, mounts, ports, and host sockets before building.
+- Never bake tokens, SSH private keys, signing material, or personal configuration into an
+  image.
+- When `.devcontainer/` changes, rebuild each affected configuration and record the host
+  and runtime versions.
+- Current JSON, Dockerfiles, and CI win over conflicting prose.
 
 ## History and attribution
 
