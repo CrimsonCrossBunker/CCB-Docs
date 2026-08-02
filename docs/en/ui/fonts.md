@@ -35,7 +35,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 10c6ae2758614195cc8e1f2b9f7f899ba7ab2e21e2342b1241c13db7ec66c5c2
+translation_source_fingerprint: b8be2fb8a289d316c8b45eee51e67745791b4bef30d39ed88c796ac1ec4102f5
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -90,6 +90,31 @@ This is the migration draft page for `ui-fonts`. It records **1** frozen invento
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Font configuration for the tiled build
+
+The tiled build reads four fallback chains from the user's `fonts.json`: `typeface`,
+`gui_typeface`, `map_typeface`, and `overmap_typeface`. Each value may be a path string, an object
+with `path`, or an array of those entries. Array order is glyph fallback order. The loader ensures
+that `data/font/unifont.ttf` is present as the final fallback.
+
+An object may set `hinting` and `antialiasing`. Current accepted hinting strings are `Auto`,
+`NoAuto`, `Default`, `Light`, `None`, and `Bitmap`. An unknown value reports a debug message and
+falls back to default; do not copy inconsistent enum lists from old prose. Disabling antialiasing
+sets monochrome and mono-hinting flags. Font paths resolve in the runtime environment, and a
+distributed package must actually include the file under a compatible font license.
+
+### Migration and validation
+
+`font_loader::load` reads the current configuration. If it does not exist, the loader reads the
+legacy/default path and `font_loader::save` writes the canonical object-array form. This write-back
+may change representation while preserving selection semantics.
+
+Validate with Latin, simplified and traditional Chinese, combining marks, wide characters, emoji
+fallback, and missing glyphs. Cover all four screen roles, DPI/scaling combinations, Bitmap, Light,
+and None modes, antialiasing on and off, and missing files. Also inspect ImGui atlas construction,
+map-cell dimensions, terminal alignment, memory/startup cost, and license attribution. Successful
+JSON parsing alone does not prove a usable font.
 
 ## History and attribution
 

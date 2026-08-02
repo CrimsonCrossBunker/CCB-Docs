@@ -36,7 +36,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: e51a6d8be7680963ade55cc2d6012e691545552f3e1090e7dd0dd76435915812
+translation_source_fingerprint: bacdc83bcea7b5ee9cc14e4b61e1c70a9d5338ead11cc98da368ae930b8c14bb
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -93,6 +93,31 @@ This is the migration draft page for `ui-colors`. It records **1** frozen invent
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## The CCB color system
+
+`color_manager::load_default` establishes color names, pairs, and invert/highlight mappings, while
+`data/raw/colors.json` supplies default base RGB values. Common names use `c_foreground`; `h_`
+denotes highlighting and `i_` inversion. Some foreground/background combinations also have named
+pairs. Query the current color manager for valid names rather than assuming any two names can be
+concatenated.
+
+Player-facing strings may use properly closed and nested `<color_name>…</color>` tags. Color must
+not be the only semantic channel: disabled, dangerous, and selected states also need text, symbols,
+or structure for screen readers and alternative themes. Support for `color` or `bgcolor` in map,
+item, and other JSON objects is defined by each loader; it is not uniform across object types.
+
+### User configuration and validation
+
+Users can override base RGB values, and the color manager serializes named custom and inverted
+mappings. ImGui styles are a separate configuration path with RGBA values rather than curses pairs.
+A theme can replace highlight/invert rules, so code must not depend on the actual RGB of one default
+theme.
+
+For a color-contract change, run JSON loading, color consistency, and relevant UI/light tests. Check
+default and custom themes, curses and tiles, ImGui, low contrast and color-vision differences,
+nested tags, invalid-name fallback, and screen readers. RGB values documented at one source commit
+are defaults, not a permanent visual ABI.
 
 ## History and attribution
 
