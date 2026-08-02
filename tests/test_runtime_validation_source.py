@@ -23,7 +23,7 @@ class RuntimeValidationSourceTests(unittest.TestCase):
         config = load_source_config()
         self.assertEqual(
             config["source_commit"],
-            "413db13701f9e875c94bafd015fc7e9b45bc94e3",
+            "bee42cfc3bdf1162974f6dcc655aef03a7aa605d",
         )
         self.assertEqual(
             config["pending_source_pr"],
@@ -36,6 +36,7 @@ class RuntimeValidationSourceTests(unittest.TestCase):
             {
                 "src/CMakeLists.txt",
                 "src/lua/CMakeLists.txt",
+                "src/main.cpp",
                 "tools/lua_api/check_cmake_contract.py",
                 "tools/lua_api/test_check_cmake_contract.py",
             }.issubset(config["validator_paths"])
@@ -89,9 +90,10 @@ class RuntimeValidationSourceTests(unittest.TestCase):
             ):
                 load_source_config(path)
 
-    def test_missing_cmake_validator_path_is_rejected(self) -> None:
+    def test_missing_build_or_runtime_validator_path_is_rejected(self) -> None:
         for missing_path in (
             "src/lua/CMakeLists.txt",
+            "src/main.cpp",
             "tools/lua_api/check_cmake_contract.py",
         ):
             with self.subTest(missing_path=missing_path):
@@ -102,7 +104,7 @@ class RuntimeValidationSourceTests(unittest.TestCase):
                     path.write_text(yaml.safe_dump(config), encoding="utf-8")
                     with self.assertRaisesRegex(
                         RuntimeValidationSourceError,
-                        "missing CMake validator paths",
+                        "missing build/runtime validator paths",
                     ):
                         load_source_config(path)
 

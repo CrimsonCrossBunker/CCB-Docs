@@ -43,13 +43,16 @@ def load_source_config(
     required_validator_paths = {
         "src/CMakeLists.txt",
         "src/lua/CMakeLists.txt",
+        "src/main.cpp",
         "tools/lua_api/check_cmake_contract.py",
         "tools/lua_api/test_check_cmake_contract.py",
     }
     validator_paths = set(config["validator_paths"])
     if not required_validator_paths.issubset(validator_paths):
         missing = ", ".join(sorted(required_validator_paths - validator_paths))
-        raise RuntimeValidationSourceError(f"missing CMake validator paths: {missing}")
+        raise RuntimeValidationSourceError(
+            f"missing build/runtime validator paths: {missing}"
+        )
     return config
 
 

@@ -82,7 +82,7 @@ jobs:
           fetch-depth: 1
           persist-credentials: false
 
-      - name: Validate the pinned CCB bundled Lua ABI contract
+      - name: Validate the pinned CCB build and runtime contracts
         run: python3 "$CCB_SOURCE_DIR/tools/lua_api/check_cmake_contract.py"
 
       - name: Build the release headless executable with Lua enabled
