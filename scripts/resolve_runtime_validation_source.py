@@ -42,6 +42,7 @@ def load_source_config(
 
     required_validator_paths = {
         "src/CMakeLists.txt",
+        "src/lua/CMakeLists.txt",
         "tools/lua_api/check_cmake_contract.py",
         "tools/lua_api/test_check_cmake_contract.py",
     }

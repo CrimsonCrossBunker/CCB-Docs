@@ -23,7 +23,7 @@ class RuntimeValidationSourceTests(unittest.TestCase):
         config = load_source_config()
         self.assertEqual(
             config["source_commit"],
-            "beedf1063d7fdf3edcc74b596a96bef00c44c836",
+            "413db13701f9e875c94bafd015fc7e9b45bc94e3",
         )
         self.assertEqual(
             config["pending_source_pr"],
@@ -35,6 +35,7 @@ class RuntimeValidationSourceTests(unittest.TestCase):
         self.assertTrue(
             {
                 "src/CMakeLists.txt",
+                "src/lua/CMakeLists.txt",
                 "tools/lua_api/check_cmake_contract.py",
                 "tools/lua_api/test_check_cmake_contract.py",
             }.issubset(config["validator_paths"])
@@ -89,16 +90,21 @@ class RuntimeValidationSourceTests(unittest.TestCase):
                 load_source_config(path)
 
     def test_missing_cmake_validator_path_is_rejected(self) -> None:
-        config = yaml.safe_load(CONFIG_PATH.read_text(encoding="utf-8"))
-        config["validator_paths"].remove("tools/lua_api/check_cmake_contract.py")
-        with tempfile.TemporaryDirectory() as directory:
-            path = Path(directory) / "runtime-example-validation.yml"
-            path.write_text(yaml.safe_dump(config), encoding="utf-8")
-            with self.assertRaisesRegex(
-                RuntimeValidationSourceError,
-                "missing CMake validator paths",
-            ):
-                load_source_config(path)
+        for missing_path in (
+            "src/lua/CMakeLists.txt",
+            "tools/lua_api/check_cmake_contract.py",
+        ):
+            with self.subTest(missing_path=missing_path):
+                config = yaml.safe_load(CONFIG_PATH.read_text(encoding="utf-8"))
+                config["validator_paths"].remove(missing_path)
+                with tempfile.TemporaryDirectory() as directory:
+                    path = Path(directory) / "runtime-example-validation.yml"
+                    path.write_text(yaml.safe_dump(config), encoding="utf-8")
+                    with self.assertRaisesRegex(
+                        RuntimeValidationSourceError,
+                        "missing CMake validator paths",
+                    ):
+                        load_source_config(path)
 
 
 if __name__ == "__main__":

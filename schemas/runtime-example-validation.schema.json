@@ -41,6 +41,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
+      "description": "Reviewed CCB source and test paths, including both bundled-Lua CMake ABI contract files.",
       "items": {
         "type": "string",
         "pattern": "^(src|tests|tools/lua_api)/[^/].*"
