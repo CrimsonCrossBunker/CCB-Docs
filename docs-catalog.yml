@@ -8001,7 +8001,7 @@ pages:
     translation_group: mod-compatibility
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 37e6bae3cb960c090d4fbafd60f762602550fca3162007e085e4fdb416fbf0d9
+    translation_source_fingerprint: ef1b50f80c175210c6c7d92a165859b136b3e95b186602f7be5956f20a260854
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8057,7 +8057,7 @@ pages:
     translation_group: mod-compatibility
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 37e6bae3cb960c090d4fbafd60f762602550fca3162007e085e4fdb416fbf0d9
+    translation_source_fingerprint: ef1b50f80c175210c6c7d92a165859b136b3e95b186602f7be5956f20a260854
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8111,7 +8111,7 @@ pages:
     translation_group: mod-localization
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 27330038766dd5b801998aefe6ba4710c719593163787c947821866bdabed86b
+    translation_source_fingerprint: cc89212b81f0325106aa5b8a410fc7eb79f2bbc965a261f968a8944454cd4ccc
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8165,7 +8165,7 @@ pages:
     translation_group: mod-localization
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 27330038766dd5b801998aefe6ba4710c719593163787c947821866bdabed86b
+    translation_source_fingerprint: cc89212b81f0325106aa5b8a410fc7eb79f2bbc965a261f968a8944454cd4ccc
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8222,7 +8222,7 @@ pages:
     translation_group: modding-overview
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 54105e68a8c09c078e03a6988321b0e6c0a2e35fbb2bee8ea8c5b9c7cb48e1d0
+    translation_source_fingerprint: 282f94915ba860bf09fdbb701cd3a92f97884276900d172ec57a5516aaecc0c2
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8279,7 +8279,7 @@ pages:
     translation_group: modding-overview
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 54105e68a8c09c078e03a6988321b0e6c0a2e35fbb2bee8ea8c5b9c7cb48e1d0
+    translation_source_fingerprint: 282f94915ba860bf09fdbb701cd3a92f97884276900d172ec57a5516aaecc0c2
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8336,7 +8336,7 @@ pages:
     translation_group: mods.in-repository-policy
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 51386b8d3cb82557243fd7f621aad1a377d2bac476fe9764479544715c0ecff3
+    translation_source_fingerprint: 182c359934f568b9b713df6ad8d700d62a0fd053f26470c2bf6318e1a152e457
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8393,7 +8393,7 @@ pages:
     translation_group: mods.in-repository-policy
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 51386b8d3cb82557243fd7f621aad1a377d2bac476fe9764479544715c0ecff3
+    translation_source_fingerprint: 182c359934f568b9b713df6ad8d700d62a0fd053f26470c2bf6318e1a152e457
     prerequisites: []
     depends_on: []
     redirect_from: []
