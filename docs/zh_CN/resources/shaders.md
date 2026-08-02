@@ -3,7 +3,7 @@
 id: resources.shaders
 title: SDL3 shader
 language: zh_CN
-status: draft
+status: active
 doc_type: reference
 audiences:
 - experienced-contributor
@@ -25,12 +25,12 @@ source_queries:
 - spv,dxil,msl
 source_fingerprint: 50e239f54b8be3024a35dbc60dbec52870146f8f4f0e4f7b8dd0734f4e369f90
 authority: build-config
-verified_commit: dbaedf8357408ae6f96309732d6e087e9b878e18
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: false
 generated_by: null
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 6616d6bb941cc68640f4b48bfc40e9fbf57fd2aae91e0274f24bbdca417869d7
@@ -56,19 +56,17 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/shaders/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/resources/shaders/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/dbaedf8357408ae6f96309732d6e087e9b878e18
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: tools/build_shaders.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/tools/build_shaders.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tools/build_shaders.py
 - path: .github/actions/build-sdl3-shaders/action.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/.github/actions/build-sdl3-shaders/action.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/.github/actions/build-sdl3-shaders/action.yml
 - path: src/cata_shader.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/src/cata_shader.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/cata_shader.cpp
 - path: data/shaders/nightvision.frag
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/data/shaders/nightvision.frag
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28resources.shaders%29%3A+&body=Document+ID%3A+resources.shaders%0ALanguage%3A+zh_CN%0AVerified+commit%3A+dbaedf8357408ae6f96309732d6e087e9b878e18%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/shaders/nightvision.frag
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28resources.shaders%29%3A+&body=Document+ID%3A+resources.shaders%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # SDL3 shader

@@ -3,7 +3,7 @@
 id: tilesets
 title: 'Legacy migration draft: tilesets'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -25,15 +25,15 @@ source_symbols: []
 source_queries: []
 source_fingerprint: 60752d04ad6e528c8eafada2d0bf4f559f838591a7a555c1f59a07efa2427b9f
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 8b641746e8eb5c4e67d2f069911cd0a9de618483102a4ecde0fa7a9220cee849
+translation_source_fingerprint: a752fc7f2fda08d0df939d157fc6105771de139154a1939f564672ea845aa544
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -47,7 +47,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: resources
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/tilesets/
 alternate_urls:
@@ -55,19 +55,17 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/tilesets/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/resources/tilesets/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/TILESET.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/TILESET.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/TILESET.md
 - path: tools/gfx_tools/compose.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tools/gfx_tools/compose.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tools/gfx_tools/compose.py
 - path: tools/gfx_tools/decompose.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tools/gfx_tools/decompose.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tools/gfx_tools/decompose.py
 - path: .github/workflows/compose-tilesets.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/.github/workflows/compose-tilesets.yml
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28tilesets%29%3A+&body=Document+ID%3A+tilesets%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/.github/workflows/compose-tilesets.yml
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28tilesets%29%3A+&body=Document+ID%3A+tilesets%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: tilesets
@@ -88,6 +86,48 @@ This is the migration draft page for `tilesets`. It records **1** frozen invento
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Tileset authoring and composition
+
+CCB distributions use compositing tilesets: individual PNG sprites, tile-entry JSON,
+`tile_info.json`, and `tileset.txt` are converted by `tools/gfx_tools/compose.py` into tilesheets and
+`tile_config.json`. Runtime-readable fields remain defined by the tiles loader; compose only
+validates and transforms the source format it understands.
+
+### Source layout and tile entries
+
+A tile entry maps one or more game-entity `id` values to `fg` and `bg` sprite roots. It may use
+rotations, weighted variants, `multitile`/`additional_tiles`, seasonal, gender, and item-variant
+names, plus contextual layering. Terrain/furniture connections and rotation also depend on
+`connect_groups`, `connects_to`, and `rotates_to` in game JSON. A tileset cannot create those runtime
+relationships. Inventory hardcoded overlay and animation IDs from current `cata_tiles.cpp` and call
+sites; a historical hand-maintained list can be incomplete.
+
+`tile_info.json` describes default and per-sheet sprite sizes, offsets, pixel scale, sheet width,
+and filler/fallback/exclusion behavior. Duplicate sprite roots, filler ordering, and cross-directory
+references affect the result, so keep names unambiguous and review compose warnings.
+`layering.json` contexts, item/field variants, offsets, and layers form a separate runtime contract.
+
+### Composition, distribution, and validation
+
+Current CI uses a command shaped like:
+
+```sh
+python3 tools/gfx_tools/compose.py --use-all --obsolete-fillers \
+  --feedback CONCISE --format-json --loglevel INFO SOURCE DEST
+```
+
+Take actual flags from `compose.py --help`; options such as `--only-json`, `--fail-fast`, and palette
+conversion change output or diagnostics. Compose into a temporary destination, review unused,
+missing, and duplicate sprites plus generated JSON and image dimensions, then load it in a tiled
+build. Test rotation, multitiles, fallback, zoom, seasons, overlays, and layering. Use
+`decompose.py` only to convert an old indexed tileset, then manually organize its generated names
+and directories.
+
+Every artwork needs a redistributable license and traceable attribution; successful composition is
+not license approval. `.github/workflows/compose-tilesets.yml` defines the current packaging matrix.
+External tileset-repository content is not a CCB runtime contract, so pin and review its source and
+revision.
 
 ## History and attribution
 

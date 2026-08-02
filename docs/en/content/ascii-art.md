@@ -3,7 +3,7 @@
 id: content.ascii-art
 title: 'Legacy migration draft: ascii art'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -28,15 +28,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: 090e72917bd4e8a3f233d97efdbe4ac036e3a13900805cf10c6f78d534fdc30e
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 14e5b171d251bb48146fc444c259c8d4fa1646a37e5be58f75e8a88931ca2cae
+translation_source_fingerprint: 330c6e811a69ea3a09b6f3fe005bf10e8349f1379b275b262ddad2331490c354
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -50,7 +50,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: ui
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/content/ascii-art/
 alternate_urls:
@@ -58,23 +58,21 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/content/ascii-art/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/content/ascii-art/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/ASCII_ART.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/ASCII_ART.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/ASCII_ART.md
 - path: src/ascii_art.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/ascii_art.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/ascii_art.cpp
 - path: src/ascii_art.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/ascii_art.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/ascii_art.h
 - path: src/init.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/init.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/init.cpp
 - path: data/json/ascii_art/generic_ascii.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/ascii_art/generic_ascii.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/ascii_art/generic_ascii.json
 - path: data/json/bodypart_graphs/arms.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/bodypart_graphs/arms.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28content.ascii-art%29%3A+&body=Document+ID%3A+content.ascii-art%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/bodypart_graphs/arms.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28content.ascii-art%29%3A+&body=Document+ID%3A+content.ascii-art%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: ascii art
@@ -95,6 +93,38 @@ This is the migration draft page for `content.ascii-art`. It records **1** froze
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## ASCII-art data contract
+
+First-party ASCII art uses an `ascii_art` JSON object with at least a stable `id` and a string-array
+`picture`. Current `ascii_art::load` removes color tags and measures each line by terminal display
+width. A line wider than `41` display columns is trimmed and emits a debug message. A column is not a
+UTF-8 byte: wide and combining characters and color tags must be checked through the real loader.
+
+```json
+{
+  "type": "ascii_art",
+  "id": "example_art",
+  "picture": [ "<color_white>+---+</color>", "<color_white>|   |</color>" ]
+}
+```
+
+This example illustrates structure and is not a resource to submit. Use existing valid color names
+and close tags correctly. Blank lines, leading spaces, and Unicode box characters are part of the
+image; text processing beyond the project JSON formatter can damage alignment. Body-part graphs use
+a different data and rendering path, so visual similarity does not prove identical fields or size.
+
+## Creation and review
+
+Any editor that preserves UTF-8, spaces, and line boundaries works. REXPaint is optional tooling,
+not a project contract. Confirm provenance and licensing for an external palette, font, template, or
+source image instead of importing unknown artwork.
+
+Before submission, run project JSON formatting and loading, check duplicate IDs, invalid color tags,
+and debug output, and inspect the real target UI in curses and tiles with default and fallback fonts,
+narrow windows, scaling, and both language environments. Measure display width after removing tags,
+not only the editor canvas. ASCII art cannot be the sole way to identify an item or body-part state;
+an accessible path still needs text or structure.
 
 ## History and attribution
 

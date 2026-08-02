@@ -3,7 +3,7 @@
 id: json-armor-design
 title: 旧文档迁移草稿：armor design
 language: zh_CN
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -26,15 +26,15 @@ source_symbols: []
 source_queries: []
 source_fingerprint: a9714429c46f2041888b761dac2dd50fb337ba9405ccd4439c40b6ceacb56f27
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: bdef173b83fb7ddb7bfde37489b35df61080fcc7e32712531d176a99c9a54cd1
+translation_source_fingerprint: 035e9840690568b77b4e754f7a7b992af931afaa10097aa5ad63715894012514
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -48,7 +48,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: design
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/json/armor-design/
 alternate_urls:
@@ -56,21 +56,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/armor-design/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/json/armor-design/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/design-balance-lore/ARMOR_BALANCE_AND_DESIGN.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/ARMOR_BALANCE_AND_DESIGN.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/design-balance-lore/ARMOR_BALANCE_AND_DESIGN.md
 - path: src/item_armor.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/item_armor.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/item_armor.cpp
 - path: src/item_factory.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/item_factory.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/item_factory.cpp
 - path: data/json/items/armor/torso_armor.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/items/armor/torso_armor.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/items/armor/torso_armor.json
 - path: tests/item_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/item_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json-armor-design%29%3A+&body=Document+ID%3A+json-armor-design%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/item_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json-armor-design%29%3A+&body=Document+ID%3A+json-armor-design%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 旧文档迁移草稿：armor design
@@ -91,6 +89,41 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## Armor JSON 设计与审核
+
+Armor 是 item 契约加上 `islot_armor`。每个 `armor` portion 必须声明 `covers`，并可独立设置
+coverage、melee/ranged/vitals coverage、sublocations、encumbrance、materials、layers、
+breathability 与 environmental protection。顶层字段和 inheritance 会再应用到各 portion；审核时
+必须看最终展开值。
+
+### 几何、材料与穿戴
+
+`specifically_covers` 把 coverage 限定到 sub-bodypart；缺少 sublocation 数据时，覆盖 parent
+bodypart 就视为覆盖其 subparts。`sided` 让实例在左右侧之间切换。layers 决定同部位衣物冲突，
+不要用任意 flag 或旧表替代当前 layer enum 与运行时检查。
+
+portion material 要有 type，`covered_by_mat` 必须为 1–100，thickness 为该材料层厚度。旧字符串
+material 形式仍能读取但代码已标为旧路径；新内容优先使用可审核的 per-portion material。真实
+重量、厚度、材料、coverage 和活动关节决定平衡，不能为了目标数值伪造物理属性。
+
+### Encumbrance、pockets 与 ablative
+
+encumbrance 可为单值或 empty/full pair，也可用 volume modifier。pocket 自身 modifier、rigidity
+与内容共同影响结果。ablative pocket 的 insert 仍是 armor item；其 flag restriction、coverage、
+不可直接穿戴边界和破损/transform 都要一起核对。
+
+### 最小复杂度原则
+
+普通衣物只表达真实需要的 portions；高级材料、per-subpart layers、特殊 coverage、relic effect 或
+transform 只在能说明玩家可见差异时加入。不要复制旧文档的“完整 flag 列表”，flag 注册表和
+consumer 才是契约。
+
+### 验证
+
+从当前相似第一方 armor 取基线，检查 item info、穿戴冲突、满/空 pocket、左右侧、近战/远程和
+ablative damage。运行 formatter、`make -j2 json-check`、Mod `--check-mods`，并为新边界扩展
+focused item/armor tests。平衡数字还需要 Responsible human 审阅其研究来源。
 
 ## 历史与归属
 

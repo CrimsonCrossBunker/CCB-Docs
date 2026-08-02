@@ -3,7 +3,7 @@
 id: json.martial-arts
 title: 'Legacy migration draft: martial arts'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -30,15 +30,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: 2dae37d80a7a5118d1ba3e4e39e6e061160fc23beaa6e745832bb491a88d3d62
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 9318cbc29a122e107795dba0379c5d39bda49d46a88233f67dacf26b53863ca2
+translation_source_fingerprint: 382be069a9f258f36fa820d6853eae848425d69eb6838cbb78006c7f7d4a2840
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -52,7 +52,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/martial-arts/
 alternate_urls:
@@ -60,21 +60,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/martial-arts/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/martial-arts/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/MARTIALART_JSON.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/MARTIALART_JSON.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/MARTIALART_JSON.md
 - path: src/martialarts.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/martialarts.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/martialarts.cpp
 - path: src/martialarts.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/martialarts.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/martialarts.h
 - path: data/json/martialarts.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/martialarts.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/martialarts.json
 - path: tests/martial_art_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/martial_art_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.martial-arts%29%3A+&body=Document+ID%3A+json.martial-arts%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/martial_art_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.martial-arts%29%3A+&body=Document+ID%3A+json.martial-arts%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: martial arts
@@ -95,6 +93,53 @@ This is the migration draft page for `json.martial-arts`. It records **1** froze
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Current CCB Martial Arts object graph
+
+Martial arts are not one JSON object. The runtime separately registers `attack_vector`,
+`weapon_category`, `technique`, `martial_art`, and buffs. A style references techniques and
+weapons or categories, then applies buffs or EOCs at combat events.
+
+### Styles and techniques
+
+A `martial_art` needs a stable `id`, `name`, `description`, and `initiate`. `autolearn` contains
+skill and level pairs; `primary_skill`, `learn_difficulty`, `teachable`, `weapons`, and
+`weapon_category` govern learning and eligible weapons. Validate `strictly_melee` and related
+limits through both UI and actual selection logic.
+
+A `technique` currently requires at least `name` and normally provides player/NPC messages and
+`attack_vectors`. Critical, counter, disarm, knockback, AoE, repeat, condition, requirement, and
+bonus data jointly determine candidacy and execution. Consistency checking reports an ordinary
+attack technique without an attack vector; defensive, dummy, grab-break, and miss-recovery types
+are exceptions.
+
+### Attack vectors, requirements, and buffs
+
+An `attack_vector` describes weapon or limb use, contact area, limb HP, encumbrance, armor bonus,
+and required or forbidden limb flags. It is not just an animation label: selected limbs and contact
+affect eligibility, damage, and tests.
+
+A style can attach buffs and inline EOCs at static, move, pause, hit, attack, dodge, block, get-hit,
+miss, critical, and kill events. Buffs define duration, stacks, persistence, dodge or block, bonuses,
+and requirements. Each event has different actors, weapons, targets, and frequency; an EOC must not
+assume a beta talker always exists.
+
+Requirements combine skills, weapon damage, weapon categories, buffs, and character flags. Holding
+an allowed weapon does not prove a technique passes limb, condition, ammo, range, or cooldown gates.
+
+### Design and validation
+
+1. Start from the closest first-party style graph and preserve ID prefixes and translated messages.
+2. Run the formatter, `make -j2 json-check`, and `--check-mods` for the actual Mod set.
+3. Run `martial_art_test` for weapon categories, limb substitution, HP, encumbrance, conditions,
+   sweep, stun, and knockback.
+4. In game, cover unarmed use, every weapon class, injury and high encumbrance, NPCs, criticals,
+   counters, and every buff or EOC event.
+5. Record DPS, hit and defense changes, stacks, and trigger frequency. Loading does not disprove
+   infinite stacking or forced loops.
+
+Legacy bonus strings and flag lists can drift. Use current loaders and consistency checks for exact
+enums and bounds.
 
 ## History and attribution
 

@@ -3,7 +3,7 @@
 id: json.artifacts
 title: 'Legacy migration draft: artifacts'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -29,15 +29,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: ad2b5a81653c650736c14c7353edf81b77620c498c521c6ccdcb628e6b7c3fc5
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 939ae910ccac54c27454a1f52bbdcb5c3e984a132cc66cec7732592df07e01bc
+translation_source_fingerprint: c5ea9a0faad65d7cd2f6686be43ccd9ae63d9c8e079dd44adfb2b0b5441c31a9
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -51,7 +51,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/artifacts/
 alternate_urls:
@@ -59,21 +59,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/artifacts/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/artifacts/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/ARTIFACTS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/ARTIFACTS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/ARTIFACTS.md
 - path: src/relic.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/relic.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/relic.cpp
 - path: src/relic.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/relic.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/relic.h
 - path: data/json/artifact/relic_procgen_data.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/artifact/relic_procgen_data.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/artifact/relic_procgen_data.json
 - path: data/json/artifact/premade_artifacts.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/artifact/premade_artifacts.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.artifacts%29%3A+&body=Document+ID%3A+json.artifacts%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/artifact/premade_artifacts.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.artifacts%29%3A+&body=Document+ID%3A+json.artifacts%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: artifacts
@@ -94,6 +92,43 @@ This is the migration draft page for `json.artifacts`. It records **1** frozen i
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Relics and procedural artifacts
+
+An artifact combines a base item with relic data. Premade relics and `relic_procgen_data` are distinct
+paths. A procgen dataset supplies weighted base items, charge templates, active spells, passive
+enchantment values, and type weights. Generation rules set power budget, attribute limit, negative
+power allowance, and resonance.
+
+### Procgen lists
+
+Every weighted entry requires weight. A passive entry requires an enchantment value type and may set
+minimum, maximum, increment, power per increment, and ench_has. An active entry requires spell_id and
+may set levels, power, and ench_has. Item entries require item and type-weight entries require a
+usable value. Dataset checks validate active spells but do not prove balance, item suitability, or
+that every enchantment consumer is meaningful.
+
+### Charges
+
+A charge template contains range and power objects for max_charges, charges, and charges_per_use,
+plus recharge_type and time. Generation clamps starting charges to the maximum and selects time from
+the range. The current procgen-template loader does not read the historical `recharge_condition`
+field. That member exists on generated runtime charge information and must not be presented as this
+JSON input contract.
+
+Take recharge-type and ench_has enums from `relic.cpp`. Multiple generated active spells share one
+activation charge cost. Verify how their activation requirements combine with the current generator.
+
+### Power, resonance, and validation
+
+Power is a generator selection budget, not automatic balance proof. A resonant generation rule feeds
+final power into current resonance runtime; thresholds, effects, and lore are behavior and design
+contracts and cannot be copied from stale prose.
+
+Run formatting, `make -j2 json-check`, and Mod `--check-mods`. Generate many samples with a fixed RNG
+seed and inspect empty weighted lists, invalid spells or items, charge bounds, positive and negative
+budgets, activation positions, save reload, and resonance. Generator changes need deterministic
+distribution and consistency tests.
 
 ## History and attribution
 

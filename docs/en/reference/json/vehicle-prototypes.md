@@ -3,7 +3,7 @@
 id: json.vehicle-prototypes
 title: 'Legacy migration draft: vehicle prototypes'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -29,15 +29,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: c36cc2de2b212cd6775c390386b94d7211f0e1b36e05d6e0123f2f12c395af9a
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: b1e1df03847d61e298ce96ac0a9cdf272ada700cecc7c9125dc91d8347e830db
+translation_source_fingerprint: 6b949b68d4dadd089a45559bd18125da4526795d152e18d47408841155461611
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -51,7 +51,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/vehicle-prototypes/
 alternate_urls:
@@ -59,23 +59,21 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/vehicle-prototypes/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/vehicle-prototypes/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/VEHICLES_JSON.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/VEHICLES_JSON.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/VEHICLES_JSON.md
 - path: src/veh_type.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/veh_type.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/veh_type.cpp
 - path: src/veh_type.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/veh_type.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/veh_type.h
 - path: data/json/road_vehicles.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/road_vehicles.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/road_vehicles.json
 - path: data/json/vehicleparts/vehicle_parts.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/vehicleparts/vehicle_parts.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/vehicleparts/vehicle_parts.json
 - path: tests/vehicle_export_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/vehicle_export_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.vehicle-prototypes%29%3A+&body=Document+ID%3A+json.vehicle-prototypes%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/vehicle_export_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.vehicle-prototypes%29%3A+&body=Document+ID%3A+json.vehicle-prototypes%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: vehicle prototypes
@@ -96,6 +94,40 @@ This is the migration draft page for `json.vehicle-prototypes`. It records **1**
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Vehicle prototype contract
+
+A `vehicle` prototype spawns a stock vehicle; the resulting vehicle uses a different save
+representation. Its generic factory owns `id`, `parts` is the core structure, and `name`, `items`,
+`zones`, and `color_palette` are optional. `blueprint` is currently consumed only for compatibility
+and does not drive spawning.
+
+### Parts and installation order
+
+Each part group requires `x`, `y`, and `parts`. An element may be a `vpart_id` string or an object
+with `part`; the object can also set 0–100 `ammo`, `ammo_types`, `ammo_qty`, `fuel`, and `tools`.
+`part#variant` is split at the last `#` in either form.
+
+Array order is installation order and must satisfy in-game prerequisites for frames, mounts, wheels,
+engines, turrets, and stacking. Multiple groups may append at one coordinate, but cannot bypass
+installation rules. Limited copy-from applies the parent first and appends parts, items, and zones;
+inspect the expanded result rather than only the child object.
+
+### Items, zones, and export
+
+An item spawn requires `x`, `y`, and 0–100 `chance`; it may set `items`, `item_groups`, `magazine`,
+and `ammo`. An item may be a string or `{ "id", "variant" }`. A zone requires type, x, and y and may
+have name or filter. It is placed only when the vehicle has a faction owner.
+
+The debug exporter can produce parts, selected turret, fuel, and tool state, simple cargo items,
+zones, and a visual blueprint. It leaves placeholder ID and name values and does not guarantee a
+round trip for complex containers or comestibles. Format and review its output manually.
+
+### Validation
+
+Run formatting, `make -j2 json-check`, and target-Mod `--check-mods`. Spawn a complex prototype in
+game and inspect refresh, installation order, cargo, owned zones, and palettes. Changes to export or
+fields need a `tests/vehicle_export_test.cpp` case that serializes and reloads equivalent data.
 
 ## History and attribution
 

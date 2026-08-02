@@ -3,7 +3,7 @@
 id: design-user-experience
 title: 'Legacy migration draft: user experience'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -24,15 +24,15 @@ source_symbols: []
 source_queries: []
 source_fingerprint: c48c4c006650195f1034263cc5e9b25a072b994966ca12dc6ab7f2777250c761
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 8a10854d6eb3aaa7c504cbc11a121d208d70bd39df2f6654a62940435aa4cea2
+translation_source_fingerprint: 2325e073a28d63b95df62acbd1b74ee80b3d34cf41cd9337ff783ab538777156
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -46,7 +46,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: design
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/design/user-experience/
 alternate_urls:
@@ -54,17 +54,15 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/design/user-experience/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/design/user-experience/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/design-balance-lore/design-user-experience.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/design-user-experience.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/design-balance-lore/design-user-experience.md
 - path: doc/USER_INTERFACE_AND_ACCESSIBILITY.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/USER_INTERFACE_AND_ACCESSIBILITY.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/USER_INTERFACE_AND_ACCESSIBILITY.md
 - path: src/options.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/options.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28design-user-experience%29%3A+&body=Document+ID%3A+design-user-experience%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/options.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28design-user-experience%29%3A+&body=Document+ID%3A+design-user-experience%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: user experience
@@ -85,6 +83,39 @@ This is the migration draft page for `design-user-experience`. It records **1** 
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## CCB user-experience goals
+
+CCB is a top-down, grid-based, action-time-driven open-world survival game with character and tiles
+rendering across desktop and Android targets. Its depth should come from interacting world systems
+and multiple problem-solving approaches, not from fighting the interface. Games cited by the legacy
+page and its “DDA” name are historical background; confirm current product identity, platforms, and
+features in CCB README, build configuration, source, and tests.
+
+### Depth must be understandable
+
+- Before a decision consumes time or resources or exposes a character, show the relevant
+  information where practical. Afterward, provide feedback that lets the player locate the cause.
+- Automate repetition while preserving real choices about route, equipment, risk, priority, and
+  retreat.
+- Keep actions discoverable, cancellable, and focus-safe with keyboard, touch, narrow windows,
+  scaling, and translated text.
+- Color, ASCII glyphs, sound, or pointer position cannot be the only semantics. Supply text or
+  structure for screen readers, high-contrast users, and play without audio.
+- Let players learn complex systems progressively. Defaults show information needed for the current
+  task and advanced detail may expand, but contracts should not be permanently hidden.
+
+## Designing a flow
+
+Write down the player goal, entry point, shortest successful path, cancel and failure paths, and save
+boundary first. Inspect the input context, activity system, messages, help, options, and
+`ui_adaptor` or ImGui lifecycle involved. Do not use a new global option to conceal an unclear
+default flow; every option expands the testing and maintenance matrix.
+
+Validate curses and tiles, keyboard and Android touch, resizing, narrow windows, long translations,
+color themes, screen-reader mode, interruption and resumption, save/reload, and invalid input. A
+pattern borrowed from another game is a candidate, not a substitute for current CCB usability and
+accessibility evidence.
 
 ## History and attribution
 

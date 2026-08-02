@@ -3,7 +3,7 @@
 id: build-devcontainer
 title: 'Legacy migration draft: devcontainer'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -26,15 +26,15 @@ source_symbols: []
 source_queries: []
 source_fingerprint: 8f68c334544cfd8d659189c98b595176526138bcc7ce376643893903767ec072
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 932aeb9ec06609c40c2c673b956bad680739eaca855e969736003ebd4ea09e7f
+translation_source_fingerprint: f315bbcc7b8178911ef536a5473c747b7b5463698427283e0a270188e3e1b62b
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -48,7 +48,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: build
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/build/devcontainer/
 alternate_urls:
@@ -56,21 +56,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/build/devcontainer/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/build/devcontainer/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/c++/COMPILING-DEVCONTAINER.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/c++/COMPILING-DEVCONTAINER.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/c++/COMPILING-DEVCONTAINER.md
 - path: .devcontainer/devcontainer.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/.devcontainer/devcontainer.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/.devcontainer/devcontainer.json
 - path: .devcontainer/Dockerfile
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/.devcontainer/Dockerfile
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/.devcontainer/Dockerfile
 - path: .devcontainer/graphical/devcontainer.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/.devcontainer/graphical/devcontainer.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/.devcontainer/graphical/devcontainer.json
 - path: .devcontainer/cross-compile/devcontainer.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/.devcontainer/cross-compile/devcontainer.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28build-devcontainer%29%3A+&body=Document+ID%3A+build-devcontainer%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/.devcontainer/cross-compile/devcontainer.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28build-devcontainer%29%3A+&body=Document+ID%3A+build-devcontainer%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: devcontainer
@@ -91,6 +89,54 @@ This is the migration draft page for `build-devcontainer`. It records **1** froz
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Current Dev Container workflow
+
+The pinned source contains three separate configurations: `Standard` at the root,
+`Standard + Qt5` under `graphical/`, and `Cross-Compile w32` under `cross-compile/`.
+Select the intended configuration file; do not follow the old guide's procedure of
+commenting and uncommenting large sections of one shared Dockerfile.
+
+### Prerequisites
+
+- an editor with Dev Containers support (the checked configuration primarily targets the
+  VS Code extension);
+- Docker or a compatible container runtime;
+- a cloned CCB fork and a dedicated branch;
+- enough image, dependency, and build storage.
+
+Open the repository, select the relevant `.devcontainer/.../devcontainer.json`, and run
+“Reopen in Container”. The initial image build can take time. Preserve the build log and
+the failing layer instead of repeatedly deleting all Docker data.
+
+### Build inside the container
+
+Use authoritative repository entry points after the container opens, for example:
+
+```sh
+make -j2
+make -j2 tests
+```
+
+Repository CMake presets are also available. Run from the mounted repository root; Make or
+CMake determines artifact locations. Graphical execution additionally depends on host
+display, GPU or software rendering, and audio forwarding. A successful container compile
+does not prove that the graphical binary starts on the host.
+
+### Cross-compilation boundary
+
+Use the dedicated `cross-compile` configuration for a Windows cross-build. It proves the
+cross toolchain and target artifact, but does not replace Windows MSYS2/MSVC CI, runtime
+DLL checks, or an actual Windows launch.
+
+### Security and reproducibility
+
+- Review Dockerfiles, features, mounts, ports, and host sockets before building.
+- Never bake tokens, SSH private keys, signing material, or personal configuration into an
+  image.
+- When `.devcontainer/` changes, rebuild each affected configuration and record the host
+  and runtime versions.
+- Current JSON, Dockerfiles, and CI win over conflicting prose.
 
 ## History and attribution
 

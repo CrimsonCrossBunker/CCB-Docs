@@ -3,7 +3,7 @@
 id: translation-guide
 title: 旧文档迁移草稿：translation guide
 language: zh_CN
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -30,15 +30,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: 007ab64d80f8144fed21e6e91734d861c684c40ef5a68677e458368084ebe848
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 2bd70491246b6f2256eb371a2875b799c583360ea6d4b8970485c80431e5a5cd
+translation_source_fingerprint: 59c88ec076560e8e147d18ecad40da1ed8de7a18a21854934ae6a8c5a5656b03
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -53,7 +53,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: localization
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/localization/translation-guide/
 alternate_urls:
@@ -61,27 +61,25 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/localization/translation-guide/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/localization/translation-guide/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/TRANSLATING.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/TRANSLATING.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/TRANSLATING.md
 - path: lang/Makefile
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/lang/Makefile
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/lang/Makefile
 - path: src/translations.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/translations.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/translations.cpp
 - path: .github/workflows/build-translations.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/.github/workflows/build-translations.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/.github/workflows/build-translations.yml
 - path: .github/workflows/push-translation-template.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/.github/workflows/push-translation-template.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/.github/workflows/push-translation-template.yml
 - path: src/translation_manager.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/translation_manager.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/translation_manager.cpp
 - path: lang/notes/README_all_translators.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/lang/notes/README_all_translators.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/lang/notes/README_all_translators.md
 - path: lang/update_pot.sh
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/lang/update_pot.sh
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28translation-guide%29%3A+&body=Document+ID%3A+translation-guide%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/lang/update_pot.sh
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28translation-guide%29%3A+&body=Document+ID%3A+translation-guide%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 旧文档迁移草稿：translation guide
@@ -103,6 +101,39 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## CCB 本地化流程
+
+CCB 使用 gettext、source extraction、PO 与编译后的 MO。运行时行为以 `translations.cpp` 为准，
+JSON extraction 以 `lang/` scripts 为准，远端同步以当前 translation workflows 和 Transifex CCB
+project 为准。旧 `cataclysm-dda` resource 名或论坛说明不能覆盖当前 `.tx/config`。
+
+### 开发者
+
+简单 C++ literal 用 `_()`；有歧义时用 context；数量使用 plural API。需要延迟翻译、JSON context
+或 plural 的数据用 `translation`/`to_translation`/`pl_translation`，在展示时调用 `translated()`。
+不要在 global/local static 初始化时缓存已翻译字符串，否则初始化顺序或运行时换语言会出错。
+Debug/error 文本保持可复制的原文，除非其明确属于 player-facing contract。
+
+JSON translator comment 使用 loader 支持的 `//~`/translation object 形式。占位符、位置参数、
+markup、gender context、key tags 和换行必须保持等价；不要拼接依赖英语词序的句子。新增 extraction
+形态时同时更新 extractor 与测试。
+
+### 构建与验证
+
+当前本地 MO 入口是：
+
+```sh
+make -C lang LANGUAGES=zh_CN
+```
+
+或使用仓库脚本生成 POT、验证/合并 PO、更新 stats 和编译 MO；具体名称从当前 `lang/` 与 CI
+读取。CI 的 build-translations workflow 有 TX token 时拉取、丢弃无效 PO、更新统计并编译；无
+token 时复用可信 master artifact。Experimental Release 成功后另一个 workflow 生成 POT 并向
+Transifex 推送 source template。
+
+验证 extraction diff、POT/PO 格式、placeholder/plural/context parity、`msgfmt`、语言切换、fallback、
+UI 宽度和目标平台字体。不要手改生成 MO；Transifex 写操作需要维护者凭据和人工审查。
 
 ## 历史与归属
 

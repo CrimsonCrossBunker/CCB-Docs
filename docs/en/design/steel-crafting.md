@@ -3,7 +3,7 @@
 id: design-steel-crafting
 title: 'Legacy migration draft: steel crafting'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -25,15 +25,15 @@ source_symbols: []
 source_queries: []
 source_fingerprint: f12dfc5ad874180d9e08feb7e486805f625b52d0e537aa4b23769e04b0b6d35b
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 24578e84a3818c7bdc4a124c7d5475ea1f662f351689f02448cc51acb8e04d13
+translation_source_fingerprint: 4ccf22b3f1c0ae57f5f0be6c64f11f2d0d286c2e03f830ef31ab8d3318e3bf28
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -47,7 +47,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: design
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/design/steel-crafting/
 alternate_urls:
@@ -55,19 +55,17 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/design/steel-crafting/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/design/steel-crafting/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/design-balance-lore/STEEL_CRAFTING.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/STEEL_CRAFTING.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/design-balance-lore/STEEL_CRAFTING.md
 - path: data/json/materials.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/materials.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/materials.json
 - path: data/json/recipes/other/materials.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/recipes/other/materials.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/recipes/other/materials.json
 - path: data/json/requirements/materials.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/requirements/materials.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28design-steel-crafting%29%3A+&body=Document+ID%3A+design-steel-crafting%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/requirements/materials.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28design-steel-crafting%29%3A+&body=Document+ID%3A+design-steel-crafting%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: steel crafting
@@ -88,6 +86,38 @@ This is the migration draft page for `design-steel-crafting`. It records **1** f
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Current steel abstraction
+
+CCB uses a small set of material classes to express major differences in impurities, carbon
+content, and heat treatment rather than simulating complete metallurgy. Current
+`data/json/materials.json` includes `budget_steel`, `lc_steel`, `mc_steel`, `hc_steel`, `ch_steel`,
+`qt_steel`, and the legacy-compatible `steel`, among others. That data and its loader define real
+IDs, resistances, repair materials, and descriptions. Historical SAE comparisons, skill tables, and
+hour counts are design approximations, not recipe contracts.
+
+Low-, medium-, and high-carbon, case-hardened, and quench-tempered categories should create
+understandable differences in working, durability, and repair. Harder processes normally require
+better heat control, tools, knowledge, time, and risk. The game may compress cooling and batching,
+but an advanced steel should not become a cost-free numeric upgrade.
+
+## Writing or migrating recipes
+
+1. Start from current material, item, and recipe IDs and confirm what the target actually uses
+   instead of inferring it from a display name.
+2. Compare the real process with tool quality, proficiencies, skills, activity time, batches, fuel,
+   and components that the game can currently express.
+3. Separate stock production, forging, case hardening or quenching and tempering, and repair. Do not
+   apply a finished-item treatment to a generic ingot when that process would not fit.
+4. Prefer recovery from pre-Cataclysm vehicles, machinery, and goods. A new mining or smelting route
+   must show why it is sensible under current setting and technology constraints and not busywork.
+5. For upgrades and repairs, inspect `copy-from`, material, `repaired_with`, requirement groups,
+   tool energy, batch time, and disassembly results.
+
+Validation includes JSON formatting and loading, recipe reachability, component conservation, batch
+scaling, tool energy, failure conditions, repair, and disassembly. Historical tables may explain a
+tradeoff, but every concrete skill, time, carbon quantity, or material property must be rechecked in
+current data at the pinned commit.
 
 ## History and attribution
 

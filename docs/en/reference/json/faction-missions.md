@@ -3,7 +3,7 @@
 id: json.faction-missions
 title: 'Legacy migration draft: faction missions'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -27,15 +27,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: 06cdbc4c15861847dfbef5486ae1b1c427c73774ff0cc485322ff8a7b5e2cd93
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: d0b3e83eb801ac76261d91723fb41169d82ffd0280319739da5012a11de765af
+translation_source_fingerprint: 2871c5ad31a9faf5c8544c02c396326bb55e9191eecdf732be3eebc4f39ba3ec
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -49,7 +49,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/faction-missions/
 alternate_urls:
@@ -57,21 +57,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/faction-missions/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/faction-missions/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/FACTION_MISSIONS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/FACTION_MISSIONS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/FACTION_MISSIONS.md
 - path: src/faction_mission.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/faction_mission.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/faction_mission.cpp
 - path: src/faction_camp.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/faction_camp.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/faction_camp.cpp
 - path: data/json/faction_missions.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/faction_missions.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/faction_missions.json
 - path: tests/faction_camp_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/faction_camp_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.faction-missions%29%3A+&body=Document+ID%3A+json.faction-missions%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/faction_camp_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.faction-missions%29%3A+&body=Document+ID%3A+json.faction-missions%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: faction missions
@@ -92,6 +90,37 @@ This is the migration draft page for `json.faction-missions`. It records **1** f
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Faction mission data boundary
+
+The `faction_mission` generic factory currently supplies names, descriptions, and display metadata
+for basecamp missions. Target selection, NPC dispatch, rewards or risk, and map mutation remain
+largely implemented by C++ consumers such as `faction_camp.cpp`. Adding a JSON object does not create
+an executable mission system.
+
+### Loader fields
+
+Name and desc are mandatory. Skill, difficulty, risk, activity, time, positions, items_label,
+items_possibilities, effects, and footer are optional. Difficulty and risk accept only NONE,
+VERY_LOW, LOW, MEDIUM, HIGH, and VERY_HIGH. Activity must exist in the activity-level map or the
+loader reports it as invalid.
+
+Time, effects, and item fields are translated descriptions rather than a structured duration, loot
+table, or effect program. They must accurately describe the matching hardcoded consumer and cannot
+replace consumer tests.
+
+### Adding or changing a mission
+
+Find camp code and unlock conditions that consume the mission ID before editing its display object.
+Check positions, real duration, skill training, food or gear transfer, failure and risk, and repeat
+semantics. A new data-driven behavior first needs a public execution contract, loader, and tests;
+natural-language effects are not instructions.
+
+### Validation
+
+Run formatting, `make -j2 json-check`, and Mod `--check-mods`. In the camp menu, check zero, one, and
+multiple-NPC displays, translations, unavailable reasons, departure and return, and repeat missions.
+A new ID or behavior needs focused faction-camp tests and prose that agrees with the implementation.
 
 ## History and attribution
 

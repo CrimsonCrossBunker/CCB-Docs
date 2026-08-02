@@ -3,7 +3,7 @@
 id: api.lua.v5.permissions
 title: Permission and trust model
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - mod-author
@@ -29,12 +29,12 @@ source_symbols:
 source_queries: []
 source_fingerprint: 86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83
 authority: api-contract
-verified_commit: 3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: false
 generated_by: null
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 97e992a62f3f105811f0d23a9fdbeac395bb0c6d73ff166b944e26578916a06f
@@ -52,7 +52,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/permissions/
 alternate_urls:
@@ -60,23 +60,21 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/permissions/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/permissions/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: data/lua/README.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/README.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/lua/README.md
 - path: data/lua/manifest.schema.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/manifest.schema.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/lua/manifest.schema.json
 - path: data/lua/types/ccb_api_v5.d.lua
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/lua/types/ccb_api_v5.d.lua
 - path: data/lua/reference/ccb_public_api_v5.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/reference/ccb_public_api_v5.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/lua/reference/ccb_public_api_v5.json
 - path: data/lua/reference/ccb_public_api_v5_coverage.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/reference/ccb_public_api_v5_coverage.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/lua/reference/ccb_public_api_v5_coverage.json
 - path: tools/lua_api/README.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/tools/lua_api/README.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.permissions%29%3A+&body=Document+ID%3A+api.lua.v5.permissions%0ALanguage%3A+en%0AVerified+commit%3A+3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tools/lua_api/README.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.permissions%29%3A+&body=Document+ID%3A+api.lua.v5.permissions%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Permission and trust model

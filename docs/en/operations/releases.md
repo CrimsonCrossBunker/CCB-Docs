@@ -3,7 +3,7 @@
 id: operations.releases
 title: Release operations
 language: en
-status: draft
+status: active
 doc_type: how-to
 audiences:
 - maintainer
@@ -23,12 +23,12 @@ source_queries:
 - workflow_dispatch
 source_fingerprint: 9b2686c6179dcc7fd3710b82931aa8b4061b7911ee1a4c4b670d0e265034702c
 authority: build-config
-verified_commit: dbaedf8357408ae6f96309732d6e087e9b878e18
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: false
 generated_by: null
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 968e8122bf55cc278a9f3c5c45d8fbeedfea0f436185c719787a5f53e02533fc
@@ -54,19 +54,17 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/releases/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/operations/releases/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/dbaedf8357408ae6f96309732d6e087e9b878e18
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: .github/workflows/release.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/.github/workflows/release.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/.github/workflows/release.yml
 - path: .github/workflows/release-android-bundle.yaml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/.github/workflows/release-android-bundle.yaml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/.github/workflows/release-android-bundle.yaml
 - path: doc/RELEASE_PROCESS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/doc/RELEASE_PROCESS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/RELEASE_PROCESS.md
 - path: build-scripts/generate-release-notes.js
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/dbaedf8357408ae6f96309732d6e087e9b878e18/build-scripts/generate-release-notes.js
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28operations.releases%29%3A+&body=Document+ID%3A+operations.releases%0ALanguage%3A+en%0AVerified+commit%3A+dbaedf8357408ae6f96309732d6e087e9b878e18%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/build-scripts/generate-release-notes.js
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28operations.releases%29%3A+&body=Document+ID%3A+operations.releases%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Release operations

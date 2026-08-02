@@ -3,7 +3,7 @@
 id: design-portal-storms
 title: 'Legacy migration draft: portal storms'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -27,15 +27,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: 9370cc17f5eae8733866149bd28406ce50826f277aa6633dd233c94277c5892a
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 650e3b129165e75c26431a3706e76b70df33103d1c408b804234478e7fdbdf81
+translation_source_fingerprint: a82b4a148d0d6383693aebd760d44f9a755400c665613e08e50881eba98fc5e9
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -49,7 +49,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: design
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/design/portal-storms/
 alternate_urls:
@@ -57,21 +57,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/design/portal-storms/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/design/portal-storms/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/design-balance-lore/PORTAL_STORM_BALANCE_AND_DESIGN.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/PORTAL_STORM_BALANCE_AND_DESIGN.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/design-balance-lore/PORTAL_STORM_BALANCE_AND_DESIGN.md
 - path: src/game.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/game.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/game.cpp
 - path: data/json/effects_on_condition/nether_eocs/portal_storm_effect_on_condition.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/effects_on_condition/nether_eocs/portal_storm_effect_on_condition.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/effects_on_condition/nether_eocs/portal_storm_effect_on_condition.json
 - path: data/json/mapgen/portal_storm.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/mapgen/portal_storm.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/mapgen/portal_storm.json
 - path: tests/widget_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/widget_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28design-portal-storms%29%3A+&body=Document+ID%3A+design-portal-storms%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/widget_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28design-portal-storms%29%3A+&body=Document+ID%3A+design-portal-storms%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: portal storms
@@ -92,6 +90,40 @@ This is the migration draft page for `design-portal-storms`. It records **1** fr
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## The role of a portal storm
+
+A portal storm is anomalous weather and an interdimensional collision that changes a player's
+plans, not a scheduled boss fight. It should create unease, disruption, and compound pressure, but
+must not depend on unwarned damage to kill a character or force every player to sleep through it.
+Sound shelter should matter, while a prepared character may choose to travel at genuine risk rather
+than with guaranteed safety.
+
+### Passive and active pressure
+
+- **Passive effects** express worlds colliding: anomalous entities, obstacles, sensory interference,
+  or temporary environmental changes. They should not actively hunt the player or spend the
+  attention resource known as `ire`.
+- **Active effects** express malicious entities noticing an exposed character. They may track,
+  sabotage, or force route changes, but need the appropriate trigger and an `ire` cost so pressure
+  does not stack without bound.
+- A themed storm need not reuse identical resource names, but must still explain what is ambient,
+  what can target a character, and how a player observes and reduces risk.
+
+Current first-party data still registers `EOC_PORTAL_EFFECTS_PASSIVE` and
+`EOC_PORTAL_EFFECTS_ACTIVE` in
+`data/json/effects_on_condition/nether_eocs/portal_storm_effect_on_condition.json`. The EOC chain,
+related mapgen, and calling code define actual weights, conditions, variables, and effects; this
+page does not freeze their numeric values.
+
+## Content review checklist
+
+Limit repeated messages and effect frequency so sound, visuals, and behavior convey the anomaly.
+Cover indoor and outdoor boundaries, underground areas and vehicles, sight, sleep and activity
+interruptions, NPCs, different senses, save/reload, and repeated storms over time. A new EOC needs
+condition, `ire` accounting, failure-path, and repeat-execution validation plus JSON/EOC loading and
+focused tests. Long-term ideas such as localized trackable storms or additional themes remain
+possible directions, not claims about current implementation.
 
 ## History and attribution
 

@@ -3,7 +3,7 @@
 id: json.terrain-furniture-transforms
 title: 旧文档迁移草稿：terrain furniture transforms
 language: zh_CN
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -28,15 +28,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: 7a7d7f8f3faec648766f1b2b622d9ba14c2f24702c6e4a2954b9b65e8ee93188
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 85c40d28b0f25c67f8be7d10f669d4f722cbe3844aaa554e0fda2db51c439f6f
+translation_source_fingerprint: 0571a43fafca38966d551927fdb7bbd8d47e5e8dc45face4558c7e228b976b79
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -50,7 +50,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/terrain-furniture-transforms/
 alternate_urls:
@@ -58,21 +58,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/terrain-furniture-transforms/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/terrain-furniture-transforms/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/TER_FURN_TRANSFORM.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/TER_FURN_TRANSFORM.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/TER_FURN_TRANSFORM.md
 - path: src/magic_ter_fur_transform.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/magic_ter_fur_transform.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/magic_ter_fur_transform.cpp
 - path: src/magic_ter_furn_transform.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/magic_ter_furn_transform.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/magic_ter_furn_transform.h
 - path: src/mapgen.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/mapgen.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/mapgen.cpp
 - path: data/json/mapgen/haunting.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/mapgen/haunting.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.terrain-furniture-transforms%29%3A+&body=Document+ID%3A+json.terrain-furniture-transforms%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/mapgen/haunting.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.terrain-furniture-transforms%29%3A+&body=Document+ID%3A+json.terrain-furniture-transforms%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 旧文档迁移草稿：terrain furniture transforms
@@ -93,6 +91,54 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## 当前 CCB terrain/furniture transform
+
+`ter_furn_transform` 是具名、可复用的格子转换表。它分别匹配 terrain、furniture、field 和
+trap，然后从带权 `result` 中选择替代值。各类别互相独立；匹配 terrain 不会自动产生某个
+furniture。
+
+### 基础定义
+
+```jsonc
+{
+  "type": "ter_furn_transform",
+  "id": "ccb_example_transform",
+  "terrain": [
+    {
+      "valid_terrain": [ "t_sand" ],
+      "result": [ [ "t_dirt", 4 ], "t_grass" ],
+      "message": "The sand shifts.",
+      "message_good": true
+    }
+  ]
+}
+```
+
+单个 result 的权重为 1；二元数组可提供权重。`message_good` 缺省为 true。terrain 与
+furniture 还可用 `valid_flags` 匹配；field/trap 使用各自 valid-ID 字段。具体字段名和是否
+支持 flag 以 `ter_furn_transform::load` 为准。
+
+### 匹配与冲突
+
+Loader 把每个 valid ID/flag 映射到转换结果。同一输入被多条规则覆盖时，容器插入顺序与
+实现细节不应被当成内容优先级机制；保持匹配集合互斥，或补测试证明预期。`f_null`、
+`fd_null` 等“清除”结果仍是各系统的真实 ID，不要用 JSON null 替代。
+
+Transform 可由 mapgen placing、EOC 半径效果、spell 等调用。调用者决定位置、范围、
+talker、重复次数和消息展示；transform 本身不记录“已执行”。重复调用必须是明确设计，
+尤其是带随机结果或可能形成 A↔B 循环时。
+
+### 验证
+
+1. 检查所有 valid/result terrain、furniture、field、trap ID 与 flags。
+2. 运行 formatter、`make -j2 json-check` 和实际 Mod 集 `--check-mods`。
+3. 分别测试每类输入、无匹配、多个 flag、权重边界与 null/清除结果。
+4. 从每个真实调用点测试范围、z-level、重复执行和消息。
+5. Mapgen 调用再运行 `mapgen_function_test`，EOC/spell 调用运行对应 focused test。
+
+Transform 适合声明同格类型替换；需要跨格、条件链或副作用时，应在 EOC/mapgen 调用层
+表达，而不是依赖偶然的规则覆盖。
 
 ## 历史与归属
 

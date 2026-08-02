@@ -3,7 +3,7 @@
 id: json-armor-design
 title: 'Legacy migration draft: armor design'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -26,15 +26,15 @@ source_symbols: []
 source_queries: []
 source_fingerprint: a9714429c46f2041888b761dac2dd50fb337ba9405ccd4439c40b6ceacb56f27
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: bdef173b83fb7ddb7bfde37489b35df61080fcc7e32712531d176a99c9a54cd1
+translation_source_fingerprint: 035e9840690568b77b4e754f7a7b992af931afaa10097aa5ad63715894012514
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -48,7 +48,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: design
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/armor-design/
 alternate_urls:
@@ -56,21 +56,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/armor-design/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/json/armor-design/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/design-balance-lore/ARMOR_BALANCE_AND_DESIGN.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/ARMOR_BALANCE_AND_DESIGN.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/design-balance-lore/ARMOR_BALANCE_AND_DESIGN.md
 - path: src/item_armor.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/item_armor.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/item_armor.cpp
 - path: src/item_factory.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/item_factory.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/item_factory.cpp
 - path: data/json/items/armor/torso_armor.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/items/armor/torso_armor.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/items/armor/torso_armor.json
 - path: tests/item_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/item_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json-armor-design%29%3A+&body=Document+ID%3A+json-armor-design%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/item_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json-armor-design%29%3A+&body=Document+ID%3A+json-armor-design%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: armor design
@@ -91,6 +89,44 @@ This is the migration draft page for `json-armor-design`. It records **1** froze
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Armor JSON design and review
+
+Armor combines the item contract with `islot_armor`. Every `armor` portion requires `covers` and can
+set coverage, melee, ranged, or vitals coverage, sublocations, encumbrance, materials, layers,
+breathability, and environmental protection independently. Top-level fields and inheritance are then
+applied to portions, so review the expanded result.
+
+### Geometry, materials, and wearing
+
+`specifically_covers` restricts coverage to sub-bodyparts. Without sublocation data, covering a
+parent bodypart covers its subparts. `sided` lets an instance move between left and right. Layers
+control clothing conflicts on shared locations; do not replace the current layer enum and runtime
+checks with an arbitrary flag or historical table.
+
+A portion material requires type, allows `covered_by_mat` only from 1 through 100, and uses thickness
+for that material layer. The loader still accepts the old string-material form but marks it as legacy;
+prefer auditable per-portion materials for new content. Real mass, thickness, material, coverage, and
+joint mobility drive balance. Do not falsify physical properties to reach a desired defense value.
+
+### Encumbrance, pockets, and ablative armor
+
+Encumbrance may be one value, an empty/full pair, or use a volume modifier. Pocket modifiers,
+rigidity, and contents affect the result. An insert in an ablative pocket remains an armor item; audit
+its flag restriction, coverage, direct-wearing boundary, and damage or transformation together.
+
+### Minimum-complexity principle
+
+Ordinary clothing should express only the portions it needs. Add advanced materials, per-subpart
+layers, special coverage, relic effects, or transforms only for a player-visible distinction. The old
+prose's “complete flag list” is not authoritative; the flag registry and consumers are.
+
+### Validation
+
+Start from a current comparable first-party armor and inspect item info, layering conflicts, full and
+empty pockets, sides, melee and ranged attacks, and ablative damage. Run formatting,
+`make -j2 json-check`, Mod `--check-mods`, and focused item or armor tests for new boundaries. Balance
+numbers also need Responsible-human review of their research sources.
 
 ## History and attribution
 

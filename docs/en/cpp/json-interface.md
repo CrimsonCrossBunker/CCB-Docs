@@ -3,7 +3,7 @@
 id: cpp-json-interface
 title: 'Legacy migration draft: json interface'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -29,15 +29,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: c63af9e125cbee7cbed69fcdde222171233e52ab5c6bdc2661d41903fa1b0bd7
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 2ca21ecb6bae144bc3ec86a0102832e94e1b96e7f544cef7dc110bf7b96ff3e2
+translation_source_fingerprint: 51b9bc35de3c24b826d21273f6e1271f8dcd9ee447decba12e1edd7dabf3980c
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -51,7 +51,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: cpp
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/json-interface/
 alternate_urls:
@@ -59,21 +59,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/json-interface/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/json-interface/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/c++/JSON_INTERFACE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/c++/JSON_INTERFACE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/c++/JSON_INTERFACE.md
 - path: src/flexbuffer_json.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/flexbuffer_json.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/flexbuffer_json.h
 - path: src/flexbuffer_json.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/flexbuffer_json.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/flexbuffer_json.cpp
 - path: src/generic_factory.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/generic_factory.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/generic_factory.h
 - path: tests/generic_factory_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/generic_factory_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28cpp-json-interface%29%3A+&body=Document+ID%3A+cpp-json-interface%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/generic_factory_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28cpp-json-interface%29%3A+&body=Document+ID%3A+cpp-json-interface%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: json interface
@@ -94,6 +92,55 @@ This is the migration draft page for `cpp-json-interface`. It records **1** froz
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## CCB C++ JSON interface
+
+First distinguish three jobs: loading human-authored game data, reading program-written old saves,
+and writing new saves. They share `JsonValue`, `JsonArray`, `JsonObject`, `JsonMember`, and
+`JsonOut`, but have different compatibility policies. Game data has factory inheritance; save data
+must recognize old formats and must not treat `copy-from` as a save mechanism.
+
+### Read and write basics
+
+`JsonValue` tests and reads scalars or becomes an object or array. `JsonObject` accesses named
+members, `JsonArray` iterates or consumes positions, and `JsonMember` preserves both key and value.
+Prefer `read` and existing deserializers or readers instead of reimplementing type dispatch.
+
+After a type implements `T::serialize( JsonOut & ) const` or a free `serialize`,
+`JsonOut::write` and `member` can compose it. Implement the corresponding `deserialize` for reads.
+The emitted form is a compatibility contract: before renaming, removing, or changing a field type,
+retain an old-format reader and round-trip plus frozen-fixture tests.
+
+### Game-data loaders
+
+A generic factory manages IDs, `copy-from`, deferred loading, finalization, and consistency checks.
+An object's `load` normally uses:
+
+- `mandatory( jo, was_loaded, name, member[, reader] )` for values required on first definition;
+- `optional( jo, was_loaded, name, member[, reader], default )` for an explicit first-load default;
+- typed readers for shorthand, units, IDs, containers, and supported inheritance operations.
+
+Put the default in the `optional` call rather than relying only on header initialization.
+`was_loaded` preserves a parent's value when the child omits a member. Passing false incorrectly
+erases inherited state; passing true incorrectly can skip first-definition requirements.
+
+`extend` and `delete`, `relative`, and `proportional` are all opt-in. Container readers often support
+the first pair; numeric operations depend on the type and reader. A field resembling a vector or
+integer is not proof that every patch form is supported.
+
+### Errors and strictness
+
+Let `JsonObject` or the reader throw at a specific member so file, line, column, and member context
+survive. Do not call `allow_omitted_members` broadly for “compatibility”; reserve it for deliberate
+forwarding or ignored-object boundaries. Run finalization and consistency checking after parsing
+because cross-ID failures and cycles often appear only there.
+
+### Validation
+
+For game data, run formatting, `make -j2 json-check`, `--check-mods` for the actual Mod set, and
+object-focused tests. For save data, test current write-to-read round trips, frozen old fixtures,
+missing and added fields, and malformed input. Compile every target using a changed public header
+and confirm diagnostics retain source context.
 
 ## History and attribution
 

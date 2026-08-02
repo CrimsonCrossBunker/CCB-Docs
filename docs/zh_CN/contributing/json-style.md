@@ -3,7 +3,7 @@
 id: contributing.json-style
 title: 旧文档迁移草稿：json style
 language: zh_CN
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -27,15 +27,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: 31a4661a1f617609395dffcec4a18ea6c54a37c3fc9ee5edae1f6ef65cd3a90f
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: bf96ff26d36242fdb711d35b0c4bb1fff835719664f32d0826d21451d423c27d
+translation_source_fingerprint: 1217a7b510c5862ccca3162875cf50edadd3016bac08f932abf30fcd9e67cfeb
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -49,7 +49,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/json-style/
 alternate_urls:
@@ -57,21 +57,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/json-style/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/json-style/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/JSON_STYLE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/JSON_STYLE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/JSON_STYLE.md
 - path: Makefile
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/Makefile
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/Makefile
 - path: .github/workflows/json.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/.github/workflows/json.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/.github/workflows/json.yml
 - path: tools/format/format_main.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tools/format/format_main.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tools/format/format_main.cpp
 - path: data/AGENTS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/AGENTS.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28contributing.json-style%29%3A+&body=Document+ID%3A+contributing.json-style%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/AGENTS.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28contributing.json-style%29%3A+&body=Document+ID%3A+contributing.json-style%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 旧文档迁移草稿：json style
@@ -92,6 +90,50 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## 当前 JSON 风格与验证
+
+两空格缩进、稳定字段布局、短数组内联和长结构换行仍由仓库 formatter 决定。不要手工
+模仿旧示例来猜格式，也不要使用通用 formatter 重排整个文件；CCB 的 formatter 会读取
+项目 JSON 方言并输出项目风格。
+
+### 格式化入口
+
+CI 对全部 JSON 运行：
+
+```sh
+make style-all-json-parallel RELEASE=1
+```
+
+本地修改少量已纳入检查的文件可运行：
+
+```sh
+make style-json
+```
+
+formatter 产物由 Makefile 的 `JSON_FORMATTER_BIN` 选择；不同平台可能是
+`tools/format/json_formatter.cgi` 或 `.exe`。不要依赖旧的外部网页 formatter。
+
+### 语义验证
+
+```sh
+make -j2 json-check
+```
+
+格式通过只说明排版正确；`json-check` 还会覆盖加载阶段。修改稳定 ID、`copy-from`、
+EOC、item group、mapgen 或 Mod 依赖时，还要运行对应 ID/loader/focused test。Schema 不
+完整的 object type 不能因为编辑器不报错就视为有效。
+
+### 编辑原则
+
+- 只格式化本 PR 需要的文件；formatter 产生额外 diff 时逐项检查。
+- 从相邻第一方定义确认字段顺序与实际用法，但 required/default 仍以 loader 为准。
+- `//` 注释和项目扩展不是标准 JSON；不要用会删除它们的工具。
+- 修改生成清单中的文件时运行 generator，不要手改输出。
+- PR 记录 formatter、加载检查、Mod 集和任何跳过项。
+
+更完整的数据契约见[JSON 概览](../json/overview.md)与
+[继承和 copy-from](../json/inheritance-copy-from.md)。
 
 ## 历史与归属
 

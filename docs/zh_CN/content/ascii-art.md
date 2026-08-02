@@ -3,7 +3,7 @@
 id: content.ascii-art
 title: 旧文档迁移草稿：ascii art
 language: zh_CN
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -28,15 +28,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: 090e72917bd4e8a3f233d97efdbe4ac036e3a13900805cf10c6f78d534fdc30e
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 14e5b171d251bb48146fc444c259c8d4fa1646a37e5be58f75e8a88931ca2cae
+translation_source_fingerprint: 330c6e811a69ea3a09b6f3fe005bf10e8349f1379b275b262ddad2331490c354
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -50,7 +50,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: ui
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/content/ascii-art/
 alternate_urls:
@@ -58,23 +58,21 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/content/ascii-art/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/content/ascii-art/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/ASCII_ART.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/ASCII_ART.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/ASCII_ART.md
 - path: src/ascii_art.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/ascii_art.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/ascii_art.cpp
 - path: src/ascii_art.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/ascii_art.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/ascii_art.h
 - path: src/init.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/init.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/init.cpp
 - path: data/json/ascii_art/generic_ascii.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/ascii_art/generic_ascii.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/ascii_art/generic_ascii.json
 - path: data/json/bodypart_graphs/arms.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/bodypart_graphs/arms.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28content.ascii-art%29%3A+&body=Document+ID%3A+content.ascii-art%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/bodypart_graphs/arms.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28content.ascii-art%29%3A+&body=Document+ID%3A+content.ascii-art%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 旧文档迁移草稿：ascii art
@@ -95,6 +93,33 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## ASCII art 数据契约
+
+第一方 ASCII art 使用 JSON `ascii_art` 对象，至少包含稳定 `id` 和字符串数组 `picture`。当前
+`ascii_art::load` 会去除颜色标签后按终端显示宽度计算每一行；超过 `41` 个显示列的行会被截断并产生
+debug message。这里的“列”不是 UTF-8 字节数，宽字符、组合字符和颜色标签都需要用实际 loader 验证。
+
+```json
+{
+  "type": "ascii_art",
+  "id": "example_art",
+  "picture": [ "<color_white>+---+</color>", "<color_white>|   |</color>" ]
+}
+```
+
+上例只展示结构，不是待提交资源。使用现有有效 color name，并正确闭合标签。空行、前导空格和 Unicode
+线框字符是画面的一部分；通用 JSON formatter 之外的文本处理可能破坏对齐。Body-part graph 位于另一
+类数据和显示路径，不能仅因为外观相似就假定尺寸与字段完全相同。
+
+## 制作与审查
+
+任何能保留 UTF-8、空格和逐行文本的编辑器都可使用；REXPaint 只是可选工具，不是项目契约。外部 palette、
+字体或模板必须确认来源和许可证，不能直接把来源不明的图案带入仓库。
+
+提交前运行项目 JSON formatting/loading，检查重复 ID、无效颜色标签和 debug 输出，并在实际目标界面测试
+curses/tiles、默认及 fallback 字体、窄窗口、缩放和中英文环境。检查每行去标签后的显示宽度，而不是只看
+编辑器画布。ASCII art 不能成为识别物品或身体部位状态的唯一信息；无障碍路径仍需文字或结构替代。
 
 ## 历史与归属
 

@@ -3,7 +3,7 @@
 id: json.faction-missions
 title: 旧文档迁移草稿：faction missions
 language: zh_CN
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -27,15 +27,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: 06cdbc4c15861847dfbef5486ae1b1c427c73774ff0cc485322ff8a7b5e2cd93
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: d0b3e83eb801ac76261d91723fb41169d82ffd0280319739da5012a11de765af
+translation_source_fingerprint: 2871c5ad31a9faf5c8544c02c396326bb55e9191eecdf732be3eebc4f39ba3ec
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -49,7 +49,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/faction-missions/
 alternate_urls:
@@ -57,21 +57,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/faction-missions/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/faction-missions/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/FACTION_MISSIONS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/FACTION_MISSIONS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/FACTION_MISSIONS.md
 - path: src/faction_mission.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/faction_mission.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/faction_mission.cpp
 - path: src/faction_camp.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/faction_camp.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/faction_camp.cpp
 - path: data/json/faction_missions.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/faction_missions.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/faction_missions.json
 - path: tests/faction_camp_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/faction_camp_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.faction-missions%29%3A+&body=Document+ID%3A+json.faction-missions%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/faction_camp_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.faction-missions%29%3A+&body=Document+ID%3A+json.faction-missions%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 旧文档迁移草稿：faction missions
@@ -92,6 +90,33 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## Faction mission 数据边界
+
+`faction_mission` generic factory 当前主要提供 basecamp mission 的名称、说明和展示元数据。
+任务如何选择目标、派出 NPC、计算收获/风险和修改地图仍多由 `faction_camp.cpp` 等 C++ consumer
+实现。新增 JSON object 不会自动创造一套可执行 mission。
+
+### Loader fields
+
+name 与 desc 必填。skill、difficulty、risk、activity、time、positions、items_label、
+items_possibilities、effects 和 footer 可选。difficulty/risk 只接受 NONE、VERY_LOW、LOW、MEDIUM、
+HIGH、VERY_HIGH；activity 字符串必须存在于 activity level map，否则会报告 invalid。
+
+这些 time/effects/items 字段是翻译后的说明，不是结构化 duration、loot table 或 effect program。
+它们必须准确描述对应 hardcoded consumer，但不能替代 consumer 的测试。
+
+### 新增或修改流程
+
+先找到读取 mission ID 的 camp code 和解锁条件，再更新 display object。核对最大 positions、实际
+duration、skill training、food/gear transfer、failure/risk 和 repeat semantics。若想数据驱动新
+行为，需要先设计公开 execution contract、loader 和测试；不能把自然语言 effects 当执行指令。
+
+### 验证
+
+运行 formatter、`make -j2 json-check`、Mod `--check-mods`。实际在 camp menu 检查零/一/多 NPC
+显示、翻译、不可用原因、开始/返回和重复任务。新增 ID 或行为时扩展 faction camp focused tests，
+并确保显示文字与真实实现一致。
 
 ## 历史与归属
 

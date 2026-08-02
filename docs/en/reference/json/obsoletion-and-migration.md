@@ -3,7 +3,7 @@
 id: json.obsoletion-and-migration
 title: 'Legacy migration draft: obsoletion and migration'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -34,15 +34,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: 4061a49a916458a30b17a18ae14969ab456a694b47ee87fef9ac0d7a08a6d979
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 77f2b5617a060b0744280d9fcb218c93ca3ba05cb3dec71e1f75ea12422bce00
+translation_source_fingerprint: 43ff7712534c3fc4fd748e2083641e9f9cd8731984a185aa212bf918c945389d
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -56,7 +56,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/obsoletion-and-migration/
 alternate_urls:
@@ -64,29 +64,27 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/obsoletion-and-migration/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/obsoletion-and-migration/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/OBSOLETION_AND_MIGRATION.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/OBSOLETION_AND_MIGRATION.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/OBSOLETION_AND_MIGRATION.md
 - path: src/item_factory.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/item_factory.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/item_factory.cpp
 - path: src/effect.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/effect.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/effect.cpp
 - path: src/savegame_json.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/savegame_json.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/savegame_json.cpp
 - path: data/json/obsoletion_and_migration_0.J/migration_items.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/obsoletion_and_migration_0.J/migration_items.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/obsoletion_and_migration_0.J/migration_items.json
 - path: data/json/obsoletion_and_migration_0.J/eocs.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/obsoletion_and_migration_0.J/eocs.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/obsoletion_and_migration_0.J/eocs.json
 - path: src/init.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/init.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/init.cpp
 - path: src/magic.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/magic.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/magic.cpp
 - path: src/proficiency.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/proficiency.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.obsoletion-and-migration%29%3A+&body=Document+ID%3A+json.obsoletion-and-migration%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/proficiency.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.obsoletion-and-migration%29%3A+&body=Document+ID%3A+json.obsoletion-and-migration%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: obsoletion and migration
@@ -107,6 +105,51 @@ This is the migration draft page for `json.obsoletion-and-migration`. It records
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Choosing obsoletion and migration
+
+There is no universal migration covering every JSON type. First identify whether an old ID belongs
+to items, traits, terrain or furniture, overmap terrain, vehicle parts, effects, spells, Mods, or
+another registry. Use that loader's registered migration object. If no loader exists, retain the old
+ID or compatibility shim, or implement and test non-behavioral migration support; do not invent a
+Schema contract.
+
+### Item `MIGRATION`
+
+Current item migration accepts one or more old `id` values and may set `replace`, `variant`,
+`from_variant`, flags, charges, contents, sealed state, and `reset_item_vars`. `replace` cannot equal
+the old ID. A variant migration matches only that old variant. Contents that do not fit a normal
+container enter a dedicated migration pocket instead of being silently lost.
+
+```jsonc
+{
+  "type": "MIGRATION",
+  "id": "old_item_id",
+  "replace": "new_item_id"
+}
+```
+
+The replacement type must exist when loading and finalizing. Counts, charges, pockets, item
+variables, damage, ownership, and sealed state may all need fixtures; changing one ID is not proof
+of a complete migration.
+
+### Other registries and Mods
+
+CCB currently registers migrations for traits, bionics, proficiencies, terrain or furniture, fields,
+vehicle parts, traps, effects, overmap terrain or specials, camps, spells, global variables, and
+Mods, among others. Their fields and abilities differ. `mod_migration` uses an old `id` plus
+`new_id`, or a translated `removal_reason` when removed; the target Mod must be valid.
+
+`obsolete: true` generally controls new-content selection and does not rewrite every saved
+reference. Retention windows, replacements, release notes, and removed-ID tests remain necessary.
+
+### Validation
+
+Load each real old fixture with current code, inspect migrated objects and nested contents plus map,
+character, and world state, then save and load again to prove idempotence and no duplicated
+resources. Run formatting, `make -j2 json-check`, `--check-mods`, and owning subsystem tests. Cover
+missing targets, chains and cycles, old and new Mods together, and the release boundary for eventual
+migration removal.
 
 ## History and attribution
 

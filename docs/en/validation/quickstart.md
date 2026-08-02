@@ -28,8 +28,8 @@ source_queries:
 - 'kind: test_matrix'
 source_fingerprint: 900c3cc35f171c4bd297e703e5442b63b64871988f1284b600fca952afe88b1f
 authority: build-config
-verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
-verified_at: '2026-08-01'
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
+verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
@@ -63,19 +63,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/9d8f26582da0f53ca1e29f8f072aeef43955655b
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: AGENTS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9d8f26582da0f53ca1e29f8f072aeef43955655b/AGENTS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/AGENTS.md
 - path: ai/test-matrix.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9d8f26582da0f53ca1e29f8f072aeef43955655b/ai/test-matrix.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/ai/test-matrix.yml
 - path: Makefile
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9d8f26582da0f53ca1e29f8f072aeef43955655b/Makefile
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/Makefile
 - path: CMakePresets.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9d8f26582da0f53ca1e29f8f072aeef43955655b/CMakePresets.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/CMakePresets.json
 - path: android/gradlew
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9d8f26582da0f53ca1e29f8f072aeef43955655b/android/gradlew
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28validation.quickstart%29%3A+&body=Document+ID%3A+validation.quickstart%0ALanguage%3A+en%0AVerified+commit%3A+9d8f26582da0f53ca1e29f8f072aeef43955655b%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/android/gradlew
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28validation.quickstart%29%3A+&body=Document+ID%3A+validation.quickstart%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Build and validation quickstart

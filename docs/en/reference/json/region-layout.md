@@ -3,7 +3,7 @@
 id: json.region-layout
 title: 'Legacy migration draft: region layout'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -26,15 +26,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: f2a802108a8d9ac03af482ec4deb5d436ba86695b03917b2e1ccdf8cffea0f7e
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 1c194e366ba74060d8a07fb8da9cc25a62468731e3176a6d1e7be310b84706d5
+translation_source_fingerprint: d4a59858692a366fa16eae7151cee644e8288a7c19714cd8dc2a6134a456faae
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -48,7 +48,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/region-layout/
 alternate_urls:
@@ -56,19 +56,17 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/region-layout/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/region-layout/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/REGION_LAYOUT.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/REGION_LAYOUT.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/REGION_LAYOUT.md
 - path: src/overmap_worldgen.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/overmap_worldgen.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/overmap_worldgen.cpp
 - path: src/overmap_worldgen.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/overmap_worldgen.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/overmap_worldgen.h
 - path: data/json/region_settings/region_settings/dimensions/dimension_regions.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/region_settings/region_settings/dimensions/dimension_regions.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.region-layout%29%3A+&body=Document+ID%3A+json.region-layout%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/region_settings/region_settings/dimensions/dimension_regions.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.region-layout%29%3A+&body=Document+ID%3A+json.region-layout%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: region layout
@@ -89,6 +87,35 @@ This is the migration draft page for `json.region-layout`. It records **1** froz
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Dimension region layouts
+
+`dimension_region_layout` selects the `region_settings` used by overmaps in a dimension. Its loader
+requires `generation_mode`, but the pinned CCB switch creates a generator only for `UNIFORM`.
+Appearance in a JSON enum or header does not make another mode usable.
+
+### Currently supported mode
+
+`UNIFORM` is dynamic and requires `uniform_region`. As each overmap is first requested, its generator
+maps that coordinate to the same region. All current first-party entries in
+`dimension_regions.json` also use this mode.
+
+The header retains MANUAL_VORONOI, RANDOM, EIGHTHS, static-layout types, and part of their base
+infrastructure, but the loader has no corresponding cases. Do not publish Mods using those values or
+treat unwired `generated_bounds_*` and `layout_out_of_bounds` fields as public JSON contracts. A new
+mode needs deserialization, a generator, factory finalization and checks, and tests—not only an enum
+value.
+
+### ID chain and validation
+
+The layout's `uniform_region` must be valid region settings, and `dimension.region_layout` then
+references the layout. Inspect the complete dimension → layout → region settings → overmap
+generation chain.
+
+Run formatting, `make -j2 json-check`, and complete `--check-mods`, then create a new world or
+dimension and generate several overmaps. A new generator needs deterministic-seed, boundary, save
+reload, and invalid-ID fallback tests. Region-layout changes can alter newly generated worlds, so the
+PR must state their compatibility impact.
 
 ## History and attribution
 

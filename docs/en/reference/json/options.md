@@ -3,7 +3,7 @@
 id: json.options
 title: 'Legacy migration draft: options'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -29,15 +29,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: dc0f5c048fe806d59c97d86763e1aa730559bde0e6753b81e8cd3d955a99ad24
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 39ea77a95c8ebaf9c77cf3d2700be237264a816efb9b3b1517a5287f2a56a01f
+translation_source_fingerprint: 9c0067a8e81126baf597428df8fb83a5e2c4a99d4243f805f96ca0726e3c07a7
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -51,7 +51,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/options/
 alternate_urls:
@@ -59,21 +59,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/options/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/options/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/OPTIONS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/OPTIONS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/OPTIONS.md
 - path: src/options.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/options.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/options.cpp
 - path: src/options.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/options.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/options.h
 - path: data/core/external_options.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/core/external_options.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/core/external_options.json
 - path: tests/options_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/options_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.options%29%3A+&body=Document+ID%3A+json.options%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/options_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.options%29%3A+&body=Document+ID%3A+json.options%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: options
@@ -94,6 +92,27 @@ This is the migration draft page for `json.options`. It records **1** frozen inv
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Game options and external options
+
+CCB options are not one JSON registry. Menu options are primarily registered by
+`options_manager::add_options`. Hidden external options come from `data/core/external_options.json`
+and mod data, then `options_manager::add_external` creates internal entries with a type and default.
+Saved global values come from `config/options.json`; world values come from the world directory and
+may override the corresponding world option.
+
+Only registered options are meaningful when saved values are read. `options_manager::deserialize`
+passes old names and values through `migrateOptionName` and `migrateOptionValue`, skips explicitly
+removed legacy entries, and then sets the current entry. External options are always hidden by
+default. `get_value_type` defines the basic supported types, including bool, int, float, int_map,
+string_select, and string_input. Treat the historical loading-order description as guidance, not a
+permanent ABI; verify the current startup, world-load, and mod-loader paths.
+
+Moving a menu option to an external option must preserve old-save behavior. The historical `stub`
+technique prevents an external definition from replacing an already selected value, but its exact
+fields and ordering must be checked against the current loader and `external_options.json`. Test
+defaults, global/world precedence, old name and value migrations, unknown and removed entries, mod
+load order, and save/reload. Keep user-facing guidance aligned with the menu tooltip.
 
 ## History and attribution
 

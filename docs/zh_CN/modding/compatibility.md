@@ -3,7 +3,7 @@
 id: mod-compatibility
 title: 旧文档迁移草稿：compatibility
 language: zh_CN
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -27,15 +27,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: 6af06ba4ae4f015b5b049b078dc768874554132e2136f98b07e1cc64625da2b0
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 37e6bae3cb960c090d4fbafd60f762602550fca3162007e085e4fdb416fbf0d9
+translation_source_fingerprint: ef1b50f80c175210c6c7d92a165859b136b3e95b186602f7be5956f20a260854
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -49,7 +49,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: mods
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/modding/compatibility/
 alternate_urls:
@@ -57,21 +57,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/modding/compatibility/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/modding/compatibility/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/MOD_COMPATIBILITY.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/MOD_COMPATIBILITY.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/MOD_COMPATIBILITY.md
 - path: src/mod_manager.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/mod_manager.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/mod_manager.cpp
 - path: src/init.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/init.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/init.cpp
 - path: build-scripts/get_all_mods.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/build-scripts/get_all_mods.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/build-scripts/get_all_mods.py
 - path: data/mods/MindOverMatter/mod_interactions/innawood/recipes.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/MindOverMatter/mod_interactions/innawood/recipes.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28mod-compatibility%29%3A+&body=Document+ID%3A+mod-compatibility%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/mods/MindOverMatter/mod_interactions/innawood/recipes.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28mod-compatibility%29%3A+&body=Document+ID%3A+mod-compatibility%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 旧文档迁移草稿：compatibility
@@ -92,6 +90,54 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## Mod 条件兼容数据
+
+`mod_interactions/` 允许一个 Mod 只在另一个指定 Mod 已启用时加载补丁。它适合跨 Mod
+引用、兼容 EOC、联合配方或定向覆盖，不等于一般依赖：interaction 缺席时基础 Mod 仍应
+能够独立加载。
+
+### 目录约定
+
+假设当前 Mod ID 为 `xedra_evolved`，只在 `mindovermatter` 启用时需要加载兼容文件：
+
+```text
+Xedra_Evolved/
+├── modinfo.json
+├── ordinary-content.json
+└── mod_interactions/
+    └── mindovermatter/
+        └── mom-compat-data.json
+```
+
+目录名必须与目标 Mod 的 ID 大小写精确一致。普通加载会递归排除整个
+`mod_interactions`；所有活跃 Mod 的普通内容结束后，loader 再按活跃 Mod 顺序处理交互
+目录。当前实现只检查第一层目标 ID，不支持用 `a/b/` 表达“两个 Mod 同时存在”。
+
+### 来源与覆盖边界
+
+交互文件的 source 标记为 `base_mod#target_mod`，例如
+`xedra_evolved#mindovermatter`。`#` 因此保留给组合来源，普通 Mod ID 禁止包含该字符。
+错误日志和对象 provenance 应保留这个组合来源。
+
+交互内容在普通数据之后加载，允许 loader 支持的覆盖/扩展，但不能假定每种 object type
+具有相同 merge 语义。对 `copy-from`、`extend`、重复 ID 或 delete/obsolete，必须检查
+具体 factory/loader；后加载也不能修复 finalize 前已被强制解析的无效引用。
+
+### 多 Mod 条件
+
+需要 A 与 B 同时存在时，不要构造嵌套目录。可选择由其中一个 interaction 加载一个
+兼容 EOC，再在当前注册表允许的条件中检查另一个功能；或者建立显式兼容 Mod，并声明
+`dependencies`。选择取决于“缺一方时是否仍应可用”和已发布 ID 的归属。
+
+### 验证矩阵
+
+至少验证：仅基础 Mod、仅目标 Mod、两者同时启用、顺序/依赖被解析后的组合，以及含相关
+旧存档的加载。运行 formatter、`make -j2 json-check` 和每个组合的 `--check-mods`；同时
+检查重复 ID、source 诊断、EOC talker/context、保存/重载和移除任一 Mod 后的行为。
+
+只测试“两者同时启用”会漏掉 interaction 内容意外进入基础加载或基础文件偷偷依赖目标
+Mod 的问题。
 
 ## 历史与归属
 

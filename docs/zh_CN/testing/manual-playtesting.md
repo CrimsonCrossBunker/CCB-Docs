@@ -3,7 +3,7 @@
 id: testing-manual
 title: 旧文档迁移草稿：manual playtesting
 language: zh_CN
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -26,15 +26,15 @@ source_symbols: []
 source_queries: []
 source_fingerprint: 3560f187a61c1852a37dd19861768d4df09d23112ba0c2bcc7089e22812756d4
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: a02ae55fd8992581f098590ba9f4bbd9cafaf2f5bd0f45b1b1d977d41f170247
+translation_source_fingerprint: 725355bb1c7f9862f9c4ec60576ea3475931be954f391eb6179d33d602e06347
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -48,7 +48,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: testing
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/testing/manual-playtesting/
 alternate_urls:
@@ -56,21 +56,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/testing/manual-playtesting/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/testing/manual-playtesting/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/TESTING_YOUR_CHANGES.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/TESTING_YOUR_CHANGES.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/TESTING_YOUR_CHANGES.md
 - path: tests/AGENTS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/AGENTS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/AGENTS.md
 - path: Makefile
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/Makefile
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/Makefile
 - path: CMakeLists.txt
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/CMakeLists.txt
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/CMakeLists.txt
 - path: .github/workflows/matrix.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/.github/workflows/matrix.yml
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28testing-manual%29%3A+&body=Document+ID%3A+testing-manual%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/.github/workflows/matrix.yml
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28testing-manual%29%3A+&body=Document+ID%3A+testing-manual%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 旧文档迁移草稿：manual playtesting
@@ -91,6 +89,29 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## 有证据的手动 playtesting
+
+自动化检查证明格式、加载和已编码不变量；非平凡的 gameplay/UI/content 变化还需要在与 source
+commit 匹配的 CCB binary 中手动验证。先写出变更的可观察风险，再构造最小场景，不要无目的地
+玩几分钟后声称“测试过”。
+
+### 准备与记录
+
+- 使用独立测试世界/角色，记录 commit、build flags、平台、Mod set、seed、option 与存档来源。
+- JSON 必须先 format/load；C++ 先编译受影响 target 并运行 focused test。
+- 确认 binary 与 data 来自同一 commit。重新启动或按实际 loader 生命周期 reload；不要假设回到
+  主菜单能刷新所有 registry。
+- 保留复现步骤、期望/实际结果、日志、截图或短视频，并同时测正常路径、失败路径和关键边界。
+
+Debug menu 可生成 item/monster、编辑 map/overmap、跳时、传送或调用子系统入口，但 debug 生成
+会跳过自然生成的一部分上下文。Monster definition 变化应用新生成实例测试；成长、进化与离屏
+处理还需 unload/reload 和时间推进。Mapgen 使用未生成 OMT 并覆盖方向/z-level/region；EOC、Lua、
+save migration 和 multiplayer 要走自己的真实入口。
+
+测试完撤销 debug-only 状态，不把测试存档、日志或 generated artifacts 提交。PR 中区分实际执行、
+CI 覆盖与未运行项目；一次手动成功不能替代 deterministic regression test，修 bug 时仍应添加能
+在旧实现失败的最窄自动化用例。
 
 ## 历史与归属
 

@@ -3,7 +3,7 @@
 id: modding-overview
 title: 'Legacy migration draft: overview'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -28,15 +28,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: 01df11ed2410a7436b91d317d9a7b0843f550d730255abb4d6c637526c226e9b
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 54105e68a8c09c078e03a6988321b0e6c0a2e35fbb2bee8ea8c5b9c7cb48e1d0
+translation_source_fingerprint: 282f94915ba860bf09fdbb701cd3a92f97884276900d172ec57a5516aaecc0c2
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -50,7 +50,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: mods
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/modding/overview/
 alternate_urls:
@@ -58,21 +58,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/modding/overview/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/modding/overview/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/MODDING.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/MODDING.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/MODDING.md
 - path: src/mod_manager.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/mod_manager.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/mod_manager.cpp
 - path: src/init.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/init.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/init.cpp
 - path: src/game_io.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/game_io.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/game_io.cpp
 - path: build-scripts/get_all_mods.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/build-scripts/get_all_mods.py
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28modding-overview%29%3A+&body=Document+ID%3A+modding-overview%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/build-scripts/get_all_mods.py
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28modding-overview%29%3A+&body=Document+ID%3A+modding-overview%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: overview
@@ -93,6 +91,75 @@ This is the migration draft page for `modding-overview`. It records **1** frozen
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Current CCB Mod model
+
+A CCB Mod is a data package with `MOD_INFO`. The runtime first resolves available Mods,
+dependencies, and conflicts, then loads JSON in the order stored by the world. Matching
+`mod_interactions/` data is loaded only after ordinary data. JSON, EOC, and Lua may coexist,
+but each remains governed by its loader, Schema, registrations, or Lua v5 contract.
+
+### Minimal layout
+
+```text
+ccb_example/
+├── modinfo.json
+├── items.json
+└── lua/
+    └── manifest.json   # only when the Mod uses Lua
+```
+
+```jsonc
+[
+  {
+    "type": "MOD_INFO",
+    "id": "ccb_example",
+    "name": "CCB Example",
+    "authors": [ "Example author" ],
+    "maintainers": [ "github-account" ],
+    "description": "A small example Mod.",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]
+```
+
+The `id` is a stable identity used by world Mod lists, dependencies, interaction directories,
+and source tracking; changing it is not a display-text cleanup. Current `MOD_INFORMATION` also
+reads `path`, `version`, `conflicts`, `core`, `obsolete`, `loading_images`, and
+`disable_other_loading_screens`. Do not copy an old field table: check
+`mod_manager::load_modfile` and a nearby first-party `modinfo.json`. A Mod cannot depend on
+itself, and `#` is not a legal Mod ID character.
+
+### Data, dependencies, and load order
+
+Ordinary JSON is found recursively under the Mod path, `mod_interactions` is deferred, and
+`lua/manifest.json` is not sent to the JSON object loader. `dependencies` names Mods that must
+load first; `conflicts` prevents incompatible combinations. Dependencies establish availability
+and order, but do not migrate referenced IDs or replace explicit compatibility content.
+
+Split files by domain, not an assumed file load order. A forward reference is valid only where
+the owning loader supports it. Published item, terrain, EOC, Lua service, and other IDs can enter
+saves or other Mods; inspect obsoletion or migration support and old-world loading before removal
+or renaming.
+
+### Choose the expression layer
+
+- Prefer JSON for static content, recipes, maps, and registered objects.
+- Prefer EOC for conditions, effects, event chains, and dialogue flow.
+- Use Lua for dynamic logic exposed by the public Lua v5 contract, with exact capabilities.
+- Change C++ only when the public data contracts cannot express a capability the project will maintain.
+
+### Minimal validation loop
+
+1. Format changed JSON with the repository formatter and run `make -j2 json-check`.
+2. With a built game, run `./cataclysm-tiles --check-mods ccb_example` (the binary name depends on the build).
+3. Cover EOC true/false, talkers, context, and repetition; run Lua manifest, syntax, coverage, and example checks.
+4. Create, save, and reload a world, then test the actual dependency and conflict combinations.
+5. Record commands, platform, Mod set, failures, and skipped checks in the PR. Loading is not balance or save-compatibility proof.
+
+Continue with [Mod compatibility](compatibility.md), [Mod localization](localization.md), and
+the [in-repository Mod policy](../mods/in-repository-policy.md).
 
 ## History and attribution
 

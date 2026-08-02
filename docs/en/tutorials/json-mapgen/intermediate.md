@@ -3,7 +3,7 @@
 id: tutorial.mapgen-intermediate
 title: 'Legacy migration draft: intermediate'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -29,15 +29,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: ba73dc2bf13ed7271634cda4f93ee00a08389742b6b72d9cdf081c0dcec03e54
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 990132cee8ddec169b759ac81d7bd69f6770e6aa4aff57492d24c789dd8f6065
+translation_source_fingerprint: 76ce20c5d137f1bf1267336a0c074b2e812c82b0a18777f44a368c65e5837d1e
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -51,7 +51,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/tutorials/json-mapgen/intermediate/
 alternate_urls:
@@ -59,23 +59,21 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/tutorials/json-mapgen/intermediate/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/tutorials/json-mapgen/intermediate/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/JSON_Mapping_Guides/Guide_for_intermediate_mapgen.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/JSON_Mapping_Guides/Guide_for_intermediate_mapgen.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/JSON_Mapping_Guides/Guide_for_intermediate_mapgen.md
 - path: src/mapgen.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/mapgen.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/mapgen.cpp
 - path: src/mapgen.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/mapgen.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/mapgen.h
 - path: data/json/mapgen/nested/road_vehicles_nested.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/mapgen/nested/road_vehicles_nested.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/mapgen/nested/road_vehicles_nested.json
 - path: tests/nest_conditional_placement_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/nest_conditional_placement_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/nest_conditional_placement_test.cpp
 - path: tests/mapgen_function_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/mapgen_function_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28tutorial.mapgen-intermediate%29%3A+&body=Document+ID%3A+tutorial.mapgen-intermediate%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/mapgen_function_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28tutorial.mapgen-intermediate%29%3A+&body=Document+ID%3A+tutorial.mapgen-intermediate%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: intermediate
@@ -96,6 +94,44 @@ This is the migration draft page for `tutorial.mapgen-intermediate`. It records 
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Nested, merged, and update mapgen
+
+A full variant shares an `om_terrain` ID and replaces the whole map according to weight. Nested
+mapgen overlays a local chunk inside a caller. Update mapgen changes an already existing map during
+play. Their lifecycles differ, so similar JSON shapes do not make them interchangeable.
+
+### Nested mapgen
+
+The top level uses `nested_mapgen_id` and may provide weighted variants under one ID.
+`object.mapgensize` must contain two identical positive numbers; the current implementation still
+supports square nests only. Rows, palettes, placements, and nested calls operate in this local
+coordinate system. Blank symbols normally preserve the underlying map. Use current null/clear
+values or clearing flags when terrain, furniture, items, traps, and fields must be removed rather
+than leaving half of the old state.
+
+A caller selects weighted `chunks` through a `nested` symbol or `place_nested` coordinates; `null`
+is the valid no-placement candidate. Current nested placement can also test neighbors, joins,
+flags, predecessors, and z-level. `jmapgen_nested` and `nest_conditional_placement_test.cpp` define
+that behavior. Keep the chunk inside the caller grid and make doors, walls, and traversable edges
+consistent across every variant.
+
+### Merged and update mapgen
+
+A two-dimensional `om_terrain` array registers one merged definition at an offset for each OMT; rows
+use continuous total coordinates. `common_check_bounds` rejects a coordinate range that crosses its
+current grid boundary, so large rows do not mean every placement may span OMTs. Keep vehicles,
+range-based spawns, and nests inside one OMT and cover boundaries with focused tests.
+
+`update_mapgen_id` registers a runtime update. Its call site chooses target OMT, parameters,
+mirroring/rotation, collision policy, and mission context. An update can collide with player
+construction, vehicles, items, and saved state, so document idempotence, conflicts, and repeat
+triggering. Do not infer all current trigger paths from an old trap example.
+
+Validate nest weights and conditions, rotation, local clearing, NPCs and vehicles, merged
+boundaries, update collision, repeat execution, and save reload. Run JSON and target-mod loading,
+focused mapgen/nest/update tests, and debug generation while recording seed, position, direction,
+and call parameters.
 
 ## History and attribution
 

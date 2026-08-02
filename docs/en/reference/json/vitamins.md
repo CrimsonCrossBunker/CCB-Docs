@@ -3,7 +3,7 @@
 id: json.vitamins
 title: 'Legacy migration draft: vitamins'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -27,15 +27,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: a7c81f55e1988cc468b2d6b426ffe2e675666e6607c63a88131c2bda776767d1
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 9a0f62de6d0163eef2fb06eba8a880b5dcddcde5be3458eccdada7474844e419
+translation_source_fingerprint: 818493bc1dff20e6e831138383103524287a0c8d67284ea112b7d086f0ae3c76
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -49,7 +49,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/vitamins/
 alternate_urls:
@@ -57,21 +57,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/vitamins/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/vitamins/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/VITAMIN.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/VITAMIN.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/VITAMIN.md
 - path: src/vitamin.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/vitamin.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/vitamin.cpp
 - path: src/vitamin.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/vitamin.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/vitamin.h
 - path: data/json/vitamin.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/vitamin.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/vitamin.json
 - path: tests/vitamin_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/vitamin_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.vitamins%29%3A+&body=Document+ID%3A+json.vitamins%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/vitamin_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.vitamins%29%3A+&body=Document+ID%3A+json.vitamins%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: vitamins
@@ -92,6 +90,54 @@ This is the migration draft page for `json.vitamins`. It records **1** frozen in
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## A `vitamin` object is not only a nutrient
+
+CCB's `vitamin` registry is a general system for quantities in a character that change over time.
+`vit_type` currently accepts `vitamin`, `toxin`, `drug`, and `counter`. First-party data uses it not
+only for calcium, iron, and vitamin C, but also drug doses, mutagen primers, blood-related counters,
+allergens, and hidden state. The object type name does not guarantee appearance in nutrition UI.
+
+### Loader fields
+
+In addition to generic-factory `id` and `type`, a new definition must provide `name`, `vit_type`,
+`min`, and `rate`. `max` is optional and currently defaults to `0`. `deficiency` and `excess`
+reference effect types. `disease` and `disease_excess` are quantity ranges whose order maps to
+effect intensity. `weight_per_unit` converts mass into internal units. Every `decays_into` entry is
+a target vitamin ID and signed adjustment applied separately when one unit is naturally metabolized.
+`flags` is a string set; confirm each flag's consumer in current code and data.
+
+```json
+{
+  "type": "vitamin",
+  "id": "example_counter",
+  "vit_type": "counter",
+  "name": { "str": "Example counter" },
+  "min": 0,
+  "max": 100,
+  "rate": "1 h",
+  "excess": "example_effect",
+  "disease_excess": [ [ 10, 49 ], [ 50, 100 ] ]
+}
+```
+
+This illustrates structure and is not a proposed first-party ID. The loader accepts either order
+for each range endpoint, but overlaps and gaps still create hard-to-understand results. Design
+continuous, testable thresholds.
+
+## Inheritance, units, and validation
+
+Vitamins support `copy-from` through `generic_factory`. Current tests cover scalar overrides and
+`extend` or `delete` for `flags`, `disease`, `disease_excess`, and `decays_into`. Flags deduplicate as
+a set. Duplicate decay targets remain independent rules and do not sum automatically. When a mod
+overrides an existing `id`, the last loaded definition wins, so load-order compatibility matters.
+
+Nutritional values in food JSON are commonly expressed as RDA percentages, while other types use
+their internal units. `rate` controls daily absorption and decay conversion, and
+`weight_per_unit` controls mass conversion. Run JSON formatting and loading, vitamin consistency,
+and focused `[vitamin]` tests for a new object. Cover effect IDs, boundary amounts, inheritance,
+natural decay, simplified nutrition, display flags, ingestion delay, and save/reload. Do not freeze
+the legacy MME table or current first-party values as a permanent schema.
 
 ## History and attribution
 

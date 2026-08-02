@@ -3,7 +3,7 @@
 id: json.magic-spells-enchantments
 title: 'Legacy migration draft: magic spells enchantments'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -31,15 +31,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: 0202fd86aef03e270f8c100b3111b4ec39854b75815ec9e13c5f3d98f0099cb6
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: d3707afe19355aa432e44e9919b581479aad869b3416b62ae4306f482d21a161
+translation_source_fingerprint: 7da55ed9421c2c8a59e26a12e874d9bd9e3938cc0c3bf1ec99575bcb7fa2f406
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -53,7 +53,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/magic-spells-enchantments/
 alternate_urls:
@@ -61,23 +61,21 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/magic-spells-enchantments/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/magic-spells-enchantments/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/MAGIC.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/MAGIC.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/MAGIC.md
 - path: src/magic.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/magic.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/magic.cpp
 - path: src/magic_enchantment.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/magic_enchantment.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/magic_enchantment.cpp
 - path: src/magic_type.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/magic_type.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/magic_type.cpp
 - path: data/json/enchantments.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/enchantments.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/enchantments.json
 - path: tests/magic_spell_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/magic_spell_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.magic-spells-enchantments%29%3A+&body=Document+ID%3A+json.magic-spells-enchantments%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/magic_spell_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.magic-spells-enchantments%29%3A+&body=Document+ID%3A+json.magic-spells-enchantments%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: magic spells enchantments
@@ -98,6 +96,76 @@ This is the migration draft page for `json.magic-spells-enchantments`. It record
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Current CCB Magic, Spell, and Enchantment contracts
+
+This family includes `SPELL`, `magic_type`, `enchantment`, and inline `fake_spell` values used by
+other objects. They share some IDs and conditions but have different lifecycles: spells are cast,
+magic types provide system defaults, and enchantments are continuously evaluated against an owner
+or carrier.
+
+### Minimal spell skeleton
+
+```jsonc
+{
+  "type": "SPELL",
+  "id": "spell_ccb_example",
+  "name": "Example pulse",
+  "description": "A documentation-only spell.",
+  "effect": "attack",
+  "shape": "blast",
+  "valid_targets": [ "hostile" ],
+  "min_damage": 1,
+  "damage_increment": 1,
+  "max_damage": 5,
+  "min_range": 3,
+  "max_range": 3,
+  "energy_source": "MANA",
+  "base_energy_cost": 10,
+  "base_casting_time": 100
+}
+```
+
+Current `spell_type::load` requires `name`, `description`, `effect`, `shape`, and
+`valid_targets`. Effects and shapes must exist in native registries. Damage, range, AoE, duration,
+pierce, accuracy, energy, and casting time commonly use min, increment, and max values. Expressions
+and units come from the owning reader and are not uniformly plain integers.
+
+`caster_condition`, `target_condition`, target species or monster IDs, body parts, and flags jointly
+limit valid targets. `extra_effects` or `fake_spell` values chain spells, and consistency checks
+detect cycles. WONDER, permanent summons, vitamin energy, touch versus no-hands, and formula
+parameters also have specialized checks.
+
+### Magic types, learning, and channels
+
+A `magic_type` can centralize energy, level or XP and failure formulas, cannot-cast flags, failure
+cost, and failure EOCs. Level and XP formulas must be paired and have the expected argument counts.
+A spell can override magic-type values and can be learned through books, professions or NPCs,
+`learn_spells`, and other current entry points.
+
+A channeled spell needs maximum turns, a channel spell, and an end spell. Cover cancellation,
+movement, damage, resource exhaustion, interrupt behavior, per-turn energy, and save boundaries.
+Multiple projectiles and repeated or random extra spells need performance and recursion review.
+
+### Enchantments
+
+An enchantment may use a named ID or be inline when its caller can supply a stable inline ID. `has`
+and `condition` select HELD, WIELD, or WORN and ACTIVE, INACTIVE, ALWAYS, or a dialogue condition.
+`values`, skills, custom values, encumbrance, and melee or incoming damage support add and multiply
+forms. Mutations, effects, body-part changes, special vision, emitters, hit effects, and intermittent
+spells each have separate semantics.
+
+Characters, monsters, and vehicles process only the subsets their implementations consider
+relevant. A loadable field is not proof that every carrier applies it; inspect
+`is_monster_relevant`, `is_vehicle_relevant`, and call sites.
+
+### Validation
+
+Run the formatter, `make -j2 json-check`, `--check-mods` for the real Mod set, and relevant filters
+from `magic_spell_test`, `magic_spell_effect_test`, and `enchantments_test`. Cover level boundaries,
+failure and resources, targets and shapes, extra-effect cycles, channel interruption, enchantment
+activation, add/multiply ordering, and save reload. Test player, NPC, monster, vehicle, and inline
+carriers separately; profile frequent intermittent or area spells.
 
 ## History and attribution
 

@@ -3,7 +3,7 @@
 id: json.basecamp
 title: 'Legacy migration draft: basecamp'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -30,15 +30,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: c0cfebafece179418df8534979262e7194922117093218d38658a260291a55f2
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: d1e6044ecff38233a49e7edec0d485b5d39706535ecdfe218ec540fdb99e188e
+translation_source_fingerprint: a4989f925e69f00347e77d011cdc91b1e9f99bd556db5080dfeb959791e6cd38
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -52,7 +52,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/basecamp/
 alternate_urls:
@@ -60,23 +60,21 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/basecamp/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/basecamp/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/BASECAMP.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/BASECAMP.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/BASECAMP.md
 - path: src/basecamp.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/basecamp.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/basecamp.cpp
 - path: src/faction_camp.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/faction_camp.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/faction_camp.cpp
 - path: src/recipe.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/recipe.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/recipe.cpp
 - path: data/json/recipes/basecamps/components.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/recipes/basecamps/components.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/recipes/basecamps/components.json
 - path: tests/faction_camp_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/faction_camp_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.basecamp%29%3A+&body=Document+ID%3A+json.basecamp%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/faction_camp_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.basecamp%29%3A+&body=Document+ID%3A+json.basecamp%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: basecamp
@@ -97,6 +95,43 @@ This is the migration draft page for `json.basecamp`. It records **1** frozen in
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Basecamp data spans several contracts
+
+A basecamp upgrade is not one object type. It combines blueprint recipes, `update_mapgen`,
+`recipe_group`, overmap terrain, and runtime camp state. Before changing one file, trace the complete
+ID chain through `basecamp::available_upgrades`, `recipe::load`, and current first-party camp data.
+
+### Blueprint recipes
+
+An ordinary recipe with `construction_blueprint` enters the blueprint path. Its loader reads
+`blueprint_name`, `blueprint_parameter_names`, resources, provides, requires, excludes, and needs.
+Every blueprint automatically provides and excludes its own result, making it non-repeatable by
+default.
+
+`blueprint_provides`, `blueprint_requires`, and `blueprint_excludes` are camp-feature counters whose
+amount defaults to one; they are not a global feature registry. Code assigns mission or camp meaning
+to selected conventional IDs. A new string has meaning only when a consumer reads it, so the keyword
+table in historical prose is not an authoritative complete list.
+
+### Requirements and mapgen
+
+When `blueprint_needs` is absent and `check_blueprint_needs` is true, finalization calculates needs
+from mapgen. A parameterized blueprint cannot also rely on explicit needs. `construction_blueprint`
+must name an executable update mapgen, and parameter names must cover and translate every choice
+shown to the player.
+
+Initial camps and expansions also depend on recipe-group terrain matching, a corresponding OMT, and
+mapgen. A Mod must declare dependencies before safely referring to another Mod's recipe, terrain, or
+mapgen IDs.
+
+### Validation checklist
+
+Exercise every requires, provides, and excludes branch, repeat prevention, resource items, mapgen
+parameters, and the resulting upgraded map. Run formatting, `make -j2 json-check`, complete
+`--check-mods`, and a focused `tests/faction_camp_test.cpp` case. Use the repository's
+`tools/update_blueprint_needs.py` for calculated requirements and review every result instead of
+copying historical examples.
 
 ## History and attribution
 

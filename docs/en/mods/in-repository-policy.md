@@ -3,7 +3,7 @@
 id: mods.in-repository-policy
 title: 'Legacy migration draft: in repository policy'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -28,15 +28,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: 0e75c77124cf84a936f3bd2f6e19b29d2e7e067eae2b27963fe90dca28aa828e
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 51386b8d3cb82557243fd7f621aad1a377d2bac476fe9764479544715c0ecff3
+translation_source_fingerprint: 182c359934f568b9b713df6ad8d700d62a0fd053f26470c2bf6318e1a152e457
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -50,7 +50,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: mods
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/in-repository-policy/
 alternate_urls:
@@ -58,23 +58,21 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/in-repository-policy/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/mods/in-repository-policy/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/IN_REPO_MODS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/IN_REPO_MODS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/IN_REPO_MODS.md
 - path: CONTRIBUTING.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/CONTRIBUTING.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/CONTRIBUTING.md
 - path: GOVERNANCE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/GOVERNANCE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/GOVERNANCE.md
 - path: data/mods/AGENTS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/AGENTS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/mods/AGENTS.md
 - path: src/mod_manager.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/mod_manager.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/mod_manager.cpp
 - path: tools/load_all_mods.sh
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tools/load_all_mods.sh
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28mods.in-repository-policy%29%3A+&body=Document+ID%3A+mods.in-repository-policy%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tools/load_all_mods.sh
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28mods.in-repository-policy%29%3A+&body=Document+ID%3A+mods.in-repository-policy%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: in repository policy
@@ -95,6 +93,63 @@ This is the migration draft page for `mods.in-repository-policy`. It records **1
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## CCB in-repository Mod policy
+
+Shipping a Mod with the game improves visibility, shared Issue and PR handling, and continuous
+load checks. It also assigns compatibility, release, and security cost to the whole project.
+Admission to `data/mods/` is not a promise of permanent inclusion, core-team maintenance, or
+exclusive author control. An in-repository Mod remains community-contributed project content.
+
+### Admission criteria
+
+A proposal needs a clear purpose that can be reviewed over time: a distinct content experience,
+an accessibility or interface capability, or isolation for an optional feature still under
+development. An unrelated object collection, a preference pack that only disables working
+features, or a package without maintenance boundaries does not justify repository-wide cost.
+
+Before admission, require at least:
+
+- accurate authors, real GitHub maintainers, category, dependencies, and conflicts in `modinfo.json`;
+- auditable provenance, licensing, and permission for third-party assets;
+- explicit stable IDs, save policy, dependency boundaries, and CCB/upstream differences;
+- passing JSON, EOC, Lua, and complete-Mod loading validation;
+- an active curator willing to triage, review, and follow compatibility continuously;
+- agreement with dependency maintainers when a new relationship burdens another bundled Mod.
+
+Do not invent `CODEOWNERS` as a substitute for real responsibility. The loader reads and displays
+the `maintainers` account set, but a person must still accept the governance responsibility in a
+PR or Issue.
+
+### Curator responsibilities
+
+A curator judges whether contributions fit the Mod purpose, reviews or requests changes on its
+PRs, and at least acknowledges defects and helps find a repair path. Curators need not author
+every fix and cannot exclude community contribution. Their approval is domain input; merge still
+follows CCB governance, Responsible-human review, and required checks.
+
+Changes affecting dependants, public IDs, saves, Lua APIs, licensing, or player safety need notice
+to affected maintainers and combination-specific evidence. Track balance disagreement separately
+from load failure so “it loads” is never mistaken for design approval.
+
+### Orphaning, obsoletion, and removal
+
+Maintainers may begin an orphan or obsolete review when curators are persistently unavailable,
+releases repeatedly break, licensing is unclear, the purpose expires, or maintenance cost becomes
+unmanageable. Open a public Issue with an owner and deadline first; do not delete a Mod based on one
+missed response. `obsolete: true` hides it from new-world selection while retaining old-save
+recognition; it is not immediate repository deletion.
+
+Rescue requires a confirmed new curator, repaired blockers, restored validation, and updated
+`maintainers`. Before final removal, document stable IDs, old-world impact, replacements,
+migration or obsoletion data, and release notes.
+
+### Modmods
+
+A Mod that changes another bundled Mod must still create a purposeful distinct experience, have a
+maintainer, and validate the dependency combination. A small preference patch is not automatically
+eligible. Use current `modinfo.json` and UI registrations for categories and dependencies instead
+of copying a legacy category list.
 
 ## History and attribution
 

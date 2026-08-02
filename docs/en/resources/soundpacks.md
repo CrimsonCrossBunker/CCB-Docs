@@ -3,7 +3,7 @@
 id: soundpacks
 title: 'Legacy migration draft: soundpacks'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -27,15 +27,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: 0246b49b05f9e86197e17d62765a99f0194dc121017d1108d02e49e787ffa0ab
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: a9c2899eb56b8257563bc3486bd14133a4cab116d51645446b60d03a816c5cc1
+translation_source_fingerprint: 34c77e9b2baece0a49d3ff7fbcc934096e6c217a5bb7ac442e96df70da0e17d4
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -49,7 +49,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: resources
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/soundpacks/
 alternate_urls:
@@ -57,17 +57,15 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/soundpacks/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/resources/soundpacks/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/SOUNDPACKS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/SOUNDPACKS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/SOUNDPACKS.md
 - path: src/sdlsound.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/sdlsound.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/sdlsound.cpp
 - path: src/sdlsound.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/sdlsound.h
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28soundpacks%29%3A+&body=Document+ID%3A+soundpacks%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/sdlsound.h
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28soundpacks%29%3A+&body=Document+ID%3A+soundpacks%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: soundpacks
@@ -88,6 +86,35 @@ This is the migration draft page for `soundpacks`. It records **1** frozen inven
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Soundpack contracts
+
+A soundpack is a directory under `data/sound/` with `soundpack.txt`. `NAME` is the unique ID used by
+the option and `VIEW` is its display name. `load_soundset` resolves the current choice, falls back to
+`basic` when needed, and loads JSON from the directory through `DynamicDataLoader`. Sound JSON
+loaders return early when audio initialization has not succeeded.
+
+### SFX and playlists
+
+A `sound_effect` requires `id` and `files`; `volume` defaults to 100. `variant` may be a string or an
+array and defaults to `default`. `season`, `is_indoors`, and `is_night` become part of the lookup key.
+Multiple files are random alternatives for the same key, and paths are relative to the soundpack.
+Actual fallback is implemented by the `sfx_resources` lookup. Some call sites require an exact
+variant, so not every ID is guaranteed to fall back to `default`.
+
+`sound_effect_preload` warms the listed keys without changing playback semantics. A `playlist`
+contains a `playlists` array; each entry has an ID, optional shuffle, and `{file, volume}` entries.
+A later definition of the same ID replaces its map entry. Current `music` call sites define
+activation and priority; the historical four-ID list is not guaranteed to be a complete registry.
+
+### Inventory and validation
+
+There is no permanently complete hand-maintained SFX ID/variant list. Generate an inventory from all
+`play_variant_sound`, ambient, vehicle, UI, and music call sites, then compare it with soundpack JSON.
+Check missing or undecodable files, empty lists, duplicate keys, exact/default fallback, seasonal,
+indoor, and night combinations, preload, shuffle, compounded volume, loops/channels, distance, pan,
+pitch, pack switching, and disabled sound. Distribution also requires author, source, and compatible
+license records. A test-mode or no-audio-backend load is not proof of real playback.
 
 ## History and attribution
 

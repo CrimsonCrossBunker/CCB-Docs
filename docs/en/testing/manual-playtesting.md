@@ -3,7 +3,7 @@
 id: testing-manual
 title: 'Legacy migration draft: manual playtesting'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -26,15 +26,15 @@ source_symbols: []
 source_queries: []
 source_fingerprint: 3560f187a61c1852a37dd19861768d4df09d23112ba0c2bcc7089e22812756d4
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: a02ae55fd8992581f098590ba9f4bbd9cafaf2f5bd0f45b1b1d977d41f170247
+translation_source_fingerprint: 725355bb1c7f9862f9c4ec60576ea3475931be954f391eb6179d33d602e06347
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -48,7 +48,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: testing
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/testing/manual-playtesting/
 alternate_urls:
@@ -56,21 +56,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/testing/manual-playtesting/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/testing/manual-playtesting/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/TESTING_YOUR_CHANGES.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/TESTING_YOUR_CHANGES.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/TESTING_YOUR_CHANGES.md
 - path: tests/AGENTS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/AGENTS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/AGENTS.md
 - path: Makefile
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/Makefile
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/Makefile
 - path: CMakeLists.txt
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/CMakeLists.txt
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/CMakeLists.txt
 - path: .github/workflows/matrix.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/.github/workflows/matrix.yml
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28testing-manual%29%3A+&body=Document+ID%3A+testing-manual%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/.github/workflows/matrix.yml
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28testing-manual%29%3A+&body=Document+ID%3A+testing-manual%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: manual playtesting
@@ -91,6 +89,34 @@ This is the migration draft page for `testing-manual`. It records **1** frozen i
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Evidence-based manual playtesting
+
+Automated checks prove formatting, loading, and encoded invariants. A non-trivial gameplay, UI, or
+content change also needs manual validation in a CCB binary matching the source commit. State the
+observable risks first and build the smallest scenarios; a few minutes of unguided play is not
+evidence that a change was tested.
+
+### Preparation and records
+
+- Use a dedicated test world and character. Record commit, build flags, platform, mod set, seed,
+  options, and save origin.
+- Format and load JSON first. Compile the affected C++ target and run the focused test before play.
+- Ensure binary and data come from the same commit. Restart or reload according to the actual loader
+  lifecycle; returning to the main menu does not refresh every registry.
+- Preserve reproduction steps, expected and actual results, logs, screenshots or short video, and
+  cover normal, failure, and important boundary paths.
+
+The debug menu can spawn items or monsters, edit map/overmap data, advance time, teleport, or call
+subsystem entry points, but debug spawning can skip part of natural-generation context. Test a
+monster-definition change on newly spawned instances. Growth, evolution, and offscreen processing
+need unload/reload and time advancement. Test mapgen on fresh OMTs with direction, z-level, and region
+coverage. EOC, Lua, save migration, and multiplayer need their real entry paths.
+
+Remove debug-only state afterward and do not commit test saves, logs, or generated artifacts. A PR
+must separate locally executed checks, CI coverage, and work not run. One successful manual run does
+not replace a deterministic regression test; a bug fix still needs the narrowest automated case
+that failed on the old implementation.
 
 ## History and attribution
 

@@ -3,7 +3,7 @@
 id: design-overview
 title: 'Legacy migration draft: overview'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -25,15 +25,15 @@ source_symbols: []
 source_queries: []
 source_fingerprint: eb982d8b2e7be2e188715904e8781a98591a7cc158363a5fdbddc0de988920b8
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 287bf5af18673de852e2a03d95dc1e3df210116e59f0be069be43393076c7359
+translation_source_fingerprint: 8ad249321134dc5b3189832038bb4132d2841c6aecc9f58075a703889a0635bb
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -47,7 +47,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: design
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/design/overview/
 alternate_urls:
@@ -55,19 +55,17 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/design/overview/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/design/overview/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/design-balance-lore/design-doc.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/design-doc.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/design-balance-lore/design-doc.md
 - path: doc/design-balance-lore/design-gameplay.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/design-gameplay.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/design-balance-lore/design-gameplay.md
 - path: doc/design-balance-lore/design-user-experience.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/design-user-experience.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/design-balance-lore/design-user-experience.md
 - path: GOVERNANCE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/GOVERNANCE.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28design-overview%29%3A+&body=Document+ID%3A+design-overview%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/GOVERNANCE.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28design-overview%29%3A+&body=Document+ID%3A+design-overview%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: overview
@@ -88,6 +86,42 @@ This is the migration draft page for `design-overview`. It records **1** frozen 
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## How to use design documentation
+
+Design documentation explains why CCB favors a kind of experience, which questions a proposal must
+answer, and which tradeoffs matter when systems conflict. It does not replace runtime, data-format,
+or governance authorities. Source and tests define concrete behavior; schemas, declarations,
+registrations, and generated inventories define JSON, Lua, and API contracts; current governance
+files define project decisions.
+
+### Minimum proposal structure
+
+1. **Problem:** describe the current player experience and a reproducible scenario before assuming
+   a solution.
+2. **Goals and non-goals:** state the desired outcome and the boundaries that will not change.
+3. **Current state:** list entry points, data ownership, lifecycle, tests, and CCB differences from
+   upstream.
+4. **Approach and alternatives:** compare player visibility, complexity, performance,
+   maintainability, and compatibility.
+5. **Migration risk:** inspect saves, mods, IDs, serialization, localization, platforms, and
+   generated content.
+6. **Acceptance:** provide runnable commands, scenarios, and rollback conditions.
+
+## Decision boundaries
+
+Numbers, file paths, people, and unimplemented mechanics in legacy design prose are historical
+context only. Revalidate them against the current default branch before carrying them into a new
+proposal. Resolve conflicting directions through Issues, pull requests, and the current maintainer
+governance process. No old statement by one person permanently overrides repository governance.
+
+## CCB and upstream
+
+Upstream material can explain shared history and portable approaches, but CCB has its own runtime
+differences, content direction, compatibility requirements, and governance. A proposal should name
+the source revision, compare both current implementations, and port only what still applies to CCB.
+If prose conflicts with a current contract, mark the page stale and repair the documentation rather
+than changing the implementation to fit an obsolete explanation.
 
 ## History and attribution
 

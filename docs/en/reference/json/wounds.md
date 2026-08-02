@@ -3,7 +3,7 @@
 id: json.wounds
 title: 'Legacy migration draft: wounds'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -27,15 +27,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: ef0fb6b359a73bb54b104854bcea65edc98edadcc35797a645434a547424ea53
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 23ac5c34e993633fbc5042129273620313846198a96d34d0785533f513c2ae42
+translation_source_fingerprint: ed658cdcda0670e40cccd612846f28093a412af693adab579dd9e7cee76e7035
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -49,7 +49,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/wounds/
 alternate_urls:
@@ -57,19 +57,17 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/wounds/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/wounds/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/WOUNDS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/WOUNDS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/WOUNDS.md
 - path: src/wound.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/wound.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/wound.cpp
 - path: src/wound.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/wound.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/wound.h
 - path: src/init.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/init.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.wounds%29%3A+&body=Document+ID%3A+json.wounds%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/init.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.wounds%29%3A+&body=Document+ID%3A+json.wounds%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: wounds
@@ -90,6 +88,39 @@ This is the migration draft page for `json.wounds`. It records **1** frozen inve
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Wounds and wound fixes
+
+A `wound` is persistent state bound to a bodypart and a `wound_fix` is a treatment definition. Each
+has its own generic factory. During finalization, fixes resolve requirements and register backward
+links on wounds they remove. They are not aliases for ordinary effects.
+
+### Wound fields
+
+Name, description, damage_types, and damage_required are mandatory. Pain defaults to 0–0, healing
+time to indefinitely long, weight to one, and limit to zero. Optional members cover limb scores,
+progression, and bodypart type or flag allow/deny lists. A progression requires id and bounds chance
+from 0 through 100. Range ordering, damage IDs, and progression IDs need consumer tests because
+`wound_type::check` is currently empty.
+
+### Wound-fix fields
+
+Name and description are mandatory. Time, skills, removed and added wounds, success message, HP
+modifier, proficiencies, and requirements are optional. A proficiency entry requires an ID, defaults
+time_save to one, and defaults is_mandatory false. Requirements may reference `[id, count]` or define
+one inline requirement and are consolidated at finalization.
+
+Fix consistency validates skill, wound, proficiency, and requirement IDs. Deleting or renaming a
+wound affects saves, progression, and fixes and needs an explicit migration or compatibility
+strategy. Do not assume safety when no automatic wound-migration contract exists.
+
+### Validation
+
+Run formatting, `make -j2 json-check`, and Mod `--check-mods`. Focused wound tests need damage
+thresholds, per-limb limits, allow/deny lists, progression, random pain and healing ranges, mandatory
+proficiencies, requirement consumption, add and remove, positive and negative HP changes, and save
+reload. Mark destructive or unimplemented combinations experimental rather than publishing them
+solely because JSON loads.
 
 ## History and attribution
 

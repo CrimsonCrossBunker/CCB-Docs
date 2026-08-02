@@ -3,7 +3,7 @@
 id: soundpacks
 title: 旧文档迁移草稿：soundpacks
 language: zh_CN
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -27,15 +27,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: 0246b49b05f9e86197e17d62765a99f0194dc121017d1108d02e49e787ffa0ab
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: a9c2899eb56b8257563bc3486bd14133a4cab116d51645446b60d03a816c5cc1
+translation_source_fingerprint: 34c77e9b2baece0a49d3ff7fbcc934096e6c217a5bb7ac442e96df70da0e17d4
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -49,7 +49,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: resources
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/resources/soundpacks/
 alternate_urls:
@@ -57,17 +57,15 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/soundpacks/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/resources/soundpacks/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/SOUNDPACKS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/SOUNDPACKS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/SOUNDPACKS.md
 - path: src/sdlsound.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/sdlsound.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/sdlsound.cpp
 - path: src/sdlsound.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/sdlsound.h
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28soundpacks%29%3A+&body=Document+ID%3A+soundpacks%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/sdlsound.h
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28soundpacks%29%3A+&body=Document+ID%3A+soundpacks%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 旧文档迁移草稿：soundpacks
@@ -88,6 +86,31 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## Soundpack 契约
+
+Soundpack 是 `data/sound/` 下带 `soundpack.txt` 的目录；`NAME` 是 option 使用的唯一 ID，
+`VIEW` 是显示名。`load_soundset` 解析当前选择，找不到时回退到 `basic`，再通过
+`DynamicDataLoader` 加载目录内 JSON。音频功能未成功初始化时 sound JSON loader 会提前返回。
+
+### SFX 与 playlist
+
+`sound_effect` 要求 `id` 和 `files`，`volume` 默认 100；`variant` 可为字符串或数组，省略时为
+`default`。`season`、`is_indoors`、`is_night` 进入查找 key。多个 file 是同一 key 的随机候选，
+路径相对于 soundpack。实际 fallback 由 `sfx_resources` 查找实现；某些调用点会要求 exact
+variant，因此不能假定每个 ID 都回退到 `default`。
+
+`sound_effect_preload` 只预热列出的 key，不改变播放契约。`playlist` 包含 `playlists` 数组，每项
+有 ID、可选 shuffle 和 `{file, volume}` 列表；同 ID 后加载的定义会替换 map entry。音乐 ID 的
+激活和优先级由当前 `music` 调用代码决定，旧文档中的四项列表不是保证完整的 registry。
+
+### 清点与验证
+
+SFX 的 ID/variant 没有一份永远完整的手工清单：从所有 `play_variant_sound`、ambient、vehicle、
+UI 和 music 调用点生成清单，并和 soundpack JSON 比对。检查缺失文件、解码格式、空列表、重复
+key、exact/default fallback、季节/室内/昼夜组合、preload、shuffle、音量叠乘、loop/channel、
+距离/pan/pitch、切换 pack 和禁用声音。发布音频还必须记录作者、来源和兼容许可证；不要把测试
+模式或无音频 backend 的“成功加载”当成真实播放验证。
 
 ## 历史与归属
 

@@ -3,7 +3,7 @@
 id: json.overmap
 title: 'Legacy migration draft: overmap'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -31,15 +31,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: f5cf038161392828a65260a7f79ad3903e34851999d029d7aa4ce6f34a92c108
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: fd45f4f046509da5da7dc1cbe1b5385915251429eb66519d690a59ac58f4fdd9
+translation_source_fingerprint: d619003e210d1db8d541a87fbd18425c128864a686ea1ed5f52861522cb689e9
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -53,7 +53,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/overmap/
 alternate_urls:
@@ -61,23 +61,21 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/overmap/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/overmap/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/OVERMAP.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/OVERMAP.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/OVERMAP.md
 - path: src/overmap_terrain.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/overmap_terrain.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/overmap_terrain.cpp
 - path: src/overmap_special.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/overmap_special.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/overmap_special.cpp
 - path: src/overmap_connection.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/overmap_connection.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/overmap_connection.cpp
 - path: src/mapgen_post_process.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/mapgen_post_process.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/mapgen_post_process.cpp
 - path: tests/overmap_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/overmap_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.overmap%29%3A+&body=Document+ID%3A+json.overmap%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/overmap_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.overmap%29%3A+&body=Document+ID%3A+json.overmap%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: overmap
@@ -98,6 +96,58 @@ This is the migration draft page for `json.overmap`. It records **1** frozen inv
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Current CCB overmap data relationships
+
+Overmap data is split across related object types. `overmap_terrain` defines OMT types and
+display or connection properties; `overmap_special` composes one or more OMTs under placement
+constraints; `overmap_connection` joins linear networks such as roads and subways; mapgen then
+builds local maps for the OMTs. A mismatched ID at any layer may appear only during worldgen.
+
+### Overmap terrain and mapgen
+
+A terrain's stable ID can finalize into rotated or linear variants, while mapgen uses its
+mapgen ID. Consistency checks report an OMT with neither mapgen nor uniform terrain and validate
+static spawn groups. Review a new terrain's:
+
+- name, symbol, colour, vision, and flags;
+- rotation, `LINEAR` behavior, and connection directions;
+- mapgen ID, uniform terrain, and roof or underground relationships;
+- monster density, extras, and location flags;
+- compatibility of a released ID with mission targets, saves, and Mods.
+
+Do not hand-build directional suffixes and assume every matcher treats them alike. Where a
+field supports exact, type, subtype, prefix, or contains matching, use its current
+`ot_match_type` implementation.
+
+### Overmap specials
+
+A fixed special composes OMTs through `overmaps` and connections; a mutable special uses a
+different generation model. `occurrences` is mandatory for a real `overmap_special`. City size
+or distance, locations, flags, priority, rotation, and connections jointly decide placement.
+A special that fits an empty test world is not guaranteed to fit among cities, roads, other
+specials, and regional blacklists.
+
+A special can bind an inline EOC, parameters, spawns, and mapgen. Test multi-tile coordinates,
+rotation centres, z-levels, and connection endpoints together. Migrating a released special
+ID requires the current migration object and a save test.
+
+### Connections and regions
+
+An `overmap_connection` defines connectable terrains and rules. Region settings select the
+intra-city and inter-city road, trail, sewer, subway, and rail connections. Changing a
+connection or regional reference can reshape newly generated overmaps without rewriting
+existing ones, creating old-versus-new save differences.
+
+### Validation
+
+Run the formatter, `make -j2 json-check`, `--check-mods` for the actual Mod set, and relevant
+`overmap_test` cases. Generate multiple seeds and regions and inspect special occurrences,
+rotation, roads, boundaries, z-levels, mission targets, and no-placement outcomes. Load an old
+save for every released ID change.
+
+See [mapgen](mapgen.md) for local tile layout and
+[region settings](region-settings.md) for large-scale distribution.
 
 ## History and attribution
 

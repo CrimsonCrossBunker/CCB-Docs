@@ -3,7 +3,7 @@
 id: design-balance
 title: 'Legacy migration draft: balance'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -24,15 +24,15 @@ source_symbols: []
 source_queries: []
 source_fingerprint: 1d0054d7999d75ae681f7fa6317b6ee70b8c6bdd8b86a97507c1edf1f974fb51
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: df81506bc82134bb6081d97530d94c5e6fb3d040826c9830291b9b58de441a7a
+translation_source_fingerprint: f59cd01a1e4f15768fa2dd732223319538e7b790ac5a6c8bc16da59170482730
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -47,7 +47,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: design
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/design/balance/
 alternate_urls:
@@ -55,17 +55,15 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/design/balance/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/design/balance/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/design-balance-lore/GAME_BALANCE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/GAME_BALANCE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/design-balance-lore/GAME_BALANCE.md
 - path: doc/design-balance-lore/design-balance.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/design-balance.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/design-balance-lore/design-balance.md
 - path: GOVERNANCE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/GOVERNANCE.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28design-balance%29%3A+&body=Document+ID%3A+design-balance%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/GOVERNANCE.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28design-balance%29%3A+&body=Document+ID%3A+design-balance%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: balance
@@ -87,6 +85,48 @@ This is the migration draft page for `design-balance`. It records **2** frozen i
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## What balance documentation is for
+
+CCB balance goals help contributors make consistent tradeoffs among verisimilitude, readability,
+risk, resource cost, and long-term progression. They do not establish permanent numeric limits for
+every value. The old stat, skill, monster, weapon, and resource tables captured reference points at
+the time they were written. They can explain intent, but they are not current runtime contracts.
+Rebuild the baseline from current JSON, C++, tests, and observed game data before making a change.
+
+### Define the problem first
+
+1. Describe the current player-visible behavior, a repeatable scenario, and the affected stage of
+   progression.
+2. Locate the loaders, formulas, data objects, and tests that implement it instead of copying
+   numbers from a superficially similar entry.
+3. Distinguish bug fixes, content calibration, difficulty preferences, and new mechanics. They need
+   different evidence and may need different options or compatibility treatment.
+4. Consider acquisition, time, noise, carrying cost, durability, damage, recovery, and enemy
+   counterplay together. Avoid balancing an ecosystem through one number alone.
+5. Compare representative early-, middle-, and late-game scenarios before and after the change,
+   including random and extreme cases.
+
+## Balance principles
+
+- Real-world evidence constrains plausible ranges, while the game compresses complex systems into
+  mechanics players can understand and operate.
+- Powerful tools may remain powerful. Scarcity, supply, time, noise, mass, exposure, and maintenance
+  can provide tradeoffs without forcing every option to be equivalent.
+- Prefer enemies and equipment that create different decisions over an endless race of larger hit
+  point, armor, and damage values.
+- Lethal outcomes without warning or reasonable counterplay are rarely meaningful difficulty.
+  Hazards should normally expose observable cues and learnable responses.
+- Save and mod compatibility are design constraints. Changes to IDs, serialized fields,
+  inheritance, or widely reused data require a separate migration assessment.
+
+## Evidence and validation
+
+A design statement can propose direction; it cannot prove that behavior is implemented. A balance
+change should cite current source paths and tests, provide reproducible comparison steps, and run
+the relevant JSON loading, focused unit tests, or live game scenario. When an old table or example
+does not match current data, cite it as a historical snapshot instead of silently turning it into a
+new authority.
 
 ## History and attribution
 

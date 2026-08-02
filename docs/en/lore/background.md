@@ -3,7 +3,7 @@
 id: lore-background
 title: 'Legacy migration draft: background'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -24,15 +24,15 @@ source_symbols: []
 source_queries: []
 source_fingerprint: 4ef53651276a51dbf6890808327b57987bf5db1c1d12cdd8d23431b6f5686036
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 14f66c189e6ef0b2a88df37ad54db5b3b3e53c1a7f3d3cd0481831ef08bc8ea2
+translation_source_fingerprint: f51f3deb0c5f8be26ce6c64bf64e436db488a9caa92ec404243c45c85747614c
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -46,7 +46,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lore
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/lore/background/
 alternate_urls:
@@ -54,17 +54,15 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/lore/background/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/lore/background/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/design-balance-lore/lore-background.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/lore-background.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/design-balance-lore/lore-background.md
 - path: doc/design-balance-lore/lore.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/lore.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/design-balance-lore/lore.md
 - path: data/json/snippets/epilogue_factions.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/snippets/epilogue_factions.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28lore-background%29%3A+&body=Document+ID%3A+lore-background%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/snippets/epilogue_factions.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28lore-background%29%3A+&body=Document+ID%3A+lore-background%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: background
@@ -85,6 +83,37 @@ This is the migration draft page for `lore-background`. It records **1** frozen 
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Spoilers and authority boundary
+
+This page is for contributors writing setting, missions, maps, and items and contains central
+spoilers. CCB normally lets players reconstruct events through newspapers, logs, dialogue,
+locations, and unreliable narrators. Do not paste an omniscient developer timeline directly into
+player text. Legacy years and links are background at a pinned commit; current JSON, maps, missions,
+and dialogue define what the game actually reveals.
+
+## Cataclysm background
+
+Secret United States research into other dimensions developed into the XEDRA system. Researchers
+returned from the netherum with anomalous matter known as `XE-037`; it escaped and spread through
+the global environment, affecting living things, encouraging violence, and reanimating the dead.
+While infection, unrest, and disastrous responses were already collapsing society, portal storms
+tore dimensional boundaries further and admitted otherworldly entities and opportunistic powers.
+By game start, coordinated global rescue has failed and survivors face the interaction of
+contamination, the dead, invasive ecologies, and remnants of human institutions.
+
+This summary is a writing framework. It does not mean every character knows the cause or that every
+clue is correct. Reveal the relationships among `XE-037`, the Blob, portal technology, XEDRA, and
+outside powers in layers. Ordinary survivors, government records, researchers, and non-human
+entities have different and potentially conflicting information.
+
+## Continuity checks
+
+For new content, identify the narrator, relative date, available knowledge, and uncertainty. Reuse
+current snippet, faction, mission, location, and item IDs and inspect date-generation rules, season,
+world creation time, and CCB-specific divergence. Separate background canon, currently implemented
+clues, and future design; unimplemented ideas stay draft. Run JSON/EOC loading and focused content
+tests and call out a lore retcon that changes existing mission, save, or mod assumptions.
 
 ## History and attribution
 

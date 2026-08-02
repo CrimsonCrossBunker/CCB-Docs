@@ -3,7 +3,7 @@
 id: json.monsters
 title: 'Legacy migration draft: monsters'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -30,15 +30,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: 9d69264687ff03d74f53d9ef417e4d15e8e797b45e100aa8c52209022a738d43
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 7ae45ad5bde175d7e3ba029f71d6ba5d4b276cbc15adbdf3f80d88d4808c85cc
+translation_source_fingerprint: f0eb8ab72e9a268a1217246dd1d42ed83ba32bbbf8c444b8ccd5c4cf394fa030
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -52,7 +52,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/monsters/
 alternate_urls:
@@ -60,21 +60,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/monsters/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/monsters/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/MONSTERS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/MONSTERS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/MONSTERS.md
 - path: src/monstergenerator.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/monstergenerator.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/monstergenerator.cpp
 - path: src/monstergenerator.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/monstergenerator.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/monstergenerator.h
 - path: data/json/monsters/zed-classic.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/monsters/zed-classic.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/monsters/zed-classic.json
 - path: tests/monster_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/monster_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.monsters%29%3A+&body=Document+ID%3A+json.monsters%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/monster_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.monsters%29%3A+&body=Document+ID%3A+json.monsters%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: monsters
@@ -95,6 +93,64 @@ This is the migration draft page for `json.monsters`. It records **1** frozen in
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Current CCB Monster contract
+
+`MONSTER` is passed by `MonsterGenerator::load_monster` to a generic factory and interpreted by
+`mtype::load` for fields, inheritance, and bounds. A legacy field table is only historical evidence;
+the current loader, first-party JSON, and `tests/monster_test.cpp` are the contract.
+
+### Minimal definition and identity
+
+```jsonc
+{
+  "type": "MONSTER",
+  "id": "mon_ccb_example",
+  "name": { "str": "example creature" },
+  "description": "A creature used by documentation.",
+  "default_faction": "wildlife",
+  "symbol": "e",
+  "color": "light_green",
+  "material": [ "flesh" ],
+  "species": [ "MAMMAL" ],
+  "volume": "62500 ml",
+  "weight": "80 kg",
+  "hp": 40,
+  "speed": 90
+}
+```
+
+The `id` is a stable reference used by spawn groups, mapgen, missions, EOCs, and saves. Current
+loading requires `name`, `default_faction`, and `symbol`. Read `mtype::load` for numeric bounds,
+units, and defaults; example values are not balance recommendations.
+
+Defining a monster does not make it appear. Natural placement normally also needs a monster group,
+mapgen or static spawn, event, or EOC. Species, faction, material, harvest, death-drop, and item-group
+fields must reference actual registered IDs.
+
+### Behavior composition
+
+- `flags`, anger/fear/placate triggers, vision, path settings, and move skills control common AI.
+- `special_attacks` may name a registered native attack or use current actor objects. Repeated
+  subtypes need distinct `id` values or the loader reports replacement.
+- Named `weakpoint_sets` merge first and inline `weakpoints` override matching entries last; deletion
+  has dedicated semantics.
+- `armor`, `melee_damage`, `attack_effs`, `emit_fields`, and death functions have their own contracts.
+- Upgrades, reproduction, revive/zombify/fungalize, and corpse, egg, or baby IDs affect long lifecycles.
+
+`copy-from` inherits only what the factory supports. `extend`, `delete`, `relative`, and
+`proportional` are not interchangeable for every field; armor, weakpoints, and special attacks have
+specialized readers.
+
+### Validation
+
+Run the formatter, `make -j2 json-check`, and `--check-mods` for the real Mod set. Run the relevant
+`monster_test` filter and inspect spawning, faction behavior, paths, attack cooldowns, drops, death,
+upgrade or reproduction, and save reload across multiple seeds. Performance review should include
+frequent special attacks, pathfinding, field emission, and large groups.
+
+A valid combination is not necessarily playable. Review HP, speed, armor, damage, spawn weight, and
+loot as one balance and regression surface.
 
 ## History and attribution
 

@@ -3,7 +3,7 @@
 id: tutorial.mapgen-intermediate
 title: 旧文档迁移草稿：intermediate
 language: zh_CN
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -29,15 +29,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: ba73dc2bf13ed7271634cda4f93ee00a08389742b6b72d9cdf081c0dcec03e54
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 990132cee8ddec169b759ac81d7bd69f6770e6aa4aff57492d24c789dd8f6065
+translation_source_fingerprint: 76ce20c5d137f1bf1267336a0c074b2e812c82b0a18777f44a368c65e5837d1e
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -51,7 +51,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/tutorials/json-mapgen/intermediate/
 alternate_urls:
@@ -59,23 +59,21 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/tutorials/json-mapgen/intermediate/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/tutorials/json-mapgen/intermediate/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/JSON_Mapping_Guides/Guide_for_intermediate_mapgen.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/JSON_Mapping_Guides/Guide_for_intermediate_mapgen.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/JSON_Mapping_Guides/Guide_for_intermediate_mapgen.md
 - path: src/mapgen.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/mapgen.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/mapgen.cpp
 - path: src/mapgen.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/mapgen.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/mapgen.h
 - path: data/json/mapgen/nested/road_vehicles_nested.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/mapgen/nested/road_vehicles_nested.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/mapgen/nested/road_vehicles_nested.json
 - path: tests/nest_conditional_placement_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/nest_conditional_placement_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/nest_conditional_placement_test.cpp
 - path: tests/mapgen_function_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/mapgen_function_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28tutorial.mapgen-intermediate%29%3A+&body=Document+ID%3A+tutorial.mapgen-intermediate%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/mapgen_function_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28tutorial.mapgen-intermediate%29%3A+&body=Document+ID%3A+tutorial.mapgen-intermediate%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 旧文档迁移草稿：intermediate
@@ -96,6 +94,39 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## Nested、merged 与 update mapgen
+
+完整 variant 用同一 `om_terrain` 和 weight 替换整张 map；nested mapgen 把局部 chunk 叠到调用者；
+update mapgen 则在游戏过程中修改已经存在的地图。三者生命周期不同，不能仅因 JSON 结构相似而
+互换。
+
+### Nested mapgen
+
+顶层使用 `nested_mapgen_id`，可用 weight 提供同 ID variants；`object.mapgensize` 必须是两个相同
+的正数，当前实现仍只支持 square。`rows`、palette、placement 和 nested-in-nested 都在这个局部
+坐标系内。空符号通常保留底层，明确清除 terrain/furniture/items/trap/field 时使用当前 loader
+支持的 null/clear 或 clearing flags，避免只覆盖一半状态。
+
+调用者用 `nested` symbol 或 `place_nested` 坐标选择 weighted `chunks`；`null` 是有效的“不放置”
+候选。当前 nested placement 还可按 neighbors、joins、flags、predecessors 和 z 等条件选择，行为
+由 `jmapgen_nested` 与 `nest_conditional_placement_test.cpp` 证明。Chunk 必须落在调用者 grid 内，
+门、墙和可通行边界要在所有 variants 一致。
+
+### Merged 与 update
+
+二维 `om_terrain` array 为每个 OMT 注册同一 merged definition 的 offset；所有 rows 使用连续的
+总坐标。`common_check_bounds` 会拒绝跨当前 grid boundary 的坐标 range，因此 large rows 不表示
+每种 placement 都能跨 OMT。把 vehicle、range spawn 与 nest 限制在单一 OMT，并用 focused tests
+覆盖边界。
+
+`update_mapgen_id` 注册运行时更新；调用点决定目标 OMT、参数、mirror/rotation、collision policy
+与 mission context。Update 可能破坏玩家建造物、车辆、物品和存档状态，必须列出幂等性、冲突
+和再次触发策略。不要用旧 trap 示例推断所有现有触发入口。
+
+验证所有 nest weights/conditions、rotation、局部清除、NPC/vehicle、merged boundary、update
+collision、重复执行与存档重载。运行 JSON load、目标 Mod load、focused mapgen/nest/update tests，
+并在 debug mapgen 中记录 seed、位置、方向和调用参数。
 
 ## 历史与归属
 

@@ -3,7 +3,7 @@
 id: pr-review-guide
 title: 旧文档迁移草稿：pr review
 language: zh_CN
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -25,15 +25,15 @@ source_symbols: []
 source_queries: []
 source_fingerprint: e5ceb52246d59389382a552d90cbda3849e690eac4e606cce311555304fa8c68
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 93af225f31942c6268a6674dc2b33d069ebd17289538fc6a4d863b25e2657b76
+translation_source_fingerprint: e360a3cc0be225a07bdd7b01db1c5bc0a0bbffd4e5a1fbd4b01d8d7d806f4864
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -47,7 +47,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: governance
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/pr-review/
 alternate_urls:
@@ -55,19 +55,17 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/pr-review/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/pr-review/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/reviewing_PR_guide.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/reviewing_PR_guide.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/reviewing_PR_guide.md
 - path: CONTRIBUTING.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/CONTRIBUTING.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/CONTRIBUTING.md
 - path: GOVERNANCE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/GOVERNANCE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/GOVERNANCE.md
 - path: .github/pull_request_template.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/.github/pull_request_template.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28pr-review-guide%29%3A+&body=Document+ID%3A+pr-review-guide%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/.github/pull_request_template.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28pr-review-guide%29%3A+&body=Document+ID%3A+pr-review-guide%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 旧文档迁移草稿：pr review
@@ -88,6 +86,45 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## 当前 PR 审阅清单
+
+审阅的目标是确认改动解决了所述问题，并与 CCB 契约、兼容性和维护政策一致。旧指南的
+固定行数阈值和上游个人/Discord 角色不是 CCB 的合并权限模型；规模只用于提示审阅风险。
+
+### 先读范围
+
+- PR 描述是否能解释 problem、solution、alternatives、实际测试与剩余风险；
+- diff 是否只包含实现目标所需内容，是否混入格式化、重构、生成物或本地文件；
+- commit/PR stack 是否按依赖拆分并给出明确合并顺序；
+- Responsible human 是否理解最终 diff，而不是只代填用户名。
+
+### 对照权威来源
+
+1. 运行时行为对照源码与测试。
+2. JSON/Lua/API 对照 Schema、LuaLS、注册与生成清单。
+3. 构建命令对照 CI、CMake、Makefile、Gradle 和验证脚本。
+4. 贡献/治理对照 `AGENTS.md`、`CONTRIBUTING.md` 与 `GOVERNANCE.md`。
+5. CCB-Docs 冲突时标记 stale 并修正文档，不让 prose 覆盖契约。
+
+### 风险审阅
+
+- 存档序列化、稳定 ID、Mod/Lua API、Android/desktop 与上游差异是否有迁移计划；
+- gameplay/balance 是否有可审核理由和来源；
+- 外部代码、数据、图像、声音或文本是否许可证兼容并保留 attribution；
+- 生成文件是否由 generator 更新，generated diff 是否稳定；
+- PR 描述中的文档 ID、相关 CCB-Docs PR 和生成引用影响是否完整。
+
+### 验证证据
+
+先运行最窄、最能失败的测试。审阅者应区分：实际通过、未运行、环境阻塞、与 diff 无关
+的 flaky/master failure。不能因为 CI 是红色就盲改断言，也不能在没有日志时宣称失败无关。
+
+### 批准与合并边界
+
+Bot 不能批准自己的 PR，也不自动合并。启用非作者批准要求前，必须确认至少两名活跃、
+愿意且有权限的人类审阅者。审阅 conversation、Draft 状态、stack 依赖和最终 source pin
+都满足后，才由有权限的人类决定合并。
 
 ## 历史与归属
 

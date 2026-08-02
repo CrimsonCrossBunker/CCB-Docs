@@ -3,7 +3,7 @@
 id: json-widgets
 title: 'Legacy migration draft: widgets'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -28,15 +28,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: e2ec68ecbb94f6857d18bcb011f940e6ac2b0525364fed1d5346b482f4836fb3
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 9610f463a3487c30c2494c6183dc566ed77ea1cbf9b17813c7481de263e39037
+translation_source_fingerprint: 6aa0f69517bc087826adb2aedf1c6a7ec176a8982eb23a99df6bbbfe98761ee0
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -50,7 +50,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/widgets/
 alternate_urls:
@@ -58,21 +58,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/widgets/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/json/widgets/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/WIDGETS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/WIDGETS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/WIDGETS.md
 - path: src/widget.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/widget.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/widget.cpp
 - path: src/widget.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/widget.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/widget.h
 - path: tests/widget_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/widget_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/widget_test.cpp
 - path: data/json/ui/layout.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/ui/layout.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json-widgets%29%3A+&body=Document+ID%3A+json-widgets%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/ui/layout.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json-widgets%29%3A+&body=Document+ID%3A+json-widgets%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: widgets
@@ -93,6 +91,39 @@ This is the migration draft page for `json-widgets`. It records **1** frozen inv
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## JSON widgets and sidebar layouts
+
+A `"type": "widget"` object enters `generic_factory<widget>` through `widget::load_widget`; its
+fields are read by `widget::load`. A widget can display a number, graph, or text directly, or combine
+other widgets as a `layout` or `sidebar`. Reusable definitions live under `data/json/ui/`, and a mod
+can add or inherit widgets through the same factory.
+
+### Core fields
+
+Every object needs a unique `id`. `style` defaults to `number`; common values are `number`, `graph`,
+`text`, `layout`, and `sidebar`. `label`, `description`, `width`, `height`, `text_align`,
+`label_align`, `separator`, `padding`, and `flags` control presentation. A `sidebar` must explicitly
+provide `separator` and `padding`. A layout references child IDs in `widgets` and arranges them as
+`"columns"` or `"rows"`. Do not infer defaults solely from the historical prose: use
+`widget::load` and `widget.h`.
+
+A numeric or text widget binds a `widget_var` through `var`. Body-part variables additionally need
+`bodypart` or `bodyparts`. `var: "custom"` requires `custom_var.value` and a two-to-four-element
+`range`; its entries may be integers, variable objects, or math expressions. Graph `symbols`,
+`fill`, color breaks, and clauses determine the output. Invalid enums, references, and ranges should
+surface during load or consistency checks.
+
+### Inheritance and validation
+
+Widgets use the generic factory, so the project's normal `copy-from`, `extend`, and `delete`
+semantics apply. Extending a shared `id` affects every layout that references it; inspect current UI
+JSON before replacing a common component.
+
+Run the JSON formatter and loader plus the widget cases in `tests/widget_test.cpp`. Cover numbers,
+graph fills, colors and clauses, nested row/column layouts, narrow widths, body parts, custom ranges,
+and mod extension. Recheck field lists, variable enums, and actual defaults against
+`src/widget.cpp` and `src/widget.h`.
 
 ## History and attribution
 

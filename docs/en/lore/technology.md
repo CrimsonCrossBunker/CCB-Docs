@@ -3,7 +3,7 @@
 id: lore-technology
 title: 'Legacy migration draft: technology'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -24,15 +24,15 @@ source_symbols: []
 source_queries: []
 source_fingerprint: cf792ec1d56aa4d6f5a0efbea73bc7d7269987b7cf5ea1aa4062810c965350fb
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: e61fb8815ce04c25d3e92ad69ecf9dcf341c445c87f0f50a0b6e756556f2d5ac
+translation_source_fingerprint: fe0b3354ffe9609a020494c599f716f13a38719d1d63f4a7b436e9905efc0ca8
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -46,7 +46,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lore
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/lore/technology/
 alternate_urls:
@@ -54,17 +54,15 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/lore/technology/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/lore/technology/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/design-balance-lore/technology.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/technology.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/design-balance-lore/technology.md
 - path: doc/design-balance-lore/lore.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/lore.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/design-balance-lore/lore.md
 - path: data/json/materials.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/materials.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28lore-technology%29%3A+&body=Document+ID%3A+lore-technology%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/materials.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28lore-technology%29%3A+&body=Document+ID%3A+lore-technology%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: technology
@@ -85,6 +83,42 @@ This is the migration draft page for `lore-technology`. It records **1** frozen 
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Technology baseline
+
+Pre-Cataclysm CCB Earth should remain recognizably modern in technology. A divergence should be
+narrow, sourced, and connected to portal research, XEDRA, or explicit off-world technology. If an
+invention would transform all pre-Cataclysm society, normally narrow or rewrite it instead of
+turning the setting into generic science fiction.
+
+### Technology layers
+
+- **Civilian and ordinary industry** primarily follow real capability, supply chains, and cost.
+  Somewhat wider fuel-cell or powered-assistance use does not make hypertechnology ubiquitous.
+- **Military and XEDRA** may have rare energy sources, power armor, robots, experimental weapons,
+  portals, and dimensional heuristics, constrained by programs, facilities, secrecy, quantity, and
+  reliability.
+- **Mutation** exploits universal Blob contamination and is not ordinary genetic engineering. Current
+  mutation data and code still define visible behavior.
+- **CBMs and the Exodii** belong to an interdimensional survivor tradition. Common functions should
+  remain explainable by modern principles where practical; unusual interfaces, inherited
+  manufacturing, and a few story-gated devices carry the handwaving.
+- **Mi-go, Yrax, triffid, Blob, and similar capability** may exceed human understanding. The less
+  comprehensible it is, the less a player should dismantle, redesign, or mass-produce it like
+  ordinary machinery.
+
+## Selecting technology for content
+
+State who made it, when and why, the energy and materials it needs, who can maintain it, and why it
+remains available after collapse. Distinguish prototype, limited deployment, and mass production;
+an experiment needs plausible operation, failure, and supply constraints. A display name or lore
+claim does not prove item behavior: trace current JSON, recipes, item uses, mapgen, factions, and
+tests.
+
+The legacy technology scale and explanations are writing models, not APIs. For a device change,
+check provenance, spawn density, repair, disassembly, ammo or batteries, skills, NPC acquisition,
+saves, and mod compatibility, then run JSON loading and focused tests. Unimplemented Yrax or other
+sections remain draft.
 
 ## History and attribution
 

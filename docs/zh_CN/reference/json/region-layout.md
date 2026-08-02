@@ -3,7 +3,7 @@
 id: json.region-layout
 title: 旧文档迁移草稿：region layout
 language: zh_CN
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -26,15 +26,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: f2a802108a8d9ac03af482ec4deb5d436ba86695b03917b2e1ccdf8cffea0f7e
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 1c194e366ba74060d8a07fb8da9cc25a62468731e3176a6d1e7be310b84706d5
+translation_source_fingerprint: d4a59858692a366fa16eae7151cee644e8288a7c19714cd8dc2a6134a456faae
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -48,7 +48,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/region-layout/
 alternate_urls:
@@ -56,19 +56,17 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/region-layout/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/region-layout/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/REGION_LAYOUT.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/REGION_LAYOUT.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/REGION_LAYOUT.md
 - path: src/overmap_worldgen.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/overmap_worldgen.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/overmap_worldgen.cpp
 - path: src/overmap_worldgen.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/overmap_worldgen.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/overmap_worldgen.h
 - path: data/json/region_settings/region_settings/dimensions/dimension_regions.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/region_settings/region_settings/dimensions/dimension_regions.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.region-layout%29%3A+&body=Document+ID%3A+json.region-layout%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/region_settings/region_settings/dimensions/dimension_regions.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.region-layout%29%3A+&body=Document+ID%3A+json.region-layout%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 旧文档迁移草稿：region layout
@@ -89,6 +87,31 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## Dimension region layout
+
+`dimension_region_layout` 决定一个 dimension 的 overmap 使用哪个 `region_settings`。当前
+loader 必须读取 `generation_mode`，但 pinned CCB 实现的 switch 只为 `UNIFORM` 创建 generator；
+JSON 枚举或头文件中出现其他 mode 不等于它们可用。
+
+### 当前支持的模式
+
+`UNIFORM` 是 dynamic layout，并要求 `uniform_region`。第一次访问某个 overmap 时 generator
+把该坐标映射到同一个 region。当前第一方 `dimension_regions.json` 也全部使用这一模式。
+
+头文件保留 MANUAL_VORONOI、RANDOM、EIGHTHS 与 static layout 的类型和部分基类，但 loader
+没有对应 case。不要发布使用这些值的 Mod，也不要把未接线的 `generated_bounds_*` 或
+`layout_out_of_bounds` 当成公开 JSON 契约。要启用新模式，必须先实现 deserialize、generator、
+factory finalize/check 与测试，而不只是放开枚举。
+
+### ID 链与验证
+
+layout 的 `uniform_region` 必须是有效 region settings，`dimension.region_layout` 再引用这个
+layout。检查完整链：dimension → layout → region settings → overmap generation 数据。
+
+运行 formatter、`make -j2 json-check` 和完整 `--check-mods`，实际创建新 world/dimension 并生成
+多个 overmap。对新 generator 加 deterministic seed、边界、存档 reload 与无效 ID fallback
+测试；region layout 变化可能改变新生成世界，必须在 PR 标明兼容性影响。
 
 ## 历史与归属
 

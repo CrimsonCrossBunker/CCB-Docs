@@ -3,7 +3,7 @@
 id: json.npc-factions
 title: 'Legacy migration draft: npc factions'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -27,15 +27,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: 4286ef41984cda33091800af8d905c278d43fb2e7037271da4169486e94cfc75
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 5bb703714afb4f20964c2008d194315bf6eec82896650db82c193999f702787f
+translation_source_fingerprint: a7316547f229ed816e820ee74dfe65f69f16f26324ca92ab8e906af89051461c
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -49,7 +49,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/npc-factions/
 alternate_urls:
@@ -57,21 +57,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/npc-factions/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/npc-factions/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/FACTIONS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/FACTIONS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/FACTIONS.md
 - path: src/faction.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/faction.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/faction.cpp
 - path: src/faction.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/faction.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/faction.h
 - path: data/json/npcs/factions.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/npcs/factions.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/npcs/factions.json
 - path: tests/faction_price_rules_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/faction_price_rules_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.npc-factions%29%3A+&body=Document+ID%3A+json.npc-factions%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/faction_price_rules_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.npc-factions%29%3A+&body=Document+ID%3A+json.npc-factions%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: npc factions
@@ -92,6 +90,39 @@ This is the migration draft page for `json.npc-factions`. It records **1** froze
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## NPC-faction contract
+
+A `FACTION` template is loaded by `faction_template` and later instantiated as a world faction.
+The current constructor requires `id`, `name`, `description`, `likes_u`, `respects_u`,
+`known_by_u`, `size`, `power`, and `wealth`. Trust, food, currency, price rules, claims, monster
+faction, relations, and epilogues are additional contracts.
+
+### Identity, relations, and economy
+
+Faction IDs enter NPCs, dialogue, missions, camps, EOCs, and saves. Display names translate, but IDs
+must not be casually renamed. `relations` is a directional bitset keyed by target faction ID; A's
+kill, watch, or share relation to B does not guarantee the reverse relation. Validate every target
+and relation flag against current registrations.
+
+A `currency` also creates a price rule. Rules can match current item-group criteria and set markup,
+premium, fixed adjustment, or price. Trading still depends on NPC, supply, skills, and other systems;
+one item is insufficient evidence.
+
+### World state and compatibility
+
+A template initializes a new faction. A save may contain changed likes, respect, trust, wealth, food,
+and membership. Editing the template does not migrate an existing world. Before removing or renaming
+an ID, design save migration and update every cross-object reference.
+
+Epilogue snippets, monster factions, currency or item groups, and mission IDs need consistency
+checks. `known_by_u`, limited-area claims, and lone-wolf behavior need scenario tests.
+
+### Validation
+
+Run formatting, `make -j2 json-check`, `--check-mods`, and faction price, mission, camp, and NPC
+dialogue tests. Cover directional relations, theft or attacks, pricing, food and wealth, epilogues,
+new and old worlds, Mod combinations, and missing target IDs.
 
 ## History and attribution
 

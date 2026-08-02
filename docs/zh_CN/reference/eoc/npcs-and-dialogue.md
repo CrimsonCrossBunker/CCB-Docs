@@ -3,7 +3,7 @@
 id: json.npcs-dialogue
 title: 旧文档迁移草稿：npcs and dialogue
 language: zh_CN
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -30,15 +30,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: c3ae69403c9d1063bb5329654dab7a0ba1529549923508a5620387a10823bb73
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: cf67a987c080d954bbd86810dcb20b259a21e20a23deea85866dcd5d4f1ae102
+translation_source_fingerprint: 46d2d849a76bb94d7b5810402cd48481c3db124a0aaadac04c431cc51e79b107
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -53,7 +53,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: eoc
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc/npcs-and-dialogue/
 alternate_urls:
@@ -61,23 +61,21 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc/npcs-and-dialogue/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc/npcs-and-dialogue/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/NPCs.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/NPCs.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/NPCs.md
 - path: src/npc.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/npc.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/npc.cpp
 - path: src/npc_class.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/npc_class.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/npc_class.cpp
 - path: src/npctalk.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/npctalk.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/npctalk.cpp
 - path: data/json/npcs/missiondef.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/npcs/missiondef.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/npcs/missiondef.json
 - path: tests/npc_talk_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/npc_talk_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.npcs-dialogue%29%3A+&body=Document+ID%3A+json.npcs-dialogue%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/npc_talk_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.npcs-dialogue%29%3A+&body=Document+ID%3A+json.npcs-dialogue%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 旧文档迁移草稿：npcs and dialogue
@@ -98,6 +96,74 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## 当前 CCB NPC 与对话结构
+
+NPC 内容通常跨三个独立对象：`npc` 定义具体模板和初始关系，`npc_class` 定义生成属性与
+装备分布，`talk_topic` 定义对话图。mission、faction、item group、skill、trait、effect
+与 topic 均通过稳定 ID 连接；只让单个 JSON 文件可加载并不能证明整条对话可达。
+
+### NPC 模板
+
+```jsonc
+{
+  "type": "npc",
+  "id": "ccb_example_npc",
+  "name_unique": "Example Keeper",
+  "gender": "female",
+  "class": "NC_CCB_EXAMPLE",
+  "faction": "your_followers",
+  "attitude": 0,
+  "mission": "GUARD",
+  "chat": "TALK_CCB_EXAMPLE"
+}
+```
+
+`npc_template::load` 读取模板并由 class、faction、mission 和 chat ID 组合行为。新模板应
+确认出生位置/调用者会实际生成它，不要只在 Debug 菜单中手动 spawn 后认为流程完成。
+随机 NPC 属性属于 `npc_class`；具名 NPC 的专有内容留在模板或对话中。
+
+### talk topic 与 response
+
+```jsonc
+{
+  "type": "talk_topic",
+  "id": "TALK_CCB_EXAMPLE",
+  "dynamic_line": "Welcome.",
+  "responses": [
+    { "text": "Goodbye.", "topic": "TALK_DONE" }
+  ]
+}
+```
+
+`json_talk_topic::load` 可读取 dynamic line、speaker effects、responses 和 repeat
+responses。最终 response 列表为空会报错。已有同 ID topic 的 response 可能按加载顺序
+追加，`replace_built_in_responses` 和 `insert_before_standard_exits` 会改变组合位置；Mod
+patch 必须声明依赖并测试最终图。
+
+response 的 condition 控制是否出现，success/failure effect 决定副作用和下一个 topic。
+每条可见分支都应有退出或可到达的后续节点，避免无条件环、空页面与无法返回的任务对话。
+
+### talker 与 EOC 语义
+
+传统对话中 alpha 通常是玩家、beta 通常是 NPC，因此 condition/effect 使用 `u_` 与
+`npc_` 前缀。相同 topic/EOC 被怪物、物品或其他系统调用时，talker 类型可能不同；应
+查[条件索引](../eoc-conditions.md)、[效果索引](../eoc-effects.md)和实际调用点。
+
+dynamic line、response text、NPC 名称和 mission dialogue 都是玩家文本，应使用 translation
+对象或当前字段要求的可翻译字符串，保留 placeholder/context，并测试文本宽度与复数。
+
+### mission 接线
+
+NPC 提供任务时，模板的 `mission_offered`、mission_definition 的 origins/dialogue，及
+通向 mission list/inquiry 的 topic 必须一致。自定义任务完成条件和 start/end/fail effect
+仍使用同一 talker/EOC 系统；详见[任务](../json/missions.md)。
+
+### 验证
+
+运行 JSON loader、ID 检查、实际 Mod 集 `--check-mods` 和 `npc_talk_test` 相关用例。至少
+走通首次见面、条件隐藏/显示、success、failure、repeat response、任务接受/完成和退出；
+同时检查缺失 NPC、缺失 topic 与不同加载顺序。
 
 ## 历史与归属
 

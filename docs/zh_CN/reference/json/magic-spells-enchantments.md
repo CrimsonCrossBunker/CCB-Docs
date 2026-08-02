@@ -3,7 +3,7 @@
 id: json.magic-spells-enchantments
 title: 旧文档迁移草稿：magic spells enchantments
 language: zh_CN
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -31,15 +31,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: 0202fd86aef03e270f8c100b3111b4ec39854b75815ec9e13c5f3d98f0099cb6
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: d3707afe19355aa432e44e9919b581479aad869b3416b62ae4306f482d21a161
+translation_source_fingerprint: 7da55ed9421c2c8a59e26a12e874d9bd9e3938cc0c3bf1ec99575bcb7fa2f406
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -53,7 +53,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/magic-spells-enchantments/
 alternate_urls:
@@ -61,23 +61,21 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/magic-spells-enchantments/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/magic-spells-enchantments/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/MAGIC.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/MAGIC.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/MAGIC.md
 - path: src/magic.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/magic.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/magic.cpp
 - path: src/magic_enchantment.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/magic_enchantment.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/magic_enchantment.cpp
 - path: src/magic_type.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/magic_type.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/magic_type.cpp
 - path: data/json/enchantments.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/enchantments.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/enchantments.json
 - path: tests/magic_spell_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/magic_spell_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.magic-spells-enchantments%29%3A+&body=Document+ID%3A+json.magic-spells-enchantments%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/magic_spell_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.magic-spells-enchantments%29%3A+&body=Document+ID%3A+json.magic-spells-enchantments%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 旧文档迁移草稿：magic spells enchantments
@@ -98,6 +96,72 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## 当前 CCB Magic、Spell 与 Enchantment 契约
+
+这组契约包含 `SPELL`、`magic_type`、`enchantment` 和在其他对象中使用的 inline
+`fake_spell`。它们共享部分 ID 和条件，但 lifecycle 不同：spell 被施放，magic type
+提供系统默认规则，enchantment 按持有者/载体状态持续求值。
+
+### Spell 最小骨架
+
+```jsonc
+{
+  "type": "SPELL",
+  "id": "spell_ccb_example",
+  "name": "Example pulse",
+  "description": "A documentation-only spell.",
+  "effect": "attack",
+  "shape": "blast",
+  "valid_targets": [ "hostile" ],
+  "min_damage": 1,
+  "damage_increment": 1,
+  "max_damage": 5,
+  "min_range": 3,
+  "max_range": 3,
+  "energy_source": "MANA",
+  "base_energy_cost": 10,
+  "base_casting_time": 100
+}
+```
+
+当前 `spell_type::load` 强制读取 `name`、`description`、`effect`、`shape` 与
+`valid_targets`。Effect 和 shape 必须在 native registry 中存在。damage、range、AoE、
+duration、pierce、accuracy、energy 和 casting time 通常使用 min/increment/max；表达式和
+单位由对应 reader 决定，不能假定全是普通整数。
+
+`caster_condition`、`target_condition`、target species/monster、body parts 和 flags 共同
+限制合法目标。`extra_effects`/`fake_spell` 可以连锁施法，consistency check 会检查循环；
+WONDER、permanent summon、vitamin energy、touch/no-hands 与 formula 参数也有专门约束。
+
+### Magic type、学习与 channel
+
+`magic_type` 可集中声明 energy、level/XP/failure formula、cannot-cast flags、failure cost
+和 failure EOC。level 与 XP formula 必须成对且参数数目正确。Spell 可以覆盖 magic type，
+并通过 book、profession/NPC、`learn_spells` 或其他当前入口学习。
+
+Channeled spell 需要 max turns、channel spell 与 end spell；interrupt、每回合耗能和重复
+effect 必须覆盖取消、移动、受击、资源耗尽和保存边界。多 projectile 与重复/随机
+extra spell 需要性能和递归上限审阅。
+
+### Enchantment
+
+Enchantment 可以是具名 ID，也可以在调用者能提供稳定 inline ID 时内联。`has` 与
+`condition` 决定 HELD/WIELD/WORN、ACTIVE/INACTIVE/ALWAYS 或 dialogue condition。
+`values`、skills、custom、encumbrance、melee/incoming damage 支持 add/multiply；
+mutations、effects、bodypart changes、special vision、emitter、hit effects 和 intermittent
+spell 各有独立语义。
+
+Character、monster 与 vehicle 只处理其实现认为 relevant 的子集。不要因为字段能加载就
+假设对所有载体生效；用 `is_monster_relevant`/`is_vehicle_relevant` 和调用点查证。
+
+### 验证
+
+运行 formatter、`make -j2 json-check`、实际 Mod 集 `--check-mods`，以及
+`magic_spell_test`、`magic_spell_effect_test`、`enchantments_test` 的相关 filter。
+覆盖每个 level 边界、失败率/资源、target/shape、extra-effect cycle、channel 中断、
+enchantment 开关与 add/multiply 顺序，并保存重载。玩家/NPC/monster/vehicle 和 inline
+载体分别测试；高频 intermittent/area spell 需要 profile。
 
 ## 历史与归属
 

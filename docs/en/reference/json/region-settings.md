@@ -3,7 +3,7 @@
 id: json.region-settings
 title: 'Legacy migration draft: region settings'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -30,15 +30,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: 1237c74189c1228b60889a1e83582ceea4a8a7b854ce41ed71146ae8ddb924df
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: c8359b4171249d2c0b7c74c8103db967d65e00a5d37fc3816d51e28e5c4549b7
+translation_source_fingerprint: 5402a889f8f541099b47aa0f317f29bb64696a003a5c23871aa73532fc163f65
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -52,7 +52,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/region-settings/
 alternate_urls:
@@ -60,21 +60,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/region-settings/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/region-settings/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/REGION_SETTINGS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/REGION_SETTINGS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/REGION_SETTINGS.md
 - path: src/regional_settings.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/regional_settings.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/regional_settings.cpp
 - path: src/regional_settings.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/regional_settings.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/regional_settings.h
 - path: data/json/region_settings/region_settings/regional_map_settings.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/region_settings/region_settings/regional_map_settings.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/region_settings/region_settings/regional_map_settings.json
 - path: data/json/region_settings/region_settings/test_regional_map_settings.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/region_settings/region_settings/test_regional_map_settings.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.region-settings%29%3A+&body=Document+ID%3A+json.region-settings%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/region_settings/region_settings/test_regional_map_settings.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.region-settings%29%3A+&body=Document+ID%3A+json.region-settings%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: region settings
@@ -95,6 +93,62 @@ This is the migration draft page for `json.region-settings`. It records **1** fr
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Current CCB region-settings structure
+
+Region settings determine default terrain, ground cover, forests, rivers, lakes and oceans,
+cities, road connections, highways, map extras, weather, and feature-flag filters for new
+overmaps. They are not one open-ended object: multiple `region_settings_*` object types load
+through separate factories and the main `region_settings` composes them by ID.
+
+### Main region
+
+The main object reads default OMT and ground cover, mandatory cities, weather, forest, river,
+lake, ocean, highway, ravine, connections, map extras, terrain or furniture replacements, and
+switches for roads, railways, specials, and neighbour connections. A valid region with
+`id: "default"` must exist or finalization reports it.
+
+Do not infer component fields from a legacy table. For example, the current
+`region_settings_city` requires `city_size`, while forest, highway, lake, and map-extra
+collections each have their own readers, defaults, and stable IDs.
+
+### Extension and replacement
+
+```jsonc
+{
+  "type": "region_settings",
+  "id": "default",
+  "copy-from": "default",
+  "feature_flag_settings": {
+    "extend": { "blacklist": [ "CCB_EXCLUDED" ] }
+  }
+}
+```
+
+Concrete `copy-from` and extension support depends on that field's reader. Same-ID Mod patches
+depend on load order and can replace each other when several Mods alter the default region. A
+new region is often easier to review than an implicit change to every world, but still needs
+a world-selection entry and correct dimension or layout references.
+
+### Cities, extras, and feature flags
+
+City weighted lists reference OMTs or specials. Radius, size, and spacing affect distribution
+but do not guarantee that every candidate can be placed. A map-extra collection combines a
+chance with registered extra IDs and weights. Feature blacklists and whitelists combine with
+overmap location flags; over-restricting them can leave empty candidates or broken networks.
+
+A region change affects only overmaps that have not been generated. Explored regions are not
+rebuilt. Document visual, resource, or road changes separately for new worlds or areas and for
+already generated parts of old saves.
+
+### Validation
+
+Run the formatter, `make -j2 json-check`, and `--check-mods` for the actual Mod set. Generate
+complete overmaps from several seeds, recording the selected region, and inspect cities and
+roads, forests and water, specials, extras, weather, and feature filters. Load an old world and
+cross into a new overmap to check boundaries and connections.
+
+See [overmap](overmap.md) for OMT and special relationships and [mapgen](mapgen.md) for local generation.
 
 ## History and attribution
 

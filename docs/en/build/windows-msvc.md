@@ -3,7 +3,7 @@
 id: build-windows-msvc
 title: 'Legacy migration draft: windows msvc'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -28,15 +28,15 @@ source_symbols: []
 source_queries: []
 source_fingerprint: 67ae130a01e46324ef41c87a392ce88719218f4d66dd72ea896d4a6cd8d82c98
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 8d4a95ffb429c23a4f9c779018a9fcb0fb06b22acd77ae340be3a626e61724e9
+translation_source_fingerprint: f2643fc32fc6bab74951ee37d766c14cec02ec4c4237fd1724036b9bbd3736ac
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -51,7 +51,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: build
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/build/windows-msvc/
 alternate_urls:
@@ -59,25 +59,23 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/build/windows-msvc/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/build/windows-msvc/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/c++/COMPILING-CMAKE-VCPKG.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/c++/COMPILING-CMAKE-VCPKG.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/c++/COMPILING-CMAKE-VCPKG.md
 - path: CMakeLists.txt
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/CMakeLists.txt
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/CMakeLists.txt
 - path: CMakePresets.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/CMakePresets.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/CMakePresets.json
 - path: build-scripts/x64-windows-static.cmake
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/build-scripts/x64-windows-static.cmake
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/build-scripts/x64-windows-static.cmake
 - path: .github/workflows/msvc-full-features.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/.github/workflows/msvc-full-features.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/.github/workflows/msvc-full-features.yml
 - path: doc/c++/COMPILING-VS-VCPKG.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/c++/COMPILING-VS-VCPKG.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/c++/COMPILING-VS-VCPKG.md
 - path: build-scripts/windows-tiles-sounds-x64-msvc.cmake
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/build-scripts/windows-tiles-sounds-x64-msvc.cmake
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28build-windows-msvc%29%3A+&body=Document+ID%3A+build-windows-msvc%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/build-scripts/windows-tiles-sounds-x64-msvc.cmake
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28build-windows-msvc%29%3A+&body=Document+ID%3A+build-windows-msvc%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: windows msvc
@@ -99,6 +97,46 @@ This is the migration draft page for `build-windows-msvc`. It records **2** froz
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Current MSVC and vcpkg route
+
+CCB's full MSVC route is jointly defined by the `msvc-full-features/` solution, vcpkg
+manifest and triplets, CMake presets, and `.github/workflows/msvc-full-features.yml`.
+The legacy CleverRaven clone, an arbitrary latest vcpkg, and old Visual Studio versions do
+not override those pinned contracts.
+
+### Recommended entry points
+
+Install Visual Studio 2022 with the C++ desktop and game workloads, Git, and project-
+compatible CMake and vcpkg versions. At the pinned source, CI uses CMake 3.31.6 and vcpkg
+revision `f6672d8e480ccdecddfad3fd1b838ba369ffe6cd`; record any local version difference.
+
+Choose either route:
+
+1. open `msvc-full-features/Cataclysm-vcpkg-static.sln` with `Release` and `x64`; or
+2. use the `windows-x64-msvc` or `windows-tiles-sounds-x64-msvc` CMake preset.
+
+The central CI solution command is:
+
+```powershell
+msbuild -m -p:Configuration=Release -p:Platform=x64 -p:UseSDL3=false `
+  "-target:Cataclysm-vcpkg-static;Cataclysm-test-vcpkg-static;JsonFormatter-vcpkg-static;zzip" `
+  msvc-full-features/Cataclysm-vcpkg-static.sln
+```
+
+That command is CI evidence; this page does not claim it was rerun on a local Windows host.
+
+### Test and run
+
+- Build the test target with the same configuration and platform as the game.
+- Run a focused Catch2 filter from the output directory. Release is generally practical for
+  routine validation; reserve Debug for iterator diagnostics or source-level stepping.
+- Localization, Tiles, sound, SDL2/SDL3, and static linking alter targets and dependencies;
+  state the combination in the PR.
+- On a vcpkg failure, preserve the relevant buildtree log and pinned revision before trying
+  a different version. Do not silently update to arbitrary HEAD.
+
+Signing and distribution are outside this page; see [release maintenance](../maintenance/releases.md).
 
 ## History and attribution
 

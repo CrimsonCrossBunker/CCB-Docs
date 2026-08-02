@@ -3,7 +3,7 @@
 id: json.examine-actions
 title: 'Legacy migration draft: examine actions'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -30,15 +30,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: ccfa1cd7585bf2cb3554179e87f8125d72eea2502fc9b25ba74d3a9eefb3f6d7
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 673d4bc4422af8503e7655f9e64a3f3c6270b1c58678a98b437bee1f93a76564
+translation_source_fingerprint: 8e0b5ff7bc090df8236f02f27ec38e67684667b35fd08fcaf09681e69272acdb
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -52,7 +52,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/examine-actions/
 alternate_urls:
@@ -60,21 +60,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/examine-actions/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/examine-actions/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/EXAMINE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/EXAMINE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/EXAMINE.md
 - path: src/iexamine.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/iexamine.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/iexamine.cpp
 - path: src/iexamine_actors.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/iexamine_actors.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/iexamine_actors.cpp
 - path: src/mapdata.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/mapdata.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/mapdata.cpp
 - path: tests/iexamine_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/iexamine_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.examine-actions%29%3A+&body=Document+ID%3A+json.examine-actions%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/iexamine_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.examine-actions%29%3A+&body=Document+ID%3A+json.examine-actions%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: examine actions
@@ -95,6 +93,40 @@ This is the migration draft page for `json.examine-actions`. It records **1** fr
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Terrain and furniture examine actions
+
+`examine_action` accepts a registered hardcoded string, a JSON examine actor, or an array mixing
+both. The current map in `iexamine_functions_from_string` defines string registrations. An unknown
+name reports an error and falls back to `none`; the historical hand-written list is not complete.
+
+### Actor contracts
+
+- `appliance_convert` requires item and optionally sets furniture or terrain. Finalization validates
+  the item, terrain, furniture, and appliance vpart.
+- `cardreader` requires flags, success_msg, and redundant_msg. The mapgen_id route is exclusive with
+  radius plus terrain or furniture changes; query, hacking, card consumption, and monster despawn
+  also have combination constraints.
+- `effect_on_conditions` loads named or inline EOCs in order. Its dialogue has the examiner as u,
+  null npc, and `this` furniture ID plus `pos` context.
+- `mortar` requires ammo and range and may use condition, aim or flight variables, and completion
+  EOCs. Completion also supplies `this`, `pos`, and `target`.
+
+The top-level actor type selects the concrete loader. Do not copy fields across actors or infer
+mandatory members and defaults from occurrence counts.
+
+### Design boundary
+
+Reference an existing hardcoded action when it matches. Prefer an actor or EOC for configurable
+composition. A new hardcoded string or actor type changes a public contract and needs registration,
+loader and finalization, JSON inventory, bilingual documentation, and tests together. An EOC must
+define talkers, context variables, repeat behavior, and map-bubble boundaries.
+
+### Validation
+
+Run formatting, `make -j2 json-check`, Mod `--check-mods`, and examine a focused fixture. Cover
+missing items, cards, or ammo; cancelled queries; repeat use; invalid IDs; hacking and mapgen paths;
+EOC context; and save reload in `tests/iexamine_test.cpp`. Successful parsing alone is insufficient.
 
 ## History and attribution
 

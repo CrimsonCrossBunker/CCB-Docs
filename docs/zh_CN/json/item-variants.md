@@ -3,7 +3,7 @@
 id: json-item-variants
 title: 旧文档迁移草稿：item variants
 language: zh_CN
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -27,15 +27,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: 82c37db96db11737a3f1097313c55597a7e5ea236dfe758a10ed721cd6992691
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 53cdb2f6cb2825e5242481962604ea03c1add2a8cfb2f5b96bf687f2c95d6bac
+translation_source_fingerprint: 7bae837b3b7ebe61326ec111ec664dfe9e478d2e197278112c80fde39439eac9
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -49,7 +49,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/json/item-variants/
 alternate_urls:
@@ -57,21 +57,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/item-variants/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/json/item-variants/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/design-balance-lore/VARIANTS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/VARIANTS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/design-balance-lore/VARIANTS.md
 - path: src/item_factory.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/item_factory.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/item_factory.cpp
 - path: src/cata_variant.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/cata_variant.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/cata_variant.h
 - path: tests/cata_variant_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/cata_variant_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/cata_variant_test.cpp
 - path: data/json/artifact/artifact_item_types.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/artifact/artifact_item_types.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json-item-variants%29%3A+&body=Document+ID%3A+json-item-variants%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/artifact/artifact_item_types.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json-item-variants%29%3A+&body=Document+ID%3A+json-item-variants%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 旧文档迁移草稿：item variants
@@ -92,6 +90,31 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## Item aesthetic variants
+
+item 的 `variants` 是同一 itype 的表现变体，不是另一个 gameplay item。每项必须有稳定 `id`，
+并可覆盖 name、description、symbol、color、ascii picture；`weight` 默认 1，`append` 控制说明追加，
+`expand_snippets` 控制生成时展开。缺少 name/description 时 finalize 从 base item 继承。
+
+这套 `itype_variant_data` 不等于 C++ 的 `cata_variant` typed value container，二者名称相近但契约
+无关。写文档、测试和 source symbol 时必须明确是哪一种。
+
+### 适用边界
+
+variant 只能表达视觉、命名或文字差异，不能改变重量、伤害、营养、armor、pocket、recipe 或
+其他玩法统计。需要玩法差异时创建独立 itype、inheritance、snippet/conditional name 或合适的
+数据结构。大量细小 variant 会增加翻译和 tileset 成本；每项应有可辨识、可出现的用途。
+
+variant ID 会进入 item instance、spawn、migration 和 serialization 路径。删除或重命名已有 ID
+前检查保存兼容与 migration；copy-from 清空或替换 variants 时也要审阅展开结果。
+
+### 验证
+
+运行 formatter、`make -j2 json-check`、Mod `--check-mods`，并实际生成每个 weighted variant。
+检查默认继承、translation plural、symbol/color/ascii art、snippet expansion、tileset fallback、
+存档 round trip 和旧 ID migration。不要用 `tests/cata_variant_test.cpp` 证明 item variant；应使用
+item name/spawn/serialization 的 focused test。
 
 ## 历史与归属
 

@@ -3,7 +3,7 @@
 id: json.wounds
 title: 旧文档迁移草稿：wounds
 language: zh_CN
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -27,15 +27,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: ef0fb6b359a73bb54b104854bcea65edc98edadcc35797a645434a547424ea53
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 23ac5c34e993633fbc5042129273620313846198a96d34d0785533f513c2ae42
+translation_source_fingerprint: ed658cdcda0670e40cccd612846f28093a412af693adab579dd9e7cee76e7035
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -49,7 +49,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/wounds/
 alternate_urls:
@@ -57,19 +57,17 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/wounds/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/wounds/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/JSON/WOUNDS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/WOUNDS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/WOUNDS.md
 - path: src/wound.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/wound.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/wound.cpp
 - path: src/wound.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/wound.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/wound.h
 - path: src/init.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/init.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.wounds%29%3A+&body=Document+ID%3A+json.wounds%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/init.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.wounds%29%3A+&body=Document+ID%3A+json.wounds%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 旧文档迁移草稿：wounds
@@ -90,6 +88,35 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## Wound 与 wound fix
+
+`wound` 是绑定 bodypart 的持久状态，`wound_fix` 是治疗定义。两者各有 generic factory；fix 在
+finalize 时解析 requirements 并反向登记到被移除的 wound。它们不是普通 effect 的别名。
+
+### Wound fields
+
+name、description、damage_types、damage_required 必填。pain 默认 0–0，healing_time 默认无限，
+weight 默认 1，limit 默认 0；还可设置 limb scores、progression 及 bodypart type/flag 白黑名单。
+progression 要求 id，chance 限制为 0–100。range pair 的顺序、damage type ID 和 progression ID
+需要 consumer/test 验证，当前 `wound_type::check` 本身为空，不能只依赖 factory check。
+
+### Wound fix fields
+
+name/description 必填；time、skills、removed/added wounds、success_msg、HP modifier、proficiencies
+和 requirements 可选。proficiency entry 要求 ID，time_save 默认 1，is_mandatory 默认 false。
+requirements 可引用 `[id, count]` 或定义 inline requirement，finalize 后合并。
+
+fix consistency 检查 skill、wound、proficiency 与 requirement IDs。删除/重命名 wound 会影响存档、
+progression 和 fixes，必须提供明确 migration/compatibility 策略；没有自动 wound migration 契约时
+不能假装安全。
+
+### 验证
+
+运行 formatter、`make -j2 json-check`、Mod `--check-mods`。用 focused wound tests 覆盖 damage
+threshold、每 limb limit、白黑名单、progression、随机 pain/heal range、mandatory proficiency、
+requirements 消耗、add/remove、HP 正负修改和存档 reload。破坏性或未实现的组合应明确标为
+experimental，而不是仅凭 JSON 成功加载发布。
 
 ## 历史与归属
 

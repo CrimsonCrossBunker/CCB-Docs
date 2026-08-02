@@ -3,7 +3,7 @@
 id: json.loading-order
 title: 'Legacy migration draft: loading order'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -29,15 +29,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: f0979275d95b5694a34e200e0c493b395e64c987686d4ae7488c44253f01d92e
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 31e74e42f3aeea3d2d71dd4176c2fdfa7cc4d630d80617fa94a157c936d3f7ea
+translation_source_fingerprint: a8f29676da84cf0f6bc70e5741efc62e26fc2961cba06d4ba15b9ef0e3ecab84
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -53,7 +53,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/loading-order/
 alternate_urls:
@@ -61,21 +61,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/loading-order/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/loading-order/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: data/json/LOADING_ORDER.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/LOADING_ORDER.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/LOADING_ORDER.md
 - path: doc/JSON/JSON_LOADING_ORDER.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/JSON/JSON_LOADING_ORDER.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/JSON/JSON_LOADING_ORDER.md
 - path: src/filesystem.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/filesystem.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/filesystem.cpp
 - path: src/init.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/init.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/init.cpp
 - path: src/game_io.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/game_io.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.loading-order%29%3A+&body=Document+ID%3A+json.loading-order%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/game_io.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.loading-order%29%3A+&body=Document+ID%3A+json.loading-order%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: loading order
@@ -97,6 +95,38 @@ This is the migration draft page for `json.loading-order`. It records **2** froz
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## JSON loading phases and order
+
+CCB calls loaders for active Mods in dependency order already resolved for the world. Within one
+path, `get_files_from_path(..., recursive=true)` discovers JSON breadth-first and uses current
+filesystem sorting within a directory. Ordinary Mod loading excludes `mod_interactions`; matching
+interaction content is a later pass after all ordinary content.
+
+### Safe dependencies
+
+Rely on explicit Mod dependencies, documented generic-factory deferred loading, and finalization
+owned by a loader. Do not treat file names or directory depth as a universal forward-reference API.
+Some handlers require targets during parsing while others retain string IDs until consistency
+checking. Inspect the specific handler.
+
+Historical `data/json` layout used depth for relationships such as skills, professions, and
+scenarios. New code should prefer explicit factory or loader handling. Moving a file into a
+subdirectory can change parse order and break content relying on accidental ordering; treat it as a
+high-risk JSON change.
+
+### Mods and interactions
+
+`dependencies` determines active-Mod order. Ordinary content must parse after declared dependencies.
+`mod_interactions/<target-id>/` loads in the later pass with source `base#target`. It cannot repair
+an earlier ordinary-file exception and does not support nested multi-target directories.
+
+### Validation
+
+Run formatting, `make -j2 json-check`, and `--check-mods` for the complete dependency combination.
+For order-sensitive changes, add a minimal fixture covering parent and child order, missing
+dependencies, two-Mod overrides, interactions, and finalization. Also exercise packaged path and
+case behavior through target-platform CI rather than only a development checkout.
 
 ## History and attribution
 

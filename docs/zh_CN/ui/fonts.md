@@ -3,7 +3,7 @@
 id: ui-fonts
 title: 旧文档迁移草稿：fonts
 language: zh_CN
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -27,15 +27,15 @@ source_symbols:
 source_queries: []
 source_fingerprint: 8efffabac0938483250479a7eeb7d30df373704e07ee9b82ec9bcfca51392efd
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 10c6ae2758614195cc8e1f2b9f7f899ba7ab2e21e2342b1241c13db7ec66c5c2
+translation_source_fingerprint: b8be2fb8a289d316c8b45eee51e67745791b4bef30d39ed88c796ac1ec4102f5
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -49,7 +49,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: ui
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/ui/fonts/
 alternate_urls:
@@ -57,19 +57,17 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/ui/fonts/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/ui/fonts/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/user-guides/FONT_OPTIONS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/user-guides/FONT_OPTIONS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/user-guides/FONT_OPTIONS.md
 - path: data/fontdata.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/fontdata.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/fontdata.json
 - path: src/font_loader.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/font_loader.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/font_loader.cpp
 - path: src/sdl_font.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/sdl_font.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28ui-fonts%29%3A+&body=Document+ID%3A+ui-fonts%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/sdl_font.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28ui-fonts%29%3A+&body=Document+ID%3A+ui-fonts%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 旧文档迁移草稿：fonts
@@ -90,6 +88,27 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## Tiles build 字体配置
+
+Tiles build 从用户配置 `fonts.json` 读取四个 fallback chain：`typeface`、`gui_typeface`、
+`map_typeface` 与 `overmap_typeface`。每项可为 path 字符串、含 `path` 的对象，或这些项的数组。
+数组顺序就是 glyph fallback 顺序；loader 会确保 `data/font/unifont.ttf` 作为最终 fallback。
+
+对象可设置 `hinting` 与 `antialiasing`。当前接受的 hinting 字符串是 `Auto`、`NoAuto`、
+`Default`、`Light`、`None`、`Bitmap`。未知值会报告 debug message 后回到 default；不要复制旧文档
+中不一致的枚举。关闭 antialiasing 会设置 monochrome/mono-hinting flags。字体 path 相对于当前
+运行环境解析，发布包必须实际携带文件并满足字体许可证。
+
+### 迁移与验证
+
+`font_loader::load` 会读取当前配置；不存在时从 legacy/default 路径加载并由
+`font_loader::save` 写成规范对象数组。这个写回可能改变用户文件的表示但应保持选择语义。
+
+验证时使用含拉丁、简繁中文、组合字符、宽字符、emoji fallback 和缺失 glyph 的样例；覆盖
+四种 screen、不同 DPI/缩放、Bitmap/Light/None、antialiasing on/off 和找不到文件。还要检查
+ImGui atlas、地图格子宽高、终端对齐、内存/启动时间和许可证归属。不要只凭配置 JSON 成功解析
+就认为字体可用。
 
 ## 历史与归属
 

@@ -3,7 +3,7 @@
 id: content.manual-of-style
 title: 'Legacy migration draft: in game text style'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -26,15 +26,15 @@ source_symbols: []
 source_queries: []
 source_fingerprint: d4406485b271aca5ebd126f8f9b32fd0a17c44d30722c9826c831e00d33b54fa
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: b90e07f6ec2d8609a94ef4aa7c2dea391d7981659edda09b16ff3a3a0527d3b4
+translation_source_fingerprint: d2550467f91a84da52043429140933d24147604b39d5c2925cc93bf08e0623cc
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -48,7 +48,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: translation
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/in-game-text-style/
 alternate_urls:
@@ -56,21 +56,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/in-game-text-style/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/in-game-text-style/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/MANUAL_OF_STYLE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/MANUAL_OF_STYLE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/MANUAL_OF_STYLE.md
 - path: CONTRIBUTING.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/CONTRIBUTING.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/CONTRIBUTING.md
 - path: lang/notes/README_all_translators.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/lang/notes/README_all_translators.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/lang/notes/README_all_translators.md
 - path: tools/check_translation_tags.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tools/check_translation_tags.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tools/check_translation_tags.py
 - path: src/translations.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/translations.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28content.manual-of-style%29%3A+&body=Document+ID%3A+content.manual-of-style%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/translations.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28content.manual-of-style%29%3A+&body=Document+ID%3A+content.manual-of-style%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: in game text style
@@ -91,6 +89,51 @@ This is the migration draft page for `content.manual-of-style`. It records **1**
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Current in-game text style
+
+This page governs default English source text. Translations follow the target language's
+grammar, punctuation, and plural rules. Text must first be clear, localizable, and suitable
+for the speaker; mechanical rule-following must not damage meaning.
+
+### Default English
+
+- Use US English for general UI and narration. Deliberately written character dialogue may
+  use another dialect.
+- Player-facing actions generally use second person. Descriptions use sentence case and end
+  with suitable punctuation.
+- Follow neighbouring title-case conventions for stats, traits or mutations, scenarios,
+  professions, backgrounds, proficiencies, martial arts, and CBMs. Ordinary item and entity
+  names are generally lower-case; proper nouns are exceptions.
+- Use the serial comma and the Unicode ellipsis `…`, not three periods.
+- Keep dialogue checks consistent, such as `[PER 10]`, `[Tailoring 2]`, `[SWEET TOOTH]`,
+  and `[Use Stethoscope]`. A non-dialogue action still needs a clear label.
+
+### Localizability
+
+- Do not concatenate sentences that depend on English word order. Give identical English
+  with different meanings a translation context.
+- Use plural APIs for quantities instead of English-only singular/plural branches.
+- Preserve and verify `%s`, `%d`, positional arguments, format braces, colour or markup
+  tags, and newlines.
+- Do not require translations to copy English capitalization, double spacing, serial commas,
+  or sentence structure.
+- Explain variables, IDs, key tokens, and non-translatable markers in translator comments.
+
+### Names, brands, and provenance
+
+Real brands and references still have to satisfy project lore, licensing, and content
+policy; a possible fair-use argument is not automatic approval. For disputed external text,
+images, or names, provide provenance and licensing in the PR for the Responsible human and
+maintainers to review. Do not copy prose from an incompatible project.
+
+### Validation
+
+Check extraction, translation tags, placeholder parity, invalid PO handling, and MO
+compilation. When JSON, C++, EOC, or Lua produces the text, also verify UI width, plurals,
+gender or context, and error paths instead of reviewing only the source string.
+
+See the [translation guide](../localization/translation-guide.md).
 
 ## History and attribution
 

@@ -3,7 +3,7 @@
 id: maintainers.issue-triage
 title: 旧文档迁移草稿：issue triage
 language: zh_CN
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -27,15 +27,15 @@ source_symbols: []
 source_queries: []
 source_fingerprint: 0f1b70d5d11df0526e5494b437c0b12f938d7be646c80980f7236642b3054adc
 authority: docs-explanation
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 307208f855d7e7a5a05088d07b2b486e6b2d423fe3559101812aab3e7b2bb00f
+translation_source_fingerprint: 032d1d53704a4bb6adc1bf7f5888d6a495870c40fd656df4adf6b95ad81ab3bf
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -49,7 +49,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: governance
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/maintainers/issue-triage/
 alternate_urls:
@@ -57,23 +57,21 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/maintainers/issue-triage/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/maintainers/issue-triage/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
 source_urls:
 - path: doc/ISSUE_TRIAGE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/ISSUE_TRIAGE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/ISSUE_TRIAGE.md
 - path: ISSUES.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/ISSUES.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/ISSUES.md
 - path: GOVERNANCE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/GOVERNANCE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/GOVERNANCE.md
 - path: .github/ISSUE_TEMPLATE/bug_report.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/.github/ISSUE_TEMPLATE/bug_report.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/.github/ISSUE_TEMPLATE/bug_report.yml
 - path: .github/ISSUE_TEMPLATE/feature_proposal.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/.github/ISSUE_TEMPLATE/feature_proposal.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/.github/ISSUE_TEMPLATE/feature_proposal.yml
 - path: .github/labeler.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/.github/labeler.yml
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28maintainers.issue-triage%29%3A+&body=Document+ID%3A+maintainers.issue-triage%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/.github/labeler.yml
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28maintainers.issue-triage%29%3A+&body=Document+ID%3A+maintainers.issue-triage%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 旧文档迁移草稿：issue triage
@@ -94,6 +92,42 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## 当前 Issue 分流流程
+
+分流的目标是把报告变成可执行工作，而不是尽快关闭。先确认仓库与版本，再区分缺陷、
+功能、机制/平衡、JSON 内容、性能、文档和上游同步；分类以当前 Issue Forms、
+`ISSUES.md`、`LABELS.md` 和治理政策为准。
+
+### 首次检查
+
+1. 搜索 open/closed CCB Issue，确认是否重复或已有更新证据。
+2. 记录精确 CCB commit/release、平台、build 类型、SDL backend、Mod 列表和存档来源。
+3. 检查复现步骤、expected/actual、日志和最小样例；缺少时提出一个具体、可回答的请求。
+4. 判断是否涉及安全漏洞、凭据或私人数据；此类内容转到 `SECURITY.md` 的私下渠道。
+5. 仅在有证据时设置 subsystem、confirmation 与 priority label，不用 label 承诺排期。
+
+### 风险顺序
+
+- crash、存档/地图数据丢失、不可逆兼容破坏和安全问题优先；
+- 玩家物品/角色损失、严重回归和阻塞性 UI 其次；
+- 一般错误、性能和可用性问题按影响与可复现性处理；
+- 小型内容建议或未说明目标的数值变化不应伪装成已确认 bug。
+
+“当前行为符合设计但希望改变”通常是 feature/balance proposal；“行为违背当前契约或
+设计”才是 bug。不能确定时记录不确定性，不要用个人预期替代源码、测试或设计政策。
+
+### 复现、关闭与重开
+
+维护者可以自己复现，但不是每份报告都必须由 triager 完成完整调试。合理请求信息后仍
+没有可复现证据，可以说明原因后关闭；duplicate、out of scope、superseded 或 rejected
+也必须留下可理解理由。新日志、最小存档或新版本复现属于合理的重开证据。
+
+### 交接实现
+
+有人准备实现时，先评论预期范围并开 Draft PR。PR 应链接 Issue、指定 Responsible
+human、记录测试与文档影响。分流者不要擅自指派不存在的 owner，也不要编造 CODEOWNERS
+或 review team。
 
 ## 历史与归属
 
