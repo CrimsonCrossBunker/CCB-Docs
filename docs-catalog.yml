@@ -12861,7 +12861,7 @@ pages:
     translation_group: json.vitamins
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 9a0f62de6d0163eef2fb06eba8a880b5dcddcde5be3458eccdada7474844e419
+    translation_source_fingerprint: 818493bc1dff20e6e831138383103524287a0c8d67284ea112b7d086f0ae3c76
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12917,7 +12917,7 @@ pages:
     translation_group: json.vitamins
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 9a0f62de6d0163eef2fb06eba8a880b5dcddcde5be3458eccdada7474844e419
+    translation_source_fingerprint: 818493bc1dff20e6e831138383103524287a0c8d67284ea112b7d086f0ae3c76
     prerequisites: []
     depends_on: []
     redirect_from: []
