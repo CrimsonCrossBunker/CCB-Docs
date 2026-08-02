@@ -37,7 +37,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: d8c96c23aa7120b79e36d5d18132c7614a823d80c218bd5ec9232cf597031e4c
+translation_source_fingerprint: e63972f9bf023b243740b8b83aad9b26355e9f12d6d5803406e042a7beedfa9c
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -94,6 +94,40 @@ This is the migration draft page for `json.proficiencies`. It records **1** froz
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Proficiencies, categories, and migrations
+
+A proficiency is knowledge tracked separately from skills. Recipes and activities decide when it is
+learned or consumed; the JSON definition supplies identity, prerequisites, default penalties,
+learning properties, and consumer-specific bonuses. Dependencies form a general directed graph, not
+necessarily a tree.
+
+### Three object types
+
+A `proficiency` requires name, description, can_learn, and category. Optional fields include
+teachable (default true), time_to_learn, required_proficiencies, ignore_focus, default time, skill,
+and weakpoint modifiers, and bonuses. Legacy `default_fail_multiplier` is converted with a warning;
+new data uses `default_skill_penalty`.
+
+A `proficiency_category` requires name and description; its factory owns the ID. A
+`proficiency_migration` requires from and optionally has to. Missing to removes the old proficiency;
+present to must reference a valid ID. Migration is part of save compatibility when a public ID is
+deleted or renamed.
+
+### Bonuses and consumers
+
+A bonus entry requires type and value, but a bonus key gains meaning only from a particular activity
+or attack consumer. Successful JSON parsing does not prove code consumes it. A new key or type needs
+consumer implementation, documentation, and tests. Recipes can override default time, skill,
+learning, and maximum experience, so inspect expanded recipes.
+
+### Validation
+
+Check categories, every prerequisite, cycles or unreachable nodes, learnable and teachable states,
+migrations, and referencing recipes, books, and activities. Run formatting, `make -j2 json-check`,
+Mod `--check-mods`, and focused crafting, learning, and save-migration tests for missing, partial,
+known, and old-ID states. The generated proficiency index aids discovery but does not replace loader
+and consumer review.
 
 ## History and attribution
 

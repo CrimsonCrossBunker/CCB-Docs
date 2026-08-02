@@ -38,7 +38,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 673d4bc4422af8503e7655f9e64a3f3c6270b1c58678a98b437bee1f93a76564
+translation_source_fingerprint: 8e0b5ff7bc090df8236f02f27ec38e67684667b35fd08fcaf09681e69272acdb
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -95,6 +95,38 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## Terrain 与 furniture examine actions
+
+`examine_action` 接受注册的 hardcoded 字符串、JSON examine actor，或两者组成的数组。字符串表
+由 `iexamine_functions_from_string` 的当前 map 决定；找不到的名称会报告并退回 `none`。旧文档的
+手写列表不是完整注册表。
+
+### Actor 契约
+
+- `appliance_convert`：item 必填，furn_set/ter_set 可选；finalize 检查 item、terrain、furniture 和
+  appliance vpart。
+- `cardreader`：flags、success_msg、redundant_msg 必填。mapgen_id 路径与 radius + terrain/furn
+  changes 路径互斥；query、hacking、card consumption 与 monster despawn 还有组合约束。
+- `effect_on_conditions`：按顺序加载 inline 或 named EOC；dialogue 中 u 是 examiner、npc 为空，
+  并提供 this furniture ID 与 pos。
+- `mortar`：ammo 与 range 必填；condition、aim/flight variables 和完成 EOC 可选。完成 EOC 还获得
+  this、pos、target。
+
+actor 顶层 type 决定 concrete loader。不要把某 actor 的字段复制给另一 actor，也不要从现有 JSON
+出现频率猜 mandatory/default。
+
+### 设计边界
+
+已有 hardcoded action 能满足行为时直接引用；需要可配置组合时优先 actor/EOC。新增 hardcoded
+字符串或 actor type 是公开契约变化，必须同时更新注册、loader/finalize、JSON inventory、双语
+文档和测试。EOC 必须明确 talker、context variable、重复执行与 map bubble 边界。
+
+### 验证
+
+运行 formatter、`make -j2 json-check`、Mod `--check-mods`，并在 focused fixture 上 examine。
+覆盖缺少 item/card/ammo、取消 query、重复使用、无效 ID、hacking/mapgen 分支、EOC context 和
+存档 reload；扩展 `tests/iexamine_test.cpp`，不要只验证 JSON 能解析。
 
 ## 历史与归属
 

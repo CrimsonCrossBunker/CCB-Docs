@@ -9374,7 +9374,7 @@ pages:
     translation_group: json.examine-actions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 673d4bc4422af8503e7655f9e64a3f3c6270b1c58678a98b437bee1f93a76564
+    translation_source_fingerprint: 8e0b5ff7bc090df8236f02f27ec38e67684667b35fd08fcaf09681e69272acdb
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9433,7 +9433,7 @@ pages:
     translation_group: json.examine-actions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 673d4bc4422af8503e7655f9e64a3f3c6270b1c58678a98b437bee1f93a76564
+    translation_source_fingerprint: 8e0b5ff7bc090df8236f02f27ec38e67684667b35fd08fcaf09681e69272acdb
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9489,7 +9489,7 @@ pages:
     translation_group: json.faction-missions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: d0b3e83eb801ac76261d91723fb41169d82ffd0280319739da5012a11de765af
+    translation_source_fingerprint: 2871c5ad31a9faf5c8544c02c396326bb55e9191eecdf732be3eebc4f39ba3ec
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9545,7 +9545,7 @@ pages:
     translation_group: json.faction-missions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: d0b3e83eb801ac76261d91723fb41169d82ffd0280319739da5012a11de765af
+    translation_source_fingerprint: 2871c5ad31a9faf5c8544c02c396326bb55e9191eecdf732be3eebc4f39ba3ec
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11940,7 +11940,7 @@ pages:
     translation_group: json.practice-recipes
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 551fcc4309978996be19138a1309385a165dc6546b0ec7e93528697ad012d7d4
+    translation_source_fingerprint: 72f64567b706f28a6e78a3b63a29734717054a82d7148f6552c812ca61b85fae
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11997,7 +11997,7 @@ pages:
     translation_group: json.practice-recipes
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 551fcc4309978996be19138a1309385a165dc6546b0ec7e93528697ad012d7d4
+    translation_source_fingerprint: 72f64567b706f28a6e78a3b63a29734717054a82d7148f6552c812ca61b85fae
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12055,7 +12055,7 @@ pages:
     translation_group: json.proficiencies
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: d8c96c23aa7120b79e36d5d18132c7614a823d80c218bd5ec9232cf597031e4c
+    translation_source_fingerprint: e63972f9bf023b243740b8b83aad9b26355e9f12d6d5803406e042a7beedfa9c
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12113,7 +12113,7 @@ pages:
     translation_group: json.proficiencies
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: d8c96c23aa7120b79e36d5d18132c7614a823d80c218bd5ec9232cf597031e4c
+    translation_source_fingerprint: e63972f9bf023b243740b8b83aad9b26355e9f12d6d5803406e042a7beedfa9c
     prerequisites: []
     depends_on: []
     redirect_from: []

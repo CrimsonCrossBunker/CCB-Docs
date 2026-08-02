@@ -36,7 +36,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 551fcc4309978996be19138a1309385a165dc6546b0ec7e93528697ad012d7d4
+translation_source_fingerprint: 72f64567b706f28a6e78a3b63a29734717054a82d7148f6552c812ca61b85fae
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -93,6 +93,34 @@ This is the migration draft page for `json.practice-recipes`. It records **1** f
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Practice recipes
+
+`type: practice` uses the main recipe dictionary and crafting UI but has no ordinary result. The
+loader rejects `result` and `difficulty`, and requires id, name, category, subcategory, and
+`practice_data`; description is optional. Components, tools, using, skill and proficiency,
+autolearn, and book learning share recipe contracts, while byproducts remain available.
+
+### practice_data
+
+`min_difficulty` has no separate mandatory check and retains its structure default when absent.
+`max_difficulty` defaults to `MAX_SKILL - 1` and `skill_limit` to `MAX_SKILL`. Runtime recipe
+difficulty follows practical skill within the range, and the UI marks practice above the skill limit
+as no longer increasing it.
+
+The historical recommendations that `skill_limit <= max_difficulty + 1` and every practice takes one
+hour are balance conventions, not current loader bounds. Explain exceptions and compare against
+current entries for the same skill or proficiency.
+
+### Design and validation
+
+Use `CC_PRACTICE` and the correct subcategory for consistent navigation. Requirements should model
+practice consumption; byproducts must not bypass a productive recipe. Proficiency practice also
+needs prerequisites, learning time, focus, and failure or time multipliers reviewed.
+
+Run formatting, `make -j2 json-check`, and Mod `--check-mods`. In the crafting UI, cover locked,
+below-range, in-range, above-limit, missing requirement, helper, and book cases. Add focused
+`tests/crafting_gui_test.cpp` coverage and prove no result item is generated.
 
 ## History and attribution
 
