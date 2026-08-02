@@ -104,7 +104,7 @@ class MaintenanceReportTests(unittest.TestCase):
                 {
                     "schema_version": 1,
                     "enforcement": "active" if active else "deferred",
-                    "prerequisites": {"minimum_confirmed_human_reviewers": 2},
+                    "prerequisites": {"minimum_confirmed_human_reviewers": 1},
                     "target": {
                         "pages_source": "github_actions",
                         "allow_github_actions_create_pull_requests": True,
@@ -113,8 +113,8 @@ class MaintenanceReportTests(unittest.TestCase):
                             "name": "protected-default-branch",
                             "enforcement": "active" if active else "deferred",
                             "require_pull_request": True,
-                            "required_non_author_human_approvals": 1,
-                            "dismiss_stale_reviews": True,
+                            "required_non_author_human_approvals": 0,
+                            "dismiss_stale_reviews": False,
                             "require_conversation_resolution": True,
                             "required_status_checks": ["Documentation CI / validate"],
                             "prohibit_force_push": True,
@@ -135,7 +135,7 @@ class MaintenanceReportTests(unittest.TestCase):
                         },
                     },
                     "manual_record": {
-                        "confirmed_reviewers": ["reviewer-a", "reviewer-b"] if active else [],
+                        "confirmed_reviewers": ["LYHGLYTX"] if active else [],
                         "protection_enabled_at": "2026-08-01T00:00:00Z" if active else None,
                         "actions_pr_creation_result": "enabled" if active else "blocked",
                         "required_checks": ["Documentation CI / validate"] if active else [],
@@ -569,8 +569,8 @@ class MaintenanceReportTests(unittest.TestCase):
                         {
                             "type": "pull_request",
                             "parameters": {
-                                "required_approving_review_count": 1,
-                                "dismiss_stale_reviews_on_push": True,
+                                "required_approving_review_count": 0,
+                                "dismiss_stale_reviews_on_push": False,
                                 "required_review_thread_resolution": True,
                             },
                         },
@@ -650,13 +650,14 @@ class MaintenanceReportTests(unittest.TestCase):
             observations["controls"]["repository_security"]["push_protection"]
             == "enabled"
         )
-        self.assertTrue(result["summary"]["safe_to_enable_required_approval"])
+        self.assertTrue(result["summary"]["safe_to_enable_ruleset"])
+        self.assertFalse(result["summary"]["safe_to_enable_required_approval"])
 
     def test_ruleset_policy_requires_complete_effective_rules(self) -> None:
         desired = {
             "require_pull_request": True,
-            "required_non_author_human_approvals": 1,
-            "dismiss_stale_reviews": True,
+            "required_non_author_human_approvals": 0,
+            "dismiss_stale_reviews": False,
             "require_conversation_resolution": True,
             "required_status_checks": ["Documentation CI / validate"],
             "prohibit_force_push": True,
@@ -670,8 +671,8 @@ class MaintenanceReportTests(unittest.TestCase):
                 {
                     "type": "pull_request",
                     "parameters": {
-                        "required_approving_review_count": 0,
-                        "dismiss_stale_reviews_on_push": False,
+                        "required_approving_review_count": 1,
+                        "dismiss_stale_reviews_on_push": True,
                         "required_review_thread_resolution": False,
                     },
                 }
@@ -684,6 +685,7 @@ class MaintenanceReportTests(unittest.TestCase):
         }
 
         self.assertIn("github-observed-ruleset-policy:approval-count", identities)
+        self.assertIn("github-observed-ruleset-policy:dismiss_stale_reviews", identities)
         self.assertIn(
             "github-observed-ruleset-policy:required-status-checks",
             identities,

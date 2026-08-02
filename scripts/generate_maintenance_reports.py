@@ -1440,15 +1440,13 @@ def ruleset_policy_findings(observed: dict, desired: dict) -> list[dict]:
         required_approvals = desired.get("required_non_author_human_approvals")
         if isinstance(required_approvals, int):
             observed_approvals = parameters.get("required_approving_review_count")
-            if not isinstance(observed_approvals, int) or (
-                observed_approvals < required_approvals
-            ):
+            if observed_approvals != required_approvals:
                 findings.append(
                     finding(
                         "github-observed-ruleset-policy:approval-count",
                         "blocker",
-                        "The target Ruleset does not require the declared approval count.",
-                        expected_minimum=required_approvals,
+                        "The target Ruleset does not use the declared approval count.",
+                        expected=required_approvals,
                         observed=observed_approvals,
                     )
                 )
@@ -1457,12 +1455,14 @@ def ruleset_policy_findings(observed: dict, desired: dict) -> list[dict]:
             "require_conversation_resolution": "required_review_thread_resolution",
         }
         for desired_name, github_name in boolean_parameters.items():
-            if desired.get(desired_name) is True and parameters.get(github_name) is not True:
+            expected = desired.get(desired_name)
+            if isinstance(expected, bool) and parameters.get(github_name) is not expected:
                 findings.append(
                     finding(
                         f"github-observed-ruleset-policy:{desired_name}",
                         "blocker",
-                        f"The target Ruleset does not enforce {desired_name}.",
+                        f"The target Ruleset does not match {desired_name}.",
+                        expected=expected,
                         observed=parameters.get(github_name),
                     )
                 )
@@ -1543,7 +1543,7 @@ def permissions_audit(
     blockers = maintenance.get("governance_blockers", {})
     findings: list[dict] = []
     reviewers = record.get("confirmed_reviewers", [])
-    minimum = settings.get("prerequisites", {}).get("minimum_confirmed_human_reviewers", 2)
+    minimum = settings.get("prerequisites", {}).get("minimum_confirmed_human_reviewers", 1)
     if len(reviewers) < minimum:
         issue = blockers.get("required_human_reviewers", {}).get("issue")
         findings.append(
@@ -1741,6 +1741,10 @@ def permissions_audit(
     unsafe_findings = any(
         item.get("severity") in {"blocker", "error"} for item in findings
     )
+    safe_to_enable_ruleset = len(reviewers) >= minimum \
+        and bool(checks_verified) \
+        and observations_complete \
+        and not unsafe_findings
     return report(
         "permissions-audit",
         findings,
@@ -1753,10 +1757,8 @@ def permissions_audit(
             "protection_enabled_at": record.get("protection_enabled_at"),
             "blockers": blockers,
             "github_observations": github_observations,
-            "safe_to_enable_required_approval": len(reviewers) >= minimum
-            and bool(checks_verified)
-            and observations_complete
-            and not unsafe_findings,
+            "safe_to_enable_ruleset": safe_to_enable_ruleset,
+            "safe_to_enable_required_approval": False,
         },
         status="blocked" if findings else "pass",
     )

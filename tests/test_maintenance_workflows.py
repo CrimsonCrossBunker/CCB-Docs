@@ -101,6 +101,19 @@ class MaintenanceWorkflowTests(unittest.TestCase):
             "http_403_requires_admin_org",
         )
 
+    def test_single_responsible_human_policy_cannot_lock_its_author(self) -> None:
+        settings = yaml.safe_load(
+            (ROOT / "repository-settings.target.yml").read_text(encoding="utf-8")
+        )
+        ruleset = settings["target"]["ruleset"]
+
+        self.assertEqual(settings["prerequisites"]["minimum_confirmed_human_reviewers"], 1)
+        self.assertEqual(settings["manual_record"]["confirmed_reviewers"], ["LYHGLYTX"])
+        self.assertEqual(ruleset["required_non_author_human_approvals"], 0)
+        self.assertFalse(ruleset["dismiss_stale_reviews"])
+        self.assertFalse(settings["target"]["actions_bot_may_approve"])
+        self.assertFalse(settings["target"]["auto_merge"])
+
     def test_quarterly_workflow_routes_live_audit_context_without_token_argv(self) -> None:
         self.assertEqual(validate_quarterly_live_audit(), [])
         source = (ROOT / ".github/workflows/quarterly-maintenance.yml").read_text(
