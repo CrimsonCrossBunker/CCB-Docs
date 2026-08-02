@@ -25,6 +25,11 @@ automation_policy:
   bot_approval: false
   empty_pull_requests: prohibited
   issue_reconciliation: marker_deduplicated
+  nightly_evidence:
+    real_run_required: true
+    distinguish_manual_recovery_pull_request: true
+    record_organization_http_blockers: true
+    prohibit_false_bot_success_claim: true
   dependency_updates:
     provider: dependabot
     ecosystems: [github-actions, npm, uv]
