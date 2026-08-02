@@ -87,7 +87,7 @@ Sources: AGENTS.md, ai/project-map.yml, ai/test-matrix.yml, ai/generated-files.y
 ## contributing.responsible-human [en] — Responsible human and AI-assisted contributions
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/
-Verified commit: f7fed459cb3e606c3b1b1ebfa2de3207b6a27a13
+Verified commit: 4bb45fcc3357f5358cff14248388b5acd33dcfda
 Sources: CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md
 
 # Responsible human
@@ -131,7 +131,7 @@ pull request merges.
 ## contributing.responsible-human [zh_CN] — Responsible human 与 AI 辅助贡献
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/
-Verified commit: f7fed459cb3e606c3b1b1ebfa2de3207b6a27a13
+Verified commit: 4bb45fcc3357f5358cff14248388b5acd33dcfda
 Sources: CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md
 
 # Responsible human 与贡献责任
@@ -170,7 +170,7 @@ PR 流程、required checks、解决审阅对话以及禁止强推和删除分�
 ## getting-started.first-contribution [en] — First contribution
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/
-Verified commit: f7fed459cb3e606c3b1b1ebfa2de3207b6a27a13
+Verified commit: 4bb45fcc3357f5358cff14248388b5acd33dcfda
 Sources: CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md
 
 # First contribution
@@ -230,7 +230,7 @@ are affected.
 ## getting-started.first-contribution [zh_CN] — 第一次贡献
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/
-Verified commit: f7fed459cb3e606c3b1b1ebfa2de3207b6a27a13
+Verified commit: 4bb45fcc3357f5358cff14248388b5acd33dcfda
 Sources: CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md
 
 # 第一次贡献
