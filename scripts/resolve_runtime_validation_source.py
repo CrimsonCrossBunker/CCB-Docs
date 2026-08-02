@@ -40,6 +40,24 @@ def load_source_config(
         missing = ", ".join(sorted(required_examples - examples))
         raise RuntimeValidationSourceError(f"missing maintained examples: {missing}")
 
+    expected_trigger_paths = {
+        ".github/workflows/runtime-example-mods.yml",
+        "config/runtime-example-validation.yml",
+        "examples/**",
+        "pyproject.toml",
+        "schemas/runtime-example-validation.schema.json",
+        "scripts/resolve_runtime_validation_source.py",
+        "uv.lock",
+    }
+    trigger_paths = set(config["workflow_trigger_paths"])
+    if trigger_paths != expected_trigger_paths:
+        missing = ", ".join(sorted(expected_trigger_paths - trigger_paths))
+        unexpected = ", ".join(sorted(trigger_paths - expected_trigger_paths))
+        raise RuntimeValidationSourceError(
+            "runtime workflow trigger paths differ from the reviewed boundary; "
+            f"missing: {missing or 'none'}; unexpected: {unexpected or 'none'}"
+        )
+
     required_validator_paths = {
         "src/CMakeLists.txt",
         "src/lua/CMakeLists.txt",

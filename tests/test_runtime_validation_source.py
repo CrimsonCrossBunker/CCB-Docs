@@ -32,6 +32,8 @@ class RuntimeValidationSourceTests(unittest.TestCase):
         )
         self.assertEqual(config["build_backend"], "cmake_headless")
         self.assertEqual(config["command_timeout_seconds"], 300)
+        self.assertNotIn("docs-catalog.yml", config["workflow_trigger_paths"])
+        self.assertNotIn("config/**", config["workflow_trigger_paths"])
         self.assertTrue(
             {
                 "src/CMakeLists.txt",
@@ -87,6 +89,18 @@ class RuntimeValidationSourceTests(unittest.TestCase):
             with self.assertRaisesRegex(
                 RuntimeValidationSourceError,
                 "cmake_headless.*was expected",
+            ):
+                load_source_config(path)
+
+    def test_unrelated_runtime_workflow_trigger_is_rejected(self) -> None:
+        config = yaml.safe_load(CONFIG_PATH.read_text(encoding="utf-8"))
+        config["workflow_trigger_paths"].append("docs-catalog.yml")
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "runtime-example-validation.yml"
+            path.write_text(yaml.safe_dump(config), encoding="utf-8")
+            with self.assertRaisesRegex(
+                RuntimeValidationSourceError,
+                "trigger paths differ",
             ):
                 load_source_config(path)
 

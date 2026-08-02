@@ -4,11 +4,11 @@ on:
   pull_request:
     paths:
       - .github/workflows/runtime-example-mods.yml
-      - config/**
-      - docs-catalog.yml
+      - config/runtime-example-validation.yml
       - examples/**
       - pyproject.toml
-      - scripts/generate_json_eoc_reference.py
+      - schemas/runtime-example-validation.schema.json
+      - scripts/resolve_runtime_validation_source.py
       - uv.lock
   workflow_dispatch:
 
