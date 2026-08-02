@@ -10655,7 +10655,7 @@ pages:
     translation_group: json.mapgen
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 4f3daafb5e851476a8f58c57be5cc84c3954c75fd60b7baf9e6eba2e59337ba6
+    translation_source_fingerprint: a62beebbff4383e31dbf85d84d31470762f1faf2e4c998d2081f9649e206344a
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10715,7 +10715,7 @@ pages:
     translation_group: json.mapgen
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 4f3daafb5e851476a8f58c57be5cc84c3954c75fd60b7baf9e6eba2e59337ba6
+    translation_source_fingerprint: a62beebbff4383e31dbf85d84d31470762f1faf2e4c998d2081f9649e206344a
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11823,7 +11823,7 @@ pages:
     translation_group: json.overmap
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: fd45f4f046509da5da7dc1cbe1b5385915251429eb66519d690a59ac58f4fdd9
+    translation_source_fingerprint: d619003e210d1db8d541a87fbd18425c128864a686ea1ed5f52861522cb689e9
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11883,7 +11883,7 @@ pages:
     translation_group: json.overmap
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: fd45f4f046509da5da7dc1cbe1b5385915251429eb66519d690a59ac58f4fdd9
+    translation_source_fingerprint: d619003e210d1db8d541a87fbd18425c128864a686ea1ed5f52861522cb689e9
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12400,7 +12400,7 @@ pages:
     translation_group: json.region-settings
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: c8359b4171249d2c0b7c74c8103db967d65e00a5d37fc3816d51e28e5c4549b7
+    translation_source_fingerprint: 5402a889f8f541099b47aa0f317f29bb64696a003a5c23871aa73532fc163f65
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12459,7 +12459,7 @@ pages:
     translation_group: json.region-settings
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: c8359b4171249d2c0b7c74c8103db967d65e00a5d37fc3816d51e28e5c4549b7
+    translation_source_fingerprint: 5402a889f8f541099b47aa0f317f29bb64696a003a5c23871aa73532fc163f65
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12632,7 +12632,7 @@ pages:
     translation_group: json.terrain-furniture-transforms
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 85c40d28b0f25c67f8be7d10f669d4f722cbe3844aaa554e0fda2db51c439f6f
+    translation_source_fingerprint: 0571a43fafca38966d551927fdb7bbd8d47e5e8dc45face4558c7e228b976b79
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12689,7 +12689,7 @@ pages:
     translation_group: json.terrain-furniture-transforms
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 85c40d28b0f25c67f8be7d10f669d4f722cbe3844aaa554e0fda2db51c439f6f
+    translation_source_fingerprint: 0571a43fafca38966d551927fdb7bbd8d47e5e8dc45face4558c7e228b976b79
     prerequisites: []
     depends_on: []
     redirect_from: []
