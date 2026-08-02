@@ -11,5 +11,3 @@
 - [zh_CN] 第一次贡献: https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/
 - [en] CCB Developer Documentation: https://crimsoncrossbunker.github.io/CCB-Docs/en/
 - [zh_CN] CCB 开发文档: https://crimsoncrossbunker.github.io/CCB-Docs/
-- [en] Build and validation quickstart: https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/
-- [zh_CN] 构建与验证快速入口: https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/

@@ -206,7 +206,7 @@
       "id": "validation.quickstart",
       "title": "Build and validation quickstart",
       "language": "en",
-      "status": "active",
+      "status": "stale",
       "source_paths": [
         "AGENTS.md",
         "ai/test-matrix.yml",
@@ -219,13 +219,13 @@
       "verified_at": "2026-08-01",
       "generated": false,
       "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
       "risk_group": "build",
       "risk_level": "high",
       "pending_source_pr": null,
-      "stale_reason": null,
+      "stale_reason": "Source paths changed after 9d8f26582da0: Makefile",
       "path": "validation/quickstart.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/"
     },
@@ -233,7 +233,7 @@
       "id": "validation.quickstart",
       "title": "构建与验证快速入口",
       "language": "zh_CN",
-      "status": "active",
+      "status": "stale",
       "source_paths": [
         "AGENTS.md",
         "ai/test-matrix.yml",
@@ -246,13 +246,13 @@
       "verified_at": "2026-08-01",
       "generated": false,
       "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
       "risk_group": "build",
       "risk_level": "high",
       "pending_source_pr": null,
-      "stale_reason": null,
+      "stale_reason": "Source paths changed after 9d8f26582da0: Makefile",
       "path": "validation/quickstart.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/"
     }
@@ -287,9 +287,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/"
+    "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/"
   ],
   "search_exclusions": [],
   "archive_exclusions": [],

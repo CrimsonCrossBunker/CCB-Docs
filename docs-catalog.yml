@@ -174,39 +174,39 @@ pages:
     title: 构建与验证快速入口
     language: zh_CN
     path: validation/quickstart.md
-    status: active
+    status: stale
     source_paths: [AGENTS.md, ai/test-matrix.yml, Makefile, CMakePresets.json, android/gradlew]
     authority: build-config
     verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
     verified_at: '2026-08-01'
     generated: false
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: validation.quickstart
     translation_status: current
     translation_stale_since: null
     risk_group: build
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after 9d8f26582da0: Makefile"
     nav: { section: 构建与验证, order: 40 }
   - id: validation.quickstart
     title: Build and validation quickstart
     language: en
     path: validation/quickstart.md
-    status: active
+    status: stale
     source_paths: [AGENTS.md, ai/test-matrix.yml, Makefile, CMakePresets.json, android/gradlew]
     authority: build-config
     verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
     verified_at: '2026-08-01'
     generated: false
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: validation.quickstart
     translation_status: current
     translation_stale_since: null
     risk_group: build
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after 9d8f26582da0: Makefile"
     nav: { section: Build and validation, order: 40 }
