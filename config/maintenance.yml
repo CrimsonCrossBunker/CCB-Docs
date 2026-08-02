@@ -37,11 +37,11 @@ automation_policy:
     action_references_remain_full_sha_pinned: true
 governance_blockers:
   required_human_reviewers:
-    state: blocked
-    issue: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/6
+    state: resolved_single_responsible_human
+    issue: null
   ruleset_enforcement:
-    state: blocked_by_reviewers
-    issue: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/6
+    state: deferred_pending_required_checks_and_admin
+    issue: null
   actions_pull_request_creation:
     state: blocked_by_organization_policy
     issue: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/3

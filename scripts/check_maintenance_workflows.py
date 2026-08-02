@@ -644,21 +644,29 @@ def validate_governance_targets(maintenance: dict[str, Any]) -> list[str]:
     ruleset = mapping(target.get("ruleset"))
     record = mapping(settings.get("manual_record"))
     minimum = mapping(settings.get("prerequisites")).get(
-        "minimum_confirmed_human_reviewers", 2
+        "minimum_confirmed_human_reviewers", 1
     )
     reviewers = record.get("confirmed_reviewers", [])
     if not isinstance(reviewers, list):
         errors.append("repository settings confirmed_reviewers must be an array")
         reviewers = []
+    if minimum != 1:
+        errors.append("repository settings must require one Responsible human")
+    if reviewers != ["LYHGLYTX"]:
+        errors.append("repository settings must record LYHGLYTX as Responsible human")
     if len(reviewers) < int(minimum):
         if settings.get("enforcement") != "deferred" or ruleset.get("enforcement") != "deferred":
-            errors.append("repository Ruleset must remain deferred until two reviewers confirm")
+            errors.append("repository Ruleset must remain deferred until its prerequisites pass")
         if record.get("protection_enabled_at") is not None:
             errors.append("repository protection cannot be recorded as enabled without reviewers")
     if target.get("actions_bot_may_approve") is not False:
         errors.append("repository target must prohibit Actions bot approval")
     if target.get("auto_merge") is not False:
         errors.append("repository target must prohibit auto-merge")
+    if ruleset.get("required_non_author_human_approvals") != 0:
+        errors.append("repository Ruleset must not require a non-author approval")
+    if ruleset.get("dismiss_stale_reviews") is not False:
+        errors.append("repository Ruleset must not enable stale-approval dismissal")
     expected_nightly_run = (
         "https://github.com/CrimsonCrossBunker/CCB-Docs/actions/runs/30736620586"
     )
