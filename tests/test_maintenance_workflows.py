@@ -90,7 +90,7 @@ class MaintenanceWorkflowTests(unittest.TestCase):
             encoding="utf-8"
         )
         source = source.replace(
-            "ref: ${{ steps.json-eoc-source.outputs.commit }}",
+            "ref: ${{ steps.runtime-source.outputs.commit }}",
             "ref: master",
         )
         with tempfile.TemporaryDirectory() as directory:
@@ -105,8 +105,23 @@ class MaintenanceWorkflowTests(unittest.TestCase):
             encoding="utf-8"
         )
         source = source.replace(
-            "timeout --signal=TERM --kill-after=30s 10m \\",
+            "timeout --signal=TERM --kill-after=15s 2m \\",
             "true \\",
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "runtime-example-mods.yml"
+            path.write_text(source, encoding="utf-8")
+            errors = validate_runtime_example_workflow(path)
+
+        self.assertTrue(any("bounded runtime load" in error for error in errors), errors)
+
+    def test_runtime_example_policy_requires_execution_sentinel(self) -> None:
+        source = (ROOT / ".github/workflows/runtime-example-mods.yml").read_text(
+            encoding="utf-8"
+        )
+        source = source.replace(
+            'error("validation execution sentinel")',
+            'return true',
         )
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "runtime-example-mods.yml"

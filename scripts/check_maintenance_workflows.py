@@ -350,12 +350,12 @@ def validate_runtime_example_workflow(
     if docs_checkout_with.get("persist-credentials") != "false":
         errors.append(f"{name}: CCB-Docs checkout must not persist credentials")
 
-    resolve = named_steps.get("Resolve the authoritative JSON/EOC source commit", {})
+    resolve = named_steps.get("Resolve the reviewed runtime-validation source commit", {})
     resolve_run = str(resolve.get("run", ""))
-    if resolve.get("id") != "json-eoc-source":
-        errors.append(f"{name}: JSON/EOC source resolver needs a stable step id")
+    if resolve.get("id") != "runtime-source":
+        errors.append(f"{name}: runtime source resolver needs a stable step id")
     for token in (
-        "generate_json_eoc_reference.py --print-source-commit",
+        "resolve_runtime_validation_source.py --print-source-commit",
         "^[0-9a-f]{40}$",
         'echo "commit=$commit" >> "$GITHUB_OUTPUT"',
     ):
@@ -366,7 +366,7 @@ def validate_runtime_example_workflow(
     ccb_with = mapping(ccb_checkout.get("with"))
     expected_checkout = {
         "repository": "CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb",
-        "ref": "${{ steps.json-eoc-source.outputs.commit }}",
+        "ref": "${{ steps.runtime-source.outputs.commit }}",
         "path": ".source/ccb",
         "fetch-depth": "1",
         "persist-credentials": "false",
@@ -421,16 +421,22 @@ def validate_runtime_example_workflow(
             errors.append(f"{name}: user Mod staging is missing {token}")
 
     load_run = str(
-        named_steps.get("Load both examples with the real CCB executable", {}).get("run", "")
+        named_steps.get("Execute positive and negative runtime examples", {}).get("run", "")
     )
     for token in (
-        "timeout --signal=TERM --kill-after=30s 10m",
+        "timeout --signal=TERM --kill-after=15s 2m",
+        "stdbuf -oL -eL",
         '"$CCB_SOURCE_DIR/cataclysm"',
         '--datadir "$CCB_SOURCE_DIR/data/"',
         '--userdir "$CCB_RUNTIME_USER_DIR/"',
         '--check-mods "$mod_id"',
-        "run_mod_check ccb_lua_v5_example",
-        "run_mod_check ccb_docs_json_eoc_example",
+        "run_mod_check ccb_lua_v5_example lua-positive-initial",
+        'error("validation execution sentinel")',
+        "if run_mod_check ccb_lua_v5_example lua-negative-sentinel; then",
+        'grep -F "validation execution sentinel"',
+        'cp "$original_lua_main" "$lua_main"',
+        "run_mod_check ccb_lua_v5_example lua-positive-restored",
+        "run_mod_check ccb_docs_json_eoc_example json-eoc-positive",
         "set -o pipefail",
     ):
         if token not in load_run:

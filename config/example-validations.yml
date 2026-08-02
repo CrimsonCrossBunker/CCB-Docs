@@ -27,6 +27,13 @@ validations:
   json-mod-load:
     description: Real CCB executable validation of a selected mod and its dependencies
     authority_paths: [src/main.cpp, src/mod_manager.cpp, doc/cataclysm.6]
+  lua-mod-load:
+    description: Real CCB executable validation that executes selected top-level Lua Mod sources
+    authority_paths:
+      - src/catalua_ui.cpp
+      - src/game_io.cpp
+      - src/main.cpp
+      - tests/catalua_ui_test.cpp
   lua-contract:
     description: Lua declaration, parity, and coverage validation
     authority_paths: [data/lua/types/ccb_api_v5.d.lua, tools/lua_api]

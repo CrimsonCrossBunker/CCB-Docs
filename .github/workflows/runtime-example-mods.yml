@@ -42,11 +42,11 @@ jobs:
       - name: Sync locked documentation dependencies
         run: uv sync --frozen
 
-      - name: Resolve the authoritative JSON/EOC source commit
-        id: json-eoc-source
+      - name: Resolve the reviewed runtime-validation source commit
+        id: runtime-source
         shell: bash
         run: |
-          commit="$(uv run python scripts/generate_json_eoc_reference.py --print-source-commit)"
+          commit="$(uv run python scripts/resolve_runtime_validation_source.py --print-source-commit)"
           if [[ ! "$commit" =~ ^[0-9a-f]{40}$ ]]; then
             echo "Invalid CCB source commit: $commit" >&2
             exit 1
@@ -57,7 +57,7 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-          ref: ${{ steps.json-eoc-source.outputs.commit }}
+          ref: ${{ steps.runtime-source.outputs.commit }}
           path: .source/ccb
           fetch-depth: 1
           persist-credentials: false
@@ -93,7 +93,7 @@ jobs:
             examples/complete-json-eoc-mod \
             "$CCB_RUNTIME_USER_DIR/mods/ccb_docs_json_eoc_example"
 
-      - name: Load both examples with the real CCB executable
+      - name: Execute positive and negative runtime examples
         shell: bash
         env:
           LC_ALL: C.UTF-8
@@ -101,21 +101,37 @@ jobs:
           set -o pipefail
           run_mod_check() {
             local mod_id="$1"
-            timeout --signal=TERM --kill-after=30s 10m \
-              "$CCB_SOURCE_DIR/cataclysm" \
+            local log_name="$2"
+            printf 'Starting runtime validation: %s\n' "$mod_id"
+            timeout --signal=TERM --kill-after=15s 2m \
+              stdbuf -oL -eL "$CCB_SOURCE_DIR/cataclysm" \
               --datadir "$CCB_SOURCE_DIR/data/" \
               --userdir "$CCB_RUNTIME_USER_DIR/" \
               --check-mods "$mod_id" \
-              2>&1 | tee ".build/logs/${mod_id}.log"
+              2>&1 | tee ".build/logs/${log_name}.log"
           }
-          run_mod_check ccb_lua_v5_example
-          run_mod_check ccb_docs_json_eoc_example
+          lua_main="$CCB_RUNTIME_USER_DIR/mods/ccb_lua_v5_example/lua/main.lua"
+          original_lua_main="$CCB_SOURCE_DIR/data/lua/examples/api_v5_mod/lua/main.lua"
+
+          run_mod_check ccb_lua_v5_example lua-positive-initial
+
+          printf '\nerror("validation execution sentinel")\n' >> "$lua_main"
+          if run_mod_check ccb_lua_v5_example lua-negative-sentinel; then
+            echo "Lua validation unexpectedly accepted the execution sentinel" >&2
+            exit 1
+          fi
+          grep -F "validation execution sentinel" \
+            .build/logs/lua-negative-sentinel.log
+
+          cp "$original_lua_main" "$lua_main"
+          run_mod_check ccb_lua_v5_example lua-positive-restored
+          run_mod_check ccb_docs_json_eoc_example json-eoc-positive
 
       - name: Collect minimal failure logs
         if: failure()
         shell: bash
         env:
-          CCB_SOURCE_COMMIT: ${{ steps.json-eoc-source.outputs.commit }}
+          CCB_SOURCE_COMMIT: ${{ steps.runtime-source.outputs.commit }}
         run: |
           mkdir -p .build/failure-logs
           printf 'CCB source commit: %s\nWorkflow run: %s attempt %s\n' \
