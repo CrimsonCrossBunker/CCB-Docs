@@ -10535,7 +10535,7 @@ pages:
     translation_group: json.magic-spells-enchantments
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: d3707afe19355aa432e44e9919b581479aad869b3416b62ae4306f482d21a161
+    translation_source_fingerprint: 7da55ed9421c2c8a59e26a12e874d9bd9e3938cc0c3bf1ec99575bcb7fa2f406
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10595,7 +10595,7 @@ pages:
     translation_group: json.magic-spells-enchantments
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: d3707afe19355aa432e44e9919b581479aad869b3416b62ae4306f482d21a161
+    translation_source_fingerprint: 7da55ed9421c2c8a59e26a12e874d9bd9e3938cc0c3bf1ec99575bcb7fa2f406
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10774,7 +10774,7 @@ pages:
     translation_group: json.martial-arts
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 9318cbc29a122e107795dba0379c5d39bda49d46a88233f67dacf26b53863ca2
+    translation_source_fingerprint: 382be069a9f258f36fa820d6853eae848425d69eb6838cbb78006c7f7d4a2840
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10833,7 +10833,7 @@ pages:
     translation_group: json.martial-arts
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 9318cbc29a122e107795dba0379c5d39bda49d46a88233f67dacf26b53863ca2
+    translation_source_fingerprint: 382be069a9f258f36fa820d6853eae848425d69eb6838cbb78006c7f7d4a2840
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11122,7 +11122,7 @@ pages:
     translation_group: json.monsters
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 7ae45ad5bde175d7e3ba029f71d6ba5d4b276cbc15adbdf3f80d88d4808c85cc
+    translation_source_fingerprint: f0eb8ab72e9a268a1217246dd1d42ed83ba32bbbf8c444b8ccd5c4cf394fa030
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11181,7 +11181,7 @@ pages:
     translation_group: json.monsters
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 7ae45ad5bde175d7e3ba029f71d6ba5d4b276cbc15adbdf3f80d88d4808c85cc
+    translation_source_fingerprint: f0eb8ab72e9a268a1217246dd1d42ed83ba32bbbf8c444b8ccd5c4cf394fa030
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11350,7 +11350,7 @@ pages:
     translation_group: json.mutations
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 421664c1c586e4e96a169cea610efa09a09c168bafbe822b07ab0ba2e2131bee
+    translation_source_fingerprint: 54cb350a0c571b1364d8bcc0a57fae40bf009a6da7c1bfbd5598e0ff1299a585
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11409,7 +11409,7 @@ pages:
     translation_group: json.mutations
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 421664c1c586e4e96a169cea610efa09a09c168bafbe822b07ab0ba2e2131bee
+    translation_source_fingerprint: 54cb350a0c571b1364d8bcc0a57fae40bf009a6da7c1bfbd5598e0ff1299a585
     prerequisites: []
     depends_on: []
     redirect_from: []
