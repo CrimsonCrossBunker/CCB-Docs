@@ -38,7 +38,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 25e733767086989aeaa40e6aae4bc52b2e948751a5928c0cd9180f9655dad169
+translation_source_fingerprint: 5acb20890aac2502fa29ce71a3d06e2e3b162734a9f7c39384543f973b6853c6
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -147,9 +147,9 @@ finalize/check 阶段；修改者应追踪完整加载生命周期，不能只�
 - 记录实际运行的命令、平台和结果；未运行项写明原因，不用全量测试掩盖 focused 失败。
 - 若改动公开 Schema、LuaLS 声明、注册或生成清单，重新生成引用并检查 diff。
 
-进一步入口见[常见任务](../../getting-started/common-tasks.md)、
-[JSON 概览](../../json/overview.md)、[EOC 概览](../../eoc/overview.md)与
-[测试策略](../../validation/testing.md)。
+进一步入口见[常见任务](../getting-started/common-tasks.md)、
+[JSON 概览](../json/overview.md)、[EOC 概览](../eoc/overview.md)与
+[测试策略](../validation/testing.md)。
 
 ## 历史与归属
 

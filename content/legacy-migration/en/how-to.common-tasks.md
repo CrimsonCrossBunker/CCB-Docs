@@ -59,6 +59,6 @@ finalization and checks. Follow the whole load lifecycle instead of relying on o
 - If a public Schema, LuaLS declaration, registration, or generated inventory changes,
   regenerate the reference and inspect the diff.
 
-Continue with [common tasks](../../getting-started/common-tasks.md), the
-[JSON overview](../../json/overview.md), the [EOC overview](../../eoc/overview.md), and
-the [testing strategy](../../validation/testing.md).
+Continue with [common tasks](../getting-started/common-tasks.md), the
+[JSON overview](../json/overview.md), the [EOC overview](../eoc/overview.md), and
+the [testing strategy](../validation/testing.md).

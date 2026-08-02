@@ -38,7 +38,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 25e733767086989aeaa40e6aae4bc52b2e948751a5928c0cd9180f9655dad169
+translation_source_fingerprint: 5acb20890aac2502fa29ce71a3d06e2e3b162734a9f7c39384543f973b6853c6
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -160,9 +160,9 @@ finalization and checks. Follow the whole load lifecycle instead of relying on o
 - If a public Schema, LuaLS declaration, registration, or generated inventory changes,
   regenerate the reference and inspect the diff.
 
-Continue with [common tasks](../../getting-started/common-tasks.md), the
-[JSON overview](../../json/overview.md), the [EOC overview](../../eoc/overview.md), and
-the [testing strategy](../../validation/testing.md).
+Continue with [common tasks](../getting-started/common-tasks.md), the
+[JSON overview](../json/overview.md), the [EOC overview](../eoc/overview.md), and
+the [testing strategy](../validation/testing.md).
 
 ## History and attribution
 
