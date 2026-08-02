@@ -7230,7 +7230,7 @@ pages:
     translation_group: json-widgets
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 9610f463a3487c30c2494c6183dc566ed77ea1cbf9b17813c7481de263e39037
+    translation_source_fingerprint: 6aa0f69517bc087826adb2aedf1c6a7ec176a8982eb23a99df6bbbfe98761ee0
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7287,7 +7287,7 @@ pages:
     translation_group: json-widgets
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 9610f463a3487c30c2494c6183dc566ed77ea1cbf9b17813c7481de263e39037
+    translation_source_fingerprint: 6aa0f69517bc087826adb2aedf1c6a7ec176a8982eb23a99df6bbbfe98761ee0
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9831,7 +9831,7 @@ pages:
     translation_group: json.help-menu
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 89552994d12833b4ce5fe687e3238467d3c44b1b4d7dfa321a93c51dca3e173c
+    translation_source_fingerprint: 7fb6ba54ac352f9a41e728cc034751bad527400237b7d95ae3851192782f4eba
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9887,7 +9887,7 @@ pages:
     translation_group: json.help-menu
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 89552994d12833b4ce5fe687e3238467d3c44b1b4d7dfa321a93c51dca3e173c
+    translation_source_fingerprint: 7fb6ba54ac352f9a41e728cc034751bad527400237b7d95ae3851192782f4eba
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11705,7 +11705,7 @@ pages:
     translation_group: json.options
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 39ea77a95c8ebaf9c77cf3d2700be237264a816efb9b3b1517a5287f2a56a01f
+    translation_source_fingerprint: 9c0067a8e81126baf597428df8fb83a5e2c4a99d4243f805f96ca0726e3c07a7
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11763,7 +11763,7 @@ pages:
     translation_group: json.options
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 39ea77a95c8ebaf9c77cf3d2700be237264a816efb9b3b1517a5287f2a56a01f
+    translation_source_fingerprint: 9c0067a8e81126baf597428df8fb83a5e2c4a99d4243f805f96ca0726e3c07a7
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13882,7 +13882,7 @@ pages:
     translation_group: ui-accessibility
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 84d0e82e392047b7fbb03c4fc9e28c5d980866646ea0cfa58a8f8969097b7669
+    translation_source_fingerprint: efa65bb352afec6cb2785bcde0a1c8c87c99961f7406a06fa04843b0938fb19f
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13937,7 +13937,7 @@ pages:
     translation_group: ui-accessibility
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 84d0e82e392047b7fbb03c4fc9e28c5d980866646ea0cfa58a8f8969097b7669
+    translation_source_fingerprint: efa65bb352afec6cb2785bcde0a1c8c87c99961f7406a06fa04843b0938fb19f
     prerequisites: []
     depends_on: []
     redirect_from: []

@@ -35,7 +35,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 89552994d12833b4ce5fe687e3238467d3c44b1b4d7dfa321a93c51dca3e173c
+translation_source_fingerprint: 7fb6ba54ac352f9a41e728cc034751bad527400237b7d95ae3851192782f4eba
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -90,6 +90,23 @@ This is the migration draft page for `json.help-menu`. It records **1** frozen i
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Help-menu JSON
+
+A `"type": "help"` object defines a scrollable help topic. Core topics live in
+`data/core/help.json`, while mods may supply their own. `help::load` delegates to
+`help::load_object`, which groups topics by source and appends each source in load order.
+
+Each object must provide an integer `order`, a translatable `name`, and a `messages` array of
+translatable strings. The order only has to be unique within one source, so separate mods may each
+start at zero. The current loader rejects duplicate orders. Core help must be placed in the core JSON
+directory rather than presented as an ordinary mod source.
+
+Messages may use color tags and `<press_ACTION_ID>` keybinding tags. `<DRAW_NOTE_COLORS>` and
+`<HELP_DRAW_DIRECTIONS>` are special placeholders handled in `help.cpp`. Take action IDs from the
+current input registrations instead of guessing from old screenshots or upstream prose. For a new
+topic, check translation extraction, narrow-terminal wrapping, tiled and terminal presentation,
+topic order, and JSON loading.
 
 ## History and attribution
 
