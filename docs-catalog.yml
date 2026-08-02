@@ -6554,7 +6554,7 @@ pages:
     translation_group: how-to.common-tasks
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 775a0d624efe641d6921065485354412da532b158159f8ec9c1fc7607037f5a5
+    translation_source_fingerprint: 25e733767086989aeaa40e6aae4bc52b2e948751a5928c0cd9180f9655dad169
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -6614,7 +6614,7 @@ pages:
     translation_group: how-to.common-tasks
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 775a0d624efe641d6921065485354412da532b158159f8ec9c1fc7607037f5a5
+    translation_source_fingerprint: 25e733767086989aeaa40e6aae4bc52b2e948751a5928c0cd9180f9655dad169
     prerequisites: []
     depends_on: []
     redirect_from: []

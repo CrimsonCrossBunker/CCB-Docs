@@ -19,6 +19,7 @@ from generate_legacy_migration import (  # noqa: E402
     GENERATOR,
     HISTORY_SOURCE_PATHS,
     MigrationError,
+    REVIEWED_CONTENT_ROOT,
     canonical_id,
     source_paths_for_sparse_checkout,
     validate_contributor,
@@ -127,6 +128,26 @@ class LegacyMigrationTests(unittest.TestCase):
                 continue
             body = content_body(page_source(page).read_text(encoding="utf-8"))
             self.assertIn("partial", body)
+
+    def test_reviewed_content_fragments_are_bilingual_and_generated(self) -> None:
+        fragments: dict[tuple[str, str], str] = {}
+        for language in ("zh_CN", "en"):
+            for path in sorted((REVIEWED_CONTENT_ROOT / language).glob("*.md")):
+                fragments[(path.stem, language)] = path.read_text(encoding="utf-8").strip()
+
+        self.assertTrue(fragments)
+        self.assertEqual(
+            {identity for identity, language in fragments if language == "zh_CN"},
+            {identity for identity, language in fragments if language == "en"},
+        )
+        generated_by_key = {
+            (page["id"], page["language"]): page for page in self.generated
+        }
+        for key, fragment in fragments.items():
+            with self.subTest(document=key):
+                page = generated_by_key[key]
+                body = content_body(page_source(page).read_text(encoding="utf-8"))
+                self.assertIn(fragment, body)
 
     def test_catalog_block_and_public_audit_exclude_anomaly_data(self) -> None:
         catalog_text = (ROOT / "docs-catalog.yml").read_text(encoding="utf-8")

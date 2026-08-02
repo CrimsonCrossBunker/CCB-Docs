@@ -25,6 +25,7 @@ CONFIG_PATH = ROOT / "config/legacy-migration-v1.yml"
 CATALOG_PATH = ROOT / "docs-catalog.yml"
 AUDIT_PATH = ROOT / "docs/ai/legacy-migration-audit.json"
 GENERATOR = "scripts/generate_legacy_migration.py"
+REVIEWED_CONTENT_ROOT = ROOT / "content/legacy-migration"
 BLOCK_START = "  # BEGIN GENERATED LEGACY MIGRATION PAGES"
 BLOCK_END = "  # END GENERATED LEGACY MIGRATION PAGES"
 SELECTED_STATUSES = {"stubbed", "archived"}
@@ -139,6 +140,26 @@ def source_fingerprint(
 
 def body_fingerprint(body: str) -> str:
     return hashlib.sha256(body.encode("utf-8")).hexdigest()
+
+
+def reviewed_content(canonical: str, language: str) -> str:
+    """Load an optional reviewed body fragment for one generated migration page."""
+    if language not in LANGUAGES:
+        raise MigrationError(f"unsupported reviewed-content language: {language}")
+    if not re.fullmatch(r"[a-z0-9][a-z0-9._-]*", canonical):
+        raise MigrationError(f"unsafe reviewed-content document ID: {canonical}")
+    path = REVIEWED_CONTENT_ROOT / language / f"{canonical}.md"
+    if not path.exists():
+        return ""
+    fragment = path.read_text(encoding="utf-8").strip()
+    if not fragment:
+        raise MigrationError(f"empty reviewed migration content: {path.relative_to(ROOT)}")
+    if fragment.startswith("---") or re.search(r"(?m)^#\s+", fragment):
+        raise MigrationError(
+            f"reviewed migration content must be a body fragment without front matter or H1: "
+            f"{path.relative_to(ROOT)}"
+        )
+    return fragment
 
 
 def ordered_union(values: list[list[str]]) -> list[str]:
@@ -805,6 +826,9 @@ def migration_body(
     )
     if extra:
         prefix += f"{extra.rstrip()}\n\n"
+    reviewed = reviewed_content(canonical, language)
+    if reviewed:
+        prefix += f"{reviewed}\n\n"
     return prefix + (
         f"## {headings['history']}\n\n{attribution}\n\n{history}\n\n"
         f"## {headings['retained']}\n\n{retained_links}\n\n"
