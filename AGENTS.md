@@ -53,6 +53,12 @@ This file is sufficient for basic offline work.
   artifacts; do not commit them unless a policy file explicitly lists them.
 - Scheduled maintenance may reconcile marker-deduplicated Issues. It must not
   approve a PR, enable a Ruleset, or change organization security settings.
+- Record real scheduled-run and administrator evidence in
+  `repository-settings.target.yml`. If a human opens a recovery PR after
+  organization policy blocks Actions, record it as manual and never claim that
+  the Bot created the PR. A 409 repository-setting refusal or 403 organization
+  inspection refusal is a human-only organization-owner blocker, not a reason
+  to loop or fabricate success.
 
 ## Validation / 验证
 

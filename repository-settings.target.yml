@@ -51,12 +51,28 @@ manual_record:
   actions_pr_creation_attempted_at: '2026-08-01T14:39:00Z'
   actions_pr_creation_attempted_by: LYHGLYTX
   actions_pr_creation_result: blocked_by_organization_policy
+  actions_pr_creation_last_verified_at: '2026-08-02T06:59:20Z'
+  actions_pr_creation_repository_update_result: http_409_organization_policy
+  actions_pr_creation_organization_inspection_result: http_403_requires_admin_org
   actions_pr_creation_blocker: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/3
   organization_2fa_result: blocked_pending_member_audit_and_notice
   organization_2fa_blocker: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/issues/564
-  nightly_last_verified_at: '2026-08-01T14:33:12Z'
-  nightly_last_verified_run: https://github.com/CrimsonCrossBunker/CCB-Docs/actions/runs/30703702189
-  nightly_last_verified_result: success_with_external_link_warning
+  nightly_last_verified_at: '2026-08-02T06:59:20Z'
+  nightly_last_verified_run: https://github.com/CrimsonCrossBunker/CCB-Docs/actions/runs/30736620586
+  nightly_last_verified_result: partial_success_organization_policy_blocker
+  nightly_reports_verified:
+    - translation_debt
+    - scheduled_preview
+    - ordinary_external_links
+    - source_drift
+    - translation_issue_reconciliation
+    - external_link_issue_reconciliation
+  nightly_drift_branch: automation/source-drift
+  nightly_drift_commit: a14261cfc02a34d4520df88025c08c1865d51219
+  nightly_drift_changed_files: 5
+  nightly_drift_pull_request: https://github.com/CrimsonCrossBunker/CCB-Docs/pull/15
+  nightly_drift_pull_request_created_by: LYHGLYTX
+  nightly_automation_pull_request_created: false
   pages_enabled_at: '2026-08-01'
   site_qa_default_branch_verified_at: null
   site_qa_default_branch_verified_run: null

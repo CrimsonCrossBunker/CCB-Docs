@@ -605,6 +605,18 @@ def validate_governance_targets(maintenance: dict[str, Any]) -> list[str]:
         errors.append("config/maintenance.yml: empty pull requests must be prohibited")
     if policy.get("issue_reconciliation") != "marker_deduplicated":
         errors.append("config/maintenance.yml: Issues must be marker-deduplicated")
+    evidence_policy = mapping(policy.get("nightly_evidence"))
+    required_evidence_policy = {
+        "real_run_required": True,
+        "distinguish_manual_recovery_pull_request": True,
+        "record_organization_http_blockers": True,
+        "prohibit_false_bot_success_claim": True,
+    }
+    for field, expected in required_evidence_policy.items():
+        if evidence_policy.get(field) is not expected:
+            errors.append(
+                f"config/maintenance.yml: nightly evidence policy must set {field}: true"
+            )
 
     settings_path = ROOT / "repository-settings.target.yml"
     settings = yaml.safe_load(settings_path.read_text(encoding="utf-8"))
@@ -629,6 +641,33 @@ def validate_governance_targets(maintenance: dict[str, Any]) -> list[str]:
         errors.append("repository target must prohibit Actions bot approval")
     if target.get("auto_merge") is not False:
         errors.append("repository target must prohibit auto-merge")
+    expected_nightly_run = (
+        "https://github.com/CrimsonCrossBunker/CCB-Docs/actions/runs/30736620586"
+    )
+    expected_drift_pr = "https://github.com/CrimsonCrossBunker/CCB-Docs/pull/15"
+    if record.get("nightly_last_verified_run") != expected_nightly_run:
+        errors.append("repository settings must record the second real Nightly run")
+    if record.get("nightly_last_verified_result") != (
+        "partial_success_organization_policy_blocker"
+    ):
+        errors.append("repository settings must preserve the Nightly partial-failure result")
+    drift_commit = str(record.get("nightly_drift_commit", ""))
+    if not re.fullmatch(r"[0-9a-f]{40}", drift_commit):
+        errors.append("repository settings Nightly drift commit must be a full SHA")
+    if record.get("nightly_drift_changed_files") != 5:
+        errors.append("repository settings must record the five-file drift update")
+    if record.get("nightly_drift_pull_request") != expected_drift_pr:
+        errors.append("repository settings must record manual recovery Draft PR #15")
+    if record.get("nightly_automation_pull_request_created") is not False:
+        errors.append("repository settings must not claim that Actions created PR #15")
+    if record.get("actions_pr_creation_repository_update_result") != (
+        "http_409_organization_policy"
+    ):
+        errors.append("repository settings must record the repository-level 409 blocker")
+    if record.get("actions_pr_creation_organization_inspection_result") != (
+        "http_403_requires_admin_org"
+    ):
+        errors.append("repository settings must record the organization-level 403 blocker")
     required_ruleset_fields = (
         "require_pull_request",
         "required_non_author_human_approvals",

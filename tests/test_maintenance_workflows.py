@@ -75,6 +75,32 @@ class MaintenanceWorkflowTests(unittest.TestCase):
             },
         )
 
+    def test_real_nightly_evidence_distinguishes_manual_recovery_from_bot_success(
+        self,
+    ) -> None:
+        maintenance = yaml.safe_load(
+            (ROOT / "config/maintenance.yml").read_text(encoding="utf-8")
+        )
+        settings = yaml.safe_load(
+            (ROOT / "repository-settings.target.yml").read_text(encoding="utf-8")
+        )
+        evidence = maintenance["automation_policy"]["nightly_evidence"]
+        record = settings["manual_record"]
+
+        self.assertTrue(evidence["real_run_required"])
+        self.assertTrue(evidence["distinguish_manual_recovery_pull_request"])
+        self.assertEqual(record["nightly_drift_changed_files"], 5)
+        self.assertFalse(record["nightly_automation_pull_request_created"])
+        self.assertEqual(record["nightly_drift_pull_request_created_by"], "LYHGLYTX")
+        self.assertEqual(
+            record["actions_pr_creation_repository_update_result"],
+            "http_409_organization_policy",
+        )
+        self.assertEqual(
+            record["actions_pr_creation_organization_inspection_result"],
+            "http_403_requires_admin_org",
+        )
+
     def test_quarterly_workflow_routes_live_audit_context_without_token_argv(self) -> None:
         self.assertEqual(validate_quarterly_live_audit(), [])
         source = (ROOT / ".github/workflows/quarterly-maintenance.yml").read_text(
