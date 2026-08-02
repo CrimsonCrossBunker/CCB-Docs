@@ -21,6 +21,10 @@ review questions.
    For JSON/EOC reference changes, first run
    `scripts/generate_json_eoc_reference.py` against the catalog's exact CCB
    `verified_commit`; do not edit the generated registry bodies.
+   For legacy migration or archive changes, run
+   `scripts/generate_legacy_migration.py` against the exact source commit in
+   `config/legacy-migration-v1.yml`; do not edit its catalog block, paired
+   bodies, generated references, or audit JSON by hand.
 5. Run the validation commands in `AGENTS.md`.
 6. If the page depends on an unmerged CCB PR, keep it `draft`. After source
    merge, replace `verified_commit` with the final commit and regenerate before

@@ -37,7 +37,8 @@ prerequisites:
 - cpp.character
 depends_on: []
 redirect_from: []
-supersedes: []
+supersedes:
+- cpp-activities
 license: CC-BY-SA-3.0
 attribution: CCB contributors; see source paths and Git history.
 example_validation_ids:

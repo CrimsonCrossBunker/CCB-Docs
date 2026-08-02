@@ -18,6 +18,7 @@ uv run python scripts/generate_catalog.py --check
 uv run python scripts/check_catalog.py
 uv run python scripts/generate_json_eoc_reference.py --source-repo /path/to/CCB --check
 uv run python scripts/check_json_eoc_example_mod.py --source-repo /path/to/CCB
+uv run python scripts/generate_legacy_migration.py --source-repo /path/to/CCB --check
 uv run python -m unittest discover -s tests -p 'test_*.py'
 uv run flake8 --max-line-length=100 scripts tests
 uv run python scripts/build_site.py --strict --include-drafts
@@ -38,7 +39,9 @@ Lua v5 generated reference bodies and
 document ids (50 language pages) remain drafts and are excluded from production
 navigation, search, and AI indexes.
 
-`docs-catalog.yml` v2 is the only manually maintained machine directory. It
+`docs-catalog.yml` v2 is the only checked-in machine-readable document
+directory. Normal entries are maintained there; its clearly marked legacy
+migration block is regenerated from the pinned CCB inventory. The catalog
 generates page front matter, navigation, `llms.txt`, `llms-full.txt`, JSON and
 JSONL indexes, bilingual mappings, search/AI allowlists, archive exclusions,
 redirects, and sitemap metadata. Files under `docs/ai/` are generated.
@@ -47,6 +50,16 @@ The bilingual JSON/EOC registry bodies are generated from the exact CCB
 contract-inventory commit by `scripts/generate_json_eoc_reference.py`. The
 current draft indexes 190 JSON object types, 275 EOC conditions, and 306 EOC
 effects while preserving every partial/unclassified evidence boundary.
+
+The frozen 175-record legacy Markdown inventory is checked across repositories
+by `scripts/generate_legacy_migration.py`. It owns one generated block inside
+`docs-catalog.yml`, 99 missing bilingual target pairs, the bilingual
+filtered-history experiment report, and
+`docs/ai/legacy-migration-audit.json`. Draft and archived outputs remain outside
+production navigation, search, and the AI allowlist. The four data-derived
+references explicitly index only proven direct fields: 648 JSON flags, 50
+proficiencies plus 21 categories, 226 Mind Over Matter spells, and 18
+Aftershock item definitions plus 37 item groups.
 
 Chinese source lives in `docs/zh_CN/` and is published at the site root.
 English source lives in `docs/en/` and is published under `/en/`.

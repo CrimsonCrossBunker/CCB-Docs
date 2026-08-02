@@ -37,7 +37,9 @@ prerequisites:
 depends_on:
 - governance.security-license
 redirect_from: []
-supersedes: []
+supersedes:
+- legacy.doc-release-diff
+- legacy.doc-release-process
 license: CC-BY-SA-3.0
 attribution: CCB contributors; see source paths and Git history.
 example_validation_ids: []

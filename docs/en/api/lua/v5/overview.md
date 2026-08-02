@@ -42,7 +42,8 @@ prerequisites:
 - architecture.overview
 depends_on: []
 redirect_from: []
-supersedes: []
+supersedes:
+- lua.v5.overview
 license: CC-BY-SA-3.0
 attribution: CCB contributors; generated contract and source paths at the verified commit.
 example_validation_ids: []
