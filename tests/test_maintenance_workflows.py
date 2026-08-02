@@ -123,6 +123,21 @@ class MaintenanceWorkflowTests(unittest.TestCase):
 
         self.assertTrue(any("headless CCB build" in error for error in errors), errors)
 
+    def test_runtime_example_policy_requires_the_pinned_cmake_contract_check(self) -> None:
+        source = (ROOT / ".github/workflows/runtime-example-mods.yml").read_text(
+            encoding="utf-8"
+        )
+        source = source.replace(
+            'python3 "$CCB_SOURCE_DIR/tools/lua_api/check_cmake_contract.py"',
+            'echo "skipped"',
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "runtime-example-mods.yml"
+            path.write_text(source, encoding="utf-8")
+            errors = validate_runtime_example_workflow(path)
+
+        self.assertTrue(any("CMake link contract" in error for error in errors), errors)
+
     def test_runtime_example_policy_rejects_an_unpinned_ccb_checkout(self) -> None:
         source = (ROOT / ".github/workflows/runtime-example-mods.yml").read_text(
             encoding="utf-8"

@@ -23,7 +23,7 @@ class RuntimeValidationSourceTests(unittest.TestCase):
         config = load_source_config()
         self.assertEqual(
             config["source_commit"],
-            "747ca16a46e804986894ba9cd4c266b67c2ce124",
+            "beedf1063d7fdf3edcc74b596a96bef00c44c836",
         )
         self.assertEqual(
             config["pending_source_pr"],
@@ -32,6 +32,13 @@ class RuntimeValidationSourceTests(unittest.TestCase):
         )
         self.assertEqual(config["build_backend"], "cmake_headless")
         self.assertEqual(config["command_timeout_seconds"], 300)
+        self.assertTrue(
+            {
+                "src/CMakeLists.txt",
+                "tools/lua_api/check_cmake_contract.py",
+                "tools/lua_api/test_check_cmake_contract.py",
+            }.issubset(config["validator_paths"])
+        )
 
     def test_short_source_commit_is_rejected(self) -> None:
         config = yaml.safe_load(CONFIG_PATH.read_text(encoding="utf-8"))
@@ -78,6 +85,18 @@ class RuntimeValidationSourceTests(unittest.TestCase):
             with self.assertRaisesRegex(
                 RuntimeValidationSourceError,
                 "cmake_headless.*was expected",
+            ):
+                load_source_config(path)
+
+    def test_missing_cmake_validator_path_is_rejected(self) -> None:
+        config = yaml.safe_load(CONFIG_PATH.read_text(encoding="utf-8"))
+        config["validator_paths"].remove("tools/lua_api/check_cmake_contract.py")
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "runtime-example-validation.yml"
+            path.write_text(yaml.safe_dump(config), encoding="utf-8")
+            with self.assertRaisesRegex(
+                RuntimeValidationSourceError,
+                "missing CMake validator paths",
             ):
                 load_source_config(path)
 
