@@ -51,7 +51,16 @@ jobs:
             echo "Invalid CCB source commit: $commit" >&2
             exit 1
           fi
+          command_timeout_seconds="$(
+            uv run python scripts/resolve_runtime_validation_source.py \
+              --print-command-timeout-seconds
+          )"
+          if [[ ! "$command_timeout_seconds" =~ ^[0-9]+$ ]]; then
+            echo "Invalid runtime command timeout: $command_timeout_seconds" >&2
+            exit 1
+          fi
           echo "commit=$commit" >> "$GITHUB_OUTPUT"
+          echo "command_timeout_seconds=$command_timeout_seconds" >> "$GITHUB_OUTPUT"
 
       - name: Check out the pinned full CCB source
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -97,26 +106,27 @@ jobs:
         shell: bash
         env:
           LC_ALL: C.UTF-8
+          RUNTIME_COMMAND_TIMEOUT_SECONDS: ${{ steps.runtime-source.outputs.command_timeout_seconds }}
         run: |
           set -o pipefail
           run_mod_check() {
-            local mod_id="$1"
-            local log_name="$2"
-            printf 'Starting runtime validation: %s\n' "$mod_id"
-            timeout --signal=TERM --kill-after=15s 2m \
+            local log_name="$1"
+            shift
+            printf 'Starting runtime validation: %s\n' "$*"
+            timeout --signal=TERM --kill-after=15s \
+              "${RUNTIME_COMMAND_TIMEOUT_SECONDS}s" \
               stdbuf -oL -eL "$CCB_SOURCE_DIR/cataclysm" \
               --datadir "$CCB_SOURCE_DIR/data/" \
               --userdir "$CCB_RUNTIME_USER_DIR/" \
-              --check-mods "$mod_id" \
+              --check-mods "$@" \
               2>&1 | tee ".build/logs/${log_name}.log"
           }
           lua_main="$CCB_RUNTIME_USER_DIR/mods/ccb_lua_v5_example/lua/main.lua"
           original_lua_main="$CCB_SOURCE_DIR/data/lua/examples/api_v5_mod/lua/main.lua"
 
-          run_mod_check ccb_lua_v5_example lua-positive-initial
-
           printf '\nerror("validation execution sentinel")\n' >> "$lua_main"
-          if run_mod_check ccb_lua_v5_example lua-negative-sentinel; then
+          trap 'cp "$original_lua_main" "$lua_main"' EXIT
+          if run_mod_check lua-negative-sentinel ccb_lua_v5_example; then
             echo "Lua validation unexpectedly accepted the execution sentinel" >&2
             exit 1
           fi
@@ -124,8 +134,10 @@ jobs:
             .build/logs/lua-negative-sentinel.log
 
           cp "$original_lua_main" "$lua_main"
-          run_mod_check ccb_lua_v5_example lua-positive-restored
-          run_mod_check ccb_docs_json_eoc_example json-eoc-positive
+          trap - EXIT
+          run_mod_check examples-positive \
+            ccb_lua_v5_example \
+            ccb_docs_json_eoc_example
 
       - name: Collect minimal failure logs
         if: failure()

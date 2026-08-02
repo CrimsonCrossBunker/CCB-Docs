@@ -61,6 +61,11 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="print the reviewed full CCB commit",
     )
+    parser.add_argument(
+        "--print-command-timeout-seconds",
+        action="store_true",
+        help="print the bounded per-process runtime-validation timeout",
+    )
     return parser.parse_args()
 
 
@@ -70,7 +75,12 @@ def main() -> int:
     if args.print_source_commit:
         print(config["source_commit"])
         return 0
-    raise RuntimeValidationSourceError("select --print-source-commit")
+    if args.print_command_timeout_seconds:
+        print(config["command_timeout_seconds"])
+        return 0
+    raise RuntimeValidationSourceError(
+        "select --print-source-commit or --print-command-timeout-seconds"
+    )
 
 
 if __name__ == "__main__":
