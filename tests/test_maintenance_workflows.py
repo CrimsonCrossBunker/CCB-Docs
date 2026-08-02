@@ -136,7 +136,7 @@ class MaintenanceWorkflowTests(unittest.TestCase):
 
         self.assertTrue(any("headless CCB build" in error for error in errors), errors)
 
-    def test_runtime_example_policy_requires_the_pinned_cmake_abi_check(self) -> None:
+    def test_runtime_example_policy_requires_the_pinned_build_runtime_check(self) -> None:
         source = (ROOT / ".github/workflows/runtime-example-mods.yml").read_text(
             encoding="utf-8"
         )
@@ -149,7 +149,7 @@ class MaintenanceWorkflowTests(unittest.TestCase):
             path.write_text(source, encoding="utf-8")
             errors = validate_runtime_example_workflow(path)
 
-        self.assertTrue(any("CMake ABI contract" in error for error in errors), errors)
+        self.assertTrue(any("build/runtime contract" in error for error in errors), errors)
 
     def test_runtime_example_policy_rejects_an_unpinned_ccb_checkout(self) -> None:
         source = (ROOT / ".github/workflows/runtime-example-mods.yml").read_text(

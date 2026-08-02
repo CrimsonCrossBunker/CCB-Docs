@@ -383,16 +383,16 @@ def validate_runtime_example_workflow(
         if sparse_key in ccb_with:
             errors.append(f"{name}: CCB build checkout must be full, not {sparse_key}")
 
-    cmake_contract_run = str(
-        named_steps.get("Validate the pinned CCB bundled Lua ABI contract", {}).get(
+    build_runtime_contract_run = str(
+        named_steps.get("Validate the pinned CCB build and runtime contracts", {}).get(
             "run", ""
         )
     )
     expected_cmake_contract = (
         'python3 "$CCB_SOURCE_DIR/tools/lua_api/check_cmake_contract.py"'
     )
-    if cmake_contract_run != expected_cmake_contract:
-        errors.append(f"{name}: pinned CCB CMake ABI contract check is missing")
+    if build_runtime_contract_run != expected_cmake_contract:
+        errors.append(f"{name}: pinned CCB build/runtime contract check is missing")
 
     build_run = str(
         named_steps.get("Build the release headless executable with Lua enabled", {}).get(
