@@ -32,7 +32,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: e61fb8815ce04c25d3e92ad69ecf9dcf341c445c87f0f50a0b6e756556f2d5ac
+translation_source_fingerprint: fe0b3354ffe9609a020494c599f716f13a38719d1d63f4a7b436e9905efc0ca8
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -85,6 +85,33 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## 技术基线
+
+CCB 灾前地球原则上保持现代现实世界可辨认的技术水平。偏离点应当狭窄、有来源，并与 portal research、
+XEDRA 或明确的外来技术相连；若某项发明会让整个灾前社会完全不同，通常应缩小或重写设定，而不是把
+世界整体升级成通用科幻背景。
+
+### 技术层次
+
+- **民用与普通工业**主要遵循现实能力、供应链和成本。更普及的 fuel cell 或动力辅助仍不等于随处可见的超科技。
+- **军事与 XEDRA**可拥有稀有能源、power armor、机器人、实验武器、portal 和 dimensional heuristics，
+  但其数量、可靠性和用途受项目、设施与保密限制。
+- **Mutation**利用普遍的 Blob 污染，不是普通基因工程；其可见行为仍由当前 mutation 数据和代码定义。
+- **CBM/Exodii**来自跨维度幸存者体系。常见功能应尽量能用现代原理解释，神奇部分集中在接口、制造遗产和
+  少数受剧情限制的装置。
+- **Mi-go、Yrax、triffid、Blob 等技术或能力**可能超出人类理解。越不可思议，玩家越不应能像普通机械一样
+  拆成通用零件、重新设计或量产。
+
+## 为内容选择技术
+
+先说明谁制造、何时制造、为何存在、能源与材料来自哪里、能否维护，以及灾后为何还能获得。区分原型、
+有限部署和量产物；实验设备需要合理的故障、操作和供应限制。显示名或 lore 不能证明 item 的实际性能，
+应追踪当前 JSON、recipe、item use、mapgen、faction 与 tests。
+
+旧页面的技术等级图与具体 lore 解释是写作模型，不是 API。新增或修改设备时检查来源、掉落密度、维修、
+拆解、弹药/电池、技能、NPC 获取、存档与 Mod 兼容，并运行相应 JSON 加载和专项测试。尚未实现的 Yrax
+或其他章节保持 draft。
 
 ## 历史与归属
 

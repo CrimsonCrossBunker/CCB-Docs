@@ -5465,7 +5465,7 @@ pages:
     translation_group: mods.aftershock-exoplanet.lore.organizations
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 56fa54597b9448b10e8e85a10f5bcd16d00d1ac1fdf911643f898d369bfdbfe9
+    translation_source_fingerprint: e78da89d60756ac6a4a2fcc5e5ae1285532a73999d8559cf74ca555eb8880e45
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -5520,7 +5520,7 @@ pages:
     translation_group: mods.aftershock-exoplanet.lore.organizations
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 56fa54597b9448b10e8e85a10f5bcd16d00d1ac1fdf911643f898d369bfdbfe9
+    translation_source_fingerprint: e78da89d60756ac6a4a2fcc5e5ae1285532a73999d8559cf74ca555eb8880e45
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7674,7 +7674,7 @@ pages:
     translation_group: lore-overview
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: b38cde4bb8adeb47b1b4dc58cf2ef76ab4095a7c7326dc9dd9c88f6aedc61c49
+    translation_source_fingerprint: 3accd7b6203cbb0eedc47f18230363edc8a47ae93a0d7a329db96ffe6f41afbf
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7727,7 +7727,7 @@ pages:
     translation_group: lore-overview
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: b38cde4bb8adeb47b1b4dc58cf2ef76ab4095a7c7326dc9dd9c88f6aedc61c49
+    translation_source_fingerprint: 3accd7b6203cbb0eedc47f18230363edc8a47ae93a0d7a329db96ffe6f41afbf
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7780,7 +7780,7 @@ pages:
     translation_group: lore-technology
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: e61fb8815ce04c25d3e92ad69ecf9dcf341c445c87f0f50a0b6e756556f2d5ac
+    translation_source_fingerprint: fe0b3354ffe9609a020494c599f716f13a38719d1d63f4a7b436e9905efc0ca8
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7833,7 +7833,7 @@ pages:
     translation_group: lore-technology
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: e61fb8815ce04c25d3e92ad69ecf9dcf341c445c87f0f50a0b6e756556f2d5ac
+    translation_source_fingerprint: fe0b3354ffe9609a020494c599f716f13a38719d1d63f4a7b436e9905efc0ca8
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8447,7 +8447,7 @@ pages:
     translation_group: platform-matrix
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: a7400da358ab18e75fac23c5a7b1ddd80f4cb47dfc769455ca997f1ced688a6d
+    translation_source_fingerprint: 5557ebc63a67d00294365f3e12a2a36bc3be39fe6b1d9f35248889776f8f53b5
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8501,7 +8501,7 @@ pages:
     translation_group: platform-matrix
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: a7400da358ab18e75fac23c5a7b1ddd80f4cb47dfc769455ca997f1ced688a6d
+    translation_source_fingerprint: 5557ebc63a67d00294365f3e12a2a36bc3be39fe6b1d9f35248889776f8f53b5
     prerequisites: []
     depends_on: []
     redirect_from: []

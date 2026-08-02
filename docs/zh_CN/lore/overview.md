@@ -32,7 +32,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: b38cde4bb8adeb47b1b4dc58cf2ef76ab4095a7c7326dc9dd9c88f6aedc61c49
+translation_source_fingerprint: 3accd7b6203cbb0eedc47f18230363edc8a47ae93a0d7a329db96ffe6f41afbf
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -85,6 +85,31 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## 面向贡献者的世界观入口
+
+CCB 的玩家起点很简单：世界突然崩溃，城市被亡者占据，异界生物和残存人类组织争夺资源，而角色并不
+知道完整原因。开发者后台设定更详细，但游戏应通过地点、物品、报纸、日志、对话、任务和系统互动让
+玩家逐步拼出真相。全知说明属于贡献者资料，不应直接变成普通 NPC 的台词。
+
+### 信息层次
+
+- **玩家可直接观察**：环境、敌人行为、物品、伤势、天气和公开事件。
+- **世界内记录**：写作者有身份、时间和偏见的 newspaper、终端、录音、任务与对话。
+- **专家推断**：XEDRA 残余、Hub、外来阵营或研究记录能解释一部分机制，但仍可能错误或隐瞒。
+- **后台 canon**：用于保持内容一致的剧透，不保证在游戏中完全揭示。
+- **未来设计**：尚未实现的方向，必须保持 draft 并与当前行为分开。
+
+## 核心连续性
+
+灾前世界应保持可辨认的现代社会；少量差异来自 portal research、XEDRA 及受限的高科技。`XE-037`/Blob
+污染、生物变化、亡者复活、社会崩溃和 portal storms 共同构成大灾变，而非单一公开解释。人类 faction
+刚从共同社会分裂不久，应同时处理食物、安全、信任和冬季等日常问题；异界势力则可以具有完全不同的
+时间尺度、感知和目标。
+
+新 lore 内容要引用当前 ID 与来源，说明叙述者知道什么、为何知道、何时记录，并检查与 background、
+technology、faction、mission 和已发布玩家线索的关系。若想 retcon，列出受影响 JSON、对话、地图、存档、
+Mod 与翻译，先通过设计 Issue 审查；不要用旧设计页覆盖当前实现。
 
 ## 历史与归属
 
