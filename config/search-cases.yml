@@ -1,0 +1,18 @@
+schema_version: 1
+cases:
+  - id: zh-project-map
+    language: zh_CN
+    query: 项目地图
+    expected_location: architecture/project-map/
+  - id: zh-responsible-human
+    language: zh_CN
+    query: Responsible human
+    expected_location: contributing/responsible-human/
+  - id: en-project-map
+    language: en
+    query: project map
+    expected_location: architecture/project-map/
+  - id: en-validation
+    language: en
+    query: Build validation
+    expected_location: validation/quickstart/

@@ -9,6 +9,7 @@ copyright: CC BY-SA 3.0 · CrimsonCrossBunker contributors
 theme:
   name: material
   language: zh
+  font: false
   features:
     - navigation.indexes
     - navigation.sections
@@ -19,15 +20,15 @@ theme:
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: teal
-      accent: cyan
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: 切换到浅色模式
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: teal
-      accent: cyan
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
         name: 切换到深色模式
@@ -53,3 +54,6 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/site.js

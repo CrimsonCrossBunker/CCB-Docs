@@ -60,6 +60,25 @@ uv run python scripts/generate_legacy_migration.py \
   --source-repo /path/to/CCB --check
 uv run python -m unittest discover -s tests -p 'test_*.py'
 uv run flake8 --max-line-length=100 scripts tests
-uv run python scripts/build_site.py --strict --include-drafts
+uv run python scripts/build_site.py --strict --include-drafts \
+  --offline-archive artifacts/ccb-docs-offline.zip
 uv run python scripts/check_links.py --site-dir site --critical
+uv run python scripts/check_site_quality.py --site-dir site
+uv run python scripts/check_search.py --site-dir site
 ```
+
+For browser, accessibility, and performance changes, use Node.js 22 and the
+locked QA dependencies:
+
+```sh
+npm ci
+npm audit --audit-level=high
+npx playwright install chromium
+npm run qa:browser
+npm run qa:lighthouse
+```
+
+The browser commands require a loopback listener. If the execution environment
+forbids local ports, run all static checks locally and leave Playwright, axe,
+visual regression, and Lighthouse to the pinned `Site QA (Node 22)` CI job;
+report those commands as not run locally until that job succeeds.

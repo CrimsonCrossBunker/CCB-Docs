@@ -21,9 +21,30 @@ uv run python scripts/check_json_eoc_example_mod.py --source-repo /path/to/CCB
 uv run python scripts/generate_legacy_migration.py --source-repo /path/to/CCB --check
 uv run python -m unittest discover -s tests -p 'test_*.py'
 uv run flake8 --max-line-length=100 scripts tests
-uv run python scripts/build_site.py --strict --include-drafts
+uv run python scripts/build_site.py --strict --include-drafts \
+  --offline-archive artifacts/ccb-docs-offline.zip
 uv run python scripts/check_links.py --site-dir site --critical
+uv run python scripts/check_site_quality.py --site-dir site
+uv run python scripts/check_search.py --site-dir site
 ```
+
+Site browser QA is pinned by `package-lock.json` and runs on Node.js 22 in CI.
+After building `site/`, a machine with loopback networking can run:
+
+```sh
+npm ci
+npm audit --audit-level=high
+npx playwright install chromium
+npm run qa:browser
+npm run qa:lighthouse
+```
+
+The browser suite covers same-page language switching, canonical and hreflang
+metadata, bilingual search, axe accessibility checks, migration-aware 404s,
+and reviewed visual snapshots. Lighthouse enforces performance,
+accessibility, best-practice, and SEO budgets. CI and Pages publish the
+deterministic `ccb-docs-offline.zip`; extract it and run its bundled
+`python3 serve.py` instead of opening pages directly through `file://`.
 
 When a local CCB checkout is available, also validate source paths, symbols,
 queries, and fingerprints:
@@ -44,7 +65,8 @@ directory. Normal entries are maintained there; its clearly marked legacy
 migration block is regenerated from the pinned CCB inventory. The catalog
 generates page front matter, navigation, `llms.txt`, `llms-full.txt`, JSON and
 JSONL indexes, bilingual mappings, search/AI allowlists, archive exclusions,
-redirects, and sitemap metadata. Files under `docs/ai/` are generated.
+redirects, and sitemap metadata. Files under `docs/ai/` and generated page
+front matter must not be edited by hand.
 
 The bilingual JSON/EOC registry bodies are generated from the exact CCB
 contract-inventory commit by `scripts/generate_json_eoc_reference.py`. The

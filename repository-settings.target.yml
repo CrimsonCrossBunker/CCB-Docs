@@ -10,10 +10,15 @@ target:
   pages_source: github_actions
   allow_github_actions_create_pull_requests: true
   require_pull_request: true
+  required_checks:
+    - Documentation CI / validate
+    - Documentation CI / Site QA (Node 22)
   required_non_author_approvals: 1
   dismiss_stale_reviews: true
+  require_conversation_resolution: true
   prohibit_force_push: true
   prohibit_branch_deletion: true
+  pages_environment_protection: true
   administrator_emergency_bypass: true
 manual_record:
   confirmed_reviewers: []
@@ -27,5 +32,8 @@ manual_record:
   nightly_last_verified_run: https://github.com/CrimsonCrossBunker/CCB-Docs/actions/runs/30703702189
   nightly_last_verified_result: success_with_external_link_warning
   pages_enabled_at: '2026-08-01'
+  site_qa_default_branch_verified_at: null
+  site_qa_default_branch_verified_run: null
+  offline_snapshot_verified_at: null
   protection_enabled_at: null
   enabled_by: LYHGLYTX

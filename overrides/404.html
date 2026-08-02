@@ -1,0 +1,14 @@
+{% extends "main.html" %}
+{% block content %}
+  <h1>{{ "页面未找到" if config.extra.site_language == "zh_CN" else "Page not found" }}</h1>
+  <p>{{ "这个地址可能属于已迁移的旧文档。站点会在迁移目录中查找替代页面。" if config.extra.site_language == "zh_CN" else "This URL may belong to migrated documentation. The site will check the migration catalog for a replacement." }}</p>
+  <div
+    data-ccb-migration-map="{{ config.extra.catalog_root_url }}ai/redirects.json"
+    data-ccb-base-path="{{ config.extra.catalog_base_path }}"
+    data-ccb-language="{{ config.extra.site_language }}">
+  </div>
+  <p class="ccb-migration-result" data-ccb-migration-result hidden>
+    <a href="#">{{ "打开替代页面" if config.extra.site_language == "zh_CN" else "Open the replacement page" }}</a>
+  </p>
+  <p><a href="{{ config.extra.catalog_root_url }}">{{ "返回文档首页" if config.extra.site_language == "zh_CN" else "Return to documentation home" }}</a></p>
+{% endblock %}

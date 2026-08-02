@@ -127,3 +127,76 @@ jobs:
 
       - name: Check internal, anchor, and critical external links
         run: uv run python scripts/check_links.py --site-dir site --critical
+
+  site-qa:
+    name: Site QA (Node 22)
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78 # v7
+        with:
+          version: "0.11.28"
+          enable-cache: true
+
+      - name: Set up Node.js 22
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Sync locked Python dependencies
+        run: uv sync --frozen
+
+      - name: Install locked site QA dependencies
+        run: npm ci
+
+      - name: Audit site QA dependencies
+        run: npm audit --audit-level=high
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Validate catalog inputs
+        run: |
+          uv run python scripts/generate_catalog.py --check
+          uv run python scripts/check_catalog.py
+
+      - name: Build site and deterministic offline snapshot
+        run: >-
+          uv run python scripts/build_site.py
+          --strict
+          --include-drafts
+          --offline-archive artifacts/ccb-docs-offline.zip
+
+      - name: Check site links
+        run: uv run python scripts/check_links.py --site-dir site --critical
+
+      - name: Check rendered metadata, alt text, and contrast
+        run: uv run python scripts/check_site_quality.py --site-dir site
+
+      - name: Check bilingual search fixtures
+        run: uv run python scripts/check_search.py --site-dir site
+
+      - name: Run Playwright, axe, and visual regression tests
+        run: npm run qa:browser
+
+      - name: Run Lighthouse budgets
+        run: npm run qa:lighthouse
+
+      - name: Upload QA reports and offline snapshot
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: ccb-docs-site-qa-${{ github.sha }}
+          path: |
+            artifacts/ccb-docs-offline.zip
+            artifacts/lighthouse/
+            artifacts/playwright-report/
+            artifacts/playwright-results/
+          if-no-files-found: warn
+          retention-days: 14

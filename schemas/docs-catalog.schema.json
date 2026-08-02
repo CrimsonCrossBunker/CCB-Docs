@@ -8,7 +8,14 @@
     "schema_version": { "const": 2 },
     "site": {
       "type": "object",
-      "required": [ "default_language", "languages", "base_url", "source_repository", "source_branch" ],
+      "required": [
+        "default_language",
+        "languages",
+        "base_url",
+        "documentation_repository",
+        "source_repository",
+        "source_branch"
+      ],
       "properties": {
         "default_language": { "const": "zh_CN" },
         "languages": {
@@ -16,6 +23,7 @@
           "const": [ "zh_CN", "en" ]
         },
         "base_url": { "type": "string", "format": "uri" },
+        "documentation_repository": { "type": "string", "format": "uri" },
         "source_repository": { "type": "string", "format": "uri" },
         "source_branch": { "type": "string", "minLength": 1 }
       },

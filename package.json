@@ -1,0 +1,19 @@
+{
+  "name": "ccb-docs-site-qa",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "qa:browser": "playwright test",
+    "qa:lighthouse": "node qa/run-lighthouse.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.12.1",
+    "@playwright/test": "1.62.1",
+    "chrome-launcher": "1.0.0",
+    "lighthouse": "12.6.1"
+  }
+}

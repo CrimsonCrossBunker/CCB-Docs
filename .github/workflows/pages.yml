@@ -5,10 +5,7 @@ on:
     branches: [main]
   workflow_dispatch:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+permissions: {}
 
 concurrency:
   group: pages
@@ -16,6 +13,8 @@ concurrency:
 
 jobs:
   build:
+    permissions:
+      contents: read
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -102,11 +101,28 @@ jobs:
           uv run python scripts/generate_catalog.py --check
           uv run python scripts/check_catalog.py
 
-      - name: Build production site without drafts
-        run: uv run python scripts/build_site.py --strict
+      - name: Build production site and offline snapshot without drafts
+        run: >-
+          uv run python scripts/build_site.py
+          --strict
+          --offline-archive artifacts/ccb-docs-offline.zip
 
       - name: Check production links
         run: uv run python scripts/check_links.py --site-dir site --critical
+
+      - name: Check rendered production metadata and accessibility basics
+        run: uv run python scripts/check_site_quality.py --site-dir site
+
+      - name: Check bilingual production search fixtures
+        run: uv run python scripts/check_search.py --site-dir site
+
+      - name: Upload offline documentation snapshot
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: ccb-docs-offline-${{ github.sha }}
+          path: artifacts/ccb-docs-offline.zip
+          if-no-files-found: error
+          retention-days: 30
 
       - name: Configure Pages artifact
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
@@ -118,7 +134,11 @@ jobs:
 
   deploy:
     needs: build
+    permissions:
+      pages: write
+      id-token: write
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

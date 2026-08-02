@@ -46,6 +46,17 @@ risk_group: build
 risk_level: high
 pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
 stale_reason: null
+canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/archive/build/flatpak/
+alternate_urls:
+  zh: https://crimsoncrossbunker.github.io/CCB-Docs/archive/build/flatpak/
+  en: https://crimsoncrossbunker.github.io/CCB-Docs/en/archive/build/flatpak/
+  x-default: https://crimsoncrossbunker.github.io/CCB-Docs/archive/build/flatpak/
+source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_urls:
+- path: doc/c++/COMPILING-FLATPAK.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/c++/COMPILING-FLATPAK.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28archive-build-flatpak%29%3A+&body=Document+ID%3A+archive-build-flatpak%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---
