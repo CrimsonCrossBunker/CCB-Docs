@@ -32,7 +32,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 8a10854d6eb3aaa7c504cbc11a121d208d70bd39df2f6654a62940435aa4cea2
+translation_source_fingerprint: 2325e073a28d63b95df62acbd1b74ee80b3d34cf41cd9337ff783ab538777156
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -85,6 +85,31 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## CCB 的用户体验目标
+
+CCB 是俯视网格、行动耗时驱动的开放世界生存游戏，支持字符/tiles 显示并覆盖桌面与 Android 等平台。
+它的深度应来自相互作用的世界系统和多种问题解决方式，而不是让玩家和界面搏斗。旧文档引用的其他
+游戏与“DDA”名称是历史背景；当前产品身份、平台和功能必须从 CCB README、构建配置、源码和测试确认。
+
+### 深度必须可理解
+
+- 在作出会消耗时间、资源或暴露角色的决定前，尽可能提供相关信息；结果发生后给出可定位原因的反馈。
+- 自动化重复操作，但保留路线、装备、风险、优先级和撤退时机等真正的选择。
+- 同一动作在键盘、触控、窄窗口、不同缩放和翻译文本下应保持可发现、可取消并能恢复焦点。
+- 颜色、ASCII 字形、声音或指针位置不能成为唯一语义；为 screen reader、高对比和不使用音频的玩家
+  提供文字或结构线索。
+- 复杂系统应允许逐步学习。默认界面展示当前任务需要的信息，进阶信息可展开，而不是永久隐藏契约。
+
+## 设计新流程
+
+先写出玩家目标、入口、最短成功路径、取消/失败路径和保存边界。检查它与 input context、活动系统、
+消息、help、options、`ui_adaptor` 或 ImGui 生命周期的关系。不要用新增全局选项掩盖不清楚的默认流程；
+每个选项都会扩大测试和维护矩阵。
+
+验证覆盖 curses/tiles、键盘与 Android 触控、resize、窄窗口、长翻译、颜色主题、screen reader mode、
+中断/恢复、保存重载和错误输入。借鉴其他游戏只能提出候选模式，不能替代当前 CCB 用户测试和可访问性
+证据。
 
 ## 历史与归属
 
