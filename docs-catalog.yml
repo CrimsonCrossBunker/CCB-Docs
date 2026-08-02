@@ -10063,7 +10063,7 @@ pages:
     translation_group: json.inheritance
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 6b4215eb3989db2f1b2123f97b83f075a48ae97d9a71d848a2bcebd67f0bc648
+    translation_source_fingerprint: 7a25eab3ebaa4ec35510732d5d232b42c7b041e233451774e87db8c0c4e72c86
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10119,7 +10119,7 @@ pages:
     translation_group: json.inheritance
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 6b4215eb3989db2f1b2123f97b83f075a48ae97d9a71d848a2bcebd67f0bc648
+    translation_source_fingerprint: 7a25eab3ebaa4ec35510732d5d232b42c7b041e233451774e87db8c0c4e72c86
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10178,7 +10178,7 @@ pages:
     translation_group: json.item-groups
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: eefa690670fcad437c21072f99fb0a64092c27c1bb9b976668a8a7c0f21f1ae8
+    translation_source_fingerprint: 9de57bfabed9db72864e41733bf2882c7da839aaa04facd7b26c50310cb8df15
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10237,7 +10237,7 @@ pages:
     translation_group: json.item-groups
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: eefa690670fcad437c21072f99fb0a64092c27c1bb9b976668a8a7c0f21f1ae8
+    translation_source_fingerprint: 9de57bfabed9db72864e41733bf2882c7da839aaa04facd7b26c50310cb8df15
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10296,7 +10296,7 @@ pages:
     translation_group: json.items
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 7384a3919278419ad4ccdf6c84e8df024b322c3e51a0cdb58701a522e845e08a
+    translation_source_fingerprint: 102946d2416e62ba57c8ad3cf7c0ed2e00ee32fb4b5d9743fd82d83cb9e973d0
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10355,7 +10355,7 @@ pages:
     translation_group: json.items
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 7384a3919278419ad4ccdf6c84e8df024b322c3e51a0cdb58701a522e845e08a
+    translation_source_fingerprint: 102946d2416e62ba57c8ad3cf7c0ed2e00ee32fb4b5d9743fd82d83cb9e973d0
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12172,7 +12172,7 @@ pages:
     translation_group: json.recipes-and-disassembly
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: f0e57fe37e00ec8a5783f145412fb540d18aaf6193ca526078b9d90fedf02571
+    translation_source_fingerprint: 2dada06bcfe6ca4152d3d42677bff2200a4621a5948dc0775078923457a01a2e
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12231,7 +12231,7 @@ pages:
     translation_group: json.recipes-and-disassembly
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: f0e57fe37e00ec8a5783f145412fb540d18aaf6193ca526078b9d90fedf02571
+    translation_source_fingerprint: 2dada06bcfe6ca4152d3d42677bff2200a4621a5948dc0775078923457a01a2e
     prerequisites: []
     depends_on: []
     redirect_from: []
