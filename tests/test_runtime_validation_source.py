@@ -30,7 +30,8 @@ class RuntimeValidationSourceTests(unittest.TestCase):
             "https://github.com/CrimsonCrossBunker/"
             "Cataclysm-Cleanwater-Bomb/pull/574",
         )
-        self.assertEqual(config["command_timeout_seconds"], 600)
+        self.assertEqual(config["build_backend"], "cmake_headless")
+        self.assertEqual(config["command_timeout_seconds"], 300)
 
     def test_short_source_commit_is_rejected(self) -> None:
         config = yaml.safe_load(CONFIG_PATH.read_text(encoding="utf-8"))
@@ -65,6 +66,18 @@ class RuntimeValidationSourceTests(unittest.TestCase):
             with self.assertRaisesRegex(
                 RuntimeValidationSourceError,
                 "less than the minimum of 300",
+            ):
+                load_source_config(path)
+
+    def test_interactive_build_backend_is_rejected(self) -> None:
+        config = yaml.safe_load(CONFIG_PATH.read_text(encoding="utf-8"))
+        config["build_backend"] = "make_curses"
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "runtime-example-validation.yml"
+            path.write_text(yaml.safe_dump(config), encoding="utf-8")
+            with self.assertRaisesRegex(
+                RuntimeValidationSourceError,
+                "cmake_headless.*was expected",
             ):
                 load_source_config(path)
 

@@ -356,9 +356,12 @@ def validate_runtime_example_workflow(
         errors.append(f"{name}: runtime source resolver needs a stable step id")
     for token in (
         "resolve_runtime_validation_source.py --print-source-commit",
+        "--print-build-backend",
         "--print-command-timeout-seconds",
         "^[0-9a-f]{40}$",
+        '[[ "$build_backend" != "cmake_headless" ]]',
         'echo "commit=$commit" >> "$GITHUB_OUTPUT"',
+        'echo "build_backend=$build_backend" >> "$GITHUB_OUTPUT"',
         'echo "command_timeout_seconds=$command_timeout_seconds" >> "$GITHUB_OUTPUT"',
     ):
         if token not in resolve_run:
@@ -380,35 +383,39 @@ def validate_runtime_example_workflow(
         if sparse_key in ccb_with:
             errors.append(f"{name}: CCB build checkout must be full, not {sparse_key}")
 
-    install_run = str(
-        named_steps.get("Install the minimal curses build dependency", {}).get("run", "")
-    )
-    expected_install = (
-        "sudo apt-get install --no-install-recommends --yes libncursesw5-dev"
-    )
-    if expected_install not in install_run:
-        errors.append(f"{name}: minimal curses dependency installation changed")
-    for unnecessary in ("gettext", "libsdl", "ccache"):
-        if unnecessary in install_run.lower():
-            errors.append(f"{name}: curses build installs unnecessary {unnecessary}")
-
     build_run = str(
-        named_steps.get("Build the release curses executable with Lua enabled", {}).get(
+        named_steps.get("Build the release headless executable with Lua enabled", {}).get(
             "run", ""
         )
     )
     for flag in (
-        "RELEASE=1",
-        "TESTS=0",
-        "LOCALIZE=0",
-        "TILES=0",
-        "SOUND=0",
-        "CATA_ENABLE_LUA_UI=1",
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DHEADLESS=ON",
+        "-DCURSES=OFF",
+        "-DTILES=OFF",
+        "-DSOUND=OFF",
+        "-DLOCALIZE=OFF",
+        "-DTESTS=OFF",
+        "-DCATA_ENABLE_LUA_UI=ON",
+        "-DUSE_PREFIX_DATA_DIR=OFF",
+        "-DCATA_CCACHE=OFF",
     ):
         if flag not in build_run:
-            errors.append(f"{name}: CCB build is missing {flag}")
-    if "set -o pipefail" not in build_run or "tee .build/logs/ccb-build.log" not in build_run:
-        errors.append(f"{name}: CCB build log must preserve the make exit status")
+            errors.append(f"{name}: headless CCB build is missing {flag}")
+    for token in (
+        'cmake -S "$CCB_SOURCE_DIR" -B "$CCB_BUILD_DIR"',
+        'cmake --build "$CCB_BUILD_DIR"',
+        "--target cataclysm",
+        "--parallel 2",
+        "tee .build/logs/ccb-configure.log",
+        "tee .build/logs/ccb-build.log",
+        'test -x "$CCB_RUNTIME_BINARY"',
+        "set -euo pipefail",
+    ):
+        if token not in build_run:
+            errors.append(f"{name}: headless CCB build is missing {token}")
+    if "make -C" in build_run or "libncurses" in raw:
+        errors.append(f"{name}: runtime validation must not use the curses backend")
 
     stage_run = str(
         named_steps.get("Install both maintained examples as user Mods", {}).get("run", "")
@@ -429,7 +436,7 @@ def validate_runtime_example_workflow(
         "timeout --signal=TERM --kill-after=15s",
         '"${RUNTIME_COMMAND_TIMEOUT_SECONDS}s"',
         "stdbuf -oL -eL",
-        '"$CCB_SOURCE_DIR/cataclysm"',
+        '"$CCB_RUNTIME_BINARY"',
         '--datadir "$CCB_SOURCE_DIR/data/"',
         '--userdir "$CCB_RUNTIME_USER_DIR/"',
         '--check-mods "$@"',

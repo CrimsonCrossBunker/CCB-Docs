@@ -108,8 +108,20 @@ class MaintenanceWorkflowTests(unittest.TestCase):
         )
         self.assertNotIn('--github-token "${{ github.token }}"', source)
 
-    def test_runtime_example_workflow_builds_and_loads_both_examples(self) -> None:
+    def test_runtime_example_workflow_builds_headless_and_loads_both_examples(self) -> None:
         self.assertEqual(validate_runtime_example_workflow(), [])
+
+    def test_runtime_example_policy_rejects_the_interactive_curses_backend(self) -> None:
+        source = (ROOT / ".github/workflows/runtime-example-mods.yml").read_text(
+            encoding="utf-8"
+        )
+        source = source.replace("-DHEADLESS=ON", "-DHEADLESS=OFF")
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "runtime-example-mods.yml"
+            path.write_text(source, encoding="utf-8")
+            errors = validate_runtime_example_workflow(path)
+
+        self.assertTrue(any("headless CCB build" in error for error in errors), errors)
 
     def test_runtime_example_policy_rejects_an_unpinned_ccb_checkout(self) -> None:
         source = (ROOT / ".github/workflows/runtime-example-mods.yml").read_text(

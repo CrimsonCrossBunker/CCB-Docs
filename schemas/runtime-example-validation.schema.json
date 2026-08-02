@@ -9,6 +9,7 @@
     "source_repository",
     "source_commit",
     "pending_source_pr",
+    "build_backend",
     "command_timeout_seconds",
     "validator_paths",
     "examples"
@@ -27,6 +28,9 @@
     "pending_source_pr": {
       "type": "string",
       "pattern": "^https://github\\.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/[1-9][0-9]*$"
+    },
+    "build_backend": {
+      "const": "cmake_headless"
     },
     "command_timeout_seconds": {
       "type": "integer",

@@ -26,6 +26,8 @@ jobs:
     timeout-minutes: 120
     env:
       CCB_SOURCE_DIR: .source/ccb
+      CCB_BUILD_DIR: .build/ccb-headless
+      CCB_RUNTIME_BINARY: .build/ccb-headless/src/cataclysm
       CCB_RUNTIME_USER_DIR: .build/runtime-user
     steps:
       - name: Check out CCB-Docs
@@ -51,6 +53,14 @@ jobs:
             echo "Invalid CCB source commit: $commit" >&2
             exit 1
           fi
+          build_backend="$(
+            uv run python scripts/resolve_runtime_validation_source.py \
+              --print-build-backend
+          )"
+          if [[ "$build_backend" != "cmake_headless" ]]; then
+            echo "Unsupported runtime build backend: $build_backend" >&2
+            exit 1
+          fi
           command_timeout_seconds="$(
             uv run python scripts/resolve_runtime_validation_source.py \
               --print-command-timeout-seconds
@@ -60,6 +70,7 @@ jobs:
             exit 1
           fi
           echo "commit=$commit" >> "$GITHUB_OUTPUT"
+          echo "build_backend=$build_backend" >> "$GITHUB_OUTPUT"
           echo "command_timeout_seconds=$command_timeout_seconds" >> "$GITHUB_OUTPUT"
 
       - name: Check out the pinned full CCB source
@@ -71,25 +82,28 @@ jobs:
           fetch-depth: 1
           persist-credentials: false
 
-      - name: Install the minimal curses build dependency
-        run: |
-          sudo apt-get update
-          sudo apt-get install --no-install-recommends --yes libncursesw5-dev
-
-      - name: Build the release curses executable with Lua enabled
+      - name: Build the release headless executable with Lua enabled
         shell: bash
         run: |
-          set -o pipefail
+          set -euo pipefail
           mkdir -p .build/logs
-          make -C "$CCB_SOURCE_DIR" -j2 \
-            RELEASE=1 \
-            TESTS=0 \
-            LOCALIZE=0 \
-            TILES=0 \
-            SOUND=0 \
-            CATA_ENABLE_LUA_UI=1 \
+          cmake -S "$CCB_SOURCE_DIR" -B "$CCB_BUILD_DIR" \
+            -DCMAKE_BUILD_TYPE=Release \
+            -DHEADLESS=ON \
+            -DCURSES=OFF \
+            -DTILES=OFF \
+            -DSOUND=OFF \
+            -DLOCALIZE=OFF \
+            -DTESTS=OFF \
+            -DCATA_ENABLE_LUA_UI=ON \
+            -DUSE_PREFIX_DATA_DIR=OFF \
+            -DCATA_CCACHE=OFF \
+            2>&1 | tee .build/logs/ccb-configure.log
+          cmake --build "$CCB_BUILD_DIR" \
+            --target cataclysm \
+            --parallel 2 \
             2>&1 | tee .build/logs/ccb-build.log
-          test -x "$CCB_SOURCE_DIR/cataclysm"
+          test -x "$CCB_RUNTIME_BINARY"
 
       - name: Install both maintained examples as user Mods
         shell: bash
@@ -115,7 +129,7 @@ jobs:
             printf 'Starting runtime validation: %s\n' "$*"
             timeout --signal=TERM --kill-after=15s \
               "${RUNTIME_COMMAND_TIMEOUT_SECONDS}s" \
-              stdbuf -oL -eL "$CCB_SOURCE_DIR/cataclysm" \
+              stdbuf -oL -eL "$CCB_RUNTIME_BINARY" \
               --datadir "$CCB_SOURCE_DIR/data/" \
               --userdir "$CCB_RUNTIME_USER_DIR/" \
               --check-mods "$@" \
