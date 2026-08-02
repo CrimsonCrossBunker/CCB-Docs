@@ -1,10 +1,11 @@
 schema_version: 1
 source_repository: CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit: 747ca16a46e804986894ba9cd4c266b67c2ce124
+source_commit: beedf1063d7fdf3edcc74b596a96bef00c44c836
 pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/574
 build_backend: cmake_headless
 command_timeout_seconds: 300
 validator_paths:
+  - src/CMakeLists.txt
   - src/catalua_ui.cpp
   - src/catalua_ui.h
   - src/catalua_ui_disabled.cpp
@@ -12,6 +13,8 @@ validator_paths:
   - src/main.cpp
   - tests/catalua_ui_test.cpp
   - tests/catalua_ui_disabled_test.cpp
+  - tools/lua_api/check_cmake_contract.py
+  - tools/lua_api/test_check_cmake_contract.py
 examples:
   - ccb_lua_v5_example
   - ccb_docs_json_eoc_example

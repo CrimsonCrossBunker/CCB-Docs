@@ -43,7 +43,7 @@
       "uniqueItems": true,
       "items": {
         "type": "string",
-        "pattern": "^(src|tests)/[^/].*"
+        "pattern": "^(src|tests|tools/lua_api)/[^/].*"
       }
     },
     "examples": {
