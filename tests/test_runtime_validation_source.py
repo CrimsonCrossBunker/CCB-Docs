@@ -30,6 +30,7 @@ class RuntimeValidationSourceTests(unittest.TestCase):
             "https://github.com/CrimsonCrossBunker/"
             "Cataclysm-Cleanwater-Bomb/pull/574",
         )
+        self.assertEqual(config["command_timeout_seconds"], 600)
 
     def test_short_source_commit_is_rejected(self) -> None:
         config = yaml.safe_load(CONFIG_PATH.read_text(encoding="utf-8"))
@@ -52,6 +53,18 @@ class RuntimeValidationSourceTests(unittest.TestCase):
             with self.assertRaisesRegex(
                 RuntimeValidationSourceError,
                 "missing maintained examples",
+            ):
+                load_source_config(path)
+
+    def test_timeout_too_short_for_observed_static_loading_is_rejected(self) -> None:
+        config = yaml.safe_load(CONFIG_PATH.read_text(encoding="utf-8"))
+        config["command_timeout_seconds"] = 120
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "runtime-example-validation.yml"
+            path.write_text(yaml.safe_dump(config), encoding="utf-8")
+            with self.assertRaisesRegex(
+                RuntimeValidationSourceError,
+                "less than the minimum of 300",
             ):
                 load_source_config(path)
 

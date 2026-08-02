@@ -356,8 +356,10 @@ def validate_runtime_example_workflow(
         errors.append(f"{name}: runtime source resolver needs a stable step id")
     for token in (
         "resolve_runtime_validation_source.py --print-source-commit",
+        "--print-command-timeout-seconds",
         "^[0-9a-f]{40}$",
         'echo "commit=$commit" >> "$GITHUB_OUTPUT"',
+        'echo "command_timeout_seconds=$command_timeout_seconds" >> "$GITHUB_OUTPUT"',
     ):
         if token not in resolve_run:
             errors.append(f"{name}: source resolver is missing {token}")
@@ -424,19 +426,20 @@ def validate_runtime_example_workflow(
         named_steps.get("Execute positive and negative runtime examples", {}).get("run", "")
     )
     for token in (
-        "timeout --signal=TERM --kill-after=15s 2m",
+        "timeout --signal=TERM --kill-after=15s",
+        '"${RUNTIME_COMMAND_TIMEOUT_SECONDS}s"',
         "stdbuf -oL -eL",
         '"$CCB_SOURCE_DIR/cataclysm"',
         '--datadir "$CCB_SOURCE_DIR/data/"',
         '--userdir "$CCB_RUNTIME_USER_DIR/"',
-        '--check-mods "$mod_id"',
-        "run_mod_check ccb_lua_v5_example lua-positive-initial",
+        '--check-mods "$@"',
         'error("validation execution sentinel")',
-        "if run_mod_check ccb_lua_v5_example lua-negative-sentinel; then",
+        "if run_mod_check lua-negative-sentinel ccb_lua_v5_example; then",
         'grep -F "validation execution sentinel"',
         'cp "$original_lua_main" "$lua_main"',
-        "run_mod_check ccb_lua_v5_example lua-positive-restored",
-        "run_mod_check ccb_docs_json_eoc_example json-eoc-positive",
+        "run_mod_check examples-positive",
+        "ccb_docs_json_eoc_example",
+        "trap - EXIT",
         "set -o pipefail",
     ):
         if token not in load_run:

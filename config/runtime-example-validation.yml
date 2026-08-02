@@ -2,6 +2,7 @@ schema_version: 1
 source_repository: CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
 source_commit: 747ca16a46e804986894ba9cd4c266b67c2ce124
 pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/574
+command_timeout_seconds: 600
 validator_paths:
   - src/catalua_ui.cpp
   - src/catalua_ui.h
@@ -13,4 +14,3 @@ validator_paths:
 examples:
   - ccb_lua_v5_example
   - ccb_docs_json_eoc_example
-

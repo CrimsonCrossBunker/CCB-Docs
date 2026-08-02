@@ -105,7 +105,7 @@ class MaintenanceWorkflowTests(unittest.TestCase):
             encoding="utf-8"
         )
         source = source.replace(
-            "timeout --signal=TERM --kill-after=15s 2m \\",
+            '"${RUNTIME_COMMAND_TIMEOUT_SECONDS}s" \\',
             "true \\",
         )
         with tempfile.TemporaryDirectory() as directory:
