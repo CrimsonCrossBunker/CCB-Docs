@@ -4450,7 +4450,7 @@ pages:
     translation_group: content.manual-of-style
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: b90e07f6ec2d8609a94ef4aa7c2dea391d7981659edda09b16ff3a3a0527d3b4
+    translation_source_fingerprint: d2550467f91a84da52043429140933d24147604b39d5c2925cc93bf08e0623cc
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4505,7 +4505,7 @@ pages:
     translation_group: content.manual-of-style
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: b90e07f6ec2d8609a94ef4aa7c2dea391d7981659edda09b16ff3a3a0527d3b4
+    translation_source_fingerprint: d2550467f91a84da52043429140933d24147604b39d5c2925cc93bf08e0623cc
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4561,7 +4561,7 @@ pages:
     translation_group: contributing.json-style
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: bf96ff26d36242fdb711d35b0c4bb1fff835719664f32d0826d21451d423c27d
+    translation_source_fingerprint: 1217a7b510c5862ccca3162875cf50edadd3016bac08f932abf30fcd9e67cfeb
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4617,7 +4617,7 @@ pages:
     translation_group: contributing.json-style
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: bf96ff26d36242fdb711d35b0c4bb1fff835719664f32d0826d21451d423c27d
+    translation_source_fingerprint: 1217a7b510c5862ccca3162875cf50edadd3016bac08f932abf30fcd9e67cfeb
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4671,7 +4671,7 @@ pages:
     translation_group: pr-review-guide
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 93af225f31942c6268a6674dc2b33d069ebd17289538fc6a4d863b25e2657b76
+    translation_source_fingerprint: e360a3cc0be225a07bdd7b01db1c5bc0a0bbffd4e5a1fbd4b01d8d7d806f4864
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4725,7 +4725,7 @@ pages:
     translation_group: pr-review-guide
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 93af225f31942c6268a6674dc2b33d069ebd17289538fc6a4d863b25e2657b76
+    translation_source_fingerprint: e360a3cc0be225a07bdd7b01db1c5bc0a0bbffd4e5a1fbd4b01d8d7d806f4864
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7889,7 +7889,7 @@ pages:
     translation_group: maintainers.issue-triage
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 307208f855d7e7a5a05088d07b2b486e6b2d423fe3559101812aab3e7b2bb00f
+    translation_source_fingerprint: 032d1d53704a4bb6adc1bf7f5888d6a495870c40fd656df4adf6b95ad81ab3bf
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7945,7 +7945,7 @@ pages:
     translation_group: maintainers.issue-triage
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 307208f855d7e7a5a05088d07b2b486e6b2d423fe3559101812aab3e7b2bb00f
+    translation_source_fingerprint: 032d1d53704a4bb6adc1bf7f5888d6a495870c40fd656df4adf6b95ad81ab3bf
     prerequisites: []
     depends_on: []
     redirect_from: []
