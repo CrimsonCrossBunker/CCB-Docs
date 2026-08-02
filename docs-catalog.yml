@@ -8914,7 +8914,7 @@ pages:
     translation_group: json.basecamp
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: d1e6044ecff38233a49e7edec0d485b5d39706535ecdfe218ec540fdb99e188e
+    translation_source_fingerprint: a4989f925e69f00347e77d011cdc91b1e9f99bd556db5080dfeb959791e6cd38
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8973,7 +8973,7 @@ pages:
     translation_group: json.basecamp
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: d1e6044ecff38233a49e7edec0d485b5d39706535ecdfe218ec540fdb99e188e
+    translation_source_fingerprint: a4989f925e69f00347e77d011cdc91b1e9f99bd556db5080dfeb959791e6cd38
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9140,7 +9140,7 @@ pages:
     translation_group: json.dimensions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: bbac043107bcfe566ecc44e8065aaa56d6d48d4124b8a9f3096fb99433ce9b65
+    translation_source_fingerprint: 928283bb929b7589913ae7ec125be2cc59e96005a2a584ee362bcb9e17bcc946
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9197,7 +9197,7 @@ pages:
     translation_group: json.dimensions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: bbac043107bcfe566ecc44e8065aaa56d6d48d4124b8a9f3096fb99433ce9b65
+    translation_source_fingerprint: 928283bb929b7589913ae7ec125be2cc59e96005a2a584ee362bcb9e17bcc946
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12286,7 +12286,7 @@ pages:
     translation_group: json.region-layout
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 1c194e366ba74060d8a07fb8da9cc25a62468731e3176a6d1e7be310b84706d5
+    translation_source_fingerprint: d4a59858692a366fa16eae7151cee644e8288a7c19714cd8dc2a6134a456faae
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12341,7 +12341,7 @@ pages:
     translation_group: json.region-layout
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 1c194e366ba74060d8a07fb8da9cc25a62468731e3176a6d1e7be310b84706d5
+    translation_source_fingerprint: d4a59858692a366fa16eae7151cee644e8288a7c19714cd8dc2a6134a456faae
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12747,7 +12747,7 @@ pages:
     translation_group: json.vehicle-prototypes
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: b1e1df03847d61e298ce96ac0a9cdf272ada700cecc7c9125dc91d8347e830db
+    translation_source_fingerprint: 6b949b68d4dadd089a45559bd18125da4526795d152e18d47408841155461611
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12805,7 +12805,7 @@ pages:
     translation_group: json.vehicle-prototypes
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: b1e1df03847d61e298ce96ac0a9cdf272ada700cecc7c9125dc91d8347e830db
+    translation_source_fingerprint: 6b949b68d4dadd089a45559bd18125da4526795d152e18d47408841155461611
     prerequisites: []
     depends_on: []
     redirect_from: []

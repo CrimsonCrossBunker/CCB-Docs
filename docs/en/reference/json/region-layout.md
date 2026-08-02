@@ -34,7 +34,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 1c194e366ba74060d8a07fb8da9cc25a62468731e3176a6d1e7be310b84706d5
+translation_source_fingerprint: d4a59858692a366fa16eae7151cee644e8288a7c19714cd8dc2a6134a456faae
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -89,6 +89,35 @@ This is the migration draft page for `json.region-layout`. It records **1** froz
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Dimension region layouts
+
+`dimension_region_layout` selects the `region_settings` used by overmaps in a dimension. Its loader
+requires `generation_mode`, but the pinned CCB switch creates a generator only for `UNIFORM`.
+Appearance in a JSON enum or header does not make another mode usable.
+
+### Currently supported mode
+
+`UNIFORM` is dynamic and requires `uniform_region`. As each overmap is first requested, its generator
+maps that coordinate to the same region. All current first-party entries in
+`dimension_regions.json` also use this mode.
+
+The header retains MANUAL_VORONOI, RANDOM, EIGHTHS, static-layout types, and part of their base
+infrastructure, but the loader has no corresponding cases. Do not publish Mods using those values or
+treat unwired `generated_bounds_*` and `layout_out_of_bounds` fields as public JSON contracts. A new
+mode needs deserialization, a generator, factory finalization and checks, and tests—not only an enum
+value.
+
+### ID chain and validation
+
+The layout's `uniform_region` must be valid region settings, and `dimension.region_layout` then
+references the layout. Inspect the complete dimension → layout → region settings → overmap
+generation chain.
+
+Run formatting, `make -j2 json-check`, and complete `--check-mods`, then create a new world or
+dimension and generate several overmaps. A new generator needs deterministic-seed, boundary, save
+reload, and invalid-ID fallback tests. Region-layout changes can alter newly generated worlds, so the
+PR must state their compatibility impact.
 
 ## History and attribution
 
