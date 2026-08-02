@@ -33,7 +33,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 287bf5af18673de852e2a03d95dc1e3df210116e59f0be069be43393076c7359
+translation_source_fingerprint: 8ad249321134dc5b3189832038bb4132d2841c6aecc9f58075a703889a0635bb
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -88,6 +88,42 @@ This is the migration draft page for `design-overview`. It records **1** frozen 
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## How to use design documentation
+
+Design documentation explains why CCB favors a kind of experience, which questions a proposal must
+answer, and which tradeoffs matter when systems conflict. It does not replace runtime, data-format,
+or governance authorities. Source and tests define concrete behavior; schemas, declarations,
+registrations, and generated inventories define JSON, Lua, and API contracts; current governance
+files define project decisions.
+
+### Minimum proposal structure
+
+1. **Problem:** describe the current player experience and a reproducible scenario before assuming
+   a solution.
+2. **Goals and non-goals:** state the desired outcome and the boundaries that will not change.
+3. **Current state:** list entry points, data ownership, lifecycle, tests, and CCB differences from
+   upstream.
+4. **Approach and alternatives:** compare player visibility, complexity, performance,
+   maintainability, and compatibility.
+5. **Migration risk:** inspect saves, mods, IDs, serialization, localization, platforms, and
+   generated content.
+6. **Acceptance:** provide runnable commands, scenarios, and rollback conditions.
+
+## Decision boundaries
+
+Numbers, file paths, people, and unimplemented mechanics in legacy design prose are historical
+context only. Revalidate them against the current default branch before carrying them into a new
+proposal. Resolve conflicting directions through Issues, pull requests, and the current maintainer
+governance process. No old statement by one person permanently overrides repository governance.
+
+## CCB and upstream
+
+Upstream material can explain shared history and portable approaches, but CCB has its own runtime
+differences, content direction, compatibility requirements, and governance. A proposal should name
+the source revision, compare both current implementations, and port only what still applies to CCB.
+If prose conflicts with a current contract, mark the page stale and repair the documentation rather
+than changing the implementation to fit an obsolete explanation.
 
 ## History and attribution
 
