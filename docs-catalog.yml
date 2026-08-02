@@ -8560,7 +8560,7 @@ pages:
     translation_group: eoc.reference
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 91a37b8413beefba55c8e53e5557e7db4ae2100b4ec2f467d3049cf8f383c712
+    translation_source_fingerprint: 5535dd152efecfd8e811300b442e7b3eb83eb7116388bbf5403f84742e2b27cf
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8619,7 +8619,7 @@ pages:
     translation_group: eoc.reference
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 91a37b8413beefba55c8e53e5557e7db4ae2100b4ec2f467d3049cf8f383c712
+    translation_source_fingerprint: 5535dd152efecfd8e811300b442e7b3eb83eb7116388bbf5403f84742e2b27cf
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8678,7 +8678,7 @@ pages:
     translation_group: json.npcs-dialogue
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: cf67a987c080d954bbd86810dcb20b259a21e20a23deea85866dcd5d4f1ae102
+    translation_source_fingerprint: 46d2d849a76bb94d7b5810402cd48481c3db124a0aaadac04c431cc51e79b107
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8738,7 +8738,7 @@ pages:
     translation_group: json.npcs-dialogue
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: cf67a987c080d954bbd86810dcb20b259a21e20a23deea85866dcd5d4f1ae102
+    translation_source_fingerprint: 46d2d849a76bb94d7b5810402cd48481c3db124a0aaadac04c431cc51e79b107
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9256,7 +9256,7 @@ pages:
     translation_group: json.effects
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 748ab60f7333c630953de4390b21360d6c2c63c9476f022407ecd953a6fba4bc
+    translation_source_fingerprint: 65911ff8b34e34ed2a9fb30b4415f300d00738c358f26a3b1348b381759d99e9
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9315,7 +9315,7 @@ pages:
     translation_group: json.effects
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 748ab60f7333c630953de4390b21360d6c2c63c9476f022407ecd953a6fba4bc
+    translation_source_fingerprint: 65911ff8b34e34ed2a9fb30b4415f300d00738c358f26a3b1348b381759d99e9
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10891,7 +10891,7 @@ pages:
     translation_group: json.missions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 3d96c7ef50e1a1276a385301bf4141ce624d6804502b3d366fbb081a3bac7b39
+    translation_source_fingerprint: 58c3fce4fdc81002571830451c34bfcbe12593713715ddb57b7714986e8e252e
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10949,7 +10949,7 @@ pages:
     translation_group: json.missions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 3d96c7ef50e1a1276a385301bf4141ce624d6804502b3d366fbb081a3bac7b39
+    translation_source_fingerprint: 58c3fce4fdc81002571830451c34bfcbe12593713715ddb57b7714986e8e252e
     prerequisites: []
     depends_on: []
     redirect_from: []
