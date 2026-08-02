@@ -12,6 +12,8 @@ authoritative in the CCB source repository.
 
 ```sh
 uv sync --frozen
+uv run python scripts/generate_lua_reference.py \
+  --source-repo /path/to/Cataclysm-Cleanwater-Bomb --check --require-luac
 uv run python scripts/generate_catalog.py --check
 uv run python scripts/check_catalog.py
 uv run python -m unittest discover -s tests -p 'test_*.py'
@@ -26,6 +28,13 @@ queries, and fingerprints:
 ```sh
 uv run python scripts/check_catalog.py --source-repo /path/to/Cataclysm-Cleanwater-Bomb
 ```
+
+Lua v5 generated reference bodies and
+`reports/lua-v5-reference-coverage.json` are owned by
+`scripts/generate_lua_reference.py`. The pinned source commit and PR live in
+`config/lua-reference-v5.yml`. While that source PR is pending, all 25 Lua
+document ids (50 language pages) remain drafts and are excluded from production
+navigation, search, and AI indexes.
 
 `docs-catalog.yml` v2 is the only manually maintained machine directory. It
 generates page front matter, navigation, `llms.txt`, `llms-full.txt`, JSON and

@@ -3,6 +3,3112 @@
   "generated_from": "docs-catalog.yml",
   "pages": [
     {
+      "id": "api.lua.v5.capabilities",
+      "title": "Declaring capabilities",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "game.actions.dangerous"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "7f006e3e9d2c5d2b02a4c2c83c46c8470ea1952d15614f277e23683c27e708e6",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [
+        "api.lua.v5.permissions",
+        "api.lua.v5.reference.capabilities"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/capabilities.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/"
+    },
+    {
+      "id": "api.lua.v5.capabilities",
+      "title": "Capability 声明",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "game.actions.dangerous"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "7f006e3e9d2c5d2b02a4c2c83c46c8470ea1952d15614f277e23683c27e708e6",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [
+        "api.lua.v5.permissions",
+        "api.lua.v5.reference.capabilities"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/capabilities.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/capabilities/"
+    },
+    {
+      "id": "api.lua.v5.changelog",
+      "title": "Lua API changelog",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "native_luals_callable_parity"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "39c073b18b6732436210edee27a6ab51c66015ee4864fd7f0c7173416ec41363",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [
+        "api.lua.v5.migration"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/changelog.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/changelog/"
+    },
+    {
+      "id": "api.lua.v5.changelog",
+      "title": "Lua API 变更记录",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "native_luals_callable_parity"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "39c073b18b6732436210edee27a6ab51c66015ee4864fd7f0c7173416ec41363",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [
+        "api.lua.v5.migration"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/changelog.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/changelog/"
+    },
+    {
+      "id": "api.lua.v5.debugging",
+      "title": "Lua debugging and contract validation",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "how-to",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "check_public_contract.py"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "f5953a3b1725321b7ef41ff313e9a5de3de53a5cd360c7322bbbb1e0cbcc8438",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [
+        "api.lua.v5.example-mod"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [
+        "lua-contract",
+        "lua-docs"
+      ],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/debugging.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/debugging/"
+    },
+    {
+      "id": "api.lua.v5.debugging",
+      "title": "Lua 调试与契约验证",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "how-to",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "check_public_contract.py"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "f5953a3b1725321b7ef41ff313e9a5de3de53a5cd360c7322bbbb1e0cbcc8438",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [
+        "api.lua.v5.example-mod"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [
+        "lua-contract",
+        "lua-docs"
+      ],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/debugging.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/debugging/"
+    },
+    {
+      "id": "api.lua.v5.events",
+      "title": "Events, hooks, and callbacks",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "game.native_events"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "c5889f704d092b0f46fdbdd8d00c81ebf6e80985b50a1fcb935f1a4814f2ca12",
+      "prerequisites": [
+        "api.lua.v5.lifecycle"
+      ],
+      "depends_on": [
+        "api.lua.v5.reference.events",
+        "api.lua.v5.reference.hooks",
+        "api.lua.v5.reference.callbacks"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/events.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/events/"
+    },
+    {
+      "id": "api.lua.v5.events",
+      "title": "事件、Hook 与 Callback",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "game.native_events"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "c5889f704d092b0f46fdbdd8d00c81ebf6e80985b50a1fcb935f1a4814f2ca12",
+      "prerequisites": [
+        "api.lua.v5.lifecycle"
+      ],
+      "depends_on": [
+        "api.lua.v5.reference.events",
+        "api.lua.v5.reference.hooks",
+        "api.lua.v5.reference.callbacks"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/events.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/events/"
+    },
+    {
+      "id": "api.lua.v5.example-mod",
+      "title": "Complete Lua API v5 example Mod",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "tutorial",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/manifest.schema.json",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/examples/api_v5_mod/README.md",
+        "data/lua/examples/api_v5_mod/modinfo.json",
+        "data/lua/examples/api_v5_mod/lua/manifest.json",
+        "data/lua/examples/api_v5_mod/lua/main.lua",
+        "data/lua/examples/api_v5_mod/lua/lib/model.lua"
+      ],
+      "source_symbols": [
+        "ccb_lua_v5_example"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "760ad6bc15b888720ee8d0bbd95475e4ae45550612f42acc93f79e80b82a64c3",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "0603a0303d31c9237a97a48ddf3abdb1b146c842f0f77e81324dc2ba2c215475",
+      "prerequisites": [
+        "api.lua.v5.overview",
+        "api.lua.v5.capabilities"
+      ],
+      "depends_on": [
+        "api.lua.v5.ui",
+        "api.lua.v5.events"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/example-mod.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/example-mod/"
+    },
+    {
+      "id": "api.lua.v5.example-mod",
+      "title": "完整 Lua API v5 示例 Mod",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "tutorial",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/manifest.schema.json",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/examples/api_v5_mod/README.md",
+        "data/lua/examples/api_v5_mod/modinfo.json",
+        "data/lua/examples/api_v5_mod/lua/manifest.json",
+        "data/lua/examples/api_v5_mod/lua/main.lua",
+        "data/lua/examples/api_v5_mod/lua/lib/model.lua"
+      ],
+      "source_symbols": [
+        "ccb_lua_v5_example"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "760ad6bc15b888720ee8d0bbd95475e4ae45550612f42acc93f79e80b82a64c3",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "0603a0303d31c9237a97a48ddf3abdb1b146c842f0f77e81324dc2ba2c215475",
+      "prerequisites": [
+        "api.lua.v5.overview",
+        "api.lua.v5.capabilities"
+      ],
+      "depends_on": [
+        "api.lua.v5.ui",
+        "api.lua.v5.events"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/example-mod.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/example-mod/"
+    },
+    {
+      "id": "api.lua.v5.lifecycle",
+      "title": "Lua sources and lifecycle",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "ccb.lifecycle.reload"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "ac95dbf6b61cdeb4e9f921e901cce7c75c662e5162301423b88843b2b1176b0b",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [
+        "api.lua.v5.capabilities"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/lifecycle.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/lifecycle/"
+    },
+    {
+      "id": "api.lua.v5.lifecycle",
+      "title": "Lua 来源与生命周期",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "ccb.lifecycle.reload"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "ac95dbf6b61cdeb4e9f921e901cce7c75c662e5162301423b88843b2b1176b0b",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [
+        "api.lua.v5.capabilities"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/lifecycle.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/lifecycle/"
+    },
+    {
+      "id": "api.lua.v5.migration",
+      "title": "Migrating to Lua API v5",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "how-to",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "game.state_get"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "c8a8f098d63c7f79ce5c0ab4a7464e05da60693906e8a2215cfc398aecd0e3e8",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [
+        "api.lua.v5.capabilities",
+        "api.lua.v5.lifecycle",
+        "api.lua.v5.ui"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/migration.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/migration/"
+    },
+    {
+      "id": "api.lua.v5.migration",
+      "title": "迁移到 Lua API v5",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "how-to",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "game.state_get"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "c8a8f098d63c7f79ce5c0ab4a7464e05da60693906e8a2215cfc398aecd0e3e8",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [
+        "api.lua.v5.capabilities",
+        "api.lua.v5.lifecycle",
+        "api.lua.v5.ui"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/migration.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/migration/"
+    },
+    {
+      "id": "api.lua.v5.overview",
+      "title": "Lua API v5 overview",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "Lua Mod API v5"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "dfef84a47a5a3b5ced5529956431c598a4dc1b404dd6461699079e9076e1fc94",
+      "prerequisites": [
+        "architecture.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/overview.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/overview/"
+    },
+    {
+      "id": "api.lua.v5.overview",
+      "title": "Lua API v5 总览",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "Lua Mod API v5"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "dfef84a47a5a3b5ced5529956431c598a4dc1b404dd6461699079e9076e1fc94",
+      "prerequisites": [
+        "architecture.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/overview.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/overview/"
+    },
+    {
+      "id": "api.lua.v5.performance",
+      "title": "Lua performance and resource bounds",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "callback_time_total_us"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "8eac9b8b799105af96a709f068d936b1590c6986f0c735b31d9fa53323d4e233",
+      "prerequisites": [
+        "api.lua.v5.ui",
+        "api.lua.v5.lifecycle"
+      ],
+      "depends_on": [
+        "api.lua.v5.debugging"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/performance.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/performance/"
+    },
+    {
+      "id": "api.lua.v5.performance",
+      "title": "Lua 性能与资源边界",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "callback_time_total_us"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "8eac9b8b799105af96a709f068d936b1590c6986f0c735b31d9fa53323d4e233",
+      "prerequisites": [
+        "api.lua.v5.ui",
+        "api.lua.v5.lifecycle"
+      ],
+      "depends_on": [
+        "api.lua.v5.debugging"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/performance.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/performance/"
+    },
+    {
+      "id": "api.lua.v5.permissions",
+      "title": "Permission and trust model",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "capability-gating"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "97e992a62f3f105811f0d23a9fdbeac395bb0c6d73ff166b944e26578916a06f",
+      "prerequisites": [
+        "api.lua.v5.capabilities"
+      ],
+      "depends_on": [
+        "api.lua.v5.reference.permissions"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/permissions.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/permissions/"
+    },
+    {
+      "id": "api.lua.v5.permissions",
+      "title": "权限与信任模型",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "capability-gating"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "97e992a62f3f105811f0d23a9fdbeac395bb0c6d73ff166b944e26578916a06f",
+      "prerequisites": [
+        "api.lua.v5.capabilities"
+      ],
+      "depends_on": [
+        "api.lua.v5.reference.permissions"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/permissions.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/permissions/"
+    },
+    {
+      "id": "api.lua.v5.reference.callbacks",
+      "title": "Callback actors",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.callback.bionic.on_activate"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "b708c607d2976bd716f2afd07d51e8f5a770a0cbfce42f83c86d1b37c568a26a",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/callbacks.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/callbacks/"
+    },
+    {
+      "id": "api.lua.v5.reference.callbacks",
+      "title": "回调 Actor 参考",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.callback.bionic.on_activate"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "b708c607d2976bd716f2afd07d51e8f5a770a0cbfce42f83c86d1b37c568a26a",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/callbacks.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/callbacks/"
+    },
+    {
+      "id": "api.lua.v5.reference.capabilities",
+      "title": "Capabilities",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.capability.events"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "85a7ba96583da2470ca95aadc98f29b6f074b1352f849aeeeb6430b4eaf7f3d8",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/capabilities.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/capabilities/"
+    },
+    {
+      "id": "api.lua.v5.reference.capabilities",
+      "title": "Capability 参考",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.capability.events"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "85a7ba96583da2470ca95aadc98f29b6f074b1352f849aeeeb6430b4eaf7f3d8",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/capabilities.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/capabilities/"
+    },
+    {
+      "id": "api.lua.v5.reference.classes",
+      "title": "Classes and records",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.class.CcbAchievementDefinition"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "a4c856d15a6625f50dee108107e46acc72398686a1aa9fc392df97799e3e63b5",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/classes.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/classes/"
+    },
+    {
+      "id": "api.lua.v5.reference.classes",
+      "title": "类与记录参考",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.class.CcbAchievementDefinition"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "a4c856d15a6625f50dee108107e46acc72398686a1aa9fc392df97799e3e63b5",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/classes.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/classes/"
+    },
+    {
+      "id": "api.lua.v5.reference.enums",
+      "title": "Enum families",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.enum.ActionId"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "812ba0d5975d5b1e410e170040a2b462059a94ad8731b5c298a17f291eb4ba00",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/enums.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/enums/"
+    },
+    {
+      "id": "api.lua.v5.reference.enums",
+      "title": "枚举族参考",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.enum.ActionId"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "812ba0d5975d5b1e410e170040a2b462059a94ad8731b5c298a17f291eb4ba00",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/enums.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/enums/"
+    },
+    {
+      "id": "api.lua.v5.reference.events",
+      "title": "Native events",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.event.activates_artifact"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "26daa815ba4585b5b9cfaa2233232961a9233a56399d087d9baec73bfef0b346",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/events.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/events/"
+    },
+    {
+      "id": "api.lua.v5.reference.events",
+      "title": "原生事件参考",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.event.activates_artifact"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "26daa815ba4585b5b9cfaa2233232961a9233a56399d087d9baec73bfef0b346",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/events.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/events/"
+    },
+    {
+      "id": "api.lua.v5.reference.functions",
+      "title": "Functions",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.function.events.describe_native"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "658746989fef14aa79f917ce3d55b8886ce5b47e256f2781a9fbc2c2d767aabb",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/functions.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/functions/"
+    },
+    {
+      "id": "api.lua.v5.reference.functions",
+      "title": "函数参考",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.function.events.describe_native"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "658746989fef14aa79f917ce3d55b8886ce5b47e256f2781a9fbc2c2d767aabb",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/functions.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/functions/"
+    },
+    {
+      "id": "api.lua.v5.reference.hooks",
+      "title": "Native hooks",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.hook.on_character_death"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "4c90f5d67841841a765cc72c3d70928937d1b635aa43722ba10680329e97e918",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/hooks.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/hooks/"
+    },
+    {
+      "id": "api.lua.v5.reference.hooks",
+      "title": "原生 Hook 参考",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.hook.on_character_death"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "4c90f5d67841841a765cc72c3d70928937d1b635aa43722ba10680329e97e918",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/hooks.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/hooks/"
+    },
+    {
+      "id": "api.lua.v5.reference.manifest-fields",
+      "title": "Manifest fields",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.manifest-field.schema"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "e06e9dfc32890f9f786eccde482b539a34ec61fcd05837c57fce744b80727f44",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/manifest-fields.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/manifest-fields/"
+    },
+    {
+      "id": "api.lua.v5.reference.manifest-fields",
+      "title": "Manifest 字段参考",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.manifest-field.schema"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "e06e9dfc32890f9f786eccde482b539a34ec61fcd05837c57fce744b80727f44",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/manifest-fields.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/manifest-fields/"
+    },
+    {
+      "id": "api.lua.v5.reference.methods",
+      "title": "Methods",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.method.GameHandle.is_valid"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "d521b0e1796c6390215fe39ee0ca8beb33f0cf7add10224473174aafe86606fe",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/methods.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/methods/"
+    },
+    {
+      "id": "api.lua.v5.reference.methods",
+      "title": "方法参考",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.method.GameHandle.is_valid"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "d521b0e1796c6390215fe39ee0ca8beb33f0cf7add10224473174aafe86606fe",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/methods.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/methods/"
+    },
+    {
+      "id": "api.lua.v5.reference.modules",
+      "title": "Module entry points",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.module.require"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "61d78a2173790fb5374fa92c1f71bd44b09e34c9d83d994bcb8274259fd355d8",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/modules.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/modules/"
+    },
+    {
+      "id": "api.lua.v5.reference.modules",
+      "title": "模块入口参考",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.module.require"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "61d78a2173790fb5374fa92c1f71bd44b09e34c9d83d994bcb8274259fd355d8",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/modules.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/modules/"
+    },
+    {
+      "id": "api.lua.v5.reference.namespaces",
+      "title": "Namespaces",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.namespace.events"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "324ea413950d3e685eba7fb4698bf00e6caf92686a0524dc7fa1e8d554375023",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/namespaces.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/namespaces/"
+    },
+    {
+      "id": "api.lua.v5.reference.namespaces",
+      "title": "命名空间参考",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.namespace.events"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "324ea413950d3e685eba7fb4698bf00e6caf92686a0524dc7fa1e8d554375023",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/namespaces.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/namespaces/"
+    },
+    {
+      "id": "api.lua.v5.reference.operators",
+      "title": "Operators",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.operator.GameEnum.__eq"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "0b3d4a97d1c9ced8b827f88b5961a5fc7cf1b82f387fe93b5423e729bb579cbe",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/operators.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/operators/"
+    },
+    {
+      "id": "api.lua.v5.reference.operators",
+      "title": "运算符参考",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.operator.GameEnum.__eq"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "0b3d4a97d1c9ced8b827f88b5961a5fc7cf1b82f387fe93b5423e729bb579cbe",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/operators.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/operators/"
+    },
+    {
+      "id": "api.lua.v5.reference.permissions",
+      "title": "Permission model",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "capability-gating"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "09b6adff457fdf3d7d91abe83a76ee2e25a124f479f4cd28840f477c1bacf6f5",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/permissions.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/permissions/"
+    },
+    {
+      "id": "api.lua.v5.reference.permissions",
+      "title": "权限模型参考",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "capability-gating"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "09b6adff457fdf3d7d91abe83a76ee2e25a124f479f4cd28840f477c1bacf6f5",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/permissions.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/permissions/"
+    },
+    {
+      "id": "api.lua.v5.reference.properties",
+      "title": "Properties",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.property.GameEnum.kind"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "790b58c963e8024fd0b15e29436f1ec2919e93bf3b9414845579c2078584bd66",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/properties.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/properties/"
+    },
+    {
+      "id": "api.lua.v5.reference.properties",
+      "title": "属性参考",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "generated-api",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json"
+      ],
+      "source_symbols": [
+        "api.lua.v5.generated.property.GameEnum.kind"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": true,
+      "generated_by": "scripts/generate_lua_reference.py",
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "790b58c963e8024fd0b15e29436f1ec2919e93bf3b9414845579c2078584bd66",
+      "prerequisites": [
+        "api.lua.v5.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Generated from the CCB Lua v5 public contract at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/reference/properties.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/properties/"
+    },
+    {
+      "id": "api.lua.v5.ui",
+      "title": "Portable Lua UI",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "ctx:environment()"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "782c93e819b86b219cd3df29162a540afad030ae56da6d60f6d4bb207357f970",
+      "prerequisites": [
+        "api.lua.v5.lifecycle",
+        "api.lua.v5.capabilities"
+      ],
+      "depends_on": [
+        "api.lua.v5.reference.classes",
+        "api.lua.v5.reference.methods"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/ui.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/ui/"
+    },
+    {
+      "id": "api.lua.v5.ui",
+      "title": "跨平台 Lua UI",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Not yet reviewed (draft)",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "ctx:environment()"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83",
+      "authority": "api-contract",
+      "verified_commit": "3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "782c93e819b86b219cd3df29162a540afad030ae56da6d60f6d4bb207357f970",
+      "prerequisites": [
+        "api.lua.v5.lifecycle",
+        "api.lua.v5.capabilities"
+      ],
+      "depends_on": [
+        "api.lua.v5.reference.classes",
+        "api.lua.v5.reference.methods"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
+      "stale_reason": null,
+      "path": "api/lua/v5/ui.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/ui/"
+    },
+    {
       "id": "architecture.design-principles",
       "title": "Design principles",
       "language": "en",
@@ -2586,6 +5692,106 @@
     }
   ],
   "bilingual_map": {
+    "api.lua.v5.capabilities": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/capabilities/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/"
+    },
+    "api.lua.v5.changelog": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/changelog/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/changelog/"
+    },
+    "api.lua.v5.debugging": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/debugging/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/debugging/"
+    },
+    "api.lua.v5.events": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/events/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/events/"
+    },
+    "api.lua.v5.example-mod": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/example-mod/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/example-mod/"
+    },
+    "api.lua.v5.lifecycle": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/lifecycle/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/lifecycle/"
+    },
+    "api.lua.v5.migration": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/migration/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/migration/"
+    },
+    "api.lua.v5.overview": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/overview/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/overview/"
+    },
+    "api.lua.v5.performance": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/performance/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/performance/"
+    },
+    "api.lua.v5.permissions": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/permissions/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/permissions/"
+    },
+    "api.lua.v5.reference.callbacks": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/callbacks/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/callbacks/"
+    },
+    "api.lua.v5.reference.capabilities": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/capabilities/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/capabilities/"
+    },
+    "api.lua.v5.reference.classes": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/classes/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/classes/"
+    },
+    "api.lua.v5.reference.enums": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/enums/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/enums/"
+    },
+    "api.lua.v5.reference.events": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/events/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/events/"
+    },
+    "api.lua.v5.reference.functions": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/functions/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/functions/"
+    },
+    "api.lua.v5.reference.hooks": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/hooks/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/hooks/"
+    },
+    "api.lua.v5.reference.manifest-fields": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/manifest-fields/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/manifest-fields/"
+    },
+    "api.lua.v5.reference.methods": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/methods/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/methods/"
+    },
+    "api.lua.v5.reference.modules": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/modules/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/modules/"
+    },
+    "api.lua.v5.reference.namespaces": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/namespaces/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/namespaces/"
+    },
+    "api.lua.v5.reference.operators": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/operators/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/operators/"
+    },
+    "api.lua.v5.reference.permissions": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/permissions/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/permissions/"
+    },
+    "api.lua.v5.reference.properties": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/properties/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/properties/"
+    },
+    "api.lua.v5.ui": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/ui/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/ui/"
+    },
     "architecture.design-principles": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/design-principles/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/design-principles/"
@@ -2708,6 +5914,31 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/"
   ],
   "search_exclusions": [
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/capabilities/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/changelog/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/debugging/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/events/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/example-mod/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/lifecycle/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/migration/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/overview/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/performance/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/permissions/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/callbacks/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/capabilities/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/classes/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/enums/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/events/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/functions/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/hooks/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/manifest-fields/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/methods/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/modules/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/namespaces/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/operators/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/permissions/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/properties/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/design-principles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystem-map/",
@@ -2716,6 +5947,31 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/save/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/ai-assisted-development/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/documentation-policy/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/changelog/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/debugging/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/events/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/example-mod/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/lifecycle/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/migration/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/overview/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/performance/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/permissions/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/callbacks/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/capabilities/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/classes/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/enums/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/events/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/functions/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/hooks/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/manifest-fields/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/methods/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/modules/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/namespaces/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/operators/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/permissions/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/properties/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/design-principles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystem-map/",

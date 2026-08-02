@@ -28,6 +28,9 @@ This file is sufficient for basic offline work.
 
 - Edit metadata in `docs-catalog.yml`, then run the generator. Do not hand-edit
   generated front matter, `docs/llms*.txt`, or any file under `docs/ai/`.
+- Do not hand-edit pages whose metadata names
+  `scripts/generate_lua_reference.py`; rebuild them from the pinned CCB commit
+  in `config/lua-reference-v5.yml`. The source repository remains authoritative.
 - New active pages require both languages. Incomplete migration pages are
   drafts and stay out of production navigation, search, and AI indexes.
 - Never update every `verified_commit` merely because CCB master advanced.
@@ -37,6 +40,8 @@ This file is sufficient for basic offline work.
 
 ```sh
 uv sync --frozen
+uv run python scripts/generate_lua_reference.py \
+  --source-repo /path/to/CCB --check --require-luac
 uv run python scripts/generate_catalog.py --check
 uv run python scripts/check_catalog.py
 uv run python -m unittest discover -s tests -p 'test_*.py'

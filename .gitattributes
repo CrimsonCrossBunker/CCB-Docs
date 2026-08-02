@@ -1,0 +1,5 @@
+# Collapse machine-generated Lua API bodies in GitHub reviews. Review the
+# generator, pinned input, coverage tests, and catalog metadata instead.
+docs/*/api/lua/v5/reference/*.md linguist-generated=true
+docs/*/api/lua/v5/example-mod.md linguist-generated=true
+reports/lua-v5-reference-coverage.json linguist-generated=true

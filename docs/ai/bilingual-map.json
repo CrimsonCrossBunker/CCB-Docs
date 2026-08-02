@@ -1,4 +1,104 @@
 {
+  "api.lua.v5.capabilities": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/capabilities/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/"
+  },
+  "api.lua.v5.changelog": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/changelog/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/changelog/"
+  },
+  "api.lua.v5.debugging": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/debugging/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/debugging/"
+  },
+  "api.lua.v5.events": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/events/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/events/"
+  },
+  "api.lua.v5.example-mod": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/example-mod/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/example-mod/"
+  },
+  "api.lua.v5.lifecycle": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/lifecycle/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/lifecycle/"
+  },
+  "api.lua.v5.migration": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/migration/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/migration/"
+  },
+  "api.lua.v5.overview": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/overview/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/overview/"
+  },
+  "api.lua.v5.performance": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/performance/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/performance/"
+  },
+  "api.lua.v5.permissions": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/permissions/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/permissions/"
+  },
+  "api.lua.v5.reference.callbacks": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/callbacks/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/callbacks/"
+  },
+  "api.lua.v5.reference.capabilities": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/capabilities/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/capabilities/"
+  },
+  "api.lua.v5.reference.classes": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/classes/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/classes/"
+  },
+  "api.lua.v5.reference.enums": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/enums/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/enums/"
+  },
+  "api.lua.v5.reference.events": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/events/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/events/"
+  },
+  "api.lua.v5.reference.functions": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/functions/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/functions/"
+  },
+  "api.lua.v5.reference.hooks": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/hooks/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/hooks/"
+  },
+  "api.lua.v5.reference.manifest-fields": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/manifest-fields/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/manifest-fields/"
+  },
+  "api.lua.v5.reference.methods": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/methods/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/methods/"
+  },
+  "api.lua.v5.reference.modules": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/modules/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/modules/"
+  },
+  "api.lua.v5.reference.namespaces": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/namespaces/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/namespaces/"
+  },
+  "api.lua.v5.reference.operators": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/operators/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/operators/"
+  },
+  "api.lua.v5.reference.permissions": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/permissions/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/permissions/"
+  },
+  "api.lua.v5.reference.properties": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/properties/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/properties/"
+  },
+  "api.lua.v5.ui": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/ui/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/ui/"
+  },
   "architecture.design-principles": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/design-principles/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/design-principles/"
