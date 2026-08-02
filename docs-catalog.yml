@@ -4893,7 +4893,7 @@ pages:
     translation_group: cpp-coordinates
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: c83115a09dfb6585db2a020ec647d345240a8676f5f77f7f8f9fc71b3e9c0b9d
+    translation_source_fingerprint: c7cb8e352eb32ba10304f98d19a69ca5df107468bbe5367ceb5f81509c7da5c8
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4951,7 +4951,7 @@ pages:
     translation_group: cpp-coordinates
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: c83115a09dfb6585db2a020ec647d345240a8676f5f77f7f8f9fc71b3e9c0b9d
+    translation_source_fingerprint: c7cb8e352eb32ba10304f98d19a69ca5df107468bbe5367ceb5f81509c7da5c8
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -5119,7 +5119,7 @@ pages:
     translation_group: cpp-json-interface
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 2ca21ecb6bae144bc3ec86a0102832e94e1b96e7f544cef7dc110bf7b96ff3e2
+    translation_source_fingerprint: 51b9bc35de3c24b826d21273f6e1271f8dcd9ee447decba12e1edd7dabf3980c
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -5177,7 +5177,7 @@ pages:
     translation_group: cpp-json-interface
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 2ca21ecb6bae144bc3ec86a0102832e94e1b96e7f544cef7dc110bf7b96ff3e2
+    translation_source_fingerprint: 51b9bc35de3c24b826d21273f6e1271f8dcd9ee447decba12e1edd7dabf3980c
     prerequisites: []
     depends_on: []
     redirect_from: []
