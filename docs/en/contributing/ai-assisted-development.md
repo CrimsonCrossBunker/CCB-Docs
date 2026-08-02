@@ -1,0 +1,89 @@
+---
+# GENERATED FROM docs-catalog.yml. DO NOT EDIT THIS BLOCK.
+id: contributing.ai-assisted-development
+title: AI-assisted development
+language: en
+status: draft
+doc_type: explanation
+audiences:
+- new-contributor
+- experienced-contributor
+- maintainer
+owners:
+- CCB maintainers
+reviewers:
+- Documentation reviewers
+review_interval_days: 90
+last_human_reviewer: LYHGLYTX
+source_paths:
+- CONTRIBUTING.md
+- GOVERNANCE.md
+- .github/pull_request_template.md
+source_symbols: []
+source_queries: []
+source_fingerprint: 10ff7889c4f1dc39e9419cdd01036cd6507b47d017dba51d3cd58161725d41d0
+authority: governance
+verified_commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+verified_at: '2026-08-02'
+generated: false
+generated_by: null
+include_in_search: false
+include_in_ai_index: false
+translation_status: current
+translation_stale_since: null
+translation_source_fingerprint: 89bb9e5d9c1ed291a5f8279742a98a4dd5dc42fb68eb643852b07b38b066ff0c
+prerequisites:
+- contributing.responsible-human
+depends_on:
+- contributing.documentation-policy
+redirect_from: []
+supersedes: []
+license: CC-BY-SA-3.0
+attribution: CCB contributors; see source paths and Git history.
+example_validation_ids:
+- agent-context
+api_version: null
+deprecated: false
+deprecation_replacement: null
+risk_group: governance
+risk_level: high
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/560
+stale_reason: null
+search:
+  exclude: true
+---
+
+# AI-assisted development
+
+CCB accepts AI-assisted work, but it reviews the resulting change, evidence,
+and human accountability—not the confidence of a tool's explanation. Naming
+the tool or model is optional.
+
+## The Responsible human remains responsible
+
+Every pull request names a Responsible human. That person must understand the
+change, review the final diff, own the reported test results, verify licensing
+and external provenance, and answer review questions. A generated patch that
+the Responsible human cannot explain is not ready for review.
+
+## Safe workflow
+
+1. Read the root and nearest nested `AGENTS.md` before editing.
+2. Inspect source, tests, registrations, schemas, and generated boundaries.
+3. Give the tool a narrow task and explicit non-goals, especially compatibility
+   and runtime-behaviour boundaries.
+4. Review every changed file and remove unrelated formatting, guessed paths,
+   caches, machine paths, credentials, and generated-file edits.
+5. Run the checks routed by `ai/test-matrix.yml`; report only commands that
+   actually ran.
+6. Complete the documentation-impact fields and link dependent docs PRs.
+
+## Evidence standards
+
+Do not publish invented APIs, paths, commands, test output, reviewers, or
+licenses. Generated reference must trace to schemas, LuaLS declarations,
+registrations, inventories, or tests. When evidence is unavailable, mark the
+claim unverified or the page draft instead of filling the gap by inference.
+
+AI systems and bots cannot approve their own PRs or satisfy the human-reviewer
+requirement. Human review is a governance boundary, not a disclosure ritual.

@@ -1,0 +1,23 @@
+schema_version: 1
+validations:
+  agent-context:
+    description: Agent metadata and routing validation
+    authority_paths: [AGENTS.md, ai/project-map.yml, ai/test-matrix.yml]
+  android-unit:
+    description: Android Gradle unit-test entry point
+    authority_paths: [android/gradlew, android/build.gradle]
+  cmake-configure:
+    description: CMake preset discovery or configuration
+    authority_paths: [CMakePresets.json]
+  cpp-format:
+    description: C++ formatting validation
+    authority_paths: [Makefile]
+  cpp-tests:
+    description: Native test build or focused Catch2 execution
+    authority_paths: [Makefile, tests/AGENTS.md]
+  json-load:
+    description: Repository JSON loading validation
+    authority_paths: [Makefile, data/AGENTS.md]
+  lua-contract:
+    description: Lua declaration, parity, and coverage validation
+    authority_paths: [data/lua/types/ccb_api_v5.d.lua, tools/lua_api]
