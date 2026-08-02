@@ -105,10 +105,10 @@ pages:
     source_paths: [CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md]
     source_symbols: []
     source_queries: [Responsible human]
-    source_fingerprint: 92bbc1c991b6ad674114072e80aa45f9cc05cb3bf47bc24c8b2dc4ab2dd10695
+    source_fingerprint: 781981c55ef754b0836ca4b065bb6a7b9a85a6daf0e4bca4782240c25caa7a2c
     authority: governance
-    verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
-    verified_at: '2026-08-01'
+    verified_commit: 4bb45fcc3357f5358cff14248388b5acd33dcfda
+    verified_at: '2026-08-02'
     generated: false
     generated_by: null
     include_in_search: true
@@ -129,7 +129,7 @@ pages:
     deprecation_replacement: null
     risk_group: governance
     risk_level: high
-    pending_source_pr: null
+    pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/570
     stale_reason: null
     nav: { section: 开始贡献, order: 10 }
   - id: getting-started.first-contribution
@@ -146,10 +146,10 @@ pages:
     source_paths: [CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md]
     source_symbols: []
     source_queries: [Responsible human]
-    source_fingerprint: 92bbc1c991b6ad674114072e80aa45f9cc05cb3bf47bc24c8b2dc4ab2dd10695
+    source_fingerprint: 781981c55ef754b0836ca4b065bb6a7b9a85a6daf0e4bca4782240c25caa7a2c
     authority: governance
-    verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
-    verified_at: '2026-08-01'
+    verified_commit: 4bb45fcc3357f5358cff14248388b5acd33dcfda
+    verified_at: '2026-08-02'
     generated: false
     generated_by: null
     include_in_search: true
@@ -170,7 +170,7 @@ pages:
     deprecation_replacement: null
     risk_group: governance
     risk_level: high
-    pending_source_pr: null
+    pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/570
     stale_reason: null
     nav: { section: Start contributing, order: 10 }
 
@@ -271,10 +271,10 @@ pages:
     source_paths: [CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md]
     source_symbols: []
     source_queries: [Responsible human]
-    source_fingerprint: 92bbc1c991b6ad674114072e80aa45f9cc05cb3bf47bc24c8b2dc4ab2dd10695
+    source_fingerprint: 781981c55ef754b0836ca4b065bb6a7b9a85a6daf0e4bca4782240c25caa7a2c
     authority: governance
-    verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
-    verified_at: '2026-08-01'
+    verified_commit: 4bb45fcc3357f5358cff14248388b5acd33dcfda
+    verified_at: '2026-08-02'
     generated: false
     generated_by: null
     include_in_search: true
@@ -282,7 +282,7 @@ pages:
     translation_group: contributing.responsible-human
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 55d3f928cb2ca6ab24791556f0c374de51d4aa25e240accb35f181120453be7a
+    translation_source_fingerprint: 37cb310dd6b29be8649a2309df51a39a284341ceb5eb24b1245fa2482694785d
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -295,7 +295,7 @@ pages:
     deprecation_replacement: null
     risk_group: governance
     risk_level: high
-    pending_source_pr: null
+    pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/570
     stale_reason: null
     nav: { section: 贡献政策, order: 30 }
   - id: contributing.responsible-human
@@ -312,10 +312,10 @@ pages:
     source_paths: [CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md]
     source_symbols: []
     source_queries: [Responsible human]
-    source_fingerprint: 92bbc1c991b6ad674114072e80aa45f9cc05cb3bf47bc24c8b2dc4ab2dd10695
+    source_fingerprint: 781981c55ef754b0836ca4b065bb6a7b9a85a6daf0e4bca4782240c25caa7a2c
     authority: governance
-    verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
-    verified_at: '2026-08-01'
+    verified_commit: 4bb45fcc3357f5358cff14248388b5acd33dcfda
+    verified_at: '2026-08-02'
     generated: false
     generated_by: null
     include_in_search: true
@@ -323,7 +323,7 @@ pages:
     translation_group: contributing.responsible-human
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 55d3f928cb2ca6ab24791556f0c374de51d4aa25e240accb35f181120453be7a
+    translation_source_fingerprint: 37cb310dd6b29be8649a2309df51a39a284341ceb5eb24b1245fa2482694785d
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -336,7 +336,7 @@ pages:
     deprecation_replacement: null
     risk_group: governance
     risk_level: high
-    pending_source_pr: null
+    pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/570
     stale_reason: null
     nav: { section: Contribution policy, order: 30 }
 

@@ -87,7 +87,7 @@ Sources: AGENTS.md, ai/project-map.yml, ai/test-matrix.yml, ai/generated-files.y
 ## contributing.responsible-human [en] — Responsible human and AI-assisted contributions
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/
-Verified commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
+Verified commit: 4bb45fcc3357f5358cff14248388b5acd33dcfda
 Sources: CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md
 
 # Responsible human
@@ -113,11 +113,16 @@ investigate further rather than delegating responsibility to the tool.
 
 ## Review and merge
 
-The target governance requires a non-author human approval, but maintainers
-must first confirm at least two active human reviewers with permission and a
-successful default-branch run for each required check. Until then, keep the
-target configuration documented rather than enabling protection that could
-make the repository impossible to merge.
+One Responsible human is sufficient for CCB. `LYHGLYTX` is the currently
+confirmed maintainer. A pull request authored by that maintainer does not need
+a separate GitHub approval, so the target Ruleset keeps the required approval
+count at zero and does not require approval from someone other than the last
+pusher. Bots cannot replace the Responsible human or approve their own work.
+
+Pull requests, required checks, resolved review conversations, and the bans on
+force-pushes and branch deletion remain target protections. Enable them only
+after the named checks are stable on the default branch and the administrator
+steps are complete. Automated merging remains disabled.
 
 Bot-created drift pull requests are never auto-merged. A docs pull request must
 also be refreshed to the final source commit and revalidated after its source
@@ -126,7 +131,7 @@ pull request merges.
 ## contributing.responsible-human [zh_CN] — Responsible human 与 AI 辅助贡献
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/
-Verified commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
+Verified commit: 4bb45fcc3357f5358cff14248388b5acd33dcfda
 Sources: CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md
 
 # Responsible human 与贡献责任
@@ -150,9 +155,14 @@ AI 输出不能证明代码正确，也不能消除上游许可证或作者署�
 
 ## 审阅与合并
 
-目标治理规则要求非作者人类批准，但启用前必须确认至少两名活跃且有审查权限
-的人类维护者，并确认 required checks 已在默认分支成功运行。条件不足时只保留
-目标配置，不立即启用会阻塞仓库的保护规则。
+CCB 只需要一名 Responsible human；当前确认的维护者是 `LYHGLYTX`。当该维护者
+自己创建 PR 时，不需要另一名 GitHub 用户批准，因此目标 Ruleset 的 required
+approval 数量为 0，也不要求最后推送者之外的人批准。机器人不能取代 Responsible
+human，也不能批准自己的修改。
+
+PR 流程、required checks、解决审阅对话以及禁止强推和删除分支仍是目标保护规则。
+只有当这些检查已在默认分支稳定成功、管理员步骤也已完成时才启用。自动合并始终
+保持关闭。
 
 机器人创建的漂移 PR 禁止自动合并。文档 PR 在依赖的源码 PR 合并后，还必须
 刷新到最终 commit 并重新验证。
@@ -160,7 +170,7 @@ AI 输出不能证明代码正确，也不能消除上游许可证或作者署�
 ## getting-started.first-contribution [en] — First contribution
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/
-Verified commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
+Verified commit: 4bb45fcc3357f5358cff14248388b5acd33dcfda
 Sources: CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md
 
 # First contribution
@@ -220,7 +230,7 @@ are affected.
 ## getting-started.first-contribution [zh_CN] — 第一次贡献
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/
-Verified commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
+Verified commit: 4bb45fcc3357f5358cff14248388b5acd33dcfda
 Sources: CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md
 
 # 第一次贡献

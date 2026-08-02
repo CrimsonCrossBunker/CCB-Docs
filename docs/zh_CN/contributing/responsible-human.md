@@ -22,17 +22,17 @@ source_paths:
 source_symbols: []
 source_queries:
 - Responsible human
-source_fingerprint: 92bbc1c991b6ad674114072e80aa45f9cc05cb3bf47bc24c8b2dc4ab2dd10695
+source_fingerprint: 781981c55ef754b0836ca4b065bb6a7b9a85a6daf0e4bca4782240c25caa7a2c
 authority: governance
-verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
-verified_at: '2026-08-01'
+verified_commit: 4bb45fcc3357f5358cff14248388b5acd33dcfda
+verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 55d3f928cb2ca6ab24791556f0c374de51d4aa25e240accb35f181120453be7a
+translation_source_fingerprint: 37cb310dd6b29be8649a2309df51a39a284341ceb5eb24b1245fa2482694785d
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -46,7 +46,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: governance
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/570
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/
 alternate_urls:
@@ -54,15 +54,15 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/9d8f26582da0f53ca1e29f8f072aeef43955655b
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4bb45fcc3357f5358cff14248388b5acd33dcfda
 source_urls:
 - path: CONTRIBUTING.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9d8f26582da0f53ca1e29f8f072aeef43955655b/CONTRIBUTING.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4bb45fcc3357f5358cff14248388b5acd33dcfda/CONTRIBUTING.md
 - path: GOVERNANCE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9d8f26582da0f53ca1e29f8f072aeef43955655b/GOVERNANCE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4bb45fcc3357f5358cff14248388b5acd33dcfda/GOVERNANCE.md
 - path: .github/pull_request_template.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9d8f26582da0f53ca1e29f8f072aeef43955655b/.github/pull_request_template.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28contributing.responsible-human%29%3A+&body=Document+ID%3A+contributing.responsible-human%0ALanguage%3A+zh_CN%0AVerified+commit%3A+9d8f26582da0f53ca1e29f8f072aeef43955655b%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4bb45fcc3357f5358cff14248388b5acd33dcfda/.github/pull_request_template.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28contributing.responsible-human%29%3A+&body=Document+ID%3A+contributing.responsible-human%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4bb45fcc3357f5358cff14248388b5acd33dcfda%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Responsible human 与贡献责任
@@ -86,9 +86,14 @@ AI 输出不能证明代码正确，也不能消除上游许可证或作者署�
 
 ## 审阅与合并
 
-目标治理规则要求非作者人类批准，但启用前必须确认至少两名活跃且有审查权限
-的人类维护者，并确认 required checks 已在默认分支成功运行。条件不足时只保留
-目标配置，不立即启用会阻塞仓库的保护规则。
+CCB 只需要一名 Responsible human；当前确认的维护者是 `LYHGLYTX`。当该维护者
+自己创建 PR 时，不需要另一名 GitHub 用户批准，因此目标 Ruleset 的 required
+approval 数量为 0，也不要求最后推送者之外的人批准。机器人不能取代 Responsible
+human，也不能批准自己的修改。
+
+PR 流程、required checks、解决审阅对话以及禁止强推和删除分支仍是目标保护规则。
+只有当这些检查已在默认分支稳定成功、管理员步骤也已完成时才启用。自动合并始终
+保持关闭。
 
 机器人创建的漂移 PR 禁止自动合并。文档 PR 在依赖的源码 PR 合并后，还必须
 刷新到最终 commit 并重新验证。

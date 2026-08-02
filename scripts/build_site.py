@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import copy
 import html
+import logging
 import shutil
 import sys
 import tempfile
@@ -372,6 +373,7 @@ def build_site(
 
 
 def main() -> int:
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s - %(message)s")
     parser = argparse.ArgumentParser()
     parser.add_argument("--site-dir", type=Path, default=ROOT / "site")
     parser.add_argument("--strict", action="store_true")

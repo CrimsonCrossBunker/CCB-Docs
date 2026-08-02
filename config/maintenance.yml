@@ -1,0 +1,50 @@
+schema_version: 1
+repository: CrimsonCrossBunker/CCB-Docs
+schedules:
+  weekly: '23 3 * * 1'
+  monthly: '17 4 1 * *'
+  quarterly: '31 5 2 1,4,7,10 *'
+  snapshot_backup: '43 6 3 * *'
+issues:
+  docs_coverage: monthly-docs-coverage
+  api_diff: monthly-api-diff
+  agent_benchmark: quarterly-agent-benchmark
+  permissions: quarterly-permissions-audit
+  archive: quarterly-archive-review
+  snapshot: snapshot-restore-health
+artifacts:
+  retention_days: 90
+  snapshot_prefix: ccb-docs-snapshot
+release_snapshots:
+  repository_dispatch_type: ccb-release-published
+  source_repository: CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
+  payload_fields: [source_sha, source_tag, source_repository]
+  health_issue_scope: scheduled_or_manual_main_only
+automation_policy:
+  auto_merge: false
+  bot_approval: false
+  empty_pull_requests: prohibited
+  issue_reconciliation: marker_deduplicated
+  nightly_evidence:
+    real_run_required: true
+    distinguish_manual_recovery_pull_request: true
+    record_organization_http_blockers: true
+    prohibit_false_bot_success_claim: true
+  dependency_updates:
+    provider: dependabot
+    ecosystems: [github-actions, npm, uv]
+    responsible_human_review_required: true
+    action_references_remain_full_sha_pinned: true
+governance_blockers:
+  required_human_reviewers:
+    state: resolved_single_responsible_human
+    issue: null
+  ruleset_enforcement:
+    state: deferred_pending_required_checks_and_admin
+    issue: null
+  actions_pull_request_creation:
+    state: blocked_by_organization_policy
+    issue: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/3
+  organization_2fa:
+    state: blocked_pending_member_audit_and_notice
+    issue: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/issues/564

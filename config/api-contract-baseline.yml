@@ -1,0 +1,13 @@
+schema_version: 1
+source_commit: null
+updated_by: null
+updated_at: null
+contracts:
+  lua-v5: null
+  json-object-types: null
+  eoc-conditions: null
+  eoc-effects: null
+notes:
+  - Baselines remain null until the corresponding generated contract lands on CCB master.
+  - Scheduled automation reports drift but never updates this file or opens an empty PR.
+  - A Responsible human reviews the first complete report and records the accepted fingerprints.
