@@ -62,6 +62,11 @@ def parse_args() -> argparse.Namespace:
         help="print the reviewed full CCB commit",
     )
     parser.add_argument(
+        "--print-build-backend",
+        action="store_true",
+        help="print the reviewed non-interactive CCB build backend",
+    )
+    parser.add_argument(
         "--print-command-timeout-seconds",
         action="store_true",
         help="print the bounded per-process runtime-validation timeout",
@@ -75,11 +80,15 @@ def main() -> int:
     if args.print_source_commit:
         print(config["source_commit"])
         return 0
+    if args.print_build_backend:
+        print(config["build_backend"])
+        return 0
     if args.print_command_timeout_seconds:
         print(config["command_timeout_seconds"])
         return 0
     raise RuntimeValidationSourceError(
-        "select --print-source-commit or --print-command-timeout-seconds"
+        "select --print-source-commit, --print-build-backend, or "
+        "--print-command-timeout-seconds"
     )
 
 
