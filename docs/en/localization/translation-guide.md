@@ -38,7 +38,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 2bd70491246b6f2256eb371a2875b799c583360ea6d4b8970485c80431e5a5cd
+translation_source_fingerprint: 59c88ec076560e8e147d18ecad40da1ed8de7a18a21854934ae6a8c5a5656b03
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -103,6 +103,44 @@ This is the migration draft page for `translation-guide`. It records **2** froze
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## CCB localization workflow
+
+CCB uses gettext, source extraction, PO files, and compiled MO catalogs. Runtime behavior comes from
+`translations.cpp`; JSON extraction comes from scripts under `lang/`; remote synchronization comes
+from current translation workflows and the CCB Transifex project. An old `cataclysm-dda` resource
+name or forum guide does not override current `.tx/config`.
+
+### Developers
+
+Use `_()` for a simple C++ literal, context for ambiguous text, and plural APIs for quantities. Use
+`translation`, `to_translation`, or `pl_translation` for delayed translation, JSON context, and
+plurals, then call `translated()` when displaying. Do not cache translated strings during global or
+local static initialization; initialization order and runtime language switching will be wrong.
+Leave debug/error text exactly copyable unless it is explicitly a player-facing contract.
+
+JSON translator comments use the `//~` and translation-object forms supported by the loader.
+Placeholders, positional parameters, markup, gender contexts, key tags, and newlines must remain
+equivalent. Do not concatenate sentences that rely on English word order. A new extraction form
+requires extractor and test updates.
+
+### Build and validation
+
+The current local MO entry point is:
+
+```sh
+make -C lang LANGUAGES=zh_CN
+```
+
+Repository scripts also generate POT, validate or merge PO, update statistics, and compile MO; take
+exact names from current `lang/` and CI. With a TX token, the build-translations workflow pulls,
+discards invalid PO, updates stats, and compiles. Without the token, it reuses a trusted successful
+master artifact. After a successful Experimental Release, another workflow generates POT and pushes
+the source template to Transifex.
+
+Validate extraction diffs, POT/PO syntax, placeholder/plural/context parity, `msgfmt`, language
+switching, fallback, UI width, and target-platform fonts. Do not hand-edit generated MO files.
+Transifex writes require maintainer credentials and human review.
 
 ## History and attribution
 

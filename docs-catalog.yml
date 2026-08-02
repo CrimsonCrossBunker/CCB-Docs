@@ -7346,7 +7346,7 @@ pages:
     translation_group: translation-guide
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 2bd70491246b6f2256eb371a2875b799c583360ea6d4b8970485c80431e5a5cd
+    translation_source_fingerprint: 59c88ec076560e8e147d18ecad40da1ed8de7a18a21854934ae6a8c5a5656b03
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7406,7 +7406,7 @@ pages:
     translation_group: translation-guide
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 2bd70491246b6f2256eb371a2875b799c583360ea6d4b8970485c80431e5a5cd
+    translation_source_fingerprint: 59c88ec076560e8e147d18ecad40da1ed8de7a18a21854934ae6a8c5a5656b03
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13534,7 +13534,7 @@ pages:
     translation_group: testing-manual
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: a02ae55fd8992581f098590ba9f4bbd9cafaf2f5bd0f45b1b1d977d41f170247
+    translation_source_fingerprint: 725355bb1c7f9862f9c4ec60576ea3475931be954f391eb6179d33d602e06347
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13589,7 +13589,7 @@ pages:
     translation_group: testing-manual
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: a02ae55fd8992581f098590ba9f4bbd9cafaf2f5bd0f45b1b1d977d41f170247
+    translation_source_fingerprint: 725355bb1c7f9862f9c4ec60576ea3475931be954f391eb6179d33d602e06347
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13649,7 +13649,7 @@ pages:
     translation_group: tutorial.mapgen-beginner
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: c791f2add82774d27cc6f02293c3c9ece7d69afdf2a5a001af2b1a5557c7b670
+    translation_source_fingerprint: 9f3393f0b47df37c099d8e6d13b463844c2758a229f45cf38209e24dbb733507
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13710,7 +13710,7 @@ pages:
     translation_group: tutorial.mapgen-beginner
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: c791f2add82774d27cc6f02293c3c9ece7d69afdf2a5a001af2b1a5557c7b670
+    translation_source_fingerprint: 9f3393f0b47df37c099d8e6d13b463844c2758a229f45cf38209e24dbb733507
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13769,7 +13769,7 @@ pages:
     translation_group: tutorial.mapgen-intermediate
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 990132cee8ddec169b759ac81d7bd69f6770e6aa4aff57492d24c789dd8f6065
+    translation_source_fingerprint: 76ce20c5d137f1bf1267336a0c074b2e812c82b0a18777f44a368c65e5837d1e
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13827,7 +13827,7 @@ pages:
     translation_group: tutorial.mapgen-intermediate
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 990132cee8ddec169b759ac81d7bd69f6770e6aa4aff57492d24c789dd8f6065
+    translation_source_fingerprint: 76ce20c5d137f1bf1267336a0c074b2e812c82b0a18777f44a368c65e5837d1e
     prerequisites: []
     depends_on: []
     redirect_from: []

@@ -34,7 +34,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: a02ae55fd8992581f098590ba9f4bbd9cafaf2f5bd0f45b1b1d977d41f170247
+translation_source_fingerprint: 725355bb1c7f9862f9c4ec60576ea3475931be954f391eb6179d33d602e06347
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -91,6 +91,34 @@ This is the migration draft page for `testing-manual`. It records **1** frozen i
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Evidence-based manual playtesting
+
+Automated checks prove formatting, loading, and encoded invariants. A non-trivial gameplay, UI, or
+content change also needs manual validation in a CCB binary matching the source commit. State the
+observable risks first and build the smallest scenarios; a few minutes of unguided play is not
+evidence that a change was tested.
+
+### Preparation and records
+
+- Use a dedicated test world and character. Record commit, build flags, platform, mod set, seed,
+  options, and save origin.
+- Format and load JSON first. Compile the affected C++ target and run the focused test before play.
+- Ensure binary and data come from the same commit. Restart or reload according to the actual loader
+  lifecycle; returning to the main menu does not refresh every registry.
+- Preserve reproduction steps, expected and actual results, logs, screenshots or short video, and
+  cover normal, failure, and important boundary paths.
+
+The debug menu can spawn items or monsters, edit map/overmap data, advance time, teleport, or call
+subsystem entry points, but debug spawning can skip part of natural-generation context. Test a
+monster-definition change on newly spawned instances. Growth, evolution, and offscreen processing
+need unload/reload and time advancement. Test mapgen on fresh OMTs with direction, z-level, and region
+coverage. EOC, Lua, save migration, and multiplayer need their real entry paths.
+
+Remove debug-only state afterward and do not commit test saves, logs, or generated artifacts. A PR
+must separate locally executed checks, CI coverage, and work not run. One successful manual run does
+not replace a deterministic regression test; a bug fix still needs the narrowest automated case
+that failed on the old implementation.
 
 ## History and attribution
 
