@@ -31,6 +31,9 @@ This file is sufficient for basic offline work.
 - Do not hand-edit pages whose metadata names
   `scripts/generate_lua_reference.py`; rebuild them from the pinned CCB commit
   in `config/lua-reference-v5.yml`. The source repository remains authoritative.
+- JSON/EOC registry pages under `docs/*/reference/` are additionally owned by
+  `scripts/generate_json_eoc_reference.py`; regenerate them from the exact CCB
+  `verified_commit` instead of editing their bodies.
 - New active pages require both languages. Incomplete migration pages are
   drafts and stay out of production navigation, search, and AI indexes.
 - Never update every `verified_commit` merely because CCB master advanced.
@@ -44,6 +47,8 @@ uv run python scripts/generate_lua_reference.py \
   --source-repo /path/to/CCB --check --require-luac
 uv run python scripts/generate_catalog.py --check
 uv run python scripts/check_catalog.py
+uv run python scripts/generate_json_eoc_reference.py --source-repo /path/to/CCB --check
+uv run python scripts/check_json_eoc_example_mod.py --source-repo /path/to/CCB
 uv run python -m unittest discover -s tests -p 'test_*.py'
 uv run flake8 --max-line-length=100 scripts tests
 uv run python scripts/build_site.py --strict --include-drafts

@@ -16,6 +16,8 @@ uv run python scripts/generate_lua_reference.py \
   --source-repo /path/to/Cataclysm-Cleanwater-Bomb --check --require-luac
 uv run python scripts/generate_catalog.py --check
 uv run python scripts/check_catalog.py
+uv run python scripts/generate_json_eoc_reference.py --source-repo /path/to/CCB --check
+uv run python scripts/check_json_eoc_example_mod.py --source-repo /path/to/CCB
 uv run python -m unittest discover -s tests -p 'test_*.py'
 uv run flake8 --max-line-length=100 scripts tests
 uv run python scripts/build_site.py --strict --include-drafts
@@ -40,6 +42,11 @@ navigation, search, and AI indexes.
 generates page front matter, navigation, `llms.txt`, `llms-full.txt`, JSON and
 JSONL indexes, bilingual mappings, search/AI allowlists, archive exclusions,
 redirects, and sitemap metadata. Files under `docs/ai/` are generated.
+
+The bilingual JSON/EOC registry bodies are generated from the exact CCB
+contract-inventory commit by `scripts/generate_json_eoc_reference.py`. The
+current draft indexes 190 JSON object types, 275 EOC conditions, and 306 EOC
+effects while preserving every partial/unclassified evidence boundary.
 
 Chinese source lives in `docs/zh_CN/` and is published at the site root.
 English source lives in `docs/en/` and is published under `/en/`.

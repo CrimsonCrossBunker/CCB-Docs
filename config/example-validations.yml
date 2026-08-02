@@ -18,6 +18,15 @@ validations:
   json-load:
     description: Repository JSON loading validation
     authority_paths: [Makefile, data/AGENTS.md]
+  json-contract:
+    description: JSON object-type and EOC parser inventory generation, parity, and coverage
+    authority_paths: [tools/json_api, data/reference/json]
+  docs-json-eoc-example:
+    description: CCB-Docs complete JSON/EOC example mod structural contract validation
+    authority_paths: [tools/json_api, data/reference/json]
+  json-mod-load:
+    description: Real CCB executable validation of a selected mod and its dependencies
+    authority_paths: [src/main.cpp, src/mod_manager.cpp, doc/cataclysm.6]
   lua-contract:
     description: Lua declaration, parity, and coverage validation
     authority_paths: [data/lua/types/ccb_api_v5.d.lua, tools/lua_api]

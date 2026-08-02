@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "ccb_docs_json_eoc_example",
+    "name": "CCB Docs JSON/EOC Example",
+    "authors": [ "CCB contributors" ],
+    "description": "A minimal contract-tested EOC mod used by the bilingual developer documentation.",
+    "category": "misc_additions",
+    "dependencies": [ "dda" ]
+  }
+]
