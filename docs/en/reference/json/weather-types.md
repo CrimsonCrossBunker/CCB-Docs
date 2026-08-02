@@ -38,7 +38,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 8307037be315eb35abe463cb55e77b5b32daad50877f25be3238133e2984273c
+translation_source_fingerprint: a74043661e0c7a5ba454667e429006fd2870ffe4e389116ea1a1eaf881a0c36b
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -97,6 +97,38 @@ This is the migration draft page for `json.weather-types`. It records **1** froz
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Weather types and generators
+
+A `weather_type` describes presentation and runtime effects for one weather, while a
+`weather_generator` selects candidates and base climate. They are separate object types. Global
+consistency requires valid `null` and `clear` weather IDs.
+
+### Weather-type loader
+
+Name, id, sym, ranged_penalty, sight_penalty, light_modifier, priority, sound_attn, dangerous,
+precip, and rains are mandatory. Optional members include UI colors and sun symbol, temperature,
+light, and sun modifiers, sound and tiles animation, duration, passive field effects, debug EOCs,
+required_weathers, and condition. Duration bounds default to five minutes and minimum cannot exceed
+maximum.
+
+Condition runs with dialogue context such as `weather_location`. Candidates are sorted by priority
+and required weathers must reference valid IDs. File order is not a stable priority, and historical
+sound or precipitation tables are not complete; inspect current enums.
+
+### Weather generator
+
+A generator requires base temperature, humidity, pressure, and wind. It may configure seasonal
+adjustments, wind distribution, and a weather whitelist or blacklist. The lists are mutually
+exclusive. Finalization filters and sorts by priority, while a whitelist path retains clear.
+
+### Validation
+
+Run formatting, `make -j2 json-check`, Mod `--check-mods`, and focused weather tests. With a fixed
+seed cover seasons, locations, condition and priority ties, required chains, duration bounds,
+indoor/vehicle passive effects, debug EOCs, light, sight, sound, and whitelists. Weather changes may
+affect current saved weather and long-term world generation, so state compatibility and balance
+impact.
 
 ## History and attribution
 
