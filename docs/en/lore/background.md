@@ -32,7 +32,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 14f66c189e6ef0b2a88df37ad54db5b3b3e53c1a7f3d3cd0481831ef08bc8ea2
+translation_source_fingerprint: f51f3deb0c5f8be26ce6c64bf64e436db488a9caa92ec404243c45c85747614c
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -85,6 +85,37 @@ This is the migration draft page for `lore-background`. It records **1** frozen 
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Spoilers and authority boundary
+
+This page is for contributors writing setting, missions, maps, and items and contains central
+spoilers. CCB normally lets players reconstruct events through newspapers, logs, dialogue,
+locations, and unreliable narrators. Do not paste an omniscient developer timeline directly into
+player text. Legacy years and links are background at a pinned commit; current JSON, maps, missions,
+and dialogue define what the game actually reveals.
+
+## Cataclysm background
+
+Secret United States research into other dimensions developed into the XEDRA system. Researchers
+returned from the netherum with anomalous matter known as `XE-037`; it escaped and spread through
+the global environment, affecting living things, encouraging violence, and reanimating the dead.
+While infection, unrest, and disastrous responses were already collapsing society, portal storms
+tore dimensional boundaries further and admitted otherworldly entities and opportunistic powers.
+By game start, coordinated global rescue has failed and survivors face the interaction of
+contamination, the dead, invasive ecologies, and remnants of human institutions.
+
+This summary is a writing framework. It does not mean every character knows the cause or that every
+clue is correct. Reveal the relationships among `XE-037`, the Blob, portal technology, XEDRA, and
+outside powers in layers. Ordinary survivors, government records, researchers, and non-human
+entities have different and potentially conflicting information.
+
+## Continuity checks
+
+For new content, identify the narrator, relative date, available knowledge, and uncertainty. Reuse
+current snippet, faction, mission, location, and item IDs and inspect date-generation rules, season,
+world creation time, and CCB-specific divergence. Separate background canon, currently implemented
+clues, and future design; unimplemented ideas stay draft. Run JSON/EOC loading and focused content
+tests and call out a lore retcon that changes existing mission, save, or mod assumptions.
 
 ## History and attribution
 

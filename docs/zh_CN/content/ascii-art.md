@@ -36,7 +36,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 14e5b171d251bb48146fc444c259c8d4fa1646a37e5be58f75e8a88931ca2cae
+translation_source_fingerprint: 330c6e811a69ea3a09b6f3fe005bf10e8349f1379b275b262ddad2331490c354
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -95,6 +95,33 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## ASCII art 数据契约
+
+第一方 ASCII art 使用 JSON `ascii_art` 对象，至少包含稳定 `id` 和字符串数组 `picture`。当前
+`ascii_art::load` 会去除颜色标签后按终端显示宽度计算每一行；超过 `41` 个显示列的行会被截断并产生
+debug message。这里的“列”不是 UTF-8 字节数，宽字符、组合字符和颜色标签都需要用实际 loader 验证。
+
+```json
+{
+  "type": "ascii_art",
+  "id": "example_art",
+  "picture": [ "<color_white>+---+</color>", "<color_white>|   |</color>" ]
+}
+```
+
+上例只展示结构，不是待提交资源。使用现有有效 color name，并正确闭合标签。空行、前导空格和 Unicode
+线框字符是画面的一部分；通用 JSON formatter 之外的文本处理可能破坏对齐。Body-part graph 位于另一
+类数据和显示路径，不能仅因为外观相似就假定尺寸与字段完全相同。
+
+## 制作与审查
+
+任何能保留 UTF-8、空格和逐行文本的编辑器都可使用；REXPaint 只是可选工具，不是项目契约。外部 palette、
+字体或模板必须确认来源和许可证，不能直接把来源不明的图案带入仓库。
+
+提交前运行项目 JSON formatting/loading，检查重复 ID、无效颜色标签和 debug 输出，并在实际目标界面测试
+curses/tiles、默认及 fallback 字体、窄窗口、缩放和中英文环境。检查每行去标签后的显示宽度，而不是只看
+编辑器画布。ASCII art 不能成为识别物品或身体部位状态的唯一信息；无障碍路径仍需文字或结构替代。
 
 ## 历史与归属
 

@@ -33,7 +33,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 7f1113031005ac5f73773dfef9be9469370ab08655538a55b8ebaeac060e51be
+translation_source_fingerprint: 122f846b95c8d8cb9be2cc78ea72ec9a821fda4aa711a4ebf0033b1d718e29c4
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -88,6 +88,34 @@ search:
 ## 权威边界
 
 运行时行为仍以 CCB 源码和测试为准；JSON/Lua/API 以 Schema、声明、注册信息和生成清单为准；构建以 CI、CMake、Makefile 与 Gradle 为准。本页只解释迁移状态、历史和可审核来源。若旧正文与当前契约冲突，应以契约为准。
+
+## 设计稿与当前实现必须分开
+
+旧 faction 文档同时记录已经存在的阵营、未完成章节、未来任务构想和作者推测，不能当作当前游戏状态
+清单。第一方 faction ID、基础关系、currency、food、wealth、epilogue 等数据以
+`data/json/npcs/factions.json` 和 `faction` loader 为准；NPC、对话、任务、mapgen 和 tests 决定玩家
+实际能遇到的成员与行为。文档冲突时标记 stale 并按这些来源修复。
+
+## 阵营写作模板
+
+每个阵营页面或提案至少区分：
+
+- **身份与来源**：成员如何形成、哪些信息是玩家可见、哪些是后台剧透；
+- **结构与规模**：领导、成员、从属关系和地理范围，并标明数字是实现值还是叙事估计；
+- **目标与限制**：短期需求、长期方向、不能或不愿做的事情；
+- **关系**：对玩家、其他人类阵营、mutant/augmentation 和非人势力的态度及其变化条件；
+- **基地与经济**：真实 location、货币、商品来源、生产能力和供应瓶颈；
+- **任务与发展**：当前 mission ID/对话入口、计划内容以及会改变世界或存档的阶段。
+
+Blob、Mycus、triffid、netherum、Exodii、Yrax、mi-go 等不必符合人类国家模型。保留其不同感知、时间尺度、
+沟通和价值体系，不要为了给玩家任务就让不可交流的力量突然采用普通 barter 或道德语言。
+
+## 验证
+
+新增或修改阵营时检查稳定 ID、`copy-from`、relations 对称性、mon faction、currency、price rules、food、
+epilogue、NPC class、dialogue talker、mission 与 mapgen 引用。运行 JSON/EOC 加载、重复/失效 ID 检查和
+相关 faction/monster-faction tests；在实际游戏覆盖首次发现、敌对转换、贸易、任务阶段和保存重载。
+未实现的外交、基地或结局保持 draft，不能在正式页面写成现有功能。
 
 ## 历史与归属
 
