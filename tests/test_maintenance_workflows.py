@@ -166,6 +166,21 @@ class MaintenanceWorkflowTests(unittest.TestCase):
 
         self.assertTrue(any("CCB checkout ref" in error for error in errors), errors)
 
+    def test_runtime_example_policy_rejects_unrelated_expensive_triggers(self) -> None:
+        source = (ROOT / ".github/workflows/runtime-example-mods.yml").read_text(
+            encoding="utf-8"
+        )
+        source = source.replace(
+            "      - examples/**\n",
+            "      - examples/**\n      - docs-catalog.yml\n",
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "runtime-example-mods.yml"
+            path.write_text(source, encoding="utf-8")
+            errors = validate_runtime_example_workflow(path)
+
+        self.assertTrue(any("unrelated pull_request paths" in error for error in errors))
+
     def test_runtime_example_policy_rejects_an_unbounded_mod_load(self) -> None:
         source = (ROOT / ".github/workflows/runtime-example-mods.yml").read_text(
             encoding="utf-8"

@@ -309,18 +309,22 @@ def validate_runtime_example_workflow(
 
     pull_request = mapping(triggers.get("pull_request"))
     paths = pull_request.get("paths", [])
-    required_paths = {
-        ".github/workflows/runtime-example-mods.yml",
-        "config/**",
-        "docs-catalog.yml",
-        "examples/**",
-    }
+    runtime_config = yaml.safe_load(
+        (ROOT / "config/runtime-example-validation.yml").read_text(encoding="utf-8")
+    )
+    required_paths = set(runtime_config["workflow_trigger_paths"])
     if not isinstance(paths, list):
         errors.append(f"{name}: pull_request paths must be an array")
         paths = []
     missing_paths = sorted(required_paths - set(paths))
     if missing_paths:
         errors.append(f"{name}: missing pull_request paths: {', '.join(missing_paths)}")
+    unexpected_paths = sorted(set(paths) - required_paths)
+    if unexpected_paths:
+        errors.append(
+            f"{name}: unrelated pull_request paths launch the expensive build: "
+            f"{', '.join(unexpected_paths)}"
+        )
 
     concurrency = mapping(workflow.get("concurrency"))
     if not concurrency.get("group") or concurrency.get("cancel-in-progress") != "true":
