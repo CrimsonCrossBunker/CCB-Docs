@@ -33,7 +33,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: c4a7d8e1b59a092ed76514d5e9972c8ed6ecb45114a308e0374ed2f16f78c25a
+translation_source_fingerprint: 9ef954f62e96a4b00e62d5c429c4e1a703850629b848cb635f1c05cd7ea2c5b5
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -88,6 +88,38 @@ This is the migration draft page for `json-item-pricing`. It records **1** froze
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Item prices and trade rules
+
+`price` is the old-world or baseline price and `price_postapoc` is the post-Cataclysm trade baseline;
+both use non-negative money units. An NPC quote is not a direct display of either value. Item count,
+charges or stack size, contents, trade direction, NPC adjustments, faction or personal price rules,
+and currency can all change it.
+
+### Faction rules
+
+A faction `price_rules` entry uses item, group, and related matchers and may set `markup`, `premium`,
+`fixed_adj`, or a fixed `price`. The consumer searches from the end and uses the first matching rule.
+An NPC personal rule can override the faction rule. Declaring `currency` also adds an equivalent rule
+for that currency.
+
+Historical currency anchors, fixed price bands, and a “no item above this limit” statement are balance
+advice, not loader or trade-code constraints. Price against current CCB faction data, comparable
+items, and the real trade UI, and explain availability, utility, consumption rate, replaceability,
+and the target faction.
+
+### Charges and contents
+
+For count-by-charges items, fixed rule prices and base item prices account for stack size or charges.
+Loaded magazines, ammo, and container contents may also contribute. Do not treat a whole-stack JSON
+price as one charge or compensate for the same factor in item, group, and faction rules.
+
+### Validation
+
+Run formatting, `make -j2 json-check`, and Mod `--check-mods`. A new rule needs NPC-buying and
+NPC-selling cases, currency, conditional matching, personal override, charged stacks, and contents in
+`tests/faction_price_rules_test.cpp`. A Responsible human reviews balance; tests prove only that the
+calculation follows the contract.
 
 ## History and attribution
 
