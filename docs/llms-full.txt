@@ -1,0 +1,430 @@
+# CCB Developer Documentation — full indexed text
+
+> Generated from docs-catalog.yml. Only AI-allowlisted pages are included.
+
+## architecture.project-map [en] — Project map and authority boundaries
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/
+Verified commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
+Sources: AGENTS.md, ai/project-map.yml, ai/test-matrix.yml, ai/generated-files.yml
+
+# Project map
+
+The project map answers three questions: where to change, what not to change
+incidentally, and what to validate afterwards. Root `AGENTS.md` provides the
+offline minimum; `ai/project-map.yml` and `ai/test-matrix.yml` provide the
+machine-readable form.
+
+## Main areas
+
+| Path | Responsibility | Next step |
+| --- | --- | --- |
+| `src/` | C++ engine, gameplay, UI, native Lua registration | Read `src/AGENTS.md` and relevant tests |
+| `data/json/`, `data/core/` | Core JSON definitions | Check stable IDs, format, and loading |
+| `data/lua/`, `tools/lua_api/` | Lua contracts, declarations, inventories, examples | Read `data/lua/AGENTS.md` |
+| `data/mods/` | Independent mods shipped with the game | Read the mod README and dependencies |
+| `tests/` | Catch2 regression and integration tests | Add focused, reproducible behavioural tests |
+| `tools/` | Formatters, validators, generators | Preserve CLI behaviour and provide `--check` |
+| `android/` | Android Gradle, Java UI, packaging | Do not commit SDK state, signing data, or APKs |
+| `.github/`, build files | CI, build, and release contracts | Use minimum permissions and pinned action SHAs |
+
+## Trace one behaviour
+
+1. Start with observable behaviour, a JSON ID, action name, test name, or log
+   text.
+2. Use `rg` to find definitions and references instead of reading the source
+   tree in directory order.
+3. Locate registrations, callers, data loaders, and existing tests.
+4. Check `ai/generated-files.yml` before editing generated output.
+5. Select the smallest sufficient validation from the test matrix.
+
+## Boundary
+
+The map is navigation, not a runtime specification. Source and tests define
+behaviour; schemas, LuaLS declarations, registrations, and generated
+inventories define API contracts; build files and CI define builds. If the map
+conflicts with those facts, mark and repair the map or this page as stale.
+
+## architecture.project-map [zh_CN] — 项目地图与权威边界
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/
+Verified commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
+Sources: AGENTS.md, ai/project-map.yml, ai/test-matrix.yml, ai/generated-files.yml
+
+# 项目地图
+
+项目地图回答三个问题：应该改哪里、哪里不能顺手改、改完运行什么验证。根
+`AGENTS.md` 提供离线最小地图，`ai/project-map.yml` 和 `ai/test-matrix.yml` 提供
+机器可读版本。
+
+## 主要区域
+
+| 路径 | 责任 | 下一步 |
+| --- | --- | --- |
+| `src/` | C++ 引擎、游戏逻辑、UI、原生 Lua 注册 | 读取 `src/AGENTS.md` 与相关测试 |
+| `data/json/`、`data/core/` | 核心 JSON 定义 | 检查稳定 ID、格式和加载 |
+| `data/lua/`、`tools/lua_api/` | Lua 契约、声明、清单和示例 | 读取 `data/lua/AGENTS.md` |
+| `data/mods/` | 随游戏发布的独立 MOD | 读取本 MOD 的 README 和依赖 |
+| `tests/` | Catch2 回归与集成测试 | 添加聚焦、可复现的行为测试 |
+| `tools/` | 格式化器、验证器、生成器 | 保持 CLI 稳定并提供 `--check` |
+| `android/` | Android Gradle、Java UI 与打包 | 不提交 SDK、签名或 APK |
+| `.github/`、构建文件 | CI、构建和发布契约 | 使用最小权限和固定 Action SHA |
+
+## 跟踪一个行为
+
+1. 从可观察行为、JSON ID、动作名、测试名或日志文本开始。
+2. 使用 `rg` 找定义与引用，不按目录顺序阅读整个源码树。
+3. 找到注册点、调用者、数据加载器和现有测试。
+4. 检查 `ai/generated-files.yml`，避免手改生成文件。
+5. 从测试矩阵选择最小充分验证。
+
+## 边界
+
+项目地图是导航，不是运行时规范。源码和测试决定行为；Schema、LuaLS、注册和
+生成清单决定 API 契约；构建文件和 CI 决定构建行为。导航与这些事实冲突时，
+应修复地图或本文并标记 stale。
+
+## contributing.responsible-human [en] — Responsible human and AI-assisted contributions
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/
+Verified commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
+Sources: CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md
+
+# Responsible human
+
+CCB permits AI assistance and pull requests opened by automation. Contributors
+do not have to publish the tool, model, complete prompt, or conversation, but
+every pull request must name a real Responsible human.
+
+## Responsibilities
+
+The Responsible human must:
+
+- understand the purpose, implementation, and impact boundary;
+- review the final diff, not only the generation process or summary;
+- own the test results reported in the pull request;
+- verify licenses and attribution for copied, adapted, or ported material;
+- record verifiable external sources;
+- answer review questions and follow the pull request through merge or closure.
+
+AI output does not prove correctness and does not erase upstream licenses or
+authorship. If the change cannot be explained or its validation reproduced,
+investigate further rather than delegating responsibility to the tool.
+
+## Review and merge
+
+The target governance requires a non-author human approval, but maintainers
+must first confirm at least two active human reviewers with permission and a
+successful default-branch run for each required check. Until then, keep the
+target configuration documented rather than enabling protection that could
+make the repository impossible to merge.
+
+Bot-created drift pull requests are never auto-merged. A docs pull request must
+also be refreshed to the final source commit and revalidated after its source
+pull request merges.
+
+## contributing.responsible-human [zh_CN] — Responsible human 与 AI 辅助贡献
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/
+Verified commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
+Sources: CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md
+
+# Responsible human 与贡献责任
+
+CCB 允许 AI 辅助，也允许自动化账号创建 PR。不要求公开工具、模型、完整提示词
+或聊天记录，但每个 PR 必须指定一名真实的 Responsible human。
+
+## 责任范围
+
+Responsible human 必须：
+
+- 理解修改的目的、实现和影响边界；
+- 审查最终 diff，而不是只审查生成过程或摘要；
+- 为 PR 中记录的测试结果负责；
+- 核查复制、改写和移植材料的许可证与署名；
+- 记录可验证的外部来源；
+- 回答审阅问题，并跟进 PR 直到合并或关闭。
+
+AI 输出不能证明代码正确，也不能消除上游许可证或作者署名。无法解释修改或
+无法复现验证时，应继续调查，而不是把责任推给工具。
+
+## 审阅与合并
+
+目标治理规则要求非作者人类批准，但启用前必须确认至少两名活跃且有审查权限
+的人类维护者，并确认 required checks 已在默认分支成功运行。条件不足时只保留
+目标配置，不立即启用会阻塞仓库的保护规则。
+
+机器人创建的漂移 PR 禁止自动合并。文档 PR 在依赖的源码 PR 合并后，还必须
+刷新到最终 commit 并重新验证。
+
+## getting-started.first-contribution [en] — First contribution
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/
+Verified commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
+Sources: CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md
+
+# First contribution
+
+This route serves first-time CCB contributors and agents that need reliable
+task context. The goal is not to understand the whole project first; it is to
+finish one scoped, verifiable change.
+
+## 1. Start from authoritative facts
+
+Identify the subsystem, then read the root `AGENTS.md` and the nearest nested
+`AGENTS.md` for the target path. Use `ai/project-map.yml` to locate entry points
+and `ai/test-matrix.yml` to select validation.
+
+Do not infer runtime behaviour only from an old issue, a search summary, or
+this site's prose. Confirm it in source and tests.
+
+## 2. Create an isolated branch
+
+Start from current `master` and keep the branch focused on one problem. Do not
+include local caches, build outputs, or unrelated changes. In particular, do
+not scan, stage, or commit `obj-lua/`.
+
+## 3. Make the smallest change and validate it
+
+Before changing a public ID, schema, LuaLS declaration, registration, or build
+interface, inspect callers, generation rules, and existing tests. Choose the
+smallest sufficient checks from the
+[validation quickstart](../validation/quickstart.md), and report only commands
+that actually ran.
+
+## 4. Complete the pull-request contract
+
+Every pull request fills in:
+
+- `Responsible human`: a real GitHub account;
+- `Documentation impact`: none, an update, or a stale marker;
+- `Related CCB-Docs PR`: use `None` when absent;
+- `Affected documentation IDs`: stable catalog IDs;
+- `Generated reference impact`: schema, LuaLS, registration, or inventory
+  consequences.
+
+Tool or model disclosure is optional, but responsibility cannot be delegated
+to a tool. See [Responsible human](../contributing/responsible-human.md).
+
+## 5. Coordinate cross-repository documentation
+
+A docs pull request may be prepared before its source pull request merges, but
+it remains draft and records the source pull request. After source merge,
+refresh `verified_commit` to the final commit, regenerate catalog outputs, and
+rerun validation before requesting human docs merge.
+
+Completion means a reviewer can understand why the change exists, what it
+does, how it was verified, and whether documentation or generated references
+are affected.
+
+## getting-started.first-contribution [zh_CN] — 第一次贡献
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/
+Verified commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
+Sources: CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md
+
+# 第一次贡献
+
+这条路线适合第一次修改 CCB 的贡献者，也适合需要为任务建立可靠上下文的
+Agent。目标不是先读懂整个项目，而是完成一个范围明确、能够验证的修改。
+
+## 1. 从权威事实开始
+
+先确认任务属于哪个子系统，再读取根 `AGENTS.md` 和目标路径最近的嵌套
+`AGENTS.md`。使用 `ai/project-map.yml` 找入口，使用 `ai/test-matrix.yml` 找验证
+命令。
+
+不要仅根据旧 Issue、搜索摘要或本站正文推断运行时行为；回到源码与测试确认。
+
+## 2. 建立独立分支
+
+从最新 `master` 创建一个只解决单一问题的分支。不要把本地缓存、构建产物或
+不相关修改带进提交。尤其不要扫描、暂存或提交 `obj-lua/`。
+
+## 3. 做最小修改并验证
+
+修改公开 ID、Schema、LuaLS、注册信息或构建接口前，先查看调用者、生成规则和
+已有测试。选择[构建与验证快速入口](../validation/quickstart.md)中的最小充分
+检查，并准确记录实际运行结果。
+
+## 4. 填写 PR 契约
+
+每个 PR 必须填写：
+
+- `Responsible human`：真实 GitHub 账号；
+- `Documentation impact`：无影响、需要修改，或需要标记 stale；
+- `Related CCB-Docs PR`：没有则写 `None`；
+- `Affected documentation IDs`：Catalog 中的稳定 ID；
+- `Generated reference impact`：是否影响 Schema、LuaLS、注册或生成清单。
+
+AI 工具或模型无需披露，但责任不会交给工具。详见
+[Responsible human 与贡献责任](../contributing/responsible-human.md)。
+
+## 5. 处理跨仓库文档
+
+文档 PR 可以在源码 PR 合并前准备，但必须保持 draft 并记录源码 PR。源码合并
+后，用最终 commit 刷新 `verified_commit`、重新生成 Catalog 输出并再次验证，
+然后才请求人类合并文档 PR。
+
+完成标准是：审阅者能理解为什么改、改了什么、如何验证，以及文档和生成参考
+是否受到影响。
+
+## home [en] — CCB Developer Documentation
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/
+Verified commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
+Sources: AGENTS.md, GOVERNANCE.md
+
+# CCB Developer Documentation
+
+This is the formal developer explanation, tutorial, architecture, and
+navigation site for Cataclysm: Cleanwater Bomb.
+
+!!! info "Phase 0/1 foundation"
+    This release publishes the home page and four complete bilingual example
+    topics. The source repository's 175 tracked Markdown files are classified
+    in the migration inventory; pages selected for migration do not enter the
+    production navigation until their bilingual pair is complete.
+
+## Know the authority boundary first
+
+- Runtime behaviour comes from CCB source and tests.
+- JSON, Lua, and API contracts come from schemas, LuaLS declarations,
+  registrations, and generated inventories.
+- Build and validation behaviour comes from CI, CMake, Makefile, Gradle, and
+  repository validators.
+- Contribution policy comes from the source repository's `AGENTS.md`,
+  `CONTRIBUTING.md`, and `GOVERNANCE.md`.
+- This site organizes those facts for learning, reference, and agent routing.
+
+When this site conflicts with a contract, the page must be marked stale and
+repaired. The site does not override the contract.
+
+## Choose a route
+
+- [First contribution](getting-started/first-contribution.md): the shortest
+  route from locating a change to opening a pull request.
+- [Project map](architecture/project-map.md): find source, rules, and tests by
+  subsystem.
+- [Responsible human](contributing/responsible-human.md): understand
+  responsibility for AI-assisted contributions.
+- [Build and validation](validation/quickstart.md): choose the smallest
+  sufficient validation commands.
+
+The CCB player website and CCB-GUIDE remain separate: the website is the
+concise player entry point, while CCB-GUIDE queries game data.
+
+## home [zh_CN] — CCB 开发文档
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/
+Verified commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
+Sources: AGENTS.md, GOVERNANCE.md
+
+# CCB 开发文档
+
+这里是 Cataclysm: Cleanwater Bomb 的正式开发者解释、教程、架构与导航站。
+
+!!! info "Phase 0/1 基础站点"
+    本轮发布首页与四个完整双语示范主题。主仓库 175 个受 Git 跟踪的 Markdown
+    文件已在迁移清单中分类；选定迁移但尚未完成双语的页面不会进入正式导航。
+
+## 先理解权威边界
+
+- 游戏实际怎样运行，以 CCB 主仓库源码和测试为准。
+- JSON、Lua 与 API 契约，以 Schema、LuaLS 声明、注册信息和生成清单为准。
+- 构建与验证，以 CI、CMake、Makefile、Gradle 和验证脚本为准。
+- 贡献政策，以主仓库 `AGENTS.md`、`CONTRIBUTING.md`、`GOVERNANCE.md` 为准。
+- 本站负责把这些事实组织成可以学习、查阅和被 Agent 导航的文档。
+
+如果本站与契约冲突，页面必须标记为 stale 并修复；本站不能覆盖契约。
+
+## 选择入口
+
+- [第一次贡献](getting-started/first-contribution.md)：完成从定位到 PR 的最短路线。
+- [项目地图](architecture/project-map.md)：按子系统寻找源码、规则和测试。
+- [Responsible human](contributing/responsible-human.md)：理解 AI 辅助贡献的责任。
+- [构建与验证](validation/quickstart.md)：选择最小但充分的验证命令。
+
+CCB 玩家主页和物品查询站保持独立：主页提供玩家简明入口，CCB-GUIDE 提供
+游戏数据查询。
+
+## validation.quickstart [en] — Validation quickstart
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/
+Verified commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
+Sources: AGENTS.md, ai/test-matrix.yml, Makefile, CMakePresets.json, android/gradlew
+
+# Build and validation quickstart
+
+CCB CI, CMake, Makefile, Gradle, and repository scripts define validation
+behaviour. This page is only a routing aid. If a command here conflicts with a
+build file, mark this page stale and repair it against the build contract.
+
+## Choose the smallest sufficient check first
+
+| Changed area | First check | Notes |
+| --- | --- | --- |
+| Agent/governance metadata | `python3 tools/agent/check_project_metadata.py` | Then run the `tools/agent` unit tests |
+| C++ | `make astyle-check` | Behaviour changes also need focused Catch2 tests |
+| C++ tests | `make -j2 tests` | Then run `./tests/cata_test "filter"` |
+| JSON | `make -j2 json-check` | Also run the repository formatter on changed files |
+| Lua contract | `check_luals_declarations.py` and `check_coverage.py` | Check schema, registration, and declaration changes |
+| CMake | `cmake --preset linux-x64` | Use an existing repository preset |
+| Android | `cd android && ./gradlew test` | Requires a configured Android SDK |
+
+The complete routing data lives in `ai/test-matrix.yml`. If an expensive or
+platform-specific check lacks dependencies, report why it was skipped. Never
+claim a check passed when it did not run.
+
+## Record validation results
+
+A pull request records:
+
+1. the exact commands that ran;
+2. focused test filters or names;
+3. results and any relevant RNG seed;
+4. skipped checks and reasons;
+5. scenarios reviewers should verify separately.
+
+Documentation-impact automation is advisory in Phase 0/1. It does not replace
+source tests and does not block an ordinary source pull request because of
+unrelated documentation debt.
+
+## validation.quickstart [zh_CN] — 验证快速入门
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/
+Verified commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
+Sources: AGENTS.md, ai/test-matrix.yml, Makefile, CMakePresets.json, android/gradlew
+
+# 构建与验证快速入口
+
+验证命令以 CCB 主仓库的 CI、CMake、Makefile、Gradle 和脚本为准。本文只提供
+选择入口；如果本文命令与构建文件冲突，应标记本文 stale 并按实际构建契约修复。
+
+## 先选最小充分检查
+
+| 修改区域 | 首选检查 | 说明 |
+| --- | --- | --- |
+| Agent/治理元数据 | `python3 tools/agent/check_project_metadata.py` | 再运行 `tools/agent` 单元测试 |
+| C++ | `make astyle-check` | 行为变化还需聚焦 Catch2 测试 |
+| C++ 测试 | `make -j2 tests` | 然后运行 `./tests/cata_test "过滤器"` |
+| JSON | `make -j2 json-check` | 单文件同时运行仓库 JSON formatter |
+| Lua 契约 | `check_luals_declarations.py` 与 `check_coverage.py` | Schema/注册/声明变化都要检查 |
+| CMake | `cmake --preset linux-x64` | 使用仓库现有 preset |
+| Android | `cd android && ./gradlew test` | 需要配置好的 Android SDK |
+
+完整命令与路径映射位于 `ai/test-matrix.yml`。耗时检查或平台检查缺少依赖时，
+明确说明跳过原因，不得声称已经通过。
+
+## 记录验证结果
+
+PR 中应记录：
+
+1. 实际运行的完整命令；
+2. 聚焦测试过滤器或测试名称；
+3. 结果和必要的 RNG seed；
+4. 未运行检查及原因；
+5. 建议审阅者额外验证的场景。
+
+文档影响检查在 Phase 0/1 只提示；它不会代替源码测试，也不会因为无关文档债务
+阻止普通源码 PR。

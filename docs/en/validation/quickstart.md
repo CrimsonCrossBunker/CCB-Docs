@@ -1,23 +1,58 @@
 ---
 # GENERATED FROM docs-catalog.yml. DO NOT EDIT THIS BLOCK.
 id: validation.quickstart
-title: Build and validation quickstart
+title: Validation quickstart
 language: en
 status: active
+doc_type: how-to
+audiences:
+- new-contributor
+- experienced-contributor
+- maintainer
+- mod-author
+owners:
+- CCB maintainers
+reviewers:
+- Documentation reviewers
+review_interval_days: 90
+last_human_reviewer: LYHGLYTX
 source_paths:
 - AGENTS.md
 - ai/test-matrix.yml
 - Makefile
 - CMakePresets.json
 - android/gradlew
+source_symbols: []
+source_queries:
+- Basic discovery and validation
+- 'kind: test_matrix'
+source_fingerprint: 900c3cc35f171c4bd297e703e5442b63b64871988f1284b600fca952afe88b1f
 authority: build-config
 verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
 verified_at: '2026-08-01'
 generated: false
+generated_by: null
 include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
+translation_source_fingerprint: 7bbe452f2a9397eac25ccbfb804f71d0a081288915bb3900ef5f2c0fcb9f4114
+prerequisites:
+- architecture.project-map
+depends_on: []
+redirect_from: []
+supersedes: []
+license: CC-BY-SA-3.0
+attribution: CCB contributors; see source paths and Git history.
+example_validation_ids:
+- agent-context
+- cpp-format
+- cpp-tests
+- json-load
+- lua-contract
+api_version: null
+deprecated: false
+deprecation_replacement: null
 risk_group: build
 risk_level: high
 pending_source_pr: null

@@ -1,0 +1,22 @@
+{
+  "architecture.project-map": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/"
+  },
+  "contributing.responsible-human": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/"
+  },
+  "getting-started.first-contribution": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/"
+  },
+  "home": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/"
+  },
+  "validation.quickstart": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/"
+  }
+}

@@ -1,21 +1,49 @@
 ---
 # GENERATED FROM docs-catalog.yml. DO NOT EDIT THIS BLOCK.
 id: contributing.responsible-human
-title: Responsible human
+title: Responsible human and AI-assisted contributions
 language: en
 status: active
+doc_type: explanation
+audiences:
+- new-contributor
+- experienced-contributor
+- maintainer
+owners:
+- CCB maintainers
+reviewers:
+- Documentation reviewers
+review_interval_days: 90
+last_human_reviewer: LYHGLYTX
 source_paths:
 - CONTRIBUTING.md
 - GOVERNANCE.md
 - .github/pull_request_template.md
+source_symbols: []
+source_queries:
+- Responsible human
+source_fingerprint: 92bbc1c991b6ad674114072e80aa45f9cc05cb3bf47bc24c8b2dc4ab2dd10695
 authority: governance
 verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
 verified_at: '2026-08-01'
 generated: false
+generated_by: null
 include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
+translation_source_fingerprint: 55d3f928cb2ca6ab24791556f0c374de51d4aa25e240accb35f181120453be7a
+prerequisites: []
+depends_on: []
+redirect_from: []
+supersedes: []
+license: CC-BY-SA-3.0
+attribution: CCB contributors; see source paths and Git history.
+example_validation_ids:
+- agent-context
+api_version: null
+deprecated: false
+deprecation_replacement: null
 risk_group: governance
 risk_level: high
 pending_source_pr: null

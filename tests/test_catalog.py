@@ -12,6 +12,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from check_catalog import validate_repository  # noqa: E402
 from generate_catalog import (  # noqa: E402
     CatalogError,
+    GENERATED_PATHS,
     index_payload,
     load_catalog,
     validate_policy,
@@ -54,6 +55,7 @@ class CatalogTests(unittest.TestCase):
         catalog = copy.deepcopy(self.catalog)
         catalog["pages"][0]["status"] = "stale"
         catalog["pages"][0]["include_in_ai_index"] = False
+        catalog["pages"][0]["stale_reason"] = "source review required"
 
         validate_policy(catalog)
 
@@ -66,6 +68,40 @@ class CatalogTests(unittest.TestCase):
     def test_catalog_has_exactly_one_entry_per_id_and_language(self) -> None:
         keys = [(page["id"], page["language"]) for page in self.catalog["pages"]]
         self.assertEqual(len(keys), len(set(keys)))
+
+    def test_catalog_and_generated_indexes_are_v2(self) -> None:
+        self.assertEqual(self.catalog["schema_version"], 2)
+        self.assertEqual(index_payload(self.catalog)["schema_version"], 2)
+        for path in GENERATED_PATHS.values():
+            self.assertTrue(path.is_file(), path)
+
+    def test_generated_page_requires_generator(self) -> None:
+        catalog = copy.deepcopy(self.catalog)
+        catalog["pages"][0]["generated"] = True
+        with self.assertRaisesRegex(CatalogError, "needs generated_by"):
+            validate_policy(catalog)
+
+    def test_current_english_page_tracks_chinese_fingerprint(self) -> None:
+        catalog = copy.deepcopy(self.catalog)
+        english = next(
+            page
+            for page in catalog["pages"]
+            if page["id"] == "home" and page["language"] == "en"
+        )
+        english["translation_source_fingerprint"] = "0" * 64
+        with self.assertRaisesRegex(CatalogError, "fingerprint"):
+            validate_policy(catalog)
+
+    def test_page_type_templates_exist(self) -> None:
+        for name in (
+            "tutorial",
+            "how-to",
+            "reference",
+            "explanation",
+            "generated-api",
+            "archive",
+        ):
+            self.assertTrue((ROOT / "templates" / f"{name}.md").is_file())
 
 
 if __name__ == "__main__":

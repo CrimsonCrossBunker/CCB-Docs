@@ -1,22 +1,43 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://crimsoncrossbunker.github.io/CCB-Docs/schemas/page-metadata-v1.json",
-  "title": "CCB-Docs page metadata",
+  "$id": "https://crimsoncrossbunker.github.io/CCB-Docs/schemas/page-metadata-v2.json",
+  "title": "CCB-Docs page metadata v2",
   "type": "object",
   "required": [
     "id",
     "title",
     "language",
     "status",
+    "doc_type",
+    "audiences",
+    "owners",
+    "reviewers",
+    "review_interval_days",
+    "last_human_reviewer",
     "source_paths",
+    "source_symbols",
+    "source_queries",
+    "source_fingerprint",
     "authority",
     "verified_commit",
     "verified_at",
     "generated",
+    "generated_by",
     "include_in_search",
     "include_in_ai_index",
     "translation_status",
     "translation_stale_since",
+    "translation_source_fingerprint",
+    "prerequisites",
+    "depends_on",
+    "redirect_from",
+    "supersedes",
+    "license",
+    "attribution",
+    "example_validation_ids",
+    "api_version",
+    "deprecated",
+    "deprecation_replacement",
     "risk_group",
     "risk_level",
     "pending_source_pr",
@@ -27,12 +48,55 @@
     "title": { "type": "string", "minLength": 1 },
     "language": { "enum": [ "zh_CN", "en" ] },
     "status": { "enum": [ "draft", "active", "stale", "archived" ] },
+    "doc_type": {
+      "enum": [ "tutorial", "how-to", "reference", "explanation", "generated-api", "archive" ]
+    },
+    "audiences": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "new-contributor",
+          "experienced-contributor",
+          "maintainer",
+          "mod-author",
+          "api-user",
+          "player"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "owners": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "reviewers": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "review_interval_days": { "type": "integer", "minimum": 1, "maximum": 3660 },
+    "last_human_reviewer": { "type": "string", "minLength": 1 },
     "source_paths": {
       "type": "array",
       "items": { "type": "string", "minLength": 1 },
       "minItems": 1,
       "uniqueItems": true
     },
+    "source_symbols": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "source_queries": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "source_fingerprint": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
     "authority": {
       "enum": [
         "source-and-tests",
@@ -46,12 +110,47 @@
     "verified_commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
     "verified_at": { "type": "string", "format": "date" },
     "generated": { "type": "boolean" },
+    "generated_by": { "type": [ "string", "null" ] },
     "include_in_search": { "type": "boolean" },
     "include_in_ai_index": { "type": "boolean" },
     "translation_status": {
       "enum": [ "current", "translation-stale", "not-applicable" ]
     },
     "translation_stale_since": { "type": [ "string", "null" ], "format": "date" },
+    "translation_source_fingerprint": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$" },
+      "uniqueItems": true
+    },
+    "depends_on": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$" },
+      "uniqueItems": true
+    },
+    "redirect_from": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^/[^\\s]*$" },
+      "uniqueItems": true
+    },
+    "supersedes": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "license": { "type": "string", "minLength": 1 },
+    "attribution": { "type": "string", "minLength": 1 },
+    "example_validation_ids": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "api_version": { "type": [ "string", "null" ] },
+    "deprecated": { "type": "boolean" },
+    "deprecation_replacement": { "type": [ "string", "null" ] },
     "risk_group": { "type": "string", "minLength": 1 },
     "risk_level": { "enum": [ "normal", "high" ] },
     "pending_source_pr": { "type": [ "string", "null" ], "format": "uri" },

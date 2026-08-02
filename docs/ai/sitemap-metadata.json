@@ -1,0 +1,112 @@
+[
+  {
+    "id": "architecture.project-map",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/",
+    "last_verified": "2026-08-01",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/"
+    }
+  },
+  {
+    "id": "architecture.project-map",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
+    "last_verified": "2026-08-01",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/"
+    }
+  },
+  {
+    "id": "contributing.responsible-human",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/",
+    "last_verified": "2026-08-01",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/"
+    }
+  },
+  {
+    "id": "contributing.responsible-human",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/",
+    "last_verified": "2026-08-01",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/"
+    }
+  },
+  {
+    "id": "getting-started.first-contribution",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/",
+    "last_verified": "2026-08-01",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/"
+    }
+  },
+  {
+    "id": "getting-started.first-contribution",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/",
+    "last_verified": "2026-08-01",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/"
+    }
+  },
+  {
+    "id": "home",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/",
+    "last_verified": "2026-08-01",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/"
+    }
+  },
+  {
+    "id": "home",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/",
+    "last_verified": "2026-08-01",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/"
+    }
+  },
+  {
+    "id": "validation.quickstart",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/",
+    "last_verified": "2026-08-01",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/"
+    }
+  },
+  {
+    "id": "validation.quickstart",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/",
+    "last_verified": "2026-08-01",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/"
+    }
+  }
+]

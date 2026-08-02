@@ -4,17 +4,48 @@ id: home
 title: CCB Developer Documentation
 language: en
 status: active
+doc_type: explanation
+audiences:
+- new-contributor
+- experienced-contributor
+- maintainer
+- mod-author
+- api-user
+owners:
+- CCB maintainers
+reviewers:
+- Documentation reviewers
+review_interval_days: 180
+last_human_reviewer: LYHGLYTX
 source_paths:
 - AGENTS.md
 - GOVERNANCE.md
+source_symbols: []
+source_queries:
+- Sources of truth
+- Authority model
+source_fingerprint: d27dfc345f1f62196b482536e828d7781fbdc467c68ce6d109f8d289f2921adb
 authority: docs-explanation
 verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
 verified_at: '2026-08-01'
 generated: false
+generated_by: null
 include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
+translation_source_fingerprint: 38a37cdddd129271ed9a5484f0b0da50d20558876d983fe7eefb471397dcd0af
+prerequisites: []
+depends_on: []
+redirect_from: []
+supersedes: []
+license: CC-BY-SA-3.0
+attribution: CCB contributors; see source paths and Git history.
+example_validation_ids:
+- agent-context
+api_version: null
+deprecated: false
+deprecation_replacement: null
 risk_group: project-context
 risk_level: normal
 pending_source_pr: null
