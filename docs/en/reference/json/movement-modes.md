@@ -34,7 +34,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 40d1f1eaa2d032d2b273775320f0d388497d71eca68d3f0a8a84002964341aba
+translation_source_fingerprint: e6197c06a274977e3dd88120bfd657678164cdb2f0cdbe6c88bcf65006aad593
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -89,6 +89,37 @@ This is the migration draft page for `json.movement-modes`. It records **1** fro
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Movement-mode contract
+
+`move_mode` is a generic-factory object. The current loader requires display character and name,
+panel character, `exertion_level`, prepare and successful-change messages for foot, animal, and
+mech contexts, and `move_type`. `move_type` accepts current prone, crouching, walking, and running
+semantics; the displayed name is not the behavior type.
+
+### Speed, stamina, and cycling
+
+`move_speed_multiplier`, `stamina_multiplier`, `sound_multiplier`, `swim_speed_mod`,
+`mech_power_use`, and `stop_hauling` affect different subsystems. A multiplier is not an isolated
+balance control: terrain move cost, encumbrance, mounts, stamina, noise, and effects still contribute.
+
+Finalization sorts modes by move-speed multiplier and builds forward and reverse cycles. Adding a
+mode can change everyone's cycle order without editing existing IDs. Do not treat the order of equal
+multipliers as a UI contract.
+
+### Text and mounts
+
+Prepare and change messages cover walking, animal, and mech contexts separately. Failure messages
+have defaults, but release content should not rely on placeholder “bugs” text. Character and panel
+symbols need valid Unicode and colors use the current color reader. Riding exertion may be separate,
+so walking evidence does not prove mounted behavior.
+
+### Validation
+
+Run formatting, `make -j2 json-check`, `--check-mods`, and focused movement, stamina, sound, and
+vehicle tests. Cover cycling both ways, UI symbols, failed prone/crouch/run switches, hauling,
+swimming, animal and mech power, encumbrance and terrain, save reload, and translation. Record
+actual movement, stamina, and sound results rather than only successful JSON loading.
 
 ## History and attribution
 

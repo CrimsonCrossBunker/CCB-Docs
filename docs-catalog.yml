@@ -11006,7 +11006,7 @@ pages:
     translation_group: json.monster-special-attacks
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 7c50598ff6c49b12b0920685fab9cbdc2a9e88751285433c754c2561480119cd
+    translation_source_fingerprint: 37ea54fc1bc8b70dbdf6102f2ba706cfa53de70b2836f8f1fcc5d9bfc6a82beb
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11063,7 +11063,7 @@ pages:
     translation_group: json.monster-special-attacks
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 7c50598ff6c49b12b0920685fab9cbdc2a9e88751285433c754c2561480119cd
+    translation_source_fingerprint: 37ea54fc1bc8b70dbdf6102f2ba706cfa53de70b2836f8f1fcc5d9bfc6a82beb
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11236,7 +11236,7 @@ pages:
     translation_group: json.movement-modes
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 40d1f1eaa2d032d2b273775320f0d388497d71eca68d3f0a8a84002964341aba
+    translation_source_fingerprint: e6197c06a274977e3dd88120bfd657678164cdb2f0cdbe6c88bcf65006aad593
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11291,7 +11291,7 @@ pages:
     translation_group: json.movement-modes
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 40d1f1eaa2d032d2b273775320f0d388497d71eca68d3f0a8a84002964341aba
+    translation_source_fingerprint: e6197c06a274977e3dd88120bfd657678164cdb2f0cdbe6c88bcf65006aad593
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11465,7 +11465,7 @@ pages:
     translation_group: json.npc-factions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 5bb703714afb4f20964c2008d194315bf6eec82896650db82c193999f702787f
+    translation_source_fingerprint: a7316547f229ed816e820ee74dfe65f69f16f26324ca92ab8e906af89051461c
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11521,7 +11521,7 @@ pages:
     translation_group: json.npc-factions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 5bb703714afb4f20964c2008d194315bf6eec82896650db82c193999f702787f
+    translation_source_fingerprint: a7316547f229ed816e820ee74dfe65f69f16f26324ca92ab8e906af89051461c
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11584,7 +11584,7 @@ pages:
     translation_group: json.obsoletion-and-migration
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 77f2b5617a060b0744280d9fcb218c93ca3ba05cb3dec71e1f75ea12422bce00
+    translation_source_fingerprint: 43ff7712534c3fc4fd748e2083641e9f9cd8731984a185aa212bf918c945389d
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11647,7 +11647,7 @@ pages:
     translation_group: json.obsoletion-and-migration
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 77f2b5617a060b0744280d9fcb218c93ca3ba05cb3dec71e1f75ea12422bce00
+    translation_source_fingerprint: 43ff7712534c3fc4fd748e2083641e9f9cd8731984a185aa212bf918c945389d
     prerequisites: []
     depends_on: []
     redirect_from: []

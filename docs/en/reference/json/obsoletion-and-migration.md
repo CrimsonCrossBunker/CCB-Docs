@@ -42,7 +42,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 77f2b5617a060b0744280d9fcb218c93ca3ba05cb3dec71e1f75ea12422bce00
+translation_source_fingerprint: 43ff7712534c3fc4fd748e2083641e9f9cd8731984a185aa212bf918c945389d
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -107,6 +107,51 @@ This is the migration draft page for `json.obsoletion-and-migration`. It records
 ## Authority boundary
 
 CCB source and tests remain authoritative for runtime behaviour; schemas, declarations, registrations, and generated inventories govern JSON/Lua/API; CI, CMake, Makefile, and Gradle govern builds. This page explains migration state, history, and auditable provenance only. A current contract wins over conflicting legacy prose.
+
+## Choosing obsoletion and migration
+
+There is no universal migration covering every JSON type. First identify whether an old ID belongs
+to items, traits, terrain or furniture, overmap terrain, vehicle parts, effects, spells, Mods, or
+another registry. Use that loader's registered migration object. If no loader exists, retain the old
+ID or compatibility shim, or implement and test non-behavioral migration support; do not invent a
+Schema contract.
+
+### Item `MIGRATION`
+
+Current item migration accepts one or more old `id` values and may set `replace`, `variant`,
+`from_variant`, flags, charges, contents, sealed state, and `reset_item_vars`. `replace` cannot equal
+the old ID. A variant migration matches only that old variant. Contents that do not fit a normal
+container enter a dedicated migration pocket instead of being silently lost.
+
+```jsonc
+{
+  "type": "MIGRATION",
+  "id": "old_item_id",
+  "replace": "new_item_id"
+}
+```
+
+The replacement type must exist when loading and finalizing. Counts, charges, pockets, item
+variables, damage, ownership, and sealed state may all need fixtures; changing one ID is not proof
+of a complete migration.
+
+### Other registries and Mods
+
+CCB currently registers migrations for traits, bionics, proficiencies, terrain or furniture, fields,
+vehicle parts, traps, effects, overmap terrain or specials, camps, spells, global variables, and
+Mods, among others. Their fields and abilities differ. `mod_migration` uses an old `id` plus
+`new_id`, or a translated `removal_reason` when removed; the target Mod must be valid.
+
+`obsolete: true` generally controls new-content selection and does not rewrite every saved
+reference. Retention windows, replacements, release notes, and removed-ID tests remain necessary.
+
+### Validation
+
+Load each real old fixture with current code, inspect migrated objects and nested contents plus map,
+character, and world state, then save and load again to prove idempotence and no duplicated
+resources. Run formatting, `make -j2 json-check`, `--check-mods`, and owning subsystem tests. Cover
+missing targets, chains and cycles, old and new Mods together, and the release boundary for eventual
+migration removal.
 
 ## History and attribution
 
