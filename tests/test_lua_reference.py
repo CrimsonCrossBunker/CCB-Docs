@@ -37,8 +37,8 @@ class LuaReferenceTests(unittest.TestCase):
         jsonschema.Draft202012Validator(
             schema, format_checker=jsonschema.FormatChecker()
         ).validate(self.report)
-        self.assertEqual(self.report["contract_public_symbols"], 2806)
-        self.assertEqual(self.report["generated_reference_symbols"], 2806)
+        self.assertEqual(self.report["contract_public_symbols"], 2815)
+        self.assertEqual(self.report["generated_reference_symbols"], 2815)
         self.assertEqual(self.report["contract_undocumented_symbols"], {"count": 0, "ids": []})
         self.assertEqual(self.report["generated_reference_coverage_percent"], 100.0)
 

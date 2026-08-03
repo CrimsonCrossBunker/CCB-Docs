@@ -1,8 +1,8 @@
 {
   "api_version": 5,
-  "contract_documented_symbols": 2806,
-  "contract_public_symbols": 2806,
-  "contract_sha256": "eb3dc3d8a6d13b0c2b0ac04eeea64d533a91dcdf10b99a75447aa4dc580d84d1",
+  "contract_documented_symbols": 2815,
+  "contract_public_symbols": 2815,
+  "contract_sha256": "afbd03c102606f66a7bde5accac7607c08cac3321aedd670ef6c01647a7a0a3e",
   "contract_undocumented_symbols": {
     "count": 0,
     "ids": []
@@ -11,7 +11,7 @@
   "generated_by": "python3 scripts/generate_lua_reference.py",
   "generated_reference_coverage_percent": 100.0,
   "generated_reference_pages": 15,
-  "generated_reference_symbols": 2806,
+  "generated_reference_symbols": 2815,
   "inventory_coverage_percent": 100.0,
   "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565",
   "production_published_coverage_percent": 0.0,
@@ -20,12 +20,12 @@
   "sections": {
     "callbacks": 38,
     "capabilities": 16,
-    "class_fields": 1311,
-    "classes": 260,
+    "class_fields": 1313,
+    "classes": 261,
     "enums": 26,
     "event_fields": 242,
     "events": 113,
-    "functions": 482,
+    "functions": 488,
     "hooks": 52,
     "manifest_fields": 6,
     "methods": 142,
@@ -34,7 +34,7 @@
     "operators": 47,
     "properties": 51
   },
-  "source_commit": "c1b0f95c6d1b074fc49ee2a7976819c124b69047",
+  "source_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
   "source_repository": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb",
   "symbols": [
     {
@@ -1430,6 +1430,16 @@
     {
       "anchor": "symbol-api-lua-v5-generated-class-ccbgiveitemoptions-ba5e55638bac",
       "documentation_id": "api.lua.v5.generated.class.CcbGiveItemOptions",
+      "page_id": "api.lua.v5.reference.classes",
+      "paths": {
+        "en": "docs/en/api/lua/v5/reference/classes.md",
+        "zh_CN": "docs/zh_CN/api/lua/v5/reference/classes.md"
+      },
+      "section": "classes"
+    },
+    {
+      "anchor": "symbol-api-lua-v5-generated-class-ccbgutvitaminsnapshot-31772ea2603b",
+      "documentation_id": "api.lua.v5.generated.class.CcbGutVitaminSnapshot",
       "page_id": "api.lua.v5.reference.classes",
       "paths": {
         "en": "docs/en/api/lua/v5/reference/classes.md",
@@ -9538,6 +9548,26 @@
       "section": "functions"
     },
     {
+      "anchor": "symbol-api-lua-v5-generated-function-game-needs-get-gut-calories-d8bcd4b352b1",
+      "documentation_id": "api.lua.v5.generated.function.game.needs.get_gut_calories",
+      "page_id": "api.lua.v5.reference.functions",
+      "paths": {
+        "en": "docs/en/api/lua/v5/reference/functions.md",
+        "zh_CN": "docs/zh_CN/api/lua/v5/reference/functions.md"
+      },
+      "section": "functions"
+    },
+    {
+      "anchor": "symbol-api-lua-v5-generated-function-game-needs-get-gut-vitamin-8b8f78415bd8",
+      "documentation_id": "api.lua.v5.generated.function.game.needs.get_gut_vitamin",
+      "page_id": "api.lua.v5.reference.functions",
+      "paths": {
+        "en": "docs/en/api/lua/v5/reference/functions.md",
+        "zh_CN": "docs/zh_CN/api/lua/v5/reference/functions.md"
+      },
+      "section": "functions"
+    },
+    {
       "anchor": "symbol-api-lua-v5-generated-function-game-needs-modify-45d0cacc542f",
       "documentation_id": "api.lua.v5.generated.function.game.needs.modify",
       "page_id": "api.lua.v5.reference.functions",
@@ -9550,6 +9580,26 @@
     {
       "anchor": "symbol-api-lua-v5-generated-function-game-needs-modify-calories-a4ee97c89bcd",
       "documentation_id": "api.lua.v5.generated.function.game.needs.modify_calories",
+      "page_id": "api.lua.v5.reference.functions",
+      "paths": {
+        "en": "docs/en/api/lua/v5/reference/functions.md",
+        "zh_CN": "docs/zh_CN/api/lua/v5/reference/functions.md"
+      },
+      "section": "functions"
+    },
+    {
+      "anchor": "symbol-api-lua-v5-generated-function-game-needs-modify-gut-calories-24a5dc0a99b2",
+      "documentation_id": "api.lua.v5.generated.function.game.needs.modify_gut_calories",
+      "page_id": "api.lua.v5.reference.functions",
+      "paths": {
+        "en": "docs/en/api/lua/v5/reference/functions.md",
+        "zh_CN": "docs/zh_CN/api/lua/v5/reference/functions.md"
+      },
+      "section": "functions"
+    },
+    {
+      "anchor": "symbol-api-lua-v5-generated-function-game-needs-modify-gut-vitamin-962182534188",
+      "documentation_id": "api.lua.v5.generated.function.game.needs.modify_gut_vitamin",
       "page_id": "api.lua.v5.reference.functions",
       "paths": {
         "en": "docs/en/api/lua/v5/reference/functions.md",
@@ -9600,6 +9650,26 @@
     {
       "anchor": "symbol-api-lua-v5-generated-function-game-needs-set-calories-d9eed16e7baf",
       "documentation_id": "api.lua.v5.generated.function.game.needs.set_calories",
+      "page_id": "api.lua.v5.reference.functions",
+      "paths": {
+        "en": "docs/en/api/lua/v5/reference/functions.md",
+        "zh_CN": "docs/zh_CN/api/lua/v5/reference/functions.md"
+      },
+      "section": "functions"
+    },
+    {
+      "anchor": "symbol-api-lua-v5-generated-function-game-needs-set-gut-calories-b6057a4d4b08",
+      "documentation_id": "api.lua.v5.generated.function.game.needs.set_gut_calories",
+      "page_id": "api.lua.v5.reference.functions",
+      "paths": {
+        "en": "docs/en/api/lua/v5/reference/functions.md",
+        "zh_CN": "docs/zh_CN/api/lua/v5/reference/functions.md"
+      },
+      "section": "functions"
+    },
+    {
+      "anchor": "symbol-api-lua-v5-generated-function-game-needs-set-gut-vitamin-76211ab0ce50",
+      "documentation_id": "api.lua.v5.generated.function.game.needs.set_gut_vitamin",
       "page_id": "api.lua.v5.reference.functions",
       "paths": {
         "en": "docs/en/api/lua/v5/reference/functions.md",
@@ -20110,6 +20180,26 @@
     {
       "anchor": "symbol-api-lua-v5-generated-property-ccbgiveitemoptions-allow-wield-17546bb0de09",
       "documentation_id": "api.lua.v5.generated.property.CcbGiveItemOptions.allow_wield",
+      "page_id": "api.lua.v5.reference.classes",
+      "paths": {
+        "en": "docs/en/api/lua/v5/reference/classes.md",
+        "zh_CN": "docs/zh_CN/api/lua/v5/reference/classes.md"
+      },
+      "section": "classes"
+    },
+    {
+      "anchor": "symbol-api-lua-v5-generated-property-ccbgutvitaminsnapshot-amount-8db86fcfba48",
+      "documentation_id": "api.lua.v5.generated.property.CcbGutVitaminSnapshot.amount",
+      "page_id": "api.lua.v5.reference.classes",
+      "paths": {
+        "en": "docs/en/api/lua/v5/reference/classes.md",
+        "zh_CN": "docs/zh_CN/api/lua/v5/reference/classes.md"
+      },
+      "section": "classes"
+    },
+    {
+      "anchor": "symbol-api-lua-v5-generated-property-ccbgutvitaminsnapshot-id-98e8f000e2be",
+      "documentation_id": "api.lua.v5.generated.property.CcbGutVitaminSnapshot.id",
       "page_id": "api.lua.v5.reference.classes",
       "paths": {
         "en": "docs/en/api/lua/v5/reference/classes.md",

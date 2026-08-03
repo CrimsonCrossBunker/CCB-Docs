@@ -25,7 +25,7 @@ source_symbols: []
 source_queries: []
 source_fingerprint: 51029512a57df1784b9f962178ee29540e8fcd0875af7f8b649a2994a069341d
 authority: docs-explanation
-verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
+verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 81904c5aed067809b8aebcbf5501ba0af347eccd8d090bee64d9c640295c5ead
+translation_source_fingerprint: 1f5374a0070cfafa3a6b5497d242e84aa4728887de0c92ec8459f4ef335388e3
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -56,17 +56,17 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/data/mods/aftershock_exoplanet/doc/lore/organizations/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/data/mods/aftershock_exoplanet/doc/lore/organizations/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c1b0f95c6d1b074fc49ee2a7976819c124b69047
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/d32b9cc880a85480840d82cfa05d256c78a16615
 source_urls:
 - path: data/mods/aftershock_exoplanet/doc/lore/cyberpunk_future.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/mods/aftershock_exoplanet/doc/lore/cyberpunk_future.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/mods/aftershock_exoplanet/doc/lore/cyberpunk_future.md
 - path: data/mods/aftershock_exoplanet/doc/lore/organizations.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/mods/aftershock_exoplanet/doc/lore/organizations.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/mods/aftershock_exoplanet/doc/lore/organizations.md
 - path: data/mods/aftershock_exoplanet/doc/lore/timeline.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/mods/aftershock_exoplanet/doc/lore/timeline.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/mods/aftershock_exoplanet/doc/lore/timeline.md
 - path: data/mods/aftershock_exoplanet/modinfo.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/mods/aftershock_exoplanet/modinfo.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28mods.aftershock-exoplanet.lore.organizations%29%3A+&body=Document+ID%3A+mods.aftershock-exoplanet.lore.organizations%0ALanguage%3A+zh_CN%0AVerified+commit%3A+c1b0f95c6d1b074fc49ee2a7976819c124b69047%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/mods/aftershock_exoplanet/modinfo.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28mods.aftershock-exoplanet.lore.organizations%29%3A+&body=Document+ID%3A+mods.aftershock-exoplanet.lore.organizations%0ALanguage%3A+zh_CN%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 旧文档迁移草稿：organizations
@@ -117,11 +117,11 @@ Corporations 开始 Reclamation；2430 年玩家抵达被隔离的 Salus IV。�
 
 清单中的已接受贡献者为：thaelina。许可证：CC-BY-SA-3.0。异常贡献者原始值没有导入或发布。
 
-源清单冻结 commit 为 `0378ca2b84303cf614c617c9d9eaa50138cd21ff`；本次交叉仓验证 commit 为 `c1b0f95c6d1b074fc49ee2a7976819c124b69047`；聚合源指纹为 `51029512a57df1784b9f962178ee29540e8fcd0875af7f8b649a2994a069341d`。[过滤历史实验报告](/CCB-Docs/migration/filtered-history-experiment/)记录了为何不导入整个游戏仓库历史。
+源清单冻结 commit 为 `0378ca2b84303cf614c617c9d9eaa50138cd21ff`；本次交叉仓验证 commit 为 `d32b9cc880a85480840d82cfa05d256c78a16615`；聚合源指纹为 `51029512a57df1784b9f962178ee29540e8fcd0875af7f8b649a2994a069341d`。[过滤历史实验报告](/CCB-Docs/migration/filtered-history-experiment/)记录了为何不导入整个游戏仓库历史。
 
 ## CCB 中保留的正文
 
-- [`data/mods/aftershock_exoplanet/doc/lore/cyberpunk_future.md`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/mods/aftershock_exoplanet/doc/lore/cyberpunk_future.md) — [history](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/mods/aftershock_exoplanet/doc/lore/cyberpunk_future.md)
+- [`data/mods/aftershock_exoplanet/doc/lore/cyberpunk_future.md`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/mods/aftershock_exoplanet/doc/lore/cyberpunk_future.md) — [history](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/d32b9cc880a85480840d82cfa05d256c78a16615/data/mods/aftershock_exoplanet/doc/lore/cyberpunk_future.md)
 
 ## 替代与下一步
 

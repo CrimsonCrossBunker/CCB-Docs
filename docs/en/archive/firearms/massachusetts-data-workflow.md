@@ -22,7 +22,7 @@ source_symbols: []
 source_queries: []
 source_fingerprint: c10df314b1a35afbf967485ae0c1487a284eea45b576ac95a08dd0ffac6d815f
 authority: historical
-verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
+verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
@@ -30,7 +30,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: e90c1b916defef9f3618a6ada97eb63ed45d323b7bab9b9daf513515e382f762
+translation_source_fingerprint: 598a20d979e14bfb1d118c7230cdd81ddb23d29b61afe6125f54429dec85401d
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -52,11 +52,11 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/archive/firearms/massachusetts-data-workflow/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/archive/firearms/massachusetts-data-workflow/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c1b0f95c6d1b074fc49ee2a7976819c124b69047
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/d32b9cc880a85480840d82cfa05d256c78a16615
 source_urls:
 - path: doc/HOWTO_MASSAGE_MA_GUN_DATA.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/doc/HOWTO_MASSAGE_MA_GUN_DATA.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28archive.firearms-massachusetts-data-workflow%29%3A+&body=Document+ID%3A+archive.firearms-massachusetts-data-workflow%0ALanguage%3A+en%0AVerified+commit%3A+c1b0f95c6d1b074fc49ee2a7976819c124b69047%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/doc/HOWTO_MASSAGE_MA_GUN_DATA.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28archive.firearms-massachusetts-data-workflow%29%3A+&body=Document+ID%3A+archive.firearms-massachusetts-data-workflow%0ALanguage%3A+en%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---
@@ -84,11 +84,11 @@ CCB source and tests remain authoritative for runtime behaviour; schemas, declar
 
 Accepted inventory contributors: thaelina. License: CC-BY-SA-3.0. Raw rejected or anomalous contributor values were not imported or published.
 
-The source inventory is frozen at `0378ca2b84303cf614c617c9d9eaa50138cd21ff`; this cross-repository verification uses `c1b0f95c6d1b074fc49ee2a7976819c124b69047`; the aggregate source fingerprint is `c10df314b1a35afbf967485ae0c1487a284eea45b576ac95a08dd0ffac6d815f`. The [filtered-history experiment](/CCB-Docs/en/migration/filtered-history-experiment/) explains why the whole game repository history is not imported.
+The source inventory is frozen at `0378ca2b84303cf614c617c9d9eaa50138cd21ff`; this cross-repository verification uses `d32b9cc880a85480840d82cfa05d256c78a16615`; the aggregate source fingerprint is `c10df314b1a35afbf967485ae0c1487a284eea45b576ac95a08dd0ffac6d815f`. The [filtered-history experiment](/CCB-Docs/en/migration/filtered-history-experiment/) explains why the whole game repository history is not imported.
 
 ## Bodies retained in CCB
 
-- [`doc/HOWTO_MASSAGE_MA_GUN_DATA.md`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/doc/HOWTO_MASSAGE_MA_GUN_DATA.md) — [history](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/c1b0f95c6d1b074fc49ee2a7976819c124b69047/doc/HOWTO_MASSAGE_MA_GUN_DATA.md)
+- [`doc/HOWTO_MASSAGE_MA_GUN_DATA.md`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/doc/HOWTO_MASSAGE_MA_GUN_DATA.md) — [history](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/d32b9cc880a85480840d82cfa05d256c78a16615/doc/HOWTO_MASSAGE_MA_GUN_DATA.md)
 
 ## Replacement and next step
 
