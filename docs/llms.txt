@@ -79,8 +79,6 @@
 - [zh_CN] 发布维护: https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/releases/
 - [en] Upstream synchronization: https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/upstream-sync/
 - [zh_CN] 上游同步: https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/upstream-sync/
-- [en] Complete JSON/EOC mod tutorial: https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/
-- [zh_CN] 完整 JSON/EOC Mod 教程: https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/
 - [en] Crash reports and symbols: https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/crash-reports/
 - [zh_CN] Crash report 与 symbol: https://crimsoncrossbunker.github.io/CCB-Docs/operations/crash-reports/
 - [en] Packaging: https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/packaging/

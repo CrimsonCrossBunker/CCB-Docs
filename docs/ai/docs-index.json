@@ -19044,7 +19044,7 @@
       "id": "mods.complete-json-eoc-mod",
       "title": "Complete JSON/EOC mod tutorial",
       "language": "en",
-      "status": "active",
+      "status": "draft",
       "doc_type": "tutorial",
       "audiences": [
         "new-contributor",
@@ -19078,8 +19078,8 @@
       "verified_at": "2026-08-02",
       "generated": false,
       "generated_by": null,
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
       "translation_source_fingerprint": "6ded0b43085f4eef208e8256f7d9d497323f2dba7a085068a440d48be7a306c8",
@@ -19114,7 +19114,7 @@
       "id": "mods.complete-json-eoc-mod",
       "title": "完整 JSON/EOC Mod 教程",
       "language": "zh_CN",
-      "status": "active",
+      "status": "draft",
       "doc_type": "tutorial",
       "audiences": [
         "new-contributor",
@@ -19148,8 +19148,8 @@
       "verified_at": "2026-08-02",
       "generated": false,
       "generated_by": null,
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
       "translation_source_fingerprint": "6ded0b43085f4eef208e8256f7d9d497323f2dba7a085068a440d48be7a306c8",
@@ -24462,7 +24462,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/governance/security-license/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/upstream-sync/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/crash-reports/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/packaging/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/performance-profiling/",
@@ -24489,7 +24488,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/governance/security-license/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/upstream-sync/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/crash-reports/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/packaging/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/performance-profiling/",
@@ -24582,7 +24580,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/governance/security-license/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/upstream-sync/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/crash-reports/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/packaging/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/performance-profiling/",
@@ -24609,7 +24606,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/governance/security-license/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/upstream-sync/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/crash-reports/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/packaging/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/performance-profiling/",
@@ -24702,7 +24698,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/governance/security-license/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/upstream-sync/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/crash-reports/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/packaging/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/performance-profiling/",
@@ -24729,7 +24724,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/governance/security-license/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/upstream-sync/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/crash-reports/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/packaging/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/performance-profiling/",
@@ -24890,6 +24884,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/modding/compatibility/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/modding/localization/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/modding/overview/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/in-repository-policy/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/compiler-support/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
@@ -24968,6 +24963,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/modding/compatibility/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/modding/localization/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/modding/overview/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/mods/in-repository-policy/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/compiler-support/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
@@ -25386,13 +25382,6 @@
         "path": "cpp/localization.md"
       },
       {
-        "id": "mods.complete-json-eoc-mod",
-        "title": "完整 JSON/EOC Mod 教程",
-        "section": "Mod",
-        "order": 150,
-        "path": "mods/complete-json-eoc-mod.md"
-      },
-      {
         "id": "resources.translation",
         "title": "翻译流程",
         "section": "资源",
@@ -25799,13 +25788,6 @@
         "section": "C++ subsystems",
         "order": 120,
         "path": "cpp/localization.md"
-      },
-      {
-        "id": "mods.complete-json-eoc-mod",
-        "title": "Complete JSON/EOC mod tutorial",
-        "section": "Mods",
-        "order": 150,
-        "path": "mods/complete-json-eoc-mod.md"
       },
       {
         "id": "resources.translation",
@@ -26707,28 +26689,6 @@
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/upstream-sync/",
         "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/upstream-sync/"
-      }
-    },
-    {
-      "id": "mods.complete-json-eoc-mod",
-      "language": "en",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/",
-      "last_verified": "2026-08-02",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/"
-      }
-    },
-    {
-      "id": "mods.complete-json-eoc-mod",
-      "language": "zh_CN",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
-      "last_verified": "2026-08-02",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/"
       }
     },
     {

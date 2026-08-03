@@ -344,13 +344,6 @@
       "path": "cpp/localization.md"
     },
     {
-      "id": "mods.complete-json-eoc-mod",
-      "title": "完整 JSON/EOC Mod 教程",
-      "section": "Mod",
-      "order": 150,
-      "path": "mods/complete-json-eoc-mod.md"
-    },
-    {
       "id": "resources.translation",
       "title": "翻译流程",
       "section": "资源",
@@ -757,13 +750,6 @@
       "section": "C++ subsystems",
       "order": 120,
       "path": "cpp/localization.md"
-    },
-    {
-      "id": "mods.complete-json-eoc-mod",
-      "title": "Complete JSON/EOC mod tutorial",
-      "section": "Mods",
-      "order": 150,
-      "path": "mods/complete-json-eoc-mod.md"
     },
     {
       "id": "resources.translation",

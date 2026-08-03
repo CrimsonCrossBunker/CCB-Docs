@@ -1705,7 +1705,7 @@ pages:
     title: 完整 JSON/EOC Mod 教程
     language: zh_CN
     path: mods/complete-json-eoc-mod.md
-    status: active
+    status: draft
     doc_type: tutorial
     audiences: [new-contributor, experienced-contributor, mod-author]
     owners: [CCB maintainers]
@@ -1721,8 +1721,8 @@ pages:
     verified_at: '2026-08-02'
     generated: false
     generated_by: null
-    include_in_search: true
-    include_in_ai_index: true
+    include_in_search: false
+    include_in_ai_index: false
     translation_group: mods.complete-json-eoc-mod
     translation_status: current
     translation_stale_since: null
