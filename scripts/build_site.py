@@ -104,11 +104,20 @@ def stage_language(
     pages: list[dict],
     site_dir: Path,
     strict: bool,
+    extra_sources: list[dict] | None = None,
 ) -> Path:
     source_dir = BUILD_ROOT / language
     source_dir.mkdir(parents=True, exist_ok=True)
 
     for page in pages:
+        source = page_source(page)
+        destination = source_dir / page["path"]
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, destination)
+
+    # Draft pages that are referenced by published pages are staged so
+    # production link checks pass, without entering the navigation.
+    for page in extra_sources or []:
         source = page_source(page)
         destination = source_dir / page["path"]
         destination.parent.mkdir(parents=True, exist_ok=True)
@@ -329,6 +338,18 @@ def build_site(
         language: included_pages(catalog, language, include_drafts)
         for language in catalog["site"]["languages"]
     }
+    referenced_drafts: dict[str, list[dict]] = {}
+    if not include_drafts:
+        referenced_drafts = {
+            language: [
+                page
+                for page in catalog["pages"]
+                if page["language"] == language
+                and page["status"] == "draft"
+                and page["id"] == "migration.filtered-history-experiment"
+            ]
+            for language in catalog["site"]["languages"]
+        }
     published = [
         page
         for pages in pages_by_language.values()
@@ -361,6 +382,7 @@ def build_site(
             pages_by_language[language],
             output,
             strict,
+            referenced_drafts.get(language),
         )
         print(f"built {language} site at {built}")
     sitemap = write_sitemap(catalog, output)
