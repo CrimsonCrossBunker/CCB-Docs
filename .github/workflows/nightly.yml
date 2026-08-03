@@ -49,6 +49,7 @@ jobs:
             --source-repo .build/ccb-source \
             --report-translation-debt \
             --json-output .build/translation-debt.json
+          ls -la .build/
 
       - name: Build scheduled preview
         run: uv run python scripts/build_site.py --strict --include-drafts
@@ -68,13 +69,14 @@ jobs:
           --source-repo .build/ccb-source
           --target-ref HEAD
           --json-output .build/source-drift.json
+          ls -la .build/
 
       - name: Upload weekly maintenance evidence
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: weekly-documentation-maintenance-${{ github.run_id }}
-          path: .build/*.json
+          path: .build/
           if-no-files-found: warn
           retention-days: 90
 
