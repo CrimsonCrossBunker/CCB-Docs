@@ -836,28 +836,6 @@
     }
   },
   {
-    "id": "mods.complete-json-eoc-mod",
-    "language": "en",
-    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/",
-    "last_verified": "2026-08-02",
-    "status": "active",
-    "alternate": {
-      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
-      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/"
-    }
-  },
-  {
-    "id": "mods.complete-json-eoc-mod",
-    "language": "zh_CN",
-    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
-    "last_verified": "2026-08-02",
-    "status": "active",
-    "alternate": {
-      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
-      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/"
-    }
-  },
-  {
     "id": "operations.crash-reports",
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/crash-reports/",
