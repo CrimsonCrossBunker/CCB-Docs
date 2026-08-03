@@ -59,19 +59,19 @@ class LuaReferenceTests(unittest.TestCase):
                 relative = record["paths"][language]
                 self.assertIn("#" + record["anchor"], bodies[relative])
 
-    def test_lua_catalog_layer_is_bilingual_draft_and_not_indexed(self) -> None:
+    def test_lua_catalog_layer_is_bilingual_published_and_indexed(self) -> None:
         pages = [
             page for page in self.catalog["pages"] if page["id"].startswith("api.lua.v5.")
         ]
         self.assertEqual(len(pages), 50)
         self.assertEqual(len({page["id"] for page in pages}), 25)
         self.assertEqual({page["language"] for page in pages}, {"zh_CN", "en"})
-        self.assertTrue(all(page["status"] == "draft" for page in pages))
-        self.assertTrue(all(not page["include_in_search"] for page in pages))
-        self.assertTrue(all(not page["include_in_ai_index"] for page in pages))
+        self.assertTrue(all(page["status"] == "active" for page in pages))
+        self.assertTrue(all(page["include_in_search"] for page in pages))
+        self.assertTrue(all(page["include_in_ai_index"] for page in pages))
         self.assertTrue(all(page["api_version"] == "5" for page in pages))
         self.assertTrue(
-            all(page["pending_source_pr"].endswith("/565") for page in pages)
+            all(page["pending_source_pr"] is None for page in pages)
         )
 
     def test_generator_owns_exactly_the_configured_bilingual_pages(self) -> None:

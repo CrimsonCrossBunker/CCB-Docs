@@ -27,7 +27,7 @@ class JsonEocReferenceTests(unittest.TestCase):
             (ROOT / "docs-catalog.yml").read_text(encoding="utf-8")
         )
 
-    def test_generated_pages_are_draft_and_excluded(self) -> None:
+    def test_generated_pages_are_published_and_indexed(self) -> None:
         pages = [
             page
             for page in self.catalog["pages"]
@@ -36,14 +36,10 @@ class JsonEocReferenceTests(unittest.TestCase):
         self.assertEqual(len(pages), 6)
         for page in pages:
             self.assertTrue(page["generated"])
-            self.assertEqual(page["status"], "draft")
-            self.assertFalse(page["include_in_search"])
-            self.assertFalse(page["include_in_ai_index"])
-            self.assertEqual(
-                page["pending_source_pr"],
-                "https://github.com/CrimsonCrossBunker/"
-                "Cataclysm-Cleanwater-Bomb/pull/566",
-            )
+            self.assertEqual(page["status"], "active")
+            self.assertTrue(page["include_in_search"])
+            self.assertTrue(page["include_in_ai_index"])
+            self.assertIsNone(page["pending_source_pr"])
 
     def test_reference_pages_index_every_inventory_entry(self) -> None:
         for spec in SPECS:

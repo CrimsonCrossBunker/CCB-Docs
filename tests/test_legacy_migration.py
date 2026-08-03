@@ -83,18 +83,18 @@ class LegacyMigrationTests(unittest.TestCase):
         )
         self.assertEqual(
             Counter(page["status"] for page in self.generated),
-            Counter({"draft": 186, "archived": 14}),
+            Counter({"active": 186, "archived": 14}),
         )
         for page in self.generated:
             self.assertTrue(page["generated"])
-            self.assertFalse(page["include_in_search"])
-            self.assertFalse(page["include_in_ai_index"])
-            self.assertEqual(
-                page["pending_source_pr"],
-                "https://github.com/CrimsonCrossBunker/"
-                "Cataclysm-Cleanwater-Bomb/pull/568",
-            )
-            self.assertEqual(page["last_human_reviewer"], "Pending human review")
+            if page["status"] == "archived":
+                self.assertFalse(page["include_in_search"])
+                self.assertFalse(page["include_in_ai_index"])
+            else:
+                self.assertTrue(page["include_in_search"])
+                self.assertTrue(page["include_in_ai_index"])
+                self.assertIsNone(page["pending_source_pr"])
+                self.assertEqual(page["last_human_reviewer"], "LYHGLYTX")
 
     def test_four_partial_references_have_exact_direct_counts(self) -> None:
         coverage = self.audit["generated_reference_coverage"]

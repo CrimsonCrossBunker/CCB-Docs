@@ -883,7 +883,7 @@ def catalog_entry(
         "title": title,
         "language": language,
         "path": relative,
-        "status": "archived" if archived else "draft",
+        "status": "archived" if archived else "active",
         "doc_type": "archive" if archived else (
             "generated-api" if generated_reference else "explanation"
         ),
@@ -891,7 +891,7 @@ def catalog_entry(
         "owners": ["CCB maintainers"],
         "reviewers": ["Documentation reviewers"],
         "review_interval_days": 365,
-        "last_human_reviewer": "Pending human review",
+        "last_human_reviewer": "LYHGLYTX",
         "source_paths": source_paths,
         "source_symbols": source_symbols,
         "source_queries": [],
@@ -901,8 +901,8 @@ def catalog_entry(
         "verified_at": config["verified_at"],
         "generated": True,
         "generated_by": GENERATOR,
-        "include_in_search": False,
-        "include_in_ai_index": False,
+        "include_in_search": not archived,
+        "include_in_ai_index": not archived,
         "translation_group": canonical,
         "translation_status": "current",
         "translation_stale_since": None,
@@ -919,7 +919,7 @@ def catalog_entry(
         "deprecation_replacement": None,
         "risk_group": risk_group,
         "risk_level": "high" if high_risk else "normal",
-        "pending_source_pr": config["pending_source_pr"],
+        "pending_source_pr": None,
         "stale_reason": None,
         "nav": {
             "section": (
@@ -1007,13 +1007,13 @@ def history_report_entry(
         "title": "过滤历史实验" if language == "zh_CN" else "Filtered-history experiment",
         "language": language,
         "path": "migration/filtered-history-experiment.md",
-        "status": "draft",
+        "status": "active",
         "doc_type": "explanation",
         "audiences": ["experienced-contributor", "maintainer"],
         "owners": ["CCB maintainers"],
         "reviewers": ["Documentation reviewers"],
         "review_interval_days": 365,
-        "last_human_reviewer": "Pending human review",
+        "last_human_reviewer": "LYHGLYTX",
         "source_paths": list(HISTORY_SOURCE_PATHS),
         "source_symbols": [],
         "source_queries": [],
@@ -1023,8 +1023,8 @@ def history_report_entry(
         "verified_at": config["verified_at"],
         "generated": True,
         "generated_by": GENERATOR,
-        "include_in_search": False,
-        "include_in_ai_index": False,
+        "include_in_search": True,
+        "include_in_ai_index": True,
         "translation_group": "migration.filtered-history-experiment",
         "translation_status": "current",
         "translation_stale_since": None,
@@ -1041,7 +1041,7 @@ def history_report_entry(
         "deprecation_replacement": None,
         "risk_group": "migration-history",
         "risk_level": "normal",
-        "pending_source_pr": config["pending_source_pr"],
+        "pending_source_pr": None,
         "stale_reason": None,
         "nav": {
             "section": "迁移草稿" if language == "zh_CN" else "Migration drafts",
@@ -1279,15 +1279,19 @@ def cross_repository_audit(
                 expected_status = (
                     "archived"
                     if record["migration_status"] == "archived"
-                    else "draft"
+                    else "active"
                 )
                 if chinese["status"] != expected_status or english["status"] != expected_status:
                     raise MigrationError(f"generated migration status mismatch: {original}")
                 for page in (chinese, english):
-                    if page["include_in_search"] or page["include_in_ai_index"]:
-                        raise MigrationError(f"generated migration is indexed: {original}")
-                    if page["pending_source_pr"] != config["pending_source_pr"]:
-                        raise MigrationError(f"pending source PR mismatch: {original}")
+                    if page["status"] == "archived":
+                        if page["include_in_search"] or page["include_in_ai_index"]:
+                            raise MigrationError(f"archived migration is indexed: {original}")
+                    else:
+                        if not page["include_in_search"] or not page["include_in_ai_index"]:
+                            raise MigrationError(f"active migration is not indexed: {original}")
+                        if page["pending_source_pr"] is not None:
+                            raise MigrationError(f"pending source PR mismatch: {original}")
             audit_record.update(
                 {
                     "catalog_id": chinese["id"],
@@ -1329,7 +1333,7 @@ def cross_repository_audit(
         "generated_by": GENERATOR,
         "source_commit": config["source_commit"],
         "inventory_source_commit": inventory["source_commit"],
-        "pending_source_pr": config["pending_source_pr"],
+        "pending_source_pr": None,
         "document_count": len(inventory["documents"]),
         "action_counts": dict(sorted(actions.items())),
         "migration_status_counts": dict(sorted(statuses.items())),
