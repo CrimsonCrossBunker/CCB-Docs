@@ -28,7 +28,7 @@ source_symbols:
 source_queries: []
 source_fingerprint: 4e0d6d98ef0567ed4fc3da0e7e0b957671a0c2d28e3af279c3a43753fcc9c043
 authority: docs-explanation
-verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
+verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
@@ -36,7 +36,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: b341f7fa12949ea3d140dc4f25987205c0897258c69ab1342e58ac7f409d34d3
+translation_source_fingerprint: 74891d63236510622eb5589ce574969dc0ee38862e666e0b1ef04b184fc60960
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -58,19 +58,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/how-to/json/comestibles/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/how-to/json/comestibles/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c1b0f95c6d1b074fc49ee2a7976819c124b69047
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/d32b9cc880a85480840d82cfa05d256c78a16615
 source_urls:
 - path: doc/JSON/GUIDE_COMESTIBLES.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/doc/JSON/GUIDE_COMESTIBLES.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/doc/JSON/GUIDE_COMESTIBLES.md
 - path: src/item_factory.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/item_factory.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/src/item_factory.cpp
 - path: data/json/items/comestibles/other.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/json/items/comestibles/other.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/json/items/comestibles/other.json
 - path: data/json/items/comestibles/meat_dishes.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/json/items/comestibles/meat_dishes.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/json/items/comestibles/meat_dishes.json
 - path: tests/comestible_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/tests/comestible_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.comestibles-placement%29%3A+&body=Document+ID%3A+json.comestibles-placement%0ALanguage%3A+en%0AVerified+commit%3A+c1b0f95c6d1b074fc49ee2a7976819c124b69047%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/tests/comestible_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.comestibles-placement%29%3A+&body=Document+ID%3A+json.comestibles-placement%0ALanguage%3A+en%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: comestibles
@@ -128,11 +128,11 @@ comestible and recipe tests for ingredients, byproducts, `cooks_like`, and `NUTR
 
 Accepted inventory contributors: thaelina. License: CC-BY-SA-3.0. Raw rejected or anomalous contributor values were not imported or published.
 
-The source inventory is frozen at `0378ca2b84303cf614c617c9d9eaa50138cd21ff`; this cross-repository verification uses `c1b0f95c6d1b074fc49ee2a7976819c124b69047`; the aggregate source fingerprint is `4e0d6d98ef0567ed4fc3da0e7e0b957671a0c2d28e3af279c3a43753fcc9c043`. The [filtered-history experiment](/CCB-Docs/en/migration/filtered-history-experiment/) explains why the whole game repository history is not imported.
+The source inventory is frozen at `0378ca2b84303cf614c617c9d9eaa50138cd21ff`; this cross-repository verification uses `d32b9cc880a85480840d82cfa05d256c78a16615`; the aggregate source fingerprint is `4e0d6d98ef0567ed4fc3da0e7e0b957671a0c2d28e3af279c3a43753fcc9c043`. The [filtered-history experiment](/CCB-Docs/en/migration/filtered-history-experiment/) explains why the whole game repository history is not imported.
 
 ## Bodies retained in CCB
 
-- [`doc/JSON/GUIDE_COMESTIBLES.md`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/doc/JSON/GUIDE_COMESTIBLES.md) — [history](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/c1b0f95c6d1b074fc49ee2a7976819c124b69047/doc/JSON/GUIDE_COMESTIBLES.md)
+- [`doc/JSON/GUIDE_COMESTIBLES.md`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/doc/JSON/GUIDE_COMESTIBLES.md) — [history](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/d32b9cc880a85480840d82cfa05d256c78a16615/doc/JSON/GUIDE_COMESTIBLES.md)
 
 ## Replacement and next step
 

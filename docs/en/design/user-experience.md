@@ -24,7 +24,7 @@ source_symbols: []
 source_queries: []
 source_fingerprint: c48c4c006650195f1034263cc5e9b25a072b994966ca12dc6ab7f2777250c761
 authority: docs-explanation
-verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
+verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
@@ -32,7 +32,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: dd9ed99d0e45082a7c701ac2d242db90427adeac37dea2aa8869d230802dc9b8
+translation_source_fingerprint: d80bd672bc0f9d21aaad1fa37aecced47c55d3d3c76be3bc800fc54a03607ab1
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -54,15 +54,15 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/design/user-experience/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/design/user-experience/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c1b0f95c6d1b074fc49ee2a7976819c124b69047
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/d32b9cc880a85480840d82cfa05d256c78a16615
 source_urls:
 - path: doc/design-balance-lore/design-user-experience.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/doc/design-balance-lore/design-user-experience.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/doc/design-balance-lore/design-user-experience.md
 - path: doc/USER_INTERFACE_AND_ACCESSIBILITY.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/doc/USER_INTERFACE_AND_ACCESSIBILITY.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/doc/USER_INTERFACE_AND_ACCESSIBILITY.md
 - path: src/options.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/options.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28design-user-experience%29%3A+&body=Document+ID%3A+design-user-experience%0ALanguage%3A+en%0AVerified+commit%3A+c1b0f95c6d1b074fc49ee2a7976819c124b69047%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/src/options.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28design-user-experience%29%3A+&body=Document+ID%3A+design-user-experience%0ALanguage%3A+en%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Legacy migration draft: user experience
@@ -121,11 +121,11 @@ accessibility evidence.
 
 Accepted inventory contributors: thaelina. License: CC-BY-SA-3.0. Raw rejected or anomalous contributor values were not imported or published.
 
-The source inventory is frozen at `0378ca2b84303cf614c617c9d9eaa50138cd21ff`; this cross-repository verification uses `c1b0f95c6d1b074fc49ee2a7976819c124b69047`; the aggregate source fingerprint is `c48c4c006650195f1034263cc5e9b25a072b994966ca12dc6ab7f2777250c761`. The [filtered-history experiment](/CCB-Docs/en/migration/filtered-history-experiment/) explains why the whole game repository history is not imported.
+The source inventory is frozen at `0378ca2b84303cf614c617c9d9eaa50138cd21ff`; this cross-repository verification uses `d32b9cc880a85480840d82cfa05d256c78a16615`; the aggregate source fingerprint is `c48c4c006650195f1034263cc5e9b25a072b994966ca12dc6ab7f2777250c761`. The [filtered-history experiment](/CCB-Docs/en/migration/filtered-history-experiment/) explains why the whole game repository history is not imported.
 
 ## Bodies retained in CCB
 
-- [`doc/design-balance-lore/design-user-experience.md`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/doc/design-balance-lore/design-user-experience.md) — [history](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/c1b0f95c6d1b074fc49ee2a7976819c124b69047/doc/design-balance-lore/design-user-experience.md)
+- [`doc/design-balance-lore/design-user-experience.md`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/doc/design-balance-lore/design-user-experience.md) — [history](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/d32b9cc880a85480840d82cfa05d256c78a16615/doc/design-balance-lore/design-user-experience.md)
 
 ## Replacement and next step
 

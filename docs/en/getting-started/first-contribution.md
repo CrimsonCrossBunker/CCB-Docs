@@ -22,7 +22,7 @@ source_queries:
 - Responsible human
 source_fingerprint: 781981c55ef754b0836ca4b065bb6a7b9a85a6daf0e4bca4782240c25caa7a2c
 authority: governance
-verified_commit: bb472abfc33a9e2180df4be2872a62522ce4f9af
+verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
 verified_at: '2026-08-02'
 generated: false
 generated_by: null
@@ -54,15 +54,15 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/bb472abfc33a9e2180df4be2872a62522ce4f9af
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/d32b9cc880a85480840d82cfa05d256c78a16615
 source_urls:
 - path: CONTRIBUTING.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/bb472abfc33a9e2180df4be2872a62522ce4f9af/CONTRIBUTING.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/CONTRIBUTING.md
 - path: GOVERNANCE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/bb472abfc33a9e2180df4be2872a62522ce4f9af/GOVERNANCE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/GOVERNANCE.md
 - path: .github/pull_request_template.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/bb472abfc33a9e2180df4be2872a62522ce4f9af/.github/pull_request_template.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28getting-started.first-contribution%29%3A+&body=Document+ID%3A+getting-started.first-contribution%0ALanguage%3A+en%0AVerified+commit%3A+bb472abfc33a9e2180df4be2872a62522ce4f9af%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/.github/pull_request_template.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28getting-started.first-contribution%29%3A+&body=Document+ID%3A+getting-started.first-contribution%0ALanguage%3A+en%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # First contribution

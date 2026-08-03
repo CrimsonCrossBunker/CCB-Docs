@@ -27,9 +27,9 @@ source_paths:
 - data/reference/json/ccb_eoc_effects.json
 source_symbols: []
 source_queries: []
-source_fingerprint: ec7b0afe102b19beb0f77c9ffbe6d8f82e2e06b59e057bdf76d897de092e0b2c
+source_fingerprint: 07702c94c6abf44a4ce57494f396a161ccbd4e8a072625d8731c2d659ddd75b6
 authority: source-and-tests
-verified_commit: d49367845e6cd725d5ca56d171b610047d64592d
+verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
 verified_at: '2026-08-02'
 generated: false
 generated_by: null
@@ -65,27 +65,27 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/d49367845e6cd725d5ca56d171b610047d64592d
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/d32b9cc880a85480840d82cfa05d256c78a16615
 source_urls:
 - path: data/AGENTS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d49367845e6cd725d5ca56d171b610047d64592d/data/AGENTS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/AGENTS.md
 - path: data/mods/AGENTS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d49367845e6cd725d5ca56d171b610047d64592d/data/mods/AGENTS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/mods/AGENTS.md
 - path: doc/MODDING.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d49367845e6cd725d5ca56d171b610047d64592d/doc/MODDING.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/doc/MODDING.md
 - path: data/mods/TEST_DATA/modinfo.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d49367845e6cd725d5ca56d171b610047d64592d/data/mods/TEST_DATA/modinfo.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/mods/TEST_DATA/modinfo.json
 - path: data/mods/TEST_DATA/effect_on_condition.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d49367845e6cd725d5ca56d171b610047d64592d/data/mods/TEST_DATA/effect_on_condition.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/mods/TEST_DATA/effect_on_condition.json
 - path: Makefile
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d49367845e6cd725d5ca56d171b610047d64592d/Makefile
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/Makefile
 - path: data/reference/json/ccb_json_object_types.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d49367845e6cd725d5ca56d171b610047d64592d/data/reference/json/ccb_json_object_types.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/reference/json/ccb_json_object_types.json
 - path: data/reference/json/ccb_eoc_conditions.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d49367845e6cd725d5ca56d171b610047d64592d/data/reference/json/ccb_eoc_conditions.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/reference/json/ccb_eoc_conditions.json
 - path: data/reference/json/ccb_eoc_effects.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d49367845e6cd725d5ca56d171b610047d64592d/data/reference/json/ccb_eoc_effects.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28mods.complete-json-eoc-mod%29%3A+&body=Document+ID%3A+mods.complete-json-eoc-mod%0ALanguage%3A+en%0AVerified+commit%3A+d49367845e6cd725d5ca56d171b610047d64592d%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/reference/json/ccb_eoc_effects.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28mods.complete-json-eoc-mod%29%3A+&body=Document+ID%3A+mods.complete-json-eoc-mod%0ALanguage%3A+en%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Complete JSON/EOC mod tutorial
