@@ -25,7 +25,7 @@ source_symbols:
 source_queries: []
 source_fingerprint: 45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d
 authority: api-contract
-verified_commit: 3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd
+verified_commit: 501f84d20d4bf432dd7fec9b757f5af6a18dae36
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_lua_reference.py
@@ -33,7 +33,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 61d78a2173790fb5374fa92c1f71bd44b09e34c9d83d994bcb8274259fd355d8
+translation_source_fingerprint: a5f738ceaa1a47364e5e1356664f552afcb141fe69a7dc27a61524240f803da9
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -55,13 +55,13 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/modules/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/modules/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/501f84d20d4bf432dd7fec9b757f5af6a18dae36
 source_urls:
 - path: data/lua/reference/ccb_public_api_v5.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/reference/ccb_public_api_v5.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/reference/ccb_public_api_v5.json
 - path: data/lua/reference/ccb_public_api_v5_coverage.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/reference/ccb_public_api_v5_coverage.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.reference.modules%29%3A+&body=Document+ID%3A+api.lua.v5.reference.modules%0ALanguage%3A+zh_CN%0AVerified+commit%3A+3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/reference/ccb_public_api_v5_coverage.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.reference.modules%29%3A+&body=Document+ID%3A+api.lua.v5.reference.modules%0ALanguage%3A+zh_CN%0AVerified+commit%3A+501f84d20d4bf432dd7fec9b757f5af6a18dae36%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---
@@ -70,7 +70,7 @@ search:
 
 # 模块入口参考
 
-本页由固定提交 `3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd` 的 Lua v5 公开契约生成，收录 3 条 `modules` 记录。不要手工修改本页。
+本页由固定提交 `501f84d20d4bf432dd7fec9b757f5af6a18dae36` 的 Lua v5 公开契约生成，收录 3 条 `modules` 记录。不要手工修改本页。
 
 ## `require` { #symbol-api-lua-v5-generated-module-require-6cf1620427ea }
 
@@ -81,7 +81,7 @@ search:
 
 **来源:**
 
-- [`src/catalua_ui.cpp:3054`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_ui.cpp#L3054) — native registration
+- [`src/catalua_ui.cpp:3054`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui.cpp#L3054) — native registration
 
 ## `modules.import` { #symbol-api-lua-v5-generated-module-modules-import-b0e1e49d89dd }
 
@@ -92,8 +92,8 @@ search:
 
 **来源:**
 
-- [`src/catalua_ui.cpp:3064`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_ui.cpp#L3064) — native registration
-- [`data/lua/types/ccb_api_v5.d.lua:1058`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1058) — LuaLS declaration
+- [`src/catalua_ui.cpp:3064`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui.cpp#L3064) — native registration
+- [`data/lua/types/ccb_api_v5.d.lua:1058`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1058) — LuaLS declaration
 
 ## `modules.source_id` { #symbol-api-lua-v5-generated-module-modules-source-id-c8301946fb14 }
 
@@ -104,5 +104,5 @@ search:
 
 **来源:**
 
-- [`src/catalua_ui.cpp:3073`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_ui.cpp#L3073) — native registration
-- [`data/lua/types/ccb_api_v5.d.lua:1061`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1061) — LuaLS declaration
+- [`src/catalua_ui.cpp:3073`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui.cpp#L3073) — native registration
+- [`data/lua/types/ccb_api_v5.d.lua:1061`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1061) — LuaLS declaration

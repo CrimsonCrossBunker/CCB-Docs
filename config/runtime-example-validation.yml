@@ -1,6 +1,6 @@
 schema_version: 1
 source_repository: CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit: bee42cfc3bdf1162974f6dcc655aef03a7aa605d
+source_commit: 367151b8815ab5a33e7eb723d51f9c41c5f1bcdc
 pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/574
 build_backend: cmake_headless
 command_timeout_seconds: 300

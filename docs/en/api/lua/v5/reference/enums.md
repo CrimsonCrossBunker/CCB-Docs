@@ -25,7 +25,7 @@ source_symbols:
 source_queries: []
 source_fingerprint: 45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d
 authority: api-contract
-verified_commit: 3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd
+verified_commit: 501f84d20d4bf432dd7fec9b757f5af6a18dae36
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_lua_reference.py
@@ -33,7 +33,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 812ba0d5975d5b1e410e170040a2b462059a94ad8731b5c298a17f291eb4ba00
+translation_source_fingerprint: be54c1e9593323b3c1af7a40c66bd294e0f713b78d43e3083db824633b42be4d
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -55,13 +55,13 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/enums/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/enums/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/501f84d20d4bf432dd7fec9b757f5af6a18dae36
 source_urls:
 - path: data/lua/reference/ccb_public_api_v5.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/reference/ccb_public_api_v5.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/reference/ccb_public_api_v5.json
 - path: data/lua/reference/ccb_public_api_v5_coverage.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/reference/ccb_public_api_v5_coverage.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.reference.enums%29%3A+&body=Document+ID%3A+api.lua.v5.reference.enums%0ALanguage%3A+en%0AVerified+commit%3A+3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/reference/ccb_public_api_v5_coverage.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.reference.enums%29%3A+&body=Document+ID%3A+api.lua.v5.reference.enums%0ALanguage%3A+en%0AVerified+commit%3A+501f84d20d4bf432dd7fec9b757f5af6a18dae36%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---
@@ -70,7 +70,7 @@ search:
 
 # Enum families
 
-This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd` and contains 26 `enums` records. Do not edit it by hand.
+This page is generated from the Lua v5 public contract at pinned commit `501f84d20d4bf432dd7fec9b757f5af6a18dae36` and contains 26 `enums` records. Do not edit it by hand.
 
 ## `ActionId` { #symbol-api-lua-v5-generated-enum-actionid-3fb0709b98c6 }
 
@@ -85,7 +85,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:297`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L297) — native enum registry
+- [`src/catalua_bindings_enums.cpp:297`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L297) — native enum registry
 
 ## `AddictionType` { #symbol-api-lua-v5-generated-enum-addictiontype-d1df21fe92d4 }
 
@@ -100,7 +100,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:300`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L300) — native enum registry
+- [`src/catalua_bindings_enums.cpp:300`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L300) — native enum registry
 
 ## `ArtifactCharge` { #symbol-api-lua-v5-generated-enum-artifactcharge-1e906b0ee3aa }
 
@@ -115,7 +115,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:304`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L304) — native enum registry
+- [`src/catalua_bindings_enums.cpp:304`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L304) — native enum registry
 
 ## `ArtifactChargeReq` { #symbol-api-lua-v5-generated-enum-artifactchargereq-0cbe3738235c }
 
@@ -130,7 +130,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:308`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L308) — native enum registry
+- [`src/catalua_bindings_enums.cpp:308`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L308) — native enum registry
 
 ## `ArtifactEffectActive` { #symbol-api-lua-v5-generated-enum-artifacteffectactive-5f6482871f0f }
 
@@ -145,7 +145,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:312`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L312) — native enum registry
+- [`src/catalua_bindings_enums.cpp:312`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L312) — native enum registry
 
 ## `ArtifactEffectPassive` { #symbol-api-lua-v5-generated-enum-artifacteffectpassive-89fb42600658 }
 
@@ -160,7 +160,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:316`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L316) — native enum registry
+- [`src/catalua_bindings_enums.cpp:316`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L316) — native enum registry
 
 ## `Attitude` { #symbol-api-lua-v5-generated-enum-attitude-3f9bda378d0a }
 
@@ -175,7 +175,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:320`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L320) — native enum registry
+- [`src/catalua_bindings_enums.cpp:320`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L320) — native enum registry
 
 ## `BodyPart` { #symbol-api-lua-v5-generated-enum-bodypart-70255c17e73e }
 
@@ -190,7 +190,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:323`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L323) — native enum registry
+- [`src/catalua_bindings_enums.cpp:323`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L323) — native enum registry
 
 ## `CharacterMoveMode` { #symbol-api-lua-v5-generated-enum-charactermovemode-d70589a29433 }
 
@@ -205,7 +205,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:326`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L326) — native enum registry
+- [`src/catalua_bindings_enums.cpp:326`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L326) — native enum registry
 
 ## `DamageType` { #symbol-api-lua-v5-generated-enum-damagetype-032bdce6019a }
 
@@ -220,7 +220,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:330`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L330) — native enum registry
+- [`src/catalua_bindings_enums.cpp:330`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L330) — native enum registry
 
 ## `Direction` { #symbol-api-lua-v5-generated-enum-direction-236fc31102b9 }
 
@@ -235,7 +235,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:334`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L334) — native enum registry
+- [`src/catalua_bindings_enums.cpp:334`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L334) — native enum registry
 
 ## `MissionGoal` { #symbol-api-lua-v5-generated-enum-missiongoal-fddc4f9c2aee }
 
@@ -250,7 +250,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:337`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L337) — native enum registry
+- [`src/catalua_bindings_enums.cpp:337`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L337) — native enum registry
 
 ## `MissionOrigin` { #symbol-api-lua-v5-generated-enum-missionorigin-d037edd96d6e }
 
@@ -265,7 +265,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:340`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L340) — native enum registry
+- [`src/catalua_bindings_enums.cpp:340`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L340) — native enum registry
 
 ## `MonsterAttitude` { #symbol-api-lua-v5-generated-enum-monsterattitude-3c4ab58c8dee }
 
@@ -280,7 +280,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:343`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L343) — native enum registry
+- [`src/catalua_bindings_enums.cpp:343`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L343) — native enum registry
 
 ## `MonsterFactionAttitude` { #symbol-api-lua-v5-generated-enum-monsterfactionattitude-25970d012e90 }
 
@@ -295,7 +295,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:347`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L347) — native enum registry
+- [`src/catalua_bindings_enums.cpp:347`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L347) — native enum registry
 
 ## `MonsterFlag` { #symbol-api-lua-v5-generated-enum-monsterflag-035d9051fb37 }
 
@@ -310,7 +310,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:351`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L351) — native enum registry
+- [`src/catalua_bindings_enums.cpp:351`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L351) — native enum registry
 
 ## `MonsterSize` { #symbol-api-lua-v5-generated-enum-monstersize-53d224eca3be }
 
@@ -325,7 +325,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:355`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L355) — native enum registry
+- [`src/catalua_bindings_enums.cpp:355`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L355) — native enum registry
 
 ## `MoonPhase` { #symbol-api-lua-v5-generated-enum-moonphase-386ff0ce95c6 }
 
@@ -340,7 +340,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:358`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L358) — native enum registry
+- [`src/catalua_bindings_enums.cpp:358`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L358) — native enum registry
 
 ## `MsgType` { #symbol-api-lua-v5-generated-enum-msgtype-b1ce43cd91aa }
 
@@ -355,7 +355,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:361`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L361) — native enum registry
+- [`src/catalua_bindings_enums.cpp:361`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L361) — native enum registry
 
 ## `NpcAttitude` { #symbol-api-lua-v5-generated-enum-npcattitude-3cf0c9da83a9 }
 
@@ -370,7 +370,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:364`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L364) — native enum registry
+- [`src/catalua_bindings_enums.cpp:364`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L364) — native enum registry
 
 ## `NpcNeed` { #symbol-api-lua-v5-generated-enum-npcneed-2b51048178c9 }
 
@@ -385,7 +385,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:367`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L367) — native enum registry
+- [`src/catalua_bindings_enums.cpp:367`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L367) — native enum registry
 
 ## `OmVisionLevel` { #symbol-api-lua-v5-generated-enum-omvisionlevel-e172cde6ba45 }
 
@@ -400,7 +400,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:373`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L373) — native enum registry
+- [`src/catalua_bindings_enums.cpp:373`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L373) — native enum registry
 
 ## `OtMatchType` { #symbol-api-lua-v5-generated-enum-otmatchtype-f6c147477b31 }
 
@@ -415,7 +415,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:370`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L370) — native enum registry
+- [`src/catalua_bindings_enums.cpp:370`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L370) — native enum registry
 
 ## `Phase` { #symbol-api-lua-v5-generated-enum-phase-ff3546f941ac }
 
@@ -430,7 +430,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:376`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L376) — native enum registry
+- [`src/catalua_bindings_enums.cpp:376`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L376) — native enum registry
 
 ## `SfxChannel` { #symbol-api-lua-v5-generated-enum-sfxchannel-a97086933488 }
 
@@ -445,7 +445,7 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:379`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L379) — native enum registry
+- [`src/catalua_bindings_enums.cpp:379`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L379) — native enum registry
 
 ## `VitaminType` { #symbol-api-lua-v5-generated-enum-vitamintype-2fc7a3ea204e }
 
@@ -460,4 +460,4 @@ This page is generated from the Lua v5 public contract at pinned commit `3ac0bd7
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:382`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L382) — native enum registry
+- [`src/catalua_bindings_enums.cpp:382`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L382) — native enum registry

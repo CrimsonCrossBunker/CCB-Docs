@@ -25,7 +25,7 @@ source_symbols:
 source_queries: []
 source_fingerprint: 45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d
 authority: api-contract
-verified_commit: 3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd
+verified_commit: 501f84d20d4bf432dd7fec9b757f5af6a18dae36
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_lua_reference.py
@@ -33,7 +33,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: a4c856d15a6625f50dee108107e46acc72398686a1aa9fc392df97799e3e63b5
+translation_source_fingerprint: 2a7af362db17290fb6f111d97224810f9c17fe7bb597a2ca32bbf5765dd5fcd9
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -55,13 +55,13 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/classes/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/classes/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/501f84d20d4bf432dd7fec9b757f5af6a18dae36
 source_urls:
 - path: data/lua/reference/ccb_public_api_v5.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/reference/ccb_public_api_v5.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/reference/ccb_public_api_v5.json
 - path: data/lua/reference/ccb_public_api_v5_coverage.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/reference/ccb_public_api_v5_coverage.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.reference.classes%29%3A+&body=Document+ID%3A+api.lua.v5.reference.classes%0ALanguage%3A+zh_CN%0AVerified+commit%3A+3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/reference/ccb_public_api_v5_coverage.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.reference.classes%29%3A+&body=Document+ID%3A+api.lua.v5.reference.classes%0ALanguage%3A+zh_CN%0AVerified+commit%3A+501f84d20d4bf432dd7fec9b757f5af6a18dae36%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---
@@ -70,7 +70,7 @@ search:
 
 # 类与记录参考
 
-本页由固定提交 `3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd` 的 Lua v5 公开契约生成，收录 260 条 `classes` 记录。不要手工修改本页。
+本页由固定提交 `501f84d20d4bf432dd7fec9b757f5af6a18dae36` 的 Lua v5 公开契约生成，收录 260 条 `classes` 记录。不要手工修改本页。
 
 ## `CcbAchievementDefinition` { #symbol-api-lua-v5-generated-class-ccbachievementdefinition-794e6bfd9753 }
 
@@ -81,7 +81,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3572`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3572) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3572`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3572) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbachievementdefinition-id-25629ad023ee }
 
@@ -93,7 +93,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3573`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3573) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3573`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3573) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbachievementdefinition-name-17ac7065a4df }
 
@@ -105,7 +105,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3574`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3574) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3574`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3574) — LuaLS declaration
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbachievementdefinition-description-e46c75c840cc }
 
@@ -117,7 +117,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3575`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3575) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3575`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3575) — LuaLS declaration
 
 ### `conduct` { #symbol-api-lua-v5-generated-property-ccbachievementdefinition-conduct-9d7ec895f6f6 }
 
@@ -129,7 +129,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3576`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3576) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3576`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3576) — LuaLS declaration
 
 ### `manually_given` { #symbol-api-lua-v5-generated-property-ccbachievementdefinition-manually-given-704a45bc5c4f }
 
@@ -141,7 +141,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3577`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3577) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3577`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3577) — LuaLS declaration
 
 ### `requirements` { #symbol-api-lua-v5-generated-property-ccbachievementdefinition-requirements-56252a04ee22 }
 
@@ -153,7 +153,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3578`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3578) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3578`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3578) — LuaLS declaration
 
 ### `loaded` { #symbol-api-lua-v5-generated-property-ccbachievementdefinition-loaded-dfb772821e31 }
 
@@ -165,7 +165,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3579`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3579) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3579`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3579) — LuaLS declaration
 
 ### `hidden_by` { #symbol-api-lua-v5-generated-property-ccbachievementdefinition-hidden-by-979b7102fe3b }
 
@@ -177,7 +177,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3580`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3580) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3580`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3580) — LuaLS declaration
 
 ### `sources` { #symbol-api-lua-v5-generated-property-ccbachievementdefinition-sources-8441a53d51e4 }
 
@@ -189,7 +189,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3581`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3581) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3581`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3581) — LuaLS declaration
 
 ### `time_constraint` { #symbol-api-lua-v5-generated-property-ccbachievementdefinition-time-constraint-8f14ca8a5e9a }
 
@@ -201,7 +201,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3582`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3582) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3582`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3582) — LuaLS declaration
 
 ## `CcbAchievementListOptions` { #symbol-api-lua-v5-generated-class-ccbachievementlistoptions-89f23d86aecc }
 
@@ -212,7 +212,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3593`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3593) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3593`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3593) — LuaLS declaration
 
 ### `completion` { #symbol-api-lua-v5-generated-property-ccbachievementlistoptions-completion-679d33eb9263 }
 
@@ -224,7 +224,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3594`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3594) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3594`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3594) — LuaLS declaration
 
 ### `conduct` { #symbol-api-lua-v5-generated-property-ccbachievementlistoptions-conduct-f58b6a90722a }
 
@@ -236,7 +236,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3595`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3595) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3595`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3595) — LuaLS declaration
 
 ### `manually_given` { #symbol-api-lua-v5-generated-property-ccbachievementlistoptions-manually-given-ea1861aa8b9f }
 
@@ -248,7 +248,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3596`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3596) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3596`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3596) — LuaLS declaration
 
 ### `valid` { #symbol-api-lua-v5-generated-property-ccbachievementlistoptions-valid-21e914d85fb7 }
 
@@ -260,7 +260,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3597`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3597) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3597`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3597) — LuaLS declaration
 
 ## `CcbAchievementState` { #symbol-api-lua-v5-generated-class-ccbachievementstate-cec535239d3f }
 
@@ -271,7 +271,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3584`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3584) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3584`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3584) — LuaLS declaration
 
 ### `valid` { #symbol-api-lua-v5-generated-property-ccbachievementstate-valid-89c250c2fc84 }
 
@@ -283,7 +283,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3585`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3585) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3585`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3585) — LuaLS declaration
 
 ### `completion` { #symbol-api-lua-v5-generated-property-ccbachievementstate-completion-58ec39f370bb }
 
@@ -295,7 +295,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3586`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3586) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3586`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3586) — LuaLS declaration
 
 ### `pending` { #symbol-api-lua-v5-generated-property-ccbachievementstate-pending-d62b2e9164f1 }
 
@@ -307,7 +307,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3587`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3587) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3587`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3587) — LuaLS declaration
 
 ### `completed` { #symbol-api-lua-v5-generated-property-ccbachievementstate-completed-81b5a607c990 }
 
@@ -319,7 +319,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3588`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3588) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3588`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3588) — LuaLS declaration
 
 ### `failed` { #symbol-api-lua-v5-generated-property-ccbachievementstate-failed-e09be468a828 }
 
@@ -331,7 +331,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3589`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3589) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3589`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3589) — LuaLS declaration
 
 ### `hidden` { #symbol-api-lua-v5-generated-property-ccbachievementstate-hidden-5b8be3057ac8 }
 
@@ -343,7 +343,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3590`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3590) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3590`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3590) — LuaLS declaration
 
 ### `ui_text` { #symbol-api-lua-v5-generated-property-ccbachievementstate-ui-text-03feaadda2c0 }
 
@@ -355,7 +355,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3591`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3591) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3591`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3591) — LuaLS declaration
 
 ## `CcbAchievementTimeConstraint` { #symbol-api-lua-v5-generated-class-ccbachievementtimeconstraint-7afc0812428b }
 
@@ -366,7 +366,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3566`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3566) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3566`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3566) — LuaLS declaration
 
 ### `target` { #symbol-api-lua-v5-generated-property-ccbachievementtimeconstraint-target-20a2e894c0fd }
 
@@ -378,7 +378,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3567`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3567) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3567`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3567) — LuaLS declaration
 
 ### `completion` { #symbol-api-lua-v5-generated-property-ccbachievementtimeconstraint-completion-d67614f6dc33 }
 
@@ -390,7 +390,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3568`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3568) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3568`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3568) — LuaLS declaration
 
 ### `becomes_false` { #symbol-api-lua-v5-generated-property-ccbachievementtimeconstraint-becomes-false-945eab552c86 }
 
@@ -402,7 +402,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3569`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3569) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3569`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3569) — LuaLS declaration
 
 ### `text` { #symbol-api-lua-v5-generated-property-ccbachievementtimeconstraint-text-fff579e45b6c }
 
@@ -414,7 +414,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3570`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3570) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3570`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3570) — LuaLS declaration
 
 ## `CcbAchievementsApi` { #symbol-api-lua-v5-generated-class-ccbachievementsapi-55955fa23f93 }
 
@@ -425,7 +425,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3599`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3599) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3599`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3599) — LuaLS declaration
 
 ## `CcbActionDescriptor` { #symbol-api-lua-v5-generated-class-ccbactiondescriptor-fcfaf3fa13c1 }
 
@@ -436,7 +436,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1318`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1318) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1318`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1318) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbactiondescriptor-id-7119b9fb5053 }
 
@@ -448,7 +448,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1319`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1319) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1319`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1319) — LuaLS declaration
 
 ### `label` { #symbol-api-lua-v5-generated-property-ccbactiondescriptor-label-054398322d65 }
 
@@ -460,7 +460,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1320`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1320) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1320`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1320) — LuaLS declaration
 
 ### `group` { #symbol-api-lua-v5-generated-property-ccbactiondescriptor-group-721bd4bc52b4 }
 
@@ -472,7 +472,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1321`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1321) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1321`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1321) — LuaLS declaration
 
 ### `repeatable` { #symbol-api-lua-v5-generated-property-ccbactiondescriptor-repeatable-90975352099e }
 
@@ -484,7 +484,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1322`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1322) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1322`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1322) — LuaLS declaration
 
 ### `dangerous` { #symbol-api-lua-v5-generated-property-ccbactiondescriptor-dangerous-cdd4aafd11de }
 
@@ -496,7 +496,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1323`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1323) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1323`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1323) — LuaLS declaration
 
 ## `CcbActionEnqueueOptions` { #symbol-api-lua-v5-generated-class-ccbactionenqueueoptions-f172d29ec9c9 }
 
@@ -507,7 +507,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1362`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1362) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1362`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1362) — LuaLS declaration
 
 ### `direction` { #symbol-api-lua-v5-generated-property-ccbactionenqueueoptions-direction-7801a747668d }
 
@@ -519,7 +519,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1363`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1363) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1363`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1363) — LuaLS declaration
 
 ### `uid` { #symbol-api-lua-v5-generated-property-ccbactionenqueueoptions-uid-82e8dc7bbb21 }
 
@@ -531,7 +531,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1364`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1364) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1364`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1364) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbactionenqueueoptions-id-b24bba177c44 }
 
@@ -543,7 +543,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1365`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1365) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1365`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1365) — LuaLS declaration
 
 ## `CcbActionMenuApi` { #symbol-api-lua-v5-generated-class-ccbactionmenuapi-cc9b31469ec4 }
 
@@ -554,7 +554,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1411`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1411) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1411`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1411) — LuaLS declaration
 
 ## `CcbActionMenuDescriptor` { #symbol-api-lua-v5-generated-class-ccbactionmenudescriptor-61e14e0e3626 }
 
@@ -565,7 +565,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1391`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1391) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1391`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1391) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbactionmenudescriptor-id-0e4be6b7fe9d }
 
@@ -577,7 +577,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1392`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1392) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1392`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1392) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbactionmenudescriptor-name-57b43473199f }
 
@@ -589,7 +589,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1393`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1393) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1393`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1393) — LuaLS declaration
 
 ### `category` { #symbol-api-lua-v5-generated-property-ccbactionmenudescriptor-category-cae711bdbbf3 }
 
@@ -601,7 +601,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1394`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1394) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1394`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1394) — LuaLS declaration
 
 ### `hotkey` { #symbol-api-lua-v5-generated-property-ccbactionmenudescriptor-hotkey-1bd9e2dbe05f }
 
@@ -613,7 +613,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1395`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1395) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1395`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1395) — LuaLS declaration
 
 ## `CcbActionMenuEntry` { #symbol-api-lua-v5-generated-class-ccbactionmenuentry-bfcb5b6520b9 }
 
@@ -624,7 +624,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1397`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1397) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1397`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1397) — LuaLS declaration
 
 ### `registration_id` { #symbol-api-lua-v5-generated-property-ccbactionmenuentry-registration-id-ad820a418c67 }
 
@@ -636,7 +636,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1398`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1398) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1398`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1398) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbactionmenuentry-id-2197ef391a2f }
 
@@ -648,7 +648,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1399`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1399) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1399`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1399) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbactionmenuentry-name-ff4da77b7a88 }
 
@@ -660,7 +660,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1400`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1400) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1400`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1400) — LuaLS declaration
 
 ### `category` { #symbol-api-lua-v5-generated-property-ccbactionmenuentry-category-1bebc4ef121d }
 
@@ -672,7 +672,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1401`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1401) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1401`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1401) — LuaLS declaration
 
 ### `source` { #symbol-api-lua-v5-generated-property-ccbactionmenuentry-source-187720a99762 }
 
@@ -684,7 +684,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1402`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1402) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1402`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1402) — LuaLS declaration
 
 ### `enabled` { #symbol-api-lua-v5-generated-property-ccbactionmenuentry-enabled-26f2865629bd }
 
@@ -696,7 +696,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1403`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1403) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1403`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1403) — LuaLS declaration
 
 ## `CcbActionMenuLimits` { #symbol-api-lua-v5-generated-class-ccbactionmenulimits-fb05c8b26deb }
 
@@ -707,7 +707,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1405`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1405) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1405`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1405) — LuaLS declaration
 
 ### `entries` { #symbol-api-lua-v5-generated-property-ccbactionmenulimits-entries-0614032ca8d8 }
 
@@ -719,7 +719,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1406`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1406) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1406`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1406) — LuaLS declaration
 
 ### `entries_per_source` { #symbol-api-lua-v5-generated-property-ccbactionmenulimits-entries-per-source-c5ae5d2e40af }
 
@@ -731,7 +731,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1407`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1407) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1407`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1407) — LuaLS declaration
 
 ### `name_bytes` { #symbol-api-lua-v5-generated-property-ccbactionmenulimits-name-bytes-377470d75a66 }
 
@@ -743,7 +743,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1408`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1408) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1408`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1408) — LuaLS declaration
 
 ### `callback_instructions` { #symbol-api-lua-v5-generated-property-ccbactionmenulimits-callback-instructions-eaee2fe637fb }
 
@@ -755,7 +755,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1409`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1409) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1409`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1409) — LuaLS declaration
 
 ## `CcbActionResult` { #symbol-api-lua-v5-generated-class-ccbactionresult-01a5859870be }
 
@@ -766,7 +766,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1343`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1343) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1343`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1343) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbactionresult-id-d4e7676ffc04 }
 
@@ -778,7 +778,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1344`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1344) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1344`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1344) — LuaLS declaration
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbactionresult-type-45d724209665 }
 
@@ -790,7 +790,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1345`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1345) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1345`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1345) — LuaLS declaration
 
 ### `status` { #symbol-api-lua-v5-generated-property-ccbactionresult-status-f5024365965a }
 
@@ -802,7 +802,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1346`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1346) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1346`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1346) — LuaLS declaration
 
 ### `error` { #symbol-api-lua-v5-generated-property-ccbactionresult-error-b15506e7845f }
 
@@ -814,7 +814,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1347`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1347) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1347`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1347) — LuaLS declaration
 
 ### `queued_turn` { #symbol-api-lua-v5-generated-property-ccbactionresult-queued-turn-1bc1c5eca338 }
 
@@ -826,7 +826,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1348`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1348) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1348`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1348) — LuaLS declaration
 
 ### `completed_turn` { #symbol-api-lua-v5-generated-property-ccbactionresult-completed-turn-f6a875c8dc76 }
 
@@ -838,7 +838,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1349`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1349) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1349`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1349) — LuaLS declaration
 
 ### `action_taken` { #symbol-api-lua-v5-generated-property-ccbactionresult-action-taken-2777e5d62aa9 }
 
@@ -850,7 +850,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1350`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1350) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1350`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1350) — LuaLS declaration
 
 ## `CcbActionSlotOption` { #symbol-api-lua-v5-generated-class-ccbactionslotoption-571dda852b69 }
 
@@ -861,7 +861,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:642`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L642) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:642`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L642) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbactionslotoption-id-c8036d443653 }
 
@@ -873,7 +873,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:643`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L643) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:643`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L643) — LuaLS declaration
 
 ### `label` { #symbol-api-lua-v5-generated-property-ccbactionslotoption-label-7cfa43a6a324 }
 
@@ -885,7 +885,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:644`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L644) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:644`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L644) — LuaLS declaration
 
 ### `enabled` { #symbol-api-lua-v5-generated-property-ccbactionslotoption-enabled-915f82feb87a }
 
@@ -897,7 +897,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:645`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L645) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:645`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L645) — LuaLS declaration
 
 ## `CcbActionsStatus` { #symbol-api-lua-v5-generated-class-ccbactionsstatus-cc30df9a19c6 }
 
@@ -908,7 +908,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1352`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1352) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1352`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1352) — LuaLS declaration
 
 ### `pending_count` { #symbol-api-lua-v5-generated-property-ccbactionsstatus-pending-count-527e58fe2c55 }
 
@@ -920,7 +920,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1353`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1353) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1353`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1353) — LuaLS declaration
 
 ### `result_count` { #symbol-api-lua-v5-generated-property-ccbactionsstatus-result-count-cb33e9142eb7 }
 
@@ -932,7 +932,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1354`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1354) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1354`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1354) — LuaLS declaration
 
 ### `result_limit` { #symbol-api-lua-v5-generated-property-ccbactionsstatus-result-limit-200ef2aaaeaa }
 
@@ -944,7 +944,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1355`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1355) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1355`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1355) — LuaLS declaration
 
 ### `pending` { #symbol-api-lua-v5-generated-property-ccbactionsstatus-pending-fbc03d5d40ba }
 
@@ -956,7 +956,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1356`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1356) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1356`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1356) — LuaLS declaration
 
 ### `results` { #symbol-api-lua-v5-generated-property-ccbactionsstatus-results-15b3797119e6 }
 
@@ -968,7 +968,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1357`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1357) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1357`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1357) — LuaLS declaration
 
 ## `CcbActivityEntry` { #symbol-api-lua-v5-generated-class-ccbactivityentry-124474717f99 }
 
@@ -979,7 +979,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1295`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1295) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1295`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1295) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbactivityentry-id-e7bba76246d9 }
 
@@ -991,7 +991,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1296`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1296) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1296`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1296) — LuaLS declaration
 
 ### `active` { #symbol-api-lua-v5-generated-property-ccbactivityentry-active-49bbaca7ecaf }
 
@@ -1003,7 +1003,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1297`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1297) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1297`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1297) — LuaLS declaration
 
 ### `verb` { #symbol-api-lua-v5-generated-property-ccbactivityentry-verb-6312296c378d }
 
@@ -1015,7 +1015,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1298`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1298) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1298`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1298) — LuaLS declaration
 
 ### `moves_total` { #symbol-api-lua-v5-generated-property-ccbactivityentry-moves-total-9a26cfc7d08e }
 
@@ -1027,7 +1027,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1299`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1299) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1299`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1299) — LuaLS declaration
 
 ### `moves_left` { #symbol-api-lua-v5-generated-property-ccbactivityentry-moves-left-e36758b676f9 }
 
@@ -1039,7 +1039,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1300`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1300) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1300`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1300) — LuaLS declaration
 
 ### `interruptible` { #symbol-api-lua-v5-generated-property-ccbactivityentry-interruptible-79b2a809423a }
 
@@ -1051,7 +1051,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1301`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1301) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1301`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1301) — LuaLS declaration
 
 ### `interruptible_with_keyboard` { #symbol-api-lua-v5-generated-property-ccbactivityentry-interruptible-with-keyboard-3a7267925215 }
 
@@ -1063,7 +1063,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1302`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1302) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1302`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1302) — LuaLS declaration
 
 ### `auto_resume` { #symbol-api-lua-v5-generated-property-ccbactivityentry-auto-resume-d7e0f85cdbd4 }
 
@@ -1075,7 +1075,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1303`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1303) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1303`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1303) — LuaLS declaration
 
 ### `progress_message` { #symbol-api-lua-v5-generated-property-ccbactivityentry-progress-message-684ed88da766 }
 
@@ -1087,7 +1087,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1304`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1304) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1304`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1304) — LuaLS declaration
 
 ### `progress` { #symbol-api-lua-v5-generated-property-ccbactivityentry-progress-b6a82af6089f }
 
@@ -1099,7 +1099,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1305`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1305) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1305`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1305) — LuaLS declaration
 
 ## `CcbAddictionAdjustments` { #symbol-api-lua-v5-generated-class-ccbaddictionadjustments-07c471ed3801 }
 
@@ -1110,7 +1110,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3272`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3272) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3272`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3272) — LuaLS declaration
 
 ### `intensity` { #symbol-api-lua-v5-generated-property-ccbaddictionadjustments-intensity-52daf492b9c9 }
 
@@ -1122,7 +1122,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3273`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3273) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3273`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3273) — LuaLS declaration
 
 ### `sated` { #symbol-api-lua-v5-generated-property-ccbaddictionadjustments-sated-f41e639ed604 }
 
@@ -1134,7 +1134,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3274`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3274) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3274`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3274) — LuaLS declaration
 
 ## `CcbAddictionDefinition` { #symbol-api-lua-v5-generated-class-ccbaddictiondefinition-155a99e8a0e0 }
 
@@ -1145,7 +1145,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3252`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3252) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3252`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3252) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbaddictiondefinition-id-f5f7f43258c7 }
 
@@ -1157,7 +1157,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3253`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3253) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3253`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3253) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbaddictiondefinition-name-64c5dde7bc86 }
 
@@ -1169,7 +1169,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3254`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3254) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3254`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3254) — LuaLS declaration
 
 ### `type_name` { #symbol-api-lua-v5-generated-property-ccbaddictiondefinition-type-name-f66210d48e59 }
 
@@ -1181,7 +1181,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3255`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3255) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3255`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3255) — LuaLS declaration
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbaddictiondefinition-description-cb49c13c40d7 }
 
@@ -1193,7 +1193,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3256`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3256) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3256`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3256) — LuaLS declaration
 
 ### `craving_morale` { #symbol-api-lua-v5-generated-property-ccbaddictiondefinition-craving-morale-3060a9cc3710 }
 
@@ -1205,7 +1205,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3257`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3257) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3257`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3257) — LuaLS declaration
 
 ### `effect` { #symbol-api-lua-v5-generated-property-ccbaddictiondefinition-effect-aa77c3ebc8a2 }
 
@@ -1217,7 +1217,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3258`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3258) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3258`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3258) — LuaLS declaration
 
 ### `builtin` { #symbol-api-lua-v5-generated-property-ccbaddictiondefinition-builtin-bbe4a5a4939b }
 
@@ -1229,7 +1229,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3259`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3259) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3259`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3259) — LuaLS declaration
 
 ## `CcbAddictionState` { #symbol-api-lua-v5-generated-class-ccbaddictionstate-e7e780790b66 }
 
@@ -1240,7 +1240,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3261`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3261) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3261`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3261) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbaddictionstate-id-0e09ddd34f82 }
 
@@ -1252,7 +1252,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3262`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3262) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3262`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3262) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbaddictionstate-name-cdd55932e94e }
 
@@ -1264,7 +1264,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3263`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3263) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3263`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3263) — LuaLS declaration
 
 ### `present` { #symbol-api-lua-v5-generated-property-ccbaddictionstate-present-30d03fff74a1 }
 
@@ -1276,7 +1276,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3264`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3264) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3264`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3264) — LuaLS declaration
 
 ### `intensity` { #symbol-api-lua-v5-generated-property-ccbaddictionstate-intensity-d6b5b84d2de8 }
 
@@ -1288,7 +1288,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3265`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3265) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3265`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3265) — LuaLS declaration
 
 ### `active` { #symbol-api-lua-v5-generated-property-ccbaddictionstate-active-7626f8852010 }
 
@@ -1300,7 +1300,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3266`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3266) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3266`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3266) — LuaLS declaration
 
 ### `minimum_active_intensity` { #symbol-api-lua-v5-generated-property-ccbaddictionstate-minimum-active-intensity-cba73ec5317d }
 
@@ -1312,7 +1312,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3267`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3267) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3267`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3267) — LuaLS declaration
 
 ### `maximum_intensity` { #symbol-api-lua-v5-generated-property-ccbaddictionstate-maximum-intensity-c93df4643391 }
 
@@ -1324,7 +1324,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3268`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3268) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3268`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3268) — LuaLS declaration
 
 ### `sated` { #symbol-api-lua-v5-generated-property-ccbaddictionstate-sated-5276a915ac3d }
 
@@ -1336,7 +1336,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3269`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3269) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3269`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3269) — LuaLS declaration
 
 ### `withdrawing` { #symbol-api-lua-v5-generated-property-ccbaddictionstate-withdrawing-a976f8bacf23 }
 
@@ -1348,7 +1348,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3270`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3270) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3270`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3270) — LuaLS declaration
 
 ## `CcbAddictionsApi` { #symbol-api-lua-v5-generated-class-ccbaddictionsapi-15d90b2c65ad }
 
@@ -1359,7 +1359,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3276`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3276) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3276`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3276) — LuaLS declaration
 
 ## `CcbAmbientSoundOptions` { #symbol-api-lua-v5-generated-class-ccbambientsoundoptions-b3dcea9499c7 }
 
@@ -1370,7 +1370,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1966`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1966) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1966`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1966) — LuaLS declaration
 
 ### `channel` { #symbol-api-lua-v5-generated-property-ccbambientsoundoptions-channel-4cf64383b885 }
 
@@ -1382,7 +1382,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1967`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1967) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1967`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1967) — LuaLS declaration
 
 ### `fade_in_ms` { #symbol-api-lua-v5-generated-property-ccbambientsoundoptions-fade-in-ms-9e1aaa73110f }
 
@@ -1394,7 +1394,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1968`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1968) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1968`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1968) — LuaLS declaration
 
 ### `pitch` { #symbol-api-lua-v5-generated-property-ccbambientsoundoptions-pitch-4eb3f1d14008 }
 
@@ -1406,7 +1406,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1969`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1969) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1969`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1969) — LuaLS declaration
 
 ### `loops` { #symbol-api-lua-v5-generated-property-ccbambientsoundoptions-loops-dbeb05906bf8 }
 
@@ -1418,7 +1418,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1970`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1970) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1970`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1970) — LuaLS declaration
 
 ## `CcbBindingDomain` { #symbol-api-lua-v5-generated-class-ccbbindingdomain-f9737a6fc1d0 }
 
@@ -1429,7 +1429,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1783`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1783) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1783`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1783) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbbindingdomain-id-2789738bf429 }
 
@@ -1441,7 +1441,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1784`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1784) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1784`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1784) — LuaLS declaration
 
 ### `namespace` { #symbol-api-lua-v5-generated-property-ccbbindingdomain-namespace-9e49c134ad41 }
 
@@ -1453,7 +1453,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1785`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1785) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1785`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1785) — LuaLS declaration
 
 ### `capability` { #symbol-api-lua-v5-generated-property-ccbbindingdomain-capability-74e76ed5d288 }
 
@@ -1465,7 +1465,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1786`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1786) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1786`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1786) — LuaLS declaration
 
 ### `minimum_api_version` { #symbol-api-lua-v5-generated-property-ccbbindingdomain-minimum-api-version-8bc7d859595d }
 
@@ -1477,7 +1477,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1787`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1787) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1787`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1787) — LuaLS declaration
 
 ### `status` { #symbol-api-lua-v5-generated-property-ccbbindingdomain-status-84a31c3a7eb1 }
 
@@ -1489,7 +1489,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1788`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1788) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1788`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1788) — LuaLS declaration
 
 ## `CcbBionicConfigureOptions` { #symbol-api-lua-v5-generated-class-ccbbionicconfigureoptions-4c501783cce3 }
 
@@ -1500,7 +1500,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2202`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2202) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2202`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2202) — LuaLS declaration
 
 ### `auto_shutdown` { #symbol-api-lua-v5-generated-property-ccbbionicconfigureoptions-auto-shutdown-817edb917e53 }
 
@@ -1512,7 +1512,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2203`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2203) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2203`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2203) — LuaLS declaration
 
 ### `show_sprite` { #symbol-api-lua-v5-generated-property-ccbbionicconfigureoptions-show-sprite-b0dc53c04587 }
 
@@ -1524,7 +1524,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2204`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2204) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2204`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2204) — LuaLS declaration
 
 ### `safe_fuel_threshold` { #symbol-api-lua-v5-generated-property-ccbbionicconfigureoptions-safe-fuel-threshold-59106db0acd3 }
 
@@ -1536,7 +1536,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2205`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2205) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2205`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2205) — LuaLS declaration
 
 ## `CcbBionicSnapshot` { #symbol-api-lua-v5-generated-class-ccbbionicsnapshot-7670589a7719 }
 
@@ -1547,7 +1547,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1268`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1268) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1268`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1268) — LuaLS declaration
 
 ### `uid` { #symbol-api-lua-v5-generated-property-ccbbionicsnapshot-uid-99938b6b1cf6 }
 
@@ -1559,7 +1559,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1269`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1269) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1269`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1269) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbbionicsnapshot-id-cafe06f8a3c8 }
 
@@ -1571,7 +1571,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1270`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1270) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1270`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1270) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbbionicsnapshot-name-98d966822015 }
 
@@ -1583,7 +1583,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1271`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1271) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1271`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1271) — LuaLS declaration
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbbionicsnapshot-description-5b6e02879304 }
 
@@ -1595,7 +1595,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1272`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1272) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1272`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1272) — LuaLS declaration
 
 ### `powered` { #symbol-api-lua-v5-generated-property-ccbbionicsnapshot-powered-056130ceffbd }
 
@@ -1607,7 +1607,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1273`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1273) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1273`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1273) — LuaLS declaration
 
 ### `activatable` { #symbol-api-lua-v5-generated-property-ccbbionicsnapshot-activatable-c8102c59e1eb }
 
@@ -1619,7 +1619,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1274`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1274) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1274`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1274) — LuaLS declaration
 
 ### `included` { #symbol-api-lua-v5-generated-property-ccbbionicsnapshot-included-c7d54a2a5133 }
 
@@ -1631,7 +1631,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1275`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1275) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1275`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1275) — LuaLS declaration
 
 ### `incapacitated_turns` { #symbol-api-lua-v5-generated-property-ccbbionicsnapshot-incapacitated-turns-3604e19afdd2 }
 
@@ -1643,7 +1643,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1276`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1276) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1276`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1276) — LuaLS declaration
 
 ### `charge_timer_turns` { #symbol-api-lua-v5-generated-property-ccbbionicsnapshot-charge-timer-turns-6bed0ed8c042 }
 
@@ -1655,7 +1655,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1277`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1277) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1277`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1277) — LuaLS declaration
 
 ### `activation_cost_kj` { #symbol-api-lua-v5-generated-property-ccbbionicsnapshot-activation-cost-kj-818086d48416 }
 
@@ -1667,7 +1667,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1278`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1278) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1278`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1278) — LuaLS declaration
 
 ### `deactivation_cost_kj` { #symbol-api-lua-v5-generated-property-ccbbionicsnapshot-deactivation-cost-kj-33bd48a1abbb }
 
@@ -1679,7 +1679,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1279`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1279) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1279`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1279) — LuaLS declaration
 
 ## `CcbBionicsApi` { #symbol-api-lua-v5-generated-class-ccbbionicsapi-84eadbbfda2f }
 
@@ -1690,7 +1690,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2207`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2207) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2207`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2207) — LuaLS declaration
 
 ## `CcbBoundedItemList` { #symbol-api-lua-v5-generated-class-ccbboundeditemlist-70e08c6d7400 }
 
@@ -1701,7 +1701,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1229`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1229) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1229`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1229) — LuaLS declaration
 
 ### `items` { #symbol-api-lua-v5-generated-property-ccbboundeditemlist-items-af623ae09e58 }
 
@@ -1713,7 +1713,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1230`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1230) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1230`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1230) — LuaLS declaration
 
 ### `total` { #symbol-api-lua-v5-generated-property-ccbboundeditemlist-total-1690b9d074dc }
 
@@ -1725,7 +1725,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1231`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1231) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1231`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1231) — LuaLS declaration
 
 ### `returned` { #symbol-api-lua-v5-generated-property-ccbboundeditemlist-returned-ed4992210651 }
 
@@ -1737,7 +1737,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1232`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1232) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1232`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1232) — LuaLS declaration
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbboundeditemlist-limit-d75eb1000cef }
 
@@ -1749,7 +1749,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1233`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1233) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1233`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1233) — LuaLS declaration
 
 ### `truncated` { #symbol-api-lua-v5-generated-property-ccbboundeditemlist-truncated-85daebd2a970 }
 
@@ -1761,7 +1761,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1234`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1234) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1234`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1234) — LuaLS declaration
 
 ## `CcbCalendarPoint` { #symbol-api-lua-v5-generated-class-ccbcalendarpoint-c42560b87771 }
 
@@ -1772,7 +1772,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:360`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L360) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:360`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L360) — LuaLS declaration
 
 ### `point` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-point-54b87b7022cd }
 
@@ -1784,7 +1784,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:361`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L361) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:361`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L361) — LuaLS declaration
 
 ### `turn` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-turn-5d52d969b207 }
 
@@ -1796,7 +1796,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:362`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L362) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:362`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L362) — LuaLS declaration
 
 ### `display` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-display-bd8c60d006aa }
 
@@ -1808,7 +1808,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:363`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L363) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:363`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L363) — LuaLS declaration
 
 ### `time_of_day` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-time-of-day-a0580f600059 }
 
@@ -1820,7 +1820,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:364`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L364) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:364`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L364) — LuaLS declaration
 
 ### `year` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-year-8755038c3415 }
 
@@ -1832,7 +1832,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:365`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L365) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:365`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L365) — LuaLS declaration
 
 ### `day_of_year` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-day-of-year-59751dedd9df }
 
@@ -1844,7 +1844,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:366`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L366) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:366`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L366) — LuaLS declaration
 
 ### `second` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-second-dad39fddf7fc }
 
@@ -1856,7 +1856,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:367`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L367) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:367`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L367) — LuaLS declaration
 
 ### `minute` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-minute-45eab9be609d }
 
@@ -1868,7 +1868,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:368`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L368) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:368`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L368) — LuaLS declaration
 
 ### `hour` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-hour-cf39c29e5052 }
 
@@ -1880,7 +1880,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:369`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L369) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:369`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L369) — LuaLS declaration
 
 ### `season` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-season-c7e9f1e2582c }
 
@@ -1892,7 +1892,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:370`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L370) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:370`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L370) — LuaLS declaration
 
 ### `moon_phase` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-moon-phase-1044180f7cc1 }
 
@@ -1904,7 +1904,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:371`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L371) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:371`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L371) — LuaLS declaration
 
 ### `is_day` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-is-day-185fce637ae9 }
 
@@ -1916,7 +1916,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:372`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L372) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:372`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L372) — LuaLS declaration
 
 ### `is_night` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-is-night-99b78924cd31 }
 
@@ -1928,7 +1928,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:373`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L373) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:373`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L373) — LuaLS declaration
 
 ### `is_dawn` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-is-dawn-71af56433ad3 }
 
@@ -1940,7 +1940,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:374`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L374) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:374`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L374) — LuaLS declaration
 
 ### `is_dusk` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-is-dusk-aa1a432b6ff3 }
 
@@ -1952,7 +1952,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:375`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L375) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:375`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L375) — LuaLS declaration
 
 ### `is_twilight` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-is-twilight-1ac71626bccd }
 
@@ -1964,7 +1964,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:376`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L376) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:376`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L376) — LuaLS declaration
 
 ### `sunrise` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-sunrise-c7c3652ea53c }
 
@@ -1976,7 +1976,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:377`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L377) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:377`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L377) — LuaLS declaration
 
 ### `sunset` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-sunset-35014a3e9391 }
 
@@ -1988,7 +1988,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:378`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L378) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:378`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L378) — LuaLS declaration
 
 ### `daylight` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-daylight-e531e3f16f3f }
 
@@ -2000,7 +2000,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:379`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L379) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:379`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L379) — LuaLS declaration
 
 ### `nightfall` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-nightfall-7748f26f5283 }
 
@@ -2012,7 +2012,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:380`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L380) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:380`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L380) — LuaLS declaration
 
 ### `noon` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-noon-f5f0bc917622 }
 
@@ -2024,7 +2024,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:381`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L381) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:381`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L381) — LuaLS declaration
 
 ### `turns_since_cataclysm` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-turns-since-cataclysm-17764a135aeb }
 
@@ -2036,7 +2036,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:382`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L382) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:382`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L382) — LuaLS declaration
 
 ### `turns_since_game_start` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-turns-since-game-start-c795966d6878 }
 
@@ -2048,7 +2048,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:383`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L383) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:383`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L383) — LuaLS declaration
 
 ### `season_turns` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-season-turns-c7fcca490092 }
 
@@ -2060,7 +2060,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:384`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L384) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:384`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L384) — LuaLS declaration
 
 ## `CcbCalendarSeason` { #symbol-api-lua-v5-generated-class-ccbcalendarseason-bdab9ff2b235 }
 
@@ -2071,7 +2071,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:354`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L354) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:354`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L354) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbcalendarseason-id-581aa7c5684b }
 
@@ -2083,7 +2083,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:355`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L355) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:355`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L355) — LuaLS declaration
 
 ### `index` { #symbol-api-lua-v5-generated-property-ccbcalendarseason-index-82474cc498a8 }
 
@@ -2095,7 +2095,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:356`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L356) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:356`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L356) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbcalendarseason-name-ee94a56d9186 }
 
@@ -2107,7 +2107,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:357`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L357) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:357`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L357) — LuaLS declaration
 
 ### `day` { #symbol-api-lua-v5-generated-property-ccbcalendarseason-day-7bc605a56a56 }
 
@@ -2119,7 +2119,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:358`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L358) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:358`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L358) — LuaLS declaration
 
 ## `CcbCalendarSnapshot` { #symbol-api-lua-v5-generated-class-ccbcalendarsnapshot-03596a4b8f7a }
 
@@ -2130,7 +2130,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:386`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L386) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:386`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L386) — LuaLS declaration
 
 ### `now` { #symbol-api-lua-v5-generated-property-ccbcalendarsnapshot-now-db736aad8390 }
 
@@ -2142,7 +2142,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:387`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L387) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:387`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L387) — LuaLS declaration
 
 ### `turn_zero` { #symbol-api-lua-v5-generated-property-ccbcalendarsnapshot-turn-zero-eb872f5cd634 }
 
@@ -2154,7 +2154,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:388`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L388) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:388`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L388) — LuaLS declaration
 
 ### `start_of_cataclysm` { #symbol-api-lua-v5-generated-property-ccbcalendarsnapshot-start-of-cataclysm-a6712bcceb6e }
 
@@ -2166,7 +2166,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:389`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L389) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:389`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L389) — LuaLS declaration
 
 ### `start_of_game` { #symbol-api-lua-v5-generated-property-ccbcalendarsnapshot-start-of-game-f1ef4bc57170 }
 
@@ -2178,7 +2178,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:390`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L390) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:390`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L390) — LuaLS declaration
 
 ### `season_length` { #symbol-api-lua-v5-generated-property-ccbcalendarsnapshot-season-length-318daebe2114 }
 
@@ -2190,7 +2190,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:391`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L391) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:391`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L391) — LuaLS declaration
 
 ### `year_length` { #symbol-api-lua-v5-generated-property-ccbcalendarsnapshot-year-length-4c1ed60d4cfc }
 
@@ -2202,7 +2202,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:392`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L392) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:392`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L392) — LuaLS declaration
 
 ### `turn_zero_offset` { #symbol-api-lua-v5-generated-property-ccbcalendarsnapshot-turn-zero-offset-cda7ac2246d5 }
 
@@ -2214,7 +2214,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:393`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L393) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:393`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L393) — LuaLS declaration
 
 ### `initial_season` { #symbol-api-lua-v5-generated-property-ccbcalendarsnapshot-initial-season-d64197770744 }
 
@@ -2226,7 +2226,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:394`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L394) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:394`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L394) — LuaLS declaration
 
 ### `eternal_season` { #symbol-api-lua-v5-generated-property-ccbcalendarsnapshot-eternal-season-9344232c728b }
 
@@ -2238,7 +2238,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:395`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L395) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:395`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L395) — LuaLS declaration
 
 ### `eternal_day` { #symbol-api-lua-v5-generated-property-ccbcalendarsnapshot-eternal-day-7d9e9e823472 }
 
@@ -2250,7 +2250,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:396`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L396) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:396`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L396) — LuaLS declaration
 
 ### `eternal_night` { #symbol-api-lua-v5-generated-property-ccbcalendarsnapshot-eternal-night-08b581ce0774 }
 
@@ -2262,7 +2262,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:397`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L397) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:397`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L397) — LuaLS declaration
 
 ## `CcbCallbackDescriptor` { #symbol-api-lua-v5-generated-class-ccbcallbackdescriptor-6c5f8842f629 }
 
@@ -2273,7 +2273,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1545`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1545) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1545`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1545) — LuaLS declaration
 
 ### `priority` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-priority-3dac36fed2af }
 
@@ -2285,7 +2285,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1546`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1546) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1546`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1546) — LuaLS declaration
 
 ### `once` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-once-05faae8ddda5 }
 
@@ -2297,7 +2297,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1547`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1547) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1547`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1547) — LuaLS declaration
 
 ### `can_use` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-can-use-02fe508f70ea }
 
@@ -2309,7 +2309,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1548`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1548) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1548`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1548) — LuaLS declaration
 
 ### `on_use` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-use-6fa0e09d05be }
 
@@ -2321,7 +2321,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1549`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1549) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1549`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1549) — LuaLS declaration
 
 ### `can_unwield` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-can-unwield-c4a1b7b12867 }
 
@@ -2333,7 +2333,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1550`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1550) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1550`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1550) — LuaLS declaration
 
 ### `can_wield` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-can-wield-b163e36d97a8 }
 
@@ -2345,7 +2345,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1551`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1551) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1551`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1551) — LuaLS declaration
 
 ### `on_unwield` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-unwield-b10b874000b2 }
 
@@ -2357,7 +2357,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1552`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1552) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1552`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1552) — LuaLS declaration
 
 ### `on_wield` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-wield-56b9893fcc8d }
 
@@ -2369,7 +2369,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1553`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1553) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1553`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1553) — LuaLS declaration
 
 ### `can_takeoff` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-can-takeoff-3cda75a5593f }
 
@@ -2381,7 +2381,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1554`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1554) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1554`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1554) — LuaLS declaration
 
 ### `can_wear` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-can-wear-3e55a46312ad }
 
@@ -2393,7 +2393,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1555`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1555) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1555`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1555) — LuaLS declaration
 
 ### `on_takeoff` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-takeoff-6a4ef30e5ce1 }
 
@@ -2405,7 +2405,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1556`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1556) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1556`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1556) — LuaLS declaration
 
 ### `on_wear` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-wear-35341220c464 }
 
@@ -2417,7 +2417,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1557`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1557) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1557`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1557) — LuaLS declaration
 
 ### `on_break` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-break-147a17996705 }
 
@@ -2429,7 +2429,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1558`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1558) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1558`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1558) — LuaLS declaration
 
 ### `on_durability_change` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-durability-change-9807c2b297fa }
 
@@ -2441,7 +2441,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1559`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1559) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1559`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1559) — LuaLS declaration
 
 ### `on_repair` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-repair-9c71a0a21b7a }
 
@@ -2453,7 +2453,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1560`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1560) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1560`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1560) — LuaLS declaration
 
 ### `on_drop` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-drop-5493e2bdd467 }
 
@@ -2465,7 +2465,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1561`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1561) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1561`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1561) — LuaLS declaration
 
 ### `on_pickup` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-pickup-9bc81a443884 }
 
@@ -2477,7 +2477,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1562`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1562) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1562`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1562) — LuaLS declaration
 
 ### `on_tick` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-tick-4a8e0f6d24cd }
 
@@ -2489,7 +2489,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1563`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1563) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1563`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1563) — LuaLS declaration
 
 ### `on_block` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-block-7d9d7fa6097c }
 
@@ -2501,7 +2501,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1564`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1564) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1564`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1564) — LuaLS declaration
 
 ### `on_hit` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-hit-a721bcd8e78e }
 
@@ -2513,7 +2513,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1565`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1565) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1565`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1565) — LuaLS declaration
 
 ### `on_melee_attack` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-melee-attack-be56b565c04b }
 
@@ -2525,7 +2525,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1566`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1566) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1566`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1566) — LuaLS declaration
 
 ### `on_miss` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-miss-671bf22cca1f }
 
@@ -2537,7 +2537,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1567`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1567) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1567`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1567) — LuaLS declaration
 
 ### `can_fire` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-can-fire-46e78b09408b }
 
@@ -2549,7 +2549,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1568`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1568) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1568`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1568) — LuaLS declaration
 
 ### `can_reload` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-can-reload-973ff72b2aeb }
 
@@ -2561,7 +2561,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1569`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1569) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1569`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1569) — LuaLS declaration
 
 ### `on_fire` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-fire-622d69b3bc2d }
 
@@ -2573,7 +2573,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1570`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1570) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1570`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1570) — LuaLS declaration
 
 ### `on_reload` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-reload-749ab0f89ae7 }
 
@@ -2585,7 +2585,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1571`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1571) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1571`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1571) — LuaLS declaration
 
 ### `on_activate` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-activate-a9433d0d41de }
 
@@ -2597,7 +2597,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1572`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1572) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1572`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1572) — LuaLS declaration
 
 ### `on_deactivate` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-deactivate-a05ef3b24286 }
 
@@ -2609,7 +2609,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1573`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1573) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1573`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1573) — LuaLS declaration
 
 ### `on_installed` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-installed-f1e10b2a28c4 }
 
@@ -2621,7 +2621,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1574`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1574) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1574`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1574) — LuaLS declaration
 
 ### `on_removed` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-removed-8f77111f250d }
 
@@ -2633,7 +2633,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1575`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1575) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1575`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1575) — LuaLS declaration
 
 ### `on_gain` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-gain-5dc987a4cd37 }
 
@@ -2645,7 +2645,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1576`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1576) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1576`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1576) — LuaLS declaration
 
 ### `on_loss` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-loss-b936d93fa842 }
 
@@ -2657,7 +2657,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1577`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1577) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1577`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1577) — LuaLS declaration
 
 ### `can_trigger` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-can-trigger-7d997bedd136 }
 
@@ -2669,7 +2669,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1578`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1578) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1578`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1578) — LuaLS declaration
 
 ### `on_trigger` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-trigger-22ff945b5311 }
 
@@ -2681,7 +2681,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1579`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1579) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1579`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1579) — LuaLS declaration
 
 ### `on_trigger_aftermath` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-trigger-aftermath-65a956bf1760 }
 
@@ -2693,7 +2693,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1580`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1580) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1580`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1580) — LuaLS declaration
 
 ### `get_examine_menu_entries` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-get-examine-menu-entries-f33eaf122f71 }
 
@@ -2705,7 +2705,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1581`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1581) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1581`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1581) — LuaLS declaration
 
 ### `on_examine_menu_entry` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-examine-menu-entry-baf7429d24e7 }
 
@@ -2717,7 +2717,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1582`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1582) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1582`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1582) — LuaLS declaration
 
 ### `on_tame` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-tame-686089396417 }
 
@@ -2729,7 +2729,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1583`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1583) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1583`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1583) — LuaLS declaration
 
 ## `CcbCallbackKindSpec` { #symbol-api-lua-v5-generated-class-ccbcallbackkindspec-01a81387498a }
 
@@ -2740,7 +2740,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1591`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1591) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1591`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1591) — LuaLS declaration
 
 ### `kind` { #symbol-api-lua-v5-generated-property-ccbcallbackkindspec-kind-4be6a480d3f5 }
 
@@ -2752,7 +2752,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1592`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1592) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1592`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1592) — LuaLS declaration
 
 ### `target_id_kind` { #symbol-api-lua-v5-generated-property-ccbcallbackkindspec-target-id-kind-d55899b68565 }
 
@@ -2764,7 +2764,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1593`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1593) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1593`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1593) — LuaLS declaration
 
 ### `methods` { #symbol-api-lua-v5-generated-property-ccbcallbackkindspec-methods-a20884631a46 }
 
@@ -2776,7 +2776,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1594`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1594) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1594`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1594) — LuaLS declaration
 
 ## `CcbCallbackLimits` { #symbol-api-lua-v5-generated-class-ccbcallbacklimits-9c36d4754cd4 }
 
@@ -2787,7 +2787,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1596`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1596) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1596`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1596) — LuaLS declaration
 
 ### `kinds` { #symbol-api-lua-v5-generated-property-ccbcallbacklimits-kinds-bcb8a5386e70 }
 
@@ -2799,7 +2799,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1597`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1597) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1597`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1597) — LuaLS declaration
 
 ### `registrations` { #symbol-api-lua-v5-generated-property-ccbcallbacklimits-registrations-3215d6d0151e }
 
@@ -2811,7 +2811,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1598`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1598) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1598`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1598) — LuaLS declaration
 
 ### `registrations_per_target` { #symbol-api-lua-v5-generated-property-ccbcallbacklimits-registrations-per-target-eab0b5d140c3 }
 
@@ -2823,7 +2823,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1599`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1599) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1599`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1599) — LuaLS declaration
 
 ### `registered` { #symbol-api-lua-v5-generated-property-ccbcallbacklimits-registered-40bbb838847d }
 
@@ -2835,7 +2835,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1600`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1600) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1600`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1600) — LuaLS declaration
 
 ### `priority_min` { #symbol-api-lua-v5-generated-property-ccbcallbacklimits-priority-min-ae436bd4b690 }
 
@@ -2847,7 +2847,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1601`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1601) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1601`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1601) — LuaLS declaration
 
 ### `priority_max` { #symbol-api-lua-v5-generated-property-ccbcallbacklimits-priority-max-931deb002102 }
 
@@ -2859,7 +2859,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1602`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1602) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1602`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1602) — LuaLS declaration
 
 ### `dispatch_depth` { #symbol-api-lua-v5-generated-property-ccbcallbacklimits-dispatch-depth-a8335ba65ff0 }
 
@@ -2871,7 +2871,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1603`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1603) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1603`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1603) — LuaLS declaration
 
 ### `instruction_budget` { #symbol-api-lua-v5-generated-property-ccbcallbacklimits-instruction-budget-0b76f3da3e00 }
 
@@ -2883,7 +2883,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1604`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1604) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1604`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1604) — LuaLS declaration
 
 ## `CcbCallbackMethodSpec` { #symbol-api-lua-v5-generated-class-ccbcallbackmethodspec-745f77ff40c8 }
 
@@ -2894,7 +2894,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1585`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1585) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1585`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1585) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbcallbackmethodspec-name-506f4effb6ed }
 
@@ -2906,7 +2906,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1586`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1586) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1586`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1586) — LuaLS declaration
 
 ### `decision` { #symbol-api-lua-v5-generated-property-ccbcallbackmethodspec-decision-c89e6895620a }
 
@@ -2918,7 +2918,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1587`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1587) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1587`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1587) — LuaLS declaration
 
 ### `consuming` { #symbol-api-lua-v5-generated-property-ccbcallbackmethodspec-consuming-dfb7d2b6b9c8 }
 
@@ -2930,7 +2930,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1588`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1588) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1588`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1588) — LuaLS declaration
 
 ### `requires_write` { #symbol-api-lua-v5-generated-property-ccbcallbackmethodspec-requires-write-1d74c27deed2 }
 
@@ -2942,7 +2942,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1589`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1589) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1589`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1589) — LuaLS declaration
 
 ## `CcbCallbacksApi` { #symbol-api-lua-v5-generated-class-ccbcallbacksapi-02c789d4c6e7 }
 
@@ -2953,7 +2953,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1606`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1606) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1606`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1606) — LuaLS declaration
 
 ## `CcbCampOptions` { #symbol-api-lua-v5-generated-class-ccbcampoptions-feccb81c2441 }
 
@@ -2964,7 +2964,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4073`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4073) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4073`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4073) — LuaLS declaration
 
 ### `radius_omt` { #symbol-api-lua-v5-generated-property-ccbcampoptions-radius-omt-d385c12f0b85 }
 
@@ -2976,7 +2976,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4074`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4074) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4074`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4074) — LuaLS declaration
 
 ## `CcbCampSnapshot` { #symbol-api-lua-v5-generated-class-ccbcampsnapshot-864539f86d20 }
 
@@ -2987,7 +2987,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4076`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4076) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4076`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4076) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-name-9c0b02579e60 }
 
@@ -2999,7 +2999,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4077`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4077) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4077`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4077) — LuaLS declaration
 
 ### `board_name` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-board-name-09ef4e84fad8 }
 
@@ -3011,7 +3011,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4078`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4078) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4078`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4078) — LuaLS declaration
 
 ### `valid` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-valid-bf8e8a17464d }
 
@@ -3023,7 +3023,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4079`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4079) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4079`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4079) — LuaLS declaration
 
 ### `position` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-position-80e68d2d4ab4 }
 
@@ -3035,7 +3035,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4080`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4080) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4080`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4080) — LuaLS declaration
 
 ### `board_position` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-board-position-edfd235298d3 }
 
@@ -3047,7 +3047,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4081`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4081) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4081`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4081) — LuaLS declaration
 
 ### `owner` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-owner-855dd6301573 }
 
@@ -3059,7 +3059,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4082`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4082) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4082`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4082) — LuaLS declaration
 
 ### `distance_submaps` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-distance-submaps-8a7031308a1a }
 
@@ -3071,7 +3071,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4083`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4083) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4083`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4083) — LuaLS declaration
 
 ### `distance_omt` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-distance-omt-234857f1e357 }
 
@@ -3083,7 +3083,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4084`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4084) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4084`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4084) — LuaLS declaration
 
 ### `directions` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-directions-1a5159052e60 }
 
@@ -3095,7 +3095,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4085`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4085) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4085`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4085) — LuaLS declaration
 
 ### `fortifications` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-fortifications-9a0632fcaec8 }
 
@@ -3107,7 +3107,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4086`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4086) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4086`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4086) — LuaLS declaration
 
 ### `storage_tiles` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-storage-tiles-498d8d375425 }
 
@@ -3119,7 +3119,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4087`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4087) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4087`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4087) — LuaLS declaration
 
 ### `dumping_spot` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-dumping-spot-5b926ad7acbb }
 
@@ -3131,7 +3131,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4088`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4088) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4088`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4088) — LuaLS declaration
 
 ### `liquid_dumping_spots` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-liquid-dumping-spots-63e38e9db33f }
 
@@ -3143,7 +3143,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4089`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4089) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4089`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4089) — LuaLS declaration
 
 ## `CcbCampsApi` { #symbol-api-lua-v5-generated-class-ccbcampsapi-a404423fc8ba }
 
@@ -3154,7 +3154,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4091`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4091) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4091`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4091) — LuaLS declaration
 
 ## `CcbCharactersAdjustments` { #symbol-api-lua-v5-generated-class-ccbcharactersadjustments-7455b2364b2a }
 
@@ -3165,7 +3165,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2082`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2082) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2082`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2082) — LuaLS declaration
 
 ### `moves` { #symbol-api-lua-v5-generated-property-ccbcharactersadjustments-moves-cc0d3c762858 }
 
@@ -3177,7 +3177,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2083`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2083) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2083`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2083) — LuaLS declaration
 
 ### `stamina` { #symbol-api-lua-v5-generated-property-ccbcharactersadjustments-stamina-bb6b8dffc363 }
 
@@ -3189,7 +3189,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2084`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2084) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2084`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2084) — LuaLS declaration
 
 ### `pain` { #symbol-api-lua-v5-generated-property-ccbcharactersadjustments-pain-24b9494c9e07 }
 
@@ -3201,7 +3201,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2085`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2085) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2085`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2085) — LuaLS declaration
 
 ### `focus` { #symbol-api-lua-v5-generated-property-ccbcharactersadjustments-focus-f86a5796f78d }
 
@@ -3213,7 +3213,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2086`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2086) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2086`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2086) — LuaLS declaration
 
 ### `hunger` { #symbol-api-lua-v5-generated-property-ccbcharactersadjustments-hunger-173eca00f43d }
 
@@ -3225,7 +3225,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2087`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2087) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2087`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2087) — LuaLS declaration
 
 ### `thirst` { #symbol-api-lua-v5-generated-property-ccbcharactersadjustments-thirst-253620f03590 }
 
@@ -3237,7 +3237,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2088`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2088) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2088`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2088) — LuaLS declaration
 
 ### `sleepiness` { #symbol-api-lua-v5-generated-property-ccbcharactersadjustments-sleepiness-591b11f9edd2 }
 
@@ -3249,7 +3249,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2089`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2089) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2089`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2089) — LuaLS declaration
 
 ### `radiation` { #symbol-api-lua-v5-generated-property-ccbcharactersadjustments-radiation-1d88c177c38a }
 
@@ -3261,7 +3261,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2090`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2090) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2090`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2090) — LuaLS declaration
 
 ### `painkiller` { #symbol-api-lua-v5-generated-property-ccbcharactersadjustments-painkiller-1c2148f4b91c }
 
@@ -3273,7 +3273,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2091`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2091) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2091`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2091) — LuaLS declaration
 
 ### `stored_kcal` { #symbol-api-lua-v5-generated-property-ccbcharactersadjustments-stored-kcal-6bbfab1ea7e1 }
 
@@ -3285,7 +3285,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2092`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2092) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2092`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2092) — LuaLS declaration
 
 ## `CcbCharactersApi` { #symbol-api-lua-v5-generated-class-ccbcharactersapi-e2b6e903a2ff }
 
@@ -3296,7 +3296,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2112`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2112) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2112`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2112) — LuaLS declaration
 
 ## `CcbConstantsApi` { #symbol-api-lua-v5-generated-class-ccbconstantsapi-b23c5ac4342e }
 
@@ -3307,7 +3307,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1942`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1942) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1942`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1942) — LuaLS declaration
 
 ## `CcbConstantsSnapshot` { #symbol-api-lua-v5-generated-class-ccbconstantssnapshot-a438b5dc04e8 }
 
@@ -3318,7 +3318,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1938`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1938) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1938`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1938) — LuaLS declaration
 
 ### `body_temperature` { #symbol-api-lua-v5-generated-property-ccbconstantssnapshot-body-temperature-bf3f0c0fc3bb }
 
@@ -3330,7 +3330,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1939`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1939) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1939`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1939) — LuaLS declaration
 
 ### `lighting` { #symbol-api-lua-v5-generated-property-ccbconstantssnapshot-lighting-2e3f4c8760eb }
 
@@ -3342,7 +3342,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1940`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1940) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1940`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1940) — LuaLS declaration
 
 ## `CcbCoordsApi` { #symbol-api-lua-v5-generated-class-ccbcoordsapi-d4aa7d2e2cdc }
 
@@ -3353,7 +3353,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:450`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L450) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:450`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L450) — LuaLS declaration
 
 ### `max_range_points` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-max-range-points-4f98bd12a3be }
 
@@ -3365,7 +3365,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:451`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L451) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:451`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L451) — LuaLS declaration
 
 ### `point_rel_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-rel-ms-d6ba2e6d5432 }
 
@@ -3377,7 +3377,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:452`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L452) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:452`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L452) — LuaLS declaration
 
 ### `point_rel_sm` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-rel-sm-1bf34357a32a }
 
@@ -3389,7 +3389,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:453`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L453) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:453`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L453) — LuaLS declaration
 
 ### `point_rel_omt` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-rel-omt-0bea377dfb41 }
 
@@ -3401,7 +3401,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:454`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L454) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:454`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L454) — LuaLS declaration
 
 ### `point_rel_seg` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-rel-seg-a9b2e73d6dfc }
 
@@ -3413,7 +3413,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:455`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L455) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:455`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L455) — LuaLS declaration
 
 ### `point_rel_om` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-rel-om-32d69ae5e9cb }
 
@@ -3425,7 +3425,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:456`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L456) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:456`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L456) — LuaLS declaration
 
 ### `point_abs_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-abs-ms-2b7c9939a6fc }
 
@@ -3437,7 +3437,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:457`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L457) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:457`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L457) — LuaLS declaration
 
 ### `point_abs_sm` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-abs-sm-e62c07d94912 }
 
@@ -3449,7 +3449,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:458`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L458) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:458`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L458) — LuaLS declaration
 
 ### `point_abs_omt` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-abs-omt-69c4d1cfc599 }
 
@@ -3461,7 +3461,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:459`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L459) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:459`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L459) — LuaLS declaration
 
 ### `point_abs_seg` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-abs-seg-0c1315998db4 }
 
@@ -3473,7 +3473,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:460`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L460) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:460`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L460) — LuaLS declaration
 
 ### `point_abs_om` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-abs-om-e7409bc11a81 }
 
@@ -3485,7 +3485,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:461`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L461) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:461`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L461) — LuaLS declaration
 
 ### `point_sm_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-sm-ms-d5ea9e1cb32a }
 
@@ -3497,7 +3497,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:462`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L462) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:462`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L462) — LuaLS declaration
 
 ### `point_omt_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-omt-ms-ea3defa84194 }
 
@@ -3509,7 +3509,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:463`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L463) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:463`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L463) — LuaLS declaration
 
 ### `point_omt_sm` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-omt-sm-c30584e8aac6 }
 
@@ -3521,7 +3521,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:464`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L464) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:464`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L464) — LuaLS declaration
 
 ### `point_om_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-om-ms-c183271e3e27 }
 
@@ -3533,7 +3533,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:465`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L465) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:465`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L465) — LuaLS declaration
 
 ### `point_om_sm` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-om-sm-36e220988dc8 }
 
@@ -3545,7 +3545,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:466`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L466) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:466`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L466) — LuaLS declaration
 
 ### `point_om_omt` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-om-omt-072f4aef20d8 }
 
@@ -3557,7 +3557,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:467`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L467) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:467`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L467) — LuaLS declaration
 
 ### `point_bub_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-bub-ms-a99691e20bdc }
 
@@ -3569,7 +3569,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:468`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L468) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:468`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L468) — LuaLS declaration
 
 ### `point_bub_sm` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-bub-sm-79681abb78b2 }
 
@@ -3581,7 +3581,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:469`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L469) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:469`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L469) — LuaLS declaration
 
 ### `tripoint_rel_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-rel-ms-7855e60e2932 }
 
@@ -3593,7 +3593,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:470`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L470) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:470`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L470) — LuaLS declaration
 
 ### `tripoint_rel_sm` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-rel-sm-68c6de3ec32a }
 
@@ -3605,7 +3605,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:471`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L471) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:471`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L471) — LuaLS declaration
 
 ### `tripoint_rel_omt` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-rel-omt-023f635c7b37 }
 
@@ -3617,7 +3617,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:472`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L472) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:472`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L472) — LuaLS declaration
 
 ### `tripoint_rel_seg` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-rel-seg-c21e79047ffe }
 
@@ -3629,7 +3629,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:473`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L473) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:473`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L473) — LuaLS declaration
 
 ### `tripoint_rel_om` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-rel-om-d15eca074f33 }
 
@@ -3641,7 +3641,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:474`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L474) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:474`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L474) — LuaLS declaration
 
 ### `tripoint_abs_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-abs-ms-a0026a43372e }
 
@@ -3653,7 +3653,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:475`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L475) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:475`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L475) — LuaLS declaration
 
 ### `tripoint_abs_sm` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-abs-sm-c2f46faf7a80 }
 
@@ -3665,7 +3665,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:476`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L476) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:476`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L476) — LuaLS declaration
 
 ### `tripoint_abs_omt` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-abs-omt-6dcfc62f47b9 }
 
@@ -3677,7 +3677,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:477`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L477) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:477`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L477) — LuaLS declaration
 
 ### `tripoint_abs_seg` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-abs-seg-66bba1d70aaf }
 
@@ -3689,7 +3689,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:478`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L478) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:478`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L478) — LuaLS declaration
 
 ### `tripoint_abs_om` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-abs-om-270240f3bb44 }
 
@@ -3701,7 +3701,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:479`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L479) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:479`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L479) — LuaLS declaration
 
 ### `tripoint_sm_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-sm-ms-78a22b1f7013 }
 
@@ -3713,7 +3713,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:480`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L480) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:480`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L480) — LuaLS declaration
 
 ### `tripoint_omt_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-omt-ms-ab331d5a862a }
 
@@ -3725,7 +3725,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:481`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L481) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:481`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L481) — LuaLS declaration
 
 ### `tripoint_omt_sm` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-omt-sm-5e8bdb89d851 }
 
@@ -3737,7 +3737,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:482`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L482) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:482`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L482) — LuaLS declaration
 
 ### `tripoint_om_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-om-ms-6c9abfff9979 }
 
@@ -3749,7 +3749,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:483`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L483) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:483`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L483) — LuaLS declaration
 
 ### `tripoint_om_sm` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-om-sm-7db6050f4727 }
 
@@ -3761,7 +3761,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:484`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L484) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:484`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L484) — LuaLS declaration
 
 ### `tripoint_om_omt` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-om-omt-2e26a0985ec0 }
 
@@ -3773,7 +3773,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:485`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L485) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:485`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L485) — LuaLS declaration
 
 ### `tripoint_bub_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-bub-ms-05b9db0da2bb }
 
@@ -3785,7 +3785,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:486`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L486) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:486`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L486) — LuaLS declaration
 
 ### `tripoint_bub_sm` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-bub-sm-2451d5f6da8f }
 
@@ -3797,7 +3797,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:487`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L487) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:487`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L487) — LuaLS declaration
 
 ## `CcbCraftOptions` { #symbol-api-lua-v5-generated-class-ccbcraftoptions-f3fce03d78f9 }
 
@@ -3808,7 +3808,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2700`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2700) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2700`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2700) — LuaLS declaration
 
 ### `batch` { #symbol-api-lua-v5-generated-property-ccbcraftoptions-batch-518690d12426 }
 
@@ -3820,7 +3820,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2701`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2701) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2701`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2701) — LuaLS declaration
 
 ### `long` { #symbol-api-lua-v5-generated-property-ccbcraftoptions-long-3d2fb455b12e }
 
@@ -3832,7 +3832,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2702`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2702) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2702`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2702) — LuaLS declaration
 
 ## `CcbCraftingApi` { #symbol-api-lua-v5-generated-class-ccbcraftingapi-a46b3747ddf8 }
 
@@ -3843,7 +3843,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2704`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2704) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2704`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2704) — LuaLS declaration
 
 ## `CcbCreatureSnapshot` { #symbol-api-lua-v5-generated-class-ccbcreaturesnapshot-11d2640dc5e5 }
 
@@ -3854,7 +3854,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1307`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1307) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1307`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1307) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbcreaturesnapshot-name-ad161772ab92 }
 
@@ -3866,7 +3866,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1308`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1308) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1308`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1308) — LuaLS declaration
 
 ### `kind` { #symbol-api-lua-v5-generated-property-ccbcreaturesnapshot-kind-8a86e6f90934 }
 
@@ -3878,7 +3878,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1309`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1309) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1309`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1309) — LuaLS declaration
 
 ### `attitude` { #symbol-api-lua-v5-generated-property-ccbcreaturesnapshot-attitude-d2b3f564bc3c }
 
@@ -3890,7 +3890,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1310`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1310) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1310`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1310) — LuaLS declaration
 
 ### `distance` { #symbol-api-lua-v5-generated-property-ccbcreaturesnapshot-distance-b6c099b8c496 }
 
@@ -3902,7 +3902,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1311`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1311) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1311`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1311) — LuaLS declaration
 
 ### `x` { #symbol-api-lua-v5-generated-property-ccbcreaturesnapshot-x-ce00c2733fd8 }
 
@@ -3914,7 +3914,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1312`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1312) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1312`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1312) — LuaLS declaration
 
 ### `y` { #symbol-api-lua-v5-generated-property-ccbcreaturesnapshot-y-a024adac8428 }
 
@@ -3926,7 +3926,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1313`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1313) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1313`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1313) — LuaLS declaration
 
 ### `z` { #symbol-api-lua-v5-generated-property-ccbcreaturesnapshot-z-a76634876993 }
 
@@ -3938,7 +3938,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1314`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1314) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1314`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1314) — LuaLS declaration
 
 ### `hp` { #symbol-api-lua-v5-generated-property-ccbcreaturesnapshot-hp-90ec63a2f952 }
 
@@ -3950,7 +3950,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1315`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1315) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1315`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1315) — LuaLS declaration
 
 ### `hp_max` { #symbol-api-lua-v5-generated-property-ccbcreaturesnapshot-hp-max-a5d18fb21616 }
 
@@ -3962,7 +3962,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1316`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1316) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1316`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1316) — LuaLS declaration
 
 ## `CcbCreaturesApi` { #symbol-api-lua-v5-generated-class-ccbcreaturesapi-ccdc57194aeb }
 
@@ -3973,7 +3973,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2094`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2094) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2094`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2094) — LuaLS declaration
 
 ## `CcbCurrentWeather` { #symbol-api-lua-v5-generated-class-ccbcurrentweather-1c6eb189f2f9 }
 
@@ -3984,7 +3984,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4281`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4281) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4281`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4281) — LuaLS declaration
 
 ### `weather` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-weather-b3941de270f2 }
 
@@ -3996,7 +3996,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4282`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4282) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4282`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4282) — LuaLS declaration
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-type-4dccf4686678 }
 
@@ -4008,7 +4008,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4283`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4283) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4283`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4283) — LuaLS declaration
 
 ### `temperature` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-temperature-edd1150ba496 }
 
@@ -4020,7 +4020,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4284`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4284) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4284`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4284) — LuaLS declaration
 
 ### `temperature_c` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-temperature-c-b2a94294a652 }
 
@@ -4032,7 +4032,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4285`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4285) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4285`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4285) — LuaLS declaration
 
 ### `wind_speed_mph` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-wind-speed-mph-246f34d843c7 }
 
@@ -4044,7 +4044,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4286`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4286) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4286`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4286) — LuaLS declaration
 
 ### `wind_direction_degrees` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-wind-direction-degrees-8f9c4c156557 }
 
@@ -4056,7 +4056,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4287`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4287) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4287`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4287) — LuaLS declaration
 
 ### `next_update` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-next-update-1368c02b9b3f }
 
@@ -4068,7 +4068,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4288`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4288) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4288`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4288) — LuaLS declaration
 
 ### `changed` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-changed-04e5b9ae4b95 }
 
@@ -4080,7 +4080,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4289`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4289) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4289`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4289) — LuaLS declaration
 
 ### `lightning_active` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-lightning-active-b385b7e7bac7 }
 
@@ -4092,7 +4092,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4290`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4290) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4290`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4290) — LuaLS declaration
 
 ### `weather_override` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-weather-override-1d0b288d7e80 }
 
@@ -4104,7 +4104,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4291`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4291) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4291`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4291) — LuaLS declaration
 
 ### `temperature_override` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-temperature-override-ac6313158f5a }
 
@@ -4116,7 +4116,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4292`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4292) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4292`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4292) — LuaLS declaration
 
 ### `wind_speed_override_mph` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-wind-speed-override-mph-d36af63af31a }
 
@@ -4128,7 +4128,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4293`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4293) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4293`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4293) — LuaLS declaration
 
 ### `wind_direction_override_degrees` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-wind-direction-override-degrees-da118dcf3a61 }
 
@@ -4140,7 +4140,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4294`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4294) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4294`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4294) — LuaLS declaration
 
 ### `precise` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-precise-ff923ac0cb91 }
 
@@ -4152,7 +4152,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4295`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4295) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4295`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4295) — LuaLS declaration
 
 ## `CcbDefinitionSearchOptions` { #symbol-api-lua-v5-generated-class-ccbdefinitionsearchoptions-e76ed9605f41 }
 
@@ -4163,7 +4163,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2999`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2999) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2999`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2999) — LuaLS declaration
 
 ### `query` { #symbol-api-lua-v5-generated-property-ccbdefinitionsearchoptions-query-85a64109d56e }
 
@@ -4175,7 +4175,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3000`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3000) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3000`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3000) — LuaLS declaration
 
 ## `CcbDefinitionsApi` { #symbol-api-lua-v5-generated-class-ccbdefinitionsapi-0357a92f57ea }
 
@@ -4186,7 +4186,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1814`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1814) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1814`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1814) — LuaLS declaration
 
 ## `CcbDefinitionsDescription` { #symbol-api-lua-v5-generated-class-ccbdefinitionsdescription-9240e8b9da7f }
 
@@ -4197,7 +4197,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1790`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1790) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1790`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1790) — LuaLS declaration
 
 ### `kind` { #symbol-api-lua-v5-generated-property-ccbdefinitionsdescription-kind-c016adc1554c }
 
@@ -4209,7 +4209,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1791`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1791) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1791`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1791) — LuaLS declaration
 
 ### `typed` { #symbol-api-lua-v5-generated-property-ccbdefinitionsdescription-typed-8eddbdc147b6 }
 
@@ -4221,7 +4221,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1792`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1792) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1792`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1792) — LuaLS declaration
 
 ### `enumerable` { #symbol-api-lua-v5-generated-property-ccbdefinitionsdescription-enumerable-744137df9b9c }
 
@@ -4233,7 +4233,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1793`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1793) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1793`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1793) — LuaLS declaration
 
 ### `detail_level` { #symbol-api-lua-v5-generated-property-ccbdefinitionsdescription-detail-level-aa8d15a8908e }
 
@@ -4245,7 +4245,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1794`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1794) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1794`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1794) — LuaLS declaration
 
 ### `fields` { #symbol-api-lua-v5-generated-property-ccbdefinitionsdescription-fields-61454a971d1d }
 
@@ -4257,7 +4257,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1795`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1795) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1795`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1795) — LuaLS declaration
 
 ### `revision` { #symbol-api-lua-v5-generated-property-ccbdefinitionsdescription-revision-9296e0494e19 }
 
@@ -4269,7 +4269,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1796`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1796) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1796`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1796) — LuaLS declaration
 
 ### `count` { #symbol-api-lua-v5-generated-property-ccbdefinitionsdescription-count-624d652a3ac8 }
 
@@ -4281,7 +4281,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1797`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1797) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1797`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1797) — LuaLS declaration
 
 ## `CcbDiagnosticEntry` { #symbol-api-lua-v5-generated-class-ccbdiagnosticentry-920e555b7b28 }
 
@@ -4292,7 +4292,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1840`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1840) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1840`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1840) — LuaLS declaration
 
 ### `sequence` { #symbol-api-lua-v5-generated-property-ccbdiagnosticentry-sequence-d82b35aafc1f }
 
@@ -4304,7 +4304,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1841`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1841) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1841`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1841) — LuaLS declaration
 
 ### `severity` { #symbol-api-lua-v5-generated-property-ccbdiagnosticentry-severity-0de385a40c1e }
 
@@ -4316,7 +4316,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1842`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1842) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1842`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1842) — LuaLS declaration
 
 ### `generation` { #symbol-api-lua-v5-generated-property-ccbdiagnosticentry-generation-0b5779bfd5a7 }
 
@@ -4328,7 +4328,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1843`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1843) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1843`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1843) — LuaLS declaration
 
 ### `world_generation` { #symbol-api-lua-v5-generated-property-ccbdiagnosticentry-world-generation-776d8873c39e }
 
@@ -4340,7 +4340,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1844`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1844) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1844`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1844) — LuaLS declaration
 
 ### `source` { #symbol-api-lua-v5-generated-property-ccbdiagnosticentry-source-e1f84ee4d2da }
 
@@ -4352,7 +4352,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1845`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1845) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1845`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1845) — LuaLS declaration
 
 ### `context` { #symbol-api-lua-v5-generated-property-ccbdiagnosticentry-context-314952d58cd9 }
 
@@ -4364,7 +4364,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1846`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1846) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1846`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1846) — LuaLS declaration
 
 ### `message` { #symbol-api-lua-v5-generated-property-ccbdiagnosticentry-message-e98765597696 }
 
@@ -4376,7 +4376,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1847`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1847) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1847`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1847) — LuaLS declaration
 
 ## `CcbDiagnosticsApi` { #symbol-api-lua-v5-generated-class-ccbdiagnosticsapi-1368154c6a10 }
 
@@ -4387,7 +4387,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1906`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1906) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1906`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1906) — LuaLS declaration
 
 ## `CcbDiagnosticsCallbacks` { #symbol-api-lua-v5-generated-class-ccbdiagnosticscallbacks-2a30f59319dd }
 
@@ -4398,7 +4398,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1868`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1868) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1868`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1868) — LuaLS declaration
 
 ### `count` { #symbol-api-lua-v5-generated-property-ccbdiagnosticscallbacks-count-b503013f26bd }
 
@@ -4410,7 +4410,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1869`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1869) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1869`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1869) — LuaLS declaration
 
 ### `total_us` { #symbol-api-lua-v5-generated-property-ccbdiagnosticscallbacks-total-us-a73c28f40c57 }
 
@@ -4422,7 +4422,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1870`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1870) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1870`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1870) — LuaLS declaration
 
 ### `max_us` { #symbol-api-lua-v5-generated-property-ccbdiagnosticscallbacks-max-us-0e3bf1344ea6 }
 
@@ -4434,7 +4434,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1871`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1871) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1871`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1871) — LuaLS declaration
 
 ### `average_us` { #symbol-api-lua-v5-generated-property-ccbdiagnosticscallbacks-average-us-4c21eea234d8 }
 
@@ -4446,7 +4446,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1872`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1872) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1872`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1872) — LuaLS declaration
 
 ### `slow_count` { #symbol-api-lua-v5-generated-property-ccbdiagnosticscallbacks-slow-count-5802609fca64 }
 
@@ -4458,7 +4458,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1873`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1873) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1873`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1873) — LuaLS declaration
 
 ### `slow_threshold_us` { #symbol-api-lua-v5-generated-property-ccbdiagnosticscallbacks-slow-threshold-us-fad0e69ce2e5 }
 
@@ -4470,7 +4470,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1874`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1874) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1874`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1874) — LuaLS declaration
 
 ### `last_slow` { #symbol-api-lua-v5-generated-property-ccbdiagnosticscallbacks-last-slow-825695f01d4a }
 
@@ -4482,7 +4482,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1875`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1875) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1875`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1875) — LuaLS declaration
 
 ### `event_dispatch_depth` { #symbol-api-lua-v5-generated-property-ccbdiagnosticscallbacks-event-dispatch-depth-aea942262bdb }
 
@@ -4494,7 +4494,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1876`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1876) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1876`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1876) — LuaLS declaration
 
 ### `mapgen_dispatch_depth` { #symbol-api-lua-v5-generated-property-ccbdiagnosticscallbacks-mapgen-dispatch-depth-a6299e482a9d }
 
@@ -4506,7 +4506,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1877`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1877) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1877`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1877) — LuaLS declaration
 
 ### `service_call_depth` { #symbol-api-lua-v5-generated-property-ccbdiagnosticscallbacks-service-call-depth-99693bd43338 }
 
@@ -4518,7 +4518,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1878`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1878) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1878`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1878) — LuaLS declaration
 
 ## `CcbDiagnosticsHealth` { #symbol-api-lua-v5-generated-class-ccbdiagnosticshealth-4a29f2e62ca4 }
 
@@ -4529,7 +4529,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1849`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1849) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1849`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1849) — LuaLS declaration
 
 ### `ok` { #symbol-api-lua-v5-generated-property-ccbdiagnosticshealth-ok-1a7905fb8d3b }
 
@@ -4541,7 +4541,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1850`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1850) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1850`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1850) — LuaLS declaration
 
 ### `last_error` { #symbol-api-lua-v5-generated-property-ccbdiagnosticshealth-last-error-9419a0a44cbb }
 
@@ -4553,7 +4553,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1851`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1851) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1851`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1851) — LuaLS declaration
 
 ### `memory_pressure` { #symbol-api-lua-v5-generated-property-ccbdiagnosticshealth-memory-pressure-10fbea20d5c0 }
 
@@ -4565,7 +4565,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1852`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1852) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1852`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1852) — LuaLS declaration
 
 ### `diagnostic_records` { #symbol-api-lua-v5-generated-property-ccbdiagnosticshealth-diagnostic-records-397cfad98459 }
 
@@ -4577,7 +4577,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1853`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1853) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1853`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1853) — LuaLS declaration
 
 ### `latest_diagnostic_sequence` { #symbol-api-lua-v5-generated-property-ccbdiagnosticshealth-latest-diagnostic-sequence-90e10c4b8415 }
 
@@ -4589,7 +4589,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1854`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1854) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1854`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1854) — LuaLS declaration
 
 ## `CcbDiagnosticsMemory` { #symbol-api-lua-v5-generated-class-ccbdiagnosticsmemory-28331fae1a41 }
 
@@ -4600,7 +4600,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1863`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1863) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1863`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1863) — LuaLS declaration
 
 ### `used` { #symbol-api-lua-v5-generated-property-ccbdiagnosticsmemory-used-52be64de8caf }
 
@@ -4612,7 +4612,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1864`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1864) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1864`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1864) — LuaLS declaration
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbdiagnosticsmemory-limit-124d53fb1efa }
 
@@ -4624,7 +4624,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1865`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1865) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1865`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1865) — LuaLS declaration
 
 ### `remaining` { #symbol-api-lua-v5-generated-property-ccbdiagnosticsmemory-remaining-420c5fabbcdc }
 
@@ -4636,7 +4636,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1866`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1866) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1866`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1866) — LuaLS declaration
 
 ## `CcbDiagnosticsRuntime` { #symbol-api-lua-v5-generated-class-ccbdiagnosticsruntime-c890a7e0e2a0 }
 
@@ -4647,7 +4647,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1856`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1856) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1856`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1856) — LuaLS declaration
 
 ### `generation` { #symbol-api-lua-v5-generated-property-ccbdiagnosticsruntime-generation-4eed87819f89 }
 
@@ -4659,7 +4659,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1857`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1857) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1857`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1857) — LuaLS declaration
 
 ### `world_generation` { #symbol-api-lua-v5-generated-property-ccbdiagnosticsruntime-world-generation-1d1e276ce02a }
 
@@ -4671,7 +4671,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1858`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1858) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1858`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1858) — LuaLS declaration
 
 ### `source_count` { #symbol-api-lua-v5-generated-property-ccbdiagnosticsruntime-source-count-1fec3657b22e }
 
@@ -4683,7 +4683,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1859`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1859) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1859`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1859) — LuaLS declaration
 
 ### `current_source` { #symbol-api-lua-v5-generated-property-ccbdiagnosticsruntime-current-source-97143bc21ece }
 
@@ -4695,7 +4695,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1860`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1860) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1860`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1860) — LuaLS declaration
 
 ### `accepting_actions` { #symbol-api-lua-v5-generated-property-ccbdiagnosticsruntime-accepting-actions-30e8da3c68ff }
 
@@ -4707,7 +4707,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1861`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1861) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1861`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1861) — LuaLS declaration
 
 ## `CcbDiagnosticsSnapshot` { #symbol-api-lua-v5-generated-class-ccbdiagnosticssnapshot-0ad89ea670b6 }
 
@@ -4718,7 +4718,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1896`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1896) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1896`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1896) — LuaLS declaration
 
 ### `schema_version` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssnapshot-schema-version-d7c3277f77c0 }
 
@@ -4730,7 +4730,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1897`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1897) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1897`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1897) — LuaLS declaration
 
 ### `health` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssnapshot-health-68112c71ff30 }
 
@@ -4742,7 +4742,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1898`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1898) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1898`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1898) — LuaLS declaration
 
 ### `runtime` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssnapshot-runtime-d402daaf0b50 }
 
@@ -4754,7 +4754,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1899`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1899) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1899`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1899) — LuaLS declaration
 
 ### `memory` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssnapshot-memory-5684382956dd }
 
@@ -4766,7 +4766,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1900`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1900) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1900`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1900) — LuaLS declaration
 
 ### `callbacks` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssnapshot-callbacks-65424e2e552f }
 
@@ -4778,7 +4778,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1901`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1901) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1901`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1901) — LuaLS declaration
 
 ### `resources` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssnapshot-resources-00efa5aaea31 }
 
@@ -4790,7 +4790,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1902`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1902) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1902`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1902) — LuaLS declaration
 
 ### `limits` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssnapshot-limits-c7ad0a67e5fd }
 
@@ -4802,7 +4802,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1903`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1903) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1903`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1903) — LuaLS declaration
 
 ### `sources` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssnapshot-sources-aa0233da4609 }
 
@@ -4814,7 +4814,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1904`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1904) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1904`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1904) — LuaLS declaration
 
 ## `CcbDiagnosticsSource` { #symbol-api-lua-v5-generated-class-ccbdiagnosticssource-a0a8aa1485ab }
 
@@ -4825,7 +4825,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1880`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1880) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1880`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1880) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-id-da045f807113 }
 
@@ -4837,7 +4837,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1881`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1881) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1881`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1881) — LuaLS declaration
 
 ### `version` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-version-5e054be06fc3 }
 
@@ -4849,7 +4849,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1882`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1882) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1882`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1882) — LuaLS declaration
 
 ### `api_version` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-api-version-78d1c13d077e }
 
@@ -4861,7 +4861,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1883`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1883) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1883`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1883) — LuaLS declaration
 
 ### `capabilities` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-capabilities-3dff743ea2c7 }
 
@@ -4873,7 +4873,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1884`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1884) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1884`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1884) — LuaLS declaration
 
 ### `dependencies` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-dependencies-6b5bfe74f728 }
 
@@ -4885,7 +4885,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1885`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1885) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1885`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1885) — LuaLS declaration
 
 ### `pages` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-pages-38a40738254e }
 
@@ -4897,7 +4897,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1886`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1886) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1886`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1886) — LuaLS declaration
 
 ### `action_menu_entries` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-action-menu-entries-8b430d2f0435 }
 
@@ -4909,7 +4909,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1887`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1887) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1887`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1887) — LuaLS declaration
 
 ### `sidebar_widgets` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-sidebar-widgets-b8d889508ffb }
 
@@ -4921,7 +4921,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1888`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1888) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1888`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1888) — LuaLS declaration
 
 ### `event_handlers` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-event-handlers-3c13aa2c4a5f }
 
@@ -4933,7 +4933,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1889`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1889) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1889`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1889) — LuaLS declaration
 
 ### `mapgen_handlers` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-mapgen-handlers-83bc8e488b36 }
 
@@ -4945,7 +4945,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1890`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1890) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1890`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1890) — LuaLS declaration
 
 ### `scheduled_tasks` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-scheduled-tasks-6b2f474769f6 }
 
@@ -4957,7 +4957,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1891`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1891) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1891`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1891) — LuaLS declaration
 
 ### `services` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-services-271342cc68a0 }
 
@@ -4969,7 +4969,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1892`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1892) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1892`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1892) — LuaLS declaration
 
 ### `modules` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-modules-ef2cc0aff37a }
 
@@ -4981,7 +4981,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1893`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1893) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1893`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1893) — LuaLS declaration
 
 ### `current` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-current-bcd7b9c8d3a6 }
 
@@ -4993,7 +4993,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1894`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1894) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1894`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1894) — LuaLS declaration
 
 ## `CcbEffectAddOptions` { #symbol-api-lua-v5-generated-class-ccbeffectaddoptions-276bcc61430c }
 
@@ -5004,7 +5004,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2147`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2147) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2147`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2147) — LuaLS declaration
 
 ### `body_part` { #symbol-api-lua-v5-generated-property-ccbeffectaddoptions-body-part-ffce032912a8 }
 
@@ -5016,7 +5016,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2148`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2148) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2148`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2148) — LuaLS declaration
 
 ### `intensity` { #symbol-api-lua-v5-generated-property-ccbeffectaddoptions-intensity-f0c6a89cadd2 }
 
@@ -5028,7 +5028,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2149`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2149) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2149`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2149) — LuaLS declaration
 
 ### `force` { #symbol-api-lua-v5-generated-property-ccbeffectaddoptions-force-84aaf6e8971a }
 
@@ -5040,7 +5040,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2150`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2150) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2150`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2150) — LuaLS declaration
 
 ### `permanent` { #symbol-api-lua-v5-generated-property-ccbeffectaddoptions-permanent-caffa0c39718 }
 
@@ -5052,7 +5052,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2151`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2151) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2151`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2151) — LuaLS declaration
 
 ## `CcbEffectSnapshot` { #symbol-api-lua-v5-generated-class-ccbeffectsnapshot-9db15db5a1ef }
 
@@ -5063,7 +5063,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1236`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1236) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1236`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1236) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbeffectsnapshot-id-ff5be969f1d5 }
 
@@ -5075,7 +5075,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1237`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1237) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1237`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1237) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbeffectsnapshot-name-8704555ec4a5 }
 
@@ -5087,7 +5087,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1238`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1238) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1238`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1238) — LuaLS declaration
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbeffectsnapshot-description-275e4d53c5a2 }
 
@@ -5099,7 +5099,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1239`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1239) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1239`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1239) — LuaLS declaration
 
 ### `body_part_id` { #symbol-api-lua-v5-generated-property-ccbeffectsnapshot-body-part-id-a706c90c34d6 }
 
@@ -5111,7 +5111,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1240`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1240) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1240`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1240) — LuaLS declaration
 
 ### `duration_turns` { #symbol-api-lua-v5-generated-property-ccbeffectsnapshot-duration-turns-0e021e1fa939 }
 
@@ -5123,7 +5123,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1241`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1241) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1241`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1241) — LuaLS declaration
 
 ### `intensity` { #symbol-api-lua-v5-generated-property-ccbeffectsnapshot-intensity-7b28733578fb }
 
@@ -5135,7 +5135,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1242`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1242) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1242`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1242) — LuaLS declaration
 
 ### `permanent` { #symbol-api-lua-v5-generated-property-ccbeffectsnapshot-permanent-ce28c9ee1590 }
 
@@ -5147,7 +5147,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1243`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1243) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1243`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1243) — LuaLS declaration
 
 ## `CcbEffectUpdateOptions` { #symbol-api-lua-v5-generated-class-ccbeffectupdateoptions-74b15c74539f }
 
@@ -5158,7 +5158,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2153`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2153) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2153`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2153) — LuaLS declaration
 
 ### `body_part` { #symbol-api-lua-v5-generated-property-ccbeffectupdateoptions-body-part-46056b02b2e5 }
 
@@ -5170,7 +5170,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2154`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2154) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2154`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2154) — LuaLS declaration
 
 ### `duration` { #symbol-api-lua-v5-generated-property-ccbeffectupdateoptions-duration-38c38d511c93 }
 
@@ -5182,7 +5182,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2155`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2155) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2155`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2155) — LuaLS declaration
 
 ### `intensity` { #symbol-api-lua-v5-generated-property-ccbeffectupdateoptions-intensity-d656eb132127 }
 
@@ -5194,7 +5194,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2156`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2156) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2156`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2156) — LuaLS declaration
 
 ### `permanent` { #symbol-api-lua-v5-generated-property-ccbeffectupdateoptions-permanent-9266079fc9bc }
 
@@ -5206,7 +5206,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2157`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2157) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2157`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2157) — LuaLS declaration
 
 ## `CcbEffectsApi` { #symbol-api-lua-v5-generated-class-ccbeffectsapi-55adb4369141 }
 
@@ -5217,7 +5217,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2159`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2159) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2159`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2159) — LuaLS declaration
 
 ## `CcbEnumDescription` { #symbol-api-lua-v5-generated-class-ccbenumdescription-42383bd46a44 }
 
@@ -5228,7 +5228,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:544`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L544) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:544`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L544) — LuaLS declaration
 
 ### `kind` { #symbol-api-lua-v5-generated-property-ccbenumdescription-kind-f809ff3bdde1 }
 
@@ -5240,7 +5240,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:545`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L545) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:545`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L545) — LuaLS declaration
 
 ### `status` { #symbol-api-lua-v5-generated-property-ccbenumdescription-status-dc9c18c72039 }
 
@@ -5252,7 +5252,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:546`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L546) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:546`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L546) — LuaLS declaration
 
 ### `available` { #symbol-api-lua-v5-generated-property-ccbenumdescription-available-e6a431591647 }
 
@@ -5264,7 +5264,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:547`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L547) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:547`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L547) — LuaLS declaration
 
 ### `replacement` { #symbol-api-lua-v5-generated-property-ccbenumdescription-replacement-5297c23870ff }
 
@@ -5276,7 +5276,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:548`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L548) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:548`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L548) — LuaLS declaration
 
 ### `reason` { #symbol-api-lua-v5-generated-property-ccbenumdescription-reason-1134824310b7 }
 
@@ -5288,7 +5288,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:549`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L549) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:549`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L549) — LuaLS declaration
 
 ### `count` { #symbol-api-lua-v5-generated-property-ccbenumdescription-count-305d4b78a615 }
 
@@ -5300,7 +5300,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:550`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L550) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:550`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L550) — LuaLS declaration
 
 ## `CcbEnumPage` { #symbol-api-lua-v5-generated-class-ccbenumpage-b24b13585366 }
 
@@ -5311,7 +5311,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:552`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L552) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:552`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L552) — LuaLS declaration
 
 ### `kind` { #symbol-api-lua-v5-generated-property-ccbenumpage-kind-ab4f110be6df }
 
@@ -5323,7 +5323,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:553`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L553) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:553`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L553) — LuaLS declaration
 
 ### `offset` { #symbol-api-lua-v5-generated-property-ccbenumpage-offset-308e3a734b32 }
 
@@ -5335,7 +5335,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:554`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L554) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:554`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L554) — LuaLS declaration
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbenumpage-limit-bf88edc7151d }
 
@@ -5347,7 +5347,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:555`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L555) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:555`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L555) — LuaLS declaration
 
 ### `total` { #symbol-api-lua-v5-generated-property-ccbenumpage-total-9f0b962f0231 }
 
@@ -5359,7 +5359,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:556`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L556) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:556`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L556) — LuaLS declaration
 
 ### `returned` { #symbol-api-lua-v5-generated-property-ccbenumpage-returned-cc7a350ff8fb }
 
@@ -5371,7 +5371,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:557`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L557) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:557`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L557) — LuaLS declaration
 
 ### `has_more` { #symbol-api-lua-v5-generated-property-ccbenumpage-has-more-61b1b8b5e2df }
 
@@ -5383,7 +5383,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:558`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L558) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:558`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L558) — LuaLS declaration
 
 ### `values` { #symbol-api-lua-v5-generated-property-ccbenumpage-values-641ae4c83928 }
 
@@ -5395,7 +5395,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:559`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L559) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:559`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L559) — LuaLS declaration
 
 ## `CcbEnumsApi` { #symbol-api-lua-v5-generated-class-ccbenumsapi-1f96df82e0d8 }
 
@@ -5406,7 +5406,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:561`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L561) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:561`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L561) — LuaLS declaration
 
 ## `CcbEocDefinition` { #symbol-api-lua-v5-generated-class-ccbeocdefinition-27b3e806db32 }
 
@@ -5417,7 +5417,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3494`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3494) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3494`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3494) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbeocdefinition-id-c57d40e28f84 }
 
@@ -5429,7 +5429,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3495`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3495) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3495`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3495) — LuaLS declaration
 
 ### `value` { #symbol-api-lua-v5-generated-property-ccbeocdefinition-value-84d24af63b49 }
 
@@ -5441,7 +5441,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3496`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3496) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3496`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3496) — LuaLS declaration
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbeocdefinition-type-0c260921e2b3 }
 
@@ -5453,7 +5453,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3497`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3497) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3497`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3497) — LuaLS declaration
 
 ### `has_condition` { #symbol-api-lua-v5-generated-property-ccbeocdefinition-has-condition-c2898685d0de }
 
@@ -5465,7 +5465,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3498`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3498) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3498`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3498) — LuaLS declaration
 
 ### `has_false_effect` { #symbol-api-lua-v5-generated-property-ccbeocdefinition-has-false-effect-b68d27985a94 }
 
@@ -5477,7 +5477,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3499`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3499) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3499`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3499) — LuaLS declaration
 
 ### `has_deactivate_condition` { #symbol-api-lua-v5-generated-property-ccbeocdefinition-has-deactivate-condition-09472fe8fad5 }
 
@@ -5489,7 +5489,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3500`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3500) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3500`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3500) — LuaLS declaration
 
 ### `global` { #symbol-api-lua-v5-generated-property-ccbeocdefinition-global-4603b2fc1284 }
 
@@ -5501,7 +5501,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3501`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3501) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3501`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3501) — LuaLS declaration
 
 ### `run_for_npcs` { #symbol-api-lua-v5-generated-property-ccbeocdefinition-run-for-npcs-c41716c8ecd2 }
 
@@ -5513,7 +5513,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3502`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3502) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3502`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3502) — LuaLS declaration
 
 ### `required_event` { #symbol-api-lua-v5-generated-property-ccbeocdefinition-required-event-1676cdc3bdc7 }
 
@@ -5525,7 +5525,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3503`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3503) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3503`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3503) — LuaLS declaration
 
 ### `sources` { #symbol-api-lua-v5-generated-property-ccbeocdefinition-sources-95ec6fd7cf9a }
 
@@ -5537,7 +5537,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3504`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3504) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3504`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3504) — LuaLS declaration
 
 ## `CcbEocLimits` { #symbol-api-lua-v5-generated-class-ccbeoclimits-7fcef06d4efa }
 
@@ -5548,7 +5548,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3511`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3511) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3511`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3511) — LuaLS declaration
 
 ### `page` { #symbol-api-lua-v5-generated-property-ccbeoclimits-page-722124dbc545 }
 
@@ -5560,7 +5560,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3512`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3512) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3512`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3512) — LuaLS declaration
 
 ### `context_entries` { #symbol-api-lua-v5-generated-property-ccbeoclimits-context-entries-48bb6852ccea }
 
@@ -5572,7 +5572,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3513`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3513) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3513`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3513) — LuaLS declaration
 
 ### `context_key_bytes` { #symbol-api-lua-v5-generated-property-ccbeoclimits-context-key-bytes-858f57d7ed58 }
 
@@ -5584,7 +5584,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3514`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3514) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3514`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3514) — LuaLS declaration
 
 ### `context_string_bytes` { #symbol-api-lua-v5-generated-property-ccbeoclimits-context-string-bytes-a80956453555 }
 
@@ -5596,7 +5596,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3515`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3515) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3515`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3515) — LuaLS declaration
 
 ## `CcbEocOptions` { #symbol-api-lua-v5-generated-class-ccbeocoptions-59ad1382428e }
 
@@ -5607,7 +5607,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3506`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3506) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3506`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3506) — LuaLS declaration
 
 ### `alpha` { #symbol-api-lua-v5-generated-property-ccbeocoptions-alpha-1c8a12dc277a }
 
@@ -5619,7 +5619,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3507`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3507) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3507`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3507) — LuaLS declaration
 
 ### `beta` { #symbol-api-lua-v5-generated-property-ccbeocoptions-beta-7c53c24e8efe }
 
@@ -5631,7 +5631,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3508`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3508) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3508`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3508) — LuaLS declaration
 
 ### `context` { #symbol-api-lua-v5-generated-property-ccbeocoptions-context-4bf6d1fd9cc8 }
 
@@ -5643,7 +5643,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3509`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3509) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3509`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3509) — LuaLS declaration
 
 ## `CcbEocSource` { #symbol-api-lua-v5-generated-class-ccbeocsource-a36125680bb8 }
 
@@ -5654,7 +5654,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3490`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3490) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3490`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3490) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbeocsource-id-e0f65166e0c5 }
 
@@ -5666,7 +5666,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3491`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3491) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3491`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3491) — LuaLS declaration
 
 ### `mod` { #symbol-api-lua-v5-generated-property-ccbeocsource-mod-33c251b14b64 }
 
@@ -5678,7 +5678,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3492`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3492) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3492`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3492) — LuaLS declaration
 
 ## `CcbEocsApi` { #symbol-api-lua-v5-generated-class-ccbeocsapi-6d06a61f4939 }
 
@@ -5689,7 +5689,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3517`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3517) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3517`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3517) — LuaLS declaration
 
 ## `CcbError` { #symbol-api-lua-v5-generated-class-ccberror-07877cee9af4 }
 
@@ -5700,7 +5700,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:301`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L301) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:301`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L301) — LuaLS declaration
 
 ### `code` { #symbol-api-lua-v5-generated-property-ccberror-code-824b98dc51f3 }
 
@@ -5712,7 +5712,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:302`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L302) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:302`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L302) — LuaLS declaration
 
 ### `message` { #symbol-api-lua-v5-generated-property-ccberror-message-d43c75d8bd04 }
 
@@ -5724,7 +5724,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:303`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L303) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:303`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L303) — LuaLS declaration
 
 ## `CcbEvent` { #symbol-api-lua-v5-generated-class-ccbevent-62a4d1add65f }
 
@@ -5735,7 +5735,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:921`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L921) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:921`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L921) — LuaLS declaration
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbevent-type-663af0f14e09 }
 
@@ -5747,7 +5747,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:922`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L922) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:922`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L922) — LuaLS declaration
 
 ### `turn` { #symbol-api-lua-v5-generated-property-ccbevent-turn-a6d96cb9ce1f }
 
@@ -5759,7 +5759,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:923`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L923) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:923`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L923) — LuaLS declaration
 
 ### `data` { #symbol-api-lua-v5-generated-property-ccbevent-data-754b4da1ac83 }
 
@@ -5771,7 +5771,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:924`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L924) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:924`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L924) — LuaLS declaration
 
 ### `data_types` { #symbol-api-lua-v5-generated-property-ccbevent-data-types-1505123cffa5 }
 
@@ -5783,7 +5783,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:925`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L925) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:925`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L925) — LuaLS declaration
 
 ## `CcbEventOptions` { #symbol-api-lua-v5-generated-class-ccbeventoptions-30ae54db5e1b }
 
@@ -5794,7 +5794,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:917`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L917) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:917`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L917) — LuaLS declaration
 
 ### `priority` { #symbol-api-lua-v5-generated-property-ccbeventoptions-priority-666ada8ca517 }
 
@@ -5806,7 +5806,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:918`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L918) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:918`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L918) — LuaLS declaration
 
 ### `once` { #symbol-api-lua-v5-generated-property-ccbeventoptions-once-9f3a12ae6f9a }
 
@@ -5818,7 +5818,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:919`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L919) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:919`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L919) — LuaLS declaration
 
 ## `CcbEventsApi` { #symbol-api-lua-v5-generated-class-ccbeventsapi-7f600d9f9f6a }
 
@@ -5829,7 +5829,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:942`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L942) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:942`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L942) — LuaLS declaration
 
 ## `CcbFactionPolicy` { #symbol-api-lua-v5-generated-class-ccbfactionpolicy-3b2e4dd1611e }
 
@@ -5840,7 +5840,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3959`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3959) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3959`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3959) — LuaLS declaration
 
 ### `consumes_food` { #symbol-api-lua-v5-generated-property-ccbfactionpolicy-consumes-food-1c7cb3bd5022 }
 
@@ -5852,7 +5852,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3960`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3960) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3960`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3960) — LuaLS declaration
 
 ### `lone_wolf` { #symbol-api-lua-v5-generated-property-ccbfactionpolicy-lone-wolf-6808e384c51c }
 
@@ -5864,7 +5864,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3961`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3961) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3961`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3961) — LuaLS declaration
 
 ### `limited_area_claim` { #symbol-api-lua-v5-generated-property-ccbfactionpolicy-limited-area-claim-46f73a66a2f3 }
 
@@ -5876,7 +5876,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3962`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3962) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3962`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3962) — LuaLS declaration
 
 ### `stealing` { #symbol-api-lua-v5-generated-property-ccbfactionpolicy-stealing-526e171bc7c4 }
 
@@ -5888,7 +5888,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3963`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3963) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3963`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3963) — LuaLS declaration
 
 ## `CcbFactionPolicyUpdate` { #symbol-api-lua-v5-generated-class-ccbfactionpolicyupdate-1554bd1339ac }
 
@@ -5899,7 +5899,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3989`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3989) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3989`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3989) — LuaLS declaration
 
 ### `consumes_food` { #symbol-api-lua-v5-generated-property-ccbfactionpolicyupdate-consumes-food-6589c55b8e8c }
 
@@ -5911,7 +5911,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3990`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3990) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3990`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3990) — LuaLS declaration
 
 ### `stealing` { #symbol-api-lua-v5-generated-property-ccbfactionpolicyupdate-stealing-fbf5e1cf55e5 }
 
@@ -5923,7 +5923,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3991`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3991) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3991`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3991) — LuaLS declaration
 
 ## `CcbFactionRelationshipUpdate` { #symbol-api-lua-v5-generated-class-ccbfactionrelationshipupdate-67284b553735 }
 
@@ -5934,7 +5934,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3993`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3993) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3993`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3993) — LuaLS declaration
 
 ### `kill_on_sight` { #symbol-api-lua-v5-generated-property-ccbfactionrelationshipupdate-kill-on-sight-39dc5c29289b }
 
@@ -5946,7 +5946,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3994`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3994) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3994`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3994) — LuaLS declaration
 
 ### `watch_your_back` { #symbol-api-lua-v5-generated-property-ccbfactionrelationshipupdate-watch-your-back-4dfdff153d4b }
 
@@ -5958,7 +5958,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3995`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3995) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3995`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3995) — LuaLS declaration
 
 ### `share_my_stuff` { #symbol-api-lua-v5-generated-property-ccbfactionrelationshipupdate-share-my-stuff-703d102a7f74 }
 
@@ -5970,7 +5970,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3996`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3996) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3996`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3996) — LuaLS declaration
 
 ### `share_public_goods` { #symbol-api-lua-v5-generated-property-ccbfactionrelationshipupdate-share-public-goods-b7f6b31f6907 }
 
@@ -5982,7 +5982,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3997`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3997) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3997`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3997) — LuaLS declaration
 
 ### `guard_your_stuff` { #symbol-api-lua-v5-generated-property-ccbfactionrelationshipupdate-guard-your-stuff-10db71b482e3 }
 
@@ -5994,7 +5994,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3998`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3998) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3998`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3998) — LuaLS declaration
 
 ### `lets_you_in` { #symbol-api-lua-v5-generated-property-ccbfactionrelationshipupdate-lets-you-in-09fbe5c0b7e0 }
 
@@ -6006,7 +6006,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3999`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3999) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3999`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3999) — LuaLS declaration
 
 ### `defend_your_space` { #symbol-api-lua-v5-generated-property-ccbfactionrelationshipupdate-defend-your-space-a04c33571ed4 }
 
@@ -6018,7 +6018,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4000`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4000) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4000`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4000) — LuaLS declaration
 
 ### `knows_your_voice` { #symbol-api-lua-v5-generated-property-ccbfactionrelationshipupdate-knows-your-voice-88e2a04f7ed4 }
 
@@ -6030,7 +6030,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4001`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4001) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4001`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4001) — LuaLS declaration
 
 ## `CcbFactionReputation` { #symbol-api-lua-v5-generated-class-ccbfactionreputation-06eab368ee85 }
 
@@ -6041,7 +6041,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3944`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3944) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3944`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3944) — LuaLS declaration
 
 ### `likes` { #symbol-api-lua-v5-generated-property-ccbfactionreputation-likes-b86cdb176dcb }
 
@@ -6053,7 +6053,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3945`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3945) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3945`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3945) — LuaLS declaration
 
 ### `respects` { #symbol-api-lua-v5-generated-property-ccbfactionreputation-respects-c3b3c9407e7a }
 
@@ -6065,7 +6065,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3946`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3946) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3946`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3946) — LuaLS declaration
 
 ### `trusts` { #symbol-api-lua-v5-generated-property-ccbfactionreputation-trusts-9b964bbc0e0a }
 
@@ -6077,7 +6077,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3947`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3947) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3947`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3947) — LuaLS declaration
 
 ### `ranking` { #symbol-api-lua-v5-generated-property-ccbfactionreputation-ranking-6d205a02bcd6 }
 
@@ -6089,7 +6089,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3948`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3948) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3948`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3948) — LuaLS declaration
 
 ### `respect` { #symbol-api-lua-v5-generated-property-ccbfactionreputation-respect-b59b5c0191b8 }
 
@@ -6101,7 +6101,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3949`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3949) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3949`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3949) — LuaLS declaration
 
 ## `CcbFactionReputationDeltas` { #symbol-api-lua-v5-generated-class-ccbfactionreputationdeltas-f6278cfd4097 }
 
@@ -6112,7 +6112,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3979`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3979) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3979`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3979) — LuaLS declaration
 
 ### `likes` { #symbol-api-lua-v5-generated-property-ccbfactionreputationdeltas-likes-8cce0d4b40ea }
 
@@ -6124,7 +6124,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3980`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3980) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3980`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3980) — LuaLS declaration
 
 ### `respects` { #symbol-api-lua-v5-generated-property-ccbfactionreputationdeltas-respects-779085fb1e07 }
 
@@ -6136,7 +6136,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3981`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3981) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3981`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3981) — LuaLS declaration
 
 ### `trusts` { #symbol-api-lua-v5-generated-property-ccbfactionreputationdeltas-trusts-e107d609f2cd }
 
@@ -6148,7 +6148,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3982`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3982) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3982`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3982) — LuaLS declaration
 
 ## `CcbFactionResourceDeltas` { #symbol-api-lua-v5-generated-class-ccbfactionresourcedeltas-3821cab03336 }
 
@@ -6159,7 +6159,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3984`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3984) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3984`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3984) — LuaLS declaration
 
 ### `size` { #symbol-api-lua-v5-generated-property-ccbfactionresourcedeltas-size-f3483af41900 }
 
@@ -6171,7 +6171,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3985`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3985) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3985`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3985) — LuaLS declaration
 
 ### `power` { #symbol-api-lua-v5-generated-property-ccbfactionresourcedeltas-power-b1983820409c }
 
@@ -6183,7 +6183,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3986`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3986) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3986`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3986) — LuaLS declaration
 
 ### `wealth` { #symbol-api-lua-v5-generated-property-ccbfactionresourcedeltas-wealth-63c9038b1a25 }
 
@@ -6195,7 +6195,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3987`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3987) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3987`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3987) — LuaLS declaration
 
 ## `CcbFactionResources` { #symbol-api-lua-v5-generated-class-ccbfactionresources-001b281ba45a }
 
@@ -6206,7 +6206,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3951`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3951) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3951`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3951) — LuaLS declaration
 
 ### `size` { #symbol-api-lua-v5-generated-property-ccbfactionresources-size-b0c7fe231cc7 }
 
@@ -6218,7 +6218,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3952`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3952) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3952`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3952) — LuaLS declaration
 
 ### `power` { #symbol-api-lua-v5-generated-property-ccbfactionresources-power-be0b6d836416 }
 
@@ -6230,7 +6230,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3953`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3953) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3953`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3953) — LuaLS declaration
 
 ### `wealth` { #symbol-api-lua-v5-generated-property-ccbfactionresources-wealth-faf057a51801 }
 
@@ -6242,7 +6242,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3954`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3954) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3954`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3954) — LuaLS declaration
 
 ### `food_kcal` { #symbol-api-lua-v5-generated-property-ccbfactionresources-food-kcal-f618e7cc6ad6 }
 
@@ -6254,7 +6254,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3955`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3955) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3955`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3955) — LuaLS declaration
 
 ### `wealth_description` { #symbol-api-lua-v5-generated-property-ccbfactionresources-wealth-description-3c1034108633 }
 
@@ -6266,7 +6266,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3956`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3956) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3956`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3956) — LuaLS declaration
 
 ### `combat_ability` { #symbol-api-lua-v5-generated-property-ccbfactionresources-combat-ability-397177da78a8 }
 
@@ -6278,7 +6278,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3957`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3957) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3957`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3957) — LuaLS declaration
 
 ## `CcbFactionSnapshot` { #symbol-api-lua-v5-generated-class-ccbfactionsnapshot-1ab5f1c62100 }
 
@@ -6289,7 +6289,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3965`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3965) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3965`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3965) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-id-8bcb31ed8394 }
 
@@ -6301,7 +6301,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3966`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3966) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3966`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3966) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-name-2056fd1e9f2a }
 
@@ -6313,7 +6313,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3967`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3967) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3967`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3967) — LuaLS declaration
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-description-863cb27a76d2 }
 
@@ -6325,7 +6325,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3968`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3968) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3968`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3968) — LuaLS declaration
 
 ### `summary` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-summary-f55afee7896f }
 
@@ -6337,7 +6337,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3969`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3969) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3969`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3969) — LuaLS declaration
 
 ### `known_by_player` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-known-by-player-7e7a786bbac6 }
 
@@ -6349,7 +6349,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3970`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3970) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3970`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3970) — LuaLS declaration
 
 ### `reputation` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-reputation-70feeeff8098 }
 
@@ -6361,7 +6361,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3971`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3971) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3971`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3971) — LuaLS declaration
 
 ### `resources` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-resources-f8f4a8dbd7b2 }
 
@@ -6373,7 +6373,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3972`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3972) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3972`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3972) — LuaLS declaration
 
 ### `policy` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-policy-5fac9f622d20 }
 
@@ -6385,7 +6385,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3973`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3973) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3973`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3973) — LuaLS declaration
 
 ### `currency` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-currency-73ae519b8548 }
 
@@ -6397,7 +6397,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3974`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3974) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3974`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3974) — LuaLS declaration
 
 ### `monster_faction` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-monster-faction-3640f34d05af }
 
@@ -6409,7 +6409,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3975`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3975) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3975`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3975) — LuaLS declaration
 
 ### `members` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-members-ebcecbd6901d }
 
@@ -6421,7 +6421,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3976`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3976) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3976`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3976) — LuaLS declaration
 
 ### `relationship_targets` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-relationship-targets-c9dc040c2253 }
 
@@ -6433,7 +6433,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3977`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3977) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3977`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3977) — LuaLS declaration
 
 ## `CcbFactionsApi` { #symbol-api-lua-v5-generated-class-ccbfactionsapi-5892f61d5fba }
 
@@ -6444,7 +6444,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4003`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4003) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4003`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4003) — LuaLS declaration
 
 ## `CcbFollowersApi` { #symbol-api-lua-v5-generated-class-ccbfollowersapi-6b69b29612da }
 
@@ -6455,7 +6455,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2050`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2050) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2050`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2050) — LuaLS declaration
 
 ## `CcbGameActionsApi` { #symbol-api-lua-v5-generated-class-ccbgameactionsapi-d29d9e8391a2 }
 
@@ -6466,7 +6466,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1367`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1367) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1367`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1367) — LuaLS declaration
 
 ## `CcbGameApi` { #symbol-api-lua-v5-generated-class-ccbgameapi-6be982da582a }
 
@@ -6477,7 +6477,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4417`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4417) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4417`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4417) — LuaLS declaration
 
 ### `api_version` { #symbol-api-lua-v5-generated-property-ccbgameapi-api-version-65399051abd5 }
 
@@ -6489,7 +6489,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4418`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4418) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4418`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4418) — LuaLS declaration
 
 ### `achievements` { #symbol-api-lua-v5-generated-property-ccbgameapi-achievements-79bef0b6e0f2 }
 
@@ -6501,7 +6501,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4419`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4419) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4419`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4419) — LuaLS declaration
 
 ### `actions` { #symbol-api-lua-v5-generated-property-ccbgameapi-actions-ee6ef991a2d8 }
 
@@ -6513,7 +6513,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4420`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4420) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4420`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4420) — LuaLS declaration
 
 ### `action_menu` { #symbol-api-lua-v5-generated-property-ccbgameapi-action-menu-22fb74acaf2a }
 
@@ -6525,7 +6525,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4421`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4421) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4421`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4421) — LuaLS declaration
 
 ### `addictions` { #symbol-api-lua-v5-generated-property-ccbgameapi-addictions-759f3d741345 }
 
@@ -6537,7 +6537,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4422`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4422) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4422`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4422) — LuaLS declaration
 
 ### `sidebar` { #symbol-api-lua-v5-generated-property-ccbgameapi-sidebar-c88cb9b7b6cb }
 
@@ -6549,7 +6549,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4423`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4423) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4423`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4423) — LuaLS declaration
 
 ### `types` { #symbol-api-lua-v5-generated-property-ccbgameapi-types-c4cef9145c72 }
 
@@ -6561,7 +6561,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4424`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4424) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4424`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4424) — LuaLS declaration
 
 ### `units` { #symbol-api-lua-v5-generated-property-ccbgameapi-units-b284fd7f4422 }
 
@@ -6573,7 +6573,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4425`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4425) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4425`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4425) — LuaLS declaration
 
 ### `time` { #symbol-api-lua-v5-generated-property-ccbgameapi-time-640184b04b7c }
 
@@ -6585,7 +6585,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4426`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4426) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4426`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4426) — LuaLS declaration
 
 ### `coords` { #symbol-api-lua-v5-generated-property-ccbgameapi-coords-d795f8e54378 }
 
@@ -6597,7 +6597,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4427`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4427) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4427`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4427) — LuaLS declaration
 
 ### `enums` { #symbol-api-lua-v5-generated-property-ccbgameapi-enums-667e1f57a533 }
 
@@ -6609,7 +6609,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4428`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4428) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4428`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4428) — LuaLS declaration
 
 ### `serde` { #symbol-api-lua-v5-generated-property-ccbgameapi-serde-d02caf77b8c8 }
 
@@ -6621,7 +6621,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4429`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4429) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4429`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4429) — LuaLS declaration
 
 ### `handles` { #symbol-api-lua-v5-generated-property-ccbgameapi-handles-47c7d0203811 }
 
@@ -6633,7 +6633,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4430`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4430) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4430`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4430) — LuaLS declaration
 
 ### `definitions` { #symbol-api-lua-v5-generated-property-ccbgameapi-definitions-f688bda5c95e }
 
@@ -6645,7 +6645,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4431`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4431) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4431`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4431) — LuaLS declaration
 
 ### `diagnostics` { #symbol-api-lua-v5-generated-property-ccbgameapi-diagnostics-77f4b1944744 }
 
@@ -6657,7 +6657,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4432`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4432) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4432`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4432) — LuaLS declaration
 
 ### `hooks` { #symbol-api-lua-v5-generated-property-ccbgameapi-hooks-dee07ae396ef }
 
@@ -6669,7 +6669,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4433`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4433) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4433`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4433) — LuaLS declaration
 
 ### `callbacks` { #symbol-api-lua-v5-generated-property-ccbgameapi-callbacks-0bcdf8a8a56a }
 
@@ -6681,7 +6681,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4434`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4434) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4434`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4434) — LuaLS declaration
 
 ### `camps` { #symbol-api-lua-v5-generated-property-ccbgameapi-camps-cdd5f4e61866 }
 
@@ -6693,7 +6693,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4435`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4435) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4435`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4435) — LuaLS declaration
 
 ### `mapgen` { #symbol-api-lua-v5-generated-property-ccbgameapi-mapgen-e8636df110bf }
 
@@ -6705,7 +6705,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4436`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4436) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4436`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4436) — LuaLS declaration
 
 ### `creatures` { #symbol-api-lua-v5-generated-property-ccbgameapi-creatures-5f827ff8157b }
 
@@ -6717,7 +6717,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4437`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4437) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4437`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4437) — LuaLS declaration
 
 ### `characters` { #symbol-api-lua-v5-generated-property-ccbgameapi-characters-674f885b2fc4 }
 
@@ -6729,7 +6729,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4438`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4438) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4438`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4438) — LuaLS declaration
 
 ### `effects` { #symbol-api-lua-v5-generated-property-ccbgameapi-effects-fc9b50c277ca }
 
@@ -6741,7 +6741,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4439`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4439) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4439`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4439) — LuaLS declaration
 
 ### `bionics` { #symbol-api-lua-v5-generated-property-ccbgameapi-bionics-cb3a866d1e35 }
 
@@ -6753,7 +6753,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4440`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4440) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4440`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4440) — LuaLS declaration
 
 ### `items` { #symbol-api-lua-v5-generated-property-ccbgameapi-items-b8d08abb681f }
 
@@ -6765,7 +6765,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4441`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4441) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4441`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4441) — LuaLS declaration
 
 ### `inventory` { #symbol-api-lua-v5-generated-property-ccbgameapi-inventory-ba9c0c2f9a72 }
 
@@ -6777,7 +6777,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4442`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4442) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4442`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4442) — LuaLS declaration
 
 ### `mutations` { #symbol-api-lua-v5-generated-property-ccbgameapi-mutations-8d3302d1ac21 }
 
@@ -6789,7 +6789,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4443`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4443) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4443`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4443) — LuaLS declaration
 
 ### `spells` { #symbol-api-lua-v5-generated-property-ccbgameapi-spells-96033f3b4367 }
 
@@ -6801,7 +6801,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4444`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4444) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4444`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4444) — LuaLS declaration
 
 ### `missions` { #symbol-api-lua-v5-generated-property-ccbgameapi-missions-973622ea08d1 }
 
@@ -6813,7 +6813,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4445`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4445) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4445`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4445) — LuaLS declaration
 
 ### `recipes` { #symbol-api-lua-v5-generated-property-ccbgameapi-recipes-8e97a5ea636f }
 
@@ -6825,7 +6825,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4446`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4446) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4446`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4446) — LuaLS declaration
 
 ### `requirements` { #symbol-api-lua-v5-generated-property-ccbgameapi-requirements-836820f710dc }
 
@@ -6837,7 +6837,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4447`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4447) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4447`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4447) — LuaLS declaration
 
 ### `crafting` { #symbol-api-lua-v5-generated-property-ccbgameapi-crafting-10b96a63dc97 }
 
@@ -6849,7 +6849,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4448`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4448) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4448`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4448) — LuaLS declaration
 
 ### `eocs` { #symbol-api-lua-v5-generated-property-ccbgameapi-eocs-2391948eeaea }
 
@@ -6861,7 +6861,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4449`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4449) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4449`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4449) — LuaLS declaration
 
 ### `factions` { #symbol-api-lua-v5-generated-property-ccbgameapi-factions-58eda8fd82f1 }
 
@@ -6873,7 +6873,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4450`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4450) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4450`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4450) — LuaLS declaration
 
 ### `world` { #symbol-api-lua-v5-generated-property-ccbgameapi-world-90c1c1717aaa }
 
@@ -6885,7 +6885,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4451`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4451) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4451`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4451) — LuaLS declaration
 
 ### `overmap` { #symbol-api-lua-v5-generated-property-ccbgameapi-overmap-fea5f2a3d261 }
 
@@ -6897,7 +6897,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4452`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4452) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4452`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4452) — LuaLS declaration
 
 ### `hordes` { #symbol-api-lua-v5-generated-property-ccbgameapi-hordes-6fd61f9da3e1 }
 
@@ -6909,7 +6909,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4453`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4453) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4453`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4453) — LuaLS declaration
 
 ### `martial_arts` { #symbol-api-lua-v5-generated-property-ccbgameapi-martial-arts-d294a59e33c8 }
 
@@ -6921,7 +6921,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4454`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4454) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4454`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4454) — LuaLS declaration
 
 ### `messages` { #symbol-api-lua-v5-generated-property-ccbgameapi-messages-a3d1b794c437 }
 
@@ -6933,7 +6933,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4455`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4455) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4455`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4455) — LuaLS declaration
 
 ### `constants` { #symbol-api-lua-v5-generated-property-ccbgameapi-constants-4d82a54639c0 }
 
@@ -6945,7 +6945,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4456`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4456) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4456`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4456) — LuaLS declaration
 
 ### `random` { #symbol-api-lua-v5-generated-property-ccbgameapi-random-3003a87ac70f }
 
@@ -6957,7 +6957,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4457`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4457) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4457`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4457) — LuaLS declaration
 
 ### `sound` { #symbol-api-lua-v5-generated-property-ccbgameapi-sound-03b54eb708cd }
 
@@ -6969,7 +6969,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4458`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4458) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4458`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4458) — LuaLS declaration
 
 ### `targeting` { #symbol-api-lua-v5-generated-property-ccbgameapi-targeting-dab13a69c354 }
 
@@ -6981,7 +6981,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4459`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4459) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4459`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4459) — LuaLS declaration
 
 ### `spawns` { #symbol-api-lua-v5-generated-property-ccbgameapi-spawns-dbadd42d87ee }
 
@@ -6993,7 +6993,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4460`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4460) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4460`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4460) — LuaLS declaration
 
 ### `followers` { #symbol-api-lua-v5-generated-property-ccbgameapi-followers-4cc2d4780271 }
 
@@ -7005,7 +7005,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4461`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4461) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4461`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4461) — LuaLS declaration
 
 ### `relocation` { #symbol-api-lua-v5-generated-property-ccbgameapi-relocation-5d8ffbf9ed78 }
 
@@ -7017,7 +7017,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4462`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4462) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4462`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4462) — LuaLS declaration
 
 ### `native_events` { #symbol-api-lua-v5-generated-property-ccbgameapi-native-events-ad9be97034b1 }
 
@@ -7029,7 +7029,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4463`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4463) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4463`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4463) — LuaLS declaration
 
 ### `needs` { #symbol-api-lua-v5-generated-property-ccbgameapi-needs-1be9387197c6 }
 
@@ -7041,7 +7041,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4464`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4464) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4464`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4464) — LuaLS declaration
 
 ### `npcs` { #symbol-api-lua-v5-generated-property-ccbgameapi-npcs-f4f66d551a75 }
 
@@ -7053,7 +7053,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4465`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4465) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4465`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4465) — LuaLS declaration
 
 ### `proficiencies` { #symbol-api-lua-v5-generated-property-ccbgameapi-proficiencies-75ab3712bff0 }
 
@@ -7065,7 +7065,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4466`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4466) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4466`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4466) — LuaLS declaration
 
 ### `skills` { #symbol-api-lua-v5-generated-property-ccbgameapi-skills-f83395892301 }
 
@@ -7077,7 +7077,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4467`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4467) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4467`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4467) — LuaLS declaration
 
 ### `statistics` { #symbol-api-lua-v5-generated-property-ccbgameapi-statistics-e4c90adc0845 }
 
@@ -7089,7 +7089,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4468`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4468) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4468`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4468) — LuaLS declaration
 
 ### `variables` { #symbol-api-lua-v5-generated-property-ccbgameapi-variables-6646bc1c387b }
 
@@ -7101,7 +7101,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4469`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4469) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4469`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4469) — LuaLS declaration
 
 ### `vehicles` { #symbol-api-lua-v5-generated-property-ccbgameapi-vehicles-fd9a46f28747 }
 
@@ -7113,7 +7113,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4470`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4470) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4470`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4470) — LuaLS declaration
 
 ### `vitamins` { #symbol-api-lua-v5-generated-property-ccbgameapi-vitamins-1c8f3e65590e }
 
@@ -7125,7 +7125,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4471`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4471) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4471`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4471) — LuaLS declaration
 
 ### `weather` { #symbol-api-lua-v5-generated-property-ccbgameapi-weather-60349e38af43 }
 
@@ -7137,7 +7137,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4472`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4472) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4472`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4472) — LuaLS declaration
 
 ### `zones` { #symbol-api-lua-v5-generated-property-ccbgameapi-zones-22927aeb8906 }
 
@@ -7149,7 +7149,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4473`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4473) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4473`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4473) — LuaLS declaration
 
 ## `CcbGiveItemOptions` { #symbol-api-lua-v5-generated-class-ccbgiveitemoptions-ba5e55638bac }
 
@@ -7160,7 +7160,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2343`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2343) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2343`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2343) — LuaLS declaration
 
 ### `allow_wield` { #symbol-api-lua-v5-generated-property-ccbgiveitemoptions-allow-wield-17546bb0de09 }
 
@@ -7172,7 +7172,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2344`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2344) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2344`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2344) — LuaLS declaration
 
 ## `CcbHallucinationOptions` { #symbol-api-lua-v5-generated-class-ccbhallucinationoptions-546ce5b1fb24 }
 
@@ -7183,7 +7183,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2032`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2032) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2032`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2032) — LuaLS declaration
 
 ### `monster` { #symbol-api-lua-v5-generated-property-ccbhallucinationoptions-monster-b527fdf4d706 }
 
@@ -7195,7 +7195,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2033`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2033) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2033`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2033) — LuaLS declaration
 
 ### `lifespan` { #symbol-api-lua-v5-generated-property-ccbhallucinationoptions-lifespan-bb9c3013b89f }
 
@@ -7207,7 +7207,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2034`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2034) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2034`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2034) — LuaLS declaration
 
 ## `CcbHandleLocator` { #symbol-api-lua-v5-generated-class-ccbhandlelocator-8dd96735bc67 }
 
@@ -7218,7 +7218,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:293`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L293) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:293`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L293) — LuaLS declaration
 
 ### `scope` { #symbol-api-lua-v5-generated-property-ccbhandlelocator-scope-871e080bfefa }
 
@@ -7230,7 +7230,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:294`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L294) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:294`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L294) — LuaLS declaration
 
 ### `stable_id` { #symbol-api-lua-v5-generated-property-ccbhandlelocator-stable-id-2fb7f919ed48 }
 
@@ -7242,7 +7242,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:295`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L295) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:295`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L295) — LuaLS declaration
 
 ### `x` { #symbol-api-lua-v5-generated-property-ccbhandlelocator-x-bbd30bb9657b }
 
@@ -7254,7 +7254,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:296`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L296) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:296`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L296) — LuaLS declaration
 
 ### `y` { #symbol-api-lua-v5-generated-property-ccbhandlelocator-y-1ea2d26d7b31 }
 
@@ -7266,7 +7266,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:297`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L297) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:297`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L297) — LuaLS declaration
 
 ### `z` { #symbol-api-lua-v5-generated-property-ccbhandlelocator-z-621b7fc92873 }
 
@@ -7278,7 +7278,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:298`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L298) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:298`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L298) — LuaLS declaration
 
 ### `path` { #symbol-api-lua-v5-generated-property-ccbhandlelocator-path-f17c1526e052 }
 
@@ -7290,7 +7290,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:299`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L299) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:299`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L299) — LuaLS declaration
 
 ## `CcbHandlesApi` { #symbol-api-lua-v5-generated-class-ccbhandlesapi-78310f80d2ad }
 
@@ -7301,7 +7301,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:607`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L607) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:607`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L607) — LuaLS declaration
 
 ## `CcbHealthAdjustments` { #symbol-api-lua-v5-generated-class-ccbhealthadjustments-78b6024527e0 }
 
@@ -7312,7 +7312,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3346`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3346) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3346`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3346) — LuaLS declaration
 
 ### `lifestyle` { #symbol-api-lua-v5-generated-property-ccbhealthadjustments-lifestyle-585630e21afc }
 
@@ -7324,7 +7324,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3347`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3347) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3347`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3347) — LuaLS declaration
 
 ### `daily_health` { #symbol-api-lua-v5-generated-property-ccbhealthadjustments-daily-health-b67dfd96a1d8 }
 
@@ -7336,7 +7336,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3348`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3348) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3348`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3348) — LuaLS declaration
 
 ## `CcbHealthDeltas` { #symbol-api-lua-v5-generated-class-ccbhealthdeltas-31aa7f5b4772 }
 
@@ -7347,7 +7347,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3350`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3350) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3350`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3350) — LuaLS declaration
 
 ### `daily_health_cap` { #symbol-api-lua-v5-generated-property-ccbhealthdeltas-daily-health-cap-e6094b86bb3c }
 
@@ -7359,7 +7359,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3351`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3351) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3351`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3351) — LuaLS declaration
 
 ### `health_tally` { #symbol-api-lua-v5-generated-property-ccbhealthdeltas-health-tally-ebb2857669d9 }
 
@@ -7371,7 +7371,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3352`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3352) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3352`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3352) — LuaLS declaration
 
 ## `CcbHookLimits` { #symbol-api-lua-v5-generated-class-ccbhooklimits-6cfe1be2ecf1 }
 
@@ -7382,7 +7382,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1506`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1506) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1506`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1506) — LuaLS declaration
 
 ### `hooks` { #symbol-api-lua-v5-generated-property-ccbhooklimits-hooks-7ec75e0844a3 }
 
@@ -7394,7 +7394,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1507`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1507) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1507`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1507) — LuaLS declaration
 
 ### `handlers` { #symbol-api-lua-v5-generated-property-ccbhooklimits-handlers-6d9718fd1b8c }
 
@@ -7406,7 +7406,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1508`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1508) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1508`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1508) — LuaLS declaration
 
 ### `registered` { #symbol-api-lua-v5-generated-property-ccbhooklimits-registered-6916652a099d }
 
@@ -7418,7 +7418,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1509`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1509) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1509`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1509) — LuaLS declaration
 
 ### `priority_min` { #symbol-api-lua-v5-generated-property-ccbhooklimits-priority-min-1191e0701aa3 }
 
@@ -7430,7 +7430,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1510`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1510) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1510`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1510) — LuaLS declaration
 
 ### `priority_max` { #symbol-api-lua-v5-generated-property-ccbhooklimits-priority-max-ab47656ee700 }
 
@@ -7442,7 +7442,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1511`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1511) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1511`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1511) — LuaLS declaration
 
 ### `dispatch_depth` { #symbol-api-lua-v5-generated-property-ccbhooklimits-dispatch-depth-7a50f116daee }
 
@@ -7454,7 +7454,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1512`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1512) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1512`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1512) — LuaLS declaration
 
 ### `instruction_budget` { #symbol-api-lua-v5-generated-property-ccbhooklimits-instruction-budget-3e216de44095 }
 
@@ -7466,7 +7466,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1513`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1513) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1513`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1513) — LuaLS declaration
 
 ## `CcbHookOptions` { #symbol-api-lua-v5-generated-class-ccbhookoptions-2acfb401ce0b }
 
@@ -7477,7 +7477,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1494`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1494) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1494`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1494) — LuaLS declaration
 
 ### `priority` { #symbol-api-lua-v5-generated-property-ccbhookoptions-priority-4d6698602f9a }
 
@@ -7489,7 +7489,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1495`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1495) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1495`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1495) — LuaLS declaration
 
 ### `once` { #symbol-api-lua-v5-generated-property-ccbhookoptions-once-a4bf7906254f }
 
@@ -7501,7 +7501,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1496`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1496) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1496`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1496) — LuaLS declaration
 
 ## `CcbHookPayload` { #symbol-api-lua-v5-generated-class-ccbhookpayload-8cd368ea9b79 }
 
@@ -7512,7 +7512,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1515`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1515) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1515`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1515) — LuaLS declaration
 
 ### `hook` { #symbol-api-lua-v5-generated-property-ccbhookpayload-hook-a470c267f505 }
 
@@ -7524,7 +7524,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1516`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1516) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1516`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1516) — LuaLS declaration
 
 ### `turn` { #symbol-api-lua-v5-generated-property-ccbhookpayload-turn-2594a9284adc }
 
@@ -7536,7 +7536,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1517`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1517) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1517`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1517) — LuaLS declaration
 
 ## `CcbHookSpec` { #symbol-api-lua-v5-generated-class-ccbhookspec-67ef3a8fbb73 }
 
@@ -7547,7 +7547,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1498`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1498) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1498`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1498) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbhookspec-name-7789c7e10cd0 }
 
@@ -7559,7 +7559,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1499`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1499) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1499`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1499) — LuaLS declaration
 
 ### `mode` { #symbol-api-lua-v5-generated-property-ccbhookspec-mode-a553b19e5965 }
 
@@ -7571,7 +7571,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1500`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1500) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1500`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1500) — LuaLS declaration
 
 ### `cancellable` { #symbol-api-lua-v5-generated-property-ccbhookspec-cancellable-3b78950a8ddd }
 
@@ -7583,7 +7583,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1501`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1501) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1501`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1501) — LuaLS declaration
 
 ### `requires_write` { #symbol-api-lua-v5-generated-property-ccbhookspec-requires-write-99c78eb166bf }
 
@@ -7595,7 +7595,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1502`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1502) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1502`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1502) — LuaLS declaration
 
 ### `payload_fields` { #symbol-api-lua-v5-generated-property-ccbhookspec-payload-fields-c25c3f7aee07 }
 
@@ -7607,7 +7607,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1503`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1503) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1503`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1503) — LuaLS declaration
 
 ### `result_fields` { #symbol-api-lua-v5-generated-property-ccbhookspec-result-fields-a816c48e41b6 }
 
@@ -7619,7 +7619,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1504`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1504) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1504`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1504) — LuaLS declaration
 
 ## `CcbHooksApi` { #symbol-api-lua-v5-generated-class-ccbhooksapi-2ba4abbefe57 }
 
@@ -7630,7 +7630,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1522`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1522) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1522`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1522) — LuaLS declaration
 
 ## `CcbHordeEntityQueryOptions` { #symbol-api-lua-v5-generated-class-ccbhordeentityqueryoptions-6edd7b32d333 }
 
@@ -7641,7 +7641,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2891`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2891) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2891`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2891) — LuaLS declaration
 
 ### `radius` { #symbol-api-lua-v5-generated-property-ccbhordeentityqueryoptions-radius-53171375bbfe }
 
@@ -7653,7 +7653,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2892`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2892) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2892`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2892) — LuaLS declaration
 
 ### `radius_z` { #symbol-api-lua-v5-generated-property-ccbhordeentityqueryoptions-radius-z-a8797bbd0f23 }
 
@@ -7665,7 +7665,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2893`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2893) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2893`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2893) — LuaLS declaration
 
 ### `flavors` { #symbol-api-lua-v5-generated-property-ccbhordeentityqueryoptions-flavors-f82ee1ab5a05 }
 
@@ -7677,7 +7677,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2894`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2894) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2894`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2894) — LuaLS declaration
 
 ### `monster` { #symbol-api-lua-v5-generated-property-ccbhordeentityqueryoptions-monster-a7c1e52eb2bb }
 
@@ -7689,7 +7689,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2895`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2895) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2895`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2895) — LuaLS declaration
 
 ## `CcbHordesApi` { #symbol-api-lua-v5-generated-class-ccbhordesapi-45b863cd4b33 }
 
@@ -7700,7 +7700,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2915`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2915) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2915`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2915) — LuaLS declaration
 
 ## `CcbI18nApi` { #symbol-api-lua-v5-generated-class-ccbi18napi-1bb8bf8e7452 }
 
@@ -7711,7 +7711,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1106`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1106) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1106`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1106) — LuaLS declaration
 
 ## `CcbInputContextSnapshot` { #symbol-api-lua-v5-generated-class-ccbinputcontextsnapshot-5cc1af83f11d }
 
@@ -7722,7 +7722,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1325`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1325) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1325`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1325) — LuaLS declaration
 
 ### `category` { #symbol-api-lua-v5-generated-property-ccbinputcontextsnapshot-category-3ad2c7fdafdf }
 
@@ -7734,7 +7734,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1326`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1326) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1326`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1326) — LuaLS declaration
 
 ### `hud_scene_id` { #symbol-api-lua-v5-generated-property-ccbinputcontextsnapshot-hud-scene-id-b7b0a9abdaf7 }
 
@@ -7746,7 +7746,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1327`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1327) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1327`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1327) — LuaLS declaration
 
 ### `hud_scene_title` { #symbol-api-lua-v5-generated-property-ccbinputcontextsnapshot-hud-scene-title-90991699d468 }
 
@@ -7758,7 +7758,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1328`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1328) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1328`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1328) — LuaLS declaration
 
 ### `revision` { #symbol-api-lua-v5-generated-property-ccbinputcontextsnapshot-revision-52183b7c39f5 }
 
@@ -7770,7 +7770,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1329`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1329) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1329`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1329) — LuaLS declaration
 
 ### `actions` { #symbol-api-lua-v5-generated-property-ccbinputcontextsnapshot-actions-1afda9426d67 }
 
@@ -7782,7 +7782,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1330`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1330) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1330`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1330) — LuaLS declaration
 
 ### `available` { #symbol-api-lua-v5-generated-property-ccbinputcontextsnapshot-available-b8d60f2d25f2 }
 
@@ -7794,7 +7794,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1331`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1331) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1331`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1331) — LuaLS declaration
 
 ## `CcbInventoryApi` { #symbol-api-lua-v5-generated-class-ccbinventoryapi-dad9d7a12754 }
 
@@ -7805,7 +7805,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2346`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2346) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2346`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2346) — LuaLS declaration
 
 ## `CcbInventoryOptions` { #symbol-api-lua-v5-generated-class-ccbinventoryoptions-399bd7e79810 }
 
@@ -7816,7 +7816,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2336`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2336) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2336`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2336) — LuaLS declaration
 
 ### `max_depth` { #symbol-api-lua-v5-generated-property-ccbinventoryoptions-max-depth-1bde2c343a33 }
 
@@ -7828,7 +7828,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2337`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2337) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2337`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2337) — LuaLS declaration
 
 ### `recursive` { #symbol-api-lua-v5-generated-property-ccbinventoryoptions-recursive-84fdf0c4cf42 }
 
@@ -7840,7 +7840,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2338`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2338) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2338`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2338) — LuaLS declaration
 
 ### `include_wielded` { #symbol-api-lua-v5-generated-property-ccbinventoryoptions-include-wielded-ef5aa9620afb }
 
@@ -7852,7 +7852,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2339`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2339) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2339`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2339) — LuaLS declaration
 
 ### `include_worn` { #symbol-api-lua-v5-generated-property-ccbinventoryoptions-include-worn-4b67f10ace78 }
 
@@ -7864,7 +7864,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2340`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2340) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2340`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2340) — LuaLS declaration
 
 ### `include_carried` { #symbol-api-lua-v5-generated-property-ccbinventoryoptions-include-carried-319906e2a62e }
 
@@ -7876,7 +7876,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2341`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2341) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2341`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2341) — LuaLS declaration
 
 ## `CcbItemContentsOptions` { #symbol-api-lua-v5-generated-class-ccbitemcontentsoptions-5b26b3b80c8f }
 
@@ -7887,7 +7887,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2266`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2266) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2266`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2266) — LuaLS declaration
 
 ### `max_depth` { #symbol-api-lua-v5-generated-property-ccbitemcontentsoptions-max-depth-77812c3c422c }
 
@@ -7899,7 +7899,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2267`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2267) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2267`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2267) — LuaLS declaration
 
 ### `recursive` { #symbol-api-lua-v5-generated-property-ccbitemcontentsoptions-recursive-4b6f86c15c7e }
 
@@ -7911,7 +7911,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2268`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2268) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2268`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2268) — LuaLS declaration
 
 ## `CcbItemPocketOptions` { #symbol-api-lua-v5-generated-class-ccbitempocketoptions-1861f527179d }
 
@@ -7922,7 +7922,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2264`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2264) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2264`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2264) — LuaLS declaration
 
 ## `CcbItemSnapshot` { #symbol-api-lua-v5-generated-class-ccbitemsnapshot-7e1d6042a3cc }
 
@@ -7933,7 +7933,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1215`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1215) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1215`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1215) — LuaLS declaration
 
 ### `uid` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-uid-815d2421bc3b }
 
@@ -7945,7 +7945,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1216`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1216) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1216`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1216) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-id-2f406404f651 }
 
@@ -7957,7 +7957,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1217`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1217) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1217`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1217) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-name-d334c53f5c33 }
 
@@ -7969,7 +7969,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1218`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1218) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1218`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1218) — LuaLS declaration
 
 ### `category_id` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-category-id-1d43ee884303 }
 
@@ -7981,7 +7981,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1219`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1219) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1219`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1219) — LuaLS declaration
 
 ### `category_name` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-category-name-f395e3fdb287 }
 
@@ -7993,7 +7993,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1220`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1220) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1220`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1220) — LuaLS declaration
 
 ### `charges` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-charges-b346fdb6da4d }
 
@@ -8005,7 +8005,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1221`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1221) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1221`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1221) — LuaLS declaration
 
 ### `count_by_charges` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-count-by-charges-401d06809a9a }
 
@@ -8017,7 +8017,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1222`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1222) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1222`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1222) — LuaLS declaration
 
 ### `weight_grams` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-weight-grams-e7c3293f244c }
 
@@ -8029,7 +8029,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1223`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1223) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1223`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1223) — LuaLS declaration
 
 ### `volume_ml` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-volume-ml-68ad0e4f0059 }
 
@@ -8041,7 +8041,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1224`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1224) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1224`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1224) — LuaLS declaration
 
 ### `contents_count` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-contents-count-55840938f2b5 }
 
@@ -8053,7 +8053,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1225`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1225) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1225`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1225) — LuaLS declaration
 
 ### `worn` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-worn-c52a0fb12043 }
 
@@ -8065,7 +8065,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1226`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1226) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1226`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1226) — LuaLS declaration
 
 ### `wielded` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-wielded-23247a9c7724 }
 
@@ -8077,7 +8077,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1227`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1227) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1227`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1227) — LuaLS declaration
 
 ## `CcbItemUpdates` { #symbol-api-lua-v5-generated-class-ccbitemupdates-4d1a81627c32 }
 
@@ -8088,7 +8088,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2270`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2270) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2270`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2270) — LuaLS declaration
 
 ### `charges` { #symbol-api-lua-v5-generated-property-ccbitemupdates-charges-438ddfbca77b }
 
@@ -8100,7 +8100,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2271`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2271) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2271`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2271) — LuaLS declaration
 
 ### `damage` { #symbol-api-lua-v5-generated-property-ccbitemupdates-damage-b4e86f98ea64 }
 
@@ -8112,7 +8112,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2272`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2272) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2272`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2272) — LuaLS declaration
 
 ### `favorite` { #symbol-api-lua-v5-generated-property-ccbitemupdates-favorite-4c524b047156 }
 
@@ -8124,7 +8124,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2273`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2273) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2273`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2273) — LuaLS declaration
 
 ## `CcbItemsApi` { #symbol-api-lua-v5-generated-class-ccbitemsapi-e7595cacba07 }
 
@@ -8135,7 +8135,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2275`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2275) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2275`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2275) — LuaLS declaration
 
 ## `CcbLearnSpellOptions` { #symbol-api-lua-v5-generated-class-ccblearnspelloptions-babcc4f4be04 }
 
@@ -8146,7 +8146,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2445`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2445) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2445`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2445) — LuaLS declaration
 
 ### `force` { #symbol-api-lua-v5-generated-property-ccblearnspelloptions-force-c7b869e8a603 }
 
@@ -8158,7 +8158,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2446`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2446) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2446`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2446) — LuaLS declaration
 
 ### `level` { #symbol-api-lua-v5-generated-property-ccblearnspelloptions-level-43e196d9dbc0 }
 
@@ -8170,7 +8170,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2447`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2447) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2447`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2447) — LuaLS declaration
 
 ### `experience` { #symbol-api-lua-v5-generated-property-ccblearnspelloptions-experience-b6de7add8f8d }
 
@@ -8182,7 +8182,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2448`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2448) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2448`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2448) — LuaLS declaration
 
 ## `CcbLegacyHordeQueryOptions` { #symbol-api-lua-v5-generated-class-ccblegacyhordequeryoptions-0ddf8ec390cf }
 
@@ -8193,7 +8193,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2897`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2897) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2897`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2897) — LuaLS declaration
 
 ### `radius` { #symbol-api-lua-v5-generated-property-ccblegacyhordequeryoptions-radius-4163bc277b90 }
 
@@ -8205,7 +8205,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2898`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2898) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2898`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2898) — LuaLS declaration
 
 ### `radius_z` { #symbol-api-lua-v5-generated-property-ccblegacyhordequeryoptions-radius-z-20ec04eacb0e }
 
@@ -8217,7 +8217,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2899`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2899) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2899`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2899) — LuaLS declaration
 
 ### `horde_only` { #symbol-api-lua-v5-generated-property-ccblegacyhordequeryoptions-horde-only-b3769a983e4a }
 
@@ -8229,7 +8229,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2900`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2900) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2900`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2900) — LuaLS declaration
 
 ## `CcbLegacyHordeSettings` { #symbol-api-lua-v5-generated-class-ccblegacyhordesettings-209e936a3c83 }
 
@@ -8240,7 +8240,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2902`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2902) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2902`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2902) — LuaLS declaration
 
 ### `population` { #symbol-api-lua-v5-generated-property-ccblegacyhordesettings-population-c69d2910e04b }
 
@@ -8252,7 +8252,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2903`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2903) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2903`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2903) — LuaLS declaration
 
 ### `interest` { #symbol-api-lua-v5-generated-property-ccblegacyhordesettings-interest-8bfe24d7d144 }
 
@@ -8264,7 +8264,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2904`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2904) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2904`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2904) — LuaLS declaration
 
 ### `dying` { #symbol-api-lua-v5-generated-property-ccblegacyhordesettings-dying-d9c9ba752052 }
 
@@ -8276,7 +8276,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2905`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2905) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2905`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2905) — LuaLS declaration
 
 ### `horde` { #symbol-api-lua-v5-generated-property-ccblegacyhordesettings-horde-5beae7843f7b }
 
@@ -8288,7 +8288,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2906`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2906) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2906`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2906) — LuaLS declaration
 
 ### `behavior` { #symbol-api-lua-v5-generated-property-ccblegacyhordesettings-behavior-43bbf1bd0a12 }
 
@@ -8300,7 +8300,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2907`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2907) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2907`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2907) — LuaLS declaration
 
 ### `target` { #symbol-api-lua-v5-generated-property-ccblegacyhordesettings-target-d2f02ed31ef6 }
 
@@ -8312,7 +8312,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2908`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2908) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2908`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2908) — LuaLS declaration
 
 ### `nemesis_target` { #symbol-api-lua-v5-generated-property-ccblegacyhordesettings-nemesis-target-f33d79cdca3a }
 
@@ -8324,7 +8324,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2909`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2909) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2909`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2909) — LuaLS declaration
 
 ## `CcbLegacyHordeSpawnOptions` { #symbol-api-lua-v5-generated-class-ccblegacyhordespawnoptions-248f75e01775 }
 
@@ -8335,7 +8335,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2911`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2911) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2911`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2911) — LuaLS declaration
 
 ### `group` { #symbol-api-lua-v5-generated-property-ccblegacyhordespawnoptions-group-d4c1422e5f88 }
 
@@ -8347,7 +8347,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2912`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2912) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2912`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2912) — LuaLS declaration
 
 ### `position` { #symbol-api-lua-v5-generated-property-ccblegacyhordespawnoptions-position-08b8a185095f }
 
@@ -8359,7 +8359,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2913`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2913) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2913`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2913) — LuaLS declaration
 
 ## `CcbMapgenApi` { #symbol-api-lua-v5-generated-class-ccbmapgenapi-ef50aa501aeb }
 
@@ -8370,7 +8370,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1768`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1768) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1768`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1768) — LuaLS declaration
 
 ## `CcbMapgenHookOptions` { #symbol-api-lua-v5-generated-class-ccbmapgenhookoptions-df029fdca804 }
 
@@ -8381,7 +8381,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1749`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1749) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1749`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1749) — LuaLS declaration
 
 ### `terrain_ids` { #symbol-api-lua-v5-generated-property-ccbmapgenhookoptions-terrain-ids-1aa07da13a8f }
 
@@ -8393,7 +8393,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1750`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1750) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1750`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1750) — LuaLS declaration
 
 ### `z_min` { #symbol-api-lua-v5-generated-property-ccbmapgenhookoptions-z-min-19a59922f181 }
 
@@ -8405,7 +8405,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1751`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1751) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1751`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1751) — LuaLS declaration
 
 ### `z_max` { #symbol-api-lua-v5-generated-property-ccbmapgenhookoptions-z-max-ac5dfccf9463 }
 
@@ -8417,7 +8417,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1752`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1752) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1752`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1752) — LuaLS declaration
 
 ## `CcbMapgenLimits` { #symbol-api-lua-v5-generated-class-ccbmapgenlimits-09a4148e1b3d }
 
@@ -8428,7 +8428,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1754`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1754) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1754`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1754) — LuaLS declaration
 
 ### `map_width` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-map-width-42f781d25884 }
 
@@ -8440,7 +8440,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1755`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1755) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1755`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1755) — LuaLS declaration
 
 ### `map_height` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-map-height-47270329c8df }
 
@@ -8452,7 +8452,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1756`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1756) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1756`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1756) — LuaLS declaration
 
 ### `operations` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-operations-b884643bbb4a }
 
@@ -8464,7 +8464,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1757`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1757) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1757`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1757) — LuaLS declaration
 
 ### `nested_generators` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-nested-generators-d41330610962 }
 
@@ -8476,7 +8476,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1758`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1758) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1758`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1758) — LuaLS declaration
 
 ### `full_generators` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-full-generators-d403d7477e2e }
 
@@ -8488,7 +8488,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1759`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1759) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1759`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1759) — LuaLS declaration
 
 ### `handlers` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-handlers-ab2b1127f857 }
 
@@ -8500,7 +8500,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1760`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1760) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1760`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1760) — LuaLS declaration
 
 ### `registered` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-registered-13a2eade9cf2 }
 
@@ -8512,7 +8512,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1761`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1761) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1761`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1761) — LuaLS declaration
 
 ### `priority_min` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-priority-min-b7492ae26a1d }
 
@@ -8524,7 +8524,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1762`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1762) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1762`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1762) — LuaLS declaration
 
 ### `priority_max` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-priority-max-17cf5c2284a5 }
 
@@ -8536,7 +8536,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1763`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1763) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1763`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1763) — LuaLS declaration
 
 ### `z_min` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-z-min-52ee9658b567 }
 
@@ -8548,7 +8548,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1764`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1764) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1764`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1764) — LuaLS declaration
 
 ### `z_max` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-z-max-41db7bca80be }
 
@@ -8560,7 +8560,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1765`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1765) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1765`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1765) — LuaLS declaration
 
 ### `terrain_ids` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-terrain-ids-dafd29863d14 }
 
@@ -8572,7 +8572,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1766`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1766) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1766`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1766) — LuaLS declaration
 
 ## `CcbMartialArtDefinition` { #symbol-api-lua-v5-generated-class-ccbmartialartdefinition-313d3523a90c }
 
@@ -8583,7 +8583,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3402`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3402) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3402`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3402) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-id-74ccfc9e448b }
 
@@ -8595,7 +8595,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3403`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3403) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3403`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3403) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-name-5619974cd93a }
 
@@ -8607,7 +8607,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3404`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3404) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3404`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3404) — LuaLS declaration
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-description-49671e2a59b5 }
 
@@ -8619,7 +8619,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3405`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3405) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3405`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3405) — LuaLS declaration
 
 ### `priority` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-priority-16da39090b82 }
 
@@ -8631,7 +8631,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3406`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3406) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3406`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3406) — LuaLS declaration
 
 ### `teachable` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-teachable-1e1e44b53f12 }
 
@@ -8643,7 +8643,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3407`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3407) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3407`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3407) — LuaLS declaration
 
 ### `learn_difficulty` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-learn-difficulty-2d008ac5040e }
 
@@ -8655,7 +8655,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3408`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3408) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3408`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3408) — LuaLS declaration
 
 ### `arm_block` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-arm-block-0460c7773839 }
 
@@ -8667,7 +8667,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3409`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3409) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3409`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3409) — LuaLS declaration
 
 ### `leg_block` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-leg-block-7d46cbeb1737 }
 
@@ -8679,7 +8679,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3410`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3410) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3410`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3410) — LuaLS declaration
 
 ### `nonstandard_block` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-nonstandard-block-0c62b635275b }
 
@@ -8691,7 +8691,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3411`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3411) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3411`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3411) — LuaLS declaration
 
 ### `primary_skill` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-primary-skill-e38eb08e96fe }
 
@@ -8703,7 +8703,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3412`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3412) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3412`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3412) — LuaLS declaration
 
 ### `strictly_unarmed` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-strictly-unarmed-d4b7396588cd }
 
@@ -8715,7 +8715,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3413`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3413) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3413`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3413) — LuaLS declaration
 
 ### `strictly_melee` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-strictly-melee-ad05fc7fec13 }
 
@@ -8727,7 +8727,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3414`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3414) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3414`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3414) — LuaLS declaration
 
 ### `allow_all_weapons` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-allow-all-weapons-205dd4b35daa }
 
@@ -8739,7 +8739,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3415`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3415) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3415`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3415) — LuaLS declaration
 
 ### `force_unarmed` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-force-unarmed-e22e2e96f633 }
 
@@ -8751,7 +8751,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3416`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3416) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3416`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3416) — LuaLS declaration
 
 ### `prevent_weapon_blocking` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-prevent-weapon-blocking-06ca1be8e321 }
 
@@ -8763,7 +8763,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3417`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3417) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3417`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3417) — LuaLS declaration
 
 ### `techniques` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-techniques-ec1b0756c1d6 }
 
@@ -8775,7 +8775,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3418`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3418) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3418`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3418) — LuaLS declaration
 
 ### `weapons` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-weapons-5ff5cec11b88 }
 
@@ -8787,7 +8787,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3419`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3419) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3419`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3419) — LuaLS declaration
 
 ### `weapon_categories` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-weapon-categories-b703fffccab0 }
 
@@ -8799,7 +8799,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3420`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3420) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3420`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3420) — LuaLS declaration
 
 ## `CcbMartialArtListOptions` { #symbol-api-lua-v5-generated-class-ccbmartialartlistoptions-d3e6148f51e8 }
 
@@ -8810,7 +8810,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3434`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3434) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3434`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3434) — LuaLS declaration
 
 ### `teachable_only` { #symbol-api-lua-v5-generated-property-ccbmartialartlistoptions-teachable-only-a4b5958532e2 }
 
@@ -8822,7 +8822,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3435`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3435) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3435`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3435) — LuaLS declaration
 
 ## `CcbMartialArtState` { #symbol-api-lua-v5-generated-class-ccbmartialartstate-0723feece051 }
 
@@ -8833,7 +8833,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3422`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3422) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3422`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3422) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbmartialartstate-id-01d474375838 }
 
@@ -8845,7 +8845,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3423`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3423) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3423`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3423) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbmartialartstate-name-7b05c4ab37e9 }
 
@@ -8857,7 +8857,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3424`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3424) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3424`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3424) — LuaLS declaration
 
 ### `known` { #symbol-api-lua-v5-generated-property-ccbmartialartstate-known-ec37e735bdd0 }
 
@@ -8869,7 +8869,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3425`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3425) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3425`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3425) — LuaLS declaration
 
 ### `selected` { #symbol-api-lua-v5-generated-property-ccbmartialartstate-selected-5e30d06eb315 }
 
@@ -8881,7 +8881,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3426`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3426) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3426`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3426) — LuaLS declaration
 
 ### `teachable` { #symbol-api-lua-v5-generated-property-ccbmartialartstate-teachable-a1acb2d67a90 }
 
@@ -8893,7 +8893,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3427`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3427) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3427`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3427) — LuaLS declaration
 
 ### `strictly_unarmed` { #symbol-api-lua-v5-generated-property-ccbmartialartstate-strictly-unarmed-24f63f62d599 }
 
@@ -8905,7 +8905,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3428`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3428) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3428`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3428) — LuaLS declaration
 
 ### `strictly_melee` { #symbol-api-lua-v5-generated-property-ccbmartialartstate-strictly-melee-8b0de728f2f1 }
 
@@ -8917,7 +8917,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3429`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3429) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3429`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3429) — LuaLS declaration
 
 ### `allow_all_weapons` { #symbol-api-lua-v5-generated-property-ccbmartialartstate-allow-all-weapons-710bbee3a9dc }
 
@@ -8929,7 +8929,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3430`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3430) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3430`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3430) — LuaLS declaration
 
 ### `force_unarmed` { #symbol-api-lua-v5-generated-property-ccbmartialartstate-force-unarmed-db615e1cd317 }
 
@@ -8941,7 +8941,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3431`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3431) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3431`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3431) — LuaLS declaration
 
 ### `keep_hands_free` { #symbol-api-lua-v5-generated-property-ccbmartialartstate-keep-hands-free-0361426cc5c9 }
 
@@ -8953,7 +8953,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3432`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3432) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3432`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3432) — LuaLS declaration
 
 ## `CcbMartialArtsApi` { #symbol-api-lua-v5-generated-class-ccbmartialartsapi-ef54d7525f95 }
 
@@ -8964,7 +8964,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3437`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3437) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3437`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3437) — LuaLS declaration
 
 ## `CcbMessageEntry` { #symbol-api-lua-v5-generated-class-ccbmessageentry-2edc77492ca1 }
 
@@ -8975,7 +8975,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1916`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1916) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1916`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1916) — LuaLS declaration
 
 ### `time` { #symbol-api-lua-v5-generated-property-ccbmessageentry-time-6cd12c672784 }
 
@@ -8987,7 +8987,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1917`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1917) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1917`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1917) — LuaLS declaration
 
 ### `text` { #symbol-api-lua-v5-generated-property-ccbmessageentry-text-f73eb4e97c48 }
 
@@ -8999,7 +8999,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1918`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1918) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1918`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1918) — LuaLS declaration
 
 ## `CcbMessagePage` { #symbol-api-lua-v5-generated-class-ccbmessagepage-f6c812e9d129 }
 
@@ -9010,7 +9010,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1920`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1920) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1920`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1920) — LuaLS declaration
 
 ### `items` { #symbol-api-lua-v5-generated-property-ccbmessagepage-items-5af1613fa7c7 }
 
@@ -9022,7 +9022,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1921`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1921) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1921`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1921) — LuaLS declaration
 
 ### `total` { #symbol-api-lua-v5-generated-property-ccbmessagepage-total-2039e81b2e9d }
 
@@ -9034,7 +9034,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1922`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1922) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1922`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1922) — LuaLS declaration
 
 ### `returned` { #symbol-api-lua-v5-generated-property-ccbmessagepage-returned-d45b1ddcc7b5 }
 
@@ -9046,7 +9046,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1923`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1923) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1923`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1923) — LuaLS declaration
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbmessagepage-limit-79e9578a3be1 }
 
@@ -9058,7 +9058,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1924`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1924) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1924`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1924) — LuaLS declaration
 
 ### `truncated` { #symbol-api-lua-v5-generated-property-ccbmessagepage-truncated-2af61f885152 }
 
@@ -9070,7 +9070,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1925`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1925) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1925`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1925) — LuaLS declaration
 
 ## `CcbMessagesApi` { #symbol-api-lua-v5-generated-class-ccbmessagesapi-f50689b92b94 }
 
@@ -9081,7 +9081,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1927`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1927) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1927`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1927) — LuaLS declaration
 
 ## `CcbMissionListOptions` { #symbol-api-lua-v5-generated-class-ccbmissionlistoptions-ed9a2f233c60 }
 
@@ -9092,7 +9092,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2557`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2557) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2557`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2557) — LuaLS declaration
 
 ### `scope` { #symbol-api-lua-v5-generated-property-ccbmissionlistoptions-scope-77f8eb1a89be }
 
@@ -9104,7 +9104,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2558`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2558) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2558`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2558) — LuaLS declaration
 
 ### `status` { #symbol-api-lua-v5-generated-property-ccbmissionlistoptions-status-28b9b4fa5df6 }
 
@@ -9116,7 +9116,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2559`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2559) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2559`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2559) — LuaLS declaration
 
 ## `CcbMissionSnapshot` { #symbol-api-lua-v5-generated-class-ccbmissionsnapshot-020a88e83304 }
 
@@ -9127,7 +9127,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1281`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1281) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1281`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1281) — LuaLS declaration
 
 ### `uid` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-uid-b42b15eab906 }
 
@@ -9139,7 +9139,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1282`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1282) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1282`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1282) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-id-ca9fbf9e190c }
 
@@ -9151,7 +9151,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1283`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1283) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1283`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1283) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-name-91df25f8d8a5 }
 
@@ -9163,7 +9163,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1284`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1284) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1284`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1284) — LuaLS declaration
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-description-c9ba10fb0bfb }
 
@@ -9175,7 +9175,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1285`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1285) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1285`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1285) — LuaLS declaration
 
 ### `status` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-status-d2be3372911a }
 
@@ -9187,7 +9187,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1286`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1286) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1286`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1286) — LuaLS declaration
 
 ### `selected` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-selected-1ba19ca5571c }
 
@@ -9199,7 +9199,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1287`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1287) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1287`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1287) — LuaLS declaration
 
 ### `has_deadline` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-has-deadline-6f652bbabec0 }
 
@@ -9211,7 +9211,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1288`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1288) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1288`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1288) — LuaLS declaration
 
 ### `deadline_turn` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-deadline-turn-b4121cfae74a }
 
@@ -9223,7 +9223,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1289`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1289) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1289`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1289) — LuaLS declaration
 
 ### `has_target` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-has-target-2a3de34f717a }
 
@@ -9235,7 +9235,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1290`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1290) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1290`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1290) — LuaLS declaration
 
 ### `target_x` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-target-x-349e281522a1 }
 
@@ -9247,7 +9247,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1291`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1291) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1291`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1291) — LuaLS declaration
 
 ### `target_y` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-target-y-bddba769ea10 }
 
@@ -9259,7 +9259,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1292`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1292) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1292`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1292) — LuaLS declaration
 
 ### `target_z` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-target-z-a9fed48d6fff }
 
@@ -9271,7 +9271,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1293`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1293) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1293`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1293) — LuaLS declaration
 
 ## `CcbMissionsApi` { #symbol-api-lua-v5-generated-class-ccbmissionsapi-725828335e3a }
 
@@ -9282,7 +9282,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2561`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2561) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2561`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2561) — LuaLS declaration
 
 ## `CcbModulesApi` { #symbol-api-lua-v5-generated-class-ccbmodulesapi-fa2ea836bb59 }
 
@@ -9293,7 +9293,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1052`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1052) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1052`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1052) — LuaLS declaration
 
 ## `CcbMovementMode` { #symbol-api-lua-v5-generated-class-ccbmovementmode-8c41be6616e0 }
 
@@ -9304,7 +9304,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1179`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1179) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1179`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1179) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbmovementmode-id-0d2c288f2ff0 }
 
@@ -9316,7 +9316,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1180`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1180) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1180`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1180) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbmovementmode-name-a9a2fad21040 }
 
@@ -9328,7 +9328,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1181`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1181) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1181`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1181) — LuaLS declaration
 
 ### `available` { #symbol-api-lua-v5-generated-property-ccbmovementmode-available-988f49a3959a }
 
@@ -9340,7 +9340,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1182`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1182) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1182`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1182) — LuaLS declaration
 
 ### `current` { #symbol-api-lua-v5-generated-property-ccbmovementmode-current-d6cf88622717 }
 
@@ -9352,7 +9352,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1183`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1183) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1183`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1183) — LuaLS declaration
 
 ### `desired` { #symbol-api-lua-v5-generated-property-ccbmovementmode-desired-9e91df544d55 }
 
@@ -9364,7 +9364,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1184`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1184) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1184`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1184) — LuaLS declaration
 
 ### `switch_moves` { #symbol-api-lua-v5-generated-property-ccbmovementmode-switch-moves-39a1d8681150 }
 
@@ -9376,7 +9376,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1185`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1185) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1185`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1185) — LuaLS declaration
 
 ### `switch_seconds` { #symbol-api-lua-v5-generated-property-ccbmovementmode-switch-seconds-6c2647974b0b }
 
@@ -9388,7 +9388,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1186`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1186) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1186`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1186) — LuaLS declaration
 
 ## `CcbMovementModesSnapshot` { #symbol-api-lua-v5-generated-class-ccbmovementmodessnapshot-a7fe51fe196e }
 
@@ -9399,7 +9399,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1188`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1188) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1188`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1188) — LuaLS declaration
 
 ### `items` { #symbol-api-lua-v5-generated-property-ccbmovementmodessnapshot-items-3f787abc6cc4 }
 
@@ -9411,7 +9411,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1189) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1189) — LuaLS declaration
 
 ### `count` { #symbol-api-lua-v5-generated-property-ccbmovementmodessnapshot-count-0a931385f91b }
 
@@ -9423,7 +9423,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1190`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1190) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1190`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1190) — LuaLS declaration
 
 ### `current_id` { #symbol-api-lua-v5-generated-property-ccbmovementmodessnapshot-current-id-77a0cf3ab22e }
 
@@ -9435,7 +9435,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1191`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1191) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1191`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1191) — LuaLS declaration
 
 ### `desired_id` { #symbol-api-lua-v5-generated-property-ccbmovementmodessnapshot-desired-id-36356ba6ea81 }
 
@@ -9447,7 +9447,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1192`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1192) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1192`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1192) — LuaLS declaration
 
 ## `CcbMutationListOptions` { #symbol-api-lua-v5-generated-class-ccbmutationlistoptions-978bc1d9a950 }
 
@@ -9458,7 +9458,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2392`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2392) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2392`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2392) — LuaLS declaration
 
 ### `include_hidden` { #symbol-api-lua-v5-generated-property-ccbmutationlistoptions-include-hidden-1ea66daf8263 }
 
@@ -9470,7 +9470,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2393`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2393) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2393`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2393) — LuaLS declaration
 
 ### `include_enchantment` { #symbol-api-lua-v5-generated-property-ccbmutationlistoptions-include-enchantment-ac4b1c1a1c96 }
 
@@ -9482,7 +9482,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2394`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2394) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2394`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2394) — LuaLS declaration
 
 ## `CcbMutationSnapshot` { #symbol-api-lua-v5-generated-class-ccbmutationsnapshot-e0f0af6ff198 }
 
@@ -9493,7 +9493,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1257`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1257) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1257`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1257) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbmutationsnapshot-id-e366b6b5dd2c }
 
@@ -9505,7 +9505,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1258`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1258) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1258`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1258) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbmutationsnapshot-name-998ca30aced0 }
 
@@ -9517,7 +9517,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1259`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1259) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1259`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1259) — LuaLS declaration
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbmutationsnapshot-description-ef9031d298f2 }
 
@@ -9529,7 +9529,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1260`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1260) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1260`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1260) — LuaLS declaration
 
 ### `active` { #symbol-api-lua-v5-generated-property-ccbmutationsnapshot-active-34424c4eddea }
 
@@ -9541,7 +9541,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1261`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1261) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1261`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1261) — LuaLS declaration
 
 ### `activatable` { #symbol-api-lua-v5-generated-property-ccbmutationsnapshot-activatable-5a14709e1ddf }
 
@@ -9553,7 +9553,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1262`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1262) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1262`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1262) — LuaLS declaration
 
 ### `base_trait` { #symbol-api-lua-v5-generated-property-ccbmutationsnapshot-base-trait-7721d580163a }
 
@@ -9565,7 +9565,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1263`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1263) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1263`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1263) — LuaLS declaration
 
 ### `purifiable` { #symbol-api-lua-v5-generated-property-ccbmutationsnapshot-purifiable-23415c48cc2e }
 
@@ -9577,7 +9577,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1264`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1264) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1264`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1264) — LuaLS declaration
 
 ### `threshold` { #symbol-api-lua-v5-generated-property-ccbmutationsnapshot-threshold-c25916da9fd1 }
 
@@ -9589,7 +9589,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1265`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1265) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1265`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1265) — LuaLS declaration
 
 ### `points` { #symbol-api-lua-v5-generated-property-ccbmutationsnapshot-points-61f46928cdf2 }
 
@@ -9601,7 +9601,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1266`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1266) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1266`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1266) — LuaLS declaration
 
 ## `CcbMutationsApi` { #symbol-api-lua-v5-generated-class-ccbmutationsapi-27d1cc6b3189 }
 
@@ -9612,7 +9612,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2396`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2396) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2396`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2396) — LuaLS declaration
 
 ## `CcbNativeEventDescription` { #symbol-api-lua-v5-generated-class-ccbnativeeventdescription-114bc89b39e9 }
 
@@ -9623,7 +9623,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:932`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L932) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:932`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L932) — LuaLS declaration
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbnativeeventdescription-type-da4119353858 }
 
@@ -9635,7 +9635,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:933`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L933) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:933`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L933) — LuaLS declaration
 
 ### `fields` { #symbol-api-lua-v5-generated-property-ccbnativeeventdescription-fields-bacee18cd21a }
 
@@ -9647,7 +9647,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:934`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L934) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:934`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L934) — LuaLS declaration
 
 ### `subscribable` { #symbol-api-lua-v5-generated-property-ccbnativeeventdescription-subscribable-c29f0cc408ac }
 
@@ -9659,7 +9659,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:935`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L935) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:935`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L935) — LuaLS declaration
 
 ### `emittable` { #symbol-api-lua-v5-generated-property-ccbnativeeventdescription-emittable-9482cbf64ee6 }
 
@@ -9671,7 +9671,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:936`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L936) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:936`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L936) — LuaLS declaration
 
 ## `CcbNativeEventField` { #symbol-api-lua-v5-generated-class-ccbnativeeventfield-e3dd1af8ad37 }
 
@@ -9682,7 +9682,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:927`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L927) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:927`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L927) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbnativeeventfield-name-4bae31642786 }
 
@@ -9694,7 +9694,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:928`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L928) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:928`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L928) — LuaLS declaration
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbnativeeventfield-type-0647d71aec34 }
 
@@ -9706,7 +9706,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:929`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L929) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:929`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L929) — LuaLS declaration
 
 ### `lua_type` { #symbol-api-lua-v5-generated-property-ccbnativeeventfield-lua-type-514a5b49fb5b }
 
@@ -9718,7 +9718,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:930`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L930) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:930`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L930) — LuaLS declaration
 
 ## `CcbNativeEventsApi` { #symbol-api-lua-v5-generated-class-ccbnativeeventsapi-bfa632c69756 }
 
@@ -9729,7 +9729,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:974`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L974) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:974`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L974) — LuaLS declaration
 
 ## `CcbNativeScore` { #symbol-api-lua-v5-generated-class-ccbnativescore-5da2a88846dc }
 
@@ -9740,7 +9740,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3663`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3663) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3663`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3663) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbnativescore-id-0f53bb751999 }
 
@@ -9752,7 +9752,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3664`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3664) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3664`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3664) — LuaLS declaration
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbnativescore-description-d278b785c5b3 }
 
@@ -9764,7 +9764,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3665`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3665) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3665`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3665) — LuaLS declaration
 
 ### `value` { #symbol-api-lua-v5-generated-property-ccbnativescore-value-81434698605a }
 
@@ -9776,7 +9776,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3666`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3666) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3666`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3666) — LuaLS declaration
 
 ### `valid` { #symbol-api-lua-v5-generated-property-ccbnativescore-valid-174e28c38963 }
 
@@ -9788,7 +9788,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3667`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3667) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3667`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3667) — LuaLS declaration
 
 ### `loaded` { #symbol-api-lua-v5-generated-property-ccbnativescore-loaded-657dcf529a4b }
 
@@ -9800,7 +9800,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3668`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3668) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3668`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3668) — LuaLS declaration
 
 ### `sources` { #symbol-api-lua-v5-generated-property-ccbnativescore-sources-f5a705017930 }
 
@@ -9812,7 +9812,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3669`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3669) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3669`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3669) — LuaLS declaration
 
 ## `CcbNativeSkillDefinition` { #symbol-api-lua-v5-generated-class-ccbnativeskilldefinition-bb42f120d59a }
 
@@ -9823,7 +9823,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3002`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3002) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3002`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3002) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbnativeskilldefinition-id-875d5147368a }
 
@@ -9835,7 +9835,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3003`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3003) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3003`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3003) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbnativeskilldefinition-name-791a6fa43e01 }
 
@@ -9847,7 +9847,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3004`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3004) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3004`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3004) — LuaLS declaration
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbnativeskilldefinition-description-21859b430d7f }
 
@@ -9859,7 +9859,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3005`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3005) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3005`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3005) — LuaLS declaration
 
 ### `display_type` { #symbol-api-lua-v5-generated-property-ccbnativeskilldefinition-display-type-1e90f1e0bdfd }
 
@@ -9871,7 +9871,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3006`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3006) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3006`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3006) — LuaLS declaration
 
 ### `sort_rank` { #symbol-api-lua-v5-generated-property-ccbnativeskilldefinition-sort-rank-31857c7e6325 }
 
@@ -9883,7 +9883,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3007`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3007) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3007`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3007) — LuaLS declaration
 
 ### `teachable` { #symbol-api-lua-v5-generated-property-ccbnativeskilldefinition-teachable-121784c6600c }
 
@@ -9895,7 +9895,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3008`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3008) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3008`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3008) — LuaLS declaration
 
 ### `obsolete` { #symbol-api-lua-v5-generated-property-ccbnativeskilldefinition-obsolete-6be5cabcbb45 }
 
@@ -9907,7 +9907,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3009`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3009) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3009`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3009) — LuaLS declaration
 
 ### `combat` { #symbol-api-lua-v5-generated-property-ccbnativeskilldefinition-combat-99c3cd94d45c }
 
@@ -9919,7 +9919,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3010`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3010) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3010`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3010) — LuaLS declaration
 
 ### `contextual` { #symbol-api-lua-v5-generated-property-ccbnativeskilldefinition-contextual-9a22ac3f969d }
 
@@ -9931,7 +9931,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3011`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3011) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3011`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3011) — LuaLS declaration
 
 ### `consumes_focus` { #symbol-api-lua-v5-generated-property-ccbnativeskilldefinition-consumes-focus-eccc8072543f }
 
@@ -9943,7 +9943,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3012`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3012) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3012`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3012) — LuaLS declaration
 
 ## `CcbNativeSkillState` { #symbol-api-lua-v5-generated-class-ccbnativeskillstate-8515ce918368 }
 
@@ -9954,7 +9954,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3014`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3014) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3014`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3014) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-id-904e6f87a0fa }
 
@@ -9966,7 +9966,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3015`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3015) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3015`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3015) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-name-eec6ea306344 }
 
@@ -9978,7 +9978,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3016`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3016) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3016`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3016) — LuaLS declaration
 
 ### `practical` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-practical-a9d208ea01d8 }
 
@@ -9990,7 +9990,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3017`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3017) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3017`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3017) — LuaLS declaration
 
 ### `practical_effective` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-practical-effective-6c2536ac95d3 }
 
@@ -10002,7 +10002,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3018`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3018) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3018`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3018) — LuaLS declaration
 
 ### `practical_exercise_percent` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-practical-exercise-percent-4e4feff7f252 }
 
@@ -10014,7 +10014,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3019`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3019) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3019`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3019) — LuaLS declaration
 
 ### `practical_exercise_raw` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-practical-exercise-raw-ff93793f7291 }
 
@@ -10026,7 +10026,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3020`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3020) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3020`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3020) — LuaLS declaration
 
 ### `knowledge` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-knowledge-c590e9bc179c }
 
@@ -10038,7 +10038,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3021`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3021) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3021`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3021) — LuaLS declaration
 
 ### `knowledge_experience_percent` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-knowledge-experience-percent-ab49e6df3576 }
 
@@ -10050,7 +10050,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3022`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3022) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3022`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3022) — LuaLS declaration
 
 ### `knowledge_experience_raw` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-knowledge-experience-raw-675a03993ba8 }
 
@@ -10062,7 +10062,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3023`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3023) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3023`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3023) — LuaLS declaration
 
 ### `rust_accumulator` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-rust-accumulator-b2d4e2ba5d3b }
 
@@ -10074,7 +10074,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3024`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3024) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3024`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3024) — LuaLS declaration
 
 ### `rusty` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-rusty-514764ebbfed }
 
@@ -10086,7 +10086,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3025`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3025) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3025`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3025) — LuaLS declaration
 
 ### `training` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-training-5f25b28ade0d }
 
@@ -10098,7 +10098,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3026`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3026) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3026`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3026) — LuaLS declaration
 
 ### `can_train` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-can-train-89728c9881e2 }
 
@@ -10110,7 +10110,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3027`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3027) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3027`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3027) — LuaLS declaration
 
 ### `available` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-available-7c262f179b0e }
 
@@ -10122,7 +10122,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3028`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3028) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3028`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3028) — LuaLS declaration
 
 ### `practical_description` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-practical-description-2b780da03d71 }
 
@@ -10134,7 +10134,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3029`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3029) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3029`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3029) — LuaLS declaration
 
 ### `knowledge_description` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-knowledge-description-bc2b458bf037 }
 
@@ -10146,7 +10146,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3030`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3030) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3030`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3030) — LuaLS declaration
 
 ### `maximum_level` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-maximum-level-72e44a482626 }
 
@@ -10158,7 +10158,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3031`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3031) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3031`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3031) — LuaLS declaration
 
 ## `CcbNearbyOptions` { #symbol-api-lua-v5-generated-class-ccbnearbyoptions-a3b9b8f69d5c }
 
@@ -10169,7 +10169,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2075`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2075) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2075`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2075) — LuaLS declaration
 
 ### `radius` { #symbol-api-lua-v5-generated-property-ccbnearbyoptions-radius-d6d91b1b5a7e }
 
@@ -10181,7 +10181,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2076`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2076) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2076`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2076) — LuaLS declaration
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbnearbyoptions-limit-8be68f6b7aa0 }
 
@@ -10193,7 +10193,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2077`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2077) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2077`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2077) — LuaLS declaration
 
 ### `visible_only` { #symbol-api-lua-v5-generated-property-ccbnearbyoptions-visible-only-32e295b90442 }
 
@@ -10205,7 +10205,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2078`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2078) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2078`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2078) — LuaLS declaration
 
 ### `include_avatar` { #symbol-api-lua-v5-generated-property-ccbnearbyoptions-include-avatar-0d0b52c17fe7 }
 
@@ -10217,7 +10217,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2079`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2079) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2079`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2079) — LuaLS declaration
 
 ### `include_hallucinations` { #symbol-api-lua-v5-generated-property-ccbnearbyoptions-include-hallucinations-0007e22ce9eb }
 
@@ -10229,7 +10229,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2080`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2080) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2080`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2080) — LuaLS declaration
 
 ## `CcbNeedAdjustments` { #symbol-api-lua-v5-generated-class-ccbneedadjustments-872de3b13f1b }
 
@@ -10240,7 +10240,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3336`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3336) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3336`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3336) — LuaLS declaration
 
 ### `hunger` { #symbol-api-lua-v5-generated-property-ccbneedadjustments-hunger-d3b6b1f2e4f4 }
 
@@ -10252,7 +10252,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3337`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3337) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3337`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3337) — LuaLS declaration
 
 ### `thirst` { #symbol-api-lua-v5-generated-property-ccbneedadjustments-thirst-77a32840aa5e }
 
@@ -10264,7 +10264,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3338`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3338) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3338`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3338) — LuaLS declaration
 
 ### `sleepiness` { #symbol-api-lua-v5-generated-property-ccbneedadjustments-sleepiness-654497e55340 }
 
@@ -10276,7 +10276,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3339`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3339) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3339`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3339) — LuaLS declaration
 
 ### `sleep_deprivation` { #symbol-api-lua-v5-generated-property-ccbneedadjustments-sleep-deprivation-c7959929545f }
 
@@ -10288,7 +10288,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3340`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3340) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3340`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3340) — LuaLS declaration
 
 ## `CcbNeedsApi` { #symbol-api-lua-v5-generated-class-ccbneedsapi-2b557a005aee }
 
@@ -10299,7 +10299,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3354`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3354) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3354`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3354) — LuaLS declaration
 
 ## `CcbNeedsSnapshot` { #symbol-api-lua-v5-generated-class-ccbneedssnapshot-81d84e6f5aff }
 
@@ -10310,7 +10310,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3319`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3319) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3319`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3319) — LuaLS declaration
 
 ### `hunger` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-hunger-cf9d25580a59 }
 
@@ -10322,7 +10322,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3320`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3320) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3320`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3320) — LuaLS declaration
 
 ### `starvation` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-starvation-de7cb9b7f9a7 }
 
@@ -10334,7 +10334,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3321`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3321) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3321`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3321) — LuaLS declaration
 
 ### `thirst` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-thirst-7d3da6f60cd8 }
 
@@ -10346,7 +10346,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3322`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3322) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3322`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3322) — LuaLS declaration
 
 ### `instant_thirst` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-instant-thirst-42a92e333f42 }
 
@@ -10358,7 +10358,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3323`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3323) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3323`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3323) — LuaLS declaration
 
 ### `sleepiness` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-sleepiness-f7b34050ae05 }
 
@@ -10370,7 +10370,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3324`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3324) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3324`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3324) — LuaLS declaration
 
 ### `sleep_deprivation` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-sleep-deprivation-928b314eaa46 }
 
@@ -10382,7 +10382,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3325`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3325) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3325`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3325) — LuaLS declaration
 
 ### `stored_kcal` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-stored-kcal-3f57d2c194ea }
 
@@ -10394,7 +10394,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3326`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3326) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3326`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3326) — LuaLS declaration
 
 ### `healthy_kcal` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-healthy-kcal-5a800590162b }
 
@@ -10406,7 +10406,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3327`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3327) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3327`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3327) — LuaLS declaration
 
 ### `kcal_fraction` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-kcal-fraction-e2a8737bd894 }
 
@@ -10418,7 +10418,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3328`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3328) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3328`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3328) — LuaLS declaration
 
 ### `kcal_speed_penalty` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-kcal-speed-penalty-b7650b11afe7 }
 
@@ -10430,7 +10430,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3329`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3329) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3329`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3329) — LuaLS declaration
 
 ### `daily_sleep` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-daily-sleep-4c04e5b485f0 }
 
@@ -10442,7 +10442,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3330`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3330) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3330`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3330) — LuaLS declaration
 
 ### `continuous_sleep` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-continuous-sleep-23b6f6674646 }
 
@@ -10454,7 +10454,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3331`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3331) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3331`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3331) — LuaLS declaration
 
 ### `lifestyle` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-lifestyle-c8694411cce2 }
 
@@ -10466,7 +10466,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3332`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3332) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3332`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3332) — LuaLS declaration
 
 ### `daily_health` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-daily-health-ce462f54af2a }
 
@@ -10478,7 +10478,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3333`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3333) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3333`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3333) — LuaLS declaration
 
 ### `health_tally` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-health-tally-7b81adeff076 }
 
@@ -10490,7 +10490,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3334`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3334) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3334`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3334) — LuaLS declaration
 
 ## `CcbNpcClassDefinition` { #symbol-api-lua-v5-generated-class-ccbnpcclassdefinition-c45b6fd8fd3b }
 
@@ -10501,7 +10501,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3852`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3852) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3852`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3852) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbnpcclassdefinition-id-3bf9bd92e23c }
 
@@ -10513,7 +10513,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3853`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3853) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3853`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3853) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbnpcclassdefinition-name-d747a5d52e3e }
 
@@ -10525,7 +10525,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3854`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3854) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3854`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3854) — LuaLS declaration
 
 ### `job_description` { #symbol-api-lua-v5-generated-property-ccbnpcclassdefinition-job-description-67f5e52e5df4 }
 
@@ -10537,7 +10537,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3855`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3855) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3855`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3855) — LuaLS declaration
 
 ### `common` { #symbol-api-lua-v5-generated-property-ccbnpcclassdefinition-common-f935cae6052f }
 
@@ -10549,7 +10549,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3856`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3856) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3856`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3856) — LuaLS declaration
 
 ### `sells_belongings` { #symbol-api-lua-v5-generated-property-ccbnpcclassdefinition-sells-belongings-4f1713a8ab4a }
 
@@ -10561,7 +10561,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3857`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3857) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3857`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3857) — LuaLS declaration
 
 ### `restock_interval` { #symbol-api-lua-v5-generated-property-ccbnpcclassdefinition-restock-interval-f3594248be17 }
 
@@ -10573,7 +10573,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3858`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3858) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3858`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3858) — LuaLS declaration
 
 ### `work_hours` { #symbol-api-lua-v5-generated-property-ccbnpcclassdefinition-work-hours-51388cd19a3f }
 
@@ -10585,7 +10585,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3859`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3859) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3859`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3859) — LuaLS declaration
 
 ### `shop_item_group_count` { #symbol-api-lua-v5-generated-property-ccbnpcclassdefinition-shop-item-group-count-677c9e3844cc }
 
@@ -10597,7 +10597,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3860`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3860) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3860`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3860) — LuaLS declaration
 
 ### `starting_spells` { #symbol-api-lua-v5-generated-property-ccbnpcclassdefinition-starting-spells-476653580ffe }
 
@@ -10609,7 +10609,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3861`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3861) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3861`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3861) — LuaLS declaration
 
 ### `starting_bionics` { #symbol-api-lua-v5-generated-property-ccbnpcclassdefinition-starting-bionics-96145e3414be }
 
@@ -10621,7 +10621,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3862`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3862) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3862`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3862) — LuaLS declaration
 
 ### `starting_proficiencies` { #symbol-api-lua-v5-generated-property-ccbnpcclassdefinition-starting-proficiencies-425539c8f2da }
 
@@ -10633,7 +10633,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3863`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3863) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3863`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3863) — LuaLS declaration
 
 ## `CcbNpcOpinion` { #symbol-api-lua-v5-generated-class-ccbnpcopinion-b6f0d6e6c838 }
 
@@ -10644,7 +10644,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3865`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3865) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3865`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3865) — LuaLS declaration
 
 ### `trust` { #symbol-api-lua-v5-generated-property-ccbnpcopinion-trust-02c9c75f5346 }
 
@@ -10656,7 +10656,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3866`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3866) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3866`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3866) — LuaLS declaration
 
 ### `fear` { #symbol-api-lua-v5-generated-property-ccbnpcopinion-fear-eec25148b54f }
 
@@ -10668,7 +10668,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3867`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3867) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3867`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3867) — LuaLS declaration
 
 ### `value` { #symbol-api-lua-v5-generated-property-ccbnpcopinion-value-5c7332fc3aa6 }
 
@@ -10680,7 +10680,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3868`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3868) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3868`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3868) — LuaLS declaration
 
 ### `anger` { #symbol-api-lua-v5-generated-property-ccbnpcopinion-anger-f144296872e7 }
 
@@ -10692,7 +10692,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3869`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3869) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3869`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3869) — LuaLS declaration
 
 ### `owed` { #symbol-api-lua-v5-generated-property-ccbnpcopinion-owed-a6b549942840 }
 
@@ -10704,7 +10704,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3870`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3870) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3870`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3870) — LuaLS declaration
 
 ### `sold` { #symbol-api-lua-v5-generated-property-ccbnpcopinion-sold-579cf7d8997a }
 
@@ -10716,7 +10716,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3871`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3871) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3871`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3871) — LuaLS declaration
 
 ## `CcbNpcOpinionDeltas` { #symbol-api-lua-v5-generated-class-ccbnpcopiniondeltas-0eabe67b29b2 }
 
@@ -10727,7 +10727,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3902`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3902) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3902`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3902) — LuaLS declaration
 
 ### `trust` { #symbol-api-lua-v5-generated-property-ccbnpcopiniondeltas-trust-68ceccc4abfe }
 
@@ -10739,7 +10739,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3903`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3903) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3903`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3903) — LuaLS declaration
 
 ### `fear` { #symbol-api-lua-v5-generated-property-ccbnpcopiniondeltas-fear-ae75500f173b }
 
@@ -10751,7 +10751,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3904`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3904) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3904`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3904) — LuaLS declaration
 
 ### `value` { #symbol-api-lua-v5-generated-property-ccbnpcopiniondeltas-value-61014ceb1247 }
 
@@ -10763,7 +10763,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3905`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3905) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3905`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3905) — LuaLS declaration
 
 ### `anger` { #symbol-api-lua-v5-generated-property-ccbnpcopiniondeltas-anger-64038763e2fc }
 
@@ -10775,7 +10775,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3906`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3906) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3906`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3906) — LuaLS declaration
 
 ### `owed` { #symbol-api-lua-v5-generated-property-ccbnpcopiniondeltas-owed-0d6f8df4358f }
 
@@ -10787,7 +10787,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3907`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3907) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3907`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3907) — LuaLS declaration
 
 ### `sold` { #symbol-api-lua-v5-generated-property-ccbnpcopiniondeltas-sold-d2464a84b1ce }
 
@@ -10799,7 +10799,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3908`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3908) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3908`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3908) — LuaLS declaration
 
 ## `CcbNpcSnapshot` { #symbol-api-lua-v5-generated-class-ccbnpcsnapshot-c3bd0a2d00fb }
 
@@ -10810,7 +10810,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3873`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3873) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3873`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3873) — LuaLS declaration
 
 ### `handle` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-handle-6bbf28683c85 }
 
@@ -10822,7 +10822,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3874`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3874) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3874`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3874) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-id-c9e41289e97b }
 
@@ -10834,7 +10834,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3875`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3875) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3875`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3875) — LuaLS declaration
 
 ### `unique_id` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-unique-id-9fb8621c8f88 }
 
@@ -10846,7 +10846,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3876`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3876) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3876`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3876) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-name-4f86db9323ea }
 
@@ -10858,7 +10858,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3877`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3877) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3877`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3877) — LuaLS declaration
 
 ### `display_name` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-display-name-0b5dfe0781c1 }
 
@@ -10870,7 +10870,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3878`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3878) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3878`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3878) — LuaLS declaration
 
 ### `position` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-position-d253bbe9a567 }
 
@@ -10882,7 +10882,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3879`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3879) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3879`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3879) — LuaLS declaration
 
 ### `class` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-class-2339075df0fb }
 
@@ -10894,7 +10894,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3880`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3880) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3880`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3880) — LuaLS declaration
 
 ### `template` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-template-b4ac964eadf3 }
 
@@ -10906,7 +10906,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3881`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3881) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3881`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3881) — LuaLS declaration
 
 ### `faction` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-faction-9b50cae4cc7e }
 
@@ -10918,7 +10918,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3882`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3882) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3882`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3882) — LuaLS declaration
 
 ### `attitude` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-attitude-b6663f617566 }
 
@@ -10930,7 +10930,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3883`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3883) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3883`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3883) — LuaLS declaration
 
 ### `attitude_name` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-attitude-name-13a9906124cc }
 
@@ -10942,7 +10942,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3884`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3884) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3884`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3884) — LuaLS declaration
 
 ### `mission` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-mission-559108e9dbbb }
 
@@ -10954,7 +10954,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3885`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3885) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3885`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3885) — LuaLS declaration
 
 ### `status` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-status-ceb76ffac3c3 }
 
@@ -10966,7 +10966,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3886`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3886) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3886`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3886) — LuaLS declaration
 
 ### `activity` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-activity-47d86cb9042c }
 
@@ -10978,7 +10978,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3887`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3887) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3887`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3887) — LuaLS declaration
 
 ### `male` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-male-347f3557ad18 }
 
@@ -10990,7 +10990,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3888`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3888) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3888`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3888) — LuaLS declaration
 
 ### `dead` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-dead-c86964746434 }
 
@@ -11002,7 +11002,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3889`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3889) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3889`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3889) — LuaLS declaration
 
 ### `hallucination` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-hallucination-0efa4b10c167 }
 
@@ -11014,7 +11014,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3890`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3890) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3890`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3890) — LuaLS declaration
 
 ### `enemy` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-enemy-f9c8bd43cb3b }
 
@@ -11026,7 +11026,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3891`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3891) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3891`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3891) — LuaLS declaration
 
 ### `following` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-following-fcd6849e6657 }
 
@@ -11038,7 +11038,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3892`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3892) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3892`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3892) — LuaLS declaration
 
 ### `player_ally` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-player-ally-60422959abfb }
 
@@ -11050,7 +11050,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3893`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3893) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3893`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3893) — LuaLS declaration
 
 ### `leader` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-leader-7b0d71cacff7 }
 
@@ -11062,7 +11062,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3894`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3894) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3894`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3894) — LuaLS declaration
 
 ### `guarding` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-guarding-04807bff55a3 }
 
@@ -11074,7 +11074,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3895`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3895) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3895`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3895) — LuaLS declaration
 
 ### `patrolling` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-patrolling-3d411a3b99e5 }
 
@@ -11086,7 +11086,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3896`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3896) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3896`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3896) — LuaLS declaration
 
 ### `shopkeeper` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-shopkeeper-3bd705168a83 }
 
@@ -11098,7 +11098,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3897`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3897) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3897`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3897) — LuaLS declaration
 
 ### `faction_representative` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-faction-representative-44451362f04e }
 
@@ -11110,7 +11110,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3898`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3898) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3898`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3898) — LuaLS declaration
 
 ### `opinion` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-opinion-add82f206905 }
 
@@ -11122,7 +11122,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3899`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3899) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3899`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3899) — LuaLS declaration
 
 ### `personality` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-personality-9651417e8648 }
 
@@ -11134,7 +11134,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3900`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3900) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3900`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3900) — LuaLS declaration
 
 ## `CcbNpcsApi` { #symbol-api-lua-v5-generated-class-ccbnpcsapi-bedf0cc88089 }
 
@@ -11145,7 +11145,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3910`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3910) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3910`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3910) — LuaLS declaration
 
 ## `CcbOvermapApi` { #symbol-api-lua-v5-generated-class-ccbovermapapi-324d11e0937e }
 
@@ -11156,7 +11156,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2805`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2805) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2805`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2805) — LuaLS declaration
 
 ## `CcbOvermapSearchOptions` { #symbol-api-lua-v5-generated-class-ccbovermapsearchoptions-84effbe43780 }
 
@@ -11167,7 +11167,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2796`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2796) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2796`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2796) — LuaLS declaration
 
 ### `types` { #symbol-api-lua-v5-generated-property-ccbovermapsearchoptions-types-b72d71f678c1 }
 
@@ -11179,7 +11179,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2797`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2797) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2797`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2797) — LuaLS declaration
 
 ### `exclude_types` { #symbol-api-lua-v5-generated-property-ccbovermapsearchoptions-exclude-types-dc39e673dd6e }
 
@@ -11191,7 +11191,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2798`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2798) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2798`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2798) — LuaLS declaration
 
 ### `minimum_radius` { #symbol-api-lua-v5-generated-property-ccbovermapsearchoptions-minimum-radius-5e02ca91e048 }
 
@@ -11203,7 +11203,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2799`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2799) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2799`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2799) — LuaLS declaration
 
 ### `radius` { #symbol-api-lua-v5-generated-property-ccbovermapsearchoptions-radius-bef736e42ff8 }
 
@@ -11215,7 +11215,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2800`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2800) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2800`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2800) — LuaLS declaration
 
 ### `radius_z` { #symbol-api-lua-v5-generated-property-ccbovermapsearchoptions-radius-z-9717448d39b4 }
 
@@ -11227,7 +11227,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2801`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2801) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2801`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2801) — LuaLS declaration
 
 ### `seen` { #symbol-api-lua-v5-generated-property-ccbovermapsearchoptions-seen-2c932ca0a056 }
 
@@ -11239,7 +11239,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2802`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2802) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2802`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2802) — LuaLS declaration
 
 ### `explored` { #symbol-api-lua-v5-generated-property-ccbovermapsearchoptions-explored-7ff7cbf67461 }
 
@@ -11251,7 +11251,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2803`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2803) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2803`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2803) — LuaLS declaration
 
 ## `CcbOvermapSelectorTable` { #symbol-api-lua-v5-generated-class-ccbovermapselectortable-d4f4e0a62e76 }
 
@@ -11262,7 +11262,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2790`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2790) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2790`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2790) — LuaLS declaration
 
 ### `terrain` { #symbol-api-lua-v5-generated-property-ccbovermapselectortable-terrain-6f1d503939b2 }
 
@@ -11274,7 +11274,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2791`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2791) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2791`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2791) — LuaLS declaration
 
 ### `match` { #symbol-api-lua-v5-generated-property-ccbovermapselectortable-match-455913d2167f }
 
@@ -11286,7 +11286,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2792`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2792) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2792`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2792) — LuaLS declaration
 
 ## `CcbPageDescriptor` { #symbol-api-lua-v5-generated-class-ccbpagedescriptor-bc8ed5b1d5c4 }
 
@@ -11297,7 +11297,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:613`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L613) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:613`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L613) — LuaLS declaration
 
 ### `title` { #symbol-api-lua-v5-generated-property-ccbpagedescriptor-title-fa55dca77c02 }
 
@@ -11309,7 +11309,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:614`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L614) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:614`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L614) — LuaLS declaration
 
 ### `category` { #symbol-api-lua-v5-generated-property-ccbpagedescriptor-category-6fccd4779aca }
 
@@ -11321,7 +11321,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:615`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L615) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:615`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L615) — LuaLS declaration
 
 ### `order` { #symbol-api-lua-v5-generated-property-ccbpagedescriptor-order-215ff5bad8cc }
 
@@ -11333,7 +11333,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:616`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L616) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:616`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L616) — LuaLS declaration
 
 ### `slots` { #symbol-api-lua-v5-generated-property-ccbpagedescriptor-slots-bad7d946cba9 }
 
@@ -11345,7 +11345,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:617`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L617) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:617`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L617) — LuaLS declaration
 
 ## `CcbPageOptions` { #symbol-api-lua-v5-generated-class-ccbpageoptions-6f81e3131b0c }
 
@@ -11356,7 +11356,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2198`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2198) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2198`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2198) — LuaLS declaration
 
 ### `offset` { #symbol-api-lua-v5-generated-property-ccbpageoptions-offset-c772cac686b7 }
 
@@ -11368,7 +11368,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2199`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2199) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2199`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2199) — LuaLS declaration
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbpageoptions-limit-9103aff11035 }
 
@@ -11380,7 +11380,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2200`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2200) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2200`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2200) — LuaLS declaration
 
 ## `CcbPlayerSnapshot` { #symbol-api-lua-v5-generated-class-ccbplayersnapshot-b04d18bb9eaa }
 
@@ -11391,7 +11391,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1152`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1152) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1152`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1152) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-name-15b30d01b667 }
 
@@ -11403,7 +11403,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1153`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1153) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1153`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1153) — LuaLS declaration
 
 ### `moves` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-moves-e094c6ff0380 }
 
@@ -11415,7 +11415,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1154`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1154) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1154`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1154) — LuaLS declaration
 
 ### `stamina` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-stamina-8dd83b7f4308 }
 
@@ -11427,7 +11427,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1155`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1155) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1155`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1155) — LuaLS declaration
 
 ### `stamina_max` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-stamina-max-363448d55bbb }
 
@@ -11439,7 +11439,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1156`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1156) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1156`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1156) — LuaLS declaration
 
 ### `pain` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-pain-59356d91ac07 }
 
@@ -11451,7 +11451,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1157`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1157) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1157`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1157) — LuaLS declaration
 
 ### `focus` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-focus-cccc493daa79 }
 
@@ -11463,7 +11463,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1158`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1158) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1158`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1158) — LuaLS declaration
 
 ### `speed` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-speed-bdd931e82c19 }
 
@@ -11475,7 +11475,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1159`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1159) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1159`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1159) — LuaLS declaration
 
 ### `hunger` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-hunger-4b6b920df5ea }
 
@@ -11487,7 +11487,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1160`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1160) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1160`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1160) — LuaLS declaration
 
 ### `thirst` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-thirst-efb2f72e981a }
 
@@ -11499,7 +11499,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1161`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1161) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1161`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1161) — LuaLS declaration
 
 ### `sleepiness` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-sleepiness-b6b0d6e96367 }
 
@@ -11511,7 +11511,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1162`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1162) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1162`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1162) — LuaLS declaration
 
 ### `morale` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-morale-422f8399d758 }
 
@@ -11523,7 +11523,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1163`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1163) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1163`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1163) — LuaLS declaration
 
 ### `stored_kcal` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-stored-kcal-9b09839b4e89 }
 
@@ -11535,7 +11535,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1164`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1164) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1164`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1164) — LuaLS declaration
 
 ### `healthy_kcal` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-healthy-kcal-39cb6555ca85 }
 
@@ -11547,7 +11547,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1165`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1165) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1165`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1165) — LuaLS declaration
 
 ### `kcal_percent` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-kcal-percent-2ec16ffbd5ad }
 
@@ -11559,7 +11559,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1166`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1166) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1166`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1166) — LuaLS declaration
 
 ### `radiation` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-radiation-0aaa43a50759 }
 
@@ -11571,7 +11571,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1167`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1167) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1167`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1167) — LuaLS declaration
 
 ### `bionic_power_kj` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-bionic-power-kj-9b850a22b802 }
 
@@ -11583,7 +11583,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1168`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1168) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1168`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1168) — LuaLS declaration
 
 ### `bionic_power_max_kj` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-bionic-power-max-kj-009420567664 }
 
@@ -11595,7 +11595,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1169`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1169) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1169`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1169) — LuaLS declaration
 
 ### `movement_mode_id` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-movement-mode-id-401a8e692502 }
 
@@ -11607,7 +11607,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1170`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1170) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1170`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1170) — LuaLS declaration
 
 ### `movement_mode_name` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-movement-mode-name-1524d1d7b95c }
 
@@ -11619,7 +11619,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1171`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1171) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1171`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1171) — LuaLS declaration
 
 ### `desired_movement_mode_id` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-desired-movement-mode-id-098fcda57bc6 }
 
@@ -11631,7 +11631,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1172`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1172) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1172`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1172) — LuaLS declaration
 
 ### `desired_movement_mode_name` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-desired-movement-mode-name-45c28c799dfa }
 
@@ -11643,7 +11643,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1173`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1173) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1173`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1173) — LuaLS declaration
 
 ### `movement_mode_pending` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-movement-mode-pending-c607eb2dea07 }
 
@@ -11655,7 +11655,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1174`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1174) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1174`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1174) — LuaLS declaration
 
 ### `x` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-x-a7c23474f9d8 }
 
@@ -11667,7 +11667,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1175`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1175) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1175`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1175) — LuaLS declaration
 
 ### `y` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-y-a235c27df040 }
 
@@ -11679,7 +11679,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1176`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1176) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1176`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1176) — LuaLS declaration
 
 ### `z` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-z-ff09855af05b }
 
@@ -11691,7 +11691,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1177`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1177) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1177`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1177) — LuaLS declaration
 
 ## `CcbProficienciesApi` { #symbol-api-lua-v5-generated-class-ccbproficienciesapi-1e74e9b38ff1 }
 
@@ -11702,7 +11702,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3135`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3135) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3135`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3135) — LuaLS declaration
 
 ## `CcbProficiencyCategory` { #symbol-api-lua-v5-generated-class-ccbproficiencycategory-a5138cc08b96 }
 
@@ -11713,7 +11713,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3094`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3094) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3094`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3094) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbproficiencycategory-id-670410086465 }
 
@@ -11725,7 +11725,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3095`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3095) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3095`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3095) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbproficiencycategory-name-1d9e5de0009f }
 
@@ -11737,7 +11737,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3096`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3096) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3096`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3096) — LuaLS declaration
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbproficiencycategory-description-47c695148d10 }
 
@@ -11749,7 +11749,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3097`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3097) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3097`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3097) — LuaLS declaration
 
 ## `CcbProficiencyDefinition` { #symbol-api-lua-v5-generated-class-ccbproficiencydefinition-c34c317f278c }
 
@@ -11760,7 +11760,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3099`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3099) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3099`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3099) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-id-eee3607611bf }
 
@@ -11772,7 +11772,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3100`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3100) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3100`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3100) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-name-cf5990df13b7 }
 
@@ -11784,7 +11784,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3101`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3101) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3101`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3101) — LuaLS declaration
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-description-1cefe3aa7758 }
 
@@ -11796,7 +11796,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3102`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3102) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3102`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3102) — LuaLS declaration
 
 ### `category` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-category-7e55b405a3a9 }
 
@@ -11808,7 +11808,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3103`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3103) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3103`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3103) — LuaLS declaration
 
 ### `can_learn` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-can-learn-edf5a73687ac }
 
@@ -11820,7 +11820,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3104`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3104) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3104`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3104) — LuaLS declaration
 
 ### `ignore_focus` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-ignore-focus-d64a1b4f64fe }
 
@@ -11832,7 +11832,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3105`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3105) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3105`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3105) — LuaLS declaration
 
 ### `teachable` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-teachable-1d105c4f40df }
 
@@ -11844,7 +11844,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3106`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3106) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3106`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3106) — LuaLS declaration
 
 ### `time_to_learn` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-time-to-learn-edbf76660d84 }
 
@@ -11856,7 +11856,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3107`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3107) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3107`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3107) — LuaLS declaration
 
 ### `time_multiplier` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-time-multiplier-d3356171c4e5 }
 
@@ -11868,7 +11868,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3108`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3108) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3108`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3108) — LuaLS declaration
 
 ### `skill_penalty` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-skill-penalty-a44adf02e252 }
 
@@ -11880,7 +11880,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3109`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3109) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3109`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3109) — LuaLS declaration
 
 ### `weakpoint_bonus` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-weakpoint-bonus-e7084907d52d }
 
@@ -11892,7 +11892,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3110`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3110) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3110`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3110) — LuaLS declaration
 
 ### `weakpoint_penalty` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-weakpoint-penalty-0236317519fb }
 
@@ -11904,7 +11904,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3111`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3111) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3111`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3111) — LuaLS declaration
 
 ### `required` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-required-54d3ed8f372c }
 
@@ -11916,7 +11916,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3112`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3112) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3112`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3112) — LuaLS declaration
 
 ## `CcbProficiencyGrantOptions` { #symbol-api-lua-v5-generated-class-ccbproficiencygrantoptions-0804b402810d }
 
@@ -11927,7 +11927,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3131`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3131) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3131`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3131) — LuaLS declaration
 
 ### `ignore_requirements` { #symbol-api-lua-v5-generated-property-ccbproficiencygrantoptions-ignore-requirements-5c2417fe2b0b }
 
@@ -11939,7 +11939,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3132`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3132) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3132`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3132) — LuaLS declaration
 
 ### `recursive` { #symbol-api-lua-v5-generated-property-ccbproficiencygrantoptions-recursive-2c7a2086020a }
 
@@ -11951,7 +11951,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3133`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3133) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3133`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3133) — LuaLS declaration
 
 ## `CcbProficiencyListOptions` { #symbol-api-lua-v5-generated-class-ccbproficiencylistoptions-659d41e2bf95 }
 
@@ -11962,7 +11962,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3126`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3126) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3126`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3126) — LuaLS declaration
 
 ### `include_known` { #symbol-api-lua-v5-generated-property-ccbproficiencylistoptions-include-known-816a34381a33 }
 
@@ -11974,7 +11974,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3127`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3127) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3127`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3127) — LuaLS declaration
 
 ### `include_learning` { #symbol-api-lua-v5-generated-property-ccbproficiencylistoptions-include-learning-87cc3bb068aa }
 
@@ -11986,7 +11986,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3128`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3128) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3128`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3128) — LuaLS declaration
 
 ### `include_unstarted` { #symbol-api-lua-v5-generated-property-ccbproficiencylistoptions-include-unstarted-9987fc0597d5 }
 
@@ -11998,7 +11998,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3129`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3129) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3129`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3129) — LuaLS declaration
 
 ## `CcbProficiencyState` { #symbol-api-lua-v5-generated-class-ccbproficiencystate-c13c49b8e7e9 }
 
@@ -12009,7 +12009,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3114`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3114) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3114`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3114) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbproficiencystate-id-a3a82999f271 }
 
@@ -12021,7 +12021,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3115`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3115) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3115`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3115) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbproficiencystate-name-1a13530c5dc2 }
 
@@ -12033,7 +12033,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3116`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3116) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3116`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3116) — LuaLS declaration
 
 ### `known` { #symbol-api-lua-v5-generated-property-ccbproficiencystate-known-34c7b78978bd }
 
@@ -12045,7 +12045,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3117`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3117) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3117`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3117) — LuaLS declaration
 
 ### `learning` { #symbol-api-lua-v5-generated-property-ccbproficiencystate-learning-a0bcf909830d }
 
@@ -12057,7 +12057,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3118`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3118) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3118`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3118) — LuaLS declaration
 
 ### `practice` { #symbol-api-lua-v5-generated-property-ccbproficiencystate-practice-9d062b943d3e }
 
@@ -12069,7 +12069,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3119`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3119) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3119`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3119) — LuaLS declaration
 
 ### `practiced` { #symbol-api-lua-v5-generated-property-ccbproficiencystate-practiced-441e379686f5 }
 
@@ -12081,7 +12081,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3120`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3120) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3120`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3120) — LuaLS declaration
 
 ### `remaining` { #symbol-api-lua-v5-generated-property-ccbproficiencystate-remaining-51a222979ab0 }
 
@@ -12093,7 +12093,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3121`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3121) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3121`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3121) — LuaLS declaration
 
 ### `prerequisites_met` { #symbol-api-lua-v5-generated-property-ccbproficiencystate-prerequisites-met-104a2d920872 }
 
@@ -12105,7 +12105,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3122`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3122) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3122`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3122) — LuaLS declaration
 
 ### `can_practice` { #symbol-api-lua-v5-generated-property-ccbproficiencystate-can-practice-1bde04c1e1c7 }
 
@@ -12117,7 +12117,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3123`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3123) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3123`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3123) — LuaLS declaration
 
 ### `ignore_focus` { #symbol-api-lua-v5-generated-property-ccbproficiencystate-ignore-focus-95c7c128d37d }
 
@@ -12129,7 +12129,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3124`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3124) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3124`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3124) — LuaLS declaration
 
 ## `CcbQueuedAction` { #symbol-api-lua-v5-generated-class-ccbqueuedaction-e12de30e31ca }
 
@@ -12140,7 +12140,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1333`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1333) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1333`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1333) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbqueuedaction-id-44ecd6cc0d2b }
 
@@ -12152,7 +12152,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1334`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1334) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1334`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1334) — LuaLS declaration
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbqueuedaction-type-796d699ab99f }
 
@@ -12164,7 +12164,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1335`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1335) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1335`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1335) — LuaLS declaration
 
 ### `status` { #symbol-api-lua-v5-generated-property-ccbqueuedaction-status-838fdc7fb02e }
 
@@ -12176,7 +12176,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1336`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1336) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1336`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1336) — LuaLS declaration
 
 ### `queued_turn` { #symbol-api-lua-v5-generated-property-ccbqueuedaction-queued-turn-104efe0f7305 }
 
@@ -12188,7 +12188,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1337`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1337) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1337`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1337) — LuaLS declaration
 
 ### `action` { #symbol-api-lua-v5-generated-property-ccbqueuedaction-action-67ed78f9a7cf }
 
@@ -12200,7 +12200,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1338`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1338) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1338`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1338) — LuaLS declaration
 
 ### `context_revision` { #symbol-api-lua-v5-generated-property-ccbqueuedaction-context-revision-b972d0720a86 }
 
@@ -12212,7 +12212,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1339`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1339) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1339`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1339) — LuaLS declaration
 
 ### `dangerous` { #symbol-api-lua-v5-generated-property-ccbqueuedaction-dangerous-27193fde342c }
 
@@ -12224,7 +12224,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1340`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1340) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1340`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1340) — LuaLS declaration
 
 ### `source` { #symbol-api-lua-v5-generated-property-ccbqueuedaction-source-a06ec12ff859 }
 
@@ -12236,7 +12236,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1341`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1341) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1341`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1341) — LuaLS declaration
 
 ## `CcbRadialOption` { #symbol-api-lua-v5-generated-class-ccbradialoption-533f61b1e951 }
 
@@ -12247,7 +12247,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:636`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L636) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:636`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L636) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbradialoption-id-b8f90730e72c }
 
@@ -12259,7 +12259,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:637`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L637) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:637`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L637) — LuaLS declaration
 
 ### `label` { #symbol-api-lua-v5-generated-property-ccbradialoption-label-abbfd99b6c36 }
 
@@ -12271,7 +12271,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:638`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L638) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:638`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L638) — LuaLS declaration
 
 ### `enabled` { #symbol-api-lua-v5-generated-property-ccbradialoption-enabled-6801e2f32600 }
 
@@ -12283,7 +12283,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:639`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L639) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:639`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L639) — LuaLS declaration
 
 ### `selected` { #symbol-api-lua-v5-generated-property-ccbradialoption-selected-84bf0148e950 }
 
@@ -12295,7 +12295,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:640`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L640) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:640`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L640) — LuaLS declaration
 
 ## `CcbRandomApi` { #symbol-api-lua-v5-generated-class-ccbrandomapi-74c52f5c679c }
 
@@ -12306,7 +12306,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1948`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1948) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1948`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1948) — LuaLS declaration
 
 ## `CcbRecipeListOptions` { #symbol-api-lua-v5-generated-class-ccbrecipelistoptions-ac0697f8a4e6 }
 
@@ -12317,7 +12317,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2634`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2634) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2634`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2634) — LuaLS declaration
 
 ### `batch` { #symbol-api-lua-v5-generated-property-ccbrecipelistoptions-batch-1c42b4789483 }
 
@@ -12329,7 +12329,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2635`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2635) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2635`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2635) — LuaLS declaration
 
 ### `include_obsolete` { #symbol-api-lua-v5-generated-property-ccbrecipelistoptions-include-obsolete-460b715e2813 }
 
@@ -12341,7 +12341,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2636`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2636) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2636`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2636) — LuaLS declaration
 
 ### `known` { #symbol-api-lua-v5-generated-property-ccbrecipelistoptions-known-f3da0dbd6a20 }
 
@@ -12353,7 +12353,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2637`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2637) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2637`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2637) — LuaLS declaration
 
 ### `craftable` { #symbol-api-lua-v5-generated-property-ccbrecipelistoptions-craftable-53de09ef298c }
 
@@ -12365,7 +12365,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2638`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2638) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2638`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2638) — LuaLS declaration
 
 ### `skill` { #symbol-api-lua-v5-generated-property-ccbrecipelistoptions-skill-f7e6b6ed8210 }
 
@@ -12377,7 +12377,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2639`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2639) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2639`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2639) — LuaLS declaration
 
 ### `result` { #symbol-api-lua-v5-generated-property-ccbrecipelistoptions-result-e4f304fcb3b9 }
 
@@ -12389,7 +12389,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2640`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2640) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2640`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2640) — LuaLS declaration
 
 ### `flag` { #symbol-api-lua-v5-generated-property-ccbrecipelistoptions-flag-f30c4796666b }
 
@@ -12401,7 +12401,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2641`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2641) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2641`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2641) — LuaLS declaration
 
 ## `CcbRecipesApi` { #symbol-api-lua-v5-generated-class-ccbrecipesapi-884dfd321275 }
 
@@ -12412,7 +12412,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2643`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2643) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2643`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2643) — LuaLS declaration
 
 ## `CcbRegistryApi` { #symbol-api-lua-v5-generated-class-ccbregistryapi-9efc5bf1fccb }
 
@@ -12423,7 +12423,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1087`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1087) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1087`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1087) — LuaLS declaration
 
 ## `CcbRegistryDefinition` { #symbol-api-lua-v5-generated-class-ccbregistrydefinition-0632062db9f5 }
 
@@ -12434,7 +12434,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1073`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1073) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1073`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1073) — LuaLS declaration
 
 ### `kind` { #symbol-api-lua-v5-generated-property-ccbregistrydefinition-kind-8d6538819489 }
 
@@ -12446,7 +12446,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1074`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1074) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1074`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1074) — LuaLS declaration
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbregistrydefinition-description-b64b2dbc88fd }
 
@@ -12458,7 +12458,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1075`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1075) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1075`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1075) — LuaLS declaration
 
 ## `CcbRegistryEntry` { #symbol-api-lua-v5-generated-class-ccbregistryentry-eb006af383f1 }
 
@@ -12469,7 +12469,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1069`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1069) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1069`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1069) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbregistryentry-id-8a87d5be8777 }
 
@@ -12481,7 +12481,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1070`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1070) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1070`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1070) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbregistryentry-name-50e73457da3c }
 
@@ -12493,7 +12493,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1071`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1071) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1071`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1071) — LuaLS declaration
 
 ## `CcbRegistryListOptions` { #symbol-api-lua-v5-generated-class-ccbregistrylistoptions-a89200874d68 }
 
@@ -12504,7 +12504,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1063`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1063) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1063`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1063) — LuaLS declaration
 
 ### `offset` { #symbol-api-lua-v5-generated-property-ccbregistrylistoptions-offset-5ec0049cd85a }
 
@@ -12516,7 +12516,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1064`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1064) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1064`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1064) — LuaLS declaration
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbregistrylistoptions-limit-249e5de115ef }
 
@@ -12528,7 +12528,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1065`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1065) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1065`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1065) — LuaLS declaration
 
 ### `query` { #symbol-api-lua-v5-generated-property-ccbregistrylistoptions-query-dd6f35814f64 }
 
@@ -12540,7 +12540,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1066`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1066) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1066`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1066) — LuaLS declaration
 
 ### `details` { #symbol-api-lua-v5-generated-property-ccbregistrylistoptions-details-235aa084c045 }
 
@@ -12552,7 +12552,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1067`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1067) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1067`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1067) — LuaLS declaration
 
 ## `CcbRegistryPage` { #symbol-api-lua-v5-generated-class-ccbregistrypage-d9145f339fdf }
 
@@ -12563,7 +12563,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1077`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1077) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1077`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1077) — LuaLS declaration
 
 ### `kind` { #symbol-api-lua-v5-generated-property-ccbregistrypage-kind-b383b4c9b074 }
 
@@ -12575,7 +12575,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1078`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1078) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1078`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1078) — LuaLS declaration
 
 ### `revision` { #symbol-api-lua-v5-generated-property-ccbregistrypage-revision-77f5f19c882a }
 
@@ -12587,7 +12587,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1079`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1079) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1079`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1079) — LuaLS declaration
 
 ### `offset` { #symbol-api-lua-v5-generated-property-ccbregistrypage-offset-d41eb4cf7c84 }
 
@@ -12599,7 +12599,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1080`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1080) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1080`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1080) — LuaLS declaration
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbregistrypage-limit-89ae180f663c }
 
@@ -12611,7 +12611,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1081`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1081) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1081`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1081) — LuaLS declaration
 
 ### `total` { #symbol-api-lua-v5-generated-property-ccbregistrypage-total-d086b44733e6 }
 
@@ -12623,7 +12623,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1082`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1082) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1082`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1082) — LuaLS declaration
 
 ### `returned` { #symbol-api-lua-v5-generated-property-ccbregistrypage-returned-fb0e00d02441 }
 
@@ -12635,7 +12635,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1083`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1083) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1083`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1083) — LuaLS declaration
 
 ### `has_more` { #symbol-api-lua-v5-generated-property-ccbregistrypage-has-more-9800da8c022c }
 
@@ -12647,7 +12647,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1084`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1084) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1084`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1084) — LuaLS declaration
 
 ### `entries` { #symbol-api-lua-v5-generated-property-ccbregistrypage-entries-a92c14f95ea1 }
 
@@ -12659,7 +12659,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1085`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1085) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1085`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1085) — LuaLS declaration
 
 ## `CcbRelocationApi` { #symbol-api-lua-v5-generated-class-ccbrelocationapi-492a188835bc }
 
@@ -12670,7 +12670,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2064`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2064) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2064`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2064) — LuaLS declaration
 
 ## `CcbRequirementListOptions` { #symbol-api-lua-v5-generated-class-ccbrequirementlistoptions-6973971db9f1 }
 
@@ -12681,7 +12681,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2677`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2677) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2677`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2677) — LuaLS declaration
 
 ### `batch` { #symbol-api-lua-v5-generated-property-ccbrequirementlistoptions-batch-5ed0125a88a3 }
 
@@ -12693,7 +12693,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2678`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2678) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2678`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2678) — LuaLS declaration
 
 ## `CcbRequirementsApi` { #symbol-api-lua-v5-generated-class-ccbrequirementsapi-eeaec1ba5435 }
 
@@ -12704,7 +12704,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2680`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2680) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2680`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2680) — LuaLS declaration
 
 ## `CcbResult` { #symbol-api-lua-v5-generated-class-ccbresult-afc2d8632769 }
 
@@ -12715,7 +12715,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:305`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L305) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:305`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L305) — LuaLS declaration
 
 ### `ok` { #symbol-api-lua-v5-generated-property-ccbresult-ok-9e4ae8342257 }
 
@@ -12727,7 +12727,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:306`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L306) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:306`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L306) — LuaLS declaration
 
 ### `value` { #symbol-api-lua-v5-generated-property-ccbresult-value-a857a2027077 }
 
@@ -12739,7 +12739,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:307`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L307) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:307`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L307) — LuaLS declaration
 
 ### `error` { #symbol-api-lua-v5-generated-property-ccbresult-error-dd75bce1a621 }
 
@@ -12751,7 +12751,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:308`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L308) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:308`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L308) — LuaLS declaration
 
 ## `CcbRuntimeStatus` { #symbol-api-lua-v5-generated-class-ccbruntimestatus-def8fa659f38 }
 
@@ -12762,7 +12762,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4398`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4398) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4398`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4398) — LuaLS declaration
 
 ### `loaded` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-loaded-f36021d6b595 }
 
@@ -12774,7 +12774,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4399`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4399) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4399`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4399) — LuaLS declaration
 
 ### `generation` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-generation-b3929e393a95 }
 
@@ -12786,7 +12786,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4400`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4400) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4400`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4400) — LuaLS declaration
 
 ### `world_generation` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-world-generation-a089165f1c3c }
 
@@ -12798,7 +12798,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4401`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4401) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4401`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4401) — LuaLS declaration
 
 ### `pages` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-pages-6750a3019412 }
 
@@ -12810,7 +12810,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4402`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4402) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4402`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4402) — LuaLS declaration
 
 ### `action_menu_entries` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-action-menu-entries-d0e9322e81b1 }
 
@@ -12822,7 +12822,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4403`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4403) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4403`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4403) — LuaLS declaration
 
 ### `sidebar_widgets` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-sidebar-widgets-74745fe20fc7 }
 
@@ -12834,7 +12834,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4404`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4404) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4404`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4404) — LuaLS declaration
 
 ### `event_handlers` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-event-handlers-dec2919d313b }
 
@@ -12846,7 +12846,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4405`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4405) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4405`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4405) — LuaLS declaration
 
 ### `mapgen_handlers` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-mapgen-handlers-97e43ed443aa }
 
@@ -12858,7 +12858,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4406`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4406) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4406`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4406) — LuaLS declaration
 
 ### `sources` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-sources-4ff2dc4676a3 }
 
@@ -12870,7 +12870,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4407`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4407) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4407`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4407) — LuaLS declaration
 
 ### `memory_used` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-memory-used-3e4fa0b33a41 }
 
@@ -12882,7 +12882,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4408`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4408) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4408`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4408) — LuaLS declaration
 
 ### `memory_limit` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-memory-limit-b90b6481f8e9 }
 
@@ -12894,7 +12894,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4409`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4409) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4409`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4409) — LuaLS declaration
 
 ### `callback_count` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-callback-count-3b1f127b0dcb }
 
@@ -12906,7 +12906,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4410`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4410) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4410`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4410) — LuaLS declaration
 
 ### `callback_time_total_us` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-callback-time-total-us-a31e51528f70 }
 
@@ -12918,7 +12918,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4411`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4411) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4411`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4411) — LuaLS declaration
 
 ### `callback_time_max_us` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-callback-time-max-us-ac14efe5076e }
 
@@ -12930,7 +12930,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4412`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4412) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4412`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4412) — LuaLS declaration
 
 ### `slow_callback_count` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-slow-callback-count-f564ad15b706 }
 
@@ -12942,7 +12942,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4413`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4413) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4413`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4413) — LuaLS declaration
 
 ### `last_slow_callback` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-last-slow-callback-de5cadd04967 }
 
@@ -12954,7 +12954,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4414`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4414) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4414`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4414) — LuaLS declaration
 
 ### `last_error` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-last-error-6c6fb5f110a8 }
 
@@ -12966,7 +12966,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4415`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4415) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4415`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4415) — LuaLS declaration
 
 ## `CcbSchedulerApi` { #symbol-api-lua-v5-generated-class-ccbschedulerapi-5744977a0273 }
 
@@ -12977,7 +12977,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:999`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L999) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:999`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L999) — LuaLS declaration
 
 ## `CcbSerdeApi` { #symbol-api-lua-v5-generated-class-ccbserdeapi-44947fbfaabf }
 
@@ -12988,7 +12988,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:587`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L587) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:587`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L587) — LuaLS declaration
 
 ### `format` { #symbol-api-lua-v5-generated-property-ccbserdeapi-format-9dba57af2ddb }
 
@@ -13000,7 +13000,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:588`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L588) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:588`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L588) — LuaLS declaration
 
 ### `version` { #symbol-api-lua-v5-generated-property-ccbserdeapi-version-f183f1980318 }
 
@@ -13012,7 +13012,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:589`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L589) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:589`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L589) — LuaLS declaration
 
 ### `max_bytes` { #symbol-api-lua-v5-generated-property-ccbserdeapi-max-bytes-7c8c761856ff }
 
@@ -13024,7 +13024,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:590`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L590) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:590`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L590) — LuaLS declaration
 
 ### `max_depth` { #symbol-api-lua-v5-generated-property-ccbserdeapi-max-depth-de96004b0146 }
 
@@ -13036,7 +13036,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:591`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L591) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:591`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L591) — LuaLS declaration
 
 ### `max_nodes` { #symbol-api-lua-v5-generated-property-ccbserdeapi-max-nodes-ef035750dd8e }
 
@@ -13048,7 +13048,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:592`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L592) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:592`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L592) — LuaLS declaration
 
 ### `max_table_entries` { #symbol-api-lua-v5-generated-property-ccbserdeapi-max-table-entries-a7635fb654fa }
 
@@ -13060,7 +13060,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:593`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L593) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:593`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L593) — LuaLS declaration
 
 ## `CcbServiceDescriptor` { #symbol-api-lua-v5-generated-class-ccbservicedescriptor-dcbf2c411248 }
 
@@ -13071,7 +13071,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1019`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1019) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1019`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1019) — LuaLS declaration
 
 ### `version` { #symbol-api-lua-v5-generated-property-ccbservicedescriptor-version-d85b19c18cdc }
 
@@ -13083,7 +13083,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1020`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1020) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1020`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1020) — LuaLS declaration
 
 ### `methods` { #symbol-api-lua-v5-generated-property-ccbservicedescriptor-methods-8f3cadaae34c }
 
@@ -13095,7 +13095,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1021`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1021) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1021`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1021) — LuaLS declaration
 
 ## `CcbServiceInfo` { #symbol-api-lua-v5-generated-class-ccbserviceinfo-b2c19310d186 }
 
@@ -13106,7 +13106,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1023`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1023) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1023`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1023) — LuaLS declaration
 
 ### `provider` { #symbol-api-lua-v5-generated-property-ccbserviceinfo-provider-b6edf8eae3f8 }
 
@@ -13118,7 +13118,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1024`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1024) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1024`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1024) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbserviceinfo-name-9f73b47be072 }
 
@@ -13130,7 +13130,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1025`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1025) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1025`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1025) — LuaLS declaration
 
 ### `version` { #symbol-api-lua-v5-generated-property-ccbserviceinfo-version-f515bac672ca }
 
@@ -13142,7 +13142,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1026`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1026) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1026`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1026) — LuaLS declaration
 
 ### `methods` { #symbol-api-lua-v5-generated-property-ccbserviceinfo-methods-2e2087d0f201 }
 
@@ -13154,7 +13154,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1027`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1027) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1027`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1027) — LuaLS declaration
 
 ## `CcbServicesApi` { #symbol-api-lua-v5-generated-class-ccbservicesapi-75f497f6d5a5 }
 
@@ -13165,7 +13165,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1029`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1029) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1029`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1029) — LuaLS declaration
 
 ## `CcbSidebarApi` { #symbol-api-lua-v5-generated-class-ccbsidebarapi-6e8a5beb07be }
 
@@ -13176,7 +13176,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1467`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1467) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1467`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1467) — LuaLS declaration
 
 ## `CcbSidebarLimits` { #symbol-api-lua-v5-generated-class-ccbsidebarlimits-3482a6eafa46 }
 
@@ -13187,7 +13187,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1458`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1458) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1458`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1458) — LuaLS declaration
 
 ### `widgets` { #symbol-api-lua-v5-generated-property-ccbsidebarlimits-widgets-ba78e8bf08be }
 
@@ -13199,7 +13199,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1459`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1459) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1459`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1459) — LuaLS declaration
 
 ### `widgets_per_source` { #symbol-api-lua-v5-generated-property-ccbsidebarlimits-widgets-per-source-5f441bb3a86e }
 
@@ -13211,7 +13211,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1460`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1460) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1460`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1460) — LuaLS declaration
 
 ### `height` { #symbol-api-lua-v5-generated-property-ccbsidebarlimits-height-f7054b87efdc }
 
@@ -13223,7 +13223,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1461`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1461) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1461`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1461) — LuaLS declaration
 
 ### `lines` { #symbol-api-lua-v5-generated-property-ccbsidebarlimits-lines-875310c17d6a }
 
@@ -13235,7 +13235,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1462`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1462) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1462`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1462) — LuaLS declaration
 
 ### `line_bytes` { #symbol-api-lua-v5-generated-property-ccbsidebarlimits-line-bytes-5719fe85fcc8 }
 
@@ -13247,7 +13247,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1463`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1463) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1463`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1463) — LuaLS declaration
 
 ### `output_bytes` { #symbol-api-lua-v5-generated-property-ccbsidebarlimits-output-bytes-3759c2df9934 }
 
@@ -13259,7 +13259,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1464`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1464) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1464`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1464) — LuaLS declaration
 
 ### `callback_instructions` { #symbol-api-lua-v5-generated-property-ccbsidebarlimits-callback-instructions-30551a593863 }
 
@@ -13271,7 +13271,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1465`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1465) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1465`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1465) — LuaLS declaration
 
 ## `CcbSidebarLine` { #symbol-api-lua-v5-generated-class-ccbsidebarline-c39374c799c9 }
 
@@ -13282,7 +13282,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1429`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1429) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1429`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1429) — LuaLS declaration
 
 ### `text` { #symbol-api-lua-v5-generated-property-ccbsidebarline-text-99fdb40da224 }
 
@@ -13294,7 +13294,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1430`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1430) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1430`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1430) — LuaLS declaration
 
 ### `color` { #symbol-api-lua-v5-generated-property-ccbsidebarline-color-474fcb9d6118 }
 
@@ -13306,7 +13306,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1431`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1431) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1431`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1431) — LuaLS declaration
 
 ## `CcbSidebarWidgetDescriptor` { #symbol-api-lua-v5-generated-class-ccbsidebarwidgetdescriptor-03f3b13509fe }
 
@@ -13317,7 +13317,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1435`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1435) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1435`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1435) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetdescriptor-id-f5ce6d87b4da }
 
@@ -13329,7 +13329,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1436`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1436) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1436`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1436) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetdescriptor-name-4bf5a66db6e9 }
 
@@ -13341,7 +13341,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1437`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1437) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1437`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1437) — LuaLS declaration
 
 ### `height` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetdescriptor-height-cc8f3bdbd51a }
 
@@ -13353,7 +13353,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1438`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1438) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1438`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1438) — LuaLS declaration
 
 ### `order` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetdescriptor-order-fc610a17ff35 }
 
@@ -13365,7 +13365,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1439`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1439) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1439`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1439) — LuaLS declaration
 
 ### `default_toggle` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetdescriptor-default-toggle-98eaf1bc54f3 }
 
@@ -13377,7 +13377,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1440`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1440) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1440`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1440) — LuaLS declaration
 
 ### `redraw_every_frame` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetdescriptor-redraw-every-frame-b1933c3143ed }
 
@@ -13389,7 +13389,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1441`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1441) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1441`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1441) — LuaLS declaration
 
 ### `panel_visible` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetdescriptor-panel-visible-0d9723ca9983 }
 
@@ -13401,7 +13401,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1442`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1442) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1442`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1442) — LuaLS declaration
 
 ### `draw` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetdescriptor-draw-f6a3d33967a2 }
 
@@ -13413,7 +13413,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1443`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1443) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1443`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1443) — LuaLS declaration
 
 ### `render` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetdescriptor-render-705d54688d5f }
 
@@ -13425,7 +13425,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1444`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1444) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1444`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1444) — LuaLS declaration
 
 ## `CcbSidebarWidgetInfo` { #symbol-api-lua-v5-generated-class-ccbsidebarwidgetinfo-8cb28b22e5e2 }
 
@@ -13436,7 +13436,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1446`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1446) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1446`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1446) — LuaLS declaration
 
 ### `registration_id` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetinfo-registration-id-eff0b955f34b }
 
@@ -13448,7 +13448,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1447`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1447) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1447`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1447) — LuaLS declaration
 
 ### `key` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetinfo-key-4595a5a25dc4 }
 
@@ -13460,7 +13460,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1448`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1448) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1448`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1448) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetinfo-id-cb7623454e51 }
 
@@ -13472,7 +13472,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1449`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1449) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1449`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1449) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetinfo-name-765a3154606d }
 
@@ -13484,7 +13484,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1450`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1450) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1450`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1450) — LuaLS declaration
 
 ### `source` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetinfo-source-3a3489122441 }
 
@@ -13496,7 +13496,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1451`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1451) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1451`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1451) — LuaLS declaration
 
 ### `height` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetinfo-height-1490f05602a9 }
 
@@ -13508,7 +13508,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1452`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1452) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1452`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1452) — LuaLS declaration
 
 ### `order` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetinfo-order-a076c77e1164 }
 
@@ -13520,7 +13520,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1453`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1453) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1453`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1453) — LuaLS declaration
 
 ### `default_toggle` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetinfo-default-toggle-5e109ea55dea }
 
@@ -13532,7 +13532,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1454`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1454) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1454`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1454) — LuaLS declaration
 
 ### `redraw_every_frame` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetinfo-redraw-every-frame-144326cba15a }
 
@@ -13544,7 +13544,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1455`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1455) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1455`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1455) — LuaLS declaration
 
 ### `enabled` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetinfo-enabled-722d50ac68b3 }
 
@@ -13556,7 +13556,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1456`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1456) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1456`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1456) — LuaLS declaration
 
 ## `CcbSkillAdjustments` { #symbol-api-lua-v5-generated-class-ccbskilladjustments-64dbf02c666e }
 
@@ -13567,7 +13567,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3045`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3045) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3045`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3045) — LuaLS declaration
 
 ### `practical` { #symbol-api-lua-v5-generated-property-ccbskilladjustments-practical-a6fa5e771ccf }
 
@@ -13579,7 +13579,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3046`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3046) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3046`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3046) — LuaLS declaration
 
 ### `knowledge` { #symbol-api-lua-v5-generated-property-ccbskilladjustments-knowledge-978f2565cf99 }
 
@@ -13591,7 +13591,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3047`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3047) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3047`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3047) — LuaLS declaration
 
 ### `exercise_percent` { #symbol-api-lua-v5-generated-property-ccbskilladjustments-exercise-percent-fe2423070aba }
 
@@ -13603,7 +13603,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3048`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3048) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3048`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3048) — LuaLS declaration
 
 ## `CcbSkillDefinitionPage` { #symbol-api-lua-v5-generated-class-ccbskilldefinitionpage-5ac72a5145c8 }
 
@@ -13614,7 +13614,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3033`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3033) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3033`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3033) — LuaLS declaration
 
 ### `items` { #symbol-api-lua-v5-generated-property-ccbskilldefinitionpage-items-3fb87c6518a4 }
 
@@ -13626,7 +13626,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3034`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3034) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3034`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3034) — LuaLS declaration
 
 ### `offset` { #symbol-api-lua-v5-generated-property-ccbskilldefinitionpage-offset-37b57aa1385e }
 
@@ -13638,7 +13638,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3035`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3035) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3035`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3035) — LuaLS declaration
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbskilldefinitionpage-limit-4e45479a699f }
 
@@ -13650,7 +13650,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3036`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3036) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3036`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3036) — LuaLS declaration
 
 ### `total` { #symbol-api-lua-v5-generated-property-ccbskilldefinitionpage-total-6e432bb0103e }
 
@@ -13662,7 +13662,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3037`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3037) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3037`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3037) — LuaLS declaration
 
 ### `returned` { #symbol-api-lua-v5-generated-property-ccbskilldefinitionpage-returned-e07e2346b3a2 }
 
@@ -13674,7 +13674,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3038`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3038) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3038`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3038) — LuaLS declaration
 
 ### `has_more` { #symbol-api-lua-v5-generated-property-ccbskilldefinitionpage-has-more-6b24436efc17 }
 
@@ -13686,7 +13686,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3039`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3039) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3039`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3039) — LuaLS declaration
 
 ## `CcbSkillListOptions` { #symbol-api-lua-v5-generated-class-ccbskilllistoptions-bbb18341524a }
 
@@ -13697,7 +13697,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3041`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3041) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3041`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3041) — LuaLS declaration
 
 ### `include_obsolete` { #symbol-api-lua-v5-generated-property-ccbskilllistoptions-include-obsolete-184b16728afc }
 
@@ -13709,7 +13709,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3042`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3042) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3042`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3042) — LuaLS declaration
 
 ### `include_contextual` { #symbol-api-lua-v5-generated-property-ccbskilllistoptions-include-contextual-b54124872273 }
 
@@ -13721,7 +13721,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3043`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3043) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3043`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3043) — LuaLS declaration
 
 ## `CcbSkillPracticeOptions` { #symbol-api-lua-v5-generated-class-ccbskillpracticeoptions-fd5276c1d896 }
 
@@ -13732,7 +13732,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3050`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3050) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3050`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3050) — LuaLS declaration
 
 ### `cap` { #symbol-api-lua-v5-generated-property-ccbskillpracticeoptions-cap-7537df54e4c5 }
 
@@ -13744,7 +13744,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3051`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3051) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3051`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3051) — LuaLS declaration
 
 ### `allow_multilevel` { #symbol-api-lua-v5-generated-property-ccbskillpracticeoptions-allow-multilevel-70358781b1b0 }
 
@@ -13756,7 +13756,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3052`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3052) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3052`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3052) — LuaLS declaration
 
 ## `CcbSkillSnapshot` { #symbol-api-lua-v5-generated-class-ccbskillsnapshot-7ddd0546bdac }
 
@@ -13767,7 +13767,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1245`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1245) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1245`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1245) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbskillsnapshot-id-767a9de960fd }
 
@@ -13779,7 +13779,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1246`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1246) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1246`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1246) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbskillsnapshot-name-e1eaf151e09d }
 
@@ -13791,7 +13791,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1247`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1247) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1247`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1247) — LuaLS declaration
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbskillsnapshot-description-1b1e0e418cce }
 
@@ -13803,7 +13803,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1248`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1248) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1248`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1248) — LuaLS declaration
 
 ### `level` { #symbol-api-lua-v5-generated-property-ccbskillsnapshot-level-1b90d9be1e59 }
 
@@ -13815,7 +13815,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1249`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1249) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1249`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1249) — LuaLS declaration
 
 ### `exercise_percent` { #symbol-api-lua-v5-generated-property-ccbskillsnapshot-exercise-percent-2457366d5a42 }
 
@@ -13827,7 +13827,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1250`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1250) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1250`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1250) — LuaLS declaration
 
 ### `knowledge_level` { #symbol-api-lua-v5-generated-property-ccbskillsnapshot-knowledge-level-d695cf86eb05 }
 
@@ -13839,7 +13839,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1251`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1251) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1251`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1251) — LuaLS declaration
 
 ### `knowledge_percent` { #symbol-api-lua-v5-generated-property-ccbskillsnapshot-knowledge-percent-2b8d30c3b76a }
 
@@ -13851,7 +13851,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1252`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1252) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1252`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1252) — LuaLS declaration
 
 ### `rusty` { #symbol-api-lua-v5-generated-property-ccbskillsnapshot-rusty-beb747880fb3 }
 
@@ -13863,7 +13863,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1253`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1253) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1253`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1253) — LuaLS declaration
 
 ### `training` { #symbol-api-lua-v5-generated-property-ccbskillsnapshot-training-c8f241c9305d }
 
@@ -13875,7 +13875,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1254`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1254) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1254`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1254) — LuaLS declaration
 
 ### `combat` { #symbol-api-lua-v5-generated-property-ccbskillsnapshot-combat-cf997d3ab098 }
 
@@ -13887,7 +13887,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1255`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1255) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1255`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1255) — LuaLS declaration
 
 ## `CcbSkillsApi` { #symbol-api-lua-v5-generated-class-ccbskillsapi-4f45f19e672a }
 
@@ -13898,7 +13898,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3054`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3054) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3054`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3054) — LuaLS declaration
 
 ## `CcbSleepAdjustments` { #symbol-api-lua-v5-generated-class-ccbsleepadjustments-5ae60a3207e9 }
 
@@ -13909,7 +13909,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3342`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3342) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3342`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3342) — LuaLS declaration
 
 ### `daily` { #symbol-api-lua-v5-generated-property-ccbsleepadjustments-daily-fedafd681609 }
 
@@ -13921,7 +13921,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3343`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3343) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3343`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3343) — LuaLS declaration
 
 ### `continuous` { #symbol-api-lua-v5-generated-property-ccbsleepadjustments-continuous-3101ae5c05b2 }
 
@@ -13933,7 +13933,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3344`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3344) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3344`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3344) — LuaLS declaration
 
 ## `CcbSoundApi` { #symbol-api-lua-v5-generated-class-ccbsoundapi-5770f31e364d }
 
@@ -13944,7 +13944,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1972`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1972) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1972`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1972) — LuaLS declaration
 
 ## `CcbSpawnsApi` { #symbol-api-lua-v5-generated-class-ccbspawnsapi-046c9aeba7db }
 
@@ -13955,7 +13955,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2036`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2036) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2036`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2036) — LuaLS declaration
 
 ## `CcbSpellsApi` { #symbol-api-lua-v5-generated-class-ccbspellsapi-eb8f67cfbc7d }
 
@@ -13966,7 +13966,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2450`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2450) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2450`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2450) — LuaLS declaration
 
 ## `CcbStateApi` { #symbol-api-lua-v5-generated-class-ccbstateapi-94a4b7d4993b }
 
@@ -13977,7 +13977,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1147`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1147) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1147`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1147) — LuaLS declaration
 
 ### `character` { #symbol-api-lua-v5-generated-property-ccbstateapi-character-ead975fa5ad4 }
 
@@ -13989,7 +13989,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1148`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1148) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1148`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1148) — LuaLS declaration
 
 ### `world` { #symbol-api-lua-v5-generated-property-ccbstateapi-world-a0d3c23ac398 }
 
@@ -14001,7 +14001,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1149`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1149) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1149`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1149) — LuaLS declaration
 
 ### `page` { #symbol-api-lua-v5-generated-property-ccbstateapi-page-a46cebbd91a0 }
 
@@ -14013,7 +14013,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1150`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1150) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1150`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1150) — LuaLS declaration
 
 ## `CcbStateStore` { #symbol-api-lua-v5-generated-class-ccbstatestore-ce9d88325e37 }
 
@@ -14024,7 +14024,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1134`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1134) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1134`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1134) — LuaLS declaration
 
 ## `CcbStatisticDefinition` { #symbol-api-lua-v5-generated-class-ccbstatisticdefinition-4dc47d331ad8 }
 
@@ -14035,7 +14035,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3637`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3637) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3637`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3637) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbstatisticdefinition-id-ba6fffe0186d }
 
@@ -14047,7 +14047,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3638`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3638) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3638`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3638) — LuaLS declaration
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbstatisticdefinition-description-52d4c5363154 }
 
@@ -14059,7 +14059,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3639`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3639) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3639`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3639) — LuaLS declaration
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbstatisticdefinition-type-7bfa1067dfbe }
 
@@ -14071,7 +14071,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3640`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3640) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3640`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3640) — LuaLS declaration
 
 ### `monotonicity` { #symbol-api-lua-v5-generated-property-ccbstatisticdefinition-monotonicity-d2436a7b714f }
 
@@ -14083,7 +14083,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3641`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3641) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3641`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3641) — LuaLS declaration
 
 ### `loaded` { #symbol-api-lua-v5-generated-property-ccbstatisticdefinition-loaded-2a5f32ac84b4 }
 
@@ -14095,7 +14095,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3642`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3642) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3642`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3642) — LuaLS declaration
 
 ### `sources` { #symbol-api-lua-v5-generated-property-ccbstatisticdefinition-sources-2d79df4b558e }
 
@@ -14107,7 +14107,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3643`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3643) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3643`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3643) — LuaLS declaration
 
 ## `CcbStatisticEventPartition` { #symbol-api-lua-v5-generated-class-ccbstatisticeventpartition-5284506f40ec }
 
@@ -14118,7 +14118,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3652`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3652) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3652`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3652) — LuaLS declaration
 
 ### `count` { #symbol-api-lua-v5-generated-property-ccbstatisticeventpartition-count-f8c43119f79a }
 
@@ -14130,7 +14130,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3653`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3653) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3653`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3653) — LuaLS declaration
 
 ### `first` { #symbol-api-lua-v5-generated-property-ccbstatisticeventpartition-first-bd3a67e36279 }
 
@@ -14142,7 +14142,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3654`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3654) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3654`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3654) — LuaLS declaration
 
 ### `last` { #symbol-api-lua-v5-generated-property-ccbstatisticeventpartition-last-f37cfc32e477 }
 
@@ -14154,7 +14154,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3655`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3655) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3655`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3655) — LuaLS declaration
 
 ### `data` { #symbol-api-lua-v5-generated-property-ccbstatisticeventpartition-data-a9333d57e4f9 }
 
@@ -14166,7 +14166,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3656`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3656) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3656`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3656) — LuaLS declaration
 
 ## `CcbStatisticEventType` { #symbol-api-lua-v5-generated-class-ccbstatisticeventtype-968b1c626938 }
 
@@ -14177,7 +14177,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3658`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3658) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3658`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3658) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbstatisticeventtype-name-8059fee6f11d }
 
@@ -14189,7 +14189,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3659`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3659) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3659`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3659) — LuaLS declaration
 
 ### `fields` { #symbol-api-lua-v5-generated-property-ccbstatisticeventtype-fields-411d99551eb7 }
 
@@ -14201,7 +14201,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3660`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3660) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3660`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3660) — LuaLS declaration
 
 ### `count` { #symbol-api-lua-v5-generated-property-ccbstatisticeventtype-count-418e79f8a740 }
 
@@ -14213,7 +14213,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3661`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3661) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3661`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3661) — LuaLS declaration
 
 ## `CcbStatisticTransformation` { #symbol-api-lua-v5-generated-class-ccbstatistictransformation-18a8effaa56d }
 
@@ -14224,7 +14224,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3645`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3645) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3645`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3645) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbstatistictransformation-id-549747538317 }
 
@@ -14236,7 +14236,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3646`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3646) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3646`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3646) — LuaLS declaration
 
 ### `monotonicity` { #symbol-api-lua-v5-generated-property-ccbstatistictransformation-monotonicity-cd76155fcb5d }
 
@@ -14248,7 +14248,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3647`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3647) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3647`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3647) — LuaLS declaration
 
 ### `loaded` { #symbol-api-lua-v5-generated-property-ccbstatistictransformation-loaded-8a035a25a02a }
 
@@ -14260,7 +14260,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3648`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3648) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3648`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3648) — LuaLS declaration
 
 ### `sources` { #symbol-api-lua-v5-generated-property-ccbstatistictransformation-sources-2a030229b6fa }
 
@@ -14272,7 +14272,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3649`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3649) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3649`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3649) — LuaLS declaration
 
 ### `fields` { #symbol-api-lua-v5-generated-property-ccbstatistictransformation-fields-527e670f9dd5 }
 
@@ -14284,7 +14284,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3650`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3650) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3650`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3650) — LuaLS declaration
 
 ## `CcbStatisticVariant` { #symbol-api-lua-v5-generated-class-ccbstatisticvariant-f6324a536096 }
 
@@ -14295,7 +14295,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3631`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3631) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3631`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3631) — LuaLS declaration
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbstatisticvariant-type-1812570ece89 }
 
@@ -14307,7 +14307,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3632`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3632) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3632`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3632) — LuaLS declaration
 
 ### `raw` { #symbol-api-lua-v5-generated-property-ccbstatisticvariant-raw-8622cf1fea20 }
 
@@ -14319,7 +14319,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3633`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3633) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3633`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3633) — LuaLS declaration
 
 ### `valid` { #symbol-api-lua-v5-generated-property-ccbstatisticvariant-valid-05d582ea7ec4 }
 
@@ -14331,7 +14331,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3634`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3634) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3634`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3634) — LuaLS declaration
 
 ### `value` { #symbol-api-lua-v5-generated-property-ccbstatisticvariant-value-50084a9b3be0 }
 
@@ -14343,7 +14343,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3635`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3635) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3635`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3635) — LuaLS declaration
 
 ## `CcbStatisticsApi` { #symbol-api-lua-v5-generated-class-ccbstatisticsapi-11247c94b77f }
 
@@ -14354,7 +14354,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3671`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3671) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3671`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3671) — LuaLS declaration
 
 ## `CcbTargetArea` { #symbol-api-lua-v5-generated-class-ccbtargetarea-5ee463883fda }
 
@@ -14365,7 +14365,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1990`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1990) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1990`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1990) — LuaLS declaration
 
 ### `first` { #symbol-api-lua-v5-generated-property-ccbtargetarea-first-8b7f2cbbbc95 }
 
@@ -14377,7 +14377,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1991`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1991) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1991`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1991) — LuaLS declaration
 
 ### `second` { #symbol-api-lua-v5-generated-property-ccbtargetarea-second-9bdbcedcc5f6 }
 
@@ -14389,7 +14389,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1992`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1992) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1992`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1992) — LuaLS declaration
 
 ## `CcbTargetingApi` { #symbol-api-lua-v5-generated-class-ccbtargetingapi-272087733a9d }
 
@@ -14400,7 +14400,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1994`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1994) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1994`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1994) — LuaLS declaration
 
 ## `CcbTimeApi` { #symbol-api-lua-v5-generated-class-ccbtimeapi-e11416b88dc0 }
 
@@ -14411,7 +14411,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:351`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L351) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:351`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L351) — LuaLS declaration
 
 ## `CcbTimeChange` { #symbol-api-lua-v5-generated-class-ccbtimechange-d330f0e24fb7 }
 
@@ -14422,7 +14422,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:406`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L406) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:406`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L406) — LuaLS declaration
 
 ### `previous` { #symbol-api-lua-v5-generated-property-ccbtimechange-previous-8ad8a080ad0f }
 
@@ -14434,7 +14434,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:407`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L407) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:407`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L407) — LuaLS declaration
 
 ### `current` { #symbol-api-lua-v5-generated-property-ccbtimechange-current-49aaa8d8db08 }
 
@@ -14446,7 +14446,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:408`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L408) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:408`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L408) — LuaLS declaration
 
 ### `delta` { #symbol-api-lua-v5-generated-property-ccbtimechange-delta-9d8d3113a12e }
 
@@ -14458,7 +14458,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:409`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L409) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:409`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L409) — LuaLS declaration
 
 ### `simulated_turns` { #symbol-api-lua-v5-generated-property-ccbtimechange-simulated-turns-48eb2ebded67 }
 
@@ -14470,7 +14470,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:410`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L410) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:410`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L410) — LuaLS declaration
 
 ## `CcbTimeLimits` { #symbol-api-lua-v5-generated-class-ccbtimelimits-1b02240c270b }
 
@@ -14481,7 +14481,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:399`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L399) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:399`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L399) — LuaLS declaration
 
 ### `minimum` { #symbol-api-lua-v5-generated-property-ccbtimelimits-minimum-a624b5b9f5f7 }
 
@@ -14493,7 +14493,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:400`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L400) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:400`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L400) — LuaLS declaration
 
 ### `maximum` { #symbol-api-lua-v5-generated-property-ccbtimelimits-maximum-e85ef09bee35 }
 
@@ -14505,7 +14505,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:401`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L401) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:401`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L401) — LuaLS declaration
 
 ### `minimum_turn` { #symbol-api-lua-v5-generated-property-ccbtimelimits-minimum-turn-11819293ced6 }
 
@@ -14517,7 +14517,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:402`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L402) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:402`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L402) — LuaLS declaration
 
 ### `maximum_turn` { #symbol-api-lua-v5-generated-property-ccbtimelimits-maximum-turn-a827b087007b }
 
@@ -14529,7 +14529,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:403`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L403) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:403`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L403) — LuaLS declaration
 
 ### `set_now_simulates_turns` { #symbol-api-lua-v5-generated-property-ccbtimelimits-set-now-simulates-turns-eadc7cc0b48c }
 
@@ -14541,7 +14541,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:404`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L404) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:404`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L404) — LuaLS declaration
 
 ## `CcbTimeSnapshot` { #symbol-api-lua-v5-generated-class-ccbtimesnapshot-e681c0cfc40d }
 
@@ -14552,7 +14552,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1194`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1194) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1194`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1194) — LuaLS declaration
 
 ### `turn` { #symbol-api-lua-v5-generated-property-ccbtimesnapshot-turn-9aef66253653 }
 
@@ -14564,7 +14564,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1195`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1195) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1195`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1195) — LuaLS declaration
 
 ### `year` { #symbol-api-lua-v5-generated-property-ccbtimesnapshot-year-ef269e94c294 }
 
@@ -14576,7 +14576,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1196`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1196) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1196`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1196) — LuaLS declaration
 
 ### `season_id` { #symbol-api-lua-v5-generated-property-ccbtimesnapshot-season-id-10985b63cf24 }
 
@@ -14588,7 +14588,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1197`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1197) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1197`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1197) — LuaLS declaration
 
 ### `season_name` { #symbol-api-lua-v5-generated-property-ccbtimesnapshot-season-name-8d95313af5d8 }
 
@@ -14600,7 +14600,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1198`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1198) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1198`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1198) — LuaLS declaration
 
 ### `day` { #symbol-api-lua-v5-generated-property-ccbtimesnapshot-day-2a9100914971 }
 
@@ -14612,7 +14612,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1199`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1199) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1199`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1199) — LuaLS declaration
 
 ### `hour` { #symbol-api-lua-v5-generated-property-ccbtimesnapshot-hour-3f52cc3d2602 }
 
@@ -14624,7 +14624,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1200`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1200) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1200`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1200) — LuaLS declaration
 
 ### `minute` { #symbol-api-lua-v5-generated-property-ccbtimesnapshot-minute-90660e83cdbe }
 
@@ -14636,7 +14636,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1201`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1201) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1201`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1201) — LuaLS declaration
 
 ### `display` { #symbol-api-lua-v5-generated-property-ccbtimesnapshot-display-fe52c9ce4748 }
 
@@ -14648,7 +14648,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1202`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1202) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1202`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1202) — LuaLS declaration
 
 ## `CcbTypedDefinitionEntry` { #symbol-api-lua-v5-generated-class-ccbtypeddefinitionentry-720322b86b31 }
 
@@ -14659,7 +14659,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1799`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1799) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1799`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1799) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbtypeddefinitionentry-id-8c0b7017b769 }
 
@@ -14671,7 +14671,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1800`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1800) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1800`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1800) — LuaLS declaration
 
 ### `value` { #symbol-api-lua-v5-generated-property-ccbtypeddefinitionentry-value-851d53d479a8 }
 
@@ -14683,7 +14683,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1801`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1801) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1801`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1801) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbtypeddefinitionentry-name-6eb78c337486 }
 
@@ -14695,7 +14695,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1802`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1802) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1802`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1802) — LuaLS declaration
 
 ## `CcbTypedDefinitionPage` { #symbol-api-lua-v5-generated-class-ccbtypeddefinitionpage-6ec61f3212cc }
 
@@ -14706,7 +14706,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1804`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1804) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1804`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1804) — LuaLS declaration
 
 ### `kind` { #symbol-api-lua-v5-generated-property-ccbtypeddefinitionpage-kind-aca964c0aa7e }
 
@@ -14718,7 +14718,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1805`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1805) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1805`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1805) — LuaLS declaration
 
 ### `revision` { #symbol-api-lua-v5-generated-property-ccbtypeddefinitionpage-revision-51d33aa88a4d }
 
@@ -14730,7 +14730,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1806`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1806) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1806`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1806) — LuaLS declaration
 
 ### `offset` { #symbol-api-lua-v5-generated-property-ccbtypeddefinitionpage-offset-9f0165f04264 }
 
@@ -14742,7 +14742,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1807`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1807) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1807`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1807) — LuaLS declaration
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbtypeddefinitionpage-limit-d6584c6875d2 }
 
@@ -14754,7 +14754,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1808`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1808) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1808`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1808) — LuaLS declaration
 
 ### `total` { #symbol-api-lua-v5-generated-property-ccbtypeddefinitionpage-total-fca9c0ec7c07 }
 
@@ -14766,7 +14766,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1809`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1809) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1809`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1809) — LuaLS declaration
 
 ### `returned` { #symbol-api-lua-v5-generated-property-ccbtypeddefinitionpage-returned-0d1c9f72af9d }
 
@@ -14778,7 +14778,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1810`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1810) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1810`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1810) — LuaLS declaration
 
 ### `has_more` { #symbol-api-lua-v5-generated-property-ccbtypeddefinitionpage-has-more-4e16b5026b14 }
 
@@ -14790,7 +14790,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1811`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1811) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1811`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1811) — LuaLS declaration
 
 ### `entries` { #symbol-api-lua-v5-generated-property-ccbtypeddefinitionpage-entries-91cca7cf1b4e }
 
@@ -14802,7 +14802,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1812`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1812) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1812`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1812) — LuaLS declaration
 
 ## `CcbTypesApi` { #symbol-api-lua-v5-generated-class-ccbtypesapi-526585dcad60 }
 
@@ -14813,7 +14813,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:324`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L324) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:324`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L324) — LuaLS declaration
 
 ## `CcbUiApi` { #symbol-api-lua-v5-generated-class-ccbuiapi-5fba544da3a7 }
 
@@ -14824,7 +14824,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:900`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L900) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:900`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L900) — LuaLS declaration
 
 ## `CcbUnitsApi` { #symbol-api-lua-v5-generated-class-ccbunitsapi-a8d4657afad1 }
 
@@ -14835,7 +14835,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:335`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L335) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:335`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L335) — LuaLS declaration
 
 ## `CcbVariablesApi` { #symbol-api-lua-v5-generated-class-ccbvariablesapi-5574ab2c15a5 }
 
@@ -14846,7 +14846,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3547`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3547) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3547`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3547) — LuaLS declaration
 
 ## `CcbVariantSoundOptions` { #symbol-api-lua-v5-generated-class-ccbvariantsoundoptions-45b441dd58e3 }
 
@@ -14857,7 +14857,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1961`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1961) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1961`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1961) — LuaLS declaration
 
 ### `angle_degrees` { #symbol-api-lua-v5-generated-property-ccbvariantsoundoptions-angle-degrees-6ba1a2c0d308 }
 
@@ -14869,7 +14869,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1962`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1962) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1962`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1962) — LuaLS declaration
 
 ### `pitch_min` { #symbol-api-lua-v5-generated-property-ccbvariantsoundoptions-pitch-min-189a21062ff1 }
 
@@ -14881,7 +14881,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1963`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1963) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1963`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1963) — LuaLS declaration
 
 ### `pitch_max` { #symbol-api-lua-v5-generated-property-ccbvariantsoundoptions-pitch-max-369e3b501aae }
 
@@ -14893,7 +14893,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1964`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1964) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1964`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1964) — LuaLS declaration
 
 ## `CcbVehicleLift` { #symbol-api-lua-v5-generated-class-ccbvehiclelift-4e2edff66c35 }
 
@@ -14904,7 +14904,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3740`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3740) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3740`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3740) — LuaLS declaration
 
 ### `mass` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-mass-bed95d3444b0 }
 
@@ -14916,7 +14916,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3741`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3741) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3741`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3741) — LuaLS declaration
 
 ### `weight_newtons` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-weight-newtons-fe3c84fc02ca }
 
@@ -14928,7 +14928,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3742`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3742) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3742`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3742) — LuaLS declaration
 
 ### `rotor_lift_newtons` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-rotor-lift-newtons-3172b82e492e }
 
@@ -14940,7 +14940,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3743`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3743) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3743`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3743) — LuaLS declaration
 
 ### `safe_rotor_lift_newtons` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-safe-rotor-lift-newtons-0d4986a5d8d9 }
 
@@ -14952,7 +14952,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3744`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3744) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3744`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3744) — LuaLS declaration
 
 ### `balloon_lift_newtons` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-balloon-lift-newtons-2b626aeb5408 }
 
@@ -14964,7 +14964,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3745`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3745) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3745`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3745) — LuaLS declaration
 
 ### `maximum_lift_newtons` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-maximum-lift-newtons-f8eb0efdccc4 }
 
@@ -14976,7 +14976,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3746`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3746) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3746`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3746) — LuaLS declaration
 
 ### `lift_margin_newtons` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-lift-margin-newtons-98c6086b7bea }
 
@@ -14988,7 +14988,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3747`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3747) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3747`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3747) — LuaLS declaration
 
 ### `sufficient_rotor_lift` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-sufficient-rotor-lift-3b5dc64d1951 }
 
@@ -15000,7 +15000,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3748`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3748) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3748`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3748) — LuaLS declaration
 
 ### `sufficient_balloon_lift` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-sufficient-balloon-lift-7b9a1d250240 }
 
@@ -15012,7 +15012,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3749`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3749) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3749`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3749) — LuaLS declaration
 
 ### `rotorcraft` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-rotorcraft-da084f5999ed }
 
@@ -15024,7 +15024,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3750`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3750) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3750`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3750) — LuaLS declaration
 
 ### `airship` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-airship-1503c534afe3 }
 
@@ -15036,7 +15036,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3751`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3751) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3751`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3751) — LuaLS declaration
 
 ### `flying` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-flying-58bc2f3da450 }
 
@@ -15048,7 +15048,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3752`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3752) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3752`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3752) — LuaLS declaration
 
 ### `flyable` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-flyable-fed9fca4ce10 }
 
@@ -15060,7 +15060,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3753`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3753) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3753`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3753) — LuaLS declaration
 
 ## `CcbVehicleMotion` { #symbol-api-lua-v5-generated-class-ccbvehiclemotion-0ed85dbd4ec3 }
 
@@ -15071,7 +15071,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3725`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3725) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3725`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3725) — LuaLS declaration
 
 ### `velocity` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-velocity-5fd666d14697 }
 
@@ -15083,7 +15083,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3726`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3726) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3726`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3726) — LuaLS declaration
 
 ### `average_velocity` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-average-velocity-c405152510bd }
 
@@ -15095,7 +15095,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3727`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3727) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3727`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3727) — LuaLS declaration
 
 ### `cruise_velocity` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-cruise-velocity-5c4565783787 }
 
@@ -15107,7 +15107,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3728`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3728) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3728`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3728) — LuaLS declaration
 
 ### `vertical_velocity` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-vertical-velocity-dd28fb0db797 }
 
@@ -15119,7 +15119,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3729`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3729) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3729`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3729) — LuaLS declaration
 
 ### `forward_velocity` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-forward-velocity-c9d47be04a52 }
 
@@ -15131,7 +15131,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3730`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3730) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3730`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3730) — LuaLS declaration
 
 ### `maximum_velocity` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-maximum-velocity-abcef64705e5 }
 
@@ -15143,7 +15143,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3731`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3731) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3731`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3731) — LuaLS declaration
 
 ### `maximum_reverse_velocity` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-maximum-reverse-velocity-e6ece0ecef6b }
 
@@ -15155,7 +15155,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3732`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3732) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3732`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3732) — LuaLS declaration
 
 ### `safe_velocity` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-safe-velocity-f7b8cde28b5f }
 
@@ -15167,7 +15167,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3733`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3733) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3733`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3733) — LuaLS declaration
 
 ### `acceleration` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-acceleration-633097a93986 }
 
@@ -15179,7 +15179,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3734`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3734) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3734`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3734) — LuaLS declaration
 
 ### `moving` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-moving-2c13df012817 }
 
@@ -15191,7 +15191,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3735`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3735) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3735`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3735) — LuaLS declaration
 
 ### `skidding` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-skidding-87c47ebc5296 }
 
@@ -15203,7 +15203,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3736`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3736) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3736`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3736) — LuaLS declaration
 
 ### `facing` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-facing-7dd3174fd0db }
 
@@ -15215,7 +15215,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3737`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3737) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3737`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3737) — LuaLS declaration
 
 ### `turn_direction` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-turn-direction-aa089da79d89 }
 
@@ -15227,7 +15227,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3738`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3738) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3738`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3738) — LuaLS declaration
 
 ## `CcbVehiclePart` { #symbol-api-lua-v5-generated-class-ccbvehiclepart-f782854a4cf7 }
 
@@ -15238,7 +15238,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3769`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3769) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3769`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3769) — LuaLS declaration
 
 ### `index` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-index-fc8771601054 }
 
@@ -15250,7 +15250,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3770`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3770) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3770`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3770) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-id-14feb199622a }
 
@@ -15262,7 +15262,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3771`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3771) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3771`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3771) — LuaLS declaration
 
 ### `location` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-location-7d9f787a4406 }
 
@@ -15274,7 +15274,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3772`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3772) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3772`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3772) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-name-200864dc7115 }
 
@@ -15286,7 +15286,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3773`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3773) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3773`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3773) — LuaLS declaration
 
 ### `mount` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-mount-e6636a9efc8c }
 
@@ -15298,7 +15298,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3774`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3774) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3774`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3774) — LuaLS declaration
 
 ### `position` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-position-aed142046c8f }
 
@@ -15310,7 +15310,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3775`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3775) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3775`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3775) — LuaLS declaration
 
 ### `variant` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-variant-ee21b8708b07 }
 
@@ -15322,7 +15322,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3776`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3776) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3776`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3776) — LuaLS declaration
 
 ### `hp` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-hp-0f6e6c0a41bb }
 
@@ -15334,7 +15334,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3777`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3777) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3777`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3777) — LuaLS declaration
 
 ### `durability` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-durability-02044e0fbbc5 }
 
@@ -15346,7 +15346,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3778`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3778) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3778`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3778) — LuaLS declaration
 
 ### `damage_percent` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-damage-percent-1c2d3de9484c }
 
@@ -15358,7 +15358,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3779`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3779) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3779`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3779) — LuaLS declaration
 
 ### `broken` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-broken-8a6a3c968df6 }
 
@@ -15370,7 +15370,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3780`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3780) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3780`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3780) — LuaLS declaration
 
 ### `available` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-available-0866d5f9c080 }
 
@@ -15382,7 +15382,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3781`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3781) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3781`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3781) — LuaLS declaration
 
 ### `enabled` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-enabled-85a76bdbeae6 }
 
@@ -15394,7 +15394,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3782`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3782) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3782`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3782) — LuaLS declaration
 
 ### `power_disabled` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-power-disabled-87984ca2e4ed }
 
@@ -15406,7 +15406,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3783`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3783) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3783`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3783) — LuaLS declaration
 
 ### `open` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-open-166bb4a77628 }
 
@@ -15418,7 +15418,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3784`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3784) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3784`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3784) — LuaLS declaration
 
 ### `locked` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-locked-f29c3768780a }
 
@@ -15430,7 +15430,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3785`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3785) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3785`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3785) — LuaLS declaration
 
 ### `inside` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-inside-74416ec714b8 }
 
@@ -15442,7 +15442,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3786`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3786) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3786`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3786) — LuaLS declaration
 
 ### `hidden` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-hidden-9f26ee87df99 }
 
@@ -15454,7 +15454,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3787`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3787) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3787`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3787) — LuaLS declaration
 
 ### `removed` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-removed-4d36023fbfd1 }
 
@@ -15466,7 +15466,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3788`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3788) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3788`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3788) — LuaLS declaration
 
 ### `fake` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-fake-5ec9d6416e48 }
 
@@ -15478,7 +15478,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3789`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3789) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3789`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3789) — LuaLS declaration
 
 ### `capabilities` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-capabilities-32ec10bd8edc }
 
@@ -15490,7 +15490,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3790`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3790) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3790`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3790) — LuaLS declaration
 
 ### `ammo` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-ammo-8d1dce4ceb8b }
 
@@ -15502,7 +15502,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3791`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3791) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3791`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3791) — LuaLS declaration
 
 ## `CcbVehiclePartOptions` { #symbol-api-lua-v5-generated-class-ccbvehiclepartoptions-9cb9a1c6c741 }
 
@@ -15513,7 +15513,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3793`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3793) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3793`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3793) — LuaLS declaration
 
 ### `include_fake` { #symbol-api-lua-v5-generated-property-ccbvehiclepartoptions-include-fake-a2422807b78a }
 
@@ -15525,7 +15525,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3794`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3794) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3794`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3794) — LuaLS declaration
 
 ### `include_removed` { #symbol-api-lua-v5-generated-property-ccbvehiclepartoptions-include-removed-aafa05e516ba }
 
@@ -15537,7 +15537,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3795`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3795) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3795`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3795) — LuaLS declaration
 
 ## `CcbVehiclePrototype` { #symbol-api-lua-v5-generated-class-ccbvehicleprototype-90d444a559ac }
 
@@ -15548,7 +15548,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3716`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3716) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3716`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3716) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbvehicleprototype-id-9a9eb48390de }
 
@@ -15560,7 +15560,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3717`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3717) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3717`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3717) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbvehicleprototype-name-4bf843fd5038 }
 
@@ -15572,7 +15572,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3718`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3718) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3718`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3718) — LuaLS declaration
 
 ### `parts` { #symbol-api-lua-v5-generated-property-ccbvehicleprototype-parts-2bd441d31e97 }
 
@@ -15584,7 +15584,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3719`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3719) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3719`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3719) — LuaLS declaration
 
 ### `item_spawn_count` { #symbol-api-lua-v5-generated-property-ccbvehicleprototype-item-spawn-count-8c2b4f139f4b }
 
@@ -15596,7 +15596,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3720`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3720) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3720`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3720) — LuaLS declaration
 
 ### `zone_count` { #symbol-api-lua-v5-generated-property-ccbvehicleprototype-zone-count-ca0ef0f6f5a0 }
 
@@ -15608,7 +15608,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3721`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3721) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3721`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3721) — LuaLS declaration
 
 ### `has_blueprint` { #symbol-api-lua-v5-generated-property-ccbvehicleprototype-has-blueprint-495638c58306 }
 
@@ -15620,7 +15620,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3722`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3722) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3722`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3722) — LuaLS declaration
 
 ### `color_palette` { #symbol-api-lua-v5-generated-property-ccbvehicleprototype-color-palette-1d9e8f15a437 }
 
@@ -15632,7 +15632,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3723`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3723) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3723`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3723) — LuaLS declaration
 
 ## `CcbVehicleSnapshot` { #symbol-api-lua-v5-generated-class-ccbvehiclesnapshot-1adbc3d8067a }
 
@@ -15643,7 +15643,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3755`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3755) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3755`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3755) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-name-86c05e917757 }
 
@@ -15655,7 +15655,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3756`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3756) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3756`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3756) — LuaLS declaration
 
 ### `display_name` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-display-name-fc206031676d }
 
@@ -15667,7 +15667,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3757`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3757) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3757`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3757) — LuaLS declaration
 
 ### `prototype` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-prototype-2629b98b2a61 }
 
@@ -15679,7 +15679,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3758`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3758) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3758`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3758) — LuaLS declaration
 
 ### `position` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-position-0785b85bff8e }
 
@@ -15691,7 +15691,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3759`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3759) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3759`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3759) — LuaLS declaration
 
 ### `parts` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-parts-3ce93bcab466 }
 
@@ -15703,7 +15703,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3760`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3760) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3760`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3760) — LuaLS declaration
 
 ### `real_parts` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-real-parts-8daf69a7be11 }
 
@@ -15715,7 +15715,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3761`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3761) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3761`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3761) — LuaLS declaration
 
 ### `owner` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-owner-5711150e9b12 }
 
@@ -15727,7 +15727,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3762`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3762) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3762`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3762) — LuaLS declaration
 
 ### `old_owner` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-old-owner-d7eac050f8a1 }
 
@@ -15739,7 +15739,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3763`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3763) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3763`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3763) — LuaLS declaration
 
 ### `motion` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-motion-4d3b6167140a }
 
@@ -15751,7 +15751,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3764`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3764) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3764`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3764) — LuaLS declaration
 
 ### `lift` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-lift-923db6c8913e }
 
@@ -15763,7 +15763,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3765`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3765) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3765`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3765) — LuaLS declaration
 
 ### `power` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-power-7bd6fb4366fe }
 
@@ -15775,7 +15775,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3766`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3766) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3766`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3766) — LuaLS declaration
 
 ### `state` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-state-a43f1d67e3de }
 
@@ -15787,7 +15787,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3767`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3767) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3767`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3767) — LuaLS declaration
 
 ## `CcbVehicleStopOptions` { #symbol-api-lua-v5-generated-class-ccbvehiclestopoptions-659a427fe477 }
 
@@ -15798,7 +15798,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3797`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3797) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3797`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3797) — LuaLS declaration
 
 ### `motion` { #symbol-api-lua-v5-generated-property-ccbvehiclestopoptions-motion-9e12627098e7 }
 
@@ -15810,7 +15810,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3798`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3798) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3798`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3798) — LuaLS declaration
 
 ### `engines` { #symbol-api-lua-v5-generated-property-ccbvehiclestopoptions-engines-91e0f2a10cfc }
 
@@ -15822,7 +15822,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3799`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3799) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3799`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3799) — LuaLS declaration
 
 ### `autopilot` { #symbol-api-lua-v5-generated-property-ccbvehiclestopoptions-autopilot-c1e560317527 }
 
@@ -15834,7 +15834,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3800`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3800) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3800`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3800) — LuaLS declaration
 
 ## `CcbVehiclesApi` { #symbol-api-lua-v5-generated-class-ccbvehiclesapi-0df7b8d33d3d }
 
@@ -15845,7 +15845,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3802`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3802) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3802`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3802) — LuaLS declaration
 
 ## `CcbVitaminDecay` { #symbol-api-lua-v5-generated-class-ccbvitamindecay-90b2e1a812fd }
 
@@ -15856,7 +15856,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3187`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3187) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3187`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3187) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbvitamindecay-id-ee150d8dce7e }
 
@@ -15868,7 +15868,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3188`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3188) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3188`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3188) — LuaLS declaration
 
 ### `ratio` { #symbol-api-lua-v5-generated-property-ccbvitamindecay-ratio-c09555010405 }
 
@@ -15880,7 +15880,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3189) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3189) — LuaLS declaration
 
 ## `CcbVitaminDefinition` { #symbol-api-lua-v5-generated-class-ccbvitamindefinition-6e0ecdaa653f }
 
@@ -15891,7 +15891,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3191`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3191) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3191`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3191) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbvitamindefinition-id-86770969ba39 }
 
@@ -15903,7 +15903,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3192`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3192) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3192`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3192) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbvitamindefinition-name-d8523b8cf09f }
 
@@ -15915,7 +15915,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3193`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3193) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3193`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3193) — LuaLS declaration
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbvitamindefinition-type-ccb2f4e0cccf }
 
@@ -15927,7 +15927,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3194`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3194) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3194`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3194) — LuaLS declaration
 
 ### `minimum` { #symbol-api-lua-v5-generated-property-ccbvitamindefinition-minimum-2c81e0b290d0 }
 
@@ -15939,7 +15939,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3195`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3195) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3195`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3195) — LuaLS declaration
 
 ### `maximum` { #symbol-api-lua-v5-generated-property-ccbvitamindefinition-maximum-db35e2340a9a }
 
@@ -15951,7 +15951,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3196`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3196) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3196`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3196) — LuaLS declaration
 
 ### `rate` { #symbol-api-lua-v5-generated-property-ccbvitamindefinition-rate-47f25331b7d4 }
 
@@ -15963,7 +15963,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3197`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3197) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3197`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3197) — LuaLS declaration
 
 ### `absorption_per_day` { #symbol-api-lua-v5-generated-property-ccbvitamindefinition-absorption-per-day-22599ce09bd9 }
 
@@ -15975,7 +15975,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3198`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3198) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3198`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3198) — LuaLS declaration
 
 ### `deficiency_effect` { #symbol-api-lua-v5-generated-property-ccbvitamindefinition-deficiency-effect-1a6f1ebda7bf }
 
@@ -15987,7 +15987,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3199`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3199) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3199`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3199) — LuaLS declaration
 
 ### `excess_effect` { #symbol-api-lua-v5-generated-property-ccbvitamindefinition-excess-effect-d311bcff3ff5 }
 
@@ -15999,7 +15999,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3200`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3200) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3200`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3200) — LuaLS declaration
 
 ### `decays_into` { #symbol-api-lua-v5-generated-property-ccbvitamindefinition-decays-into-560ced6ed19f }
 
@@ -16011,7 +16011,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3201`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3201) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3201`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3201) — LuaLS declaration
 
 ## `CcbVitaminState` { #symbol-api-lua-v5-generated-class-ccbvitaminstate-a09bbfbc5cff }
 
@@ -16022,7 +16022,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3203`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3203) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3203`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3203) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbvitaminstate-id-b46938c8033a }
 
@@ -16034,7 +16034,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3204`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3204) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3204`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3204) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbvitaminstate-name-90a1c22dd77c }
 
@@ -16046,7 +16046,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3205`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3205) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3205`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3205) — LuaLS declaration
 
 ### `amount` { #symbol-api-lua-v5-generated-property-ccbvitaminstate-amount-82730c39d355 }
 
@@ -16058,7 +16058,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3206`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3206) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3206`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3206) — LuaLS declaration
 
 ### `minimum` { #symbol-api-lua-v5-generated-property-ccbvitaminstate-minimum-dfe035b5b614 }
 
@@ -16070,7 +16070,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3207`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3207) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3207`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3207) — LuaLS declaration
 
 ### `maximum` { #symbol-api-lua-v5-generated-property-ccbvitaminstate-maximum-f628ab5530d2 }
 
@@ -16082,7 +16082,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3208`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3208) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3208`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3208) — LuaLS declaration
 
 ### `severity` { #symbol-api-lua-v5-generated-property-ccbvitaminstate-severity-1c192d7a2ed0 }
 
@@ -16094,7 +16094,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3209`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3209) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3209`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3209) — LuaLS declaration
 
 ### `daily_actual` { #symbol-api-lua-v5-generated-property-ccbvitaminstate-daily-actual-88ae170440bc }
 
@@ -16106,7 +16106,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3210`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3210) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3210`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3210) — LuaLS declaration
 
 ### `daily_estimated` { #symbol-api-lua-v5-generated-property-ccbvitaminstate-daily-estimated-066c1d6ca931 }
 
@@ -16118,7 +16118,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3211`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3211) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3211`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3211) — LuaLS declaration
 
 ### `rate` { #symbol-api-lua-v5-generated-property-ccbvitaminstate-rate-8ed2bac93ccc }
 
@@ -16130,7 +16130,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3212`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3212) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3212`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3212) — LuaLS declaration
 
 ## `CcbVitaminsApi` { #symbol-api-lua-v5-generated-class-ccbvitaminsapi-76b750c58493 }
 
@@ -16141,7 +16141,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:3214`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L3214) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:3214`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L3214) — LuaLS declaration
 
 ## `CcbWeatherApi` { #symbol-api-lua-v5-generated-class-ccbweatherapi-dff7c37f06da }
 
@@ -16152,7 +16152,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4350`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4350) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4350`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4350) — LuaLS declaration
 
 ## `CcbWeatherForecast` { #symbol-api-lua-v5-generated-class-ccbweatherforecast-5550674b7dde }
 
@@ -16163,7 +16163,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4326`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4326) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4326`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4326) — LuaLS declaration
 
 ### `items` { #symbol-api-lua-v5-generated-property-ccbweatherforecast-items-e28f16d23f56 }
 
@@ -16175,7 +16175,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4327`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4327) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4327`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4327) — LuaLS declaration
 
 ### `returned` { #symbol-api-lua-v5-generated-property-ccbweatherforecast-returned-35758e7460e2 }
 
@@ -16187,7 +16187,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4328`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4328) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4328`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4328) — LuaLS declaration
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbweatherforecast-limit-b46af7aec421 }
 
@@ -16199,7 +16199,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4329`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4329) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4329`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4329) — LuaLS declaration
 
 ### `start` { #symbol-api-lua-v5-generated-property-ccbweatherforecast-start-56623d0fd79b }
 
@@ -16211,7 +16211,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4330`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4330) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4330`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4330) — LuaLS declaration
 
 ### `step` { #symbol-api-lua-v5-generated-property-ccbweatherforecast-step-2755ab8d258a }
 
@@ -16223,7 +16223,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4331`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4331) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4331`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4331) — LuaLS declaration
 
 ### `position` { #symbol-api-lua-v5-generated-property-ccbweatherforecast-position-18038e3236dc }
 
@@ -16235,7 +16235,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4332`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4332) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4332`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4332) — LuaLS declaration
 
 ### `respected_override` { #symbol-api-lua-v5-generated-property-ccbweatherforecast-respected-override-d30ac20620ba }
 
@@ -16247,7 +16247,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4333`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4333) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4333`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4333) — LuaLS declaration
 
 ## `CcbWeatherForecastOptions` { #symbol-api-lua-v5-generated-class-ccbweatherforecastoptions-bc7be7ff75fd }
 
@@ -16258,7 +16258,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4319`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4319) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4319`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4319) — LuaLS declaration
 
 ### `start` { #symbol-api-lua-v5-generated-property-ccbweatherforecastoptions-start-f26d86ca1764 }
 
@@ -16270,7 +16270,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4320`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4320) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4320`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4320) — LuaLS declaration
 
 ### `position` { #symbol-api-lua-v5-generated-property-ccbweatherforecastoptions-position-98f5a13d8d66 }
 
@@ -16282,7 +16282,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4321`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4321) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4321`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4321) — LuaLS declaration
 
 ### `step` { #symbol-api-lua-v5-generated-property-ccbweatherforecastoptions-step-bc34d93fe754 }
 
@@ -16294,7 +16294,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4322`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4322) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4322`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4322) — LuaLS declaration
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbweatherforecastoptions-limit-539c25993ef9 }
 
@@ -16306,7 +16306,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4323`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4323) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4323`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4323) — LuaLS declaration
 
 ### `respect_override` { #symbol-api-lua-v5-generated-property-ccbweatherforecastoptions-respect-override-6be084ade30c }
 
@@ -16318,7 +16318,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4324`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4324) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4324`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4324) — LuaLS declaration
 
 ## `CcbWeatherGenerator` { #symbol-api-lua-v5-generated-class-ccbweathergenerator-8a5b707af9e9 }
 
@@ -16329,7 +16329,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4301`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4301) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4301`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4301) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-id-49ccfa068723 }
 
@@ -16341,7 +16341,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4302`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4302) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4302`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4302) — LuaLS declaration
 
 ### `loaded` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-loaded-fdeb041b1eaf }
 
@@ -16353,7 +16353,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4303`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4303) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4303`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4303) — LuaLS declaration
 
 ### `base_temperature_c` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-base-temperature-c-1cf2d3fd7ce8 }
 
@@ -16365,7 +16365,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4304`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4304) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4304`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4304) — LuaLS declaration
 
 ### `base_humidity` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-base-humidity-f5b770ea5ef3 }
 
@@ -16377,7 +16377,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4305`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4305) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4305`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4305) — LuaLS declaration
 
 ### `base_pressure` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-base-pressure-57df30b16a26 }
 
@@ -16389,7 +16389,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4306`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4306) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4306`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4306) — LuaLS declaration
 
 ### `base_wind_mph` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-base-wind-mph-ce7f7cd40e70 }
 
@@ -16401,7 +16401,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4307`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4307) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4307`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4307) — LuaLS declaration
 
 ### `wind_distribution_peaks` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-wind-distribution-peaks-d662daf5c28d }
 
@@ -16413,7 +16413,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4308`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4308) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4308`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4308) — LuaLS declaration
 
 ### `wind_season_variation` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-wind-season-variation-96b33b46c1e5 }
 
@@ -16425,7 +16425,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4309`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4309) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4309`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4309) — LuaLS declaration
 
 ### `seasonal` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-seasonal-5de7c4f92baf }
 
@@ -16437,7 +16437,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4310`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4310) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4310`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4310) — LuaLS declaration
 
 ### `blacklist` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-blacklist-f9d583caa647 }
 
@@ -16449,7 +16449,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4311`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4311) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4311`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4311) — LuaLS declaration
 
 ### `whitelist` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-whitelist-08f17dd44c8c }
 
@@ -16461,7 +16461,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4312`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4312) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4312`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4312) — LuaLS declaration
 
 ### `sorted_weather` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-sorted-weather-8b8c1f8c2667 }
 
@@ -16473,7 +16473,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4313`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4313) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4313`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4313) — LuaLS declaration
 
 ## `CcbWeatherLimits` { #symbol-api-lua-v5-generated-class-ccbweatherlimits-deb067ed397c }
 
@@ -16484,7 +16484,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4341`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4341) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4341`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4341) — LuaLS declaration
 
 ### `catalog_limit` { #symbol-api-lua-v5-generated-property-ccbweatherlimits-catalog-limit-3210961b377f }
 
@@ -16496,7 +16496,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4342`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4342) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4342`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4342) — LuaLS declaration
 
 ### `forecast_limit` { #symbol-api-lua-v5-generated-property-ccbweatherlimits-forecast-limit-4665d7e3c651 }
 
@@ -16508,7 +16508,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4343`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4343) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4343`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4343) — LuaLS declaration
 
 ### `forecast_minimum_step` { #symbol-api-lua-v5-generated-property-ccbweatherlimits-forecast-minimum-step-d694cfea0158 }
 
@@ -16520,7 +16520,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4344`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4344) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4344`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4344) — LuaLS declaration
 
 ### `forecast_maximum_step` { #symbol-api-lua-v5-generated-property-ccbweatherlimits-forecast-maximum-step-194db5b181ae }
 
@@ -16532,7 +16532,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4345`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4345) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4345`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4345) — LuaLS declaration
 
 ### `forecast_maximum_horizon` { #symbol-api-lua-v5-generated-property-ccbweatherlimits-forecast-maximum-horizon-b27ac56f9440 }
 
@@ -16544,7 +16544,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4346`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4346) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4346`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4346) — LuaLS declaration
 
 ### `maximum_wind_speed_mph` { #symbol-api-lua-v5-generated-property-ccbweatherlimits-maximum-wind-speed-mph-d4617d90cfe4 }
 
@@ -16556,7 +16556,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4347`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4347) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4347`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4347) — LuaLS declaration
 
 ### `maximum_temperature_kelvin` { #symbol-api-lua-v5-generated-property-ccbweatherlimits-maximum-temperature-kelvin-7dfa93a58d94 }
 
@@ -16568,7 +16568,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4348`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4348) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4348`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4348) — LuaLS declaration
 
 ## `CcbWeatherListOptions` { #symbol-api-lua-v5-generated-class-ccbweatherlistoptions-9ed5cf80c420 }
 
@@ -16579,7 +16579,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4315`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4315) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4315`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4315) — LuaLS declaration
 
 ### `dangerous` { #symbol-api-lua-v5-generated-property-ccbweatherlistoptions-dangerous-215d987798e4 }
 
@@ -16591,7 +16591,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4316`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4316) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4316`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4316) — LuaLS declaration
 
 ### `rains` { #symbol-api-lua-v5-generated-property-ccbweatherlistoptions-rains-754567961771 }
 
@@ -16603,7 +16603,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4317`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4317) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4317`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4317) — LuaLS declaration
 
 ## `CcbWeatherPoint` { #symbol-api-lua-v5-generated-class-ccbweatherpoint-69261d1098cc }
 
@@ -16614,7 +16614,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4263`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4263) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4263`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4263) — LuaLS declaration
 
 ### `at` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-at-ebe847c4c066 }
 
@@ -16626,7 +16626,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4264`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4264) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4264`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4264) — LuaLS declaration
 
 ### `weather` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-weather-c86755f61778 }
 
@@ -16638,7 +16638,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4265`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4265) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4265`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4265) — LuaLS declaration
 
 ### `temperature` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-temperature-b77a41ac1f45 }
 
@@ -16650,7 +16650,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4266`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4266) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4266`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4266) — LuaLS declaration
 
 ### `temperature_c` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-temperature-c-c134826c5bc5 }
 
@@ -16662,7 +16662,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4267`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4267) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4267`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4267) — LuaLS declaration
 
 ### `humidity` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-humidity-3d2f4d0d6559 }
 
@@ -16674,7 +16674,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4268`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4268) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4268`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4268) — LuaLS declaration
 
 ### `pressure` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-pressure-16e37b2c967c }
 
@@ -16686,7 +16686,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4269`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4269) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4269`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4269) — LuaLS declaration
 
 ### `wind_speed_mph` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-wind-speed-mph-cf1c3c672fbb }
 
@@ -16698,7 +16698,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4270`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4270) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4270`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4270) — LuaLS declaration
 
 ### `wind_direction_degrees` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-wind-direction-degrees-8741e5aae442 }
 
@@ -16710,7 +16710,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4271`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4271) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4271`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4271) — LuaLS declaration
 
 ### `wind_description` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-wind-description-92d5195b06c4 }
 
@@ -16722,7 +16722,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4272`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4272) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4272`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4272) — LuaLS declaration
 
 ### `position` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-position-043759055a86 }
 
@@ -16734,7 +16734,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4273`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4273) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4273`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4273) — LuaLS declaration
 
 ### `precipitation_mm_per_hour` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-precipitation-mm-per-hour-456e5389d9d0 }
 
@@ -16746,7 +16746,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4274`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4274) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4274`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4274) — LuaLS declaration
 
 ### `sunlight` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-sunlight-04691c20a281 }
 
@@ -16758,7 +16758,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4275`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4275) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4275`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4275) — LuaLS declaration
 
 ### `sun_irradiance` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-sun-irradiance-7db80cc958a5 }
 
@@ -16770,7 +16770,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4276`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4276) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4276`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4276) — LuaLS declaration
 
 ### `moonlight` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-moonlight-e18ff82a7871 }
 
@@ -16782,7 +16782,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4277`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4277) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4277`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4277) — LuaLS declaration
 
 ### `is_day` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-is-day-db2cdee166ad }
 
@@ -16794,7 +16794,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4278`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4278) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4278`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4278) — LuaLS declaration
 
 ### `is_night` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-is-night-b9944170c4f9 }
 
@@ -16806,7 +16806,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4279`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4279) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4279`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4279) — LuaLS declaration
 
 ## `CcbWeatherSeasonModifiers` { #symbol-api-lua-v5-generated-class-ccbweatherseasonmodifiers-c05c543fcd1a }
 
@@ -16817,7 +16817,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4297`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4297) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4297`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4297) — LuaLS declaration
 
 ### `temperature_modifier` { #symbol-api-lua-v5-generated-property-ccbweatherseasonmodifiers-temperature-modifier-d381e316a172 }
 
@@ -16829,7 +16829,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4298`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4298) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4298`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4298) — LuaLS declaration
 
 ### `humidity_modifier` { #symbol-api-lua-v5-generated-property-ccbweatherseasonmodifiers-humidity-modifier-c7d791ca398c }
 
@@ -16841,7 +16841,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4299`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4299) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4299`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4299) — LuaLS declaration
 
 ## `CcbWeatherSnapshot` { #symbol-api-lua-v5-generated-class-ccbweathersnapshot-cb0e83186758 }
 
@@ -16852,7 +16852,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1204`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1204) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1204`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1204) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbweathersnapshot-id-79aa84c1c213 }
 
@@ -16864,7 +16864,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1205`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1205) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1205`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1205) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbweathersnapshot-name-7b29514f7e46 }
 
@@ -16876,7 +16876,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1206`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1206) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1206`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1206) — LuaLS declaration
 
 ### `temperature_c` { #symbol-api-lua-v5-generated-property-ccbweathersnapshot-temperature-c-4967e6dd1e7e }
 
@@ -16888,7 +16888,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1207`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1207) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1207`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1207) — LuaLS declaration
 
 ### `temperature_display` { #symbol-api-lua-v5-generated-property-ccbweathersnapshot-temperature-display-e46e4b7cbbf9 }
 
@@ -16900,7 +16900,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1208`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1208) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1208`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1208) — LuaLS declaration
 
 ### `dangerous` { #symbol-api-lua-v5-generated-property-ccbweathersnapshot-dangerous-a7c9328f9f25 }
 
@@ -16912,7 +16912,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1209`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1209) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1209`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1209) — LuaLS declaration
 
 ### `raining` { #symbol-api-lua-v5-generated-property-ccbweathersnapshot-raining-0e7dbf91db13 }
 
@@ -16924,7 +16924,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1210`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1210) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1210`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1210) — LuaLS declaration
 
 ### `sight_penalty` { #symbol-api-lua-v5-generated-property-ccbweathersnapshot-sight-penalty-14b0eeb42b06 }
 
@@ -16936,7 +16936,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1211`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1211) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1211`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1211) — LuaLS declaration
 
 ### `wind_speed` { #symbol-api-lua-v5-generated-property-ccbweathersnapshot-wind-speed-8d5f28c4fa96 }
 
@@ -16948,7 +16948,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1212`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1212) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1212`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1212) — LuaLS declaration
 
 ### `wind_direction` { #symbol-api-lua-v5-generated-property-ccbweathersnapshot-wind-direction-73a0f8594e24 }
 
@@ -16960,7 +16960,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:1213`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1213) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:1213`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1213) — LuaLS declaration
 
 ## `CcbWeatherType` { #symbol-api-lua-v5-generated-class-ccbweathertype-7bc0a3d6e66c }
 
@@ -16971,7 +16971,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4238`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4238) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4238`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4238) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbweathertype-id-7adfba608aaa }
 
@@ -16983,7 +16983,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4239`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4239) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4239`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4239) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbweathertype-name-3b078bfdb3d1 }
 
@@ -16995,7 +16995,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4240`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4240) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4240`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4240) — LuaLS declaration
 
 ### `loaded` { #symbol-api-lua-v5-generated-property-ccbweathertype-loaded-8a283d002964 }
 
@@ -17007,7 +17007,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4241`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4241) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4241`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4241) — LuaLS declaration
 
 ### `symbol` { #symbol-api-lua-v5-generated-property-ccbweathertype-symbol-0c7c2c4a476f }
 
@@ -17019,7 +17019,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4242`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4242) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4242`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4242) — LuaLS declaration
 
 ### `sun_symbol` { #symbol-api-lua-v5-generated-property-ccbweathertype-sun-symbol-b6039a302b53 }
 
@@ -17031,7 +17031,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4243`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4243) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4243`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4243) — LuaLS declaration
 
 ### `ranged_penalty` { #symbol-api-lua-v5-generated-property-ccbweathertype-ranged-penalty-c3350018716b }
 
@@ -17043,7 +17043,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4244`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4244) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4244`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4244) — LuaLS declaration
 
 ### `sight_penalty` { #symbol-api-lua-v5-generated-property-ccbweathertype-sight-penalty-ccaf78d537c3 }
 
@@ -17055,7 +17055,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4245`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4245) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4245`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4245) — LuaLS declaration
 
 ### `light_modifier` { #symbol-api-lua-v5-generated-property-ccbweathertype-light-modifier-640fb9e73cc3 }
 
@@ -17067,7 +17067,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4246`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4246) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4246`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4246) — LuaLS declaration
 
 ### `light_multiplier` { #symbol-api-lua-v5-generated-property-ccbweathertype-light-multiplier-2b8899368de9 }
 
@@ -17079,7 +17079,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4247`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4247) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4247`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4247) — LuaLS declaration
 
 ### `sun_multiplier` { #symbol-api-lua-v5-generated-property-ccbweathertype-sun-multiplier-23dad705fade }
 
@@ -17091,7 +17091,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4248`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4248) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4248`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4248) — LuaLS declaration
 
 ### `sound_attenuation` { #symbol-api-lua-v5-generated-property-ccbweathertype-sound-attenuation-5d4f2e5c4442 }
 
@@ -17103,7 +17103,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4249`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4249) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4249`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4249) — LuaLS declaration
 
 ### `dangerous` { #symbol-api-lua-v5-generated-property-ccbweathertype-dangerous-8dd2c3f6e10a }
 
@@ -17115,7 +17115,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4250`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4250) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4250`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4250) — LuaLS declaration
 
 ### `precipitation` { #symbol-api-lua-v5-generated-property-ccbweathertype-precipitation-76f036515642 }
 
@@ -17127,7 +17127,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4251`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4251) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4251`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4251) — LuaLS declaration
 
 ### `precipitation_mm_per_hour` { #symbol-api-lua-v5-generated-property-ccbweathertype-precipitation-mm-per-hour-b7f95259d4dc }
 
@@ -17139,7 +17139,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4252`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4252) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4252`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4252) — LuaLS declaration
 
 ### `rains` { #symbol-api-lua-v5-generated-property-ccbweathertype-rains-9fb4d65576fb }
 
@@ -17151,7 +17151,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4253`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4253) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4253`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4253) — LuaLS declaration
 
 ### `temperature_modifier_c` { #symbol-api-lua-v5-generated-property-ccbweathertype-temperature-modifier-c-9585bd829682 }
 
@@ -17163,7 +17163,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4254`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4254) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4254`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4254) — LuaLS declaration
 
 ### `priority` { #symbol-api-lua-v5-generated-property-ccbweathertype-priority-ba2913b16edc }
 
@@ -17175,7 +17175,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4255`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4255) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4255`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4255) — LuaLS declaration
 
 ### `tiles_animation` { #symbol-api-lua-v5-generated-property-ccbweathertype-tiles-animation-785afdf5ddfd }
 
@@ -17187,7 +17187,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4256`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4256) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4256`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4256) — LuaLS declaration
 
 ### `sound_category` { #symbol-api-lua-v5-generated-property-ccbweathertype-sound-category-86312831e1e8 }
 
@@ -17199,7 +17199,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4257`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4257) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4257`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4257) — LuaLS declaration
 
 ### `duration_min` { #symbol-api-lua-v5-generated-property-ccbweathertype-duration-min-f83d2233f378 }
 
@@ -17211,7 +17211,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4258`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4258) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4258`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4258) — LuaLS declaration
 
 ### `duration_max` { #symbol-api-lua-v5-generated-property-ccbweathertype-duration-max-c29e0aa7bede }
 
@@ -17223,7 +17223,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4259`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4259) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4259`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4259) — LuaLS declaration
 
 ### `required_weathers` { #symbol-api-lua-v5-generated-property-ccbweathertype-required-weathers-38d19c6e296b }
 
@@ -17235,7 +17235,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4260`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4260) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4260`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4260) — LuaLS declaration
 
 ### `sources` { #symbol-api-lua-v5-generated-property-ccbweathertype-sources-4d0e473dd080 }
 
@@ -17247,7 +17247,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4261`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4261) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4261`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4261) — LuaLS declaration
 
 ## `CcbWeatherWindOptions` { #symbol-api-lua-v5-generated-class-ccbweatherwindoptions-bc02a0c11a2e }
 
@@ -17258,7 +17258,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4335`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4335) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4335`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4335) — LuaLS declaration
 
 ### `speed_mph` { #symbol-api-lua-v5-generated-property-ccbweatherwindoptions-speed-mph-aa0e3a1bffe2 }
 
@@ -17270,7 +17270,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4336`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4336) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4336`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4336) — LuaLS declaration
 
 ### `direction_degrees` { #symbol-api-lua-v5-generated-property-ccbweatherwindoptions-direction-degrees-fe234d360898 }
 
@@ -17282,7 +17282,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4337`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4337) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4337`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4337) — LuaLS declaration
 
 ### `clear_speed` { #symbol-api-lua-v5-generated-property-ccbweatherwindoptions-clear-speed-f12b8601da63 }
 
@@ -17294,7 +17294,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4338`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4338) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4338`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4338) — LuaLS declaration
 
 ### `clear_direction` { #symbol-api-lua-v5-generated-property-ccbweatherwindoptions-clear-direction-43c39469edfb }
 
@@ -17306,7 +17306,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4339`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4339) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4339`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4339) — LuaLS declaration
 
 ## `CcbWorldApi` { #symbol-api-lua-v5-generated-class-ccbworldapi-a4c9bea0c425 }
 
@@ -17317,7 +17317,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2724`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2724) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2724`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2724) — LuaLS declaration
 
 ## `CcbWorldRegionOptions` { #symbol-api-lua-v5-generated-class-ccbworldregionoptions-dfff3fa3fb34 }
 
@@ -17328,7 +17328,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2716`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2716) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2716`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2716) — LuaLS declaration
 
 ### `radius` { #symbol-api-lua-v5-generated-property-ccbworldregionoptions-radius-5bca69120c27 }
 
@@ -17340,7 +17340,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2717`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2717) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2717`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2717) — LuaLS declaration
 
 ### `radius_z` { #symbol-api-lua-v5-generated-property-ccbworldregionoptions-radius-z-3c4cfaa028a6 }
 
@@ -17352,7 +17352,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2718`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2718) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2718`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2718) — LuaLS declaration
 
 ### `offset` { #symbol-api-lua-v5-generated-property-ccbworldregionoptions-offset-f23183ecda98 }
 
@@ -17364,7 +17364,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2719`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2719) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2719`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2719) — LuaLS declaration
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbworldregionoptions-limit-fd9d8b9d2387 }
 
@@ -17376,7 +17376,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2720`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2720) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2720`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2720) — LuaLS declaration
 
 ## `CcbWorldTileOptions` { #symbol-api-lua-v5-generated-class-ccbworldtileoptions-5ad6e4e35d93 }
 
@@ -17387,7 +17387,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2712`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2712) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2712`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2712) — LuaLS declaration
 
 ### `item_limit` { #symbol-api-lua-v5-generated-property-ccbworldtileoptions-item-limit-9fd12f029752 }
 
@@ -17399,7 +17399,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2713`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2713) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2713`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2713) — LuaLS declaration
 
 ### `field_limit` { #symbol-api-lua-v5-generated-property-ccbworldtileoptions-field-limit-b4df00f83e63 }
 
@@ -17411,7 +17411,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2714`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2714) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2714`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2714) — LuaLS declaration
 
 ## `CcbWorldVehicleOptions` { #symbol-api-lua-v5-generated-class-ccbworldvehicleoptions-383104d39d31 }
 
@@ -17422,7 +17422,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2722`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2722) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2722`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2722) — LuaLS declaration
 
 ## `CcbZoneCreateOptions` { #symbol-api-lua-v5-generated-class-ccbzonecreateoptions-ebeb95122cf0 }
 
@@ -17433,7 +17433,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4170`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4170) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4170`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4170) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbzonecreateoptions-name-8260b50b83fb }
 
@@ -17445,7 +17445,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4171`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4171) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4171`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4171) — LuaLS declaration
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbzonecreateoptions-type-7c2a9961d5ac }
 
@@ -17457,7 +17457,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4172`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4172) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4172`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4172) — LuaLS declaration
 
 ### `faction` { #symbol-api-lua-v5-generated-property-ccbzonecreateoptions-faction-e634af5cab34 }
 
@@ -17469,7 +17469,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4173`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4173) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4173`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4173) — LuaLS declaration
 
 ### `start` { #symbol-api-lua-v5-generated-property-ccbzonecreateoptions-start-bf694a43ed48 }
 
@@ -17481,7 +17481,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4174`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4174) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4174`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4174) — LuaLS declaration
 
 ### `end` { #symbol-api-lua-v5-generated-property-ccbzonecreateoptions-end-3b2c46e35dd3 }
 
@@ -17493,7 +17493,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4175`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4175) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4175`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4175) — LuaLS declaration
 
 ### `invert` { #symbol-api-lua-v5-generated-property-ccbzonecreateoptions-invert-0b450709bd2a }
 
@@ -17505,7 +17505,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4176`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4176) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4176`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4176) — LuaLS declaration
 
 ### `enabled` { #symbol-api-lua-v5-generated-property-ccbzonecreateoptions-enabled-49aaa0af517b }
 
@@ -17517,7 +17517,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4177`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4177) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4177`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4177) — LuaLS declaration
 
 ### `personal` { #symbol-api-lua-v5-generated-property-ccbzonecreateoptions-personal-d10eebc3e148 }
 
@@ -17529,7 +17529,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4178`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4178) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4178`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4178) — LuaLS declaration
 
 ## `CcbZoneListOptions` { #symbol-api-lua-v5-generated-class-ccbzonelistoptions-fcfc3fe37bd4 }
 
@@ -17540,7 +17540,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4166`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4166) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4166`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4166) — LuaLS declaration
 
 ### `faction` { #symbol-api-lua-v5-generated-property-ccbzonelistoptions-faction-c7c3e7341e8f }
 
@@ -17552,7 +17552,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4167`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4167) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4167`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4167) — LuaLS declaration
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbzonelistoptions-type-270e7265c609 }
 
@@ -17564,7 +17564,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4168`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4168) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4168`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4168) — LuaLS declaration
 
 ## `CcbZoneSnapshot` { #symbol-api-lua-v5-generated-class-ccbzonesnapshot-a5dbcadc9a6f }
 
@@ -17575,7 +17575,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4148`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4148) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4148`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4148) — LuaLS declaration
 
 ### `token` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-token-df3f94d5811b }
 
@@ -17587,7 +17587,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4149`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4149) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4149`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4149) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-name-f2f77ebf1366 }
 
@@ -17599,7 +17599,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4150`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4150) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4150`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4150) — LuaLS declaration
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-type-a7ae610b7669 }
 
@@ -17611,7 +17611,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4151`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4151) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4151`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4151) — LuaLS declaration
 
 ### `type_name` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-type-name-61fa891ddaf7 }
 
@@ -17623,7 +17623,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4152`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4152) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4152`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4152) — LuaLS declaration
 
 ### `faction` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-faction-a3cc526356bf }
 
@@ -17635,7 +17635,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4153`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4153) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4153`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4153) — LuaLS declaration
 
 ### `start` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-start-d83c682fc504 }
 
@@ -17647,7 +17647,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4154`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4154) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4154`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4154) — LuaLS declaration
 
 ### `end` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-end-d296ccef3689 }
 
@@ -17659,7 +17659,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4155`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4155) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4155`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4155) — LuaLS declaration
 
 ### `center` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-center-fd551828912e }
 
@@ -17671,7 +17671,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4156`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4156) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4156`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4156) — LuaLS declaration
 
 ### `invert` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-invert-a28260c1a52f }
 
@@ -17683,7 +17683,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4157`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4157) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4157`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4157) — LuaLS declaration
 
 ### `enabled` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-enabled-5eb84f07f9be }
 
@@ -17695,7 +17695,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4158`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4158) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4158`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4158) — LuaLS declaration
 
 ### `temporarily_disabled` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-temporarily-disabled-7fb60ea54b38 }
 
@@ -17707,7 +17707,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4159`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4159) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4159`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4159) — LuaLS declaration
 
 ### `displayed` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-displayed-de13ad4f3cc1 }
 
@@ -17719,7 +17719,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4160`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4160) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4160`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4160) — LuaLS declaration
 
 ### `vehicle` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-vehicle-54732e024a23 }
 
@@ -17731,7 +17731,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4161`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4161) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4161`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4161) — LuaLS declaration
 
 ### `personal` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-personal-f0913345d606 }
 
@@ -17743,7 +17743,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4162`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4162) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4162`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4162) — LuaLS declaration
 
 ### `has_options` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-has-options-d538297ba836 }
 
@@ -17755,7 +17755,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4163`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4163) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4163`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4163) — LuaLS declaration
 
 ### `options` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-options-adf7a9dabaae }
 
@@ -17767,7 +17767,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4164`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4164) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4164`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4164) — LuaLS declaration
 
 ## `CcbZoneType` { #symbol-api-lua-v5-generated-class-ccbzonetype-16d6507a2b8f }
 
@@ -17778,7 +17778,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4138`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4138) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4138`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4138) — LuaLS declaration
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbzonetype-id-e93bf10fca64 }
 
@@ -17790,7 +17790,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4139`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4139) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4139`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4139) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbzonetype-name-cfca800b81ee }
 
@@ -17802,7 +17802,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4140`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4140) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4140`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4140) — LuaLS declaration
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbzonetype-description-c086f905ad7a }
 
@@ -17814,7 +17814,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4141`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4141) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4141`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4141) — LuaLS declaration
 
 ### `can_be_personal` { #symbol-api-lua-v5-generated-property-ccbzonetype-can-be-personal-598df14c51ce }
 
@@ -17826,7 +17826,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4142`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4142) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4142`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4142) — LuaLS declaration
 
 ### `hidden` { #symbol-api-lua-v5-generated-property-ccbzonetype-hidden-ae83f745ca3b }
 
@@ -17838,7 +17838,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4143`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4143) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4143`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4143) — LuaLS declaration
 
 ### `loaded` { #symbol-api-lua-v5-generated-property-ccbzonetype-loaded-2ed592734758 }
 
@@ -17850,7 +17850,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4144`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4144) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4144`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4144) — LuaLS declaration
 
 ### `field` { #symbol-api-lua-v5-generated-property-ccbzonetype-field-c0b1c275ea99 }
 
@@ -17862,7 +17862,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4145`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4145) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4145`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4145) — LuaLS declaration
 
 ### `sources` { #symbol-api-lua-v5-generated-property-ccbzonetype-sources-ac21dfa76619 }
 
@@ -17874,7 +17874,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4146`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4146) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4146`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4146) — LuaLS declaration
 
 ## `CcbZonesApi` { #symbol-api-lua-v5-generated-class-ccbzonesapi-d2bdf7715721 }
 
@@ -17885,7 +17885,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4180`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4180) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4180`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4180) — LuaLS declaration
 
 ## `GameEnum` { #symbol-api-lua-v5-generated-class-gameenum-1b2531fa4574 }
 
@@ -17896,8 +17896,8 @@ search:
 
 **来源:**
 
-- [`src/catalua_bindings_enums.cpp:519`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_enums.cpp#L519) — native registration
-- [`data/lua/types/ccb_api_v5.d.lua:287`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L287) — LuaLS declaration
+- [`src/catalua_bindings_enums.cpp:519`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L519) — native registration
+- [`data/lua/types/ccb_api_v5.d.lua:287`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L287) — LuaLS declaration
 
 ### `kind` { #symbol-api-lua-v5-generated-property-gameenum-kind-2898909880c9 }
 
@@ -17909,7 +17909,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:288`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L288) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:288`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L288) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-gameenum-name-502c12af0c25 }
 
@@ -17921,7 +17921,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:289`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L289) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:289`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L289) — LuaLS declaration
 
 ### `ordinal` { #symbol-api-lua-v5-generated-property-gameenum-ordinal-876abf1c5b4e }
 
@@ -17933,7 +17933,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:290`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L290) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:290`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L290) — LuaLS declaration
 
 ## `GameHandle` { #symbol-api-lua-v5-generated-class-gamehandle-9d9eee34a7c4 }
 
@@ -17944,8 +17944,8 @@ search:
 
 **来源:**
 
-- [`src/catalua_game_handle.cpp:263`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_game_handle.cpp#L263) — native registration
-- [`data/lua/types/ccb_api_v5.d.lua:311`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L311) — LuaLS declaration
+- [`src/catalua_game_handle.cpp:263`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_game_handle.cpp#L263) — native registration
+- [`data/lua/types/ccb_api_v5.d.lua:311`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L311) — LuaLS declaration
 
 ### `kind` { #symbol-api-lua-v5-generated-property-gamehandle-kind-9ee39b9273ea }
 
@@ -17957,7 +17957,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:312`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L312) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:312`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L312) — LuaLS declaration
 
 ## `GameId` { #symbol-api-lua-v5-generated-class-gameid-e665e6c51d5e }
 
@@ -17968,8 +17968,8 @@ search:
 
 **来源:**
 
-- [`src/catalua_bindings_values.cpp:1054`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_values.cpp#L1054) — native registration
-- [`data/lua/types/ccb_api_v5.d.lua:65`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L65) — LuaLS declaration
+- [`src/catalua_bindings_values.cpp:1054`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1054) — native registration
+- [`data/lua/types/ccb_api_v5.d.lua:65`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L65) — LuaLS declaration
 
 ### `kind` { #symbol-api-lua-v5-generated-property-gameid-kind-e58a40b981a5 }
 
@@ -17981,7 +17981,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:66`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L66) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:66`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L66) — LuaLS declaration
 
 ### `value` { #symbol-api-lua-v5-generated-property-gameid-value-2dac8b48de9a }
 
@@ -17993,7 +17993,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:67`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L67) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:67`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L67) — LuaLS declaration
 
 ## `HordeEntityToken` { #symbol-api-lua-v5-generated-class-hordeentitytoken-1e25370b85a4 }
 
@@ -18004,8 +18004,8 @@ search:
 
 **来源:**
 
-- [`src/catalua_ui_hordes.cpp:2120`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_ui_hordes.cpp#L2120) — native registration
-- [`data/lua/types/ccb_api_v5.d.lua:2868`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2868) — LuaLS declaration
+- [`src/catalua_ui_hordes.cpp:2120`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_hordes.cpp#L2120) — native registration
+- [`data/lua/types/ccb_api_v5.d.lua:2868`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2868) — LuaLS declaration
 
 ### `position` { #symbol-api-lua-v5-generated-property-hordeentitytoken-position-8ba8b74b866c }
 
@@ -18017,7 +18017,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2869`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2869) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2869`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2869) — LuaLS declaration
 
 ### `monster` { #symbol-api-lua-v5-generated-property-hordeentitytoken-monster-321a38d44617 }
 
@@ -18029,7 +18029,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2870`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2870) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2870`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2870) — LuaLS declaration
 
 ### `runtime_generation` { #symbol-api-lua-v5-generated-property-hordeentitytoken-runtime-generation-3ce7c83c1268 }
 
@@ -18041,7 +18041,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2871`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2871) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2871`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2871) — LuaLS declaration
 
 ### `world_generation` { #symbol-api-lua-v5-generated-property-hordeentitytoken-world-generation-1f0823837bc7 }
 
@@ -18053,7 +18053,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2872`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2872) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2872`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2872) — LuaLS declaration
 
 ## `LegacyHordeToken` { #symbol-api-lua-v5-generated-class-legacyhordetoken-4debd02b9446 }
 
@@ -18064,8 +18064,8 @@ search:
 
 **来源:**
 
-- [`src/catalua_ui_hordes.cpp:2154`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_ui_hordes.cpp#L2154) — native registration
-- [`data/lua/types/ccb_api_v5.d.lua:2879`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2879) — LuaLS declaration
+- [`src/catalua_ui_hordes.cpp:2154`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_hordes.cpp#L2154) — native registration
+- [`data/lua/types/ccb_api_v5.d.lua:2879`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2879) — LuaLS declaration
 
 ### `position` { #symbol-api-lua-v5-generated-property-legacyhordetoken-position-3c16048af0ae }
 
@@ -18077,7 +18077,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2880`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2880) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2880`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2880) — LuaLS declaration
 
 ### `group` { #symbol-api-lua-v5-generated-property-legacyhordetoken-group-fa8ed99c1d25 }
 
@@ -18089,7 +18089,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2881`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2881) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2881`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2881) — LuaLS declaration
 
 ### `runtime_generation` { #symbol-api-lua-v5-generated-property-legacyhordetoken-runtime-generation-4dbf7d61646b }
 
@@ -18101,7 +18101,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2882`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2882) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2882`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2882) — LuaLS declaration
 
 ### `world_generation` { #symbol-api-lua-v5-generated-property-legacyhordetoken-world-generation-c6b375cd0fe9 }
 
@@ -18113,7 +18113,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2883`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2883) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2883`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2883) — LuaLS declaration
 
 ## `MissionToken` { #symbol-api-lua-v5-generated-class-missiontoken-468219d7fb26 }
 
@@ -18124,8 +18124,8 @@ search:
 
 **来源:**
 
-- [`src/catalua_ui_missions.cpp:1225`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_ui_missions.cpp#L1225) — native registration
-- [`data/lua/types/ccb_api_v5.d.lua:2548`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2548) — LuaLS declaration
+- [`src/catalua_ui_missions.cpp:1225`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_missions.cpp#L1225) — native registration
+- [`data/lua/types/ccb_api_v5.d.lua:2548`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2548) — LuaLS declaration
 
 ### `uid` { #symbol-api-lua-v5-generated-property-missiontoken-uid-d4c4c0f03517 }
 
@@ -18137,7 +18137,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2549`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2549) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2549`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2549) — LuaLS declaration
 
 ### `runtime_generation` { #symbol-api-lua-v5-generated-property-missiontoken-runtime-generation-6b5502a4ce11 }
 
@@ -18149,7 +18149,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2550`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2550) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2550`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2550) — LuaLS declaration
 
 ### `world_generation` { #symbol-api-lua-v5-generated-property-missiontoken-world-generation-b196924cae81 }
 
@@ -18161,7 +18161,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:2551`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L2551) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:2551`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L2551) — LuaLS declaration
 
 ## `PointCoord` { #symbol-api-lua-v5-generated-class-pointcoord-7b9823b7daa7 }
 
@@ -18172,8 +18172,8 @@ search:
 
 **来源:**
 
-- [`src/catalua_bindings_coords.cpp:947`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_coords.cpp#L947) — native registration
-- [`data/lua/types/ccb_api_v5.d.lua:175`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L175) — LuaLS declaration
+- [`src/catalua_bindings_coords.cpp:947`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_coords.cpp#L947) — native registration
+- [`data/lua/types/ccb_api_v5.d.lua:175`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L175) — LuaLS declaration
 
 ### `x` { #symbol-api-lua-v5-generated-property-pointcoord-x-6fdfbc13f4aa }
 
@@ -18185,7 +18185,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:176`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L176) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:176`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L176) — LuaLS declaration
 
 ### `y` { #symbol-api-lua-v5-generated-property-pointcoord-y-9e5596aab765 }
 
@@ -18197,7 +18197,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:177`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L177) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:177`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L177) — LuaLS declaration
 
 ### `origin` { #symbol-api-lua-v5-generated-property-pointcoord-origin-8a9cee8df020 }
 
@@ -18209,7 +18209,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:178`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L178) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:178`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L178) — LuaLS declaration
 
 ### `scale` { #symbol-api-lua-v5-generated-property-pointcoord-scale-f4c7aeaf968a }
 
@@ -18221,7 +18221,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:179`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L179) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:179`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L179) — LuaLS declaration
 
 ### `type` { #symbol-api-lua-v5-generated-property-pointcoord-type-2d104ab19607 }
 
@@ -18233,7 +18233,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:180`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L180) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:180`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L180) — LuaLS declaration
 
 ## `ScriptMapgenContext` { #symbol-api-lua-v5-generated-class-scriptmapgencontext-94f3be26bbe0 }
 
@@ -18244,8 +18244,8 @@ search:
 
 **来源:**
 
-- [`src/catalua_ui.cpp:3276`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_ui.cpp#L3276) — native registration
-- [`data/lua/types/ccb_api_v5.d.lua:1630`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L1630) — LuaLS declaration
+- [`src/catalua_ui.cpp:3276`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui.cpp#L3276) — native registration
+- [`data/lua/types/ccb_api_v5.d.lua:1630`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L1630) — LuaLS declaration
 
 ## `ScriptUiContext` { #symbol-api-lua-v5-generated-class-scriptuicontext-58d447cb94a1 }
 
@@ -18256,8 +18256,8 @@ search:
 
 **来源:**
 
-- [`src/catalua_ui.cpp:3142`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_ui.cpp#L3142) — native registration
-- [`data/lua/types/ccb_api_v5.d.lua:649`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L649) — LuaLS declaration
+- [`src/catalua_ui.cpp:3142`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui.cpp#L3142) — native registration
+- [`data/lua/types/ccb_api_v5.d.lua:649`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L649) — LuaLS declaration
 
 ## `ScriptUiEnvironment` { #symbol-api-lua-v5-generated-class-scriptuienvironment-b1801c28fa5f }
 
@@ -18268,8 +18268,8 @@ search:
 
 **来源:**
 
-- [`src/catalua_ui.cpp:3126`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_ui.cpp#L3126) — native registration
-- [`data/lua/types/ccb_api_v5.d.lua:619`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L619) — LuaLS declaration
+- [`src/catalua_ui.cpp:3126`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui.cpp#L3126) — native registration
+- [`data/lua/types/ccb_api_v5.d.lua:619`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L619) — LuaLS declaration
 
 ### `profile` { #symbol-api-lua-v5-generated-property-scriptuienvironment-profile-f56911006ef2 }
 
@@ -18281,7 +18281,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:620`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L620) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:620`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L620) — LuaLS declaration
 
 ### `input` { #symbol-api-lua-v5-generated-property-scriptuienvironment-input-507d128db0cd }
 
@@ -18293,7 +18293,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:621`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L621) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:621`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L621) — LuaLS declaration
 
 ### `density` { #symbol-api-lua-v5-generated-property-scriptuienvironment-density-cc4767d34d41 }
 
@@ -18305,7 +18305,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:622`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L622) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:622`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L622) — LuaLS declaration
 
 ### `breakpoint` { #symbol-api-lua-v5-generated-property-scriptuienvironment-breakpoint-f82c4fece477 }
 
@@ -18317,7 +18317,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:623`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L623) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:623`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L623) — LuaLS declaration
 
 ### `minimum_target` { #symbol-api-lua-v5-generated-property-scriptuienvironment-minimum-target-5ec4ad380501 }
 
@@ -18329,7 +18329,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:624`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L624) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:624`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L624) — LuaLS declaration
 
 ### `touch` { #symbol-api-lua-v5-generated-property-scriptuienvironment-touch-62e43c5a4c7b }
 
@@ -18341,7 +18341,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:625`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L625) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:625`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L625) — LuaLS declaration
 
 ### `hover` { #symbol-api-lua-v5-generated-property-scriptuienvironment-hover-7f174da0cbce }
 
@@ -18353,7 +18353,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:626`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L626) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:626`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L626) — LuaLS declaration
 
 ### `swipe_scroll` { #symbol-api-lua-v5-generated-property-scriptuienvironment-swipe-scroll-c311b7e13801 }
 
@@ -18365,7 +18365,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:627`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L627) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:627`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L627) — LuaLS declaration
 
 ### `native_text_input` { #symbol-api-lua-v5-generated-property-scriptuienvironment-native-text-input-c71a60c60d11 }
 
@@ -18377,7 +18377,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:628`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L628) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:628`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L628) — LuaLS declaration
 
 ### `keyboard_navigation` { #symbol-api-lua-v5-generated-property-scriptuienvironment-keyboard-navigation-9378ce95a9ff }
 
@@ -18389,7 +18389,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:629`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L629) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:629`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L629) — LuaLS declaration
 
 ### `pointer_activation` { #symbol-api-lua-v5-generated-property-scriptuienvironment-pointer-activation-6f3d28aa1acf }
 
@@ -18401,7 +18401,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:630`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L630) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:630`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L630) — LuaLS declaration
 
 ### `tap_activation` { #symbol-api-lua-v5-generated-property-scriptuienvironment-tap-activation-2c770d835fca }
 
@@ -18413,7 +18413,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:631`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L631) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:631`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L631) — LuaLS declaration
 
 ### `long_press_dangerous` { #symbol-api-lua-v5-generated-property-scriptuienvironment-long-press-dangerous-bd8675b1decf }
 
@@ -18425,7 +18425,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:632`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L632) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:632`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L632) — LuaLS declaration
 
 ## `TimeDuration` { #symbol-api-lua-v5-generated-class-timeduration-ac5dce848018 }
 
@@ -18436,8 +18436,8 @@ search:
 
 **来源:**
 
-- [`src/catalua_bindings_values.cpp:1155`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_values.cpp#L1155) — native registration
-- [`data/lua/types/ccb_api_v5.d.lua:106`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L106) — LuaLS declaration
+- [`src/catalua_bindings_values.cpp:1155`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1155) — native registration
+- [`data/lua/types/ccb_api_v5.d.lua:106`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L106) — LuaLS declaration
 
 ### `turns` { #symbol-api-lua-v5-generated-property-timeduration-turns-9015108bdcce }
 
@@ -18449,7 +18449,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:107`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L107) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:107`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L107) — LuaLS declaration
 
 ## `TimePoint` { #symbol-api-lua-v5-generated-class-timepoint-15b06299ea74 }
 
@@ -18460,8 +18460,8 @@ search:
 
 **来源:**
 
-- [`src/catalua_bindings_values.cpp:1182`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_values.cpp#L1182) — native registration
-- [`data/lua/types/ccb_api_v5.d.lua:130`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L130) — LuaLS declaration
+- [`src/catalua_bindings_values.cpp:1182`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1182) — native registration
+- [`data/lua/types/ccb_api_v5.d.lua:130`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L130) — LuaLS declaration
 
 ### `turn` { #symbol-api-lua-v5-generated-property-timepoint-turn-3e090291264d }
 
@@ -18473,7 +18473,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:131`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L131) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:131`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L131) — LuaLS declaration
 
 ## `TripointCoord` { #symbol-api-lua-v5-generated-class-tripointcoord-e96ac9fd40e8 }
 
@@ -18484,8 +18484,8 @@ search:
 
 **来源:**
 
-- [`src/catalua_bindings_coords.cpp:983`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_coords.cpp#L983) — native registration
-- [`data/lua/types/ccb_api_v5.d.lua:228`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L228) — LuaLS declaration
+- [`src/catalua_bindings_coords.cpp:983`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_coords.cpp#L983) — native registration
+- [`data/lua/types/ccb_api_v5.d.lua:228`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L228) — LuaLS declaration
 
 ### `x` { #symbol-api-lua-v5-generated-property-tripointcoord-x-3c09b813544a }
 
@@ -18497,7 +18497,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:229`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L229) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:229`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L229) — LuaLS declaration
 
 ### `y` { #symbol-api-lua-v5-generated-property-tripointcoord-y-341e534c39f9 }
 
@@ -18509,7 +18509,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:230`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L230) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:230`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L230) — LuaLS declaration
 
 ### `z` { #symbol-api-lua-v5-generated-property-tripointcoord-z-b4309ee729d9 }
 
@@ -18521,7 +18521,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:231`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L231) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:231`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L231) — LuaLS declaration
 
 ### `origin` { #symbol-api-lua-v5-generated-property-tripointcoord-origin-612d720f92ec }
 
@@ -18533,7 +18533,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:232`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L232) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:232`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L232) — LuaLS declaration
 
 ### `scale` { #symbol-api-lua-v5-generated-property-tripointcoord-scale-965c7d6b7dde }
 
@@ -18545,7 +18545,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:233`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L233) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:233`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L233) — LuaLS declaration
 
 ### `type` { #symbol-api-lua-v5-generated-property-tripointcoord-type-b37ad1a9bb47 }
 
@@ -18557,7 +18557,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:234`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L234) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:234`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L234) — LuaLS declaration
 
 ## `UnitValue` { #symbol-api-lua-v5-generated-class-unitvalue-05e4981642f9 }
 
@@ -18568,8 +18568,8 @@ search:
 
 **来源:**
 
-- [`src/catalua_bindings_values.cpp:1066`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_bindings_values.cpp#L1066) — native registration
-- [`data/lua/types/ccb_api_v5.d.lua:77`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L77) — LuaLS declaration
+- [`src/catalua_bindings_values.cpp:1066`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1066) — native registration
+- [`data/lua/types/ccb_api_v5.d.lua:77`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L77) — LuaLS declaration
 
 ### `kind` { #symbol-api-lua-v5-generated-property-unitvalue-kind-ae3630d3bebe }
 
@@ -18581,7 +18581,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:78`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L78) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:78`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L78) — LuaLS declaration
 
 ### `canonical_unit` { #symbol-api-lua-v5-generated-property-unitvalue-canonical-unit-e573d8c6a85d }
 
@@ -18593,7 +18593,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:79`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L79) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:79`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L79) — LuaLS declaration
 
 ## `ZoneToken` { #symbol-api-lua-v5-generated-class-zonetoken-eb6cd1d67bac }
 
@@ -18604,8 +18604,8 @@ search:
 
 **来源:**
 
-- [`src/catalua_ui_zones.cpp:1467`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/src/catalua_ui_zones.cpp#L1467) — native registration
-- [`data/lua/types/ccb_api_v5.d.lua:4123`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4123) — LuaLS declaration
+- [`src/catalua_ui_zones.cpp:1467`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_zones.cpp#L1467) — native registration
+- [`data/lua/types/ccb_api_v5.d.lua:4123`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4123) — LuaLS declaration
 
 ### `faction` { #symbol-api-lua-v5-generated-property-zonetoken-faction-5a8b72667bcd }
 
@@ -18617,7 +18617,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4124`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4124) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4124`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4124) — LuaLS declaration
 
 ### `type` { #symbol-api-lua-v5-generated-property-zonetoken-type-1cc7821bf333 }
 
@@ -18629,7 +18629,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4125`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4125) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4125`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4125) — LuaLS declaration
 
 ### `name` { #symbol-api-lua-v5-generated-property-zonetoken-name-f740b8053413 }
 
@@ -18641,7 +18641,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4126`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4126) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4126`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4126) — LuaLS declaration
 
 ### `start` { #symbol-api-lua-v5-generated-property-zonetoken-start-920d1df8907f }
 
@@ -18653,7 +18653,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4127`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4127) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4127`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4127) — LuaLS declaration
 
 ### `end` { #symbol-api-lua-v5-generated-property-zonetoken-end-fffec26775ce }
 
@@ -18665,7 +18665,7 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4128`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4128) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4128`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4128) — LuaLS declaration
 
 ### `personal` { #symbol-api-lua-v5-generated-property-zonetoken-personal-a11670439b75 }
 
@@ -18677,4 +18677,4 @@ search:
 
 **来源:**
 
-- [`data/lua/types/ccb_api_v5.d.lua:4129`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/types/ccb_api_v5.d.lua#L4129) — LuaLS declaration
+- [`data/lua/types/ccb_api_v5.d.lua:4129`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/types/ccb_api_v5.d.lua#L4129) — LuaLS declaration

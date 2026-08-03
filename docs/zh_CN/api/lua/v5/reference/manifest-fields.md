@@ -25,7 +25,7 @@ source_symbols:
 source_queries: []
 source_fingerprint: 45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d
 authority: api-contract
-verified_commit: 3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd
+verified_commit: 501f84d20d4bf432dd7fec9b757f5af6a18dae36
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_lua_reference.py
@@ -33,7 +33,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: e06e9dfc32890f9f786eccde482b539a34ec61fcd05837c57fce744b80727f44
+translation_source_fingerprint: 9ac90b56eb167c3809dcd9d5156939316830d6cbce2d975b4bbf3dca4d2b6fc7
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -55,13 +55,13 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/manifest-fields/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/manifest-fields/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/501f84d20d4bf432dd7fec9b757f5af6a18dae36
 source_urls:
 - path: data/lua/reference/ccb_public_api_v5.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/reference/ccb_public_api_v5.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/reference/ccb_public_api_v5.json
 - path: data/lua/reference/ccb_public_api_v5_coverage.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/reference/ccb_public_api_v5_coverage.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.reference.manifest-fields%29%3A+&body=Document+ID%3A+api.lua.v5.reference.manifest-fields%0ALanguage%3A+zh_CN%0AVerified+commit%3A+3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/reference/ccb_public_api_v5_coverage.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.reference.manifest-fields%29%3A+&body=Document+ID%3A+api.lua.v5.reference.manifest-fields%0ALanguage%3A+zh_CN%0AVerified+commit%3A+501f84d20d4bf432dd7fec9b757f5af6a18dae36%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---
@@ -70,7 +70,7 @@ search:
 
 # Manifest 字段参考
 
-本页由固定提交 `3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd` 的 Lua v5 公开契约生成，收录 6 条 `manifest_fields` 记录。不要手工修改本页。
+本页由固定提交 `501f84d20d4bf432dd7fec9b757f5af6a18dae36` 的 Lua v5 公开契约生成，收录 6 条 `manifest_fields` 记录。不要手工修改本页。
 
 ## `$schema` { #symbol-api-lua-v5-generated-manifest-field-schema-24601b92d545 }
 
@@ -82,7 +82,7 @@ search:
 
 **来源:**
 
-- [`data/lua/manifest.schema.json:2`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/manifest.schema.json#L2) — manifest Schema
+- [`data/lua/manifest.schema.json:2`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/manifest.schema.json#L2) — manifest Schema
 
 ## `id` { #symbol-api-lua-v5-generated-manifest-field-id-2b0fc6d708d6 }
 
@@ -94,7 +94,7 @@ search:
 
 **来源:**
 
-- [`data/lua/manifest.schema.json:8`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/manifest.schema.json#L8) — manifest Schema
+- [`data/lua/manifest.schema.json:8`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/manifest.schema.json#L8) — manifest Schema
 
 ## `version` { #symbol-api-lua-v5-generated-manifest-field-version-c3c278d955b4 }
 
@@ -106,7 +106,7 @@ search:
 
 **来源:**
 
-- [`data/lua/manifest.schema.json:9`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/manifest.schema.json#L9) — manifest Schema
+- [`data/lua/manifest.schema.json:9`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/manifest.schema.json#L9) — manifest Schema
 
 ## `api_version` { #symbol-api-lua-v5-generated-manifest-field-api-version-decd4c1a4386 }
 
@@ -118,7 +118,7 @@ search:
 
 **来源:**
 
-- [`data/lua/manifest.schema.json:10`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/manifest.schema.json#L10) — manifest Schema
+- [`data/lua/manifest.schema.json:10`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/manifest.schema.json#L10) — manifest Schema
 
 ## `capabilities` { #symbol-api-lua-v5-generated-manifest-field-capabilities-c5c79cd2551a }
 
@@ -130,7 +130,7 @@ search:
 
 **来源:**
 
-- [`data/lua/manifest.schema.json:11`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/manifest.schema.json#L11) — manifest Schema
+- [`data/lua/manifest.schema.json:11`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/manifest.schema.json#L11) — manifest Schema
 
 ## `dependencies` { #symbol-api-lua-v5-generated-manifest-field-dependencies-c2978cee57bf }
 
@@ -142,4 +142,4 @@ search:
 
 **来源:**
 
-- [`data/lua/manifest.schema.json:12`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd/data/lua/manifest.schema.json#L12) — manifest Schema
+- [`data/lua/manifest.schema.json:12`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/manifest.schema.json#L12) — manifest Schema

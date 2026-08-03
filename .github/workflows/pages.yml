@@ -25,7 +25,7 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-          ref: 3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd
+          ref: 501f84d20d4bf432dd7fec9b757f5af6a18dae36
           path: .source/ccb
           fetch-depth: 1
           sparse-checkout: |
