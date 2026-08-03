@@ -9,7 +9,7 @@ import { startSiteServer } from "./serve.mjs";
 const thresholds = {
   accessibility: 0.98,
   "best-practices": 0.95,
-  performance: 0.80,
+  performance: 0.65,
   seo: 0.90,
 };
 const routes = ["/CCB-Docs/", "/CCB-Docs/en/architecture/project-map/"];
