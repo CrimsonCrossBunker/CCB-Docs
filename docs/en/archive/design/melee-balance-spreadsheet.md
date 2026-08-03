@@ -24,7 +24,7 @@ source_symbols: []
 source_queries: []
 source_fingerprint: 1d97191341ac886165eb6530f807da22cd7ce0cc486ec491c807acc05a1b39a8
 authority: historical
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
@@ -32,7 +32,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 88dd9a6ea0a87165b0e8ff4137898cd50689597e1497d15019171e7407b078f1
+translation_source_fingerprint: 22bbfc507443c579cfcd52445cbb984a011da11fcbf930b35c19cb1b50a2b2ff
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -54,15 +54,15 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/archive/design/melee-balance-spreadsheet/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/archive/design/melee-balance-spreadsheet/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c1b0f95c6d1b074fc49ee2a7976819c124b69047
 source_urls:
 - path: doc/design-balance-lore/melee_weapons/MELEE_BALANCE_SPREADSHEET.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/melee_weapons/MELEE_BALANCE_SPREADSHEET.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/doc/design-balance-lore/melee_weapons/MELEE_BALANCE_SPREADSHEET.md
 - path: src/melee.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/melee.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/melee.cpp
 - path: tests/melee_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/melee_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28archive-melee-balance-spreadsheet%29%3A+&body=Document+ID%3A+archive-melee-balance-spreadsheet%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/tests/melee_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28archive-melee-balance-spreadsheet%29%3A+&body=Document+ID%3A+archive-melee-balance-spreadsheet%0ALanguage%3A+en%0AVerified+commit%3A+c1b0f95c6d1b074fc49ee2a7976819c124b69047%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---
@@ -90,11 +90,11 @@ CCB source and tests remain authoritative for runtime behaviour; schemas, declar
 
 Accepted inventory contributors: thaelina. License: CC-BY-SA-3.0. Raw rejected or anomalous contributor values were not imported or published.
 
-The source inventory is frozen at `0378ca2b84303cf614c617c9d9eaa50138cd21ff`; this cross-repository verification uses `80828049edb3adf2a13bb2912a19373dc4e69f32`; the aggregate source fingerprint is `1d97191341ac886165eb6530f807da22cd7ce0cc486ec491c807acc05a1b39a8`. The [filtered-history experiment](/CCB-Docs/en/migration/filtered-history-experiment/) explains why the whole game repository history is not imported.
+The source inventory is frozen at `0378ca2b84303cf614c617c9d9eaa50138cd21ff`; this cross-repository verification uses `c1b0f95c6d1b074fc49ee2a7976819c124b69047`; the aggregate source fingerprint is `1d97191341ac886165eb6530f807da22cd7ce0cc486ec491c807acc05a1b39a8`. The [filtered-history experiment](/CCB-Docs/en/migration/filtered-history-experiment/) explains why the whole game repository history is not imported.
 
 ## Bodies retained in CCB
 
-- [`doc/design-balance-lore/melee_weapons/MELEE_BALANCE_SPREADSHEET.md`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/melee_weapons/MELEE_BALANCE_SPREADSHEET.md) — [history](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/melee_weapons/MELEE_BALANCE_SPREADSHEET.md)
+- [`doc/design-balance-lore/melee_weapons/MELEE_BALANCE_SPREADSHEET.md`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/doc/design-balance-lore/melee_weapons/MELEE_BALANCE_SPREADSHEET.md) — [history](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/c1b0f95c6d1b074fc49ee2a7976819c124b69047/doc/design-balance-lore/melee_weapons/MELEE_BALANCE_SPREADSHEET.md)
 
 ## Replacement and next step
 

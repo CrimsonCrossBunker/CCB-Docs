@@ -107,7 +107,7 @@ pages:
     source_queries: [Responsible human]
     source_fingerprint: 781981c55ef754b0836ca4b065bb6a7b9a85a6daf0e4bca4782240c25caa7a2c
     authority: governance
-    verified_commit: 4bb45fcc3357f5358cff14248388b5acd33dcfda
+    verified_commit: bb472abfc33a9e2180df4be2872a62522ce4f9af
     verified_at: '2026-08-02'
     generated: false
     generated_by: null
@@ -148,7 +148,7 @@ pages:
     source_queries: [Responsible human]
     source_fingerprint: 781981c55ef754b0836ca4b065bb6a7b9a85a6daf0e4bca4782240c25caa7a2c
     authority: governance
-    verified_commit: 4bb45fcc3357f5358cff14248388b5acd33dcfda
+    verified_commit: bb472abfc33a9e2180df4be2872a62522ce4f9af
     verified_at: '2026-08-02'
     generated: false
     generated_by: null
@@ -273,7 +273,7 @@ pages:
     source_queries: [Responsible human]
     source_fingerprint: 781981c55ef754b0836ca4b065bb6a7b9a85a6daf0e4bca4782240c25caa7a2c
     authority: governance
-    verified_commit: 4bb45fcc3357f5358cff14248388b5acd33dcfda
+    verified_commit: bb472abfc33a9e2180df4be2872a62522ce4f9af
     verified_at: '2026-08-02'
     generated: false
     generated_by: null
@@ -314,7 +314,7 @@ pages:
     source_queries: [Responsible human]
     source_fingerprint: 781981c55ef754b0836ca4b065bb6a7b9a85a6daf0e4bca4782240c25caa7a2c
     authority: governance
-    verified_commit: 4bb45fcc3357f5358cff14248388b5acd33dcfda
+    verified_commit: bb472abfc33a9e2180df4be2872a62522ce4f9af
     verified_at: '2026-08-02'
     generated: false
     generated_by: null
@@ -440,7 +440,7 @@ pages:
     source_queries: []
     source_fingerprint: 1662c4035c9b1a1559fa60287298d48cc274ec795a90fa278117c730d951630b
     authority: docs-explanation
-    verified_commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+    verified_commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
     verified_at: '2026-08-02'
     translation_group: getting-started.experienced-index
     translation_source_fingerprint: 0d088e0224b1be9c50195b4a2b4c4bb6bd2b7d680f5c7ef45e45733aaf5f494e
@@ -473,7 +473,7 @@ pages:
     source_queries: []
     source_fingerprint: 49e6f9bdf665447593d213e55f8a6692fa2c02534f1b3564a7a66710f26d5c6a
     authority: docs-explanation
-    verified_commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+    verified_commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
     verified_at: '2026-08-02'
     translation_group: architecture.overview
     translation_source_fingerprint: e43e7e2af4484e419221ff81b4eb74b9bbff52fa87bce0cdf4d762d5c7f1eede
@@ -506,7 +506,7 @@ pages:
     source_queries: []
     source_fingerprint: a98974327840d4768d631e096b5e00042003c0e7a60e10d7d9a5ecc967584fa7
     authority: docs-explanation
-    verified_commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+    verified_commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
     verified_at: '2026-08-02'
     translation_group: architecture.subsystem-map
     translation_source_fingerprint: ee57553c6d74fba8898eb506d3d41920225363885c18c2f865ed2e92bd6b4875
@@ -539,7 +539,7 @@ pages:
     source_queries: []
     source_fingerprint: 5da90a32b5e4f26ca60b5ca3ea00782926f74b1f31dd60a1c900e01bf75d7c8d
     authority: docs-explanation
-    verified_commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+    verified_commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
     verified_at: '2026-08-02'
     translation_group: architecture.design-principles
     translation_source_fingerprint: 746d83cab18a1c2f87fc345bf1ee403dc978ed942e1ddac84eb77e15ef72df85
@@ -572,7 +572,7 @@ pages:
     source_queries: []
     source_fingerprint: d1a51672bd4739e5b0051c192091e672288cdc557e3919d08b04fb44b05c952f
     authority: build-config
-    verified_commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+    verified_commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
     verified_at: '2026-08-02'
     translation_group: build.overview
     translation_source_fingerprint: 2a5adc64a79b2cb017b29f11abb46a6685a76fc1949b56ccc9616d1b25e9eda8
@@ -606,7 +606,7 @@ pages:
     source_queries: []
     source_fingerprint: 24cdde2eeba4fc0e8a601c6ea3843a19f710322ba436a50b4f23c19f3d10ba89
     authority: build-config
-    verified_commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+    verified_commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
     verified_at: '2026-08-02'
     translation_group: validation.testing
     translation_source_fingerprint: 27c3188f8b9caae09e06f14131656ef8e57194f1724313695c7ea0af699a2549
@@ -639,7 +639,7 @@ pages:
     source_queries: []
     source_fingerprint: 364c4a6f53fc762b2419030f2ce970552bf1a03b0a57e51c81360dcdf7582b9d
     authority: docs-explanation
-    verified_commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+    verified_commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
     verified_at: '2026-08-02'
     translation_group: validation.debugging
     translation_source_fingerprint: 4a57412f7e4b828dd4ade96cb3d3fdb4bab31f077759c40f2e9cb0472d7445f8
@@ -672,7 +672,7 @@ pages:
     source_queries: []
     source_fingerprint: 2a6efabfbc826b7cca9419407c9012f679512feeab0cdd4e9d56a99edde67dd4
     authority: build-config
-    verified_commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+    verified_commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
     verified_at: '2026-08-02'
     translation_group: platforms.matrix
     translation_source_fingerprint: 8ae2dc2c8738c0cbf41d337f70d7c7796755182f4eea9bf39c0d40447c4a623f
@@ -705,7 +705,7 @@ pages:
     source_queries: []
     source_fingerprint: 10ff7889c4f1dc39e9419cdd01036cd6507b47d017dba51d3cd58161725d41d0
     authority: governance
-    verified_commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+    verified_commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
     verified_at: '2026-08-02'
     translation_group: contributing.ai-assisted-development
     translation_source_fingerprint: 89bb9e5d9c1ed291a5f8279742a98a4dd5dc42fb68eb643852b07b38b066ff0c
@@ -738,7 +738,7 @@ pages:
     source_queries: []
     source_fingerprint: a87652454f8510f8dd848407578911d0871417d705013890da8bc337746e6142
     authority: governance
-    verified_commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+    verified_commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
     verified_at: '2026-08-02'
     translation_group: contributing.documentation-policy
     translation_source_fingerprint: ee1276aca890ccb3f8a63b9de838456c4891374680e5cf75988966a1a860b78e
@@ -771,7 +771,7 @@ pages:
     source_queries: []
     source_fingerprint: aee6b119c4372d0f36b7a81ea4d42d32563374feacdb88b080a75a75e0f354a0
     authority: source-and-tests
-    verified_commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+    verified_commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
     verified_at: '2026-08-02'
     translation_group: compatibility.save
     translation_source_fingerprint: e09ef4b70f339892b6a214edaf933da9ada135e574dcd2acdbc2df204acf345d
@@ -804,7 +804,7 @@ pages:
     source_queries: []
     source_fingerprint: a3359e19ec5de3957becfbf9495cc25aeaeac01a15c37e3dc816578f476103d1
     authority: source-and-tests
-    verified_commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+    verified_commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
     verified_at: '2026-08-02'
     translation_group: compatibility.mods
     translation_source_fingerprint: cdc0443d43962c6fa7df2cf31aed0552423177b56a0132432e40c272a494f66a
@@ -837,7 +837,7 @@ pages:
     source_queries: []
     source_fingerprint: d5d7414ad8ce1f7b2c96ed84f49a05f3fdce63af9d065c7a906b1d55c165bbd1
     authority: governance
-    verified_commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+    verified_commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
     verified_at: '2026-08-02'
     translation_group: maintenance.upstream-sync
     translation_source_fingerprint: 7879927db6623b701d64de6a3aec0cd3ecc14b6c0e248d648b7cd3cfdeffa842
@@ -870,7 +870,7 @@ pages:
     source_queries: []
     source_fingerprint: e20c16c43878b2fd175b9287b26b0340655df5724554fe0985cf74441118045d
     authority: build-config
-    verified_commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+    verified_commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
     verified_at: '2026-08-02'
     translation_group: maintenance.releases
     translation_source_fingerprint: b257834293240b817b77b6d8244f0484ff475e9215a6a56f402f0c7f90db9d29
@@ -904,7 +904,7 @@ pages:
     source_queries: []
     source_fingerprint: 54ad33a73b00dd344983f3662e67b76268c2d9d02741dd024f426b2f44d9b7ad
     authority: governance
-    verified_commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+    verified_commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
     verified_at: '2026-08-02'
     translation_group: governance.security-license
     translation_source_fingerprint: 6bc4417f2dbe99f4e09be3de5e30824afdd1c6b4208bc3ed43c8c25ca96dcc91
@@ -937,7 +937,7 @@ pages:
     source_queries: []
     source_fingerprint: 5109872fc3c5beb6fa1efb534a547fa32b82a0bb69f2aa7d96a247bb2186eb01
     authority: docs-explanation
-    verified_commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+    verified_commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
     verified_at: '2026-08-02'
     translation_group: getting-started.common-tasks
     translation_source_fingerprint: 8b9c6f923226ae3a551f607e42fec7c7584a340560704d91efddaa1a3e0555dc
@@ -973,7 +973,7 @@ pages:
     source_queries: []
     source_fingerprint: 86ab8c697639288944692daea743e7470450d95825578f8964198c2bd0dbdc83
     authority: api-contract
-    verified_commit: 3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd
+    verified_commit: 501f84d20d4bf432dd7fec9b757f5af6a18dae36
     verified_at: '2026-08-02'
     generated: false
     generated_by: null
@@ -1171,7 +1171,7 @@ pages:
     source_queries: []
     source_fingerprint: 45b7ee4cf4540cc479b1d775b938bdc54b3fd1432423267e07d9e72e38003d9d
     authority: api-contract
-    verified_commit: 3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd
+    verified_commit: 501f84d20d4bf432dd7fec9b757f5af6a18dae36
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_lua_reference.py
@@ -1180,7 +1180,7 @@ pages:
     translation_group: api.lua.v5.reference.modules
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 61d78a2173790fb5374fa92c1f71bd44b09e34c9d83d994bcb8274259fd355d8
+    translation_source_fingerprint: 83860858aa8a216a3629b63c76e7eb3298a723ce492d2a5f7e25be9496849ecd
     prerequisites: [api.lua.v5.overview]
     depends_on: []
     redirect_from: []
@@ -1208,7 +1208,7 @@ pages:
     path: api/lua/v5/reference/namespaces.md
     source_symbols: [api.lua.v5.generated.namespace.events]
     translation_group: api.lua.v5.reference.namespaces
-    translation_source_fingerprint: 324ea413950d3e685eba7fb4698bf00e6caf92686a0524dc7fa1e8d554375023
+    translation_source_fingerprint: 75691f0a051b42dc4036647243c5f05e0f06eb9002435cb688d6d65d129c5900
     nav: { section: Lua API v5 参考, order: 111 }
   - <<: *lua_reference_namespaces_zh
     title: Namespaces
@@ -1222,7 +1222,7 @@ pages:
     path: api/lua/v5/reference/classes.md
     source_symbols: [api.lua.v5.generated.class.CcbAchievementDefinition]
     translation_group: api.lua.v5.reference.classes
-    translation_source_fingerprint: a4c856d15a6625f50dee108107e46acc72398686a1aa9fc392df97799e3e63b5
+    translation_source_fingerprint: d062121bf38909bc5e1c439013e25095d599fb50d3a3f5741ab1de0b0e3e8b6c
     nav: { section: Lua API v5 参考, order: 112 }
   - <<: *lua_reference_classes_zh
     title: Classes and records
@@ -1236,7 +1236,7 @@ pages:
     path: api/lua/v5/reference/functions.md
     source_symbols: [api.lua.v5.generated.function.events.describe_native]
     translation_group: api.lua.v5.reference.functions
-    translation_source_fingerprint: 658746989fef14aa79f917ce3d55b8886ce5b47e256f2781a9fbc2c2d767aabb
+    translation_source_fingerprint: 3e3963c6807641484a3bd2012473dbe227e8489b1945d40fbc2cf0e1778c5853
     nav: { section: Lua API v5 参考, order: 113 }
   - <<: *lua_reference_functions_zh
     title: Functions
@@ -1250,7 +1250,7 @@ pages:
     path: api/lua/v5/reference/methods.md
     source_symbols: [api.lua.v5.generated.method.GameHandle.is_valid]
     translation_group: api.lua.v5.reference.methods
-    translation_source_fingerprint: d521b0e1796c6390215fe39ee0ca8beb33f0cf7add10224473174aafe86606fe
+    translation_source_fingerprint: f834c6befce7dd4d59aa66ee61b7e1e115caa955f731a920c9f1d35082237922
     nav: { section: Lua API v5 参考, order: 114 }
   - <<: *lua_reference_methods_zh
     title: Methods
@@ -1264,7 +1264,7 @@ pages:
     path: api/lua/v5/reference/properties.md
     source_symbols: [api.lua.v5.generated.property.GameEnum.kind]
     translation_group: api.lua.v5.reference.properties
-    translation_source_fingerprint: 790b58c963e8024fd0b15e29436f1ec2919e93bf3b9414845579c2078584bd66
+    translation_source_fingerprint: ac94583c4a4941ec0a27c0c536731264306bf245445b86b9ce6a00553cf91a24
     nav: { section: Lua API v5 参考, order: 115 }
   - <<: *lua_reference_properties_zh
     title: Properties
@@ -1278,7 +1278,7 @@ pages:
     path: api/lua/v5/reference/operators.md
     source_symbols: [api.lua.v5.generated.operator.GameEnum.__eq]
     translation_group: api.lua.v5.reference.operators
-    translation_source_fingerprint: 0b3d4a97d1c9ced8b827f88b5961a5fc7cf1b82f387fe93b5423e729bb579cbe
+    translation_source_fingerprint: cbbe2b22951964d8096374ec56771cd08dc468a1aba92fb10b53bf50fbafa7f0
     nav: { section: Lua API v5 参考, order: 116 }
   - <<: *lua_reference_operators_zh
     title: Operators
@@ -1292,7 +1292,7 @@ pages:
     path: api/lua/v5/reference/enums.md
     source_symbols: [api.lua.v5.generated.enum.ActionId]
     translation_group: api.lua.v5.reference.enums
-    translation_source_fingerprint: 812ba0d5975d5b1e410e170040a2b462059a94ad8731b5c298a17f291eb4ba00
+    translation_source_fingerprint: ccea224d5ec72e023eb2f073cdb54e01433c4644dc3f05907b637a69cb8c800e
     nav: { section: Lua API v5 参考, order: 117 }
   - <<: *lua_reference_enums_zh
     title: Enum families
@@ -1306,7 +1306,7 @@ pages:
     path: api/lua/v5/reference/events.md
     source_symbols: [api.lua.v5.generated.event.activates_artifact]
     translation_group: api.lua.v5.reference.events
-    translation_source_fingerprint: 26daa815ba4585b5b9cfaa2233232961a9233a56399d087d9baec73bfef0b346
+    translation_source_fingerprint: 1c25039f30a4f343bc240bc7b62c95ac5fe1120a2d4f1dd7ac04e94ab1b23f5d
     nav: { section: Lua API v5 参考, order: 118 }
   - <<: *lua_reference_events_zh
     title: Native events
@@ -1320,7 +1320,7 @@ pages:
     path: api/lua/v5/reference/hooks.md
     source_symbols: [api.lua.v5.generated.hook.on_character_death]
     translation_group: api.lua.v5.reference.hooks
-    translation_source_fingerprint: 4c90f5d67841841a765cc72c3d70928937d1b635aa43722ba10680329e97e918
+    translation_source_fingerprint: 004ab96314eae30da2c496e43163d59d56942bc5e72d37e6b6f0530bb62a4c11
     nav: { section: Lua API v5 参考, order: 119 }
   - <<: *lua_reference_hooks_zh
     title: Native hooks
@@ -1334,7 +1334,7 @@ pages:
     path: api/lua/v5/reference/callbacks.md
     source_symbols: [api.lua.v5.generated.callback.bionic.on_activate]
     translation_group: api.lua.v5.reference.callbacks
-    translation_source_fingerprint: b708c607d2976bd716f2afd07d51e8f5a770a0cbfce42f83c86d1b37c568a26a
+    translation_source_fingerprint: ed62be48c5bf69d006b2d2b77837c6610ffcf905339e229a6d884429d24bf355
     nav: { section: Lua API v5 参考, order: 120 }
   - <<: *lua_reference_callbacks_zh
     title: Callback actors
@@ -1348,7 +1348,7 @@ pages:
     path: api/lua/v5/reference/capabilities.md
     source_symbols: [api.lua.v5.generated.capability.events]
     translation_group: api.lua.v5.reference.capabilities
-    translation_source_fingerprint: 85a7ba96583da2470ca95aadc98f29b6f074b1352f849aeeeb6430b4eaf7f3d8
+    translation_source_fingerprint: becbaae3bd9f6041f4252d765c7581bd97df8c63727ec1e89e815c407e636c41
     nav: { section: Lua API v5 参考, order: 121 }
   - <<: *lua_reference_capabilities_zh
     title: Capabilities
@@ -1362,7 +1362,7 @@ pages:
     path: api/lua/v5/reference/permissions.md
     source_symbols: [capability-gating]
     translation_group: api.lua.v5.reference.permissions
-    translation_source_fingerprint: 09b6adff457fdf3d7d91abe83a76ee2e25a124f479f4cd28840f477c1bacf6f5
+    translation_source_fingerprint: ca7e1bdb0c75a5b12f306b43f154e3a8270b370002ba878c88f42d85be015df9
     nav: { section: Lua API v5 参考, order: 122 }
   - <<: *lua_reference_permissions_zh
     title: Permission model
@@ -1376,7 +1376,7 @@ pages:
     path: api/lua/v5/reference/manifest-fields.md
     source_symbols: [api.lua.v5.generated.manifest-field.schema]
     translation_group: api.lua.v5.reference.manifest-fields
-    translation_source_fingerprint: e06e9dfc32890f9f786eccde482b539a34ec61fcd05837c57fce744b80727f44
+    translation_source_fingerprint: 43dbc8655a85209867016f0ce1b48333b65aa0c404f298917b6c0430df327260
     nav: { section: Lua API v5 参考, order: 123 }
   - <<: *lua_reference_manifest_zh
     title: Manifest fields
@@ -1393,7 +1393,7 @@ pages:
     source_symbols: [ccb_lua_v5_example]
     source_fingerprint: 760ad6bc15b888720ee8d0bbd95475e4ae45550612f42acc93f79e80b82a64c3
     translation_group: api.lua.v5.example-mod
-    translation_source_fingerprint: 0603a0303d31c9237a97a48ddf3abdb1b146c842f0f77e81324dc2ba2c215475
+    translation_source_fingerprint: 45974471e3befabc7ee6e3dcc7fed5634f2e7e8859a2cf5e77da68bcf52e3632
     prerequisites: [api.lua.v5.overview, api.lua.v5.capabilities]
     depends_on: [api.lua.v5.ui, api.lua.v5.events]
     supersedes: [lua.v5.example-mod]
@@ -1422,7 +1422,7 @@ pages:
     source_queries: []
     source_fingerprint: 94e31a97e0b63d9f3b6c7305bbed837cd0c5e5a3cf02417323458b7ed0757177
     authority: api-contract
-    verified_commit: a038c765568fc47a58ef8c523b2722d416f5f61c
+    verified_commit: d49367845e6cd725d5ca56d171b610047d64592d
     verified_at: '2026-08-02'
     generated: false
     generated_by: null
@@ -1505,7 +1505,7 @@ pages:
     source_queries: []
     source_fingerprint: a46589421b0c59fb0e38d806aed2c7c1c30700335255b5cf26f2d43227461663
     authority: api-contract
-    verified_commit: a038c765568fc47a58ef8c523b2722d416f5f61c
+    verified_commit: d49367845e6cd725d5ca56d171b610047d64592d
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_json_eoc_reference.py
@@ -1514,7 +1514,7 @@ pages:
     translation_group: reference.json-object-types
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 596751e1d6414547d647035972c9ea1a3028a0fbc1afaab964d04a09f928189e
+    translation_source_fingerprint: bd2d1f0586e68ffde3c4850d1ae9b6f3157c05a1e101c3c0c5b399eff13a2965
     prerequisites: [json.overview]
     depends_on: []
     redirect_from: []
@@ -1553,7 +1553,7 @@ pages:
     source_queries: []
     source_fingerprint: f52b67e59b777a2d203f58ddaef85d38aa06ac0792196b54e829681279e2f594
     authority: api-contract
-    verified_commit: a038c765568fc47a58ef8c523b2722d416f5f61c
+    verified_commit: d49367845e6cd725d5ca56d171b610047d64592d
     verified_at: '2026-08-02'
     generated: false
     generated_by: null
@@ -1652,7 +1652,7 @@ pages:
     source_queries: []
     source_fingerprint: f3d7f571789f2deb2da7a49a570610f5edf6d4c49354d107fe8648e26c69899d
     authority: api-contract
-    verified_commit: a038c765568fc47a58ef8c523b2722d416f5f61c
+    verified_commit: d49367845e6cd725d5ca56d171b610047d64592d
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_json_eoc_reference.py
@@ -1661,7 +1661,7 @@ pages:
     translation_group: reference.eoc-conditions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 6e45a0791aa7ca97e49a7b8ae833aa5ff2b12d6932b19de90ef6a84028b0232e
+    translation_source_fingerprint: 43adece2e4f0edd14e7c5c4287e0ad122edc3b963c4cb6674368d6938d972406
     prerequisites: [eoc.overview]
     depends_on: []
     redirect_from: []
@@ -1692,7 +1692,7 @@ pages:
     source_symbols: [talk_effect_t::parse_sub_effect, talk_effect_t::parse_string_effect]
     source_fingerprint: 329443b8b860f047a1270a8db5b0a0f52fa5c445c69d12dfeb81e36223efb88a
     translation_group: reference.eoc-effects
-    translation_source_fingerprint: 046951ab1021e4a65f28971353e179b5ae60526c3eb03ebb927688f2a9fb854e
+    translation_source_fingerprint: 716398a861b52f7179d64a05f584d623d94d3e200609a6b64de767aec340dabc
     nav: { section: 生成参考, order: 145 }
   - <<: *effect_reference_zh
     title: EOC effect registry
@@ -1717,7 +1717,7 @@ pages:
     source_queries: []
     source_fingerprint: ec7b0afe102b19beb0f77c9ffbe6d8f82e2e06b59e057bdf76d897de092e0b2c
     authority: source-and-tests
-    verified_commit: a038c765568fc47a58ef8c523b2722d416f5f61c
+    verified_commit: d49367845e6cd725d5ca56d171b610047d64592d
     verified_at: '2026-08-02'
     generated: false
     generated_by: null
@@ -3034,9 +3034,9 @@ pages:
     - Makefile
     source_symbols: []
     source_queries: []
-    source_fingerprint: c38dc9f1b9997baa548b24aabad8b36c173298f6e64337096087e4e7abe5c343
+    source_fingerprint: 2faf8dd0c7d7fdef280fcdf878871a838f1deb6289be8102213bdf5aaf0e5ee6
     authority: historical
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -3045,7 +3045,7 @@ pages:
     translation_group: archive-build-cygwin
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: c0266e38e01a72c39d857d4c7179823de5543e1ed23661d810d454da1aa3d8d4
+    translation_source_fingerprint: 429e6a122aa39f3f0a08bdfd686a7e3807ce8b0c9ff1cb85ab6522e8e16506c7
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -3086,9 +3086,9 @@ pages:
     - Makefile
     source_symbols: []
     source_queries: []
-    source_fingerprint: c38dc9f1b9997baa548b24aabad8b36c173298f6e64337096087e4e7abe5c343
+    source_fingerprint: 2faf8dd0c7d7fdef280fcdf878871a838f1deb6289be8102213bdf5aaf0e5ee6
     authority: historical
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -3097,7 +3097,7 @@ pages:
     translation_group: archive-build-cygwin
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: c0266e38e01a72c39d857d4c7179823de5543e1ed23661d810d454da1aa3d8d4
+    translation_source_fingerprint: 429e6a122aa39f3f0a08bdfd686a7e3807ce8b0c9ff1cb85ab6522e8e16506c7
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -3139,7 +3139,7 @@ pages:
     source_queries: []
     source_fingerprint: 0a5402b8913f4ed9e9691db3f732a52387f598ee74e01d38b9c606bb1c13d039
     authority: historical
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -3148,7 +3148,7 @@ pages:
     translation_group: archive-build-flatpak
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: e25f46b8595d72aa07d689325843a33f7bea2342dce630f3926bf020974ee8d9
+    translation_source_fingerprint: c8306020483f9acca711bff3f037e744fe331abe4073bb7bf04dbd50370a0435
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -3190,7 +3190,7 @@ pages:
     source_queries: []
     source_fingerprint: 0a5402b8913f4ed9e9691db3f732a52387f598ee74e01d38b9c606bb1c13d039
     authority: historical
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -3199,7 +3199,7 @@ pages:
     translation_group: archive-build-flatpak
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: e25f46b8595d72aa07d689325843a33f7bea2342dce630f3926bf020974ee8d9
+    translation_source_fingerprint: c8306020483f9acca711bff3f037e744fe331abe4073bb7bf04dbd50370a0435
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -3243,7 +3243,7 @@ pages:
     source_queries: []
     source_fingerprint: bd8ec1d00fb0dc1de3470b08db84ba07c6e9e20d3c7a52b47194a4afff679951
     authority: historical
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -3252,7 +3252,7 @@ pages:
     translation_group: archive-construction-balance
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: faef87d462ad7d22e15935fa8eb58d142e6c9af02637436c5d736bf9e79b6402
+    translation_source_fingerprint: 3697fadaaad14e191cd476b7fd1a6d70c7730cab933315b8bd0dd1b986db8b67
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -3296,7 +3296,7 @@ pages:
     source_queries: []
     source_fingerprint: bd8ec1d00fb0dc1de3470b08db84ba07c6e9e20d3c7a52b47194a4afff679951
     authority: historical
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -3305,7 +3305,7 @@ pages:
     translation_group: archive-construction-balance
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: faef87d462ad7d22e15935fa8eb58d142e6c9af02637436c5d736bf9e79b6402
+    translation_source_fingerprint: 3697fadaaad14e191cd476b7fd1a6d70c7730cab933315b8bd0dd1b986db8b67
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -3349,7 +3349,7 @@ pages:
     source_queries: []
     source_fingerprint: 1d97191341ac886165eb6530f807da22cd7ce0cc486ec491c807acc05a1b39a8
     authority: historical
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -3358,7 +3358,7 @@ pages:
     translation_group: archive-melee-balance-spreadsheet
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 88dd9a6ea0a87165b0e8ff4137898cd50689597e1497d15019171e7407b078f1
+    translation_source_fingerprint: 22bbfc507443c579cfcd52445cbb984a011da11fcbf930b35c19cb1b50a2b2ff
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -3402,7 +3402,7 @@ pages:
     source_queries: []
     source_fingerprint: 1d97191341ac886165eb6530f807da22cd7ce0cc486ec491c807acc05a1b39a8
     authority: historical
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -3411,7 +3411,7 @@ pages:
     translation_group: archive-melee-balance-spreadsheet
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 88dd9a6ea0a87165b0e8ff4137898cd50689597e1497d15019171e7407b078f1
+    translation_source_fingerprint: 22bbfc507443c579cfcd52445cbb984a011da11fcbf930b35c19cb1b50a2b2ff
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -3453,7 +3453,7 @@ pages:
     source_queries: []
     source_fingerprint: c10df314b1a35afbf967485ae0c1487a284eea45b576ac95a08dd0ffac6d815f
     authority: historical
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -3462,7 +3462,7 @@ pages:
     translation_group: archive.firearms-massachusetts-data-workflow
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: f11bf1259e518063ab619dfaac665dec8add3eef08351bacac6881e7dcd56b03
+    translation_source_fingerprint: e90c1b916defef9f3618a6ada97eb63ed45d323b7bab9b9daf513515e382f762
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -3504,7 +3504,7 @@ pages:
     source_queries: []
     source_fingerprint: c10df314b1a35afbf967485ae0c1487a284eea45b576ac95a08dd0ffac6d815f
     authority: historical
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -3513,7 +3513,7 @@ pages:
     translation_group: archive.firearms-massachusetts-data-workflow
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: f11bf1259e518063ab619dfaac665dec8add3eef08351bacac6881e7dcd56b03
+    translation_source_fingerprint: e90c1b916defef9f3618a6ada97eb63ed45d323b7bab9b9daf513515e382f762
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -3555,9 +3555,9 @@ pages:
     - GOVERNANCE.md
     source_symbols: []
     source_queries: []
-    source_fingerprint: 74c05958732c42ac9467f067a8900f97c2f5cac0f92fd41aba2c0228267c3201
+    source_fingerprint: 665753f934664d6d55d1e07180a03887bd57492ef4a88c7ed287fa5e75aeb2dd
     authority: historical
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -3566,7 +3566,7 @@ pages:
     translation_group: archive-upstream-development-process
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: e363353b5187d67408fb2308ad5568fa8c49568ccdd383563873b3e2c3e9781e
+    translation_source_fingerprint: 317cd971df9cbf436092bd8b9403404e4d412dfbc22dfdd87907c92df51b911c
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -3608,9 +3608,9 @@ pages:
     - GOVERNANCE.md
     source_symbols: []
     source_queries: []
-    source_fingerprint: 74c05958732c42ac9467f067a8900f97c2f5cac0f92fd41aba2c0228267c3201
+    source_fingerprint: 665753f934664d6d55d1e07180a03887bd57492ef4a88c7ed287fa5e75aeb2dd
     authority: historical
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -3619,7 +3619,7 @@ pages:
     translation_group: archive-upstream-development-process
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: e363353b5187d67408fb2308ad5568fa8c49568ccdd383563873b3e2c3e9781e
+    translation_source_fingerprint: 317cd971df9cbf436092bd8b9403404e4d412dfbc22dfdd87907c92df51b911c
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -3663,7 +3663,7 @@ pages:
     source_queries: []
     source_fingerprint: 5a50cb138e83ad7121c2a00c3232166deca704ae67c72abe216f33a40fe5b528
     authority: historical
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -3672,7 +3672,7 @@ pages:
     translation_group: archive-lore-faq
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: feedf755228f603b0b194b76a81ef521937cb9871817f242a822c1659b6296f9
+    translation_source_fingerprint: e973f8ec3d7c59a20d41c75944a38afd79ac18b5ef765f5cd901771d91b5ddee
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -3716,7 +3716,7 @@ pages:
     source_queries: []
     source_fingerprint: 5a50cb138e83ad7121c2a00c3232166deca704ae67c72abe216f33a40fe5b528
     authority: historical
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -3725,7 +3725,7 @@ pages:
     translation_group: archive-lore-faq
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: feedf755228f603b0b194b76a81ef521937cb9871817f242a822c1659b6296f9
+    translation_source_fingerprint: e973f8ec3d7c59a20d41c75944a38afd79ac18b5ef765f5cd901771d91b5ddee
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -3770,7 +3770,7 @@ pages:
     source_queries: []
     source_fingerprint: 4d3be77600ca22667ed79ea09c70d03334c0813da303c207a403273d99d77733
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -3779,7 +3779,7 @@ pages:
     translation_group: build-cmake
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 4e33ea8120a73f3bb371aaebd3003cecdba0091dad79669a9480f7ccbb313bf1
+    translation_source_fingerprint: f54309c7452d0b8c11cc7c61346f8c1a70fcb9e7b0b7d35f0bc0db8be84d81ba
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -3824,7 +3824,7 @@ pages:
     source_queries: []
     source_fingerprint: 4d3be77600ca22667ed79ea09c70d03334c0813da303c207a403273d99d77733
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -3833,7 +3833,7 @@ pages:
     translation_group: build-cmake
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 4e33ea8120a73f3bb371aaebd3003cecdba0091dad79669a9480f7ccbb313bf1
+    translation_source_fingerprint: f54309c7452d0b8c11cc7c61346f8c1a70fcb9e7b0b7d35f0bc0db8be84d81ba
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -3879,7 +3879,7 @@ pages:
     source_queries: []
     source_fingerprint: 8f68c334544cfd8d659189c98b595176526138bcc7ce376643893903767ec072
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -3888,7 +3888,7 @@ pages:
     translation_group: build-devcontainer
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: f315bbcc7b8178911ef536a5473c747b7b5463698427283e0a270188e3e1b62b
+    translation_source_fingerprint: d9966f2ff18889adae47552c7b4f263e20fbec295f53df55058b04489832b38f
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -3934,7 +3934,7 @@ pages:
     source_queries: []
     source_fingerprint: 8f68c334544cfd8d659189c98b595176526138bcc7ce376643893903767ec072
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -3943,7 +3943,7 @@ pages:
     translation_group: build-devcontainer
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: f315bbcc7b8178911ef536a5473c747b7b5463698427283e0a270188e3e1b62b
+    translation_source_fingerprint: d9966f2ff18889adae47552c7b4f263e20fbec295f53df55058b04489832b38f
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -3991,7 +3991,7 @@ pages:
     source_queries: []
     source_fingerprint: 67ae130a01e46324ef41c87a392ce88719218f4d66dd72ea896d4a6cd8d82c98
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -4000,7 +4000,7 @@ pages:
     translation_group: build-windows-msvc
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: f2643fc32fc6bab74951ee37d766c14cec02ec4c4237fd1724036b9bbd3736ac
+    translation_source_fingerprint: b3f514e772f32bf613d51a18131efe18da6eb9591c3d5e6f4d0045912a39cd42
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4049,7 +4049,7 @@ pages:
     source_queries: []
     source_fingerprint: 67ae130a01e46324ef41c87a392ce88719218f4d66dd72ea896d4a6cd8d82c98
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -4058,7 +4058,7 @@ pages:
     translation_group: build-windows-msvc
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: f2643fc32fc6bab74951ee37d766c14cec02ec4c4237fd1724036b9bbd3736ac
+    translation_source_fingerprint: b3f514e772f32bf613d51a18131efe18da6eb9591c3d5e6f4d0045912a39cd42
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4102,9 +4102,9 @@ pages:
     - .github/workflows/sdl3-matrix.yml
     source_symbols: []
     source_queries: []
-    source_fingerprint: 68938c89fa239fbdf111e4c0ab4f278004c226cce9d43e49a1c04248aef44a23
+    source_fingerprint: be53bb9a06a4febd74daf51a319be08b2de8d5666805eaad76b67af669489500
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -4113,7 +4113,7 @@ pages:
     translation_group: build-windows-msys2
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 43a748aee4f757bcdeda57bb9bf2be1ee210390ac439517a0fa01d035f97b207
+    translation_source_fingerprint: 42cbfd2b4f1616403dcabd2ea13636b015177c417715692682f8e5f2c807ff11
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4156,9 +4156,9 @@ pages:
     - .github/workflows/sdl3-matrix.yml
     source_symbols: []
     source_queries: []
-    source_fingerprint: 68938c89fa239fbdf111e4c0ab4f278004c226cce9d43e49a1c04248aef44a23
+    source_fingerprint: be53bb9a06a4febd74daf51a319be08b2de8d5666805eaad76b67af669489500
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -4167,7 +4167,7 @@ pages:
     translation_group: build-windows-msys2
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 43a748aee4f757bcdeda57bb9bf2be1ee210390ac439517a0fa01d035f97b207
+    translation_source_fingerprint: 42cbfd2b4f1616403dcabd2ea13636b015177c417715692682f8e5f2c807ff11
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4213,9 +4213,9 @@ pages:
     source_symbols:
     - ascii_art::load_ascii_art
     source_queries: []
-    source_fingerprint: 090e72917bd4e8a3f233d97efdbe4ac036e3a13900805cf10c6f78d534fdc30e
+    source_fingerprint: 0afe16155bd5222bc296b0fce0ce7f0ae1ec8128c917b6389af86ec01b992db2
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -4224,7 +4224,7 @@ pages:
     translation_group: content.ascii-art
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 330c6e811a69ea3a09b6f3fe005bf10e8349f1379b275b262ddad2331490c354
+    translation_source_fingerprint: efff336482a9bd321fcc1d074202841447bc5a4da4aebc7a7e194c443dfd57bd
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4270,9 +4270,9 @@ pages:
     source_symbols:
     - ascii_art::load_ascii_art
     source_queries: []
-    source_fingerprint: 090e72917bd4e8a3f233d97efdbe4ac036e3a13900805cf10c6f78d534fdc30e
+    source_fingerprint: 0afe16155bd5222bc296b0fce0ce7f0ae1ec8128c917b6389af86ec01b992db2
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -4281,7 +4281,7 @@ pages:
     translation_group: content.ascii-art
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 330c6e811a69ea3a09b6f3fe005bf10e8349f1379b275b262ddad2331490c354
+    translation_source_fingerprint: efff336482a9bd321fcc1d074202841447bc5a4da4aebc7a7e194c443dfd57bd
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4329,7 +4329,7 @@ pages:
     source_queries: []
     source_fingerprint: 1adfadb4e99f418c3fcacd1f0e95ffa6ee336f08429efc710bc97bfffc1a6174
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -4338,7 +4338,7 @@ pages:
     translation_group: content.firearms-naming-and-inclusion
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 080ec66eb6c7bee45026a04dff82ef2277c2ae5b23a9296b846a99c05e3d2a34
+    translation_source_fingerprint: fb6a7bc1f8bf1be8dedd90162d55a97164d467a6de4fcfb6f1e005518f3705fc
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4386,7 +4386,7 @@ pages:
     source_queries: []
     source_fingerprint: 1adfadb4e99f418c3fcacd1f0e95ffa6ee336f08429efc710bc97bfffc1a6174
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -4395,7 +4395,7 @@ pages:
     translation_group: content.firearms-naming-and-inclusion
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 080ec66eb6c7bee45026a04dff82ef2277c2ae5b23a9296b846a99c05e3d2a34
+    translation_source_fingerprint: fb6a7bc1f8bf1be8dedd90162d55a97164d467a6de4fcfb6f1e005518f3705fc
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4439,9 +4439,9 @@ pages:
     - src/translations.cpp
     source_symbols: []
     source_queries: []
-    source_fingerprint: d4406485b271aca5ebd126f8f9b32fd0a17c44d30722c9826c831e00d33b54fa
+    source_fingerprint: 244ffada6751f7de79152d7deb3184f86a104faacef3d810c098fedb28c99917
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -4450,7 +4450,7 @@ pages:
     translation_group: content.manual-of-style
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: d2550467f91a84da52043429140933d24147604b39d5c2925cc93bf08e0623cc
+    translation_source_fingerprint: 09dd78fdf8505630c5a92724a2b483f3fb3cf1b869329b4967554b9cb0068540
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4494,9 +4494,9 @@ pages:
     - src/translations.cpp
     source_symbols: []
     source_queries: []
-    source_fingerprint: d4406485b271aca5ebd126f8f9b32fd0a17c44d30722c9826c831e00d33b54fa
+    source_fingerprint: 244ffada6751f7de79152d7deb3184f86a104faacef3d810c098fedb28c99917
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -4505,7 +4505,7 @@ pages:
     translation_group: content.manual-of-style
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: d2550467f91a84da52043429140933d24147604b39d5c2925cc93bf08e0623cc
+    translation_source_fingerprint: 09dd78fdf8505630c5a92724a2b483f3fb3cf1b869329b4967554b9cb0068540
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4550,9 +4550,9 @@ pages:
     source_symbols:
     - main
     source_queries: []
-    source_fingerprint: 31a4661a1f617609395dffcec4a18ea6c54a37c3fc9ee5edae1f6ef65cd3a90f
+    source_fingerprint: 2e3edf2bcd6caff89d938bd434ca37e82b6df033e81ecaff23fa15131a7967d4
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -4561,7 +4561,7 @@ pages:
     translation_group: contributing.json-style
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 1217a7b510c5862ccca3162875cf50edadd3016bac08f932abf30fcd9e67cfeb
+    translation_source_fingerprint: 3c8b2bfa0327c94f6ce2c54a7f4b3992898b5ab535ff18e818d8611a4f3615bf
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4606,9 +4606,9 @@ pages:
     source_symbols:
     - main
     source_queries: []
-    source_fingerprint: 31a4661a1f617609395dffcec4a18ea6c54a37c3fc9ee5edae1f6ef65cd3a90f
+    source_fingerprint: 2e3edf2bcd6caff89d938bd434ca37e82b6df033e81ecaff23fa15131a7967d4
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -4617,7 +4617,7 @@ pages:
     translation_group: contributing.json-style
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 1217a7b510c5862ccca3162875cf50edadd3016bac08f932abf30fcd9e67cfeb
+    translation_source_fingerprint: 3c8b2bfa0327c94f6ce2c54a7f4b3992898b5ab535ff18e818d8611a4f3615bf
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4660,9 +4660,9 @@ pages:
     - .github/pull_request_template.md
     source_symbols: []
     source_queries: []
-    source_fingerprint: e5ceb52246d59389382a552d90cbda3849e690eac4e606cce311555304fa8c68
+    source_fingerprint: f1a6de16e5c8539a8b0c58d2808291146446cbf4adc8ec5ac84ed12ce33b0225
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -4671,7 +4671,7 @@ pages:
     translation_group: pr-review-guide
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: e360a3cc0be225a07bdd7b01db1c5bc0a0bbffd4e5a1fbd4b01d8d7d806f4864
+    translation_source_fingerprint: dc7c8aa693a4539760d74e03cde82a1970515267162e59b92ae595d7fcb0435f
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4714,9 +4714,9 @@ pages:
     - .github/pull_request_template.md
     source_symbols: []
     source_queries: []
-    source_fingerprint: e5ceb52246d59389382a552d90cbda3849e690eac4e606cce311555304fa8c68
+    source_fingerprint: f1a6de16e5c8539a8b0c58d2808291146446cbf4adc8ec5ac84ed12ce33b0225
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -4725,7 +4725,7 @@ pages:
     translation_group: pr-review-guide
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: e360a3cc0be225a07bdd7b01db1c5bc0a0bbffd4e5a1fbd4b01d8d7d806f4864
+    translation_source_fingerprint: dc7c8aa693a4539760d74e03cde82a1970515267162e59b92ae595d7fcb0435f
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4771,7 +4771,7 @@ pages:
     source_queries: []
     source_fingerprint: d2ceaf9331a10f9ab22d13115efd9e7cff032e7669b4193ca524b5e6aeaca2be
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -4780,7 +4780,7 @@ pages:
     translation_group: cpp-code-style
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: f45b905f5907abbcb0fdd6ec7945af156f8431a2aeaa86bdb513c03035a2dc26
+    translation_source_fingerprint: 23289870a5b0971b7ea83a0586d443909eb6761696d6aa030da88f3d40d9f812
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4826,7 +4826,7 @@ pages:
     source_queries: []
     source_fingerprint: d2ceaf9331a10f9ab22d13115efd9e7cff032e7669b4193ca524b5e6aeaca2be
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -4835,7 +4835,7 @@ pages:
     translation_group: cpp-code-style
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: f45b905f5907abbcb0fdd6ec7945af156f8431a2aeaa86bdb513c03035a2dc26
+    translation_source_fingerprint: 23289870a5b0971b7ea83a0586d443909eb6761696d6aa030da88f3d40d9f812
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4884,7 +4884,7 @@ pages:
     source_queries: []
     source_fingerprint: 3f3b1575495c26b727ddb4f613ecfed93103166312c54ea30fb3669e4b8e3c0d
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -4893,7 +4893,7 @@ pages:
     translation_group: cpp-coordinates
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: c7cb8e352eb32ba10304f98d19a69ca5df107468bbe5367ceb5f81509c7da5c8
+    translation_source_fingerprint: c94881a1aba488064f5e6f360d13f15cd177c100b828ce518f7ecbf3b1964699
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4942,7 +4942,7 @@ pages:
     source_queries: []
     source_fingerprint: 3f3b1575495c26b727ddb4f613ecfed93103166312c54ea30fb3669e4b8e3c0d
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -4951,7 +4951,7 @@ pages:
     translation_group: cpp-coordinates
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: c7cb8e352eb32ba10304f98d19a69ca5df107468bbe5367ceb5f81509c7da5c8
+    translation_source_fingerprint: c94881a1aba488064f5e6f360d13f15cd177c100b828ce518f7ecbf3b1964699
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -4997,7 +4997,7 @@ pages:
     source_queries: []
     source_fingerprint: 71d889bd30bafd07c041e9d131a9381325bce710155ffaeb9c5b11c336bd282d
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -5006,7 +5006,7 @@ pages:
     translation_group: developer-tooling
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 1cdb4f092de6263448bcc73cedad060c9e0360b972554cd8c69d9fbcd80b7320
+    translation_source_fingerprint: c6997d95a2b6e6a32bd914f4d8b66964708c1f319206b5236a92b30a0f8528a4
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -5052,7 +5052,7 @@ pages:
     source_queries: []
     source_fingerprint: 71d889bd30bafd07c041e9d131a9381325bce710155ffaeb9c5b11c336bd282d
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -5061,7 +5061,7 @@ pages:
     translation_group: developer-tooling
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 1cdb4f092de6263448bcc73cedad060c9e0360b972554cd8c69d9fbcd80b7320
+    translation_source_fingerprint: c6997d95a2b6e6a32bd914f4d8b66964708c1f319206b5236a92b30a0f8528a4
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -5110,7 +5110,7 @@ pages:
     source_queries: []
     source_fingerprint: c63af9e125cbee7cbed69fcdde222171233e52ab5c6bdc2661d41903fa1b0bd7
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -5119,7 +5119,7 @@ pages:
     translation_group: cpp-json-interface
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 51b9bc35de3c24b826d21273f6e1271f8dcd9ee447decba12e1edd7dabf3980c
+    translation_source_fingerprint: 12045392d91d07f51a4d438b95abbf12733e62baee4fde715d579dcaf1c7115c
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -5168,7 +5168,7 @@ pages:
     source_queries: []
     source_fingerprint: c63af9e125cbee7cbed69fcdde222171233e52ab5c6bdc2661d41903fa1b0bd7
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -5177,7 +5177,7 @@ pages:
     translation_group: cpp-json-interface
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 51b9bc35de3c24b826d21273f6e1271f8dcd9ee447decba12e1edd7dabf3980c
+    translation_source_fingerprint: 12045392d91d07f51a4d438b95abbf12733e62baee4fde715d579dcaf1c7115c
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -5224,7 +5224,7 @@ pages:
     source_queries: []
     source_fingerprint: 11414ba7f6469ff563c62db27ec4f010678d73d127ac84f3bd540a88b4063b63
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -5233,7 +5233,7 @@ pages:
     translation_group: cpp-performance
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: bc0991fe6ca97eb54aaab563e93227943bc67b54ab65d9628fb7750884219abb
+    translation_source_fingerprint: 47bb36356cad9f298b69627a10454a8a8c6b02311ff6d659f6d03bd38bfd35c4
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -5280,7 +5280,7 @@ pages:
     source_queries: []
     source_fingerprint: 11414ba7f6469ff563c62db27ec4f010678d73d127ac84f3bd540a88b4063b63
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -5289,7 +5289,7 @@ pages:
     translation_group: cpp-performance
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: bc0991fe6ca97eb54aaab563e93227943bc67b54ab65d9628fb7750884219abb
+    translation_source_fingerprint: 47bb36356cad9f298b69627a10454a8a8c6b02311ff6d659f6d03bd38bfd35c4
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -5341,7 +5341,7 @@ pages:
     source_queries: []
     source_fingerprint: f624f7a83088244e39d7215a58fe3143089e74fb611456ac7c6cc08ec497b832
     authority: api-contract
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -5350,7 +5350,7 @@ pages:
     translation_group: mods.mind-over-matter.power-reference
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 6dea9d03576cbd0a765539c7c9676bd2a0ff57242c151d7a678ac96b5719c39b
+    translation_source_fingerprint: 4af3f3c38d5d56350d6f2b0c15783a12f07bb0ffff4d77d75d24edc5b93c360d
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -5402,7 +5402,7 @@ pages:
     source_queries: []
     source_fingerprint: f624f7a83088244e39d7215a58fe3143089e74fb611456ac7c6cc08ec497b832
     authority: api-contract
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -5411,7 +5411,7 @@ pages:
     translation_group: mods.mind-over-matter.power-reference
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 6dea9d03576cbd0a765539c7c9676bd2a0ff57242c151d7a678ac96b5719c39b
+    translation_source_fingerprint: 4af3f3c38d5d56350d6f2b0c15783a12f07bb0ffff4d77d75d24edc5b93c360d
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -5456,7 +5456,7 @@ pages:
     source_queries: []
     source_fingerprint: 51029512a57df1784b9f962178ee29540e8fcd0875af7f8b649a2994a069341d
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -5465,7 +5465,7 @@ pages:
     translation_group: mods.aftershock-exoplanet.lore.organizations
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: e78da89d60756ac6a4a2fcc5e5ae1285532a73999d8559cf74ca555eb8880e45
+    translation_source_fingerprint: 81904c5aed067809b8aebcbf5501ba0af347eccd8d090bee64d9c640295c5ead
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -5511,7 +5511,7 @@ pages:
     source_queries: []
     source_fingerprint: 51029512a57df1784b9f962178ee29540e8fcd0875af7f8b649a2994a069341d
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -5520,7 +5520,7 @@ pages:
     translation_group: mods.aftershock-exoplanet.lore.organizations
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: e78da89d60756ac6a4a2fcc5e5ae1285532a73999d8559cf74ca555eb8880e45
+    translation_source_fingerprint: 81904c5aed067809b8aebcbf5501ba0af347eccd8d090bee64d9c640295c5ead
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -5567,7 +5567,7 @@ pages:
     source_queries: []
     source_fingerprint: c6ecee98014d5659798ef3185754b5e43308e35dd06ca9ef9275f76093217f53
     authority: api-contract
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -5576,7 +5576,7 @@ pages:
     translation_group: mods.aftershock-exoplanet.balance.ranged-weapons
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 2a4a6cf756800edee7da3a6d83e488edf8b17c083a0ca2348a8528b8881e7b54
+    translation_source_fingerprint: 9801f178bd0018c7ae57597f7bce1ef3ce09a7e4d1077628facb86c0cea7c28b
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -5622,7 +5622,7 @@ pages:
     source_queries: []
     source_fingerprint: c6ecee98014d5659798ef3185754b5e43308e35dd06ca9ef9275f76093217f53
     authority: api-contract
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -5631,7 +5631,7 @@ pages:
     translation_group: mods.aftershock-exoplanet.balance.ranged-weapons
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 2a4a6cf756800edee7da3a6d83e488edf8b17c083a0ca2348a8528b8881e7b54
+    translation_source_fingerprint: 9801f178bd0018c7ae57597f7bce1ef3ce09a7e4d1077628facb86c0cea7c28b
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -5673,9 +5673,9 @@ pages:
     - GOVERNANCE.md
     source_symbols: []
     source_queries: []
-    source_fingerprint: 1d0054d7999d75ae681f7fa6317b6ee70b8c6bdd8b86a97507c1edf1f974fb51
+    source_fingerprint: d84ea393a2a29c34c0e69c9bd48058b9ff6cbddcab2a06803763b7defb2a3d82
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -5684,7 +5684,7 @@ pages:
     translation_group: design-balance
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: f59cd01a1e4f15768fa2dd732223319538e7b790ac5a6c8bc16da59170482730
+    translation_source_fingerprint: 96b694c19b87e36fb094230b3d548c737793b65d9dde7c3e1250ab0eb197209b
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -5727,9 +5727,9 @@ pages:
     - GOVERNANCE.md
     source_symbols: []
     source_queries: []
-    source_fingerprint: 1d0054d7999d75ae681f7fa6317b6ee70b8c6bdd8b86a97507c1edf1f974fb51
+    source_fingerprint: d84ea393a2a29c34c0e69c9bd48058b9ff6cbddcab2a06803763b7defb2a3d82
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -5738,7 +5738,7 @@ pages:
     translation_group: design-balance
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: f59cd01a1e4f15768fa2dd732223319538e7b790ac5a6c8bc16da59170482730
+    translation_source_fingerprint: 96b694c19b87e36fb094230b3d548c737793b65d9dde7c3e1250ab0eb197209b
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -5785,7 +5785,7 @@ pages:
     source_queries: []
     source_fingerprint: b3069bfcdaf5049a556adec6f61a4d44916319fd2acaf3a4bfb77ba468d5fdc0
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -5794,7 +5794,7 @@ pages:
     translation_group: design-batteries-electricity
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: d6228a69b65e05b3d6777edb7824ea753861e7d54740960687a009b2b363a4d6
+    translation_source_fingerprint: 9a772d735e556c27ad8ec0c9f962435a148d6a973b12e392787e17ebb33bb373
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -5840,7 +5840,7 @@ pages:
     source_queries: []
     source_fingerprint: b3069bfcdaf5049a556adec6f61a4d44916319fd2acaf3a4bfb77ba468d5fdc0
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -5849,7 +5849,7 @@ pages:
     translation_group: design-batteries-electricity
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: d6228a69b65e05b3d6777edb7824ea753861e7d54740960687a009b2b363a4d6
+    translation_source_fingerprint: 9a772d735e556c27ad8ec0c9f962435a148d6a973b12e392787e17ebb33bb373
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -5891,9 +5891,9 @@ pages:
     - README.md
     source_symbols: []
     source_queries: []
-    source_fingerprint: 1ce8e96664cf785d8ebe4739b45940e2ccf0febc6b7e53ec213b0fa807e34ef7
+    source_fingerprint: 74d2180f099fd953ba74317fb4a43bb396ab9434526ae4a387f170b2a0d85d33
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -5902,7 +5902,7 @@ pages:
     translation_group: design.frequently-made-suggestions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 4ce36a9c5056a35d5e2db3eef731b86239dec6ccdcd4b8dfb4b47439373295ed
+    translation_source_fingerprint: af0954b710097deab20603683694fe5a573177c878cfbd3c7b0afb2ac3c6681f
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -5944,9 +5944,9 @@ pages:
     - README.md
     source_symbols: []
     source_queries: []
-    source_fingerprint: 1ce8e96664cf785d8ebe4739b45940e2ccf0febc6b7e53ec213b0fa807e34ef7
+    source_fingerprint: 74d2180f099fd953ba74317fb4a43bb396ab9434526ae4a387f170b2a0d85d33
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -5955,7 +5955,7 @@ pages:
     translation_group: design.frequently-made-suggestions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 4ce36a9c5056a35d5e2db3eef731b86239dec6ccdcd4b8dfb4b47439373295ed
+    translation_source_fingerprint: af0954b710097deab20603683694fe5a573177c878cfbd3c7b0afb2ac3c6681f
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -5997,9 +5997,9 @@ pages:
     - GOVERNANCE.md
     source_symbols: []
     source_queries: []
-    source_fingerprint: 2fab53e2adc355ab40f1aeee2c2a78ff29c21dff09461ffce678da0bce3c02f1
+    source_fingerprint: cb2d9706730e3e8a7d418c865a6c42f81c0c455b45ec6330e6ce4b33cd4ad951
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -6008,7 +6008,7 @@ pages:
     translation_group: design-gameplay
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 2603c5553b6715efbc8efc8c8cf232b95b6f4e3580ffb574bbf8781678266db2
+    translation_source_fingerprint: 5a77c084a6aebd00bbab1cb2236079523c4b5c3713440870f0bca37e43541505
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -6050,9 +6050,9 @@ pages:
     - GOVERNANCE.md
     source_symbols: []
     source_queries: []
-    source_fingerprint: 2fab53e2adc355ab40f1aeee2c2a78ff29c21dff09461ffce678da0bce3c02f1
+    source_fingerprint: cb2d9706730e3e8a7d418c865a6c42f81c0c455b45ec6330e6ce4b33cd4ad951
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -6061,7 +6061,7 @@ pages:
     translation_group: design-gameplay
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 2603c5553b6715efbc8efc8c8cf232b95b6f4e3580ffb574bbf8781678266db2
+    translation_source_fingerprint: 5a77c084a6aebd00bbab1cb2236079523c4b5c3713440870f0bca37e43541505
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -6104,9 +6104,9 @@ pages:
     - GOVERNANCE.md
     source_symbols: []
     source_queries: []
-    source_fingerprint: eb982d8b2e7be2e188715904e8781a98591a7cc158363a5fdbddc0de988920b8
+    source_fingerprint: 2e899b0038baf37c21a3b183ee8fdfc2f10745766a4385c4db0fd3621ddeb6ef
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -6115,7 +6115,7 @@ pages:
     translation_group: design-overview
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 8ad249321134dc5b3189832038bb4132d2841c6aecc9f58075a703889a0635bb
+    translation_source_fingerprint: f648640c91c73b044dbc539fe538833d6f14b3b685ae5afa327317b0a6280fe0
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -6158,9 +6158,9 @@ pages:
     - GOVERNANCE.md
     source_symbols: []
     source_queries: []
-    source_fingerprint: eb982d8b2e7be2e188715904e8781a98591a7cc158363a5fdbddc0de988920b8
+    source_fingerprint: 2e899b0038baf37c21a3b183ee8fdfc2f10745766a4385c4db0fd3621ddeb6ef
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -6169,7 +6169,7 @@ pages:
     translation_group: design-overview
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 8ad249321134dc5b3189832038bb4132d2841c6aecc9f58075a703889a0635bb
+    translation_source_fingerprint: f648640c91c73b044dbc539fe538833d6f14b3b685ae5afa327317b0a6280fe0
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -6216,7 +6216,7 @@ pages:
     source_queries: []
     source_fingerprint: 9370cc17f5eae8733866149bd28406ce50826f277aa6633dd233c94277c5892a
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -6225,7 +6225,7 @@ pages:
     translation_group: design-portal-storms
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: a82b4a148d0d6383693aebd760d44f9a755400c665613e08e50881eba98fc5e9
+    translation_source_fingerprint: b6b8d4e2f6887b5dc2cf0795a849aec9f466f0861138003ca4593882c037aa13
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -6272,7 +6272,7 @@ pages:
     source_queries: []
     source_fingerprint: 9370cc17f5eae8733866149bd28406ce50826f277aa6633dd233c94277c5892a
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -6281,7 +6281,7 @@ pages:
     translation_group: design-portal-storms
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: a82b4a148d0d6383693aebd760d44f9a755400c665613e08e50881eba98fc5e9
+    translation_source_fingerprint: b6b8d4e2f6887b5dc2cf0795a849aec9f466f0861138003ca4593882c037aa13
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -6326,7 +6326,7 @@ pages:
     source_queries: []
     source_fingerprint: f12dfc5ad874180d9e08feb7e486805f625b52d0e537aa4b23769e04b0b6d35b
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -6335,7 +6335,7 @@ pages:
     translation_group: design-steel-crafting
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 4ccf22b3f1c0ae57f5f0be6c64f11f2d0d286c2e03f830ef31ab8d3318e3bf28
+    translation_source_fingerprint: 12613de7270a0ee1fa4b3a42a32656dcdba39c94338a7c23f1883ecf18ae5d8a
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -6380,7 +6380,7 @@ pages:
     source_queries: []
     source_fingerprint: f12dfc5ad874180d9e08feb7e486805f625b52d0e537aa4b23769e04b0b6d35b
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -6389,7 +6389,7 @@ pages:
     translation_group: design-steel-crafting
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 4ccf22b3f1c0ae57f5f0be6c64f11f2d0d286c2e03f830ef31ab8d3318e3bf28
+    translation_source_fingerprint: 12613de7270a0ee1fa4b3a42a32656dcdba39c94338a7c23f1883ecf18ae5d8a
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -6433,7 +6433,7 @@ pages:
     source_queries: []
     source_fingerprint: c48c4c006650195f1034263cc5e9b25a072b994966ca12dc6ab7f2777250c761
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -6442,7 +6442,7 @@ pages:
     translation_group: design-user-experience
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 2325e073a28d63b95df62acbd1b74ee80b3d34cf41cd9337ff783ab538777156
+    translation_source_fingerprint: dd9ed99d0e45082a7c701ac2d242db90427adeac37dea2aa8869d230802dc9b8
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -6486,7 +6486,7 @@ pages:
     source_queries: []
     source_fingerprint: c48c4c006650195f1034263cc5e9b25a072b994966ca12dc6ab7f2777250c761
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -6495,7 +6495,7 @@ pages:
     translation_group: design-user-experience
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 2325e073a28d63b95df62acbd1b74ee80b3d34cf41cd9337ff783ab538777156
+    translation_source_fingerprint: dd9ed99d0e45082a7c701ac2d242db90427adeac37dea2aa8869d230802dc9b8
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -6543,9 +6543,9 @@ pages:
     - overmap_terrains::load
     - itype::load
     source_queries: []
-    source_fingerprint: 51bcfbc2885b30088566d8c5623f1c4b35f924e720d8d11b5c2b3858a7bab9fa
+    source_fingerprint: cbf0ed24e578686a013b0634c8aaddfbaa1c3d3aa2e5b9731975493723112929
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -6554,7 +6554,7 @@ pages:
     translation_group: how-to.common-tasks
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 5acb20890aac2502fa29ce71a3d06e2e3b162734a9f7c39384543f973b6853c6
+    translation_source_fingerprint: e379921846368249ecd37c3b23d656e8ae16871ca8047361ad1e320747396f55
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -6603,9 +6603,9 @@ pages:
     - overmap_terrains::load
     - itype::load
     source_queries: []
-    source_fingerprint: 51bcfbc2885b30088566d8c5623f1c4b35f924e720d8d11b5c2b3858a7bab9fa
+    source_fingerprint: cbf0ed24e578686a013b0634c8aaddfbaa1c3d3aa2e5b9731975493723112929
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -6614,7 +6614,7 @@ pages:
     translation_group: how-to.common-tasks
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 5acb20890aac2502fa29ce71a3d06e2e3b162734a9f7c39384543f973b6853c6
+    translation_source_fingerprint: e379921846368249ecd37c3b23d656e8ae16871ca8047361ad1e320747396f55
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -6661,9 +6661,9 @@ pages:
     - islot_comestible::deserialize
     - itype::load
     source_queries: []
-    source_fingerprint: 5817fd0e31fe58b676450ee8f73ea9388e21169152d12d5ec577c002b7275538
+    source_fingerprint: 4e0d6d98ef0567ed4fc3da0e7e0b957671a0c2d28e3af279c3a43753fcc9c043
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -6672,7 +6672,7 @@ pages:
     translation_group: json.comestibles-placement
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 98d6611ee488e7c3a9b4196e8120f7708b4cce17d23c5ece4c710777cd2073a0
+    translation_source_fingerprint: b341f7fa12949ea3d140dc4f25987205c0897258c69ab1342e58ac7f409d34d3
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -6718,9 +6718,9 @@ pages:
     - islot_comestible::deserialize
     - itype::load
     source_queries: []
-    source_fingerprint: 5817fd0e31fe58b676450ee8f73ea9388e21169152d12d5ec577c002b7275538
+    source_fingerprint: 4e0d6d98ef0567ed4fc3da0e7e0b957671a0c2d28e3af279c3a43753fcc9c043
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -6729,7 +6729,7 @@ pages:
     translation_group: json.comestibles-placement
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 98d6611ee488e7c3a9b4196e8120f7708b4cce17d23c5ece4c710777cd2073a0
+    translation_source_fingerprint: b341f7fa12949ea3d140dc4f25987205c0897258c69ab1342e58ac7f409d34d3
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -6777,7 +6777,7 @@ pages:
     source_queries: []
     source_fingerprint: b2259289218e6d63d58941659c741afac360e4de7237e3ddea74b894278277b6
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -6786,7 +6786,7 @@ pages:
     translation_group: how-to.json-tools
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: a63bd05b50550e9049821523fa9022e0622b06af4bcea1207c0b413389017b8b
+    translation_source_fingerprint: 20b16ba7efc824d39b91c9594c849c2c44c476f0f3621774ed7ff34b01518f41
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -6834,7 +6834,7 @@ pages:
     source_queries: []
     source_fingerprint: b2259289218e6d63d58941659c741afac360e4de7237e3ddea74b894278277b6
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -6843,7 +6843,7 @@ pages:
     translation_group: how-to.json-tools
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: a63bd05b50550e9049821523fa9022e0622b06af4bcea1207c0b413389017b8b
+    translation_source_fingerprint: 20b16ba7efc824d39b91c9594c849c2c44c476f0f3621774ed7ff34b01518f41
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -6887,9 +6887,9 @@ pages:
     - tests/item_test.cpp
     source_symbols: []
     source_queries: []
-    source_fingerprint: a9714429c46f2041888b761dac2dd50fb337ba9405ccd4439c40b6ceacb56f27
+    source_fingerprint: 0d4468c16850762127afe9408b887ea90675b4ce26263150a1e4b8d4f36fc759
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -6898,7 +6898,7 @@ pages:
     translation_group: json-armor-design
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 035e9840690568b77b4e754f7a7b992af931afaa10097aa5ad63715894012514
+    translation_source_fingerprint: 2ccd806d61f39bddc37ddad016969bb3fc0bd584d09b6bbbd4ad0fb2d1ee3e54
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -6942,9 +6942,9 @@ pages:
     - tests/item_test.cpp
     source_symbols: []
     source_queries: []
-    source_fingerprint: a9714429c46f2041888b761dac2dd50fb337ba9405ccd4439c40b6ceacb56f27
+    source_fingerprint: 0d4468c16850762127afe9408b887ea90675b4ce26263150a1e4b8d4f36fc759
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -6953,7 +6953,7 @@ pages:
     translation_group: json-armor-design
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 035e9840690568b77b4e754f7a7b992af931afaa10097aa5ad63715894012514
+    translation_source_fingerprint: 2ccd806d61f39bddc37ddad016969bb3fc0bd584d09b6bbbd4ad0fb2d1ee3e54
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -6998,7 +6998,7 @@ pages:
     source_queries: []
     source_fingerprint: 6e687bb603c8a92394e06cdc39e80d341da61ee4daeac7c98fab49da2017137b
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -7007,7 +7007,7 @@ pages:
     translation_group: json-item-pricing
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 9ef954f62e96a4b00e62d5c429c4e1a703850629b848cb635f1c05cd7ea2c5b5
+    translation_source_fingerprint: 195ec7162ac75a5168d727bfaf57fd33a59b6490c18957d320aa72a90ad20570
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7052,7 +7052,7 @@ pages:
     source_queries: []
     source_fingerprint: 6e687bb603c8a92394e06cdc39e80d341da61ee4daeac7c98fab49da2017137b
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -7061,7 +7061,7 @@ pages:
     translation_group: json-item-pricing
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 9ef954f62e96a4b00e62d5c429c4e1a703850629b848cb635f1c05cd7ea2c5b5
+    translation_source_fingerprint: 195ec7162ac75a5168d727bfaf57fd33a59b6490c18957d320aa72a90ad20570
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7106,9 +7106,9 @@ pages:
     source_symbols:
     - cata_variant
     source_queries: []
-    source_fingerprint: 82c37db96db11737a3f1097313c55597a7e5ea236dfe758a10ed721cd6992691
+    source_fingerprint: e6e11f897a5007543af3b70f38cedacdaf86f49f07ddb66b0692ee403e21915b
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -7117,7 +7117,7 @@ pages:
     translation_group: json-item-variants
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 7bae837b3b7ebe61326ec111ec664dfe9e478d2e197278112c80fde39439eac9
+    translation_source_fingerprint: 85a963cee90361864c6ef46f82350c18726d8b451feebb270889500ddfffa34d
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7162,9 +7162,9 @@ pages:
     source_symbols:
     - cata_variant
     source_queries: []
-    source_fingerprint: 82c37db96db11737a3f1097313c55597a7e5ea236dfe758a10ed721cd6992691
+    source_fingerprint: e6e11f897a5007543af3b70f38cedacdaf86f49f07ddb66b0692ee403e21915b
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -7173,7 +7173,7 @@ pages:
     translation_group: json-item-variants
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 7bae837b3b7ebe61326ec111ec664dfe9e478d2e197278112c80fde39439eac9
+    translation_source_fingerprint: 85a963cee90361864c6ef46f82350c18726d8b451feebb270889500ddfffa34d
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7221,7 +7221,7 @@ pages:
     source_queries: []
     source_fingerprint: e2ec68ecbb94f6857d18bcb011f940e6ac2b0525364fed1d5346b482f4836fb3
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -7230,7 +7230,7 @@ pages:
     translation_group: json-widgets
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 6aa0f69517bc087826adb2aedf1c6a7ec176a8982eb23a99df6bbbfe98761ee0
+    translation_source_fingerprint: 66280bec8bcbc667e930f22886b212210ef14c9c01eefab6373d266881cb6106
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7278,7 +7278,7 @@ pages:
     source_queries: []
     source_fingerprint: e2ec68ecbb94f6857d18bcb011f940e6ac2b0525364fed1d5346b482f4836fb3
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -7287,7 +7287,7 @@ pages:
     translation_group: json-widgets
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 6aa0f69517bc087826adb2aedf1c6a7ec176a8982eb23a99df6bbbfe98761ee0
+    translation_source_fingerprint: 66280bec8bcbc667e930f22886b212210ef14c9c01eefab6373d266881cb6106
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7337,7 +7337,7 @@ pages:
     source_queries: []
     source_fingerprint: 007ab64d80f8144fed21e6e91734d861c684c40ef5a68677e458368084ebe848
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -7346,7 +7346,7 @@ pages:
     translation_group: translation-guide
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 59c88ec076560e8e147d18ecad40da1ed8de7a18a21854934ae6a8c5a5656b03
+    translation_source_fingerprint: 1ac2edc19ce192cee8314b5e77d4757706f3c4c26b2eb0b593ab1bd0eb075254
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7397,7 +7397,7 @@ pages:
     source_queries: []
     source_fingerprint: 007ab64d80f8144fed21e6e91734d861c684c40ef5a68677e458368084ebe848
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -7406,7 +7406,7 @@ pages:
     translation_group: translation-guide
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 59c88ec076560e8e147d18ecad40da1ed8de7a18a21854934ae6a8c5a5656b03
+    translation_source_fingerprint: 1ac2edc19ce192cee8314b5e77d4757706f3c4c26b2eb0b593ab1bd0eb075254
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7451,7 +7451,7 @@ pages:
     source_queries: []
     source_fingerprint: 4ef53651276a51dbf6890808327b57987bf5db1c1d12cdd8d23431b6f5686036
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -7460,7 +7460,7 @@ pages:
     translation_group: lore-background
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: f51f3deb0c5f8be26ce6c64bf64e436db488a9caa92ec404243c45c85747614c
+    translation_source_fingerprint: 7bc07248b0996e72932974d3b7b9aded650b7a67af306b2512b1f402f149a616
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7504,7 +7504,7 @@ pages:
     source_queries: []
     source_fingerprint: 4ef53651276a51dbf6890808327b57987bf5db1c1d12cdd8d23431b6f5686036
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -7513,7 +7513,7 @@ pages:
     translation_group: lore-background
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: f51f3deb0c5f8be26ce6c64bf64e436db488a9caa92ec404243c45c85747614c
+    translation_source_fingerprint: 7bc07248b0996e72932974d3b7b9aded650b7a67af306b2512b1f402f149a616
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7558,7 +7558,7 @@ pages:
     source_queries: []
     source_fingerprint: 2d848c39599906582312af97e6f3698a2062240e8d2aff0162dcec0d4970ee90
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -7567,7 +7567,7 @@ pages:
     translation_group: lore-factions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 122f846b95c8d8cb9be2cc78ea72ec9a821fda4aa711a4ebf0033b1d718e29c4
+    translation_source_fingerprint: 4b2e25ce8422108548502687e642110bf929b3280084d6dc9391ec05b333c510
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7612,7 +7612,7 @@ pages:
     source_queries: []
     source_fingerprint: 2d848c39599906582312af97e6f3698a2062240e8d2aff0162dcec0d4970ee90
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -7621,7 +7621,7 @@ pages:
     translation_group: lore-factions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 122f846b95c8d8cb9be2cc78ea72ec9a821fda4aa711a4ebf0033b1d718e29c4
+    translation_source_fingerprint: 4b2e25ce8422108548502687e642110bf929b3280084d6dc9391ec05b333c510
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7665,7 +7665,7 @@ pages:
     source_queries: []
     source_fingerprint: f7d75b8cadfa6753bff60372b7d010d7aa16b90d7fce63e82cafeb143f301074
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -7674,7 +7674,7 @@ pages:
     translation_group: lore-overview
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 3accd7b6203cbb0eedc47f18230363edc8a47ae93a0d7a329db96ffe6f41afbf
+    translation_source_fingerprint: 4d0a92a69ec2403cb1e9afc4e41f9371e08918c4020eb5f6049652498f7b86df
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7718,7 +7718,7 @@ pages:
     source_queries: []
     source_fingerprint: f7d75b8cadfa6753bff60372b7d010d7aa16b90d7fce63e82cafeb143f301074
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -7727,7 +7727,7 @@ pages:
     translation_group: lore-overview
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 3accd7b6203cbb0eedc47f18230363edc8a47ae93a0d7a329db96ffe6f41afbf
+    translation_source_fingerprint: 4d0a92a69ec2403cb1e9afc4e41f9371e08918c4020eb5f6049652498f7b86df
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7771,7 +7771,7 @@ pages:
     source_queries: []
     source_fingerprint: cf792ec1d56aa4d6f5a0efbea73bc7d7269987b7cf5ea1aa4062810c965350fb
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -7780,7 +7780,7 @@ pages:
     translation_group: lore-technology
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: fe0b3354ffe9609a020494c599f716f13a38719d1d63f4a7b436e9905efc0ca8
+    translation_source_fingerprint: c37e1ac05245daed4b927057661f1f844ed57945b7ebc031d9990d54bb3ef4c8
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7824,7 +7824,7 @@ pages:
     source_queries: []
     source_fingerprint: cf792ec1d56aa4d6f5a0efbea73bc7d7269987b7cf5ea1aa4062810c965350fb
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -7833,7 +7833,7 @@ pages:
     translation_group: lore-technology
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: fe0b3354ffe9609a020494c599f716f13a38719d1d63f4a7b436e9905efc0ca8
+    translation_source_fingerprint: c37e1ac05245daed4b927057661f1f844ed57945b7ebc031d9990d54bb3ef4c8
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7878,9 +7878,9 @@ pages:
     - .github/labeler.yml
     source_symbols: []
     source_queries: []
-    source_fingerprint: 0f1b70d5d11df0526e5494b437c0b12f938d7be646c80980f7236642b3054adc
+    source_fingerprint: f4ac6afebb7fb000fb110f9c69c413b5ff1379bef35c03ae615950f0902f22cd
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -7889,7 +7889,7 @@ pages:
     translation_group: maintainers.issue-triage
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 032d1d53704a4bb6adc1bf7f5888d6a495870c40fd656df4adf6b95ad81ab3bf
+    translation_source_fingerprint: d0b75d54df53a88c08304173a96f67c342d59febbe837ce6fbff6081355dcd18
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7934,9 +7934,9 @@ pages:
     - .github/labeler.yml
     source_symbols: []
     source_queries: []
-    source_fingerprint: 0f1b70d5d11df0526e5494b437c0b12f938d7be646c80980f7236642b3054adc
+    source_fingerprint: f4ac6afebb7fb000fb110f9c69c413b5ff1379bef35c03ae615950f0902f22cd
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -7945,7 +7945,7 @@ pages:
     translation_group: maintainers.issue-triage
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 032d1d53704a4bb6adc1bf7f5888d6a495870c40fd656df4adf6b95ad81ab3bf
+    translation_source_fingerprint: d0b75d54df53a88c08304173a96f67c342d59febbe837ce6fbff6081355dcd18
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -7990,9 +7990,9 @@ pages:
     source_symbols:
     - DynamicDataLoader::load_mod_interaction_files_from_path
     source_queries: []
-    source_fingerprint: 6af06ba4ae4f015b5b049b078dc768874554132e2136f98b07e1cc64625da2b0
+    source_fingerprint: a6292cdc302f2b5da18a35a4d344c24efcc9d87334783f56b2f9ece64b4736c2
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -8001,7 +8001,7 @@ pages:
     translation_group: mod-compatibility
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: ef1b50f80c175210c6c7d92a165859b136b3e95b186602f7be5956f20a260854
+    translation_source_fingerprint: 8093f4f712856a40b6760cd4dc87c54cf9d5924936ccf5460b99e36555e42bdd
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8046,9 +8046,9 @@ pages:
     source_symbols:
     - DynamicDataLoader::load_mod_interaction_files_from_path
     source_queries: []
-    source_fingerprint: 6af06ba4ae4f015b5b049b078dc768874554132e2136f98b07e1cc64625da2b0
+    source_fingerprint: a6292cdc302f2b5da18a35a4d344c24efcc9d87334783f56b2f9ece64b4736c2
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -8057,7 +8057,7 @@ pages:
     translation_group: mod-compatibility
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: ef1b50f80c175210c6c7d92a165859b136b3e95b186602f7be5956f20a260854
+    translation_source_fingerprint: 8093f4f712856a40b6760cd4dc87c54cf9d5924936ccf5460b99e36555e42bdd
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8102,7 +8102,7 @@ pages:
     source_queries: []
     source_fingerprint: f8453df6b1f08b138e9ebb0f9a0cb63166baaa2c3d1d5a209db8ddea561bfaee
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -8111,7 +8111,7 @@ pages:
     translation_group: mod-localization
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: cc89212b81f0325106aa5b8a410fc7eb79f2bbc965a261f968a8944454cd4ccc
+    translation_source_fingerprint: 5bbc6401b91fa11bb81657cbd5c2781826b25331838af3f55b8d7e23d0ee1d50
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8156,7 +8156,7 @@ pages:
     source_queries: []
     source_fingerprint: f8453df6b1f08b138e9ebb0f9a0cb63166baaa2c3d1d5a209db8ddea561bfaee
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -8165,7 +8165,7 @@ pages:
     translation_group: mod-localization
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: cc89212b81f0325106aa5b8a410fc7eb79f2bbc965a261f968a8944454cd4ccc
+    translation_source_fingerprint: 5bbc6401b91fa11bb81657cbd5c2781826b25331838af3f55b8d7e23d0ee1d50
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8211,9 +8211,9 @@ pages:
     - DynamicDataLoader::load_mod_interaction_files_from_path
     - game::load_mod_interaction_data_from_dir
     source_queries: []
-    source_fingerprint: 01df11ed2410a7436b91d317d9a7b0843f550d730255abb4d6c637526c226e9b
+    source_fingerprint: 78825cff7acafad971dcbdd1262f871807cb1fee06c58572e8139c94c760608c
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -8222,7 +8222,7 @@ pages:
     translation_group: modding-overview
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 282f94915ba860bf09fdbb701cd3a92f97884276900d172ec57a5516aaecc0c2
+    translation_source_fingerprint: 7706ed082a805dbf55f0fc6885328f2703931da84af41cf5c114cb2d36053a6b
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8268,9 +8268,9 @@ pages:
     - DynamicDataLoader::load_mod_interaction_files_from_path
     - game::load_mod_interaction_data_from_dir
     source_queries: []
-    source_fingerprint: 01df11ed2410a7436b91d317d9a7b0843f550d730255abb4d6c637526c226e9b
+    source_fingerprint: 78825cff7acafad971dcbdd1262f871807cb1fee06c58572e8139c94c760608c
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -8279,7 +8279,7 @@ pages:
     translation_group: modding-overview
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 282f94915ba860bf09fdbb701cd3a92f97884276900d172ec57a5516aaecc0c2
+    translation_source_fingerprint: 7706ed082a805dbf55f0fc6885328f2703931da84af41cf5c114cb2d36053a6b
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8325,9 +8325,9 @@ pages:
     source_symbols:
     - mod_manager::load_modfile
     source_queries: []
-    source_fingerprint: 0e75c77124cf84a936f3bd2f6e19b29d2e7e067eae2b27963fe90dca28aa828e
+    source_fingerprint: 975c66966726b069315e72689255c20f76c8c8fdc8ec00981feb775dd4fbfa02
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -8336,7 +8336,7 @@ pages:
     translation_group: mods.in-repository-policy
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 182c359934f568b9b713df6ad8d700d62a0fd053f26470c2bf6318e1a152e457
+    translation_source_fingerprint: 61f55f21557044ff86e55b681296dea4601249fb357bca2f08ed37718f2a0345
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8382,9 +8382,9 @@ pages:
     source_symbols:
     - mod_manager::load_modfile
     source_queries: []
-    source_fingerprint: 0e75c77124cf84a936f3bd2f6e19b29d2e7e067eae2b27963fe90dca28aa828e
+    source_fingerprint: 975c66966726b069315e72689255c20f76c8c8fdc8ec00981feb775dd4fbfa02
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -8393,7 +8393,7 @@ pages:
     translation_group: mods.in-repository-policy
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 182c359934f568b9b713df6ad8d700d62a0fd053f26470c2bf6318e1a152e457
+    translation_source_fingerprint: 61f55f21557044ff86e55b681296dea4601249fb357bca2f08ed37718f2a0345
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8438,7 +8438,7 @@ pages:
     source_queries: []
     source_fingerprint: a734b905bc9c70e7a29cf52f31cacb22a1c0eb476f68e854f490e750a0c99409
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -8447,7 +8447,7 @@ pages:
     translation_group: platform-matrix
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 5557ebc63a67d00294365f3e12a2a36bc3be39fe6b1d9f35248889776f8f53b5
+    translation_source_fingerprint: cb6a6d9019dc544108a69a9b3799a21436e9adfc787a8f85904e3cf3391944fd
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8492,7 +8492,7 @@ pages:
     source_queries: []
     source_fingerprint: a734b905bc9c70e7a29cf52f31cacb22a1c0eb476f68e854f490e750a0c99409
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -8501,7 +8501,7 @@ pages:
     translation_group: platform-matrix
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 5557ebc63a67d00294365f3e12a2a36bc3be39fe6b1d9f35248889776f8f53b5
+    translation_source_fingerprint: cb6a6d9019dc544108a69a9b3799a21436e9adfc787a8f85904e3cf3391944fd
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8549,9 +8549,9 @@ pages:
     - effect_on_conditions::load
     - conditional_t::conditional_t
     source_queries: []
-    source_fingerprint: 836e4deb077ab0b5c5a2cfb9efb2ec0b95b8c58a163d733bcd2ede0a9ca2363a
+    source_fingerprint: f5ff80cfe7f5b4b6e2e84785d83c869cae6b09fa5d8e24a3010677762a0564b2
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -8560,7 +8560,7 @@ pages:
     translation_group: eoc.reference
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 5535dd152efecfd8e811300b442e7b3eb83eb7116388bbf5403f84742e2b27cf
+    translation_source_fingerprint: a3ea4423e39f087939cb53fd9c4689fae7bf004254e7eb9465bf76f43206c9e1
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8608,9 +8608,9 @@ pages:
     - effect_on_conditions::load
     - conditional_t::conditional_t
     source_queries: []
-    source_fingerprint: 836e4deb077ab0b5c5a2cfb9efb2ec0b95b8c58a163d733bcd2ede0a9ca2363a
+    source_fingerprint: f5ff80cfe7f5b4b6e2e84785d83c869cae6b09fa5d8e24a3010677762a0564b2
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -8619,7 +8619,7 @@ pages:
     translation_group: eoc.reference
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 5535dd152efecfd8e811300b442e7b3eb83eb7116388bbf5403f84742e2b27cf
+    translation_source_fingerprint: a3ea4423e39f087939cb53fd9c4689fae7bf004254e7eb9465bf76f43206c9e1
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8667,9 +8667,9 @@ pages:
     - npc_class::load
     - json_talk_topic::load
     source_queries: []
-    source_fingerprint: c3ae69403c9d1063bb5329654dab7a0ba1529549923508a5620387a10823bb73
+    source_fingerprint: 9e6515c57f4bec96e397fe7ce1624895b165ed1c1d32cceae8e1a50a6cadf6cc
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -8678,7 +8678,7 @@ pages:
     translation_group: json.npcs-dialogue
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 46d2d849a76bb94d7b5810402cd48481c3db124a0aaadac04c431cc51e79b107
+    translation_source_fingerprint: 5d3c92e04a9f29139d9354752836a8e8c017254b66f1650b0d6e204f6845f8c5
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8727,9 +8727,9 @@ pages:
     - npc_class::load
     - json_talk_topic::load
     source_queries: []
-    source_fingerprint: c3ae69403c9d1063bb5329654dab7a0ba1529549923508a5620387a10823bb73
+    source_fingerprint: 9e6515c57f4bec96e397fe7ce1624895b165ed1c1d32cceae8e1a50a6cadf6cc
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -8738,7 +8738,7 @@ pages:
     translation_group: json.npcs-dialogue
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 46d2d849a76bb94d7b5810402cd48481c3db124a0aaadac04c431cc51e79b107
+    translation_source_fingerprint: 5d3c92e04a9f29139d9354752836a8e8c017254b66f1650b0d6e204f6845f8c5
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8788,7 +8788,7 @@ pages:
     source_queries: []
     source_fingerprint: ad2b5a81653c650736c14c7353edf81b77620c498c521c6ccdcb628e6b7c3fc5
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -8797,7 +8797,7 @@ pages:
     translation_group: json.artifacts
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: c5ea9a0faad65d7cd2f6686be43ccd9ae63d9c8e079dd44adfb2b0b5441c31a9
+    translation_source_fingerprint: 80c1feb0e268b230f233ea191cc29f3a49cee59ac344194e21466b3cefface26
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8846,7 +8846,7 @@ pages:
     source_queries: []
     source_fingerprint: ad2b5a81653c650736c14c7353edf81b77620c498c521c6ccdcb628e6b7c3fc5
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -8855,7 +8855,7 @@ pages:
     translation_group: json.artifacts
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: c5ea9a0faad65d7cd2f6686be43ccd9ae63d9c8e079dd44adfb2b0b5441c31a9
+    translation_source_fingerprint: 80c1feb0e268b230f233ea191cc29f3a49cee59ac344194e21466b3cefface26
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8905,7 +8905,7 @@ pages:
     source_queries: []
     source_fingerprint: c0cfebafece179418df8534979262e7194922117093218d38658a260291a55f2
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -8914,7 +8914,7 @@ pages:
     translation_group: json.basecamp
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: a4989f925e69f00347e77d011cdc91b1e9f99bd556db5080dfeb959791e6cd38
+    translation_source_fingerprint: d9df53480d4415c4208f1cfc886ef254b87b0cb3eb6bda57bf04894a2b376f0b
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -8964,7 +8964,7 @@ pages:
     source_queries: []
     source_fingerprint: c0cfebafece179418df8534979262e7194922117093218d38658a260291a55f2
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -8973,7 +8973,7 @@ pages:
     translation_group: json.basecamp
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: a4989f925e69f00347e77d011cdc91b1e9f99bd556db5080dfeb959791e6cd38
+    translation_source_fingerprint: d9df53480d4415c4208f1cfc886ef254b87b0cb3eb6bda57bf04894a2b376f0b
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9019,7 +9019,7 @@ pages:
     source_queries: []
     source_fingerprint: 997faf1bea95578f5e2960f8dc83e65303b4e20c8d8c8d4c01ebe1e383e235b4
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -9028,7 +9028,7 @@ pages:
     translation_group: json.climbing-aids
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 82caf79146dc39a70e66a4544ac8900fb85fed8d9375975476731840dd3706cd
+    translation_source_fingerprint: 6d78a001e62a18aced745c1b6af22342322614192404162539ca36e262d8d598
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9074,7 +9074,7 @@ pages:
     source_queries: []
     source_fingerprint: 997faf1bea95578f5e2960f8dc83e65303b4e20c8d8c8d4c01ebe1e383e235b4
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -9083,7 +9083,7 @@ pages:
     translation_group: json.climbing-aids
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 82caf79146dc39a70e66a4544ac8900fb85fed8d9375975476731840dd3706cd
+    translation_source_fingerprint: 6d78a001e62a18aced745c1b6af22342322614192404162539ca36e262d8d598
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9131,7 +9131,7 @@ pages:
     source_queries: []
     source_fingerprint: 9ab637a57079bd6baf25f89931aa6e5d13c24027ea38e460c71fbfdf249a3197
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -9140,7 +9140,7 @@ pages:
     translation_group: json.dimensions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 928283bb929b7589913ae7ec125be2cc59e96005a2a584ee362bcb9e17bcc946
+    translation_source_fingerprint: c0cbcfbf766baa5a928bc92037d3238e158bc5a1f15b6827e1dee1c3d1fa8e32
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9188,7 +9188,7 @@ pages:
     source_queries: []
     source_fingerprint: 9ab637a57079bd6baf25f89931aa6e5d13c24027ea38e460c71fbfdf249a3197
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -9197,7 +9197,7 @@ pages:
     translation_group: json.dimensions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 928283bb929b7589913ae7ec125be2cc59e96005a2a584ee362bcb9e17bcc946
+    translation_source_fingerprint: c0cbcfbf766baa5a928bc92037d3238e158bc5a1f15b6827e1dee1c3d1fa8e32
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9245,9 +9245,9 @@ pages:
     - effect_type::load_mod_data
     - effect_migration::load
     source_queries: []
-    source_fingerprint: 8ec137d6fe7ecf424e3b8578ae092348222e0e81343604637980c88dca9d208c
+    source_fingerprint: 35da9a9f0526ea524414e5d7d746bfe0b4d4bbba2d65473d0e0b42f9a5f72e18
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -9256,7 +9256,7 @@ pages:
     translation_group: json.effects
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 65911ff8b34e34ed2a9fb30b4415f300d00738c358f26a3b1348b381759d99e9
+    translation_source_fingerprint: 11bb7b84096573e93b6819368ebb579edcb4ff419cc32232c9e30b9fa0ac40f7
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9304,9 +9304,9 @@ pages:
     - effect_type::load_mod_data
     - effect_migration::load
     source_queries: []
-    source_fingerprint: 8ec137d6fe7ecf424e3b8578ae092348222e0e81343604637980c88dca9d208c
+    source_fingerprint: 35da9a9f0526ea524414e5d7d746bfe0b4d4bbba2d65473d0e0b42f9a5f72e18
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -9315,7 +9315,7 @@ pages:
     translation_group: json.effects
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 65911ff8b34e34ed2a9fb30b4415f300d00738c358f26a3b1348b381759d99e9
+    translation_source_fingerprint: 11bb7b84096573e93b6819368ebb579edcb4ff419cc32232c9e30b9fa0ac40f7
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9363,9 +9363,9 @@ pages:
     - cardreader_examine_actor::load
     - eoc_examine_actor::load
     source_queries: []
-    source_fingerprint: ccfa1cd7585bf2cb3554179e87f8125d72eea2502fc9b25ba74d3a9eefb3f6d7
+    source_fingerprint: 1bbd6d207b2fbbd6700e3fd88ce3ec2b5cc23a18f36cf5431e054a0cf62d77ad
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -9374,7 +9374,7 @@ pages:
     translation_group: json.examine-actions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 8e0b5ff7bc090df8236f02f27ec38e67684667b35fd08fcaf09681e69272acdb
+    translation_source_fingerprint: af886e54c932e01310782aa2b626a15be7a797cc7e68fbfa273ead06fbf8e08e
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9422,9 +9422,9 @@ pages:
     - cardreader_examine_actor::load
     - eoc_examine_actor::load
     source_queries: []
-    source_fingerprint: ccfa1cd7585bf2cb3554179e87f8125d72eea2502fc9b25ba74d3a9eefb3f6d7
+    source_fingerprint: 1bbd6d207b2fbbd6700e3fd88ce3ec2b5cc23a18f36cf5431e054a0cf62d77ad
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -9433,7 +9433,7 @@ pages:
     translation_group: json.examine-actions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 8e0b5ff7bc090df8236f02f27ec38e67684667b35fd08fcaf09681e69272acdb
+    translation_source_fingerprint: af886e54c932e01310782aa2b626a15be7a797cc7e68fbfa273ead06fbf8e08e
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9480,7 +9480,7 @@ pages:
     source_queries: []
     source_fingerprint: 06cdbc4c15861847dfbef5486ae1b1c427c73774ff0cc485322ff8a7b5e2cd93
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -9489,7 +9489,7 @@ pages:
     translation_group: json.faction-missions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 2871c5ad31a9faf5c8544c02c396326bb55e9191eecdf732be3eebc4f39ba3ec
+    translation_source_fingerprint: 1e3bc534cb2aa77458d7046551c74d5dabddc3b1aee5e9ecbc2dcd588448e733
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9536,7 +9536,7 @@ pages:
     source_queries: []
     source_fingerprint: 06cdbc4c15861847dfbef5486ae1b1c427c73774ff0cc485322ff8a7b5e2cd93
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -9545,7 +9545,7 @@ pages:
     translation_group: json.faction-missions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 2871c5ad31a9faf5c8544c02c396326bb55e9191eecdf732be3eebc4f39ba3ec
+    translation_source_fingerprint: 1e3bc534cb2aa77458d7046551c74d5dabddc3b1aee5e9ecbc2dcd588448e733
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9593,7 +9593,7 @@ pages:
     source_queries: []
     source_fingerprint: 3cab8da23ea482c450b9d0f6f2d2f5fb692e10b827e8f0ead7d3f361f1db6001
     authority: api-contract
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -9602,7 +9602,7 @@ pages:
     translation_group: json.flags
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 6d567e079a34e8d7c27978dba23dbf8a573285ef3038d186afa134e959badb00
+    translation_source_fingerprint: d3b4833f2d510f8bf49cc521a79c9f3a577461ff07a3fd8589bbd9ff87788b98
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9651,7 +9651,7 @@ pages:
     source_queries: []
     source_fingerprint: 3cab8da23ea482c450b9d0f6f2d2f5fb692e10b827e8f0ead7d3f361f1db6001
     authority: api-contract
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -9660,7 +9660,7 @@ pages:
     translation_group: json.flags
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 6d567e079a34e8d7c27978dba23dbf8a573285ef3038d186afa134e959badb00
+    translation_source_fingerprint: d3b4833f2d510f8bf49cc521a79c9f3a577461ff07a3fd8589bbd9ff87788b98
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9709,7 +9709,7 @@ pages:
     source_queries: []
     source_fingerprint: 73dd5825970a152d2af8ae47a76c3fa9ae8e57cef9ffaa47ec9b70740fdd2395
     authority: api-contract
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -9718,7 +9718,7 @@ pages:
     translation_group: json.proficiencies-index
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 60a79d2d8406b398a7d76cc6a6e0cde5dde9f6364c758dbb50f492acc7d7a9b3
+    translation_source_fingerprint: 872b2c06d5dbeedfed2f3b8f6ec3785b97740050aa52e2128d3ed69a89a4bd89
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9766,7 +9766,7 @@ pages:
     source_queries: []
     source_fingerprint: 73dd5825970a152d2af8ae47a76c3fa9ae8e57cef9ffaa47ec9b70740fdd2395
     authority: api-contract
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -9775,7 +9775,7 @@ pages:
     translation_group: json.proficiencies-index
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 60a79d2d8406b398a7d76cc6a6e0cde5dde9f6364c758dbb50f492acc7d7a9b3
+    translation_source_fingerprint: 872b2c06d5dbeedfed2f3b8f6ec3785b97740050aa52e2128d3ed69a89a4bd89
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9822,7 +9822,7 @@ pages:
     source_queries: []
     source_fingerprint: f183f3f25cca04b29131aec235909008cdcd84abbf61c36866f607c9fb1595c4
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -9831,7 +9831,7 @@ pages:
     translation_group: json.help-menu
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 7fb6ba54ac352f9a41e728cc034751bad527400237b7d95ae3851192782f4eba
+    translation_source_fingerprint: 73acf5bb64e3854dea2cc85f7247491a0fb57a2fe620d060b341ecdd055f0b51
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9878,7 +9878,7 @@ pages:
     source_queries: []
     source_fingerprint: f183f3f25cca04b29131aec235909008cdcd84abbf61c36866f607c9fb1595c4
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -9887,7 +9887,7 @@ pages:
     translation_group: json.help-menu
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 7fb6ba54ac352f9a41e728cc034751bad527400237b7d95ae3851192782f4eba
+    translation_source_fingerprint: 73acf5bb64e3854dea2cc85f7247491a0fb57a2fe620d060b341ecdd055f0b51
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9935,9 +9935,9 @@ pages:
     - DynamicDataLoader::load_object
     - DynamicDataLoader::load_data_from_path
     source_queries: []
-    source_fingerprint: a6d1bae5a02166a5dfd7f540f84eb347c4c5af10d6f7a8c48aa42e33457ddb09
+    source_fingerprint: 516fa9aeb89f0d7a9bb647b9d13742f49b515efa9c18d99d09fb34c264e2e277
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -9946,7 +9946,7 @@ pages:
     translation_group: json.object-types
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: fce3e759a192d6a9760124f5c91c4ec26f223747878851d916ad673085fadef7
+    translation_source_fingerprint: 045c4dee85244cd20992d8744c020a7218e02f17cdd323762a631d707bd20731
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -9995,9 +9995,9 @@ pages:
     - DynamicDataLoader::load_object
     - DynamicDataLoader::load_data_from_path
     source_queries: []
-    source_fingerprint: a6d1bae5a02166a5dfd7f540f84eb347c4c5af10d6f7a8c48aa42e33457ddb09
+    source_fingerprint: 516fa9aeb89f0d7a9bb647b9d13742f49b515efa9c18d99d09fb34c264e2e277
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -10006,7 +10006,7 @@ pages:
     translation_group: json.object-types
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: fce3e759a192d6a9760124f5c91c4ec26f223747878851d916ad673085fadef7
+    translation_source_fingerprint: 045c4dee85244cd20992d8744c020a7218e02f17cdd323762a631d707bd20731
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10052,9 +10052,9 @@ pages:
     source_symbols:
     - generic_factory::load
     source_queries: []
-    source_fingerprint: c0ff5290abde74f582c5df9a771f5327219503bb82aa9593e4c7876a68ec2c46
+    source_fingerprint: 76ca6fc5abc73f10dffb3ed498ff09916d84b6c9ce62382a15ab58d823cb365c
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -10063,7 +10063,7 @@ pages:
     translation_group: json.inheritance
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 7a25eab3ebaa4ec35510732d5d232b42c7b041e233451774e87db8c0c4e72c86
+    translation_source_fingerprint: 5cb76eb48b1689093f8759adcc2a3dd884260a19f83cb3b828c6d7d0a742db38
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10108,9 +10108,9 @@ pages:
     source_symbols:
     - generic_factory::load
     source_queries: []
-    source_fingerprint: c0ff5290abde74f582c5df9a771f5327219503bb82aa9593e4c7876a68ec2c46
+    source_fingerprint: 76ca6fc5abc73f10dffb3ed498ff09916d84b6c9ce62382a15ab58d823cb365c
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -10119,7 +10119,7 @@ pages:
     translation_group: json.inheritance
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 7a25eab3ebaa4ec35510732d5d232b42c7b041e233451774e87db8c0c4e72c86
+    translation_source_fingerprint: 5cb76eb48b1689093f8759adcc2a3dd884260a19f83cb3b828c6d7d0a742db38
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10167,9 +10167,9 @@ pages:
     - item_group::load_item_group
     - Item_spawn_data::relic_generator::load
     source_queries: []
-    source_fingerprint: 396e03a55ee867b47adbf915b320f8fe9c67208316db94fbab24608855f051be
+    source_fingerprint: a0044eb5ac23fb60816bb4757a2759863af1a959847d89e9a312bdf4abf51add
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -10178,7 +10178,7 @@ pages:
     translation_group: json.item-groups
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 9de57bfabed9db72864e41733bf2882c7da839aaa04facd7b26c50310cb8df15
+    translation_source_fingerprint: f2f6ffadda2f714369a5d4291efeb357ad7f0089b751e6b2f88527072d028a26
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10226,9 +10226,9 @@ pages:
     - item_group::load_item_group
     - Item_spawn_data::relic_generator::load
     source_queries: []
-    source_fingerprint: 396e03a55ee867b47adbf915b320f8fe9c67208316db94fbab24608855f051be
+    source_fingerprint: a0044eb5ac23fb60816bb4757a2759863af1a959847d89e9a312bdf4abf51add
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -10237,7 +10237,7 @@ pages:
     translation_group: json.item-groups
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 9de57bfabed9db72864e41733bf2882c7da839aaa04facd7b26c50310cb8df15
+    translation_source_fingerprint: f2f6ffadda2f714369a5d4291efeb357ad7f0089b751e6b2f88527072d028a26
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10285,9 +10285,9 @@ pages:
     - items::load
     - islot_comestible::deserialize
     source_queries: []
-    source_fingerprint: 8487647019a25347bb60e21e6e2854c963e6b1528ffc0fe616f5f2bbc6de8011
+    source_fingerprint: de81fd4e0485e9b96cf59e13fea54d4eb79dd43fc84ac7146351b6423ef9fa3e
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -10296,7 +10296,7 @@ pages:
     translation_group: json.items
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 102946d2416e62ba57c8ad3cf7c0ed2e00ee32fb4b5d9743fd82d83cb9e973d0
+    translation_source_fingerprint: 8d80e376b4ff7c9fdbf0d275b39b9868c4dfa47642c65fb78200a82a6ae75aff
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10344,9 +10344,9 @@ pages:
     - items::load
     - islot_comestible::deserialize
     source_queries: []
-    source_fingerprint: 8487647019a25347bb60e21e6e2854c963e6b1528ffc0fe616f5f2bbc6de8011
+    source_fingerprint: de81fd4e0485e9b96cf59e13fea54d4eb79dd43fc84ac7146351b6423ef9fa3e
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -10355,7 +10355,7 @@ pages:
     translation_group: json.items
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 102946d2416e62ba57c8ad3cf7c0ed2e00ee32fb4b5d9743fd82d83cb9e973d0
+    translation_source_fingerprint: 8d80e376b4ff7c9fdbf0d275b39b9868c4dfa47642c65fb78200a82a6ae75aff
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10402,9 +10402,9 @@ pages:
     - DynamicDataLoader::load_all_from_json
     - DynamicDataLoader::finalize_loaded_data
     source_queries: []
-    source_fingerprint: f0979275d95b5694a34e200e0c493b395e64c987686d4ae7488c44253f01d92e
+    source_fingerprint: 76dd27431585e4cc4b2992f167b23a7fdc7391e59fa2114a464a1b454b659976
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -10413,7 +10413,7 @@ pages:
     translation_group: json.loading-order
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: a8f29676da84cf0f6bc70e5741efc62e26fc2961cba06d4ba15b9ef0e3ecab84
+    translation_source_fingerprint: 061ca2c81f1ae161fc0c185b26b05d5f97afed8f6cf97f5855710ad1e9d16b9d
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10462,9 +10462,9 @@ pages:
     - DynamicDataLoader::load_all_from_json
     - DynamicDataLoader::finalize_loaded_data
     source_queries: []
-    source_fingerprint: f0979275d95b5694a34e200e0c493b395e64c987686d4ae7488c44253f01d92e
+    source_fingerprint: 76dd27431585e4cc4b2992f167b23a7fdc7391e59fa2114a464a1b454b659976
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -10473,7 +10473,7 @@ pages:
     translation_group: json.loading-order
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: a8f29676da84cf0f6bc70e5741efc62e26fc2961cba06d4ba15b9ef0e3ecab84
+    translation_source_fingerprint: 061ca2c81f1ae161fc0c185b26b05d5f97afed8f6cf97f5855710ad1e9d16b9d
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10524,9 +10524,9 @@ pages:
     - magic_type::load
     - spell_migration::load
     source_queries: []
-    source_fingerprint: 0202fd86aef03e270f8c100b3111b4ec39854b75815ec9e13c5f3d98f0099cb6
+    source_fingerprint: 05865897c5c912a033dde17275cb850056b9b8ce3a46b2917abea7071cf484bf
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -10535,7 +10535,7 @@ pages:
     translation_group: json.magic-spells-enchantments
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 7da55ed9421c2c8a59e26a12e874d9bd9e3938cc0c3bf1ec99575bcb7fa2f406
+    translation_source_fingerprint: 88cd03f69419899b72d03e4c14bad38b4bf22f52f45571dbcfc140ddd2178827
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10584,9 +10584,9 @@ pages:
     - magic_type::load
     - spell_migration::load
     source_queries: []
-    source_fingerprint: 0202fd86aef03e270f8c100b3111b4ec39854b75815ec9e13c5f3d98f0099cb6
+    source_fingerprint: 05865897c5c912a033dde17275cb850056b9b8ce3a46b2917abea7071cf484bf
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -10595,7 +10595,7 @@ pages:
     translation_group: json.magic-spells-enchantments
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 7da55ed9421c2c8a59e26a12e874d9bd9e3938cc0c3bf1ec99575bcb7fa2f406
+    translation_source_fingerprint: 88cd03f69419899b72d03e4c14bad38b4bf22f52f45571dbcfc140ddd2178827
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10646,7 +10646,7 @@ pages:
     source_queries: []
     source_fingerprint: 253905cb7a14f68e2ba90a3ae9cb21be544d84da2a8a2e744fa3da643dab4382
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -10655,7 +10655,7 @@ pages:
     translation_group: json.mapgen
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: a62beebbff4383e31dbf85d84d31470762f1faf2e4c998d2081f9649e206344a
+    translation_source_fingerprint: 3703c89671dec421c49118eaf2690c2a4a380c113c416bd44b44714e1c7fcbf1
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10706,7 +10706,7 @@ pages:
     source_queries: []
     source_fingerprint: 253905cb7a14f68e2ba90a3ae9cb21be544d84da2a8a2e744fa3da643dab4382
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -10715,7 +10715,7 @@ pages:
     translation_group: json.mapgen
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: a62beebbff4383e31dbf85d84d31470762f1faf2e4c998d2081f9649e206344a
+    translation_source_fingerprint: 3703c89671dec421c49118eaf2690c2a4a380c113c416bd44b44714e1c7fcbf1
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10765,7 +10765,7 @@ pages:
     source_queries: []
     source_fingerprint: 2dae37d80a7a5118d1ba3e4e39e6e061160fc23beaa6e745832bb491a88d3d62
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -10774,7 +10774,7 @@ pages:
     translation_group: json.martial-arts
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 382be069a9f258f36fa820d6853eae848425d69eb6838cbb78006c7f7d4a2840
+    translation_source_fingerprint: d8daad7ee3826595a2cc7a22de992d90a366c189bc0f6cd3b1c30808bfdcc197
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10824,7 +10824,7 @@ pages:
     source_queries: []
     source_fingerprint: 2dae37d80a7a5118d1ba3e4e39e6e061160fc23beaa6e745832bb491a88d3d62
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -10833,7 +10833,7 @@ pages:
     translation_group: json.martial-arts
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 382be069a9f258f36fa820d6853eae848425d69eb6838cbb78006c7f7d4a2840
+    translation_source_fingerprint: d8daad7ee3826595a2cc7a22de992d90a366c189bc0f6cd3b1c30808bfdcc197
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10880,9 +10880,9 @@ pages:
     - mission_type::load
     - json_talk_topic::load
     source_queries: []
-    source_fingerprint: 90916cbbaf2e611bfa285016f1f427a59e2ca50fa3b823d47a027a8d50cdf550
+    source_fingerprint: 481a644bd91a15b8782ffe06487427489aeefdd0193f6898b30b059790db353b
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -10891,7 +10891,7 @@ pages:
     translation_group: json.missions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 58c3fce4fdc81002571830451c34bfcbe12593713715ddb57b7714986e8e252e
+    translation_source_fingerprint: 06ecfb8b6debcd8781e270bc637fb4077ed6bd2b0aac318ab7ad29cebb99fc48
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10938,9 +10938,9 @@ pages:
     - mission_type::load
     - json_talk_topic::load
     source_queries: []
-    source_fingerprint: 90916cbbaf2e611bfa285016f1f427a59e2ca50fa3b823d47a027a8d50cdf550
+    source_fingerprint: 481a644bd91a15b8782ffe06487427489aeefdd0193f6898b30b059790db353b
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -10949,7 +10949,7 @@ pages:
     translation_group: json.missions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 58c3fce4fdc81002571830451c34bfcbe12593713715ddb57b7714986e8e252e
+    translation_source_fingerprint: 06ecfb8b6debcd8781e270bc637fb4077ed6bd2b0aac318ab7ad29cebb99fc48
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -10997,7 +10997,7 @@ pages:
     source_queries: []
     source_fingerprint: b4670a309a41ffe2bd452359a1f19f61ab7653d62acbb8582b4a245c78736492
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -11006,7 +11006,7 @@ pages:
     translation_group: json.monster-special-attacks
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 37ea54fc1bc8b70dbdf6102f2ba706cfa53de70b2836f8f1fcc5d9bfc6a82beb
+    translation_source_fingerprint: da52f69982cd1adfd665e35f283e5d3f85a79d935ebb01a87ab97bc5e7e0fd29
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11054,7 +11054,7 @@ pages:
     source_queries: []
     source_fingerprint: b4670a309a41ffe2bd452359a1f19f61ab7653d62acbb8582b4a245c78736492
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -11063,7 +11063,7 @@ pages:
     translation_group: json.monster-special-attacks
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 37ea54fc1bc8b70dbdf6102f2ba706cfa53de70b2836f8f1fcc5d9bfc6a82beb
+    translation_source_fingerprint: da52f69982cd1adfd665e35f283e5d3f85a79d935ebb01a87ab97bc5e7e0fd29
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11113,7 +11113,7 @@ pages:
     source_queries: []
     source_fingerprint: 9d69264687ff03d74f53d9ef417e4d15e8e797b45e100aa8c52209022a738d43
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -11122,7 +11122,7 @@ pages:
     translation_group: json.monsters
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: f0eb8ab72e9a268a1217246dd1d42ed83ba32bbbf8c444b8ccd5c4cf394fa030
+    translation_source_fingerprint: 0ac0660085797931eeab94b3c691f69d63183489e18736cfc570cb1796611f94
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11172,7 +11172,7 @@ pages:
     source_queries: []
     source_fingerprint: 9d69264687ff03d74f53d9ef417e4d15e8e797b45e100aa8c52209022a738d43
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -11181,7 +11181,7 @@ pages:
     translation_group: json.monsters
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: f0eb8ab72e9a268a1217246dd1d42ed83ba32bbbf8c444b8ccd5c4cf394fa030
+    translation_source_fingerprint: 0ac0660085797931eeab94b3c691f69d63183489e18736cfc570cb1796611f94
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11227,7 +11227,7 @@ pages:
     source_queries: []
     source_fingerprint: 3a00588b939b053ee86e7754623a56ab4ca546f9304e4230da35cde8e69a7a3d
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -11236,7 +11236,7 @@ pages:
     translation_group: json.movement-modes
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: e6197c06a274977e3dd88120bfd657678164cdb2f0cdbe6c88bcf65006aad593
+    translation_source_fingerprint: 65dd40aaf2df5d715cdbfaaa7c5d1a0c6934666d233d43a0ad62c57dfa71cafd
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11282,7 +11282,7 @@ pages:
     source_queries: []
     source_fingerprint: 3a00588b939b053ee86e7754623a56ab4ca546f9304e4230da35cde8e69a7a3d
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -11291,7 +11291,7 @@ pages:
     translation_group: json.movement-modes
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: e6197c06a274977e3dd88120bfd657678164cdb2f0cdbe6c88bcf65006aad593
+    translation_source_fingerprint: 65dd40aaf2df5d715cdbfaaa7c5d1a0c6934666d233d43a0ad62c57dfa71cafd
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11341,7 +11341,7 @@ pages:
     source_queries: []
     source_fingerprint: e4b74d434588fa10a89e1938e43cf2456f9ce60905f66484f8381769a4db16ab
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -11350,7 +11350,7 @@ pages:
     translation_group: json.mutations
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 54cb350a0c571b1364d8bcc0a57fae40bf009a6da7c1bfbd5598e0ff1299a585
+    translation_source_fingerprint: 1943e6b54d0d8706408538bc1ea9cfd9334c2839a7ad243caa54b40f5e48cd49
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11400,7 +11400,7 @@ pages:
     source_queries: []
     source_fingerprint: e4b74d434588fa10a89e1938e43cf2456f9ce60905f66484f8381769a4db16ab
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -11409,7 +11409,7 @@ pages:
     translation_group: json.mutations
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 54cb350a0c571b1364d8bcc0a57fae40bf009a6da7c1bfbd5598e0ff1299a585
+    translation_source_fingerprint: 1943e6b54d0d8706408538bc1ea9cfd9334c2839a7ad243caa54b40f5e48cd49
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11456,7 +11456,7 @@ pages:
     source_queries: []
     source_fingerprint: 4286ef41984cda33091800af8d905c278d43fb2e7037271da4169486e94cfc75
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -11465,7 +11465,7 @@ pages:
     translation_group: json.npc-factions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: a7316547f229ed816e820ee74dfe65f69f16f26324ca92ab8e906af89051461c
+    translation_source_fingerprint: 1be98ed41003308bf539d9611c5bc28b7272c590a0425e03c15206f97455fbdf
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11512,7 +11512,7 @@ pages:
     source_queries: []
     source_fingerprint: 4286ef41984cda33091800af8d905c278d43fb2e7037271da4169486e94cfc75
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -11521,7 +11521,7 @@ pages:
     translation_group: json.npc-factions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: a7316547f229ed816e820ee74dfe65f69f16f26324ca92ab8e906af89051461c
+    translation_source_fingerprint: 1be98ed41003308bf539d9611c5bc28b7272c590a0425e03c15206f97455fbdf
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11573,9 +11573,9 @@ pages:
     - spell_migration::load
     - proficiency_migration::load
     source_queries: []
-    source_fingerprint: 4061a49a916458a30b17a18ae14969ab456a694b47ee87fef9ac0d7a08a6d979
+    source_fingerprint: 0f6e5b2471b0aed8b38a5598f22d07cc01acd87e766126115d82b52880eaf765
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -11584,7 +11584,7 @@ pages:
     translation_group: json.obsoletion-and-migration
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 43ff7712534c3fc4fd748e2083641e9f9cd8731984a185aa212bf918c945389d
+    translation_source_fingerprint: 1df3cac8bf8680ef0789fa45761dcd5ec769414947e6cb11b22c8045a1a739aa
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11636,9 +11636,9 @@ pages:
     - spell_migration::load
     - proficiency_migration::load
     source_queries: []
-    source_fingerprint: 4061a49a916458a30b17a18ae14969ab456a694b47ee87fef9ac0d7a08a6d979
+    source_fingerprint: 0f6e5b2471b0aed8b38a5598f22d07cc01acd87e766126115d82b52880eaf765
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -11647,7 +11647,7 @@ pages:
     translation_group: json.obsoletion-and-migration
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 43ff7712534c3fc4fd748e2083641e9f9cd8731984a185aa212bf918c945389d
+    translation_source_fingerprint: 1df3cac8bf8680ef0789fa45761dcd5ec769414947e6cb11b22c8045a1a739aa
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11696,7 +11696,7 @@ pages:
     source_queries: []
     source_fingerprint: dc0f5c048fe806d59c97d86763e1aa730559bde0e6753b81e8cd3d955a99ad24
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -11705,7 +11705,7 @@ pages:
     translation_group: json.options
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 9c0067a8e81126baf597428df8fb83a5e2c4a99d4243f805f96ca0726e3c07a7
+    translation_source_fingerprint: 0f05b23e0eb2aa9e6be3386bb17c64476480ce188a14c0d86680cf138fde3e10
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11754,7 +11754,7 @@ pages:
     source_queries: []
     source_fingerprint: dc0f5c048fe806d59c97d86763e1aa730559bde0e6753b81e8cd3d955a99ad24
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -11763,7 +11763,7 @@ pages:
     translation_group: json.options
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 9c0067a8e81126baf597428df8fb83a5e2c4a99d4243f805f96ca0726e3c07a7
+    translation_source_fingerprint: 0f05b23e0eb2aa9e6be3386bb17c64476480ce188a14c0d86680cf138fde3e10
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11814,7 +11814,7 @@ pages:
     source_queries: []
     source_fingerprint: f5cf038161392828a65260a7f79ad3903e34851999d029d7aa4ce6f34a92c108
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -11823,7 +11823,7 @@ pages:
     translation_group: json.overmap
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: d619003e210d1db8d541a87fbd18425c128864a686ea1ed5f52861522cb689e9
+    translation_source_fingerprint: 7bc22b2a9cd40fe5afa302c7dca736ed4fed534fde46053bb9323db1ffa4bd07
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11874,7 +11874,7 @@ pages:
     source_queries: []
     source_fingerprint: f5cf038161392828a65260a7f79ad3903e34851999d029d7aa4ce6f34a92c108
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -11883,7 +11883,7 @@ pages:
     translation_group: json.overmap
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: d619003e210d1db8d541a87fbd18425c128864a686ea1ed5f52861522cb689e9
+    translation_source_fingerprint: 7bc22b2a9cd40fe5afa302c7dca736ed4fed534fde46053bb9323db1ffa4bd07
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11931,7 +11931,7 @@ pages:
     source_queries: []
     source_fingerprint: 888f1cfe57287eb7ec1eb53c459c19afc0fefb5ce004b25807b1dc2373cb3a9f
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -11940,7 +11940,7 @@ pages:
     translation_group: json.practice-recipes
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 72f64567b706f28a6e78a3b63a29734717054a82d7148f6552c812ca61b85fae
+    translation_source_fingerprint: 1818d6511213701f8da85949649e3a90c87241c133f9e0545e9b7f17f488cf50
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -11988,7 +11988,7 @@ pages:
     source_queries: []
     source_fingerprint: 888f1cfe57287eb7ec1eb53c459c19afc0fefb5ce004b25807b1dc2373cb3a9f
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -11997,7 +11997,7 @@ pages:
     translation_group: json.practice-recipes
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 72f64567b706f28a6e78a3b63a29734717054a82d7148f6552c812ca61b85fae
+    translation_source_fingerprint: 1818d6511213701f8da85949649e3a90c87241c133f9e0545e9b7f17f488cf50
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12046,7 +12046,7 @@ pages:
     source_queries: []
     source_fingerprint: f5656b361798c328b6a002d40cc8abf6e325f847c7da9380c240b26c721e0f8f
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -12055,7 +12055,7 @@ pages:
     translation_group: json.proficiencies
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: e63972f9bf023b243740b8b83aad9b26355e9f12d6d5803406e042a7beedfa9c
+    translation_source_fingerprint: fd14bd6b1cffa1273b66c39fcd2b457861ac308fc51bd437381d830a6669d508
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12104,7 +12104,7 @@ pages:
     source_queries: []
     source_fingerprint: f5656b361798c328b6a002d40cc8abf6e325f847c7da9380c240b26c721e0f8f
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -12113,7 +12113,7 @@ pages:
     translation_group: json.proficiencies
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: e63972f9bf023b243740b8b83aad9b26355e9f12d6d5803406e042a7beedfa9c
+    translation_source_fingerprint: fd14bd6b1cffa1273b66c39fcd2b457861ac308fc51bd437381d830a6669d508
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12163,7 +12163,7 @@ pages:
     source_queries: []
     source_fingerprint: 74b3b7fdb8eed201e742fece7ebf19c59fa8f6dfd65fa21b6584d07c1cee067e
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -12172,7 +12172,7 @@ pages:
     translation_group: json.recipes-and-disassembly
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 2dada06bcfe6ca4152d3d42677bff2200a4621a5948dc0775078923457a01a2e
+    translation_source_fingerprint: 6b87bd1a6c72fcbea670881ed8cd42609fcd935a67c5b659ee61fe2b674e9dfd
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12222,7 +12222,7 @@ pages:
     source_queries: []
     source_fingerprint: 74b3b7fdb8eed201e742fece7ebf19c59fa8f6dfd65fa21b6584d07c1cee067e
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -12231,7 +12231,7 @@ pages:
     translation_group: json.recipes-and-disassembly
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 2dada06bcfe6ca4152d3d42677bff2200a4621a5948dc0775078923457a01a2e
+    translation_source_fingerprint: 6b87bd1a6c72fcbea670881ed8cd42609fcd935a67c5b659ee61fe2b674e9dfd
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12277,7 +12277,7 @@ pages:
     source_queries: []
     source_fingerprint: f2a802108a8d9ac03af482ec4deb5d436ba86695b03917b2e1ccdf8cffea0f7e
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -12286,7 +12286,7 @@ pages:
     translation_group: json.region-layout
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: d4a59858692a366fa16eae7151cee644e8288a7c19714cd8dc2a6134a456faae
+    translation_source_fingerprint: a99d9714b0d4884d8b980d920041c0f2dadeed80cd7cbc44c95d341eb5cd1f2f
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12332,7 +12332,7 @@ pages:
     source_queries: []
     source_fingerprint: f2a802108a8d9ac03af482ec4deb5d436ba86695b03917b2e1ccdf8cffea0f7e
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -12341,7 +12341,7 @@ pages:
     translation_group: json.region-layout
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: d4a59858692a366fa16eae7151cee644e8288a7c19714cd8dc2a6134a456faae
+    translation_source_fingerprint: a99d9714b0d4884d8b980d920041c0f2dadeed80cd7cbc44c95d341eb5cd1f2f
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12389,9 +12389,9 @@ pages:
     - region_settings_city::load
     - region_settings_map_extras::load
     source_queries: []
-    source_fingerprint: 1237c74189c1228b60889a1e83582ceea4a8a7b854ce41ed71146ae8ddb924df
+    source_fingerprint: f05aef27b8d0e8fd9c261d28b53ca8eb8deecda5013130a8bea03bff089c653f
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -12400,7 +12400,7 @@ pages:
     translation_group: json.region-settings
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 5402a889f8f541099b47aa0f317f29bb64696a003a5c23871aa73532fc163f65
+    translation_source_fingerprint: 2b87b38ba375d1ed5a16f52c3c133431192082e32cb055c999de299a51147cc2
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12448,9 +12448,9 @@ pages:
     - region_settings_city::load
     - region_settings_map_extras::load
     source_queries: []
-    source_fingerprint: 1237c74189c1228b60889a1e83582ceea4a8a7b854ce41ed71146ae8ddb924df
+    source_fingerprint: f05aef27b8d0e8fd9c261d28b53ca8eb8deecda5013130a8bea03bff089c653f
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -12459,7 +12459,7 @@ pages:
     translation_group: json.region-settings
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 5402a889f8f541099b47aa0f317f29bb64696a003a5c23871aa73532fc163f65
+    translation_source_fingerprint: 2b87b38ba375d1ed5a16f52c3c133431192082e32cb055c999de299a51147cc2
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12507,7 +12507,7 @@ pages:
     source_queries: []
     source_fingerprint: c8a95926e96b9f72eca1128b039e2cde13be31e6da58865907ddbf9217d5ba5c
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -12516,7 +12516,7 @@ pages:
     translation_group: json.terrain-and-furniture
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 1949b42ffeeadfaf63fea77fbb42edf8e117b8bc484e1d488cb640d3206eef50
+    translation_source_fingerprint: d69472f188e62af00b3ce34921f489256f9939e526c75b3475c4788efde2cec6
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12565,7 +12565,7 @@ pages:
     source_queries: []
     source_fingerprint: c8a95926e96b9f72eca1128b039e2cde13be31e6da58865907ddbf9217d5ba5c
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -12574,7 +12574,7 @@ pages:
     translation_group: json.terrain-and-furniture
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 1949b42ffeeadfaf63fea77fbb42edf8e117b8bc484e1d488cb640d3206eef50
+    translation_source_fingerprint: d69472f188e62af00b3ce34921f489256f9939e526c75b3475c4788efde2cec6
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12623,7 +12623,7 @@ pages:
     source_queries: []
     source_fingerprint: 7a7d7f8f3faec648766f1b2b622d9ba14c2f24702c6e4a2954b9b65e8ee93188
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -12632,7 +12632,7 @@ pages:
     translation_group: json.terrain-furniture-transforms
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 0571a43fafca38966d551927fdb7bbd8d47e5e8dc45face4558c7e228b976b79
+    translation_source_fingerprint: 40f0140ddc61dc0e3297fb1827429ffca26927f499a333a9a3b3bb6ffc1e0f93
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12680,7 +12680,7 @@ pages:
     source_queries: []
     source_fingerprint: 7a7d7f8f3faec648766f1b2b622d9ba14c2f24702c6e4a2954b9b65e8ee93188
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -12689,7 +12689,7 @@ pages:
     translation_group: json.terrain-furniture-transforms
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 0571a43fafca38966d551927fdb7bbd8d47e5e8dc45face4558c7e228b976b79
+    translation_source_fingerprint: 40f0140ddc61dc0e3297fb1827429ffca26927f499a333a9a3b3bb6ffc1e0f93
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12738,7 +12738,7 @@ pages:
     source_queries: []
     source_fingerprint: c36cc2de2b212cd6775c390386b94d7211f0e1b36e05d6e0123f2f12c395af9a
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -12747,7 +12747,7 @@ pages:
     translation_group: json.vehicle-prototypes
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 6b949b68d4dadd089a45559bd18125da4526795d152e18d47408841155461611
+    translation_source_fingerprint: edbe8a0981c4b6a78eb02c0d696b5278dd66a7d797b4929f02b8feafac996e37
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12796,7 +12796,7 @@ pages:
     source_queries: []
     source_fingerprint: c36cc2de2b212cd6775c390386b94d7211f0e1b36e05d6e0123f2f12c395af9a
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -12805,7 +12805,7 @@ pages:
     translation_group: json.vehicle-prototypes
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 6b949b68d4dadd089a45559bd18125da4526795d152e18d47408841155461611
+    translation_source_fingerprint: edbe8a0981c4b6a78eb02c0d696b5278dd66a7d797b4929f02b8feafac996e37
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12852,7 +12852,7 @@ pages:
     source_queries: []
     source_fingerprint: a7c81f55e1988cc468b2d6b426ffe2e675666e6607c63a88131c2bda776767d1
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -12861,7 +12861,7 @@ pages:
     translation_group: json.vitamins
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 818493bc1dff20e6e831138383103524287a0c8d67284ea112b7d086f0ae3c76
+    translation_source_fingerprint: 1ca285efe132588382b631aa267c9692d3991a0465a90cad81885e4aa56c4653
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12908,7 +12908,7 @@ pages:
     source_queries: []
     source_fingerprint: a7c81f55e1988cc468b2d6b426ffe2e675666e6607c63a88131c2bda776767d1
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -12917,7 +12917,7 @@ pages:
     translation_group: json.vitamins
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 818493bc1dff20e6e831138383103524287a0c8d67284ea112b7d086f0ae3c76
+    translation_source_fingerprint: 1ca285efe132588382b631aa267c9692d3991a0465a90cad81885e4aa56c4653
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -12967,7 +12967,7 @@ pages:
     source_queries: []
     source_fingerprint: 99ab7d48f3e59f2838601af2918c484918825859f5a9d6591ff856ccc0d483de
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -12976,7 +12976,7 @@ pages:
     translation_group: json.weather-types
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: a74043661e0c7a5ba454667e429006fd2870ffe4e389116ea1a1eaf881a0c36b
+    translation_source_fingerprint: 52a1320537e30f57791a4563f77757993316a96f25d39ee14b2845a4eeabfd3c
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13026,7 +13026,7 @@ pages:
     source_queries: []
     source_fingerprint: 99ab7d48f3e59f2838601af2918c484918825859f5a9d6591ff856ccc0d483de
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -13035,7 +13035,7 @@ pages:
     translation_group: json.weather-types
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: a74043661e0c7a5ba454667e429006fd2870ffe4e389116ea1a1eaf881a0c36b
+    translation_source_fingerprint: 52a1320537e30f57791a4563f77757993316a96f25d39ee14b2845a4eeabfd3c
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13080,9 +13080,9 @@ pages:
     - wound_type::load
     - wound_fix::load
     source_queries: []
-    source_fingerprint: ef0fb6b359a73bb54b104854bcea65edc98edadcc35797a645434a547424ea53
+    source_fingerprint: db92a6ba158f1a65862d0f34952e0e68526ab44413c80dd28176bf3ba13f8266
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -13091,7 +13091,7 @@ pages:
     translation_group: json.wounds
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: ed658cdcda0670e40cccd612846f28093a412af693adab579dd9e7cee76e7035
+    translation_source_fingerprint: a878a33c095c47f549c67a51947a409f868684e24919cddf40a8b4eada3a2a64
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13136,9 +13136,9 @@ pages:
     - wound_type::load
     - wound_fix::load
     source_queries: []
-    source_fingerprint: ef0fb6b359a73bb54b104854bcea65edc98edadcc35797a645434a547424ea53
+    source_fingerprint: db92a6ba158f1a65862d0f34952e0e68526ab44413c80dd28176bf3ba13f8266
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -13147,7 +13147,7 @@ pages:
     translation_group: json.wounds
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: ed658cdcda0670e40cccd612846f28093a412af693adab579dd9e7cee76e7035
+    translation_source_fingerprint: a878a33c095c47f549c67a51947a409f868684e24919cddf40a8b4eada3a2a64
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13194,7 +13194,7 @@ pages:
     source_queries: []
     source_fingerprint: 0246b49b05f9e86197e17d62765a99f0194dc121017d1108d02e49e787ffa0ab
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -13203,7 +13203,7 @@ pages:
     translation_group: soundpacks
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 34c77e9b2baece0a49d3ff7fbcc934096e6c217a5bb7ac442e96df70da0e17d4
+    translation_source_fingerprint: f0dd83e89a759e2e3948783e6dc04f8cdf50ec15ea47834bda84b38f637cb1e4
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13250,7 +13250,7 @@ pages:
     source_queries: []
     source_fingerprint: 0246b49b05f9e86197e17d62765a99f0194dc121017d1108d02e49e787ffa0ab
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -13259,7 +13259,7 @@ pages:
     translation_group: soundpacks
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 34c77e9b2baece0a49d3ff7fbcc934096e6c217a5bb7ac442e96df70da0e17d4
+    translation_source_fingerprint: f0dd83e89a759e2e3948783e6dc04f8cdf50ec15ea47834bda84b38f637cb1e4
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13304,7 +13304,7 @@ pages:
     source_queries: []
     source_fingerprint: 60752d04ad6e528c8eafada2d0bf4f559f838591a7a555c1f59a07efa2427b9f
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -13313,7 +13313,7 @@ pages:
     translation_group: tilesets
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: a752fc7f2fda08d0df939d157fc6105771de139154a1939f564672ea845aa544
+    translation_source_fingerprint: 89212cc9c97efd1dd296cb93fc5dd52dd696b24aec973995d4f0863d70c84294
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13358,7 +13358,7 @@ pages:
     source_queries: []
     source_fingerprint: 60752d04ad6e528c8eafada2d0bf4f559f838591a7a555c1f59a07efa2427b9f
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -13367,7 +13367,7 @@ pages:
     translation_group: tilesets
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: a752fc7f2fda08d0df939d157fc6105771de139154a1939f564672ea845aa544
+    translation_source_fingerprint: 89212cc9c97efd1dd296cb93fc5dd52dd696b24aec973995d4f0863d70c84294
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13414,7 +13414,7 @@ pages:
     source_queries: []
     source_fingerprint: 35adfef3c97d8e649e0a2716c8976ea48b953607a1794f0839ca9b65818600f4
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -13423,7 +13423,7 @@ pages:
     translation_group: cpp-testing
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 027c5f6c52f834bdf710bf9e1cc02b7e0716bd3fa9a0f6ab0f70b63b1e97da6f
+    translation_source_fingerprint: 8ae90784529ea7c0867291bf5f5a117baa1d94400e0e985a708e1f9ec565fcbd
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13470,7 +13470,7 @@ pages:
     source_queries: []
     source_fingerprint: 35adfef3c97d8e649e0a2716c8976ea48b953607a1794f0839ca9b65818600f4
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -13479,7 +13479,7 @@ pages:
     translation_group: cpp-testing
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 027c5f6c52f834bdf710bf9e1cc02b7e0716bd3fa9a0f6ab0f70b63b1e97da6f
+    translation_source_fingerprint: 8ae90784529ea7c0867291bf5f5a117baa1d94400e0e985a708e1f9ec565fcbd
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13523,9 +13523,9 @@ pages:
     - .github/workflows/matrix.yml
     source_symbols: []
     source_queries: []
-    source_fingerprint: 3560f187a61c1852a37dd19861768d4df09d23112ba0c2bcc7089e22812756d4
+    source_fingerprint: 7badd83cf8a19d410f0d2183cacd6b564d381a8f96a17b6bc332b2cc5b003988
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -13534,7 +13534,7 @@ pages:
     translation_group: testing-manual
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 725355bb1c7f9862f9c4ec60576ea3475931be954f391eb6179d33d602e06347
+    translation_source_fingerprint: 953d5a01bbdeed5ffe83fea0186dc1ca4d46b711b352f85d609081e11e13acde
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13578,9 +13578,9 @@ pages:
     - .github/workflows/matrix.yml
     source_symbols: []
     source_queries: []
-    source_fingerprint: 3560f187a61c1852a37dd19861768d4df09d23112ba0c2bcc7089e22812756d4
+    source_fingerprint: 7badd83cf8a19d410f0d2183cacd6b564d381a8f96a17b6bc332b2cc5b003988
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -13589,7 +13589,7 @@ pages:
     translation_group: testing-manual
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 725355bb1c7f9862f9c4ec60576ea3475931be954f391eb6179d33d602e06347
+    translation_source_fingerprint: 953d5a01bbdeed5ffe83fea0186dc1ca4d46b711b352f85d609081e11e13acde
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13640,7 +13640,7 @@ pages:
     source_queries: []
     source_fingerprint: fd17455973053269a603ba05b18e7a7b4b5658f7ae492d95b0412d5fbf9db9bd
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -13649,7 +13649,7 @@ pages:
     translation_group: tutorial.mapgen-beginner
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 9f3393f0b47df37c099d8e6d13b463844c2758a229f45cf38209e24dbb733507
+    translation_source_fingerprint: 055042fc6b3c9e75ea0d0ff4472123dcdbe512363ff222473da66f3b1b7a6e6d
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13701,7 +13701,7 @@ pages:
     source_queries: []
     source_fingerprint: fd17455973053269a603ba05b18e7a7b4b5658f7ae492d95b0412d5fbf9db9bd
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -13710,7 +13710,7 @@ pages:
     translation_group: tutorial.mapgen-beginner
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 9f3393f0b47df37c099d8e6d13b463844c2758a229f45cf38209e24dbb733507
+    translation_source_fingerprint: 055042fc6b3c9e75ea0d0ff4472123dcdbe512363ff222473da66f3b1b7a6e6d
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13760,7 +13760,7 @@ pages:
     source_queries: []
     source_fingerprint: ba73dc2bf13ed7271634cda4f93ee00a08389742b6b72d9cdf081c0dcec03e54
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -13769,7 +13769,7 @@ pages:
     translation_group: tutorial.mapgen-intermediate
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 76ce20c5d137f1bf1267336a0c074b2e812c82b0a18777f44a368c65e5837d1e
+    translation_source_fingerprint: 9241c067961ecc73472a752fd5d7078a35cafcbbcf00f2a00365553176ae66a2
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13818,7 +13818,7 @@ pages:
     source_queries: []
     source_fingerprint: ba73dc2bf13ed7271634cda4f93ee00a08389742b6b72d9cdf081c0dcec03e54
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -13827,7 +13827,7 @@ pages:
     translation_group: tutorial.mapgen-intermediate
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 76ce20c5d137f1bf1267336a0c074b2e812c82b0a18777f44a368c65e5837d1e
+    translation_source_fingerprint: 9241c067961ecc73472a752fd5d7078a35cafcbbcf00f2a00365553176ae66a2
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13873,7 +13873,7 @@ pages:
     source_queries: []
     source_fingerprint: 512e14575d0545351f6fd8681a91825b993934d608585186f39da929e79d4405
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -13882,7 +13882,7 @@ pages:
     translation_group: ui-accessibility
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: efa65bb352afec6cb2785bcde0a1c8c87c99961f7406a06fa04843b0938fb19f
+    translation_source_fingerprint: 18ea2cb05f369a041d07117a6af7b7b845595176c5bf527b25bc62b4a03e95e4
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13928,7 +13928,7 @@ pages:
     source_queries: []
     source_fingerprint: 512e14575d0545351f6fd8681a91825b993934d608585186f39da929e79d4405
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -13937,7 +13937,7 @@ pages:
     translation_group: ui-accessibility
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: efa65bb352afec6cb2785bcde0a1c8c87c99961f7406a06fa04843b0938fb19f
+    translation_source_fingerprint: 18ea2cb05f369a041d07117a6af7b7b845595176c5bf527b25bc62b4a03e95e4
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -13985,7 +13985,7 @@ pages:
     source_queries: []
     source_fingerprint: aa880955188cf714e451fa318120a59ccac3bb9258529fa8177324bbb4cc1331
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -13994,7 +13994,7 @@ pages:
     translation_group: ui-colors
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: bacdc83bcea7b5ee9cc14e4b61e1c70a9d5338ead11cc98da368ae930b8c14bb
+    translation_source_fingerprint: d8cdfe776c666089849a1c4e4b08986351ab1bdc8f4cf42df022b6038d2d3da5
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -14042,7 +14042,7 @@ pages:
     source_queries: []
     source_fingerprint: aa880955188cf714e451fa318120a59ccac3bb9258529fa8177324bbb4cc1331
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -14051,7 +14051,7 @@ pages:
     translation_group: ui-colors
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: bacdc83bcea7b5ee9cc14e4b61e1c70a9d5338ead11cc98da368ae930b8c14bb
+    translation_source_fingerprint: d8cdfe776c666089849a1c4e4b08986351ab1bdc8f4cf42df022b6038d2d3da5
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -14098,7 +14098,7 @@ pages:
     source_queries: []
     source_fingerprint: 8efffabac0938483250479a7eeb7d30df373704e07ee9b82ec9bcfca51392efd
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -14107,7 +14107,7 @@ pages:
     translation_group: ui-fonts
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: b8be2fb8a289d316c8b45eee51e67745791b4bef30d39ed88c796ac1ec4102f5
+    translation_source_fingerprint: 634558e639cab9730606b4698882130e95db0b9a7009c4f902d5f3657dec09b8
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -14154,7 +14154,7 @@ pages:
     source_queries: []
     source_fingerprint: 8efffabac0938483250479a7eeb7d30df373704e07ee9b82ec9bcfca51392efd
     authority: docs-explanation
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -14163,7 +14163,7 @@ pages:
     translation_group: ui-fonts
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: b8be2fb8a289d316c8b45eee51e67745791b4bef30d39ed88c796ac1ec4102f5
+    translation_source_fingerprint: 634558e639cab9730606b4698882130e95db0b9a7009c4f902d5f3657dec09b8
     prerequisites: []
     depends_on: []
     redirect_from: []
@@ -14202,9 +14202,9 @@ pages:
     - doc/migration/history-assessment.md
     source_symbols: []
     source_queries: []
-    source_fingerprint: 11ee34ef59bec5c932234a2249ad178c7b65b05f748c83530c4b49a4b0d3eb14
+    source_fingerprint: cf5cd52677add7164774c34104c2d497d1bc57876339a9ed8d65f4a201baa2ea
     authority: historical
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py
@@ -14251,9 +14251,9 @@ pages:
     - doc/migration/history-assessment.md
     source_symbols: []
     source_queries: []
-    source_fingerprint: 11ee34ef59bec5c932234a2249ad178c7b65b05f748c83530c4b49a4b0d3eb14
+    source_fingerprint: cf5cd52677add7164774c34104c2d497d1bc57876339a9ed8d65f4a201baa2ea
     authority: historical
-    verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+    verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
     verified_at: '2026-08-02'
     generated: true
     generated_by: scripts/generate_legacy_migration.py

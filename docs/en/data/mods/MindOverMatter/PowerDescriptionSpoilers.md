@@ -32,7 +32,7 @@ source_symbols: []
 source_queries: []
 source_fingerprint: f624f7a83088244e39d7215a58fe3143089e74fb611456ac7c6cc08ec497b832
 authority: api-contract
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
@@ -40,7 +40,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 6dea9d03576cbd0a765539c7c9676bd2a0ff57242c151d7a678ac96b5719c39b
+translation_source_fingerprint: 4af3f3c38d5d56350d6f2b0c15783a12f07bb0ffff4d77d75d24edc5b93c360d
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -62,31 +62,31 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/data/mods/MindOverMatter/PowerDescriptionSpoilers/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/data/mods/MindOverMatter/PowerDescriptionSpoilers/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c1b0f95c6d1b074fc49ee2a7976819c124b69047
 source_urls:
 - path: data/mods/MindOverMatter/PowerDescriptionSpoilers.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/MindOverMatter/PowerDescriptionSpoilers.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/mods/MindOverMatter/PowerDescriptionSpoilers.md
 - path: data/mods/MindOverMatter/modinfo.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/MindOverMatter/modinfo.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/mods/MindOverMatter/modinfo.json
 - path: data/mods/MindOverMatter/powers/biokinesis.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/MindOverMatter/powers/biokinesis.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/mods/MindOverMatter/powers/biokinesis.json
 - path: data/mods/MindOverMatter/powers/clairsentience.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/MindOverMatter/powers/clairsentience.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/mods/MindOverMatter/powers/clairsentience.json
 - path: data/mods/MindOverMatter/powers/electrokinesis.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/MindOverMatter/powers/electrokinesis.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/mods/MindOverMatter/powers/electrokinesis.json
 - path: data/mods/MindOverMatter/powers/photokinesis.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/MindOverMatter/powers/photokinesis.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/mods/MindOverMatter/powers/photokinesis.json
 - path: data/mods/MindOverMatter/powers/pyrokinesis.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/MindOverMatter/powers/pyrokinesis.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/mods/MindOverMatter/powers/pyrokinesis.json
 - path: data/mods/MindOverMatter/powers/telekinesis.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/MindOverMatter/powers/telekinesis.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/mods/MindOverMatter/powers/telekinesis.json
 - path: data/mods/MindOverMatter/powers/telepathy.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/MindOverMatter/powers/telepathy.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/mods/MindOverMatter/powers/telepathy.json
 - path: data/mods/MindOverMatter/powers/teleportation.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/MindOverMatter/powers/teleportation.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/mods/MindOverMatter/powers/teleportation.json
 - path: data/mods/MindOverMatter/powers/vitakinesis.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/MindOverMatter/powers/vitakinesis.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28mods.mind-over-matter.power-reference%29%3A+&body=Document+ID%3A+mods.mind-over-matter.power-reference%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/mods/MindOverMatter/powers/vitakinesis.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28mods.mind-over-matter.power-reference%29%3A+&body=Document+ID%3A+mods.mind-over-matter.power-reference%0ALanguage%3A+en%0AVerified+commit%3A+c1b0f95c6d1b074fc49ee2a7976819c124b69047%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---
@@ -347,11 +347,11 @@ The nine declared power JSON files provide **226** direct `SPELL` records. Level
 
 Accepted inventory contributors: Standing-Storm, thaelina. License: CC-BY-SA-3.0. Raw rejected or anomalous contributor values were not imported or published.
 
-The source inventory is frozen at `0378ca2b84303cf614c617c9d9eaa50138cd21ff`; this cross-repository verification uses `80828049edb3adf2a13bb2912a19373dc4e69f32`; the aggregate source fingerprint is `f624f7a83088244e39d7215a58fe3143089e74fb611456ac7c6cc08ec497b832`. The [filtered-history experiment](/CCB-Docs/en/migration/filtered-history-experiment/) explains why the whole game repository history is not imported.
+The source inventory is frozen at `0378ca2b84303cf614c617c9d9eaa50138cd21ff`; this cross-repository verification uses `c1b0f95c6d1b074fc49ee2a7976819c124b69047`; the aggregate source fingerprint is `f624f7a83088244e39d7215a58fe3143089e74fb611456ac7c6cc08ec497b832`. The [filtered-history experiment](/CCB-Docs/en/migration/filtered-history-experiment/) explains why the whole game repository history is not imported.
 
 ## Bodies retained in CCB
 
-- [`data/mods/MindOverMatter/PowerDescriptionSpoilers.md`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/MindOverMatter/PowerDescriptionSpoilers.md) — [history](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/MindOverMatter/PowerDescriptionSpoilers.md)
+- [`data/mods/MindOverMatter/PowerDescriptionSpoilers.md`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/mods/MindOverMatter/PowerDescriptionSpoilers.md) — [history](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commits/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/mods/MindOverMatter/PowerDescriptionSpoilers.md)
 
 ## Replacement and next step
 

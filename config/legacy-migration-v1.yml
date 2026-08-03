@@ -1,6 +1,6 @@
 schema_version: 1
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
 inventory_path: doc/migration/markdown-inventory.yml
 pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
 verified_at: '2026-08-02'

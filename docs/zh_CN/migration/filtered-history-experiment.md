@@ -19,9 +19,9 @@ source_paths:
 - doc/migration/history-assessment.md
 source_symbols: []
 source_queries: []
-source_fingerprint: 11ee34ef59bec5c932234a2249ad178c7b65b05f748c83530c4b49a4b0d3eb14
+source_fingerprint: cf5cd52677add7164774c34104c2d497d1bc57876339a9ed8d65f4a201baa2ea
 authority: historical
-verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
+verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
@@ -50,13 +50,13 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/migration/filtered-history-experiment/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/migration/filtered-history-experiment/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c1b0f95c6d1b074fc49ee2a7976819c124b69047
 source_urls:
 - path: doc/migration/markdown-inventory.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/migration/markdown-inventory.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/doc/migration/markdown-inventory.yml
 - path: doc/migration/history-assessment.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/migration/history-assessment.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28migration.filtered-history-experiment%29%3A+&body=Document+ID%3A+migration.filtered-history-experiment%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/doc/migration/history-assessment.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28migration.filtered-history-experiment%29%3A+&body=Document+ID%3A+migration.filtered-history-experiment%0ALanguage%3A+zh_CN%0AVerified+commit%3A+c1b0f95c6d1b074fc49ee2a7976819c124b69047%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

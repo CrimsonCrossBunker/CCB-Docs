@@ -5,7 +5,7 @@
 ## architecture.design-principles [en] — Design principles
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/design-principles/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: CONTRIBUTING.md, doc/design-balance-lore/design-doc.md, doc/design-balance-lore/design-gameplay.md, doc/design-balance-lore/design-user-experience.md
 
 # Design principles
@@ -47,7 +47,7 @@ trade-offs, and Responsible human remain auditable.
 ## architecture.design-principles [zh_CN] — 设计原则
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/design-principles/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: CONTRIBUTING.md, doc/design-balance-lore/design-doc.md, doc/design-balance-lore/design-gameplay.md, doc/design-balance-lore/design-user-experience.md
 
 # 设计原则
@@ -81,7 +81,7 @@ hook 发布成公共扩展点。
 ## architecture.overview [en] — CCB project architecture
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/overview/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: AGENTS.md, ai/project-map.yml, src/AGENTS.md, data/AGENTS.md, tests/AGENTS.md
 
 # CCB project architecture
@@ -115,7 +115,7 @@ CCB selectively ports from CDDA, CBN, and compatible sources while retaining its
 ## architecture.overview [zh_CN] — CCB 项目架构
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/overview/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: AGENTS.md, ai/project-map.yml, src/AGENTS.md, data/AGENTS.md, tests/AGENTS.md
 
 # CCB 项目架构
@@ -236,7 +236,7 @@ Sources: AGENTS.md, ai/project-map.yml, ai/test-matrix.yml, ai/generated-files.y
 ## architecture.subsystem-map [en] — Subsystem map
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystem-map/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: AGENTS.md, ai/project-map.yml, src/AGENTS.md, data/AGENTS.md, tests/AGENTS.md, android/AGENTS.md
 
 # Subsystem map
@@ -266,7 +266,7 @@ Tests are organised around behaviour rather than mirroring every source director
 ## architecture.subsystem-map [zh_CN] — 子系统地图
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystem-map/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: AGENTS.md, ai/project-map.yml, src/AGENTS.md, data/AGENTS.md, tests/AGENTS.md, android/AGENTS.md
 
 # 子系统地图
@@ -298,7 +298,7 @@ Sources: AGENTS.md, ai/project-map.yml, src/AGENTS.md, data/AGENTS.md, tests/AGE
 ## build.overview [en] — Building CCB
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: Makefile, CMakePresets.json, android/gradlew, android/build.gradle, .github/workflows/matrix.yml
 
 # Building CCB
@@ -386,7 +386,7 @@ See the [platform matrix](../platforms/matrix.md) and
 ## build.overview [zh_CN] — 构建 CCB
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: Makefile, CMakePresets.json, android/gradlew, android/build.gradle, .github/workflows/matrix.yml
 
 # 构建 CCB
@@ -466,7 +466,7 @@ Android 在 `android/` 目录运行：
 ## compatibility.mods [en] — Mod compatibility
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/mods/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: CONTRIBUTING.md, doc/MOD_COMPATIBILITY.md, src/mod_manager.cpp, src/worldfactory.cpp, tests/worldfactory_test.cpp
 
 # Mod compatibility
@@ -503,7 +503,7 @@ compatibility because registrations, data, and the Lua surface can diverge.
 ## compatibility.mods [zh_CN] — Mod 兼容
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/mods/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: CONTRIBUTING.md, doc/MOD_COMPATIBILITY.md, src/mod_manager.cpp, src/worldfactory.cpp, tests/worldfactory_test.cpp
 
 # Mod 兼容
@@ -533,7 +533,7 @@ Mod 兼容包含标识符、依赖、加载顺序、可选交互、存档数据�
 ## compatibility.save [en] — Save compatibility
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/save/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: CONTRIBUTING.md, doc/JSON/OBSOLETION_AND_MIGRATION.md, src/savegame.cpp, src/savegame_json.cpp, src/savegame_legacy.cpp, src/worldfactory.cpp
 
 # Save compatibility
@@ -570,7 +570,7 @@ override current serialization code and tests.
 ## compatibility.save [zh_CN] — 存档兼容
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/save/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: CONTRIBUTING.md, doc/JSON/OBSOLETION_AND_MIGRATION.md, src/savegame.cpp, src/savegame_json.cpp, src/savegame_legacy.cpp, src/worldfactory.cpp
 
 # 存档兼容
@@ -599,7 +599,7 @@ ID、序列化对象所有权和失败恢复。
 ## contributing.ai-assisted-development [en] — AI-assisted development
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/ai-assisted-development/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md
 
 # AI-assisted development
@@ -640,7 +640,7 @@ requirement. Human review is a governance boundary, not a disclosure ritual.
 ## contributing.ai-assisted-development [zh_CN] — AI 辅助开发
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/ai-assisted-development/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md
 
 # AI 辅助开发
@@ -675,7 +675,7 @@ AI 系统和 Bot 不能批准自己的 PR，也不能满足人类审阅者要求
 ## contributing.documentation-policy [en] — Documentation policy
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/documentation-policy/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: AGENTS.md, GOVERNANCE.md, ai/docs-impact.yml, ai/generated-files.yml, doc/migration/markdown-inventory.schema.json
 
 # Documentation policy
@@ -728,7 +728,7 @@ both current language URLs.
 ## contributing.documentation-policy [zh_CN] — 文档政策
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/documentation-policy/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: AGENTS.md, GOVERNANCE.md, ai/docs-impact.yml, ai/generated-files.yml, doc/migration/markdown-inventory.schema.json
 
 # 文档政策
@@ -773,7 +773,7 @@ Issue、Fork 与外部链接仍必须能通过稳定文档 ID 到达当前中英
 ## contributing.responsible-human [en] — Responsible human and AI-assisted contributions
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/
-Verified commit: 4bb45fcc3357f5358cff14248388b5acd33dcfda
+Verified commit: bb472abfc33a9e2180df4be2872a62522ce4f9af
 Sources: CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md
 
 # Responsible human
@@ -817,7 +817,7 @@ pull request merges.
 ## contributing.responsible-human [zh_CN] — Responsible human 与 AI 辅助贡献
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/
-Verified commit: 4bb45fcc3357f5358cff14248388b5acd33dcfda
+Verified commit: bb472abfc33a9e2180df4be2872a62522ce4f9af
 Sources: CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md
 
 # Responsible human 与贡献责任
@@ -3851,7 +3851,7 @@ part、cache、physics、power、UI 与 persistence 仍紧密耦合。重构应�
 ## getting-started.common-tasks [en] — Common contribution tasks
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/common-tasks/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: AGENTS.md, CONTRIBUTING.md, ai/project-map.yml, ai/test-matrix.yml
 
 # Common contribution tasks
@@ -3889,7 +3889,7 @@ For more detail, use the [experienced contributor index](experienced-index.md),
 ## getting-started.common-tasks [zh_CN] — 常见贡献任务
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/common-tasks/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: AGENTS.md, CONTRIBUTING.md, ai/project-map.yml, ai/test-matrix.yml
 
 # 常见贡献任务
@@ -3924,7 +3924,7 @@ Sources: AGENTS.md, CONTRIBUTING.md, ai/project-map.yml, ai/test-matrix.yml
 ## getting-started.experienced-index [en] — Experienced contributor quick index
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/experienced-index/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: AGENTS.md, CONTRIBUTING.md, ai/project-map.yml, ai/test-matrix.yml, ai/generated-files.yml
 
 # Experienced contributor quick index
@@ -3966,7 +3966,7 @@ For a port, record the source repository, exact commit or PR, original authors, 
 ## getting-started.experienced-index [zh_CN] — 老贡献者快速索引
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/experienced-index/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: AGENTS.md, CONTRIBUTING.md, ai/project-map.yml, ai/test-matrix.yml, ai/generated-files.yml
 
 # 老贡献者快速索引
@@ -4011,7 +4011,7 @@ Sources: AGENTS.md, CONTRIBUTING.md, ai/project-map.yml, ai/test-matrix.yml, ai/
 ## getting-started.first-contribution [en] — First contribution
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/first-contribution/
-Verified commit: 4bb45fcc3357f5358cff14248388b5acd33dcfda
+Verified commit: bb472abfc33a9e2180df4be2872a62522ce4f9af
 Sources: CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md
 
 # First contribution
@@ -4071,7 +4071,7 @@ are affected.
 ## getting-started.first-contribution [zh_CN] — 第一次贡献
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/first-contribution/
-Verified commit: 4bb45fcc3357f5358cff14248388b5acd33dcfda
+Verified commit: bb472abfc33a9e2180df4be2872a62522ce4f9af
 Sources: CONTRIBUTING.md, GOVERNANCE.md, .github/pull_request_template.md
 
 # 第一次贡献
@@ -4123,7 +4123,7 @@ AI 工具或模型无需披露，但责任不会交给工具。详见
 ## governance.security-license [en] — Security, licensing, and provenance
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/governance/security-license/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: SECURITY.md, CONTRIBUTING.md, LICENSE.txt, OWNERSHIP.md
 
 # Security, licensing, and provenance
@@ -4170,7 +4170,7 @@ because a target YAML file was committed.
 ## governance.security-license [zh_CN] — 安全、许可证与来源
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/governance/security-license/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: SECURITY.md, CONTRIBUTING.md, LICENSE.txt, OWNERSHIP.md
 
 # 安全、许可证与来源
@@ -4284,7 +4284,7 @@ CCB 玩家主页和物品查询站保持独立：主页提供玩家简明入口�
 ## maintenance.releases [en] — Release maintenance
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/releases/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: CONTRIBUTING.md, doc/RELEASE_PROCESS.md, .github/workflows/release.yml, .github/workflows/release-android-bundle.yaml
 
 # Release maintenance
@@ -4324,7 +4324,7 @@ do not silently replace an artifact under the same identity.
 ## maintenance.releases [zh_CN] — 发布维护
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/releases/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: CONTRIBUTING.md, doc/RELEASE_PROCESS.md, .github/workflows/release.yml, .github/workflows/release-android-bundle.yaml
 
 # 发布维护
@@ -4358,7 +4358,7 @@ artifact，不提交源码。备份与保留机制必须包含 restore test，�
 ## maintenance.upstream-sync [en] — Upstream synchronization
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/upstream-sync/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: CONTRIBUTING.md, GOVERNANCE.md, doc/development_process.md
 
 # Upstream synchronization
@@ -4399,7 +4399,7 @@ result.
 ## maintenance.upstream-sync [zh_CN] — 上游同步
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/upstream-sync/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: CONTRIBUTING.md, GOVERNANCE.md, doc/development_process.md
 
 # 上游同步
@@ -5047,7 +5047,7 @@ Linux 通过不能证明 Windows 或 Android 支持。SDL3 需要编译后的 sh
 ## platforms.matrix [en] — Platform matrix
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: Makefile, CMakePresets.json, android/app/build.gradle, .github/workflows/matrix.yml, .github/workflows/msvc-full-features.yml, .github/workflows/sdl3-matrix.yml
 
 # Platform matrix
@@ -5091,7 +5091,7 @@ See [Building CCB](../build/overview.md) for commands and
 ## platforms.matrix [zh_CN] — 平台矩阵
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: Makefile, CMakePresets.json, android/app/build.gradle, .github/workflows/matrix.yml, .github/workflows/msvc-full-features.yml, .github/workflows/sdl3-matrix.yml
 
 # 平台矩阵
@@ -6067,7 +6067,7 @@ localized build 与窄宽度代表性 UI。Android resource string 与 Lua i18n 
 ## validation.debugging [en] — Debugging and failure isolation
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/debugging/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: CONTRIBUTING.md, doc/c++/TESTING.md, doc/c++/PERFORMANCE.md, tests/AGENTS.md
 
 # Debugging and failure isolation
@@ -6129,7 +6129,7 @@ platform checks separately.
 ## validation.debugging [zh_CN] — 调试与故障定位
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/validation/debugging/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: CONTRIBUTING.md, doc/c++/TESTING.md, doc/c++/PERFORMANCE.md, tests/AGENTS.md
 
 # 调试与故障定位
@@ -6264,7 +6264,7 @@ PR 中应记录：
 ## validation.testing [en] — Testing strategy
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/testing/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: AGENTS.md, ai/test-matrix.yml, Makefile, tests/AGENTS.md
 
 # Testing strategy
@@ -6333,7 +6333,7 @@ Use the [validation quickstart](quickstart.md) for commands and
 ## validation.testing [zh_CN] — 测试策略
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/validation/testing/
-Verified commit: 2c899a3db790e11a6ff44d91f319064b1ee65d2a
+Verified commit: d6aa4576178a1a6ff21ffede7f282a994fcbc4b3
 Sources: AGENTS.md, ai/test-matrix.yml, Makefile, tests/AGENTS.md
 
 # 测试策略

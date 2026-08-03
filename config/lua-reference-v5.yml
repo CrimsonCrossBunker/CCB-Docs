@@ -1,7 +1,7 @@
 schema_version: 1
 api_version: 5
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit: 3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd
+source_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
 pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565
 contract_path: data/lua/reference/ccb_public_api_v5.json
 contract_schema_path: data/lua/reference/ccb_public_api_v5.schema.json
