@@ -33,7 +33,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 7c59de9faacbffc59b8ce437b64ecdf4c5e81fa4ff99f65c6627198f2db7ca1b
+translation_source_fingerprint: 004ab96314eae30da2c496e43163d59d56942bc5e72d37e6b6f0530bb62a4c11
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -70,7 +70,7 @@ search:
 
 # Native hooks
 
-This page is generated from the Lua v5 public contract at pinned commit `501f84d20d4bf432dd7fec9b757f5af6a18dae36` and contains 52 `hooks` records. Do not edit it by hand.
+This page is generated from the Lua v5 public contract at pinned commit `c1b0f95c6d1b074fc49ee2a7976819c124b69047` and contains 52 `hooks` records. Do not edit it by hand.
 
 ## `on_character_death` { #symbol-api-lua-v5-generated-hook-on-character-death-15ad1b50a8ab }
 
@@ -83,7 +83,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:15`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L15) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:15`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L15) — native hook registry
 
 ## `on_character_display_skill_action` { #symbol-api-lua-v5-generated-hook-on-character-display-skill-action-6a4e9563c14b }
 
@@ -96,7 +96,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:19`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L19) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:19`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L19) — native hook registry
 
 ## `on_character_display_skill_info` { #symbol-api-lua-v5-generated-hook-on-character-display-skill-info-3e3806f8ec44 }
 
@@ -109,7 +109,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:23`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L23) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:23`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L23) — native hook registry
 
 ## `on_character_effect` { #symbol-api-lua-v5-generated-hook-on-character-effect-84096e3bce20 }
 
@@ -122,7 +122,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:27`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L27) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:27`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L27) — native hook registry
 
 ## `on_character_effect_added` { #symbol-api-lua-v5-generated-hook-on-character-effect-added-7f6dd7288043 }
 
@@ -135,7 +135,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:31`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L31) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:31`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L31) — native hook registry
 
 ## `on_character_effect_removed` { #symbol-api-lua-v5-generated-hook-on-character-effect-removed-f37ef70feb5e }
 
@@ -148,7 +148,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:35`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L35) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:35`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L35) — native hook registry
 
 ## `on_character_reset_stats` { #symbol-api-lua-v5-generated-hook-on-character-reset-stats-a61f61e8b03d }
 
@@ -161,7 +161,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:39`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L39) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:39`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L39) — native hook registry
 
 ## `on_character_try_move` { #symbol-api-lua-v5-generated-hook-on-character-try-move-40aa585bf604 }
 
@@ -174,7 +174,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:43`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L43) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:43`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L43) — native hook registry
 
 ## `on_control_npc` { #symbol-api-lua-v5-generated-hook-on-control-npc-20e9ec039314 }
 
@@ -187,7 +187,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:50`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L50) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:50`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L50) — native hook registry
 
 ## `on_craft_result` { #symbol-api-lua-v5-generated-hook-on-craft-result-c354f1e35c44 }
 
@@ -200,7 +200,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:54`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L54) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:54`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L54) — native hook registry
 
 ## `on_creature_blocked` { #symbol-api-lua-v5-generated-hook-on-creature-blocked-d401bf4ca3d8 }
 
@@ -213,7 +213,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:58`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L58) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:58`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L58) — native hook registry
 
 ## `on_creature_do_turn` { #symbol-api-lua-v5-generated-hook-on-creature-do-turn-721616f786fc }
 
@@ -226,7 +226,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:62`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L62) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:62`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L62) — native hook registry
 
 ## `on_creature_dodged` { #symbol-api-lua-v5-generated-hook-on-creature-dodged-280f014ea0c9 }
 
@@ -239,7 +239,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:66`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L66) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:66`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L66) — native hook registry
 
 ## `on_creature_loaded` { #symbol-api-lua-v5-generated-hook-on-creature-loaded-9aeb888432a0 }
 
@@ -252,7 +252,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:70`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L70) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:70`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L70) — native hook registry
 
 ## `on_creature_melee_attacked` { #symbol-api-lua-v5-generated-hook-on-creature-melee-attacked-4ee869394670 }
 
@@ -265,7 +265,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:74`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L74) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:74`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L74) — native hook registry
 
 ## `on_creature_performed_technique` { #symbol-api-lua-v5-generated-hook-on-creature-performed-technique-a3e4f1986f90 }
 
@@ -278,7 +278,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:78`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L78) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:78`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L78) — native hook registry
 
 ## `on_creature_spawn` { #symbol-api-lua-v5-generated-hook-on-creature-spawn-9105c4537f06 }
 
@@ -291,7 +291,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:82`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L82) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:82`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L82) — native hook registry
 
 ## `on_dialogue_end` { #symbol-api-lua-v5-generated-hook-on-dialogue-end-549e5fd02501 }
 
@@ -304,7 +304,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:86`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L86) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:86`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L86) — native hook registry
 
 ## `on_dialogue_option` { #symbol-api-lua-v5-generated-hook-on-dialogue-option-9cffbd232ea7 }
 
@@ -317,7 +317,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:90`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L90) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:90`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L90) — native hook registry
 
 ## `on_dialogue_start` { #symbol-api-lua-v5-generated-hook-on-dialogue-start-1574bd2e23a8 }
 
@@ -330,7 +330,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:94`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L94) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:94`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L94) — native hook registry
 
 ## `on_elevator_try_use` { #symbol-api-lua-v5-generated-hook-on-elevator-try-use-b111ec7261a2 }
 
@@ -343,7 +343,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:98`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L98) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:98`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L98) — native hook registry
 
 ## `on_explosion_start` { #symbol-api-lua-v5-generated-hook-on-explosion-start-35da2e802306 }
 
@@ -356,7 +356,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:102`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L102) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:102`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L102) — native hook registry
 
 ## `on_game_load` { #symbol-api-lua-v5-generated-hook-on-game-load-8a24c2b04594 }
 
@@ -369,7 +369,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:106`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L106) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:106`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L106) — native hook registry
 
 ## `on_game_save` { #symbol-api-lua-v5-generated-hook-on-game-save-50822c9a5896 }
 
@@ -382,7 +382,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:107`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L107) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:107`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L107) — native hook registry
 
 ## `on_game_started` { #symbol-api-lua-v5-generated-hook-on-game-started-d55f3354b53c }
 
@@ -395,7 +395,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:108`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L108) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:108`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L108) — native hook registry
 
 ## `on_make_mapgen_factory_list` { #symbol-api-lua-v5-generated-hook-on-make-mapgen-factory-list-7f043f13e70b }
 
@@ -408,7 +408,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:109`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L109) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:109`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L109) — native hook registry
 
 ## `on_mapgen_postprocess` { #symbol-api-lua-v5-generated-hook-on-mapgen-postprocess-9269ea06e124 }
 
@@ -421,7 +421,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:113`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L113) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:113`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L113) — native hook registry
 
 ## `on_mission_end` { #symbol-api-lua-v5-generated-hook-on-mission-end-a36ac3f66b59 }
 
@@ -434,7 +434,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:117`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L117) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:117`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L117) — native hook registry
 
 ## `on_mission_start` { #symbol-api-lua-v5-generated-hook-on-mission-start-bd6ba327f9f7 }
 
@@ -447,7 +447,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:121`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L121) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:121`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L121) — native hook registry
 
 ## `on_mon_death` { #symbol-api-lua-v5-generated-hook-on-mon-death-3ba922d5cbbd }
 
@@ -460,7 +460,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:125`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L125) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:125`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L125) — native hook registry
 
 ## `on_mon_effect` { #symbol-api-lua-v5-generated-hook-on-mon-effect-2547889b93a3 }
 
@@ -473,7 +473,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:129`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L129) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:129`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L129) — native hook registry
 
 ## `on_mon_effect_added` { #symbol-api-lua-v5-generated-hook-on-mon-effect-added-5f8783db8329 }
 
@@ -486,7 +486,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:133`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L133) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:133`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L133) — native hook registry
 
 ## `on_mon_effect_removed` { #symbol-api-lua-v5-generated-hook-on-mon-effect-removed-150babd6a82e }
 
@@ -499,7 +499,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:137`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L137) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:137`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L137) — native hook registry
 
 ## `on_monster_do_turn` { #symbol-api-lua-v5-generated-hook-on-monster-do-turn-92d93707cfe9 }
 
@@ -512,7 +512,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:141`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L141) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:141`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L141) — native hook registry
 
 ## `on_monster_examine_menu_entry` { #symbol-api-lua-v5-generated-hook-on-monster-examine-menu-entry-b68d65073ab1 }
 
@@ -525,7 +525,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:145`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L145) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:145`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L145) — native hook registry
 
 ## `on_monster_get_examine_menu_entries` { #symbol-api-lua-v5-generated-hook-on-monster-get-examine-menu-entries-d087d9b639f4 }
 
@@ -538,7 +538,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:149`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L149) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:149`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L149) — native hook registry
 
 ## `on_monster_loaded` { #symbol-api-lua-v5-generated-hook-on-monster-loaded-cdd203e840a4 }
 
@@ -551,7 +551,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:153`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L153) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:153`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L153) — native hook registry
 
 ## `on_monster_spawn` { #symbol-api-lua-v5-generated-hook-on-monster-spawn-7f4961f06250 }
 
@@ -564,7 +564,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:157`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L157) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:157`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L157) — native hook registry
 
 ## `on_monster_tame` { #symbol-api-lua-v5-generated-hook-on-monster-tame-104c00e3f8ea }
 
@@ -577,7 +577,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:161`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L161) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:161`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L161) — native hook registry
 
 ## `on_monster_try_move` { #symbol-api-lua-v5-generated-hook-on-monster-try-move-a4c97837612d }
 
@@ -590,7 +590,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:165`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L165) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:165`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L165) — native hook registry
 
 ## `on_npc_do_turn` { #symbol-api-lua-v5-generated-hook-on-npc-do-turn-913b6aff6f43 }
 
@@ -603,7 +603,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:169`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L169) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:169`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L169) — native hook registry
 
 ## `on_npc_interaction` { #symbol-api-lua-v5-generated-hook-on-npc-interaction-4f3b8db50600 }
 
@@ -616,7 +616,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:173`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L173) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:173`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L173) — native hook registry
 
 ## `on_npc_loaded` { #symbol-api-lua-v5-generated-hook-on-npc-loaded-7561b6517c5d }
 
@@ -629,7 +629,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:177`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L177) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:177`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L177) — native hook registry
 
 ## `on_npc_spawn` { #symbol-api-lua-v5-generated-hook-on-npc-spawn-87eb4b87de6e }
 
@@ -642,7 +642,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:181`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L181) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:181`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L181) — native hook registry
 
 ## `on_npc_try_move` { #symbol-api-lua-v5-generated-hook-on-npc-try-move-5a81f3d3000a }
 
@@ -655,7 +655,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:185`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L185) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:185`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L185) — native hook registry
 
 ## `on_player_try_move` { #symbol-api-lua-v5-generated-hook-on-player-try-move-1c762edf0c25 }
 
@@ -668,7 +668,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:192`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L192) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:192`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L192) — native hook registry
 
 ## `on_shoot` { #symbol-api-lua-v5-generated-hook-on-shoot-38442b38ef02 }
 
@@ -681,7 +681,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:199`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L199) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:199`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L199) — native hook registry
 
 ## `on_throw` { #symbol-api-lua-v5-generated-hook-on-throw-00e0bf973e63 }
 
@@ -694,7 +694,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:203`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L203) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:203`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L203) — native hook registry
 
 ## `on_try_monster_interaction` { #symbol-api-lua-v5-generated-hook-on-try-monster-interaction-f0babb8d0306 }
 
@@ -707,7 +707,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:207`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L207) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:207`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L207) — native hook registry
 
 ## `on_try_npc_interaction` { #symbol-api-lua-v5-generated-hook-on-try-npc-interaction-f64d539e9be7 }
 
@@ -720,7 +720,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:211`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L211) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:211`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L211) — native hook registry
 
 ## `on_weather_changed` { #symbol-api-lua-v5-generated-hook-on-weather-changed-9c3c717f64a5 }
 
@@ -733,7 +733,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:215`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L215) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:215`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L215) — native hook registry
 
 ## `on_weather_updated` { #symbol-api-lua-v5-generated-hook-on-weather-updated-11ecb431b60a }
 
@@ -746,4 +746,4 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_callbacks.cpp:219`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_callbacks.cpp#L219) — native hook registry
+- [`src/catalua_ui_callbacks.cpp:219`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_callbacks.cpp#L219) — native hook registry

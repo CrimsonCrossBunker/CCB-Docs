@@ -33,7 +33,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 8b6bfa3df7ace309668fcd12a7b42b90ac3f3c3e50b9a965d5092c12adf4f374
+translation_source_fingerprint: cbbe2b22951964d8096374ec56771cd08dc468a1aba92fb10b53bf50fbafa7f0
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -70,7 +70,7 @@ search:
 
 # Operators
 
-This page is generated from the Lua v5 public contract at pinned commit `501f84d20d4bf432dd7fec9b757f5af6a18dae36` and contains 47 `operators` records. Do not edit it by hand.
+This page is generated from the Lua v5 public contract at pinned commit `c1b0f95c6d1b074fc49ee2a7976819c124b69047` and contains 47 `operators` records. Do not edit it by hand.
 
 ## `GameEnum.__eq` { #symbol-api-lua-v5-generated-operator-gameenum-eq-6dd6d6fdda2c }
 
@@ -90,7 +90,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:525`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L525) — native registration
+- [`src/catalua_bindings_enums.cpp:525`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_enums.cpp#L525) — native registration
 
 ## `GameEnum.__tostring` { #symbol-api-lua-v5-generated-operator-gameenum-tostring-bf647f8e7dda }
 
@@ -110,7 +110,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_enums.cpp:524`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_enums.cpp#L524) — native registration
+- [`src/catalua_bindings_enums.cpp:524`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_enums.cpp#L524) — native registration
 
 ## `GameId.__eq` { #symbol-api-lua-v5-generated-operator-gameid-eq-8d17b025768c }
 
@@ -130,7 +130,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1061`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1061) — native registration
+- [`src/catalua_bindings_values.cpp:1061`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1061) — native registration
 
 ## `GameId.__tostring` { #symbol-api-lua-v5-generated-operator-gameid-tostring-8045351d4126 }
 
@@ -150,7 +150,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1060`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1060) — native registration
+- [`src/catalua_bindings_values.cpp:1060`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1060) — native registration
 
 ## `HordeEntityToken.__eq` { #symbol-api-lua-v5-generated-operator-hordeentitytoken-eq-a0c70a59a512 }
 
@@ -170,7 +170,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_hordes.cpp:2149`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_hordes.cpp#L2149) — native registration
+- [`src/catalua_ui_hordes.cpp:2149`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_hordes.cpp#L2149) — native registration
 
 ## `HordeEntityToken.__tostring` { #symbol-api-lua-v5-generated-operator-hordeentitytoken-tostring-c28946b97d7c }
 
@@ -190,7 +190,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_hordes.cpp:2147`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_hordes.cpp#L2147) — native registration
+- [`src/catalua_ui_hordes.cpp:2147`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_hordes.cpp#L2147) — native registration
 
 ## `LegacyHordeToken.__eq` { #symbol-api-lua-v5-generated-operator-legacyhordetoken-eq-cdaa0ad87d11 }
 
@@ -210,7 +210,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_hordes.cpp:2183`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_hordes.cpp#L2183) — native registration
+- [`src/catalua_ui_hordes.cpp:2183`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_hordes.cpp#L2183) — native registration
 
 ## `LegacyHordeToken.__tostring` { #symbol-api-lua-v5-generated-operator-legacyhordetoken-tostring-9d66a39dc46b }
 
@@ -230,7 +230,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_hordes.cpp:2181`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_hordes.cpp#L2181) — native registration
+- [`src/catalua_ui_hordes.cpp:2181`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_hordes.cpp#L2181) — native registration
 
 ## `MissionToken.__eq` { #symbol-api-lua-v5-generated-operator-missiontoken-eq-6910261746b3 }
 
@@ -250,7 +250,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_missions.cpp:1244`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_missions.cpp#L1244) — native registration
+- [`src/catalua_ui_missions.cpp:1244`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_missions.cpp#L1244) — native registration
 
 ## `MissionToken.__tostring` { #symbol-api-lua-v5-generated-operator-missiontoken-tostring-0fae8944c862 }
 
@@ -270,7 +270,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_missions.cpp:1242`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_missions.cpp#L1242) — native registration
+- [`src/catalua_ui_missions.cpp:1242`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_missions.cpp#L1242) — native registration
 
 ## `PointCoord.__add` { #symbol-api-lua-v5-generated-operator-pointcoord-add-f1aace952d87 }
 
@@ -290,7 +290,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_coords.cpp:978`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_coords.cpp#L978) — native registration
+- [`src/catalua_bindings_coords.cpp:978`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_coords.cpp#L978) — native registration
 
 ## `PointCoord.__eq` { #symbol-api-lua-v5-generated-operator-pointcoord-eq-ffaa698b587a }
 
@@ -310,7 +310,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_coords.cpp:966`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_coords.cpp#L966) — native registration
+- [`src/catalua_bindings_coords.cpp:966`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_coords.cpp#L966) — native registration
 
 ## `PointCoord.__le` { #symbol-api-lua-v5-generated-operator-pointcoord-le-2d4721f424f8 }
 
@@ -330,7 +330,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_coords.cpp:974`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_coords.cpp#L974) — native registration
+- [`src/catalua_bindings_coords.cpp:974`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_coords.cpp#L974) — native registration
 
 ## `PointCoord.__lt` { #symbol-api-lua-v5-generated-operator-pointcoord-lt-dd05866cb5f3 }
 
@@ -350,7 +350,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_coords.cpp:970`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_coords.cpp#L970) — native registration
+- [`src/catalua_bindings_coords.cpp:970`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_coords.cpp#L970) — native registration
 
 ## `PointCoord.__mul` { #symbol-api-lua-v5-generated-operator-pointcoord-mul-07542bb07365 }
 
@@ -370,7 +370,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_coords.cpp:980`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_coords.cpp#L980) — native registration
+- [`src/catalua_bindings_coords.cpp:980`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_coords.cpp#L980) — native registration
 
 ## `PointCoord.__sub` { #symbol-api-lua-v5-generated-operator-pointcoord-sub-31a8215ba177 }
 
@@ -390,7 +390,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_coords.cpp:979`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_coords.cpp#L979) — native registration
+- [`src/catalua_bindings_coords.cpp:979`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_coords.cpp#L979) — native registration
 
 ## `PointCoord.__tostring` { #symbol-api-lua-v5-generated-operator-pointcoord-tostring-a74fedf72e68 }
 
@@ -410,7 +410,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_coords.cpp:965`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_coords.cpp#L965) — native registration
+- [`src/catalua_bindings_coords.cpp:965`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_coords.cpp#L965) — native registration
 
 ## `PointCoord.__unm` { #symbol-api-lua-v5-generated-operator-pointcoord-unm-f6e39aa11143 }
 
@@ -430,7 +430,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_coords.cpp:981`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_coords.cpp#L981) — native registration
+- [`src/catalua_bindings_coords.cpp:981`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_coords.cpp#L981) — native registration
 
 ## `TimeDuration.__add` { #symbol-api-lua-v5-generated-operator-timeduration-add-3ec0f4c51e24 }
 
@@ -450,7 +450,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1176`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1176) — native registration
+- [`src/catalua_bindings_values.cpp:1176`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1176) — native registration
 
 ## `TimeDuration.__div` { #symbol-api-lua-v5-generated-operator-timeduration-div-6df4d99d7e96 }
 
@@ -470,7 +470,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1179`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1179) — native registration
+- [`src/catalua_bindings_values.cpp:1179`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1179) — native registration
 
 ## `TimeDuration.__eq` { #symbol-api-lua-v5-generated-operator-timeduration-eq-e145148a2990 }
 
@@ -490,7 +490,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1164`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1164) — native registration
+- [`src/catalua_bindings_values.cpp:1164`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1164) — native registration
 
 ## `TimeDuration.__le` { #symbol-api-lua-v5-generated-operator-timeduration-le-06b0461a68f5 }
 
@@ -510,7 +510,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1172`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1172) — native registration
+- [`src/catalua_bindings_values.cpp:1172`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1172) — native registration
 
 ## `TimeDuration.__lt` { #symbol-api-lua-v5-generated-operator-timeduration-lt-c9be6da4561f }
 
@@ -530,7 +530,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1168`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1168) — native registration
+- [`src/catalua_bindings_values.cpp:1168`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1168) — native registration
 
 ## `TimeDuration.__mul` { #symbol-api-lua-v5-generated-operator-timeduration-mul-7dd04bb7b0a7 }
 
@@ -550,7 +550,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1178`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1178) — native registration
+- [`src/catalua_bindings_values.cpp:1178`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1178) — native registration
 
 ## `TimeDuration.__sub` { #symbol-api-lua-v5-generated-operator-timeduration-sub-624c0488eb5a }
 
@@ -570,7 +570,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1177`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1177) — native registration
+- [`src/catalua_bindings_values.cpp:1177`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1177) — native registration
 
 ## `TimeDuration.__tostring` { #symbol-api-lua-v5-generated-operator-timeduration-tostring-fda2e58b5735 }
 
@@ -590,7 +590,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1163`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1163) — native registration
+- [`src/catalua_bindings_values.cpp:1163`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1163) — native registration
 
 ## `TimeDuration.__unm` { #symbol-api-lua-v5-generated-operator-timeduration-unm-64403374e0f1 }
 
@@ -610,7 +610,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1180`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1180) — native registration
+- [`src/catalua_bindings_values.cpp:1180`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1180) — native registration
 
 ## `TimePoint.__add` { #symbol-api-lua-v5-generated-operator-timepoint-add-d26e556b6907 }
 
@@ -630,7 +630,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1211`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1211) — native registration
+- [`src/catalua_bindings_values.cpp:1211`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1211) — native registration
 
 ## `TimePoint.__eq` { #symbol-api-lua-v5-generated-operator-timepoint-eq-4d9c226ac302 }
 
@@ -650,7 +650,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1199`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1199) — native registration
+- [`src/catalua_bindings_values.cpp:1199`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1199) — native registration
 
 ## `TimePoint.__le` { #symbol-api-lua-v5-generated-operator-timepoint-le-75f7b5493a62 }
 
@@ -670,7 +670,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1207`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1207) — native registration
+- [`src/catalua_bindings_values.cpp:1207`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1207) — native registration
 
 ## `TimePoint.__lt` { #symbol-api-lua-v5-generated-operator-timepoint-lt-eed37ff15b6a }
 
@@ -690,7 +690,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1203`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1203) — native registration
+- [`src/catalua_bindings_values.cpp:1203`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1203) — native registration
 
 ## `TimePoint.__sub` { #symbol-api-lua-v5-generated-operator-timepoint-sub-00796ce5375a }
 
@@ -710,7 +710,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1212`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1212) — native registration
+- [`src/catalua_bindings_values.cpp:1212`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1212) — native registration
 
 ## `TimePoint.__tostring` { #symbol-api-lua-v5-generated-operator-timepoint-tostring-ef1818d78ff2 }
 
@@ -730,7 +730,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1198`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1198) — native registration
+- [`src/catalua_bindings_values.cpp:1198`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1198) — native registration
 
 ## `TripointCoord.__add` { #symbol-api-lua-v5-generated-operator-tripointcoord-add-b7c3edf2fbb2 }
 
@@ -750,7 +750,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_coords.cpp:1020`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_coords.cpp#L1020) — native registration
+- [`src/catalua_bindings_coords.cpp:1020`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_coords.cpp#L1020) — native registration
 
 ## `TripointCoord.__eq` { #symbol-api-lua-v5-generated-operator-tripointcoord-eq-f3c5d6ee47f8 }
 
@@ -770,7 +770,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_coords.cpp:1008`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_coords.cpp#L1008) — native registration
+- [`src/catalua_bindings_coords.cpp:1008`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_coords.cpp#L1008) — native registration
 
 ## `TripointCoord.__le` { #symbol-api-lua-v5-generated-operator-tripointcoord-le-10c2256820cd }
 
@@ -790,7 +790,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_coords.cpp:1016`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_coords.cpp#L1016) — native registration
+- [`src/catalua_bindings_coords.cpp:1016`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_coords.cpp#L1016) — native registration
 
 ## `TripointCoord.__lt` { #symbol-api-lua-v5-generated-operator-tripointcoord-lt-e4bc5b78a389 }
 
@@ -810,7 +810,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_coords.cpp:1012`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_coords.cpp#L1012) — native registration
+- [`src/catalua_bindings_coords.cpp:1012`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_coords.cpp#L1012) — native registration
 
 ## `TripointCoord.__mul` { #symbol-api-lua-v5-generated-operator-tripointcoord-mul-c78a340fd1e0 }
 
@@ -830,7 +830,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_coords.cpp:1028`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_coords.cpp#L1028) — native registration
+- [`src/catalua_bindings_coords.cpp:1028`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_coords.cpp#L1028) — native registration
 
 ## `TripointCoord.__sub` { #symbol-api-lua-v5-generated-operator-tripointcoord-sub-67761429a085 }
 
@@ -850,7 +850,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_coords.cpp:1024`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_coords.cpp#L1024) — native registration
+- [`src/catalua_bindings_coords.cpp:1024`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_coords.cpp#L1024) — native registration
 
 ## `TripointCoord.__tostring` { #symbol-api-lua-v5-generated-operator-tripointcoord-tostring-274618cb1a7e }
 
@@ -870,7 +870,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_coords.cpp:1007`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_coords.cpp#L1007) — native registration
+- [`src/catalua_bindings_coords.cpp:1007`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_coords.cpp#L1007) — native registration
 
 ## `TripointCoord.__unm` { #symbol-api-lua-v5-generated-operator-tripointcoord-unm-a7d6116591dc }
 
@@ -890,7 +890,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_coords.cpp:1029`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_coords.cpp#L1029) — native registration
+- [`src/catalua_bindings_coords.cpp:1029`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_coords.cpp#L1029) — native registration
 
 ## `UnitValue.__add` { #symbol-api-lua-v5-generated-operator-unitvalue-add-b2c6bd684102 }
 
@@ -910,7 +910,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1081`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1081) — native registration
+- [`src/catalua_bindings_values.cpp:1081`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1081) — native registration
 
 ## `UnitValue.__eq` { #symbol-api-lua-v5-generated-operator-unitvalue-eq-9eef2e3a8fb5 }
 
@@ -930,7 +930,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1077`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1077) — native registration
+- [`src/catalua_bindings_values.cpp:1077`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1077) — native registration
 
 ## `UnitValue.__le` { #symbol-api-lua-v5-generated-operator-unitvalue-le-e13d9bc41824 }
 
@@ -950,7 +950,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1087`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1087) — native registration
+- [`src/catalua_bindings_values.cpp:1087`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1087) — native registration
 
 ## `UnitValue.__lt` { #symbol-api-lua-v5-generated-operator-unitvalue-lt-93db78a99dbc }
 
@@ -970,7 +970,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1083`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1083) — native registration
+- [`src/catalua_bindings_values.cpp:1083`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1083) — native registration
 
 ## `UnitValue.__sub` { #symbol-api-lua-v5-generated-operator-unitvalue-sub-217a77033148 }
 
@@ -990,7 +990,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1082`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1082) — native registration
+- [`src/catalua_bindings_values.cpp:1082`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1082) — native registration
 
 ## `UnitValue.__tostring` { #symbol-api-lua-v5-generated-operator-unitvalue-tostring-69236ee415a6 }
 
@@ -1010,4 +1010,4 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_bindings_values.cpp:1076`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_bindings_values.cpp#L1076) — native registration
+- [`src/catalua_bindings_values.cpp:1076`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_bindings_values.cpp#L1076) — native registration

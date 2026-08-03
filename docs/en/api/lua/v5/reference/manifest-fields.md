@@ -33,7 +33,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 9ac90b56eb167c3809dcd9d5156939316830d6cbce2d975b4bbf3dca4d2b6fc7
+translation_source_fingerprint: 43dbc8655a85209867016f0ce1b48333b65aa0c404f298917b6c0430df327260
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -70,7 +70,7 @@ search:
 
 # Manifest fields
 
-This page is generated from the Lua v5 public contract at pinned commit `501f84d20d4bf432dd7fec9b757f5af6a18dae36` and contains 6 `manifest_fields` records. Do not edit it by hand.
+This page is generated from the Lua v5 public contract at pinned commit `c1b0f95c6d1b074fc49ee2a7976819c124b69047` and contains 6 `manifest_fields` records. Do not edit it by hand.
 
 ## `$schema` { #symbol-api-lua-v5-generated-manifest-field-schema-24601b92d545 }
 
@@ -82,7 +82,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`data/lua/manifest.schema.json:2`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/manifest.schema.json#L2) — manifest Schema
+- [`data/lua/manifest.schema.json:2`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/lua/manifest.schema.json#L2) — manifest Schema
 
 ## `id` { #symbol-api-lua-v5-generated-manifest-field-id-2b0fc6d708d6 }
 
@@ -94,7 +94,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`data/lua/manifest.schema.json:8`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/manifest.schema.json#L8) — manifest Schema
+- [`data/lua/manifest.schema.json:8`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/lua/manifest.schema.json#L8) — manifest Schema
 
 ## `version` { #symbol-api-lua-v5-generated-manifest-field-version-c3c278d955b4 }
 
@@ -106,7 +106,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`data/lua/manifest.schema.json:9`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/manifest.schema.json#L9) — manifest Schema
+- [`data/lua/manifest.schema.json:9`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/lua/manifest.schema.json#L9) — manifest Schema
 
 ## `api_version` { #symbol-api-lua-v5-generated-manifest-field-api-version-decd4c1a4386 }
 
@@ -118,7 +118,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`data/lua/manifest.schema.json:10`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/manifest.schema.json#L10) — manifest Schema
+- [`data/lua/manifest.schema.json:10`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/lua/manifest.schema.json#L10) — manifest Schema
 
 ## `capabilities` { #symbol-api-lua-v5-generated-manifest-field-capabilities-c5c79cd2551a }
 
@@ -130,7 +130,7 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`data/lua/manifest.schema.json:11`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/manifest.schema.json#L11) — manifest Schema
+- [`data/lua/manifest.schema.json:11`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/lua/manifest.schema.json#L11) — manifest Schema
 
 ## `dependencies` { #symbol-api-lua-v5-generated-manifest-field-dependencies-c2978cee57bf }
 
@@ -142,4 +142,4 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`data/lua/manifest.schema.json:12`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/manifest.schema.json#L12) — manifest Schema
+- [`data/lua/manifest.schema.json:12`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/lua/manifest.schema.json#L12) — manifest Schema

@@ -38,7 +38,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: f36dce72699af58a5e0cf8b22b9680e6cae467adf3bab53dde9968b00a22bc0f
+translation_source_fingerprint: 45974471e3befabc7ee6e3dcc7fed5634f2e7e8859a2cf5e77da68bcf52e3632
 prerequisites:
 - api.lua.v5.overview
 - api.lua.v5.capabilities
@@ -93,7 +93,7 @@ This is the complete mirror of the loadable example Mod in the source repository
 
 The generator validates JSON against the Manifest Schema, matches the Mod and manifest ids and versions, checks capabilities for 23 public API calls, and runs `luac -p` when the compiler is available.
 
-**Pinned source:** [`data/lua/examples/api_v5_mod`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/tree/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/examples/api_v5_mod)
+**Pinned source:** [`data/lua/examples/api_v5_mod`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/tree/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/lua/examples/api_v5_mod)
 
 ## File tree
 
@@ -110,6 +110,18 @@ api_v5_mod/
 ## `README.md`
 
 ```markdown
+<!-- CCB-DOC-MOVED-START -->
+> [!IMPORTANT] **Moved / 已迁移**
+>
+> Stable document ID / 稳定文档 ID: `lua.v5.example-mod`
+> 中文: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/example-mod/
+> English: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/example-mod/
+> Moved date / 迁移日期: `2026-08-02`
+> Last in-repository commit / 仓库内最后适用 commit: `0378ca2b84303cf614c617c9d9eaa50138cd21ff`
+> The maintained documentation now lives in CCB-Docs.
+> This in-repository body is no longer maintained. The historical body is retained through `2027-02-02` and may then be removed; this bilingual entry banner remains permanently.
+> 本仓库正文不再维护；历史正文至少保留到上述日期，之后可删除，但本双语迁移入口永久保留。
+<!-- CCB-DOC-MOVED-END -->
 # Lua API v5 example Mod
 
 This directory is a complete, intentionally small loadable Mod. Copy the whole

@@ -33,7 +33,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 5e8fd19e270f08cdd214d80cc8e9fb6f597005c8c7b1558d53203538870c13e7
+translation_source_fingerprint: ca7e1bdb0c75a5b12f306b43f154e3a8270b370002ba878c88f42d85be015df9
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -70,7 +70,7 @@ search:
 
 # Permission model
 
-This page is generated from the Lua v5 public contract at pinned commit `501f84d20d4bf432dd7fec9b757f5af6a18dae36` and contains 1 `permissions` records. Do not edit it by hand.
+This page is generated from the Lua v5 public contract at pinned commit `c1b0f95c6d1b074fc49ee2a7976819c124b69047` and contains 1 `permissions` records. Do not edit it by hand.
 
 **Contract fields:**
 
@@ -81,5 +81,5 @@ This page is generated from the Lua v5 public contract at pinned commit `501f84d
 
 **Sources:**
 
-- [`src/catalua_ui_manifest.cpp:1`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/catalua_ui_manifest.cpp#L1) — native manifest validator
-- [`data/lua/manifest.schema.json:1`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/data/lua/manifest.schema.json#L1) — manifest Schema
+- [`src/catalua_ui_manifest.cpp:1`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/catalua_ui_manifest.cpp#L1) — native manifest validator
+- [`data/lua/manifest.schema.json:1`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/lua/manifest.schema.json#L1) — manifest Schema

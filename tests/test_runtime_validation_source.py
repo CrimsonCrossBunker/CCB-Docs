@@ -23,7 +23,7 @@ class RuntimeValidationSourceTests(unittest.TestCase):
         config = load_source_config()
         self.assertEqual(
             config["source_commit"],
-            "367151b8815ab5a33e7eb723d51f9c41c5f1bcdc",
+            "c1b0f95c6d1b074fc49ee2a7976819c124b69047",
         )
         self.assertEqual(
             config["pending_source_pr"],

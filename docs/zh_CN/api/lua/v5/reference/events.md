@@ -33,7 +33,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: c47b5fd598dd733b644a0870b58b1216542f9b8945e908679acd595b23e96ab5
+translation_source_fingerprint: 1c25039f30a4f343bc240bc7b62c95ac5fe1120a2d4f1dd7ac04e94ab1b23f5d
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -70,7 +70,7 @@ search:
 
 # 原生事件参考
 
-本页由固定提交 `501f84d20d4bf432dd7fec9b757f5af6a18dae36` 的 Lua v5 公开契约生成，收录 113 条 `events` 记录。不要手工修改本页。
+本页由固定提交 `c1b0f95c6d1b074fc49ee2a7976819c124b69047` 的 Lua v5 公开契约生成，收录 113 条 `events` 记录。不要手工修改本页。
 
 ## `activates_artifact` { #symbol-api-lua-v5-generated-event-activates-artifact-f81a1c7b5e6e }
 
@@ -80,7 +80,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:210`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L210) — native event specification
+- [`src/event.h:210`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L210) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-activates-artifact-character-e8b68582c15d }
 
@@ -91,7 +91,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:212`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L212) — native event specification
+- [`src/event.h:212`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L212) — native event specification
 
 ### `item_name` { #symbol-api-lua-v5-generated-event-field-activates-artifact-item-name-8f30de926db9 }
 
@@ -102,7 +102,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:213`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L213) — native event specification
+- [`src/event.h:213`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L213) — native event specification
 
 ## `activates_mininuke` { #symbol-api-lua-v5-generated-event-activates-mininuke-8ac51708f538 }
 
@@ -112,7 +112,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:219`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L219) — native event specification
+- [`src/event.h:219`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L219) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-activates-mininuke-character-36b0c951456e }
 
@@ -123,7 +123,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L189) — native event specification
+- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L189) — native event specification
 
 ## `administers_mutagen` { #symbol-api-lua-v5-generated-event-administers-mutagen-8fdba2d5c4dc }
 
@@ -133,7 +133,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:222`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L222) — native event specification
+- [`src/event.h:222`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L222) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-administers-mutagen-character-9f08c679917a }
 
@@ -144,7 +144,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:224`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L224) — native event specification
+- [`src/event.h:224`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L224) — native event specification
 
 ### `technique` { #symbol-api-lua-v5-generated-event-field-administers-mutagen-technique-35e00f696c4f }
 
@@ -155,7 +155,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:225`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L225) — native event specification
+- [`src/event.h:225`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L225) — native event specification
 
 ## `angers_amigara_horrors` { #symbol-api-lua-v5-generated-event-angers-amigara-horrors-2e1cc9e327b1 }
 
@@ -165,7 +165,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:231`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L231) — native event specification
+- [`src/event.h:231`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L231) — native event specification
 
 ## `avatar_dies` { #symbol-api-lua-v5-generated-event-avatar-dies-69876e697e32 }
 
@@ -175,7 +175,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:255`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L255) — native event specification
+- [`src/event.h:255`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L255) — native event specification
 
 ## `avatar_enters_omt` { #symbol-api-lua-v5-generated-event-avatar-enters-omt-4fdad80ff8f9 }
 
@@ -185,7 +185,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:234`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L234) — native event specification
+- [`src/event.h:234`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L234) — native event specification
 
 ### `pos` { #symbol-api-lua-v5-generated-event-field-avatar-enters-omt-pos-807a7d1509a4 }
 
@@ -196,7 +196,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:236`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L236) — native event specification
+- [`src/event.h:236`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L236) — native event specification
 
 ### `oter_id` { #symbol-api-lua-v5-generated-event-field-avatar-enters-omt-oter-id-73ae5b499652 }
 
@@ -207,7 +207,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:237`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L237) — native event specification
+- [`src/event.h:237`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L237) — native event specification
 
 ## `avatar_moves` { #symbol-api-lua-v5-generated-event-avatar-moves-2e76ce901cea }
 
@@ -217,7 +217,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:243`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L243) — native event specification
+- [`src/event.h:243`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L243) — native event specification
 
 ### `mount` { #symbol-api-lua-v5-generated-event-field-avatar-moves-mount-18bb1e49682a }
 
@@ -228,7 +228,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:245`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L245) — native event specification
+- [`src/event.h:245`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L245) — native event specification
 
 ### `terrain` { #symbol-api-lua-v5-generated-event-field-avatar-moves-terrain-45210bdecd26 }
 
@@ -239,7 +239,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:246`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L246) — native event specification
+- [`src/event.h:246`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L246) — native event specification
 
 ### `movement_mode` { #symbol-api-lua-v5-generated-event-field-avatar-moves-movement-mode-3b596b9ea1cb }
 
@@ -250,7 +250,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:247`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L247) — native event specification
+- [`src/event.h:247`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L247) — native event specification
 
 ### `underwater` { #symbol-api-lua-v5-generated-event-field-avatar-moves-underwater-6b125935d475 }
 
@@ -261,7 +261,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:248`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L248) — native event specification
+- [`src/event.h:248`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L248) — native event specification
 
 ### `z` { #symbol-api-lua-v5-generated-event-field-avatar-moves-z-cdd965f14e58 }
 
@@ -272,7 +272,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:249`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L249) — native event specification
+- [`src/event.h:249`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L249) — native event specification
 
 ## `awakes_dark_wyrms` { #symbol-api-lua-v5-generated-event-awakes-dark-wyrms-26ef50102783 }
 
@@ -282,7 +282,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:258`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L258) — native event specification
+- [`src/event.h:258`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L258) — native event specification
 
 ## `becomes_wanted` { #symbol-api-lua-v5-generated-event-becomes-wanted-745f3581c816 }
 
@@ -292,7 +292,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:261`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L261) — native event specification
+- [`src/event.h:261`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L261) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-becomes-wanted-character-592b83e1ccd2 }
 
@@ -303,7 +303,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L189) — native event specification
+- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L189) — native event specification
 
 ## `broken_bone` { #symbol-api-lua-v5-generated-event-broken-bone-ac77d28872e9 }
 
@@ -313,7 +313,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:264`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L264) — native event specification
+- [`src/event.h:264`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L264) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-broken-bone-character-96232fe84417 }
 
@@ -324,7 +324,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:266`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L266) — native event specification
+- [`src/event.h:266`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L266) — native event specification
 
 ### `part` { #symbol-api-lua-v5-generated-event-field-broken-bone-part-a462fe862211 }
 
@@ -335,7 +335,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:267`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L267) — native event specification
+- [`src/event.h:267`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L267) — native event specification
 
 ## `broken_bone_mends` { #symbol-api-lua-v5-generated-event-broken-bone-mends-4ca7c0146e6c }
 
@@ -345,7 +345,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:273`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L273) — native event specification
+- [`src/event.h:273`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L273) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-broken-bone-mends-character-8eff59987682 }
 
@@ -356,7 +356,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:275`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L275) — native event specification
+- [`src/event.h:275`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L275) — native event specification
 
 ### `part` { #symbol-api-lua-v5-generated-event-field-broken-bone-mends-part-9ae7b4b6b2c7 }
 
@@ -367,7 +367,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:276`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L276) — native event specification
+- [`src/event.h:276`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L276) — native event specification
 
 ## `buries_corpse` { #symbol-api-lua-v5-generated-event-buries-corpse-68a95b7ba324 }
 
@@ -377,7 +377,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:282`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L282) — native event specification
+- [`src/event.h:282`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L282) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-buries-corpse-character-3cef8ac1ad04 }
 
@@ -388,7 +388,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:284`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L284) — native event specification
+- [`src/event.h:284`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L284) — native event specification
 
 ### `corpse_type` { #symbol-api-lua-v5-generated-event-field-buries-corpse-corpse-type-f8a36a550d19 }
 
@@ -399,7 +399,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:285`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L285) — native event specification
+- [`src/event.h:285`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L285) — native event specification
 
 ### `corpse_name` { #symbol-api-lua-v5-generated-event-field-buries-corpse-corpse-name-1e0a12b2129f }
 
@@ -410,7 +410,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:286`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L286) — native event specification
+- [`src/event.h:286`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L286) — native event specification
 
 ## `camp_taken_over` { #symbol-api-lua-v5-generated-event-camp-taken-over-5f8cf84e5187 }
 
@@ -420,7 +420,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:292`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L292) — native event specification
+- [`src/event.h:292`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L292) — native event specification
 
 ### `old_owner` { #symbol-api-lua-v5-generated-event-field-camp-taken-over-old-owner-2b3770a24cf7 }
 
@@ -431,7 +431,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:294`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L294) — native event specification
+- [`src/event.h:294`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L294) — native event specification
 
 ### `new_owner` { #symbol-api-lua-v5-generated-event-field-camp-taken-over-new-owner-b499a5c3a9d9 }
 
@@ -442,7 +442,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:295`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L295) — native event specification
+- [`src/event.h:295`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L295) — native event specification
 
 ### `camp_name` { #symbol-api-lua-v5-generated-event-field-camp-taken-over-camp-name-ac403d63b44b }
 
@@ -453,7 +453,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:296`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L296) — native event specification
+- [`src/event.h:296`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L296) — native event specification
 
 ### `was_violent` { #symbol-api-lua-v5-generated-event-field-camp-taken-over-was-violent-1dc8557e4b64 }
 
@@ -464,7 +464,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:297`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L297) — native event specification
+- [`src/event.h:297`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L297) — native event specification
 
 ## `causes_resonance_cascade` { #symbol-api-lua-v5-generated-event-causes-resonance-cascade-7ed492ccdb3f }
 
@@ -474,7 +474,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:303`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L303) — native event specification
+- [`src/event.h:303`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L303) — native event specification
 
 ## `character_armor_destroyed` { #symbol-api-lua-v5-generated-event-character-armor-destroyed-58410d6b7a32 }
 
@@ -484,7 +484,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:556`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L556) — native event specification
+- [`src/event.h:556`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L556) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-armor-destroyed-character-38ac36251fcb }
 
@@ -495,7 +495,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:196`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L196) — native event specification
+- [`src/event.h:196`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L196) — native event specification
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-character-armor-destroyed-itype-6e57fced52df }
 
@@ -506,7 +506,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:197`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L197) — native event specification
+- [`src/event.h:197`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L197) — native event specification
 
 ## `character_attempt_to_fall_asleep` { #symbol-api-lua-v5-generated-event-character-attempt-to-fall-asleep-8cc9d13d24ed }
 
@@ -516,7 +516,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:533`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L533) — native event specification
+- [`src/event.h:533`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L533) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-attempt-to-fall-asleep-character-7c1000ab3b6a }
 
@@ -527,7 +527,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:535`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L535) — native event specification
+- [`src/event.h:535`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L535) — native event specification
 
 ## `character_butchered_corpse` { #symbol-api-lua-v5-generated-event-character-butchered-corpse-d1c1bcbdf0e3 }
 
@@ -537,7 +537,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:541`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L541) — native event specification
+- [`src/event.h:541`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L541) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-butchered-corpse-character-e2fa56dcd286 }
 
@@ -548,7 +548,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:543`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L543) — native event specification
+- [`src/event.h:543`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L543) — native event specification
 
 ### `monster_id` { #symbol-api-lua-v5-generated-event-field-character-butchered-corpse-monster-id-f39afd5ef8f7 }
 
@@ -559,7 +559,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:544`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L544) — native event specification
+- [`src/event.h:544`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L544) — native event specification
 
 ### `butcher_type` { #symbol-api-lua-v5-generated-event-field-character-butchered-corpse-butcher-type-22397ab850a3 }
 
@@ -570,7 +570,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:545`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L545) — native event specification
+- [`src/event.h:545`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L545) — native event specification
 
 ## `character_casts_spell` { #symbol-api-lua-v5-generated-event-character-casts-spell-b84e8f16e4d3 }
 
@@ -580,7 +580,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:312`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L312) — native event specification
+- [`src/event.h:312`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L312) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-casts-spell-character-0ac3fae70caf }
 
@@ -591,7 +591,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:314`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L314) — native event specification
+- [`src/event.h:314`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L314) — native event specification
 
 ### `spell` { #symbol-api-lua-v5-generated-event-field-character-casts-spell-spell-4ac45818620a }
 
@@ -602,7 +602,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:315`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L315) — native event specification
+- [`src/event.h:315`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L315) — native event specification
 
 ### `school` { #symbol-api-lua-v5-generated-event-field-character-casts-spell-school-256ab3407bf6 }
 
@@ -613,7 +613,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:316`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L316) — native event specification
+- [`src/event.h:316`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L316) — native event specification
 
 ### `difficulty` { #symbol-api-lua-v5-generated-event-field-character-casts-spell-difficulty-62e4fd8601e9 }
 
@@ -624,7 +624,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:317`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L317) — native event specification
+- [`src/event.h:317`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L317) — native event specification
 
 ### `cost` { #symbol-api-lua-v5-generated-event-field-character-casts-spell-cost-1cd399227609 }
 
@@ -635,7 +635,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:318`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L318) — native event specification
+- [`src/event.h:318`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L318) — native event specification
 
 ### `cast_time` { #symbol-api-lua-v5-generated-event-field-character-casts-spell-cast-time-a59f657bc624 }
 
@@ -646,7 +646,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:319`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L319) — native event specification
+- [`src/event.h:319`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L319) — native event specification
 
 ### `damage` { #symbol-api-lua-v5-generated-event-field-character-casts-spell-damage-a7e697a15596 }
 
@@ -657,7 +657,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:320`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L320) — native event specification
+- [`src/event.h:320`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L320) — native event specification
 
 ## `character_consumes_item` { #symbol-api-lua-v5-generated-event-character-consumes-item-a1cc86b4b41d }
 
@@ -667,7 +667,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:306`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L306) — native event specification
+- [`src/event.h:306`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L306) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-consumes-item-character-9834d40a1b6e }
 
@@ -678,7 +678,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:196`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L196) — native event specification
+- [`src/event.h:196`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L196) — native event specification
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-character-consumes-item-itype-0b7244f65bdb }
 
@@ -689,7 +689,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:197`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L197) — native event specification
+- [`src/event.h:197`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L197) — native event specification
 
 ## `character_dies` { #symbol-api-lua-v5-generated-event-character-dies-8df6d1b23f5a }
 
@@ -699,7 +699,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:326`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L326) — native event specification
+- [`src/event.h:326`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L326) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-dies-character-d9f80bb5e743 }
 
@@ -710,7 +710,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:328`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L328) — native event specification
+- [`src/event.h:328`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L328) — native event specification
 
 ## `character_eats_item` { #symbol-api-lua-v5-generated-event-character-eats-item-0d23da3d80bc }
 
@@ -720,7 +720,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:309`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L309) — native event specification
+- [`src/event.h:309`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L309) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-eats-item-character-768515717f84 }
 
@@ -731,7 +731,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:196`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L196) — native event specification
+- [`src/event.h:196`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L196) — native event specification
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-character-eats-item-itype-5764a87a4363 }
 
@@ -742,7 +742,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:197`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L197) — native event specification
+- [`src/event.h:197`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L197) — native event specification
 
 ## `character_falls_asleep` { #symbol-api-lua-v5-generated-event-character-falls-asleep-dde44cc6640a }
 
@@ -752,7 +752,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:524`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L524) — native event specification
+- [`src/event.h:524`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L524) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-falls-asleep-character-9b84771d3169 }
 
@@ -763,7 +763,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:526`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L526) — native event specification
+- [`src/event.h:526`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L526) — native event specification
 
 ### `duration` { #symbol-api-lua-v5-generated-event-field-character-falls-asleep-duration-0d62b1164980 }
 
@@ -774,7 +774,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:527`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L527) — native event specification
+- [`src/event.h:527`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L527) — native event specification
 
 ## `character_fertilizes_plant` { #symbol-api-lua-v5-generated-event-character-fertilizes-plant-b60547d3e1fb }
 
@@ -784,7 +784,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:559`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L559) — native event specification
+- [`src/event.h:559`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L559) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-fertilizes-plant-character-702f151398a1 }
 
@@ -795,7 +795,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:561`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L561) — native event specification
+- [`src/event.h:561`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L561) — native event specification
 
 ### `pos` { #symbol-api-lua-v5-generated-event-field-character-fertilizes-plant-pos-ae2b749ae007 }
 
@@ -806,7 +806,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:562`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L562) — native event specification
+- [`src/event.h:562`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L562) — native event specification
 
 ### `seed_id` { #symbol-api-lua-v5-generated-event-field-character-fertilizes-plant-seed-id-a77146d9b1a1 }
 
@@ -817,7 +817,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:563`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L563) — native event specification
+- [`src/event.h:563`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L563) — native event specification
 
 ### `furniture_id` { #symbol-api-lua-v5-generated-event-field-character-fertilizes-plant-furniture-id-1d7683e6f5a0 }
 
@@ -828,7 +828,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:564`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L564) — native event specification
+- [`src/event.h:564`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L564) — native event specification
 
 ### `fertilizer_id` { #symbol-api-lua-v5-generated-event-field-character-fertilizes-plant-fertilizer-id-7966616ab722 }
 
@@ -839,7 +839,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:565`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L565) — native event specification
+- [`src/event.h:565`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L565) — native event specification
 
 ### `reduction_turns` { #symbol-api-lua-v5-generated-event-field-character-fertilizes-plant-reduction-turns-d660dc5268b4 }
 
@@ -850,7 +850,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:566`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L566) — native event specification
+- [`src/event.h:566`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L566) — native event specification
 
 ## `character_finished_activity` { #symbol-api-lua-v5-generated-event-character-finished-activity-8a271aa0b38d }
 
@@ -860,7 +860,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:334`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L334) — native event specification
+- [`src/event.h:334`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L334) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-finished-activity-character-61b1f252580c }
 
@@ -871,7 +871,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:336`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L336) — native event specification
+- [`src/event.h:336`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L336) — native event specification
 
 ### `activity` { #symbol-api-lua-v5-generated-event-field-character-finished-activity-activity-0ecfdfae22fb }
 
@@ -882,7 +882,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:337`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L337) — native event specification
+- [`src/event.h:337`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L337) — native event specification
 
 ### `canceled` { #symbol-api-lua-v5-generated-event-field-character-finished-activity-canceled-8a200f1a3faf }
 
@@ -893,7 +893,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:338`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L338) — native event specification
+- [`src/event.h:338`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L338) — native event specification
 
 ## `character_forgets_spell` { #symbol-api-lua-v5-generated-event-character-forgets-spell-a775a1e62ce9 }
 
@@ -903,7 +903,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:344`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L344) — native event specification
+- [`src/event.h:344`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L344) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-forgets-spell-character-a3c5ac859cba }
 
@@ -914,7 +914,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:346`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L346) — native event specification
+- [`src/event.h:346`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L346) — native event specification
 
 ### `spell` { #symbol-api-lua-v5-generated-event-field-character-forgets-spell-spell-388688f8358a }
 
@@ -925,7 +925,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:347`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L347) — native event specification
+- [`src/event.h:347`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L347) — native event specification
 
 ## `character_gains_effect` { #symbol-api-lua-v5-generated-event-character-gains-effect-44f188ee18a7 }
 
@@ -935,7 +935,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:353`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L353) — native event specification
+- [`src/event.h:353`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L353) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-gains-effect-character-a14fae1a51ce }
 
@@ -946,7 +946,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:355`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L355) — native event specification
+- [`src/event.h:355`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L355) — native event specification
 
 ### `bodypart` { #symbol-api-lua-v5-generated-event-field-character-gains-effect-bodypart-3f1d7f624ba8 }
 
@@ -957,7 +957,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:356`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L356) — native event specification
+- [`src/event.h:356`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L356) — native event specification
 
 ### `effect` { #symbol-api-lua-v5-generated-event-field-character-gains-effect-effect-c79b9c01b700 }
 
@@ -968,7 +968,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:357`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L357) — native event specification
+- [`src/event.h:357`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L357) — native event specification
 
 ### `intensity` { #symbol-api-lua-v5-generated-event-field-character-gains-effect-intensity-c9645fe020a8 }
 
@@ -979,7 +979,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:358`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L358) — native event specification
+- [`src/event.h:358`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L358) — native event specification
 
 ## `character_gets_headshot` { #symbol-api-lua-v5-generated-event-character-gets-headshot-5f3818849d65 }
 
@@ -989,7 +989,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:364`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L364) — native event specification
+- [`src/event.h:364`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L364) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-gets-headshot-character-24de9eab8ae8 }
 
@@ -1000,7 +1000,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L189) — native event specification
+- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L189) — native event specification
 
 ## `character_harvests_plant` { #symbol-api-lua-v5-generated-event-character-harvests-plant-9ed93c0acc05 }
 
@@ -1010,7 +1010,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:572`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L572) — native event specification
+- [`src/event.h:572`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L572) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-harvests-plant-character-bbe5d4dae91b }
 
@@ -1021,7 +1021,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:574`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L574) — native event specification
+- [`src/event.h:574`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L574) — native event specification
 
 ### `pos` { #symbol-api-lua-v5-generated-event-field-character-harvests-plant-pos-e3a5920f7ba5 }
 
@@ -1032,7 +1032,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:575`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L575) — native event specification
+- [`src/event.h:575`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L575) — native event specification
 
 ### `seed_id` { #symbol-api-lua-v5-generated-event-field-character-harvests-plant-seed-id-1c153e337ba8 }
 
@@ -1043,7 +1043,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:576`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L576) — native event specification
+- [`src/event.h:576`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L576) — native event specification
 
 ### `furniture_id` { #symbol-api-lua-v5-generated-event-field-character-harvests-plant-furniture-id-14e15f54cf99 }
 
@@ -1054,7 +1054,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:577`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L577) — native event specification
+- [`src/event.h:577`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L577) — native event specification
 
 ### `plant_count` { #symbol-api-lua-v5-generated-event-field-character-harvests-plant-plant-count-76ff3103e167 }
 
@@ -1065,7 +1065,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:578`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L578) — native event specification
+- [`src/event.h:578`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L578) — native event specification
 
 ### `seed_count` { #symbol-api-lua-v5-generated-event-field-character-harvests-plant-seed-count-ae73f0a9a620 }
 
@@ -1076,7 +1076,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:579`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L579) — native event specification
+- [`src/event.h:579`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L579) — native event specification
 
 ## `character_heals_damage` { #symbol-api-lua-v5-generated-event-character-heals-damage-fba57676ab46 }
 
@@ -1086,7 +1086,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:367`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L367) — native event specification
+- [`src/event.h:367`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L367) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-heals-damage-character-08901805c403 }
 
@@ -1097,7 +1097,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:369`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L369) — native event specification
+- [`src/event.h:369`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L369) — native event specification
 
 ### `damage` { #symbol-api-lua-v5-generated-event-field-character-heals-damage-damage-e2c54196c429 }
 
@@ -1108,7 +1108,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:370`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L370) — native event specification
+- [`src/event.h:370`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L370) — native event specification
 
 ## `character_kills_character` { #symbol-api-lua-v5-generated-event-character-kills-character-f20b4f09e5d0 }
 
@@ -1118,7 +1118,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:386`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L386) — native event specification
+- [`src/event.h:386`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L386) — native event specification
 
 ### `killer` { #symbol-api-lua-v5-generated-event-field-character-kills-character-killer-856489c76b22 }
 
@@ -1129,7 +1129,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:388`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L388) — native event specification
+- [`src/event.h:388`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L388) — native event specification
 
 ### `victim` { #symbol-api-lua-v5-generated-event-field-character-kills-character-victim-1ea9773135df }
 
@@ -1140,7 +1140,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:389`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L389) — native event specification
+- [`src/event.h:389`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L389) — native event specification
 
 ### `victim_name` { #symbol-api-lua-v5-generated-event-field-character-kills-character-victim-name-b7e597466d55 }
 
@@ -1151,7 +1151,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:390`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L390) — native event specification
+- [`src/event.h:390`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L390) — native event specification
 
 ### `victim_class` { #symbol-api-lua-v5-generated-event-field-character-kills-character-victim-class-7b927a155d7e }
 
@@ -1162,7 +1162,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:391`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L391) — native event specification
+- [`src/event.h:391`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L391) — native event specification
 
 ## `character_kills_monster` { #symbol-api-lua-v5-generated-event-character-kills-monster-f5c8c5a4c36e }
 
@@ -1172,7 +1172,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:376`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L376) — native event specification
+- [`src/event.h:376`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L376) — native event specification
 
 ### `killer` { #symbol-api-lua-v5-generated-event-field-character-kills-monster-killer-a03a41225f6c }
 
@@ -1183,7 +1183,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:378`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L378) — native event specification
+- [`src/event.h:378`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L378) — native event specification
 
 ### `victim_type` { #symbol-api-lua-v5-generated-event-field-character-kills-monster-victim-type-0af2d8712be3 }
 
@@ -1194,7 +1194,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:379`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L379) — native event specification
+- [`src/event.h:379`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L379) — native event specification
 
 ### `exp` { #symbol-api-lua-v5-generated-event-field-character-kills-monster-exp-ebd390aa92af }
 
@@ -1205,7 +1205,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:380`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L380) — native event specification
+- [`src/event.h:380`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L380) — native event specification
 
 ## `character_learns_spell` { #symbol-api-lua-v5-generated-event-character-learns-spell-77d762220f91 }
 
@@ -1215,7 +1215,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:397`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L397) — native event specification
+- [`src/event.h:397`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L397) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-learns-spell-character-2341fd831714 }
 
@@ -1226,7 +1226,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:399`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L399) — native event specification
+- [`src/event.h:399`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L399) — native event specification
 
 ### `spell` { #symbol-api-lua-v5-generated-event-field-character-learns-spell-spell-cb545eac52e6 }
 
@@ -1237,7 +1237,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:400`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L400) — native event specification
+- [`src/event.h:400`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L400) — native event specification
 
 ## `character_loses_effect` { #symbol-api-lua-v5-generated-event-character-loses-effect-cd108bccca04 }
 
@@ -1247,7 +1247,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:406`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L406) — native event specification
+- [`src/event.h:406`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L406) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-loses-effect-character-cebd9c5217b5 }
 
@@ -1258,7 +1258,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:408`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L408) — native event specification
+- [`src/event.h:408`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L408) — native event specification
 
 ### `bodypart` { #symbol-api-lua-v5-generated-event-field-character-loses-effect-bodypart-b56032eda49b }
 
@@ -1269,7 +1269,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:409`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L409) — native event specification
+- [`src/event.h:409`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L409) — native event specification
 
 ### `effect` { #symbol-api-lua-v5-generated-event-field-character-loses-effect-effect-2cf82f891989 }
 
@@ -1280,7 +1280,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:410`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L410) — native event specification
+- [`src/event.h:410`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L410) — native event specification
 
 ## `character_melee_attacks_character` { #symbol-api-lua-v5-generated-event-character-melee-attacks-character-6da9ea75f68d }
 
@@ -1290,7 +1290,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:416`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L416) — native event specification
+- [`src/event.h:416`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L416) — native event specification
 
 ### `attacker` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-character-attacker-fb6d8bc875bf }
 
@@ -1301,7 +1301,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:418`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L418) — native event specification
+- [`src/event.h:418`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L418) — native event specification
 
 ### `weapon` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-character-weapon-dc2d2af25be6 }
 
@@ -1312,7 +1312,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:419`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L419) — native event specification
+- [`src/event.h:419`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L419) — native event specification
 
 ### `hits` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-character-hits-79e8a393b2c9 }
 
@@ -1323,7 +1323,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:420`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L420) — native event specification
+- [`src/event.h:420`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L420) — native event specification
 
 ### `victim` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-character-victim-545c1d255804 }
 
@@ -1334,7 +1334,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:421`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L421) — native event specification
+- [`src/event.h:421`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L421) — native event specification
 
 ### `victim_name` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-character-victim-name-b7d07d336a97 }
 
@@ -1345,7 +1345,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:422`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L422) — native event specification
+- [`src/event.h:422`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L422) — native event specification
 
 ## `character_melee_attacks_monster` { #symbol-api-lua-v5-generated-event-character-melee-attacks-monster-c824bd988bf6 }
 
@@ -1355,7 +1355,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:428`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L428) — native event specification
+- [`src/event.h:428`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L428) — native event specification
 
 ### `attacker` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-monster-attacker-1411ab445eb4 }
 
@@ -1366,7 +1366,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:430`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L430) — native event specification
+- [`src/event.h:430`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L430) — native event specification
 
 ### `weapon` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-monster-weapon-e833409d126c }
 
@@ -1377,7 +1377,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:431`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L431) — native event specification
+- [`src/event.h:431`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L431) — native event specification
 
 ### `hits` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-monster-hits-6a3ad6107a9d }
 
@@ -1388,7 +1388,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:432`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L432) — native event specification
+- [`src/event.h:432`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L432) — native event specification
 
 ### `victim_type` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-monster-victim-type-5b45a333938c }
 
@@ -1399,7 +1399,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:433`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L433) — native event specification
+- [`src/event.h:433`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L433) — native event specification
 
 ## `character_plants_seed` { #symbol-api-lua-v5-generated-event-character-plants-seed-f647b7eca649 }
 
@@ -1409,7 +1409,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:585`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L585) — native event specification
+- [`src/event.h:585`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L585) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-plants-seed-character-4156501a3d55 }
 
@@ -1420,7 +1420,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:587`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L587) — native event specification
+- [`src/event.h:587`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L587) — native event specification
 
 ### `pos` { #symbol-api-lua-v5-generated-event-field-character-plants-seed-pos-1cf44e7a711d }
 
@@ -1431,7 +1431,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:588`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L588) — native event specification
+- [`src/event.h:588`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L588) — native event specification
 
 ### `seed_id` { #symbol-api-lua-v5-generated-event-field-character-plants-seed-seed-id-59018a68c291 }
 
@@ -1442,7 +1442,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:589`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L589) — native event specification
+- [`src/event.h:589`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L589) — native event specification
 
 ### `furniture_id` { #symbol-api-lua-v5-generated-event-field-character-plants-seed-furniture-id-fa17c095f67e }
 
@@ -1453,7 +1453,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:590`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L590) — native event specification
+- [`src/event.h:590`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L590) — native event specification
 
 ## `character_radioactively_mutates` { #symbol-api-lua-v5-generated-event-character-radioactively-mutates-5839fe927c4b }
 
@@ -1463,7 +1463,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:439`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L439) — native event specification
+- [`src/event.h:439`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L439) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-radioactively-mutates-character-de4f5b6870c4 }
 
@@ -1474,7 +1474,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L189) — native event specification
+- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L189) — native event specification
 
 ## `character_ranged_attacks_character` { #symbol-api-lua-v5-generated-event-character-ranged-attacks-character-f06d61a602b6 }
 
@@ -1484,7 +1484,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:442`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L442) — native event specification
+- [`src/event.h:442`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L442) — native event specification
 
 ### `attacker` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-character-attacker-9c51ca9ac94a }
 
@@ -1495,7 +1495,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:444`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L444) — native event specification
+- [`src/event.h:444`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L444) — native event specification
 
 ### `weapon` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-character-weapon-4557afdde7c8 }
 
@@ -1506,7 +1506,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:445`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L445) — native event specification
+- [`src/event.h:445`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L445) — native event specification
 
 ### `ammo` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-character-ammo-940b3b50b435 }
 
@@ -1517,7 +1517,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:446`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L446) — native event specification
+- [`src/event.h:446`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L446) — native event specification
 
 ### `is_throw` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-character-is-throw-79c9386f22f6 }
 
@@ -1528,7 +1528,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:447`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L447) — native event specification
+- [`src/event.h:447`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L447) — native event specification
 
 ### `victim` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-character-victim-6e6d4e042b7d }
 
@@ -1539,7 +1539,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:448`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L448) — native event specification
+- [`src/event.h:448`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L448) — native event specification
 
 ### `victim_name` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-character-victim-name-930917ad0888 }
 
@@ -1550,7 +1550,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:449`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L449) — native event specification
+- [`src/event.h:449`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L449) — native event specification
 
 ## `character_ranged_attacks_monster` { #symbol-api-lua-v5-generated-event-character-ranged-attacks-monster-831e3571aee6 }
 
@@ -1560,7 +1560,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:455`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L455) — native event specification
+- [`src/event.h:455`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L455) — native event specification
 
 ### `attacker` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-monster-attacker-2a14e70ac6ed }
 
@@ -1571,7 +1571,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:457`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L457) — native event specification
+- [`src/event.h:457`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L457) — native event specification
 
 ### `weapon` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-monster-weapon-3a56a7f0cb23 }
 
@@ -1582,7 +1582,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:458`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L458) — native event specification
+- [`src/event.h:458`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L458) — native event specification
 
 ### `ammo` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-monster-ammo-508f28efec36 }
 
@@ -1593,7 +1593,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:459`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L459) — native event specification
+- [`src/event.h:459`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L459) — native event specification
 
 ### `is_throw` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-monster-is-throw-41b4a8e5c31b }
 
@@ -1604,7 +1604,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:460`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L460) — native event specification
+- [`src/event.h:460`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L460) — native event specification
 
 ### `victim_type` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-monster-victim-type-3ca91ae9a7e8 }
 
@@ -1615,7 +1615,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:461`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L461) — native event specification
+- [`src/event.h:461`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L461) — native event specification
 
 ## `character_smashes_tile` { #symbol-api-lua-v5-generated-event-character-smashes-tile-24602e6f0407 }
 
@@ -1625,7 +1625,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:467`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L467) — native event specification
+- [`src/event.h:467`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L467) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-smashes-tile-character-5a68e1dea427 }
 
@@ -1636,7 +1636,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:469`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L469) — native event specification
+- [`src/event.h:469`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L469) — native event specification
 
 ### `terrain` { #symbol-api-lua-v5-generated-event-field-character-smashes-tile-terrain-b56ddfdcd44c }
 
@@ -1647,7 +1647,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:470`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L470) — native event specification
+- [`src/event.h:470`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L470) — native event specification
 
 ### `furniture` { #symbol-api-lua-v5-generated-event-field-character-smashes-tile-furniture-12e46db66f75 }
 
@@ -1658,7 +1658,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:471`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L471) — native event specification
+- [`src/event.h:471`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L471) — native event specification
 
 ## `character_starts_activity` { #symbol-api-lua-v5-generated-event-character-starts-activity-ddaa0c4cad6c }
 
@@ -1668,7 +1668,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:477`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L477) — native event specification
+- [`src/event.h:477`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L477) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-starts-activity-character-3fd3434fed67 }
 
@@ -1679,7 +1679,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:479`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L479) — native event specification
+- [`src/event.h:479`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L479) — native event specification
 
 ### `activity` { #symbol-api-lua-v5-generated-event-field-character-starts-activity-activity-c7fc28f1904a }
 
@@ -1690,7 +1690,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:480`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L480) — native event specification
+- [`src/event.h:480`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L480) — native event specification
 
 ### `resume` { #symbol-api-lua-v5-generated-event-field-character-starts-activity-resume-305bfffe5efb }
 
@@ -1701,7 +1701,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:481`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L481) — native event specification
+- [`src/event.h:481`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L481) — native event specification
 
 ## `character_takeoff_item` { #symbol-api-lua-v5-generated-event-character-takeoff-item-278a14c8547e }
 
@@ -1711,7 +1711,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:554`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L554) — native event specification
+- [`src/event.h:554`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L554) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-takeoff-item-character-db5d79db8211 }
 
@@ -1722,7 +1722,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:196`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L196) — native event specification
+- [`src/event.h:196`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L196) — native event specification
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-character-takeoff-item-itype-e6edc445f8e8 }
 
@@ -1733,7 +1733,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:197`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L197) — native event specification
+- [`src/event.h:197`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L197) — native event specification
 
 ## `character_takes_damage` { #symbol-api-lua-v5-generated-event-character-takes-damage-e5d6a1d6409f }
 
@@ -1743,7 +1743,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:487`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L487) — native event specification
+- [`src/event.h:487`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L487) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-takes-damage-character-18a5e67b0fc3 }
 
@@ -1754,7 +1754,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:489`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L489) — native event specification
+- [`src/event.h:489`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L489) — native event specification
 
 ### `damage` { #symbol-api-lua-v5-generated-event-field-character-takes-damage-damage-fadaaf9a61ee }
 
@@ -1765,7 +1765,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:490`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L490) — native event specification
+- [`src/event.h:490`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L490) — native event specification
 
 ### `bodypart` { #symbol-api-lua-v5-generated-event-field-character-takes-damage-bodypart-069892052db6 }
 
@@ -1776,7 +1776,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:491`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L491) — native event specification
+- [`src/event.h:491`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L491) — native event specification
 
 ### `pain` { #symbol-api-lua-v5-generated-event-field-character-takes-damage-pain-9183177901a1 }
 
@@ -1787,7 +1787,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:492`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L492) — native event specification
+- [`src/event.h:492`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L492) — native event specification
 
 ## `character_triggers_trap` { #symbol-api-lua-v5-generated-event-character-triggers-trap-045c5704eb63 }
 
@@ -1797,7 +1797,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:507`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L507) — native event specification
+- [`src/event.h:507`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L507) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-triggers-trap-character-642a0731d45d }
 
@@ -1808,7 +1808,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:509`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L509) — native event specification
+- [`src/event.h:509`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L509) — native event specification
 
 ### `trap` { #symbol-api-lua-v5-generated-event-field-character-triggers-trap-trap-fcdb76331178 }
 
@@ -1819,7 +1819,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:510`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L510) — native event specification
+- [`src/event.h:510`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L510) — native event specification
 
 ## `character_wakes_up` { #symbol-api-lua-v5-generated-event-character-wakes-up-ee3634de48f7 }
 
@@ -1829,7 +1829,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:516`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L516) — native event specification
+- [`src/event.h:516`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L516) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-wakes-up-character-e01cfb1e070a }
 
@@ -1840,7 +1840,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:518`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L518) — native event specification
+- [`src/event.h:518`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L518) — native event specification
 
 ## `character_waters_plant` { #symbol-api-lua-v5-generated-event-character-waters-plant-45fcf7be065b }
 
@@ -1850,7 +1850,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:596`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L596) — native event specification
+- [`src/event.h:596`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L596) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-waters-plant-character-76a8b77abf18 }
 
@@ -1861,7 +1861,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:598`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L598) — native event specification
+- [`src/event.h:598`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L598) — native event specification
 
 ### `pos` { #symbol-api-lua-v5-generated-event-field-character-waters-plant-pos-9ffa1ad3bdbd }
 
@@ -1872,7 +1872,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:599`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L599) — native event specification
+- [`src/event.h:599`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L599) — native event specification
 
 ### `seed_id` { #symbol-api-lua-v5-generated-event-field-character-waters-plant-seed-id-4a47cf7e3a13 }
 
@@ -1883,7 +1883,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:600`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L600) — native event specification
+- [`src/event.h:600`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L600) — native event specification
 
 ### `furniture_id` { #symbol-api-lua-v5-generated-event-field-character-waters-plant-furniture-id-f2c32ff7330b }
 
@@ -1894,7 +1894,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:601`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L601) — native event specification
+- [`src/event.h:601`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L601) — native event specification
 
 ### `water_added` { #symbol-api-lua-v5-generated-event-field-character-waters-plant-water-added-eb93c6f6ed8f }
 
@@ -1905,7 +1905,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:602`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L602) — native event specification
+- [`src/event.h:602`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L602) — native event specification
 
 ## `character_wears_item` { #symbol-api-lua-v5-generated-event-character-wears-item-4ac57510812a }
 
@@ -1915,7 +1915,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:551`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L551) — native event specification
+- [`src/event.h:551`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L551) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-wears-item-character-84c1c1108e48 }
 
@@ -1926,7 +1926,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:196`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L196) — native event specification
+- [`src/event.h:196`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L196) — native event specification
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-character-wears-item-itype-333f58332fa2 }
 
@@ -1937,7 +1937,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:197`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L197) — native event specification
+- [`src/event.h:197`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L197) — native event specification
 
 ## `character_wields_item` { #symbol-api-lua-v5-generated-event-character-wields-item-f21f88cd326a }
 
@@ -1947,7 +1947,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:608`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L608) — native event specification
+- [`src/event.h:608`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L608) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-wields-item-character-ed69e659384b }
 
@@ -1958,7 +1958,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:196`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L196) — native event specification
+- [`src/event.h:196`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L196) — native event specification
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-character-wields-item-itype-407f27745857 }
 
@@ -1969,7 +1969,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:197`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L197) — native event specification
+- [`src/event.h:197`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L197) — native event specification
 
 ## `consumes_marloss_item` { #symbol-api-lua-v5-generated-event-consumes-marloss-item-3f9f6fb36c47 }
 
@@ -1979,7 +1979,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:611`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L611) — native event specification
+- [`src/event.h:611`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L611) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-consumes-marloss-item-character-9019d7ebcd55 }
 
@@ -1990,7 +1990,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:196`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L196) — native event specification
+- [`src/event.h:196`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L196) — native event specification
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-consumes-marloss-item-itype-869f2491c441 }
 
@@ -2001,7 +2001,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:197`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L197) — native event specification
+- [`src/event.h:197`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L197) — native event specification
 
 ## `crosses_marloss_threshold` { #symbol-api-lua-v5-generated-event-crosses-marloss-threshold-c795fa72270d }
 
@@ -2011,7 +2011,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:614`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L614) — native event specification
+- [`src/event.h:614`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L614) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-crosses-marloss-threshold-character-75c5a8dc8365 }
 
@@ -2022,7 +2022,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L189) — native event specification
+- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L189) — native event specification
 
 ## `crosses_mutation_threshold` { #symbol-api-lua-v5-generated-event-crosses-mutation-threshold-8acd227f5e1a }
 
@@ -2032,7 +2032,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:617`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L617) — native event specification
+- [`src/event.h:617`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L617) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-crosses-mutation-threshold-character-4cfcd691e740 }
 
@@ -2043,7 +2043,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:619`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L619) — native event specification
+- [`src/event.h:619`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L619) — native event specification
 
 ### `category` { #symbol-api-lua-v5-generated-event-field-crosses-mutation-threshold-category-3797cd7d93cf }
 
@@ -2054,7 +2054,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:620`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L620) — native event specification
+- [`src/event.h:620`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L620) — native event specification
 
 ## `crosses_mycus_threshold` { #symbol-api-lua-v5-generated-event-crosses-mycus-threshold-5627752b50e3 }
 
@@ -2064,7 +2064,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:626`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L626) — native event specification
+- [`src/event.h:626`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L626) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-crosses-mycus-threshold-character-6099ae681a10 }
 
@@ -2075,7 +2075,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L189) — native event specification
+- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L189) — native event specification
 
 ## `cuts_tree` { #symbol-api-lua-v5-generated-event-cuts-tree-2ca4e65dd0c0 }
 
@@ -2085,7 +2085,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:629`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L629) — native event specification
+- [`src/event.h:629`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L629) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-cuts-tree-character-b8f9e00d7adb }
 
@@ -2096,7 +2096,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L189) — native event specification
+- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L189) — native event specification
 
 ## `dermatik_eggs_hatch` { #symbol-api-lua-v5-generated-event-dermatik-eggs-hatch-75ced0541036 }
 
@@ -2106,7 +2106,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:632`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L632) — native event specification
+- [`src/event.h:632`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L632) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dermatik-eggs-hatch-character-c8b4b9110a54 }
 
@@ -2117,7 +2117,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L189) — native event specification
+- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L189) — native event specification
 
 ## `dermatik_eggs_injected` { #symbol-api-lua-v5-generated-event-dermatik-eggs-injected-8baa6ad2615d }
 
@@ -2127,7 +2127,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:635`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L635) — native event specification
+- [`src/event.h:635`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L635) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dermatik-eggs-injected-character-ab99910dea02 }
 
@@ -2138,7 +2138,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L189) — native event specification
+- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L189) — native event specification
 
 ## `destroys_triffid_grove` { #symbol-api-lua-v5-generated-event-destroys-triffid-grove-4e8d10481959 }
 
@@ -2148,7 +2148,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:638`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L638) — native event specification
+- [`src/event.h:638`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L638) — native event specification
 
 ## `dies_from_asthma_attack` { #symbol-api-lua-v5-generated-event-dies-from-asthma-attack-fb91a5cea8b2 }
 
@@ -2158,7 +2158,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:641`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L641) — native event specification
+- [`src/event.h:641`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L641) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-from-asthma-attack-character-bd4353defa2a }
 
@@ -2169,7 +2169,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L189) — native event specification
+- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L189) — native event specification
 
 ## `dies_from_bleeding` { #symbol-api-lua-v5-generated-event-dies-from-bleeding-d844d9954f8c }
 
@@ -2179,7 +2179,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:653`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L653) — native event specification
+- [`src/event.h:653`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L653) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-from-bleeding-character-484b3d09bc01 }
 
@@ -2190,7 +2190,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L189) — native event specification
+- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L189) — native event specification
 
 ## `dies_from_drug_overdose` { #symbol-api-lua-v5-generated-event-dies-from-drug-overdose-6998abc8a1de }
 
@@ -2200,7 +2200,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:644`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L644) — native event specification
+- [`src/event.h:644`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L644) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-from-drug-overdose-character-2eaf34a1696b }
 
@@ -2211,7 +2211,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:646`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L646) — native event specification
+- [`src/event.h:646`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L646) — native event specification
 
 ### `effect` { #symbol-api-lua-v5-generated-event-field-dies-from-drug-overdose-effect-08c8fa143fe7 }
 
@@ -2222,7 +2222,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:647`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L647) — native event specification
+- [`src/event.h:647`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L647) — native event specification
 
 ## `dies_from_hypovolemia` { #symbol-api-lua-v5-generated-event-dies-from-hypovolemia-f874b8da444d }
 
@@ -2232,7 +2232,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:656`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L656) — native event specification
+- [`src/event.h:656`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L656) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-from-hypovolemia-character-d50257dfc7fe }
 
@@ -2243,7 +2243,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L189) — native event specification
+- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L189) — native event specification
 
 ## `dies_from_redcells_loss` { #symbol-api-lua-v5-generated-event-dies-from-redcells-loss-07815e045fb5 }
 
@@ -2253,7 +2253,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:659`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L659) — native event specification
+- [`src/event.h:659`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L659) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-from-redcells-loss-character-95ec6877216c }
 
@@ -2264,7 +2264,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L189) — native event specification
+- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L189) — native event specification
 
 ## `dies_of_infection` { #symbol-api-lua-v5-generated-event-dies-of-infection-044fcc4f26b1 }
 
@@ -2274,7 +2274,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:662`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L662) — native event specification
+- [`src/event.h:662`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L662) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-of-infection-character-3cd1dcf8789f }
 
@@ -2285,7 +2285,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L189) — native event specification
+- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L189) — native event specification
 
 ## `dies_of_starvation` { #symbol-api-lua-v5-generated-event-dies-of-starvation-d937e49b785d }
 
@@ -2295,7 +2295,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:665`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L665) — native event specification
+- [`src/event.h:665`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L665) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-of-starvation-character-5447adf9956d }
 
@@ -2306,7 +2306,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L189) — native event specification
+- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L189) — native event specification
 
 ## `dies_of_thirst` { #symbol-api-lua-v5-generated-event-dies-of-thirst-4c77a0ffbf9c }
 
@@ -2316,7 +2316,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:668`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L668) — native event specification
+- [`src/event.h:668`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L668) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-of-thirst-character-d8038d53685f }
 
@@ -2327,7 +2327,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L189) — native event specification
+- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L189) — native event specification
 
 ## `digs_into_lava` { #symbol-api-lua-v5-generated-event-digs-into-lava-a2eaed44da94 }
 
@@ -2337,7 +2337,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:671`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L671) — native event specification
+- [`src/event.h:671`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L671) — native event specification
 
 ## `dimension_travel` { #symbol-api-lua-v5-generated-event-dimension-travel-3e329de86a55 }
 
@@ -2347,7 +2347,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:674`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L674) — native event specification
+- [`src/event.h:674`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L674) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dimension-travel-character-1466cd04d057 }
 
@@ -2358,7 +2358,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:676`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L676) — native event specification
+- [`src/event.h:676`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L676) — native event specification
 
 ### `from_dimension` { #symbol-api-lua-v5-generated-event-field-dimension-travel-from-dimension-74ec35838887 }
 
@@ -2369,7 +2369,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:677`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L677) — native event specification
+- [`src/event.h:677`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L677) — native event specification
 
 ### `to_dimension` { #symbol-api-lua-v5-generated-event-field-dimension-travel-to-dimension-71be80b012c4 }
 
@@ -2380,7 +2380,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:678`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L678) — native event specification
+- [`src/event.h:678`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L678) — native event specification
 
 ## `disarms_nuke` { #symbol-api-lua-v5-generated-event-disarms-nuke-86b2839a6b15 }
 
@@ -2390,7 +2390,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:684`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L684) — native event specification
+- [`src/event.h:684`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L684) — native event specification
 
 ## `eats_sewage` { #symbol-api-lua-v5-generated-event-eats-sewage-22b10e28f633 }
 
@@ -2400,7 +2400,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:687`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L687) — native event specification
+- [`src/event.h:687`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L687) — native event specification
 
 ## `evolves_mutation` { #symbol-api-lua-v5-generated-event-evolves-mutation-14b490938316 }
 
@@ -2410,7 +2410,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:690`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L690) — native event specification
+- [`src/event.h:690`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L690) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-evolves-mutation-character-734a54de8254 }
 
@@ -2421,7 +2421,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:692`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L692) — native event specification
+- [`src/event.h:692`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L692) — native event specification
 
 ### `from_trait` { #symbol-api-lua-v5-generated-event-field-evolves-mutation-from-trait-2add04c58431 }
 
@@ -2432,7 +2432,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:693`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L693) — native event specification
+- [`src/event.h:693`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L693) — native event specification
 
 ### `to_trait` { #symbol-api-lua-v5-generated-event-field-evolves-mutation-to-trait-065227e0dc7f }
 
@@ -2443,7 +2443,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:694`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L694) — native event specification
+- [`src/event.h:694`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L694) — native event specification
 
 ## `exhumes_grave` { #symbol-api-lua-v5-generated-event-exhumes-grave-c6d20ea646b2 }
 
@@ -2453,7 +2453,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:700`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L700) — native event specification
+- [`src/event.h:700`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L700) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-exhumes-grave-character-325da22bd85c }
 
@@ -2464,7 +2464,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L189) — native event specification
+- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L189) — native event specification
 
 ## `fails_to_install_cbm` { #symbol-api-lua-v5-generated-event-fails-to-install-cbm-fb0f0ea5a679 }
 
@@ -2474,7 +2474,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:703`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L703) — native event specification
+- [`src/event.h:703`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L703) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-fails-to-install-cbm-character-612408584e66 }
 
@@ -2485,7 +2485,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:705`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L705) — native event specification
+- [`src/event.h:705`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L705) — native event specification
 
 ### `bionic` { #symbol-api-lua-v5-generated-event-field-fails-to-install-cbm-bionic-f85bb80b8393 }
 
@@ -2496,7 +2496,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:706`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L706) — native event specification
+- [`src/event.h:706`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L706) — native event specification
 
 ## `fails_to_remove_cbm` { #symbol-api-lua-v5-generated-event-fails-to-remove-cbm-8e9e9e90ade1 }
 
@@ -2506,7 +2506,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:712`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L712) — native event specification
+- [`src/event.h:712`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L712) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-fails-to-remove-cbm-character-fee84fbc4bbd }
 
@@ -2517,7 +2517,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:714`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L714) — native event specification
+- [`src/event.h:714`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L714) — native event specification
 
 ### `bionic` { #symbol-api-lua-v5-generated-event-field-fails-to-remove-cbm-bionic-a959067e4563 }
 
@@ -2528,7 +2528,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:715`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L715) — native event specification
+- [`src/event.h:715`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L715) — native event specification
 
 ## `falls_asleep_from_exhaustion` { #symbol-api-lua-v5-generated-event-falls-asleep-from-exhaustion-eb4530757a04 }
 
@@ -2538,7 +2538,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:721`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L721) — native event specification
+- [`src/event.h:721`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L721) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-falls-asleep-from-exhaustion-character-5df351c5b8d6 }
 
@@ -2549,7 +2549,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L189) — native event specification
+- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L189) — native event specification
 
 ## `fuel_tank_explodes` { #symbol-api-lua-v5-generated-event-fuel-tank-explodes-601b6373437a }
 
@@ -2559,7 +2559,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:724`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L724) — native event specification
+- [`src/event.h:724`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L724) — native event specification
 
 ### `vehicle_name` { #symbol-api-lua-v5-generated-event-field-fuel-tank-explodes-vehicle-name-2cbae4a016a9 }
 
@@ -2570,7 +2570,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:726`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L726) — native event specification
+- [`src/event.h:726`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L726) — native event specification
 
 ## `gains_addiction` { #symbol-api-lua-v5-generated-event-gains-addiction-c20f8a8a4792 }
 
@@ -2580,7 +2580,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:732`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L732) — native event specification
+- [`src/event.h:732`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L732) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-gains-addiction-character-51ad2baedf22 }
 
@@ -2591,7 +2591,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:734`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L734) — native event specification
+- [`src/event.h:734`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L734) — native event specification
 
 ### `add_type` { #symbol-api-lua-v5-generated-event-field-gains-addiction-add-type-ed3e82a2584c }
 
@@ -2602,7 +2602,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:735`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L735) — native event specification
+- [`src/event.h:735`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L735) — native event specification
 
 ## `gains_mutation` { #symbol-api-lua-v5-generated-event-gains-mutation-28451f149736 }
 
@@ -2612,7 +2612,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:741`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L741) — native event specification
+- [`src/event.h:741`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L741) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-gains-mutation-character-b3ea53889a6c }
 
@@ -2623,7 +2623,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:743`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L743) — native event specification
+- [`src/event.h:743`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L743) — native event specification
 
 ### `trait` { #symbol-api-lua-v5-generated-event-field-gains-mutation-trait-b39ca08be4e8 }
 
@@ -2634,7 +2634,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:744`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L744) — native event specification
+- [`src/event.h:744`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L744) — native event specification
 
 ## `gains_proficiency` { #symbol-api-lua-v5-generated-event-gains-proficiency-e14a6fe41ff8 }
 
@@ -2644,7 +2644,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:750`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L750) — native event specification
+- [`src/event.h:750`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L750) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-gains-proficiency-character-348e93e8a4c2 }
 
@@ -2655,7 +2655,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:752`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L752) — native event specification
+- [`src/event.h:752`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L752) — native event specification
 
 ### `proficiency` { #symbol-api-lua-v5-generated-event-field-gains-proficiency-proficiency-0c4c64a0a30e }
 
@@ -2666,7 +2666,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:753`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L753) — native event specification
+- [`src/event.h:753`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L753) — native event specification
 
 ## `gains_skill_level` { #symbol-api-lua-v5-generated-event-gains-skill-level-7f228d0dfc50 }
 
@@ -2676,7 +2676,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:759`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L759) — native event specification
+- [`src/event.h:759`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L759) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-gains-skill-level-character-86659ce6b2cb }
 
@@ -2687,7 +2687,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:761`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L761) — native event specification
+- [`src/event.h:761`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L761) — native event specification
 
 ### `skill` { #symbol-api-lua-v5-generated-event-field-gains-skill-level-skill-b61152b69d46 }
 
@@ -2698,7 +2698,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:762`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L762) — native event specification
+- [`src/event.h:762`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L762) — native event specification
 
 ### `new_level` { #symbol-api-lua-v5-generated-event-field-gains-skill-level-new-level-3fd4551d32a7 }
 
@@ -2709,7 +2709,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:763`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L763) — native event specification
+- [`src/event.h:763`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L763) — native event specification
 
 ## `game_avatar_death` { #symbol-api-lua-v5-generated-event-game-avatar-death-0e53a88758a1 }
 
@@ -2719,7 +2719,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:769`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L769) — native event specification
+- [`src/event.h:769`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L769) — native event specification
 
 ### `avatar_id` { #symbol-api-lua-v5-generated-event-field-game-avatar-death-avatar-id-b93f1a33157b }
 
@@ -2730,7 +2730,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:771`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L771) — native event specification
+- [`src/event.h:771`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L771) — native event specification
 
 ### `avatar_name` { #symbol-api-lua-v5-generated-event-field-game-avatar-death-avatar-name-5de966dac1a0 }
 
@@ -2741,7 +2741,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:772`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L772) — native event specification
+- [`src/event.h:772`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L772) — native event specification
 
 ### `is_suicide` { #symbol-api-lua-v5-generated-event-field-game-avatar-death-is-suicide-36aeaeebbf71 }
 
@@ -2752,7 +2752,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:773`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L773) — native event specification
+- [`src/event.h:773`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L773) — native event specification
 
 ### `last_words` { #symbol-api-lua-v5-generated-event-field-game-avatar-death-last-words-bd6e0d5caf9d }
 
@@ -2763,7 +2763,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:774`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L774) — native event specification
+- [`src/event.h:774`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L774) — native event specification
 
 ## `game_avatar_new` { #symbol-api-lua-v5-generated-event-game-avatar-new-38b032f26094 }
 
@@ -2773,7 +2773,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:780`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L780) — native event specification
+- [`src/event.h:780`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L780) — native event specification
 
 ### `is_new_game` { #symbol-api-lua-v5-generated-event-field-game-avatar-new-is-new-game-1edfc87d1c32 }
 
@@ -2784,7 +2784,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:782`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L782) — native event specification
+- [`src/event.h:782`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L782) — native event specification
 
 ### `is_debug` { #symbol-api-lua-v5-generated-event-field-game-avatar-new-is-debug-bb00299b905d }
 
@@ -2795,7 +2795,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:783`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L783) — native event specification
+- [`src/event.h:783`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L783) — native event specification
 
 ### `avatar_id` { #symbol-api-lua-v5-generated-event-field-game-avatar-new-avatar-id-4871dcd5fad3 }
 
@@ -2806,7 +2806,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:784`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L784) — native event specification
+- [`src/event.h:784`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L784) — native event specification
 
 ### `avatar_name` { #symbol-api-lua-v5-generated-event-field-game-avatar-new-avatar-name-a6e7aeedc30a }
 
@@ -2817,7 +2817,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:785`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L785) — native event specification
+- [`src/event.h:785`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L785) — native event specification
 
 ### `avatar_custom_profession` { #symbol-api-lua-v5-generated-event-field-game-avatar-new-avatar-custom-profession-06b8e151d720 }
 
@@ -2828,7 +2828,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:786`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L786) — native event specification
+- [`src/event.h:786`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L786) — native event specification
 
 ## `game_begin` { #symbol-api-lua-v5-generated-event-game-begin-03a90bc39ed3 }
 
@@ -2838,7 +2838,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:800`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L800) — native event specification
+- [`src/event.h:800`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L800) — native event specification
 
 ### `cdda_version` { #symbol-api-lua-v5-generated-event-field-game-begin-cdda-version-df8a810131d9 }
 
@@ -2849,7 +2849,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:802`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L802) — native event specification
+- [`src/event.h:802`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L802) — native event specification
 
 ## `game_load` { #symbol-api-lua-v5-generated-event-game-load-f6af9cd6501d }
 
@@ -2859,7 +2859,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:792`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L792) — native event specification
+- [`src/event.h:792`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L792) — native event specification
 
 ### `cdda_version` { #symbol-api-lua-v5-generated-event-field-game-load-cdda-version-b9a4ee762eb5 }
 
@@ -2870,7 +2870,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:794`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L794) — native event specification
+- [`src/event.h:794`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L794) — native event specification
 
 ## `game_over` { #symbol-api-lua-v5-generated-event-game-over-d65a7a36cfeb }
 
@@ -2880,7 +2880,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:808`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L808) — native event specification
+- [`src/event.h:808`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L808) — native event specification
 
 ### `total_time_played` { #symbol-api-lua-v5-generated-event-field-game-over-total-time-played-317b77c7417e }
 
@@ -2891,7 +2891,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:810`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L810) — native event specification
+- [`src/event.h:810`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L810) — native event specification
 
 ## `game_save` { #symbol-api-lua-v5-generated-event-game-save-0ef1ea32cce9 }
 
@@ -2901,7 +2901,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:816`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L816) — native event specification
+- [`src/event.h:816`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L816) — native event specification
 
 ### `time_since_load` { #symbol-api-lua-v5-generated-event-field-game-save-time-since-load-5932a32ed08d }
 
@@ -2912,7 +2912,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:818`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L818) — native event specification
+- [`src/event.h:818`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L818) — native event specification
 
 ### `total_time_played` { #symbol-api-lua-v5-generated-event-field-game-save-total-time-played-ae2c10ba5570 }
 
@@ -2923,7 +2923,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:819`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L819) — native event specification
+- [`src/event.h:819`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L819) — native event specification
 
 ## `game_start` { #symbol-api-lua-v5-generated-event-game-start-6de0dab596e6 }
 
@@ -2933,7 +2933,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:825`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L825) — native event specification
+- [`src/event.h:825`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L825) — native event specification
 
 ### `game_version` { #symbol-api-lua-v5-generated-event-field-game-start-game-version-6bc0c920ae8c }
 
@@ -2944,7 +2944,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:827`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L827) — native event specification
+- [`src/event.h:827`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L827) — native event specification
 
 ## `installs_cbm` { #symbol-api-lua-v5-generated-event-installs-cbm-953dace357e8 }
 
@@ -2954,7 +2954,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:833`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L833) — native event specification
+- [`src/event.h:833`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L833) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-installs-cbm-character-4834da5c656c }
 
@@ -2965,7 +2965,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:835`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L835) — native event specification
+- [`src/event.h:835`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L835) — native event specification
 
 ### `bionic` { #symbol-api-lua-v5-generated-event-field-installs-cbm-bionic-ec62687fff4c }
 
@@ -2976,7 +2976,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:836`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L836) — native event specification
+- [`src/event.h:836`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L836) — native event specification
 
 ## `installs_faulty_cbm` { #symbol-api-lua-v5-generated-event-installs-faulty-cbm-1da35527f7c0 }
 
@@ -2986,7 +2986,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:842`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L842) — native event specification
+- [`src/event.h:842`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L842) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-installs-faulty-cbm-character-523b9fd492e5 }
 
@@ -2997,7 +2997,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:844`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L844) — native event specification
+- [`src/event.h:844`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L844) — native event specification
 
 ### `bionic` { #symbol-api-lua-v5-generated-event-field-installs-faulty-cbm-bionic-6f25540b89fd }
 
@@ -3008,7 +3008,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:845`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L845) — native event specification
+- [`src/event.h:845`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L845) — native event specification
 
 ## `learns_martial_art` { #symbol-api-lua-v5-generated-event-learns-martial-art-d2ad6154d366 }
 
@@ -3018,7 +3018,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:851`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L851) — native event specification
+- [`src/event.h:851`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L851) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-learns-martial-art-character-ac3f27f45ac7 }
 
@@ -3029,7 +3029,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:853`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L853) — native event specification
+- [`src/event.h:853`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L853) — native event specification
 
 ### `martial_art` { #symbol-api-lua-v5-generated-event-field-learns-martial-art-martial-art-a6baf451d54c }
 
@@ -3040,7 +3040,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:854`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L854) — native event specification
+- [`src/event.h:854`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L854) — native event specification
 
 ## `loses_addiction` { #symbol-api-lua-v5-generated-event-loses-addiction-ccfb620f2d13 }
 
@@ -3050,7 +3050,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:860`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L860) — native event specification
+- [`src/event.h:860`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L860) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-loses-addiction-character-7b1df56b55c8 }
 
@@ -3061,7 +3061,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:862`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L862) — native event specification
+- [`src/event.h:862`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L862) — native event specification
 
 ### `add_type` { #symbol-api-lua-v5-generated-event-field-loses-addiction-add-type-a40c755936af }
 
@@ -3072,7 +3072,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:863`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L863) — native event specification
+- [`src/event.h:863`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L863) — native event specification
 
 ## `loses_mutation` { #symbol-api-lua-v5-generated-event-loses-mutation-250e63cfdfc8 }
 
@@ -3082,7 +3082,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:868`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L868) — native event specification
+- [`src/event.h:868`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L868) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-loses-mutation-character-230e5bbcb538 }
 
@@ -3093,7 +3093,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:870`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L870) — native event specification
+- [`src/event.h:870`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L870) — native event specification
 
 ### `trait` { #symbol-api-lua-v5-generated-event-field-loses-mutation-trait-22650090857c }
 
@@ -3104,7 +3104,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:871`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L871) — native event specification
+- [`src/event.h:871`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L871) — native event specification
 
 ## `monster_takes_damage` { #symbol-api-lua-v5-generated-event-monster-takes-damage-6eef0baa5b82 }
 
@@ -3114,7 +3114,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:498`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L498) — native event specification
+- [`src/event.h:498`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L498) — native event specification
 
 ### `damage` { #symbol-api-lua-v5-generated-event-field-monster-takes-damage-damage-6fad682a10b7 }
 
@@ -3125,7 +3125,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:500`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L500) — native event specification
+- [`src/event.h:500`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L500) — native event specification
 
 ### `dies` { #symbol-api-lua-v5-generated-event-field-monster-takes-damage-dies-b882e269bfa9 }
 
@@ -3136,7 +3136,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:501`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L501) — native event specification
+- [`src/event.h:501`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L501) — native event specification
 
 ## `npc_becomes_hostile` { #symbol-api-lua-v5-generated-event-npc-becomes-hostile-dff223ee35b1 }
 
@@ -3146,7 +3146,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:877`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L877) — native event specification
+- [`src/event.h:877`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L877) — native event specification
 
 ### `npc` { #symbol-api-lua-v5-generated-event-field-npc-becomes-hostile-npc-90c713be8902 }
 
@@ -3157,7 +3157,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:879`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L879) — native event specification
+- [`src/event.h:879`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L879) — native event specification
 
 ### `npc_name` { #symbol-api-lua-v5-generated-event-field-npc-becomes-hostile-npc-name-3a561d488aef }
 
@@ -3168,7 +3168,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:880`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L880) — native event specification
+- [`src/event.h:880`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L880) — native event specification
 
 ## `opens_portal` { #symbol-api-lua-v5-generated-event-opens-portal-c1b1133cb32f }
 
@@ -3178,7 +3178,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:894`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L894) — native event specification
+- [`src/event.h:894`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L894) — native event specification
 
 ## `opens_spellbook` { #symbol-api-lua-v5-generated-event-opens-spellbook-45b84cbd5d4f }
 
@@ -3188,7 +3188,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:886`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L886) — native event specification
+- [`src/event.h:886`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L886) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-opens-spellbook-character-cf21c8926336 }
 
@@ -3199,7 +3199,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:888`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L888) — native event specification
+- [`src/event.h:888`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L888) — native event specification
 
 ## `opens_temple` { #symbol-api-lua-v5-generated-event-opens-temple-1fb67651cd07 }
 
@@ -3209,7 +3209,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:897`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L897) — native event specification
+- [`src/event.h:897`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L897) — native event specification
 
 ## `phase_move` { #symbol-api-lua-v5-generated-event-phase-move-6b84f61437c6 }
 
@@ -3219,7 +3219,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:900`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L900) — native event specification
+- [`src/event.h:900`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L900) — native event specification
 
 ### `distance_traveled` { #symbol-api-lua-v5-generated-event-field-phase-move-distance-traveled-24cffb42fa94 }
 
@@ -3230,7 +3230,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:902`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L902) — native event specification
+- [`src/event.h:902`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L902) — native event specification
 
 ### `is_bionic` { #symbol-api-lua-v5-generated-event-field-phase-move-is-bionic-dfad013961a7 }
 
@@ -3241,7 +3241,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:903`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L903) — native event specification
+- [`src/event.h:903`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L903) — native event specification
 
 ## `player_fails_conduct` { #symbol-api-lua-v5-generated-event-player-fails-conduct-ee7addec8294 }
 
@@ -3251,7 +3251,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:912`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L912) — native event specification
+- [`src/event.h:912`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L912) — native event specification
 
 ### `conduct` { #symbol-api-lua-v5-generated-event-field-player-fails-conduct-conduct-3f68e9188106 }
 
@@ -3262,7 +3262,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:914`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L914) — native event specification
+- [`src/event.h:914`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L914) — native event specification
 
 ### `achievements_enabled` { #symbol-api-lua-v5-generated-event-field-player-fails-conduct-achievements-enabled-9344d341f9da }
 
@@ -3273,7 +3273,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:915`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L915) — native event specification
+- [`src/event.h:915`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L915) — native event specification
 
 ## `player_gets_achievement` { #symbol-api-lua-v5-generated-event-player-gets-achievement-1907706a8704 }
 
@@ -3283,7 +3283,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:921`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L921) — native event specification
+- [`src/event.h:921`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L921) — native event specification
 
 ### `achievement` { #symbol-api-lua-v5-generated-event-field-player-gets-achievement-achievement-37451bcac027 }
 
@@ -3294,7 +3294,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:923`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L923) — native event specification
+- [`src/event.h:923`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L923) — native event specification
 
 ### `achievements_enabled` { #symbol-api-lua-v5-generated-event-field-player-gets-achievement-achievements-enabled-5627817028e3 }
 
@@ -3305,7 +3305,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:924`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L924) — native event specification
+- [`src/event.h:924`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L924) — native event specification
 
 ## `player_levels_spell` { #symbol-api-lua-v5-generated-event-player-levels-spell-0c963878287a }
 
@@ -3315,7 +3315,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:930`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L930) — native event specification
+- [`src/event.h:930`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L930) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-player-levels-spell-character-6da9a8769ac0 }
 
@@ -3326,7 +3326,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:932`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L932) — native event specification
+- [`src/event.h:932`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L932) — native event specification
 
 ### `spell` { #symbol-api-lua-v5-generated-event-field-player-levels-spell-spell-a2f42405bf1f }
 
@@ -3337,7 +3337,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:933`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L933) — native event specification
+- [`src/event.h:933`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L933) — native event specification
 
 ### `new_level` { #symbol-api-lua-v5-generated-event-field-player-levels-spell-new-level-579fb9148583 }
 
@@ -3348,7 +3348,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:934`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L934) — native event specification
+- [`src/event.h:934`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L934) — native event specification
 
 ### `school` { #symbol-api-lua-v5-generated-event-field-player-levels-spell-school-e4d4a41b37fb }
 
@@ -3359,7 +3359,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:935`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L935) — native event specification
+- [`src/event.h:935`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L935) — native event specification
 
 ## `reads_book` { #symbol-api-lua-v5-generated-event-reads-book-b988a1dfdc82 }
 
@@ -3369,7 +3369,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:941`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L941) — native event specification
+- [`src/event.h:941`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L941) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-reads-book-character-30e16561d51f }
 
@@ -3380,7 +3380,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:196`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L196) — native event specification
+- [`src/event.h:196`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L196) — native event specification
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-reads-book-itype-50343f1223b0 }
 
@@ -3391,7 +3391,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:197`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L197) — native event specification
+- [`src/event.h:197`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L197) — native event specification
 
 ## `releases_subspace_specimens` { #symbol-api-lua-v5-generated-event-releases-subspace-specimens-1ab0b89e4fe6 }
 
@@ -3401,7 +3401,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:909`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L909) — native event specification
+- [`src/event.h:909`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L909) — native event specification
 
 ## `removes_cbm` { #symbol-api-lua-v5-generated-event-removes-cbm-6d22c303040a }
 
@@ -3411,7 +3411,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:944`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L944) — native event specification
+- [`src/event.h:944`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L944) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-removes-cbm-character-40a841571882 }
 
@@ -3422,7 +3422,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:946`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L946) — native event specification
+- [`src/event.h:946`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L946) — native event specification
 
 ### `bionic` { #symbol-api-lua-v5-generated-event-field-removes-cbm-bionic-008081e0a02c }
 
@@ -3433,7 +3433,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:947`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L947) — native event specification
+- [`src/event.h:947`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L947) — native event specification
 
 ## `seals_hazardous_material_sarcophagus` { #symbol-api-lua-v5-generated-event-seals-hazardous-material-sarcophagus-7867dd81ea71 }
 
@@ -3443,7 +3443,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:953`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L953) — native event specification
+- [`src/event.h:953`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L953) — native event specification
 
 ## `spellcasting_finish` { #symbol-api-lua-v5-generated-event-spellcasting-finish-f9c5310693f6 }
 
@@ -3453,7 +3453,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:956`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L956) — native event specification
+- [`src/event.h:956`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L956) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-character-44e163d4f2c2 }
 
@@ -3464,7 +3464,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:958`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L958) — native event specification
+- [`src/event.h:958`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L958) — native event specification
 
 ### `success` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-success-34445e725ccc }
 
@@ -3475,7 +3475,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:959`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L959) — native event specification
+- [`src/event.h:959`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L959) — native event specification
 
 ### `spell` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-spell-97dfe06130f3 }
 
@@ -3486,7 +3486,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:960`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L960) — native event specification
+- [`src/event.h:960`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L960) — native event specification
 
 ### `school` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-school-7e754bbef370 }
 
@@ -3497,7 +3497,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:961`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L961) — native event specification
+- [`src/event.h:961`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L961) — native event specification
 
 ### `difficulty` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-difficulty-0fd7176dfd5f }
 
@@ -3508,7 +3508,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:962`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L962) — native event specification
+- [`src/event.h:962`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L962) — native event specification
 
 ### `cost` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-cost-5cb941dd216b }
 
@@ -3519,7 +3519,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:963`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L963) — native event specification
+- [`src/event.h:963`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L963) — native event specification
 
 ### `cast_time` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-cast-time-2cacf4cdfeb0 }
 
@@ -3530,7 +3530,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:964`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L964) — native event specification
+- [`src/event.h:964`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L964) — native event specification
 
 ### `damage` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-damage-05c6c09291fb }
 
@@ -3541,7 +3541,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:965`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L965) — native event specification
+- [`src/event.h:965`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L965) — native event specification
 
 ## `telefrags_creature` { #symbol-api-lua-v5-generated-event-telefrags-creature-b6402d7604d8 }
 
@@ -3551,7 +3551,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:971`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L971) — native event specification
+- [`src/event.h:971`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L971) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-telefrags-creature-character-f2a84eda9331 }
 
@@ -3562,7 +3562,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:973`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L973) — native event specification
+- [`src/event.h:973`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L973) — native event specification
 
 ### `victim_name` { #symbol-api-lua-v5-generated-event-field-telefrags-creature-victim-name-e806a1f3a17f }
 
@@ -3573,7 +3573,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:974`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L974) — native event specification
+- [`src/event.h:974`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L974) — native event specification
 
 ## `teleglow_teleports` { #symbol-api-lua-v5-generated-event-teleglow-teleports-8834db858823 }
 
@@ -3583,7 +3583,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:980`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L980) — native event specification
+- [`src/event.h:980`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L980) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-teleglow-teleports-character-577446ea44c7 }
 
@@ -3594,7 +3594,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L189) — native event specification
+- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L189) — native event specification
 
 ## `teleports_into_wall` { #symbol-api-lua-v5-generated-event-teleports-into-wall-48583f3f996a }
 
@@ -3604,7 +3604,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:983`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L983) — native event specification
+- [`src/event.h:983`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L983) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-teleports-into-wall-character-c53cefd360f4 }
 
@@ -3615,7 +3615,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:985`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L985) — native event specification
+- [`src/event.h:985`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L985) — native event specification
 
 ### `obstacle_name` { #symbol-api-lua-v5-generated-event-field-teleports-into-wall-obstacle-name-3688bb3fb981 }
 
@@ -3626,7 +3626,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:986`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L986) — native event specification
+- [`src/event.h:986`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L986) — native event specification
 
 ## `terminates_subspace_specimens` { #symbol-api-lua-v5-generated-event-terminates-subspace-specimens-f5f42a521fd7 }
 
@@ -3636,7 +3636,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:992`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L992) — native event specification
+- [`src/event.h:992`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L992) — native event specification
 
 ## `throws_up` { #symbol-api-lua-v5-generated-event-throws-up-fd793f1fa60e }
 
@@ -3646,7 +3646,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:995`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L995) — native event specification
+- [`src/event.h:995`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L995) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-throws-up-character-ca206a210f02 }
 
@@ -3657,7 +3657,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L189) — native event specification
+- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L189) — native event specification
 
 ## `triggers_alarm` { #symbol-api-lua-v5-generated-event-triggers-alarm-af86cf6481c8 }
 
@@ -3667,7 +3667,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:998`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L998) — native event specification
+- [`src/event.h:998`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L998) — native event specification
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-triggers-alarm-character-8aec5d80867c }
 
@@ -3678,7 +3678,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L189) — native event specification
+- [`src/event.h:189`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L189) — native event specification
 
 ## `u_var_changed` { #symbol-api-lua-v5-generated-event-u-var-changed-a51347238929 }
 
@@ -3688,7 +3688,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:1009`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L1009) — native event specification
+- [`src/event.h:1009`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L1009) — native event specification
 
 ### `var` { #symbol-api-lua-v5-generated-event-field-u-var-changed-var-d1d60cd5652b }
 
@@ -3699,7 +3699,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:1011`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L1011) — native event specification
+- [`src/event.h:1011`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L1011) — native event specification
 
 ### `value` { #symbol-api-lua-v5-generated-event-field-u-var-changed-value-9455cf703409 }
 
@@ -3710,7 +3710,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:1012`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L1012) — native event specification
+- [`src/event.h:1012`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L1012) — native event specification
 
 ## `uses_debug_menu` { #symbol-api-lua-v5-generated-event-uses-debug-menu-099c9cbfd213 }
 
@@ -3720,7 +3720,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:1001`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L1001) — native event specification
+- [`src/event.h:1001`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L1001) — native event specification
 
 ### `debug_menu_option` { #symbol-api-lua-v5-generated-event-field-uses-debug-menu-debug-menu-option-58e0ac644bb5 }
 
@@ -3731,7 +3731,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:1003`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L1003) — native event specification
+- [`src/event.h:1003`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L1003) — native event specification
 
 ## `vehicle_moves` { #symbol-api-lua-v5-generated-event-vehicle-moves-8e9973428d28 }
 
@@ -3741,7 +3741,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:1018`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L1018) — native event specification
+- [`src/event.h:1018`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L1018) — native event specification
 
 ### `avatar_on_board` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-avatar-on-board-8771973d86e6 }
 
@@ -3752,7 +3752,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:1020`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L1020) — native event specification
+- [`src/event.h:1020`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L1020) — native event specification
 
 ### `avatar_is_driving` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-avatar-is-driving-080c950edef0 }
 
@@ -3763,7 +3763,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:1021`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L1021) — native event specification
+- [`src/event.h:1021`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L1021) — native event specification
 
 ### `avatar_remote_control` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-avatar-remote-control-2edf4772cbb8 }
 
@@ -3774,7 +3774,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:1022`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L1022) — native event specification
+- [`src/event.h:1022`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L1022) — native event specification
 
 ### `is_flying_aircraft` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-is-flying-aircraft-62ee94cf6789 }
 
@@ -3785,7 +3785,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:1023`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L1023) — native event specification
+- [`src/event.h:1023`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L1023) — native event specification
 
 ### `is_floating_watercraft` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-is-floating-watercraft-ee87c3f6c119 }
 
@@ -3796,7 +3796,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:1024`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L1024) — native event specification
+- [`src/event.h:1024`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L1024) — native event specification
 
 ### `is_on_rails` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-is-on-rails-096b06d5a8bf }
 
@@ -3807,7 +3807,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:1025`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L1025) — native event specification
+- [`src/event.h:1025`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L1025) — native event specification
 
 ### `is_falling` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-is-falling-019c27176450 }
 
@@ -3818,7 +3818,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:1026`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L1026) — native event specification
+- [`src/event.h:1026`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L1026) — native event specification
 
 ### `is_sinking` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-is-sinking-359bfd98d750 }
 
@@ -3829,7 +3829,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:1027`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L1027) — native event specification
+- [`src/event.h:1027`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L1027) — native event specification
 
 ### `is_skidding` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-is-skidding-2ba9e5a45938 }
 
@@ -3840,7 +3840,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:1028`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L1028) — native event specification
+- [`src/event.h:1028`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L1028) — native event specification
 
 ### `velocity` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-velocity-5bdae51abf27 }
 
@@ -3851,7 +3851,7 @@ search:
 
 **来源:**
 
-- [`src/event.h:1029`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L1029) — native event specification
+- [`src/event.h:1029`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L1029) — native event specification
 
 ### `z` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-z-b3e0677e31db }
 
@@ -3862,4 +3862,4 @@ search:
 
 **来源:**
 
-- [`src/event.h:1030`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/src/event.h#L1030) — native event specification
+- [`src/event.h:1030`](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/event.h#L1030) — native event specification
