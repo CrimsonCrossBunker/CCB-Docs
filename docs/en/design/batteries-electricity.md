@@ -3,7 +3,7 @@
 id: design-batteries-electricity
 title: 'Legacy migration draft: batteries electricity'
 language: en
-status: active
+status: draft
 doc_type: explanation
 audiences:
 - new-contributor
@@ -26,12 +26,12 @@ source_symbols: []
 source_queries: []
 source_fingerprint: b3069bfcdaf5049a556adec6f61a4d44916319fd2acaf3a4bfb77ba468d5fdc0
 authority: docs-explanation
-verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
+verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: true
-include_in_ai_index: true
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: d6228a69b65e05b3d6777edb7824ea753861e7d54740960687a009b2b363a4d6
@@ -48,7 +48,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: design
 risk_level: normal
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/design/batteries-electricity/
 alternate_urls:
@@ -56,19 +56,21 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/design/batteries-electricity/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/design/batteries-electricity/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
 source_urls:
 - path: doc/design-balance-lore/batteries_and_electricity.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/doc/design-balance-lore/batteries_and_electricity.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/doc/design-balance-lore/batteries_and_electricity.md
 - path: data/json/items/battery.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/items/battery.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/items/battery.json
 - path: data/json/vehicleparts/battery.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/json/vehicleparts/battery.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/json/vehicleparts/battery.json
 - path: src/vehicle_part.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/src/vehicle_part.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/src/vehicle_part.cpp
 - path: tests/battery_mod_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/tests/battery_mod_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28design-batteries-electricity%29%3A+&body=Document+ID%3A+design-batteries-electricity%0ALanguage%3A+en%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/tests/battery_mod_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28design-batteries-electricity%29%3A+&body=Document+ID%3A+design-batteries-electricity%0ALanguage%3A+en%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
 # Legacy migration draft: batteries electricity

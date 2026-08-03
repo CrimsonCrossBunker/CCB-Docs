@@ -2211,7 +2211,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "cpp.activities",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "Antonín Drdácký",
         "thaelina"
@@ -2231,7 +2231,7 @@
     {
       "action": "merge_into",
       "catalog_id": "maintenance.releases",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2250,7 +2250,7 @@
     {
       "action": "merge_into",
       "catalog_id": "maintenance.releases",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2576,7 +2576,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "build.overview",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "LYHGLYTX",
         "Anton Simakov",

@@ -44,7 +44,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: historical
 risk_level: normal
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/archive/firearms/massachusetts-data-workflow/
 alternate_urls:

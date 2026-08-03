@@ -3,7 +3,7 @@
 id: mods.aftershock-exoplanet.balance.ranged-weapons
 title: Aftershock 远程武器平衡输入索引
 language: zh_CN
-status: active
+status: draft
 doc_type: generated-api
 audiences:
 - new-contributor
@@ -26,12 +26,12 @@ source_symbols: []
 source_queries: []
 source_fingerprint: c6ecee98014d5659798ef3185754b5e43308e35dd06ca9ef9275f76093217f53
 authority: api-contract
-verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
+verified_commit: 80828049edb3adf2a13bb2912a19373dc4e69f32
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: true
-include_in_ai_index: true
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 2a4a6cf756800edee7da3a6d83e488edf8b17c083a0ca2348a8528b8881e7b54
@@ -48,7 +48,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: mods
 risk_level: normal
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/data/mods/aftershock_exoplanet/doc/lore/ranged_weapon_balance/
 alternate_urls:
@@ -56,19 +56,21 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/data/mods/aftershock_exoplanet/doc/lore/ranged_weapon_balance/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/data/mods/aftershock_exoplanet/doc/lore/ranged_weapon_balance/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/80828049edb3adf2a13bb2912a19373dc4e69f32
 source_urls:
 - path: data/mods/aftershock_exoplanet/doc/lore/ranged_weapon_balance.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/mods/aftershock_exoplanet/doc/lore/ranged_weapon_balance.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/aftershock_exoplanet/doc/lore/ranged_weapon_balance.md
 - path: data/mods/aftershock_exoplanet/modinfo.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/mods/aftershock_exoplanet/modinfo.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/aftershock_exoplanet/modinfo.json
 - path: data/mods/aftershock_exoplanet/items/weapons.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/mods/aftershock_exoplanet/items/weapons.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/aftershock_exoplanet/items/weapons.json
 - path: data/mods/aftershock_exoplanet/itemgroups/weapons/energy_gun_groups.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/mods/aftershock_exoplanet/itemgroups/weapons/energy_gun_groups.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/aftershock_exoplanet/itemgroups/weapons/energy_gun_groups.json
 - path: data/mods/aftershock_exoplanet/itemgroups/weapons/balistic_gun_groups.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/data/mods/aftershock_exoplanet/itemgroups/weapons/balistic_gun_groups.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28mods.aftershock-exoplanet.balance.ranged-weapons%29%3A+&body=Document+ID%3A+mods.aftershock-exoplanet.balance.ranged-weapons%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/80828049edb3adf2a13bb2912a19373dc4e69f32/data/mods/aftershock_exoplanet/itemgroups/weapons/balistic_gun_groups.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28mods.aftershock-exoplanet.balance.ranged-weapons%29%3A+&body=Document+ID%3A+mods.aftershock-exoplanet.balance.ranged-weapons%0ALanguage%3A+zh_CN%0AVerified+commit%3A+80828049edb3adf2a13bb2912a19373dc4e69f32%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
 # Aftershock 远程武器平衡输入索引

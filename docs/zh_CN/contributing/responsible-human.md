@@ -24,7 +24,7 @@ source_queries:
 - Responsible human
 source_fingerprint: 781981c55ef754b0836ca4b065bb6a7b9a85a6daf0e4bca4782240c25caa7a2c
 authority: governance
-verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
+verified_commit: 4bb45fcc3357f5358cff14248388b5acd33dcfda
 verified_at: '2026-08-02'
 generated: false
 generated_by: null
@@ -46,7 +46,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: governance
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/570
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/
 alternate_urls:
@@ -54,15 +54,15 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4bb45fcc3357f5358cff14248388b5acd33dcfda
 source_urls:
 - path: CONTRIBUTING.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/CONTRIBUTING.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4bb45fcc3357f5358cff14248388b5acd33dcfda/CONTRIBUTING.md
 - path: GOVERNANCE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/GOVERNANCE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4bb45fcc3357f5358cff14248388b5acd33dcfda/GOVERNANCE.md
 - path: .github/pull_request_template.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/.github/pull_request_template.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28contributing.responsible-human%29%3A+&body=Document+ID%3A+contributing.responsible-human%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4bb45fcc3357f5358cff14248388b5acd33dcfda/.github/pull_request_template.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28contributing.responsible-human%29%3A+&body=Document+ID%3A+contributing.responsible-human%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4bb45fcc3357f5358cff14248388b5acd33dcfda%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Responsible human 与贡献责任

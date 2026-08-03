@@ -26,8 +26,8 @@ source_queries:
 - 'kind: project_map'
 source_fingerprint: 70729d5938c06a6a9123419b91d0bbd25a6b8406ccef3ee140786bb5d2188e72
 authority: docs-explanation
-verified_commit: 4e3b9aa99ae59630abf60f717bdaf563b2d63245
-verified_at: '2026-08-02'
+verified_commit: 9d8f26582da0f53ca1e29f8f072aeef43955655b
+verified_at: '2026-08-01'
 generated: false
 generated_by: null
 include_in_search: true
@@ -57,17 +57,17 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4e3b9aa99ae59630abf60f717bdaf563b2d63245
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/9d8f26582da0f53ca1e29f8f072aeef43955655b
 source_urls:
 - path: AGENTS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/AGENTS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9d8f26582da0f53ca1e29f8f072aeef43955655b/AGENTS.md
 - path: ai/project-map.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/ai/project-map.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9d8f26582da0f53ca1e29f8f072aeef43955655b/ai/project-map.yml
 - path: ai/test-matrix.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/ai/test-matrix.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9d8f26582da0f53ca1e29f8f072aeef43955655b/ai/test-matrix.yml
 - path: ai/generated-files.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4e3b9aa99ae59630abf60f717bdaf563b2d63245/ai/generated-files.yml
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28architecture.project-map%29%3A+&body=Document+ID%3A+architecture.project-map%0ALanguage%3A+zh_CN%0AVerified+commit%3A+4e3b9aa99ae59630abf60f717bdaf563b2d63245%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9d8f26582da0f53ca1e29f8f072aeef43955655b/ai/generated-files.yml
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28architecture.project-map%29%3A+&body=Document+ID%3A+architecture.project-map%0ALanguage%3A+zh_CN%0AVerified+commit%3A+9d8f26582da0f53ca1e29f8f072aeef43955655b%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 项目地图
