@@ -3,7 +3,7 @@
 id: mods.complete-json-eoc-mod
 title: Complete JSON/EOC mod tutorial
 language: en
-status: draft
+status: active
 doc_type: tutorial
 audiences:
 - new-contributor
@@ -33,8 +33,8 @@ verified_commit: d49367845e6cd725d5ca56d171b610047d64592d
 verified_at: '2026-08-02'
 generated: false
 generated_by: null
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 6ded0b43085f4eef208e8256f7d9d497323f2dba7a085068a440d48be7a306c8
@@ -57,7 +57,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: mods
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/
 alternate_urls:
@@ -86,8 +86,6 @@ source_urls:
 - path: data/reference/json/ccb_eoc_effects.json
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d49367845e6cd725d5ca56d171b610047d64592d/data/reference/json/ccb_eoc_effects.json
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28mods.complete-json-eoc-mod%29%3A+&body=Document+ID%3A+mods.complete-json-eoc-mod%0ALanguage%3A+en%0AVerified+commit%3A+d49367845e6cd725d5ca56d171b610047d64592d%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
 ---
 
 # Complete JSON/EOC mod tutorial

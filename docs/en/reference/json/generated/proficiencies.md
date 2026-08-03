@@ -3,7 +3,7 @@
 id: json.proficiencies-index
 title: Proficiency direct-definition index
 language: en
-status: draft
+status: active
 doc_type: generated-api
 audiences:
 - new-contributor
@@ -15,7 +15,7 @@ owners:
 reviewers:
 - Documentation reviewers
 review_interval_days: 365
-last_human_reviewer: Pending human review
+last_human_reviewer: LYHGLYTX
 source_paths:
 - doc/JSON/PROFICIENCY_LIST.md
 - src/proficiency.cpp
@@ -32,8 +32,8 @@ verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 872b2c06d5dbeedfed2f3b8f6ec3785b97740050aa52e2128d3ed69a89a4bd89
@@ -50,7 +50,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/generated/proficiencies/
 alternate_urls:
@@ -71,8 +71,6 @@ source_urls:
 - path: data/mods/Magiclysm/proficiencies.json
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/mods/Magiclysm/proficiencies.json
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.proficiencies-index%29%3A+&body=Document+ID%3A+json.proficiencies-index%0ALanguage%3A+en%0AVerified+commit%3A+c1b0f95c6d1b074fc49ee2a7976819c124b69047%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
 ---
 
 # Proficiency direct-definition index

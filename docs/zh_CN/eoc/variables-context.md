@@ -3,7 +3,7 @@
 id: eoc.variables-context
 title: EOC 变量与上下文
 language: zh_CN
-status: draft
+status: active
 doc_type: reference
 audiences:
 - new-contributor
@@ -37,8 +37,8 @@ verified_commit: d49367845e6cd725d5ca56d171b610047d64592d
 verified_at: '2026-08-02'
 generated: false
 generated_by: null
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 8e90cbae7e8c02b7eaa85d8151d686e20feb0dac08e769660feee6034b89c055
@@ -56,7 +56,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: eoc
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/
 alternate_urls:
@@ -89,8 +89,6 @@ source_urls:
 - path: doc/JSON/EFFECT_ON_CONDITION.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d49367845e6cd725d5ca56d171b610047d64592d/doc/JSON/EFFECT_ON_CONDITION.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28eoc.variables-context%29%3A+&body=Document+ID%3A+eoc.variables-context%0ALanguage%3A+zh_CN%0AVerified+commit%3A+d49367845e6cd725d5ca56d171b610047d64592d%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
 ---
 
 # EOC 变量与上下文

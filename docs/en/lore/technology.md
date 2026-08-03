@@ -3,7 +3,7 @@
 id: lore-technology
 title: 'Legacy migration draft: technology'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -15,7 +15,7 @@ owners:
 reviewers:
 - Documentation reviewers
 review_interval_days: 365
-last_human_reviewer: Pending human review
+last_human_reviewer: LYHGLYTX
 source_paths:
 - doc/design-balance-lore/technology.md
 - doc/design-balance-lore/lore.md
@@ -28,8 +28,8 @@ verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: c37e1ac05245daed4b927057661f1f844ed57945b7ebc031d9990d54bb3ef4c8
@@ -46,7 +46,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lore
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/lore/technology/
 alternate_urls:
@@ -63,8 +63,6 @@ source_urls:
 - path: data/json/materials.json
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/json/materials.json
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28lore-technology%29%3A+&body=Document+ID%3A+lore-technology%0ALanguage%3A+en%0AVerified+commit%3A+c1b0f95c6d1b074fc49ee2a7976819c124b69047%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
 ---
 
 # Legacy migration draft: technology

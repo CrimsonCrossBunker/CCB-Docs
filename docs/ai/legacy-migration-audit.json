@@ -52,7 +52,7 @@
     "verified": 64
   },
   "missing_target_count": 0,
-  "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568",
+  "pending_source_pr": null,
   "preexisting_covered_record_count": 7,
   "preexisting_unique_target_count": 6,
   "records": [
@@ -163,7 +163,7 @@
     {
       "action": "merge_into",
       "catalog_id": "json.loading-order",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -214,7 +214,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "api.lua.v5.overview",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "LYHGLYTX"
       ],
@@ -233,7 +233,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "api.lua.v5.example-mod",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "LYHGLYTX"
       ],
@@ -444,7 +444,7 @@
     {
       "action": "generated_reference",
       "catalog_id": "mods.mind-over-matter.power-reference",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "Standing-Storm",
         "thaelina"
@@ -691,7 +691,7 @@
     {
       "action": "merge_into",
       "catalog_id": "mods.aftershock-exoplanet.lore.organizations",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -762,7 +762,7 @@
     {
       "action": "generated_reference",
       "catalog_id": "mods.aftershock-exoplanet.balance.ranged-weapons",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "Mihály Verhás",
         "thaelina"
@@ -1041,7 +1041,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "content.ascii-art",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1076,7 +1076,7 @@
     {
       "action": "merge_into",
       "catalog_id": "how-to.common-tasks",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1095,7 +1095,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "design.frequently-made-suggestions",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "LunaGlaze",
         "thaelina"
@@ -1115,7 +1115,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "content.firearms-naming-and-inclusion",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1172,7 +1172,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "mods.in-repository-policy",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1191,7 +1191,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "maintainers.issue-triage",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1210,7 +1210,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.artifacts",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1229,7 +1229,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.basecamp",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1248,7 +1248,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.climbing-aids",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "Killa-bite",
         "thaelina"
@@ -1268,7 +1268,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.dimensions",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "LYHGLYTX",
         "Anton Simakov",
@@ -1290,7 +1290,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.effects",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1309,7 +1309,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "eoc.reference",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "zihanZheng",
         "LunaGlaze",
@@ -1333,7 +1333,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.examine-actions",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "LunaGlaze",
         "Maleclypse",
@@ -1354,7 +1354,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.npc-factions",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1373,7 +1373,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.faction-missions",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1392,7 +1392,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "json.comestibles-placement",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1411,7 +1411,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.help-menu",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1430,7 +1430,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.items",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "LunaGlaze",
         "Standing-Storm",
@@ -1456,7 +1456,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.recipes-and-disassembly",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "Anton Simakov",
         "RenechCDDA",
@@ -1479,7 +1479,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.item-groups",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "dumb-kevin",
         "thaelina"
@@ -1499,7 +1499,7 @@
     {
       "action": "generated_reference",
       "catalog_id": "json.flags",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "LunaGlaze",
         "LYHGLYTX",
@@ -1528,7 +1528,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "json.object-types",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "LunaGlaze",
         "MrDraMaster",
@@ -1557,7 +1557,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.inheritance",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "zihanZheng",
         "ehughsbaird",
@@ -1578,7 +1578,7 @@
     {
       "action": "merge_into",
       "catalog_id": "json.loading-order",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1597,7 +1597,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "tutorial.mapgen-beginner",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1616,7 +1616,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "tutorial.mapgen-intermediate",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1635,7 +1635,7 @@
     {
       "action": "merge_into",
       "catalog_id": "tutorial.mapgen-beginner",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1654,7 +1654,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "contributing.json-style",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1673,7 +1673,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "how-to.json-tools",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1692,7 +1692,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.magic-spells-enchantments",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "LYHGLYTX",
         "Standing-Storm",
@@ -1714,7 +1714,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.mapgen",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "dumb-kevin",
         "ehughsbaird",
@@ -1736,7 +1736,7 @@
     {
       "action": "merge_into",
       "catalog_id": "json.terrain-and-furniture",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1755,7 +1755,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.martial-arts",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1774,7 +1774,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.missions",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "Maleclypse",
         "thaelina"
@@ -1794,7 +1794,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.monsters",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "Maleclypse",
         "thaelina"
@@ -1814,7 +1814,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.monster-special-attacks",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "Maleclypse",
         "thaelina"
@@ -1834,7 +1834,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.movement-modes",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1853,7 +1853,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.mutations",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1872,7 +1872,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.npcs-dialogue",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "Killa-bite",
         "Standing-Storm",
@@ -1899,7 +1899,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.obsoletion-and-migration",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1918,7 +1918,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.options",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1937,7 +1937,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.overmap",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "dumb-kevin",
         "thaelina"
@@ -1957,7 +1957,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.practice-recipes",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1976,7 +1976,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.proficiencies",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -1995,7 +1995,7 @@
     {
       "action": "generated_reference",
       "catalog_id": "json.proficiencies-index",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2014,7 +2014,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.region-layout",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "LYHGLYTX",
         "Anton Simakov"
@@ -2034,7 +2034,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.region-settings",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2053,7 +2053,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.terrain-furniture-transforms",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2072,7 +2072,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.vehicle-prototypes",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "LunaGlaze",
         "thaelina"
@@ -2092,7 +2092,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.vitamins",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "zihanZheng",
         "thaelina"
@@ -2112,7 +2112,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.weather-types",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "Anton Simakov",
         "thaelina"
@@ -2132,7 +2132,7 @@
     {
       "action": "migrate_preserve",
       "catalog_id": "json.wounds",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "Anton Simakov",
         "GuardianDll",
@@ -2153,7 +2153,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "content.manual-of-style",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2172,7 +2172,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "modding-overview",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "SpinosaurusBoat",
         "thaelina"
@@ -2192,7 +2192,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "mod-compatibility",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2269,7 +2269,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "soundpacks",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2288,7 +2288,7 @@
     {
       "action": "merge_into",
       "catalog_id": "testing-manual",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2307,7 +2307,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "tilesets",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2326,7 +2326,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "translation-guide",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "LunaGlaze",
         "thaelina"
@@ -2346,7 +2346,7 @@
     {
       "action": "merge_into",
       "catalog_id": "mod-localization",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2365,7 +2365,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "ui-accessibility",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2384,7 +2384,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "json-widgets",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2403,7 +2403,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "cpp-code-style",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2422,7 +2422,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "platform-matrix",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2441,7 +2441,7 @@
     {
       "action": "merge_into",
       "catalog_id": "build-windows-msvc",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2460,7 +2460,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "build-cmake",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2498,7 +2498,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "build-devcontainer",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2536,7 +2536,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "build-windows-msys2",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2555,7 +2555,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "build-windows-msvc",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "Maleclypse",
         "dumb-kevin",
@@ -2601,7 +2601,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "developer-tooling",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "dumb-kevin",
         "thaelina"
@@ -2621,7 +2621,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "cpp-json-interface",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "ehughsbaird"
       ],
@@ -2640,7 +2640,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "cpp-performance",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "g1ytx"
       ],
@@ -2659,7 +2659,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "cpp-coordinates",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2678,7 +2678,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "cpp-testing",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "g1ytx",
         "thaelina"
@@ -2698,7 +2698,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "json-armor-design",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2736,7 +2736,7 @@
     {
       "action": "merge_into",
       "catalog_id": "design-balance",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2774,7 +2774,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "design-portal-storms",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2793,7 +2793,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "json-item-pricing",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2812,7 +2812,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "design-steel-crafting",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "FarFarLakeSea",
         "thaelina"
@@ -2832,7 +2832,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "json-item-variants",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2851,7 +2851,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "design-batteries-electricity",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2870,7 +2870,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "design-balance",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2889,7 +2889,7 @@
     {
       "action": "merge_into",
       "catalog_id": "design-overview",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2908,7 +2908,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "design-gameplay",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2927,7 +2927,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "design-user-experience",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2946,7 +2946,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "lore-background",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2965,7 +2965,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "lore-factions",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -2984,7 +2984,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "lore-overview",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -3022,7 +3022,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "lore-technology",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -3060,7 +3060,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "pr-review-guide",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -3079,7 +3079,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "ui-colors",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -3098,7 +3098,7 @@
     {
       "action": "migrate_rewrite",
       "catalog_id": "ui-fonts",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],
@@ -3117,7 +3117,7 @@
     {
       "action": "merge_into",
       "catalog_id": "translation-guide",
-      "catalog_status": "draft",
+      "catalog_status": "active",
       "contributors": [
         "thaelina"
       ],

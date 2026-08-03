@@ -3,7 +3,7 @@
 id: api.lua.v5.performance
 title: Lua performance and resource bounds
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - mod-author
@@ -16,7 +16,7 @@ reviewers:
 - Documentation reviewers
 - Lua API reviewers
 review_interval_days: 60
-last_human_reviewer: Not yet reviewed (draft)
+last_human_reviewer: LYHGLYTX
 source_paths:
 - data/lua/README.md
 - data/lua/manifest.schema.json
@@ -33,8 +33,8 @@ verified_commit: 501f84d20d4bf432dd7fec9b757f5af6a18dae36
 verified_at: '2026-08-02'
 generated: false
 generated_by: null
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 8eac9b8b799105af96a709f068d936b1590c6986f0c735b31d9fa53323d4e233
@@ -53,7 +53,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/performance/
 alternate_urls:
@@ -76,8 +76,6 @@ source_urls:
 - path: tools/lua_api/README.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/501f84d20d4bf432dd7fec9b757f5af6a18dae36/tools/lua_api/README.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.performance%29%3A+&body=Document+ID%3A+api.lua.v5.performance%0ALanguage%3A+en%0AVerified+commit%3A+501f84d20d4bf432dd7fec9b757f5af6a18dae36%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
 ---
 
 # Lua performance and resource bounds

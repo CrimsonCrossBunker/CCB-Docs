@@ -3,7 +3,7 @@
 id: reference.eoc-conditions
 title: EOC 条件注册表
 language: zh_CN
-status: draft
+status: active
 doc_type: generated-api
 audiences:
 - experienced-contributor
@@ -30,8 +30,8 @@ verified_commit: d49367845e6cd725d5ca56d171b610047d64592d
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_json_eoc_reference.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 43adece2e4f0edd14e7c5c4287e0ad122edc3b963c4cb6674368d6938d972406
@@ -48,7 +48,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: eoc
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/
 alternate_urls:
@@ -67,8 +67,6 @@ source_urls:
 - path: src/condition.cpp
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d49367845e6cd725d5ca56d171b610047d64592d/src/condition.cpp
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28reference.eoc-conditions%29%3A+&body=Document+ID%3A+reference.eoc-conditions%0ALanguage%3A+zh_CN%0AVerified+commit%3A+d49367845e6cd725d5ca56d171b610047d64592d%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
 ---
 
 # EOC 条件注册表

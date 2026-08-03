@@ -3,7 +3,7 @@
 id: design.frequently-made-suggestions
 title: 旧文档迁移草稿：frequently made suggestions
 language: zh_CN
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -15,7 +15,7 @@ owners:
 reviewers:
 - Documentation reviewers
 review_interval_days: 365
-last_human_reviewer: Pending human review
+last_human_reviewer: LYHGLYTX
 source_paths:
 - doc/FREQUENTLY_MADE_SUGGESTIONS.md
 - GOVERNANCE.md
@@ -28,8 +28,8 @@ verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: af0954b710097deab20603683694fe5a573177c878cfbd3c7b0afb2ac3c6681f
@@ -46,7 +46,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: design
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/design/frequently-made-suggestions/
 alternate_urls:
@@ -63,8 +63,6 @@ source_urls:
 - path: README.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/README.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28design.frequently-made-suggestions%29%3A+&body=Document+ID%3A+design.frequently-made-suggestions%0ALanguage%3A+zh_CN%0AVerified+commit%3A+c1b0f95c6d1b074fc49ee2a7976819c124b69047%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
 ---
 
 # 旧文档迁移草稿：frequently made suggestions

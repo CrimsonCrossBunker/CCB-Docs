@@ -3,7 +3,7 @@
 id: ui-fonts
 title: 旧文档迁移草稿：fonts
 language: zh_CN
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -15,7 +15,7 @@ owners:
 reviewers:
 - Documentation reviewers
 review_interval_days: 365
-last_human_reviewer: Pending human review
+last_human_reviewer: LYHGLYTX
 source_paths:
 - doc/user-guides/FONT_OPTIONS.md
 - data/fontdata.json
@@ -31,8 +31,8 @@ verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 634558e639cab9730606b4698882130e95db0b9a7009c4f902d5f3657dec09b8
@@ -49,7 +49,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: ui
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/ui/fonts/
 alternate_urls:
@@ -68,8 +68,6 @@ source_urls:
 - path: src/sdl_font.cpp
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/src/sdl_font.cpp
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28ui-fonts%29%3A+&body=Document+ID%3A+ui-fonts%0ALanguage%3A+zh_CN%0AVerified+commit%3A+c1b0f95c6d1b074fc49ee2a7976819c124b69047%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
 ---
 
 # 旧文档迁移草稿：fonts

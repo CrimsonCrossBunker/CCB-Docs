@@ -3,7 +3,7 @@
 id: reference.json-object-types
 title: JSON object-type registry
 language: en
-status: draft
+status: active
 doc_type: generated-api
 audiences:
 - experienced-contributor
@@ -30,8 +30,8 @@ verified_commit: d49367845e6cd725d5ca56d171b610047d64592d
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_json_eoc_reference.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: bd2d1f0586e68ffde3c4850d1ae9b6f3157c05a1e101c3c0c5b399eff13a2965
@@ -48,7 +48,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/566
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/
 alternate_urls:
@@ -67,8 +67,6 @@ source_urls:
 - path: src/init.cpp
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d49367845e6cd725d5ca56d171b610047d64592d/src/init.cpp
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28reference.json-object-types%29%3A+&body=Document+ID%3A+reference.json-object-types%0ALanguage%3A+en%0AVerified+commit%3A+d49367845e6cd725d5ca56d171b610047d64592d%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
 ---
 
 # JSON object-type registry

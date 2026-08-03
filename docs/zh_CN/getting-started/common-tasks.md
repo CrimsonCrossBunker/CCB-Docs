@@ -54,7 +54,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: project-context
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/560
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/common-tasks/
 alternate_urls:

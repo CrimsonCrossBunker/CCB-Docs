@@ -3,7 +3,7 @@
 id: json-item-variants
 title: 'Legacy migration draft: item variants'
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -15,7 +15,7 @@ owners:
 reviewers:
 - Documentation reviewers
 review_interval_days: 365
-last_human_reviewer: Pending human review
+last_human_reviewer: LYHGLYTX
 source_paths:
 - doc/design-balance-lore/VARIANTS.md
 - src/item_factory.cpp
@@ -31,8 +31,8 @@ verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 85a963cee90361864c6ef46f82350c18726d8b451feebb270889500ddfffa34d
@@ -49,7 +49,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/item-variants/
 alternate_urls:
@@ -70,8 +70,6 @@ source_urls:
 - path: data/json/artifact/artifact_item_types.json
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/json/artifact/artifact_item_types.json
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json-item-variants%29%3A+&body=Document+ID%3A+json-item-variants%0ALanguage%3A+en%0AVerified+commit%3A+c1b0f95c6d1b074fc49ee2a7976819c124b69047%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
 ---
 
 # Legacy migration draft: item variants

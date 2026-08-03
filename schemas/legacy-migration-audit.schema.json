@@ -27,29 +27,78 @@
     "records"
   ],
   "properties": {
-    "schema_version": { "const": 1 },
-    "generated_by": { "const": "scripts/generate_legacy_migration.py" },
-    "source_commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
-    "inventory_source_commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
-    "pending_source_pr": { "type": "string", "format": "uri" },
-    "document_count": { "const": 175 },
+    "schema_version": {
+      "const": 1
+    },
+    "generated_by": {
+      "const": "scripts/generate_legacy_migration.py"
+    },
+    "source_commit": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "inventory_source_commit": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "pending_source_pr": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "uri"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "document_count": {
+      "const": 175
+    },
     "action_counts": {
       "type": "object",
-      "additionalProperties": { "type": "integer", "minimum": 0 }
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      }
     },
     "migration_status_counts": {
-      "const": { "archived": 7, "stubbed": 104, "verified": 64 }
+      "const": {
+        "archived": 7,
+        "stubbed": 104,
+        "verified": 64
+      }
     },
-    "review_count": { "const": 0 },
-    "classified_count": { "const": 0 },
-    "in_progress_count": { "const": 0 },
-    "selected_record_count": { "const": 111 },
-    "selected_unique_target_count": { "const": 105 },
-    "preexisting_covered_record_count": { "const": 7 },
-    "preexisting_unique_target_count": { "const": 6 },
-    "generated_record_count": { "const": 104 },
-    "generated_unique_target_count": { "const": 99 },
-    "missing_target_count": { "const": 0 },
+    "review_count": {
+      "const": 0
+    },
+    "classified_count": {
+      "const": 0
+    },
+    "in_progress_count": {
+      "const": 0
+    },
+    "selected_record_count": {
+      "const": 111
+    },
+    "selected_unique_target_count": {
+      "const": 105
+    },
+    "preexisting_covered_record_count": {
+      "const": 7
+    },
+    "preexisting_unique_target_count": {
+      "const": 6
+    },
+    "generated_record_count": {
+      "const": 104
+    },
+    "generated_unique_target_count": {
+      "const": 99
+    },
+    "missing_target_count": {
+      "const": 0
+    },
     "generated_reference_coverage": {
       "type": "object",
       "required": [
@@ -61,40 +110,78 @@
       "properties": {
         "json.flags": {
           "type": "object",
-          "required": [ "json_flags", "scope" ],
+          "required": [
+            "json_flags",
+            "scope"
+          ],
           "properties": {
-            "json_flags": { "const": 648 },
-            "scope": { "const": "partial-direct-definitions" }
+            "json_flags": {
+              "const": 648
+            },
+            "scope": {
+              "const": "partial-direct-definitions"
+            }
           },
           "additionalProperties": false
         },
         "json.proficiencies-index": {
           "type": "object",
-          "required": [ "proficiencies", "proficiency_categories", "scope", "summary" ],
+          "required": [
+            "proficiencies",
+            "proficiency_categories",
+            "scope",
+            "summary"
+          ],
           "properties": {
-            "proficiencies": { "const": 50 },
-            "proficiency_categories": { "const": 21 },
-            "scope": { "const": "partial-declared-inputs" },
-            "summary": { "type": "string", "minLength": 1 }
+            "proficiencies": {
+              "const": 50
+            },
+            "proficiency_categories": {
+              "const": 21
+            },
+            "scope": {
+              "const": "partial-declared-inputs"
+            },
+            "summary": {
+              "type": "string",
+              "minLength": 1
+            }
           },
           "additionalProperties": false
         },
         "mods.mind-over-matter.power-reference": {
           "type": "object",
-          "required": [ "mind_over_matter_spells", "scope" ],
+          "required": [
+            "mind_over_matter_spells",
+            "scope"
+          ],
           "properties": {
-            "mind_over_matter_spells": { "const": 226 },
-            "scope": { "const": "partial-direct-fields" }
+            "mind_over_matter_spells": {
+              "const": 226
+            },
+            "scope": {
+              "const": "partial-direct-fields"
+            }
           },
           "additionalProperties": false
         },
         "mods.aftershock-exoplanet.balance.ranged-weapons": {
           "type": "object",
-          "required": [ "aftershock_item_definitions", "aftershock_item_groups", "scope" ],
+          "required": [
+            "aftershock_item_definitions",
+            "aftershock_item_groups",
+            "scope"
+          ],
           "properties": {
-            "aftershock_item_definitions": { "const": 18 },
-            "aftershock_item_groups": { "const": 37 },
-            "scope": { "const": "partial-balance-inputs" }
+            "aftershock_item_definitions": {
+              "const": 18
+            },
+            "aftershock_item_groups": {
+              "const": 37
+            },
+            "scope": {
+              "const": "partial-balance-inputs"
+            }
           },
           "additionalProperties": false
         }
@@ -114,14 +201,30 @@
         "decision"
       ],
       "properties": {
-        "selected_final_paths": { "const": 111 },
-        "self_contained_size_mib": { "const": 14 },
-        "commits": { "const": 1351 },
-        "author_identities": { "const": 226 },
-        "final_paths": { "const": 111 },
-        "rename_records": { "const": 0 },
-        "fsck": { "const": "passed" },
-        "decision": { "const": "retain-source-history-links" }
+        "selected_final_paths": {
+          "const": 111
+        },
+        "self_contained_size_mib": {
+          "const": 14
+        },
+        "commits": {
+          "const": 1351
+        },
+        "author_identities": {
+          "const": 226
+        },
+        "final_paths": {
+          "const": 111
+        },
+        "rename_records": {
+          "const": 0
+        },
+        "fsck": {
+          "const": "passed"
+        },
+        "decision": {
+          "const": "retain-source-history-links"
+        }
       },
       "additionalProperties": false
     },
@@ -150,32 +253,83 @@
             "type": "string",
             "pattern": "^[a-z0-9][a-z0-9._-]*$"
           },
-          "original_path": { "type": "string", "minLength": 1 },
-          "target_path": { "type": [ "string", "null" ] },
-          "action": { "type": "string", "minLength": 1 },
-          "migration_status": {
-            "enum": [ "stubbed", "archived", "verified" ]
+          "original_path": {
+            "type": "string",
+            "minLength": 1
           },
-          "source_commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
+          "target_path": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "action": {
+            "type": "string",
+            "minLength": 1
+          },
+          "migration_status": {
+            "enum": [
+              "stubbed",
+              "archived",
+              "verified"
+            ]
+          },
+          "source_commit": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{40}$"
+          },
           "last_applicable_commit": {
-            "type": [ "string", "null" ],
+            "type": [
+              "string",
+              "null"
+            ],
             "pattern": "^[0-9a-f]{40}$"
           },
           "contributors": {
             "type": "array",
             "minItems": 1,
             "uniqueItems": true,
-            "items": { "type": "string", "minLength": 1, "maxLength": 160 }
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 160
+            }
           },
-          "license": { "type": "string", "minLength": 1 },
-          "history_url": { "type": "string", "format": "uri" },
-          "replacement": { "type": [ "string", "null" ] },
-          "catalog_id": { "type": [ "string", "null" ] },
+          "license": {
+            "type": "string",
+            "minLength": 1
+          },
+          "history_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "replacement": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "catalog_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
           "catalog_status": {
-            "enum": [ "active", "draft", "archived" ]
+            "enum": [
+              "active",
+              "draft",
+              "archived"
+            ]
           },
-          "zh_path": { "type": "string", "minLength": 1 },
-          "en_path": { "type": "string", "minLength": 1 }
+          "zh_path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "en_path": {
+            "type": "string",
+            "minLength": 1
+          }
         },
         "additionalProperties": false
       }

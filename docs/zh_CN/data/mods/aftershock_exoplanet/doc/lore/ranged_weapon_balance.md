@@ -3,7 +3,7 @@
 id: mods.aftershock-exoplanet.balance.ranged-weapons
 title: Aftershock 远程武器平衡输入索引
 language: zh_CN
-status: draft
+status: active
 doc_type: generated-api
 audiences:
 - new-contributor
@@ -15,7 +15,7 @@ owners:
 reviewers:
 - Documentation reviewers
 review_interval_days: 365
-last_human_reviewer: Pending human review
+last_human_reviewer: LYHGLYTX
 source_paths:
 - data/mods/aftershock_exoplanet/doc/lore/ranged_weapon_balance.md
 - data/mods/aftershock_exoplanet/modinfo.json
@@ -30,8 +30,8 @@ verified_commit: c1b0f95c6d1b074fc49ee2a7976819c124b69047
 verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 9801f178bd0018c7ae57597f7bce1ef3ce09a7e4d1077628facb86c0cea7c28b
@@ -48,7 +48,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: mods
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/568
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/data/mods/aftershock_exoplanet/doc/lore/ranged_weapon_balance/
 alternate_urls:
@@ -69,8 +69,6 @@ source_urls:
 - path: data/mods/aftershock_exoplanet/itemgroups/weapons/balistic_gun_groups.json
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c1b0f95c6d1b074fc49ee2a7976819c124b69047/data/mods/aftershock_exoplanet/itemgroups/weapons/balistic_gun_groups.json
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28mods.aftershock-exoplanet.balance.ranged-weapons%29%3A+&body=Document+ID%3A+mods.aftershock-exoplanet.balance.ranged-weapons%0ALanguage%3A+zh_CN%0AVerified+commit%3A+c1b0f95c6d1b074fc49ee2a7976819c124b69047%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
 ---
 
 # Aftershock 远程武器平衡输入索引
