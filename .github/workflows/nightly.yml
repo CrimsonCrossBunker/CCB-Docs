@@ -64,11 +64,11 @@ jobs:
           --json-output .build/link-report.json
 
       - name: Detect source-path drift
-        run: >-
-          uv run python scripts/check_source_drift.py
-          --source-repo .build/ccb-source
-          --target-ref HEAD
-          --json-output .build/source-drift.json
+        run: |
+          uv run python scripts/check_source_drift.py \
+            --source-repo .build/ccb-source \
+            --target-ref HEAD \
+            --json-output .build/source-drift.json
           ls -la .build/
 
       - name: Upload weekly maintenance evidence
