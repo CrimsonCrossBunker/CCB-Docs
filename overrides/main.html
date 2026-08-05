@@ -74,7 +74,7 @@
         {{ "报告本页问题（Alt+I）" if page.meta.language == "zh_CN" else "Report a page issue (Alt+I)" }}
       </a>
       {% set alternate_language = "en" if page.meta.language == "zh_CN" else "zh" %}
-      <a href="{{ page.meta.alternate_urls[alternate_language] }}" hreflang="{{ alternate_language }}" data-ccb-language-switch>
+      <a href="{{ page.meta.alternate_urls[alternate_language] }}" data-ccb-language-switch>
         {{ "English（Alt+L）" if page.meta.language == "zh_CN" else "中文（Alt+L）" }}
       </a>
     </footer>
