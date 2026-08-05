@@ -9,7 +9,7 @@
         {% for alt in config.extra.alternate %}
           {% set target = page.meta.alternate_urls[alt.lang] if page and page.meta and page.meta.alternate_urls else alt.link %}
           <li class="md-select__item">
-            <a href="{{ target }}" hreflang="{{ alt.lang }}" class="md-select__link"
+            <a href="{{ target }}" class="md-select__link"
               {% if page and page.meta and target != page.meta.canonical_url %}data-ccb-language-switch{% endif %}>
               {{ alt.name }}
             </a>
