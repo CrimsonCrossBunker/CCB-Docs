@@ -3,8 +3,11 @@
 {% block extrahead %}
   {{ super() }}
   {% if page and page.meta %}
+    {% set theme_alternate_languages = config.extra.alternate | map(attribute="lang") | list %}
     {% for language, url in page.meta.alternate_urls.items() %}
-      <link rel="alternate" hreflang="{{ language }}" href="{{ url }}">
+      {% if language not in theme_alternate_languages %}
+        <link rel="alternate" hreflang="{{ language }}" href="{{ url }}">
+      {% endif %}
     {% endfor %}
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="CCB Developer Documentation">
