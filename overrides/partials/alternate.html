@@ -6,12 +6,17 @@
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
-        {% for alt in config.extra.alternate %}
-          {% set target = page.meta.alternate_urls[alt.lang] if page and page.meta and page.meta.alternate_urls else alt.link %}
+        {% set language_urls = page.meta.alternate_urls if page and page.meta and page.meta.alternate_urls else {} %}
+        {% for language in ["zh", "en"] %}
+          {% if language not in language_urls %}
+            {% continue %}
+          {% endif %}
+          {% set target = language_urls[language] %}
           <li class="md-select__item">
-            <a href="{{ target }}" class="md-select__link"
-              {% if page and page.meta and target != page.meta.canonical_url %}data-ccb-language-switch{% endif %}>
-              {{ alt.name }}
+            <a href="{{ target }}"
+              class="md-select__link"
+              {% if target != page.meta.canonical_url %}data-ccb-language-switch{% endif %}>
+              {{ "中文（Alt+L）" if language == "zh" else "English（Alt+L）" }}
             </a>
           </li>
         {% endfor %}

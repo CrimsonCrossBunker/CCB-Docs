@@ -175,7 +175,7 @@ def stage_language(
             }
         }
     ]
-    config.setdefault("extra", {})["alternate"] = language_alternates(catalog)
+    config.setdefault("extra", {})["alternate"] = []
     config["extra"].update(
         {
             "catalog_root_url": base_url,
