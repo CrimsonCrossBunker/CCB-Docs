@@ -103,6 +103,18 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/design-principles/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/design-principles/"
   },
+  "architecture.lua-first-glossary": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-glossary/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-glossary/"
+  },
+  "architecture.lua-first-platform": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-platform/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-platform/"
+  },
+  "architecture.lua-first-roadmap": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-roadmap/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-roadmap/"
+  },
   "architecture.overview": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/overview/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/overview/"
