@@ -24,17 +24,17 @@ source_paths:
 - src/worldfactory.cpp
 source_symbols: []
 source_queries: []
-source_fingerprint: 94e740aebf8849eb1db050a8e428d16a143a424fe541546638c138d1dc759176
+source_fingerprint: df55bb55195f94c2514d2e905e94eea1cd9cec31d69201450173ea2da1c41010
 authority: source-and-tests
-verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-verified_at: '2026-08-02'
+verified_commit: 71f403ecea0dcf16be8fe93c661acbe2a4906cc6
+verified_at: '2026-08-09'
 generated: false
 generated_by: null
 include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: e09ef4b70f339892b6a214edaf933da9ada135e574dcd2acdbc2df204acf345d
+translation_source_fingerprint: 3596e034c75ddee6ed3c287ade547d64bb8aa37481ee6141b98f1e6df3ee8106
 prerequisites:
 - architecture.overview
 depends_on: []
@@ -57,21 +57,21 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/save/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/save/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/d32b9cc880a85480840d82cfa05d256c78a16615
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/71f403ecea0dcf16be8fe93c661acbe2a4906cc6
 source_urls:
 - path: CONTRIBUTING.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/CONTRIBUTING.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/71f403ecea0dcf16be8fe93c661acbe2a4906cc6/CONTRIBUTING.md
 - path: doc/JSON/OBSOLETION_AND_MIGRATION.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/doc/JSON/OBSOLETION_AND_MIGRATION.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/71f403ecea0dcf16be8fe93c661acbe2a4906cc6/doc/JSON/OBSOLETION_AND_MIGRATION.md
 - path: src/savegame.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/src/savegame.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/71f403ecea0dcf16be8fe93c661acbe2a4906cc6/src/savegame.cpp
 - path: src/savegame_json.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/src/savegame_json.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/71f403ecea0dcf16be8fe93c661acbe2a4906cc6/src/savegame_json.cpp
 - path: src/savegame_legacy.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/src/savegame_legacy.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/71f403ecea0dcf16be8fe93c661acbe2a4906cc6/src/savegame_legacy.cpp
 - path: src/worldfactory.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/src/worldfactory.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28compatibility.save%29%3A+&body=Document+ID%3A+compatibility.save%0ALanguage%3A+en%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/71f403ecea0dcf16be8fe93c661acbe2a4906cc6/src/worldfactory.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28compatibility.save%29%3A+&body=Document+ID%3A+compatibility.save%0ALanguage%3A+en%0AVerified+commit%3A+71f403ecea0dcf16be8fe93c661acbe2a4906cc6%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Save compatibility
@@ -104,3 +104,17 @@ idempotent where practical, and covered by a focused regression test.
 The `savegame*` and `worldfactory` implementations at the page's verified
 commit are the runtime authority. Legacy prose explains concepts but cannot
 override current serialization code and tests.
+
+## Finite-water save state
+
+The remaining amount in finite ponds, pools, and channels is stored in the
+submap's `finite_liquids` member rather than as ground items. Each record holds
+the in-submap coordinates and remaining charges; a tile with no remaining
+liquid has no record.
+
+When an older finite-water save is loaded, the loader absorbs matching ground
+liquid from finite-water terrain into this hidden state and clamps it to the
+terrain's capacity. This removes the item sprite that covered the water and
+preserves the amount through later save/load cycles. Changes to this migration
+need coverage for legacy ground liquid, the new hidden state, and two
+consecutive save/load cycles.

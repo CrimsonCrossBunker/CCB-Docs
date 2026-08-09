@@ -769,12 +769,12 @@ pages:
     source_paths: [CONTRIBUTING.md, doc/JSON/OBSOLETION_AND_MIGRATION.md, src/savegame.cpp, src/savegame_json.cpp, src/savegame_legacy.cpp, src/worldfactory.cpp]
     source_symbols: []
     source_queries: []
-    source_fingerprint: 94e740aebf8849eb1db050a8e428d16a143a424fe541546638c138d1dc759176
+    source_fingerprint: df55bb55195f94c2514d2e905e94eea1cd9cec31d69201450173ea2da1c41010
     authority: source-and-tests
-    verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-    verified_at: '2026-08-02'
+    verified_commit: 71f403ecea0dcf16be8fe93c661acbe2a4906cc6
+    verified_at: '2026-08-09'
     translation_group: compatibility.save
-    translation_source_fingerprint: e09ef4b70f339892b6a214edaf933da9ada135e574dcd2acdbc2df204acf345d
+    translation_source_fingerprint: 3596e034c75ddee6ed3c287ade547d64bb8aa37481ee6141b98f1e6df3ee8106
     prerequisites: [architecture.overview]
     depends_on: []
     example_validation_ids: [cpp-tests]
@@ -1402,8 +1402,8 @@ pages:
     title: Complete Lua API v5 example Mod
     language: en
 
-  # JSON/EOC pages remain draft until CCB #566 lands and verified_commit is
-  # refreshed to the final master commit.
+  # Keep a coordinating docs PR draft until its source PR lands, then refresh
+  # these pages to the final CCB master commit before merging the docs PR.
   - &json_overview_zh
     <<: *page_defaults
     id: json.overview
@@ -1420,10 +1420,10 @@ pages:
     source_paths: [data/reference/json/ccb_json_object_types.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/init.cpp, src/generic_factory.h, tests/json_load_test.cpp, doc/JSON/JSON_INHERITANCE.md, doc/JSON/JSON_STYLE.md]
     source_symbols: []
     source_queries: []
-    source_fingerprint: 694345d1f3eb604519f90e93d870396341c99719edf7270e88a651574b995a7e
+    source_fingerprint: 193b9bff99a0dd6dad93b0353ad014c05415af02a70333df08c4f2eab3a5b6c8
     authority: api-contract
-    verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-    verified_at: '2026-08-02'
+    verified_commit: 71f403ecea0dcf16be8fe93c661acbe2a4906cc6
+    verified_at: '2026-08-09'
     generated: false
     generated_by: null
     include_in_search: true
@@ -1431,7 +1431,7 @@ pages:
     translation_group: json.overview
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: d24151da9c3f3be1b0307ecb5a26a8425e9791b3376028d77e457e08745e6012
+    translation_source_fingerprint: acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c
     prerequisites: [architecture.project-map]
     depends_on: [reference.json-object-types, validation.testing]
     redirect_from: []
@@ -1503,10 +1503,10 @@ pages:
     source_paths: [data/reference/json/ccb_json_object_types.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, src/init.cpp]
     source_symbols: [DynamicDataLoader::initialize]
     source_queries: []
-    source_fingerprint: 24688c8806118007447a0452f506fc8421bed76d80bf4aae8c9382053ae60358
+    source_fingerprint: 103cffbcf4ef397fabcb65be93f628da6e0c5e55a5e858ee191d998054358b92
     authority: api-contract
-    verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-    verified_at: '2026-08-02'
+    verified_commit: 71f403ecea0dcf16be8fe93c661acbe2a4906cc6
+    verified_at: '2026-08-09'
     generated: true
     generated_by: scripts/generate_json_eoc_reference.py
     include_in_search: true
@@ -1514,7 +1514,7 @@ pages:
     translation_group: reference.json-object-types
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 9b4f05ff6506dbd6e1e69b60ca218f219555c93b7d1967bfee6b22282a217f9d
+    translation_source_fingerprint: 0e94e23c1672e38c760b17b0e11d55cc5c140236cadcc583af838112fec15041
     prerequisites: [json.overview]
     depends_on: []
     redirect_from: []
@@ -1551,10 +1551,10 @@ pages:
     source_paths: [data/reference/json/ccb_eoc_conditions.json, data/reference/json/ccb_eoc_effects.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/condition.cpp, src/npctalk.cpp, src/effect_on_condition.cpp, src/effect_on_condition.h, tests/eoc_test.cpp, doc/JSON/EFFECT_ON_CONDITION.md]
     source_symbols: []
     source_queries: []
-    source_fingerprint: 3decb33447a3fd37a7de3a7328e8bd883da5aeb39b13f2e6f27c2cb82bb52876
+    source_fingerprint: 104d655e889b5071282102d8ebd64521a5dbdc36ad6c7a6b6daacdd6e00e8689
     authority: api-contract
-    verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-    verified_at: '2026-08-02'
+    verified_commit: 71f403ecea0dcf16be8fe93c661acbe2a4906cc6
+    verified_at: '2026-08-09'
     generated: false
     generated_by: null
     include_in_search: true
@@ -1562,7 +1562,7 @@ pages:
     translation_group: eoc.overview
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 99bd0f3eddb34fe638f11f39532dd38dc95dbb2551c9a6e9553cdbaa18b2be53
+    translation_source_fingerprint: 6ade8b771f3f8e8fda9e53cded6b0c1893f6023f1cd6a65c7be38ffa2b8f1146
     prerequisites: [json.overview]
     depends_on: [reference.eoc-conditions, reference.eoc-effects]
     redirect_from: []
@@ -1650,10 +1650,10 @@ pages:
     source_paths: [data/reference/json/ccb_eoc_conditions.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, src/condition.cpp]
     source_symbols: [conditional_t::conditional_t]
     source_queries: []
-    source_fingerprint: a0110e70c22d511c86047739efe5438dc799524db83c52a0738e0f53826f401f
+    source_fingerprint: 766eb7109238e020336be20410c878ee9c80910641f6741ed922c98f0f70f452
     authority: api-contract
-    verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-    verified_at: '2026-08-02'
+    verified_commit: 71f403ecea0dcf16be8fe93c661acbe2a4906cc6
+    verified_at: '2026-08-09'
     generated: true
     generated_by: scripts/generate_json_eoc_reference.py
     include_in_search: true
@@ -1661,7 +1661,7 @@ pages:
     translation_group: reference.eoc-conditions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 4a7a097e9cec99dc57c6026b11a2df9dcb79c7836ce29fea19f6f4578a8a264e
+    translation_source_fingerprint: 23858c43b9cde9f2eb950bb6ac869ae01eff6b0af38ec5be0a4f802ff034bc8c
     prerequisites: [eoc.overview]
     depends_on: []
     redirect_from: []
@@ -1690,9 +1690,9 @@ pages:
     path: reference/eoc-effects.md
     source_paths: [data/reference/json/ccb_eoc_effects.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, src/npctalk.cpp]
     source_symbols: [talk_effect_t::parse_sub_effect, talk_effect_t::parse_string_effect]
-    source_fingerprint: 66384859fb947846821e5e6a6ec36dffad55dbff6dd45073b6deba47df8d3a30
+    source_fingerprint: c86c31a928da0005608507696911f462917a9f3de7815ead498ec0948e657075
     translation_group: reference.eoc-effects
-    translation_source_fingerprint: 7b27aa66b02c5d553f264a07954bec9657ef771b720f121d6340593039b148ee
+    translation_source_fingerprint: d9c63d871b4d7e3f8d4f036254fee3b1f774d0947910146840c2e1b26aef398d
     nav: { section: 生成参考, order: 145 }
   - <<: *effect_reference_zh
     title: EOC effect registry

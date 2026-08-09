@@ -28,17 +28,17 @@ source_paths:
 - doc/JSON/JSON_STYLE.md
 source_symbols: []
 source_queries: []
-source_fingerprint: 694345d1f3eb604519f90e93d870396341c99719edf7270e88a651574b995a7e
+source_fingerprint: 193b9bff99a0dd6dad93b0353ad014c05415af02a70333df08c4f2eab3a5b6c8
 authority: api-contract
-verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-verified_at: '2026-08-02'
+verified_commit: 71f403ecea0dcf16be8fe93c661acbe2a4906cc6
+verified_at: '2026-08-09'
 generated: false
 generated_by: null
 include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: d24151da9c3f3be1b0307ecb5a26a8425e9791b3376028d77e457e08745e6012
+translation_source_fingerprint: acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c
 prerequisites:
 - architecture.project-map
 depends_on:
@@ -62,27 +62,27 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/d32b9cc880a85480840d82cfa05d256c78a16615
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/71f403ecea0dcf16be8fe93c661acbe2a4906cc6
 source_urls:
 - path: data/reference/json/ccb_json_object_types.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/reference/json/ccb_json_object_types.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/71f403ecea0dcf16be8fe93c661acbe2a4906cc6/data/reference/json/ccb_json_object_types.json
 - path: tools/json_api/contract-inventory.schema.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/tools/json_api/contract-inventory.schema.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/71f403ecea0dcf16be8fe93c661acbe2a4906cc6/tools/json_api/contract-inventory.schema.json
 - path: tools/json_api/generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/tools/json_api/generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/71f403ecea0dcf16be8fe93c661acbe2a4906cc6/tools/json_api/generate_contracts.py
 - path: tools/json_api/test_generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/tools/json_api/test_generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/71f403ecea0dcf16be8fe93c661acbe2a4906cc6/tools/json_api/test_generate_contracts.py
 - path: src/init.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/src/init.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/71f403ecea0dcf16be8fe93c661acbe2a4906cc6/src/init.cpp
 - path: src/generic_factory.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/src/generic_factory.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/71f403ecea0dcf16be8fe93c661acbe2a4906cc6/src/generic_factory.h
 - path: tests/json_load_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/tests/json_load_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/71f403ecea0dcf16be8fe93c661acbe2a4906cc6/tests/json_load_test.cpp
 - path: doc/JSON/JSON_INHERITANCE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/doc/JSON/JSON_INHERITANCE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/71f403ecea0dcf16be8fe93c661acbe2a4906cc6/doc/JSON/JSON_INHERITANCE.md
 - path: doc/JSON/JSON_STYLE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/doc/JSON/JSON_STYLE.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.overview%29%3A+&body=Document+ID%3A+json.overview%0ALanguage%3A+en%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/71f403ecea0dcf16be8fe93c661acbe2a4906cc6/doc/JSON/JSON_STYLE.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.overview%29%3A+&body=Document+ID%3A+json.overview%0ALanguage%3A+en%0AVerified+commit%3A+71f403ecea0dcf16be8fe93c661acbe2a4906cc6%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # JSON contract overview
@@ -96,7 +96,7 @@ and data examples are leads, not overrides for those contracts.
 
 - The [JSON object-type registry](../reference/json-object-types.md) indexes 190 unique
   registered types and 191 registration calls.
-- 183 registered types have top-level instance candidates among 6,714 audited tracked JSON files.
+- 183 registered types have top-level instance candidates among 6,731 audited tracked JSON files.
 - Seven registered types have no instance candidate; the inventory found no observed, unregistered
   top-level string type.
 - All 190 general Schema statuses are `none`; the registry must not be presented as a complete
@@ -105,7 +105,7 @@ and data examples are leads, not overrides for those contracts.
   `effect_on_condition`.
 
 These figures describe the generated inventories at commit
-`a038c765568fc47a58ef8c523b2722d416f5f61c`. They do not claim that every field, default,
+`71f403ecea0dcf16be8fe93c661acbe2a4906cc6`. They do not claim that every field, default,
 inheritance rule, or cross-ID reference has been classified.
 
 ## How an object acquires meaning
