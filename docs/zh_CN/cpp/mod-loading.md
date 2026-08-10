@@ -3,7 +3,7 @@
 id: cpp.mod-loading
 title: Mod 加载子系统
 language: zh_CN
-status: active
+status: stale
 doc_type: reference
 audiences:
 - experienced-contributor
@@ -31,7 +31,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 6a5379b1d791d0685dd13a81b84bff6f036d60fd00f92f78e1e3b782671038b8
@@ -53,7 +53,7 @@ deprecation_replacement: null
 risk_group: mod-loading
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: src/mod_manager.cpp'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/mod-loading/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/mod-loading/

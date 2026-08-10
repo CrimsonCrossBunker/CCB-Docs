@@ -3,7 +3,7 @@
 id: json.overview
 title: JSON contract overview
 language: en
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - new-contributor
@@ -35,7 +35,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: d24151da9c3f3be1b0307ecb5a26a8425e9791b3376028d77e457e08745e6012
@@ -55,7 +55,8 @@ deprecation_replacement: null
 risk_group: json
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: data/reference/json/ccb_json_object_types.json,
+  tools/json_api/test_generate_contracts.py'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/

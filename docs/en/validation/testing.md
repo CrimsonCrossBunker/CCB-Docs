@@ -3,7 +3,7 @@
 id: validation.testing
 title: Testing strategy
 language: en
-status: active
+status: stale
 doc_type: how-to
 audiences:
 - new-contributor
@@ -30,7 +30,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 27c3188f8b9caae09e06f14131656ef8e57194f1724313695c7ea0af699a2549
@@ -53,7 +53,7 @@ deprecation_replacement: null
 risk_group: testing
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: Makefile'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/testing/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/validation/testing/

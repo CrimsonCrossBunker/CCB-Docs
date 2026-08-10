@@ -3,7 +3,7 @@
 id: reference.json-object-types
 title: JSON object-type registry
 language: en
-status: active
+status: stale
 doc_type: generated-api
 audiences:
 - experienced-contributor
@@ -31,7 +31,7 @@ verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_json_eoc_reference.py
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 9b4f05ff6506dbd6e1e69b60ca218f219555c93b7d1967bfee6b22282a217f9d
@@ -49,7 +49,7 @@ deprecation_replacement: null
 risk_group: json
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: data/reference/json/ccb_json_object_types.json'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/

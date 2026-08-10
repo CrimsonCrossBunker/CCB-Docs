@@ -3,7 +3,7 @@
 id: api.lua.v5.reference.classes
 title: 类与记录参考
 language: zh_CN
-status: active
+status: stale
 doc_type: generated-api
 audiences:
 - mod-author
@@ -30,7 +30,7 @@ verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_lua_reference.py
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: ef35f92963e4520e9568df8959bc60833aa76d42bb041e28ed4967f3df0e8c21
@@ -48,7 +48,7 @@ deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_public_api_v5_coverage.json'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/classes/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/classes/

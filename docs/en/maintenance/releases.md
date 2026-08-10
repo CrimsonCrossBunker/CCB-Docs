@@ -3,7 +3,7 @@
 id: maintenance.releases
 title: Release maintenance
 language: en
-status: active
+status: stale
 doc_type: how-to
 audiences:
 - maintainer
@@ -27,7 +27,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: b257834293240b817b77b6d8244f0484ff475e9215a6a56f402f0c7f90db9d29
@@ -49,7 +49,8 @@ deprecation_replacement: null
 risk_group: release
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: .github/workflows/release-android-bundle.yaml,
+  .github/workflows/release.yml'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/releases/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/releases/

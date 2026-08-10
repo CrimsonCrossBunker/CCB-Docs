@@ -3,7 +3,7 @@
 id: eoc.nesting
 title: Nesting EOC conditions and effects
 language: en
-status: active
+status: stale
 doc_type: how-to
 audiences:
 - new-contributor
@@ -38,7 +38,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 4e8fdd81409a1c292a8d63686520b06e3357687cfa09c99965a731e0090d96d3
@@ -57,7 +57,8 @@ deprecation_replacement: null
 risk_group: eoc
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: data/reference/json/ccb_eoc_conditions.json, data/reference/json/ccb_eoc_effects.json,
+  doc/JSON/EFFECT_ON_CONDITION.md, …'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/nesting/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/eoc/nesting/

@@ -3,7 +3,7 @@
 id: api.lua.v5.migration
 title: 迁移到 Lua API v5
 language: zh_CN
-status: active
+status: stale
 doc_type: how-to
 audiences:
 - mod-author
@@ -34,7 +34,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: c8a8f098d63c7f79ce5c0ab4a7464e05da60693906e8a2215cfc398aecd0e3e8
@@ -55,7 +55,8 @@ deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: data/lua/README.md, data/lua/manifest.schema.json,
+  data/lua/reference/ccb_public_api_v5.json, …'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/migration/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/migration/

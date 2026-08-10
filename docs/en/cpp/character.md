@@ -3,7 +3,7 @@
 id: cpp.character
 title: Character subsystem
 language: en
-status: active
+status: stale
 doc_type: reference
 audiences:
 - experienced-contributor
@@ -30,7 +30,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 18981a2c728ee2086cc0f845397786036da299f213159c1a0587ff087c5379b4
@@ -49,7 +49,7 @@ deprecation_replacement: null
 risk_group: cpp-character
 risk_level: normal
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: src/character.cpp'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/character/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/character/

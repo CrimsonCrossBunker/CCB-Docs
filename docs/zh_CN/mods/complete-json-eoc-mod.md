@@ -3,7 +3,7 @@
 id: mods.complete-json-eoc-mod
 title: 完整 JSON/EOC Mod 教程
 language: zh_CN
-status: active
+status: stale
 doc_type: tutorial
 audiences:
 - new-contributor
@@ -34,7 +34,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 6ded0b43085f4eef208e8256f7d9d497323f2dba7a085068a440d48be7a306c8
@@ -58,7 +58,8 @@ deprecation_replacement: null
 risk_group: mods
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: Makefile, data/reference/json/ccb_eoc_conditions.json,
+  data/reference/json/ccb_eoc_effects.json, …'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/

@@ -3,7 +3,7 @@
 id: cpp.items
 title: Item 子系统
 language: zh_CN
-status: active
+status: stale
 doc_type: reference
 audiences:
 - experienced-contributor
@@ -31,7 +31,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: db589b513ee116296c0ea65bf66e9e63ee7fcde871406c28f875881a0e2023d8
@@ -50,7 +50,7 @@ deprecation_replacement: null
 risk_group: cpp-items
 risk_level: normal
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: src/item.cpp'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/items/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/items/

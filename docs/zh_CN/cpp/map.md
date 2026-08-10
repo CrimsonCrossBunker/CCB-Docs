@@ -3,7 +3,7 @@
 id: cpp.map
 title: Map 子系统
 language: zh_CN
-status: active
+status: stale
 doc_type: reference
 audiences:
 - experienced-contributor
@@ -31,7 +31,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 5a939fd0b50343c778cfd2e4cef27495b0cf33d2b38843ff5b0f21bf450f1639
@@ -50,7 +50,7 @@ deprecation_replacement: null
 risk_group: cpp-map
 risk_level: normal
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: src/map.cpp'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/map/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/map/

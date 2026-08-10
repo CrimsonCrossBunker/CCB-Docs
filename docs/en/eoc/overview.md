@@ -3,7 +3,7 @@
 id: eoc.overview
 title: EOC contracts and lifecycle
 language: en
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - new-contributor
@@ -38,7 +38,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 99bd0f3eddb34fe638f11f39532dd38dc95dbb2551c9a6e9553cdbaa18b2be53
@@ -58,7 +58,8 @@ deprecation_replacement: null
 risk_group: eoc
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: data/reference/json/ccb_eoc_conditions.json, data/reference/json/ccb_eoc_effects.json,
+  doc/JSON/EFFECT_ON_CONDITION.md, …'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/

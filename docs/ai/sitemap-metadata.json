@@ -4,7 +4,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/capabilities/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/"
@@ -15,7 +15,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/capabilities/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/capabilities/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/"
@@ -26,7 +26,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/changelog/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/changelog/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/changelog/"
@@ -37,7 +37,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/changelog/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/changelog/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/changelog/"
@@ -48,7 +48,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/debugging/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/debugging/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/debugging/"
@@ -59,7 +59,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/debugging/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/debugging/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/debugging/"
@@ -70,7 +70,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/events/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/events/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/events/"
@@ -81,7 +81,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/events/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/events/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/events/"
@@ -92,7 +92,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/example-mod/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/example-mod/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/example-mod/"
@@ -103,7 +103,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/example-mod/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/example-mod/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/example-mod/"
@@ -114,7 +114,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/lifecycle/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/lifecycle/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/lifecycle/"
@@ -125,7 +125,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/lifecycle/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/lifecycle/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/lifecycle/"
@@ -136,7 +136,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/migration/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/migration/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/migration/"
@@ -147,7 +147,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/migration/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/migration/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/migration/"
@@ -158,7 +158,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/overview/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/overview/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/overview/"
@@ -169,7 +169,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/overview/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/overview/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/overview/"
@@ -180,7 +180,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/performance/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/performance/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/performance/"
@@ -191,7 +191,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/performance/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/performance/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/performance/"
@@ -202,7 +202,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/permissions/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/permissions/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/permissions/"
@@ -213,7 +213,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/permissions/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/permissions/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/permissions/"
@@ -224,7 +224,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/callbacks/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/callbacks/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/callbacks/"
@@ -235,7 +235,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/callbacks/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/callbacks/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/callbacks/"
@@ -246,7 +246,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/capabilities/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/capabilities/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/capabilities/"
@@ -257,7 +257,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/capabilities/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/capabilities/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/capabilities/"
@@ -268,7 +268,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/classes/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/classes/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/classes/"
@@ -279,7 +279,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/classes/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/classes/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/classes/"
@@ -290,7 +290,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/enums/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/enums/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/enums/"
@@ -301,7 +301,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/enums/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/enums/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/enums/"
@@ -312,7 +312,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/events/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/events/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/events/"
@@ -323,7 +323,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/events/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/events/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/events/"
@@ -334,7 +334,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/functions/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/functions/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/functions/"
@@ -345,7 +345,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/functions/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/functions/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/functions/"
@@ -356,7 +356,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/hooks/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/hooks/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/hooks/"
@@ -367,7 +367,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/hooks/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/hooks/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/hooks/"
@@ -378,7 +378,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/manifest-fields/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/manifest-fields/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/manifest-fields/"
@@ -389,7 +389,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/manifest-fields/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/manifest-fields/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/manifest-fields/"
@@ -400,7 +400,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/methods/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/methods/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/methods/"
@@ -411,7 +411,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/methods/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/methods/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/methods/"
@@ -422,7 +422,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/modules/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/modules/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/modules/"
@@ -433,7 +433,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/modules/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/modules/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/modules/"
@@ -444,7 +444,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/namespaces/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/namespaces/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/namespaces/"
@@ -455,7 +455,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/namespaces/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/namespaces/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/namespaces/"
@@ -466,7 +466,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/operators/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/operators/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/operators/"
@@ -477,7 +477,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/operators/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/operators/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/operators/"
@@ -488,7 +488,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/permissions/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/permissions/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/permissions/"
@@ -499,7 +499,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/permissions/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/permissions/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/permissions/"
@@ -510,7 +510,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/properties/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/properties/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/properties/"
@@ -521,7 +521,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/properties/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/properties/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/properties/"
@@ -532,7 +532,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/ui/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/ui/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/ui/"
@@ -543,7 +543,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/ui/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/ui/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/ui/"
@@ -686,7 +686,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/windows-msvc/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/build/windows-msvc/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/windows-msvc/"
@@ -697,7 +697,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/build/windows-msvc/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/build/windows-msvc/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/windows-msvc/"
@@ -708,7 +708,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/windows-msys2/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/build/windows-msys2/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/windows-msys2/"
@@ -719,7 +719,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/build/windows-msys2/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/build/windows-msys2/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/windows-msys2/"
@@ -730,7 +730,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/"
@@ -741,7 +741,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/"
@@ -752,7 +752,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/mods/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/mods/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/mods/"
@@ -763,7 +763,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/mods/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/mods/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/mods/"
@@ -906,7 +906,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/json-style/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/json-style/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/json-style/"
@@ -917,7 +917,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/json-style/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/json-style/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/json-style/"
@@ -1038,7 +1038,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/testing/cpp/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/testing/cpp/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/testing/cpp/"
@@ -1049,7 +1049,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/testing/cpp/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/testing/cpp/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/testing/cpp/"
@@ -1060,7 +1060,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/activities/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/activities/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/activities/"
@@ -1071,7 +1071,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/activities/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/activities/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/activities/"
@@ -1104,7 +1104,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/character/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/character/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/character/"
@@ -1115,7 +1115,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/character/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/character/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/character/"
@@ -1126,7 +1126,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/crafting/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/crafting/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/crafting/"
@@ -1137,7 +1137,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/crafting/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/crafting/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/crafting/"
@@ -1236,7 +1236,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/items/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/items/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/items/"
@@ -1247,7 +1247,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/items/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/items/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/items/"
@@ -1280,7 +1280,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/"
@@ -1291,7 +1291,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/"
@@ -1302,7 +1302,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/map/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/map/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/map/"
@@ -1313,7 +1313,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/map/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/map/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/map/"
@@ -1346,7 +1346,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/mod-loading/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/mod-loading/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/mod-loading/"
@@ -1357,7 +1357,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/mod-loading/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/mod-loading/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/mod-loading/"
@@ -1390,7 +1390,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/mutations/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/mutations/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/mutations/"
@@ -1401,7 +1401,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/mutations/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/mutations/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/mutations/"
@@ -1500,7 +1500,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/vehicles/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/vehicles/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/vehicles/"
@@ -1511,7 +1511,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/vehicles/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/vehicles/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/vehicles/"
@@ -1610,7 +1610,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/design/portal-storms/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/design/portal-storms/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/design/portal-storms/"
@@ -1621,7 +1621,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/design/portal-storms/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/design/portal-storms/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/design/portal-storms/"
@@ -1632,7 +1632,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/design/steel-crafting/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/design/steel-crafting/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/design/steel-crafting/"
@@ -1643,7 +1643,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/design/steel-crafting/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/design/steel-crafting/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/design/steel-crafting/"
@@ -1654,7 +1654,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/design/user-experience/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/design/user-experience/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/design/user-experience/"
@@ -1665,7 +1665,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/design/user-experience/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/design/user-experience/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/design/user-experience/"
@@ -1720,7 +1720,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/nesting/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/nesting/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/nesting/"
@@ -1731,7 +1731,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/nesting/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/nesting/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/nesting/"
@@ -1742,7 +1742,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/"
@@ -1753,7 +1753,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/"
@@ -1764,7 +1764,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc/"
@@ -1775,7 +1775,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc/"
@@ -1786,7 +1786,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/"
@@ -1797,7 +1797,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/"
@@ -1808,7 +1808,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/variables-context/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/variables-context/"
@@ -1819,7 +1819,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/variables-context/"
@@ -2204,7 +2204,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/examine-actions/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/examine-actions/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/examine-actions/"
@@ -2215,7 +2215,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/examine-actions/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/examine-actions/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/examine-actions/"
@@ -2248,7 +2248,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/generated/flags/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/generated/flags/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/generated/flags/"
@@ -2259,7 +2259,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/generated/flags/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/generated/flags/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/generated/flags/"
@@ -2314,7 +2314,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/inheritance-copy-from/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/inheritance-copy-from/"
@@ -2325,7 +2325,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/inheritance-copy-from/"
@@ -2358,7 +2358,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/items/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/items/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/items/"
@@ -2369,7 +2369,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/items/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/items/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/items/"
@@ -2402,7 +2402,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/magic-spells-enchantments/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/magic-spells-enchantments/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/magic-spells-enchantments/"
@@ -2413,7 +2413,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/magic-spells-enchantments/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/magic-spells-enchantments/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/magic-spells-enchantments/"
@@ -2468,7 +2468,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/missions/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/missions/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/missions/"
@@ -2479,7 +2479,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/missions/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/missions/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/missions/"
@@ -2556,7 +2556,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/mutations/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/mutations/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/mutations/"
@@ -2567,7 +2567,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/mutations/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/mutations/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/mutations/"
@@ -2600,7 +2600,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc/npcs-and-dialogue/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc/npcs-and-dialogue/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc/npcs-and-dialogue/"
@@ -2611,7 +2611,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc/npcs-and-dialogue/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc/npcs-and-dialogue/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc/npcs-and-dialogue/"
@@ -2622,7 +2622,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/"
@@ -2633,7 +2633,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/"
@@ -2644,7 +2644,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/obsoletion-and-migration/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/obsoletion-and-migration/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/obsoletion-and-migration/"
@@ -2655,7 +2655,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/obsoletion-and-migration/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/obsoletion-and-migration/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/obsoletion-and-migration/"
@@ -2666,7 +2666,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/options/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/options/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/options/"
@@ -2677,7 +2677,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/options/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/options/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/options/"
@@ -2710,7 +2710,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/"
@@ -2721,7 +2721,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/"
@@ -2798,7 +2798,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/recipes-and-disassembly/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/recipes-and-disassembly/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/recipes-and-disassembly/"
@@ -2809,7 +2809,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/recipes-and-disassembly/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/recipes-and-disassembly/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/recipes-and-disassembly/"
@@ -2908,7 +2908,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/"
@@ -2919,7 +2919,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/"
@@ -3128,7 +3128,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/releases/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/releases/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/releases/"
@@ -3139,7 +3139,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/releases/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/releases/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/releases/"
@@ -3194,7 +3194,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/modding/compatibility/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/modding/compatibility/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/modding/compatibility/"
@@ -3205,7 +3205,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/modding/compatibility/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/modding/compatibility/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/modding/compatibility/"
@@ -3238,7 +3238,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/modding/overview/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/modding/overview/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/modding/overview/"
@@ -3249,7 +3249,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/modding/overview/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/modding/overview/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/modding/overview/"
@@ -3304,7 +3304,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/"
@@ -3315,7 +3315,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/"
@@ -3326,7 +3326,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/in-repository-policy/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/in-repository-policy/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/in-repository-policy/"
@@ -3337,7 +3337,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/in-repository-policy/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/in-repository-policy/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/in-repository-policy/"
@@ -3348,7 +3348,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/data/mods/MindOverMatter/PowerDescriptionSpoilers/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/data/mods/MindOverMatter/PowerDescriptionSpoilers/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/data/mods/MindOverMatter/PowerDescriptionSpoilers/"
@@ -3359,7 +3359,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/data/mods/MindOverMatter/PowerDescriptionSpoilers/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/data/mods/MindOverMatter/PowerDescriptionSpoilers/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/data/mods/MindOverMatter/PowerDescriptionSpoilers/"
@@ -3370,7 +3370,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/crash-reports/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/crash-reports/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/crash-reports/"
@@ -3381,7 +3381,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/crash-reports/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/crash-reports/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/crash-reports/"
@@ -3392,7 +3392,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/packaging/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/packaging/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/packaging/"
@@ -3403,7 +3403,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/packaging/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/packaging/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/packaging/"
@@ -3436,7 +3436,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/releases/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/releases/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/releases/"
@@ -3447,7 +3447,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/releases/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/releases/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/releases/"
@@ -3458,7 +3458,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/compiler-support/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/compiler-support/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/compiler-support/"
@@ -3469,7 +3469,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/compiler-support/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/compiler-support/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/compiler-support/"
@@ -3480,7 +3480,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/android/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/android/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/android/"
@@ -3491,7 +3491,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/android/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/android/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/android/"
@@ -3502,7 +3502,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/"
@@ -3513,7 +3513,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/"
@@ -3524,7 +3524,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/"
@@ -3535,7 +3535,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/"
@@ -3546,7 +3546,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/"
@@ -3557,7 +3557,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/"
@@ -3568,7 +3568,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/"
@@ -3579,7 +3579,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/"
@@ -3612,7 +3612,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/windows/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/windows/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/windows/"
@@ -3623,7 +3623,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/windows/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/windows/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/windows/"
@@ -3634,7 +3634,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/"
@@ -3645,7 +3645,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/"
@@ -3678,7 +3678,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/"
@@ -3689,7 +3689,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/"
@@ -3700,7 +3700,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/"
@@ -3711,7 +3711,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/"
@@ -3722,7 +3722,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/"
@@ -3733,7 +3733,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/"
@@ -3876,7 +3876,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/testing/manual-playtesting/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/testing/manual-playtesting/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/testing/manual-playtesting/"
@@ -3887,7 +3887,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/testing/manual-playtesting/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/testing/manual-playtesting/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/testing/manual-playtesting/"
@@ -3920,7 +3920,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/localization/translation-guide/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/localization/translation-guide/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/localization/translation-guide/"
@@ -3931,7 +3931,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/localization/translation-guide/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/localization/translation-guide/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/localization/translation-guide/"
@@ -3942,7 +3942,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/tutorials/json-mapgen/beginner/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/tutorials/json-mapgen/beginner/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/tutorials/json-mapgen/beginner/"
@@ -3953,7 +3953,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/tutorials/json-mapgen/beginner/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/tutorials/json-mapgen/beginner/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/tutorials/json-mapgen/beginner/"
@@ -3986,7 +3986,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/ui/accessibility/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/ui/accessibility/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/ui/accessibility/"
@@ -3997,7 +3997,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/ui/accessibility/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/ui/accessibility/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/ui/accessibility/"
@@ -4074,7 +4074,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/",
     "last_verified": "2026-08-01",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/"
@@ -4085,7 +4085,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/",
     "last_verified": "2026-08-01",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/"
@@ -4096,7 +4096,7 @@
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/testing/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/testing/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/testing/"
@@ -4107,7 +4107,7 @@
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/testing/",
     "last_verified": "2026-08-02",
-    "status": "active",
+    "status": "stale",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/testing/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/testing/"

@@ -3,7 +3,7 @@
 id: platforms.windows
 title: Windows development
 language: en
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - new-contributor
@@ -30,7 +30,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 0d041a17d3cafee4a5a57d3aa8a5ac7894acc2dba06bcfc7ae00d6c8479fbaa3
@@ -51,7 +51,7 @@ deprecation_replacement: null
 risk_group: platforms-windows
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: .github/workflows/msvc-full-features.yml'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/windows/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/windows/

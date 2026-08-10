@@ -3,7 +3,7 @@
 id: cpp.activities
 title: Activity 子系统
 language: zh_CN
-status: active
+status: stale
 doc_type: reference
 audiences:
 - experienced-contributor
@@ -29,7 +29,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 17895565fe1a2250932afd4b8c8594f9f562f3e02c9d6aa4fa53eff5395b7355
@@ -49,7 +49,7 @@ deprecation_replacement: null
 risk_group: cpp-activities
 risk_level: normal
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: src/activity_actor.cpp'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/activities/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/activities/

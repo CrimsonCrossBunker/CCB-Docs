@@ -3,7 +3,7 @@
 id: modding-overview
 title: 旧文档迁移草稿：overview
 language: zh_CN
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - new-contributor
@@ -33,7 +33,7 @@ verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 60f4c291c4665e2b64f3bbc3f8edd19111af9a9dee8e9fc18b659c1f3b7699f9
@@ -51,7 +51,7 @@ deprecation_replacement: null
 risk_group: mods
 risk_level: normal
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: src/mod_manager.cpp'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/modding/overview/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/modding/overview/

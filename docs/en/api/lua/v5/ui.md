@@ -3,7 +3,7 @@
 id: api.lua.v5.ui
 title: Portable Lua UI
 language: en
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - mod-author
@@ -34,7 +34,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 782c93e819b86b219cd3df29162a540afad030ae56da6d60f6d4bb207357f970
@@ -55,7 +55,8 @@ deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: data/lua/README.md, data/lua/manifest.schema.json,
+  data/lua/reference/ccb_public_api_v5.json, …'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/ui/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/ui/

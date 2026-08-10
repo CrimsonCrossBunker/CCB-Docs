@@ -3,7 +3,7 @@
 id: api.lua.v5.performance
 title: Lua 性能与资源边界
 language: zh_CN
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - mod-author
@@ -34,7 +34,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 8eac9b8b799105af96a709f068d936b1590c6986f0c735b31d9fa53323d4e233
@@ -54,7 +54,8 @@ deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: data/lua/README.md, data/lua/manifest.schema.json,
+  data/lua/reference/ccb_public_api_v5.json, …'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/performance/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/performance/

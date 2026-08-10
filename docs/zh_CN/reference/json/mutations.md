@@ -3,7 +3,7 @@
 id: json.mutations
 title: 旧文档迁移草稿：mutations
 language: zh_CN
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - new-contributor
@@ -35,7 +35,7 @@ verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: bc860bf8002c321bce7bd5516cc4aa8e32fafcf34f2170246548d03aea090e37
@@ -53,7 +53,8 @@ deprecation_replacement: null
 risk_group: json
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: data/json/mutations/mutations.json, doc/JSON/MUTATIONS.md,
+  src/mutation.cpp, …'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/mutations/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/mutations/

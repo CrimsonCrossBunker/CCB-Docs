@@ -3,7 +3,7 @@
 id: json.examine-actions
 title: 旧文档迁移草稿：examine actions
 language: zh_CN
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - new-contributor
@@ -35,7 +35,7 @@ verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 786b56aa1e85a47fe2b7cc5712f5275703081138d2863698388154287a4ae9f8
@@ -53,7 +53,7 @@ deprecation_replacement: null
 risk_group: json
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: src/iexamine.cpp'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/examine-actions/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/examine-actions/

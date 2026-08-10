@@ -3,7 +3,7 @@
 id: api.lua.v5.changelog
 title: Lua API changelog
 language: en
-status: active
+status: stale
 doc_type: reference
 audiences:
 - mod-author
@@ -34,7 +34,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 39c073b18b6732436210edee27a6ab51c66015ee4864fd7f0c7173416ec41363
@@ -53,7 +53,8 @@ deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: data/lua/README.md, data/lua/manifest.schema.json,
+  data/lua/reference/ccb_public_api_v5.json, …'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/changelog/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/changelog/

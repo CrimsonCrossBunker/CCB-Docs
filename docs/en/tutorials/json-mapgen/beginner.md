@@ -3,7 +3,7 @@
 id: tutorial.mapgen-beginner
 title: 'Legacy migration draft: beginner'
 language: en
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - new-contributor
@@ -36,7 +36,7 @@ verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 91fb663bdc52ca3d60004a3c2a24609b832c572e0ddecd06faf1099576a65f7a
@@ -55,7 +55,7 @@ deprecation_replacement: null
 risk_group: json
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: data/json/overmap/overmap_terrain/overmap_terrain.json'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/tutorials/json-mapgen/beginner/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/tutorials/json-mapgen/beginner/

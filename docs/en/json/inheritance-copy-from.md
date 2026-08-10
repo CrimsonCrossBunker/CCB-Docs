@@ -3,7 +3,7 @@
 id: json.inheritance-copy-from
 title: JSON inheritance and copy-from
 language: en
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - new-contributor
@@ -35,7 +35,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 011b017522ac8f0fe674d25c2f3f6729ee36910b59b50abb94d54402ccefd8b1
@@ -54,7 +54,8 @@ deprecation_replacement: null
 risk_group: json
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: data/reference/json/ccb_json_object_types.json,
+  tools/json_api/test_generate_contracts.py'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/inheritance-copy-from/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/

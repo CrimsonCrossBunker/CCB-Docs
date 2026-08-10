@@ -3,7 +3,7 @@
 id: translation-guide
 title: 旧文档迁移草稿：translation guide
 language: zh_CN
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - new-contributor
@@ -35,7 +35,7 @@ verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 253690c79efb7d3bb8e97eefe4211de5918d7b4b72313e10a3130d696d83d5bd
@@ -54,7 +54,7 @@ deprecation_replacement: null
 risk_group: localization
 risk_level: normal
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: lang/update_pot.sh'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/localization/translation-guide/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/localization/translation-guide/

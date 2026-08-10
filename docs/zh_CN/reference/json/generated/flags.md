@@ -3,7 +3,7 @@
 id: json.flags
 title: JSON 标志直接定义索引
 language: zh_CN
-status: active
+status: stale
 doc_type: generated-api
 audiences:
 - new-contributor
@@ -33,7 +33,7 @@ verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: e82544b864955133c00523c92272fd4e22222d8f01171603f40e25911f57f049
@@ -52,7 +52,8 @@ deprecation_replacement: null
 risk_group: json
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: data/json/flags.json, doc/JSON/JSON_FLAGS.md,
+  src/flag.cpp, …'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/generated/flags/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/generated/flags/

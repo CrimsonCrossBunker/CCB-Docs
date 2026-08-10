@@ -3,7 +3,7 @@
 id: cpp.crafting
 title: Crafting 子系统
 language: zh_CN
-status: active
+status: stale
 doc_type: reference
 audiences:
 - experienced-contributor
@@ -30,7 +30,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 6c119fe070dc1bedf79c5cf26341ce81984e28e46e4732baf7f04c8e26ba9c24
@@ -51,7 +51,7 @@ deprecation_replacement: null
 risk_group: cpp-crafting
 risk_level: normal
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: src/crafting.cpp'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/crafting/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/crafting/

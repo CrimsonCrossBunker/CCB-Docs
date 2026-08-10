@@ -3,7 +3,7 @@
 id: build-windows-msys2
 title: 'Legacy migration draft: windows msys2'
 language: en
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - new-contributor
@@ -30,7 +30,7 @@ verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 204669cb3555214ce892f310b3436ca751c562e6a107a841eab501691f7c87fb
@@ -48,7 +48,7 @@ deprecation_replacement: null
 risk_group: build
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: Makefile, doc/c++/COMPILING-MSYS.md'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/build/windows-msys2/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/build/windows-msys2/

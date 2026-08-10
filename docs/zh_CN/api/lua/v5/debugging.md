@@ -3,7 +3,7 @@
 id: api.lua.v5.debugging
 title: Lua 调试与契约验证
 language: zh_CN
-status: active
+status: stale
 doc_type: how-to
 audiences:
 - mod-author
@@ -34,7 +34,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: f5953a3b1725321b7ef41ff313e9a5de3de53a5cd360c7322bbbb1e0cbcc8438
@@ -55,7 +55,8 @@ deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: data/lua/README.md, data/lua/manifest.schema.json,
+  data/lua/reference/ccb_public_api_v5.json, …'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/debugging/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/debugging/

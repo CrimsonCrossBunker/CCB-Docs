@@ -3,7 +3,7 @@
 id: eoc.reference
 title: 'Legacy migration draft: eoc'
 language: en
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - new-contributor
@@ -35,7 +35,7 @@ verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 31c49a95383d3d22a0b508f725c766c519402cb745012b8e5a5586b67ff5fce2
@@ -53,7 +53,7 @@ deprecation_replacement: null
 risk_group: eoc
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: doc/JSON/EFFECT_ON_CONDITION.md, src/npctalk.cpp'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc/

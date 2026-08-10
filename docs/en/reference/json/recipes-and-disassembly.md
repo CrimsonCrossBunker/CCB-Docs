@@ -3,7 +3,7 @@
 id: json.recipes-and-disassembly
 title: 'Legacy migration draft: recipes and disassembly'
 language: en
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - new-contributor
@@ -35,7 +35,7 @@ verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: cfeb5d0c4fe1474637a3fef346741fd95688bd22eb354b44ceafd42da6c0d46c
@@ -53,7 +53,7 @@ deprecation_replacement: null
 risk_group: json
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: data/json/recipes/armor/other.json'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/recipes-and-disassembly/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/recipes-and-disassembly/

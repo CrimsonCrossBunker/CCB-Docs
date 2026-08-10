@@ -3,7 +3,7 @@
 id: platform-matrix
 title: 旧文档迁移草稿：compiler support
 language: zh_CN
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - new-contributor
@@ -30,7 +30,7 @@ verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 8c855ee739a5da1b5def4450d8e7b53606c0485f92c2383d37affdcd37d49511
@@ -48,7 +48,7 @@ deprecation_replacement: null
 risk_group: build
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: .github/workflows/matrix.yml, .github/workflows/msvc-full-features.yml'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/compiler-support/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/compiler-support/

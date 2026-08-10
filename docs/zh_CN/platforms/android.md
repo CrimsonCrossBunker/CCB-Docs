@@ -3,7 +3,7 @@
 id: platforms.android
 title: Android 开发
 language: zh_CN
-status: active
+status: stale
 doc_type: how-to
 audiences:
 - new-contributor
@@ -32,7 +32,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 8d05bff99c389df2c85486565e015a054a5ea64cd84279790224aa9d7bd3575f
@@ -53,7 +53,7 @@ deprecation_replacement: null
 risk_group: platforms-android
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: .github/workflows/release-android-bundle.yaml'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/android/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/android/

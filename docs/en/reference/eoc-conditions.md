@@ -3,7 +3,7 @@
 id: reference.eoc-conditions
 title: EOC condition registry
 language: en
-status: active
+status: stale
 doc_type: generated-api
 audiences:
 - experienced-contributor
@@ -31,7 +31,7 @@ verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_json_eoc_reference.py
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 4a7a097e9cec99dc57c6026b11a2df9dcb79c7836ce29fea19f6f4578a8a264e
@@ -49,7 +49,7 @@ deprecation_replacement: null
 risk_group: eoc
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: data/reference/json/ccb_eoc_conditions.json'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/

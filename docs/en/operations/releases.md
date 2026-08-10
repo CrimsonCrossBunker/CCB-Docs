@@ -3,7 +3,7 @@
 id: operations.releases
 title: Release operations
 language: en
-status: active
+status: stale
 doc_type: how-to
 audiences:
 - maintainer
@@ -28,7 +28,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 968e8122bf55cc278a9f3c5c45d8fbeedfea0f436185c719787a5f53e02533fc
@@ -47,7 +47,8 @@ deprecation_replacement: null
 risk_group: release
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: .github/workflows/release-android-bundle.yaml,
+  .github/workflows/release.yml'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/releases/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/operations/releases/

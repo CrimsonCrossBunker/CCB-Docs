@@ -3,7 +3,7 @@
 id: design-portal-storms
 title: 旧文档迁移草稿：portal storms
 language: zh_CN
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - new-contributor
@@ -32,7 +32,7 @@ verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 04e3c7876a24ba14b903dd7b2d03fa29da655ff9985625215d5d4b97a7856800
@@ -50,7 +50,7 @@ deprecation_replacement: null
 risk_group: design
 risk_level: normal
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: src/game.cpp'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/design/portal-storms/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/design/portal-storms/

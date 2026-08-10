@@ -3,7 +3,7 @@
 id: reference.eoc-effects
 title: EOC 效果注册表
 language: zh_CN
-status: active
+status: stale
 doc_type: generated-api
 audiences:
 - experienced-contributor
@@ -32,7 +32,7 @@ verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_json_eoc_reference.py
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 7b27aa66b02c5d553f264a07954bec9657ef771b720f121d6340593039b148ee
@@ -50,7 +50,7 @@ deprecation_replacement: null
 risk_group: eoc
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: data/reference/json/ccb_eoc_effects.json, src/npctalk.cpp'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/

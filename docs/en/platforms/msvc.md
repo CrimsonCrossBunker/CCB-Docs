@@ -3,7 +3,7 @@
 id: platforms.msvc
 title: MSVC and vcpkg
 language: en
-status: active
+status: stale
 doc_type: how-to
 audiences:
 - experienced-contributor
@@ -29,7 +29,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: de436d260762856faafc61fcc6f466c2b2e07c1d6c8db41648cec2681eda5411
@@ -49,7 +49,7 @@ deprecation_replacement: null
 risk_group: platforms-windows
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: .github/workflows/msvc-full-features.yml'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/

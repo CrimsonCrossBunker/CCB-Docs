@@ -3,7 +3,7 @@
 id: json.magic-spells-enchantments
 title: 'Legacy migration draft: magic spells enchantments'
 language: en
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - new-contributor
@@ -36,7 +36,7 @@ verified_at: '2026-08-02'
 generated: true
 generated_by: scripts/generate_legacy_migration.py
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: a02fd8ec925348ff537b65439d3350068d758994bc36f5af17f0209a990847fc
@@ -54,7 +54,8 @@ deprecation_replacement: null
 risk_group: json
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: data/json/enchantments.json, doc/JSON/MAGIC.md,
+  src/magic.cpp, …'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/magic-spells-enchantments/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/magic-spells-enchantments/

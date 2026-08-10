@@ -3,7 +3,7 @@
 id: platforms.wsl
 title: WSL 开发
 language: zh_CN
-status: active
+status: stale
 doc_type: how-to
 audiences:
 - new-contributor
@@ -28,7 +28,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 0a36c080292216c43bf7099099a3ef9650b42506f28e6cc3ead4c14cbaa6e1d9
@@ -49,7 +49,7 @@ deprecation_replacement: null
 risk_group: platforms-wsl
 risk_level: normal
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: Makefile'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/

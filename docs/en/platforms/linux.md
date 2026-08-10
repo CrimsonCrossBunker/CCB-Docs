@@ -3,7 +3,7 @@
 id: platforms.linux
 title: Linux development
 language: en
-status: active
+status: stale
 doc_type: how-to
 audiences:
 - new-contributor
@@ -30,7 +30,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 4e369a0d5512e76ab86eb50a35d7ef9d9bf57a9c01e655bdaa4c683411f050da
@@ -52,7 +52,7 @@ deprecation_replacement: null
 risk_group: platforms-linux
 risk_level: normal
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: .github/workflows/matrix.yml, Makefile'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/

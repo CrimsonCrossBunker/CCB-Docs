@@ -344,7 +344,7 @@ pages:
     title: 验证快速入门
     language: zh_CN
     path: validation/quickstart.md
-    status: active
+    status: stale
     doc_type: how-to
     audiences: [new-contributor, experienced-contributor, maintainer, mod-author]
     owners: [CCB maintainers]
@@ -361,7 +361,7 @@ pages:
     generated: false
     generated_by: null
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: validation.quickstart
     translation_status: current
     translation_stale_since: null
@@ -379,13 +379,13 @@ pages:
     risk_group: build
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: Makefile"
     nav: { section: 验证, order: 40 }
   - id: validation.quickstart
     title: Validation quickstart
     language: en
     path: validation/quickstart.md
-    status: active
+    status: stale
     doc_type: how-to
     audiences: [new-contributor, experienced-contributor, maintainer, mod-author]
     owners: [CCB maintainers]
@@ -402,7 +402,7 @@ pages:
     generated: false
     generated_by: null
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: validation.quickstart
     translation_status: current
     translation_stale_since: null
@@ -420,7 +420,7 @@ pages:
     risk_group: build
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: Makefile"
     nav: { section: Validation, order: 40 }
 
   - &experienced_index_zh
@@ -557,9 +557,9 @@ pages:
 
   - &build_overview_zh
     <<: *page_defaults
-    status: active
+    status: stale
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     id: build.overview
     title: 构建 CCB
     language: zh_CN
@@ -583,6 +583,7 @@ pages:
     risk_group: build
     risk_level: high
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: .github/workflows/matrix.yml, Makefile"
     nav: { section: 构建, order: 40 }
   - <<: *build_overview_zh
     title: Building CCB
@@ -591,9 +592,9 @@ pages:
 
   - &testing_zh
     <<: *page_defaults
-    status: active
+    status: stale
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     id: validation.testing
     title: 测试策略
     language: zh_CN
@@ -616,6 +617,7 @@ pages:
     risk_group: testing
     risk_level: high
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: Makefile"
     nav: { section: 验证, order: 41 }
   - <<: *testing_zh
     title: Testing strategy
@@ -657,9 +659,9 @@ pages:
 
   - &platform_matrix_zh
     <<: *page_defaults
-    status: active
+    status: stale
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     id: platforms.matrix
     title: 平台矩阵
     language: zh_CN
@@ -682,6 +684,7 @@ pages:
     risk_group: platforms
     risk_level: high
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: .github/workflows/matrix.yml, .github/workflows/msvc-full-features.yml, Makefile"
     nav: { section: 平台, order: 50 }
   - <<: *platform_matrix_zh
     title: Platform matrix
@@ -789,9 +792,9 @@ pages:
 
   - &mod_compatibility_zh
     <<: *page_defaults
-    status: active
+    status: stale
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     id: compatibility.mods
     title: Mod 兼容
     language: zh_CN
@@ -814,6 +817,7 @@ pages:
     risk_group: compatibility
     risk_level: high
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/mod_manager.cpp"
     nav: { section: 兼容性, order: 61 }
   - <<: *mod_compatibility_zh
     title: Mod compatibility
@@ -855,9 +859,9 @@ pages:
 
   - &release_maintenance_zh
     <<: *page_defaults
-    status: active
+    status: stale
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     id: maintenance.releases
     title: 发布维护
     language: zh_CN
@@ -881,6 +885,7 @@ pages:
     risk_group: release
     risk_level: high
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: .github/workflows/release-android-bundle.yaml, .github/workflows/release.yml"
     nav: { section: 维护, order: 71 }
   - <<: *release_maintenance_zh
     title: Release maintenance
@@ -961,7 +966,7 @@ pages:
     title: Lua API v5 总览
     language: zh_CN
     path: api/lua/v5/overview.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences: [mod-author, api-user, experienced-contributor, maintainer]
     owners: [CCB Lua API maintainers]
@@ -978,7 +983,7 @@ pages:
     generated: false
     generated_by: null
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: api.lua.v5.overview
     translation_status: current
     translation_stale_since: null
@@ -996,7 +1001,7 @@ pages:
     risk_group: lua-api
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/lua/README.md, data/lua/manifest.schema.json, data/lua/reference/ccb_public_api_v5.json, …"
     nav: { section: Lua API v5, order: 90 }
   - <<: *lua_manual_defaults
     title: Lua API v5 overview
@@ -1159,7 +1164,7 @@ pages:
     title: 模块入口参考
     language: zh_CN
     path: api/lua/v5/reference/modules.md
-    status: active
+    status: stale
     doc_type: generated-api
     audiences: [mod-author, api-user, experienced-contributor, maintainer]
     owners: [CCB Lua API maintainers]
@@ -1176,7 +1181,7 @@ pages:
     generated: true
     generated_by: scripts/generate_lua_reference.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: api.lua.v5.reference.modules
     translation_status: current
     translation_stale_since: null
@@ -1194,7 +1199,7 @@ pages:
     risk_group: lua-api
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_public_api_v5_coverage.json"
     nav: { section: Lua API v5 参考, order: 110 }
   - <<: *lua_generated_defaults
     title: Module entry points
@@ -1397,6 +1402,7 @@ pages:
     prerequisites: [api.lua.v5.overview, api.lua.v5.capabilities]
     depends_on: [api.lua.v5.ui, api.lua.v5.events]
     supersedes: [lua.v5.example-mod]
+    stale_reason: "Source paths changed after d32b9cc880a8: data/lua/manifest.schema.json, data/lua/reference/ccb_public_api_v5.json"
     nav: { section: Lua API v5, order: 100 }
   - <<: *lua_example_mod_zh
     title: Complete Lua API v5 example Mod
@@ -1410,7 +1416,7 @@ pages:
     title: JSON 契约总览
     language: zh_CN
     path: json/overview.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences: [new-contributor, experienced-contributor, maintainer, mod-author]
     owners: [CCB maintainers]
@@ -1427,7 +1433,7 @@ pages:
     generated: false
     generated_by: null
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.overview
     translation_status: current
     translation_stale_since: null
@@ -1445,7 +1451,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/reference/json/ccb_json_object_types.json, tools/json_api/test_generate_contracts.py"
     nav: { section: JSON, order: 130 }
   - <<: *json_overview_zh
     title: JSON contract overview
@@ -1493,7 +1499,7 @@ pages:
     title: JSON 对象类型注册表
     language: zh_CN
     path: reference/json-object-types.md
-    status: active
+    status: stale
     doc_type: generated-api
     audiences: [experienced-contributor, maintainer, mod-author, api-user]
     owners: [CCB maintainers]
@@ -1510,7 +1516,7 @@ pages:
     generated: true
     generated_by: scripts/generate_json_eoc_reference.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: reference.json-object-types
     translation_status: current
     translation_stale_since: null
@@ -1528,7 +1534,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/reference/json/ccb_json_object_types.json"
     nav: { section: 生成参考, order: 133 }
   - <<: *json_reference_zh
     title: JSON object-type registry
@@ -1541,7 +1547,7 @@ pages:
     title: EOC 契约与生命周期
     language: zh_CN
     path: eoc/overview.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences: [new-contributor, experienced-contributor, maintainer, mod-author, api-user]
     owners: [CCB maintainers]
@@ -1558,7 +1564,7 @@ pages:
     generated: false
     generated_by: null
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: eoc.overview
     translation_status: current
     translation_stale_since: null
@@ -1576,7 +1582,7 @@ pages:
     risk_group: eoc
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/reference/json/ccb_eoc_conditions.json, data/reference/json/ccb_eoc_effects.json, doc/JSON/EFFECT_ON_CONDITION.md, …"
     nav: { section: EOC, order: 140 }
   - <<: *eoc_overview_zh
     title: EOC contracts and lifecycle
@@ -1640,7 +1646,7 @@ pages:
     title: EOC 条件注册表
     language: zh_CN
     path: reference/eoc-conditions.md
-    status: active
+    status: stale
     doc_type: generated-api
     audiences: [experienced-contributor, maintainer, mod-author, api-user]
     owners: [CCB maintainers]
@@ -1657,7 +1663,7 @@ pages:
     generated: true
     generated_by: scripts/generate_json_eoc_reference.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: reference.eoc-conditions
     translation_status: current
     translation_stale_since: null
@@ -1675,7 +1681,7 @@ pages:
     risk_group: eoc
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/reference/json/ccb_eoc_conditions.json"
     nav: { section: 生成参考, order: 144 }
   - <<: *condition_reference_zh
     title: EOC condition registry
@@ -1693,6 +1699,7 @@ pages:
     source_fingerprint: 66384859fb947846821e5e6a6ec36dffad55dbff6dd45073b6deba47df8d3a30
     translation_group: reference.eoc-effects
     translation_source_fingerprint: 7b27aa66b02c5d553f264a07954bec9657ef771b720f121d6340593039b148ee
+    stale_reason: "Source paths changed after d32b9cc880a8: data/reference/json/ccb_eoc_effects.json, src/npctalk.cpp"
     nav: { section: 生成参考, order: 145 }
   - <<: *effect_reference_zh
     title: EOC effect registry
@@ -1705,7 +1712,7 @@ pages:
     title: 完整 JSON/EOC Mod 教程
     language: zh_CN
     path: mods/complete-json-eoc-mod.md
-    status: active
+    status: stale
     doc_type: tutorial
     audiences: [new-contributor, experienced-contributor, mod-author]
     owners: [CCB maintainers]
@@ -1722,7 +1729,7 @@ pages:
     generated: false
     generated_by: null
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: mods.complete-json-eoc-mod
     translation_status: current
     translation_stale_since: null
@@ -1740,7 +1747,7 @@ pages:
     risk_group: mods
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: Makefile, data/reference/json/ccb_eoc_conditions.json, data/reference/json/ccb_eoc_effects.json, …"
     nav: { section: Mod, order: 150 }
   - <<: *complete_mod_zh
     title: Complete JSON/EOC mod tutorial
@@ -1754,7 +1761,7 @@ pages:
     title: Character 子系统
     language: zh_CN
     path: cpp/character.md
-    status: active
+    status: stale
     doc_type: reference
     audiences: [experienced-contributor, maintainer, api-user]
     last_human_reviewer: Pending human review
@@ -1767,7 +1774,7 @@ pages:
     verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
     verified_at: '2026-08-02'
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: cpp.character
     translation_source_fingerprint: 18981a2c728ee2086cc0f845397786036da299f213159c1a0587ff087c5379b4
     prerequisites: [architecture.overview]
@@ -1776,6 +1783,7 @@ pages:
     risk_group: cpp-character
     risk_level: normal
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/character.cpp"
     nav: { section: C++ 子系统, order: 100 }
   - <<: *cpp_character_zh
     title: Character subsystem
@@ -1822,7 +1830,7 @@ pages:
     title: Item 子系统
     language: zh_CN
     path: cpp/items.md
-    status: active
+    status: stale
     doc_type: reference
     audiences: [experienced-contributor, maintainer, mod-author, api-user]
     last_human_reviewer: Pending human review
@@ -1835,7 +1843,7 @@ pages:
     verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
     verified_at: '2026-08-02'
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: cpp.items
     translation_source_fingerprint: db589b513ee116296c0ea65bf66e9e63ee7fcde871406c28f875881a0e2023d8
     prerequisites: [architecture.overview]
@@ -1844,6 +1852,7 @@ pages:
     risk_group: cpp-items
     risk_level: normal
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/item.cpp"
     nav: { section: C++ 子系统, order: 102 }
   - <<: *cpp_items_zh
     title: Items subsystem
@@ -1992,7 +2001,7 @@ pages:
     title: Map 子系统
     language: zh_CN
     path: cpp/map.md
-    status: active
+    status: stale
     doc_type: reference
     audiences: [experienced-contributor, maintainer, mod-author, api-user]
     last_human_reviewer: Pending human review
@@ -2005,7 +2014,7 @@ pages:
     verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
     verified_at: '2026-08-02'
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: cpp.map
     translation_source_fingerprint: 5a939fd0b50343c778cfd2e4cef27495b0cf33d2b38843ff5b0f21bf450f1639
     prerequisites: [architecture.overview]
@@ -2014,6 +2023,7 @@ pages:
     risk_group: cpp-map
     risk_level: normal
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/map.cpp"
     nav: { section: C++ 子系统, order: 107 }
   - <<: *cpp_map_zh
     title: Map subsystem
@@ -2094,7 +2104,7 @@ pages:
     title: Vehicle 子系统
     language: zh_CN
     path: cpp/vehicles.md
-    status: active
+    status: stale
     doc_type: reference
     audiences: [experienced-contributor, maintainer, mod-author, api-user]
     last_human_reviewer: Pending human review
@@ -2107,7 +2117,7 @@ pages:
     verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
     verified_at: '2026-08-02'
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: cpp.vehicles
     translation_source_fingerprint: b0b38134e343955da3d09ca77b6e62b9819375d152b69d0d817aa460767b177d
     prerequisites: [cpp.map, cpp.items]
@@ -2116,6 +2126,7 @@ pages:
     risk_group: cpp-vehicles
     risk_level: normal
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/vehicle.cpp, src/vehicle.h"
     nav: { section: C++ 子系统, order: 110 }
   - <<: *cpp_vehicles_zh
     title: Vehicles subsystem
@@ -2128,7 +2139,7 @@ pages:
     title: Crafting 子系统
     language: zh_CN
     path: cpp/crafting.md
-    status: active
+    status: stale
     doc_type: reference
     audiences: [experienced-contributor, maintainer, mod-author]
     last_human_reviewer: Pending human review
@@ -2141,7 +2152,7 @@ pages:
     verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
     verified_at: '2026-08-02'
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: cpp.crafting
     translation_source_fingerprint: 6c119fe070dc1bedf79c5cf26341ce81984e28e46e4732baf7f04c8e26ba9c24
     prerequisites: [cpp.character, cpp.inventory]
@@ -2150,6 +2161,7 @@ pages:
     risk_group: cpp-crafting
     risk_level: normal
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/crafting.cpp"
     nav: { section: C++ 子系统, order: 111 }
   - <<: *cpp_crafting_zh
     title: Crafting subsystem
@@ -2162,7 +2174,7 @@ pages:
     title: Mutation 子系统
     language: zh_CN
     path: cpp/mutations.md
-    status: active
+    status: stale
     doc_type: reference
     audiences: [experienced-contributor, maintainer, mod-author, api-user]
     last_human_reviewer: Pending human review
@@ -2175,7 +2187,7 @@ pages:
     verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
     verified_at: '2026-08-02'
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: cpp.mutations
     translation_source_fingerprint: 2aadbb74e5fdcf96f4c4b7ce41f07df7bd791454e4507658cdf854cd5b387e8e
     prerequisites: [cpp.character]
@@ -2184,6 +2196,7 @@ pages:
     risk_group: cpp-mutations
     risk_level: normal
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/mutation.cpp, src/mutation.h, src/mutation_data.cpp"
     nav: { section: C++ 子系统, order: 112 }
   - <<: *cpp_mutations_zh
     title: Mutations subsystem
@@ -2230,7 +2243,7 @@ pages:
     title: Activity 子系统
     language: zh_CN
     path: cpp/activities.md
-    status: active
+    status: stale
     doc_type: reference
     audiences: [experienced-contributor, maintainer]
     last_human_reviewer: Pending human review
@@ -2243,7 +2256,7 @@ pages:
     verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
     verified_at: '2026-08-02'
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: cpp.activities
     translation_source_fingerprint: 17895565fe1a2250932afd4b8c8594f9f562f3e02c9d6aa4fa53eff5395b7355
     prerequisites: [cpp.character]
@@ -2253,6 +2266,7 @@ pages:
     risk_group: cpp-activities
     risk_level: normal
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/activity_actor.cpp"
     nav: { section: C++ 子系统, order: 114 }
   - <<: *cpp_activities_zh
     title: Activities subsystem
@@ -2367,7 +2381,7 @@ pages:
     title: Mod 加载子系统
     language: zh_CN
     path: cpp/mod-loading.md
-    status: active
+    status: stale
     doc_type: reference
     audiences: [experienced-contributor, maintainer, mod-author, api-user]
     last_human_reviewer: Pending human review
@@ -2380,7 +2394,7 @@ pages:
     verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
     verified_at: '2026-08-02'
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: cpp.mod-loading
     translation_source_fingerprint: 6a5379b1d791d0685dd13a81b84bff6f036d60fd00f92f78e1e3b782671038b8
     prerequisites: [compatibility.mods]
@@ -2389,6 +2403,7 @@ pages:
     risk_group: mod-loading
     risk_level: high
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/mod_manager.cpp"
     nav: { section: C++ 子系统, order: 118 }
   - <<: *cpp_mod_loading_zh
     title: Mod-loading subsystem
@@ -2401,7 +2416,7 @@ pages:
     title: Native Lua bridge
     language: zh_CN
     path: cpp/lua-bridge.md
-    status: active
+    status: stale
     doc_type: reference
     audiences: [experienced-contributor, maintainer, mod-author, api-user]
     last_human_reviewer: Pending human review
@@ -2414,7 +2429,7 @@ pages:
     verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
     verified_at: '2026-08-02'
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: cpp.lua-bridge
     translation_source_fingerprint: 7e06bb671d6532093277a532546614dadca86a79266039f03d3e5bc7338a800f
     prerequisites: [cpp.mod-loading]
@@ -2424,6 +2439,7 @@ pages:
     risk_group: lua-api
     risk_level: high
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/lua/manifest.schema.json, data/lua/types/ccb_api_v5.d.lua, src/catalua_ui_manifest.cpp"
     nav: { section: C++ 子系统, order: 119 }
   - <<: *cpp_lua_bridge_zh
     title: Native Lua bridge
@@ -2472,7 +2488,7 @@ pages:
     title: Linux 开发
     language: zh_CN
     path: platforms/linux.md
-    status: active
+    status: stale
     doc_type: how-to
     audiences: [new-contributor, experienced-contributor, maintainer]
     last_human_reviewer: Pending human review
@@ -2485,7 +2501,7 @@ pages:
     verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
     verified_at: '2026-08-02'
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: platforms.linux
     translation_source_fingerprint: 4e369a0d5512e76ab86eb50a35d7ef9d9bf57a9c01e655bdaa4c683411f050da
     prerequisites: [platforms.matrix, build.overview]
@@ -2494,6 +2510,7 @@ pages:
     risk_group: platforms-linux
     risk_level: normal
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: .github/workflows/matrix.yml, Makefile"
     nav: { section: 平台, order: 51 }
   - <<: *platform_linux_zh
     title: Linux development
@@ -2506,7 +2523,7 @@ pages:
     title: Windows 开发
     language: zh_CN
     path: platforms/windows.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences: [new-contributor, experienced-contributor, maintainer]
     last_human_reviewer: Pending human review
@@ -2519,7 +2536,7 @@ pages:
     verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
     verified_at: '2026-08-02'
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: platforms.windows
     translation_source_fingerprint: 0d041a17d3cafee4a5a57d3aa8a5ac7894acc2dba06bcfc7ae00d6c8479fbaa3
     prerequisites: [platforms.matrix, build.overview]
@@ -2528,6 +2545,7 @@ pages:
     risk_group: platforms-windows
     risk_level: high
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: .github/workflows/msvc-full-features.yml"
     nav: { section: 平台, order: 52 }
   - <<: *platform_windows_zh
     title: Windows development
@@ -2540,7 +2558,7 @@ pages:
     title: MSYS2 与 MinGW
     language: zh_CN
     path: platforms/msys2.md
-    status: active
+    status: stale
     doc_type: how-to
     audiences: [new-contributor, experienced-contributor, maintainer]
     last_human_reviewer: Pending human review
@@ -2553,7 +2571,7 @@ pages:
     verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
     verified_at: '2026-08-02'
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: platforms.msys2
     translation_source_fingerprint: bc3e58ed87ce480f2925aecac89f9313b9869c581272cfae45131748b7f4ae03
     prerequisites: [platforms.windows]
@@ -2562,6 +2580,7 @@ pages:
     risk_group: platforms-windows
     risk_level: high
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: .github/workflows/msvc-full-features.yml, doc/c++/COMPILING-MSYS.md"
     nav: { section: 平台, order: 53 }
   - <<: *platform_msys2_zh
     title: MSYS2 and MinGW
@@ -2574,7 +2593,7 @@ pages:
     title: MSVC 与 vcpkg
     language: zh_CN
     path: platforms/msvc.md
-    status: active
+    status: stale
     doc_type: how-to
     audiences: [experienced-contributor, maintainer]
     last_human_reviewer: Pending human review
@@ -2587,7 +2606,7 @@ pages:
     verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
     verified_at: '2026-08-02'
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: platforms.msvc
     translation_source_fingerprint: de436d260762856faafc61fcc6f466c2b2e07c1d6c8db41648cec2681eda5411
     prerequisites: [platforms.windows]
@@ -2596,6 +2615,7 @@ pages:
     risk_group: platforms-windows
     risk_level: high
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: .github/workflows/msvc-full-features.yml"
     nav: { section: 平台, order: 54 }
   - <<: *platform_msvc_zh
     title: MSVC and vcpkg
@@ -2608,7 +2628,7 @@ pages:
     title: WSL 开发
     language: zh_CN
     path: platforms/wsl.md
-    status: active
+    status: stale
     doc_type: how-to
     audiences: [new-contributor, experienced-contributor]
     last_human_reviewer: Pending human review
@@ -2621,7 +2641,7 @@ pages:
     verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
     verified_at: '2026-08-02'
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: platforms.wsl
     translation_source_fingerprint: 0a36c080292216c43bf7099099a3ef9650b42506f28e6cc3ead4c14cbaa6e1d9
     prerequisites: [platforms.linux, platforms.windows]
@@ -2630,6 +2650,7 @@ pages:
     risk_group: platforms-wsl
     risk_level: normal
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: Makefile"
     nav: { section: 平台, order: 55 }
   - <<: *platform_wsl_zh
     title: WSL development
@@ -2642,7 +2663,7 @@ pages:
     title: Android 开发
     language: zh_CN
     path: platforms/android.md
-    status: active
+    status: stale
     doc_type: how-to
     audiences: [new-contributor, experienced-contributor, maintainer]
     last_human_reviewer: Pending human review
@@ -2655,7 +2676,7 @@ pages:
     verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
     verified_at: '2026-08-02'
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: platforms.android
     translation_source_fingerprint: 8d05bff99c389df2c85486565e015a054a5ea64cd84279790224aa9d7bd3575f
     prerequisites: [platforms.matrix, build.overview]
@@ -2664,6 +2685,7 @@ pages:
     risk_group: platforms-android
     risk_level: high
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: .github/workflows/release-android-bundle.yaml"
     nav: { section: 平台, order: 56 }
   - <<: *platform_android_zh
     title: Android development
@@ -2880,7 +2902,7 @@ pages:
     title: 打包
     language: zh_CN
     path: operations/packaging.md
-    status: active
+    status: stale
     doc_type: how-to
     audiences: [maintainer]
     last_human_reviewer: Pending human review
@@ -2893,7 +2915,7 @@ pages:
     verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
     verified_at: '2026-08-02'
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: operations.packaging
     translation_source_fingerprint: a517c91c633dea4acc9e1d492c333d8f5be8b148ab981b63ac2b46b1d72db68b
     prerequisites: [platforms.matrix, validation.testing]
@@ -2902,6 +2924,7 @@ pages:
     risk_group: release
     risk_level: high
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: .github/workflows/release-android-bundle.yaml, .github/workflows/release.yml, Makefile"
     nav: { section: 运维, order: 300 }
   - <<: *operations_packaging_zh
     title: Packaging
@@ -2914,7 +2937,7 @@ pages:
     title: 发布操作
     language: zh_CN
     path: operations/releases.md
-    status: active
+    status: stale
     doc_type: how-to
     audiences: [maintainer]
     last_human_reviewer: Pending human review
@@ -2927,7 +2950,7 @@ pages:
     verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
     verified_at: '2026-08-02'
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: operations.releases
     translation_source_fingerprint: 968e8122bf55cc278a9f3c5c45d8fbeedfea0f436185c719787a5f53e02533fc
     prerequisites: [operations.packaging]
@@ -2936,6 +2959,7 @@ pages:
     risk_group: release
     risk_level: high
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: .github/workflows/release-android-bundle.yaml, .github/workflows/release.yml"
     nav: { section: 运维, order: 301 }
   - <<: *operations_releases_zh
     title: Release operations
@@ -2948,7 +2972,7 @@ pages:
     title: Crash report 与 symbol
     language: zh_CN
     path: operations/crash-reports.md
-    status: active
+    status: stale
     doc_type: how-to
     audiences: [new-contributor, experienced-contributor, maintainer]
     last_human_reviewer: Pending human review
@@ -2961,7 +2985,7 @@ pages:
     verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
     verified_at: '2026-08-02'
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: operations.crash-reports
     translation_source_fingerprint: 14e660250e730d64aebabb110fc3d1a74e23ae94c705bcb34374b794001e8ef1
     prerequisites: [validation.debugging, platforms.matrix]
@@ -2970,6 +2994,7 @@ pages:
     risk_group: diagnostics
     risk_level: normal
     pending_source_pr: null
+    stale_reason: "Source paths changed after d32b9cc880a8: .github/workflows/msvc-full-features.yml, src/debug.cpp"
     nav: { section: 运维, order: 302 }
   - <<: *operations_crash_zh
     title: Crash reports and symbols
@@ -3966,7 +3991,7 @@ pages:
     title: 旧文档迁移草稿：windows msvc
     language: zh_CN
     path: build/windows-msvc.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -3996,7 +4021,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: build-windows-msvc
     translation_status: current
     translation_stale_since: null
@@ -4016,7 +4041,7 @@ pages:
     risk_group: build
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: .github/workflows/msvc-full-features.yml"
     nav:
       section: 迁移草稿
       order: 1000
@@ -4024,7 +4049,7 @@ pages:
     title: 'Legacy migration draft: windows msvc'
     language: en
     path: build/windows-msvc.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -4054,7 +4079,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: build-windows-msvc
     translation_status: current
     translation_stale_since: null
@@ -4074,7 +4099,7 @@ pages:
     risk_group: build
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: .github/workflows/msvc-full-features.yml"
     nav:
       section: Migration drafts
       order: 1000
@@ -4082,7 +4107,7 @@ pages:
     title: 旧文档迁移草稿：windows msys2
     language: zh_CN
     path: build/windows-msys2.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -4109,7 +4134,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: build-windows-msys2
     translation_status: current
     translation_stale_since: null
@@ -4128,7 +4153,7 @@ pages:
     risk_group: build
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: Makefile, doc/c++/COMPILING-MSYS.md"
     nav:
       section: 迁移草稿
       order: 1000
@@ -4136,7 +4161,7 @@ pages:
     title: 'Legacy migration draft: windows msys2'
     language: en
     path: build/windows-msys2.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -4163,7 +4188,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: build-windows-msys2
     translation_status: current
     translation_stale_since: null
@@ -4182,7 +4207,7 @@ pages:
     risk_group: build
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: Makefile, doc/c++/COMPILING-MSYS.md"
     nav:
       section: Migration drafts
       order: 1000
@@ -4528,7 +4553,7 @@ pages:
     title: 旧文档迁移草稿：json style
     language: zh_CN
     path: contributing/json-style.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -4557,7 +4582,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: contributing.json-style
     translation_status: current
     translation_stale_since: null
@@ -4576,7 +4601,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: Makefile"
     nav:
       section: 迁移草稿
       order: 1000
@@ -4584,7 +4609,7 @@ pages:
     title: 'Legacy migration draft: json style'
     language: en
     path: contributing/json-style.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -4613,7 +4638,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: contributing.json-style
     translation_status: current
     translation_stale_since: null
@@ -4632,7 +4657,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: Makefile"
     nav:
       section: Migration drafts
       order: 1000
@@ -5312,7 +5337,7 @@ pages:
     title: Mind Over Matter 能力直接字段索引
     language: zh_CN
     path: data/mods/MindOverMatter/PowerDescriptionSpoilers.md
-    status: active
+    status: stale
     doc_type: generated-api
     audiences:
     - new-contributor
@@ -5346,7 +5371,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: mods.mind-over-matter.power-reference
     translation_status: current
     translation_stale_since: null
@@ -5365,7 +5390,7 @@ pages:
     risk_group: mods
     risk_level: normal
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/mods/MindOverMatter/PowerDescriptionSpoilers.md, data/mods/MindOverMatter/powers/vitakinesis.json"
     nav:
       section: 迁移草稿
       order: 1000
@@ -5373,7 +5398,7 @@ pages:
     title: Mind Over Matter power direct-field index
     language: en
     path: data/mods/MindOverMatter/PowerDescriptionSpoilers.md
-    status: active
+    status: stale
     doc_type: generated-api
     audiences:
     - new-contributor
@@ -5407,7 +5432,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: mods.mind-over-matter.power-reference
     translation_status: current
     translation_stale_since: null
@@ -5426,7 +5451,7 @@ pages:
     risk_group: mods
     risk_level: normal
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/mods/MindOverMatter/PowerDescriptionSpoilers.md, data/mods/MindOverMatter/powers/vitakinesis.json"
     nav:
       section: Migration drafts
       order: 1000
@@ -6192,7 +6217,7 @@ pages:
     title: 旧文档迁移草稿：portal storms
     language: zh_CN
     path: design/portal-storms.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -6221,7 +6246,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: design-portal-storms
     translation_status: current
     translation_stale_since: null
@@ -6240,7 +6265,7 @@ pages:
     risk_group: design
     risk_level: normal
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/game.cpp"
     nav:
       section: 迁移草稿
       order: 1000
@@ -6248,7 +6273,7 @@ pages:
     title: 'Legacy migration draft: portal storms'
     language: en
     path: design/portal-storms.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -6277,7 +6302,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: design-portal-storms
     translation_status: current
     translation_stale_since: null
@@ -6296,7 +6321,7 @@ pages:
     risk_group: design
     risk_level: normal
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/game.cpp"
     nav:
       section: Migration drafts
       order: 1000
@@ -6304,7 +6329,7 @@ pages:
     title: 旧文档迁移草稿：steel crafting
     language: zh_CN
     path: design/steel-crafting.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -6331,7 +6356,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: design-steel-crafting
     translation_status: current
     translation_stale_since: null
@@ -6350,7 +6375,7 @@ pages:
     risk_group: design
     risk_level: normal
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/json/recipes/other/materials.json, data/json/requirements/materials.json"
     nav:
       section: 迁移草稿
       order: 1000
@@ -6358,7 +6383,7 @@ pages:
     title: 'Legacy migration draft: steel crafting'
     language: en
     path: design/steel-crafting.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -6385,7 +6410,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: design-steel-crafting
     translation_status: current
     translation_stale_since: null
@@ -6404,7 +6429,7 @@ pages:
     risk_group: design
     risk_level: normal
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/json/recipes/other/materials.json, data/json/requirements/materials.json"
     nav:
       section: Migration drafts
       order: 1000
@@ -6412,7 +6437,7 @@ pages:
     title: 旧文档迁移草稿：user experience
     language: zh_CN
     path: design/user-experience.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -6438,7 +6463,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: design-user-experience
     translation_status: current
     translation_stale_since: null
@@ -6457,7 +6482,7 @@ pages:
     risk_group: design
     risk_level: normal
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/options.cpp"
     nav:
       section: 迁移草稿
       order: 1000
@@ -6465,7 +6490,7 @@ pages:
     title: 'Legacy migration draft: user experience'
     language: en
     path: design/user-experience.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -6491,7 +6516,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: design-user-experience
     translation_status: current
     translation_stale_since: null
@@ -6510,7 +6535,7 @@ pages:
     risk_group: design
     risk_level: normal
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/options.cpp"
     nav:
       section: Migration drafts
       order: 1000
@@ -7310,7 +7335,7 @@ pages:
     title: 旧文档迁移草稿：translation guide
     language: zh_CN
     path: localization/translation-guide.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -7342,7 +7367,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: translation-guide
     translation_status: current
     translation_stale_since: null
@@ -7362,7 +7387,7 @@ pages:
     risk_group: localization
     risk_level: normal
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: lang/update_pot.sh"
     nav:
       section: 迁移草稿
       order: 1000
@@ -7370,7 +7395,7 @@ pages:
     title: 'Legacy migration draft: translation guide'
     language: en
     path: localization/translation-guide.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -7402,7 +7427,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: translation-guide
     translation_status: current
     translation_stale_since: null
@@ -7422,7 +7447,7 @@ pages:
     risk_group: localization
     risk_level: normal
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: lang/update_pot.sh"
     nav:
       section: Migration drafts
       order: 1000
@@ -7968,7 +7993,7 @@ pages:
     title: 旧文档迁移草稿：compatibility
     language: zh_CN
     path: modding/compatibility.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -7997,7 +8022,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: mod-compatibility
     translation_status: current
     translation_stale_since: null
@@ -8016,7 +8041,7 @@ pages:
     risk_group: mods
     risk_level: normal
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/mod_manager.cpp"
     nav:
       section: 迁移草稿
       order: 1000
@@ -8024,7 +8049,7 @@ pages:
     title: 'Legacy migration draft: compatibility'
     language: en
     path: modding/compatibility.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -8053,7 +8078,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: mod-compatibility
     translation_status: current
     translation_stale_since: null
@@ -8072,7 +8097,7 @@ pages:
     risk_group: mods
     risk_level: normal
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/mod_manager.cpp"
     nav:
       section: Migration drafts
       order: 1000
@@ -8188,7 +8213,7 @@ pages:
     title: 旧文档迁移草稿：overview
     language: zh_CN
     path: modding/overview.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -8218,7 +8243,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: modding-overview
     translation_status: current
     translation_stale_since: null
@@ -8237,7 +8262,7 @@ pages:
     risk_group: mods
     risk_level: normal
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/mod_manager.cpp"
     nav:
       section: 迁移草稿
       order: 1000
@@ -8245,7 +8270,7 @@ pages:
     title: 'Legacy migration draft: overview'
     language: en
     path: modding/overview.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -8275,7 +8300,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: modding-overview
     translation_status: current
     translation_stale_since: null
@@ -8294,7 +8319,7 @@ pages:
     risk_group: mods
     risk_level: normal
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/mod_manager.cpp"
     nav:
       section: Migration drafts
       order: 1000
@@ -8302,7 +8327,7 @@ pages:
     title: 旧文档迁移草稿：in repository policy
     language: zh_CN
     path: mods/in-repository-policy.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -8332,7 +8357,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: mods.in-repository-policy
     translation_status: current
     translation_stale_since: null
@@ -8351,7 +8376,7 @@ pages:
     risk_group: mods
     risk_level: normal
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/mod_manager.cpp"
     nav:
       section: 迁移草稿
       order: 1000
@@ -8359,7 +8384,7 @@ pages:
     title: 'Legacy migration draft: in repository policy'
     language: en
     path: mods/in-repository-policy.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -8389,7 +8414,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: mods.in-repository-policy
     translation_status: current
     translation_stale_since: null
@@ -8408,7 +8433,7 @@ pages:
     risk_group: mods
     risk_level: normal
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/mod_manager.cpp"
     nav:
       section: Migration drafts
       order: 1000
@@ -8416,7 +8441,7 @@ pages:
     title: 旧文档迁移草稿：compiler support
     language: zh_CN
     path: platforms/compiler-support.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -8443,7 +8468,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: platform-matrix
     translation_status: current
     translation_stale_since: null
@@ -8462,7 +8487,7 @@ pages:
     risk_group: build
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: .github/workflows/matrix.yml, .github/workflows/msvc-full-features.yml"
     nav:
       section: 迁移草稿
       order: 1000
@@ -8470,7 +8495,7 @@ pages:
     title: 'Legacy migration draft: compiler support'
     language: en
     path: platforms/compiler-support.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -8497,7 +8522,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: platform-matrix
     translation_status: current
     translation_stale_since: null
@@ -8516,7 +8541,7 @@ pages:
     risk_group: build
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: .github/workflows/matrix.yml, .github/workflows/msvc-full-features.yml"
     nav:
       section: Migration drafts
       order: 1000
@@ -8524,7 +8549,7 @@ pages:
     title: 旧文档迁移草稿：eoc
     language: zh_CN
     path: reference/eoc/index.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -8556,7 +8581,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: eoc.reference
     translation_status: current
     translation_stale_since: null
@@ -8575,7 +8600,7 @@ pages:
     risk_group: eoc
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: doc/JSON/EFFECT_ON_CONDITION.md, src/npctalk.cpp"
     nav:
       section: 迁移草稿
       order: 1000
@@ -8583,7 +8608,7 @@ pages:
     title: 'Legacy migration draft: eoc'
     language: en
     path: reference/eoc/index.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -8615,7 +8640,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: eoc.reference
     translation_status: current
     translation_stale_since: null
@@ -8634,7 +8659,7 @@ pages:
     risk_group: eoc
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: doc/JSON/EFFECT_ON_CONDITION.md, src/npctalk.cpp"
     nav:
       section: Migration drafts
       order: 1000
@@ -8642,7 +8667,7 @@ pages:
     title: 旧文档迁移草稿：npcs and dialogue
     language: zh_CN
     path: reference/eoc/npcs-and-dialogue.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -8674,7 +8699,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.npcs-dialogue
     translation_status: current
     translation_stale_since: null
@@ -8694,7 +8719,7 @@ pages:
     risk_group: eoc
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/npc.cpp, src/npctalk.cpp"
     nav:
       section: 迁移草稿
       order: 1000
@@ -8702,7 +8727,7 @@ pages:
     title: 'Legacy migration draft: npcs and dialogue'
     language: en
     path: reference/eoc/npcs-and-dialogue.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -8734,7 +8759,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.npcs-dialogue
     translation_status: current
     translation_stale_since: null
@@ -8754,7 +8779,7 @@ pages:
     risk_group: eoc
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/npc.cpp, src/npctalk.cpp"
     nav:
       section: Migration drafts
       order: 1000
@@ -9338,7 +9363,7 @@ pages:
     title: 旧文档迁移草稿：examine actions
     language: zh_CN
     path: reference/json/examine-actions.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -9370,7 +9395,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.examine-actions
     translation_status: current
     translation_stale_since: null
@@ -9389,7 +9414,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/iexamine.cpp"
     nav:
       section: 迁移草稿
       order: 1000
@@ -9397,7 +9422,7 @@ pages:
     title: 'Legacy migration draft: examine actions'
     language: en
     path: reference/json/examine-actions.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -9429,7 +9454,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.examine-actions
     translation_status: current
     translation_stale_since: null
@@ -9448,7 +9473,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/iexamine.cpp"
     nav:
       section: Migration drafts
       order: 1000
@@ -9568,7 +9593,7 @@ pages:
     title: JSON 标志直接定义索引
     language: zh_CN
     path: reference/json/generated/flags.md
-    status: active
+    status: stale
     doc_type: generated-api
     audiences:
     - new-contributor
@@ -9598,7 +9623,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.flags
     translation_status: current
     translation_stale_since: null
@@ -9618,7 +9643,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/json/flags.json, doc/JSON/JSON_FLAGS.md, src/flag.cpp, …"
     nav:
       section: 迁移草稿
       order: 1000
@@ -9626,7 +9651,7 @@ pages:
     title: JSON flag direct-definition index
     language: en
     path: reference/json/generated/flags.md
-    status: active
+    status: stale
     doc_type: generated-api
     audiences:
     - new-contributor
@@ -9656,7 +9681,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.flags
     translation_status: current
     translation_stale_since: null
@@ -9676,7 +9701,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/json/flags.json, doc/JSON/JSON_FLAGS.md, src/flag.cpp, …"
     nav:
       section: Migration drafts
       order: 1000
@@ -9910,7 +9935,7 @@ pages:
     title: 旧文档迁移草稿：json
     language: zh_CN
     path: reference/json/index.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -9942,7 +9967,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.object-types
     translation_status: current
     translation_stale_since: null
@@ -9962,7 +9987,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: doc/JSON/JSON_INFO.md"
     nav:
       section: 迁移草稿
       order: 1000
@@ -9970,7 +9995,7 @@ pages:
     title: 'Legacy migration draft: json'
     language: en
     path: reference/json/index.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -10002,7 +10027,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.object-types
     translation_status: current
     translation_stale_since: null
@@ -10022,7 +10047,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: doc/JSON/JSON_INFO.md"
     nav:
       section: Migration drafts
       order: 1000
@@ -10260,7 +10285,7 @@ pages:
     title: 旧文档迁移草稿：items
     language: zh_CN
     path: reference/json/items/index.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -10292,7 +10317,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.items
     translation_status: current
     translation_stale_since: null
@@ -10311,7 +10336,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/json/items/generic.json"
     nav:
       section: 迁移草稿
       order: 1000
@@ -10319,7 +10344,7 @@ pages:
     title: 'Legacy migration draft: items'
     language: en
     path: reference/json/items/index.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -10351,7 +10376,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.items
     translation_status: current
     translation_stale_since: null
@@ -10370,7 +10395,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/json/items/generic.json"
     nav:
       section: Migration drafts
       order: 1000
@@ -10498,7 +10523,7 @@ pages:
     title: 旧文档迁移草稿：magic spells enchantments
     language: zh_CN
     path: reference/json/magic-spells-enchantments.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -10531,7 +10556,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.magic-spells-enchantments
     translation_status: current
     translation_stale_since: null
@@ -10550,7 +10575,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/json/enchantments.json, doc/JSON/MAGIC.md, src/magic.cpp, …"
     nav:
       section: 迁移草稿
       order: 1000
@@ -10558,7 +10583,7 @@ pages:
     title: 'Legacy migration draft: magic spells enchantments'
     language: en
     path: reference/json/magic-spells-enchantments.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -10591,7 +10616,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.magic-spells-enchantments
     translation_status: current
     translation_stale_since: null
@@ -10610,7 +10635,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/json/enchantments.json, doc/JSON/MAGIC.md, src/magic.cpp, …"
     nav:
       section: Migration drafts
       order: 1000
@@ -10856,7 +10881,7 @@ pages:
     title: 旧文档迁移草稿：missions
     language: zh_CN
     path: reference/json/missions.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -10887,7 +10912,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.missions
     translation_status: current
     translation_stale_since: null
@@ -10906,7 +10931,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/npctalk.cpp"
     nav:
       section: 迁移草稿
       order: 1000
@@ -10914,7 +10939,7 @@ pages:
     title: 'Legacy migration draft: missions'
     language: en
     path: reference/json/missions.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -10945,7 +10970,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.missions
     translation_status: current
     translation_stale_since: null
@@ -10964,7 +10989,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/npctalk.cpp"
     nav:
       section: Migration drafts
       order: 1000
@@ -11314,7 +11339,7 @@ pages:
     title: 旧文档迁移草稿：mutations
     language: zh_CN
     path: reference/json/mutations.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -11346,7 +11371,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.mutations
     translation_status: current
     translation_stale_since: null
@@ -11365,7 +11390,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/json/mutations/mutations.json, doc/JSON/MUTATIONS.md, src/mutation.cpp, …"
     nav:
       section: 迁移草稿
       order: 1000
@@ -11373,7 +11398,7 @@ pages:
     title: 'Legacy migration draft: mutations'
     language: en
     path: reference/json/mutations.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -11405,7 +11430,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.mutations
     translation_status: current
     translation_stale_since: null
@@ -11424,7 +11449,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/json/mutations/mutations.json, doc/JSON/MUTATIONS.md, src/mutation.cpp, …"
     nav:
       section: Migration drafts
       order: 1000
@@ -11544,7 +11569,7 @@ pages:
     title: 旧文档迁移草稿：obsoletion and migration
     language: zh_CN
     path: reference/json/obsoletion-and-migration.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -11580,7 +11605,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.obsoletion-and-migration
     translation_status: current
     translation_stale_since: null
@@ -11599,7 +11624,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/magic.cpp"
     nav:
       section: 迁移草稿
       order: 1000
@@ -11607,7 +11632,7 @@ pages:
     title: 'Legacy migration draft: obsoletion and migration'
     language: en
     path: reference/json/obsoletion-and-migration.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -11643,7 +11668,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.obsoletion-and-migration
     translation_status: current
     translation_stale_since: null
@@ -11662,7 +11687,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/magic.cpp"
     nav:
       section: Migration drafts
       order: 1000
@@ -11670,7 +11695,7 @@ pages:
     title: 旧文档迁移草稿：options
     language: zh_CN
     path: reference/json/options.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -11701,7 +11726,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.options
     translation_status: current
     translation_stale_since: null
@@ -11720,7 +11745,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: doc/JSON/OPTIONS.md, src/options.cpp"
     nav:
       section: 迁移草稿
       order: 1000
@@ -11728,7 +11753,7 @@ pages:
     title: 'Legacy migration draft: options'
     language: en
     path: reference/json/options.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -11759,7 +11784,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.options
     translation_status: current
     translation_stale_since: null
@@ -11778,7 +11803,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: doc/JSON/OPTIONS.md, src/options.cpp"
     nav:
       section: Migration drafts
       order: 1000
@@ -12136,7 +12161,7 @@ pages:
     title: 旧文档迁移草稿：recipes and disassembly
     language: zh_CN
     path: reference/json/recipes-and-disassembly.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -12168,7 +12193,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.recipes-and-disassembly
     translation_status: current
     translation_stale_since: null
@@ -12187,7 +12212,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/json/recipes/armor/other.json"
     nav:
       section: 迁移草稿
       order: 1000
@@ -12195,7 +12220,7 @@ pages:
     title: 'Legacy migration draft: recipes and disassembly'
     language: en
     path: reference/json/recipes-and-disassembly.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -12227,7 +12252,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: json.recipes-and-disassembly
     translation_status: current
     translation_stale_since: null
@@ -12246,7 +12271,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/json/recipes/armor/other.json"
     nav:
       section: Migration drafts
       order: 1000
@@ -13390,7 +13415,7 @@ pages:
     title: 旧文档迁移草稿：cpp
     language: zh_CN
     path: testing/cpp.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -13419,7 +13444,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: cpp-testing
     translation_status: current
     translation_stale_since: null
@@ -13438,7 +13463,7 @@ pages:
     risk_group: testing
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: .github/workflows/matrix.yml"
     nav:
       section: 迁移草稿
       order: 1000
@@ -13446,7 +13471,7 @@ pages:
     title: 'Legacy migration draft: cpp'
     language: en
     path: testing/cpp.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -13475,7 +13500,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: cpp-testing
     translation_status: current
     translation_stale_since: null
@@ -13494,7 +13519,7 @@ pages:
     risk_group: testing
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: .github/workflows/matrix.yml"
     nav:
       section: Migration drafts
       order: 1000
@@ -13502,7 +13527,7 @@ pages:
     title: 旧文档迁移草稿：manual playtesting
     language: zh_CN
     path: testing/manual-playtesting.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -13530,7 +13555,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: testing-manual
     translation_status: current
     translation_stale_since: null
@@ -13549,7 +13574,7 @@ pages:
     risk_group: testing
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: .github/workflows/matrix.yml, Makefile"
     nav:
       section: 迁移草稿
       order: 1000
@@ -13557,7 +13582,7 @@ pages:
     title: 'Legacy migration draft: manual playtesting'
     language: en
     path: testing/manual-playtesting.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -13585,7 +13610,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: testing-manual
     translation_status: current
     translation_stale_since: null
@@ -13604,7 +13629,7 @@ pages:
     risk_group: testing
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: .github/workflows/matrix.yml, Makefile"
     nav:
       section: Migration drafts
       order: 1000
@@ -13612,7 +13637,7 @@ pages:
     title: 旧文档迁移草稿：beginner
     language: zh_CN
     path: tutorials/json-mapgen/beginner.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -13645,7 +13670,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: tutorial.mapgen-beginner
     translation_status: current
     translation_stale_since: null
@@ -13665,7 +13690,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/json/overmap/overmap_terrain/overmap_terrain.json"
     nav:
       section: 迁移草稿
       order: 1000
@@ -13673,7 +13698,7 @@ pages:
     title: 'Legacy migration draft: beginner'
     language: en
     path: tutorials/json-mapgen/beginner.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -13706,7 +13731,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: tutorial.mapgen-beginner
     translation_status: current
     translation_stale_since: null
@@ -13726,7 +13751,7 @@ pages:
     risk_group: json
     risk_level: high
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: data/json/overmap/overmap_terrain/overmap_terrain.json"
     nav:
       section: Migration drafts
       order: 1000
@@ -13850,7 +13875,7 @@ pages:
     title: 旧文档迁移草稿：accessibility
     language: zh_CN
     path: ui/accessibility.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -13878,7 +13903,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: ui-accessibility
     translation_status: current
     translation_stale_since: null
@@ -13897,7 +13922,7 @@ pages:
     risk_group: ui
     risk_level: normal
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/options.cpp"
     nav:
       section: 迁移草稿
       order: 1000
@@ -13905,7 +13930,7 @@ pages:
     title: 'Legacy migration draft: accessibility'
     language: en
     path: ui/accessibility.md
-    status: active
+    status: stale
     doc_type: explanation
     audiences:
     - new-contributor
@@ -13933,7 +13958,7 @@ pages:
     generated: true
     generated_by: scripts/generate_legacy_migration.py
     include_in_search: true
-    include_in_ai_index: true
+    include_in_ai_index: false
     translation_group: ui-accessibility
     translation_status: current
     translation_stale_since: null
@@ -13952,7 +13977,7 @@ pages:
     risk_group: ui
     risk_level: normal
     pending_source_pr: null
-    stale_reason: null
+    stale_reason: "Source paths changed after d32b9cc880a8: src/options.cpp"
     nav:
       section: Migration drafts
       order: 1000

@@ -3,7 +3,7 @@
 id: platforms.msys2
 title: MSYS2 与 MinGW
 language: zh_CN
-status: active
+status: stale
 doc_type: how-to
 audiences:
 - new-contributor
@@ -29,7 +29,7 @@ verified_at: '2026-08-02'
 generated: false
 generated_by: null
 include_in_search: true
-include_in_ai_index: true
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: bc3e58ed87ce480f2925aecac89f9313b9869c581272cfae45131748b7f4ae03
@@ -49,7 +49,7 @@ deprecation_replacement: null
 risk_group: platforms-windows
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: 'Source paths changed after d32b9cc880a8: .github/workflows/msvc-full-features.yml, doc/c++/COMPILING-MSYS.md'
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/
