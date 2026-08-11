@@ -24,17 +24,17 @@ source_paths:
 - src/worldfactory.cpp
 source_symbols: []
 source_queries: []
-source_fingerprint: 94e740aebf8849eb1db050a8e428d16a143a424fe541546638c138d1dc759176
+source_fingerprint: 5a4798963c7a67f75950d85a7e85c49b64110eb2593b0e81c0b425d3d5fddd2b
 authority: source-and-tests
-verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-verified_at: '2026-08-02'
+verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+verified_at: '2026-08-12'
 generated: false
 generated_by: null
 include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: e09ef4b70f339892b6a214edaf933da9ada135e574dcd2acdbc2df204acf345d
+translation_source_fingerprint: 3596e034c75ddee6ed3c287ade547d64bb8aa37481ee6141b98f1e6df3ee8106
 prerequisites:
 - architecture.overview
 depends_on: []
@@ -57,21 +57,21 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/save/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/save/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/d32b9cc880a85480840d82cfa05d256c78a16615
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
 source_urls:
 - path: CONTRIBUTING.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/CONTRIBUTING.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/CONTRIBUTING.md
 - path: doc/JSON/OBSOLETION_AND_MIGRATION.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/doc/JSON/OBSOLETION_AND_MIGRATION.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/doc/JSON/OBSOLETION_AND_MIGRATION.md
 - path: src/savegame.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/src/savegame.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/savegame.cpp
 - path: src/savegame_json.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/src/savegame_json.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/savegame_json.cpp
 - path: src/savegame_legacy.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/src/savegame_legacy.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/savegame_legacy.cpp
 - path: src/worldfactory.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/src/worldfactory.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28compatibility.save%29%3A+&body=Document+ID%3A+compatibility.save%0ALanguage%3A+zh_CN%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/worldfactory.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28compatibility.save%29%3A+&body=Document+ID%3A+compatibility.save%0ALanguage%3A+zh_CN%0AVerified+commit%3A+c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 存档兼容
@@ -96,3 +96,12 @@ ID、序列化对象所有权和失败恢复。
 
 本页 verified commit 的 `savegame*` 与 `worldfactory` 实现是运行时权威；旧说明只
 解释概念，不能覆盖当前序列化源码和测试。
+
+## 有限水体的存档状态
+
+有限池塘、泳池和水渠的剩余水量由 `submap` 的 `finite_liquids` 成员保存，而不是作为
+地面物品保存。每条记录包含子地图内坐标和剩余份数；没有剩余水量的格子不写入记录。
+
+读取较早的有限水实现存档时，加载器会把有限水面上的同类地面液体吸收到这份隐藏状态，
+并按地形容量限制数量。这既移除了覆盖水面的物品贴图，也让再次保存、加载后仍保持同一
+水量。修改这条迁移时，至少要覆盖旧地面液体、新隐藏状态和连续两次保存/加载。
