@@ -57,6 +57,27 @@
       "path": "architecture/design-principles.md"
     },
     {
+      "id": "architecture.lua-first-platform",
+      "title": "Lua-first Platform v1 架构",
+      "section": "架构",
+      "order": 23,
+      "path": "architecture/lua-first-platform.md"
+    },
+    {
+      "id": "architecture.lua-first-roadmap",
+      "title": "Lua-first Platform 路线图",
+      "section": "架构",
+      "order": 24,
+      "path": "architecture/lua-first-roadmap.md"
+    },
+    {
+      "id": "architecture.lua-first-glossary",
+      "title": "Lua-first 学习词汇表",
+      "section": "架构",
+      "order": 25,
+      "path": "architecture/lua-first-glossary.md"
+    },
+    {
       "id": "contributing.responsible-human",
       "title": "Responsible human 与 AI 辅助贡献",
       "section": "贡献政策",
@@ -195,6 +216,13 @@
       "section": "治理",
       "order": 80,
       "path": "governance/security-license.md"
+    },
+    {
+      "id": "api.lua.platform-v1.overview",
+      "title": "Lua-first Platform v1 API 概览",
+      "section": "Lua-first Platform v1",
+      "order": 89,
+      "path": "api/lua/platform-v1/overview.md"
     },
     {
       "id": "api.lua.v5.overview",
@@ -1368,6 +1396,27 @@
       "path": "architecture/design-principles.md"
     },
     {
+      "id": "architecture.lua-first-platform",
+      "title": "Lua-first Platform v1 architecture",
+      "section": "Architecture",
+      "order": 23,
+      "path": "architecture/lua-first-platform.md"
+    },
+    {
+      "id": "architecture.lua-first-roadmap",
+      "title": "Lua-first Platform roadmap",
+      "section": "Architecture",
+      "order": 24,
+      "path": "architecture/lua-first-roadmap.md"
+    },
+    {
+      "id": "architecture.lua-first-glossary",
+      "title": "Lua-first learning glossary",
+      "section": "Architecture",
+      "order": 25,
+      "path": "architecture/lua-first-glossary.md"
+    },
+    {
       "id": "contributing.responsible-human",
       "title": "Responsible human and AI-assisted contributions",
       "section": "Contribution policy",
@@ -1506,6 +1555,13 @@
       "section": "Governance",
       "order": 80,
       "path": "governance/security-license.md"
+    },
+    {
+      "id": "api.lua.platform-v1.overview",
+      "title": "Lua-first Platform v1 API overview",
+      "section": "Lua-first Platform v1",
+      "order": 89,
+      "path": "api/lua/platform-v1/overview.md"
     },
     {
       "id": "api.lua.v5.overview",

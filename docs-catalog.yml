@@ -555,6 +555,161 @@ pages:
     language: en
     nav: { section: Architecture, order: 22 }
 
+  # Lua-first Platform pages are active against the final merged source stack.
+  # The roadmap and replacement ledger retain the partial-coverage boundary.
+  - &lua_first_platform_zh
+    <<: *page_defaults
+    id: architecture.lua-first-platform
+    title: Lua-first Platform v1 架构
+    language: zh_CN
+    path: architecture/lua-first-platform.md
+    status: active
+    doc_type: explanation
+    audiences: [new-contributor, experienced-contributor, maintainer, mod-author, api-user]
+    review_interval_days: 90
+    source_paths: [data/lua/LUA_FIRST_PLATFORM.md, ai/lua-first-roadmap.yml, data/lua/AGENTS.md]
+    source_symbols: []
+    source_queries: []
+    source_fingerprint: fb018b111dad342ff2914506cfa61274dc2d83c97635db93dca59940feda251e
+    authority: docs-explanation
+    verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+    verified_at: '2026-08-12'
+    include_in_search: true
+    include_in_ai_index: true
+    translation_group: architecture.lua-first-platform
+    translation_status: current
+    translation_stale_since: null
+    translation_source_fingerprint: df364cca1c1af9485ae058d72d06bdbf099002b698e870d6c8ce7ee362e6d29d
+    prerequisites: [architecture.overview]
+    depends_on: [api.lua.v5.overview]
+    example_validation_ids: [agent-context, lua-contract]
+    risk_group: lua-platform
+    risk_level: high
+    pending_source_pr: null
+    nav: { section: 架构, order: 23 }
+  - <<: *lua_first_platform_zh
+    title: Lua-first Platform v1 architecture
+    language: en
+    nav: { section: Architecture, order: 23 }
+
+  - &lua_first_roadmap_zh
+    <<: *page_defaults
+    id: architecture.lua-first-roadmap
+    title: Lua-first Platform 路线图
+    language: zh_CN
+    path: architecture/lua-first-roadmap.md
+    status: active
+    doc_type: explanation
+    audiences: [experienced-contributor, maintainer, mod-author, api-user]
+    review_interval_days: 90
+    source_paths: [ai/lua-first-roadmap.yml, ai/lua-first-roadmap.schema.json, data/lua/LUA_FIRST_PLATFORM.md]
+    source_symbols: []
+    source_queries: []
+    source_fingerprint: 05c4efbbb59bd9cb6550d35141c21123e5a34da7ecce125a07efc74a57ab26b9
+    authority: docs-explanation
+    verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+    verified_at: '2026-08-12'
+    include_in_search: true
+    include_in_ai_index: true
+    translation_group: architecture.lua-first-roadmap
+    translation_status: current
+    translation_stale_since: null
+    translation_source_fingerprint: 2682c28d441a435396381d5c65ad2ea8b8319135d90f924078edd1dab829ca9a
+    prerequisites: [architecture.lua-first-platform]
+    depends_on: [architecture.lua-first-platform]
+    example_validation_ids: [agent-context, lua-contract]
+    risk_group: lua-platform
+    risk_level: high
+    pending_source_pr: null
+    nav: { section: 架构, order: 24 }
+  - <<: *lua_first_roadmap_zh
+    title: Lua-first Platform roadmap
+    language: en
+    nav: { section: Architecture, order: 24 }
+
+  - &lua_first_glossary_zh
+    <<: *page_defaults
+    id: architecture.lua-first-glossary
+    title: Lua-first 学习词汇表
+    language: zh_CN
+    path: architecture/lua-first-glossary.md
+    status: active
+    doc_type: reference
+    audiences: [new-contributor, experienced-contributor, maintainer, mod-author, api-user]
+    review_interval_days: 180
+    source_paths: [data/lua/LUA_FIRST_PLATFORM.md, ai/lua-first-roadmap.yml, data/lua/types/ccb_api_v5.d.lua]
+    source_symbols: []
+    source_queries: []
+    source_fingerprint: 57e615bcf6107cae209aca140cd5d501477bf2caa05f2fb80e0273dcbd1a8ff2
+    authority: docs-explanation
+    verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+    verified_at: '2026-08-12'
+    include_in_search: true
+    include_in_ai_index: true
+    translation_group: architecture.lua-first-glossary
+    translation_status: current
+    translation_stale_since: null
+    translation_source_fingerprint: a37d590eebadc63d2b107f43e92e2e9e51ab4578ba0c4be27123b2e0277bdabf
+    prerequisites: [architecture.lua-first-platform]
+    depends_on: [architecture.lua-first-platform, architecture.lua-first-roadmap]
+    example_validation_ids: [agent-context, lua-contract]
+    risk_group: lua-platform
+    risk_level: high
+    pending_source_pr: null
+    nav: { section: 架构, order: 25 }
+  - <<: *lua_first_glossary_zh
+    title: Lua-first learning glossary
+    language: en
+    nav: { section: Architecture, order: 25 }
+
+  - &lua_platform_v1_api_zh
+    <<: *page_defaults
+    id: api.lua.platform-v1.overview
+    title: Lua-first Platform v1 API 概览
+    language: zh_CN
+    path: api/lua/platform-v1/overview.md
+    status: active
+    doc_type: reference
+    audiences: [new-contributor, experienced-contributor, maintainer, mod-author, api-user]
+    owners: [CCB Lua API maintainers]
+    reviewers: [Documentation reviewers, Lua API reviewers]
+    review_interval_days: 60
+    last_human_reviewer: LYHGLYTX
+    source_paths: [data/lua/types/ccb_platform_v1.d.lua, data/lua/LUA_FIRST_PLATFORM.md, ai/lua-first-roadmap.yml, ai/lua-first-replacement-ledger.yml, data/mods/Lua_First_Example/mod.lua, data/mods/Lua_First_Example/main.lua, data/mods/Lua_First_Example/content/cleanwater_charm.lua, data/mods/Lua_First_Example/runtime/behaviour.lua, tools/create_lua_mod.py, tools/migrate_lua_first.py]
+    source_symbols: [CcbPlatformV1, ModDefinition, CcbPlatformContent, CcbPlatformRuntime, CcbPlatformTasks, CcbPlatformServices]
+    source_queries: []
+    source_fingerprint: 145df35fb96e317cd11ab1619fa43b3ea8eb7f94373f96c3aa32dcec7264f3da
+    authority: api-contract
+    verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+    verified_at: '2026-08-12'
+    generated: false
+    generated_by: null
+    include_in_search: true
+    include_in_ai_index: true
+    translation_group: api.lua.platform-v1.overview
+    translation_status: current
+    translation_stale_since: null
+    translation_source_fingerprint: 5de362515587d913a379f8a74fd93034e91e329ccec7215338767b05b5efcacc
+    prerequisites: [architecture.lua-first-platform]
+    depends_on: [architecture.lua-first-roadmap, api.lua.v5.overview]
+    redirect_from: []
+    supersedes: []
+    license: CC-BY-SA-3.0
+    attribution: CCB contributors; LuaLS declarations, native registrations, tests, and the replacement ledger remain authoritative.
+    example_validation_ids: [agent-context, lua-contract]
+    api_version: platform-v1
+    deprecated: false
+    deprecation_replacement: null
+    risk_group: lua-platform
+    risk_level: high
+    pending_source_pr: null
+    stale_reason: null
+    nav: { section: Lua-first Platform v1, order: 89 }
+  - <<: *lua_platform_v1_api_zh
+    title: Lua-first Platform v1 API overview
+    language: en
+    nav: { section: Lua-first Platform v1, order: 89 }
+
   - &build_overview_zh
     <<: *page_defaults
     status: active

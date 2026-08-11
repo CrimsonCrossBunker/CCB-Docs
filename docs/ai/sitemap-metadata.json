@@ -1,5 +1,27 @@
 [
   {
+    "id": "api.lua.platform-v1.overview",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/platform-v1/overview/",
+    "last_verified": "2026-08-12",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/platform-v1/overview/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/platform-v1/overview/"
+    }
+  },
+  {
+    "id": "api.lua.platform-v1.overview",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/platform-v1/overview/",
+    "last_verified": "2026-08-12",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/platform-v1/overview/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/platform-v1/overview/"
+    }
+  },
+  {
     "id": "api.lua.v5.capabilities",
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/",
@@ -569,6 +591,72 @@
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/design-principles/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/design-principles/"
+    }
+  },
+  {
+    "id": "architecture.lua-first-glossary",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-glossary/",
+    "last_verified": "2026-08-12",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-glossary/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-glossary/"
+    }
+  },
+  {
+    "id": "architecture.lua-first-glossary",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-glossary/",
+    "last_verified": "2026-08-12",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-glossary/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-glossary/"
+    }
+  },
+  {
+    "id": "architecture.lua-first-platform",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-platform/",
+    "last_verified": "2026-08-12",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-platform/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-platform/"
+    }
+  },
+  {
+    "id": "architecture.lua-first-platform",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-platform/",
+    "last_verified": "2026-08-12",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-platform/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-platform/"
+    }
+  },
+  {
+    "id": "architecture.lua-first-roadmap",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-roadmap/",
+    "last_verified": "2026-08-12",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-roadmap/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-roadmap/"
+    }
+  },
+  {
+    "id": "architecture.lua-first-roadmap",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-roadmap/",
+    "last_verified": "2026-08-12",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-roadmap/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-roadmap/"
     }
   },
   {

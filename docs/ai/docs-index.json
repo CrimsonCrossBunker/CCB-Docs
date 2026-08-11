@@ -3,6 +3,164 @@
   "generated_from": "docs-catalog.yml",
   "pages": [
     {
+      "id": "api.lua.platform-v1.overview",
+      "title": "Lua-first Platform v1 API overview",
+      "language": "en",
+      "status": "active",
+      "doc_type": "reference",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/lua/types/ccb_platform_v1.d.lua",
+        "data/lua/LUA_FIRST_PLATFORM.md",
+        "ai/lua-first-roadmap.yml",
+        "ai/lua-first-replacement-ledger.yml",
+        "data/mods/Lua_First_Example/mod.lua",
+        "data/mods/Lua_First_Example/main.lua",
+        "data/mods/Lua_First_Example/content/cleanwater_charm.lua",
+        "data/mods/Lua_First_Example/runtime/behaviour.lua",
+        "tools/create_lua_mod.py",
+        "tools/migrate_lua_first.py"
+      ],
+      "source_symbols": [
+        "CcbPlatformV1",
+        "ModDefinition",
+        "CcbPlatformContent",
+        "CcbPlatformRuntime",
+        "CcbPlatformTasks",
+        "CcbPlatformServices"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "145df35fb96e317cd11ab1619fa43b3ea8eb7f94373f96c3aa32dcec7264f3da",
+      "authority": "api-contract",
+      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
+      "verified_at": "2026-08-12",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "5de362515587d913a379f8a74fd93034e91e329ccec7215338767b05b5efcacc",
+      "prerequisites": [
+        "architecture.lua-first-platform"
+      ],
+      "depends_on": [
+        "architecture.lua-first-roadmap",
+        "api.lua.v5.overview"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; LuaLS declarations, native registrations, tests, and the replacement ledger remain authoritative.",
+      "example_validation_ids": [
+        "agent-context",
+        "lua-contract"
+      ],
+      "api_version": "platform-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-platform",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "api/lua/platform-v1/overview.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/platform-v1/overview/"
+    },
+    {
+      "id": "api.lua.platform-v1.overview",
+      "title": "Lua-first Platform v1 API 概览",
+      "language": "zh_CN",
+      "status": "active",
+      "doc_type": "reference",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/lua/types/ccb_platform_v1.d.lua",
+        "data/lua/LUA_FIRST_PLATFORM.md",
+        "ai/lua-first-roadmap.yml",
+        "ai/lua-first-replacement-ledger.yml",
+        "data/mods/Lua_First_Example/mod.lua",
+        "data/mods/Lua_First_Example/main.lua",
+        "data/mods/Lua_First_Example/content/cleanwater_charm.lua",
+        "data/mods/Lua_First_Example/runtime/behaviour.lua",
+        "tools/create_lua_mod.py",
+        "tools/migrate_lua_first.py"
+      ],
+      "source_symbols": [
+        "CcbPlatformV1",
+        "ModDefinition",
+        "CcbPlatformContent",
+        "CcbPlatformRuntime",
+        "CcbPlatformTasks",
+        "CcbPlatformServices"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "145df35fb96e317cd11ab1619fa43b3ea8eb7f94373f96c3aa32dcec7264f3da",
+      "authority": "api-contract",
+      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
+      "verified_at": "2026-08-12",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "5de362515587d913a379f8a74fd93034e91e329ccec7215338767b05b5efcacc",
+      "prerequisites": [
+        "architecture.lua-first-platform"
+      ],
+      "depends_on": [
+        "architecture.lua-first-roadmap",
+        "api.lua.v5.overview"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; LuaLS declarations, native registrations, tests, and the replacement ledger remain authoritative.",
+      "example_validation_ids": [
+        "agent-context",
+        "lua-contract"
+      ],
+      "api_version": "platform-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-platform",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "api/lua/platform-v1/overview.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/platform-v1/overview/"
+    },
+    {
       "id": "api.lua.v5.capabilities",
       "title": "Declaring capabilities",
       "language": "en",
@@ -3229,6 +3387,384 @@
       "stale_reason": null,
       "path": "architecture/design-principles.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/design-principles/"
+    },
+    {
+      "id": "architecture.lua-first-glossary",
+      "title": "Lua-first learning glossary",
+      "language": "en",
+      "status": "active",
+      "doc_type": "reference",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 180,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/lua/LUA_FIRST_PLATFORM.md",
+        "ai/lua-first-roadmap.yml",
+        "data/lua/types/ccb_api_v5.d.lua"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "57e615bcf6107cae209aca140cd5d501477bf2caa05f2fb80e0273dcbd1a8ff2",
+      "authority": "docs-explanation",
+      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
+      "verified_at": "2026-08-12",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "a37d590eebadc63d2b107f43e92e2e9e51ab4578ba0c4be27123b2e0277bdabf",
+      "prerequisites": [
+        "architecture.lua-first-platform"
+      ],
+      "depends_on": [
+        "architecture.lua-first-platform",
+        "architecture.lua-first-roadmap"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "agent-context",
+        "lua-contract"
+      ],
+      "api_version": null,
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-platform",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "architecture/lua-first-glossary.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-glossary/"
+    },
+    {
+      "id": "architecture.lua-first-glossary",
+      "title": "Lua-first 学习词汇表",
+      "language": "zh_CN",
+      "status": "active",
+      "doc_type": "reference",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 180,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/lua/LUA_FIRST_PLATFORM.md",
+        "ai/lua-first-roadmap.yml",
+        "data/lua/types/ccb_api_v5.d.lua"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "57e615bcf6107cae209aca140cd5d501477bf2caa05f2fb80e0273dcbd1a8ff2",
+      "authority": "docs-explanation",
+      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
+      "verified_at": "2026-08-12",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "a37d590eebadc63d2b107f43e92e2e9e51ab4578ba0c4be27123b2e0277bdabf",
+      "prerequisites": [
+        "architecture.lua-first-platform"
+      ],
+      "depends_on": [
+        "architecture.lua-first-platform",
+        "architecture.lua-first-roadmap"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "agent-context",
+        "lua-contract"
+      ],
+      "api_version": null,
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-platform",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "architecture/lua-first-glossary.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-glossary/"
+    },
+    {
+      "id": "architecture.lua-first-platform",
+      "title": "Lua-first Platform v1 architecture",
+      "language": "en",
+      "status": "active",
+      "doc_type": "explanation",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/lua/LUA_FIRST_PLATFORM.md",
+        "ai/lua-first-roadmap.yml",
+        "data/lua/AGENTS.md"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "fb018b111dad342ff2914506cfa61274dc2d83c97635db93dca59940feda251e",
+      "authority": "docs-explanation",
+      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
+      "verified_at": "2026-08-12",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "df364cca1c1af9485ae058d72d06bdbf099002b698e870d6c8ce7ee362e6d29d",
+      "prerequisites": [
+        "architecture.overview"
+      ],
+      "depends_on": [
+        "api.lua.v5.overview"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "agent-context",
+        "lua-contract"
+      ],
+      "api_version": null,
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-platform",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "architecture/lua-first-platform.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-platform/"
+    },
+    {
+      "id": "architecture.lua-first-platform",
+      "title": "Lua-first Platform v1 架构",
+      "language": "zh_CN",
+      "status": "active",
+      "doc_type": "explanation",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/lua/LUA_FIRST_PLATFORM.md",
+        "ai/lua-first-roadmap.yml",
+        "data/lua/AGENTS.md"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "fb018b111dad342ff2914506cfa61274dc2d83c97635db93dca59940feda251e",
+      "authority": "docs-explanation",
+      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
+      "verified_at": "2026-08-12",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "df364cca1c1af9485ae058d72d06bdbf099002b698e870d6c8ce7ee362e6d29d",
+      "prerequisites": [
+        "architecture.overview"
+      ],
+      "depends_on": [
+        "api.lua.v5.overview"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "agent-context",
+        "lua-contract"
+      ],
+      "api_version": null,
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-platform",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "architecture/lua-first-platform.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-platform/"
+    },
+    {
+      "id": "architecture.lua-first-roadmap",
+      "title": "Lua-first Platform roadmap",
+      "language": "en",
+      "status": "active",
+      "doc_type": "explanation",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "ai/lua-first-roadmap.yml",
+        "ai/lua-first-roadmap.schema.json",
+        "data/lua/LUA_FIRST_PLATFORM.md"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "05c4efbbb59bd9cb6550d35141c21123e5a34da7ecce125a07efc74a57ab26b9",
+      "authority": "docs-explanation",
+      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
+      "verified_at": "2026-08-12",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "2682c28d441a435396381d5c65ad2ea8b8319135d90f924078edd1dab829ca9a",
+      "prerequisites": [
+        "architecture.lua-first-platform"
+      ],
+      "depends_on": [
+        "architecture.lua-first-platform"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "agent-context",
+        "lua-contract"
+      ],
+      "api_version": null,
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-platform",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "architecture/lua-first-roadmap.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-roadmap/"
+    },
+    {
+      "id": "architecture.lua-first-roadmap",
+      "title": "Lua-first Platform 路线图",
+      "language": "zh_CN",
+      "status": "active",
+      "doc_type": "explanation",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "ai/lua-first-roadmap.yml",
+        "ai/lua-first-roadmap.schema.json",
+        "data/lua/LUA_FIRST_PLATFORM.md"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "05c4efbbb59bd9cb6550d35141c21123e5a34da7ecce125a07efc74a57ab26b9",
+      "authority": "docs-explanation",
+      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
+      "verified_at": "2026-08-12",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "2682c28d441a435396381d5c65ad2ea8b8319135d90f924078edd1dab829ca9a",
+      "prerequisites": [
+        "architecture.lua-first-platform"
+      ],
+      "depends_on": [
+        "architecture.lua-first-platform"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "agent-context",
+        "lua-contract"
+      ],
+      "api_version": null,
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-platform",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "architecture/lua-first-roadmap.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-roadmap/"
     },
     {
       "id": "architecture.overview",
@@ -23614,6 +24150,10 @@
     }
   ],
   "bilingual_map": {
+    "api.lua.platform-v1.overview": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/platform-v1/overview/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/platform-v1/overview/"
+    },
     "api.lua.v5.capabilities": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/capabilities/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/"
@@ -23717,6 +24257,18 @@
     "architecture.design-principles": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/design-principles/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/design-principles/"
+    },
+    "architecture.lua-first-glossary": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-glossary/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-glossary/"
+    },
+    "architecture.lua-first-platform": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-platform/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-platform/"
+    },
+    "architecture.lua-first-roadmap": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-roadmap/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-roadmap/"
     },
     "architecture.overview": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/overview/",
@@ -24393,6 +24945,7 @@
   },
   "ai_allowlist": [
     "https://crimsoncrossbunker.github.io/CCB-Docs/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/platform-v1/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/capabilities/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/changelog/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/debugging/",
@@ -24419,6 +24972,9 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/properties/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/design-principles/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-glossary/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-platform/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-roadmap/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystem-map/",
@@ -24475,6 +25031,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/design/steel-crafting/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/design/user-experience/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/platform-v1/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/changelog/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/debugging/",
@@ -24501,6 +25058,9 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/properties/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/design-principles/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-glossary/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-platform/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-roadmap/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystem-map/",
@@ -24769,6 +25329,7 @@
   ],
   "ai_index": [
     "https://crimsoncrossbunker.github.io/CCB-Docs/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/platform-v1/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/capabilities/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/changelog/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/debugging/",
@@ -24795,6 +25356,9 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/properties/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/design-principles/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-glossary/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-platform/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-roadmap/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystem-map/",
@@ -24851,6 +25415,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/design/steel-crafting/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/design/user-experience/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/platform-v1/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/changelog/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/debugging/",
@@ -24877,6 +25442,9 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/properties/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/design-principles/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-glossary/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-platform/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-roadmap/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystem-map/",
@@ -25145,6 +25713,7 @@
   ],
   "search_allowlist": [
     "https://crimsoncrossbunker.github.io/CCB-Docs/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/platform-v1/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/capabilities/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/changelog/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/debugging/",
@@ -25171,6 +25740,9 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/properties/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/design-principles/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-glossary/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-platform/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-roadmap/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystem-map/",
@@ -25227,6 +25799,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/design/steel-crafting/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/design/user-experience/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/platform-v1/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/changelog/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/debugging/",
@@ -25253,6 +25826,9 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/reference/properties/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/design-principles/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-glossary/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-platform/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-roadmap/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystem-map/",
@@ -25611,6 +26187,27 @@
         "path": "architecture/design-principles.md"
       },
       {
+        "id": "architecture.lua-first-platform",
+        "title": "Lua-first Platform v1 架构",
+        "section": "架构",
+        "order": 23,
+        "path": "architecture/lua-first-platform.md"
+      },
+      {
+        "id": "architecture.lua-first-roadmap",
+        "title": "Lua-first Platform 路线图",
+        "section": "架构",
+        "order": 24,
+        "path": "architecture/lua-first-roadmap.md"
+      },
+      {
+        "id": "architecture.lua-first-glossary",
+        "title": "Lua-first 学习词汇表",
+        "section": "架构",
+        "order": 25,
+        "path": "architecture/lua-first-glossary.md"
+      },
+      {
         "id": "contributing.responsible-human",
         "title": "Responsible human 与 AI 辅助贡献",
         "section": "贡献政策",
@@ -25749,6 +26346,13 @@
         "section": "治理",
         "order": 80,
         "path": "governance/security-license.md"
+      },
+      {
+        "id": "api.lua.platform-v1.overview",
+        "title": "Lua-first Platform v1 API 概览",
+        "section": "Lua-first Platform v1",
+        "order": 89,
+        "path": "api/lua/platform-v1/overview.md"
       },
       {
         "id": "api.lua.v5.overview",
@@ -26922,6 +27526,27 @@
         "path": "architecture/design-principles.md"
       },
       {
+        "id": "architecture.lua-first-platform",
+        "title": "Lua-first Platform v1 architecture",
+        "section": "Architecture",
+        "order": 23,
+        "path": "architecture/lua-first-platform.md"
+      },
+      {
+        "id": "architecture.lua-first-roadmap",
+        "title": "Lua-first Platform roadmap",
+        "section": "Architecture",
+        "order": 24,
+        "path": "architecture/lua-first-roadmap.md"
+      },
+      {
+        "id": "architecture.lua-first-glossary",
+        "title": "Lua-first learning glossary",
+        "section": "Architecture",
+        "order": 25,
+        "path": "architecture/lua-first-glossary.md"
+      },
+      {
         "id": "contributing.responsible-human",
         "title": "Responsible human and AI-assisted contributions",
         "section": "Contribution policy",
@@ -27060,6 +27685,13 @@
         "section": "Governance",
         "order": 80,
         "path": "governance/security-license.md"
+      },
+      {
+        "id": "api.lua.platform-v1.overview",
+        "title": "Lua-first Platform v1 API overview",
+        "section": "Lua-first Platform v1",
+        "order": 89,
+        "path": "api/lua/platform-v1/overview.md"
       },
       {
         "id": "api.lua.v5.overview",
@@ -28178,6 +28810,28 @@
   },
   "sitemap": [
     {
+      "id": "api.lua.platform-v1.overview",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/platform-v1/overview/",
+      "last_verified": "2026-08-12",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/platform-v1/overview/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/platform-v1/overview/"
+      }
+    },
+    {
+      "id": "api.lua.platform-v1.overview",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/platform-v1/overview/",
+      "last_verified": "2026-08-12",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/platform-v1/overview/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/platform-v1/overview/"
+      }
+    },
+    {
       "id": "api.lua.v5.capabilities",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/",
@@ -28747,6 +29401,72 @@
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/design-principles/",
         "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/design-principles/"
+      }
+    },
+    {
+      "id": "architecture.lua-first-glossary",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-glossary/",
+      "last_verified": "2026-08-12",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-glossary/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-glossary/"
+      }
+    },
+    {
+      "id": "architecture.lua-first-glossary",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-glossary/",
+      "last_verified": "2026-08-12",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-glossary/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-glossary/"
+      }
+    },
+    {
+      "id": "architecture.lua-first-platform",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-platform/",
+      "last_verified": "2026-08-12",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-platform/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-platform/"
+      }
+    },
+    {
+      "id": "architecture.lua-first-platform",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-platform/",
+      "last_verified": "2026-08-12",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-platform/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-platform/"
+      }
+    },
+    {
+      "id": "architecture.lua-first-roadmap",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-roadmap/",
+      "last_verified": "2026-08-12",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-roadmap/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-roadmap/"
+      }
+    },
+    {
+      "id": "architecture.lua-first-roadmap",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-roadmap/",
+      "last_verified": "2026-08-12",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-roadmap/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-roadmap/"
       }
     },
     {
