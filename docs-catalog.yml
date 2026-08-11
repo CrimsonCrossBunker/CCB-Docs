@@ -769,10 +769,10 @@ pages:
     source_paths: [CONTRIBUTING.md, doc/JSON/OBSOLETION_AND_MIGRATION.md, src/savegame.cpp, src/savegame_json.cpp, src/savegame_legacy.cpp, src/worldfactory.cpp]
     source_symbols: []
     source_queries: []
-    source_fingerprint: df55bb55195f94c2514d2e905e94eea1cd9cec31d69201450173ea2da1c41010
+    source_fingerprint: 5a4798963c7a67f75950d85a7e85c49b64110eb2593b0e81c0b425d3d5fddd2b
     authority: source-and-tests
-    verified_commit: 71f403ecea0dcf16be8fe93c661acbe2a4906cc6
-    verified_at: '2026-08-09'
+    verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+    verified_at: '2026-08-12'
     translation_group: compatibility.save
     translation_source_fingerprint: 3596e034c75ddee6ed3c287ade547d64bb8aa37481ee6141b98f1e6df3ee8106
     prerequisites: [architecture.overview]
@@ -1420,10 +1420,10 @@ pages:
     source_paths: [data/reference/json/ccb_json_object_types.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/init.cpp, src/generic_factory.h, tests/json_load_test.cpp, doc/JSON/JSON_INHERITANCE.md, doc/JSON/JSON_STYLE.md]
     source_symbols: []
     source_queries: []
-    source_fingerprint: 193b9bff99a0dd6dad93b0353ad014c05415af02a70333df08c4f2eab3a5b6c8
+    source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
     authority: api-contract
-    verified_commit: 71f403ecea0dcf16be8fe93c661acbe2a4906cc6
-    verified_at: '2026-08-09'
+    verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+    verified_at: '2026-08-12'
     generated: false
     generated_by: null
     include_in_search: true
@@ -1503,10 +1503,10 @@ pages:
     source_paths: [data/reference/json/ccb_json_object_types.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, src/init.cpp]
     source_symbols: [DynamicDataLoader::initialize]
     source_queries: []
-    source_fingerprint: 103cffbcf4ef397fabcb65be93f628da6e0c5e55a5e858ee191d998054358b92
+    source_fingerprint: 6fcd9eedee8650f4d8a84330e61eb679e2798363db415c80b83260285c974cda
     authority: api-contract
-    verified_commit: 71f403ecea0dcf16be8fe93c661acbe2a4906cc6
-    verified_at: '2026-08-09'
+    verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+    verified_at: '2026-08-12'
     generated: true
     generated_by: scripts/generate_json_eoc_reference.py
     include_in_search: true
@@ -1514,7 +1514,7 @@ pages:
     translation_group: reference.json-object-types
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 0e94e23c1672e38c760b17b0e11d55cc5c140236cadcc583af838112fec15041
+    translation_source_fingerprint: 093580aa01cee68d522f0ecc7d7249b4be0a0364912043fad42983125304c846
     prerequisites: [json.overview]
     depends_on: []
     redirect_from: []
@@ -1551,10 +1551,10 @@ pages:
     source_paths: [data/reference/json/ccb_eoc_conditions.json, data/reference/json/ccb_eoc_effects.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/condition.cpp, src/npctalk.cpp, src/effect_on_condition.cpp, src/effect_on_condition.h, tests/eoc_test.cpp, doc/JSON/EFFECT_ON_CONDITION.md]
     source_symbols: []
     source_queries: []
-    source_fingerprint: 104d655e889b5071282102d8ebd64521a5dbdc36ad6c7a6b6daacdd6e00e8689
+    source_fingerprint: 222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e
     authority: api-contract
-    verified_commit: 71f403ecea0dcf16be8fe93c661acbe2a4906cc6
-    verified_at: '2026-08-09'
+    verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+    verified_at: '2026-08-12'
     generated: false
     generated_by: null
     include_in_search: true
@@ -1650,10 +1650,10 @@ pages:
     source_paths: [data/reference/json/ccb_eoc_conditions.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, src/condition.cpp]
     source_symbols: [conditional_t::conditional_t]
     source_queries: []
-    source_fingerprint: 766eb7109238e020336be20410c878ee9c80910641f6741ed922c98f0f70f452
+    source_fingerprint: 86703a8d02d00e3124d40ad05263ab9988f7739745c78bf0fde928f43bde63a8
     authority: api-contract
-    verified_commit: 71f403ecea0dcf16be8fe93c661acbe2a4906cc6
-    verified_at: '2026-08-09'
+    verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+    verified_at: '2026-08-12'
     generated: true
     generated_by: scripts/generate_json_eoc_reference.py
     include_in_search: true
@@ -1661,7 +1661,7 @@ pages:
     translation_group: reference.eoc-conditions
     translation_status: current
     translation_stale_since: null
-    translation_source_fingerprint: 23858c43b9cde9f2eb950bb6ac869ae01eff6b0af38ec5be0a4f802ff034bc8c
+    translation_source_fingerprint: 23b8363116cec96c0c361fa3919ebac4c8f9f1596cd044b3330948cbbeced065
     prerequisites: [eoc.overview]
     depends_on: []
     redirect_from: []
@@ -1690,9 +1690,9 @@ pages:
     path: reference/eoc-effects.md
     source_paths: [data/reference/json/ccb_eoc_effects.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, src/npctalk.cpp]
     source_symbols: [talk_effect_t::parse_sub_effect, talk_effect_t::parse_string_effect]
-    source_fingerprint: c86c31a928da0005608507696911f462917a9f3de7815ead498ec0948e657075
+    source_fingerprint: 663fff8aceec48e5f21eb548edbf5068c6ae3175094ad280a9f635375337db5f
     translation_group: reference.eoc-effects
-    translation_source_fingerprint: d9c63d871b4d7e3f8d4f036254fee3b1f774d0947910146840c2e1b26aef398d
+    translation_source_fingerprint: 0b0600c0494b57218f60c7346aa6a20a2a0e995fb71a330e374920c5e3d1e19a
     nav: { section: 生成参考, order: 145 }
   - <<: *effect_reference_zh
     title: EOC effect registry
