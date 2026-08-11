@@ -3,7 +3,7 @@
 id: architecture.lua-first-glossary
 title: Lua-first learning glossary
 language: en
-status: draft
+status: active
 doc_type: reference
 audiences:
 - new-contributor
@@ -23,17 +23,17 @@ source_paths:
 - data/lua/types/ccb_api_v5.d.lua
 source_symbols: []
 source_queries: []
-source_fingerprint: 83295e7405ceb3d25e667560f81370be8f5180b5e039c8f559cad409b2865a3f
+source_fingerprint: 57e615bcf6107cae209aca140cd5d501477bf2caa05f2fb80e0273dcbd1a8ff2
 authority: docs-explanation
-verified_commit: b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6
-verified_at: '2026-08-09'
+verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+verified_at: '2026-08-12'
 generated: false
 generated_by: null
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 553074fb818e8229c2a2da4d9ad3a0ba8f997cac6df6f23be0314647c88ee0f1
+translation_source_fingerprint: a37d590eebadc63d2b107f43e92e2e9e51ab4578ba0c4be27123b2e0277bdabf
 prerequisites:
 - architecture.lua-first-platform
 depends_on:
@@ -51,7 +51,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lua-platform
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/615
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-glossary/
 alternate_urls:
@@ -59,17 +59,15 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-glossary/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-glossary/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
 source_urls:
 - path: data/lua/LUA_FIRST_PLATFORM.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6/data/lua/LUA_FIRST_PLATFORM.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/data/lua/LUA_FIRST_PLATFORM.md
 - path: ai/lua-first-roadmap.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6/ai/lua-first-roadmap.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/ai/lua-first-roadmap.yml
 - path: data/lua/types/ccb_api_v5.d.lua
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6/data/lua/types/ccb_api_v5.d.lua
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28architecture.lua-first-glossary%29%3A+&body=Document+ID%3A+architecture.lua-first-glossary%0ALanguage%3A+en%0AVerified+commit%3A+b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/data/lua/types/ccb_api_v5.d.lua
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28architecture.lua-first-glossary%29%3A+&body=Document+ID%3A+architecture.lua-first-glossary%0ALanguage%3A+en%0AVerified+commit%3A+c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Lua-first learning glossary
@@ -207,5 +205,7 @@ skipping contracts and validation. For each small Agent change, ask:
 6. Are source, LuaLS, tests, roadmap status, and paired docs updated together?
 
 Those questions keep fast, intuitive iteration within maintainable engineering
-boundaries. See [Platform v1](lua-first-platform.md) for the architecture and
-the [roadmap](lua-first-roadmap.md) for implementation order.
+boundaries. See [Platform v1](lua-first-platform.md) for the architecture, the
+[Platform v1 API overview](../api/lua/platform-v1/overview.md) for the current
+runnable interfaces, and the [roadmap](lua-first-roadmap.md) for implementation
+order.

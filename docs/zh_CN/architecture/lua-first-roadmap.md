@@ -3,7 +3,7 @@
 id: architecture.lua-first-roadmap
 title: Lua-first Platform 路线图
 language: zh_CN
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - experienced-contributor
@@ -22,17 +22,17 @@ source_paths:
 - data/lua/LUA_FIRST_PLATFORM.md
 source_symbols: []
 source_queries: []
-source_fingerprint: e8cd2ca29e3d1c735f3d5e460f5224b9bd96b723e91b9f1d509db504c762c21f
+source_fingerprint: 05c4efbbb59bd9cb6550d35141c21123e5a34da7ecce125a07efc74a57ab26b9
 authority: docs-explanation
-verified_commit: b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6
-verified_at: '2026-08-09'
+verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+verified_at: '2026-08-12'
 generated: false
 generated_by: null
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 18cd86df4ccf4d50b87415b40ed310c10249b716e624934ec3771301466c5c81
+translation_source_fingerprint: 2682c28d441a435396381d5c65ad2ea8b8319135d90f924078edd1dab829ca9a
 prerequisites:
 - architecture.lua-first-platform
 depends_on:
@@ -49,7 +49,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lua-platform
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/615
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-roadmap/
 alternate_urls:
@@ -57,17 +57,15 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-roadmap/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-roadmap/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
 source_urls:
 - path: ai/lua-first-roadmap.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6/ai/lua-first-roadmap.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/ai/lua-first-roadmap.yml
 - path: ai/lua-first-roadmap.schema.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6/ai/lua-first-roadmap.schema.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/ai/lua-first-roadmap.schema.json
 - path: data/lua/LUA_FIRST_PLATFORM.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6/data/lua/LUA_FIRST_PLATFORM.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28architecture.lua-first-roadmap%29%3A+&body=Document+ID%3A+architecture.lua-first-roadmap%0ALanguage%3A+zh_CN%0AVerified+commit%3A+b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/data/lua/LUA_FIRST_PLATFORM.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28architecture.lua-first-roadmap%29%3A+&body=Document+ID%3A+architecture.lua-first-roadmap%0ALanguage%3A+zh_CN%0AVerified+commit%3A+c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Lua-first Platform 路线图
@@ -108,18 +106,19 @@ search:
 
 每次清单重新生成后，元数据检查器都会核对路线图里的计数，防止路线图悄悄落后。
 
-## 八个里程碑
+## 九个里程碑
 
 | 顺序 | 里程碑 | 当前状态 | 退出重点 |
 | ---: | --- | --- | --- |
 | 1 | 文档基础 | `complete` | 权威架构、Agent 路由、Schema 路线图、中英说明 |
-| 2 | 零配置发现 | `planned` | 只有根 `main.lua` 的目录可发现；可选 `mod.lua` 先解析依赖 |
-| 3 | 原生内容事务 | `planned` | finalize 前执行、staging/commit、owner/generation、私有 adapter 清单 |
-| 4 | 物品+配方+使用行为 | `planned` | 第一个零 JSON/EOC Mod 完成存读档和可观察游戏结果 |
-| 5 | 行为 service | `planned` | event、Hook、handler、持久 task/state 和共享领域 service |
-| 6 | 静态内容域覆盖 | `planned` | 每个受检 JSON/EOC 条目有 disposition；受支持域有测试、声明、文档 |
-| 7 | 核心与捆绑内容迁移 | `planned` | 保留稳定 ID，迁移工具输出惯用 Lua 骨架，按完成域冻结旧创作接口 |
-| 8 | 旧接口移除窗口 | `planned` | 至少两个稳定版且至少十二个月，并通过存档迁移与捆绑内容检查 |
+| 2 | 零配置发现 | `complete` | 只有根 `main.lua` 的目录可发现；可选 `mod.lua` 先解析依赖 |
+| 3 | 原生内容事务 | `in_progress` | finalize 前执行、staging/commit、owner/generation、私有 adapter 清单 |
+| 4 | 物品+配方+使用行为 | `complete` | 第一个零 JSON/EOC Mod 完成存读档和可观察游戏结果 |
+| 5 | 行为 service | `in_progress` | event、Hook、handler、持久 task/state 和共享领域 service |
+| 6 | 可玩 MVP v0.1 | `complete` | 捆绑的纯 Lua Mod 完成发现、依赖选择、游戏存档、完整重载与继续游玩 |
+| 7 | 静态内容域覆盖 | `in_progress` | 每个受检 JSON/EOC 条目有 disposition；受支持域有测试、声明、文档 |
+| 8 | 核心与捆绑内容迁移 | `in_progress` | 保留稳定 ID，迁移工具输出惯用 Lua 骨架，按完成域冻结旧创作接口 |
+| 9 | 旧接口移除窗口 | `planned` | 至少两个稳定版且至少十二个月，并通过存档迁移与捆绑内容检查 |
 
 依赖是一条有向链：后续里程碑不能用“先删掉 EOC/JSON 逼大家迁移”的方式跳过前置
 能力。机器检查会拒绝未知依赖与依赖环。
@@ -128,18 +127,20 @@ search:
 
 | 能力 | 状态 | 旧依赖 | 下一项实质工作 |
 | --- | --- | --- | --- |
-| Mod 发现 | `absent` | `public_legacy` | 在旧 `modinfo.json` 扫描旁加入 Platform 发现和冲突诊断 |
-| 完整标准库 | `legacy_only` | `none` | 建立独立版本的可信 Platform Lua state 和显式安全警告 |
-| 原生静态内容 | `absent` | `public_legacy` | 增加 pre-finalize 执行、staging registry 与提交语义 |
-| 原生对象表面 | `partial` | `none` | 导出根清单、不可绑定成员报告、owner/generation 检查 |
-| event/Hook/callback | `partial` | `none` | 用原生参数替代 snapshot/talker 别名，稳定 handler ID |
-| 持久 task/state | `partial` | `none` | 保存 handler、到期时间、owner、payload 与版本并定义异常结果 |
-| 共享领域 service | `absent` | `public_legacy` | 分类 EOC handler，先抽取样板所需的物品、配方、角色等操作 |
-| 开发模板 | `absent` | `none` | 交付 minimal/complete 和安全的 `create_lua_mod.py` |
-| 替代审计 | `absent` | `private_adapter` | 建立覆盖每个清单条目恰好一次的 selector ledger |
+| Mod 发现 | `partial` | `none` | 完成人工桌面/Android Mod 选择器交互检查 |
+| 完整标准库 | `partial` | `none` | 完成桌面/Android 首次启用可信代码的交互检查 |
+| 原生静态内容 | `partial` | `none` | 继续逐字段扩展 typed registrar 和 extractor，不公开旧 loader |
+| 原生对象表面 | `partial` | `none` | 补齐导出根清单和不可绑定成员报告，并扩展显式 owner 模型 |
+| event/Hook/callback | `partial` | `none` | 把已审计语义事件之外的 actor-kind 覆盖补齐 |
+| presentation primitive | `partial` | `none` | 完成人工桌面/Android 交互检查，再按领域添加可组合表单 |
+| 持久 task/state | `partial` | `none` | 扩展复制世界与稳定 ID 兼容测试 |
+| 共享领域 service | `partial` | `none` | 逐项验证 primitive 和 bounded selector 的精确原生语义 |
+| 开发模板 | `partial` | `none` | 只在证明新原生域时增加端到端例子 |
+| 迁移 extractor | `partial` | `none` | 仅在目标 typed registrar 存在且语义有证据时增加转换 |
+| 替代审计 | `partial` | `none` | 按领域审查 primitive 与 planned 条目，保持各状态计数独立 |
 
-这里的 `partial` 多数表示现有 v5 或 C++ 已有可复用基础，不表示 Platform 作者现在可以
-使用页面里的目标写法。
+11 项能力已经都有可运行实现或受检基础，并且公共 Platform 表面都不依赖旧 parser；但
+`partial` 仍表示覆盖不完整，不能把它解释成 JSON/EOC 已经全面等价替代。
 
 ## 不从零重写：怎样提取现有能力
 
@@ -158,9 +159,9 @@ search:
 
 这样复用的是规则、校验、原生对象与游戏操作，而不是复用旧语言的形状。
 
-### 第一批提取范围
+### 已完成的第一批提取
 
-第一个样板只提取完成“物品 + 配方 + Lua 使用行为”所需的最小闭环：
+“物品 + 配方 + Lua 使用行为”的第一批闭环已经交付：
 
 - 零配置 Mod 发现和依赖顺序；
 - item/recipe 原生 definition 与跨 ID 引用；
@@ -170,12 +171,13 @@ search:
 - Mod state、存档、读档和 reload；
 - 错误定位、LuaLS 声明、最小模板和端到端测试。
 
-这个范围够小，能尽快得到可玩的样板；又够完整，能暴露生命周期、所有权和持久化中
-最难的问题。第二批再按样板经验扩到载具、怪物、地图生成、对话、任务与 UI。
+这套样板已经通过真实游戏存档、Lua runtime 关闭、完整数据重载、继续使用物品行为和
+逾期任务恰好执行一次的可玩 MVP gate。下一批正在按同一原生模式扩到更多内容目录、
+角色/世界操作、载具、怪物、地图、对话、任务与 UI，而不是复制旧 loader。
 
 ## replacement ledger 应记录什么
 
-未来替代账本不是简单的“旧键 → 新函数”表。每条记录至少需要：
+受检替代账本不是简单的“旧键 → 新函数”表。每条记录包含：
 
 - 旧清单与 selector；
 - 实际游戏语义与所属领域；
@@ -185,8 +187,19 @@ search:
 - 源码、测试、声明、文档和迁移工具证据；
 - 稳定 ID、存档与混合 Mod 兼容说明。
 
-检查器最终要求三个清单的每个条目恰好出现一次，防止遗漏、重复认领或用模糊的
-“其他”桶掩盖未解决工作。
+检查器现在已经要求三个清单的每个条目恰好出现一次。当前 775 项分布是：
+
+| disposition | 数量 | 能否声称完整替代 |
+| --- | ---: | --- |
+| 完整 selector 等价（`implemented_unverified`） | 0 | 尚无一项可以这样声称 |
+| 有界形状已实现（`bounded_implemented_unverified`） | 119 | 只能用于账本列明的有限形状 |
+| 原生 primitive 已有（`primitive_available_unverified`） | 440 | 有组合积木，不等于旧 selector 等价 |
+| 待实现（`planned`） | 198 | 仍是迁移工作，不是已发布 API |
+| 已审查为不适用（`reviewed_not_applicable`） | 18 | 有明确的原生 Lua/引擎内部理由 |
+
+这正是“Lua-first 已可玩”与“尚未全面替代 JSON/EOC”能够同时成立的原因。完整 selector
+等价为 0 并不否认原生 API 已存在；它表示我们没有把有限形状或组合 primitive 夸大成
+旧语言所有用法的逐项等价。
 
 ## 每个能力的完成定义
 
@@ -201,18 +214,20 @@ search:
 7. 旧 adapter 依赖为 `none` 或仅 `private_adapter`；
 8. Windows、Linux、Android 等支持平台的差异被验证或明确说明。
 
-## 近期开发顺序
+## 下一阶段开发顺序
 
-近期最合理的 PR 拆分是：
+零配置扫描、Platform Lua state、第一批事务基础、物品/配方/行为样板、模板、迁移工具、
+LuaLS 和 775 项账本都已经落地。接下来的顺序是：
 
-1. 实现零配置扫描和可信执行警告，但先只加载一个无内容入口；
-2. 建立 Platform Lua state、错误边界、依赖排序和候选 reload；
-3. 建立 definition staging、事务与 owner/generation 基础设施；
-4. 逐步抽取 item、recipe 和 use behaviour 所需 service；
-5. 交付样板 Mod、模板、LuaLS 和端到端测试；
-6. 用第一批经验设计 replacement ledger 生成/校验工具；
-7. 再按领域扩覆盖，而不是一次导出全部 C++。
+1. 补完桌面与 Android 的 Mod 选择器、可信代码确认和 presentation 人工交互 gate；
+2. 按显式 owner/generation 模式扩展剩余借用原生引用；
+3. 逐字段补齐静态内容 registrar 和 extractor，并保持旧 loader 不进入公共 API；
+4. 为 environment、dialogue、activity、战斗、导航和 relocation 补原生领域 service；
+5. 用源码语义和转换 fixture，把有证据的 bounded/primitive 项逐步提升为完整等价；
+6. 扩展复制世界、稳定 ID 与支持平台的存档兼容测试；
+7. 只有一个域完整达到 `available` 后，才迁移该域的核心内容并冻结对应旧创作入口。
 
 每个 PR 都应更新 `ai/lua-first-roadmap.yml` 的状态、证据和下一步，并填写受影响的
-CCB-Docs ID。完整设计边界见 [Platform v1](lua-first-platform.md)，术语解释见
+CCB-Docs ID。完整设计边界见 [Platform v1](lua-first-platform.md)，可运行接口见
+[Platform v1 API 概览](../api/lua/platform-v1/overview.md)，术语解释见
 [词汇表](lua-first-glossary.md)。

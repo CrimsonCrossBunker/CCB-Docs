@@ -3,7 +3,7 @@
 id: architecture.lua-first-platform
 title: Lua-first Platform v1 architecture
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -23,17 +23,17 @@ source_paths:
 - data/lua/AGENTS.md
 source_symbols: []
 source_queries: []
-source_fingerprint: cd39163eea0a8d2253dcf3fae5ad5149bcc8f11fcb1c2f50b45bbf98c101f299
+source_fingerprint: fb018b111dad342ff2914506cfa61274dc2d83c97635db93dca59940feda251e
 authority: docs-explanation
-verified_commit: b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6
-verified_at: '2026-08-09'
+verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+verified_at: '2026-08-12'
 generated: false
 generated_by: null
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 500f27f11d7326b0271dd34b50d92bb29fca14bc1fdd9d4fb444d447c353241a
+translation_source_fingerprint: df364cca1c1af9485ae058d72d06bdbf099002b698e870d6c8ce7ee362e6d29d
 prerequisites:
 - architecture.overview
 depends_on:
@@ -50,7 +50,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lua-platform
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/615
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-platform/
 alternate_urls:
@@ -58,25 +58,23 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-platform/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-platform/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
 source_urls:
 - path: data/lua/LUA_FIRST_PLATFORM.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6/data/lua/LUA_FIRST_PLATFORM.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/data/lua/LUA_FIRST_PLATFORM.md
 - path: ai/lua-first-roadmap.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6/ai/lua-first-roadmap.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/ai/lua-first-roadmap.yml
 - path: data/lua/AGENTS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6/data/lua/AGENTS.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28architecture.lua-first-platform%29%3A+&body=Document+ID%3A+architecture.lua-first-platform%0ALanguage%3A+en%0AVerified+commit%3A+b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/data/lua/AGENTS.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28architecture.lua-first-platform%29%3A+&body=Document+ID%3A+architecture.lua-first-platform%0ALanguage%3A+en%0AVerified+commit%3A+c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Lua-first Platform v1
 
-> This page explains an accepted long-term CCB architecture that is not yet
-> fully implemented. The runnable scripting contract remains
-> [Lua API v5](../api/lua/v5/overview.md). Target-interface sketches on this
-> page are not current APIs.
+> This page covers both the long-term architecture and the merged Platform v1
+> vertical slices. [Lua API v5](../api/lua/v5/overview.md) remains the current
+> complete scripting contract. Runnable Platform signatures and boundaries are
+> documented in the [Platform v1 API overview](../api/lua/platform-v1/overview.md).
 
 Lua-first Platform v1 is not “call EOC from Lua” or “spell JSON as Lua tables.”
 It makes Lua the primary authoring language for CCB core content and Mods. An
@@ -91,13 +89,13 @@ Lua alone.
 2. Lua uses native objects, domain services, normal control flow, modules,
    events, hooks, named tasks, and persistent state. Public APIs do not copy
    JSON fields or EOC keys one by one.
-3. Platform v1 is a trusted in-process extension system. It is intended to
-   expose the complete Lua 5.4 standard libraries, files, processes, and native
+3. Platform v1 is a trusted in-process extension system. It exposes the
+   complete Lua 5.4 standard libraries, files, processes, and native
    modules, so an installed Mod must be trusted like a local program.
 
-## Current contract and target platform
+## Parallel contracts and the Platform slice
 
-| Question | Current Lua API v5 | Target Platform v1 |
+| Question | Current Lua API v5 | Implemented and expanding Platform v1 |
 | --- | --- | --- |
 | Start time | After JSON finalization | Static content before finalization; runtime handlers after world readiness |
 | Mod discovery | Manifest and capability contract | Zero-config root `main.lua`; optional root `mod.lua` |
@@ -107,8 +105,9 @@ Lua alone.
 | Version | API v5 | Independent Platform v1, not a v5 rename |
 
 A similar v5 feature does not mean that its Platform v1 counterpart is done.
-A Platform capability becomes available only when source, tests, declarations,
-and roadmap evidence agree.
+The strict ledger still records zero full selector equivalents, 119 bounded
+implementations, and 440 primitive-only entries. Promise a particular Platform
+shape only when source, tests, declarations, and roadmap evidence agree.
 
 ## Zero-configuration Mods
 
@@ -138,7 +137,6 @@ Lua and returns a native `ccb.ModDefinition`, not a plain table shaped like
 JSON.
 
 ```lua
--- Target-interface sketch; these names and constructor syntax are not shipped.
 local ccb = require("ccb")
 
 return ccb.ModDefinition {
@@ -157,7 +155,7 @@ warning prominently.
 
 ## Loading lifecycle
 
-The target sequence is:
+The current sequence is:
 
 1. discover root `main.lua` or optional `mod.lua`;
 2. resolve metadata, dependencies, and deterministic load order;
@@ -190,25 +188,29 @@ destruction, world replacement, content recommit, or runtime replacement raises
 a Lua error instead of dereferencing a dangling pointer. Native modules loaded
 by a Mod can bypass this guard and are outside the compatibility guarantee.
 
-Static definitions are real native staging objects. The target content layer
+Static definitions are real native staging objects. The current content layer
 has explicit `add`, `replace`, and transactional `edit` semantics; duplicate IDs
 are errors by default. Constructors, normal functions, loops, modules, and
 composition take over the reuse role previously served by JSON `copy-from`.
 
-This illustrates the programming model without freezing final spelling:
+This uses the currently runnable item and named-handler spelling:
 
 ```lua
--- Target pseudocode: this does not run in the current release.
-local item = ItemDefinition("vibe_lamp")
-item:name("Vibe lamp")
-item:weight(350 * units.gram)
+local ccb = require("ccb")
+local item = ccb.content.Item {
+    id = "vibe_lamp",
+    name = "Vibe lamp",
+    description = "Created as a native Lua definition.",
+    symbol = "*",
+}
+item:mass_grams(350)
+item:on_use("use_vibe_lamp", "Feel the vibe")
+ccb.content.add(item)
 
-content.items:add(item)
-content.recipes:add(make_lamp_recipe(item:id()))
-
-handlers:define("use_vibe_lamp", function(context)
-    context.user:add_morale(morale.vibe, 10)
-end)
+ccb.runtime.handler("use_vibe_lamp", function(context)
+    context:message("The light softens.")
+    return 0
+end, 1)
 ```
 
 The point is objects, functions, unit types, and composition—not turning every
@@ -253,7 +255,7 @@ power.
 
 ## Developer extension and templates
 
-Future tooling provides two scaffolds:
+Repository tooling now provides two scaffolds:
 
 - `minimal`: produces only an executable root `main.lua`;
 - `complete`: provides recommended `content/`, `runtime/`, and `tests/`
@@ -267,11 +269,14 @@ particular DSL as its core interface.
 
 ## First vertical slice
 
-The first implementation slice is fixed: a zero-JSON/EOC Mod defining an item,
-its recipe, and a Lua use behaviour. It must jointly test discovery, dependency
-order, native content, cross-ID references, a named handler, persistent state,
-save/load, reload, and an observable in-game result. Merely running a Lua chunk
-does not complete the slice.
+`data/mods/Lua_First_Example/` completes the first zero-JSON/EOC slice. Native
+`mod.lua`, an item, recipe, Lua use behaviour, character/world state, and a
+named task all enter the real Mod-selection and loading path. The
+`[playable_mvp]` gate covers game saves, runtime destruction, full data reload,
+continued item use, and one overdue task running exactly once. This proves a
+playable vertical slice, not completion of the remaining static domains.
 
-See the [Lua-first roadmap](lua-first-roadmap.md) for actual status and the
-[Lua-first glossary](lua-first-glossary.md) while learning the terminology.
+See the [Lua-first roadmap](lua-first-roadmap.md) for actual status, the
+[Platform v1 API overview](../api/lua/platform-v1/overview.md) for concrete
+entry points, and the [Lua-first glossary](lua-first-glossary.md) while learning
+the terminology.

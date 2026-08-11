@@ -3,7 +3,7 @@
 id: architecture.lua-first-platform
 title: Lua-first Platform v1 架构
 language: zh_CN
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - new-contributor
@@ -23,17 +23,17 @@ source_paths:
 - data/lua/AGENTS.md
 source_symbols: []
 source_queries: []
-source_fingerprint: cd39163eea0a8d2253dcf3fae5ad5149bcc8f11fcb1c2f50b45bbf98c101f299
+source_fingerprint: fb018b111dad342ff2914506cfa61274dc2d83c97635db93dca59940feda251e
 authority: docs-explanation
-verified_commit: b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6
-verified_at: '2026-08-09'
+verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+verified_at: '2026-08-12'
 generated: false
 generated_by: null
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 500f27f11d7326b0271dd34b50d92bb29fca14bc1fdd9d4fb444d447c353241a
+translation_source_fingerprint: df364cca1c1af9485ae058d72d06bdbf099002b698e870d6c8ce7ee362e6d29d
 prerequisites:
 - architecture.overview
 depends_on:
@@ -50,7 +50,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lua-platform
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/615
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-platform/
 alternate_urls:
@@ -58,23 +58,22 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-platform/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-platform/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
 source_urls:
 - path: data/lua/LUA_FIRST_PLATFORM.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6/data/lua/LUA_FIRST_PLATFORM.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/data/lua/LUA_FIRST_PLATFORM.md
 - path: ai/lua-first-roadmap.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6/ai/lua-first-roadmap.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/ai/lua-first-roadmap.yml
 - path: data/lua/AGENTS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6/data/lua/AGENTS.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28architecture.lua-first-platform%29%3A+&body=Document+ID%3A+architecture.lua-first-platform%0ALanguage%3A+zh_CN%0AVerified+commit%3A+b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/data/lua/AGENTS.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28architecture.lua-first-platform%29%3A+&body=Document+ID%3A+architecture.lua-first-platform%0ALanguage%3A+zh_CN%0AVerified+commit%3A+c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Lua-first Platform v1
 
-> 本页描述 CCB 已接受、但尚未完整实现的长期架构。当前可运行的脚本合同仍是
-> [Lua API v5](../api/lua/v5/overview.md)。页面中的目标接口草图不是现有 API。
+> 本页同时描述长期架构和已经合并的 Platform v1 纵向切片。当前完整脚本合同仍是
+> [Lua API v5](../api/lua/v5/overview.md)；可运行的 Platform 签名与边界见
+> [Platform v1 API 概览](../api/lua/platform-v1/overview.md)。
 
 Lua-first Platform v1 的目标不是“让 Lua 调用 EOC”或“用 Lua 表格重写 JSON”，而是让
 Lua 成为 CCB 核心内容与 Mod 的主要创作语言。作者最终应能只写 Lua 来定义元数据、
@@ -86,12 +85,12 @@ Lua 成为 CCB 核心内容与 Mod 的主要创作语言。作者最终应能只
    `manifest.json` 或 `modinfo.json`。
 2. Lua 使用原生对象、领域 service、普通控制流、模块、事件、Hook、命名任务与持久
    状态；公共接口不逐项复制 JSON 字段或 EOC 键。
-3. Platform v1 是可信的进程内扩展系统。它计划开放完整 Lua 5.4 标准库、文件、进程
+3. Platform v1 是可信的进程内扩展系统。它开放完整 Lua 5.4 标准库、文件、进程
    和原生模块能力，因此安装来源必须像本机程序一样被信任。
 
-## 当前合同与目标平台
+## 并行合同与 Platform 切片
 
-| 问题 | 当前 Lua API v5 | 目标 Platform v1 |
+| 问题 | 当前 Lua API v5 | 已实现并继续扩展的 Platform v1 |
 | --- | --- | --- |
 | 启动时机 | JSON finalize 后 | 静态内容 finalize 前开始，世界就绪后激活运行时 handler |
 | Mod 发现 | manifest 与 capability 合同 | 根 `main.lua` 零配置发现，可选根 `mod.lua` |
@@ -100,8 +99,9 @@ Lua 成为 CCB 核心内容与 Mod 的主要创作语言。作者最终应能只
 | 安全模型 | capability 沙箱 | 完全可信，使用游戏进程权限 |
 | 版本 | API v5 | 独立的 Platform v1，不是 v5 的改名 |
 
-“当前 v5 有相似能力”不等于“Platform v1 已完成”。只有源码、测试、声明与路线图证据
-一致时，某项 Platform 能力才能标为可用。
+“当前 v5 有相似能力”不等于“Platform v1 已完成”。严格账本目前仍是 0 个完整 selector
+等价、119 个有界实现和 440 个仅有原语；只有源码、测试、声明与路线图证据一致时，
+才能承诺某个具体 Platform 形状。
 
 ## 零配置 Mod
 
@@ -130,7 +130,6 @@ my_mod/
 普通表。
 
 ```lua
--- 目标接口草图；名称和构造语法尚未成为可运行合同。
 local ccb = require("ccb")
 
 return ccb.ModDefinition {
@@ -147,7 +146,7 @@ return ccb.ModDefinition {
 
 ## 加载生命周期
 
-目标加载序列是：
+当前加载序列是：
 
 1. 发现根 `main.lua` 或可选 `mod.lua`；
 2. 解析元数据、依赖与确定性加载顺序；
@@ -175,24 +174,28 @@ Platform 导出的 C++ 类型公开所有可绑定的 `public` 字段、方法�
 runtime 替换后，旧引用访问应抛 Lua 错误，而不是解引用悬空指针。Mod 自己加载的原生
 模块可以绕过此保护，因此不属于兼容保证。
 
-静态 definition 是真实原生 staging 对象。目标内容层提供明确的 `add`、`replace` 和
+静态 definition 是真实原生 staging 对象。当前内容层提供明确的 `add`、`replace` 和
 事务性 `edit` 语义；重复 ID 默认报错。Lua 的构造函数、普通函数、循环、模块和组合
 承担 JSON `copy-from` 以前的复用工作。
 
-下面只展示编程模型，不锁定最终拼写：
+下面使用当前可运行的物品与命名 handler 拼写：
 
 ```lua
--- 目标伪代码：当前版本不能运行。
-local item = ItemDefinition("vibe_lamp")
-item:name("氛围灯")
-item:weight(350 * units.gram)
+local ccb = require("ccb")
+local item = ccb.content.Item {
+    id = "vibe_lamp",
+    name = "氛围灯",
+    description = "由原生 Lua definition 创建。",
+    symbol = "*",
+}
+item:mass_grams(350)
+item:on_use("use_vibe_lamp", "感受氛围")
+ccb.content.add(item)
 
-content.items:add(item)
-content.recipes:add(make_lamp_recipe(item:id()))
-
-handlers:define("use_vibe_lamp", function(context)
-    context.user:add_morale(morale.vibe, 10)
-end)
+ccb.runtime.handler("use_vibe_lamp", function(context)
+    context:message("灯光变得柔和。")
+    return 0
+end, 1)
 ```
 
 这里的重点是对象、函数、单位类型和组合，而不是把 JSON 的每个键变成
@@ -232,7 +235,7 @@ task 与 payload 版本变化必须产生有界诊断，并走明确的丢弃或
 
 ## 开发者扩展与模板
 
-未来工具提供两种脚手架：
+仓库工具已经提供两种脚手架：
 
 - `minimal`：只生成可执行的根 `main.lua`；
 - `complete`：提供 `content/`、`runtime/`、`tests/` 等推荐结构和演示代码，但仍无 JSON，
@@ -244,9 +247,11 @@ task 与 payload 版本变化必须产生有界诊断，并走明确的丢弃或
 
 ## 首个纵向样板
 
-首个实现样板固定为一个零 JSON/EOC Mod：定义物品、配方和 Lua 使用行为。它必须同时
-验证发现、依赖顺序、原生内容、跨 ID 引用、命名 handler、持久 state、存档/读档、
-重载和游戏内可观察结果。只完成“能运行一段 Lua”不算完成此样板。
+`data/mods/Lua_First_Example/` 已完成首个零 JSON/EOC 样板：原生 `mod.lua`、物品、
+配方、Lua 使用行为、角色/世界 state 和命名任务都进入真实 Mod 选择与加载流程。
+`[playable_mvp]` 门禁覆盖游戏存档、runtime 销毁、完整数据重载、继续使用物品以及过期
+任务恰好执行一次。它证明纵向切片可玩，不代表其余静态域已经完成。
 
-后续工作与真实状态见 [Lua-first 路线图](lua-first-roadmap.md)；阅读术语时可配合
+后续工作与真实状态见 [Lua-first 路线图](lua-first-roadmap.md)；具体入口见
+[Platform v1 API 概览](../api/lua/platform-v1/overview.md)，阅读术语时可配合
 [Lua-first 词汇表](lua-first-glossary.md)。

@@ -1,4 +1,8 @@
 {
+  "api.lua.platform-v1.overview": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/platform-v1/overview/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/platform-v1/overview/"
+  },
   "api.lua.v5.capabilities": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/capabilities/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/"

@@ -3,6 +3,8 @@
 > Generated from docs-catalog.yml; do not edit by hand.
 > Runtime and project contracts remain authoritative in the CCB source repository.
 
+- [en] Lua-first Platform v1 API overview: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/platform-v1/overview/
+- [zh_CN] Lua-first Platform v1 API 概览: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/platform-v1/overview/
 - [en] Declaring capabilities: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/
 - [zh_CN] Capability 声明: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/capabilities/
 - [en] Lua API changelog: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/changelog/
@@ -55,6 +57,12 @@
 - [zh_CN] 跨平台 Lua UI: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/ui/
 - [en] Design principles: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/design-principles/
 - [zh_CN] 设计原则: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/design-principles/
+- [en] Lua-first learning glossary: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-glossary/
+- [zh_CN] Lua-first 学习词汇表: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-glossary/
+- [en] Lua-first Platform v1 architecture: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-platform/
+- [zh_CN] Lua-first Platform v1 架构: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-platform/
+- [en] Lua-first Platform roadmap: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-roadmap/
+- [zh_CN] Lua-first Platform 路线图: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-roadmap/
 - [en] CCB project architecture: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/overview/
 - [zh_CN] CCB 项目架构: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/overview/
 - [en] Project map and authority boundaries: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/

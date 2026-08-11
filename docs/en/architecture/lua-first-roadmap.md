@@ -3,7 +3,7 @@
 id: architecture.lua-first-roadmap
 title: Lua-first Platform roadmap
 language: en
-status: draft
+status: active
 doc_type: explanation
 audiences:
 - experienced-contributor
@@ -22,17 +22,17 @@ source_paths:
 - data/lua/LUA_FIRST_PLATFORM.md
 source_symbols: []
 source_queries: []
-source_fingerprint: e8cd2ca29e3d1c735f3d5e460f5224b9bd96b723e91b9f1d509db504c762c21f
+source_fingerprint: 05c4efbbb59bd9cb6550d35141c21123e5a34da7ecce125a07efc74a57ab26b9
 authority: docs-explanation
-verified_commit: b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6
-verified_at: '2026-08-09'
+verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+verified_at: '2026-08-12'
 generated: false
 generated_by: null
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 18cd86df4ccf4d50b87415b40ed310c10249b716e624934ec3771301466c5c81
+translation_source_fingerprint: 2682c28d441a435396381d5c65ad2ea8b8319135d90f924078edd1dab829ca9a
 prerequisites:
 - architecture.lua-first-platform
 depends_on:
@@ -49,7 +49,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lua-platform
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/615
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-roadmap/
 alternate_urls:
@@ -57,17 +57,15 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/lua-first-roadmap/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/lua-first-roadmap/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
 source_urls:
 - path: ai/lua-first-roadmap.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6/ai/lua-first-roadmap.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/ai/lua-first-roadmap.yml
 - path: ai/lua-first-roadmap.schema.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6/ai/lua-first-roadmap.schema.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/ai/lua-first-roadmap.schema.json
 - path: data/lua/LUA_FIRST_PLATFORM.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6/data/lua/LUA_FIRST_PLATFORM.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28architecture.lua-first-roadmap%29%3A+&body=Document+ID%3A+architecture.lua-first-roadmap%0ALanguage%3A+en%0AVerified+commit%3A+b2bbec1a2f4f8e41a2fece924c7c43b426ff2dc6%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/data/lua/LUA_FIRST_PLATFORM.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28architecture.lua-first-roadmap%29%3A+&body=Document+ID%3A+architecture.lua-first-roadmap%0ALanguage%3A+en%0AVerified+commit%3A+c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Lua-first Platform roadmap
@@ -114,18 +112,19 @@ to automatically generate 775 Lua functions:
 Whenever those inventories are regenerated, the metadata validator compares
 their real lengths with the roadmap counts so the plan cannot silently drift.
 
-## Eight milestones
+## Nine milestones
 
 | Order | Milestone | Current status | Main exit condition |
 | ---: | --- | --- | --- |
 | 1 | Documentation foundation | `complete` | Authoritative architecture, Agent routing, schema-checked roadmap, paired explanations |
-| 2 | Zero-config discovery | `planned` | A directory with only root `main.lua` is discoverable; optional `mod.lua` resolves dependencies first |
-| 3 | Native content transaction | `planned` | Pre-finalize execution, staging/commit, owner/generation, private-adapter inventory |
-| 4 | Item + recipe + use behaviour | `planned` | First zero-JSON/EOC Mod passes save/load and has an observable game result |
-| 5 | Behaviour services | `planned` | Events, hooks, handlers, persistent tasks/state, and shared domain services |
-| 6 | Static domain coverage | `planned` | Every checked JSON/EOC entry has a disposition; each domain has tests, declarations, and docs |
-| 7 | Core and bundled migration | `planned` | Stable IDs retained, tool emits idiomatic Lua skeletons, old authoring freezes only per completed domain |
-| 8 | Legacy removal window | `planned` | At least two stable releases and twelve months, plus save migration and bundled-content checks |
+| 2 | Zero-config discovery | `complete` | A directory with only root `main.lua` is discoverable; optional `mod.lua` resolves dependencies first |
+| 3 | Native content transaction | `in_progress` | Pre-finalize execution, staging/commit, owner/generation, private-adapter inventory |
+| 4 | Item + recipe + use behaviour | `complete` | First zero-JSON/EOC Mod passes save/load and has an observable game result |
+| 5 | Behaviour services | `in_progress` | Events, hooks, handlers, persistent tasks/state, and shared domain services |
+| 6 | Playable MVP v0.1 | `complete` | A bundled pure-Lua Mod passes discovery, dependency selection, real save, full reload, and continued play |
+| 7 | Static domain coverage | `in_progress` | Every checked JSON/EOC entry has a disposition; each domain has tests, declarations, and docs |
+| 8 | Core and bundled migration | `in_progress` | Stable IDs retained, tool emits idiomatic Lua skeletons, old authoring freezes only per completed domain |
+| 9 | Legacy removal window | `planned` | At least two stable releases and twelve months, plus save migration and bundled-content checks |
 
 The dependencies form a directed chain. A later milestone cannot skip its
 prerequisite by deleting JSON/EOC first and forcing migration. Machine checks
@@ -135,18 +134,21 @@ reject unknown dependencies and dependency cycles.
 
 | Capability | Status | Legacy dependency | Next substantive work |
 | --- | --- | --- | --- |
-| Mod discovery | `absent` | `public_legacy` | Add Platform discovery beside old `modinfo.json` scanning and diagnose conflicts |
-| Complete standard libraries | `legacy_only` | `none` | Build a separately versioned trusted Platform Lua state and explicit warnings |
-| Native static content | `absent` | `public_legacy` | Add pre-finalize execution, staging registry, and commit semantics |
-| Native object surface | `partial` | `none` | Export-root inventory, unbindable-member report, owner/generation checks |
-| Events/hooks/callbacks | `partial` | `none` | Native arguments instead of snapshots/talker aliases; stable handler IDs |
-| Persistent tasks/state | `partial` | `none` | Save handler, due time, owner, payload and version; define exceptional outcomes |
-| Shared domain services | `absent` | `public_legacy` | Classify EOC handlers and first extract operations needed by the vertical slice |
-| Developer templates | `absent` | `none` | Deliver `minimal`, `complete`, and safe `create_lua_mod.py` scaffolding |
-| Replacement audit | `absent` | `private_adapter` | Build a selector ledger covering each inventory entry exactly once |
+| Mod discovery | `partial` | `none` | Complete manual desktop/Android Mod-selector interaction checks |
+| Complete standard libraries | `partial` | `none` | Complete desktop/Android first-enable trusted-code interaction checks |
+| Native static content | `partial` | `none` | Continue field-complete typed registrar and extractor coverage without exposing old loaders |
+| Native object surface | `partial` | `none` | Complete the export-root and unbindable-member inventories and extend explicit owners |
+| Events/hooks/callbacks | `partial` | `none` | Extend actor-kind coverage beyond the audited semantic events |
+| Presentation primitives | `partial` | `none` | Complete manual desktop/Android checks, then add domain-shaped composable forms |
+| Persistent tasks/state | `partial` | `none` | Extend copied-world and stable-ID compatibility coverage |
+| Shared domain services | `partial` | `none` | Review primitive and bounded selectors against exact native semantics |
+| Developer templates | `partial` | `none` | Add end-to-end examples only when they prove another native domain |
+| Migration extractor | `partial` | `none` | Add conversions only after a typed registrar and semantic evidence exist |
+| Replacement audit | `partial` | `none` | Review primitive and planned entries domain by domain while keeping counts distinct |
 
-Most `partial` entries mean that v5 or C++ has reusable foundations. They do not
-mean a Platform author can use the target spelling shown in the architecture.
+All eleven capabilities now have runnable implementation or checked foundations,
+and no public Platform surface depends on an old parser. `partial` still means
+incomplete coverage; it is not a claim of complete JSON/EOC replacement parity.
 
 ## Extract existing power instead of restarting
 
@@ -174,10 +176,9 @@ JSON/EOC shell. The correct extraction unit is a game-domain capability:
 This reuses rules, validation, native objects, and game operations—not the old
 languages' shapes.
 
-### First extraction scope
+### Delivered first extraction scope
 
-The first slice extracts only the closed loop required for “item + recipe + Lua
-use behaviour”:
+The first “item + recipe + Lua use behaviour” closed loop is now delivered:
 
 - zero-config Mod discovery and dependency ordering;
 - native item/recipe definitions and cross-ID references;
@@ -187,15 +188,16 @@ use behaviour”:
 - Mod state, save, load, and reload;
 - error locations, LuaLS declarations, minimal template, and end-to-end tests.
 
-This scope is small enough to produce a playable slice quickly and complete
-enough to reveal the hardest lifecycle, ownership, and persistence problems.
-The next slices can extend the pattern to vehicles, creatures, map generation,
-dialogue, missions, and UI.
+The slice now passes a playable-MVP gate covering a real game save, Lua runtime
+shutdown, full data reload, continued item-handler play, and exactly-once
+execution of an overdue task. Further content catalogs and character/world
+operations are being extended with the same native pattern across vehicles,
+creatures, maps, dialogue, missions, and UI—without copying the old loaders.
 
 ## What the replacement ledger records
 
-The future ledger is not a simple “old key → new function” table. Each record
-needs at least:
+The checked ledger is not a simple “old key → new function” table. Each record
+contains:
 
 - legacy inventory and selector;
 - actual game meaning and owning domain;
@@ -205,8 +207,21 @@ needs at least:
 - source, test, declaration, documentation, and migration-tool evidence;
 - stable-ID, save, and hybrid-Mod compatibility notes.
 
-The checker eventually requires every entry in all three inventories exactly
-once, preventing omissions, duplicate ownership, or a vague “other” bucket.
+The checker now requires every entry in all three inventories exactly once.
+The current 775 dispositions are:
+
+| Disposition | Count | Complete-replacement claim |
+| --- | ---: | --- |
+| Full selector parity (`implemented_unverified`) | 0 | No selector can yet make this claim |
+| Bounded shape implemented (`bounded_implemented_unverified`) | 119 | Only the ledger's named finite shapes |
+| Native primitive available (`primitive_available_unverified`) | 440 | Composition exists; this is not old-selector parity |
+| Planned | 198 | Migration work, not a shipped API |
+| Reviewed not applicable | 18 | An explicit native-Lua or engine-internal reason exists |
+
+This is why “Lua-first is playable” and “JSON/EOC are not fully replaced” are
+both true. Zero full-selector entries does not deny the native API; it prevents
+finite shapes and composition primitives from being overstated as parity with
+every use of an old-language selector.
 
 ## Definition of done for a capability
 
@@ -222,21 +237,28 @@ A domain moving from `partial` to `available` needs at least:
 8. validated or documented differences across supported platforms such as
    Windows, Linux, and Android.
 
-## Near-term implementation order
+## Next implementation order
 
-A practical near-term PR sequence is:
+Zero-config scanning, the Platform Lua state, first transaction foundations,
+the item/recipe/behaviour slice, templates, migration tooling, LuaLS, and the
+775-entry ledger are already present. The next sequence is:
 
-1. implement zero-config scanning and trusted-code warnings, initially loading
-   an empty entry only;
-2. establish Platform Lua state, error boundaries, dependency order, and
-   candidate reload;
-3. establish definition staging, transactions, and owner/generation support;
-4. extract services needed by item, recipe, and use behaviour;
-5. deliver the example Mod, templates, LuaLS, and end-to-end tests;
-6. design replacement-ledger generation and checking from that first evidence;
-7. expand domain by domain instead of exporting all C++ at once.
+1. finish desktop and Android manual interaction gates for Mod selection,
+   trusted-code confirmation, and presentation primitives;
+2. extend explicit owner/generation handling to the remaining borrowed native
+   references;
+3. complete static registrars and extractors field by field without publishing
+   the old loaders;
+4. add native services for environment, dialogue, activities, combat,
+   navigation, and relocation;
+5. promote bounded and primitive entries only with source semantics and
+   conversion fixtures that prove full parity;
+6. extend copied-world, stable-ID, save, and supported-platform coverage;
+7. migrate core content and freeze old authoring only after a domain reaches
+   `available` completely.
 
 Every PR should update status, evidence, and next actions in
 `ai/lua-first-roadmap.yml` and name affected CCB-Docs IDs. See
-[Platform v1](lua-first-platform.md) for design boundaries and the
-[glossary](lua-first-glossary.md) for terminology.
+[Platform v1](lua-first-platform.md) for design boundaries, the
+[Platform v1 API overview](../api/lua/platform-v1/overview.md) for runnable
+interfaces, and the [glossary](lua-first-glossary.md) for terminology.
