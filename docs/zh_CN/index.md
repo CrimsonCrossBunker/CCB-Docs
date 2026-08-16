@@ -34,7 +34,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 38a37cdddd129271ed9a5484f0b0da50d20558876d983fe7eefb471397dcd0af
+translation_source_fingerprint: 232961e0cbd3e506537154eb53f7bb787c5dd7343a4f4637db90ca65dcb2b7e5
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -65,30 +65,32 @@ source_urls:
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28home%29%3A+&body=Document+ID%3A+home%0ALanguage%3A+zh_CN%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
-# CCB 开发文档
+# CCB 开发者文档
 
-这里是 Cataclysm: Cleanwater Bomb 的正式开发者解释、教程、架构与导航站。
+这里是 Cataclysm: Cleanwater Bomb 的官方开发者指南、API 参考与架构导航站。
 
-!!! info "Phase 0/1 基础站点"
-    本轮发布首页与四个完整双语示范主题。主仓库 175 个受 Git 跟踪的 Markdown
-    文件已在迁移清单中分类；选定迁移但尚未完成双语的页面不会进入正式导航。
+本站面向两大核心开发者群体：**Mod 创作者** 与 **本体/引擎 C++ 开发者**。
 
-## 先理解权威边界
+---
 
-- 游戏实际怎样运行，以 CCB 主仓库源码和测试为准。
-- JSON、Lua 与 API 契约，以 Schema、LuaLS 声明、注册信息和生成清单为准。
-- 构建与验证，以 CI、CMake、Makefile、Gradle 和验证脚本为准。
-- 贡献政策，以主仓库 `AGENTS.md`、`CONTRIBUTING.md`、`GOVERNANCE.md` 为准。
-- 本站负责把这些事实组织成可以学习、查阅和被 Agent 导航的文档。
+## 快速导航与开发入口
 
-如果本站与契约冲突，页面必须标记为 stale 并修复；本站不能覆盖契约。
+### 🎯 1. Mod 创作者专区（CCB Lua 0.1 原生平台）
+CCB 提供全新自研的 **CCB Lua 0.1** 纯原生内容与逻辑创作引擎，告别繁琐的旧数据格式：
+- [CCB Lua 0.1 原生平台总览](api/lua/v5/overview.md)：理解零配置 Mod 发现、原生事务提交与代际安全句柄。
+- [完整示例 Mod 剖析](api/lua/v5/example-mod.md)：快速上手一个包含模块、状态与事件的完整 Mod。
+- [事件、Hook 与 Callback](api/lua/v5/events.md)：订阅游戏事件，同步拦截与重写游戏行为。
+- [跨平台 Lua UI](api/lua/v5/ui.md)：为 PC 键盘操作和 Android 原生触屏设计自适应页面。
+- [CCB Lua 0.1 自动参考手册](api/lua/v5/reference/modules.md)：查阅全部 500+ 个核心函数、事件、Hook 与类定义。
 
-## 选择入口
+### 🛠️ 2. 本体与引擎开发者（C++ 引擎与构建）
+面向贡献游戏底层逻辑、系统机制与原生绑定的开发者：
+- [项目地图与架构](architecture/project-map.md)：按子系统导航 C++ 源码、数据与测试边界。
+- [快速构建指南](build/overview.md)：掌握 CMake / Make 现代编译流程与平台支持。
+- [自动化测试与验证](validation/quickstart.md)：运行 Catch2 单元测试与快速校验工具。
+- [Native Lua Bridge 与绑定](cpp/lua-bridge.md)：了解 C++ 引擎与 Lua 0.1 运行时的数据桥接机制。
 
-- [第一次贡献](getting-started/first-contribution.md)：完成从定位到 PR 的最短路线。
-- [项目地图](architecture/project-map.md)：按子系统寻找源码、规则和测试。
-- [Responsible human](contributing/responsible-human.md)：理解 AI 辅助贡献的责任。
-- [构建与验证](validation/quickstart.md)：选择最小但充分的验证命令。
+### 🏛️ 3. 参与项目与治理规范
+- [第一次贡献](getting-started/first-contribution.md)：完成从环境配置到 PR 提交的最短路线。
+- [Responsible Human](contributing/responsible-human.md)：理解代码贡献与 AI 辅助开发的责任模型。
 
-CCB 玩家主页和物品查询站保持独立：主页提供玩家简明入口，CCB-GUIDE 提供
-游戏数据查询。

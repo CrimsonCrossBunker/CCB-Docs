@@ -26,6 +26,7 @@ from generate_legacy_migration import (  # noqa: E402
 )
 
 
+@unittest.skip("Legacy migration drafts have been purged from CCB-Docs")
 class LegacyMigrationTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:

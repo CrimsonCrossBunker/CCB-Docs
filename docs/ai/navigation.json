@@ -57,27 +57,6 @@
       "path": "architecture/design-principles.md"
     },
     {
-      "id": "architecture.lua-first-platform",
-      "title": "Lua-first Platform v1 架构",
-      "section": "架构",
-      "order": 23,
-      "path": "architecture/lua-first-platform.md"
-    },
-    {
-      "id": "architecture.lua-first-roadmap",
-      "title": "Lua-first Platform 路线图",
-      "section": "架构",
-      "order": 24,
-      "path": "architecture/lua-first-roadmap.md"
-    },
-    {
-      "id": "architecture.lua-first-glossary",
-      "title": "Lua-first 学习词汇表",
-      "section": "架构",
-      "order": 25,
-      "path": "architecture/lua-first-glossary.md"
-    },
-    {
       "id": "contributing.responsible-human",
       "title": "Responsible human 与 AI 辅助贡献",
       "section": "贡献政策",
@@ -218,86 +197,79 @@
       "path": "governance/security-license.md"
     },
     {
-      "id": "api.lua.platform-v1.overview",
-      "title": "Lua-first Platform v1 API 概览",
-      "section": "Lua-first Platform v1",
-      "order": 89,
-      "path": "api/lua/platform-v1/overview.md"
-    },
-    {
       "id": "api.lua.v5.overview",
-      "title": "Lua API v5 总览",
-      "section": "Lua API v5",
+      "title": "CCB Lua 0.1 总览",
+      "section": "CCB Lua 0.1",
       "order": 90,
       "path": "api/lua/v5/overview.md"
     },
     {
       "id": "api.lua.v5.lifecycle",
       "title": "Lua 来源与生命周期",
-      "section": "Lua API v5",
+      "section": "CCB Lua 0.1",
       "order": 91,
       "path": "api/lua/v5/lifecycle.md"
     },
     {
       "id": "api.lua.v5.events",
       "title": "事件、Hook 与 Callback",
-      "section": "Lua API v5",
+      "section": "CCB Lua 0.1",
       "order": 92,
       "path": "api/lua/v5/events.md"
     },
     {
       "id": "api.lua.v5.capabilities",
       "title": "Capability 声明",
-      "section": "Lua API v5",
+      "section": "CCB Lua 0.1",
       "order": 93,
       "path": "api/lua/v5/capabilities.md"
     },
     {
       "id": "api.lua.v5.permissions",
       "title": "权限与信任模型",
-      "section": "Lua API v5",
+      "section": "CCB Lua 0.1",
       "order": 94,
       "path": "api/lua/v5/permissions.md"
     },
     {
       "id": "api.lua.v5.ui",
       "title": "跨平台 Lua UI",
-      "section": "Lua API v5",
+      "section": "CCB Lua 0.1",
       "order": 95,
       "path": "api/lua/v5/ui.md"
     },
     {
       "id": "api.lua.v5.debugging",
       "title": "Lua 调试与契约验证",
-      "section": "Lua API v5",
+      "section": "CCB Lua 0.1",
       "order": 96,
       "path": "api/lua/v5/debugging.md"
     },
     {
       "id": "api.lua.v5.performance",
       "title": "Lua 性能与资源边界",
-      "section": "Lua API v5",
+      "section": "CCB Lua 0.1",
       "order": 97,
       "path": "api/lua/v5/performance.md"
     },
     {
       "id": "api.lua.v5.migration",
       "title": "迁移到 Lua API v5",
-      "section": "Lua API v5",
+      "section": "CCB Lua 0.1",
       "order": 98,
       "path": "api/lua/v5/migration.md"
     },
     {
       "id": "api.lua.v5.changelog",
       "title": "Lua API 变更记录",
-      "section": "Lua API v5",
+      "section": "CCB Lua 0.1",
       "order": 99,
       "path": "api/lua/v5/changelog.md"
     },
     {
       "id": "api.lua.v5.example-mod",
       "title": "完整 Lua API v5 示例 Mod",
-      "section": "Lua API v5",
+      "section": "CCB Lua 0.1",
       "order": 100,
       "path": "api/lua/v5/example-mod.md"
     },
@@ -374,7 +346,7 @@
     {
       "id": "api.lua.v5.reference.modules",
       "title": "模块入口参考",
-      "section": "Lua API v5 参考",
+      "section": "CCB Lua 0.1 参考",
       "order": 110,
       "path": "api/lua/v5/reference/modules.md"
     },
@@ -388,7 +360,7 @@
     {
       "id": "api.lua.v5.reference.namespaces",
       "title": "命名空间参考",
-      "section": "Lua API v5 参考",
+      "section": "CCB Lua 0.1 参考",
       "order": 111,
       "path": "api/lua/v5/reference/namespaces.md"
     },
@@ -402,7 +374,7 @@
     {
       "id": "api.lua.v5.reference.classes",
       "title": "类与记录参考",
-      "section": "Lua API v5 参考",
+      "section": "CCB Lua 0.1 参考",
       "order": 112,
       "path": "api/lua/v5/reference/classes.md"
     },
@@ -416,7 +388,7 @@
     {
       "id": "api.lua.v5.reference.functions",
       "title": "函数参考",
-      "section": "Lua API v5 参考",
+      "section": "CCB Lua 0.1 参考",
       "order": 113,
       "path": "api/lua/v5/reference/functions.md"
     },
@@ -430,7 +402,7 @@
     {
       "id": "api.lua.v5.reference.methods",
       "title": "方法参考",
-      "section": "Lua API v5 参考",
+      "section": "CCB Lua 0.1 参考",
       "order": 114,
       "path": "api/lua/v5/reference/methods.md"
     },
@@ -444,7 +416,7 @@
     {
       "id": "api.lua.v5.reference.properties",
       "title": "属性参考",
-      "section": "Lua API v5 参考",
+      "section": "CCB Lua 0.1 参考",
       "order": 115,
       "path": "api/lua/v5/reference/properties.md"
     },
@@ -458,7 +430,7 @@
     {
       "id": "api.lua.v5.reference.operators",
       "title": "运算符参考",
-      "section": "Lua API v5 参考",
+      "section": "CCB Lua 0.1 参考",
       "order": 116,
       "path": "api/lua/v5/reference/operators.md"
     },
@@ -472,7 +444,7 @@
     {
       "id": "api.lua.v5.reference.enums",
       "title": "枚举族参考",
-      "section": "Lua API v5 参考",
+      "section": "CCB Lua 0.1 参考",
       "order": 117,
       "path": "api/lua/v5/reference/enums.md"
     },
@@ -486,7 +458,7 @@
     {
       "id": "api.lua.v5.reference.events",
       "title": "原生事件参考",
-      "section": "Lua API v5 参考",
+      "section": "CCB Lua 0.1 参考",
       "order": 118,
       "path": "api/lua/v5/reference/events.md"
     },
@@ -500,7 +472,7 @@
     {
       "id": "api.lua.v5.reference.hooks",
       "title": "原生 Hook 参考",
-      "section": "Lua API v5 参考",
+      "section": "CCB Lua 0.1 参考",
       "order": 119,
       "path": "api/lua/v5/reference/hooks.md"
     },
@@ -514,7 +486,7 @@
     {
       "id": "api.lua.v5.reference.callbacks",
       "title": "回调 Actor 参考",
-      "section": "Lua API v5 参考",
+      "section": "CCB Lua 0.1 参考",
       "order": 120,
       "path": "api/lua/v5/reference/callbacks.md"
     },
@@ -528,21 +500,21 @@
     {
       "id": "api.lua.v5.reference.capabilities",
       "title": "Capability 参考",
-      "section": "Lua API v5 参考",
+      "section": "CCB Lua 0.1 参考",
       "order": 121,
       "path": "api/lua/v5/reference/capabilities.md"
     },
     {
       "id": "api.lua.v5.reference.permissions",
       "title": "权限模型参考",
-      "section": "Lua API v5 参考",
+      "section": "CCB Lua 0.1 参考",
       "order": 122,
       "path": "api/lua/v5/reference/permissions.md"
     },
     {
       "id": "api.lua.v5.reference.manifest-fields",
       "title": "Manifest 字段参考",
-      "section": "Lua API v5 参考",
+      "section": "CCB Lua 0.1 参考",
       "order": 123,
       "path": "api/lua/v5/reference/manifest-fields.md"
     },
@@ -685,657 +657,6 @@
       "section": "运维",
       "order": 303,
       "path": "operations/performance-profiling.md"
-    },
-    {
-      "id": "migration.filtered-history-experiment",
-      "title": "过滤历史实验",
-      "section": "迁移草稿",
-      "order": 999,
-      "path": "migration/filtered-history-experiment.md"
-    },
-    {
-      "id": "build-cmake",
-      "title": "旧文档迁移草稿：cmake",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "build/cmake.md"
-    },
-    {
-      "id": "build-devcontainer",
-      "title": "旧文档迁移草稿：devcontainer",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "build/devcontainer.md"
-    },
-    {
-      "id": "build-windows-msvc",
-      "title": "旧文档迁移草稿：windows msvc",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "build/windows-msvc.md"
-    },
-    {
-      "id": "build-windows-msys2",
-      "title": "旧文档迁移草稿：windows msys2",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "build/windows-msys2.md"
-    },
-    {
-      "id": "content.ascii-art",
-      "title": "旧文档迁移草稿：ascii art",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "content/ascii-art.md"
-    },
-    {
-      "id": "content.firearms-naming-and-inclusion",
-      "title": "旧文档迁移草稿：naming and inclusion",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "content/firearms/naming-and-inclusion.md"
-    },
-    {
-      "id": "content.manual-of-style",
-      "title": "旧文档迁移草稿：in game text style",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "contributing/in-game-text-style.md"
-    },
-    {
-      "id": "contributing.json-style",
-      "title": "旧文档迁移草稿：json style",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "contributing/json-style.md"
-    },
-    {
-      "id": "cpp-code-style",
-      "title": "旧文档迁移草稿：code style",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "cpp/code-style.md"
-    },
-    {
-      "id": "cpp-coordinates",
-      "title": "旧文档迁移草稿：coordinates",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "cpp/coordinates.md"
-    },
-    {
-      "id": "cpp-json-interface",
-      "title": "旧文档迁移草稿：json interface",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "cpp/json-interface.md"
-    },
-    {
-      "id": "cpp-performance",
-      "title": "旧文档迁移草稿：performance",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "cpp/performance.md"
-    },
-    {
-      "id": "cpp-testing",
-      "title": "旧文档迁移草稿：cpp",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "testing/cpp.md"
-    },
-    {
-      "id": "design-balance",
-      "title": "旧文档迁移草稿：balance",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "design/balance.md"
-    },
-    {
-      "id": "design-batteries-electricity",
-      "title": "旧文档迁移草稿：batteries electricity",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "design/batteries-electricity.md"
-    },
-    {
-      "id": "design-gameplay",
-      "title": "旧文档迁移草稿：gameplay",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "design/gameplay.md"
-    },
-    {
-      "id": "design-overview",
-      "title": "旧文档迁移草稿：overview",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "design/overview.md"
-    },
-    {
-      "id": "design-portal-storms",
-      "title": "旧文档迁移草稿：portal storms",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "design/portal-storms.md"
-    },
-    {
-      "id": "design-steel-crafting",
-      "title": "旧文档迁移草稿：steel crafting",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "design/steel-crafting.md"
-    },
-    {
-      "id": "design-user-experience",
-      "title": "旧文档迁移草稿：user experience",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "design/user-experience.md"
-    },
-    {
-      "id": "design.frequently-made-suggestions",
-      "title": "旧文档迁移草稿：frequently made suggestions",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "design/frequently-made-suggestions.md"
-    },
-    {
-      "id": "developer-tooling",
-      "title": "旧文档迁移草稿：developer tooling",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "cpp/developer-tooling.md"
-    },
-    {
-      "id": "eoc.reference",
-      "title": "旧文档迁移草稿：eoc",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/eoc/index.md"
-    },
-    {
-      "id": "how-to.common-tasks",
-      "title": "旧文档迁移草稿：common tasks",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "how-to/common-tasks.md"
-    },
-    {
-      "id": "how-to.json-tools",
-      "title": "旧文档迁移草稿：tools",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "how-to/json/tools.md"
-    },
-    {
-      "id": "json-armor-design",
-      "title": "旧文档迁移草稿：armor design",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "json/armor-design.md"
-    },
-    {
-      "id": "json-item-pricing",
-      "title": "旧文档迁移草稿：item pricing",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "json/item-pricing.md"
-    },
-    {
-      "id": "json-item-variants",
-      "title": "旧文档迁移草稿：item variants",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "json/item-variants.md"
-    },
-    {
-      "id": "json-widgets",
-      "title": "旧文档迁移草稿：widgets",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "json/widgets.md"
-    },
-    {
-      "id": "json.artifacts",
-      "title": "旧文档迁移草稿：artifacts",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/artifacts.md"
-    },
-    {
-      "id": "json.basecamp",
-      "title": "旧文档迁移草稿：basecamp",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/basecamp.md"
-    },
-    {
-      "id": "json.climbing-aids",
-      "title": "旧文档迁移草稿：climbing aids",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/climbing-aids.md"
-    },
-    {
-      "id": "json.comestibles-placement",
-      "title": "旧文档迁移草稿：comestibles",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "how-to/json/comestibles.md"
-    },
-    {
-      "id": "json.dimensions",
-      "title": "旧文档迁移草稿：dimensions",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/dimensions.md"
-    },
-    {
-      "id": "json.effects",
-      "title": "旧文档迁移草稿：effects",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/effects.md"
-    },
-    {
-      "id": "json.examine-actions",
-      "title": "旧文档迁移草稿：examine actions",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/examine-actions.md"
-    },
-    {
-      "id": "json.faction-missions",
-      "title": "旧文档迁移草稿：faction missions",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/faction-missions.md"
-    },
-    {
-      "id": "json.flags",
-      "title": "JSON 标志直接定义索引",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/generated/flags.md"
-    },
-    {
-      "id": "json.help-menu",
-      "title": "旧文档迁移草稿：help menu",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/help-menu.md"
-    },
-    {
-      "id": "json.inheritance",
-      "title": "旧文档迁移草稿：inheritance",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/inheritance.md"
-    },
-    {
-      "id": "json.item-groups",
-      "title": "旧文档迁移草稿：item groups",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/item-groups.md"
-    },
-    {
-      "id": "json.items",
-      "title": "旧文档迁移草稿：items",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/items/index.md"
-    },
-    {
-      "id": "json.loading-order",
-      "title": "旧文档迁移草稿：loading order",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/loading-order.md"
-    },
-    {
-      "id": "json.magic-spells-enchantments",
-      "title": "旧文档迁移草稿：magic spells enchantments",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/magic-spells-enchantments.md"
-    },
-    {
-      "id": "json.mapgen",
-      "title": "旧文档迁移草稿：mapgen",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/mapgen.md"
-    },
-    {
-      "id": "json.martial-arts",
-      "title": "旧文档迁移草稿：martial arts",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/martial-arts.md"
-    },
-    {
-      "id": "json.missions",
-      "title": "旧文档迁移草稿：missions",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/missions.md"
-    },
-    {
-      "id": "json.monster-special-attacks",
-      "title": "旧文档迁移草稿：monster special attacks",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/monster-special-attacks.md"
-    },
-    {
-      "id": "json.monsters",
-      "title": "旧文档迁移草稿：monsters",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/monsters.md"
-    },
-    {
-      "id": "json.movement-modes",
-      "title": "旧文档迁移草稿：movement modes",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/movement-modes.md"
-    },
-    {
-      "id": "json.mutations",
-      "title": "旧文档迁移草稿：mutations",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/mutations.md"
-    },
-    {
-      "id": "json.npc-factions",
-      "title": "旧文档迁移草稿：npc factions",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/npc-factions.md"
-    },
-    {
-      "id": "json.npcs-dialogue",
-      "title": "旧文档迁移草稿：npcs and dialogue",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/eoc/npcs-and-dialogue.md"
-    },
-    {
-      "id": "json.object-types",
-      "title": "旧文档迁移草稿：json",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/index.md"
-    },
-    {
-      "id": "json.obsoletion-and-migration",
-      "title": "旧文档迁移草稿：obsoletion and migration",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/obsoletion-and-migration.md"
-    },
-    {
-      "id": "json.options",
-      "title": "旧文档迁移草稿：options",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/options.md"
-    },
-    {
-      "id": "json.overmap",
-      "title": "旧文档迁移草稿：overmap",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/overmap.md"
-    },
-    {
-      "id": "json.practice-recipes",
-      "title": "旧文档迁移草稿：practice recipes",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/practice-recipes.md"
-    },
-    {
-      "id": "json.proficiencies",
-      "title": "旧文档迁移草稿：proficiencies",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/proficiencies.md"
-    },
-    {
-      "id": "json.proficiencies-index",
-      "title": "熟练度直接定义索引",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/generated/proficiencies.md"
-    },
-    {
-      "id": "json.recipes-and-disassembly",
-      "title": "旧文档迁移草稿：recipes and disassembly",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/recipes-and-disassembly.md"
-    },
-    {
-      "id": "json.region-layout",
-      "title": "旧文档迁移草稿：region layout",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/region-layout.md"
-    },
-    {
-      "id": "json.region-settings",
-      "title": "旧文档迁移草稿：region settings",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/region-settings.md"
-    },
-    {
-      "id": "json.terrain-and-furniture",
-      "title": "旧文档迁移草稿：terrain and furniture",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/terrain-and-furniture.md"
-    },
-    {
-      "id": "json.terrain-furniture-transforms",
-      "title": "旧文档迁移草稿：terrain furniture transforms",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/terrain-furniture-transforms.md"
-    },
-    {
-      "id": "json.vehicle-prototypes",
-      "title": "旧文档迁移草稿：vehicle prototypes",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/vehicle-prototypes.md"
-    },
-    {
-      "id": "json.vitamins",
-      "title": "旧文档迁移草稿：vitamins",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/vitamins.md"
-    },
-    {
-      "id": "json.weather-types",
-      "title": "旧文档迁移草稿：weather types",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/weather-types.md"
-    },
-    {
-      "id": "json.wounds",
-      "title": "旧文档迁移草稿：wounds",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "reference/json/wounds.md"
-    },
-    {
-      "id": "lore-background",
-      "title": "旧文档迁移草稿：background",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "lore/background.md"
-    },
-    {
-      "id": "lore-factions",
-      "title": "旧文档迁移草稿：factions",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "lore/factions.md"
-    },
-    {
-      "id": "lore-overview",
-      "title": "旧文档迁移草稿：overview",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "lore/overview.md"
-    },
-    {
-      "id": "lore-technology",
-      "title": "旧文档迁移草稿：technology",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "lore/technology.md"
-    },
-    {
-      "id": "maintainers.issue-triage",
-      "title": "旧文档迁移草稿：issue triage",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "maintainers/issue-triage.md"
-    },
-    {
-      "id": "mod-compatibility",
-      "title": "旧文档迁移草稿：compatibility",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "modding/compatibility.md"
-    },
-    {
-      "id": "mod-localization",
-      "title": "旧文档迁移草稿：localization",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "modding/localization.md"
-    },
-    {
-      "id": "modding-overview",
-      "title": "旧文档迁移草稿：overview",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "modding/overview.md"
-    },
-    {
-      "id": "mods.aftershock-exoplanet.balance.ranged-weapons",
-      "title": "Aftershock 远程武器平衡输入索引",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "data/mods/aftershock_exoplanet/doc/lore/ranged_weapon_balance.md"
-    },
-    {
-      "id": "mods.aftershock-exoplanet.lore.organizations",
-      "title": "旧文档迁移草稿：organizations",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "data/mods/aftershock_exoplanet/doc/lore/organizations.md"
-    },
-    {
-      "id": "mods.in-repository-policy",
-      "title": "旧文档迁移草稿：in repository policy",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "mods/in-repository-policy.md"
-    },
-    {
-      "id": "mods.mind-over-matter.power-reference",
-      "title": "Mind Over Matter 能力直接字段索引",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "data/mods/MindOverMatter/PowerDescriptionSpoilers.md"
-    },
-    {
-      "id": "platform-matrix",
-      "title": "旧文档迁移草稿：compiler support",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "platforms/compiler-support.md"
-    },
-    {
-      "id": "pr-review-guide",
-      "title": "旧文档迁移草稿：pr review",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "contributing/pr-review.md"
-    },
-    {
-      "id": "soundpacks",
-      "title": "旧文档迁移草稿：soundpacks",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "resources/soundpacks.md"
-    },
-    {
-      "id": "testing-manual",
-      "title": "旧文档迁移草稿：manual playtesting",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "testing/manual-playtesting.md"
-    },
-    {
-      "id": "tilesets",
-      "title": "旧文档迁移草稿：tilesets",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "resources/tilesets.md"
-    },
-    {
-      "id": "translation-guide",
-      "title": "旧文档迁移草稿：translation guide",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "localization/translation-guide.md"
-    },
-    {
-      "id": "tutorial.mapgen-beginner",
-      "title": "旧文档迁移草稿：beginner",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "tutorials/json-mapgen/beginner.md"
-    },
-    {
-      "id": "tutorial.mapgen-intermediate",
-      "title": "旧文档迁移草稿：intermediate",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "tutorials/json-mapgen/intermediate.md"
-    },
-    {
-      "id": "ui-accessibility",
-      "title": "旧文档迁移草稿：accessibility",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "ui/accessibility.md"
-    },
-    {
-      "id": "ui-colors",
-      "title": "旧文档迁移草稿：colors",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "ui/colors.md"
-    },
-    {
-      "id": "ui-fonts",
-      "title": "旧文档迁移草稿：fonts",
-      "section": "迁移草稿",
-      "order": 1000,
-      "path": "ui/fonts.md"
     }
   ],
   "en": [
@@ -1394,27 +715,6 @@
       "section": "Architecture",
       "order": 22,
       "path": "architecture/design-principles.md"
-    },
-    {
-      "id": "architecture.lua-first-platform",
-      "title": "Lua-first Platform v1 architecture",
-      "section": "Architecture",
-      "order": 23,
-      "path": "architecture/lua-first-platform.md"
-    },
-    {
-      "id": "architecture.lua-first-roadmap",
-      "title": "Lua-first Platform roadmap",
-      "section": "Architecture",
-      "order": 24,
-      "path": "architecture/lua-first-roadmap.md"
-    },
-    {
-      "id": "architecture.lua-first-glossary",
-      "title": "Lua-first learning glossary",
-      "section": "Architecture",
-      "order": 25,
-      "path": "architecture/lua-first-glossary.md"
     },
     {
       "id": "contributing.responsible-human",
@@ -1557,86 +857,79 @@
       "path": "governance/security-license.md"
     },
     {
-      "id": "api.lua.platform-v1.overview",
-      "title": "Lua-first Platform v1 API overview",
-      "section": "Lua-first Platform v1",
-      "order": 89,
-      "path": "api/lua/platform-v1/overview.md"
-    },
-    {
       "id": "api.lua.v5.overview",
-      "title": "Lua API v5 overview",
-      "section": "Lua API v5",
+      "title": "CCB Lua 0.1 Overview",
+      "section": "CCB Lua 0.1",
       "order": 90,
       "path": "api/lua/v5/overview.md"
     },
     {
       "id": "api.lua.v5.lifecycle",
       "title": "Lua sources and lifecycle",
-      "section": "Lua API v5",
+      "section": "CCB Lua 0.1",
       "order": 91,
       "path": "api/lua/v5/lifecycle.md"
     },
     {
       "id": "api.lua.v5.events",
       "title": "Events, hooks, and callbacks",
-      "section": "Lua API v5",
+      "section": "CCB Lua 0.1",
       "order": 92,
       "path": "api/lua/v5/events.md"
     },
     {
       "id": "api.lua.v5.capabilities",
       "title": "Declaring capabilities",
-      "section": "Lua API v5",
+      "section": "CCB Lua 0.1",
       "order": 93,
       "path": "api/lua/v5/capabilities.md"
     },
     {
       "id": "api.lua.v5.permissions",
       "title": "Permission and trust model",
-      "section": "Lua API v5",
+      "section": "CCB Lua 0.1",
       "order": 94,
       "path": "api/lua/v5/permissions.md"
     },
     {
       "id": "api.lua.v5.ui",
       "title": "Portable Lua UI",
-      "section": "Lua API v5",
+      "section": "CCB Lua 0.1",
       "order": 95,
       "path": "api/lua/v5/ui.md"
     },
     {
       "id": "api.lua.v5.debugging",
       "title": "Lua debugging and contract validation",
-      "section": "Lua API v5",
+      "section": "CCB Lua 0.1",
       "order": 96,
       "path": "api/lua/v5/debugging.md"
     },
     {
       "id": "api.lua.v5.performance",
       "title": "Lua performance and resource bounds",
-      "section": "Lua API v5",
+      "section": "CCB Lua 0.1",
       "order": 97,
       "path": "api/lua/v5/performance.md"
     },
     {
       "id": "api.lua.v5.migration",
       "title": "Migrating to Lua API v5",
-      "section": "Lua API v5",
+      "section": "CCB Lua 0.1",
       "order": 98,
       "path": "api/lua/v5/migration.md"
     },
     {
       "id": "api.lua.v5.changelog",
       "title": "Lua API changelog",
-      "section": "Lua API v5",
+      "section": "CCB Lua 0.1",
       "order": 99,
       "path": "api/lua/v5/changelog.md"
     },
     {
       "id": "api.lua.v5.example-mod",
       "title": "Complete Lua API v5 example Mod",
-      "section": "Lua API v5",
+      "section": "CCB Lua 0.1",
       "order": 100,
       "path": "api/lua/v5/example-mod.md"
     },
@@ -1713,7 +1006,7 @@
     {
       "id": "api.lua.v5.reference.modules",
       "title": "Module entry points",
-      "section": "Lua API v5 reference",
+      "section": "CCB Lua 0.1 Reference",
       "order": 110,
       "path": "api/lua/v5/reference/modules.md"
     },
@@ -1727,7 +1020,7 @@
     {
       "id": "api.lua.v5.reference.namespaces",
       "title": "Namespaces",
-      "section": "Lua API v5 reference",
+      "section": "CCB Lua 0.1 Reference",
       "order": 111,
       "path": "api/lua/v5/reference/namespaces.md"
     },
@@ -1741,7 +1034,7 @@
     {
       "id": "api.lua.v5.reference.classes",
       "title": "Classes and records",
-      "section": "Lua API v5 reference",
+      "section": "CCB Lua 0.1 Reference",
       "order": 112,
       "path": "api/lua/v5/reference/classes.md"
     },
@@ -1755,7 +1048,7 @@
     {
       "id": "api.lua.v5.reference.functions",
       "title": "Functions",
-      "section": "Lua API v5 reference",
+      "section": "CCB Lua 0.1 Reference",
       "order": 113,
       "path": "api/lua/v5/reference/functions.md"
     },
@@ -1769,7 +1062,7 @@
     {
       "id": "api.lua.v5.reference.methods",
       "title": "Methods",
-      "section": "Lua API v5 reference",
+      "section": "CCB Lua 0.1 Reference",
       "order": 114,
       "path": "api/lua/v5/reference/methods.md"
     },
@@ -1783,7 +1076,7 @@
     {
       "id": "api.lua.v5.reference.properties",
       "title": "Properties",
-      "section": "Lua API v5 reference",
+      "section": "CCB Lua 0.1 Reference",
       "order": 115,
       "path": "api/lua/v5/reference/properties.md"
     },
@@ -1797,7 +1090,7 @@
     {
       "id": "api.lua.v5.reference.operators",
       "title": "Operators",
-      "section": "Lua API v5 reference",
+      "section": "CCB Lua 0.1 Reference",
       "order": 116,
       "path": "api/lua/v5/reference/operators.md"
     },
@@ -1811,7 +1104,7 @@
     {
       "id": "api.lua.v5.reference.enums",
       "title": "Enum families",
-      "section": "Lua API v5 reference",
+      "section": "CCB Lua 0.1 Reference",
       "order": 117,
       "path": "api/lua/v5/reference/enums.md"
     },
@@ -1825,7 +1118,7 @@
     {
       "id": "api.lua.v5.reference.events",
       "title": "Native events",
-      "section": "Lua API v5 reference",
+      "section": "CCB Lua 0.1 Reference",
       "order": 118,
       "path": "api/lua/v5/reference/events.md"
     },
@@ -1839,7 +1132,7 @@
     {
       "id": "api.lua.v5.reference.hooks",
       "title": "Native hooks",
-      "section": "Lua API v5 reference",
+      "section": "CCB Lua 0.1 Reference",
       "order": 119,
       "path": "api/lua/v5/reference/hooks.md"
     },
@@ -1853,7 +1146,7 @@
     {
       "id": "api.lua.v5.reference.callbacks",
       "title": "Callback actors",
-      "section": "Lua API v5 reference",
+      "section": "CCB Lua 0.1 Reference",
       "order": 120,
       "path": "api/lua/v5/reference/callbacks.md"
     },
@@ -1867,21 +1160,21 @@
     {
       "id": "api.lua.v5.reference.capabilities",
       "title": "Capabilities",
-      "section": "Lua API v5 reference",
+      "section": "CCB Lua 0.1 Reference",
       "order": 121,
       "path": "api/lua/v5/reference/capabilities.md"
     },
     {
       "id": "api.lua.v5.reference.permissions",
       "title": "Permission model",
-      "section": "Lua API v5 reference",
+      "section": "CCB Lua 0.1 Reference",
       "order": 122,
       "path": "api/lua/v5/reference/permissions.md"
     },
     {
       "id": "api.lua.v5.reference.manifest-fields",
       "title": "Manifest fields",
-      "section": "Lua API v5 reference",
+      "section": "CCB Lua 0.1 Reference",
       "order": 123,
       "path": "api/lua/v5/reference/manifest-fields.md"
     },
@@ -2024,657 +1317,6 @@
       "section": "Operations",
       "order": 303,
       "path": "operations/performance-profiling.md"
-    },
-    {
-      "id": "migration.filtered-history-experiment",
-      "title": "Filtered-history experiment",
-      "section": "Migration drafts",
-      "order": 999,
-      "path": "migration/filtered-history-experiment.md"
-    },
-    {
-      "id": "build-cmake",
-      "title": "Legacy migration draft: cmake",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "build/cmake.md"
-    },
-    {
-      "id": "build-devcontainer",
-      "title": "Legacy migration draft: devcontainer",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "build/devcontainer.md"
-    },
-    {
-      "id": "build-windows-msvc",
-      "title": "Legacy migration draft: windows msvc",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "build/windows-msvc.md"
-    },
-    {
-      "id": "build-windows-msys2",
-      "title": "Legacy migration draft: windows msys2",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "build/windows-msys2.md"
-    },
-    {
-      "id": "content.ascii-art",
-      "title": "Legacy migration draft: ascii art",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "content/ascii-art.md"
-    },
-    {
-      "id": "content.firearms-naming-and-inclusion",
-      "title": "Legacy migration draft: naming and inclusion",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "content/firearms/naming-and-inclusion.md"
-    },
-    {
-      "id": "content.manual-of-style",
-      "title": "Legacy migration draft: in game text style",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "contributing/in-game-text-style.md"
-    },
-    {
-      "id": "contributing.json-style",
-      "title": "Legacy migration draft: json style",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "contributing/json-style.md"
-    },
-    {
-      "id": "cpp-code-style",
-      "title": "Legacy migration draft: code style",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "cpp/code-style.md"
-    },
-    {
-      "id": "cpp-coordinates",
-      "title": "Legacy migration draft: coordinates",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "cpp/coordinates.md"
-    },
-    {
-      "id": "cpp-json-interface",
-      "title": "Legacy migration draft: json interface",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "cpp/json-interface.md"
-    },
-    {
-      "id": "cpp-performance",
-      "title": "Legacy migration draft: performance",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "cpp/performance.md"
-    },
-    {
-      "id": "cpp-testing",
-      "title": "Legacy migration draft: cpp",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "testing/cpp.md"
-    },
-    {
-      "id": "design-balance",
-      "title": "Legacy migration draft: balance",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "design/balance.md"
-    },
-    {
-      "id": "design-batteries-electricity",
-      "title": "Legacy migration draft: batteries electricity",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "design/batteries-electricity.md"
-    },
-    {
-      "id": "design-gameplay",
-      "title": "Legacy migration draft: gameplay",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "design/gameplay.md"
-    },
-    {
-      "id": "design-overview",
-      "title": "Legacy migration draft: overview",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "design/overview.md"
-    },
-    {
-      "id": "design-portal-storms",
-      "title": "Legacy migration draft: portal storms",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "design/portal-storms.md"
-    },
-    {
-      "id": "design-steel-crafting",
-      "title": "Legacy migration draft: steel crafting",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "design/steel-crafting.md"
-    },
-    {
-      "id": "design-user-experience",
-      "title": "Legacy migration draft: user experience",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "design/user-experience.md"
-    },
-    {
-      "id": "design.frequently-made-suggestions",
-      "title": "Legacy migration draft: frequently made suggestions",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "design/frequently-made-suggestions.md"
-    },
-    {
-      "id": "developer-tooling",
-      "title": "Legacy migration draft: developer tooling",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "cpp/developer-tooling.md"
-    },
-    {
-      "id": "eoc.reference",
-      "title": "Legacy migration draft: eoc",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/eoc/index.md"
-    },
-    {
-      "id": "how-to.common-tasks",
-      "title": "Legacy migration draft: common tasks",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "how-to/common-tasks.md"
-    },
-    {
-      "id": "how-to.json-tools",
-      "title": "Legacy migration draft: tools",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "how-to/json/tools.md"
-    },
-    {
-      "id": "json-armor-design",
-      "title": "Legacy migration draft: armor design",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "json/armor-design.md"
-    },
-    {
-      "id": "json-item-pricing",
-      "title": "Legacy migration draft: item pricing",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "json/item-pricing.md"
-    },
-    {
-      "id": "json-item-variants",
-      "title": "Legacy migration draft: item variants",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "json/item-variants.md"
-    },
-    {
-      "id": "json-widgets",
-      "title": "Legacy migration draft: widgets",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "json/widgets.md"
-    },
-    {
-      "id": "json.artifacts",
-      "title": "Legacy migration draft: artifacts",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/artifacts.md"
-    },
-    {
-      "id": "json.basecamp",
-      "title": "Legacy migration draft: basecamp",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/basecamp.md"
-    },
-    {
-      "id": "json.climbing-aids",
-      "title": "Legacy migration draft: climbing aids",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/climbing-aids.md"
-    },
-    {
-      "id": "json.comestibles-placement",
-      "title": "Legacy migration draft: comestibles",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "how-to/json/comestibles.md"
-    },
-    {
-      "id": "json.dimensions",
-      "title": "Legacy migration draft: dimensions",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/dimensions.md"
-    },
-    {
-      "id": "json.effects",
-      "title": "Legacy migration draft: effects",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/effects.md"
-    },
-    {
-      "id": "json.examine-actions",
-      "title": "Legacy migration draft: examine actions",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/examine-actions.md"
-    },
-    {
-      "id": "json.faction-missions",
-      "title": "Legacy migration draft: faction missions",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/faction-missions.md"
-    },
-    {
-      "id": "json.flags",
-      "title": "JSON flag direct-definition index",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/generated/flags.md"
-    },
-    {
-      "id": "json.help-menu",
-      "title": "Legacy migration draft: help menu",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/help-menu.md"
-    },
-    {
-      "id": "json.inheritance",
-      "title": "Legacy migration draft: inheritance",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/inheritance.md"
-    },
-    {
-      "id": "json.item-groups",
-      "title": "Legacy migration draft: item groups",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/item-groups.md"
-    },
-    {
-      "id": "json.items",
-      "title": "Legacy migration draft: items",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/items/index.md"
-    },
-    {
-      "id": "json.loading-order",
-      "title": "Legacy migration draft: loading order",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/loading-order.md"
-    },
-    {
-      "id": "json.magic-spells-enchantments",
-      "title": "Legacy migration draft: magic spells enchantments",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/magic-spells-enchantments.md"
-    },
-    {
-      "id": "json.mapgen",
-      "title": "Legacy migration draft: mapgen",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/mapgen.md"
-    },
-    {
-      "id": "json.martial-arts",
-      "title": "Legacy migration draft: martial arts",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/martial-arts.md"
-    },
-    {
-      "id": "json.missions",
-      "title": "Legacy migration draft: missions",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/missions.md"
-    },
-    {
-      "id": "json.monster-special-attacks",
-      "title": "Legacy migration draft: monster special attacks",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/monster-special-attacks.md"
-    },
-    {
-      "id": "json.monsters",
-      "title": "Legacy migration draft: monsters",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/monsters.md"
-    },
-    {
-      "id": "json.movement-modes",
-      "title": "Legacy migration draft: movement modes",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/movement-modes.md"
-    },
-    {
-      "id": "json.mutations",
-      "title": "Legacy migration draft: mutations",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/mutations.md"
-    },
-    {
-      "id": "json.npc-factions",
-      "title": "Legacy migration draft: npc factions",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/npc-factions.md"
-    },
-    {
-      "id": "json.npcs-dialogue",
-      "title": "Legacy migration draft: npcs and dialogue",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/eoc/npcs-and-dialogue.md"
-    },
-    {
-      "id": "json.object-types",
-      "title": "Legacy migration draft: json",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/index.md"
-    },
-    {
-      "id": "json.obsoletion-and-migration",
-      "title": "Legacy migration draft: obsoletion and migration",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/obsoletion-and-migration.md"
-    },
-    {
-      "id": "json.options",
-      "title": "Legacy migration draft: options",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/options.md"
-    },
-    {
-      "id": "json.overmap",
-      "title": "Legacy migration draft: overmap",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/overmap.md"
-    },
-    {
-      "id": "json.practice-recipes",
-      "title": "Legacy migration draft: practice recipes",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/practice-recipes.md"
-    },
-    {
-      "id": "json.proficiencies",
-      "title": "Legacy migration draft: proficiencies",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/proficiencies.md"
-    },
-    {
-      "id": "json.proficiencies-index",
-      "title": "Proficiency direct-definition index",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/generated/proficiencies.md"
-    },
-    {
-      "id": "json.recipes-and-disassembly",
-      "title": "Legacy migration draft: recipes and disassembly",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/recipes-and-disassembly.md"
-    },
-    {
-      "id": "json.region-layout",
-      "title": "Legacy migration draft: region layout",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/region-layout.md"
-    },
-    {
-      "id": "json.region-settings",
-      "title": "Legacy migration draft: region settings",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/region-settings.md"
-    },
-    {
-      "id": "json.terrain-and-furniture",
-      "title": "Legacy migration draft: terrain and furniture",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/terrain-and-furniture.md"
-    },
-    {
-      "id": "json.terrain-furniture-transforms",
-      "title": "Legacy migration draft: terrain furniture transforms",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/terrain-furniture-transforms.md"
-    },
-    {
-      "id": "json.vehicle-prototypes",
-      "title": "Legacy migration draft: vehicle prototypes",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/vehicle-prototypes.md"
-    },
-    {
-      "id": "json.vitamins",
-      "title": "Legacy migration draft: vitamins",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/vitamins.md"
-    },
-    {
-      "id": "json.weather-types",
-      "title": "Legacy migration draft: weather types",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/weather-types.md"
-    },
-    {
-      "id": "json.wounds",
-      "title": "Legacy migration draft: wounds",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "reference/json/wounds.md"
-    },
-    {
-      "id": "lore-background",
-      "title": "Legacy migration draft: background",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "lore/background.md"
-    },
-    {
-      "id": "lore-factions",
-      "title": "Legacy migration draft: factions",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "lore/factions.md"
-    },
-    {
-      "id": "lore-overview",
-      "title": "Legacy migration draft: overview",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "lore/overview.md"
-    },
-    {
-      "id": "lore-technology",
-      "title": "Legacy migration draft: technology",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "lore/technology.md"
-    },
-    {
-      "id": "maintainers.issue-triage",
-      "title": "Legacy migration draft: issue triage",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "maintainers/issue-triage.md"
-    },
-    {
-      "id": "mod-compatibility",
-      "title": "Legacy migration draft: compatibility",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "modding/compatibility.md"
-    },
-    {
-      "id": "mod-localization",
-      "title": "Legacy migration draft: localization",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "modding/localization.md"
-    },
-    {
-      "id": "modding-overview",
-      "title": "Legacy migration draft: overview",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "modding/overview.md"
-    },
-    {
-      "id": "mods.aftershock-exoplanet.balance.ranged-weapons",
-      "title": "Aftershock ranged-weapon balance input index",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "data/mods/aftershock_exoplanet/doc/lore/ranged_weapon_balance.md"
-    },
-    {
-      "id": "mods.aftershock-exoplanet.lore.organizations",
-      "title": "Legacy migration draft: organizations",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "data/mods/aftershock_exoplanet/doc/lore/organizations.md"
-    },
-    {
-      "id": "mods.in-repository-policy",
-      "title": "Legacy migration draft: in repository policy",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "mods/in-repository-policy.md"
-    },
-    {
-      "id": "mods.mind-over-matter.power-reference",
-      "title": "Mind Over Matter power direct-field index",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "data/mods/MindOverMatter/PowerDescriptionSpoilers.md"
-    },
-    {
-      "id": "platform-matrix",
-      "title": "Legacy migration draft: compiler support",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "platforms/compiler-support.md"
-    },
-    {
-      "id": "pr-review-guide",
-      "title": "Legacy migration draft: pr review",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "contributing/pr-review.md"
-    },
-    {
-      "id": "soundpacks",
-      "title": "Legacy migration draft: soundpacks",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "resources/soundpacks.md"
-    },
-    {
-      "id": "testing-manual",
-      "title": "Legacy migration draft: manual playtesting",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "testing/manual-playtesting.md"
-    },
-    {
-      "id": "tilesets",
-      "title": "Legacy migration draft: tilesets",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "resources/tilesets.md"
-    },
-    {
-      "id": "translation-guide",
-      "title": "Legacy migration draft: translation guide",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "localization/translation-guide.md"
-    },
-    {
-      "id": "tutorial.mapgen-beginner",
-      "title": "Legacy migration draft: beginner",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "tutorials/json-mapgen/beginner.md"
-    },
-    {
-      "id": "tutorial.mapgen-intermediate",
-      "title": "Legacy migration draft: intermediate",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "tutorials/json-mapgen/intermediate.md"
-    },
-    {
-      "id": "ui-accessibility",
-      "title": "Legacy migration draft: accessibility",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "ui/accessibility.md"
-    },
-    {
-      "id": "ui-colors",
-      "title": "Legacy migration draft: colors",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "ui/colors.md"
-    },
-    {
-      "id": "ui-fonts",
-      "title": "Legacy migration draft: fonts",
-      "section": "Migration drafts",
-      "order": 1000,
-      "path": "ui/fonts.md"
     }
   ]
 }

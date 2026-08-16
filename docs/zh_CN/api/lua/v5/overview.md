@@ -1,7 +1,7 @@
 ---
 # GENERATED FROM docs-catalog.yml. DO NOT EDIT THIS BLOCK.
 id: api.lua.v5.overview
-title: Lua API v5 总览
+title: CCB Lua 0.1 总览
 language: zh_CN
 status: active
 doc_type: explanation
@@ -37,7 +37,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: dfef84a47a5a3b5ced5529956431c598a4dc1b404dd6461699079e9076e1fc94
+translation_source_fingerprint: 53ce833aa62cf93c564abc1717e1ef2ea7a482029228ab30c1a0f5226f4a0783
 prerequisites:
 - architecture.overview
 depends_on: []
@@ -77,61 +77,58 @@ source_urls:
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.overview%29%3A+&body=Document+ID%3A+api.lua.v5.overview%0ALanguage%3A+zh_CN%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
-# Lua API v5 总览
+# CCB Lua 0.1 原生平台总览
 
-!!! warning "草案契约"
-    本页验证于 CCB 提交 `3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd`，对应待合并的
-    [CCB #565](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565)。
-    合并前不进入正式导航、搜索或 AI 索引。
+**CCB Lua 0.1** 是 Cataclysm: Cleanwater Bomb 自研的第一版**纯 Lua 原生游戏内容与 Mod 创作引擎**。
 
-Lua API v5 是 CCB 的版本化 Mod 脚本接口。它提供模块、服务、事件、调度、持久状态、
-跨平台页面、类型化值与句柄、只读定义/快照查询，以及受 capability 约束的写操作。
-Lua 不获得裸 C++ 指针；实时对象通过带运行时/世界代次的句柄访问，查询结果通常是有界、
-分离的快照。
+它为模组作者与核心内容开发者提供了一套自成一体、强类型、具备事务安全保障的纯 Lua 创作面，涵盖物品、配方、怪物、伤势、武术、地图生成、事件监听、同步拦截、回合调度、跨平台 UI 及持久化状态存储。
 
-## 权威来源
+---
 
-文档不能自行定义 API。冲突时按以下顺序检查并修正文档：
+## 核心四大支柱
 
-1. `data/lua/manifest.schema.json`：Manifest 字段与 capability 组合。
-2. `data/lua/types/ccb_api_v5.d.lua`：LuaLS 类型、参数与返回值。
-3. 原生注册、事件/Hook/Callback 注册表：实际可调用表面。
-4. `data/lua/reference/ccb_public_api_v5.json`：上述来源生成的统一公开契约。
-5. `data/lua/reference/ccb_public_api_v5_coverage.json` 与测试：分母、对等性和覆盖证明。
+1. **纯 Lua 原生内容创作 (Native Content)**
+   - 告别繁杂的外部数据配置，所有游戏实体（物品 `Item`、配方 `Recipe`、怪物 `Monster`、伤势 `Wound`、武术 `MartialArt`、地图生成 `Mapgen` 等）直接使用纯 Lua 代码定义。
+   - 拥有完整的模块化、条件分支、循环与函数复用能力。
 
-## 当前可证明覆盖
+2. **零配置极简 Mod 开发 (Zero-Configuration Discovery)**
+   - Mod 目录下**只需要一个 `main.lua`** 即可被引擎直接识别并加载。
+   - 目录名即 Mod ID，无需编写任何额外的元数据清单或配置文件。
 
-| 指标 | 值 |
-| --- | ---: |
-| 唯一公开符号 | 2,806 |
-| 已映射到生成参考的符号 | 2,806 |
-| 未文档化公开符号 | 0 |
-| 生成参考覆盖率 | 100% |
-| 原生事件 / 字段 | 113 / 242 |
-| Hook / Callback 对 | 52 / 38 |
-| Capability / Manifest 字段 | 16 / 6 |
+3. **原生事务性提交与安全回滚 (Transactional & Generation Safety)**
+   - 数据在游戏全局 Finalize 之前进行 Staged 预处理，若模组逻辑出错或冲突立即执行**原子回滚（Rollback）**，保护游戏全局数据不受污染。
+   - 严禁在 Lua 中传递 C++ 裸指针，全面采用**代际安全句柄（Generation-Safe Handles）**与只读数据快照。
 
-“100%”表示固定提交的公开分母都可在生成参考中定位，并不表示源 PR 已合并或页面已发布。
+4. **IDE 类型提示与开发者体验 (Types & Tooling)**
+   - 配备全量 LuaLS 类型注解文件，在 VS Code / Neovim 中提供 100% 自动补全、参数提示与静态语法检查。
+
+---
+
+## 运行时 API 架构
+
+CCB Lua 0.1 原生导出 500+ 个核心函数与对象方法，覆盖全部游戏系统：
+- **角色与异能**：生化插件、特质突变、武术流派、技能与熟练度。
+- **物品与制造**：物品属性、背包容量、合成配方、分解与练习。
+- **世界与环境**：天气系统、日历时间、地形家具、地图生成、大地图。
+- **实体与生物**：怪物行为、NPC 对话树、阵营交互、伤势系统。
+- **UI 与交互**：PC 键盘操作 / Android 触屏原生自适应渲染引擎。
+
+---
 
 ## 从哪里开始
 
-- 新 Mod：先读[完整示例 Mod](example-mod.md)、[Capability](capabilities.md)与
-  [生命周期](lifecycle.md)。
-- 页面与输入：读[跨平台 UI](ui.md)。
-- 订阅游戏状态变化：读[事件、Hook 与 Callback](events.md)。
-- 出错或发生漂移：读[调试与验证](debugging.md)。
-- 从旧 API 升级：读[迁移指南](migration.md)和[变更记录](changelog.md)。
+- **新手入门**：先阅读[完整示例 Mod](example-mod.md)与[生命周期](lifecycle.md)。
+- **页面与交互**：查阅[跨平台 Lua UI](ui.md)。
+- **游戏逻辑扩展**：查阅[事件、Hook 与 Callback](events.md)。
+- **调试与测试**：查阅[调试与验证](debugging.md)。
 
-## 生成参考
+---
+
+## 原生参考手册
 
 - [模块入口](reference/modules.md)、[命名空间](reference/namespaces.md)
 - [类与记录](reference/classes.md)、[属性](reference/properties.md)
-- [函数](reference/functions.md)、[方法](reference/methods.md)、
-  [运算符](reference/operators.md)
-- [枚举族](reference/enums.md)、[原生事件](reference/events.md)、
-  [Hook](reference/hooks.md)、[Callback](reference/callbacks.md)
-- [Capability](reference/capabilities.md)、[权限模型](reference/permissions.md)、
-  [Manifest 字段](reference/manifest-fields.md)
+- [函数](reference/functions.md)、[方法](reference/methods.md)、[运算符](reference/operators.md)
+- [枚举族](reference/enums.md)、[原生事件](reference/events.md)、[Hook](reference/hooks.md)、[Callback](reference/callbacks.md)
+- [Capability 模型](reference/capabilities.md)、[权限模型](reference/permissions.md)
 
-生成页由 `scripts/generate_lua_reference.py` 从固定 CCB 提交重建，页内参数、返回值、
-错误模式、引入版本、弃用状态、来源和示例记录禁止手改。

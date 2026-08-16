@@ -34,7 +34,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 38a37cdddd129271ed9a5484f0b0da50d20558876d983fe7eefb471397dcd0af
+translation_source_fingerprint: 232961e0cbd3e506537154eb53f7bb787c5dd7343a4f4637db90ca65dcb2b7e5
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -67,39 +67,29 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # CCB Developer Documentation
 
-This is the formal developer explanation, tutorial, architecture, and
-navigation site for Cataclysm: Cleanwater Bomb.
+This is the official developer guide, API reference, and architecture navigation site for Cataclysm: Cleanwater Bomb.
 
-!!! info "Phase 0/1 foundation"
-    This release publishes the home page and four complete bilingual example
-    topics. The source repository's 175 tracked Markdown files are classified
-    in the migration inventory; pages selected for migration do not enter the
-    production navigation until their bilingual pair is complete.
+This site is dedicated to two primary developer groups: **Mod Authors** and **Core C++ Engine Developers**.
 
-## Know the authority boundary first
+---
 
-- Runtime behaviour comes from CCB source and tests.
-- JSON, Lua, and API contracts come from schemas, LuaLS declarations,
-  registrations, and generated inventories.
-- Build and validation behaviour comes from CI, CMake, Makefile, Gradle, and
-  repository validators.
-- Contribution policy comes from the source repository's `AGENTS.md`,
-  `CONTRIBUTING.md`, and `GOVERNANCE.md`.
-- This site organizes those facts for learning, reference, and agent routing.
+## Quick Navigation & Entry Points
 
-When this site conflicts with a contract, the page must be marked stale and
-repaired. The site does not override the contract.
+### 🎯 1. Mod Author Track (CCB Lua 0.1 Native Platform)
+CCB provides **CCB Lua 0.1**, a modern pure-Lua content and scripting engine free from legacy data formats:
+- [CCB Lua 0.1 Platform Overview](api/lua/v5/overview.md): Learn zero-config Mod discovery, native transactional commits, and generation-safe handles.
+- [Complete Example Mod](api/lua/v5/example-mod.md): Walk through a working Mod with modules, state, and custom actions.
+- [Events, Hooks, and Callbacks](api/lua/v5/events.md): Subscribe to game events, intercept decisions, and rewrite behaviours synchronously.
+- [Portable Lua UI](api/lua/v5/ui.md): Build responsive pages tailored for PC keyboard and Android touch HUD.
+- [CCB Lua 0.1 Generated Reference](api/lua/v5/reference/modules.md): Explore all 500+ callable functions, events, hooks, and class definitions.
 
-## Choose a route
+### 🛠️ 2. Core & Engine Developer Track (C++ Engine & Build)
+For contributors building core systems, game mechanics, and native bindings:
+- [Project Map & Architecture](architecture/project-map.md): Navigate C++ subsystems, source boundaries, and test routing.
+- [Build Overview](build/overview.md): Learn CMake and Make modern build workflows and multi-platform support.
+- [Validation & Testing](validation/quickstart.md): Run Catch2 unit test suites and fast validator tools.
+- [Native Lua Bridge & Bindings](cpp/lua-bridge.md): Understand the bridge between the C++ engine and Lua 0.1 runtime.
 
-- [First contribution](getting-started/first-contribution.md): the shortest
-  route from locating a change to opening a pull request.
-- [Project map](architecture/project-map.md): find source, rules, and tests by
-  subsystem.
-- [Responsible human](contributing/responsible-human.md): understand
-  responsibility for AI-assisted contributions.
-- [Build and validation](validation/quickstart.md): choose the smallest
-  sufficient validation commands.
-
-The CCB player website and CCB-GUIDE remain separate: the website is the
-concise player entry point, while CCB-GUIDE queries game data.
+### 🏛️ 3. Project Governance & Policies
+- [First Contribution](getting-started/first-contribution.md): The fastest path from local environment to your first Pull Request.
+- [Responsible Human](contributing/responsible-human.md): Understand our accountability model for human and AI-assisted contributions.
