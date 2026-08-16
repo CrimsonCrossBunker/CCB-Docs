@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 5d8baf43000e8f65fb9b6d6a8ab3452ec4b2e04533991a5d1343b834e2a28338
+translation_source_fingerprint: b20254dc2abd99950eb0527fd4a0046722de4c5f199fd8dc64f898501e8179b7
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,7 +68,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Classes and records
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 261 `classes` contract records.
+This manual covers core classes and entity handles in CCB engine.
 
 ## `CcbAchievementDefinition` { #symbol-api-lua-v5-generated-class-ccbachievementdefinition-794e6bfd9753 }
 

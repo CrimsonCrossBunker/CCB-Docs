@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 94b678cfc1044cc53363c83e8794b43686253fb2b8a7bcd4876fe411ede6b1a5
+translation_source_fingerprint: 9b1f3b888da3f28685ecbca389ebd23fdcf07691b0b5091e905bceaee2c495c1
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,7 +68,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # 模块入口参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `模块入口参考` 规范手册，收录 3 条 `modules` 契约记录。
+本手册收录 CCB 导出的标准库与扩展模块。
 
 ## `require` { #symbol-api-lua-v5-generated-module-require-6cf1620427ea }
 

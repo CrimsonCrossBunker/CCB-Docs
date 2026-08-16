@@ -34,7 +34,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 065b04168dbb4fd6e3ff34aa2498611e85123e94f36693b630a4b8393fa9e89f
+translation_source_fingerprint: c029e08e0748ea803758654a8ace577e544623452fbbd0ccf8f5ec0b5511fc61
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -73,22 +73,39 @@ This site is dedicated to two primary developer groups: **Mod Authors** and **Co
 
 ---
 
-## Quick Navigation & Entry Points
+## Quick Navigation & Manual Directory
 
-### 🎯 1. Mod Author Track (CCB Lua 0.1 Native Platform)
-CCB provides **CCB Lua 0.1**, a modern pure-Lua content and scripting engine free from legacy data formats:
+### 🚀 1. Getting Started & Mental Models
 - [CCB Lua 0.1 Platform Overview](api/lua/v5/overview.md): Learn zero-config Mod discovery, native transactional commits, and generation-safe handles.
 - [Complete Example Mod](api/lua/v5/example-mod.md): Walk through a working Mod with modules, state, and custom actions.
-- [Events, Hooks, and Callbacks](api/lua/v5/events.md): Subscribe to game events, intercept decisions, and rewrite behaviours synchronously.
-- [Portable Lua UI](api/lua/v5/ui.md): Build responsive pages tailored for PC keyboard and Android touch HUD.
-- [Permissions & Capabilities](api/lua/v5/capabilities.md): Understand the capability declaration and sandbox model.
+- [First Contribution Guide](getting-started/first-contribution.md): The fastest path from local environment to your first Pull Request.
 
-#### 🍳 Pure-Lua Creation Cookbooks
-- [Pure-Lua Items and Pockets Cookbook](api/lua/v5/cookbook/items.md): Define weapons, armor, and nested multi-pocket container models.
-- [Pure-Lua Monsters and AI Cookbook](api/lua/v5/cookbook/monsters.md): Create custom species, AI tactical trees, and dynamic special attacks.
-- [Pure-Lua Mapgen & Structures Cookbook](api/lua/v5/cookbook/mapgen.md): Procedurally generate shelters, outposts, and ASCII matrix blueprints.
+### ⚔️ 2. Core Subsystems Manual
+- [Characters & Creatures Manual](subsystems/character.md): Entity inheritance, 12-part anatomical health model, stamina/pain, and buffs.
+- [Items & Pockets Manual](subsystems/items.md): Metric physical standards, recursive multi-pocket containers, and item actions.
+- [Map & Mapgen Manual](subsystems/map.md): 3D spatial grids, terrain/furniture collision rules, and procedural blueprint matrices.
+- [Combat & Damage Manual](subsystems/combat.md): 7 physical damage types, armor coverage rolls, and damage hook interception.
+- [Finite Water & Environment Manual](subsystems/water.md): Mass-conserving fluid simulation, storm radar forecasting, and field diffusion.
+- [Vehicles & Parts Manual](subsystems/vehicles.md): Rigid-body center-of-mass physics, powertrain torque, and modular part mount slots.
 
-#### 📚 API Reference Direct Links
+### 🌙 3. CCB Lua 0.1 Platform Reference
+- [Native Events & Hook Interception](api/lua/v5/events.md): Subscribe to native engine events, intercept and override decisions synchronously.
+- [Portable Responsive Lua UI](api/lua/v5/ui.md): Build responsive windows tailored for PC keyboard and Android touch HUD.
+- [Permission Manifest & Capabilities](api/lua/v5/capabilities.md): Understand the capability declaration system and memory sandbox boundaries.
+
+### 🍳 4. Pure-Lua Creation Cookbooks
+- [Pure-Lua Items and Pockets Cookbook](api/lua/v5/cookbook/items.md): High-frequency tactical blades, ballistic chest rigs, and nested pouches.
+- [Pure-Lua Monsters and AI Cookbook](api/lua/v5/cookbook/monsters.md): Stealth stalkers, aura bosses, and dynamic special attacks.
+- [Pure-Lua Mapgen & Structures Cookbook](api/lua/v5/cookbook/mapgen.md): Procedurally generate outpost bunkers and ASCII matrix blueprints.
+
+### ⚙️ 5. C++ Engine Core & Native Bindings
+- [Core Engine Lifecycle & Main Loop Deep-Dive](architecture/core-engine-lifecycle.md): Complete control flow from bootstrap, content loading to `process_turn` loop.
+- [Engine Subsystems Deep Dive](architecture/subsystems-deep-dive.md): Entities, sliding map cache, item pocket trees, finite water, and physics.
+- [Core Development & Contribution Guide](contributing/core-dev-guide.md): Linux/Windows/Android setup, C++20 standards, Catch2 tests, and PR practices.
+- [C++ Native Binding & Lua Export Guide](cpp/native-binding-guide.md): Sol2 bindings, LuaLS annotations, and 100% coverage gates.
+- [Build & Compilation Overview](build/overview.md): Learn CMake and Make modern build workflows and multi-platform support.
+
+### 📚 6. Full API Dictionary
 | Category | Quick Entry | Description |
 | --- | --- | --- |
 | 📦 **Classes & Handles** | [View Classes](api/lua/v5/reference/classes.md) | `Character`, `Creature`, `Item`, `Map`, `Mapgen`, `Vehicle`, etc. |
@@ -99,14 +116,5 @@ CCB provides **CCB Lua 0.1**, a modern pure-Lua content and scripting engine fre
 | 🎭 **Callback Actors** | [View Callbacks](api/lua/v5/reference/callbacks.md) | Player actions, IUSE callbacks, and activity execution targets. |
 | 🏷️ **Enums & Constants** | [View Enums](api/lua/v5/reference/enums.md) | Damage types, body parts, weather types, terrain flags, etc. |
 
-### 🛠️ 2. Core & Engine Developer Track (C++ Engine & Architecture)
-For contributors building core systems, game mechanics, and native bindings:
-- [Core Engine Lifecycle & Main Loop Deep-Dive](architecture/core-engine-lifecycle.md): Complete control flow from bootstrap, content loading to `process_turn` loop.
-- [Engine Subsystems Deep Dive](architecture/subsystems-deep-dive.md): Entities, sliding map cache, item pocket trees, finite water, and physics.
-- [Core Development & Contribution Guide](contributing/core-dev-guide.md): Linux/Windows/Android setup, C++20 standards, Catch2 tests, and PR practices.
-- [C++ Native Binding & Lua Export Guide](cpp/native-binding-guide.md): Sol2 bindings, LuaLS annotations, and 100% coverage gates.
-- [Build Overview](build/overview.md): Learn CMake and Make modern build workflows and multi-platform support.
-
-### 🏛️ 3. Project Governance & Policies
-- [First Contribution](getting-started/first-contribution.md): The fastest path from local environment to your first Pull Request.
+### 🏛️ 7. Project Governance & Policies
 - [Responsible Human](contributing/responsible-human.md): Understand our accountability model for human and AI-assisted contributions.

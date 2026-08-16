@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 2a92f980977bd669bcda6cf8775aa50e0c1772f1346b61406897e1d7fda45aad
+translation_source_fingerprint: 6f29317f2534d224f2b818977b404cfecc949a5ab2b71d0ee6c648e535f835e3
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,7 +68,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # 原生事件参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `原生事件参考` 规范手册，收录 113 条 `events` 契约记录。
+本手册收录 CCB 游戏主循环与交互触发的全部原生事件。可通过 events.on 订阅。
 
 ## `activates_artifact` { #symbol-api-lua-v5-generated-event-activates-artifact-f81a1c7b5e6e }
 

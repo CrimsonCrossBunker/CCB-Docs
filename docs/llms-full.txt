@@ -2505,7 +2505,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # Callback actors
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 38 `callbacks` contract records.
+This manual covers callback actors for item IUSE and player interactions.
 
 ## `bionic.on_activate` { #symbol-api-lua-v5-generated-callback-bionic-on-activate-b54ab11f71b1 }
 
@@ -3011,7 +3011,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # 回调 Actor 参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `回调 Actor 参考` 规范手册，收录 38 条 `callbacks` 契约记录。
+本手册收录 CCB 物品 IUSE 动作与玩家行为交互执行的回调 Actor 目标。
 
 ## `bionic.on_activate` { #symbol-api-lua-v5-generated-callback-bionic-on-activate-b54ab11f71b1 }
 
@@ -3517,7 +3517,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # Capabilities
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 16 `capabilities` contract records.
+This manual covers capability manifest permissions and security model.
 
 ## `events` { #symbol-api-lua-v5-generated-capability-events-dd9d47a21b81 }
 
@@ -3721,7 +3721,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # Capability 参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `Capability 参考` 规范手册，收录 16 条 `capabilities` 契约记录。
+本手册收录 CCB Lua 0.1 沙箱权限能力（Capabilities）清单与安全模型。
 
 ## `events` { #symbol-api-lua-v5-generated-capability-events-dd9d47a21b81 }
 
@@ -3925,7 +3925,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # Classes and records
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 261 `classes` contract records.
+This manual covers core classes and entity handles in CCB engine.
 
 ## `CcbAchievementDefinition` { #symbol-api-lua-v5-generated-class-ccbachievementdefinition-794e6bfd9753 }
 
@@ -23559,7 +23559,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # 类与记录参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `类与记录参考` 规范手册，收录 261 条 `classes` 契约记录。
+本手册收录 CCB 引擎导出的核心对象类与句柄。所有类均通过原生绑定，并受代际安全句柄机制保护。
 
 ## `CcbAchievementDefinition` { #symbol-api-lua-v5-generated-class-ccbachievementdefinition-794e6bfd9753 }
 
@@ -43193,7 +43193,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # Enum families
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 26 `enums` contract records.
+This manual covers core constant enums and type tags in CCB.
 
 ## `ActionId` { #symbol-api-lua-v5-generated-enum-actionid-3fb0709b98c6 }
 
@@ -43614,7 +43614,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # 枚举族参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `枚举族参考` 规范手册，收录 26 条 `enums` 契约记录。
+本手册收录 CCB 导出的核心常量枚举、部位标识符与类型标签。
 
 ## `ActionId` { #symbol-api-lua-v5-generated-enum-actionid-3fb0709b98c6 }
 
@@ -44035,7 +44035,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # Native events
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 113 `events` contract records.
+This manual covers native events dispatched during main loop and interactions.
 
 ## `activates_artifact` { #symbol-api-lua-v5-generated-event-activates-artifact-f81a1c7b5e6e }
 
@@ -49288,7 +49288,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # 原生事件参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `原生事件参考` 规范手册，收录 113 条 `events` 契约记录。
+本手册收录 CCB 游戏主循环与交互触发的全部原生事件。可通过 events.on 订阅。
 
 ## `activates_artifact` { #symbol-api-lua-v5-generated-event-activates-artifact-f81a1c7b5e6e }
 
@@ -54541,7 +54541,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # Functions
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 488 `functions` contract records.
+This manual covers global utility functions and static methods.
 
 ## `events.describe_native` { #symbol-api-lua-v5-generated-function-events-describe-native-88a1acca4cde }
 
@@ -66640,7 +66640,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # 函数参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `函数参考` 规范手册，收录 488 条 `functions` 契约记录。
+本手册收录 CCB 引擎导出的全局工具函数与静态方法。可在 Mod 运行时环境中直接调用。
 
 ## `events.describe_native` { #symbol-api-lua-v5-generated-function-events-describe-native-88a1acca4cde }
 
@@ -78739,7 +78739,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # Native hooks
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 52 `hooks` contract records.
+This manual covers synchronous interception points (Hooks) in CCB.
 
 ## `on_character_death` { #symbol-api-lua-v5-generated-hook-on-character-death-15ad1b50a8ab }
 
@@ -79583,7 +79583,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # 原生 Hook 参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `原生 Hook 参考` 规范手册，收录 52 条 `hooks` 契约记录。
+本手册收录 CCB 引擎导出的同步拦截点（Hooks）。可在原生逻辑执行前进行同步拦截与决策覆写。
 
 ## `on_character_death` { #symbol-api-lua-v5-generated-hook-on-character-death-15ad1b50a8ab }
 
@@ -80427,7 +80427,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # Manifest fields
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 6 `manifest_fields` contract records.
+This manual covers all configuration fields in manifest.json.
 
 ## `$schema` { #symbol-api-lua-v5-generated-manifest-field-schema-24601b92d545 }
 
@@ -80499,7 +80499,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # Manifest 字段参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `Manifest 字段参考` 规范手册，收录 6 条 `manifest_fields` 契约记录。
+本手册收录 CCB Mod 的 manifest.json 清单文件所支持的全部配置字段。
 
 ## `$schema` { #symbol-api-lua-v5-generated-manifest-field-schema-24601b92d545 }
 
@@ -80571,7 +80571,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # Methods
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 142 `methods` contract records.
+This manual covers instance methods available on core CCB entities.
 
 ## `GameHandle.is_valid` { #symbol-api-lua-v5-generated-method-gamehandle-is-valid-c9eef6069d4e }
 
@@ -83509,7 +83509,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # 方法参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `方法参考` 规范手册，收录 142 条 `methods` 契约记录。
+本手册收录 CCB 各核心实体与对象支持调用的实例方法。请确保在调用前实体句柄处于有效生命周期内。
 
 ## `GameHandle.is_valid` { #symbol-api-lua-v5-generated-method-gamehandle-is-valid-c9eef6069d4e }
 
@@ -86447,7 +86447,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # Module entry points
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 3 `modules` contract records.
+This manual covers standard library and extension modules in CCB.
 
 ## `require` { #symbol-api-lua-v5-generated-module-require-6cf1620427ea }
 
@@ -86491,7 +86491,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # 模块入口参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `模块入口参考` 规范手册，收录 3 条 `modules` 契约记录。
+本手册收录 CCB 导出的标准库与扩展模块。
 
 ## `require` { #symbol-api-lua-v5-generated-module-require-6cf1620427ea }
 
@@ -86535,7 +86535,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # Namespaces
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 68 `namespaces` contract records.
+This manual covers top-level and functional namespaces in CCB.
 
 ## `events` { #symbol-api-lua-v5-generated-namespace-events-6e35342e82c2 }
 
@@ -87295,7 +87295,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # 命名空间参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `命名空间参考` 规范手册，收录 68 条 `namespaces` 契约记录。
+本手册收录 CCB 导出的顶级与功能命名空间（如 game.*, map.*, ui.*）。
 
 ## `events` { #symbol-api-lua-v5-generated-namespace-events-6e35342e82c2 }
 
@@ -88055,7 +88055,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # Operators
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 47 `operators` contract records.
+This manual covers native operator overloads supported by spatial vectors.
 
 ## `GameEnum.__eq` { #symbol-api-lua-v5-generated-operator-gameenum-eq-6dd6d6fdda2c }
 
@@ -89135,7 +89135,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # 运算符参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `运算符参考` 规范手册，收录 47 条 `operators` 契约记录。
+本手册收录 CCB 三维坐标与向量运算支持的原生重载运算符。
 
 ## `GameEnum.__eq` { #symbol-api-lua-v5-generated-operator-gameenum-eq-6dd6d6fdda2c }
 
@@ -90215,7 +90215,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # Permission model
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 1 `permissions` contract records.
+This manual covers the CCB permission system and access control rules.
 
 ## Permission System Model
 
@@ -90237,7 +90237,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # 权限模型参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `权限模型参考` 规范手册，收录 1 条 `permissions` 契约记录。
+本手册收录 CCB 权限系统与安全访问控制规则。
 
 ## 权限系统模型
 
@@ -90259,7 +90259,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # Properties
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 51 `properties` contract records.
+This manual covers properties and field access permissions on entities.
 
 ## `GameEnum.kind` { #symbol-api-lua-v5-generated-property-gameenum-kind-2898909880c9 }
 
@@ -90883,7 +90883,7 @@ Sources: data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_publi
 
 # 属性参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `属性参考` 规范手册，收录 51 条 `properties` 契约记录。
+本手册收录 CCB 核心实体所导出的属性字段及读写访问权限。
 
 ## `GameEnum.kind` { #symbol-api-lua-v5-generated-property-gameenum-kind-2898909880c9 }
 
@@ -97150,22 +97150,39 @@ This site is dedicated to two primary developer groups: **Mod Authors** and **Co
 
 ---
 
-## Quick Navigation & Entry Points
+## Quick Navigation & Manual Directory
 
-### 🎯 1. Mod Author Track (CCB Lua 0.1 Native Platform)
-CCB provides **CCB Lua 0.1**, a modern pure-Lua content and scripting engine free from legacy data formats:
+### 🚀 1. Getting Started & Mental Models
 - [CCB Lua 0.1 Platform Overview](api/lua/v5/overview.md): Learn zero-config Mod discovery, native transactional commits, and generation-safe handles.
 - [Complete Example Mod](api/lua/v5/example-mod.md): Walk through a working Mod with modules, state, and custom actions.
-- [Events, Hooks, and Callbacks](api/lua/v5/events.md): Subscribe to game events, intercept decisions, and rewrite behaviours synchronously.
-- [Portable Lua UI](api/lua/v5/ui.md): Build responsive pages tailored for PC keyboard and Android touch HUD.
-- [Permissions & Capabilities](api/lua/v5/capabilities.md): Understand the capability declaration and sandbox model.
+- [First Contribution Guide](getting-started/first-contribution.md): The fastest path from local environment to your first Pull Request.
 
-#### 🍳 Pure-Lua Creation Cookbooks
-- [Pure-Lua Items and Pockets Cookbook](api/lua/v5/cookbook/items.md): Define weapons, armor, and nested multi-pocket container models.
-- [Pure-Lua Monsters and AI Cookbook](api/lua/v5/cookbook/monsters.md): Create custom species, AI tactical trees, and dynamic special attacks.
-- [Pure-Lua Mapgen & Structures Cookbook](api/lua/v5/cookbook/mapgen.md): Procedurally generate shelters, outposts, and ASCII matrix blueprints.
+### ⚔️ 2. Core Subsystems Manual
+- [Characters & Creatures Manual](subsystems/character.md): Entity inheritance, 12-part anatomical health model, stamina/pain, and buffs.
+- [Items & Pockets Manual](subsystems/items.md): Metric physical standards, recursive multi-pocket containers, and item actions.
+- [Map & Mapgen Manual](subsystems/map.md): 3D spatial grids, terrain/furniture collision rules, and procedural blueprint matrices.
+- [Combat & Damage Manual](subsystems/combat.md): 7 physical damage types, armor coverage rolls, and damage hook interception.
+- [Finite Water & Environment Manual](subsystems/water.md): Mass-conserving fluid simulation, storm radar forecasting, and field diffusion.
+- [Vehicles & Parts Manual](subsystems/vehicles.md): Rigid-body center-of-mass physics, powertrain torque, and modular part mount slots.
 
-#### 📚 API Reference Direct Links
+### 🌙 3. CCB Lua 0.1 Platform Reference
+- [Native Events & Hook Interception](api/lua/v5/events.md): Subscribe to native engine events, intercept and override decisions synchronously.
+- [Portable Responsive Lua UI](api/lua/v5/ui.md): Build responsive windows tailored for PC keyboard and Android touch HUD.
+- [Permission Manifest & Capabilities](api/lua/v5/capabilities.md): Understand the capability declaration system and memory sandbox boundaries.
+
+### 🍳 4. Pure-Lua Creation Cookbooks
+- [Pure-Lua Items and Pockets Cookbook](api/lua/v5/cookbook/items.md): High-frequency tactical blades, ballistic chest rigs, and nested pouches.
+- [Pure-Lua Monsters and AI Cookbook](api/lua/v5/cookbook/monsters.md): Stealth stalkers, aura bosses, and dynamic special attacks.
+- [Pure-Lua Mapgen & Structures Cookbook](api/lua/v5/cookbook/mapgen.md): Procedurally generate outpost bunkers and ASCII matrix blueprints.
+
+### ⚙️ 5. C++ Engine Core & Native Bindings
+- [Core Engine Lifecycle & Main Loop Deep-Dive](architecture/core-engine-lifecycle.md): Complete control flow from bootstrap, content loading to `process_turn` loop.
+- [Engine Subsystems Deep Dive](architecture/subsystems-deep-dive.md): Entities, sliding map cache, item pocket trees, finite water, and physics.
+- [Core Development & Contribution Guide](contributing/core-dev-guide.md): Linux/Windows/Android setup, C++20 standards, Catch2 tests, and PR practices.
+- [C++ Native Binding & Lua Export Guide](cpp/native-binding-guide.md): Sol2 bindings, LuaLS annotations, and 100% coverage gates.
+- [Build & Compilation Overview](build/overview.md): Learn CMake and Make modern build workflows and multi-platform support.
+
+### 📚 6. Full API Dictionary
 | Category | Quick Entry | Description |
 | --- | --- | --- |
 | 📦 **Classes & Handles** | [View Classes](api/lua/v5/reference/classes.md) | `Character`, `Creature`, `Item`, `Map`, `Mapgen`, `Vehicle`, etc. |
@@ -97176,16 +97193,7 @@ CCB provides **CCB Lua 0.1**, a modern pure-Lua content and scripting engine fre
 | 🎭 **Callback Actors** | [View Callbacks](api/lua/v5/reference/callbacks.md) | Player actions, IUSE callbacks, and activity execution targets. |
 | 🏷️ **Enums & Constants** | [View Enums](api/lua/v5/reference/enums.md) | Damage types, body parts, weather types, terrain flags, etc. |
 
-### 🛠️ 2. Core & Engine Developer Track (C++ Engine & Architecture)
-For contributors building core systems, game mechanics, and native bindings:
-- [Core Engine Lifecycle & Main Loop Deep-Dive](architecture/core-engine-lifecycle.md): Complete control flow from bootstrap, content loading to `process_turn` loop.
-- [Engine Subsystems Deep Dive](architecture/subsystems-deep-dive.md): Entities, sliding map cache, item pocket trees, finite water, and physics.
-- [Core Development & Contribution Guide](contributing/core-dev-guide.md): Linux/Windows/Android setup, C++20 standards, Catch2 tests, and PR practices.
-- [C++ Native Binding & Lua Export Guide](cpp/native-binding-guide.md): Sol2 bindings, LuaLS annotations, and 100% coverage gates.
-- [Build Overview](build/overview.md): Learn CMake and Make modern build workflows and multi-platform support.
-
-### 🏛️ 3. Project Governance & Policies
-- [First Contribution](getting-started/first-contribution.md): The fastest path from local environment to your first Pull Request.
+### 🏛️ 7. Project Governance & Policies
 - [Responsible Human](contributing/responsible-human.md): Understand our accountability model for human and AI-assisted contributions.
 
 ## home [zh_CN] — CCB 开发文档
@@ -97202,22 +97210,39 @@ Sources: AGENTS.md, GOVERNANCE.md
 
 ---
 
-## 快速导航与开发入口
+## 快速导航与技术手册目录
 
-### 🎯 1. Mod 创作者专区（CCB Lua 0.1 原生平台）
-CCB 提供全新自研的 **CCB Lua 0.1** 纯原生内容与逻辑创作引擎，告别繁琐的旧数据格式：
+### 🚀 1. 起步与心智模型 (Getting Started)
 - [CCB Lua 0.1 原生平台总览](api/lua/v5/overview.md)：理解零配置 Mod 发现、原生事务提交与代际安全句柄。
 - [完整示例 Mod 剖析](api/lua/v5/example-mod.md)：快速上手一个包含模块、状态与事件的完整 Mod。
-- [事件、Hook 与 Callback](api/lua/v5/events.md)：订阅游戏事件，同步拦截与重写游戏行为。
-- [跨平台 Lua UI](api/lua/v5/ui.md)：为 PC 键盘操作和 Android 原生触屏设计自适应页面。
-- [CCB Lua 0.1 权限与能力](api/lua/v5/capabilities.md)：理解 Capability 声明与沙箱安全模型。
+- [第一次代码贡献指南](getting-started/first-contribution.md)：完成从本地环境搭建到 PR 提交的最短路线。
 
-#### 🍳 纯 Lua 创作实战手册 (Cookbooks)
-- [纯 Lua 装备与容器口袋实战](api/lua/v5/cookbook/items.md)：定义近战/远程武器、护甲及多 Pocket 容器嵌套模型。
-- [纯 Lua 怪物与技能 AI 实战](api/lua/v5/cookbook/monsters.md)：编写全新物种、AI 策略树与动态特殊攻击。
-- [纯 Lua 地块与建筑生成实战](api/lua/v5/cookbook/mapgen.md)：算法化生成避难所、哨站与 ASCII 字符矩阵蓝图。
+### ⚔️ 2. 游戏核心子系统手册 (Core Subsystems Manual)
+- [角色与生物系统技术手册](subsystems/character.md)：生物继承链、12 部位解剖健康模型、耐力痛觉与状态 Buff。
+- [物品与 Pocket 容器系统手册](subsystems/items.md)：度量衡物理量标准、多 Pocket 容器嵌套树与装备动作。
+- [地图与程序化生成技术手册](subsystems/map.md)：三维坐标网格、地形家具碰撞规则与 Mapgen 蓝图矩阵。
+- [战斗、伤害与护甲结算手册](subsystems/combat.md)：7 大物理伤害类型、护甲覆盖率掷骰与 Hook 伤害拦截。
+- [有限水体与环境物理系统手册](subsystems/water.md)：有限水体流体动力学、雷暴气象预报与物理场扩散。
+- [车辆动力学与模块化部件手册](subsystems/vehicles.md)：刚体质心动力学、发动机传动比与模块化装甲槽位。
 
-#### 📚 API 参考手册直达（API Reference）
+### 🌙 3. CCB Lua 0.1 平台参考 (Lua Platform Reference)
+- [原生事件与 Hook 拦截](api/lua/v5/events.md)：订阅游戏原生事件，同步拦截并覆写游戏决策逻辑。
+- [跨平台响应式 Lua UI](api/lua/v5/ui.md)：为 PC 键盘操作和 Android 原生触屏设计自适应窗口。
+- [权限声明与 Capability 沙箱](api/lua/v5/capabilities.md)：理解 Capability 权限清单与内存安全边界。
+
+### 🍳 4. 开发者实战食谱 (Cookbooks)
+- [纯 Lua 装备与容器口袋实战](api/lua/v5/cookbook/items.md)：定义高周波战术军刀、防弹胸挂与多仓嵌套背包。
+- [纯 Lua 怪物与技能 AI 实战](api/lua/v5/cookbook/monsters.md)：编写潜行掠食者、光环 Boss 与动态特殊攻击。
+- [纯 Lua 地块与建筑生成实战](api/lua/v5/cookbook/mapgen.md)：算法化生成避难所前哨站与 ASCII 字符矩阵蓝图。
+
+### ⚙️ 5. 引擎 C++ 底层与 Native 绑定 (C++ Engine Core)
+- [游戏引擎生命周期与主循环深度剖析](architecture/core-engine-lifecycle.md)：从引导启动、数据装载到 `process_turn` 回合循环全景图。
+- [游戏引擎核心八大子系统深度剖析](architecture/subsystems-deep-dive.md)：实体、地图缓存、物品 Pocket、有限水体与物理场全拆解。
+- [游戏本体核心开发与贡献指南](contributing/core-dev-guide.md)：Linux/Windows/Android 全平台环境、C++20 规范与 Catch2 测试。
+- [C++ 引擎底层 Native 绑定指南](cpp/native-binding-guide.md)：使用 Sol2 导出类与函数、编写 LuaLS 注解与 100% 覆盖率验证。
+- [快速构建与编译指南](build/overview.md)：掌握 CMake / Make 现代编译流程与平台支持。
+
+### 📚 6. 完整 API 字典速查 (Full API Reference)
 | API 分类 | 快速入口 | 内容说明 |
 | --- | --- | --- |
 | 📦 **核心类与对象 (Classes)** | [查阅类定义](api/lua/v5/reference/classes.md) | `Character`, `Creature`, `Item`, `Map`, `Mapgen`, `Vehicle` 等实体与句柄 |
@@ -97228,17 +97253,8 @@ CCB 提供全新自研的 **CCB Lua 0.1** 纯原生内容与逻辑创作引擎�
 | 🎭 **回调 Actor (Callbacks)** | [查阅回调表](api/lua/v5/reference/callbacks.md) | 玩家交互、IUSE 动作与活动执行回调 |
 | 🏷️ **枚举与常量 (Enums)** | [查阅枚举常量](api/lua/v5/reference/enums.md) | 伤害类型、部位、天气、标记等枚举定义 |
 
-### 🛠️ 2. 本体与引擎开发者（C++ 引擎与底层架构）
-面向贡献游戏底层逻辑、系统机制与原生绑定的开发者：
-- [游戏引擎生命周期与主循环深度剖析](architecture/core-engine-lifecycle.md)：从引导启动、数据装载到 `process_turn` 回合循环全景图。
-- [游戏引擎核心八大子系统深度剖析](architecture/subsystems-deep-dive.md)：实体、地图缓存、物品 Pocket、有限水体与物理场全拆解。
-- [游戏本体核心开发与贡献指南](contributing/core-dev-guide.md)：Linux/Windows/Android 全平台环境、C++20 规范、Catch2 测试与 PR 规范。
-- [C++ 引擎底层 Native 绑定指南](cpp/native-binding-guide.md)：使用 Sol2 导出类与函数、编写 LuaLS 注解与 100% 覆盖率验证。
-- [快速构建指南](build/overview.md)：掌握 CMake / Make 现代编译流程与平台支持。
-
-### 🏛️ 3. 参与项目与治理规范
-- [第一次贡献](getting-started/first-contribution.md)：完成从环境配置到 PR 提交的最短路线。
-- [Responsible Human](contributing/responsible-human.md)：理解代码贡献与 AI 辅助开发的责任模型。
+### 🏛️ 7. 项目治理与贡献准则 (Governance & Policies)
+- [Responsible Human 责任模型](contributing/responsible-human.md)：理解代码贡献与 AI 辅助开发的责任归属。
 
 ## json.inheritance-copy-from [en] — JSON inheritance and copy-from
 
@@ -101192,6 +101208,915 @@ localized build 与窄宽度代表性 UI。Android resource string 与 Lua i18n 
 
 保留译者 credit 与来源。translation service credential 只放 repository secret。外部拉取
 失败不能靠发布空/旧 artifact 隐藏；复用可信默认分支 artifact 必须在 CI log 明示。
+
+## subsystems.character [en] — Characters and Creatures Manual
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/
+Verified commit: d32b9cc880a85480840d82cfa05d256c78a16615
+Sources: data/lua/README.md, data/lua/manifest.schema.json, data/lua/types/ccb_api_v5.d.lua, data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_public_api_v5_coverage.json, tools/lua_api/README.md
+
+# Characters & Creatures Manual
+
+This manual provides a detailed technical reference for the character, avatar, NPC, and monster entity subsystems in **Cataclysm: Cleanwater Bomb (CCB)**.
+
+---
+
+## 1. Entity Hierarchy & Lifecycle
+
+All living entities in CCB inherit from the `Creature` base class:
+
+* **`Creature`**: Base class providing 3D coordinates (`tripoint`), speed counter (`moves`), HP regeneration, line-of-sight checks (`sees`), and damage dispatch.
+* **`Character`**: Humanoid actor managing distinct anatomical body parts (`body_part`), pain, stamina, inventory trees, and martial arts.
+* **`avatar`**: The player entity bound to the input manager and mission logs.
+* **`monster`**: Non-humanoid creatures with AI trees, aggression, morale, and special attacks.
+
+---
+
+## 2. Anatomical Health Model (`body_part`)
+
+A `Character`'s health is tracked across **12 anatomical body parts**:
+
+| Body Part ID | Name | Impact |
+| :--- | :--- | :--- |
+| `"head"` | Head | Vital part. Zero HP results in instant death. Concussions degrade stats. |
+| `"torso"` | Torso | Vital part. Zero HP causes death. Governs armor encumbrance and carry mass. |
+| `"eyes"` / `"mouth"` | Eyes / Mouth | Determines visual acuity, hearing, and gas mask filtration efficiency. |
+| `"arm_l"` / `"arm_r"` | Left / Right Arm | Governs melee swing speed, ranged weapon aim stability, and blocking. |
+| `"hand_l"` / `"hand_r"` | Left / Right Hand | Determines fine crafting agility and grip strength. |
+| `"leg_l"` / `"leg_r"` | Left / Right Leg | Dictates base movement speed. Fractures drastically increase AP movement costs. |
+| `"foot_l"` / `"foot_r"` | Left / Right Foot | Influences rough terrain traversing and stamina drain. |
+
+---
+
+## 3. Core APIs
+
+### `character:get_hp(part) -> integer`
+
+Queries the current hit points of the designated body part.
+
+**Parameters:**
+* `part` (*string*, required): Target body part identifier (e.g., `"head"`, `"torso"`, `"arm_l"`).
+
+**Returns:**
+* *integer*: Current HP value.
+
+**Example:**
+```lua
+local torso_hp = player:get_hp("torso")
+if torso_hp < 20 then
+    game.add_msg("danger", "Your torso is critically wounded, bandage immediately!")
+end
+```
+
+---
+
+### `character:mod_pain(amount)`
+
+Modifies the pain index of the character. Pain decreases stats and movement speed.
+
+**Parameters:**
+* `amount` (*integer*, required): Value delta. Positive increases pain, negative alleviates pain (analgesic).
+
+---
+
+### `character:add_effect(effect_id, duration)`
+
+Attaches a status buff or debuff to the character.
+
+**Parameters:**
+* `effect_id` (*string*, required): Status identifier (e.g., `"adrenaline"`, `"bleed"`, `"poison"`).
+* `duration` (*integer*, required): Duration in **turns**.
+
+**Example:**
+```lua
+player:add_effect("adrenaline", 60)
+game.add_msg("info", "Adrenaline rushes through your bloodstream!")
+```
+
+---
+
+## 4. Key Event Subscriptions
+
+```lua
+events.on("character_takes_damage", function(event)
+    local victim = event.character
+    local damage = event.damage
+    -- Custom energy shield absorption logic
+end)
+
+events.on("character_wakes_up", function(event)
+    game.add_msg("info", "You awaken as morning light filters through the shelter.")
+end)
+```
+
+## subsystems.character [zh_CN] — 角色与生物系统技术手册
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/
+Verified commit: d32b9cc880a85480840d82cfa05d256c78a16615
+Sources: data/lua/README.md, data/lua/manifest.schema.json, data/lua/types/ccb_api_v5.d.lua, data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_public_api_v5_coverage.json, tools/lua_api/README.md
+
+# 角色与生物系统技术手册 (Characters & Creatures Manual)
+
+本手册系统性讲解 **Cataclysm: Cleanwater Bomb (CCB)** 中的角色（Character）、玩家（avatar）、非玩家角色（NPC）与怪物（Monster）实体系统、底层运作机制以及供 Mod 调用的核心 API。
+
+---
+
+## 1. 实体体系与生命周期
+
+CCB 的所有生物实体均继承自 `Creature` 核心基类：
+
+* **`Creature`（生物基类）**：提供三维网格坐标（`tripoint`）、基础移动速度（`moves`）、每回合生命恢复、视野感知（`sees`）与伤害结算接口。
+* **`Character`（人形角色）**：管理分部位肢体解剖结构（`body_part`）、痛觉、耐力、背包库存与武术技能。
+* **`avatar`（玩家实体）**：绑定全局输入管理器与任务日志。
+* **`monster`（怪物实体）**：挂载攻击 AI、仇恨度（Aggression）、士气（Morale）与特殊攻击行为树。
+
+---
+
+## 2. 身体部位与生命健康模型 (Body Anatomy)
+
+人形角色（`Character`）的生命值并非单一数值，而是划分为 **12 个独立的身体部位**：
+
+| 部位标识符 (`body_part`) | 部位名称 | 关键影响 |
+| :--- | :--- | :--- |
+| `"head"` | 头部 | 致命部位，HP 归零直接死亡；受创可能引发脑震荡 |
+| `"torso"` | 躯干 | 致命部位，HP 归零直接死亡；影响绝大多数装备的穿戴与负重 |
+| `"eyes"` / `"mouth"` | 眼部 / 嘴部 | 影响视野清晰度、感知范围与防毒面具过滤效率 |
+| `"arm_l"` / `"arm_r"` | 左臂 / 右臂 | 影响近战武器挥舞速度、持枪瞄准稳定性与格挡效果 |
+| `"hand_l"` / `"hand_r"` | 左手 / 右手 | 影响精细手工制作、握持物品能力与敏捷判定 |
+| `"leg_l"` / `"leg_r"` | 左腿 / 右腿 | 影响基础移动速度；腿部骨折将大幅增加移动 AP 消耗 |
+| `"foot_l"` / `"foot_r"` | 左脚 / 右脚 | 影响复杂地形翻越与奔跑体力消耗 |
+
+---
+
+## 3. 核心 API 参考 (Core APIs)
+
+### `character:get_hp(part) -> integer`
+
+查询指定身体部位的当前生命值。
+
+**参数 (Parameters):**
+* `part` (*string*, 必填): 目标身体部位标识符（如 `"head"`, `"torso"`, `"arm_l"`）。
+
+**返回值 (Returns):**
+* *integer*: 该部位当前的生命值（HP）。
+
+**实战示例 (Example):**
+```lua
+-- 检查玩家躯干是否处于重伤状态
+local torso_hp = player:get_hp("torso")
+if torso_hp < 20 then
+    game.add_msg("danger", "你的躯干受到致命重创，急需包扎！")
+end
+```
+
+---
+
+### `character:mod_pain(amount)`
+
+增减角色的疼痛指数。疼痛会直接削减角色的属性与移动速度。
+
+**参数 (Parameters):**
+* `amount` (*integer*, 必填): 疼痛变动值。正数为增加疼痛，负数为减轻疼痛（镇痛）。
+
+> [!TIP]
+> **疼痛阈值提示**：当疼痛值超过 `40` 时，角色将出现间歇性失神；超过 `80` 时可能因剧痛休克昏迷。
+
+---
+
+### `character:add_effect(effect_id, duration)`
+
+为角色附加一个状态效果（Buff / Debuff）。
+
+**参数 (Parameters):**
+* `effect_id` (*string*, 必填): 效果标识符（例如 `"adrenaline"`, `"bleed"`, `"poison"`）。
+* `duration` (*integer*, 必填): 持续时间，**单位：回合数 (turns)**。
+
+**实战示例 (Example):**
+```lua
+-- 注入兴奋剂，获得 60 回合的肾上腺素激增效果
+player:add_effect("adrenaline", 60)
+game.add_msg("info", "肾上腺素在血管中奔涌！")
+```
+
+---
+
+## 4. 关键事件监听 (Event Hooks)
+
+通过订阅以下原生事件，Mod 可以精确感知角色的生存动态：
+
+```lua
+-- 监听角色受到伤害事件
+events.on("character_takes_damage", function(event)
+    local victim = event.character
+    local damage = event.damage
+    -- 自定义防具充能或护盾吸收逻辑
+end)
+
+-- 监听角色从睡眠中苏醒
+events.on("character_wakes_up", function(event)
+    game.add_msg("info", "天亮了，你揉了揉惺忪的睡眼。")
+end)
+```
+
+## subsystems.combat [en] — Combat and Damage Manual
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/
+Verified commit: d32b9cc880a85480840d82cfa05d256c78a16615
+Sources: data/lua/README.md, data/lua/manifest.schema.json, data/lua/types/ccb_api_v5.d.lua, data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_public_api_v5_coverage.json, tools/lua_api/README.md
+
+# Combat & Damage Manual
+
+This manual details the combat mechanics, multi-type damage calculations, armor coverage checks, and mitigation algorithms in **Cataclysm: Cleanwater Bomb (CCB)**.
+
+---
+
+## 1. Damage Types System
+
+| Damage Type ID | Name | Physical Behavior & Characteristics |
+| :--- | :--- | :--- |
+| `"bash"` | Blunt Impact | Shockwave damage. Bypasses flexible fabrics to cause fractures and internal bleeding. |
+| `"cut"` | Edge Slicing | Blocked by hard plates. Severe bleeding upon flesh penetration. |
+| `"pierce"` | Puncture | Concentrated force that bypasses armor joints. |
+| `"bullet"` | Ballistic | Kinetic impact from high-velocity projectiles. Mitigated by ballistic inserts. |
+| `"acid"` | Corrosive | Chemical breakdown that degrades gear durability. |
+| `"electric"` | Conductive | Causes muscle spasms, weapon drops, and stuns. Amplified by metals. |
+| `"heat"` | Thermal | Ignites flammable gear and causes burn injuries. |
+
+---
+
+## 2. Armor Resolution Pipeline
+
+```mermaid
+flowchart TD
+    Attack[💥 Incoming Attack Damage & Type] --> RollCoverage{🎲 Roll against Armor Coverage %}
+    RollCoverage -- Armor Hit --> ArmorAbsorption[🛡️ Armor Absorption: Mitigate Cut/Bash/Bullet]
+    RollCoverage -- Missed Armor Joint --> RawFlesh[🩸 Strike Unprotected Flesh]
+    ArmorAbsorption --> ResidualDamage[Compute Residual Damage]
+    ResidualDamage --> BodyDamage[💥 Deduct Body Part HP & Apply Bleed/Fracture]
+    RawFlesh --> BodyDamage
+```
+
+1. **Coverage Roll**: Random roll $(1 \sim 100)$ against armor `coverage` percentage.
+2. **Layer Stacking**: Damage passes sequentially from outer tactical carriers to inner undergarments.
+3. **Armor Wear**: High-impact strikes wear down structural durability.
+
+---
+
+## 3. Intercepting Damage with Lua Hooks
+
+```lua
+game.hooks.on("on_damage_calculate", function(context)
+    local defender = context.defender
+    local damage_instance = context.damage
+    
+    if defender:has_effect("energy_barrier") then
+        damage_instance:mult_damage("bullet", 0.5)
+        damage_instance:mult_damage("cut", 0.5)
+        game.add_msg("info", "The energy shield flashes, deflecting incoming kinetic energy!")
+    end
+    
+    return true
+end)
+```
+
+## subsystems.combat [zh_CN] — 战斗、伤害与护甲结算技术手册
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/
+Verified commit: d32b9cc880a85480840d82cfa05d256c78a16615
+Sources: data/lua/README.md, data/lua/manifest.schema.json, data/lua/types/ccb_api_v5.d.lua, data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_public_api_v5_coverage.json, tools/lua_api/README.md
+
+# 战斗、伤害与护甲结算技术手册 (Combat & Damage Manual)
+
+本手册详细剖析 **Cataclysm: Cleanwater Bomb (CCB)** 的战斗物理系统、多类型伤害计算模型、防具覆盖率与伤害吸收结算算法。
+
+---
+
+## 1. 伤害类型体系 (Damage Types)
+
+CCB 具备严密的物理伤害类型划分，每种伤害类型在穿透护甲和对肉体造成创伤时遵循不同的物理公式：
+
+| 伤害类型 | 标识符 (`damage_type`) | 物理机制与特性 |
+| :--- | :--- | :--- |
+| **钝击** | `"bash"` | 冲击波震荡伤害。不易被外层柔性织物阻挡，高钝击伤害可直接引发骨折与内脏震荡。 |
+| **斩击** | `"cut"` | 刃口切割伤害。高度受限于坚硬护甲（如钢板与几丁质甲壳）；一旦穿透极易引发严重流血。 |
+| **穿刺** | `"pierce"` | 尖端受力集中穿透。具备优异的装甲缝隙穿透能力，造成深度穿透伤。 |
+| **弹道** | `"bullet"` | 高速枪弹弹道动能。穿透力与弹头动能（焦耳）直接挂钩，依赖专用防弹插板吸收。 |
+| **强酸** | `"acid"` | 化学腐蚀伤害。能持续腐蚀装备耐久度并降低护甲防护值。 |
+| **电击** | `"electric"` | 传导电击伤害。导电金属装备会加剧伤害，可导致肌肉痉挛与行动瘫痪。 |
+| **热能/火焰** | `"heat"` | 高温燃烧伤害。引燃易燃材质装备并造成大面积烧伤。 |
+
+---
+
+## 2. 护甲吸收与覆盖率计算流程 (Armor Resolution Pipeline)
+
+当一次攻击击中角色身体部位时，引擎按照以下流程依次结算：
+
+```mermaid
+flowchart TD
+    Attack[💥 攻击发起: 伤害数值与类型] --> RollCoverage{🎲 掷骰判定部位覆盖率 Coverage}
+    RollCoverage -- 判定命中护甲 --> ArmorAbsorption[🛡️ 护甲吸收计算: 削减 Cut/Bash/Bullet]
+    RollCoverage -- 穿透缝隙未中护甲 --> RawFlesh[🩸 直接命中肉体裸露部位]
+    ArmorAbsorption --> ResidualDamage[计算剩余穿透伤害]
+    ResidualDamage --> BodyDamage[💥 扣减对应部位 HP 并附加流血/骨折]
+    RawFlesh --> BodyDamage
+```
+
+1. **覆盖率掷骰 (Coverage Check)**：
+   * 装备具有 $0 \sim 100\%$ 的部位覆盖率（`coverage`）。
+   * 引擎随机生成 $1 \sim 100$ 的数值，若数值 $\le$ 覆盖率，则攻击命中该层护甲；否则判定为从防具缝隙或未包裹部位穿透。
+2. **多层防具累加结算**：
+   * 角色同时穿戴贴身衣物、主防护服与外层防弹背心时，攻击将从最外层向内逐层进行吸收结算。
+3. **耐久度磨损 (Armor Degradation)**：
+   * 强力攻击在被坚硬护甲阻挡时，会消耗护甲本身的结构耐久度。
+
+---
+
+## 3. 近战与远程攻击参数
+
+在定义武器时，核心战斗参数如下：
+
+```lua
+-- 近战武器属性表定义
+melee = {
+    damage = {
+        cut = 24,      -- 基础斩击伤害
+        pierce = 10,   -- 基础穿刺伤害
+        bash = 4,      -- 基础钝击伤害
+    },
+    attack_cost = 80,  -- 每次攻击消耗 80 AP (标准移动速度下约为 0.8 回合)
+    to_hit = 2,        -- 命中骰修正加成
+}
+```
+
+---
+
+## 4. 实战：使用 Hook 拦截与重写伤害结算
+
+Mod 可以利用 CCB 原生 Hook 同步拦截伤害结算，实现魔法护盾、能量偏折力场或反击机制：
+
+```lua
+-- 注册伤害计算拦截 Hook
+game.hooks.on("on_damage_calculate", function(context)
+    local attacker = context.attacker
+    local defender = context.defender
+    local damage_instance = context.damage
+    
+    -- 若防御方处于能量护盾激活状态，削减 50% 弹道与斩击伤害
+    if defender:has_effect("energy_barrier") then
+        damage_instance:mult_damage("bullet", 0.5)
+        damage_instance:mult_damage("cut", 0.5)
+        game.add_msg("info", "能量力场闪烁，偏折了部分物理冲击！")
+    end
+    
+    return true -- 允许继续执行后续伤害结算
+end)
+```
+
+## subsystems.items [en] — Items and Pockets Manual
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/items/
+Verified commit: d32b9cc880a85480840d82cfa05d256c78a16615
+Sources: data/lua/README.md, data/lua/manifest.schema.json, data/lua/types/ccb_api_v5.d.lua, data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_public_api_v5_coverage.json, tools/lua_api/README.md
+
+# Items & Pockets Manual
+
+This manual details the item entity model, physical unit conversions, and the **Pocket tree container architecture** in **Cataclysm: Cleanwater Bomb (CCB)**.
+
+---
+
+## 1. Physical Units & Standards
+
+CCB enforces consistent metric standards across all items:
+
+* **Weight**: Stored as an integer in **grams (g)**. E.g., `1500` is 1.5 kg.
+* **Volume**: Stored as an integer in **milliliters (ml)**. E.g., `2500` is 2.5 L.
+* **Length Constraints**: Stored in **millimeters (mm)** for holsters and scabbards.
+* **Price**: Stored in **cents**. E.g., `1000` is $10.00.
+
+---
+
+## 2. Pocket Container Tree Architecture
+
+Single-layer inventory arrays are replaced by recursive Pocket trees:
+
+* `max_contains_volume` (*integer*): Maximum volume limit (ml).
+* `max_contains_weight` (*integer*): Maximum weight limit (g).
+* `max_item_length` (*integer*): Maximum length limit (mm).
+* `watertight` (*boolean*): Fluid sealing for liquids and gases.
+* `rigid` (*boolean*): If `false`, total volume expands as internal pockets are filled.
+* `moves` (*integer*): Action point cost to draw or stow items into this pocket.
+
+---
+
+## 3. Core APIs
+
+### `game.items.register(config)`
+
+Registers a new item archetype with the engine.
+
+**Example:**
+```lua
+game.items.register({
+    id = "ccb_canteen_sealed",
+    name = "Sealed Military Canteen",
+    weight = 250,  -- 250g dry mass
+    volume = 1200, -- 1.2L external volume
+    category = "container",
+    pockets = {
+        {
+            pocket_type = "CONTAINER",
+            max_contains_volume = 1000, -- 1.0L liquid
+            max_contains_weight = 1200,
+            watertight = true,          -- Sealed against leaks
+            open_container = false
+        }
+    }
+})
+```
+
+---
+
+### `item:get_total_weight() -> integer`
+
+Recursively calculates the total weight of the item including all contents inside nested pockets.
+
+## subsystems.items [zh_CN] — 物品与 Pocket 容器系统技术手册
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/
+Verified commit: d32b9cc880a85480840d82cfa05d256c78a16615
+Sources: data/lua/README.md, data/lua/manifest.schema.json, data/lua/types/ccb_api_v5.d.lua, data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_public_api_v5_coverage.json, tools/lua_api/README.md
+
+# 物品与 Pocket 容器系统技术手册 (Items & Pockets Manual)
+
+本手册详细剖析 **Cataclysm: Cleanwater Bomb (CCB)** 中的物品实体模型、物理量换算以及 CCB 独创的 **多 Pocket 容器树状嵌套机制**。
+
+---
+
+## 1. 物品物理量与度量衡标准
+
+在 CCB 引擎中，所有物品的物理属性采用统一的公制度量衡：
+
+* **重量 (Weight)**：底层整数存储，**单位为克 (g)**。例如 `1500` 代表 1.5 公斤。
+* **体积 (Volume)**：底层整数存储，**单位为毫升 (ml)**。例如 `2500` 代表 2.5 升。
+* **尺寸限制 (Length)**：**单位为毫米 (mm)**。用于长杆武器、长枪与刀鞘长度适配。
+* **价格 (Price)**：**单位为美分 (cents)**。例如 `1000` 代表 10 美元。
+
+---
+
+## 2. Pocket 容器嵌套架构模型
+
+CCB 彻底淘汰了老旧的单层背包扁平列表，所有容器（背包、弹匣、水壶、枪套、战术腰带）均由一个或多个 `pocket` 构成：
+
+```mermaid
+graph TD
+    Rig[战术胸挂背包 ccb_tactical_rig] --> P1[主仓 Pocket 1: 12L / 15kg]
+    Rig --> P2[弹匣快拔副仓 Pocket 2: 1.5L / 2kg]
+    Rig --> P3[水袋仓 Pocket 3: 3L / 密闭防水]
+    P1 --> Box[战利品急救箱]
+    Box --> P4[药剂子仓]
+    P4 --> Syringe[肾上腺素针剂]
+```
+
+### Pocket 核心控制属性
+* `max_contains_volume` (*integer*): 该口袋最大容纳体积 (ml)。
+* `max_contains_weight` (*integer*): 该口袋最大承重上限 (g)。
+* `max_item_length` (*integer*): 放入该口袋的物品最长几何尺寸 (mm)。
+* `watertight` (*boolean*): 是否气密防水。为 `true` 时才可盛装水、汽油、酸液等未封口流体。
+* `rigid` (*boolean*): 是否为刚性结构。若为 `false`，装入物品后容器外部体积会相应膨胀。
+* `moves` (*integer*): 从该口袋拔取/放入物品所消耗的基础动作点数（AP）。
+
+---
+
+## 3. 核心 API 参考
+
+### `game.items.register(config)`
+
+向游戏引擎注册全新的物品原型。
+
+**参数 (Parameters):**
+* `config` (*table*, 必填): 物品原型定义表。包含 `id`, `name`, `weight`, `volume`, `pockets`, `melee`, `armor`, `on_use` 等配置项。
+
+**实战示例 (Example):**
+```lua
+game.items.register({
+    id = "ccb_canteen_sealed",
+    name = "军用野战密封水壶",
+    weight = 250,  -- 250 克自重
+    volume = 1200, -- 1.2 升外部体积
+    category = "container",
+    pockets = {
+        {
+            pocket_type = "CONTAINER",
+            max_contains_volume = 1000, -- 容纳 1 升液体
+            max_contains_weight = 1200,
+            watertight = true,          -- 密封防水
+            open_container = false
+        }
+    }
+})
+```
+
+---
+
+### `item:get_total_weight() -> integer`
+
+递归计算物品本体及其内部所有子 Pocket 中物品的总重量。
+
+**返回值 (Returns):**
+* *integer*: 真实总重量（克）。
+
+---
+
+### `item:has_flag(flag_name) -> boolean`
+
+检查物品是否包含指定的特性标签（如 `"FIRE"`, `"LEAK_RESIST"`, `"SHEATH_KNIFE"`）。
+
+## subsystems.map [en] — Map and Mapgen Manual
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/
+Verified commit: d32b9cc880a85480840d82cfa05d256c78a16615
+Sources: data/lua/README.md, data/lua/manifest.schema.json, data/lua/types/ccb_api_v5.d.lua, data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_public_api_v5_coverage.json, tools/lua_api/README.md
+
+# Map & Mapgen Manual
+
+This manual explains the 3D coordinate system, sliding map cache architecture, and pure-Lua procedural map generation (Mapgen) in **Cataclysm: Cleanwater Bomb (CCB)**.
+
+---
+
+## 1. 3D Spatial Grid & Submap Units
+
+1. **`Tripoint(x, y, z)`**:
+   * $x, y$: Horizontal Cartesian coordinates.
+   * $z$: Elevation index (`0` for ground, negative for subterranean vaults, positive for multi-story towers).
+2. **Submap Chunk**: $12 \times 12 \times 1$ tiles per chunk.
+3. **Mapgen Standard Grid**: $24 \times 24$ tiles per standard overmap terrain tile.
+4. **Sliding Viewport Cache**: The active memory maintains an $11 \times 11$ submap sliding window around the player.
+
+---
+
+## 2. Terrain & Furniture Rules
+
+* **Terrain**: Fixed structural ground geometry (concrete floor, reinforced wall, deep water).
+* **Furniture**: Placed on top of terrain (beds, generators, metal racks, consoles).
+
+---
+
+## 3. MapgenContext APIs
+
+### `context:set_terrain(x, y, terrain_id)`
+Sets the base terrain type at local coordinate $(x, y)$.
+
+### `context:set_furniture(x, y, furniture_id)`
+Places a furniture piece at local coordinate $(x, y)$.
+
+### `context:spawn_loot(x, y, loot_config)`
+Spawns loot from a defined item group with probability and count constraints.
+
+---
+
+## 4. Blueprint Matrix Layout Example
+
+```lua
+local blueprint = {
+    "########################",
+    "#........|.............#",
+    "#..B.....|.............#",
+    "#--------+-------------#",
+    "#......................#",
+    "#..r........GG.........#",
+    "#......................#",
+    "########################"
+}
+
+local legend = {
+    ["#"] = { terrain = "t_reinforced_wall" },
+    ["."] = { terrain = "t_concrete_floor" },
+    ["+"] = { terrain = "t_door_c" },
+    ["-"] = { terrain = "t_wall_glass" },
+    ["|"] = { terrain = "t_wall_glass" },
+    ["B"] = { terrain = "t_concrete_floor", furniture = "f_bed" },
+    ["r"] = { terrain = "t_concrete_floor", furniture = "f_rack_metal" },
+    ["G"] = { terrain = "t_concrete_floor", furniture = "f_generator" }
+}
+
+game.mapgen.register({
+    id = "ccb_outpost_bunker",
+    om_terrain = "ccb_outpost",
+    generate = function(context)
+        context:draw_matrix(0, 0, blueprint, legend)
+    end
+})
+```
+
+## subsystems.map [zh_CN] — 地图与程序化生成技术手册
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/map/
+Verified commit: d32b9cc880a85480840d82cfa05d256c78a16615
+Sources: data/lua/README.md, data/lua/manifest.schema.json, data/lua/types/ccb_api_v5.d.lua, data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_public_api_v5_coverage.json, tools/lua_api/README.md
+
+# 地图与程序化生成技术手册 (Map & Mapgen Manual)
+
+本手册详细介绍 **Cataclysm: Cleanwater Bomb (CCB)** 的三维立体空间模型、滑动窗口地图缓存以及纯 Lua 程序化地块生成（Mapgen）技术。
+
+---
+
+## 1. 三维空间与地图分层网格
+
+CCB 采用三维立体网格坐标系统：
+
+1. **三维坐标向量 `Tripoint(x, y, z)`**：
+   * $x, y$：水平面网格（东/南/西/北方向）。
+   * $z$：竖直高度层级。`0` 代表地面地表层，负数（`-1, -2...`）代表地下避难所与矿井，正数（`1, 2...`）代表高楼天台与屋顶。
+2. **Submap 单元**：基础地图数据以 **$12 \times 12 \times 1$** 格为一个 Submap 单元。
+3. **Mapgen 标准地块**：标准单地块生成器以 **$24 \times 24$** 格（$2 \times 2$ 个 Submap）为单位进行建筑填充。
+4. **滑动视口缓存 (`map`)**：引擎在玩家周围维持一个 $11 \times 11$ 个 Submap 的活跃区域，实现无缝边界移动。
+
+---
+
+## 2. 地形 (Terrain) 与家具 (Furniture) 物理规则
+
+* **地形 (`Terrain`)**：构成地面的永久结构（如土地、混凝土墙、深水、悬崖）。
+* **家具 (`Furniture`)**：位于地形上方的可移动/可破坏物件（如桌子、储物货架、床、发电机、路障）。
+* **碰撞与视线穿透规则**：
+  * `t_wall`（实体墙）：阻挡移动、阻挡视线、阻挡流体。
+  * `t_window`（玻璃窗）：阻挡移动、**允许视线与光线穿透**。
+  * `f_rack_metal`（金属货架）：阻挡移动、允许视线穿透、提供物品堆叠容器。
+
+---
+
+## 3. Mapgen 生成器与上下文 API (`MapgenContext`)
+
+### `context:set_terrain(x, y, terrain_id)`
+
+设置指定网格坐标的地形。
+
+**参数 (Parameters):**
+* `x, y` (*integer*, 必填): 本地网格坐标 ($0 \sim 23$)。
+* `terrain_id` (*string*, 必填): 目标地形标识符（如 `"t_concrete_floor"`, `"t_wall_metal"`）。
+
+---
+
+### `context:set_furniture(x, y, furniture_id)`
+
+在指定网格坐标放置家具。
+
+---
+
+### `context:spawn_loot(x, y, loot_config)`
+
+在指定位置生成战利品池。
+
+**参数 (Parameters):**
+* `loot_config` (*table*, 必填): 包含 `group`（掉落物组 ID）、`count`（生成数量区间 `{min, max}`）与 `chance`（生成概率 $0.0 \sim 1.0$）。
+
+---
+
+## 4. 实战：纯 Lua 蓝图矩阵绘制示例
+
+```lua
+-- 绘制包含安全门、床铺与物资货架的避难所前哨
+local blueprint = {
+    "########################",
+    "#........|.............#",
+    "#..B.....|.............#",
+    "#--------+-------------#",
+    "#......................#",
+    "#..r........GG.........#",
+    "#......................#",
+    "########################"
+}
+
+local legend = {
+    ["#"] = { terrain = "t_reinforced_wall" },
+    ["."] = { terrain = "t_concrete_floor" },
+    ["+"] = { terrain = "t_door_c" },
+    ["-"] = { terrain = "t_wall_glass" },
+    ["|"] = { terrain = "t_wall_glass" },
+    ["B"] = { terrain = "t_concrete_floor", furniture = "f_bed" },
+    ["r"] = { terrain = "t_concrete_floor", furniture = "f_rack_metal" },
+    ["G"] = { terrain = "t_concrete_floor", furniture = "f_generator" }
+}
+
+game.mapgen.register({
+    id = "ccb_outpost_bunker",
+    om_terrain = "ccb_outpost",
+    generate = function(context)
+        context:draw_matrix(0, 0, blueprint, legend)
+    end
+})
+```
+
+## subsystems.vehicles [en] — Vehicles and Parts Manual
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/
+Verified commit: d32b9cc880a85480840d82cfa05d256c78a16615
+Sources: data/lua/README.md, data/lua/manifest.schema.json, data/lua/types/ccb_api_v5.d.lua, data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_public_api_v5_coverage.json, tools/lua_api/README.md
+
+# Vehicles & Parts Manual
+
+This manual details the rigid-body vehicle physics simulation, powertrain calculations, and modular part systems in **Cataclysm: Cleanwater Bomb (CCB)**.
+
+---
+
+## 1. Rigid-Body Vehicle Physics
+
+Vehicles in CCB operate as multi-part 2D rigid bodies:
+
+* **Center of Mass & Weight Distribution**: Parts (engines, armor plates, water tanks) dynamically shift vehicle mass and inertia tensors, directly governing roll-over tendencies during sharp turns.
+* **Powertrain & Aerodynamics**: Combines engine horsepower, torque curves, tire rolling resistance, and frontal aerodynamic drag.
+* **Traction & Ground Conditions**: Differentiates off-road vs highway tires across mud, deep water, and asphalt.
+
+---
+
+## 2. Modular Part Architecture (`vpart_reference`)
+
+* **Frames & Chassis**: Structural foundation.
+* **Powertrain**: Diesel/gasoline engines, electric motors, batteries, solar panels.
+* **Storage & Tanks**: Cargo trunks, vehicle freezers, and integrated fluid reservoirs.
+* **Armor & Weapon Mounts**: Composite ballistic armor and autonomous automated turrets.
+
+---
+
+## 3. Core APIs
+
+### `vehicle:get_speed() -> integer`
+Returns real-time vehicle velocity.
+
+### `vehicle:fuel_left(fuel_type) -> integer`
+Queries total remaining fuel or stored electrical charge.
+
+## subsystems.vehicles [zh_CN] — 车辆动力学与模块化部件系统技术手册
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/vehicles/
+Verified commit: d32b9cc880a85480840d82cfa05d256c78a16615
+Sources: data/lua/README.md, data/lua/manifest.schema.json, data/lua/types/ccb_api_v5.d.lua, data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_public_api_v5_coverage.json, tools/lua_api/README.md
+
+# 车辆动力学与模块化部件系统技术手册 (Vehicles & Parts Manual)
+
+本手册详细剖析 **Cataclysm: Cleanwater Bomb (CCB)** 的车辆物理引擎、刚体动力学模拟以及模块化部件（Vehicle Parts）装配机制。
+
+---
+
+## 1. 车辆刚体动力学模型
+
+在 CCB 引擎中，车辆并非单一的碰撞盒子，而是由多个互联底盘框架（Frame）构成的 **2D 刚体物理多体系统**：
+
+* **质心与质量分布 (Center of Mass)**：每个安装的部件（重型柴油机、装甲钢板、储水罐）均贡献质量与局部惯性矩，直接影响车辆急转弯时的侧倾翻滚风险。
+* **发动机动力与传动比**：多引擎联动输出功率（马力与扭矩），综合计算地面滚阻、空气阻力（风阻截面积）与加速曲线。
+* **轮胎抓地力与地形适应性**：越野宽胎与公路胎在泥地、深水、柏油路面的摩擦牵引力差异显著。
+
+---
+
+## 2. 模块化部件架构 (`vpart_reference`)
+
+一辆车由网格化的部件槽位（Mount Coordinates）组成：
+
+* **框架与车顶 (Frames & Roofs)**：构成车体骨架与防翻滚保护。
+* **动力与储能 (Engines & Batteries)**：燃油发动机、电动机、氢燃料电池组与太阳能电板。
+* **储物与容积 (Cargo & Tanks)**：车载冷冻箱、储物后备箱以及连入车辆管网的车载净水箱。
+* **装甲与外挂 (Armor & Turrets)**：复合防弹装甲插板与自动化感应炮塔。
+
+---
+
+## 3. 核心 API 参考
+
+### `vehicle:get_speed() -> integer`
+
+获取车辆当前的实时行驶速度（单位：mph 或 km/h 换算内部速度单位）。
+
+---
+
+### `vehicle:fuel_left(fuel_type) -> integer`
+
+查询车辆各类油箱/电池组中剩余的指定燃料总量。
+
+**参数 (Parameters):**
+* `fuel_type` (*string*, 必填): 燃料类型标识符（如 `"diesel"`, `"gasoline"`, `"battery"`）。
+
+**实战示例 (Example):**
+```lua
+-- 检查车载电量是否充足
+local power = current_veh:fuel_left("battery")
+if power < 1000 then
+    game.add_msg("warning", "仪表盘电量告警：车载蓄电池电量过低！")
+end
+```
+
+## subsystems.water [en] — Finite Water and Environment Manual
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/
+Verified commit: d32b9cc880a85480840d82cfa05d256c78a16615
+Sources: data/lua/README.md, data/lua/manifest.schema.json, data/lua/types/ccb_api_v5.d.lua, data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_public_api_v5_coverage.json, tools/lua_api/README.md
+
+# Finite Water & Environment Manual
+
+This manual details the **Finite Water fluid simulation**, micro-weather forecasting, and environmental field diffusion mechanics in **Cataclysm: Cleanwater Bomb (CCB)**.
+
+---
+
+## 1. Finite Water Dynamics
+
+Unlike traditional forks with infinite water tiles, CCB simulates water as a mass-conserving fluid grid:
+
+* **Mass Conservation**: Each tile stores precise fluid volume in milliliters. Water flows down slopes and pools in terrain depressions.
+* **Depletion & Drainage**: Pumping water genuinely lowers the water table until depleted.
+* **Precipitation & Evaporation**: Storms replenish surface water, while hot arid conditions evaporate pools.
+
+---
+
+## 2. Weather & Storm Forecast APIs
+
+### `game.weather.get_storm_forecast(target_pos, forecast_hours) -> table`
+
+Queries meteorological storm forecasts for target coordinates within a specified window.
+
+**Parameters:**
+* `target_pos` (*Tripoint*, required): Target 3D coordinates.
+* `forecast_hours` (*integer*, required): Forecast window in hours.
+
+**Returns:**
+* *table*: Forecast structure with `has_storm` (*boolean*), `intensity` (*number*), `wind_speed` (*number*, km/h), and `predicted_turn` (*integer*).
+
+**Example:**
+```lua
+local forecast = game.weather.get_storm_forecast(player:pos(), 6)
+if forecast.has_storm and forecast.intensity > 0.7 then
+    game.add_msg("warning", "Radar Warning: Severe storm arriving with winds up to %.1f km/h!", forecast.wind_speed)
+end
+```
+
+---
+
+## 3. Environmental Fields & Diffusion
+
+* **Fire Fields (`fd_fire`)**: Consumes oxygen and flammable fuel, spreading along combustible structures.
+* **Smoke Fields (`fd_smoke`)**: Blocks long-range visibility and causes choking damage without filters.
+* **Toxic Gas (`fd_gas_vent`)**: Requires airtight NBC protection.
+
+## subsystems.water [zh_CN] — 有限水体与环境物理系统技术手册
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/water/
+Verified commit: d32b9cc880a85480840d82cfa05d256c78a16615
+Sources: data/lua/README.md, data/lua/manifest.schema.json, data/lua/types/ccb_api_v5.d.lua, data/lua/reference/ccb_public_api_v5.json, data/lua/reference/ccb_public_api_v5_coverage.json, tools/lua_api/README.md
+
+# 有限水体与环境物理系统技术手册 (Finite Water & Environment Manual)
+
+本手册详细剖析 **Cataclysm: Cleanwater Bomb (CCB)** 独创的 **有限水体流体动力学（Finite Water System）**、微气象模拟与环境物理场机制。
+
+---
+
+## 1. 有限水体物理动力学 (Finite Water Dynamics)
+
+在传统分支中，水体常被视为静态、无穷无尽的装饰背景。而在 CCB 引擎中，水体是一套遵循**严格质量守恒定律**的高精度流体网格系统：
+
+* **体积守恒与流动网格**：
+  - 每一个网格单元记录流体体积（毫升）。
+  - 水体会受到重力驱动，沿着地势高低差和三维楼层阶梯向低处流动并在低洼地形自然聚集成池塘。
+* **水体交互机制**：
+  - **水泵抽取与灌溉**：水体被水泵抽走后，该网格的实际水位会真实下降，直至枯竭。
+  - **降雨补充与蒸发**：暴风雨天气会持续增加地表水体积；在干燥高温环境中水体会逐渐蒸发消散。
+  - **阻力与阻断**：密闭大门与混凝土防水堤坝可以有效阻断水流扩散。
+
+---
+
+## 2. 天气系统与雷暴预报 (Weather & Forecast)
+
+CCB 的天气系统根据气压、温度与风向生成动态微气象：
+
+### `game.weather.get_storm_forecast(target_pos, forecast_hours) -> table`
+
+查询指定坐标在未来指定时间窗口内的强对流风暴与气象预警。
+
+**参数 (Parameters):**
+* `target_pos` (*Tripoint*, 必填): 目标三维网格坐标。
+* `forecast_hours` (*integer*, 必填): 预报展望时间跨度，**单位：小时**。
+
+**返回值 (Returns):**
+* *table*: 气象预报结构体，包含以下字段：
+  * `has_storm` (*boolean*): 是否有强对流暴风雨/雷暴降临。
+  * `intensity` (*number*): 风暴强度指数（`0.0 ~ 1.0`）。
+  * `wind_speed` (*number*): 预测风速，**单位：km/h**。
+  * `predicted_turn` (*integer*): 预计风暴抵达的游戏回合数。
+
+**实战示例 (Example):**
+```lua
+-- 查询当前避难所上方未来 6 小时的风暴预警
+local forecast = game.weather.get_storm_forecast(player:pos(), 6)
+if forecast.has_storm and forecast.intensity > 0.7 then
+    game.add_msg("warning", "气象雷达警报：一场强热带风暴预计将在 %d 回合后降临，风速可达 %.1f km/h！", 
+        forecast.predicted_turn - game.time.turn(), forecast.wind_speed)
+end
+```
+
+---
+
+## 3. 环境物理场与扩散模拟 (Fields & Diffusion)
+
+引擎中的火焰、浓烟、毒雾与酸液通过 `field_entry` 进行物理演化：
+
+* **火焰场 (`fd_fire`)**：根据周围地形材质的易燃度消耗氧气并向邻近格蔓延，释放高温热辐射与浓烟。
+* **烟雾场 (`fd_smoke`)**：阻挡远程视线射程，长时间吸入会导致角色剧烈咳嗽与窒息伤害。
+* **毒气与神经毒素 (`fd_gas_vent`)**：需要气密防毒面具或防化服阻隔。
 
 ## validation.debugging [en] — Debugging and failure isolation
 

@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: ba90185837772e666d9b441b803e9ebee7dd701cff79086d208018aa1978b457
+translation_source_fingerprint: a9fc0af98b298b43b2e9a8b42cce7a6e425ad393260aad29264904caee95df74
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,7 +68,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Namespaces
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 68 `namespaces` contract records.
+This manual covers top-level and functional namespaces in CCB.
 
 ## `events` { #symbol-api-lua-v5-generated-namespace-events-6e35342e82c2 }
 

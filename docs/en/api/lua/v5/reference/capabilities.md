@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 14bf3f1fc054684e43bb7e625775ae091f36e3e253897886ff34b4ad754f8c07
+translation_source_fingerprint: e11e3c7254c8ff765cfbca315a64e89353c17b1b2abcb8a4b12804829c8fc42f
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,7 +68,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Capabilities
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 16 `capabilities` contract records.
+This manual covers capability manifest permissions and security model.
 
 ## `events` { #symbol-api-lua-v5-generated-capability-events-dd9d47a21b81 }
 

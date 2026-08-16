@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 94b678cfc1044cc53363c83e8794b43686253fb2b8a7bcd4876fe411ede6b1a5
+translation_source_fingerprint: 9b1f3b888da3f28685ecbca389ebd23fdcf07691b0b5091e905bceaee2c495c1
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,7 +68,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Module entry points
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 3 `modules` contract records.
+This manual covers standard library and extension modules in CCB.
 
 ## `require` { #symbol-api-lua-v5-generated-module-require-6cf1620427ea }
 

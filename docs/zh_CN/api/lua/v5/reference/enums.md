@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 53bb24a1c7d9d3c816e1d8f66039cfc8c9aa1e40a773ec4a2e7f4ebb967f0032
+translation_source_fingerprint: 3f2bd0a565435a8908226f275c5f30108411312cf1d0c489d448ba14f0618fe7
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,7 +68,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # 枚举族参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `枚举族参考` 规范手册，收录 26 条 `enums` 契约记录。
+本手册收录 CCB 导出的核心常量枚举、部位标识符与类型标签。
 
 ## `ActionId` { #symbol-api-lua-v5-generated-enum-actionid-3fb0709b98c6 }
 

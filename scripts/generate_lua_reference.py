@@ -568,17 +568,44 @@ def render_section(
 ) -> str:
     section = page["section"]
     title = page[f"{language}_title"]
-    count = len(contract[section]) if section != "permissions" else 1
     is_zh = language == "zh_CN"
+    section_descs_zh = {
+        "classes": "本手册收录 CCB 引擎导出的核心对象类与句柄。所有类均通过原生绑定，并受代际安全句柄机制保护。",
+        "functions": "本手册收录 CCB 引擎导出的全局工具函数与静态方法。可在 Mod 运行时环境中直接调用。",
+        "methods": "本手册收录 CCB 各核心实体与对象支持调用的实例方法。请确保在调用前实体句柄处于有效生命周期内。",
+        "events": "本手册收录 CCB 游戏主循环与交互触发的全部原生事件。可通过 events.on 订阅。",
+        "hooks": "本手册收录 CCB 引擎导出的同步拦截点（Hooks）。可在原生逻辑执行前进行同步拦截与决策覆写。",
+        "callbacks": "本手册收录 CCB 物品 IUSE 动作与玩家行为交互执行的回调 Actor 目标。",
+        "enums": "本手册收录 CCB 导出的核心常量枚举、部位标识符与类型标签。",
+        "namespaces": "本手册收录 CCB 导出的顶级与功能命名空间（如 game.*, map.*, ui.*）。",
+        "capabilities": "本手册收录 CCB Lua 0.1 沙箱权限能力（Capabilities）清单与安全模型。",
+        "properties": "本手册收录 CCB 核心实体所导出的属性字段及读写访问权限。",
+        "operators": "本手册收录 CCB 三维坐标与向量运算支持的原生重载运算符。",
+        "modules": "本手册收录 CCB 导出的标准库与扩展模块。",
+        "manifest_fields": "本手册收录 CCB Mod 的 manifest.json 清单文件所支持的全部配置字段。",
+        "permissions": "本手册收录 CCB 权限系统与安全访问控制规则。",
+    }
+    section_descs_en = {
+        "classes": "This manual covers core classes and entity handles in CCB engine.",
+        "functions": "This manual covers global utility functions and static methods.",
+        "methods": "This manual covers instance methods available on core CCB entities.",
+        "events": "This manual covers native events dispatched during main loop and interactions.",
+        "hooks": "This manual covers synchronous interception points (Hooks) in CCB.",
+        "callbacks": "This manual covers callback actors for item IUSE and player interactions.",
+        "enums": "This manual covers core constant enums and type tags in CCB.",
+        "namespaces": "This manual covers top-level and functional namespaces in CCB.",
+        "capabilities": "This manual covers capability manifest permissions and security model.",
+        "properties": "This manual covers properties and field access permissions on entities.",
+        "operators": "This manual covers native operator overloads supported by spatial vectors.",
+        "modules": "This manual covers standard library and extension modules in CCB.",
+        "manifest_fields": "This manual covers all configuration fields in manifest.json.",
+        "permissions": "This manual covers the CCB permission system and access control rules.",
+    }
     if is_zh:
-        intro = (
-            f"本页为 CCB Lua 0.1 平台自动生成的 `{title}` 规范手册，"
-            f"收录 {count} 条 `{section}` 契约记录。"
-        )
+        intro = section_descs_zh.get(section, f"本手册收录 CCB Lua 0.1 `{title}` 参考。")
     else:
-        intro = (
-            f"This page is the automatically generated reference manual for CCB Lua 0.1, "
-            f"containing {count} `{section}` contract records."
+        intro = section_descs_en.get(
+            section, f"This manual covers CCB Lua 0.1 `{title}` reference."
         )
     lines = [GENERATED_MARKER, "", f"# {title}", "", intro, ""]
     if section == "permissions":

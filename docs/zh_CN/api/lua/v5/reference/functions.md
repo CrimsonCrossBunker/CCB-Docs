@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: ebf414851eee61cc73c409e8a8ca934d452abacdbf0ca5cf728ec5e92b1a28d6
+translation_source_fingerprint: 71589e5c28cab6218bab6e399ecf8a1db4c9a37a361238e4e6f9bcb8a0cba526
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,7 +68,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # 函数参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `函数参考` 规范手册，收录 488 条 `functions` 契约记录。
+本手册收录 CCB 引擎导出的全局工具函数与静态方法。可在 Mod 运行时环境中直接调用。
 
 ## `events.describe_native` { #symbol-api-lua-v5-generated-function-events-describe-native-88a1acca4cde }
 

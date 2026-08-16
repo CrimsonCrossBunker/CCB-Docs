@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: eb9d867168b0b785ad8f4c704f9df7e551192c7a8925426fa0d51bc60e919532
+translation_source_fingerprint: 0da07e1c9807e1971cf8f17e2aafce6e6d9b914fe31724061a4a8a0c6c14db0b
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,7 +68,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # 权限模型参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `权限模型参考` 规范手册，收录 1 条 `permissions` 契约记录。
+本手册收录 CCB 权限系统与安全访问控制规则。
 
 ## 权限系统模型
 

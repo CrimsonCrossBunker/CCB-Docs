@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: cec8811ba952d1591c227f256acb2c1edac6a512e5dc055caece597200249256
+translation_source_fingerprint: 71b2029a23fffa9d9df4bba5b854a773c561afe9906af3468e1d71bbeb4b9ffc
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,7 +68,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Callback actors
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 38 `callbacks` contract records.
+This manual covers callback actors for item IUSE and player interactions.
 
 ## `bionic.on_activate` { #symbol-api-lua-v5-generated-callback-bionic-on-activate-b54ab11f71b1 }
 

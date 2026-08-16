@@ -45,7 +45,7 @@ pages:
   translation_group: home
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 065b04168dbb4fd6e3ff34aa2498611e85123e94f36693b630a4b8393fa9e89f
+  translation_source_fingerprint: c029e08e0748ea803758654a8ace577e544623452fbbd0ccf8f5ec0b5511fc61
   prerequisites: []
   depends_on: []
   redirect_from: &id003 []
@@ -100,7 +100,7 @@ pages:
   translation_group: home
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 065b04168dbb4fd6e3ff34aa2498611e85123e94f36693b630a4b8393fa9e89f
+  translation_source_fingerprint: c029e08e0748ea803758654a8ace577e544623452fbbd0ccf8f5ec0b5511fc61
   prerequisites: []
   depends_on: []
   redirect_from: []
@@ -3076,7 +3076,7 @@ pages:
   translation_group: api.lua.v5.reference.modules
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 94b678cfc1044cc53363c83e8794b43686253fb2b8a7bcd4876fe411ede6b1a5
+  translation_source_fingerprint: 9b1f3b888da3f28685ecbca389ebd23fdcf07691b0b5091e905bceaee2c495c1
   prerequisites: &id182
   - api.lua.v5.overview
   depends_on: &id183 []
@@ -3120,7 +3120,7 @@ pages:
   translation_group: api.lua.v5.reference.modules
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 94b678cfc1044cc53363c83e8794b43686253fb2b8a7bcd4876fe411ede6b1a5
+  translation_source_fingerprint: 9b1f3b888da3f28685ecbca389ebd23fdcf07691b0b5091e905bceaee2c495c1
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3164,7 +3164,7 @@ pages:
   translation_group: api.lua.v5.reference.namespaces
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: ba90185837772e666d9b441b803e9ebee7dd701cff79086d208018aa1978b457
+  translation_source_fingerprint: a9fc0af98b298b43b2e9a8b42cce7a6e425ad393260aad29264904caee95df74
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3207,7 +3207,7 @@ pages:
   translation_group: api.lua.v5.reference.namespaces
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: ba90185837772e666d9b441b803e9ebee7dd701cff79086d208018aa1978b457
+  translation_source_fingerprint: a9fc0af98b298b43b2e9a8b42cce7a6e425ad393260aad29264904caee95df74
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3251,7 +3251,7 @@ pages:
   translation_group: api.lua.v5.reference.classes
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 5d8baf43000e8f65fb9b6d6a8ab3452ec4b2e04533991a5d1343b834e2a28338
+  translation_source_fingerprint: b20254dc2abd99950eb0527fd4a0046722de4c5f199fd8dc64f898501e8179b7
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3294,7 +3294,7 @@ pages:
   translation_group: api.lua.v5.reference.classes
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 5d8baf43000e8f65fb9b6d6a8ab3452ec4b2e04533991a5d1343b834e2a28338
+  translation_source_fingerprint: b20254dc2abd99950eb0527fd4a0046722de4c5f199fd8dc64f898501e8179b7
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3338,7 +3338,7 @@ pages:
   translation_group: api.lua.v5.reference.functions
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: ebf414851eee61cc73c409e8a8ca934d452abacdbf0ca5cf728ec5e92b1a28d6
+  translation_source_fingerprint: 71589e5c28cab6218bab6e399ecf8a1db4c9a37a361238e4e6f9bcb8a0cba526
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3381,7 +3381,7 @@ pages:
   translation_group: api.lua.v5.reference.functions
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: ebf414851eee61cc73c409e8a8ca934d452abacdbf0ca5cf728ec5e92b1a28d6
+  translation_source_fingerprint: 71589e5c28cab6218bab6e399ecf8a1db4c9a37a361238e4e6f9bcb8a0cba526
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3425,7 +3425,7 @@ pages:
   translation_group: api.lua.v5.reference.methods
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 3a1f90876b97b55dec30797cdd16a146ef8602ea37108e90acc4076f4eae9b5c
+  translation_source_fingerprint: 6955c0137a36ba4a1f2d6304e52f23a5947809dc33367d112d5be049aef16964
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3468,7 +3468,7 @@ pages:
   translation_group: api.lua.v5.reference.methods
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 3a1f90876b97b55dec30797cdd16a146ef8602ea37108e90acc4076f4eae9b5c
+  translation_source_fingerprint: 6955c0137a36ba4a1f2d6304e52f23a5947809dc33367d112d5be049aef16964
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3512,7 +3512,7 @@ pages:
   translation_group: api.lua.v5.reference.properties
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 2e01bc6900b3485997d53b65db28ef6ef5ddd75bb119ba3f4ee669b90dafef60
+  translation_source_fingerprint: 16758d296b814f6b6c1c442d097e545975974a576711df4ffb94e1c3c3d9f48b
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3555,7 +3555,7 @@ pages:
   translation_group: api.lua.v5.reference.properties
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 2e01bc6900b3485997d53b65db28ef6ef5ddd75bb119ba3f4ee669b90dafef60
+  translation_source_fingerprint: 16758d296b814f6b6c1c442d097e545975974a576711df4ffb94e1c3c3d9f48b
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3599,7 +3599,7 @@ pages:
   translation_group: api.lua.v5.reference.operators
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 0ec165c155b122517974c365e6323e592a655d2865171adc824a7dcd9da97dee
+  translation_source_fingerprint: b06efdd47f12d93029602fd2d0274a281e7a9f843a7dd827be9685573e920320
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3642,7 +3642,7 @@ pages:
   translation_group: api.lua.v5.reference.operators
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 0ec165c155b122517974c365e6323e592a655d2865171adc824a7dcd9da97dee
+  translation_source_fingerprint: b06efdd47f12d93029602fd2d0274a281e7a9f843a7dd827be9685573e920320
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3686,7 +3686,7 @@ pages:
   translation_group: api.lua.v5.reference.enums
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 53bb24a1c7d9d3c816e1d8f66039cfc8c9aa1e40a773ec4a2e7f4ebb967f0032
+  translation_source_fingerprint: 3f2bd0a565435a8908226f275c5f30108411312cf1d0c489d448ba14f0618fe7
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3729,7 +3729,7 @@ pages:
   translation_group: api.lua.v5.reference.enums
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 53bb24a1c7d9d3c816e1d8f66039cfc8c9aa1e40a773ec4a2e7f4ebb967f0032
+  translation_source_fingerprint: 3f2bd0a565435a8908226f275c5f30108411312cf1d0c489d448ba14f0618fe7
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3773,7 +3773,7 @@ pages:
   translation_group: api.lua.v5.reference.events
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 2a92f980977bd669bcda6cf8775aa50e0c1772f1346b61406897e1d7fda45aad
+  translation_source_fingerprint: 6f29317f2534d224f2b818977b404cfecc949a5ab2b71d0ee6c648e535f835e3
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3816,7 +3816,7 @@ pages:
   translation_group: api.lua.v5.reference.events
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 2a92f980977bd669bcda6cf8775aa50e0c1772f1346b61406897e1d7fda45aad
+  translation_source_fingerprint: 6f29317f2534d224f2b818977b404cfecc949a5ab2b71d0ee6c648e535f835e3
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3860,7 +3860,7 @@ pages:
   translation_group: api.lua.v5.reference.hooks
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 3044d988f01e944de2f87ad9a03418f99495fa75bedd13992193bf37ce5ca487
+  translation_source_fingerprint: e13c9908ab38f39109356a74f14e72f8718ee77895e51a2dbba043cbbde69d9a
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3903,7 +3903,7 @@ pages:
   translation_group: api.lua.v5.reference.hooks
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 3044d988f01e944de2f87ad9a03418f99495fa75bedd13992193bf37ce5ca487
+  translation_source_fingerprint: e13c9908ab38f39109356a74f14e72f8718ee77895e51a2dbba043cbbde69d9a
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3947,7 +3947,7 @@ pages:
   translation_group: api.lua.v5.reference.callbacks
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: cec8811ba952d1591c227f256acb2c1edac6a512e5dc055caece597200249256
+  translation_source_fingerprint: 71b2029a23fffa9d9df4bba5b854a773c561afe9906af3468e1d71bbeb4b9ffc
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3990,7 +3990,7 @@ pages:
   translation_group: api.lua.v5.reference.callbacks
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: cec8811ba952d1591c227f256acb2c1edac6a512e5dc055caece597200249256
+  translation_source_fingerprint: 71b2029a23fffa9d9df4bba5b854a773c561afe9906af3468e1d71bbeb4b9ffc
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -4034,7 +4034,7 @@ pages:
   translation_group: api.lua.v5.reference.capabilities
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 14bf3f1fc054684e43bb7e625775ae091f36e3e253897886ff34b4ad754f8c07
+  translation_source_fingerprint: e11e3c7254c8ff765cfbca315a64e89353c17b1b2abcb8a4b12804829c8fc42f
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -4077,7 +4077,7 @@ pages:
   translation_group: api.lua.v5.reference.capabilities
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 14bf3f1fc054684e43bb7e625775ae091f36e3e253897886ff34b4ad754f8c07
+  translation_source_fingerprint: e11e3c7254c8ff765cfbca315a64e89353c17b1b2abcb8a4b12804829c8fc42f
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -4121,7 +4121,7 @@ pages:
   translation_group: api.lua.v5.reference.permissions
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: eb9d867168b0b785ad8f4c704f9df7e551192c7a8925426fa0d51bc60e919532
+  translation_source_fingerprint: 0da07e1c9807e1971cf8f17e2aafce6e6d9b914fe31724061a4a8a0c6c14db0b
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -4164,7 +4164,7 @@ pages:
   translation_group: api.lua.v5.reference.permissions
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: eb9d867168b0b785ad8f4c704f9df7e551192c7a8925426fa0d51bc60e919532
+  translation_source_fingerprint: 0da07e1c9807e1971cf8f17e2aafce6e6d9b914fe31724061a4a8a0c6c14db0b
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -4208,7 +4208,7 @@ pages:
   translation_group: api.lua.v5.reference.manifest-fields
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 10dbab444dd6b988e9e227d5da3f555fa1848cd0e993282027534a416a0c4782
+  translation_source_fingerprint: aa1e3a5f080c5a8b998ebff2e4e93906644040b0385d97347e7af2f9604ff32b
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -4251,7 +4251,7 @@ pages:
   translation_group: api.lua.v5.reference.manifest-fields
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 10dbab444dd6b988e9e227d5da3f555fa1848cd0e993282027534a416a0c4782
+  translation_source_fingerprint: aa1e3a5f080c5a8b998ebff2e4e93906644040b0385d97347e7af2f9604ff32b
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -9648,3 +9648,531 @@ pages:
   nav:
     section: Contributing and Governance
     order: 3
+- id: subsystems.character
+  title: 角色与生物系统技术手册
+  language: zh_CN
+  path: subsystems/character.md
+  status: active
+  doc_type: explanation
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: subsystems.character
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 288754596440a1d571ef830cb63b3541390668930744733d8dd833cf0158830a
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: 游戏核心子系统手册
+    order: 1
+- id: subsystems.character
+  title: Characters and Creatures Manual
+  language: en
+  path: subsystems/character.md
+  status: active
+  doc_type: explanation
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: subsystems.character
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 288754596440a1d571ef830cb63b3541390668930744733d8dd833cf0158830a
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: Core Subsystems Manual
+    order: 1
+- id: subsystems.items
+  title: 物品与 Pocket 容器系统技术手册
+  language: zh_CN
+  path: subsystems/items.md
+  status: active
+  doc_type: explanation
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: subsystems.items
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 6eddd8f446b4c2f91b776c7fb6b676cd77c5e79f09fad5cd7d7f0b2bc56fe6fd
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: 游戏核心子系统手册
+    order: 2
+- id: subsystems.items
+  title: Items and Pockets Manual
+  language: en
+  path: subsystems/items.md
+  status: active
+  doc_type: explanation
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: subsystems.items
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 6eddd8f446b4c2f91b776c7fb6b676cd77c5e79f09fad5cd7d7f0b2bc56fe6fd
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: Core Subsystems Manual
+    order: 2
+- id: subsystems.map
+  title: 地图与程序化生成技术手册
+  language: zh_CN
+  path: subsystems/map.md
+  status: active
+  doc_type: explanation
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: subsystems.map
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: b127ae98a838029ef6a31fb5a7740699bc02cecae605021f8792122938fdd0a9
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: 游戏核心子系统手册
+    order: 3
+- id: subsystems.map
+  title: Map and Mapgen Manual
+  language: en
+  path: subsystems/map.md
+  status: active
+  doc_type: explanation
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: subsystems.map
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: b127ae98a838029ef6a31fb5a7740699bc02cecae605021f8792122938fdd0a9
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: Core Subsystems Manual
+    order: 3
+- id: subsystems.combat
+  title: 战斗、伤害与护甲结算技术手册
+  language: zh_CN
+  path: subsystems/combat.md
+  status: active
+  doc_type: explanation
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: subsystems.combat
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 3d5c2e9e0c44fa2d87153b30ef6dfcbbc4e57bfa977a775db3fbae73278335b1
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: 游戏核心子系统手册
+    order: 4
+- id: subsystems.combat
+  title: Combat and Damage Manual
+  language: en
+  path: subsystems/combat.md
+  status: active
+  doc_type: explanation
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: subsystems.combat
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 3d5c2e9e0c44fa2d87153b30ef6dfcbbc4e57bfa977a775db3fbae73278335b1
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: Core Subsystems Manual
+    order: 4
+- id: subsystems.water
+  title: 有限水体与环境物理系统技术手册
+  language: zh_CN
+  path: subsystems/water.md
+  status: active
+  doc_type: explanation
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: subsystems.water
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 4d061b163618f65ddebc716bfd48eebf9ff7d3061c5ffba9cb06daa54d3f26ea
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: 游戏核心子系统手册
+    order: 5
+- id: subsystems.water
+  title: Finite Water and Environment Manual
+  language: en
+  path: subsystems/water.md
+  status: active
+  doc_type: explanation
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: subsystems.water
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 4d061b163618f65ddebc716bfd48eebf9ff7d3061c5ffba9cb06daa54d3f26ea
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: Core Subsystems Manual
+    order: 5
+- id: subsystems.vehicles
+  title: 车辆动力学与模块化部件系统技术手册
+  language: zh_CN
+  path: subsystems/vehicles.md
+  status: active
+  doc_type: explanation
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: subsystems.vehicles
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 3f95dc96abe7c05ee2b417ec1635f7549d8d303235597e7e18a2e0d7405c41f5
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: 游戏核心子系统手册
+    order: 6
+- id: subsystems.vehicles
+  title: Vehicles and Parts Manual
+  language: en
+  path: subsystems/vehicles.md
+  status: active
+  doc_type: explanation
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: subsystems.vehicles
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 3f95dc96abe7c05ee2b417ec1635f7549d8d303235597e7e18a2e0d7405c41f5
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: Core Subsystems Manual
+    order: 6

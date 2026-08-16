@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 10dbab444dd6b988e9e227d5da3f555fa1848cd0e993282027534a416a0c4782
+translation_source_fingerprint: aa1e3a5f080c5a8b998ebff2e4e93906644040b0385d97347e7af2f9604ff32b
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,7 +68,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Manifest 字段参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `Manifest 字段参考` 规范手册，收录 6 条 `manifest_fields` 契约记录。
+本手册收录 CCB Mod 的 manifest.json 清单文件所支持的全部配置字段。
 
 ## `$schema` { #symbol-api-lua-v5-generated-manifest-field-schema-24601b92d545 }
 

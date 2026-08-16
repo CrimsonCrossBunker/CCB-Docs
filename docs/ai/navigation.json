@@ -8,11 +8,39 @@
       "path": "index.md"
     },
     {
+      "id": "subsystems.character",
+      "title": "角色与生物系统技术手册",
+      "section": "游戏核心子系统手册",
+      "order": 1,
+      "path": "subsystems/character.md"
+    },
+    {
+      "id": "subsystems.items",
+      "title": "物品与 Pocket 容器系统技术手册",
+      "section": "游戏核心子系统手册",
+      "order": 2,
+      "path": "subsystems/items.md"
+    },
+    {
       "id": "contributing.core-dev-guide",
       "title": "游戏本体核心开发与贡献指南",
       "section": "贡献与治理",
       "order": 3,
       "path": "contributing/core-dev-guide.md"
+    },
+    {
+      "id": "subsystems.map",
+      "title": "地图与程序化生成技术手册",
+      "section": "游戏核心子系统手册",
+      "order": 3,
+      "path": "subsystems/map.md"
+    },
+    {
+      "id": "subsystems.combat",
+      "title": "战斗、伤害与护甲结算技术手册",
+      "section": "游戏核心子系统手册",
+      "order": 4,
+      "path": "subsystems/combat.md"
     },
     {
       "id": "architecture.core-engine-lifecycle",
@@ -22,11 +50,25 @@
       "path": "architecture/core-engine-lifecycle.md"
     },
     {
+      "id": "subsystems.water",
+      "title": "有限水体与环境物理系统技术手册",
+      "section": "游戏核心子系统手册",
+      "order": 5,
+      "path": "subsystems/water.md"
+    },
+    {
       "id": "architecture.subsystems-deep-dive",
       "title": "游戏引擎核心八大子系统深度剖析",
       "section": "架构",
       "order": 6,
       "path": "architecture/subsystems-deep-dive.md"
+    },
+    {
+      "id": "subsystems.vehicles",
+      "title": "车辆动力学与模块化部件系统技术手册",
+      "section": "游戏核心子系统手册",
+      "order": 6,
+      "path": "subsystems/vehicles.md"
     },
     {
       "id": "cpp.native-binding-guide",
@@ -717,11 +759,39 @@
       "path": "index.md"
     },
     {
+      "id": "subsystems.character",
+      "title": "Characters and Creatures Manual",
+      "section": "Core Subsystems Manual",
+      "order": 1,
+      "path": "subsystems/character.md"
+    },
+    {
+      "id": "subsystems.items",
+      "title": "Items and Pockets Manual",
+      "section": "Core Subsystems Manual",
+      "order": 2,
+      "path": "subsystems/items.md"
+    },
+    {
       "id": "contributing.core-dev-guide",
       "title": "Core Development and Contribution Guide",
       "section": "Contributing and Governance",
       "order": 3,
       "path": "contributing/core-dev-guide.md"
+    },
+    {
+      "id": "subsystems.map",
+      "title": "Map and Mapgen Manual",
+      "section": "Core Subsystems Manual",
+      "order": 3,
+      "path": "subsystems/map.md"
+    },
+    {
+      "id": "subsystems.combat",
+      "title": "Combat and Damage Manual",
+      "section": "Core Subsystems Manual",
+      "order": 4,
+      "path": "subsystems/combat.md"
     },
     {
       "id": "architecture.core-engine-lifecycle",
@@ -731,11 +801,25 @@
       "path": "architecture/core-engine-lifecycle.md"
     },
     {
+      "id": "subsystems.water",
+      "title": "Finite Water and Environment Manual",
+      "section": "Core Subsystems Manual",
+      "order": 5,
+      "path": "subsystems/water.md"
+    },
+    {
       "id": "architecture.subsystems-deep-dive",
       "title": "Engine Subsystems Deep Dive",
       "section": "Architecture",
       "order": 6,
       "path": "architecture/subsystems-deep-dive.md"
+    },
+    {
+      "id": "subsystems.vehicles",
+      "title": "Vehicles and Parts Manual",
+      "section": "Core Subsystems Manual",
+      "order": 6,
+      "path": "subsystems/vehicles.md"
     },
     {
       "id": "cpp.native-binding-guide",

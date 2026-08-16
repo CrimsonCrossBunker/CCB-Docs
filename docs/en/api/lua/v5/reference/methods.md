@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 3a1f90876b97b55dec30797cdd16a146ef8602ea37108e90acc4076f4eae9b5c
+translation_source_fingerprint: 6955c0137a36ba4a1f2d6304e52f23a5947809dc33367d112d5be049aef16964
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,7 +68,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Methods
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 142 `methods` contract records.
+This manual covers instance methods available on core CCB entities.
 
 ## `GameHandle.is_valid` { #symbol-api-lua-v5-generated-method-gamehandle-is-valid-c9eef6069d4e }
 

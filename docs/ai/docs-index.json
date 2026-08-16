@@ -1759,7 +1759,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "cec8811ba952d1591c227f256acb2c1edac6a512e5dc055caece597200249256",
+      "translation_source_fingerprint": "71b2029a23fffa9d9df4bba5b854a773c561afe9906af3468e1d71bbeb4b9ffc",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -1818,7 +1818,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "cec8811ba952d1591c227f256acb2c1edac6a512e5dc055caece597200249256",
+      "translation_source_fingerprint": "71b2029a23fffa9d9df4bba5b854a773c561afe9906af3468e1d71bbeb4b9ffc",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -1877,7 +1877,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "14bf3f1fc054684e43bb7e625775ae091f36e3e253897886ff34b4ad754f8c07",
+      "translation_source_fingerprint": "e11e3c7254c8ff765cfbca315a64e89353c17b1b2abcb8a4b12804829c8fc42f",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -1936,7 +1936,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "14bf3f1fc054684e43bb7e625775ae091f36e3e253897886ff34b4ad754f8c07",
+      "translation_source_fingerprint": "e11e3c7254c8ff765cfbca315a64e89353c17b1b2abcb8a4b12804829c8fc42f",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -1995,7 +1995,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "5d8baf43000e8f65fb9b6d6a8ab3452ec4b2e04533991a5d1343b834e2a28338",
+      "translation_source_fingerprint": "b20254dc2abd99950eb0527fd4a0046722de4c5f199fd8dc64f898501e8179b7",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -2054,7 +2054,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "5d8baf43000e8f65fb9b6d6a8ab3452ec4b2e04533991a5d1343b834e2a28338",
+      "translation_source_fingerprint": "b20254dc2abd99950eb0527fd4a0046722de4c5f199fd8dc64f898501e8179b7",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -2113,7 +2113,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "53bb24a1c7d9d3c816e1d8f66039cfc8c9aa1e40a773ec4a2e7f4ebb967f0032",
+      "translation_source_fingerprint": "3f2bd0a565435a8908226f275c5f30108411312cf1d0c489d448ba14f0618fe7",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -2172,7 +2172,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "53bb24a1c7d9d3c816e1d8f66039cfc8c9aa1e40a773ec4a2e7f4ebb967f0032",
+      "translation_source_fingerprint": "3f2bd0a565435a8908226f275c5f30108411312cf1d0c489d448ba14f0618fe7",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -2231,7 +2231,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "2a92f980977bd669bcda6cf8775aa50e0c1772f1346b61406897e1d7fda45aad",
+      "translation_source_fingerprint": "6f29317f2534d224f2b818977b404cfecc949a5ab2b71d0ee6c648e535f835e3",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -2290,7 +2290,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "2a92f980977bd669bcda6cf8775aa50e0c1772f1346b61406897e1d7fda45aad",
+      "translation_source_fingerprint": "6f29317f2534d224f2b818977b404cfecc949a5ab2b71d0ee6c648e535f835e3",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -2349,7 +2349,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "ebf414851eee61cc73c409e8a8ca934d452abacdbf0ca5cf728ec5e92b1a28d6",
+      "translation_source_fingerprint": "71589e5c28cab6218bab6e399ecf8a1db4c9a37a361238e4e6f9bcb8a0cba526",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -2408,7 +2408,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "ebf414851eee61cc73c409e8a8ca934d452abacdbf0ca5cf728ec5e92b1a28d6",
+      "translation_source_fingerprint": "71589e5c28cab6218bab6e399ecf8a1db4c9a37a361238e4e6f9bcb8a0cba526",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -2467,7 +2467,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "3044d988f01e944de2f87ad9a03418f99495fa75bedd13992193bf37ce5ca487",
+      "translation_source_fingerprint": "e13c9908ab38f39109356a74f14e72f8718ee77895e51a2dbba043cbbde69d9a",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -2526,7 +2526,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "3044d988f01e944de2f87ad9a03418f99495fa75bedd13992193bf37ce5ca487",
+      "translation_source_fingerprint": "e13c9908ab38f39109356a74f14e72f8718ee77895e51a2dbba043cbbde69d9a",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -2585,7 +2585,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "10dbab444dd6b988e9e227d5da3f555fa1848cd0e993282027534a416a0c4782",
+      "translation_source_fingerprint": "aa1e3a5f080c5a8b998ebff2e4e93906644040b0385d97347e7af2f9604ff32b",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -2644,7 +2644,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "10dbab444dd6b988e9e227d5da3f555fa1848cd0e993282027534a416a0c4782",
+      "translation_source_fingerprint": "aa1e3a5f080c5a8b998ebff2e4e93906644040b0385d97347e7af2f9604ff32b",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -2703,7 +2703,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "3a1f90876b97b55dec30797cdd16a146ef8602ea37108e90acc4076f4eae9b5c",
+      "translation_source_fingerprint": "6955c0137a36ba4a1f2d6304e52f23a5947809dc33367d112d5be049aef16964",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -2762,7 +2762,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "3a1f90876b97b55dec30797cdd16a146ef8602ea37108e90acc4076f4eae9b5c",
+      "translation_source_fingerprint": "6955c0137a36ba4a1f2d6304e52f23a5947809dc33367d112d5be049aef16964",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -2821,7 +2821,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "94b678cfc1044cc53363c83e8794b43686253fb2b8a7bcd4876fe411ede6b1a5",
+      "translation_source_fingerprint": "9b1f3b888da3f28685ecbca389ebd23fdcf07691b0b5091e905bceaee2c495c1",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -2880,7 +2880,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "94b678cfc1044cc53363c83e8794b43686253fb2b8a7bcd4876fe411ede6b1a5",
+      "translation_source_fingerprint": "9b1f3b888da3f28685ecbca389ebd23fdcf07691b0b5091e905bceaee2c495c1",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -2939,7 +2939,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "ba90185837772e666d9b441b803e9ebee7dd701cff79086d208018aa1978b457",
+      "translation_source_fingerprint": "a9fc0af98b298b43b2e9a8b42cce7a6e425ad393260aad29264904caee95df74",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -2998,7 +2998,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "ba90185837772e666d9b441b803e9ebee7dd701cff79086d208018aa1978b457",
+      "translation_source_fingerprint": "a9fc0af98b298b43b2e9a8b42cce7a6e425ad393260aad29264904caee95df74",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -3057,7 +3057,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "0ec165c155b122517974c365e6323e592a655d2865171adc824a7dcd9da97dee",
+      "translation_source_fingerprint": "b06efdd47f12d93029602fd2d0274a281e7a9f843a7dd827be9685573e920320",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -3116,7 +3116,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "0ec165c155b122517974c365e6323e592a655d2865171adc824a7dcd9da97dee",
+      "translation_source_fingerprint": "b06efdd47f12d93029602fd2d0274a281e7a9f843a7dd827be9685573e920320",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -3175,7 +3175,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "eb9d867168b0b785ad8f4c704f9df7e551192c7a8925426fa0d51bc60e919532",
+      "translation_source_fingerprint": "0da07e1c9807e1971cf8f17e2aafce6e6d9b914fe31724061a4a8a0c6c14db0b",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -3234,7 +3234,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "eb9d867168b0b785ad8f4c704f9df7e551192c7a8925426fa0d51bc60e919532",
+      "translation_source_fingerprint": "0da07e1c9807e1971cf8f17e2aafce6e6d9b914fe31724061a4a8a0c6c14db0b",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -3293,7 +3293,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "2e01bc6900b3485997d53b65db28ef6ef5ddd75bb119ba3f4ee669b90dafef60",
+      "translation_source_fingerprint": "16758d296b814f6b6c1c442d097e545975974a576711df4ffb94e1c3c3d9f48b",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -3352,7 +3352,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "2e01bc6900b3485997d53b65db28ef6ef5ddd75bb119ba3f4ee669b90dafef60",
+      "translation_source_fingerprint": "16758d296b814f6b6c1c442d097e545975974a576711df4ffb94e1c3c3d9f48b",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -8968,7 +8968,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "065b04168dbb4fd6e3ff34aa2498611e85123e94f36693b630a4b8393fa9e89f",
+      "translation_source_fingerprint": "c029e08e0748ea803758654a8ace577e544623452fbbd0ccf8f5ec0b5511fc61",
       "prerequisites": [],
       "depends_on": [],
       "redirect_from": [],
@@ -9028,7 +9028,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "065b04168dbb4fd6e3ff34aa2498611e85123e94f36693b630a4b8393fa9e89f",
+      "translation_source_fingerprint": "c029e08e0748ea803758654a8ace577e544623452fbbd0ccf8f5ec0b5511fc61",
       "prerequisites": [],
       "depends_on": [],
       "redirect_from": [],
@@ -12339,6 +12339,786 @@
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/resources/translation/"
     },
     {
+      "id": "subsystems.character",
+      "title": "Characters and Creatures Manual",
+      "language": "en",
+      "status": "active",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "Lua Mod API v5"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb",
+      "authority": "api-contract",
+      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "288754596440a1d571ef830cb63b3541390668930744733d8dd833cf0158830a",
+      "prerequisites": [
+        "architecture.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [
+        "lua.v5.overview"
+      ],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "subsystems/character.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/"
+    },
+    {
+      "id": "subsystems.character",
+      "title": "角色与生物系统技术手册",
+      "language": "zh_CN",
+      "status": "active",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "Lua Mod API v5"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb",
+      "authority": "api-contract",
+      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "288754596440a1d571ef830cb63b3541390668930744733d8dd833cf0158830a",
+      "prerequisites": [
+        "architecture.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [
+        "lua.v5.overview"
+      ],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "subsystems/character.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/"
+    },
+    {
+      "id": "subsystems.combat",
+      "title": "Combat and Damage Manual",
+      "language": "en",
+      "status": "active",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "Lua Mod API v5"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb",
+      "authority": "api-contract",
+      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "3d5c2e9e0c44fa2d87153b30ef6dfcbbc4e57bfa977a775db3fbae73278335b1",
+      "prerequisites": [
+        "architecture.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [
+        "lua.v5.overview"
+      ],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "subsystems/combat.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/"
+    },
+    {
+      "id": "subsystems.combat",
+      "title": "战斗、伤害与护甲结算技术手册",
+      "language": "zh_CN",
+      "status": "active",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "Lua Mod API v5"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb",
+      "authority": "api-contract",
+      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "3d5c2e9e0c44fa2d87153b30ef6dfcbbc4e57bfa977a775db3fbae73278335b1",
+      "prerequisites": [
+        "architecture.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [
+        "lua.v5.overview"
+      ],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "subsystems/combat.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/"
+    },
+    {
+      "id": "subsystems.items",
+      "title": "Items and Pockets Manual",
+      "language": "en",
+      "status": "active",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "Lua Mod API v5"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb",
+      "authority": "api-contract",
+      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "6eddd8f446b4c2f91b776c7fb6b676cd77c5e79f09fad5cd7d7f0b2bc56fe6fd",
+      "prerequisites": [
+        "architecture.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [
+        "lua.v5.overview"
+      ],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "subsystems/items.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/items/"
+    },
+    {
+      "id": "subsystems.items",
+      "title": "物品与 Pocket 容器系统技术手册",
+      "language": "zh_CN",
+      "status": "active",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "Lua Mod API v5"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb",
+      "authority": "api-contract",
+      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "6eddd8f446b4c2f91b776c7fb6b676cd77c5e79f09fad5cd7d7f0b2bc56fe6fd",
+      "prerequisites": [
+        "architecture.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [
+        "lua.v5.overview"
+      ],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "subsystems/items.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/"
+    },
+    {
+      "id": "subsystems.map",
+      "title": "Map and Mapgen Manual",
+      "language": "en",
+      "status": "active",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "Lua Mod API v5"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb",
+      "authority": "api-contract",
+      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "b127ae98a838029ef6a31fb5a7740699bc02cecae605021f8792122938fdd0a9",
+      "prerequisites": [
+        "architecture.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [
+        "lua.v5.overview"
+      ],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "subsystems/map.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/"
+    },
+    {
+      "id": "subsystems.map",
+      "title": "地图与程序化生成技术手册",
+      "language": "zh_CN",
+      "status": "active",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "Lua Mod API v5"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb",
+      "authority": "api-contract",
+      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "b127ae98a838029ef6a31fb5a7740699bc02cecae605021f8792122938fdd0a9",
+      "prerequisites": [
+        "architecture.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [
+        "lua.v5.overview"
+      ],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "subsystems/map.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/map/"
+    },
+    {
+      "id": "subsystems.vehicles",
+      "title": "Vehicles and Parts Manual",
+      "language": "en",
+      "status": "active",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "Lua Mod API v5"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb",
+      "authority": "api-contract",
+      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "3f95dc96abe7c05ee2b417ec1635f7549d8d303235597e7e18a2e0d7405c41f5",
+      "prerequisites": [
+        "architecture.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [
+        "lua.v5.overview"
+      ],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "subsystems/vehicles.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/"
+    },
+    {
+      "id": "subsystems.vehicles",
+      "title": "车辆动力学与模块化部件系统技术手册",
+      "language": "zh_CN",
+      "status": "active",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "Lua Mod API v5"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb",
+      "authority": "api-contract",
+      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "3f95dc96abe7c05ee2b417ec1635f7549d8d303235597e7e18a2e0d7405c41f5",
+      "prerequisites": [
+        "architecture.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [
+        "lua.v5.overview"
+      ],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "subsystems/vehicles.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/vehicles/"
+    },
+    {
+      "id": "subsystems.water",
+      "title": "Finite Water and Environment Manual",
+      "language": "en",
+      "status": "active",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "Lua Mod API v5"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb",
+      "authority": "api-contract",
+      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "4d061b163618f65ddebc716bfd48eebf9ff7d3061c5ffba9cb06daa54d3f26ea",
+      "prerequisites": [
+        "architecture.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [
+        "lua.v5.overview"
+      ],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "subsystems/water.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/"
+    },
+    {
+      "id": "subsystems.water",
+      "title": "有限水体与环境物理系统技术手册",
+      "language": "zh_CN",
+      "status": "active",
+      "doc_type": "explanation",
+      "audiences": [
+        "mod-author",
+        "api-user",
+        "experienced-contributor",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/manifest.schema.json",
+        "data/lua/types/ccb_api_v5.d.lua",
+        "data/lua/reference/ccb_public_api_v5.json",
+        "data/lua/reference/ccb_public_api_v5_coverage.json",
+        "tools/lua_api/README.md"
+      ],
+      "source_symbols": [
+        "Lua Mod API v5"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb",
+      "authority": "api-contract",
+      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
+      "verified_at": "2026-08-02",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "4d061b163618f65ddebc716bfd48eebf9ff7d3061c5ffba9cb06daa54d3f26ea",
+      "prerequisites": [
+        "architecture.overview"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [
+        "lua.v5.overview"
+      ],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; generated contract and source paths at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "5",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "subsystems/water.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/water/"
+    },
+    {
       "id": "validation.debugging",
       "title": "Debugging and failure isolation",
       "language": "en",
@@ -13110,6 +13890,30 @@
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/resources/translation/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/translation/"
     },
+    "subsystems.character": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/"
+    },
+    "subsystems.combat": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/"
+    },
+    "subsystems.items": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/items/"
+    },
+    "subsystems.map": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/map/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/"
+    },
+    "subsystems.vehicles": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/vehicles/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/"
+    },
+    "subsystems.water": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/water/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/"
+    },
     "validation.debugging": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/debugging/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/debugging/"
@@ -13286,6 +14090,12 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/sound/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/tiles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/translation/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/items/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/debugging/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/testing/",
@@ -13323,6 +14133,12 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/sound/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/tiles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/translation/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/map/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/vehicles/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/water/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/validation/debugging/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/validation/testing/"
@@ -13490,6 +14306,12 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/sound/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/tiles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/translation/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/items/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/debugging/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/testing/",
@@ -13527,6 +14349,12 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/sound/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/tiles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/translation/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/map/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/vehicles/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/water/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/validation/debugging/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/validation/testing/"
@@ -13694,6 +14522,12 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/sound/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/tiles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/translation/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/items/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/debugging/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/testing/",
@@ -13731,6 +14565,12 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/sound/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/tiles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/translation/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/map/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/vehicles/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/water/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/validation/debugging/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/validation/testing/"
@@ -13748,11 +14588,39 @@
         "path": "index.md"
       },
       {
+        "id": "subsystems.character",
+        "title": "角色与生物系统技术手册",
+        "section": "游戏核心子系统手册",
+        "order": 1,
+        "path": "subsystems/character.md"
+      },
+      {
+        "id": "subsystems.items",
+        "title": "物品与 Pocket 容器系统技术手册",
+        "section": "游戏核心子系统手册",
+        "order": 2,
+        "path": "subsystems/items.md"
+      },
+      {
         "id": "contributing.core-dev-guide",
         "title": "游戏本体核心开发与贡献指南",
         "section": "贡献与治理",
         "order": 3,
         "path": "contributing/core-dev-guide.md"
+      },
+      {
+        "id": "subsystems.map",
+        "title": "地图与程序化生成技术手册",
+        "section": "游戏核心子系统手册",
+        "order": 3,
+        "path": "subsystems/map.md"
+      },
+      {
+        "id": "subsystems.combat",
+        "title": "战斗、伤害与护甲结算技术手册",
+        "section": "游戏核心子系统手册",
+        "order": 4,
+        "path": "subsystems/combat.md"
       },
       {
         "id": "architecture.core-engine-lifecycle",
@@ -13762,11 +14630,25 @@
         "path": "architecture/core-engine-lifecycle.md"
       },
       {
+        "id": "subsystems.water",
+        "title": "有限水体与环境物理系统技术手册",
+        "section": "游戏核心子系统手册",
+        "order": 5,
+        "path": "subsystems/water.md"
+      },
+      {
         "id": "architecture.subsystems-deep-dive",
         "title": "游戏引擎核心八大子系统深度剖析",
         "section": "架构",
         "order": 6,
         "path": "architecture/subsystems-deep-dive.md"
+      },
+      {
+        "id": "subsystems.vehicles",
+        "title": "车辆动力学与模块化部件系统技术手册",
+        "section": "游戏核心子系统手册",
+        "order": 6,
+        "path": "subsystems/vehicles.md"
       },
       {
         "id": "cpp.native-binding-guide",
@@ -14457,11 +15339,39 @@
         "path": "index.md"
       },
       {
+        "id": "subsystems.character",
+        "title": "Characters and Creatures Manual",
+        "section": "Core Subsystems Manual",
+        "order": 1,
+        "path": "subsystems/character.md"
+      },
+      {
+        "id": "subsystems.items",
+        "title": "Items and Pockets Manual",
+        "section": "Core Subsystems Manual",
+        "order": 2,
+        "path": "subsystems/items.md"
+      },
+      {
         "id": "contributing.core-dev-guide",
         "title": "Core Development and Contribution Guide",
         "section": "Contributing and Governance",
         "order": 3,
         "path": "contributing/core-dev-guide.md"
+      },
+      {
+        "id": "subsystems.map",
+        "title": "Map and Mapgen Manual",
+        "section": "Core Subsystems Manual",
+        "order": 3,
+        "path": "subsystems/map.md"
+      },
+      {
+        "id": "subsystems.combat",
+        "title": "Combat and Damage Manual",
+        "section": "Core Subsystems Manual",
+        "order": 4,
+        "path": "subsystems/combat.md"
       },
       {
         "id": "architecture.core-engine-lifecycle",
@@ -14471,11 +15381,25 @@
         "path": "architecture/core-engine-lifecycle.md"
       },
       {
+        "id": "subsystems.water",
+        "title": "Finite Water and Environment Manual",
+        "section": "Core Subsystems Manual",
+        "order": 5,
+        "path": "subsystems/water.md"
+      },
+      {
         "id": "architecture.subsystems-deep-dive",
         "title": "Engine Subsystems Deep Dive",
         "section": "Architecture",
         "order": 6,
         "path": "architecture/subsystems-deep-dive.md"
+      },
+      {
+        "id": "subsystems.vehicles",
+        "title": "Vehicles and Parts Manual",
+        "section": "Core Subsystems Manual",
+        "order": 6,
+        "path": "subsystems/vehicles.md"
       },
       {
         "id": "cpp.native-binding-guide",
@@ -17313,6 +18237,138 @@
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/resources/translation/",
         "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/translation/"
+      }
+    },
+    {
+      "id": "subsystems.character",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/",
+      "last_verified": "2026-08-02",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/"
+      }
+    },
+    {
+      "id": "subsystems.character",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/",
+      "last_verified": "2026-08-02",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/"
+      }
+    },
+    {
+      "id": "subsystems.combat",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/",
+      "last_verified": "2026-08-02",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/"
+      }
+    },
+    {
+      "id": "subsystems.combat",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/",
+      "last_verified": "2026-08-02",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/"
+      }
+    },
+    {
+      "id": "subsystems.items",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/items/",
+      "last_verified": "2026-08-02",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/items/"
+      }
+    },
+    {
+      "id": "subsystems.items",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/",
+      "last_verified": "2026-08-02",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/items/"
+      }
+    },
+    {
+      "id": "subsystems.map",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/",
+      "last_verified": "2026-08-02",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/map/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/"
+      }
+    },
+    {
+      "id": "subsystems.map",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/map/",
+      "last_verified": "2026-08-02",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/map/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/"
+      }
+    },
+    {
+      "id": "subsystems.vehicles",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/",
+      "last_verified": "2026-08-02",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/vehicles/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/"
+      }
+    },
+    {
+      "id": "subsystems.vehicles",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/vehicles/",
+      "last_verified": "2026-08-02",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/vehicles/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/"
+      }
+    },
+    {
+      "id": "subsystems.water",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/",
+      "last_verified": "2026-08-02",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/water/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/"
+      }
+    },
+    {
+      "id": "subsystems.water",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/water/",
+      "last_verified": "2026-08-02",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/water/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/"
       }
     },
     {

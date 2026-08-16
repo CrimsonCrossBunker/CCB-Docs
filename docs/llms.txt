@@ -199,6 +199,18 @@
 - [zh_CN] Tileset: https://crimsoncrossbunker.github.io/CCB-Docs/resources/tiles/
 - [en] Translation workflow: https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/translation/
 - [zh_CN] 翻译流程: https://crimsoncrossbunker.github.io/CCB-Docs/resources/translation/
+- [en] Characters and Creatures Manual: https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/
+- [zh_CN] 角色与生物系统技术手册: https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/
+- [en] Combat and Damage Manual: https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/
+- [zh_CN] 战斗、伤害与护甲结算技术手册: https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/
+- [en] Items and Pockets Manual: https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/items/
+- [zh_CN] 物品与 Pocket 容器系统技术手册: https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/
+- [en] Map and Mapgen Manual: https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/
+- [zh_CN] 地图与程序化生成技术手册: https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/map/
+- [en] Vehicles and Parts Manual: https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/
+- [zh_CN] 车辆动力学与模块化部件系统技术手册: https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/vehicles/
+- [en] Finite Water and Environment Manual: https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/
+- [zh_CN] 有限水体与环境物理系统技术手册: https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/water/
 - [en] Debugging and failure isolation: https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/debugging/
 - [zh_CN] 调试与故障定位: https://crimsoncrossbunker.github.io/CCB-Docs/validation/debugging/
 - [en] Validation quickstart: https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/

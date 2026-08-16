@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 3a1f90876b97b55dec30797cdd16a146ef8602ea37108e90acc4076f4eae9b5c
+translation_source_fingerprint: 6955c0137a36ba4a1f2d6304e52f23a5947809dc33367d112d5be049aef16964
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,7 +68,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # 方法参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `方法参考` 规范手册，收录 142 条 `methods` 契约记录。
+本手册收录 CCB 各核心实体与对象支持调用的实例方法。请确保在调用前实体句柄处于有效生命周期内。
 
 ## `GameHandle.is_valid` { #symbol-api-lua-v5-generated-method-gamehandle-is-valid-c9eef6069d4e }
 

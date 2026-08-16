@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 3044d988f01e944de2f87ad9a03418f99495fa75bedd13992193bf37ce5ca487
+translation_source_fingerprint: e13c9908ab38f39109356a74f14e72f8718ee77895e51a2dbba043cbbde69d9a
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,7 +68,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Native hooks
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 52 `hooks` contract records.
+This manual covers synchronous interception points (Hooks) in CCB.
 
 ## `on_character_death` { #symbol-api-lua-v5-generated-hook-on-character-death-15ad1b50a8ab }
 

@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 10dbab444dd6b988e9e227d5da3f555fa1848cd0e993282027534a416a0c4782
+translation_source_fingerprint: aa1e3a5f080c5a8b998ebff2e4e93906644040b0385d97347e7af2f9604ff32b
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,7 +68,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Manifest fields
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 6 `manifest_fields` contract records.
+This manual covers all configuration fields in manifest.json.
 
 ## `$schema` { #symbol-api-lua-v5-generated-manifest-field-schema-24601b92d545 }
 

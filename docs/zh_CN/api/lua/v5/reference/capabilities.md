@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 14bf3f1fc054684e43bb7e625775ae091f36e3e253897886ff34b4ad754f8c07
+translation_source_fingerprint: e11e3c7254c8ff765cfbca315a64e89353c17b1b2abcb8a4b12804829c8fc42f
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,7 +68,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Capability 参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `Capability 参考` 规范手册，收录 16 条 `capabilities` 契约记录。
+本手册收录 CCB Lua 0.1 沙箱权限能力（Capabilities）清单与安全模型。
 
 ## `events` { #symbol-api-lua-v5-generated-capability-events-dd9d47a21b81 }
 

@@ -2156,6 +2156,138 @@
     }
   },
   {
+    "id": "subsystems.character",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/"
+    }
+  },
+  {
+    "id": "subsystems.character",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/"
+    }
+  },
+  {
+    "id": "subsystems.combat",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/"
+    }
+  },
+  {
+    "id": "subsystems.combat",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/"
+    }
+  },
+  {
+    "id": "subsystems.items",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/items/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/items/"
+    }
+  },
+  {
+    "id": "subsystems.items",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/items/"
+    }
+  },
+  {
+    "id": "subsystems.map",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/map/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/"
+    }
+  },
+  {
+    "id": "subsystems.map",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/map/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/map/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/"
+    }
+  },
+  {
+    "id": "subsystems.vehicles",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/vehicles/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/"
+    }
+  },
+  {
+    "id": "subsystems.vehicles",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/vehicles/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/vehicles/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/"
+    }
+  },
+  {
+    "id": "subsystems.water",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/water/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/"
+    }
+  },
+  {
+    "id": "subsystems.water",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/water/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/water/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/"
+    }
+  },
+  {
     "id": "validation.debugging",
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/debugging/",

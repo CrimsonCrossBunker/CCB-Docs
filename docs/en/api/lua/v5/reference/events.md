@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 2a92f980977bd669bcda6cf8775aa50e0c1772f1346b61406897e1d7fda45aad
+translation_source_fingerprint: 6f29317f2534d224f2b818977b404cfecc949a5ab2b71d0ee6c648e535f835e3
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,7 +68,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Native events
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 113 `events` contract records.
+This manual covers native events dispatched during main loop and interactions.
 
 ## `activates_artifact` { #symbol-api-lua-v5-generated-event-activates-artifact-f81a1c7b5e6e }
 

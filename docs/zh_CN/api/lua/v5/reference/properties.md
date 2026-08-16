@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 2e01bc6900b3485997d53b65db28ef6ef5ddd75bb119ba3f4ee669b90dafef60
+translation_source_fingerprint: 16758d296b814f6b6c1c442d097e545975974a576711df4ffb94e1c3c3d9f48b
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,7 +68,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # 属性参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `属性参考` 规范手册，收录 51 条 `properties` 契约记录。
+本手册收录 CCB 核心实体所导出的属性字段及读写访问权限。
 
 ## `GameEnum.kind` { #symbol-api-lua-v5-generated-property-gameenum-kind-2898909880c9 }
 

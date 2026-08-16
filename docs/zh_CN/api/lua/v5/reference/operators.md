@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 0ec165c155b122517974c365e6323e592a655d2865171adc824a7dcd9da97dee
+translation_source_fingerprint: b06efdd47f12d93029602fd2d0274a281e7a9f843a7dd827be9685573e920320
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,7 +68,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # 运算符参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `运算符参考` 规范手册，收录 47 条 `operators` 契约记录。
+本手册收录 CCB 三维坐标与向量运算支持的原生重载运算符。
 
 ## `GameEnum.__eq` { #symbol-api-lua-v5-generated-operator-gameenum-eq-6dd6d6fdda2c }
 

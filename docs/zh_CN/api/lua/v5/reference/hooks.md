@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 3044d988f01e944de2f87ad9a03418f99495fa75bedd13992193bf37ce5ca487
+translation_source_fingerprint: e13c9908ab38f39109356a74f14e72f8718ee77895e51a2dbba043cbbde69d9a
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,7 +68,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # 原生 Hook 参考
 
-本页为 CCB Lua 0.1 平台自动生成的 `原生 Hook 参考` 规范手册，收录 52 条 `hooks` 契约记录。
+本手册收录 CCB 引擎导出的同步拦截点（Hooks）。可在原生逻辑执行前进行同步拦截与决策覆写。
 
 ## `on_character_death` { #symbol-api-lua-v5-generated-hook-on-character-death-15ad1b50a8ab }
 

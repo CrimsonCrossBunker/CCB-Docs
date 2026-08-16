@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 2e01bc6900b3485997d53b65db28ef6ef5ddd75bb119ba3f4ee669b90dafef60
+translation_source_fingerprint: 16758d296b814f6b6c1c442d097e545975974a576711df4ffb94e1c3c3d9f48b
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,7 +68,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Properties
 
-This page is the automatically generated reference manual for CCB Lua 0.1, containing 51 `properties` contract records.
+This manual covers properties and field access permissions on entities.
 
 ## `GameEnum.kind` { #symbol-api-lua-v5-generated-property-gameenum-kind-2898909880c9 }
 
