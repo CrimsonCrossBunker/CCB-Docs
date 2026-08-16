@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: f4cc744a16d15e98b78e03fb1ae259affd19405c72bd31c7ae1cfafd213ae0ab
+translation_source_fingerprint: 94b678cfc1044cc53363c83e8794b43686253fb2b8a7bcd4876fe411ede6b1a5
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,14 +68,13 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # 模块入口参考
 
-本页由固定提交 `d32b9cc880a85480840d82cfa05d256c78a16615` 的 Lua v5 公开契约生成，收录 3 条 `modules` 记录。不要手工修改本页。
+本页为 CCB Lua 0.1 平台自动生成的 `模块入口参考` 规范手册，收录 3 条 `modules` 契约记录。
 
 ## `require` { #symbol-api-lua-v5-generated-module-require-6cf1620427ea }
 
-**契约字段:**
-
-- `mode`: `"source-local"`
-- `function`: `"require"`
+```lua
+-- Module: require (Mode: source-local)
+```
 
 **来源:**
 
@@ -83,10 +82,9 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `modules.import` { #symbol-api-lua-v5-generated-module-modules-import-b0e1e49d89dd }
 
-**契约字段:**
-
-- `mode`: `"declared-dependency"`
-- `function`: `"modules.import"`
+```lua
+-- Module: modules.import (Mode: declared-dependency)
+```
 
 **来源:**
 
@@ -95,10 +93,9 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `modules.source_id` { #symbol-api-lua-v5-generated-module-modules-source-id-c8301946fb14 }
 
-**契约字段:**
-
-- `mode`: `"source-identity"`
-- `function`: `"modules.source_id"`
+```lua
+-- Module: modules.source_id (Mode: source-identity)
+```
 
 **来源:**
 

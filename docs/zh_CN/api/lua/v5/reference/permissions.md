@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 038415d5d035dcafcc0141aa9bb5a42ac45c31172f23b695895d66cdec45e3d8
+translation_source_fingerprint: eb9d867168b0b785ad8f4c704f9df7e551192c7a8925426fa0d51bc60e919532
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,14 +68,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # 权限模型参考
 
-本页由固定提交 `d32b9cc880a85480840d82cfa05d256c78a16615` 的 Lua v5 公开契约生成，收录 1 条 `permissions` 记录。不要手工修改本页。
+本页为 CCB Lua 0.1 平台自动生成的 `权限模型参考` 规范手册，收录 1 条 `permissions` 契约记录。
 
-**契约字段:**
+## 权限系统模型
 
-- `model`: `"capability-gating"`
-- `separate_manifest_field`: `false`
-- `manifest_field`: `"capabilities"`
-- `dependency_rules`: `[{"capability": "game.actions.dangerous", "requires": "game.actions"}, {"capability": "game.write", "requires": "game.read"}, {"capability": "game.hooks", "requires": "events"}, {"capability": "game.callbacks", "requires": "game.read"}]`
+- **模型类型 (Model):** `capability-gating`
+- **Manifest 声明字段 (Manifest Field):** `capabilities`
 
 **来源:**
 

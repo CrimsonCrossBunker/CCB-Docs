@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: c1c38da28909fae960bcbdfd5ab3a0309270bb3ed2f0830bc1a39838059dc819
+translation_source_fingerprint: 94dcec848261436c63701d24a7da6f8d6524b73d6c0a59a598ce306220f84f08
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,13 +68,23 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Native events
 
-This page is generated from the Lua v5 public contract at pinned commit `d32b9cc880a85480840d82cfa05d256c78a16615` and contains 113 `events` records. Do not edit it by hand.
+This page is the automatically generated reference manual for CCB Lua 0.1, containing 113 `events` contract records.
 
 ## `activates_artifact` { #symbol-api-lua-v5-generated-event-activates-artifact-f81a1c7b5e6e }
 
-**Contract fields:**
+```lua
+---@class activates_artifact
+local activates_artifact = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `item_name` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -82,10 +92,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-activates-artifact-character-e8b68582c15d }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -93,10 +103,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `item_name` { #symbol-api-lua-v5-generated-event-field-activates-artifact-item-name-8f30de926db9 }
 
-**Contract fields:**
-
-- `name`: `"item_name"`
-- `type`: `"string"`
+```lua
+---@field item_name any
+item_name = ... -- any
+```
 
 **Sources:**
 
@@ -104,9 +114,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `activates_mininuke` { #symbol-api-lua-v5-generated-event-activates-mininuke-8ac51708f538 }
 
-**Contract fields:**
+```lua
+---@class activates_mininuke
+local activates_mininuke = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -114,10 +133,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-activates-mininuke-character-36b0c951456e }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -125,9 +144,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `administers_mutagen` { #symbol-api-lua-v5-generated-event-administers-mutagen-8fdba2d5c4dc }
 
-**Contract fields:**
+```lua
+---@class administers_mutagen
+local administers_mutagen = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `technique` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -135,10 +164,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-administers-mutagen-character-9f08c679917a }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -146,10 +175,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `technique` { #symbol-api-lua-v5-generated-event-field-administers-mutagen-technique-35e00f696c4f }
 
-**Contract fields:**
-
-- `name`: `"technique"`
-- `type`: `"mutagen_technique"`
+```lua
+---@field technique any
+technique = ... -- any
+```
 
 **Sources:**
 
@@ -157,9 +186,12 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `angers_amigara_horrors` { #symbol-api-lua-v5-generated-event-angers-amigara-horrors-2e1cc9e327b1 }
 
-**Contract fields:**
+```lua
+---@class angers_amigara_horrors
+local angers_amigara_horrors = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -167,9 +199,12 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `avatar_dies` { #symbol-api-lua-v5-generated-event-avatar-dies-69876e697e32 }
 
-**Contract fields:**
+```lua
+---@class avatar_dies
+local avatar_dies = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -177,9 +212,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `avatar_enters_omt` { #symbol-api-lua-v5-generated-event-avatar-enters-omt-4fdad80ff8f9 }
 
-**Contract fields:**
+```lua
+---@class avatar_enters_omt
+local avatar_enters_omt = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `pos` | `any` | Read-write |
+| `oter_id` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -187,10 +232,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `pos` { #symbol-api-lua-v5-generated-event-field-avatar-enters-omt-pos-807a7d1509a4 }
 
-**Contract fields:**
-
-- `name`: `"pos"`
-- `type`: `"tripoint"`
+```lua
+---@field pos any
+pos = ... -- any
+```
 
 **Sources:**
 
@@ -198,10 +243,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `oter_id` { #symbol-api-lua-v5-generated-event-field-avatar-enters-omt-oter-id-73ae5b499652 }
 
-**Contract fields:**
-
-- `name`: `"oter_id"`
-- `type`: `"oter_id"`
+```lua
+---@field oter_id any
+oter_id = ... -- any
+```
 
 **Sources:**
 
@@ -209,9 +254,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `avatar_moves` { #symbol-api-lua-v5-generated-event-avatar-moves-2e76ce901cea }
 
-**Contract fields:**
+```lua
+---@class avatar_moves
+local avatar_moves = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `mount` | `any` | Read-write |
+| `terrain` | `any` | Read-write |
+| `movement_mode` | `any` | Read-write |
+| `underwater` | `any` | Read-write |
+| `z` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -219,10 +277,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `mount` { #symbol-api-lua-v5-generated-event-field-avatar-moves-mount-18bb1e49682a }
 
-**Contract fields:**
-
-- `name`: `"mount"`
-- `type`: `"mtype_id"`
+```lua
+---@field mount any
+mount = ... -- any
+```
 
 **Sources:**
 
@@ -230,10 +288,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `terrain` { #symbol-api-lua-v5-generated-event-field-avatar-moves-terrain-45210bdecd26 }
 
-**Contract fields:**
-
-- `name`: `"terrain"`
-- `type`: `"ter_id"`
+```lua
+---@field terrain any
+terrain = ... -- any
+```
 
 **Sources:**
 
@@ -241,10 +299,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `movement_mode` { #symbol-api-lua-v5-generated-event-field-avatar-moves-movement-mode-3b596b9ea1cb }
 
-**Contract fields:**
-
-- `name`: `"movement_mode"`
-- `type`: `"move_mode_id"`
+```lua
+---@field movement_mode any
+movement_mode = ... -- any
+```
 
 **Sources:**
 
@@ -252,10 +310,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `underwater` { #symbol-api-lua-v5-generated-event-field-avatar-moves-underwater-6b125935d475 }
 
-**Contract fields:**
-
-- `name`: `"underwater"`
-- `type`: `"bool_"`
+```lua
+---@field underwater any
+underwater = ... -- any
+```
 
 **Sources:**
 
@@ -263,10 +321,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `z` { #symbol-api-lua-v5-generated-event-field-avatar-moves-z-cdd965f14e58 }
 
-**Contract fields:**
-
-- `name`: `"z"`
-- `type`: `"int_"`
+```lua
+---@field z any
+z = ... -- any
+```
 
 **Sources:**
 
@@ -274,9 +332,12 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `awakes_dark_wyrms` { #symbol-api-lua-v5-generated-event-awakes-dark-wyrms-26ef50102783 }
 
-**Contract fields:**
+```lua
+---@class awakes_dark_wyrms
+local awakes_dark_wyrms = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -284,9 +345,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `becomes_wanted` { #symbol-api-lua-v5-generated-event-becomes-wanted-745f3581c816 }
 
-**Contract fields:**
+```lua
+---@class becomes_wanted
+local becomes_wanted = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -294,10 +364,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-becomes-wanted-character-592b83e1ccd2 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -305,9 +375,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `broken_bone` { #symbol-api-lua-v5-generated-event-broken-bone-ac77d28872e9 }
 
-**Contract fields:**
+```lua
+---@class broken_bone
+local broken_bone = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `part` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -315,10 +395,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-broken-bone-character-96232fe84417 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -326,10 +406,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `part` { #symbol-api-lua-v5-generated-event-field-broken-bone-part-a462fe862211 }
 
-**Contract fields:**
-
-- `name`: `"part"`
-- `type`: `"body_part"`
+```lua
+---@field part any
+part = ... -- any
+```
 
 **Sources:**
 
@@ -337,9 +417,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `broken_bone_mends` { #symbol-api-lua-v5-generated-event-broken-bone-mends-4ca7c0146e6c }
 
-**Contract fields:**
+```lua
+---@class broken_bone_mends
+local broken_bone_mends = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `part` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -347,10 +437,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-broken-bone-mends-character-8eff59987682 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -358,10 +448,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `part` { #symbol-api-lua-v5-generated-event-field-broken-bone-mends-part-9ae7b4b6b2c7 }
 
-**Contract fields:**
-
-- `name`: `"part"`
-- `type`: `"body_part"`
+```lua
+---@field part any
+part = ... -- any
+```
 
 **Sources:**
 
@@ -369,9 +459,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `buries_corpse` { #symbol-api-lua-v5-generated-event-buries-corpse-68a95b7ba324 }
 
-**Contract fields:**
+```lua
+---@class buries_corpse
+local buries_corpse = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `corpse_type` | `any` | Read-write |
+| `corpse_name` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -379,10 +480,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-buries-corpse-character-3cef8ac1ad04 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -390,10 +491,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `corpse_type` { #symbol-api-lua-v5-generated-event-field-buries-corpse-corpse-type-f8a36a550d19 }
 
-**Contract fields:**
-
-- `name`: `"corpse_type"`
-- `type`: `"mtype_id"`
+```lua
+---@field corpse_type any
+corpse_type = ... -- any
+```
 
 **Sources:**
 
@@ -401,10 +502,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `corpse_name` { #symbol-api-lua-v5-generated-event-field-buries-corpse-corpse-name-1e0a12b2129f }
 
-**Contract fields:**
-
-- `name`: `"corpse_name"`
-- `type`: `"string"`
+```lua
+---@field corpse_name any
+corpse_name = ... -- any
+```
 
 **Sources:**
 
@@ -412,9 +513,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `camp_taken_over` { #symbol-api-lua-v5-generated-event-camp-taken-over-5f8cf84e5187 }
 
-**Contract fields:**
+```lua
+---@class camp_taken_over
+local camp_taken_over = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `old_owner` | `any` | Read-write |
+| `new_owner` | `any` | Read-write |
+| `camp_name` | `any` | Read-write |
+| `was_violent` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -422,10 +535,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `old_owner` { #symbol-api-lua-v5-generated-event-field-camp-taken-over-old-owner-2b3770a24cf7 }
 
-**Contract fields:**
-
-- `name`: `"old_owner"`
-- `type`: `"faction_id"`
+```lua
+---@field old_owner any
+old_owner = ... -- any
+```
 
 **Sources:**
 
@@ -433,10 +546,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `new_owner` { #symbol-api-lua-v5-generated-event-field-camp-taken-over-new-owner-b499a5c3a9d9 }
 
-**Contract fields:**
-
-- `name`: `"new_owner"`
-- `type`: `"faction_id"`
+```lua
+---@field new_owner any
+new_owner = ... -- any
+```
 
 **Sources:**
 
@@ -444,10 +557,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `camp_name` { #symbol-api-lua-v5-generated-event-field-camp-taken-over-camp-name-ac403d63b44b }
 
-**Contract fields:**
-
-- `name`: `"camp_name"`
-- `type`: `"string"`
+```lua
+---@field camp_name any
+camp_name = ... -- any
+```
 
 **Sources:**
 
@@ -455,10 +568,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `was_violent` { #symbol-api-lua-v5-generated-event-field-camp-taken-over-was-violent-1dc8557e4b64 }
 
-**Contract fields:**
-
-- `name`: `"was_violent"`
-- `type`: `"bool_"`
+```lua
+---@field was_violent any
+was_violent = ... -- any
+```
 
 **Sources:**
 
@@ -466,9 +579,12 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `causes_resonance_cascade` { #symbol-api-lua-v5-generated-event-causes-resonance-cascade-7ed492ccdb3f }
 
-**Contract fields:**
+```lua
+---@class causes_resonance_cascade
+local causes_resonance_cascade = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -476,9 +592,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_armor_destroyed` { #symbol-api-lua-v5-generated-event-character-armor-destroyed-58410d6b7a32 }
 
-**Contract fields:**
+```lua
+---@class character_armor_destroyed
+local character_armor_destroyed = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `itype` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -486,10 +612,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-armor-destroyed-character-38ac36251fcb }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -497,10 +623,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-character-armor-destroyed-itype-6e57fced52df }
 
-**Contract fields:**
-
-- `name`: `"itype"`
-- `type`: `"itype_id"`
+```lua
+---@field itype any
+itype = ... -- any
+```
 
 **Sources:**
 
@@ -508,9 +634,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_attempt_to_fall_asleep` { #symbol-api-lua-v5-generated-event-character-attempt-to-fall-asleep-8cc9d13d24ed }
 
-**Contract fields:**
+```lua
+---@class character_attempt_to_fall_asleep
+local character_attempt_to_fall_asleep = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -518,10 +653,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-attempt-to-fall-asleep-character-7c1000ab3b6a }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -529,9 +664,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_butchered_corpse` { #symbol-api-lua-v5-generated-event-character-butchered-corpse-d1c1bcbdf0e3 }
 
-**Contract fields:**
+```lua
+---@class character_butchered_corpse
+local character_butchered_corpse = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `monster_id` | `any` | Read-write |
+| `butcher_type` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -539,10 +685,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-butchered-corpse-character-e2fa56dcd286 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -550,10 +696,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `monster_id` { #symbol-api-lua-v5-generated-event-field-character-butchered-corpse-monster-id-f39afd5ef8f7 }
 
-**Contract fields:**
-
-- `name`: `"monster_id"`
-- `type`: `"mtype_id"`
+```lua
+---@field monster_id any
+monster_id = ... -- any
+```
 
 **Sources:**
 
@@ -561,10 +707,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `butcher_type` { #symbol-api-lua-v5-generated-event-field-character-butchered-corpse-butcher-type-22397ab850a3 }
 
-**Contract fields:**
-
-- `name`: `"butcher_type"`
-- `type`: `"string"`
+```lua
+---@field butcher_type any
+butcher_type = ... -- any
+```
 
 **Sources:**
 
@@ -572,9 +718,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_casts_spell` { #symbol-api-lua-v5-generated-event-character-casts-spell-b84e8f16e4d3 }
 
-**Contract fields:**
+```lua
+---@class character_casts_spell
+local character_casts_spell = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `spell` | `any` | Read-write |
+| `school` | `any` | Read-write |
+| `difficulty` | `any` | Read-write |
+| `cost` | `any` | Read-write |
+| `cast_time` | `any` | Read-write |
+| `damage` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -582,10 +743,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-casts-spell-character-0ac3fae70caf }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -593,10 +754,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `spell` { #symbol-api-lua-v5-generated-event-field-character-casts-spell-spell-4ac45818620a }
 
-**Contract fields:**
-
-- `name`: `"spell"`
-- `type`: `"spell_id"`
+```lua
+---@field spell any
+spell = ... -- any
+```
 
 **Sources:**
 
@@ -604,10 +765,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `school` { #symbol-api-lua-v5-generated-event-field-character-casts-spell-school-256ab3407bf6 }
 
-**Contract fields:**
-
-- `name`: `"school"`
-- `type`: `"trait_id"`
+```lua
+---@field school any
+school = ... -- any
+```
 
 **Sources:**
 
@@ -615,10 +776,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `difficulty` { #symbol-api-lua-v5-generated-event-field-character-casts-spell-difficulty-62e4fd8601e9 }
 
-**Contract fields:**
-
-- `name`: `"difficulty"`
-- `type`: `"int_"`
+```lua
+---@field difficulty any
+difficulty = ... -- any
+```
 
 **Sources:**
 
@@ -626,10 +787,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `cost` { #symbol-api-lua-v5-generated-event-field-character-casts-spell-cost-1cd399227609 }
 
-**Contract fields:**
-
-- `name`: `"cost"`
-- `type`: `"int_"`
+```lua
+---@field cost any
+cost = ... -- any
+```
 
 **Sources:**
 
@@ -637,10 +798,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `cast_time` { #symbol-api-lua-v5-generated-event-field-character-casts-spell-cast-time-a59f657bc624 }
 
-**Contract fields:**
-
-- `name`: `"cast_time"`
-- `type`: `"int_"`
+```lua
+---@field cast_time any
+cast_time = ... -- any
+```
 
 **Sources:**
 
@@ -648,10 +809,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `damage` { #symbol-api-lua-v5-generated-event-field-character-casts-spell-damage-a7e697a15596 }
 
-**Contract fields:**
-
-- `name`: `"damage"`
-- `type`: `"int_"`
+```lua
+---@field damage any
+damage = ... -- any
+```
 
 **Sources:**
 
@@ -659,9 +820,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_consumes_item` { #symbol-api-lua-v5-generated-event-character-consumes-item-a1cc86b4b41d }
 
-**Contract fields:**
+```lua
+---@class character_consumes_item
+local character_consumes_item = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `itype` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -669,10 +840,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-consumes-item-character-9834d40a1b6e }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -680,10 +851,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-character-consumes-item-itype-0b7244f65bdb }
 
-**Contract fields:**
-
-- `name`: `"itype"`
-- `type`: `"itype_id"`
+```lua
+---@field itype any
+itype = ... -- any
+```
 
 **Sources:**
 
@@ -691,9 +862,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_dies` { #symbol-api-lua-v5-generated-event-character-dies-8df6d1b23f5a }
 
-**Contract fields:**
+```lua
+---@class character_dies
+local character_dies = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -701,10 +881,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-dies-character-d9f80bb5e743 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -712,9 +892,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_eats_item` { #symbol-api-lua-v5-generated-event-character-eats-item-0d23da3d80bc }
 
-**Contract fields:**
+```lua
+---@class character_eats_item
+local character_eats_item = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `itype` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -722,10 +912,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-eats-item-character-768515717f84 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -733,10 +923,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-character-eats-item-itype-5764a87a4363 }
 
-**Contract fields:**
-
-- `name`: `"itype"`
-- `type`: `"itype_id"`
+```lua
+---@field itype any
+itype = ... -- any
+```
 
 **Sources:**
 
@@ -744,9 +934,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_falls_asleep` { #symbol-api-lua-v5-generated-event-character-falls-asleep-dde44cc6640a }
 
-**Contract fields:**
+```lua
+---@class character_falls_asleep
+local character_falls_asleep = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `duration` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -754,10 +954,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-falls-asleep-character-9b84771d3169 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -765,10 +965,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `duration` { #symbol-api-lua-v5-generated-event-field-character-falls-asleep-duration-0d62b1164980 }
 
-**Contract fields:**
-
-- `name`: `"duration"`
-- `type`: `"int_"`
+```lua
+---@field duration any
+duration = ... -- any
+```
 
 **Sources:**
 
@@ -776,9 +976,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_fertilizes_plant` { #symbol-api-lua-v5-generated-event-character-fertilizes-plant-b60547d3e1fb }
 
-**Contract fields:**
+```lua
+---@class character_fertilizes_plant
+local character_fertilizes_plant = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `pos` | `any` | Read-write |
+| `seed_id` | `any` | Read-write |
+| `furniture_id` | `any` | Read-write |
+| `fertilizer_id` | `any` | Read-write |
+| `reduction_turns` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -786,10 +1000,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-fertilizes-plant-character-702f151398a1 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -797,10 +1011,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `pos` { #symbol-api-lua-v5-generated-event-field-character-fertilizes-plant-pos-ae2b749ae007 }
 
-**Contract fields:**
-
-- `name`: `"pos"`
-- `type`: `"tripoint"`
+```lua
+---@field pos any
+pos = ... -- any
+```
 
 **Sources:**
 
@@ -808,10 +1022,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `seed_id` { #symbol-api-lua-v5-generated-event-field-character-fertilizes-plant-seed-id-a77146d9b1a1 }
 
-**Contract fields:**
-
-- `name`: `"seed_id"`
-- `type`: `"itype_id"`
+```lua
+---@field seed_id any
+seed_id = ... -- any
+```
 
 **Sources:**
 
@@ -819,10 +1033,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `furniture_id` { #symbol-api-lua-v5-generated-event-field-character-fertilizes-plant-furniture-id-1d7683e6f5a0 }
 
-**Contract fields:**
-
-- `name`: `"furniture_id"`
-- `type`: `"furn_str_id"`
+```lua
+---@field furniture_id any
+furniture_id = ... -- any
+```
 
 **Sources:**
 
@@ -830,10 +1044,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `fertilizer_id` { #symbol-api-lua-v5-generated-event-field-character-fertilizes-plant-fertilizer-id-7966616ab722 }
 
-**Contract fields:**
-
-- `name`: `"fertilizer_id"`
-- `type`: `"itype_id"`
+```lua
+---@field fertilizer_id any
+fertilizer_id = ... -- any
+```
 
 **Sources:**
 
@@ -841,10 +1055,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `reduction_turns` { #symbol-api-lua-v5-generated-event-field-character-fertilizes-plant-reduction-turns-d660dc5268b4 }
 
-**Contract fields:**
-
-- `name`: `"reduction_turns"`
-- `type`: `"int_"`
+```lua
+---@field reduction_turns any
+reduction_turns = ... -- any
+```
 
 **Sources:**
 
@@ -852,9 +1066,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_finished_activity` { #symbol-api-lua-v5-generated-event-character-finished-activity-8a271aa0b38d }
 
-**Contract fields:**
+```lua
+---@class character_finished_activity
+local character_finished_activity = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `activity` | `any` | Read-write |
+| `canceled` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -862,10 +1087,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-finished-activity-character-61b1f252580c }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -873,10 +1098,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `activity` { #symbol-api-lua-v5-generated-event-field-character-finished-activity-activity-0ecfdfae22fb }
 
-**Contract fields:**
-
-- `name`: `"activity"`
-- `type`: `"activity_id"`
+```lua
+---@field activity any
+activity = ... -- any
+```
 
 **Sources:**
 
@@ -884,10 +1109,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `canceled` { #symbol-api-lua-v5-generated-event-field-character-finished-activity-canceled-8a200f1a3faf }
 
-**Contract fields:**
-
-- `name`: `"canceled"`
-- `type`: `"bool_"`
+```lua
+---@field canceled any
+canceled = ... -- any
+```
 
 **Sources:**
 
@@ -895,9 +1120,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_forgets_spell` { #symbol-api-lua-v5-generated-event-character-forgets-spell-a775a1e62ce9 }
 
-**Contract fields:**
+```lua
+---@class character_forgets_spell
+local character_forgets_spell = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `spell` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -905,10 +1140,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-forgets-spell-character-a3c5ac859cba }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -916,10 +1151,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `spell` { #symbol-api-lua-v5-generated-event-field-character-forgets-spell-spell-388688f8358a }
 
-**Contract fields:**
-
-- `name`: `"spell"`
-- `type`: `"spell_id"`
+```lua
+---@field spell any
+spell = ... -- any
+```
 
 **Sources:**
 
@@ -927,9 +1162,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_gains_effect` { #symbol-api-lua-v5-generated-event-character-gains-effect-44f188ee18a7 }
 
-**Contract fields:**
+```lua
+---@class character_gains_effect
+local character_gains_effect = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `bodypart` | `any` | Read-write |
+| `effect` | `any` | Read-write |
+| `intensity` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -937,10 +1184,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-gains-effect-character-a14fae1a51ce }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -948,10 +1195,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `bodypart` { #symbol-api-lua-v5-generated-event-field-character-gains-effect-bodypart-3f1d7f624ba8 }
 
-**Contract fields:**
-
-- `name`: `"bodypart"`
-- `type`: `"body_part"`
+```lua
+---@field bodypart any
+bodypart = ... -- any
+```
 
 **Sources:**
 
@@ -959,10 +1206,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `effect` { #symbol-api-lua-v5-generated-event-field-character-gains-effect-effect-c79b9c01b700 }
 
-**Contract fields:**
-
-- `name`: `"effect"`
-- `type`: `"efftype_id"`
+```lua
+---@field effect any
+effect = ... -- any
+```
 
 **Sources:**
 
@@ -970,10 +1217,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `intensity` { #symbol-api-lua-v5-generated-event-field-character-gains-effect-intensity-c9645fe020a8 }
 
-**Contract fields:**
-
-- `name`: `"intensity"`
-- `type`: `"int_"`
+```lua
+---@field intensity any
+intensity = ... -- any
+```
 
 **Sources:**
 
@@ -981,9 +1228,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_gets_headshot` { #symbol-api-lua-v5-generated-event-character-gets-headshot-5f3818849d65 }
 
-**Contract fields:**
+```lua
+---@class character_gets_headshot
+local character_gets_headshot = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -991,10 +1247,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-gets-headshot-character-24de9eab8ae8 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -1002,9 +1258,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_harvests_plant` { #symbol-api-lua-v5-generated-event-character-harvests-plant-9ed93c0acc05 }
 
-**Contract fields:**
+```lua
+---@class character_harvests_plant
+local character_harvests_plant = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `pos` | `any` | Read-write |
+| `seed_id` | `any` | Read-write |
+| `furniture_id` | `any` | Read-write |
+| `plant_count` | `any` | Read-write |
+| `seed_count` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -1012,10 +1282,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-harvests-plant-character-bbe5d4dae91b }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -1023,10 +1293,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `pos` { #symbol-api-lua-v5-generated-event-field-character-harvests-plant-pos-e3a5920f7ba5 }
 
-**Contract fields:**
-
-- `name`: `"pos"`
-- `type`: `"tripoint"`
+```lua
+---@field pos any
+pos = ... -- any
+```
 
 **Sources:**
 
@@ -1034,10 +1304,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `seed_id` { #symbol-api-lua-v5-generated-event-field-character-harvests-plant-seed-id-1c153e337ba8 }
 
-**Contract fields:**
-
-- `name`: `"seed_id"`
-- `type`: `"itype_id"`
+```lua
+---@field seed_id any
+seed_id = ... -- any
+```
 
 **Sources:**
 
@@ -1045,10 +1315,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `furniture_id` { #symbol-api-lua-v5-generated-event-field-character-harvests-plant-furniture-id-14e15f54cf99 }
 
-**Contract fields:**
-
-- `name`: `"furniture_id"`
-- `type`: `"furn_str_id"`
+```lua
+---@field furniture_id any
+furniture_id = ... -- any
+```
 
 **Sources:**
 
@@ -1056,10 +1326,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `plant_count` { #symbol-api-lua-v5-generated-event-field-character-harvests-plant-plant-count-76ff3103e167 }
 
-**Contract fields:**
-
-- `name`: `"plant_count"`
-- `type`: `"int_"`
+```lua
+---@field plant_count any
+plant_count = ... -- any
+```
 
 **Sources:**
 
@@ -1067,10 +1337,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `seed_count` { #symbol-api-lua-v5-generated-event-field-character-harvests-plant-seed-count-ae73f0a9a620 }
 
-**Contract fields:**
-
-- `name`: `"seed_count"`
-- `type`: `"int_"`
+```lua
+---@field seed_count any
+seed_count = ... -- any
+```
 
 **Sources:**
 
@@ -1078,9 +1348,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_heals_damage` { #symbol-api-lua-v5-generated-event-character-heals-damage-fba57676ab46 }
 
-**Contract fields:**
+```lua
+---@class character_heals_damage
+local character_heals_damage = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `damage` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -1088,10 +1368,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-heals-damage-character-08901805c403 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -1099,10 +1379,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `damage` { #symbol-api-lua-v5-generated-event-field-character-heals-damage-damage-e2c54196c429 }
 
-**Contract fields:**
-
-- `name`: `"damage"`
-- `type`: `"int_"`
+```lua
+---@field damage any
+damage = ... -- any
+```
 
 **Sources:**
 
@@ -1110,9 +1390,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_kills_character` { #symbol-api-lua-v5-generated-event-character-kills-character-f20b4f09e5d0 }
 
-**Contract fields:**
+```lua
+---@class character_kills_character
+local character_kills_character = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `killer` | `any` | Read-write |
+| `victim` | `any` | Read-write |
+| `victim_name` | `any` | Read-write |
+| `victim_class` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -1120,10 +1412,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `killer` { #symbol-api-lua-v5-generated-event-field-character-kills-character-killer-856489c76b22 }
 
-**Contract fields:**
-
-- `name`: `"killer"`
-- `type`: `"character_id"`
+```lua
+---@field killer any
+killer = ... -- any
+```
 
 **Sources:**
 
@@ -1131,10 +1423,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `victim` { #symbol-api-lua-v5-generated-event-field-character-kills-character-victim-1ea9773135df }
 
-**Contract fields:**
-
-- `name`: `"victim"`
-- `type`: `"character_id"`
+```lua
+---@field victim any
+victim = ... -- any
+```
 
 **Sources:**
 
@@ -1142,10 +1434,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `victim_name` { #symbol-api-lua-v5-generated-event-field-character-kills-character-victim-name-b7e597466d55 }
 
-**Contract fields:**
-
-- `name`: `"victim_name"`
-- `type`: `"string"`
+```lua
+---@field victim_name any
+victim_name = ... -- any
+```
 
 **Sources:**
 
@@ -1153,10 +1445,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `victim_class` { #symbol-api-lua-v5-generated-event-field-character-kills-character-victim-class-7b927a155d7e }
 
-**Contract fields:**
-
-- `name`: `"victim_class"`
-- `type`: `"string"`
+```lua
+---@field victim_class any
+victim_class = ... -- any
+```
 
 **Sources:**
 
@@ -1164,9 +1456,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_kills_monster` { #symbol-api-lua-v5-generated-event-character-kills-monster-f5c8c5a4c36e }
 
-**Contract fields:**
+```lua
+---@class character_kills_monster
+local character_kills_monster = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `killer` | `any` | Read-write |
+| `victim_type` | `any` | Read-write |
+| `exp` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -1174,10 +1477,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `killer` { #symbol-api-lua-v5-generated-event-field-character-kills-monster-killer-a03a41225f6c }
 
-**Contract fields:**
-
-- `name`: `"killer"`
-- `type`: `"character_id"`
+```lua
+---@field killer any
+killer = ... -- any
+```
 
 **Sources:**
 
@@ -1185,10 +1488,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `victim_type` { #symbol-api-lua-v5-generated-event-field-character-kills-monster-victim-type-0af2d8712be3 }
 
-**Contract fields:**
-
-- `name`: `"victim_type"`
-- `type`: `"mtype_id"`
+```lua
+---@field victim_type any
+victim_type = ... -- any
+```
 
 **Sources:**
 
@@ -1196,10 +1499,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `exp` { #symbol-api-lua-v5-generated-event-field-character-kills-monster-exp-ebd390aa92af }
 
-**Contract fields:**
-
-- `name`: `"exp"`
-- `type`: `"int_"`
+```lua
+---@field exp any
+exp = ... -- any
+```
 
 **Sources:**
 
@@ -1207,9 +1510,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_learns_spell` { #symbol-api-lua-v5-generated-event-character-learns-spell-77d762220f91 }
 
-**Contract fields:**
+```lua
+---@class character_learns_spell
+local character_learns_spell = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `spell` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -1217,10 +1530,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-learns-spell-character-2341fd831714 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -1228,10 +1541,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `spell` { #symbol-api-lua-v5-generated-event-field-character-learns-spell-spell-cb545eac52e6 }
 
-**Contract fields:**
-
-- `name`: `"spell"`
-- `type`: `"spell_id"`
+```lua
+---@field spell any
+spell = ... -- any
+```
 
 **Sources:**
 
@@ -1239,9 +1552,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_loses_effect` { #symbol-api-lua-v5-generated-event-character-loses-effect-cd108bccca04 }
 
-**Contract fields:**
+```lua
+---@class character_loses_effect
+local character_loses_effect = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `bodypart` | `any` | Read-write |
+| `effect` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -1249,10 +1573,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-loses-effect-character-cebd9c5217b5 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -1260,10 +1584,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `bodypart` { #symbol-api-lua-v5-generated-event-field-character-loses-effect-bodypart-b56032eda49b }
 
-**Contract fields:**
-
-- `name`: `"bodypart"`
-- `type`: `"body_part"`
+```lua
+---@field bodypart any
+bodypart = ... -- any
+```
 
 **Sources:**
 
@@ -1271,10 +1595,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `effect` { #symbol-api-lua-v5-generated-event-field-character-loses-effect-effect-2cf82f891989 }
 
-**Contract fields:**
-
-- `name`: `"effect"`
-- `type`: `"efftype_id"`
+```lua
+---@field effect any
+effect = ... -- any
+```
 
 **Sources:**
 
@@ -1282,9 +1606,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_melee_attacks_character` { #symbol-api-lua-v5-generated-event-character-melee-attacks-character-6da9ea75f68d }
 
-**Contract fields:**
+```lua
+---@class character_melee_attacks_character
+local character_melee_attacks_character = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `attacker` | `any` | Read-write |
+| `weapon` | `any` | Read-write |
+| `hits` | `any` | Read-write |
+| `victim` | `any` | Read-write |
+| `victim_name` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -1292,10 +1629,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `attacker` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-character-attacker-fb6d8bc875bf }
 
-**Contract fields:**
-
-- `name`: `"attacker"`
-- `type`: `"character_id"`
+```lua
+---@field attacker any
+attacker = ... -- any
+```
 
 **Sources:**
 
@@ -1303,10 +1640,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `weapon` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-character-weapon-dc2d2af25be6 }
 
-**Contract fields:**
-
-- `name`: `"weapon"`
-- `type`: `"itype_id"`
+```lua
+---@field weapon any
+weapon = ... -- any
+```
 
 **Sources:**
 
@@ -1314,10 +1651,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hits` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-character-hits-79e8a393b2c9 }
 
-**Contract fields:**
-
-- `name`: `"hits"`
-- `type`: `"bool_"`
+```lua
+---@field hits any
+hits = ... -- any
+```
 
 **Sources:**
 
@@ -1325,10 +1662,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `victim` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-character-victim-545c1d255804 }
 
-**Contract fields:**
-
-- `name`: `"victim"`
-- `type`: `"character_id"`
+```lua
+---@field victim any
+victim = ... -- any
+```
 
 **Sources:**
 
@@ -1336,10 +1673,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `victim_name` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-character-victim-name-b7d07d336a97 }
 
-**Contract fields:**
-
-- `name`: `"victim_name"`
-- `type`: `"string"`
+```lua
+---@field victim_name any
+victim_name = ... -- any
+```
 
 **Sources:**
 
@@ -1347,9 +1684,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_melee_attacks_monster` { #symbol-api-lua-v5-generated-event-character-melee-attacks-monster-c824bd988bf6 }
 
-**Contract fields:**
+```lua
+---@class character_melee_attacks_monster
+local character_melee_attacks_monster = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `attacker` | `any` | Read-write |
+| `weapon` | `any` | Read-write |
+| `hits` | `any` | Read-write |
+| `victim_type` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -1357,10 +1706,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `attacker` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-monster-attacker-1411ab445eb4 }
 
-**Contract fields:**
-
-- `name`: `"attacker"`
-- `type`: `"character_id"`
+```lua
+---@field attacker any
+attacker = ... -- any
+```
 
 **Sources:**
 
@@ -1368,10 +1717,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `weapon` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-monster-weapon-e833409d126c }
 
-**Contract fields:**
-
-- `name`: `"weapon"`
-- `type`: `"itype_id"`
+```lua
+---@field weapon any
+weapon = ... -- any
+```
 
 **Sources:**
 
@@ -1379,10 +1728,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hits` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-monster-hits-6a3ad6107a9d }
 
-**Contract fields:**
-
-- `name`: `"hits"`
-- `type`: `"bool_"`
+```lua
+---@field hits any
+hits = ... -- any
+```
 
 **Sources:**
 
@@ -1390,10 +1739,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `victim_type` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-monster-victim-type-5b45a333938c }
 
-**Contract fields:**
-
-- `name`: `"victim_type"`
-- `type`: `"mtype_id"`
+```lua
+---@field victim_type any
+victim_type = ... -- any
+```
 
 **Sources:**
 
@@ -1401,9 +1750,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_plants_seed` { #symbol-api-lua-v5-generated-event-character-plants-seed-f647b7eca649 }
 
-**Contract fields:**
+```lua
+---@class character_plants_seed
+local character_plants_seed = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `pos` | `any` | Read-write |
+| `seed_id` | `any` | Read-write |
+| `furniture_id` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -1411,10 +1772,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-plants-seed-character-4156501a3d55 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -1422,10 +1783,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `pos` { #symbol-api-lua-v5-generated-event-field-character-plants-seed-pos-1cf44e7a711d }
 
-**Contract fields:**
-
-- `name`: `"pos"`
-- `type`: `"tripoint"`
+```lua
+---@field pos any
+pos = ... -- any
+```
 
 **Sources:**
 
@@ -1433,10 +1794,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `seed_id` { #symbol-api-lua-v5-generated-event-field-character-plants-seed-seed-id-59018a68c291 }
 
-**Contract fields:**
-
-- `name`: `"seed_id"`
-- `type`: `"itype_id"`
+```lua
+---@field seed_id any
+seed_id = ... -- any
+```
 
 **Sources:**
 
@@ -1444,10 +1805,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `furniture_id` { #symbol-api-lua-v5-generated-event-field-character-plants-seed-furniture-id-fa17c095f67e }
 
-**Contract fields:**
-
-- `name`: `"furniture_id"`
-- `type`: `"furn_str_id"`
+```lua
+---@field furniture_id any
+furniture_id = ... -- any
+```
 
 **Sources:**
 
@@ -1455,9 +1816,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_radioactively_mutates` { #symbol-api-lua-v5-generated-event-character-radioactively-mutates-5839fe927c4b }
 
-**Contract fields:**
+```lua
+---@class character_radioactively_mutates
+local character_radioactively_mutates = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -1465,10 +1835,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-radioactively-mutates-character-de4f5b6870c4 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -1476,9 +1846,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_ranged_attacks_character` { #symbol-api-lua-v5-generated-event-character-ranged-attacks-character-f06d61a602b6 }
 
-**Contract fields:**
+```lua
+---@class character_ranged_attacks_character
+local character_ranged_attacks_character = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `attacker` | `any` | Read-write |
+| `weapon` | `any` | Read-write |
+| `ammo` | `any` | Read-write |
+| `is_throw` | `any` | Read-write |
+| `victim` | `any` | Read-write |
+| `victim_name` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -1486,10 +1870,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `attacker` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-character-attacker-9c51ca9ac94a }
 
-**Contract fields:**
-
-- `name`: `"attacker"`
-- `type`: `"character_id"`
+```lua
+---@field attacker any
+attacker = ... -- any
+```
 
 **Sources:**
 
@@ -1497,10 +1881,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `weapon` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-character-weapon-4557afdde7c8 }
 
-**Contract fields:**
-
-- `name`: `"weapon"`
-- `type`: `"itype_id"`
+```lua
+---@field weapon any
+weapon = ... -- any
+```
 
 **Sources:**
 
@@ -1508,10 +1892,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `ammo` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-character-ammo-940b3b50b435 }
 
-**Contract fields:**
-
-- `name`: `"ammo"`
-- `type`: `"itype_id"`
+```lua
+---@field ammo any
+ammo = ... -- any
+```
 
 **Sources:**
 
@@ -1519,10 +1903,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `is_throw` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-character-is-throw-79c9386f22f6 }
 
-**Contract fields:**
-
-- `name`: `"is_throw"`
-- `type`: `"bool_"`
+```lua
+---@field is_throw any
+is_throw = ... -- any
+```
 
 **Sources:**
 
@@ -1530,10 +1914,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `victim` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-character-victim-6e6d4e042b7d }
 
-**Contract fields:**
-
-- `name`: `"victim"`
-- `type`: `"character_id"`
+```lua
+---@field victim any
+victim = ... -- any
+```
 
 **Sources:**
 
@@ -1541,10 +1925,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `victim_name` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-character-victim-name-930917ad0888 }
 
-**Contract fields:**
-
-- `name`: `"victim_name"`
-- `type`: `"string"`
+```lua
+---@field victim_name any
+victim_name = ... -- any
+```
 
 **Sources:**
 
@@ -1552,9 +1936,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_ranged_attacks_monster` { #symbol-api-lua-v5-generated-event-character-ranged-attacks-monster-831e3571aee6 }
 
-**Contract fields:**
+```lua
+---@class character_ranged_attacks_monster
+local character_ranged_attacks_monster = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `attacker` | `any` | Read-write |
+| `weapon` | `any` | Read-write |
+| `ammo` | `any` | Read-write |
+| `is_throw` | `any` | Read-write |
+| `victim_type` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -1562,10 +1959,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `attacker` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-monster-attacker-2a14e70ac6ed }
 
-**Contract fields:**
-
-- `name`: `"attacker"`
-- `type`: `"character_id"`
+```lua
+---@field attacker any
+attacker = ... -- any
+```
 
 **Sources:**
 
@@ -1573,10 +1970,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `weapon` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-monster-weapon-3a56a7f0cb23 }
 
-**Contract fields:**
-
-- `name`: `"weapon"`
-- `type`: `"itype_id"`
+```lua
+---@field weapon any
+weapon = ... -- any
+```
 
 **Sources:**
 
@@ -1584,10 +1981,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `ammo` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-monster-ammo-508f28efec36 }
 
-**Contract fields:**
-
-- `name`: `"ammo"`
-- `type`: `"itype_id"`
+```lua
+---@field ammo any
+ammo = ... -- any
+```
 
 **Sources:**
 
@@ -1595,10 +1992,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `is_throw` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-monster-is-throw-41b4a8e5c31b }
 
-**Contract fields:**
-
-- `name`: `"is_throw"`
-- `type`: `"bool_"`
+```lua
+---@field is_throw any
+is_throw = ... -- any
+```
 
 **Sources:**
 
@@ -1606,10 +2003,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `victim_type` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-monster-victim-type-3ca91ae9a7e8 }
 
-**Contract fields:**
-
-- `name`: `"victim_type"`
-- `type`: `"mtype_id"`
+```lua
+---@field victim_type any
+victim_type = ... -- any
+```
 
 **Sources:**
 
@@ -1617,9 +2014,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_smashes_tile` { #symbol-api-lua-v5-generated-event-character-smashes-tile-24602e6f0407 }
 
-**Contract fields:**
+```lua
+---@class character_smashes_tile
+local character_smashes_tile = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `terrain` | `any` | Read-write |
+| `furniture` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -1627,10 +2035,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-smashes-tile-character-5a68e1dea427 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -1638,10 +2046,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `terrain` { #symbol-api-lua-v5-generated-event-field-character-smashes-tile-terrain-b56ddfdcd44c }
 
-**Contract fields:**
-
-- `name`: `"terrain"`
-- `type`: `"ter_str_id"`
+```lua
+---@field terrain any
+terrain = ... -- any
+```
 
 **Sources:**
 
@@ -1649,10 +2057,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `furniture` { #symbol-api-lua-v5-generated-event-field-character-smashes-tile-furniture-12e46db66f75 }
 
-**Contract fields:**
-
-- `name`: `"furniture"`
-- `type`: `"furn_str_id"`
+```lua
+---@field furniture any
+furniture = ... -- any
+```
 
 **Sources:**
 
@@ -1660,9 +2068,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_starts_activity` { #symbol-api-lua-v5-generated-event-character-starts-activity-ddaa0c4cad6c }
 
-**Contract fields:**
+```lua
+---@class character_starts_activity
+local character_starts_activity = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `activity` | `any` | Read-write |
+| `resume` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -1670,10 +2089,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-starts-activity-character-3fd3434fed67 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -1681,10 +2100,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `activity` { #symbol-api-lua-v5-generated-event-field-character-starts-activity-activity-c7fc28f1904a }
 
-**Contract fields:**
-
-- `name`: `"activity"`
-- `type`: `"activity_id"`
+```lua
+---@field activity any
+activity = ... -- any
+```
 
 **Sources:**
 
@@ -1692,10 +2111,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `resume` { #symbol-api-lua-v5-generated-event-field-character-starts-activity-resume-305bfffe5efb }
 
-**Contract fields:**
-
-- `name`: `"resume"`
-- `type`: `"bool_"`
+```lua
+---@field resume any
+resume = ... -- any
+```
 
 **Sources:**
 
@@ -1703,9 +2122,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_takeoff_item` { #symbol-api-lua-v5-generated-event-character-takeoff-item-278a14c8547e }
 
-**Contract fields:**
+```lua
+---@class character_takeoff_item
+local character_takeoff_item = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `itype` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -1713,10 +2142,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-takeoff-item-character-db5d79db8211 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -1724,10 +2153,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-character-takeoff-item-itype-e6edc445f8e8 }
 
-**Contract fields:**
-
-- `name`: `"itype"`
-- `type`: `"itype_id"`
+```lua
+---@field itype any
+itype = ... -- any
+```
 
 **Sources:**
 
@@ -1735,9 +2164,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_takes_damage` { #symbol-api-lua-v5-generated-event-character-takes-damage-e5d6a1d6409f }
 
-**Contract fields:**
+```lua
+---@class character_takes_damage
+local character_takes_damage = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `damage` | `any` | Read-write |
+| `bodypart` | `any` | Read-write |
+| `pain` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -1745,10 +2186,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-takes-damage-character-18a5e67b0fc3 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -1756,10 +2197,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `damage` { #symbol-api-lua-v5-generated-event-field-character-takes-damage-damage-fadaaf9a61ee }
 
-**Contract fields:**
-
-- `name`: `"damage"`
-- `type`: `"int_"`
+```lua
+---@field damage any
+damage = ... -- any
+```
 
 **Sources:**
 
@@ -1767,10 +2208,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `bodypart` { #symbol-api-lua-v5-generated-event-field-character-takes-damage-bodypart-069892052db6 }
 
-**Contract fields:**
-
-- `name`: `"bodypart"`
-- `type`: `"body_part"`
+```lua
+---@field bodypart any
+bodypart = ... -- any
+```
 
 **Sources:**
 
@@ -1778,10 +2219,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `pain` { #symbol-api-lua-v5-generated-event-field-character-takes-damage-pain-9183177901a1 }
 
-**Contract fields:**
-
-- `name`: `"pain"`
-- `type`: `"int_"`
+```lua
+---@field pain any
+pain = ... -- any
+```
 
 **Sources:**
 
@@ -1789,9 +2230,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_triggers_trap` { #symbol-api-lua-v5-generated-event-character-triggers-trap-045c5704eb63 }
 
-**Contract fields:**
+```lua
+---@class character_triggers_trap
+local character_triggers_trap = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `trap` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -1799,10 +2250,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-triggers-trap-character-642a0731d45d }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -1810,10 +2261,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `trap` { #symbol-api-lua-v5-generated-event-field-character-triggers-trap-trap-fcdb76331178 }
 
-**Contract fields:**
-
-- `name`: `"trap"`
-- `type`: `"trap_str_id"`
+```lua
+---@field trap any
+trap = ... -- any
+```
 
 **Sources:**
 
@@ -1821,9 +2272,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_wakes_up` { #symbol-api-lua-v5-generated-event-character-wakes-up-ee3634de48f7 }
 
-**Contract fields:**
+```lua
+---@class character_wakes_up
+local character_wakes_up = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -1831,10 +2291,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-wakes-up-character-e01cfb1e070a }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -1842,9 +2302,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_waters_plant` { #symbol-api-lua-v5-generated-event-character-waters-plant-45fcf7be065b }
 
-**Contract fields:**
+```lua
+---@class character_waters_plant
+local character_waters_plant = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `pos` | `any` | Read-write |
+| `seed_id` | `any` | Read-write |
+| `furniture_id` | `any` | Read-write |
+| `water_added` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -1852,10 +2325,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-waters-plant-character-76a8b77abf18 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -1863,10 +2336,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `pos` { #symbol-api-lua-v5-generated-event-field-character-waters-plant-pos-9ffa1ad3bdbd }
 
-**Contract fields:**
-
-- `name`: `"pos"`
-- `type`: `"tripoint"`
+```lua
+---@field pos any
+pos = ... -- any
+```
 
 **Sources:**
 
@@ -1874,10 +2347,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `seed_id` { #symbol-api-lua-v5-generated-event-field-character-waters-plant-seed-id-4a47cf7e3a13 }
 
-**Contract fields:**
-
-- `name`: `"seed_id"`
-- `type`: `"itype_id"`
+```lua
+---@field seed_id any
+seed_id = ... -- any
+```
 
 **Sources:**
 
@@ -1885,10 +2358,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `furniture_id` { #symbol-api-lua-v5-generated-event-field-character-waters-plant-furniture-id-f2c32ff7330b }
 
-**Contract fields:**
-
-- `name`: `"furniture_id"`
-- `type`: `"furn_str_id"`
+```lua
+---@field furniture_id any
+furniture_id = ... -- any
+```
 
 **Sources:**
 
@@ -1896,10 +2369,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `water_added` { #symbol-api-lua-v5-generated-event-field-character-waters-plant-water-added-eb93c6f6ed8f }
 
-**Contract fields:**
-
-- `name`: `"water_added"`
-- `type`: `"int_"`
+```lua
+---@field water_added any
+water_added = ... -- any
+```
 
 **Sources:**
 
@@ -1907,9 +2380,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_wears_item` { #symbol-api-lua-v5-generated-event-character-wears-item-4ac57510812a }
 
-**Contract fields:**
+```lua
+---@class character_wears_item
+local character_wears_item = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `itype` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -1917,10 +2400,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-wears-item-character-84c1c1108e48 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -1928,10 +2411,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-character-wears-item-itype-333f58332fa2 }
 
-**Contract fields:**
-
-- `name`: `"itype"`
-- `type`: `"itype_id"`
+```lua
+---@field itype any
+itype = ... -- any
+```
 
 **Sources:**
 
@@ -1939,9 +2422,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `character_wields_item` { #symbol-api-lua-v5-generated-event-character-wields-item-f21f88cd326a }
 
-**Contract fields:**
+```lua
+---@class character_wields_item
+local character_wields_item = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `itype` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -1949,10 +2442,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-wields-item-character-ed69e659384b }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -1960,10 +2453,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-character-wields-item-itype-407f27745857 }
 
-**Contract fields:**
-
-- `name`: `"itype"`
-- `type`: `"itype_id"`
+```lua
+---@field itype any
+itype = ... -- any
+```
 
 **Sources:**
 
@@ -1971,9 +2464,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `consumes_marloss_item` { #symbol-api-lua-v5-generated-event-consumes-marloss-item-3f9f6fb36c47 }
 
-**Contract fields:**
+```lua
+---@class consumes_marloss_item
+local consumes_marloss_item = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `itype` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -1981,10 +2484,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-consumes-marloss-item-character-9019d7ebcd55 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -1992,10 +2495,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-consumes-marloss-item-itype-869f2491c441 }
 
-**Contract fields:**
-
-- `name`: `"itype"`
-- `type`: `"itype_id"`
+```lua
+---@field itype any
+itype = ... -- any
+```
 
 **Sources:**
 
@@ -2003,9 +2506,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `crosses_marloss_threshold` { #symbol-api-lua-v5-generated-event-crosses-marloss-threshold-c795fa72270d }
 
-**Contract fields:**
+```lua
+---@class crosses_marloss_threshold
+local crosses_marloss_threshold = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2013,10 +2525,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-crosses-marloss-threshold-character-75c5a8dc8365 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2024,9 +2536,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `crosses_mutation_threshold` { #symbol-api-lua-v5-generated-event-crosses-mutation-threshold-8acd227f5e1a }
 
-**Contract fields:**
+```lua
+---@class crosses_mutation_threshold
+local crosses_mutation_threshold = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `category` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2034,10 +2556,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-crosses-mutation-threshold-character-4cfcd691e740 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2045,10 +2567,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `category` { #symbol-api-lua-v5-generated-event-field-crosses-mutation-threshold-category-3797cd7d93cf }
 
-**Contract fields:**
-
-- `name`: `"category"`
-- `type`: `"mutation_category_id"`
+```lua
+---@field category any
+category = ... -- any
+```
 
 **Sources:**
 
@@ -2056,9 +2578,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `crosses_mycus_threshold` { #symbol-api-lua-v5-generated-event-crosses-mycus-threshold-5627752b50e3 }
 
-**Contract fields:**
+```lua
+---@class crosses_mycus_threshold
+local crosses_mycus_threshold = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2066,10 +2597,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-crosses-mycus-threshold-character-6099ae681a10 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2077,9 +2608,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `cuts_tree` { #symbol-api-lua-v5-generated-event-cuts-tree-2ca4e65dd0c0 }
 
-**Contract fields:**
+```lua
+---@class cuts_tree
+local cuts_tree = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2087,10 +2627,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-cuts-tree-character-b8f9e00d7adb }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2098,9 +2638,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `dermatik_eggs_hatch` { #symbol-api-lua-v5-generated-event-dermatik-eggs-hatch-75ced0541036 }
 
-**Contract fields:**
+```lua
+---@class dermatik_eggs_hatch
+local dermatik_eggs_hatch = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2108,10 +2657,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dermatik-eggs-hatch-character-c8b4b9110a54 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2119,9 +2668,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `dermatik_eggs_injected` { #symbol-api-lua-v5-generated-event-dermatik-eggs-injected-8baa6ad2615d }
 
-**Contract fields:**
+```lua
+---@class dermatik_eggs_injected
+local dermatik_eggs_injected = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2129,10 +2687,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dermatik-eggs-injected-character-ab99910dea02 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2140,9 +2698,12 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `destroys_triffid_grove` { #symbol-api-lua-v5-generated-event-destroys-triffid-grove-4e8d10481959 }
 
-**Contract fields:**
+```lua
+---@class destroys_triffid_grove
+local destroys_triffid_grove = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2150,9 +2711,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `dies_from_asthma_attack` { #symbol-api-lua-v5-generated-event-dies-from-asthma-attack-fb91a5cea8b2 }
 
-**Contract fields:**
+```lua
+---@class dies_from_asthma_attack
+local dies_from_asthma_attack = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2160,10 +2730,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-from-asthma-attack-character-bd4353defa2a }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2171,9 +2741,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `dies_from_bleeding` { #symbol-api-lua-v5-generated-event-dies-from-bleeding-d844d9954f8c }
 
-**Contract fields:**
+```lua
+---@class dies_from_bleeding
+local dies_from_bleeding = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2181,10 +2760,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-from-bleeding-character-484b3d09bc01 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2192,9 +2771,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `dies_from_drug_overdose` { #symbol-api-lua-v5-generated-event-dies-from-drug-overdose-6998abc8a1de }
 
-**Contract fields:**
+```lua
+---@class dies_from_drug_overdose
+local dies_from_drug_overdose = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `effect` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2202,10 +2791,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-from-drug-overdose-character-2eaf34a1696b }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2213,10 +2802,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `effect` { #symbol-api-lua-v5-generated-event-field-dies-from-drug-overdose-effect-08c8fa143fe7 }
 
-**Contract fields:**
-
-- `name`: `"effect"`
-- `type`: `"efftype_id"`
+```lua
+---@field effect any
+effect = ... -- any
+```
 
 **Sources:**
 
@@ -2224,9 +2813,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `dies_from_hypovolemia` { #symbol-api-lua-v5-generated-event-dies-from-hypovolemia-f874b8da444d }
 
-**Contract fields:**
+```lua
+---@class dies_from_hypovolemia
+local dies_from_hypovolemia = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2234,10 +2832,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-from-hypovolemia-character-d50257dfc7fe }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2245,9 +2843,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `dies_from_redcells_loss` { #symbol-api-lua-v5-generated-event-dies-from-redcells-loss-07815e045fb5 }
 
-**Contract fields:**
+```lua
+---@class dies_from_redcells_loss
+local dies_from_redcells_loss = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2255,10 +2862,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-from-redcells-loss-character-95ec6877216c }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2266,9 +2873,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `dies_of_infection` { #symbol-api-lua-v5-generated-event-dies-of-infection-044fcc4f26b1 }
 
-**Contract fields:**
+```lua
+---@class dies_of_infection
+local dies_of_infection = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2276,10 +2892,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-of-infection-character-3cd1dcf8789f }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2287,9 +2903,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `dies_of_starvation` { #symbol-api-lua-v5-generated-event-dies-of-starvation-d937e49b785d }
 
-**Contract fields:**
+```lua
+---@class dies_of_starvation
+local dies_of_starvation = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2297,10 +2922,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-of-starvation-character-5447adf9956d }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2308,9 +2933,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `dies_of_thirst` { #symbol-api-lua-v5-generated-event-dies-of-thirst-4c77a0ffbf9c }
 
-**Contract fields:**
+```lua
+---@class dies_of_thirst
+local dies_of_thirst = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2318,10 +2952,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-of-thirst-character-d8038d53685f }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2329,9 +2963,12 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `digs_into_lava` { #symbol-api-lua-v5-generated-event-digs-into-lava-a2eaed44da94 }
 
-**Contract fields:**
+```lua
+---@class digs_into_lava
+local digs_into_lava = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2339,9 +2976,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `dimension_travel` { #symbol-api-lua-v5-generated-event-dimension-travel-3e329de86a55 }
 
-**Contract fields:**
+```lua
+---@class dimension_travel
+local dimension_travel = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `from_dimension` | `any` | Read-write |
+| `to_dimension` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2349,10 +2997,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dimension-travel-character-1466cd04d057 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2360,10 +3008,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `from_dimension` { #symbol-api-lua-v5-generated-event-field-dimension-travel-from-dimension-74ec35838887 }
 
-**Contract fields:**
-
-- `name`: `"from_dimension"`
-- `type`: `"dimension_id"`
+```lua
+---@field from_dimension any
+from_dimension = ... -- any
+```
 
 **Sources:**
 
@@ -2371,10 +3019,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `to_dimension` { #symbol-api-lua-v5-generated-event-field-dimension-travel-to-dimension-71be80b012c4 }
 
-**Contract fields:**
-
-- `name`: `"to_dimension"`
-- `type`: `"dimension_id"`
+```lua
+---@field to_dimension any
+to_dimension = ... -- any
+```
 
 **Sources:**
 
@@ -2382,9 +3030,12 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `disarms_nuke` { #symbol-api-lua-v5-generated-event-disarms-nuke-86b2839a6b15 }
 
-**Contract fields:**
+```lua
+---@class disarms_nuke
+local disarms_nuke = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2392,9 +3043,12 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `eats_sewage` { #symbol-api-lua-v5-generated-event-eats-sewage-22b10e28f633 }
 
-**Contract fields:**
+```lua
+---@class eats_sewage
+local eats_sewage = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2402,9 +3056,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `evolves_mutation` { #symbol-api-lua-v5-generated-event-evolves-mutation-14b490938316 }
 
-**Contract fields:**
+```lua
+---@class evolves_mutation
+local evolves_mutation = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `from_trait` | `any` | Read-write |
+| `to_trait` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2412,10 +3077,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-evolves-mutation-character-734a54de8254 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2423,10 +3088,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `from_trait` { #symbol-api-lua-v5-generated-event-field-evolves-mutation-from-trait-2add04c58431 }
 
-**Contract fields:**
-
-- `name`: `"from_trait"`
-- `type`: `"trait_id"`
+```lua
+---@field from_trait any
+from_trait = ... -- any
+```
 
 **Sources:**
 
@@ -2434,10 +3099,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `to_trait` { #symbol-api-lua-v5-generated-event-field-evolves-mutation-to-trait-065227e0dc7f }
 
-**Contract fields:**
-
-- `name`: `"to_trait"`
-- `type`: `"trait_id"`
+```lua
+---@field to_trait any
+to_trait = ... -- any
+```
 
 **Sources:**
 
@@ -2445,9 +3110,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `exhumes_grave` { #symbol-api-lua-v5-generated-event-exhumes-grave-c6d20ea646b2 }
 
-**Contract fields:**
+```lua
+---@class exhumes_grave
+local exhumes_grave = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2455,10 +3129,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-exhumes-grave-character-325da22bd85c }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2466,9 +3140,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `fails_to_install_cbm` { #symbol-api-lua-v5-generated-event-fails-to-install-cbm-fb0f0ea5a679 }
 
-**Contract fields:**
+```lua
+---@class fails_to_install_cbm
+local fails_to_install_cbm = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `bionic` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2476,10 +3160,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-fails-to-install-cbm-character-612408584e66 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2487,10 +3171,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `bionic` { #symbol-api-lua-v5-generated-event-field-fails-to-install-cbm-bionic-f85bb80b8393 }
 
-**Contract fields:**
-
-- `name`: `"bionic"`
-- `type`: `"bionic_id"`
+```lua
+---@field bionic any
+bionic = ... -- any
+```
 
 **Sources:**
 
@@ -2498,9 +3182,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `fails_to_remove_cbm` { #symbol-api-lua-v5-generated-event-fails-to-remove-cbm-8e9e9e90ade1 }
 
-**Contract fields:**
+```lua
+---@class fails_to_remove_cbm
+local fails_to_remove_cbm = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `bionic` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2508,10 +3202,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-fails-to-remove-cbm-character-fee84fbc4bbd }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2519,10 +3213,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `bionic` { #symbol-api-lua-v5-generated-event-field-fails-to-remove-cbm-bionic-a959067e4563 }
 
-**Contract fields:**
-
-- `name`: `"bionic"`
-- `type`: `"bionic_id"`
+```lua
+---@field bionic any
+bionic = ... -- any
+```
 
 **Sources:**
 
@@ -2530,9 +3224,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `falls_asleep_from_exhaustion` { #symbol-api-lua-v5-generated-event-falls-asleep-from-exhaustion-eb4530757a04 }
 
-**Contract fields:**
+```lua
+---@class falls_asleep_from_exhaustion
+local falls_asleep_from_exhaustion = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2540,10 +3243,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-falls-asleep-from-exhaustion-character-5df351c5b8d6 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2551,9 +3254,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `fuel_tank_explodes` { #symbol-api-lua-v5-generated-event-fuel-tank-explodes-601b6373437a }
 
-**Contract fields:**
+```lua
+---@class fuel_tank_explodes
+local fuel_tank_explodes = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `vehicle_name` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2561,10 +3273,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `vehicle_name` { #symbol-api-lua-v5-generated-event-field-fuel-tank-explodes-vehicle-name-2cbae4a016a9 }
 
-**Contract fields:**
-
-- `name`: `"vehicle_name"`
-- `type`: `"string"`
+```lua
+---@field vehicle_name any
+vehicle_name = ... -- any
+```
 
 **Sources:**
 
@@ -2572,9 +3284,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `gains_addiction` { #symbol-api-lua-v5-generated-event-gains-addiction-c20f8a8a4792 }
 
-**Contract fields:**
+```lua
+---@class gains_addiction
+local gains_addiction = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `add_type` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2582,10 +3304,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-gains-addiction-character-51ad2baedf22 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2593,10 +3315,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `add_type` { #symbol-api-lua-v5-generated-event-field-gains-addiction-add-type-ed3e82a2584c }
 
-**Contract fields:**
-
-- `name`: `"add_type"`
-- `type`: `"addiction_id"`
+```lua
+---@field add_type any
+add_type = ... -- any
+```
 
 **Sources:**
 
@@ -2604,9 +3326,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `gains_mutation` { #symbol-api-lua-v5-generated-event-gains-mutation-28451f149736 }
 
-**Contract fields:**
+```lua
+---@class gains_mutation
+local gains_mutation = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `trait` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2614,10 +3346,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-gains-mutation-character-b3ea53889a6c }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2625,10 +3357,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `trait` { #symbol-api-lua-v5-generated-event-field-gains-mutation-trait-b39ca08be4e8 }
 
-**Contract fields:**
-
-- `name`: `"trait"`
-- `type`: `"trait_id"`
+```lua
+---@field trait any
+trait = ... -- any
+```
 
 **Sources:**
 
@@ -2636,9 +3368,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `gains_proficiency` { #symbol-api-lua-v5-generated-event-gains-proficiency-e14a6fe41ff8 }
 
-**Contract fields:**
+```lua
+---@class gains_proficiency
+local gains_proficiency = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `proficiency` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2646,10 +3388,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-gains-proficiency-character-348e93e8a4c2 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2657,10 +3399,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `proficiency` { #symbol-api-lua-v5-generated-event-field-gains-proficiency-proficiency-0c4c64a0a30e }
 
-**Contract fields:**
-
-- `name`: `"proficiency"`
-- `type`: `"proficiency_id"`
+```lua
+---@field proficiency any
+proficiency = ... -- any
+```
 
 **Sources:**
 
@@ -2668,9 +3410,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `gains_skill_level` { #symbol-api-lua-v5-generated-event-gains-skill-level-7f228d0dfc50 }
 
-**Contract fields:**
+```lua
+---@class gains_skill_level
+local gains_skill_level = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `skill` | `any` | Read-write |
+| `new_level` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2678,10 +3431,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-gains-skill-level-character-86659ce6b2cb }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2689,10 +3442,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `skill` { #symbol-api-lua-v5-generated-event-field-gains-skill-level-skill-b61152b69d46 }
 
-**Contract fields:**
-
-- `name`: `"skill"`
-- `type`: `"skill_id"`
+```lua
+---@field skill any
+skill = ... -- any
+```
 
 **Sources:**
 
@@ -2700,10 +3453,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `new_level` { #symbol-api-lua-v5-generated-event-field-gains-skill-level-new-level-3fd4551d32a7 }
 
-**Contract fields:**
-
-- `name`: `"new_level"`
-- `type`: `"int_"`
+```lua
+---@field new_level any
+new_level = ... -- any
+```
 
 **Sources:**
 
@@ -2711,9 +3464,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game_avatar_death` { #symbol-api-lua-v5-generated-event-game-avatar-death-0e53a88758a1 }
 
-**Contract fields:**
+```lua
+---@class game_avatar_death
+local game_avatar_death = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `avatar_id` | `any` | Read-write |
+| `avatar_name` | `any` | Read-write |
+| `is_suicide` | `any` | Read-write |
+| `last_words` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2721,10 +3486,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `avatar_id` { #symbol-api-lua-v5-generated-event-field-game-avatar-death-avatar-id-b93f1a33157b }
 
-**Contract fields:**
-
-- `name`: `"avatar_id"`
-- `type`: `"character_id"`
+```lua
+---@field avatar_id any
+avatar_id = ... -- any
+```
 
 **Sources:**
 
@@ -2732,10 +3497,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `avatar_name` { #symbol-api-lua-v5-generated-event-field-game-avatar-death-avatar-name-5de966dac1a0 }
 
-**Contract fields:**
-
-- `name`: `"avatar_name"`
-- `type`: `"string"`
+```lua
+---@field avatar_name any
+avatar_name = ... -- any
+```
 
 **Sources:**
 
@@ -2743,10 +3508,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `is_suicide` { #symbol-api-lua-v5-generated-event-field-game-avatar-death-is-suicide-36aeaeebbf71 }
 
-**Contract fields:**
-
-- `name`: `"is_suicide"`
-- `type`: `"bool_"`
+```lua
+---@field is_suicide any
+is_suicide = ... -- any
+```
 
 **Sources:**
 
@@ -2754,10 +3519,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `last_words` { #symbol-api-lua-v5-generated-event-field-game-avatar-death-last-words-bd6e0d5caf9d }
 
-**Contract fields:**
-
-- `name`: `"last_words"`
-- `type`: `"string"`
+```lua
+---@field last_words any
+last_words = ... -- any
+```
 
 **Sources:**
 
@@ -2765,9 +3530,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game_avatar_new` { #symbol-api-lua-v5-generated-event-game-avatar-new-38b032f26094 }
 
-**Contract fields:**
+```lua
+---@class game_avatar_new
+local game_avatar_new = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `is_new_game` | `any` | Read-write |
+| `is_debug` | `any` | Read-write |
+| `avatar_id` | `any` | Read-write |
+| `avatar_name` | `any` | Read-write |
+| `avatar_custom_profession` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2775,10 +3553,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `is_new_game` { #symbol-api-lua-v5-generated-event-field-game-avatar-new-is-new-game-1edfc87d1c32 }
 
-**Contract fields:**
-
-- `name`: `"is_new_game"`
-- `type`: `"bool_"`
+```lua
+---@field is_new_game any
+is_new_game = ... -- any
+```
 
 **Sources:**
 
@@ -2786,10 +3564,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `is_debug` { #symbol-api-lua-v5-generated-event-field-game-avatar-new-is-debug-bb00299b905d }
 
-**Contract fields:**
-
-- `name`: `"is_debug"`
-- `type`: `"bool_"`
+```lua
+---@field is_debug any
+is_debug = ... -- any
+```
 
 **Sources:**
 
@@ -2797,10 +3575,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `avatar_id` { #symbol-api-lua-v5-generated-event-field-game-avatar-new-avatar-id-4871dcd5fad3 }
 
-**Contract fields:**
-
-- `name`: `"avatar_id"`
-- `type`: `"character_id"`
+```lua
+---@field avatar_id any
+avatar_id = ... -- any
+```
 
 **Sources:**
 
@@ -2808,10 +3586,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `avatar_name` { #symbol-api-lua-v5-generated-event-field-game-avatar-new-avatar-name-a6e7aeedc30a }
 
-**Contract fields:**
-
-- `name`: `"avatar_name"`
-- `type`: `"string"`
+```lua
+---@field avatar_name any
+avatar_name = ... -- any
+```
 
 **Sources:**
 
@@ -2819,10 +3597,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `avatar_custom_profession` { #symbol-api-lua-v5-generated-event-field-game-avatar-new-avatar-custom-profession-06b8e151d720 }
 
-**Contract fields:**
-
-- `name`: `"avatar_custom_profession"`
-- `type`: `"string"`
+```lua
+---@field avatar_custom_profession any
+avatar_custom_profession = ... -- any
+```
 
 **Sources:**
 
@@ -2830,9 +3608,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game_begin` { #symbol-api-lua-v5-generated-event-game-begin-03a90bc39ed3 }
 
-**Contract fields:**
+```lua
+---@class game_begin
+local game_begin = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `cdda_version` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2840,10 +3627,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `cdda_version` { #symbol-api-lua-v5-generated-event-field-game-begin-cdda-version-df8a810131d9 }
 
-**Contract fields:**
-
-- `name`: `"cdda_version"`
-- `type`: `"string"`
+```lua
+---@field cdda_version any
+cdda_version = ... -- any
+```
 
 **Sources:**
 
@@ -2851,9 +3638,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game_load` { #symbol-api-lua-v5-generated-event-game-load-f6af9cd6501d }
 
-**Contract fields:**
+```lua
+---@class game_load
+local game_load = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `cdda_version` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2861,10 +3657,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `cdda_version` { #symbol-api-lua-v5-generated-event-field-game-load-cdda-version-b9a4ee762eb5 }
 
-**Contract fields:**
-
-- `name`: `"cdda_version"`
-- `type`: `"string"`
+```lua
+---@field cdda_version any
+cdda_version = ... -- any
+```
 
 **Sources:**
 
@@ -2872,9 +3668,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game_over` { #symbol-api-lua-v5-generated-event-game-over-d65a7a36cfeb }
 
-**Contract fields:**
+```lua
+---@class game_over
+local game_over = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `total_time_played` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2882,10 +3687,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `total_time_played` { #symbol-api-lua-v5-generated-event-field-game-over-total-time-played-317b77c7417e }
 
-**Contract fields:**
-
-- `name`: `"total_time_played"`
-- `type`: `"chrono_seconds"`
+```lua
+---@field total_time_played any
+total_time_played = ... -- any
+```
 
 **Sources:**
 
@@ -2893,9 +3698,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game_save` { #symbol-api-lua-v5-generated-event-game-save-0ef1ea32cce9 }
 
-**Contract fields:**
+```lua
+---@class game_save
+local game_save = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `time_since_load` | `any` | Read-write |
+| `total_time_played` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2903,10 +3718,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `time_since_load` { #symbol-api-lua-v5-generated-event-field-game-save-time-since-load-5932a32ed08d }
 
-**Contract fields:**
-
-- `name`: `"time_since_load"`
-- `type`: `"chrono_seconds"`
+```lua
+---@field time_since_load any
+time_since_load = ... -- any
+```
 
 **Sources:**
 
@@ -2914,10 +3729,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `total_time_played` { #symbol-api-lua-v5-generated-event-field-game-save-total-time-played-ae2c10ba5570 }
 
-**Contract fields:**
-
-- `name`: `"total_time_played"`
-- `type`: `"chrono_seconds"`
+```lua
+---@field total_time_played any
+total_time_played = ... -- any
+```
 
 **Sources:**
 
@@ -2925,9 +3740,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game_start` { #symbol-api-lua-v5-generated-event-game-start-6de0dab596e6 }
 
-**Contract fields:**
+```lua
+---@class game_start
+local game_start = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `game_version` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2935,10 +3759,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `game_version` { #symbol-api-lua-v5-generated-event-field-game-start-game-version-6bc0c920ae8c }
 
-**Contract fields:**
-
-- `name`: `"game_version"`
-- `type`: `"string"`
+```lua
+---@field game_version any
+game_version = ... -- any
+```
 
 **Sources:**
 
@@ -2946,9 +3770,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `installs_cbm` { #symbol-api-lua-v5-generated-event-installs-cbm-953dace357e8 }
 
-**Contract fields:**
+```lua
+---@class installs_cbm
+local installs_cbm = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `bionic` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2956,10 +3790,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-installs-cbm-character-4834da5c656c }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2967,10 +3801,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `bionic` { #symbol-api-lua-v5-generated-event-field-installs-cbm-bionic-ec62687fff4c }
 
-**Contract fields:**
-
-- `name`: `"bionic"`
-- `type`: `"bionic_id"`
+```lua
+---@field bionic any
+bionic = ... -- any
+```
 
 **Sources:**
 
@@ -2978,9 +3812,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `installs_faulty_cbm` { #symbol-api-lua-v5-generated-event-installs-faulty-cbm-1da35527f7c0 }
 
-**Contract fields:**
+```lua
+---@class installs_faulty_cbm
+local installs_faulty_cbm = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `bionic` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -2988,10 +3832,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-installs-faulty-cbm-character-523b9fd492e5 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -2999,10 +3843,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `bionic` { #symbol-api-lua-v5-generated-event-field-installs-faulty-cbm-bionic-6f25540b89fd }
 
-**Contract fields:**
-
-- `name`: `"bionic"`
-- `type`: `"bionic_id"`
+```lua
+---@field bionic any
+bionic = ... -- any
+```
 
 **Sources:**
 
@@ -3010,9 +3854,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `learns_martial_art` { #symbol-api-lua-v5-generated-event-learns-martial-art-d2ad6154d366 }
 
-**Contract fields:**
+```lua
+---@class learns_martial_art
+local learns_martial_art = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `martial_art` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3020,10 +3874,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-learns-martial-art-character-ac3f27f45ac7 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -3031,10 +3885,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `martial_art` { #symbol-api-lua-v5-generated-event-field-learns-martial-art-martial-art-a6baf451d54c }
 
-**Contract fields:**
-
-- `name`: `"martial_art"`
-- `type`: `"matype_id"`
+```lua
+---@field martial_art any
+martial_art = ... -- any
+```
 
 **Sources:**
 
@@ -3042,9 +3896,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `loses_addiction` { #symbol-api-lua-v5-generated-event-loses-addiction-ccfb620f2d13 }
 
-**Contract fields:**
+```lua
+---@class loses_addiction
+local loses_addiction = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `add_type` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3052,10 +3916,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-loses-addiction-character-7b1df56b55c8 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -3063,10 +3927,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `add_type` { #symbol-api-lua-v5-generated-event-field-loses-addiction-add-type-a40c755936af }
 
-**Contract fields:**
-
-- `name`: `"add_type"`
-- `type`: `"addiction_id"`
+```lua
+---@field add_type any
+add_type = ... -- any
+```
 
 **Sources:**
 
@@ -3074,9 +3938,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `loses_mutation` { #symbol-api-lua-v5-generated-event-loses-mutation-250e63cfdfc8 }
 
-**Contract fields:**
+```lua
+---@class loses_mutation
+local loses_mutation = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `trait` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3084,10 +3958,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-loses-mutation-character-230e5bbcb538 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -3095,10 +3969,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `trait` { #symbol-api-lua-v5-generated-event-field-loses-mutation-trait-22650090857c }
 
-**Contract fields:**
-
-- `name`: `"trait"`
-- `type`: `"trait_id"`
+```lua
+---@field trait any
+trait = ... -- any
+```
 
 **Sources:**
 
@@ -3106,9 +3980,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `monster_takes_damage` { #symbol-api-lua-v5-generated-event-monster-takes-damage-6eef0baa5b82 }
 
-**Contract fields:**
+```lua
+---@class monster_takes_damage
+local monster_takes_damage = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `damage` | `any` | Read-write |
+| `dies` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3116,10 +4000,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `damage` { #symbol-api-lua-v5-generated-event-field-monster-takes-damage-damage-6fad682a10b7 }
 
-**Contract fields:**
-
-- `name`: `"damage"`
-- `type`: `"int_"`
+```lua
+---@field damage any
+damage = ... -- any
+```
 
 **Sources:**
 
@@ -3127,10 +4011,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `dies` { #symbol-api-lua-v5-generated-event-field-monster-takes-damage-dies-b882e269bfa9 }
 
-**Contract fields:**
-
-- `name`: `"dies"`
-- `type`: `"bool_"`
+```lua
+---@field dies any
+dies = ... -- any
+```
 
 **Sources:**
 
@@ -3138,9 +4022,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `npc_becomes_hostile` { #symbol-api-lua-v5-generated-event-npc-becomes-hostile-dff223ee35b1 }
 
-**Contract fields:**
+```lua
+---@class npc_becomes_hostile
+local npc_becomes_hostile = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `npc` | `any` | Read-write |
+| `npc_name` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3148,10 +4042,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `npc` { #symbol-api-lua-v5-generated-event-field-npc-becomes-hostile-npc-90c713be8902 }
 
-**Contract fields:**
-
-- `name`: `"npc"`
-- `type`: `"character_id"`
+```lua
+---@field npc any
+npc = ... -- any
+```
 
 **Sources:**
 
@@ -3159,10 +4053,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `npc_name` { #symbol-api-lua-v5-generated-event-field-npc-becomes-hostile-npc-name-3a561d488aef }
 
-**Contract fields:**
-
-- `name`: `"npc_name"`
-- `type`: `"string"`
+```lua
+---@field npc_name any
+npc_name = ... -- any
+```
 
 **Sources:**
 
@@ -3170,9 +4064,12 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `opens_portal` { #symbol-api-lua-v5-generated-event-opens-portal-c1b1133cb32f }
 
-**Contract fields:**
+```lua
+---@class opens_portal
+local opens_portal = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3180,9 +4077,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `opens_spellbook` { #symbol-api-lua-v5-generated-event-opens-spellbook-45b84cbd5d4f }
 
-**Contract fields:**
+```lua
+---@class opens_spellbook
+local opens_spellbook = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3190,10 +4096,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-opens-spellbook-character-cf21c8926336 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -3201,9 +4107,12 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `opens_temple` { #symbol-api-lua-v5-generated-event-opens-temple-1fb67651cd07 }
 
-**Contract fields:**
+```lua
+---@class opens_temple
+local opens_temple = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3211,9 +4120,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `phase_move` { #symbol-api-lua-v5-generated-event-phase-move-6b84f61437c6 }
 
-**Contract fields:**
+```lua
+---@class phase_move
+local phase_move = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `distance_traveled` | `any` | Read-write |
+| `is_bionic` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3221,10 +4140,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `distance_traveled` { #symbol-api-lua-v5-generated-event-field-phase-move-distance-traveled-24cffb42fa94 }
 
-**Contract fields:**
-
-- `name`: `"distance_traveled"`
-- `type`: `"int_"`
+```lua
+---@field distance_traveled any
+distance_traveled = ... -- any
+```
 
 **Sources:**
 
@@ -3232,10 +4151,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `is_bionic` { #symbol-api-lua-v5-generated-event-field-phase-move-is-bionic-dfad013961a7 }
 
-**Contract fields:**
-
-- `name`: `"is_bionic"`
-- `type`: `"bool_"`
+```lua
+---@field is_bionic any
+is_bionic = ... -- any
+```
 
 **Sources:**
 
@@ -3243,9 +4162,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `player_fails_conduct` { #symbol-api-lua-v5-generated-event-player-fails-conduct-ee7addec8294 }
 
-**Contract fields:**
+```lua
+---@class player_fails_conduct
+local player_fails_conduct = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `conduct` | `any` | Read-write |
+| `achievements_enabled` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3253,10 +4182,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `conduct` { #symbol-api-lua-v5-generated-event-field-player-fails-conduct-conduct-3f68e9188106 }
 
-**Contract fields:**
-
-- `name`: `"conduct"`
-- `type`: `"achievement_id"`
+```lua
+---@field conduct any
+conduct = ... -- any
+```
 
 **Sources:**
 
@@ -3264,10 +4193,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `achievements_enabled` { #symbol-api-lua-v5-generated-event-field-player-fails-conduct-achievements-enabled-9344d341f9da }
 
-**Contract fields:**
-
-- `name`: `"achievements_enabled"`
-- `type`: `"bool_"`
+```lua
+---@field achievements_enabled any
+achievements_enabled = ... -- any
+```
 
 **Sources:**
 
@@ -3275,9 +4204,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `player_gets_achievement` { #symbol-api-lua-v5-generated-event-player-gets-achievement-1907706a8704 }
 
-**Contract fields:**
+```lua
+---@class player_gets_achievement
+local player_gets_achievement = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `achievement` | `any` | Read-write |
+| `achievements_enabled` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3285,10 +4224,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `achievement` { #symbol-api-lua-v5-generated-event-field-player-gets-achievement-achievement-37451bcac027 }
 
-**Contract fields:**
-
-- `name`: `"achievement"`
-- `type`: `"achievement_id"`
+```lua
+---@field achievement any
+achievement = ... -- any
+```
 
 **Sources:**
 
@@ -3296,10 +4235,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `achievements_enabled` { #symbol-api-lua-v5-generated-event-field-player-gets-achievement-achievements-enabled-5627817028e3 }
 
-**Contract fields:**
-
-- `name`: `"achievements_enabled"`
-- `type`: `"bool_"`
+```lua
+---@field achievements_enabled any
+achievements_enabled = ... -- any
+```
 
 **Sources:**
 
@@ -3307,9 +4246,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `player_levels_spell` { #symbol-api-lua-v5-generated-event-player-levels-spell-0c963878287a }
 
-**Contract fields:**
+```lua
+---@class player_levels_spell
+local player_levels_spell = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `spell` | `any` | Read-write |
+| `new_level` | `any` | Read-write |
+| `school` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3317,10 +4268,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-player-levels-spell-character-6da9a8769ac0 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -3328,10 +4279,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `spell` { #symbol-api-lua-v5-generated-event-field-player-levels-spell-spell-a2f42405bf1f }
 
-**Contract fields:**
-
-- `name`: `"spell"`
-- `type`: `"spell_id"`
+```lua
+---@field spell any
+spell = ... -- any
+```
 
 **Sources:**
 
@@ -3339,10 +4290,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `new_level` { #symbol-api-lua-v5-generated-event-field-player-levels-spell-new-level-579fb9148583 }
 
-**Contract fields:**
-
-- `name`: `"new_level"`
-- `type`: `"int_"`
+```lua
+---@field new_level any
+new_level = ... -- any
+```
 
 **Sources:**
 
@@ -3350,10 +4301,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `school` { #symbol-api-lua-v5-generated-event-field-player-levels-spell-school-e4d4a41b37fb }
 
-**Contract fields:**
-
-- `name`: `"school"`
-- `type`: `"trait_id"`
+```lua
+---@field school any
+school = ... -- any
+```
 
 **Sources:**
 
@@ -3361,9 +4312,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `reads_book` { #symbol-api-lua-v5-generated-event-reads-book-b988a1dfdc82 }
 
-**Contract fields:**
+```lua
+---@class reads_book
+local reads_book = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `itype` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3371,10 +4332,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-reads-book-character-30e16561d51f }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -3382,10 +4343,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-reads-book-itype-50343f1223b0 }
 
-**Contract fields:**
-
-- `name`: `"itype"`
-- `type`: `"itype_id"`
+```lua
+---@field itype any
+itype = ... -- any
+```
 
 **Sources:**
 
@@ -3393,9 +4354,12 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `releases_subspace_specimens` { #symbol-api-lua-v5-generated-event-releases-subspace-specimens-1ab0b89e4fe6 }
 
-**Contract fields:**
+```lua
+---@class releases_subspace_specimens
+local releases_subspace_specimens = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3403,9 +4367,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `removes_cbm` { #symbol-api-lua-v5-generated-event-removes-cbm-6d22c303040a }
 
-**Contract fields:**
+```lua
+---@class removes_cbm
+local removes_cbm = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `bionic` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3413,10 +4387,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-removes-cbm-character-40a841571882 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -3424,10 +4398,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `bionic` { #symbol-api-lua-v5-generated-event-field-removes-cbm-bionic-008081e0a02c }
 
-**Contract fields:**
-
-- `name`: `"bionic"`
-- `type`: `"bionic_id"`
+```lua
+---@field bionic any
+bionic = ... -- any
+```
 
 **Sources:**
 
@@ -3435,9 +4409,12 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `seals_hazardous_material_sarcophagus` { #symbol-api-lua-v5-generated-event-seals-hazardous-material-sarcophagus-7867dd81ea71 }
 
-**Contract fields:**
+```lua
+---@class seals_hazardous_material_sarcophagus
+local seals_hazardous_material_sarcophagus = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3445,9 +4422,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `spellcasting_finish` { #symbol-api-lua-v5-generated-event-spellcasting-finish-f9c5310693f6 }
 
-**Contract fields:**
+```lua
+---@class spellcasting_finish
+local spellcasting_finish = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `success` | `any` | Read-write |
+| `spell` | `any` | Read-write |
+| `school` | `any` | Read-write |
+| `difficulty` | `any` | Read-write |
+| `cost` | `any` | Read-write |
+| `cast_time` | `any` | Read-write |
+| `damage` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3455,10 +4448,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-character-44e163d4f2c2 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -3466,10 +4459,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `success` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-success-34445e725ccc }
 
-**Contract fields:**
-
-- `name`: `"success"`
-- `type`: `"bool_"`
+```lua
+---@field success any
+success = ... -- any
+```
 
 **Sources:**
 
@@ -3477,10 +4470,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `spell` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-spell-97dfe06130f3 }
 
-**Contract fields:**
-
-- `name`: `"spell"`
-- `type`: `"spell_id"`
+```lua
+---@field spell any
+spell = ... -- any
+```
 
 **Sources:**
 
@@ -3488,10 +4481,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `school` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-school-7e754bbef370 }
 
-**Contract fields:**
-
-- `name`: `"school"`
-- `type`: `"trait_id"`
+```lua
+---@field school any
+school = ... -- any
+```
 
 **Sources:**
 
@@ -3499,10 +4492,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `difficulty` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-difficulty-0fd7176dfd5f }
 
-**Contract fields:**
-
-- `name`: `"difficulty"`
-- `type`: `"int_"`
+```lua
+---@field difficulty any
+difficulty = ... -- any
+```
 
 **Sources:**
 
@@ -3510,10 +4503,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `cost` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-cost-5cb941dd216b }
 
-**Contract fields:**
-
-- `name`: `"cost"`
-- `type`: `"int_"`
+```lua
+---@field cost any
+cost = ... -- any
+```
 
 **Sources:**
 
@@ -3521,10 +4514,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `cast_time` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-cast-time-2cacf4cdfeb0 }
 
-**Contract fields:**
-
-- `name`: `"cast_time"`
-- `type`: `"int_"`
+```lua
+---@field cast_time any
+cast_time = ... -- any
+```
 
 **Sources:**
 
@@ -3532,10 +4525,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `damage` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-damage-05c6c09291fb }
 
-**Contract fields:**
-
-- `name`: `"damage"`
-- `type`: `"int_"`
+```lua
+---@field damage any
+damage = ... -- any
+```
 
 **Sources:**
 
@@ -3543,9 +4536,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `telefrags_creature` { #symbol-api-lua-v5-generated-event-telefrags-creature-b6402d7604d8 }
 
-**Contract fields:**
+```lua
+---@class telefrags_creature
+local telefrags_creature = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `victim_name` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3553,10 +4556,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-telefrags-creature-character-f2a84eda9331 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -3564,10 +4567,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `victim_name` { #symbol-api-lua-v5-generated-event-field-telefrags-creature-victim-name-e806a1f3a17f }
 
-**Contract fields:**
-
-- `name`: `"victim_name"`
-- `type`: `"string"`
+```lua
+---@field victim_name any
+victim_name = ... -- any
+```
 
 **Sources:**
 
@@ -3575,9 +4578,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `teleglow_teleports` { #symbol-api-lua-v5-generated-event-teleglow-teleports-8834db858823 }
 
-**Contract fields:**
+```lua
+---@class teleglow_teleports
+local teleglow_teleports = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3585,10 +4597,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-teleglow-teleports-character-577446ea44c7 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -3596,9 +4608,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `teleports_into_wall` { #symbol-api-lua-v5-generated-event-teleports-into-wall-48583f3f996a }
 
-**Contract fields:**
+```lua
+---@class teleports_into_wall
+local teleports_into_wall = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+| `obstacle_name` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3606,10 +4628,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-teleports-into-wall-character-c53cefd360f4 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -3617,10 +4639,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `obstacle_name` { #symbol-api-lua-v5-generated-event-field-teleports-into-wall-obstacle-name-3688bb3fb981 }
 
-**Contract fields:**
-
-- `name`: `"obstacle_name"`
-- `type`: `"string"`
+```lua
+---@field obstacle_name any
+obstacle_name = ... -- any
+```
 
 **Sources:**
 
@@ -3628,9 +4650,12 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `terminates_subspace_specimens` { #symbol-api-lua-v5-generated-event-terminates-subspace-specimens-f5f42a521fd7 }
 
-**Contract fields:**
+```lua
+---@class terminates_subspace_specimens
+local terminates_subspace_specimens = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3638,9 +4663,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `throws_up` { #symbol-api-lua-v5-generated-event-throws-up-fd793f1fa60e }
 
-**Contract fields:**
+```lua
+---@class throws_up
+local throws_up = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3648,10 +4682,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-throws-up-character-ca206a210f02 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -3659,9 +4693,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `triggers_alarm` { #symbol-api-lua-v5-generated-event-triggers-alarm-af86cf6481c8 }
 
-**Contract fields:**
+```lua
+---@class triggers_alarm
+local triggers_alarm = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3669,10 +4712,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-triggers-alarm-character-8aec5d80867c }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **Sources:**
 
@@ -3680,9 +4723,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `u_var_changed` { #symbol-api-lua-v5-generated-event-u-var-changed-a51347238929 }
 
-**Contract fields:**
+```lua
+---@class u_var_changed
+local u_var_changed = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `var` | `any` | Read-write |
+| `value` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3690,10 +4743,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `var` { #symbol-api-lua-v5-generated-event-field-u-var-changed-var-d1d60cd5652b }
 
-**Contract fields:**
-
-- `name`: `"var"`
-- `type`: `"string"`
+```lua
+---@field var any
+var = ... -- any
+```
 
 **Sources:**
 
@@ -3701,10 +4754,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `value` { #symbol-api-lua-v5-generated-event-field-u-var-changed-value-9455cf703409 }
 
-**Contract fields:**
-
-- `name`: `"value"`
-- `type`: `"string"`
+```lua
+---@field value any
+value = ... -- any
+```
 
 **Sources:**
 
@@ -3712,9 +4765,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `uses_debug_menu` { #symbol-api-lua-v5-generated-event-uses-debug-menu-099c9cbfd213 }
 
-**Contract fields:**
+```lua
+---@class uses_debug_menu
+local uses_debug_menu = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `debug_menu_option` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3722,10 +4784,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `debug_menu_option` { #symbol-api-lua-v5-generated-event-field-uses-debug-menu-debug-menu-option-58e0ac644bb5 }
 
-**Contract fields:**
-
-- `name`: `"debug_menu_option"`
-- `type`: `"debug_menu_index"`
+```lua
+---@field debug_menu_option any
+debug_menu_option = ... -- any
+```
 
 **Sources:**
 
@@ -3733,9 +4795,28 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `vehicle_moves` { #symbol-api-lua-v5-generated-event-vehicle-moves-8e9973428d28 }
 
-**Contract fields:**
+```lua
+---@class vehicle_moves
+local vehicle_moves = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `avatar_on_board` | `any` | Read-write |
+| `avatar_is_driving` | `any` | Read-write |
+| `avatar_remote_control` | `any` | Read-write |
+| `is_flying_aircraft` | `any` | Read-write |
+| `is_floating_watercraft` | `any` | Read-write |
+| `is_on_rails` | `any` | Read-write |
+| `is_falling` | `any` | Read-write |
+| `is_sinking` | `any` | Read-write |
+| `is_skidding` | `any` | Read-write |
+| `velocity` | `any` | Read-write |
+| `z` | `any` | Read-write |
+
+🛡️ **Required Capabilities:** `events`, `game.read`
 
 **Sources:**
 
@@ -3743,10 +4824,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `avatar_on_board` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-avatar-on-board-8771973d86e6 }
 
-**Contract fields:**
-
-- `name`: `"avatar_on_board"`
-- `type`: `"bool_"`
+```lua
+---@field avatar_on_board any
+avatar_on_board = ... -- any
+```
 
 **Sources:**
 
@@ -3754,10 +4835,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `avatar_is_driving` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-avatar-is-driving-080c950edef0 }
 
-**Contract fields:**
-
-- `name`: `"avatar_is_driving"`
-- `type`: `"bool_"`
+```lua
+---@field avatar_is_driving any
+avatar_is_driving = ... -- any
+```
 
 **Sources:**
 
@@ -3765,10 +4846,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `avatar_remote_control` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-avatar-remote-control-2edf4772cbb8 }
 
-**Contract fields:**
-
-- `name`: `"avatar_remote_control"`
-- `type`: `"bool_"`
+```lua
+---@field avatar_remote_control any
+avatar_remote_control = ... -- any
+```
 
 **Sources:**
 
@@ -3776,10 +4857,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `is_flying_aircraft` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-is-flying-aircraft-62ee94cf6789 }
 
-**Contract fields:**
-
-- `name`: `"is_flying_aircraft"`
-- `type`: `"bool_"`
+```lua
+---@field is_flying_aircraft any
+is_flying_aircraft = ... -- any
+```
 
 **Sources:**
 
@@ -3787,10 +4868,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `is_floating_watercraft` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-is-floating-watercraft-ee87c3f6c119 }
 
-**Contract fields:**
-
-- `name`: `"is_floating_watercraft"`
-- `type`: `"bool_"`
+```lua
+---@field is_floating_watercraft any
+is_floating_watercraft = ... -- any
+```
 
 **Sources:**
 
@@ -3798,10 +4879,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `is_on_rails` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-is-on-rails-096b06d5a8bf }
 
-**Contract fields:**
-
-- `name`: `"is_on_rails"`
-- `type`: `"bool_"`
+```lua
+---@field is_on_rails any
+is_on_rails = ... -- any
+```
 
 **Sources:**
 
@@ -3809,10 +4890,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `is_falling` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-is-falling-019c27176450 }
 
-**Contract fields:**
-
-- `name`: `"is_falling"`
-- `type`: `"bool_"`
+```lua
+---@field is_falling any
+is_falling = ... -- any
+```
 
 **Sources:**
 
@@ -3820,10 +4901,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `is_sinking` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-is-sinking-359bfd98d750 }
 
-**Contract fields:**
-
-- `name`: `"is_sinking"`
-- `type`: `"bool_"`
+```lua
+---@field is_sinking any
+is_sinking = ... -- any
+```
 
 **Sources:**
 
@@ -3831,10 +4912,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `is_skidding` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-is-skidding-2ba9e5a45938 }
 
-**Contract fields:**
-
-- `name`: `"is_skidding"`
-- `type`: `"bool_"`
+```lua
+---@field is_skidding any
+is_skidding = ... -- any
+```
 
 **Sources:**
 
@@ -3842,10 +4923,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `velocity` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-velocity-5bdae51abf27 }
 
-**Contract fields:**
-
-- `name`: `"velocity"`
-- `type`: `"int_"`
+```lua
+---@field velocity any
+velocity = ... -- any
+```
 
 **Sources:**
 
@@ -3853,10 +4934,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `z` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-z-b3e0677e31db }
 
-**Contract fields:**
-
-- `name`: `"z"`
-- `type`: `"int_"`
+```lua
+---@field z any
+z = ... -- any
+```
 
 **Sources:**
 

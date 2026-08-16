@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 53b661b7c99f1ea8c0f5058b175b09362cf1912d65108aab86430206b83c4799
+translation_source_fingerprint: 3a1f90876b97b55dec30797cdd16a146ef8602ea37108e90acc4076f4eae9b5c
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,25 +68,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Methods
 
-This page is generated from the Lua v5 public contract at pinned commit `d32b9cc880a85480840d82cfa05d256c78a16615` and contains 142 `methods` records. Do not edit it by hand.
+This page is the automatically generated reference manual for CCB Lua 0.1, containing 142 `methods` contract records.
 
 ## `GameHandle.is_valid` { #symbol-api-lua-v5-generated-method-gamehandle-is-valid-c9eef6069d4e }
 
-**Contract fields:**
+```lua
+function GameHandle:is_valid() -> boolean
+```
 
-- `class`: `"GameHandle"`
-- `name`: `"is_valid"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `boolean`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -95,21 +89,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `GameHandle.locator` { #symbol-api-lua-v5-generated-method-gamehandle-locator-7b3ad0a5806f }
 
-**Contract fields:**
+```lua
+function GameHandle:locator() -> CcbHandleLocator
+```
 
-- `class`: `"GameHandle"`
-- `name`: `"locator"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbHandleLocator"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbHandleLocator`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -118,21 +106,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `GameHandle.status` { #symbol-api-lua-v5-generated-method-gamehandle-status-7adc4749326c }
 
-**Contract fields:**
+```lua
+function GameHandle:status() -> CcbResult
+```
 
-- `class`: `"GameHandle"`
-- `name`: `"status"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbResult`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -141,21 +123,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `GameId.is_null` { #symbol-api-lua-v5-generated-method-gameid-is-null-37d6ffb20dcf }
 
-**Contract fields:**
+```lua
+function GameId:is_null() -> boolean
+```
 
-- `class`: `"GameId"`
-- `name`: `"is_null"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `boolean`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -164,21 +140,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `GameId.is_valid` { #symbol-api-lua-v5-generated-method-gameid-is-valid-7b6b6ab9e3e1 }
 
-**Contract fields:**
+```lua
+function GameId:is_valid() -> boolean
+```
 
-- `class`: `"GameId"`
-- `name`: `"is_valid"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `boolean`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -187,21 +157,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `HordeEntityToken.is_valid` { #symbol-api-lua-v5-generated-method-hordeentitytoken-is-valid-58016325dec4 }
 
-**Contract fields:**
+```lua
+function HordeEntityToken:is_valid() -> boolean
+```
 
-- `class`: `"HordeEntityToken"`
-- `name`: `"is_valid"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `boolean`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -210,21 +176,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `LegacyHordeToken.is_valid` { #symbol-api-lua-v5-generated-method-legacyhordetoken-is-valid-840fd094ffc9 }
 
-**Contract fields:**
+```lua
+function LegacyHordeToken:is_valid() -> boolean
+```
 
-- `class`: `"LegacyHordeToken"`
-- `name`: `"is_valid"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `boolean`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -233,21 +195,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `MissionToken.is_valid` { #symbol-api-lua-v5-generated-method-missiontoken-is-valid-0281f119e90f }
 
-**Contract fields:**
+```lua
+function MissionToken:is_valid() -> boolean
+```
 
-- `class`: `"MissionToken"`
-- `name`: `"is_valid"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `boolean`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -256,21 +214,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `PointCoord.add` { #symbol-api-lua-v5-generated-method-pointcoord-add-2c2017709216 }
 
-**Contract fields:**
+```lua
+function PointCoord:add(other: PointCoord) -> PointCoord
+```
 
-- `class`: `"PointCoord"`
-- `name`: `"add"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "PointCoord", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `other` | `PointCoord` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -279,21 +237,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `PointCoord.compare` { #symbol-api-lua-v5-generated-method-pointcoord-compare-cba7bf95775c }
 
-**Contract fields:**
+```lua
+function PointCoord:compare(other: PointCoord) -> -1|0|1
+```
 
-- `class`: `"PointCoord"`
-- `name`: `"compare"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "PointCoord", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "-1|0|1"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `other` | `PointCoord` | Required |
+
+**Returns:**
+
+- `-1|0|1`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -302,21 +260,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `PointCoord.euclidean_distance` { #symbol-api-lua-v5-generated-method-pointcoord-euclidean-distance-62098bd62228 }
 
-**Contract fields:**
+```lua
+function PointCoord:euclidean_distance(other: PointCoord) -> number
+```
 
-- `class`: `"PointCoord"`
-- `name`: `"euclidean_distance"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "PointCoord", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "number"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `other` | `PointCoord` | Required |
+
+**Returns:**
+
+- `number`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -325,21 +283,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `PointCoord.manhattan_distance` { #symbol-api-lua-v5-generated-method-pointcoord-manhattan-distance-aa5c4864b2d9 }
 
-**Contract fields:**
+```lua
+function PointCoord:manhattan_distance(other: PointCoord) -> integer
+```
 
-- `class`: `"PointCoord"`
-- `name`: `"manhattan_distance"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "PointCoord", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "integer"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `other` | `PointCoord` | Required |
+
+**Returns:**
+
+- `integer`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -348,21 +306,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `PointCoord.project_combine` { #symbol-api-lua-v5-generated-method-pointcoord-project-combine-8cdc88fa3936 }
 
-**Contract fields:**
+```lua
+function PointCoord:project_combine(remainder: PointCoord) -> PointCoord
+```
 
-- `class`: `"PointCoord"`
-- `name`: `"project_combine"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "PointCoord", "name": "remainder", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `remainder` | `PointCoord` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -371,21 +329,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `PointCoord.project_remain` { #symbol-api-lua-v5-generated-method-pointcoord-project-remain-0a2aebbe58b4 }
 
-**Contract fields:**
+```lua
+function PointCoord:project_remain(scale: CcbCoordinateScale) -> PointCoord coarse, PointCoord remainder
+```
 
-- `class`: `"PointCoord"`
-- `name`: `"project_remain"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "CcbCoordinateScale", "name": "scale", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord coarse, PointCoord remainder"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `scale` | `CcbCoordinateScale` | Required |
+
+**Returns:**
+
+- `PointCoord coarse, PointCoord remainder`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -394,21 +352,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `PointCoord.project_to` { #symbol-api-lua-v5-generated-method-pointcoord-project-to-c7c1bf66328d }
 
-**Contract fields:**
+```lua
+function PointCoord:project_to(scale: CcbCoordinateScale) -> PointCoord
+```
 
-- `class`: `"PointCoord"`
-- `name`: `"project_to"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "CcbCoordinateScale", "name": "scale", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `scale` | `CcbCoordinateScale` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -417,21 +375,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `PointCoord.scale_by` { #symbol-api-lua-v5-generated-method-pointcoord-scale-by-5854c08fb3bb }
 
-**Contract fields:**
+```lua
+function PointCoord:scale_by(factor: integer) -> PointCoord
+```
 
-- `class`: `"PointCoord"`
-- `name`: `"scale_by"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "integer", "name": "factor", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `factor` | `integer` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -440,21 +398,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `PointCoord.square_distance` { #symbol-api-lua-v5-generated-method-pointcoord-square-distance-2fd5991072ad }
 
-**Contract fields:**
+```lua
+function PointCoord:square_distance(other: PointCoord) -> integer
+```
 
-- `class`: `"PointCoord"`
-- `name`: `"square_distance"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "PointCoord", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "integer"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `other` | `PointCoord` | Required |
+
+**Returns:**
+
+- `integer`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -463,21 +421,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `PointCoord.subtract` { #symbol-api-lua-v5-generated-method-pointcoord-subtract-697afc1ac50b }
 
-**Contract fields:**
+```lua
+function PointCoord:subtract(other: PointCoord) -> PointCoord
+```
 
-- `class`: `"PointCoord"`
-- `name`: `"subtract"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "PointCoord", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `other` | `PointCoord` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -486,21 +444,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `PointCoord.to` { #symbol-api-lua-v5-generated-method-pointcoord-to-5234515bc2f0 }
 
-**Contract fields:**
+```lua
+function PointCoord:to(scale: CcbCoordinateScale) -> PointCoord
+```
 
-- `class`: `"PointCoord"`
-- `name`: `"to"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "CcbCoordinateScale", "name": "scale", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `scale` | `CcbCoordinateScale` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -509,21 +467,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.above` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-above-8869f343540b }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:above() -> GameId
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"above"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "GameId"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `GameId`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -532,21 +484,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.below` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-below-a62c5bd1958f }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:below() -> GameId
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"below"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "GameId"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `GameId`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -555,21 +501,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.east` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-east-14341268fc13 }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:east() -> GameId
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"east"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "GameId"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `GameId`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -578,21 +518,11 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.fill_groundcover` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-fill-groundcover-efd3e21ec05c }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:fill_groundcover()
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"fill_groundcover"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -601,21 +531,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.furniture_at` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-furniture-at-ab26cf0d9895 }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:furniture_at(x: integer, y: integer) -> GameId?
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"furniture_at"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[{"declaration": "GameId?"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+**Returns:**
+
+- `GameId?`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -624,21 +555,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.generate` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-generate-c5e7b304af6b }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:generate(id: string)
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"generate"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -647,21 +574,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.get_direction` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-get-direction-ba3d9a9736b6 }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:get_direction(index: integer) -> integer
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"get_direction"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "integer", "name": "index", "optional": false}]`
-- `returns`: `[{"declaration": "integer"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `index` | `integer` | Required |
+
+**Returns:**
+
+- `integer`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -670,21 +597,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.get_nesw` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-get-nesw-2a7fa2a0ac01 }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:get_nesw(index: integer) -> GameId
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"get_nesw"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "integer", "name": "index", "optional": false}]`
-- `returns`: `[{"declaration": "GameId"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `index` | `integer` | Required |
+
+**Returns:**
+
+- `GameId`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -693,21 +620,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.get_rot_suffix` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-get-rot-suffix-c7fa9b64ad33 }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:get_rot_suffix() -> string
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"get_rot_suffix"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "string"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `string`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -716,21 +637,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.get_rotation` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-get-rotation-1f13c2daa17e }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:get_rotation() -> integer
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"get_rotation"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "integer"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `integer`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -739,21 +654,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.id` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-id-55b81ccffc24 }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:id() -> GameId
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"id"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "GameId"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `GameId`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -762,21 +671,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.neast` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-neast-635fc3ae4eaf }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:neast() -> GameId
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"neast"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "GameId"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `GameId`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -785,21 +688,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.nest` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-nest-962cf7fffac9 }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:nest(id: string, x: integer, y: integer)
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"nest"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -808,21 +709,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.north` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-north-e78096444290 }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:north() -> GameId
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"north"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "GameId"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `GameId`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -831,21 +726,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.nwest` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-nwest-07f0825a7d38 }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:nwest() -> GameId
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"nwest"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "GameId"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `GameId`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -854,21 +743,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.operations_remaining` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-operations-remaining-44830b4f6159 }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:operations_remaining() -> integer
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"operations_remaining"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "integer"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `integer`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -877,21 +760,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.operations_used` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-operations-used-9a3f5c3f0a5c }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:operations_used() -> integer
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"operations_used"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "integer"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `integer`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -900,21 +777,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.random_chance` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-random-chance-3a8dd7132b7a }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:random_chance(numerator: integer, denominator: integer) -> boolean
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"random_chance"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "integer", "name": "numerator", "optional": false}, {"declaration": "integer", "name": "denominator", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `numerator` | `integer` | Required |
+| `denominator` | `integer` | Required |
+
+**Returns:**
+
+- `boolean`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -923,21 +801,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.random_int` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-random-int-7a3ee1b12809 }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:random_int(minimum: integer, maximum: integer) -> integer
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"random_int"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "integer", "name": "minimum", "optional": false}, {"declaration": "integer", "name": "maximum", "optional": false}]`
-- `returns`: `[{"declaration": "integer"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `minimum` | `integer` | Required |
+| `maximum` | `integer` | Required |
+
+**Returns:**
+
+- `integer`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -946,21 +825,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.seast` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-seast-cb7e71f1700e }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:seast() -> GameId
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"seast"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "GameId"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `GameId`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -969,21 +842,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.set_dir` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-set-dir-9100d28f017e }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:set_dir(index: integer, value: integer)
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"set_dir"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "integer", "name": "index", "optional": false}, {"declaration": "integer", "name": "value", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `index` | `integer` | Required |
+| `value` | `integer` | Required |
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -992,21 +862,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.set_furniture` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-set-furniture-b165b483ea52 }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:set_furniture(x: integer, y: integer, id: GameId?) -> boolean
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"set_furniture"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}, {"declaration": "GameId?", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+| `id` | `GameId?` | Required |
+
+**Returns:**
+
+- `boolean`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1015,21 +887,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.set_terrain` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-set-terrain-5faa536c0bf2 }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:set_terrain(x: integer, y: integer, id: GameId) -> boolean
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"set_terrain"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `boolean`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1038,21 +912,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.set_trap` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-set-trap-619d7e8adcc6 }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:set_trap(x: integer, y: integer, id: GameId?) -> boolean
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"set_trap"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}, {"declaration": "GameId?", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+| `id` | `GameId?` | Required |
+
+**Returns:**
+
+- `boolean`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1061,21 +937,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.south` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-south-8fa1ffbc3f06 }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:south() -> GameId
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"south"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "GameId"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `GameId`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1084,21 +954,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.swest` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-swest-b221d23d9e12 }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:swest() -> GameId
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"swest"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "GameId"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `GameId`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1107,21 +971,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.terrain_at` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-terrain-at-03cb2e0bac3a }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:terrain_at(x: integer, y: integer) -> GameId
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"terrain_at"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[{"declaration": "GameId"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+**Returns:**
+
+- `GameId`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1130,21 +995,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.trap_at` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-trap-at-953b576bd9a3 }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:trap_at(x: integer, y: integer) -> GameId?
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"trap_at"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[{"declaration": "GameId?"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+**Returns:**
+
+- `GameId?`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1153,21 +1019,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.valid` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-valid-3fced3ade71c }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:valid() -> boolean
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"valid"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `boolean`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1176,21 +1036,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.west` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-west-68d83a22e781 }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:west() -> GameId
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"west"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "GameId"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `GameId`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1199,21 +1053,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext.zlevel` { #symbol-api-lua-v5-generated-method-scriptmapgencontext-zlevel-5319b64c8a4e }
 
-**Contract fields:**
+```lua
+function ScriptMapgenContext:zlevel() -> integer
+```
 
-- `class`: `"ScriptMapgenContext"`
-- `name`: `"zlevel"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "integer"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `integer`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1222,21 +1070,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.action_slot_id` { #symbol-api-lua-v5-generated-method-scriptuicontext-action-slot-id-b24e2961a4f0 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:action_slot_id(id: string, selected_action: string, context_revision: integer, options: CcbActionSlotOption[]) -> string selected_action
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"action_slot_id"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "string", "name": "selected_action", "optional": false}, {"declaration": "integer", "name": "context_revision", "optional": false}, {"declaration": "CcbActionSlotOption[]", "name": "options", "optional": false}]`
-- `returns`: `[{"declaration": "string selected_action"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `selected_action` | `string` | Required |
+| `context_revision` | `integer` | Required |
+| `options` | `CcbActionSlotOption[]` | Required |
+
+**Returns:**
+
+- `string selected_action`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1245,21 +1096,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.backend` { #symbol-api-lua-v5-generated-method-scriptuicontext-backend-00533036aefc }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:backend() -> '"imgui"'
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"backend"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "'\"imgui\"'"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `'"imgui"'`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1268,21 +1113,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.bullet_text` { #symbol-api-lua-v5-generated-method-scriptuicontext-bullet-text-6cca08548b91 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:bullet_text(value: string)
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"bullet_text"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "value", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `value` | `string` | Required |
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1291,21 +1132,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.button` { #symbol-api-lua-v5-generated-method-scriptuicontext-button-3bece3fe02bd }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:button(label: string) -> boolean activated
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"button"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "label", "optional": false}]`
-- `returns`: `[{"declaration": "boolean activated"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `label` | `string` | Required |
+
+**Returns:**
+
+- `boolean activated`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1314,21 +1155,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.button_id` { #symbol-api-lua-v5-generated-method-scriptuicontext-button-id-687dcb54e1d7 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:button_id(id: string, label: string) -> boolean activated
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"button_id"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "string", "name": "label", "optional": false}]`
-- `returns`: `[{"declaration": "boolean activated"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `label` | `string` | Required |
+
+**Returns:**
+
+- `boolean activated`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1337,21 +1179,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.checkbox` { #symbol-api-lua-v5-generated-method-scriptuicontext-checkbox-83fa687cd1bf }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:checkbox(label: string, value: boolean) -> boolean value
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"checkbox"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "label", "optional": false}, {"declaration": "boolean", "name": "value", "optional": false}]`
-- `returns`: `[{"declaration": "boolean value"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `label` | `string` | Required |
+| `value` | `boolean` | Required |
+
+**Returns:**
+
+- `boolean value`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1360,21 +1203,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.checkbox_id` { #symbol-api-lua-v5-generated-method-scriptuicontext-checkbox-id-9bf175917f59 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:checkbox_id(id: string, label: string, value: boolean) -> boolean value
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"checkbox_id"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "string", "name": "label", "optional": false}, {"declaration": "boolean", "name": "value", "optional": false}]`
-- `returns`: `[{"declaration": "boolean value"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `label` | `string` | Required |
+| `value` | `boolean` | Required |
+
+**Returns:**
+
+- `boolean value`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1383,21 +1228,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.child` { #symbol-api-lua-v5-generated-method-scriptuicontext-child-37729fa5c1d1 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:child(id: string, height: number, draw: fun())
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"child"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "number", "name": "height", "optional": false}, {"declaration": "fun()", "name": "draw", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `height` | `number` | Required |
+| `draw` | `fun()` | Required |
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1406,21 +1249,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.disabled_text` { #symbol-api-lua-v5-generated-method-scriptuicontext-disabled-text-4aaf8b95ff1f }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:disabled_text(value: string)
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"disabled_text"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "value", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `value` | `string` | Required |
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1429,21 +1268,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.environment` { #symbol-api-lua-v5-generated-method-scriptuicontext-environment-2c4c075205c5 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:environment() -> CcbUiEnvironment
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"environment"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbUiEnvironment"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbUiEnvironment`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1452,21 +1285,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.grid` { #symbol-api-lua-v5-generated-method-scriptuicontext-grid-52edba7a7691 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:grid(id: string, narrow_columns: integer, regular_columns: integer, wide_columns: integer, draw: fun())
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"grid"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "integer", "name": "narrow_columns", "optional": false}, {"declaration": "integer", "name": "regular_columns", "optional": false}, {"declaration": "integer", "name": "wide_columns", "optional": false}, {"declaration": "fun()", "name": "draw", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `narrow_columns` | `integer` | Required |
+| `regular_columns` | `integer` | Required |
+| `wide_columns` | `integer` | Required |
+| `draw` | `fun()` | Required |
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1475,21 +1308,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.heading` { #symbol-api-lua-v5-generated-method-scriptuicontext-heading-d33b628c2f1a }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:heading(value: string)
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"heading"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "value", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `value` | `string` | Required |
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1498,21 +1327,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.input_float` { #symbol-api-lua-v5-generated-method-scriptuicontext-input-float-9cd22e370ae9 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:input_float(label: string, value: number) -> number value
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"input_float"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "label", "optional": false}, {"declaration": "number", "name": "value", "optional": false}]`
-- `returns`: `[{"declaration": "number value"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `label` | `string` | Required |
+| `value` | `number` | Required |
+
+**Returns:**
+
+- `number value`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1521,21 +1351,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.input_float_id` { #symbol-api-lua-v5-generated-method-scriptuicontext-input-float-id-bcd9d9199bb1 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:input_float_id(id: string, label: string, value: number) -> number value
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"input_float_id"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "string", "name": "label", "optional": false}, {"declaration": "number", "name": "value", "optional": false}]`
-- `returns`: `[{"declaration": "number value"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `label` | `string` | Required |
+| `value` | `number` | Required |
+
+**Returns:**
+
+- `number value`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1544,21 +1376,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.input_int` { #symbol-api-lua-v5-generated-method-scriptuicontext-input-int-8f1e0caab751 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:input_int(label: string, value: integer) -> integer value
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"input_int"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "label", "optional": false}, {"declaration": "integer", "name": "value", "optional": false}]`
-- `returns`: `[{"declaration": "integer value"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `label` | `string` | Required |
+| `value` | `integer` | Required |
+
+**Returns:**
+
+- `integer value`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1567,21 +1400,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.input_int_id` { #symbol-api-lua-v5-generated-method-scriptuicontext-input-int-id-300157471b24 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:input_int_id(id: string, label: string, value: integer) -> integer value
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"input_int_id"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "string", "name": "label", "optional": false}, {"declaration": "integer", "name": "value", "optional": false}]`
-- `returns`: `[{"declaration": "integer value"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `label` | `string` | Required |
+| `value` | `integer` | Required |
+
+**Returns:**
+
+- `integer value`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1590,21 +1425,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.input_text` { #symbol-api-lua-v5-generated-method-scriptuicontext-input-text-a3dbfe022956 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:input_text(label: string, value: string) -> string value
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"input_text"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "label", "optional": false}, {"declaration": "string", "name": "value", "optional": false}]`
-- `returns`: `[{"declaration": "string value"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `label` | `string` | Required |
+| `value` | `string` | Required |
+
+**Returns:**
+
+- `string value`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1613,21 +1449,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.input_text_id` { #symbol-api-lua-v5-generated-method-scriptuicontext-input-text-id-51de84423e8d }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:input_text_id(id: string, label: string, value: string) -> string value
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"input_text_id"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "string", "name": "label", "optional": false}, {"declaration": "string", "name": "value", "optional": false}]`
-- `returns`: `[{"declaration": "string value"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `label` | `string` | Required |
+| `value` | `string` | Required |
+
+**Returns:**
+
+- `string value`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1636,21 +1474,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.is_immediate_mode` { #symbol-api-lua-v5-generated-method-scriptuicontext-is-immediate-mode-48f683a7318d }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:is_immediate_mode() -> boolean
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"is_immediate_mode"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `boolean`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1659,21 +1491,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.item_width` { #symbol-api-lua-v5-generated-method-scriptuicontext-item-width-16987b9c29cf }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:item_width(size: CcbSizeToken)
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"item_width"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "CcbSizeToken", "name": "size", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `size` | `CcbSizeToken` | Required |
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1682,21 +1510,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.modal` { #symbol-api-lua-v5-generated-method-scriptuicontext-modal-068e16a5563f }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:modal(id: string, title: string, open: boolean, draw: fun()) -> boolean open
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"modal"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "string", "name": "title", "optional": false}, {"declaration": "boolean", "name": "open", "optional": false}, {"declaration": "fun()", "name": "draw", "optional": false}]`
-- `returns`: `[{"declaration": "boolean open"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `title` | `string` | Required |
+| `open` | `boolean` | Required |
+| `draw` | `fun()` | Required |
+
+**Returns:**
+
+- `boolean open`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1705,21 +1536,11 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.new_line` { #symbol-api-lua-v5-generated-method-scriptuicontext-new-line-b6d84af77cd7 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:new_line()
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"new_line"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1728,21 +1549,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.platform` { #symbol-api-lua-v5-generated-method-scriptuicontext-platform-3933135c00a6 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:platform() -> '"sdl2"'|'"sdl3"'|'"imtui"'
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"platform"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "'\"sdl2\"'|'\"sdl3\"'|'\"imtui\"'"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `'"sdl2"'|'"sdl3"'|'"imtui"'`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1751,21 +1566,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.progress_bar` { #symbol-api-lua-v5-generated-method-scriptuicontext-progress-bar-a3cb4bd9fa42 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:progress_bar(fraction: number, overlay: string?)
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"progress_bar"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "number", "name": "fraction", "optional": false}, {"declaration": "string", "name": "overlay", "optional": true}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `fraction` | `number` | Required |
+| `overlay` | `string` | Optional |
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1774,21 +1586,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.radial_select_id` { #symbol-api-lua-v5-generated-method-scriptuicontext-radial-select-id-7458a265bbd4 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:radial_select_id(id: string, center_label: string, options: CcbRadialOption[]) -> string selected_id Empty when no new selection was made.
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"radial_select_id"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "string", "name": "center_label", "optional": false}, {"declaration": "CcbRadialOption[]", "name": "options", "optional": false}]`
-- `returns`: `[{"declaration": "string selected_id Empty when no new selection was made."}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `center_label` | `string` | Required |
+| `options` | `CcbRadialOption[]` | Required |
+
+**Returns:**
+
+- `string selected_id Empty when no new selection was made.`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1797,21 +1611,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.radio_button` { #symbol-api-lua-v5-generated-method-scriptuicontext-radio-button-2302135c8cd8 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:radio_button(label: string, active: boolean) -> boolean activated
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"radio_button"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "label", "optional": false}, {"declaration": "boolean", "name": "active", "optional": false}]`
-- `returns`: `[{"declaration": "boolean activated"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `label` | `string` | Required |
+| `active` | `boolean` | Required |
+
+**Returns:**
+
+- `boolean activated`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1820,21 +1635,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.radio_button_id` { #symbol-api-lua-v5-generated-method-scriptuicontext-radio-button-id-569097667f55 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:radio_button_id(id: string, label: string, active: boolean) -> boolean activated
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"radio_button_id"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "string", "name": "label", "optional": false}, {"declaration": "boolean", "name": "active", "optional": false}]`
-- `returns`: `[{"declaration": "boolean activated"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `label` | `string` | Required |
+| `active` | `boolean` | Required |
+
+**Returns:**
+
+- `boolean activated`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1843,21 +1660,11 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.same_line` { #symbol-api-lua-v5-generated-method-scriptuicontext-same-line-4807b40ae12f }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:same_line()
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"same_line"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1866,21 +1673,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.scroll` { #symbol-api-lua-v5-generated-method-scriptuicontext-scroll-a3bfd565097f }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:scroll(id: string, height: CcbSizeToken, draw: fun())
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"scroll"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "CcbSizeToken", "name": "height", "optional": false}, {"declaration": "fun()", "name": "draw", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `height` | `CcbSizeToken` | Required |
+| `draw` | `fun()` | Required |
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1889,21 +1694,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.selectable` { #symbol-api-lua-v5-generated-method-scriptuicontext-selectable-2e92415f5a0b }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:selectable(label: string, selected: boolean) -> boolean activated
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"selectable"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "label", "optional": false}, {"declaration": "boolean", "name": "selected", "optional": false}]`
-- `returns`: `[{"declaration": "boolean activated"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `label` | `string` | Required |
+| `selected` | `boolean` | Required |
+
+**Returns:**
+
+- `boolean activated`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1912,21 +1718,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.selectable_id` { #symbol-api-lua-v5-generated-method-scriptuicontext-selectable-id-1a91b0a5abe6 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:selectable_id(id: string, label: string, selected: boolean) -> boolean activated
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"selectable_id"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "string", "name": "label", "optional": false}, {"declaration": "boolean", "name": "selected", "optional": false}]`
-- `returns`: `[{"declaration": "boolean activated"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `label` | `string` | Required |
+| `selected` | `boolean` | Required |
+
+**Returns:**
+
+- `boolean activated`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1935,21 +1743,11 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.separator` { #symbol-api-lua-v5-generated-method-scriptuicontext-separator-e54cc9704636 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:separator()
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"separator"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1958,21 +1756,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.set_next_item_width` { #symbol-api-lua-v5-generated-method-scriptuicontext-set-next-item-width-d5230406e13d }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:set_next_item_width(width: number)
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"set_next_item_width"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "number", "name": "width", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `width` | `number` | Required |
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1981,21 +1775,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.slider_float` { #symbol-api-lua-v5-generated-method-scriptuicontext-slider-float-1721c7a8d348 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:slider_float(label: string, value: number, minimum: number, maximum: number) -> number value
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"slider_float"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "label", "optional": false}, {"declaration": "number", "name": "value", "optional": false}, {"declaration": "number", "name": "minimum", "optional": false}, {"declaration": "number", "name": "maximum", "optional": false}]`
-- `returns`: `[{"declaration": "number value"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `label` | `string` | Required |
+| `value` | `number` | Required |
+| `minimum` | `number` | Required |
+| `maximum` | `number` | Required |
+
+**Returns:**
+
+- `number value`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2004,21 +1801,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.slider_float_id` { #symbol-api-lua-v5-generated-method-scriptuicontext-slider-float-id-5d6365206de7 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:slider_float_id(id: string, label: string, value: number, minimum: number, maximum: number) -> number value
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"slider_float_id"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "string", "name": "label", "optional": false}, {"declaration": "number", "name": "value", "optional": false}, {"declaration": "number", "name": "minimum", "optional": false}, {"declaration": "number", "name": "maximum", "optional": false}]`
-- `returns`: `[{"declaration": "number value"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `label` | `string` | Required |
+| `value` | `number` | Required |
+| `minimum` | `number` | Required |
+| `maximum` | `number` | Required |
+
+**Returns:**
+
+- `number value`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2027,21 +1828,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.slider_int` { #symbol-api-lua-v5-generated-method-scriptuicontext-slider-int-f65e2cf8c390 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:slider_int(label: string, value: integer, minimum: integer, maximum: integer) -> integer value
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"slider_int"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "label", "optional": false}, {"declaration": "integer", "name": "value", "optional": false}, {"declaration": "integer", "name": "minimum", "optional": false}, {"declaration": "integer", "name": "maximum", "optional": false}]`
-- `returns`: `[{"declaration": "integer value"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `label` | `string` | Required |
+| `value` | `integer` | Required |
+| `minimum` | `integer` | Required |
+| `maximum` | `integer` | Required |
+
+**Returns:**
+
+- `integer value`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2050,21 +1854,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.slider_int_id` { #symbol-api-lua-v5-generated-method-scriptuicontext-slider-int-id-c3f7cec0b96c }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:slider_int_id(id: string, label: string, value: integer, minimum: integer, maximum: integer) -> integer value
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"slider_int_id"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "string", "name": "label", "optional": false}, {"declaration": "integer", "name": "value", "optional": false}, {"declaration": "integer", "name": "minimum", "optional": false}, {"declaration": "integer", "name": "maximum", "optional": false}]`
-- `returns`: `[{"declaration": "integer value"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `label` | `string` | Required |
+| `value` | `integer` | Required |
+| `minimum` | `integer` | Required |
+| `maximum` | `integer` | Required |
+
+**Returns:**
+
+- `integer value`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2073,21 +1881,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.small_button` { #symbol-api-lua-v5-generated-method-scriptuicontext-small-button-3608a854f3ee }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:small_button(label: string) -> boolean activated
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"small_button"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "label", "optional": false}]`
-- `returns`: `[{"declaration": "boolean activated"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `label` | `string` | Required |
+
+**Returns:**
+
+- `boolean activated`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2096,21 +1904,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.small_button_id` { #symbol-api-lua-v5-generated-method-scriptuicontext-small-button-id-4702832f0267 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:small_button_id(id: string, label: string) -> boolean activated
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"small_button_id"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "string", "name": "label", "optional": false}]`
-- `returns`: `[{"declaration": "boolean activated"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `label` | `string` | Required |
+
+**Returns:**
+
+- `boolean activated`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2119,21 +1928,11 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.spacing` { #symbol-api-lua-v5-generated-method-scriptuicontext-spacing-7c967b6f4a07 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:spacing()
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"spacing"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2142,21 +1941,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.supports` { #symbol-api-lua-v5-generated-method-scriptuicontext-supports-b4e5f71a7f46 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:supports(capability: string) -> boolean
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"supports"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "capability", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `capability` | `string` | Required |
+
+**Returns:**
+
+- `boolean`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2165,21 +1964,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.tab` { #symbol-api-lua-v5-generated-method-scriptuicontext-tab-086ea6875120 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:tab(id: string, label: string, draw: fun()) -> boolean active
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"tab"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "string", "name": "label", "optional": false}, {"declaration": "fun()", "name": "draw", "optional": false}]`
-- `returns`: `[{"declaration": "boolean active"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `label` | `string` | Required |
+| `draw` | `fun()` | Required |
+
+**Returns:**
+
+- `boolean active`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2188,21 +1989,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.table` { #symbol-api-lua-v5-generated-method-scriptuicontext-table-f42617a7a8ba }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:table(id: string, columns: integer, draw: fun())
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"table"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "integer", "name": "columns", "optional": false}, {"declaration": "fun()", "name": "draw", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `columns` | `integer` | Required |
+| `draw` | `fun()` | Required |
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2211,21 +2010,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.table_next_column` { #symbol-api-lua-v5-generated-method-scriptuicontext-table-next-column-a68fe8936c7c }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:table_next_column() -> boolean visible
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"table_next_column"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "boolean visible"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `boolean visible`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2234,21 +2027,11 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.table_next_row` { #symbol-api-lua-v5-generated-method-scriptuicontext-table-next-row-e31e593d0f46 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:table_next_row()
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"table_next_row"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2257,21 +2040,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.tabs` { #symbol-api-lua-v5-generated-method-scriptuicontext-tabs-b508786cabda }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:tabs(id: string, draw: fun())
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"tabs"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "fun()", "name": "draw", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `draw` | `fun()` | Required |
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2280,21 +2060,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.text` { #symbol-api-lua-v5-generated-method-scriptuicontext-text-809151e86b99 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:text(value: string)
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"text"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "value", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `value` | `string` | Required |
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2303,21 +2079,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.text_colored` { #symbol-api-lua-v5-generated-method-scriptuicontext-text-colored-082cb46f43dd }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:text_colored(value: string, red: number, green: number, blue: number, alpha: number)
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"text_colored"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "value", "optional": false}, {"declaration": "number", "name": "red", "optional": false}, {"declaration": "number", "name": "green", "optional": false}, {"declaration": "number", "name": "blue", "optional": false}, {"declaration": "number", "name": "alpha", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `value` | `string` | Required |
+| `red` | `number` | Required |
+| `green` | `number` | Required |
+| `blue` | `number` | Required |
+| `alpha` | `number` | Required |
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2326,21 +2102,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.text_tone` { #symbol-api-lua-v5-generated-method-scriptuicontext-text-tone-9415ec0ce662 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:text_tone(value: string, tone: CcbTone)
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"text_tone"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "value", "optional": false}, {"declaration": "CcbTone", "name": "tone", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `value` | `string` | Required |
+| `tone` | `CcbTone` | Required |
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2349,21 +2122,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.tooltip` { #symbol-api-lua-v5-generated-method-scriptuicontext-tooltip-884c56d2a8aa }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:tooltip(text: string)
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"tooltip"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "text", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `text` | `string` | Required |
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2372,21 +2141,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.tree` { #symbol-api-lua-v5-generated-method-scriptuicontext-tree-973cce8e27d1 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:tree(id: string, label: string, default_open: boolean, draw: fun()) -> boolean open
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"tree"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "string", "name": "label", "optional": false}, {"declaration": "boolean", "name": "default_open", "optional": false}, {"declaration": "fun()", "name": "draw", "optional": false}]`
-- `returns`: `[{"declaration": "boolean open"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `label` | `string` | Required |
+| `default_open` | `boolean` | Required |
+| `draw` | `fun()` | Required |
+
+**Returns:**
+
+- `boolean open`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2395,21 +2167,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.uses_native_widgets` { #symbol-api-lua-v5-generated-method-scriptuicontext-uses-native-widgets-d59e4244e7d5 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:uses_native_widgets() -> boolean
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"uses_native_widgets"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `boolean`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2418,21 +2184,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.virtual_list` { #symbol-api-lua-v5-generated-method-scriptuicontext-virtual-list-0eeac60573f3 }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:virtual_list(item_count: integer, row_height: number, draw_range: fun(first: integer, last_exclusive: integer))
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"virtual_list"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "integer", "name": "item_count", "optional": false}, {"declaration": "number", "name": "row_height", "optional": false}, {"declaration": "fun(first: integer, last_exclusive: integer)", "name": "draw_range", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `item_count` | `integer` | Required |
+| `row_height` | `number` | Required |
+| `draw_range` | `fun(first: integer, last_exclusive: integer)` | Required |
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2441,21 +2205,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext.virtual_list_rows` { #symbol-api-lua-v5-generated-method-scriptuicontext-virtual-list-rows-23a27a4fa97c }
 
-**Contract fields:**
+```lua
+function ScriptUiContext:virtual_list_rows(item_count: integer, row_height: CcbSizeToken, draw_range: fun(first: integer, last_exclusive: integer))
+```
 
-- `class`: `"ScriptUiContext"`
-- `name`: `"virtual_list_rows"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "integer", "name": "item_count", "optional": false}, {"declaration": "CcbSizeToken", "name": "row_height", "optional": false}, {"declaration": "fun(first: integer, last_exclusive: integer)", "name": "draw_range", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `item_count` | `integer` | Required |
+| `row_height` | `CcbSizeToken` | Required |
+| `draw_range` | `fun(first: integer, last_exclusive: integer)` | Required |
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2464,21 +2226,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TimeDuration.compare` { #symbol-api-lua-v5-generated-method-timeduration-compare-6cad0d0525d4 }
 
-**Contract fields:**
+```lua
+function TimeDuration:compare(other: TimeDuration) -> -1|0|1
+```
 
-- `class`: `"TimeDuration"`
-- `name`: `"compare"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "TimeDuration", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "-1|0|1"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `other` | `TimeDuration` | Required |
+
+**Returns:**
+
+- `-1|0|1`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2487,21 +2249,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TimeDuration.display` { #symbol-api-lua-v5-generated-method-timeduration-display-4c0edb51f947 }
 
-**Contract fields:**
+```lua
+function TimeDuration:display() -> string
+```
 
-- `class`: `"TimeDuration"`
-- `name`: `"display"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "string"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `string`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2510,21 +2266,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TimeDuration.divide` { #symbol-api-lua-v5-generated-method-timeduration-divide-653e2442e021 }
 
-**Contract fields:**
+```lua
+function TimeDuration:divide(divisor: integer) -> TimeDuration
+```
 
-- `class`: `"TimeDuration"`
-- `name`: `"divide"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "integer", "name": "divisor", "optional": false}]`
-- `returns`: `[{"declaration": "TimeDuration"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `divisor` | `integer` | Required |
+
+**Returns:**
+
+- `TimeDuration`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2533,21 +2289,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TimeDuration.scale` { #symbol-api-lua-v5-generated-method-timeduration-scale-b9f696dd7a53 }
 
-**Contract fields:**
+```lua
+function TimeDuration:scale(factor: integer) -> TimeDuration
+```
 
-- `class`: `"TimeDuration"`
-- `name`: `"scale"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "integer", "name": "factor", "optional": false}]`
-- `returns`: `[{"declaration": "TimeDuration"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `factor` | `integer` | Required |
+
+**Returns:**
+
+- `TimeDuration`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2556,21 +2312,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TimeDuration.value` { #symbol-api-lua-v5-generated-method-timeduration-value-94fcf3f605f3 }
 
-**Contract fields:**
+```lua
+function TimeDuration:value(unit: string) -> number
+```
 
-- `class`: `"TimeDuration"`
-- `name`: `"value"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "unit", "optional": false}]`
-- `returns`: `[{"declaration": "number"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `unit` | `string` | Required |
+
+**Returns:**
+
+- `number`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2579,21 +2335,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TimePoint.compare` { #symbol-api-lua-v5-generated-method-timepoint-compare-2791ff1f21f4 }
 
-**Contract fields:**
+```lua
+function TimePoint:compare(other: TimePoint) -> -1|0|1
+```
 
-- `class`: `"TimePoint"`
-- `name`: `"compare"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "TimePoint", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "-1|0|1"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `other` | `TimePoint` | Required |
+
+**Returns:**
+
+- `-1|0|1`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2602,21 +2358,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TimePoint.display` { #symbol-api-lua-v5-generated-method-timepoint-display-cfc223a40fe6 }
 
-**Contract fields:**
+```lua
+function TimePoint:display() -> string
+```
 
-- `class`: `"TimePoint"`
-- `name`: `"display"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "string"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `string`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2625,21 +2375,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TimePoint.hour_of_day` { #symbol-api-lua-v5-generated-method-timepoint-hour-of-day-01ef074e4474 }
 
-**Contract fields:**
+```lua
+function TimePoint:hour_of_day() -> integer
+```
 
-- `class`: `"TimePoint"`
-- `name`: `"hour_of_day"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "integer"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `integer`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2648,21 +2392,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TimePoint.is_dawn` { #symbol-api-lua-v5-generated-method-timepoint-is-dawn-5408f0fae746 }
 
-**Contract fields:**
+```lua
+function TimePoint:is_dawn() -> boolean
+```
 
-- `class`: `"TimePoint"`
-- `name`: `"is_dawn"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `boolean`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2671,21 +2409,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TimePoint.is_day` { #symbol-api-lua-v5-generated-method-timepoint-is-day-7ddc4cf25127 }
 
-**Contract fields:**
+```lua
+function TimePoint:is_day() -> boolean
+```
 
-- `class`: `"TimePoint"`
-- `name`: `"is_day"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `boolean`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2694,21 +2426,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TimePoint.is_dusk` { #symbol-api-lua-v5-generated-method-timepoint-is-dusk-617b6b2c10e5 }
 
-**Contract fields:**
+```lua
+function TimePoint:is_dusk() -> boolean
+```
 
-- `class`: `"TimePoint"`
-- `name`: `"is_dusk"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `boolean`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2717,21 +2443,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TimePoint.is_night` { #symbol-api-lua-v5-generated-method-timepoint-is-night-5399fe3e23db }
 
-**Contract fields:**
+```lua
+function TimePoint:is_night() -> boolean
+```
 
-- `class`: `"TimePoint"`
-- `name`: `"is_night"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `boolean`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2740,21 +2460,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TimePoint.minute_of_hour` { #symbol-api-lua-v5-generated-method-timepoint-minute-of-hour-ba0a26371e78 }
 
-**Contract fields:**
+```lua
+function TimePoint:minute_of_hour() -> integer
+```
 
-- `class`: `"TimePoint"`
-- `name`: `"minute_of_hour"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "integer"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `integer`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2763,21 +2477,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TimePoint.moon_phase` { #symbol-api-lua-v5-generated-method-timepoint-moon-phase-b0f19093a118 }
 
-**Contract fields:**
+```lua
+function TimePoint:moon_phase() -> string
+```
 
-- `class`: `"TimePoint"`
-- `name`: `"moon_phase"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "string"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `string`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2786,21 +2494,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TimePoint.season` { #symbol-api-lua-v5-generated-method-timepoint-season-90608db9adc6 }
 
-**Contract fields:**
+```lua
+function TimePoint:season() -> string
+```
 
-- `class`: `"TimePoint"`
-- `name`: `"season"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "string"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `string`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2809,21 +2511,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TimePoint.second_of_minute` { #symbol-api-lua-v5-generated-method-timepoint-second-of-minute-ffe454f4c8ca }
 
-**Contract fields:**
+```lua
+function TimePoint:second_of_minute() -> integer
+```
 
-- `class`: `"TimePoint"`
-- `name`: `"second_of_minute"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "integer"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `integer`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2832,21 +2528,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TimePoint.sunrise` { #symbol-api-lua-v5-generated-method-timepoint-sunrise-8e50e2e37ac9 }
 
-**Contract fields:**
+```lua
+function TimePoint:sunrise() -> TimePoint
+```
 
-- `class`: `"TimePoint"`
-- `name`: `"sunrise"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "TimePoint"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `TimePoint`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2855,21 +2545,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TimePoint.sunset` { #symbol-api-lua-v5-generated-method-timepoint-sunset-fe21ccf2d71e }
 
-**Contract fields:**
+```lua
+function TimePoint:sunset() -> TimePoint
+```
 
-- `class`: `"TimePoint"`
-- `name`: `"sunset"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "TimePoint"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `TimePoint`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2878,21 +2562,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TripointCoord.add` { #symbol-api-lua-v5-generated-method-tripointcoord-add-4943c6e755d7 }
 
-**Contract fields:**
+```lua
+function TripointCoord:add(other: TripointCoord) -> TripointCoord
+```
 
-- `class`: `"TripointCoord"`
-- `name`: `"add"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `["fun(self: TripointCoord, other: PointCoord): TripointCoord"]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `other` | `TripointCoord` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2901,21 +2585,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TripointCoord.compare` { #symbol-api-lua-v5-generated-method-tripointcoord-compare-46bb646e5a81 }
 
-**Contract fields:**
+```lua
+function TripointCoord:compare(other: TripointCoord) -> -1|0|1
+```
 
-- `class`: `"TripointCoord"`
-- `name`: `"compare"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "-1|0|1"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `other` | `TripointCoord` | Required |
+
+**Returns:**
+
+- `-1|0|1`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2924,21 +2608,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TripointCoord.euclidean_distance` { #symbol-api-lua-v5-generated-method-tripointcoord-euclidean-distance-9d4b9b5014c1 }
 
-**Contract fields:**
+```lua
+function TripointCoord:euclidean_distance(other: TripointCoord) -> number
+```
 
-- `class`: `"TripointCoord"`
-- `name`: `"euclidean_distance"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "number"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `other` | `TripointCoord` | Required |
+
+**Returns:**
+
+- `number`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2947,21 +2631,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TripointCoord.manhattan_distance` { #symbol-api-lua-v5-generated-method-tripointcoord-manhattan-distance-aafefdc614c5 }
 
-**Contract fields:**
+```lua
+function TripointCoord:manhattan_distance(other: TripointCoord) -> integer
+```
 
-- `class`: `"TripointCoord"`
-- `name`: `"manhattan_distance"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "integer"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `other` | `TripointCoord` | Required |
+
+**Returns:**
+
+- `integer`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2970,21 +2654,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TripointCoord.project_combine` { #symbol-api-lua-v5-generated-method-tripointcoord-project-combine-60257a9fd393 }
 
-**Contract fields:**
+```lua
+function TripointCoord:project_combine(remainder: PointCoord) -> TripointCoord
+```
 
-- `class`: `"TripointCoord"`
-- `name`: `"project_combine"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "PointCoord", "name": "remainder", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `remainder` | `PointCoord` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2993,21 +2677,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TripointCoord.project_remain` { #symbol-api-lua-v5-generated-method-tripointcoord-project-remain-6454cd830fd2 }
 
-**Contract fields:**
+```lua
+function TripointCoord:project_remain(scale: CcbCoordinateScale) -> TripointCoord coarse, PointCoord remainder
+```
 
-- `class`: `"TripointCoord"`
-- `name`: `"project_remain"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "CcbCoordinateScale", "name": "scale", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord coarse, PointCoord remainder"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `scale` | `CcbCoordinateScale` | Required |
+
+**Returns:**
+
+- `TripointCoord coarse, PointCoord remainder`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3016,21 +2700,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TripointCoord.project_to` { #symbol-api-lua-v5-generated-method-tripointcoord-project-to-0e96977d3162 }
 
-**Contract fields:**
+```lua
+function TripointCoord:project_to(scale: CcbCoordinateScale) -> TripointCoord
+```
 
-- `class`: `"TripointCoord"`
-- `name`: `"project_to"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "CcbCoordinateScale", "name": "scale", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `scale` | `CcbCoordinateScale` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3039,21 +2723,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TripointCoord.scale_by` { #symbol-api-lua-v5-generated-method-tripointcoord-scale-by-953c9de9e80d }
 
-**Contract fields:**
+```lua
+function TripointCoord:scale_by(factor: integer) -> TripointCoord
+```
 
-- `class`: `"TripointCoord"`
-- `name`: `"scale_by"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "integer", "name": "factor", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `factor` | `integer` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3062,21 +2746,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TripointCoord.square_distance` { #symbol-api-lua-v5-generated-method-tripointcoord-square-distance-d20c1ba87b2c }
 
-**Contract fields:**
+```lua
+function TripointCoord:square_distance(other: TripointCoord) -> integer
+```
 
-- `class`: `"TripointCoord"`
-- `name`: `"square_distance"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "integer"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `other` | `TripointCoord` | Required |
+
+**Returns:**
+
+- `integer`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3085,21 +2769,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TripointCoord.subtract` { #symbol-api-lua-v5-generated-method-tripointcoord-subtract-cf50cab1f562 }
 
-**Contract fields:**
+```lua
+function TripointCoord:subtract(other: TripointCoord) -> TripointCoord
+```
 
-- `class`: `"TripointCoord"`
-- `name`: `"subtract"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `["fun(self: TripointCoord, other: PointCoord): TripointCoord"]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `other` | `TripointCoord` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3108,21 +2792,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TripointCoord.to` { #symbol-api-lua-v5-generated-method-tripointcoord-to-f54de5a5d800 }
 
-**Contract fields:**
+```lua
+function TripointCoord:to(scale: CcbCoordinateScale) -> TripointCoord
+```
 
-- `class`: `"TripointCoord"`
-- `name`: `"to"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "CcbCoordinateScale", "name": "scale", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `scale` | `CcbCoordinateScale` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3131,21 +2815,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TripointCoord.xy` { #symbol-api-lua-v5-generated-method-tripointcoord-xy-0aaa8c6f1fbf }
 
-**Contract fields:**
+```lua
+function TripointCoord:xy() -> PointCoord
+```
 
-- `class`: `"TripointCoord"`
-- `name`: `"xy"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `PointCoord`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3154,21 +2832,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `UnitValue.add` { #symbol-api-lua-v5-generated-method-unitvalue-add-348cb327f45e }
 
-**Contract fields:**
+```lua
+function UnitValue:add(other: UnitValue) -> UnitValue
+```
 
-- `class`: `"UnitValue"`
-- `name`: `"add"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "UnitValue", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "UnitValue"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `other` | `UnitValue` | Required |
+
+**Returns:**
+
+- `UnitValue`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3177,21 +2855,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `UnitValue.compare` { #symbol-api-lua-v5-generated-method-unitvalue-compare-2d19183fc2de }
 
-**Contract fields:**
+```lua
+function UnitValue:compare(other: UnitValue) -> -1|0|1
+```
 
-- `class`: `"UnitValue"`
-- `name`: `"compare"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "UnitValue", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "-1|0|1"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `other` | `UnitValue` | Required |
+
+**Returns:**
+
+- `-1|0|1`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3200,21 +2878,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `UnitValue.is_integral` { #symbol-api-lua-v5-generated-method-unitvalue-is-integral-ce2829104389 }
 
-**Contract fields:**
+```lua
+function UnitValue:is_integral() -> boolean
+```
 
-- `class`: `"UnitValue"`
-- `name`: `"is_integral"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `boolean`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3223,21 +2895,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `UnitValue.scale` { #symbol-api-lua-v5-generated-method-unitvalue-scale-6aa9379e410a }
 
-**Contract fields:**
+```lua
+function UnitValue:scale(factor: number) -> UnitValue
+```
 
-- `class`: `"UnitValue"`
-- `name`: `"scale"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "number", "name": "factor", "optional": false}]`
-- `returns`: `[{"declaration": "UnitValue"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `factor` | `number` | Required |
+
+**Returns:**
+
+- `UnitValue`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3246,21 +2918,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `UnitValue.subtract` { #symbol-api-lua-v5-generated-method-unitvalue-subtract-72fb994b6d69 }
 
-**Contract fields:**
+```lua
+function UnitValue:subtract(other: UnitValue) -> UnitValue
+```
 
-- `class`: `"UnitValue"`
-- `name`: `"subtract"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "UnitValue", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "UnitValue"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `other` | `UnitValue` | Required |
+
+**Returns:**
+
+- `UnitValue`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3269,21 +2941,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `UnitValue.value` { #symbol-api-lua-v5-generated-method-unitvalue-value-a7fa103c9928 }
 
-**Contract fields:**
+```lua
+function UnitValue:value(unit: string) -> number
+```
 
-- `class`: `"UnitValue"`
-- `name`: `"value"`
-- `style`: `"method"`
-- `parameters`: `[{"declaration": "string", "name": "unit", "optional": false}]`
-- `returns`: `[{"declaration": "number"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `unit` | `string` | Required |
+
+**Returns:**
+
+- `number`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3292,21 +2964,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ZoneToken.is_valid` { #symbol-api-lua-v5-generated-method-zonetoken-is-valid-61472cc5df53 }
 
-**Contract fields:**
+```lua
+function ZoneToken:is_valid() -> boolean
+```
 
-- `class`: `"ZoneToken"`
-- `name`: `"is_valid"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `boolean`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3315,21 +2981,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ZoneToken.status` { #symbol-api-lua-v5-generated-method-zonetoken-status-7221e9ee0dc2 }
 
-**Contract fields:**
+```lua
+function ZoneToken:status() -> CcbResult
+```
 
-- `class`: `"ZoneToken"`
-- `name`: `"status"`
-- `style`: `"method"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbResult`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 

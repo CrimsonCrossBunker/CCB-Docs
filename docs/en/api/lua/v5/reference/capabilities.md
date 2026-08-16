@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 8830de6fbf3b62c7d6a9eeec98ec4fd61cd1c89be521fc1e2683dbc9c91a2e3d
+translation_source_fingerprint: 14bf3f1fc054684e43bb7e625775ae091f36e3e253897886ff34b4ad754f8c07
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,13 +68,14 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Capabilities
 
-This page is generated from the Lua v5 public contract at pinned commit `d32b9cc880a85480840d82cfa05d256c78a16615` and contains 16 `capabilities` records. Do not edit it by hand.
+This page is the automatically generated reference manual for CCB Lua 0.1, containing 16 `capabilities` contract records.
 
 ## `events` { #symbol-api-lua-v5-generated-capability-events-dd9d47a21b81 }
 
-**Contract fields:**
-
-- `minimum_api_version`: `2`
+```lua
+-- Capability: "events"
+-- Minimum API: CCB Lua 0.1
+```
 
 **Sources:**
 
@@ -83,9 +84,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.actions` { #symbol-api-lua-v5-generated-capability-game-actions-c771aff6e0cc }
 
-**Contract fields:**
-
-- `minimum_api_version`: `2`
+```lua
+-- Capability: "game.actions"
+-- Minimum API: CCB Lua 0.1
+```
 
 **Sources:**
 
@@ -94,9 +96,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.actions.dangerous` { #symbol-api-lua-v5-generated-capability-game-actions-dangerous-5c2621168bd0 }
 
-**Contract fields:**
-
-- `minimum_api_version`: `4`
+```lua
+-- Capability: "game.actions.dangerous"
+-- Minimum API: CCB Lua 0.1
+```
 
 **Sources:**
 
@@ -105,9 +108,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.callbacks` { #symbol-api-lua-v5-generated-capability-game-callbacks-ab45fefde250 }
 
-**Contract fields:**
-
-- `minimum_api_version`: `5`
+```lua
+-- Capability: "game.callbacks"
+-- Minimum API: CCB Lua 0.1
+```
 
 **Sources:**
 
@@ -116,9 +120,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hooks` { #symbol-api-lua-v5-generated-capability-game-hooks-e4bdd0ad0853 }
 
-**Contract fields:**
-
-- `minimum_api_version`: `5`
+```lua
+-- Capability: "game.hooks"
+-- Minimum API: CCB Lua 0.1
+```
 
 **Sources:**
 
@@ -127,9 +132,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.read` { #symbol-api-lua-v5-generated-capability-game-read-22dddd20f970 }
 
-**Contract fields:**
-
-- `minimum_api_version`: `2`
+```lua
+-- Capability: "game.read"
+-- Minimum API: CCB Lua 0.1
+```
 
 **Sources:**
 
@@ -138,9 +144,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.write` { #symbol-api-lua-v5-generated-capability-game-write-3123d644b85d }
 
-**Contract fields:**
-
-- `minimum_api_version`: `5`
+```lua
+-- Capability: "game.write"
+-- Minimum API: CCB Lua 0.1
+```
 
 **Sources:**
 
@@ -149,9 +156,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `modules.import` { #symbol-api-lua-v5-generated-capability-modules-import-11e2f13410b0 }
 
-**Contract fields:**
-
-- `minimum_api_version`: `4`
+```lua
+-- Capability: "modules.import"
+-- Minimum API: CCB Lua 0.1
+```
 
 **Sources:**
 
@@ -160,9 +168,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `registry.read` { #symbol-api-lua-v5-generated-capability-registry-read-b023710d8c40 }
 
-**Contract fields:**
-
-- `minimum_api_version`: `4`
+```lua
+-- Capability: "registry.read"
+-- Minimum API: CCB Lua 0.1
+```
 
 **Sources:**
 
@@ -171,9 +180,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `scheduler` { #symbol-api-lua-v5-generated-capability-scheduler-56e18fc9c044 }
 
-**Contract fields:**
-
-- `minimum_api_version`: `4`
+```lua
+-- Capability: "scheduler"
+-- Minimum API: CCB Lua 0.1
+```
 
 **Sources:**
 
@@ -182,9 +192,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `services.consume` { #symbol-api-lua-v5-generated-capability-services-consume-ccfe9baf4b88 }
 
-**Contract fields:**
-
-- `minimum_api_version`: `4`
+```lua
+-- Capability: "services.consume"
+-- Minimum API: CCB Lua 0.1
+```
 
 **Sources:**
 
@@ -193,9 +204,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `services.provide` { #symbol-api-lua-v5-generated-capability-services-provide-0f37089a3da1 }
 
-**Contract fields:**
-
-- `minimum_api_version`: `4`
+```lua
+-- Capability: "services.provide"
+-- Minimum API: CCB Lua 0.1
+```
 
 **Sources:**
 
@@ -204,9 +216,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `state.character` { #symbol-api-lua-v5-generated-capability-state-character-a3247107923a }
 
-**Contract fields:**
-
-- `minimum_api_version`: `2`
+```lua
+-- Capability: "state.character"
+-- Minimum API: CCB Lua 0.1
+```
 
 **Sources:**
 
@@ -215,9 +228,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `state.page` { #symbol-api-lua-v5-generated-capability-state-page-ca30270c2848 }
 
-**Contract fields:**
-
-- `minimum_api_version`: `2`
+```lua
+-- Capability: "state.page"
+-- Minimum API: CCB Lua 0.1
+```
 
 **Sources:**
 
@@ -226,9 +240,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `state.world` { #symbol-api-lua-v5-generated-capability-state-world-ba671b3f16e9 }
 
-**Contract fields:**
-
-- `minimum_api_version`: `2`
+```lua
+-- Capability: "state.world"
+-- Minimum API: CCB Lua 0.1
+```
 
 **Sources:**
 
@@ -237,9 +252,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ui.pages` { #symbol-api-lua-v5-generated-capability-ui-pages-fc4984fb695e }
 
-**Contract fields:**
-
-- `minimum_api_version`: `2`
+```lua
+-- Capability: "ui.pages"
+-- Minimum API: CCB Lua 0.1
+```
 
 **Sources:**
 

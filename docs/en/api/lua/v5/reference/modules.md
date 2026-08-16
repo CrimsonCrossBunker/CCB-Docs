@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: f4cc744a16d15e98b78e03fb1ae259affd19405c72bd31c7ae1cfafd213ae0ab
+translation_source_fingerprint: 94b678cfc1044cc53363c83e8794b43686253fb2b8a7bcd4876fe411ede6b1a5
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,14 +68,13 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Module entry points
 
-This page is generated from the Lua v5 public contract at pinned commit `d32b9cc880a85480840d82cfa05d256c78a16615` and contains 3 `modules` records. Do not edit it by hand.
+This page is the automatically generated reference manual for CCB Lua 0.1, containing 3 `modules` contract records.
 
 ## `require` { #symbol-api-lua-v5-generated-module-require-6cf1620427ea }
 
-**Contract fields:**
-
-- `mode`: `"source-local"`
-- `function`: `"require"`
+```lua
+-- Module: require (Mode: source-local)
+```
 
 **Sources:**
 
@@ -83,10 +82,9 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `modules.import` { #symbol-api-lua-v5-generated-module-modules-import-b0e1e49d89dd }
 
-**Contract fields:**
-
-- `mode`: `"declared-dependency"`
-- `function`: `"modules.import"`
+```lua
+-- Module: modules.import (Mode: declared-dependency)
+```
 
 **Sources:**
 
@@ -95,10 +93,9 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `modules.source_id` { #symbol-api-lua-v5-generated-module-modules-source-id-c8301946fb14 }
 
-**Contract fields:**
-
-- `mode`: `"source-identity"`
-- `function`: `"modules.source_id"`
+```lua
+-- Module: modules.source_id (Mode: source-identity)
+```
 
 **Sources:**
 

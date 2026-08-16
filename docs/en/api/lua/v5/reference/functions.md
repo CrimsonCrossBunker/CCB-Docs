@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 3ce89c51b301a8c6a9e7fb5dc282999c6b846bf5fa35ffb365509acd23849ce9
+translation_source_fingerprint: ebf414851eee61cc73c409e8a8ca934d452abacdbf0ca5cf728ec5e92b1a28d6
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,26 +68,27 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Functions
 
-This page is generated from the Lua v5 public contract at pinned commit `d32b9cc880a85480840d82cfa05d256c78a16615` and contains 488 `functions` records. Do not edit it by hand.
+This page is the automatically generated reference manual for CCB Lua 0.1, containing 488 `functions` contract records.
 
 ## `events.describe_native` { #symbol-api-lua-v5-generated-function-events-describe-native-88a1acca4cde }
 
-**Contract fields:**
+```lua
+function events.describe_native(name: string) -> CcbNativeEventDescription
+```
 
-- `class`: `"CcbEventsApi"`
-- `name`: `"describe_native"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "name", "optional": false}]`
-- `returns`: `[{"declaration": "CcbNativeEventDescription"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"events"`
-- `capabilities`: `["events"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `name` | `string` | Required |
+
+**Returns:**
+
+- `CcbNativeEventDescription`
+
+🛡️ **Required Capabilities:** `events`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -96,22 +97,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `events.emit` { #symbol-api-lua-v5-generated-function-events-emit-a825e533550f }
 
-**Contract fields:**
+```lua
+function events.emit(name: string, data: CcbScalarMap?) -> boolean continued
+```
 
-- `class`: `"CcbEventsApi"`
-- `name`: `"emit"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "name", "optional": false}, {"declaration": "CcbScalarMap", "name": "data", "optional": true}]`
-- `returns`: `[{"declaration": "boolean continued"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"events"`
-- `capabilities`: `["events"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 18, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `name` | `string` | Required |
+| `data` | `CcbScalarMap` | Optional |
+
+**Returns:**
+
+- `boolean continued`
+
+🛡️ **Required Capabilities:** `events`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -120,22 +123,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `events.native_types` { #symbol-api-lua-v5-generated-function-events-native-types-2a4c5b0df999 }
 
-**Contract fields:**
+```lua
+function events.native_types() -> string[]
+```
 
-- `class`: `"CcbEventsApi"`
-- `name`: `"native_types"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "string[]"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"events"`
-- `capabilities`: `["events"]`
-- `examples`: `[]`
+**Returns:**
+
+- `string[]`
+
+🛡️ **Required Capabilities:** `events`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -144,22 +142,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `events.off` { #symbol-api-lua-v5-generated-function-events-off-54b126550814 }
 
-**Contract fields:**
+```lua
+function events.off(subscription_id: integer) -> boolean removed
+```
 
-- `class`: `"CcbEventsApi"`
-- `name`: `"off"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "subscription_id", "optional": false}]`
-- `returns`: `[{"declaration": "boolean removed"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"events"`
-- `capabilities`: `["events"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `subscription_id` | `integer` | Required |
+
+**Returns:**
+
+- `boolean removed`
+
+🛡️ **Required Capabilities:** `events`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -168,22 +167,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `events.on` { #symbol-api-lua-v5-generated-function-events-on-49f7315cc9df }
 
-**Contract fields:**
+```lua
+function events.on(name: string Game event id, lifecycle event id, or source-local custom event id., callback: CcbEventCallback) -> integer subscription_id
+```
 
-- `class`: `"CcbEventsApi"`
-- `name`: `"on"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string Game event id, lifecycle event id, or source-local custom event id.", "name": "name", "optional": false}, {"declaration": "CcbEventCallback", "name": "callback", "optional": false}]`
-- `returns`: `[{"declaration": "integer subscription_id"}]`
-- `overloads`: `["fun(name: string, options: CcbEventOptions, callback: CcbEventCallback): integer"]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"events"`
-- `capabilities`: `["events"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 30, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `name` | `string Game event id, lifecycle event id, or source-local custom event id.` | Required |
+| `callback` | `CcbEventCallback` | Required |
+
+**Returns:**
+
+- `integer subscription_id`
+
+🛡️ **Required Capabilities:** `events`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -192,22 +193,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `events.on_from` { #symbol-api-lua-v5-generated-function-events-on-from-81db70534ca2 }
 
-**Contract fields:**
+```lua
+function events.on_from(provider_id: string, name: string, callback: CcbEventCallback) -> integer subscription_id
+```
 
-- `class`: `"CcbEventsApi"`
-- `name`: `"on_from"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "provider_id", "optional": false}, {"declaration": "string", "name": "name", "optional": false}, {"declaration": "CcbEventCallback", "name": "callback", "optional": false}]`
-- `returns`: `[{"declaration": "integer subscription_id"}]`
-- `overloads`: `["fun(provider_id: string, name: string, options: CcbEventOptions, callback: CcbEventCallback): integer"]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"events"`
-- `capabilities`: `["events"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `provider_id` | `string` | Required |
+| `name` | `string` | Required |
+| `callback` | `CcbEventCallback` | Required |
+
+**Returns:**
+
+- `integer subscription_id`
+
+🛡️ **Required Capabilities:** `events`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -216,22 +220,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.achievements.definition` { #symbol-api-lua-v5-generated-function-game-achievements-definition-d9685cfc66e3 }
 
-**Contract fields:**
+```lua
+function game.achievements.definition(id: GameId) -> CcbAchievementDefinition
+```
 
-- `class`: `"CcbAchievementsApi"`
-- `name`: `"definition"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbAchievementDefinition"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.achievements"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbAchievementDefinition`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -240,22 +245,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.achievements.definitions` { #symbol-api-lua-v5-generated-function-game-achievements-definitions-582ef287b15e }
 
-**Contract fields:**
+```lua
+function game.achievements.definitions(options: CcbAchievementListOptions?) -> table
+```
 
-- `class`: `"CcbAchievementsApi"`
-- `name`: `"definitions"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbAchievementListOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.achievements"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbAchievementListOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -264,22 +270,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.achievements.get` { #symbol-api-lua-v5-generated-function-game-achievements-get-079242620def }
 
-**Contract fields:**
+```lua
+function game.achievements.get(id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbAchievementsApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.achievements"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -288,22 +295,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.achievements.list` { #symbol-api-lua-v5-generated-function-game-achievements-list-b58120f66524 }
 
-**Contract fields:**
+```lua
+function game.achievements.list(options: CcbAchievementListOptions?) -> CcbResult
+```
 
-- `class`: `"CcbAchievementsApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbAchievementListOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.achievements"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbAchievementListOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -312,22 +320,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.achievements.report` { #symbol-api-lua-v5-generated-function-game-achievements-report-3d8c5431937c }
 
-**Contract fields:**
+```lua
+function game.achievements.report(id: GameId, completion: "completed"|"failed") -> CcbResult
+```
 
-- `class`: `"CcbAchievementsApi"`
-- `name`: `"report"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "\"completed\"|\"failed\"", "name": "completion", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.achievements"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+| `completion` | `"completed"|"failed"` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -336,22 +346,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.achievements.reset` { #symbol-api-lua-v5-generated-function-game-achievements-reset-b3abc7eac45b }
 
-**Contract fields:**
+```lua
+function game.achievements.reset(id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbAchievementsApi"`
-- `name`: `"reset"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.achievements"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -360,22 +371,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.achievements.set_enabled` { #symbol-api-lua-v5-generated-function-game-achievements-set-enabled-e925c2ccd11c }
 
-**Contract fields:**
+```lua
+function game.achievements.set_enabled(enabled: boolean) -> CcbResult
+```
 
-- `class`: `"CcbAchievementsApi"`
-- `name`: `"set_enabled"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "boolean", "name": "enabled", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.achievements"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `enabled` | `boolean` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -384,22 +396,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.action_menu.limits` { #symbol-api-lua-v5-generated-function-game-action-menu-limits-9dda993a3923 }
 
-**Contract fields:**
+```lua
+function game.action_menu.limits() -> CcbActionMenuLimits
+```
 
-- `class`: `"CcbActionMenuApi"`
-- `name`: `"limits"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbActionMenuLimits"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.action_menu"`
-- `capabilities`: `["ui.pages"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbActionMenuLimits`
+
+🛡️ **Required Capabilities:** `ui.pages`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -408,22 +415,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.action_menu.list` { #symbol-api-lua-v5-generated-function-game-action-menu-list-d09a2f7765f3 }
 
-**Contract fields:**
+```lua
+function game.action_menu.list() -> CcbActionMenuEntry[]
+```
 
-- `class`: `"CcbActionMenuApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbActionMenuEntry[]"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.action_menu"`
-- `capabilities`: `["ui.pages"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbActionMenuEntry[]`
+
+🛡️ **Required Capabilities:** `ui.pages`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -432,22 +434,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.action_menu.off` { #symbol-api-lua-v5-generated-function-game-action-menu-off-e7f538599112 }
 
-**Contract fields:**
+```lua
+function game.action_menu.off(registration_id: integer) -> boolean removed
+```
 
-- `class`: `"CcbActionMenuApi"`
-- `name`: `"off"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "registration_id", "optional": false}]`
-- `returns`: `[{"declaration": "boolean removed"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.action_menu"`
-- `capabilities`: `["ui.pages"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `registration_id` | `integer` | Required |
+
+**Returns:**
+
+- `boolean removed`
+
+🛡️ **Required Capabilities:** `ui.pages`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -456,22 +459,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.action_menu.register` { #symbol-api-lua-v5-generated-function-game-action-menu-register-250495184dc8 }
 
-**Contract fields:**
+```lua
+function game.action_menu.register(descriptor: CcbActionMenuDescriptor, callback: fun()) -> integer registration_id
+```
 
-- `class`: `"CcbActionMenuApi"`
-- `name`: `"register"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbActionMenuDescriptor", "name": "descriptor", "optional": false}, {"declaration": "fun()", "name": "callback", "optional": false}]`
-- `returns`: `[{"declaration": "integer registration_id"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.action_menu"`
-- `capabilities`: `["ui.pages"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 132, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `descriptor` | `CcbActionMenuDescriptor` | Required |
+| `callback` | `fun()` | Required |
+
+**Returns:**
+
+- `integer registration_id`
+
+🛡️ **Required Capabilities:** `ui.pages`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -480,22 +485,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.actions.cancel` { #symbol-api-lua-v5-generated-function-game-actions-cancel-c175cef5b0ce }
 
-**Contract fields:**
+```lua
+function game.actions.cancel(request_id: integer) -> boolean canceled
+```
 
-- `class`: `"CcbGameActionsApi"`
-- `name`: `"cancel"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "request_id", "optional": false}]`
-- `returns`: `[{"declaration": "boolean canceled"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.actions"`
-- `capabilities`: `["game.actions"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `request_id` | `integer` | Required |
+
+**Returns:**
+
+- `boolean canceled`
+
+🛡️ **Required Capabilities:** `game.actions`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -504,22 +510,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.actions.context_snapshot` { #symbol-api-lua-v5-generated-function-game-actions-context-snapshot-8a5fe57e0495 }
 
-**Contract fields:**
+```lua
+function game.actions.context_snapshot() -> CcbInputContextSnapshot
+```
 
-- `class`: `"CcbGameActionsApi"`
-- `name`: `"context_snapshot"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbInputContextSnapshot"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.actions"`
-- `capabilities`: `["game.actions"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 113, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Returns:**
+
+- `CcbInputContextSnapshot`
+
+🛡️ **Required Capabilities:** `game.actions`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -528,22 +529,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.actions.enqueue` { #symbol-api-lua-v5-generated-function-game-actions-enqueue-268a2001b530 }
 
-**Contract fields:**
+```lua
+function game.actions.enqueue(action_type: CcbQueuedActionType, options: CcbActionEnqueueOptions?) -> integer request_id
+```
 
-- `class`: `"CcbGameActionsApi"`
-- `name`: `"enqueue"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbQueuedActionType", "name": "action_type", "optional": false}, {"declaration": "CcbActionEnqueueOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "integer request_id"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.actions"`
-- `capabilities`: `["game.actions"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `action_type` | `CcbQueuedActionType` | Required |
+| `options` | `CcbActionEnqueueOptions` | Optional |
+
+**Returns:**
+
+- `integer request_id`
+
+🛡️ **Required Capabilities:** `game.actions`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -552,22 +555,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.actions.enqueue_context` { #symbol-api-lua-v5-generated-function-game-actions-enqueue-context-e37707192ea4 }
 
-**Contract fields:**
+```lua
+function game.actions.enqueue_context(action_id: string, context_revision: integer) -> integer request_id
+```
 
-- `class`: `"CcbGameActionsApi"`
-- `name`: `"enqueue_context"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "action_id", "optional": false}, {"declaration": "integer", "name": "context_revision", "optional": false}]`
-- `returns`: `[{"declaration": "integer request_id"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.actions"`
-- `capabilities`: `["game.actions"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `action_id` | `string` | Required |
+| `context_revision` | `integer` | Required |
+
+**Returns:**
+
+- `integer request_id`
+
+🛡️ **Required Capabilities:** `game.actions`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -576,22 +581,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.actions.status` { #symbol-api-lua-v5-generated-function-game-actions-status-543ab877363e }
 
-**Contract fields:**
+```lua
+function game.actions.status(result_limit: integer?) -> CcbActionsStatus
+```
 
-- `class`: `"CcbGameActionsApi"`
-- `name`: `"status"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "result_limit", "optional": true}]`
-- `returns`: `[{"declaration": "CcbActionsStatus"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.actions"`
-- `capabilities`: `["game.actions"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `result_limit` | `integer` | Optional |
+
+**Returns:**
+
+- `CcbActionsStatus`
+
+🛡️ **Required Capabilities:** `game.actions`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -600,22 +606,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.activity_snapshot` { #symbol-api-lua-v5-generated-function-game-activity-snapshot-48ce52157d06 }
 
-**Contract fields:**
+```lua
+function game.activity_snapshot(backlog_limit: integer?) -> table
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"activity_snapshot"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "backlog_limit", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `backlog_limit` | `integer` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -624,22 +631,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.add_msg` { #symbol-api-lua-v5-generated-function-game-add-msg-bb57ed1c9737 }
 
-**Contract fields:**
+```lua
+function game.add_msg(message: string)
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"add_msg"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "message", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `["game.actions"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.adaptive_page_v3.lua", "line": 51, "path": "data/lua/examples/adaptive_page_v3.lua"}, {"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 31, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `message` | `string` | Required |
+
+🛡️ **Required Capabilities:** `game.actions`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -648,22 +652,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.addictions.definition` { #symbol-api-lua-v5-generated-function-game-addictions-definition-6bfa164c1703 }
 
-**Contract fields:**
+```lua
+function game.addictions.definition(id: GameId) -> CcbAddictionDefinition
+```
 
-- `class`: `"CcbAddictionsApi"`
-- `name`: `"definition"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbAddictionDefinition"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.addictions"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbAddictionDefinition`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -672,22 +677,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.addictions.definitions` { #symbol-api-lua-v5-generated-function-game-addictions-definitions-5b639d97f5a9 }
 
-**Contract fields:**
+```lua
+function game.addictions.definitions(options: CcbDefinitionSearchOptions?) -> table
+```
 
-- `class`: `"CcbAddictionsApi"`
-- `name`: `"definitions"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbDefinitionSearchOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.addictions"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbDefinitionSearchOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -696,22 +702,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.addictions.expose` { #symbol-api-lua-v5-generated-function-game-addictions-expose-905dfcb44b7e }
 
-**Contract fields:**
+```lua
+function game.addictions.expose(handle: GameHandle, id: GameId, strength: integer) -> CcbResult
+```
 
-- `class`: `"CcbAddictionsApi"`
-- `name`: `"expose"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "integer", "name": "strength", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.addictions"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `strength` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -720,22 +729,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.addictions.get` { #symbol-api-lua-v5-generated-function-game-addictions-get-0e9dcb82c6fd }
 
-**Contract fields:**
+```lua
+function game.addictions.get(handle: GameHandle, id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbAddictionsApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.addictions"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -744,22 +755,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.addictions.list` { #symbol-api-lua-v5-generated-function-game-addictions-list-4b81d51a1dd7 }
 
-**Contract fields:**
+```lua
+function game.addictions.list(handle: GameHandle, options: CcbPageOptions?) -> CcbResult
+```
 
-- `class`: `"CcbAddictionsApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "CcbPageOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.addictions"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `options` | `CcbPageOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -768,22 +781,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.addictions.remove` { #symbol-api-lua-v5-generated-function-game-addictions-remove-e3463be21621 }
 
-**Contract fields:**
+```lua
+function game.addictions.remove(handle: GameHandle, id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbAddictionsApi"`
-- `name`: `"remove"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.addictions"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -792,22 +807,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.addictions.run_effect` { #symbol-api-lua-v5-generated-function-game-addictions-run-effect-de797e3cb5a9 }
 
-**Contract fields:**
+```lua
+function game.addictions.run_effect(handle: GameHandle, id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbAddictionsApi"`
-- `name`: `"run_effect"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.addictions"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -816,22 +833,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.addictions.set` { #symbol-api-lua-v5-generated-function-game-addictions-set-acfd01270948 }
 
-**Contract fields:**
+```lua
+function game.addictions.set(handle: GameHandle, id: GameId, adjustments: CcbAddictionAdjustments) -> CcbResult
+```
 
-- `class`: `"CcbAddictionsApi"`
-- `name`: `"set"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "CcbAddictionAdjustments", "name": "adjustments", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.addictions"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `adjustments` | `CcbAddictionAdjustments` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -840,22 +860,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.api_catalog` { #symbol-api-lua-v5-generated-function-game-api-catalog-1a3af3f51efe }
 
-**Contract fields:**
+```lua
+function game.api_catalog() -> CcbBindingDomain[]
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"api_catalog"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbBindingDomain[]"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbBindingDomain[]`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -864,22 +879,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.api_supports` { #symbol-api-lua-v5-generated-function-game-api-supports-9ab17a0f88dd }
 
-**Contract fields:**
+```lua
+function game.api_supports(domain: string) -> boolean
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"api_supports"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "domain", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `domain` | `string` | Required |
+
+**Returns:**
+
+- `boolean`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -888,22 +904,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.bionics.activate` { #symbol-api-lua-v5-generated-function-game-bionics-activate-ffb17d109333 }
 
-**Contract fields:**
+```lua
+function game.bionics.activate(character: GameHandle, uid: integer) -> CcbResult
+```
 
-- `class`: `"CcbBionicsApi"`
-- `name`: `"activate"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "integer", "name": "uid", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.bionics"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `uid` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -912,22 +930,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.bionics.configure` { #symbol-api-lua-v5-generated-function-game-bionics-configure-fb6275ff3872 }
 
-**Contract fields:**
+```lua
+function game.bionics.configure(character: GameHandle, uid: integer, options: CcbBionicConfigureOptions) -> CcbResult
+```
 
-- `class`: `"CcbBionicsApi"`
-- `name`: `"configure"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "integer", "name": "uid", "optional": false}, {"declaration": "CcbBionicConfigureOptions", "name": "options", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.bionics"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `uid` | `integer` | Required |
+| `options` | `CcbBionicConfigureOptions` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -936,22 +957,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.bionics.deactivate` { #symbol-api-lua-v5-generated-function-game-bionics-deactivate-bf57c3c229cf }
 
-**Contract fields:**
+```lua
+function game.bionics.deactivate(character: GameHandle, uid: integer) -> CcbResult
+```
 
-- `class`: `"CcbBionicsApi"`
-- `name`: `"deactivate"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "integer", "name": "uid", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.bionics"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `uid` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -960,22 +983,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.bionics.definition` { #symbol-api-lua-v5-generated-function-game-bionics-definition-bef5c2e7c873 }
 
-**Contract fields:**
+```lua
+function game.bionics.definition(id: GameId) -> table?
+```
 
-- `class`: `"CcbBionicsApi"`
-- `name`: `"definition"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "table?"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.bionics"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `table?`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -984,22 +1008,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.bionics.definitions` { #symbol-api-lua-v5-generated-function-game-bionics-definitions-8fb0ade306a0 }
 
-**Contract fields:**
+```lua
+function game.bionics.definitions(options: CcbPageOptions?) -> table
+```
 
-- `class`: `"CcbBionicsApi"`
-- `name`: `"definitions"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbPageOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.bionics"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbPageOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1008,22 +1033,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.bionics.get` { #symbol-api-lua-v5-generated-function-game-bionics-get-4f031837e4f3 }
 
-**Contract fields:**
+```lua
+function game.bionics.get(character: GameHandle, uid: integer) -> CcbResult
+```
 
-- `class`: `"CcbBionicsApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "integer", "name": "uid", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.bionics"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `uid` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1032,22 +1059,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.bionics.has` { #symbol-api-lua-v5-generated-function-game-bionics-has-1e0cb7c249f8 }
 
-**Contract fields:**
+```lua
+function game.bionics.has(character: GameHandle, id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbBionicsApi"`
-- `name`: `"has"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.bionics"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1056,22 +1085,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.bionics.install` { #symbol-api-lua-v5-generated-function-game-bionics-install-b887972f58e9 }
 
-**Contract fields:**
+```lua
+function game.bionics.install(character: GameHandle, id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbBionicsApi"`
-- `name`: `"install"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.bionics"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1080,22 +1111,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.bionics.list` { #symbol-api-lua-v5-generated-function-game-bionics-list-7e6301fbdbb2 }
 
-**Contract fields:**
+```lua
+function game.bionics.list(character: GameHandle, limit: integer?) -> CcbResult
+```
 
-- `class`: `"CcbBionicsApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "integer", "name": "limit", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.bionics"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `limit` | `integer` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1104,22 +1137,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.bionics.remove` { #symbol-api-lua-v5-generated-function-game-bionics-remove-1cc8a1cbc7df }
 
-**Contract fields:**
+```lua
+function game.bionics.remove(character: GameHandle, uid: integer) -> CcbResult
+```
 
-- `class`: `"CcbBionicsApi"`
-- `name`: `"remove"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "integer", "name": "uid", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.bionics"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `uid` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1128,22 +1163,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.bionics.set_power` { #symbol-api-lua-v5-generated-function-game-bionics-set-power-3c944577e078 }
 
-**Contract fields:**
+```lua
+function game.bionics.set_power(character: GameHandle, power: UnitValue) -> CcbResult
+```
 
-- `class`: `"CcbBionicsApi"`
-- `name`: `"set_power"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "UnitValue", "name": "power", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.bionics"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `power` | `UnitValue` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1152,22 +1189,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.bionics_snapshot` { #symbol-api-lua-v5-generated-function-game-bionics-snapshot-439c35b253b1 }
 
-**Contract fields:**
+```lua
+function game.bionics_snapshot(limit: integer?) -> table
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"bionics_snapshot"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "limit", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `limit` | `integer` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1176,22 +1214,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.callbacks.describe` { #symbol-api-lua-v5-generated-function-game-callbacks-describe-19ab21809146 }
 
-**Contract fields:**
+```lua
+function game.callbacks.describe(kind: CcbCallbackKind) -> CcbCallbackKindSpec
+```
 
-- `class`: `"CcbCallbacksApi"`
-- `name`: `"describe"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbCallbackKind", "name": "kind", "optional": false}]`
-- `returns`: `[{"declaration": "CcbCallbackKindSpec"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.callbacks"`
-- `capabilities`: `["game.callbacks"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `kind` | `CcbCallbackKind` | Required |
+
+**Returns:**
+
+- `CcbCallbackKindSpec`
+
+🛡️ **Required Capabilities:** `game.callbacks`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1200,22 +1239,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.callbacks.limits` { #symbol-api-lua-v5-generated-function-game-callbacks-limits-5310e6dce1f2 }
 
-**Contract fields:**
+```lua
+function game.callbacks.limits() -> CcbCallbackLimits
+```
 
-- `class`: `"CcbCallbacksApi"`
-- `name`: `"limits"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbCallbackLimits"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.callbacks"`
-- `capabilities`: `["game.callbacks"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbCallbackLimits`
+
+🛡️ **Required Capabilities:** `game.callbacks`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1224,22 +1258,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.callbacks.list` { #symbol-api-lua-v5-generated-function-game-callbacks-list-4628fd8e35f9 }
 
-**Contract fields:**
+```lua
+function game.callbacks.list() -> CcbCallbackKindSpec[]
+```
 
-- `class`: `"CcbCallbacksApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbCallbackKindSpec[]"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.callbacks"`
-- `capabilities`: `["game.callbacks"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbCallbackKindSpec[]`
+
+🛡️ **Required Capabilities:** `game.callbacks`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1248,22 +1277,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.callbacks.off` { #symbol-api-lua-v5-generated-function-game-callbacks-off-6cdb4715b898 }
 
-**Contract fields:**
+```lua
+function game.callbacks.off(registration_id: integer) -> boolean removed
+```
 
-- `class`: `"CcbCallbacksApi"`
-- `name`: `"off"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "registration_id", "optional": false}]`
-- `returns`: `[{"declaration": "boolean removed"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.callbacks"`
-- `capabilities`: `["game.callbacks"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `registration_id` | `integer` | Required |
+
+**Returns:**
+
+- `boolean removed`
+
+🛡️ **Required Capabilities:** `game.callbacks`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1272,22 +1302,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.callbacks.register` { #symbol-api-lua-v5-generated-function-game-callbacks-register-d57c3e440bd4 }
 
-**Contract fields:**
+```lua
+function game.callbacks.register(kind: CcbCallbackKind, target: GameId, descriptor: CcbCallbackDescriptor) -> integer registration_id
+```
 
-- `class`: `"CcbCallbacksApi"`
-- `name`: `"register"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbCallbackKind", "name": "kind", "optional": false}, {"declaration": "GameId", "name": "target", "optional": false}, {"declaration": "CcbCallbackDescriptor", "name": "descriptor", "optional": false}]`
-- `returns`: `[{"declaration": "integer registration_id"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.callbacks"`
-- `capabilities`: `["game.callbacks"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `kind` | `CcbCallbackKind` | Required |
+| `target` | `GameId` | Required |
+| `descriptor` | `CcbCallbackDescriptor` | Required |
+
+**Returns:**
+
+- `integer registration_id`
+
+🛡️ **Required Capabilities:** `game.callbacks`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1296,22 +1329,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.camps.get` { #symbol-api-lua-v5-generated-function-game-camps-get-e4c937bcec62 }
 
-**Contract fields:**
+```lua
+function game.camps.get(position: TripointCoord Absolute overmap-terrain coordinate.) -> CcbResult
+```
 
-- `class`: `"CcbCampsApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord Absolute overmap-terrain coordinate.", "name": "position", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.camps"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord Absolute overmap-terrain coordinate.` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1320,22 +1354,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.camps.list` { #symbol-api-lua-v5-generated-function-game-camps-list-0ddbc583d0a9 }
 
-**Contract fields:**
+```lua
+function game.camps.list(options: CcbCampOptions?) -> CcbResult
+```
 
-- `class`: `"CcbCampsApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbCampOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.camps"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbCampOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1344,22 +1379,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.camps.near` { #symbol-api-lua-v5-generated-function-game-camps-near-2ca2547ec5d9 }
 
-**Contract fields:**
+```lua
+function game.camps.near(center: TripointCoord Absolute overmap-terrain coordinate., options: CcbCampOptions?) -> CcbResult
+```
 
-- `class`: `"CcbCampsApi"`
-- `name`: `"near"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord Absolute overmap-terrain coordinate.", "name": "center", "optional": false}, {"declaration": "CcbCampOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.camps"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `center` | `TripointCoord Absolute overmap-terrain coordinate.` | Required |
+| `options` | `CcbCampOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1368,22 +1405,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.camps.rename` { #symbol-api-lua-v5-generated-function-game-camps-rename-12496dc87f1d }
 
-**Contract fields:**
+```lua
+function game.camps.rename(position: TripointCoord Absolute overmap-terrain coordinate., name: string) -> CcbResult
+```
 
-- `class`: `"CcbCampsApi"`
-- `name`: `"rename"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord Absolute overmap-terrain coordinate.", "name": "position", "optional": false}, {"declaration": "string", "name": "name", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.camps"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord Absolute overmap-terrain coordinate.` | Required |
+| `name` | `string` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1392,22 +1431,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.camps.set_board_position` { #symbol-api-lua-v5-generated-function-game-camps-set-board-position-c6179eb05de3 }
 
-**Contract fields:**
+```lua
+function game.camps.set_board_position(position: TripointCoord Absolute overmap-terrain coordinate., board_position: TripointCoord Absolute map-square coordinate.) -> CcbResult
+```
 
-- `class`: `"CcbCampsApi"`
-- `name`: `"set_board_position"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord Absolute overmap-terrain coordinate.", "name": "position", "optional": false}, {"declaration": "TripointCoord Absolute map-square coordinate.", "name": "board_position", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.camps"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord Absolute overmap-terrain coordinate.` | Required |
+| `board_position` | `TripointCoord Absolute map-square coordinate.` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1416,22 +1457,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.camps.set_owner` { #symbol-api-lua-v5-generated-function-game-camps-set-owner-38cc976af5c6 }
 
-**Contract fields:**
+```lua
+function game.camps.set_owner(position: TripointCoord Absolute overmap-terrain coordinate., owner: GameId) -> CcbResult
+```
 
-- `class`: `"CcbCampsApi"`
-- `name`: `"set_owner"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord Absolute overmap-terrain coordinate.", "name": "position", "optional": false}, {"declaration": "GameId", "name": "owner", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.camps"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord Absolute overmap-terrain coordinate.` | Required |
+| `owner` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1440,22 +1483,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.characters.adjust` { #symbol-api-lua-v5-generated-function-game-characters-adjust-287409624bc8 }
 
-**Contract fields:**
+```lua
+function game.characters.adjust(handle: GameHandle, adjustments: CcbCharactersAdjustments) -> CcbResult
+```
 
-- `class`: `"CcbCharactersApi"`
-- `name`: `"adjust"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "CcbCharactersAdjustments", "name": "adjustments", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.characters"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `adjustments` | `CcbCharactersAdjustments` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1464,22 +1509,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.characters.avatar` { #symbol-api-lua-v5-generated-function-game-characters-avatar-8e969d545830 }
 
-**Contract fields:**
+```lua
+function game.characters.avatar() -> GameHandle
+```
 
-- `class`: `"CcbCharactersApi"`
-- `name`: `"avatar"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "GameHandle"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.characters"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `GameHandle`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1488,22 +1528,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.characters.by_id` { #symbol-api-lua-v5-generated-function-game-characters-by-id-c538f83fc8aa }
 
-**Contract fields:**
+```lua
+function game.characters.by_id(id: integer) -> CcbResult
+```
 
-- `class`: `"CcbCharactersApi"`
-- `name`: `"by_id"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.characters"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1512,22 +1553,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.characters.heal` { #symbol-api-lua-v5-generated-function-game-characters-heal-05140cc5ed74 }
 
-**Contract fields:**
+```lua
+function game.characters.heal(handle: GameHandle, body_part: GameId, amount: integer) -> CcbResult
+```
 
-- `class`: `"CcbCharactersApi"`
-- `name`: `"heal"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "body_part", "optional": false}, {"declaration": "integer", "name": "amount", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.characters"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `body_part` | `GameId` | Required |
+| `amount` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1536,22 +1580,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.characters.nearby` { #symbol-api-lua-v5-generated-function-game-characters-nearby-de0b6d569e4a }
 
-**Contract fields:**
+```lua
+function game.characters.nearby(options: CcbNearbyOptions?) -> table
+```
 
-- `class`: `"CcbCharactersApi"`
-- `name`: `"nearby"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbNearbyOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.characters"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbNearbyOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1560,22 +1605,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.characters.set_movement_mode` { #symbol-api-lua-v5-generated-function-game-characters-set-movement-mode-dec054f25584 }
 
-**Contract fields:**
+```lua
+function game.characters.set_movement_mode(handle: GameHandle, mode: GameId) -> CcbResult
+```
 
-- `class`: `"CcbCharactersApi"`
-- `name`: `"set_movement_mode"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "mode", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.characters"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `mode` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1584,22 +1631,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.characters.snapshot` { #symbol-api-lua-v5-generated-function-game-characters-snapshot-07b7b80625c3 }
 
-**Contract fields:**
+```lua
+function game.characters.snapshot(handle: GameHandle, body_part_limit: integer?) -> CcbResult
+```
 
-- `class`: `"CcbCharactersApi"`
-- `name`: `"snapshot"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "integer", "name": "body_part_limit", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.characters"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `body_part_limit` | `integer` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1608,22 +1657,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.constants.snapshot` { #symbol-api-lua-v5-generated-function-game-constants-snapshot-e412c3937acc }
 
-**Contract fields:**
+```lua
+function game.constants.snapshot() -> CcbConstantsSnapshot
+```
 
-- `class`: `"CcbConstantsApi"`
-- `name`: `"snapshot"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbConstantsSnapshot"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.constants"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbConstantsSnapshot`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1632,22 +1676,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.box` { #symbol-api-lua-v5-generated-function-game-coords-box-806152174a09 }
 
-**Contract fields:**
+```lua
+function game.coords.box(from: TripointCoord, to: TripointCoord, max_points: integer) -> TripointCoord[]
+```
 
-- `class`: `"CcbCoordsApi"`
-- `name`: `"box"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "from", "optional": false}, {"declaration": "TripointCoord", "name": "to", "optional": false}, {"declaration": "integer", "name": "max_points", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord[]"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.coords"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `from` | `TripointCoord` | Required |
+| `to` | `TripointCoord` | Required |
+| `max_points` | `integer` | Required |
+
+**Returns:**
+
+- `TripointCoord[]`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1656,22 +1703,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.kinds` { #symbol-api-lua-v5-generated-function-game-coords-kinds-2123014d22b5 }
 
-**Contract fields:**
+```lua
+function game.coords.kinds() -> string[]
+```
 
-- `class`: `"CcbCoordsApi"`
-- `name`: `"kinds"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "string[]"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.coords"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `string[]`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1680,22 +1722,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.line` { #symbol-api-lua-v5-generated-function-game-coords-line-c343778f2d0b }
 
-**Contract fields:**
+```lua
+function game.coords.line(from: T, to: T, max_points: integer) -> T[]
+```
 
-- `class`: `"CcbCoordsApi"`
-- `name`: `"line"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "T", "name": "from", "optional": false}, {"declaration": "T", "name": "to", "optional": false}, {"declaration": "integer", "name": "max_points", "optional": false}]`
-- `returns`: `[{"declaration": "T[]"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.coords"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `from` | `T` | Required |
+| `to` | `T` | Required |
+| `max_points` | `integer` | Required |
+
+**Returns:**
+
+- `T[]`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1704,22 +1749,26 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.point` { #symbol-api-lua-v5-generated-function-game-coords-point-2dafd296b027 }
 
-**Contract fields:**
+```lua
+function game.coords.point(origin: CcbCoordinateOrigin, scale: CcbCoordinateScale, x: integer, y: integer) -> PointCoord
+```
 
-- `class`: `"CcbCoordsApi"`
-- `name`: `"point"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbCoordinateOrigin", "name": "origin", "optional": false}, {"declaration": "CcbCoordinateScale", "name": "scale", "optional": false}, {"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.coords"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `origin` | `CcbCoordinateOrigin` | Required |
+| `scale` | `CcbCoordinateScale` | Required |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -1728,22 +1777,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.point_abs_ms` { #symbol-api-lua-v5-generated-function-game-coords-point-abs-ms-aabba19a0219 }
 
-**Contract fields:**
+```lua
+function game.coords.point_abs_ms(x: integer, y: integer) -> PointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"point_abs_ms"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -1752,22 +1803,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.point_abs_om` { #symbol-api-lua-v5-generated-function-game-coords-point-abs-om-f1d1b79f997b }
 
-**Contract fields:**
+```lua
+function game.coords.point_abs_om(x: integer, y: integer) -> PointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"point_abs_om"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -1776,22 +1829,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.point_abs_omt` { #symbol-api-lua-v5-generated-function-game-coords-point-abs-omt-0ecd6563b0a0 }
 
-**Contract fields:**
+```lua
+function game.coords.point_abs_omt(x: integer, y: integer) -> PointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"point_abs_omt"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -1800,22 +1855,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.point_abs_seg` { #symbol-api-lua-v5-generated-function-game-coords-point-abs-seg-8ef7d32bea9e }
 
-**Contract fields:**
+```lua
+function game.coords.point_abs_seg(x: integer, y: integer) -> PointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"point_abs_seg"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -1824,22 +1881,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.point_abs_sm` { #symbol-api-lua-v5-generated-function-game-coords-point-abs-sm-95742cb96662 }
 
-**Contract fields:**
+```lua
+function game.coords.point_abs_sm(x: integer, y: integer) -> PointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"point_abs_sm"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -1848,22 +1907,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.point_bub_ms` { #symbol-api-lua-v5-generated-function-game-coords-point-bub-ms-d0eed5407140 }
 
-**Contract fields:**
+```lua
+function game.coords.point_bub_ms(x: integer, y: integer) -> PointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"point_bub_ms"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -1872,22 +1933,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.point_bub_sm` { #symbol-api-lua-v5-generated-function-game-coords-point-bub-sm-90031af83326 }
 
-**Contract fields:**
+```lua
+function game.coords.point_bub_sm(x: integer, y: integer) -> PointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"point_bub_sm"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -1896,22 +1959,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.point_om_ms` { #symbol-api-lua-v5-generated-function-game-coords-point-om-ms-8b7db37be29e }
 
-**Contract fields:**
+```lua
+function game.coords.point_om_ms(x: integer, y: integer) -> PointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"point_om_ms"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -1920,22 +1985,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.point_om_omt` { #symbol-api-lua-v5-generated-function-game-coords-point-om-omt-cef0539dabae }
 
-**Contract fields:**
+```lua
+function game.coords.point_om_omt(x: integer, y: integer) -> PointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"point_om_omt"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -1944,22 +2011,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.point_om_sm` { #symbol-api-lua-v5-generated-function-game-coords-point-om-sm-df094494c520 }
 
-**Contract fields:**
+```lua
+function game.coords.point_om_sm(x: integer, y: integer) -> PointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"point_om_sm"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -1968,22 +2037,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.point_omt_ms` { #symbol-api-lua-v5-generated-function-game-coords-point-omt-ms-4c8460a02998 }
 
-**Contract fields:**
+```lua
+function game.coords.point_omt_ms(x: integer, y: integer) -> PointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"point_omt_ms"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -1992,22 +2063,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.point_omt_sm` { #symbol-api-lua-v5-generated-function-game-coords-point-omt-sm-d74a15528c0f }
 
-**Contract fields:**
+```lua
+function game.coords.point_omt_sm(x: integer, y: integer) -> PointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"point_omt_sm"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2016,22 +2089,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.point_rel_ms` { #symbol-api-lua-v5-generated-function-game-coords-point-rel-ms-cab1fc650b04 }
 
-**Contract fields:**
+```lua
+function game.coords.point_rel_ms(x: integer, y: integer) -> PointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"point_rel_ms"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2040,22 +2115,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.point_rel_om` { #symbol-api-lua-v5-generated-function-game-coords-point-rel-om-00a39f54caa2 }
 
-**Contract fields:**
+```lua
+function game.coords.point_rel_om(x: integer, y: integer) -> PointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"point_rel_om"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2064,22 +2141,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.point_rel_omt` { #symbol-api-lua-v5-generated-function-game-coords-point-rel-omt-8de2ab1dc740 }
 
-**Contract fields:**
+```lua
+function game.coords.point_rel_omt(x: integer, y: integer) -> PointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"point_rel_omt"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2088,22 +2167,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.point_rel_seg` { #symbol-api-lua-v5-generated-function-game-coords-point-rel-seg-13c9e30c1223 }
 
-**Contract fields:**
+```lua
+function game.coords.point_rel_seg(x: integer, y: integer) -> PointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"point_rel_seg"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2112,22 +2193,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.point_rel_sm` { #symbol-api-lua-v5-generated-function-game-coords-point-rel-sm-eff48624f2ce }
 
-**Contract fields:**
+```lua
+function game.coords.point_rel_sm(x: integer, y: integer) -> PointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"point_rel_sm"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2136,22 +2219,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.point_sm_ms` { #symbol-api-lua-v5-generated-function-game-coords-point-sm-ms-1f0245da4b61 }
 
-**Contract fields:**
+```lua
+function game.coords.point_sm_ms(x: integer, y: integer) -> PointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"point_sm_ms"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+
+**Returns:**
+
+- `PointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2160,22 +2245,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.project_combine` { #symbol-api-lua-v5-generated-function-game-coords-project-combine-27696cf8858c }
 
-**Contract fields:**
+```lua
+function game.coords.project_combine(coarse: T, remainder: PointCoord) -> T
+```
 
-- `class`: `"CcbCoordsApi"`
-- `name`: `"project_combine"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "T", "name": "coarse", "optional": false}, {"declaration": "PointCoord", "name": "remainder", "optional": false}]`
-- `returns`: `[{"declaration": "T"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.coords"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `coarse` | `T` | Required |
+| `remainder` | `PointCoord` | Required |
+
+**Returns:**
+
+- `T`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2184,22 +2271,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.project_remain` { #symbol-api-lua-v5-generated-function-game-coords-project-remain-441af43fb911 }
 
-**Contract fields:**
+```lua
+function game.coords.project_remain(value: PointCoord|TripointCoord, scale: CcbCoordinateScale) -> PointCoord|TripointCoord, PointCoord
+```
 
-- `class`: `"CcbCoordsApi"`
-- `name`: `"project_remain"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "PointCoord|TripointCoord", "name": "value", "optional": false}, {"declaration": "CcbCoordinateScale", "name": "scale", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord|TripointCoord, PointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.coords"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `value` | `PointCoord|TripointCoord` | Required |
+| `scale` | `CcbCoordinateScale` | Required |
+
+**Returns:**
+
+- `PointCoord|TripointCoord, PointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2208,22 +2297,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.project_to` { #symbol-api-lua-v5-generated-function-game-coords-project-to-8a7da497752a }
 
-**Contract fields:**
+```lua
+function game.coords.project_to(value: T, scale: CcbCoordinateScale) -> T
+```
 
-- `class`: `"CcbCoordsApi"`
-- `name`: `"project_to"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "T", "name": "value", "optional": false}, {"declaration": "CcbCoordinateScale", "name": "scale", "optional": false}]`
-- `returns`: `[{"declaration": "T"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.coords"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `value` | `T` | Required |
+| `scale` | `CcbCoordinateScale` | Required |
+
+**Returns:**
+
+- `T`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2232,22 +2323,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.rectangle` { #symbol-api-lua-v5-generated-function-game-coords-rectangle-a7804469b282 }
 
-**Contract fields:**
+```lua
+function game.coords.rectangle(from: PointCoord, to: PointCoord, max_points: integer) -> PointCoord[]
+```
 
-- `class`: `"CcbCoordsApi"`
-- `name`: `"rectangle"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "PointCoord", "name": "from", "optional": false}, {"declaration": "PointCoord", "name": "to", "optional": false}, {"declaration": "integer", "name": "max_points", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord[]"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.coords"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `from` | `PointCoord` | Required |
+| `to` | `PointCoord` | Required |
+| `max_points` | `integer` | Required |
+
+**Returns:**
+
+- `PointCoord[]`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2256,22 +2350,27 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.tripoint` { #symbol-api-lua-v5-generated-function-game-coords-tripoint-22f92af0b117 }
 
-**Contract fields:**
+```lua
+function game.coords.tripoint(origin: CcbCoordinateOrigin, scale: CcbCoordinateScale, x: integer, y: integer, z: integer) -> TripointCoord
+```
 
-- `class`: `"CcbCoordsApi"`
-- `name`: `"tripoint"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbCoordinateOrigin", "name": "origin", "optional": false}, {"declaration": "CcbCoordinateScale", "name": "scale", "optional": false}, {"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}, {"declaration": "integer", "name": "z", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.coords"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `origin` | `CcbCoordinateOrigin` | Required |
+| `scale` | `CcbCoordinateScale` | Required |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+| `z` | `integer` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2280,22 +2379,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.tripoint_abs_ms` { #symbol-api-lua-v5-generated-function-game-coords-tripoint-abs-ms-7b1951a1b684 }
 
-**Contract fields:**
+```lua
+function game.coords.tripoint_abs_ms(x: integer, y: integer, z: integer) -> TripointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"tripoint_abs_ms"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}, {"declaration": "integer", "name": "z", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+| `z` | `integer` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2304,22 +2406,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.tripoint_abs_om` { #symbol-api-lua-v5-generated-function-game-coords-tripoint-abs-om-a45f742b4320 }
 
-**Contract fields:**
+```lua
+function game.coords.tripoint_abs_om(x: integer, y: integer, z: integer) -> TripointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"tripoint_abs_om"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}, {"declaration": "integer", "name": "z", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+| `z` | `integer` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2328,22 +2433,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.tripoint_abs_omt` { #symbol-api-lua-v5-generated-function-game-coords-tripoint-abs-omt-b9d635617ce2 }
 
-**Contract fields:**
+```lua
+function game.coords.tripoint_abs_omt(x: integer, y: integer, z: integer) -> TripointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"tripoint_abs_omt"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}, {"declaration": "integer", "name": "z", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+| `z` | `integer` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2352,22 +2460,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.tripoint_abs_seg` { #symbol-api-lua-v5-generated-function-game-coords-tripoint-abs-seg-4aa47679cded }
 
-**Contract fields:**
+```lua
+function game.coords.tripoint_abs_seg(x: integer, y: integer, z: integer) -> TripointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"tripoint_abs_seg"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}, {"declaration": "integer", "name": "z", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+| `z` | `integer` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2376,22 +2487,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.tripoint_abs_sm` { #symbol-api-lua-v5-generated-function-game-coords-tripoint-abs-sm-601fc4804de9 }
 
-**Contract fields:**
+```lua
+function game.coords.tripoint_abs_sm(x: integer, y: integer, z: integer) -> TripointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"tripoint_abs_sm"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}, {"declaration": "integer", "name": "z", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+| `z` | `integer` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2400,22 +2514,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.tripoint_bub_ms` { #symbol-api-lua-v5-generated-function-game-coords-tripoint-bub-ms-dc85c4f7da1f }
 
-**Contract fields:**
+```lua
+function game.coords.tripoint_bub_ms(x: integer, y: integer, z: integer) -> TripointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"tripoint_bub_ms"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}, {"declaration": "integer", "name": "z", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+| `z` | `integer` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2424,22 +2541,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.tripoint_bub_sm` { #symbol-api-lua-v5-generated-function-game-coords-tripoint-bub-sm-dd46293ba49c }
 
-**Contract fields:**
+```lua
+function game.coords.tripoint_bub_sm(x: integer, y: integer, z: integer) -> TripointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"tripoint_bub_sm"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}, {"declaration": "integer", "name": "z", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+| `z` | `integer` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2448,22 +2568,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.tripoint_om_ms` { #symbol-api-lua-v5-generated-function-game-coords-tripoint-om-ms-c2e3e59ea1b4 }
 
-**Contract fields:**
+```lua
+function game.coords.tripoint_om_ms(x: integer, y: integer, z: integer) -> TripointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"tripoint_om_ms"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}, {"declaration": "integer", "name": "z", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+| `z` | `integer` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2472,22 +2595,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.tripoint_om_omt` { #symbol-api-lua-v5-generated-function-game-coords-tripoint-om-omt-3f968529b53b }
 
-**Contract fields:**
+```lua
+function game.coords.tripoint_om_omt(x: integer, y: integer, z: integer) -> TripointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"tripoint_om_omt"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}, {"declaration": "integer", "name": "z", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+| `z` | `integer` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2496,22 +2622,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.tripoint_om_sm` { #symbol-api-lua-v5-generated-function-game-coords-tripoint-om-sm-ac75eea62ab0 }
 
-**Contract fields:**
+```lua
+function game.coords.tripoint_om_sm(x: integer, y: integer, z: integer) -> TripointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"tripoint_om_sm"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}, {"declaration": "integer", "name": "z", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+| `z` | `integer` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2520,22 +2649,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.tripoint_omt_ms` { #symbol-api-lua-v5-generated-function-game-coords-tripoint-omt-ms-cad7414b509a }
 
-**Contract fields:**
+```lua
+function game.coords.tripoint_omt_ms(x: integer, y: integer, z: integer) -> TripointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"tripoint_omt_ms"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}, {"declaration": "integer", "name": "z", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+| `z` | `integer` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2544,22 +2676,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.tripoint_omt_sm` { #symbol-api-lua-v5-generated-function-game-coords-tripoint-omt-sm-9c7109a89056 }
 
-**Contract fields:**
+```lua
+function game.coords.tripoint_omt_sm(x: integer, y: integer, z: integer) -> TripointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"tripoint_omt_sm"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}, {"declaration": "integer", "name": "z", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+| `z` | `integer` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2568,22 +2703,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.tripoint_rel_ms` { #symbol-api-lua-v5-generated-function-game-coords-tripoint-rel-ms-52f7349fedf6 }
 
-**Contract fields:**
+```lua
+function game.coords.tripoint_rel_ms(x: integer, y: integer, z: integer) -> TripointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"tripoint_rel_ms"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}, {"declaration": "integer", "name": "z", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+| `z` | `integer` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2592,22 +2730,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.tripoint_rel_om` { #symbol-api-lua-v5-generated-function-game-coords-tripoint-rel-om-72f45f1f4963 }
 
-**Contract fields:**
+```lua
+function game.coords.tripoint_rel_om(x: integer, y: integer, z: integer) -> TripointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"tripoint_rel_om"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}, {"declaration": "integer", "name": "z", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+| `z` | `integer` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2616,22 +2757,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.tripoint_rel_omt` { #symbol-api-lua-v5-generated-function-game-coords-tripoint-rel-omt-7b4ccff1f53d }
 
-**Contract fields:**
+```lua
+function game.coords.tripoint_rel_omt(x: integer, y: integer, z: integer) -> TripointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"tripoint_rel_omt"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}, {"declaration": "integer", "name": "z", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+| `z` | `integer` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2640,22 +2784,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.tripoint_rel_seg` { #symbol-api-lua-v5-generated-function-game-coords-tripoint-rel-seg-376d6e8a7ff4 }
 
-**Contract fields:**
+```lua
+function game.coords.tripoint_rel_seg(x: integer, y: integer, z: integer) -> TripointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"tripoint_rel_seg"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}, {"declaration": "integer", "name": "z", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+| `z` | `integer` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2664,22 +2811,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.tripoint_rel_sm` { #symbol-api-lua-v5-generated-function-game-coords-tripoint-rel-sm-2d4ce8723a90 }
 
-**Contract fields:**
+```lua
+function game.coords.tripoint_rel_sm(x: integer, y: integer, z: integer) -> TripointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"tripoint_rel_sm"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}, {"declaration": "integer", "name": "z", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+| `z` | `integer` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2688,22 +2838,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords.tripoint_sm_ms` { #symbol-api-lua-v5-generated-function-game-coords-tripoint-sm-ms-3279c5c777ed }
 
-**Contract fields:**
+```lua
+function game.coords.tripoint_sm_ms(x: integer, y: integer, z: integer) -> TripointCoord
+```
 
-- `namespace`: `"game.coords"`
-- `class`: `"CcbCoordsApi"`
-- `name`: `"tripoint_sm_ms"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "x", "optional": false}, {"declaration": "integer", "name": "y", "optional": false}, {"declaration": "integer", "name": "z", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid coordinate component or unavailable game state"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `x` | `integer` | Required |
+| `y` | `integer` | Required |
+| `z` | `integer` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (invalid coordinate component or unavailable game state)
 
 **Sources:**
 
@@ -2712,22 +2865,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.crafting.queue_start` { #symbol-api-lua-v5-generated-function-game-crafting-queue-start-c2ce61c23325 }
 
-**Contract fields:**
+```lua
+function game.crafting.queue_start(recipe: GameId, options: CcbCraftOptions?) -> integer request_id
+```
 
-- `class`: `"CcbCraftingApi"`
-- `name`: `"queue_start"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "recipe", "optional": false}, {"declaration": "CcbCraftOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "integer request_id"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.crafting"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `recipe` | `GameId` | Required |
+| `options` | `CcbCraftOptions` | Optional |
+
+**Returns:**
+
+- `integer request_id`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2736,22 +2891,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.creatures.at` { #symbol-api-lua-v5-generated-function-game-creatures-at-ffcfc7019815 }
 
-**Contract fields:**
+```lua
+function game.creatures.at(position: TripointCoord) -> CcbResult
+```
 
-- `class`: `"CcbCreaturesApi"`
-- `name`: `"at"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.creatures"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2760,22 +2916,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.creatures.avatar` { #symbol-api-lua-v5-generated-function-game-creatures-avatar-be08bffa252c }
 
-**Contract fields:**
+```lua
+function game.creatures.avatar() -> GameHandle
+```
 
-- `class`: `"CcbCreaturesApi"`
-- `name`: `"avatar"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "GameHandle"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.creatures"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `GameHandle`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2784,22 +2935,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.creatures.nearby` { #symbol-api-lua-v5-generated-function-game-creatures-nearby-eef9c02ab5ac }
 
-**Contract fields:**
+```lua
+function game.creatures.nearby(options: CcbNearbyOptions?) -> table
+```
 
-- `class`: `"CcbCreaturesApi"`
-- `name`: `"nearby"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbNearbyOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.creatures"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbNearbyOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2808,22 +2960,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.creatures.snapshot` { #symbol-api-lua-v5-generated-function-game-creatures-snapshot-01c7e95cb860 }
 
-**Contract fields:**
+```lua
+function game.creatures.snapshot(handle: GameHandle) -> CcbResult
+```
 
-- `class`: `"CcbCreaturesApi"`
-- `name`: `"snapshot"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.creatures"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2832,22 +2985,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.current_tile_snapshot` { #symbol-api-lua-v5-generated-function-game-current-tile-snapshot-e800d7af7e4b }
 
-**Contract fields:**
+```lua
+function game.current_tile_snapshot(field_limit: integer?) -> table
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"current_tile_snapshot"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "field_limit", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `field_limit` | `integer` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2856,22 +3010,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.definitions.describe` { #symbol-api-lua-v5-generated-function-game-definitions-describe-b81791aac8ac }
 
-**Contract fields:**
+```lua
+function game.definitions.describe(kind: string) -> CcbDefinitionsDescription
+```
 
-- `class`: `"CcbDefinitionsApi"`
-- `name`: `"describe"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "kind", "optional": false}]`
-- `returns`: `[{"declaration": "CcbDefinitionsDescription"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.definitions"`
-- `capabilities`: `["registry.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `kind` | `string` | Required |
+
+**Returns:**
+
+- `CcbDefinitionsDescription`
+
+🛡️ **Required Capabilities:** `registry.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2880,22 +3035,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.definitions.exists` { #symbol-api-lua-v5-generated-function-game-definitions-exists-1fbbc35c94f0 }
 
-**Contract fields:**
+```lua
+function game.definitions.exists(id: GameId) -> boolean
+```
 
-- `class`: `"CcbDefinitionsApi"`
-- `name`: `"exists"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.definitions"`
-- `capabilities`: `["registry.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `boolean`
+
+🛡️ **Required Capabilities:** `registry.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2904,22 +3060,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.definitions.get` { #symbol-api-lua-v5-generated-function-game-definitions-get-da42e049671a }
 
-**Contract fields:**
+```lua
+function game.definitions.get(id: GameId) -> table?
+```
 
-- `class`: `"CcbDefinitionsApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "table?"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.definitions"`
-- `capabilities`: `["registry.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `table?`
+
+🛡️ **Required Capabilities:** `registry.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2928,22 +3085,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.definitions.kinds` { #symbol-api-lua-v5-generated-function-game-definitions-kinds-a7d95a164ddd }
 
-**Contract fields:**
+```lua
+function game.definitions.kinds() -> string[]
+```
 
-- `class`: `"CcbDefinitionsApi"`
-- `name`: `"kinds"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "string[]"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.definitions"`
-- `capabilities`: `["registry.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `string[]`
+
+🛡️ **Required Capabilities:** `registry.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2952,22 +3104,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.definitions.list` { #symbol-api-lua-v5-generated-function-game-definitions-list-cacaad63597f }
 
-**Contract fields:**
+```lua
+function game.definitions.list(kind: string, options: CcbRegistryListOptions?) -> CcbTypedDefinitionPage
+```
 
-- `class`: `"CcbDefinitionsApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "kind", "optional": false}, {"declaration": "CcbRegistryListOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbTypedDefinitionPage"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.definitions"`
-- `capabilities`: `["registry.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `kind` | `string` | Required |
+| `options` | `CcbRegistryListOptions` | Optional |
+
+**Returns:**
+
+- `CcbTypedDefinitionPage`
+
+🛡️ **Required Capabilities:** `registry.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -2976,22 +3130,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.definitions.revision` { #symbol-api-lua-v5-generated-function-game-definitions-revision-660eada521a4 }
 
-**Contract fields:**
+```lua
+function game.definitions.revision() -> integer
+```
 
-- `class`: `"CcbDefinitionsApi"`
-- `name`: `"revision"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "integer"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.definitions"`
-- `capabilities`: `["registry.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `integer`
+
+🛡️ **Required Capabilities:** `registry.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3000,22 +3149,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.diagnostics.recent` { #symbol-api-lua-v5-generated-function-game-diagnostics-recent-d1ed6cb127e6 }
 
-**Contract fields:**
+```lua
+function game.diagnostics.recent(limit: integer?) -> CcbDiagnosticEntry[]
+```
 
-- `class`: `"CcbDiagnosticsApi"`
-- `name`: `"recent"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "limit", "optional": true}]`
-- `returns`: `[{"declaration": "CcbDiagnosticEntry[]"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.diagnostics"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `limit` | `integer` | Optional |
+
+**Returns:**
+
+- `CcbDiagnosticEntry[]`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3024,22 +3174,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.diagnostics.snapshot` { #symbol-api-lua-v5-generated-function-game-diagnostics-snapshot-308b07d49b68 }
 
-**Contract fields:**
+```lua
+function game.diagnostics.snapshot() -> CcbDiagnosticsSnapshot
+```
 
-- `class`: `"CcbDiagnosticsApi"`
-- `name`: `"snapshot"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbDiagnosticsSnapshot"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.diagnostics"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbDiagnosticsSnapshot`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3048,22 +3193,26 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.effects.add` { #symbol-api-lua-v5-generated-function-game-effects-add-6757e88777ef }
 
-**Contract fields:**
+```lua
+function game.effects.add(handle: GameHandle, id: GameId, duration: TimeDuration, options: CcbEffectAddOptions?) -> CcbResult
+```
 
-- `class`: `"CcbEffectsApi"`
-- `name`: `"add"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "TimeDuration", "name": "duration", "optional": false}, {"declaration": "CcbEffectAddOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.effects"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `duration` | `TimeDuration` | Required |
+| `options` | `CcbEffectAddOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3072,22 +3221,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.effects.get` { #symbol-api-lua-v5-generated-function-game-effects-get-bc1424988a13 }
 
-**Contract fields:**
+```lua
+function game.effects.get(handle: GameHandle, id: GameId, body_part: GameId?) -> CcbResult
+```
 
-- `class`: `"CcbEffectsApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "GameId", "name": "body_part", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.effects"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `body_part` | `GameId` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3096,22 +3248,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.effects.has` { #symbol-api-lua-v5-generated-function-game-effects-has-6e9f3055f336 }
 
-**Contract fields:**
+```lua
+function game.effects.has(handle: GameHandle, id: GameId, body_part: GameId?) -> CcbResult
+```
 
-- `class`: `"CcbEffectsApi"`
-- `name`: `"has"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "GameId", "name": "body_part", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.effects"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `body_part` | `GameId` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3120,22 +3275,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.effects.list` { #symbol-api-lua-v5-generated-function-game-effects-list-06e8c431a40a }
 
-**Contract fields:**
+```lua
+function game.effects.list(handle: GameHandle, limit: integer?) -> CcbResult
+```
 
-- `class`: `"CcbEffectsApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "integer", "name": "limit", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.effects"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `limit` | `integer` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3144,22 +3301,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.effects.remove` { #symbol-api-lua-v5-generated-function-game-effects-remove-1b2fc1bb900c }
 
-**Contract fields:**
+```lua
+function game.effects.remove(handle: GameHandle, id: GameId, body_part: GameId?) -> CcbResult
+```
 
-- `class`: `"CcbEffectsApi"`
-- `name`: `"remove"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "GameId", "name": "body_part", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.effects"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `body_part` | `GameId` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3168,22 +3328,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.effects.update` { #symbol-api-lua-v5-generated-function-game-effects-update-941457e6f5fb }
 
-**Contract fields:**
+```lua
+function game.effects.update(handle: GameHandle, id: GameId, options: CcbEffectUpdateOptions) -> CcbResult
+```
 
-- `class`: `"CcbEffectsApi"`
-- `name`: `"update"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "CcbEffectUpdateOptions", "name": "options", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.effects"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `options` | `CcbEffectUpdateOptions` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3192,22 +3355,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.effects_snapshot` { #symbol-api-lua-v5-generated-function-game-effects-snapshot-c9018685a3c2 }
 
-**Contract fields:**
+```lua
+function game.effects_snapshot(limit: integer?) -> table
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"effects_snapshot"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "limit", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `limit` | `integer` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3216,22 +3380,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.enums.describe` { #symbol-api-lua-v5-generated-function-game-enums-describe-15c056d00e3f }
 
-**Contract fields:**
+```lua
+function game.enums.describe(kind: string) -> CcbEnumDescription
+```
 
-- `class`: `"CcbEnumsApi"`
-- `name`: `"describe"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "kind", "optional": false}]`
-- `returns`: `[{"declaration": "CcbEnumDescription"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.enums"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `kind` | `string` | Required |
+
+**Returns:**
+
+- `CcbEnumDescription`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3240,22 +3405,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.enums.has` { #symbol-api-lua-v5-generated-function-game-enums-has-4cfb00f3be52 }
 
-**Contract fields:**
+```lua
+function game.enums.has(kind: string, name: string) -> boolean
+```
 
-- `class`: `"CcbEnumsApi"`
-- `name`: `"has"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "kind", "optional": false}, {"declaration": "string", "name": "name", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.enums"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `kind` | `string` | Required |
+| `name` | `string` | Required |
+
+**Returns:**
+
+- `boolean`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3264,22 +3431,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.enums.kinds` { #symbol-api-lua-v5-generated-function-game-enums-kinds-e69aebda21d5 }
 
-**Contract fields:**
+```lua
+function game.enums.kinds() -> string[]
+```
 
-- `class`: `"CcbEnumsApi"`
-- `name`: `"kinds"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "string[]"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.enums"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `string[]`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3288,22 +3450,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.enums.value` { #symbol-api-lua-v5-generated-function-game-enums-value-9f44a987a974 }
 
-**Contract fields:**
+```lua
+function game.enums.value(kind: string, name: string) -> GameEnum
+```
 
-- `class`: `"CcbEnumsApi"`
-- `name`: `"value"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "kind", "optional": false}, {"declaration": "string", "name": "name", "optional": false}]`
-- `returns`: `[{"declaration": "GameEnum"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.enums"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `kind` | `string` | Required |
+| `name` | `string` | Required |
+
+**Returns:**
+
+- `GameEnum`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3312,22 +3476,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.enums.values` { #symbol-api-lua-v5-generated-function-game-enums-values-4dcebed9bd21 }
 
-**Contract fields:**
+```lua
+function game.enums.values(kind: string, offset: integer?, limit: integer?) -> CcbEnumPage
+```
 
-- `class`: `"CcbEnumsApi"`
-- `name`: `"values"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "kind", "optional": false}, {"declaration": "integer", "name": "offset", "optional": true}, {"declaration": "integer", "name": "limit", "optional": true}]`
-- `returns`: `[{"declaration": "CcbEnumPage"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.enums"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `kind` | `string` | Required |
+| `offset` | `integer` | Optional |
+| `limit` | `integer` | Optional |
+
+**Returns:**
+
+- `CcbEnumPage`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3336,22 +3503,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.eocs.activate` { #symbol-api-lua-v5-generated-function-game-eocs-activate-69635b2d2731 }
 
-**Contract fields:**
+```lua
+function game.eocs.activate(id: GameId, options: CcbEocOptions?) -> CcbResult
+```
 
-- `class`: `"CcbEocsApi"`
-- `name`: `"activate"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "CcbEocOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.eocs"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+| `options` | `CcbEocOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3360,22 +3529,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.eocs.get` { #symbol-api-lua-v5-generated-function-game-eocs-get-67d018a5b542 }
 
-**Contract fields:**
+```lua
+function game.eocs.get(id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbEocsApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.eocs"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3384,22 +3554,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.eocs.limits` { #symbol-api-lua-v5-generated-function-game-eocs-limits-c471e8b480b5 }
 
-**Contract fields:**
+```lua
+function game.eocs.limits() -> CcbEocLimits
+```
 
-- `class`: `"CcbEocsApi"`
-- `name`: `"limits"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbEocLimits"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.eocs"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbEocLimits`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3408,22 +3573,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.eocs.list` { #symbol-api-lua-v5-generated-function-game-eocs-list-5e8caca308d9 }
 
-**Contract fields:**
+```lua
+function game.eocs.list(options: CcbDefinitionSearchOptions?) -> table
+```
 
-- `class`: `"CcbEocsApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbDefinitionSearchOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.eocs"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbDefinitionSearchOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3432,22 +3598,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.eocs.queue` { #symbol-api-lua-v5-generated-function-game-eocs-queue-06ba6ee1f708 }
 
-**Contract fields:**
+```lua
+function game.eocs.queue(id: GameId, delay: TimeDuration, options: CcbEocOptions?) -> CcbResult
+```
 
-- `class`: `"CcbEocsApi"`
-- `name`: `"queue"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "TimeDuration", "name": "delay", "optional": false}, {"declaration": "CcbEocOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.eocs"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+| `delay` | `TimeDuration` | Required |
+| `options` | `CcbEocOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3456,22 +3625,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.eocs.test` { #symbol-api-lua-v5-generated-function-game-eocs-test-2bcae7b0f117 }
 
-**Contract fields:**
+```lua
+function game.eocs.test(id: GameId, options: CcbEocOptions?) -> CcbResult
+```
 
-- `class`: `"CcbEocsApi"`
-- `name`: `"test"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "CcbEocOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.eocs"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+| `options` | `CcbEocOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3480,22 +3651,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.equipment_snapshot` { #symbol-api-lua-v5-generated-function-game-equipment-snapshot-46c1e6c0241f }
 
-**Contract fields:**
+```lua
+function game.equipment_snapshot(limit: integer?) -> table
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"equipment_snapshot"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "limit", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `limit` | `integer` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3504,22 +3676,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.factions.food` { #symbol-api-lua-v5-generated-function-game-factions-food-258d02b3b027 }
 
-**Contract fields:**
+```lua
+function game.factions.food(id: GameId, options: CcbPageOptions?) -> CcbResult
+```
 
-- `class`: `"CcbFactionsApi"`
-- `name`: `"food"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "CcbPageOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.factions"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+| `options` | `CcbPageOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3528,22 +3702,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.factions.get` { #symbol-api-lua-v5-generated-function-game-factions-get-6e4d02953135 }
 
-**Contract fields:**
+```lua
+function game.factions.get(id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbFactionsApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.factions"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3552,22 +3727,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.factions.list` { #symbol-api-lua-v5-generated-function-game-factions-list-9d8ff423a2d1 }
 
-**Contract fields:**
+```lua
+function game.factions.list(options: CcbDefinitionSearchOptions?) -> CcbResult
+```
 
-- `class`: `"CcbFactionsApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbDefinitionSearchOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.factions"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbDefinitionSearchOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3576,22 +3752,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.factions.members` { #symbol-api-lua-v5-generated-function-game-factions-members-e7d7451bf2ab }
 
-**Contract fields:**
+```lua
+function game.factions.members(id: GameId, options: CcbPageOptions?) -> CcbResult
+```
 
-- `class`: `"CcbFactionsApi"`
-- `name`: `"members"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "CcbPageOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.factions"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+| `options` | `CcbPageOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3600,22 +3778,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.factions.modify_food` { #symbol-api-lua-v5-generated-function-game-factions-modify-food-038057bf9566 }
 
-**Contract fields:**
+```lua
+function game.factions.modify_food(id: GameId, kcal: integer) -> CcbResult
+```
 
-- `class`: `"CcbFactionsApi"`
-- `name`: `"modify_food"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "integer", "name": "kcal", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.factions"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+| `kcal` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3624,22 +3804,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.factions.modify_reputation` { #symbol-api-lua-v5-generated-function-game-factions-modify-reputation-68c11eaea9a6 }
 
-**Contract fields:**
+```lua
+function game.factions.modify_reputation(id: GameId, deltas: CcbFactionReputationDeltas) -> CcbResult
+```
 
-- `class`: `"CcbFactionsApi"`
-- `name`: `"modify_reputation"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "CcbFactionReputationDeltas", "name": "deltas", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.factions"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+| `deltas` | `CcbFactionReputationDeltas` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3648,22 +3830,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.factions.modify_resources` { #symbol-api-lua-v5-generated-function-game-factions-modify-resources-ef9e76e02601 }
 
-**Contract fields:**
+```lua
+function game.factions.modify_resources(id: GameId, deltas: CcbFactionResourceDeltas) -> CcbResult
+```
 
-- `class`: `"CcbFactionsApi"`
-- `name`: `"modify_resources"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "CcbFactionResourceDeltas", "name": "deltas", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.factions"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+| `deltas` | `CcbFactionResourceDeltas` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3672,22 +3856,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.factions.player` { #symbol-api-lua-v5-generated-function-game-factions-player-39ce29a3af5c }
 
-**Contract fields:**
+```lua
+function game.factions.player() -> CcbResult
+```
 
-- `class`: `"CcbFactionsApi"`
-- `name`: `"player"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.factions"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3696,22 +3875,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.factions.relationship` { #symbol-api-lua-v5-generated-function-game-factions-relationship-1eac702b4092 }
 
-**Contract fields:**
+```lua
+function game.factions.relationship(id: GameId, target: GameId) -> CcbResult
+```
 
-- `class`: `"CcbFactionsApi"`
-- `name`: `"relationship"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "GameId", "name": "target", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.factions"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+| `target` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3720,22 +3901,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.factions.relationships` { #symbol-api-lua-v5-generated-function-game-factions-relationships-aa014a2c6101 }
 
-**Contract fields:**
+```lua
+function game.factions.relationships(id: GameId, options: CcbPageOptions?) -> CcbResult
+```
 
-- `class`: `"CcbFactionsApi"`
-- `name`: `"relationships"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "CcbPageOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.factions"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+| `options` | `CcbPageOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3744,22 +3927,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.factions.rename` { #symbol-api-lua-v5-generated-function-game-factions-rename-c5012b700ce9 }
 
-**Contract fields:**
+```lua
+function game.factions.rename(id: GameId, name: string) -> CcbResult
+```
 
-- `class`: `"CcbFactionsApi"`
-- `name`: `"rename"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "string", "name": "name", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.factions"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+| `name` | `string` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3768,22 +3953,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.factions.set_known` { #symbol-api-lua-v5-generated-function-game-factions-set-known-f424ac7f4599 }
 
-**Contract fields:**
+```lua
+function game.factions.set_known(id: GameId, known: boolean) -> CcbResult
+```
 
-- `class`: `"CcbFactionsApi"`
-- `name`: `"set_known"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "boolean", "name": "known", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.factions"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+| `known` | `boolean` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3792,22 +3979,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.factions.set_policy` { #symbol-api-lua-v5-generated-function-game-factions-set-policy-63c4966c787e }
 
-**Contract fields:**
+```lua
+function game.factions.set_policy(id: GameId, options: CcbFactionPolicyUpdate) -> CcbResult
+```
 
-- `class`: `"CcbFactionsApi"`
-- `name`: `"set_policy"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "CcbFactionPolicyUpdate", "name": "options", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.factions"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+| `options` | `CcbFactionPolicyUpdate` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3816,22 +4005,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.factions.set_relationship` { #symbol-api-lua-v5-generated-function-game-factions-set-relationship-aa2b7c2beca9 }
 
-**Contract fields:**
+```lua
+function game.factions.set_relationship(id: GameId, target: GameId, options: CcbFactionRelationshipUpdate) -> CcbResult
+```
 
-- `class`: `"CcbFactionsApi"`
-- `name`: `"set_relationship"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "GameId", "name": "target", "optional": false}, {"declaration": "CcbFactionRelationshipUpdate", "name": "options", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.factions"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+| `target` | `GameId` | Required |
+| `options` | `CcbFactionRelationshipUpdate` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3840,22 +4032,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.followers.add` { #symbol-api-lua-v5-generated-function-game-followers-add-1112ff2fac03 }
 
-**Contract fields:**
+```lua
+function game.followers.add(character: GameHandle) -> CcbResult
+```
 
-- `class`: `"CcbFollowersApi"`
-- `name`: `"add"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.followers"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3864,22 +4057,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.followers.list` { #symbol-api-lua-v5-generated-function-game-followers-list-b83bc19fc94a }
 
-**Contract fields:**
+```lua
+function game.followers.list() -> table
+```
 
-- `class`: `"CcbFollowersApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.followers"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3888,22 +4076,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.followers.remove` { #symbol-api-lua-v5-generated-function-game-followers-remove-d07c9e62d818 }
 
-**Contract fields:**
+```lua
+function game.followers.remove(character: GameHandle) -> CcbResult
+```
 
-- `class`: `"CcbFollowersApi"`
-- `name`: `"remove"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.followers"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3912,22 +4101,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.handles.avatar` { #symbol-api-lua-v5-generated-function-game-handles-avatar-250c38fab714 }
 
-**Contract fields:**
+```lua
+function game.handles.avatar() -> GameHandle
+```
 
-- `class`: `"CcbHandlesApi"`
-- `name`: `"avatar"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "GameHandle"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.handles"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `GameHandle`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3936,22 +4120,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hooks.describe` { #symbol-api-lua-v5-generated-function-game-hooks-describe-802381695184 }
 
-**Contract fields:**
+```lua
+function game.hooks.describe(name: string) -> CcbHookSpec
+```
 
-- `class`: `"CcbHooksApi"`
-- `name`: `"describe"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "name", "optional": false}]`
-- `returns`: `[{"declaration": "CcbHookSpec"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hooks"`
-- `capabilities`: `["game.hooks"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `name` | `string` | Required |
+
+**Returns:**
+
+- `CcbHookSpec`
+
+🛡️ **Required Capabilities:** `game.hooks`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3960,22 +4145,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hooks.limits` { #symbol-api-lua-v5-generated-function-game-hooks-limits-d490449c0938 }
 
-**Contract fields:**
+```lua
+function game.hooks.limits() -> CcbHookLimits
+```
 
-- `class`: `"CcbHooksApi"`
-- `name`: `"limits"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbHookLimits"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hooks"`
-- `capabilities`: `["game.hooks"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbHookLimits`
+
+🛡️ **Required Capabilities:** `game.hooks`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -3984,22 +4164,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hooks.list` { #symbol-api-lua-v5-generated-function-game-hooks-list-8aa799a8c1d7 }
 
-**Contract fields:**
+```lua
+function game.hooks.list() -> CcbHookSpec[]
+```
 
-- `class`: `"CcbHooksApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbHookSpec[]"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hooks"`
-- `capabilities`: `["game.hooks"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbHookSpec[]`
+
+🛡️ **Required Capabilities:** `game.hooks`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4008,22 +4183,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hooks.off` { #symbol-api-lua-v5-generated-function-game-hooks-off-7f76a4eb9c70 }
 
-**Contract fields:**
+```lua
+function game.hooks.off(subscription_id: integer) -> boolean removed
+```
 
-- `class`: `"CcbHooksApi"`
-- `name`: `"off"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "subscription_id", "optional": false}]`
-- `returns`: `[{"declaration": "boolean removed"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hooks"`
-- `capabilities`: `["game.hooks"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `subscription_id` | `integer` | Required |
+
+**Returns:**
+
+- `boolean removed`
+
+🛡️ **Required Capabilities:** `game.hooks`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4032,22 +4208,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hooks.on` { #symbol-api-lua-v5-generated-function-game-hooks-on-c8fe57f84343 }
 
-**Contract fields:**
+```lua
+function game.hooks.on(name: string, callback: CcbHookCallback) -> integer subscription_id
+```
 
-- `class`: `"CcbHooksApi"`
-- `name`: `"on"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "name", "optional": false}, {"declaration": "CcbHookCallback", "name": "callback", "optional": false}]`
-- `returns`: `[{"declaration": "integer subscription_id"}]`
-- `overloads`: `["fun(name: string, options: CcbHookOptions, callback: CcbHookCallback): integer"]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hooks"`
-- `capabilities`: `["game.hooks"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 156, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `name` | `string` | Required |
+| `callback` | `CcbHookCallback` | Required |
+
+**Returns:**
+
+- `integer subscription_id`
+
+🛡️ **Required Capabilities:** `game.hooks`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4056,22 +4234,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hordes.advance` { #symbol-api-lua-v5-generated-function-game-hordes-advance-31c1b15a355c }
 
-**Contract fields:**
+```lua
+function game.hordes.advance() -> CcbResult
+```
 
-- `class`: `"CcbHordesApi"`
-- `name`: `"advance"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hordes"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4080,22 +4253,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hordes.alert_entity` { #symbol-api-lua-v5-generated-function-game-hordes-alert-entity-7009129d5707 }
 
-**Contract fields:**
+```lua
+function game.hordes.alert_entity(token: HordeEntityToken, destination: TripointCoord, intensity: integer) -> CcbResult
+```
 
-- `class`: `"CcbHordesApi"`
-- `name`: `"alert_entity"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "HordeEntityToken", "name": "token", "optional": false}, {"declaration": "TripointCoord", "name": "destination", "optional": false}, {"declaration": "integer", "name": "intensity", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hordes"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `token` | `HordeEntityToken` | Required |
+| `destination` | `TripointCoord` | Required |
+| `intensity` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4104,22 +4280,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hordes.contains` { #symbol-api-lua-v5-generated-function-game-hordes-contains-16d1766dbee1 }
 
-**Contract fields:**
+```lua
+function game.hordes.contains(group: GameId, monster: GameId) -> boolean
+```
 
-- `class`: `"CcbHordesApi"`
-- `name`: `"contains"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "group", "optional": false}, {"declaration": "GameId", "name": "monster", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hordes"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `group` | `GameId` | Required |
+| `monster` | `GameId` | Required |
+
+**Returns:**
+
+- `boolean`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4128,22 +4306,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hordes.definition` { #symbol-api-lua-v5-generated-function-game-hordes-definition-08656e520c0a }
 
-**Contract fields:**
+```lua
+function game.hordes.definition(id: GameId, options: CcbPageOptions?) -> table?
+```
 
-- `class`: `"CcbHordesApi"`
-- `name`: `"definition"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "CcbPageOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table?"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hordes"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+| `options` | `CcbPageOptions` | Optional |
+
+**Returns:**
+
+- `table?`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4152,22 +4332,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hordes.definitions` { #symbol-api-lua-v5-generated-function-game-hordes-definitions-d3941566bb83 }
 
-**Contract fields:**
+```lua
+function game.hordes.definitions(options: CcbPageOptions?) -> table
+```
 
-- `class`: `"CcbHordesApi"`
-- `name`: `"definitions"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbPageOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hordes"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbPageOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4176,22 +4357,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hordes.entities` { #symbol-api-lua-v5-generated-function-game-hordes-entities-aa9c64960f91 }
 
-**Contract fields:**
+```lua
+function game.hordes.entities(center: TripointCoord, options: CcbHordeEntityQueryOptions?) -> table
+```
 
-- `class`: `"CcbHordesApi"`
-- `name`: `"entities"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "center", "optional": false}, {"declaration": "CcbHordeEntityQueryOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hordes"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `center` | `TripointCoord` | Required |
+| `options` | `CcbHordeEntityQueryOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4200,22 +4383,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hordes.entity` { #symbol-api-lua-v5-generated-function-game-hordes-entity-2b511d2c372d }
 
-**Contract fields:**
+```lua
+function game.hordes.entity(token: HordeEntityToken) -> CcbResult
+```
 
-- `class`: `"CcbHordesApi"`
-- `name`: `"entity"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "HordeEntityToken", "name": "token", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hordes"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `token` | `HordeEntityToken` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4224,22 +4408,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hordes.legacy_group` { #symbol-api-lua-v5-generated-function-game-hordes-legacy-group-e93227298386 }
 
-**Contract fields:**
+```lua
+function game.hordes.legacy_group(token: LegacyHordeToken) -> CcbResult
+```
 
-- `class`: `"CcbHordesApi"`
-- `name`: `"legacy_group"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "LegacyHordeToken", "name": "token", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hordes"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `token` | `LegacyHordeToken` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4248,22 +4433,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hordes.legacy_groups` { #symbol-api-lua-v5-generated-function-game-hordes-legacy-groups-cd7ef17034bf }
 
-**Contract fields:**
+```lua
+function game.hordes.legacy_groups(center: TripointCoord, options: CcbLegacyHordeQueryOptions?) -> table
+```
 
-- `class`: `"CcbHordesApi"`
-- `name`: `"legacy_groups"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "center", "optional": false}, {"declaration": "CcbLegacyHordeQueryOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hordes"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `center` | `TripointCoord` | Required |
+| `options` | `CcbLegacyHordeQueryOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4272,22 +4459,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hordes.limits` { #symbol-api-lua-v5-generated-function-game-hordes-limits-f3a661d4b555 }
 
-**Contract fields:**
+```lua
+function game.hordes.limits() -> table
+```
 
-- `class`: `"CcbHordesApi"`
-- `name`: `"limits"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hordes"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4296,22 +4478,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hordes.monsters` { #symbol-api-lua-v5-generated-function-game-hordes-monsters-c4cf67307c5b }
 
-**Contract fields:**
+```lua
+function game.hordes.monsters(id: GameId, recursive: boolean?, options: CcbPageOptions?) -> table
+```
 
-- `class`: `"CcbHordesApi"`
-- `name`: `"monsters"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "boolean", "name": "recursive", "optional": true}, {"declaration": "CcbPageOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hordes"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+| `recursive` | `boolean` | Optional |
+| `options` | `CcbPageOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4320,22 +4505,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hordes.remove_entity` { #symbol-api-lua-v5-generated-function-game-hordes-remove-entity-73976af612e9 }
 
-**Contract fields:**
+```lua
+function game.hordes.remove_entity(token: HordeEntityToken) -> CcbResult
+```
 
-- `class`: `"CcbHordesApi"`
-- `name`: `"remove_entity"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "HordeEntityToken", "name": "token", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hordes"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `token` | `HordeEntityToken` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4344,22 +4530,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hordes.remove_legacy_group` { #symbol-api-lua-v5-generated-function-game-hordes-remove-legacy-group-8da6aec4cd40 }
 
-**Contract fields:**
+```lua
+function game.hordes.remove_legacy_group(token: LegacyHordeToken) -> CcbResult
+```
 
-- `class`: `"CcbHordesApi"`
-- `name`: `"remove_legacy_group"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "LegacyHordeToken", "name": "token", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hordes"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `token` | `LegacyHordeToken` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4368,22 +4555,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hordes.signal` { #symbol-api-lua-v5-generated-function-game-hordes-signal-dcb52f9e8a59 }
 
-**Contract fields:**
+```lua
+function game.hordes.signal(position: TripointCoord, power: integer) -> CcbResult
+```
 
-- `class`: `"CcbHordesApi"`
-- `name`: `"signal"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}, {"declaration": "integer", "name": "power", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hordes"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+| `power` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4392,22 +4581,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hordes.spawn_entity` { #symbol-api-lua-v5-generated-function-game-hordes-spawn-entity-4f549e3edb89 }
 
-**Contract fields:**
+```lua
+function game.hordes.spawn_entity(position: TripointCoord, monster: GameId) -> CcbResult
+```
 
-- `class`: `"CcbHordesApi"`
-- `name`: `"spawn_entity"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}, {"declaration": "GameId", "name": "monster", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hordes"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+| `monster` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4416,22 +4607,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hordes.spawn_legacy_group` { #symbol-api-lua-v5-generated-function-game-hordes-spawn-legacy-group-2a23a63b8b4e }
 
-**Contract fields:**
+```lua
+function game.hordes.spawn_legacy_group(options: CcbLegacyHordeSpawnOptions) -> CcbResult
+```
 
-- `class`: `"CcbHordesApi"`
-- `name`: `"spawn_legacy_group"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbLegacyHordeSpawnOptions", "name": "options", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hordes"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbLegacyHordeSpawnOptions` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4440,22 +4632,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hordes.summary` { #symbol-api-lua-v5-generated-function-game-hordes-summary-b621b2bb4483 }
 
-**Contract fields:**
+```lua
+function game.hordes.summary(position: TripointCoord) -> table
+```
 
-- `class`: `"CcbHordesApi"`
-- `name`: `"summary"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hordes"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4464,22 +4657,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hordes.update_legacy_group` { #symbol-api-lua-v5-generated-function-game-hordes-update-legacy-group-cb40e012c23b }
 
-**Contract fields:**
+```lua
+function game.hordes.update_legacy_group(token: LegacyHordeToken, options: CcbLegacyHordeSettings) -> CcbResult
+```
 
-- `class`: `"CcbHordesApi"`
-- `name`: `"update_legacy_group"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "LegacyHordeToken", "name": "token", "optional": false}, {"declaration": "CcbLegacyHordeSettings", "name": "options", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.hordes"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `token` | `LegacyHordeToken` | Required |
+| `options` | `CcbLegacyHordeSettings` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4488,22 +4683,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.inventory.find` { #symbol-api-lua-v5-generated-function-game-inventory-find-ca21925a51cd }
 
-**Contract fields:**
+```lua
+function game.inventory.find(character: GameHandle, uid: integer) -> CcbResult
+```
 
-- `class`: `"CcbInventoryApi"`
-- `name`: `"find"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "integer", "name": "uid", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.inventory"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `uid` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4512,22 +4709,26 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.inventory.give` { #symbol-api-lua-v5-generated-function-game-inventory-give-e6a94ec98779 }
 
-**Contract fields:**
+```lua
+function game.inventory.give(character: GameHandle, type: GameId, quantity: integer, options: CcbGiveItemOptions?) -> CcbResult
+```
 
-- `class`: `"CcbInventoryApi"`
-- `name`: `"give"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameId", "name": "type", "optional": false}, {"declaration": "integer", "name": "quantity", "optional": false}, {"declaration": "CcbGiveItemOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.inventory"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `type` | `GameId` | Required |
+| `quantity` | `integer` | Required |
+| `options` | `CcbGiveItemOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4536,22 +4737,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.inventory.list` { #symbol-api-lua-v5-generated-function-game-inventory-list-071a577ab038 }
 
-**Contract fields:**
+```lua
+function game.inventory.list(character: GameHandle, options: CcbInventoryOptions?) -> CcbResult
+```
 
-- `class`: `"CcbInventoryApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "CcbInventoryOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.inventory"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `options` | `CcbInventoryOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4560,22 +4763,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.inventory.remove` { #symbol-api-lua-v5-generated-function-game-inventory-remove-fc383a40f43c }
 
-**Contract fields:**
+```lua
+function game.inventory.remove(character: GameHandle, item: GameHandle, quantity: integer?) -> CcbResult
+```
 
-- `class`: `"CcbInventoryApi"`
-- `name`: `"remove"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameHandle", "name": "item", "optional": false}, {"declaration": "integer", "name": "quantity", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.inventory"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `item` | `GameHandle` | Required |
+| `quantity` | `integer` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4584,22 +4790,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.inventory.resources` { #symbol-api-lua-v5-generated-function-game-inventory-resources-80475f273933 }
 
-**Contract fields:**
+```lua
+function game.inventory.resources(character: GameHandle, type: GameId, quantity: integer) -> CcbResult
+```
 
-- `class`: `"CcbInventoryApi"`
-- `name`: `"resources"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameId", "name": "type", "optional": false}, {"declaration": "integer", "name": "quantity", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.inventory"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `type` | `GameId` | Required |
+| `quantity` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4608,22 +4817,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.inventory.stash_wielded` { #symbol-api-lua-v5-generated-function-game-inventory-stash-wielded-3484b91143af }
 
-**Contract fields:**
+```lua
+function game.inventory.stash_wielded(character: GameHandle) -> CcbResult
+```
 
-- `class`: `"CcbInventoryApi"`
-- `name`: `"stash_wielded"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.inventory"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4632,22 +4842,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.inventory.wear` { #symbol-api-lua-v5-generated-function-game-inventory-wear-0c162327fee9 }
 
-**Contract fields:**
+```lua
+function game.inventory.wear(character: GameHandle, item: GameHandle) -> CcbResult
+```
 
-- `class`: `"CcbInventoryApi"`
-- `name`: `"wear"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameHandle", "name": "item", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.inventory"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `item` | `GameHandle` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4656,22 +4868,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.inventory.wield` { #symbol-api-lua-v5-generated-function-game-inventory-wield-615ae5c0a793 }
 
-**Contract fields:**
+```lua
+function game.inventory.wield(character: GameHandle, item: GameHandle) -> CcbResult
+```
 
-- `class`: `"CcbInventoryApi"`
-- `name`: `"wield"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameHandle", "name": "item", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.inventory"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `item` | `GameHandle` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4680,22 +4894,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.inventory_snapshot` { #symbol-api-lua-v5-generated-function-game-inventory-snapshot-ccfd0fc62f8c }
 
-**Contract fields:**
+```lua
+function game.inventory_snapshot(limit: integer?) -> CcbBoundedItemList
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"inventory_snapshot"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "limit", "optional": true}]`
-- `returns`: `[{"declaration": "CcbBoundedItemList"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `limit` | `integer` | Optional |
+
+**Returns:**
+
+- `CcbBoundedItemList`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4704,22 +4919,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.item_contents_snapshot` { #symbol-api-lua-v5-generated-function-game-item-contents-snapshot-3a5cfd1a03f4 }
 
-**Contract fields:**
+```lua
+function game.item_contents_snapshot(uid: integer, limit: integer?) -> table
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"item_contents_snapshot"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "uid", "optional": false}, {"declaration": "integer", "name": "limit", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `uid` | `integer` | Required |
+| `limit` | `integer` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4728,22 +4945,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.items.contents` { #symbol-api-lua-v5-generated-function-game-items-contents-5e08a429543a }
 
-**Contract fields:**
+```lua
+function game.items.contents(handle: GameHandle, options: CcbItemContentsOptions?) -> CcbResult
+```
 
-- `class`: `"CcbItemsApi"`
-- `name`: `"contents"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "CcbItemContentsOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.items"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `options` | `CcbItemContentsOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4752,22 +4971,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.items.erase_var` { #symbol-api-lua-v5-generated-function-game-items-erase-var-b22322c27578 }
 
-**Contract fields:**
+```lua
+function game.items.erase_var(handle: GameHandle, key: string) -> CcbResult
+```
 
-- `class`: `"CcbItemsApi"`
-- `name`: `"erase_var"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "string", "name": "key", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.items"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `key` | `string` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4776,22 +4997,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.items.get_var` { #symbol-api-lua-v5-generated-function-game-items-get-var-493aa7907c8c }
 
-**Contract fields:**
+```lua
+function game.items.get_var(handle: GameHandle, key: string) -> CcbResult
+```
 
-- `class`: `"CcbItemsApi"`
-- `name`: `"get_var"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "string", "name": "key", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.items"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `key` | `string` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4800,22 +5023,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.items.has_flag` { #symbol-api-lua-v5-generated-function-game-items-has-flag-354f7f7ec478 }
 
-**Contract fields:**
+```lua
+function game.items.has_flag(handle: GameHandle, flag: GameId) -> CcbResult
+```
 
-- `class`: `"CcbItemsApi"`
-- `name`: `"has_flag"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "flag", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.items"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `flag` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4824,22 +5049,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.items.has_technique` { #symbol-api-lua-v5-generated-function-game-items-has-technique-b9b9f75f9c34 }
 
-**Contract fields:**
+```lua
+function game.items.has_technique(handle: GameHandle, technique: GameId) -> CcbResult
+```
 
-- `class`: `"CcbItemsApi"`
-- `name`: `"has_technique"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "technique", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.items"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `technique` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4848,22 +5075,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.items.pockets` { #symbol-api-lua-v5-generated-function-game-items-pockets-d17f4d87b8c9 }
 
-**Contract fields:**
+```lua
+function game.items.pockets(handle: GameHandle, options: CcbItemPocketOptions?) -> CcbResult
+```
 
-- `class`: `"CcbItemsApi"`
-- `name`: `"pockets"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "CcbItemPocketOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.items"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `options` | `CcbItemPocketOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4872,22 +5101,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.items.set_flag` { #symbol-api-lua-v5-generated-function-game-items-set-flag-e8820c99fa3b }
 
-**Contract fields:**
+```lua
+function game.items.set_flag(handle: GameHandle, flag: GameId, enabled: boolean) -> CcbResult
+```
 
-- `class`: `"CcbItemsApi"`
-- `name`: `"set_flag"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "flag", "optional": false}, {"declaration": "boolean", "name": "enabled", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.items"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `flag` | `GameId` | Required |
+| `enabled` | `boolean` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4896,22 +5128,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.items.set_technique` { #symbol-api-lua-v5-generated-function-game-items-set-technique-4bc32c4c1bee }
 
-**Contract fields:**
+```lua
+function game.items.set_technique(handle: GameHandle, technique: GameId, enabled: boolean) -> CcbResult
+```
 
-- `class`: `"CcbItemsApi"`
-- `name`: `"set_technique"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "technique", "optional": false}, {"declaration": "boolean", "name": "enabled", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.items"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `technique` | `GameId` | Required |
+| `enabled` | `boolean` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4920,22 +5155,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.items.set_var` { #symbol-api-lua-v5-generated-function-game-items-set-var-7002b81bea48 }
 
-**Contract fields:**
+```lua
+function game.items.set_var(handle: GameHandle, key: string, value: CcbScalar) -> CcbResult
+```
 
-- `class`: `"CcbItemsApi"`
-- `name`: `"set_var"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "string", "name": "key", "optional": false}, {"declaration": "CcbScalar", "name": "value", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.items"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `key` | `string` | Required |
+| `value` | `CcbScalar` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4944,22 +5182,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.items.snapshot` { #symbol-api-lua-v5-generated-function-game-items-snapshot-b0c7e3d3bb29 }
 
-**Contract fields:**
+```lua
+function game.items.snapshot(handle: GameHandle, relation_limit: integer?) -> CcbResult
+```
 
-- `class`: `"CcbItemsApi"`
-- `name`: `"snapshot"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "integer", "name": "relation_limit", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.items"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `relation_limit` | `integer` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4968,22 +5208,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.items.update` { #symbol-api-lua-v5-generated-function-game-items-update-b078afc06f47 }
 
-**Contract fields:**
+```lua
+function game.items.update(handle: GameHandle, updates: CcbItemUpdates) -> CcbResult
+```
 
-- `class`: `"CcbItemsApi"`
-- `name`: `"update"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "CcbItemUpdates", "name": "updates", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.items"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `updates` | `CcbItemUpdates` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -4992,22 +5234,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.mapgen.limits` { #symbol-api-lua-v5-generated-function-game-mapgen-limits-cfa2f641f151 }
 
-**Contract fields:**
+```lua
+function game.mapgen.limits() -> CcbMapgenLimits
+```
 
-- `class`: `"CcbMapgenApi"`
-- `name`: `"limits"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbMapgenLimits"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.mapgen"`
-- `capabilities`: `["events", "game.hooks", "game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbMapgenLimits`
+
+🛡️ **Required Capabilities:** `events`, `game.hooks`, `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5016,22 +5253,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.mapgen.off` { #symbol-api-lua-v5-generated-function-game-mapgen-off-e97cd296d0aa }
 
-**Contract fields:**
+```lua
+function game.mapgen.off(subscription_id: integer) -> boolean removed
+```
 
-- `class`: `"CcbMapgenApi"`
-- `name`: `"off"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "subscription_id", "optional": false}]`
-- `returns`: `[{"declaration": "boolean removed"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.mapgen"`
-- `capabilities`: `["events", "game.hooks", "game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `subscription_id` | `integer` | Required |
+
+**Returns:**
+
+- `boolean removed`
+
+🛡️ **Required Capabilities:** `events`, `game.hooks`, `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5040,22 +5278,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.mapgen.on_postprocess` { #symbol-api-lua-v5-generated-function-game-mapgen-on-postprocess-55e4653e8502 }
 
-**Contract fields:**
+```lua
+function game.mapgen.on_postprocess(callback: fun(context: ScriptMapgenContext)) -> integer subscription_id
+```
 
-- `class`: `"CcbMapgenApi"`
-- `name`: `"on_postprocess"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "fun(context: ScriptMapgenContext)", "name": "callback", "optional": false}]`
-- `returns`: `[{"declaration": "integer subscription_id"}]`
-- `overloads`: `["fun(options: CcbMapgenHookOptions, callback: fun(context: ScriptMapgenContext)): integer"]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.mapgen"`
-- `capabilities`: `["events", "game.hooks", "game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `callback` | `fun(context: ScriptMapgenContext)` | Required |
+
+**Returns:**
+
+- `integer subscription_id`
+
+🛡️ **Required Capabilities:** `events`, `game.hooks`, `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5064,22 +5303,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.martial_arts.current` { #symbol-api-lua-v5-generated-function-game-martial-arts-current-0347756ad721 }
 
-**Contract fields:**
+```lua
+function game.martial_arts.current(handle: GameHandle) -> CcbResult
+```
 
-- `class`: `"CcbMartialArtsApi"`
-- `name`: `"current"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.martial_arts"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5088,22 +5328,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.martial_arts.definition` { #symbol-api-lua-v5-generated-function-game-martial-arts-definition-910e01884809 }
 
-**Contract fields:**
+```lua
+function game.martial_arts.definition(id: GameId) -> CcbMartialArtDefinition
+```
 
-- `class`: `"CcbMartialArtsApi"`
-- `name`: `"definition"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbMartialArtDefinition"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.martial_arts"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbMartialArtDefinition`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5112,22 +5353,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.martial_arts.definitions` { #symbol-api-lua-v5-generated-function-game-martial-arts-definitions-f16f4530bf38 }
 
-**Contract fields:**
+```lua
+function game.martial_arts.definitions(options: CcbDefinitionSearchOptions?) -> table
+```
 
-- `class`: `"CcbMartialArtsApi"`
-- `name`: `"definitions"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbDefinitionSearchOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.martial_arts"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbDefinitionSearchOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5136,22 +5378,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.martial_arts.get` { #symbol-api-lua-v5-generated-function-game-martial-arts-get-a6495e9b208c }
 
-**Contract fields:**
+```lua
+function game.martial_arts.get(handle: GameHandle, id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbMartialArtsApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.martial_arts"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5160,22 +5404,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.martial_arts.learn` { #symbol-api-lua-v5-generated-function-game-martial-arts-learn-2e81259fde8a }
 
-**Contract fields:**
+```lua
+function game.martial_arts.learn(handle: GameHandle, id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbMartialArtsApi"`
-- `name`: `"learn"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.martial_arts"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5184,22 +5430,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.martial_arts.list` { #symbol-api-lua-v5-generated-function-game-martial-arts-list-968d9ed03066 }
 
-**Contract fields:**
+```lua
+function game.martial_arts.list(handle: GameHandle, options: CcbMartialArtListOptions?) -> CcbResult
+```
 
-- `class`: `"CcbMartialArtsApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "CcbMartialArtListOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.martial_arts"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `options` | `CcbMartialArtListOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5208,22 +5456,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.martial_arts.remove` { #symbol-api-lua-v5-generated-function-game-martial-arts-remove-9a9b269c6fa4 }
 
-**Contract fields:**
+```lua
+function game.martial_arts.remove(handle: GameHandle, id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbMartialArtsApi"`
-- `name`: `"remove"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.martial_arts"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5232,22 +5482,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.martial_arts.select` { #symbol-api-lua-v5-generated-function-game-martial-arts-select-4b7525504c5d }
 
-**Contract fields:**
+```lua
+function game.martial_arts.select(handle: GameHandle, id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbMartialArtsApi"`
-- `name`: `"select"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.martial_arts"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5256,22 +5508,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.martial_arts.set_hands_free` { #symbol-api-lua-v5-generated-function-game-martial-arts-set-hands-free-86cdf0446b30 }
 
-**Contract fields:**
+```lua
+function game.martial_arts.set_hands_free(handle: GameHandle, keep_hands_free: boolean) -> CcbResult
+```
 
-- `class`: `"CcbMartialArtsApi"`
-- `name`: `"set_hands_free"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "boolean", "name": "keep_hands_free", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.martial_arts"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `keep_hands_free` | `boolean` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5280,22 +5534,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.martial_arts.trigger` { #symbol-api-lua-v5-generated-function-game-martial-arts-trigger-fe2fac1d8cec }
 
-**Contract fields:**
+```lua
+function game.martial_arts.trigger(handle: GameHandle, trigger: string) -> CcbResult
+```
 
-- `class`: `"CcbMartialArtsApi"`
-- `name`: `"trigger"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "string", "name": "trigger", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.martial_arts"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `trigger` | `string` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5304,22 +5560,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.messages.add` { #symbol-api-lua-v5-generated-function-game-messages-add-43abde090f0d }
 
-**Contract fields:**
+```lua
+function game.messages.add(message: string, type: string?)
+```
 
-- `class`: `"CcbMessagesApi"`
-- `name`: `"add"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "message", "optional": false}, {"declaration": "string", "name": "type", "optional": true}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.messages"`
-- `capabilities`: `["game.actions"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `message` | `string` | Required |
+| `type` | `string` | Optional |
+
+🛡️ **Required Capabilities:** `game.actions`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5328,22 +5582,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.messages.recent` { #symbol-api-lua-v5-generated-function-game-messages-recent-87e865650051 }
 
-**Contract fields:**
+```lua
+function game.messages.recent(limit: integer?) -> CcbMessagePage
+```
 
-- `class`: `"CcbMessagesApi"`
-- `name`: `"recent"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "limit", "optional": true}]`
-- `returns`: `[{"declaration": "CcbMessagePage"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.messages"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `limit` | `integer` | Optional |
+
+**Returns:**
+
+- `CcbMessagePage`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5352,22 +5607,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.missions.abandon` { #symbol-api-lua-v5-generated-function-game-missions-abandon-a5962187efdf }
 
-**Contract fields:**
+```lua
+function game.missions.abandon(token: MissionToken) -> CcbResult
+```
 
-- `class`: `"CcbMissionsApi"`
-- `name`: `"abandon"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "MissionToken", "name": "token", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.missions"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `token` | `MissionToken` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5376,22 +5632,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.missions.assign` { #symbol-api-lua-v5-generated-function-game-missions-assign-7487593a28aa }
 
-**Contract fields:**
+```lua
+function game.missions.assign(token: MissionToken) -> CcbResult
+```
 
-- `class`: `"CcbMissionsApi"`
-- `name`: `"assign"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "MissionToken", "name": "token", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.missions"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `token` | `MissionToken` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5400,22 +5657,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.missions.cancel` { #symbol-api-lua-v5-generated-function-game-missions-cancel-d04040a60160 }
 
-**Contract fields:**
+```lua
+function game.missions.cancel(token: MissionToken) -> CcbResult
+```
 
-- `class`: `"CcbMissionsApi"`
-- `name`: `"cancel"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "MissionToken", "name": "token", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.missions"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `token` | `MissionToken` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5424,22 +5682,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.missions.complete` { #symbol-api-lua-v5-generated-function-game-missions-complete-957f3720c67c }
 
-**Contract fields:**
+```lua
+function game.missions.complete(token: MissionToken, force: boolean?) -> CcbResult
+```
 
-- `class`: `"CcbMissionsApi"`
-- `name`: `"complete"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "MissionToken", "name": "token", "optional": false}, {"declaration": "boolean", "name": "force", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.missions"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `token` | `MissionToken` | Required |
+| `force` | `boolean` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5448,22 +5708,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.missions.current` { #symbol-api-lua-v5-generated-function-game-missions-current-af5243c16ba1 }
 
-**Contract fields:**
+```lua
+function game.missions.current() -> CcbResult
+```
 
-- `class`: `"CcbMissionsApi"`
-- `name`: `"current"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.missions"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5472,22 +5727,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.missions.definition` { #symbol-api-lua-v5-generated-function-game-missions-definition-ebea62d13657 }
 
-**Contract fields:**
+```lua
+function game.missions.definition(id: GameId) -> table?
+```
 
-- `class`: `"CcbMissionsApi"`
-- `name`: `"definition"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "table?"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.missions"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `table?`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5496,22 +5752,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.missions.definitions` { #symbol-api-lua-v5-generated-function-game-missions-definitions-c4e128cc4329 }
 
-**Contract fields:**
+```lua
+function game.missions.definitions(options: CcbPageOptions?) -> table
+```
 
-- `class`: `"CcbMissionsApi"`
-- `name`: `"definitions"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbPageOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.missions"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbPageOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5520,22 +5777,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.missions.fail` { #symbol-api-lua-v5-generated-function-game-missions-fail-68a65da44e7a }
 
-**Contract fields:**
+```lua
+function game.missions.fail(token: MissionToken) -> CcbResult
+```
 
-- `class`: `"CcbMissionsApi"`
-- `name`: `"fail"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "MissionToken", "name": "token", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.missions"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `token` | `MissionToken` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5544,22 +5802,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.missions.get` { #symbol-api-lua-v5-generated-function-game-missions-get-1d3044c55e06 }
 
-**Contract fields:**
+```lua
+function game.missions.get(token: MissionToken) -> CcbResult
+```
 
-- `class`: `"CcbMissionsApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "MissionToken", "name": "token", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.missions"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `token` | `MissionToken` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5568,22 +5827,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.missions.is_complete` { #symbol-api-lua-v5-generated-function-game-missions-is-complete-8cdae60c42ba }
 
-**Contract fields:**
+```lua
+function game.missions.is_complete(token: MissionToken, npc_id: integer?) -> CcbResult
+```
 
-- `class`: `"CcbMissionsApi"`
-- `name`: `"is_complete"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "MissionToken", "name": "token", "optional": false}, {"declaration": "integer", "name": "npc_id", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.missions"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `token` | `MissionToken` | Required |
+| `npc_id` | `integer` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5592,22 +5853,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.missions.list` { #symbol-api-lua-v5-generated-function-game-missions-list-e1c2b723c2d0 }
 
-**Contract fields:**
+```lua
+function game.missions.list(options: CcbMissionListOptions?) -> table
+```
 
-- `class`: `"CcbMissionsApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbMissionListOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.missions"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbMissionListOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5616,22 +5878,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.missions.random_definition` { #symbol-api-lua-v5-generated-function-game-missions-random-definition-b623095b10da }
 
-**Contract fields:**
+```lua
+function game.missions.random_definition(origin: GameEnum, position: TripointCoord) -> table?
+```
 
-- `class`: `"CcbMissionsApi"`
-- `name`: `"random_definition"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameEnum", "name": "origin", "optional": false}, {"declaration": "TripointCoord", "name": "position", "optional": false}]`
-- `returns`: `[{"declaration": "table?"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.missions"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `origin` | `GameEnum` | Required |
+| `position` | `TripointCoord` | Required |
+
+**Returns:**
+
+- `table?`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5640,22 +5904,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.missions.reserve` { #symbol-api-lua-v5-generated-function-game-missions-reserve-787142e0c805 }
 
-**Contract fields:**
+```lua
+function game.missions.reserve(id: GameId, npc_id: integer?) -> CcbResult
+```
 
-- `class`: `"CcbMissionsApi"`
-- `name`: `"reserve"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "integer", "name": "npc_id", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.missions"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+| `npc_id` | `integer` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5664,22 +5930,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.missions.reserve_random` { #symbol-api-lua-v5-generated-function-game-missions-reserve-random-044a492f7218 }
 
-**Contract fields:**
+```lua
+function game.missions.reserve_random(origin: GameEnum, position: TripointCoord, npc_id: integer?) -> CcbResult
+```
 
-- `class`: `"CcbMissionsApi"`
-- `name`: `"reserve_random"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameEnum", "name": "origin", "optional": false}, {"declaration": "TripointCoord", "name": "position", "optional": false}, {"declaration": "integer", "name": "npc_id", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.missions"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `origin` | `GameEnum` | Required |
+| `position` | `TripointCoord` | Required |
+| `npc_id` | `integer` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5688,22 +5957,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.missions.select` { #symbol-api-lua-v5-generated-function-game-missions-select-8b6374c18e91 }
 
-**Contract fields:**
+```lua
+function game.missions.select(token: MissionToken) -> CcbResult
+```
 
-- `class`: `"CcbMissionsApi"`
-- `name`: `"select"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "MissionToken", "name": "token", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.missions"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `token` | `MissionToken` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5712,22 +5982,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.missions.step_complete` { #symbol-api-lua-v5-generated-function-game-missions-step-complete-d8d802c76b3a }
 
-**Contract fields:**
+```lua
+function game.missions.step_complete(token: MissionToken, step: integer) -> CcbResult
+```
 
-- `class`: `"CcbMissionsApi"`
-- `name`: `"step_complete"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "MissionToken", "name": "token", "optional": false}, {"declaration": "integer", "name": "step", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.missions"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `token` | `MissionToken` | Required |
+| `step` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5736,22 +6008,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.missions_snapshot` { #symbol-api-lua-v5-generated-function-game-missions-snapshot-e42126edbbc8 }
 
-**Contract fields:**
+```lua
+function game.missions_snapshot(limit: integer?) -> table
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"missions_snapshot"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "limit", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `limit` | `integer` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5760,22 +6033,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.movement_modes_snapshot` { #symbol-api-lua-v5-generated-function-game-movement-modes-snapshot-87140819f05e }
 
-**Contract fields:**
+```lua
+function game.movement_modes_snapshot() -> CcbMovementModesSnapshot
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"movement_modes_snapshot"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbMovementModesSnapshot"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbMovementModesSnapshot`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5784,22 +6052,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.mutations.definition` { #symbol-api-lua-v5-generated-function-game-mutations-definition-0f187896a052 }
 
-**Contract fields:**
+```lua
+function game.mutations.definition(id: GameId) -> table?
+```
 
-- `class`: `"CcbMutationsApi"`
-- `name`: `"definition"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "table?"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.mutations"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `table?`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5808,22 +6077,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.mutations.definitions` { #symbol-api-lua-v5-generated-function-game-mutations-definitions-01955ed7aafd }
 
-**Contract fields:**
+```lua
+function game.mutations.definitions(options: CcbPageOptions?) -> table
+```
 
-- `class`: `"CcbMutationsApi"`
-- `name`: `"definitions"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbPageOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.mutations"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbPageOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5832,22 +6102,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.mutations.get` { #symbol-api-lua-v5-generated-function-game-mutations-get-ca9ed9faac9c }
 
-**Contract fields:**
+```lua
+function game.mutations.get(character: GameHandle, id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbMutationsApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.mutations"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5856,22 +6128,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.mutations.grant` { #symbol-api-lua-v5-generated-function-game-mutations-grant-95c9966916a8 }
 
-**Contract fields:**
+```lua
+function game.mutations.grant(character: GameHandle, id: GameId, variant: string?) -> CcbResult
+```
 
-- `class`: `"CcbMutationsApi"`
-- `name`: `"grant"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "string", "name": "variant", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.mutations"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `variant` | `string` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5880,22 +6155,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.mutations.has` { #symbol-api-lua-v5-generated-function-game-mutations-has-deb73c819aa0 }
 
-**Contract fields:**
+```lua
+function game.mutations.has(character: GameHandle, id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbMutationsApi"`
-- `name`: `"has"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.mutations"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5904,22 +6181,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.mutations.list` { #symbol-api-lua-v5-generated-function-game-mutations-list-d86fd5fca6fd }
 
-**Contract fields:**
+```lua
+function game.mutations.list(character: GameHandle, options: CcbMutationListOptions?) -> CcbResult
+```
 
-- `class`: `"CcbMutationsApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "CcbMutationListOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.mutations"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `options` | `CcbMutationListOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5928,22 +6207,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.mutations.remove` { #symbol-api-lua-v5-generated-function-game-mutations-remove-b7f36ebc56d6 }
 
-**Contract fields:**
+```lua
+function game.mutations.remove(character: GameHandle, id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbMutationsApi"`
-- `name`: `"remove"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.mutations"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5952,22 +6233,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.mutations.set_active` { #symbol-api-lua-v5-generated-function-game-mutations-set-active-a850365557df }
 
-**Contract fields:**
+```lua
+function game.mutations.set_active(character: GameHandle, id: GameId, active: boolean) -> CcbResult
+```
 
-- `class`: `"CcbMutationsApi"`
-- `name`: `"set_active"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "boolean", "name": "active", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.mutations"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `active` | `boolean` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -5976,22 +6260,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.mutations.set_variant` { #symbol-api-lua-v5-generated-function-game-mutations-set-variant-aa200bda2d8a }
 
-**Contract fields:**
+```lua
+function game.mutations.set_variant(character: GameHandle, id: GameId, variant: string) -> CcbResult
+```
 
-- `class`: `"CcbMutationsApi"`
-- `name`: `"set_variant"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "string", "name": "variant", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.mutations"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `variant` | `string` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6000,22 +6287,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.mutations_snapshot` { #symbol-api-lua-v5-generated-function-game-mutations-snapshot-8ea9a47660da }
 
-**Contract fields:**
+```lua
+function game.mutations_snapshot(limit: integer?) -> table
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"mutations_snapshot"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "limit", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `limit` | `integer` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6024,22 +6312,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.native_events.describe` { #symbol-api-lua-v5-generated-function-game-native-events-describe-7a6a0086408d }
 
-**Contract fields:**
+```lua
+function game.native_events.describe(name: string) -> CcbNativeEventDescription
+```
 
-- `class`: `"CcbNativeEventsApi"`
-- `name`: `"describe"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "name", "optional": false}]`
-- `returns`: `[{"declaration": "CcbNativeEventDescription"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.native_events"`
-- `capabilities`: `["events", "game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `name` | `string` | Required |
+
+**Returns:**
+
+- `CcbNativeEventDescription`
+
+🛡️ **Required Capabilities:** `events`, `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6048,22 +6337,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.native_events.emit` { #symbol-api-lua-v5-generated-function-game-native-events-emit-b3f10837589d }
 
-**Contract fields:**
+```lua
+function game.native_events.emit(name: string, fields: CcbNativeEventData Exact, complete field set described by `describe()`.) -> CcbEvent
+```
 
-- `class`: `"CcbNativeEventsApi"`
-- `name`: `"emit"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "name", "optional": false}, {"declaration": "CcbNativeEventData Exact, complete field set described by `describe()`.", "name": "fields", "optional": false}]`
-- `returns`: `[{"declaration": "CcbEvent"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.native_events"`
-- `capabilities`: `["events", "game.read", "game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `name` | `string` | Required |
+| `fields` | `CcbNativeEventData Exact, complete field set described by `describe()`.` | Required |
+
+**Returns:**
+
+- `CcbEvent`
+
+🛡️ **Required Capabilities:** `events`, `game.read`, `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6072,22 +6363,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.native_events.list` { #symbol-api-lua-v5-generated-function-game-native-events-list-9c8370c4f515 }
 
-**Contract fields:**
+```lua
+function game.native_events.list() -> string[]
+```
 
-- `class`: `"CcbNativeEventsApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "string[]"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.native_events"`
-- `capabilities`: `["events", "game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `string[]`
+
+🛡️ **Required Capabilities:** `events`, `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6096,22 +6382,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.native_events.off` { #symbol-api-lua-v5-generated-function-game-native-events-off-38e865fd9d12 }
 
-**Contract fields:**
+```lua
+function game.native_events.off(subscription_id: integer) -> boolean removed
+```
 
-- `class`: `"CcbNativeEventsApi"`
-- `name`: `"off"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "subscription_id", "optional": false}]`
-- `returns`: `[{"declaration": "boolean removed"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.native_events"`
-- `capabilities`: `["events", "game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `subscription_id` | `integer` | Required |
+
+**Returns:**
+
+- `boolean removed`
+
+🛡️ **Required Capabilities:** `events`, `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6120,22 +6407,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.native_events.on` { #symbol-api-lua-v5-generated-function-game-native-events-on-72ce2fc2ea09 }
 
-**Contract fields:**
+```lua
+function game.native_events.on(name: string Native event id returned by `list()`., callback: CcbEventCallback) -> integer subscription_id
+```
 
-- `class`: `"CcbNativeEventsApi"`
-- `name`: `"on"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string Native event id returned by `list()`.", "name": "name", "optional": false}, {"declaration": "CcbEventCallback", "name": "callback", "optional": false}]`
-- `returns`: `[{"declaration": "integer subscription_id"}]`
-- `overloads`: `["fun(name: string, options: CcbEventOptions, callback: CcbEventCallback): integer"]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.native_events"`
-- `capabilities`: `["events", "game.read"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 45, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `name` | `string Native event id returned by `list()`.` | Required |
+| `callback` | `CcbEventCallback` | Required |
+
+**Returns:**
+
+- `integer subscription_id`
+
+🛡️ **Required Capabilities:** `events`, `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6144,22 +6433,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.nearby_creatures_snapshot` { #symbol-api-lua-v5-generated-function-game-nearby-creatures-snapshot-c8b6e4c4174d }
 
-**Contract fields:**
+```lua
+function game.nearby_creatures_snapshot(radius: integer?, limit: integer?) -> table
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"nearby_creatures_snapshot"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "radius", "optional": true}, {"declaration": "integer", "name": "limit", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `radius` | `integer` | Optional |
+| `limit` | `integer` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6168,22 +6459,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.needs.get` { #symbol-api-lua-v5-generated-function-game-needs-get-63e3e528868f }
 
-**Contract fields:**
+```lua
+function game.needs.get(handle: GameHandle) -> CcbResult
+```
 
-- `class`: `"CcbNeedsApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.needs"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6192,22 +6484,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.needs.get_gut_calories` { #symbol-api-lua-v5-generated-function-game-needs-get-gut-calories-d8bcd4b352b1 }
 
-**Contract fields:**
+```lua
+function game.needs.get_gut_calories(handle: GameHandle) -> CcbResult
+```
 
-- `class`: `"CcbNeedsApi"`
-- `name`: `"get_gut_calories"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.needs"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6216,22 +6509,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.needs.get_gut_vitamin` { #symbol-api-lua-v5-generated-function-game-needs-get-gut-vitamin-8b8f78415bd8 }
 
-**Contract fields:**
+```lua
+function game.needs.get_gut_vitamin(handle: GameHandle, id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbNeedsApi"`
-- `name`: `"get_gut_vitamin"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.needs"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6240,22 +6535,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.needs.modify` { #symbol-api-lua-v5-generated-function-game-needs-modify-45d0cacc542f }
 
-**Contract fields:**
+```lua
+function game.needs.modify(handle: GameHandle, deltas: CcbNeedAdjustments) -> CcbResult
+```
 
-- `class`: `"CcbNeedsApi"`
-- `name`: `"modify"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "CcbNeedAdjustments", "name": "deltas", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.needs"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `deltas` | `CcbNeedAdjustments` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6264,22 +6561,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.needs.modify_calories` { #symbol-api-lua-v5-generated-function-game-needs-modify-calories-a4ee97c89bcd }
 
-**Contract fields:**
+```lua
+function game.needs.modify_calories(handle: GameHandle, delta: integer, ignore_weariness: boolean?) -> CcbResult
+```
 
-- `class`: `"CcbNeedsApi"`
-- `name`: `"modify_calories"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "integer", "name": "delta", "optional": false}, {"declaration": "boolean", "name": "ignore_weariness", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.needs"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `delta` | `integer` | Required |
+| `ignore_weariness` | `boolean` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6288,22 +6588,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.needs.modify_gut_calories` { #symbol-api-lua-v5-generated-function-game-needs-modify-gut-calories-24a5dc0a99b2 }
 
-**Contract fields:**
+```lua
+function game.needs.modify_gut_calories(handle: GameHandle, delta: integer) -> CcbResult
+```
 
-- `class`: `"CcbNeedsApi"`
-- `name`: `"modify_gut_calories"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "integer", "name": "delta", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.needs"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `delta` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6312,22 +6614,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.needs.modify_gut_vitamin` { #symbol-api-lua-v5-generated-function-game-needs-modify-gut-vitamin-962182534188 }
 
-**Contract fields:**
+```lua
+function game.needs.modify_gut_vitamin(handle: GameHandle, id: GameId, delta: integer) -> CcbResult
+```
 
-- `class`: `"CcbNeedsApi"`
-- `name`: `"modify_gut_vitamin"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "integer", "name": "delta", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.needs"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `delta` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6336,22 +6641,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.needs.modify_health` { #symbol-api-lua-v5-generated-function-game-needs-modify-health-67e7a9443f0f }
 
-**Contract fields:**
+```lua
+function game.needs.modify_health(handle: GameHandle, deltas: CcbHealthDeltas) -> CcbResult
+```
 
-- `class`: `"CcbNeedsApi"`
-- `name`: `"modify_health"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "CcbHealthDeltas", "name": "deltas", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.needs"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `deltas` | `CcbHealthDeltas` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6360,22 +6667,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.needs.modify_sleep` { #symbol-api-lua-v5-generated-function-game-needs-modify-sleep-3313424975ca }
 
-**Contract fields:**
+```lua
+function game.needs.modify_sleep(handle: GameHandle, adjustments: CcbSleepAdjustments) -> CcbResult
+```
 
-- `class`: `"CcbNeedsApi"`
-- `name`: `"modify_sleep"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "CcbSleepAdjustments", "name": "adjustments", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.needs"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `adjustments` | `CcbSleepAdjustments` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6384,22 +6693,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.needs.reset_sleep` { #symbol-api-lua-v5-generated-function-game-needs-reset-sleep-4700458bc58b }
 
-**Contract fields:**
+```lua
+function game.needs.reset_sleep(handle: GameHandle, scope: "daily"|"continuous"|"all") -> CcbResult
+```
 
-- `class`: `"CcbNeedsApi"`
-- `name`: `"reset_sleep"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "\"daily\"|\"continuous\"|\"all\"", "name": "scope", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.needs"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `scope` | `"daily"|"continuous"|"all"` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6408,22 +6719,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.needs.set` { #symbol-api-lua-v5-generated-function-game-needs-set-df3e72cac9ad }
 
-**Contract fields:**
+```lua
+function game.needs.set(handle: GameHandle, adjustments: CcbNeedAdjustments) -> CcbResult
+```
 
-- `class`: `"CcbNeedsApi"`
-- `name`: `"set"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "CcbNeedAdjustments", "name": "adjustments", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.needs"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `adjustments` | `CcbNeedAdjustments` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6432,22 +6745,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.needs.set_calories` { #symbol-api-lua-v5-generated-function-game-needs-set-calories-d9eed16e7baf }
 
-**Contract fields:**
+```lua
+function game.needs.set_calories(handle: GameHandle, kcal: integer) -> CcbResult
+```
 
-- `class`: `"CcbNeedsApi"`
-- `name`: `"set_calories"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "integer", "name": "kcal", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.needs"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `kcal` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6456,22 +6771,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.needs.set_gut_calories` { #symbol-api-lua-v5-generated-function-game-needs-set-gut-calories-b6057a4d4b08 }
 
-**Contract fields:**
+```lua
+function game.needs.set_gut_calories(handle: GameHandle, kcal: integer) -> CcbResult
+```
 
-- `class`: `"CcbNeedsApi"`
-- `name`: `"set_gut_calories"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "integer", "name": "kcal", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.needs"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `kcal` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6480,22 +6797,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.needs.set_gut_vitamin` { #symbol-api-lua-v5-generated-function-game-needs-set-gut-vitamin-76211ab0ce50 }
 
-**Contract fields:**
+```lua
+function game.needs.set_gut_vitamin(handle: GameHandle, id: GameId, amount: integer) -> CcbResult
+```
 
-- `class`: `"CcbNeedsApi"`
-- `name`: `"set_gut_vitamin"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "integer", "name": "amount", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.needs"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `amount` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6504,22 +6824,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.needs.set_health` { #symbol-api-lua-v5-generated-function-game-needs-set-health-aff835332b6f }
 
-**Contract fields:**
+```lua
+function game.needs.set_health(handle: GameHandle, adjustments: CcbHealthAdjustments) -> CcbResult
+```
 
-- `class`: `"CcbNeedsApi"`
-- `name`: `"set_health"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "CcbHealthAdjustments", "name": "adjustments", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.needs"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `adjustments` | `CcbHealthAdjustments` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6528,22 +6850,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.npcs.class` { #symbol-api-lua-v5-generated-function-game-npcs-class-91b87e97b931 }
 
-**Contract fields:**
+```lua
+function game.npcs.class(id: GameId) -> CcbNpcClassDefinition
+```
 
-- `class`: `"CcbNpcsApi"`
-- `name`: `"class"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbNpcClassDefinition"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.npcs"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbNpcClassDefinition`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6552,22 +6875,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.npcs.classes` { #symbol-api-lua-v5-generated-function-game-npcs-classes-dbc7453a3391 }
 
-**Contract fields:**
+```lua
+function game.npcs.classes(options: CcbDefinitionSearchOptions?) -> table
+```
 
-- `class`: `"CcbNpcsApi"`
-- `name`: `"classes"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbDefinitionSearchOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.npcs"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbDefinitionSearchOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6576,22 +6900,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.npcs.get` { #symbol-api-lua-v5-generated-function-game-npcs-get-ab11ade1072f }
 
-**Contract fields:**
+```lua
+function game.npcs.get(handle: GameHandle) -> CcbResult
+```
 
-- `class`: `"CcbNpcsApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.npcs"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6600,22 +6925,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.npcs.list` { #symbol-api-lua-v5-generated-function-game-npcs-list-ccb706a4ce53 }
 
-**Contract fields:**
+```lua
+function game.npcs.list(options: CcbDefinitionSearchOptions?) -> CcbResult
+```
 
-- `class`: `"CcbNpcsApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbDefinitionSearchOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.npcs"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbDefinitionSearchOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6624,22 +6950,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.npcs.modify_opinion` { #symbol-api-lua-v5-generated-function-game-npcs-modify-opinion-733ec14c9a3f }
 
-**Contract fields:**
+```lua
+function game.npcs.modify_opinion(handle: GameHandle, deltas: CcbNpcOpinionDeltas) -> CcbResult
+```
 
-- `class`: `"CcbNpcsApi"`
-- `name`: `"modify_opinion"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "CcbNpcOpinionDeltas", "name": "deltas", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.npcs"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `deltas` | `CcbNpcOpinionDeltas` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6648,22 +6976,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.npcs.rename` { #symbol-api-lua-v5-generated-function-game-npcs-rename-dc78e8231956 }
 
-**Contract fields:**
+```lua
+function game.npcs.rename(handle: GameHandle, name: string) -> CcbResult
+```
 
-- `class`: `"CcbNpcsApi"`
-- `name`: `"rename"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "string", "name": "name", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.npcs"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `name` | `string` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6672,22 +7002,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.npcs.set_attitude` { #symbol-api-lua-v5-generated-function-game-npcs-set-attitude-45bec8d62cd0 }
 
-**Contract fields:**
+```lua
+function game.npcs.set_attitude(handle: GameHandle, attitude: string Native npc_attitude id.) -> CcbResult
+```
 
-- `class`: `"CcbNpcsApi"`
-- `name`: `"set_attitude"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "string Native npc_attitude id.", "name": "attitude", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.npcs"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `attitude` | `string Native npc_attitude id.` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6696,22 +7028,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.overmap.closest` { #symbol-api-lua-v5-generated-function-game-overmap-closest-2234048e9a04 }
 
-**Contract fields:**
+```lua
+function game.overmap.closest(origin: TripointCoord, options: CcbOvermapSearchOptions?) -> table?
+```
 
-- `class`: `"CcbOvermapApi"`
-- `name`: `"closest"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "origin", "optional": false}, {"declaration": "CcbOvermapSearchOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table?"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.overmap"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `origin` | `TripointCoord` | Required |
+| `options` | `CcbOvermapSearchOptions` | Optional |
+
+**Returns:**
+
+- `table?`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6720,22 +7054,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.overmap.limits` { #symbol-api-lua-v5-generated-function-game-overmap-limits-b2c964d7cdae }
 
-**Contract fields:**
+```lua
+function game.overmap.limits() -> table
+```
 
-- `class`: `"CcbOvermapApi"`
-- `name`: `"limits"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.overmap"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6744,22 +7073,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.overmap.matches` { #symbol-api-lua-v5-generated-function-game-overmap-matches-c276d5a94d85 }
 
-**Contract fields:**
+```lua
+function game.overmap.matches(position: TripointCoord, selector: CcbOvermapSelector, match: GameEnum?) -> boolean
+```
 
-- `class`: `"CcbOvermapApi"`
-- `name`: `"matches"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}, {"declaration": "CcbOvermapSelector", "name": "selector", "optional": false}, {"declaration": "GameEnum", "name": "match", "optional": true}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.overmap"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+| `selector` | `CcbOvermapSelector` | Required |
+| `match` | `GameEnum` | Optional |
+
+**Returns:**
+
+- `boolean`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6768,22 +7100,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.overmap.random` { #symbol-api-lua-v5-generated-function-game-overmap-random-3cd7133f1ff7 }
 
-**Contract fields:**
+```lua
+function game.overmap.random(origin: TripointCoord, options: CcbOvermapSearchOptions?) -> table?
+```
 
-- `class`: `"CcbOvermapApi"`
-- `name`: `"random"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "origin", "optional": false}, {"declaration": "CcbOvermapSearchOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table?"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.overmap"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `origin` | `TripointCoord` | Required |
+| `options` | `CcbOvermapSearchOptions` | Optional |
+
+**Returns:**
+
+- `table?`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6792,22 +7126,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.overmap.reveal` { #symbol-api-lua-v5-generated-function-game-overmap-reveal-3354ed9d0e51 }
 
-**Contract fields:**
+```lua
+function game.overmap.reveal(center: TripointCoord, radius: integer) -> CcbResult
+```
 
-- `class`: `"CcbOvermapApi"`
-- `name`: `"reveal"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "center", "optional": false}, {"declaration": "integer", "name": "radius", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.overmap"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `center` | `TripointCoord` | Required |
+| `radius` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6816,22 +7152,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.overmap.search` { #symbol-api-lua-v5-generated-function-game-overmap-search-6f443091c445 }
 
-**Contract fields:**
+```lua
+function game.overmap.search(origin: TripointCoord, options: CcbOvermapSearchOptions?) -> table
+```
 
-- `class`: `"CcbOvermapApi"`
-- `name`: `"search"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "origin", "optional": false}, {"declaration": "CcbOvermapSearchOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.overmap"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `origin` | `TripointCoord` | Required |
+| `options` | `CcbOvermapSearchOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6840,22 +7178,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.overmap.set_explored` { #symbol-api-lua-v5-generated-function-game-overmap-set-explored-33fde22480a3 }
 
-**Contract fields:**
+```lua
+function game.overmap.set_explored(position: TripointCoord, explored: boolean) -> CcbResult
+```
 
-- `class`: `"CcbOvermapApi"`
-- `name`: `"set_explored"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}, {"declaration": "boolean", "name": "explored", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.overmap"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+| `explored` | `boolean` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6864,22 +7204,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.overmap.set_note` { #symbol-api-lua-v5-generated-function-game-overmap-set-note-25f2a4646807 }
 
-**Contract fields:**
+```lua
+function game.overmap.set_note(position: TripointCoord, note: string?) -> CcbResult
+```
 
-- `class`: `"CcbOvermapApi"`
-- `name`: `"set_note"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}, {"declaration": "string", "name": "note", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.overmap"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+| `note` | `string` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6888,22 +7230,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.overmap.set_note_danger` { #symbol-api-lua-v5-generated-function-game-overmap-set-note-danger-07fcdcc89398 }
 
-**Contract fields:**
+```lua
+function game.overmap.set_note_danger(position: TripointCoord, radius: integer, dangerous: boolean) -> CcbResult
+```
 
-- `class`: `"CcbOvermapApi"`
-- `name`: `"set_note_danger"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}, {"declaration": "integer", "name": "radius", "optional": false}, {"declaration": "boolean", "name": "dangerous", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.overmap"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+| `radius` | `integer` | Required |
+| `dangerous` | `boolean` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6912,22 +7257,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.overmap.set_seen` { #symbol-api-lua-v5-generated-function-game-overmap-set-seen-07d6c5c17965 }
 
-**Contract fields:**
+```lua
+function game.overmap.set_seen(position: TripointCoord, vision: GameEnum) -> CcbResult
+```
 
-- `class`: `"CcbOvermapApi"`
-- `name`: `"set_seen"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}, {"declaration": "GameEnum", "name": "vision", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.overmap"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+| `vision` | `GameEnum` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6936,22 +7283,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.overmap.set_terrain` { #symbol-api-lua-v5-generated-function-game-overmap-set-terrain-fde8072af4df }
 
-**Contract fields:**
+```lua
+function game.overmap.set_terrain(position: TripointCoord, terrain: GameId) -> CcbResult
+```
 
-- `class`: `"CcbOvermapApi"`
-- `name`: `"set_terrain"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}, {"declaration": "GameId", "name": "terrain", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.overmap"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+| `terrain` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6960,22 +7309,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.overmap.tile` { #symbol-api-lua-v5-generated-function-game-overmap-tile-c04ac8551936 }
 
-**Contract fields:**
+```lua
+function game.overmap.tile(position: TripointCoord) -> table?
+```
 
-- `class`: `"CcbOvermapApi"`
-- `name`: `"tile"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}]`
-- `returns`: `[{"declaration": "table?"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.overmap"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+
+**Returns:**
+
+- `table?`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -6984,22 +7334,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.player_name` { #symbol-api-lua-v5-generated-function-game-player-name-42d62d90408a }
 
-**Contract fields:**
+```lua
+function game.player_name() -> string
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"player_name"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "string"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.adaptive_page_v3.lua", "line": 46, "path": "data/lua/examples/adaptive_page_v3.lua"}]`
+**Returns:**
+
+- `string`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7008,22 +7353,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.player_snapshot` { #symbol-api-lua-v5-generated-function-game-player-snapshot-54ef378cbc17 }
 
-**Contract fields:**
+```lua
+function game.player_snapshot() -> CcbPlayerSnapshot
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"player_snapshot"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbPlayerSnapshot"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbPlayerSnapshot`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7032,22 +7372,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.player_stats` { #symbol-api-lua-v5-generated-function-game-player-stats-2a2b53448338 }
 
-**Contract fields:**
+```lua
+function game.player_stats() -> CcbPlayerSnapshot
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"player_stats"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbPlayerSnapshot"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbPlayerSnapshot`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7056,22 +7391,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.proficiencies.categories` { #symbol-api-lua-v5-generated-function-game-proficiencies-categories-a468d6116983 }
 
-**Contract fields:**
+```lua
+function game.proficiencies.categories(options: CcbDefinitionSearchOptions?) -> table
+```
 
-- `class`: `"CcbProficienciesApi"`
-- `name`: `"categories"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbDefinitionSearchOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.proficiencies"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbDefinitionSearchOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7080,22 +7416,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.proficiencies.category` { #symbol-api-lua-v5-generated-function-game-proficiencies-category-6bca4a3b07ad }
 
-**Contract fields:**
+```lua
+function game.proficiencies.category(id: GameId) -> CcbProficiencyCategory
+```
 
-- `class`: `"CcbProficienciesApi"`
-- `name`: `"category"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbProficiencyCategory"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.proficiencies"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbProficiencyCategory`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7104,22 +7441,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.proficiencies.definition` { #symbol-api-lua-v5-generated-function-game-proficiencies-definition-03007be47b15 }
 
-**Contract fields:**
+```lua
+function game.proficiencies.definition(id: GameId) -> CcbProficiencyDefinition
+```
 
-- `class`: `"CcbProficienciesApi"`
-- `name`: `"definition"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbProficiencyDefinition"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.proficiencies"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbProficiencyDefinition`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7128,22 +7466,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.proficiencies.definitions` { #symbol-api-lua-v5-generated-function-game-proficiencies-definitions-aae463c21d53 }
 
-**Contract fields:**
+```lua
+function game.proficiencies.definitions(options: CcbDefinitionSearchOptions?) -> table
+```
 
-- `class`: `"CcbProficienciesApi"`
-- `name`: `"definitions"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbDefinitionSearchOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.proficiencies"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbDefinitionSearchOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7152,22 +7491,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.proficiencies.get` { #symbol-api-lua-v5-generated-function-game-proficiencies-get-aad49ebc24c6 }
 
-**Contract fields:**
+```lua
+function game.proficiencies.get(handle: GameHandle, id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbProficienciesApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.proficiencies"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7176,22 +7517,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.proficiencies.grant` { #symbol-api-lua-v5-generated-function-game-proficiencies-grant-626c410a158e }
 
-**Contract fields:**
+```lua
+function game.proficiencies.grant(handle: GameHandle, id: GameId, options: CcbProficiencyGrantOptions?) -> CcbResult
+```
 
-- `class`: `"CcbProficienciesApi"`
-- `name`: `"grant"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "CcbProficiencyGrantOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.proficiencies"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `options` | `CcbProficiencyGrantOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7200,22 +7544,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.proficiencies.list` { #symbol-api-lua-v5-generated-function-game-proficiencies-list-745378817ac5 }
 
-**Contract fields:**
+```lua
+function game.proficiencies.list(handle: GameHandle, options: CcbProficiencyListOptions?) -> CcbResult
+```
 
-- `class`: `"CcbProficienciesApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "CcbProficiencyListOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.proficiencies"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `options` | `CcbProficiencyListOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7224,22 +7570,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.proficiencies.practice` { #symbol-api-lua-v5-generated-function-game-proficiencies-practice-ccaaddd03ff0 }
 
-**Contract fields:**
+```lua
+function game.proficiencies.practice(handle: GameHandle, id: GameId, amount: TimeDuration) -> CcbResult
+```
 
-- `class`: `"CcbProficienciesApi"`
-- `name`: `"practice"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "TimeDuration", "name": "amount", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.proficiencies"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `amount` | `TimeDuration` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7248,22 +7597,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.proficiencies.remove` { #symbol-api-lua-v5-generated-function-game-proficiencies-remove-51c9e80797a2 }
 
-**Contract fields:**
+```lua
+function game.proficiencies.remove(handle: GameHandle, id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbProficienciesApi"`
-- `name`: `"remove"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.proficiencies"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7272,22 +7623,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.proficiencies.set_progress` { #symbol-api-lua-v5-generated-function-game-proficiencies-set-progress-415584b98f31 }
 
-**Contract fields:**
+```lua
+function game.proficiencies.set_progress(handle: GameHandle, id: GameId, progress: TimeDuration) -> CcbResult
+```
 
-- `class`: `"CcbProficienciesApi"`
-- `name`: `"set_progress"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "TimeDuration", "name": "progress", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.proficiencies"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `progress` | `TimeDuration` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7296,22 +7650,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.random.chance` { #symbol-api-lua-v5-generated-function-game-random-chance-7583b0d006d7 }
 
-**Contract fields:**
+```lua
+function game.random.chance(numerator: integer, denominator: integer) -> boolean
+```
 
-- `class`: `"CcbRandomApi"`
-- `name`: `"chance"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "numerator", "optional": false}, {"declaration": "integer", "name": "denominator", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.random"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `numerator` | `integer` | Required |
+| `denominator` | `integer` | Required |
+
+**Returns:**
+
+- `boolean`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7320,22 +7676,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.random.int` { #symbol-api-lua-v5-generated-function-game-random-int-2425acf0db2d }
 
-**Contract fields:**
+```lua
+function game.random.int(minimum: integer, maximum: integer) -> integer
+```
 
-- `class`: `"CcbRandomApi"`
-- `name`: `"int"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "minimum", "optional": false}, {"declaration": "integer", "name": "maximum", "optional": false}]`
-- `returns`: `[{"declaration": "integer"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.random"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `minimum` | `integer` | Required |
+| `maximum` | `integer` | Required |
+
+**Returns:**
+
+- `integer`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7344,22 +7702,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.recipes.all` { #symbol-api-lua-v5-generated-function-game-recipes-all-03a90a39b5b3 }
 
-**Contract fields:**
+```lua
+function game.recipes.all(options: CcbRecipeListOptions?) -> table
+```
 
-- `class`: `"CcbRecipesApi"`
-- `name`: `"all"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbRecipeListOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.recipes"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbRecipeListOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7368,22 +7727,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.recipes.by_flag` { #symbol-api-lua-v5-generated-function-game-recipes-by-flag-67dd6bff46db }
 
-**Contract fields:**
+```lua
+function game.recipes.by_flag(flag: string, options: CcbRecipeListOptions?) -> table
+```
 
-- `class`: `"CcbRecipesApi"`
-- `name`: `"by_flag"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "flag", "optional": false}, {"declaration": "CcbRecipeListOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.recipes"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `flag` | `string` | Required |
+| `options` | `CcbRecipeListOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7392,22 +7753,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.recipes.by_skill` { #symbol-api-lua-v5-generated-function-game-recipes-by-skill-d537e6619ede }
 
-**Contract fields:**
+```lua
+function game.recipes.by_skill(skill: GameId, options: CcbRecipeListOptions?) -> table
+```
 
-- `class`: `"CcbRecipesApi"`
-- `name`: `"by_skill"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "skill", "optional": false}, {"declaration": "CcbRecipeListOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.recipes"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `skill` | `GameId` | Required |
+| `options` | `CcbRecipeListOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7416,22 +7779,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.recipes.get` { #symbol-api-lua-v5-generated-function-game-recipes-get-bd31b1a2974e }
 
-**Contract fields:**
+```lua
+function game.recipes.get(id: GameId, batch: integer?) -> table?
+```
 
-- `class`: `"CcbRecipesApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "integer", "name": "batch", "optional": true}]`
-- `returns`: `[{"declaration": "table?"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.recipes"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+| `batch` | `integer` | Optional |
+
+**Returns:**
+
+- `table?`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7440,22 +7805,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.recipes.has_flag` { #symbol-api-lua-v5-generated-function-game-recipes-has-flag-2599be31764b }
 
-**Contract fields:**
+```lua
+function game.recipes.has_flag(id: GameId, flag: string) -> boolean
+```
 
-- `class`: `"CcbRecipesApi"`
-- `name`: `"has_flag"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "string", "name": "flag", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.recipes"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+| `flag` | `string` | Required |
+
+**Returns:**
+
+- `boolean`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7464,22 +7831,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.recipes.limits` { #symbol-api-lua-v5-generated-function-game-recipes-limits-403f5af228be }
 
-**Contract fields:**
+```lua
+function game.recipes.limits() -> table
+```
 
-- `class`: `"CcbRecipesApi"`
-- `name`: `"limits"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.recipes"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7488,22 +7850,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.recipes.list` { #symbol-api-lua-v5-generated-function-game-recipes-list-c7cce361ff04 }
 
-**Contract fields:**
+```lua
+function game.recipes.list(options: CcbRecipeListOptions?) -> table
+```
 
-- `class`: `"CcbRecipesApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbRecipeListOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.recipes"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbRecipeListOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7512,22 +7875,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.relocation.local_at` { #symbol-api-lua-v5-generated-function-game-relocation-local-at-80c7d426dbae }
 
-**Contract fields:**
+```lua
+function game.relocation.local_at(position: TripointCoord) -> CcbResult
+```
 
-- `class`: `"CcbRelocationApi"`
-- `name`: `"local_at"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.relocation"`
-- `capabilities`: `["game.actions.dangerous", "game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.actions.dangerous`, `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7536,22 +7900,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.relocation.overmap_at` { #symbol-api-lua-v5-generated-function-game-relocation-overmap-at-1b814f583c5b }
 
-**Contract fields:**
+```lua
+function game.relocation.overmap_at(position: TripointCoord) -> CcbResult
+```
 
-- `class`: `"CcbRelocationApi"`
-- `name`: `"overmap_at"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.relocation"`
-- `capabilities`: `["game.actions.dangerous", "game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.actions.dangerous`, `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7560,22 +7925,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.requirements.for_recipe` { #symbol-api-lua-v5-generated-function-game-requirements-for-recipe-d19230758d23 }
 
-**Contract fields:**
+```lua
+function game.requirements.for_recipe(recipe: GameId, batch: integer?) -> table
+```
 
-- `class`: `"CcbRequirementsApi"`
-- `name`: `"for_recipe"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "recipe", "optional": false}, {"declaration": "integer", "name": "batch", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.requirements"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `recipe` | `GameId` | Required |
+| `batch` | `integer` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7584,22 +7951,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.requirements.get` { #symbol-api-lua-v5-generated-function-game-requirements-get-005643dbf062 }
 
-**Contract fields:**
+```lua
+function game.requirements.get(id: string, batch: integer?) -> table?
+```
 
-- `class`: `"CcbRequirementsApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "integer", "name": "batch", "optional": true}]`
-- `returns`: `[{"declaration": "table?"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.requirements"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `batch` | `integer` | Optional |
+
+**Returns:**
+
+- `table?`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7608,22 +7977,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.requirements.limits` { #symbol-api-lua-v5-generated-function-game-requirements-limits-88e623ad7031 }
 
-**Contract fields:**
+```lua
+function game.requirements.limits() -> table
+```
 
-- `class`: `"CcbRequirementsApi"`
-- `name`: `"limits"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.requirements"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7632,22 +7996,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.requirements.list` { #symbol-api-lua-v5-generated-function-game-requirements-list-70f6fa6657c9 }
 
-**Contract fields:**
+```lua
+function game.requirements.list(options: CcbRequirementListOptions?) -> table
+```
 
-- `class`: `"CcbRequirementsApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbRequirementListOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.requirements"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbRequirementListOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7656,22 +8021,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.runtime_status` { #symbol-api-lua-v5-generated-function-game-runtime-status-28ce7d1d97b6 }
 
-**Contract fields:**
+```lua
+function game.runtime_status() -> CcbRuntimeStatus
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"runtime_status"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbRuntimeStatus"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbRuntimeStatus`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7680,22 +8038,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.serde.decode` { #symbol-api-lua-v5-generated-function-game-serde-decode-217e31a2b2c3 }
 
-**Contract fields:**
+```lua
+function game.serde.decode(document: string) -> CcbLuaValue
+```
 
-- `class`: `"CcbSerdeApi"`
-- `name`: `"decode"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "document", "optional": false}]`
-- `returns`: `[{"declaration": "CcbLuaValue"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.serde"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `document` | `string` | Required |
+
+**Returns:**
+
+- `CcbLuaValue`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7704,22 +8063,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.serde.encode` { #symbol-api-lua-v5-generated-function-game-serde-encode-20897014b8d2 }
 
-**Contract fields:**
+```lua
+function game.serde.encode(value: CcbLuaValue) -> string
+```
 
-- `class`: `"CcbSerdeApi"`
-- `name`: `"encode"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbLuaValue", "name": "value", "optional": false}]`
-- `returns`: `[{"declaration": "string"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.serde"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `value` | `CcbLuaValue` | Required |
+
+**Returns:**
+
+- `string`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7728,22 +8088,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.serde.types` { #symbol-api-lua-v5-generated-function-game-serde-types-24646227591f }
 
-**Contract fields:**
+```lua
+function game.serde.types() -> string[]
+```
 
-- `class`: `"CcbSerdeApi"`
-- `name`: `"types"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "string[]"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.serde"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `string[]`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7752,22 +8107,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.sidebar.clear_widgets` { #symbol-api-lua-v5-generated-function-game-sidebar-clear-widgets-438f3a3df0fe }
 
-**Contract fields:**
+```lua
+function game.sidebar.clear_widgets() -> integer removed
+```
 
-- `class`: `"CcbSidebarApi"`
-- `name`: `"clear_widgets"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "integer removed"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.sidebar"`
-- `capabilities`: `["ui.pages"]`
-- `examples`: `[]`
+**Returns:**
+
+- `integer removed`
+
+🛡️ **Required Capabilities:** `ui.pages`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7776,22 +8126,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.sidebar.get_layout_id` { #symbol-api-lua-v5-generated-function-game-sidebar-get-layout-id-7b0e0cc8a9e9 }
 
-**Contract fields:**
+```lua
+function game.sidebar.get_layout_id() -> string
+```
 
-- `class`: `"CcbSidebarApi"`
-- `name`: `"get_layout_id"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "string"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.sidebar"`
-- `capabilities`: `["ui.pages"]`
-- `examples`: `[]`
+**Returns:**
+
+- `string`
+
+🛡️ **Required Capabilities:** `ui.pages`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7800,22 +8145,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.sidebar.limits` { #symbol-api-lua-v5-generated-function-game-sidebar-limits-6cc9c9c95f67 }
 
-**Contract fields:**
+```lua
+function game.sidebar.limits() -> CcbSidebarLimits
+```
 
-- `class`: `"CcbSidebarApi"`
-- `name`: `"limits"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbSidebarLimits"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.sidebar"`
-- `capabilities`: `["ui.pages"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbSidebarLimits`
+
+🛡️ **Required Capabilities:** `ui.pages`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7824,22 +8164,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.sidebar.list` { #symbol-api-lua-v5-generated-function-game-sidebar-list-c331f9e5e39f }
 
-**Contract fields:**
+```lua
+function game.sidebar.list() -> CcbSidebarWidgetInfo[]
+```
 
-- `class`: `"CcbSidebarApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbSidebarWidgetInfo[]"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.sidebar"`
-- `capabilities`: `["ui.pages"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbSidebarWidgetInfo[]`
+
+🛡️ **Required Capabilities:** `ui.pages`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7848,22 +8183,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.sidebar.off` { #symbol-api-lua-v5-generated-function-game-sidebar-off-7739632d7b81 }
 
-**Contract fields:**
+```lua
+function game.sidebar.off(registration_id: integer) -> boolean removed
+```
 
-- `class`: `"CcbSidebarApi"`
-- `name`: `"off"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "registration_id", "optional": false}]`
-- `returns`: `[{"declaration": "boolean removed"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.sidebar"`
-- `capabilities`: `["ui.pages"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `registration_id` | `integer` | Required |
+
+**Returns:**
+
+- `boolean removed`
+
+🛡️ **Required Capabilities:** `ui.pages`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7872,22 +8208,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.sidebar.register` { #symbol-api-lua-v5-generated-function-game-sidebar-register-c32cb95d8f74 }
 
-**Contract fields:**
+```lua
+function game.sidebar.register(descriptor: CcbSidebarWidgetDescriptor) -> integer registration_id
+```
 
-- `class`: `"CcbSidebarApi"`
-- `name`: `"register"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbSidebarWidgetDescriptor", "name": "descriptor", "optional": false}]`
-- `returns`: `[{"declaration": "integer registration_id"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.sidebar"`
-- `capabilities`: `["ui.pages"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `descriptor` | `CcbSidebarWidgetDescriptor` | Required |
+
+**Returns:**
+
+- `integer registration_id`
+
+🛡️ **Required Capabilities:** `ui.pages`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7896,22 +8233,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.sidebar.register_widget` { #symbol-api-lua-v5-generated-function-game-sidebar-register-widget-cd41fbfcb22d }
 
-**Contract fields:**
+```lua
+function game.sidebar.register_widget(descriptor: CcbSidebarWidgetDescriptor) -> integer registration_id
+```
 
-- `class`: `"CcbSidebarApi"`
-- `name`: `"register_widget"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbSidebarWidgetDescriptor", "name": "descriptor", "optional": false}]`
-- `returns`: `[{"declaration": "integer registration_id"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.sidebar"`
-- `capabilities`: `["ui.pages"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `descriptor` | `CcbSidebarWidgetDescriptor` | Required |
+
+**Returns:**
+
+- `integer registration_id`
+
+🛡️ **Required Capabilities:** `ui.pages`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7920,22 +8258,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.skills.definition` { #symbol-api-lua-v5-generated-function-game-skills-definition-0d4099c27371 }
 
-**Contract fields:**
+```lua
+function game.skills.definition(id: GameId) -> CcbNativeSkillDefinition
+```
 
-- `class`: `"CcbSkillsApi"`
-- `name`: `"definition"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbNativeSkillDefinition"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.skills"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbNativeSkillDefinition`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7944,22 +8283,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.skills.definitions` { #symbol-api-lua-v5-generated-function-game-skills-definitions-1fadd3c24610 }
 
-**Contract fields:**
+```lua
+function game.skills.definitions(options: CcbDefinitionSearchOptions?) -> CcbSkillDefinitionPage
+```
 
-- `class`: `"CcbSkillsApi"`
-- `name`: `"definitions"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbDefinitionSearchOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbSkillDefinitionPage"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.skills"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbDefinitionSearchOptions` | Optional |
+
+**Returns:**
+
+- `CcbSkillDefinitionPage`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7968,22 +8308,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.skills.get` { #symbol-api-lua-v5-generated-function-game-skills-get-8aabcb258d12 }
 
-**Contract fields:**
+```lua
+function game.skills.get(handle: GameHandle, id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbSkillsApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.skills"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -7992,22 +8334,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.skills.list` { #symbol-api-lua-v5-generated-function-game-skills-list-2eb7cbc3e7d6 }
 
-**Contract fields:**
+```lua
+function game.skills.list(handle: GameHandle, options: CcbSkillListOptions?) -> CcbResult
+```
 
-- `class`: `"CcbSkillsApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "CcbSkillListOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.skills"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `options` | `CcbSkillListOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8016,22 +8360,26 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.skills.practice` { #symbol-api-lua-v5-generated-function-game-skills-practice-51f1d990b409 }
 
-**Contract fields:**
+```lua
+function game.skills.practice(handle: GameHandle, id: GameId, amount: integer, options: CcbSkillPracticeOptions?) -> CcbResult
+```
 
-- `class`: `"CcbSkillsApi"`
-- `name`: `"practice"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "integer", "name": "amount", "optional": false}, {"declaration": "CcbSkillPracticeOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.skills"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `amount` | `integer` | Required |
+| `options` | `CcbSkillPracticeOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8040,22 +8388,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.skills.set` { #symbol-api-lua-v5-generated-function-game-skills-set-5bff0943f295 }
 
-**Contract fields:**
+```lua
+function game.skills.set(handle: GameHandle, id: GameId, adjustments: CcbSkillAdjustments) -> CcbResult
+```
 
-- `class`: `"CcbSkillsApi"`
-- `name`: `"set"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "CcbSkillAdjustments", "name": "adjustments", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.skills"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `adjustments` | `CcbSkillAdjustments` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8064,22 +8415,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.skills.set_training` { #symbol-api-lua-v5-generated-function-game-skills-set-training-ed66a572841c }
 
-**Contract fields:**
+```lua
+function game.skills.set_training(handle: GameHandle, id: GameId, training: boolean) -> CcbResult
+```
 
-- `class`: `"CcbSkillsApi"`
-- `name`: `"set_training"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "boolean", "name": "training", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.skills"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `training` | `boolean` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8088,22 +8442,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.skills_snapshot` { #symbol-api-lua-v5-generated-function-game-skills-snapshot-180aa859eec6 }
 
-**Contract fields:**
+```lua
+function game.skills_snapshot(limit: integer?) -> table
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"skills_snapshot"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "limit", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `limit` | `integer` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8112,22 +8467,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.sound.channels` { #symbol-api-lua-v5-generated-function-game-sound-channels-c15f12cf510c }
 
-**Contract fields:**
+```lua
+function game.sound.channels() -> string[]
+```
 
-- `class`: `"CcbSoundApi"`
-- `name`: `"channels"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "string[]"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.sound"`
-- `capabilities`: `["game.actions"]`
-- `examples`: `[]`
+**Returns:**
+
+- `string[]`
+
+🛡️ **Required Capabilities:** `game.actions`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8136,22 +8486,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.sound.play` { #symbol-api-lua-v5-generated-function-game-sound-play-343eb72c6c86 }
 
-**Contract fields:**
+```lua
+function game.sound.play(id: string, variant: string, volume: integer, options: CcbVariantSoundOptions?)
+```
 
-- `class`: `"CcbSoundApi"`
-- `name`: `"play"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "string", "name": "variant", "optional": false}, {"declaration": "integer", "name": "volume", "optional": false}, {"declaration": "CcbVariantSoundOptions", "name": "options", "optional": true}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.sound"`
-- `capabilities`: `["game.actions"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `variant` | `string` | Required |
+| `volume` | `integer` | Required |
+| `options` | `CcbVariantSoundOptions` | Optional |
+
+🛡️ **Required Capabilities:** `game.actions`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8160,22 +8510,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.sound.play_ambient` { #symbol-api-lua-v5-generated-function-game-sound-play-ambient-da54eada5b55 }
 
-**Contract fields:**
+```lua
+function game.sound.play_ambient(id: string, variant: string, volume: integer, options: CcbAmbientSoundOptions?)
+```
 
-- `class`: `"CcbSoundApi"`
-- `name`: `"play_ambient"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "string", "name": "variant", "optional": false}, {"declaration": "integer", "name": "volume", "optional": false}, {"declaration": "CcbAmbientSoundOptions", "name": "options", "optional": true}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.sound"`
-- `capabilities`: `["game.actions"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `variant` | `string` | Required |
+| `volume` | `integer` | Required |
+| `options` | `CcbAmbientSoundOptions` | Optional |
+
+🛡️ **Required Capabilities:** `game.actions`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8184,22 +8534,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.spawns.hallucination` { #symbol-api-lua-v5-generated-function-game-spawns-hallucination-7cc64e3755f0 }
 
-**Contract fields:**
+```lua
+function game.spawns.hallucination(position: TripointCoord, options: CcbHallucinationOptions?) -> CcbResult
+```
 
-- `class`: `"CcbSpawnsApi"`
-- `name`: `"hallucination"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}, {"declaration": "CcbHallucinationOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.spawns"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+| `options` | `CcbHallucinationOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8208,22 +8560,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.spawns.monster` { #symbol-api-lua-v5-generated-function-game-spawns-monster-24900a5b8c5c }
 
-**Contract fields:**
+```lua
+function game.spawns.monster(monster: GameId, position: TripointCoord, radius: integer?) -> CcbResult
+```
 
-- `class`: `"CcbSpawnsApi"`
-- `name`: `"monster"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "monster", "optional": false}, {"declaration": "TripointCoord", "name": "position", "optional": false}, {"declaration": "integer", "name": "radius", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.spawns"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `monster` | `GameId` | Required |
+| `position` | `TripointCoord` | Required |
+| `radius` | `integer` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8232,22 +8587,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.spells.can_learn` { #symbol-api-lua-v5-generated-function-game-spells-can-learn-9a725127a12d }
 
-**Contract fields:**
+```lua
+function game.spells.can_learn(character: GameHandle, id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbSpellsApi"`
-- `name`: `"can_learn"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.spells"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8256,22 +8613,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.spells.definition` { #symbol-api-lua-v5-generated-function-game-spells-definition-0886d6636d3b }
 
-**Contract fields:**
+```lua
+function game.spells.definition(id: GameId) -> table?
+```
 
-- `class`: `"CcbSpellsApi"`
-- `name`: `"definition"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "table?"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.spells"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `table?`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8280,22 +8638,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.spells.definitions` { #symbol-api-lua-v5-generated-function-game-spells-definitions-5aff3e72bef6 }
 
-**Contract fields:**
+```lua
+function game.spells.definitions(options: CcbPageOptions?) -> table
+```
 
-- `class`: `"CcbSpellsApi"`
-- `name`: `"definitions"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbPageOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.spells"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbPageOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8304,22 +8663,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.spells.forget` { #symbol-api-lua-v5-generated-function-game-spells-forget-0cc2096239d1 }
 
-**Contract fields:**
+```lua
+function game.spells.forget(character: GameHandle, id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbSpellsApi"`
-- `name`: `"forget"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.spells"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8328,22 +8689,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.spells.gain_experience` { #symbol-api-lua-v5-generated-function-game-spells-gain-experience-56e5c214fa13 }
 
-**Contract fields:**
+```lua
+function game.spells.gain_experience(character: GameHandle, id: GameId, amount: integer) -> CcbResult
+```
 
-- `class`: `"CcbSpellsApi"`
-- `name`: `"gain_experience"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "integer", "name": "amount", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.spells"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `amount` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8352,22 +8716,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.spells.gain_levels` { #symbol-api-lua-v5-generated-function-game-spells-gain-levels-95929dc11905 }
 
-**Contract fields:**
+```lua
+function game.spells.gain_levels(character: GameHandle, id: GameId, levels: integer) -> CcbResult
+```
 
-- `class`: `"CcbSpellsApi"`
-- `name`: `"gain_levels"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "integer", "name": "levels", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.spells"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `levels` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8376,22 +8743,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.spells.get` { #symbol-api-lua-v5-generated-function-game-spells-get-d1759ddc7312 }
 
-**Contract fields:**
+```lua
+function game.spells.get(character: GameHandle, id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbSpellsApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.spells"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8400,22 +8769,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.spells.knows` { #symbol-api-lua-v5-generated-function-game-spells-knows-b9c7ba9e3fee }
 
-**Contract fields:**
+```lua
+function game.spells.knows(character: GameHandle, id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbSpellsApi"`
-- `name`: `"knows"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.spells"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8424,22 +8795,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.spells.learn` { #symbol-api-lua-v5-generated-function-game-spells-learn-66bf8c016c40 }
 
-**Contract fields:**
+```lua
+function game.spells.learn(character: GameHandle, id: GameId, options: CcbLearnSpellOptions?) -> CcbResult
+```
 
-- `class`: `"CcbSpellsApi"`
-- `name`: `"learn"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "CcbLearnSpellOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.spells"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `options` | `CcbLearnSpellOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8448,22 +8822,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.spells.list` { #symbol-api-lua-v5-generated-function-game-spells-list-cf33f3ad7573 }
 
-**Contract fields:**
+```lua
+function game.spells.list(character: GameHandle, options: CcbPageOptions?) -> CcbResult
+```
 
-- `class`: `"CcbSpellsApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "CcbPageOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.spells"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `options` | `CcbPageOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8472,22 +8848,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.spells.mana` { #symbol-api-lua-v5-generated-function-game-spells-mana-cde18aae2d6e }
 
-**Contract fields:**
+```lua
+function game.spells.mana(character: GameHandle) -> CcbResult
+```
 
-- `class`: `"CcbSpellsApi"`
-- `name`: `"mana"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.spells"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8496,22 +8873,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.spells.modify_mana` { #symbol-api-lua-v5-generated-function-game-spells-modify-mana-db41aaf67deb }
 
-**Contract fields:**
+```lua
+function game.spells.modify_mana(character: GameHandle, amount: integer) -> CcbResult
+```
 
-- `class`: `"CcbSpellsApi"`
-- `name`: `"modify_mana"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "integer", "name": "amount", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.spells"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `amount` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8520,22 +8899,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.spells.queue_cast` { #symbol-api-lua-v5-generated-function-game-spells-queue-cast-6e4dcf948598 }
 
-**Contract fields:**
+```lua
+function game.spells.queue_cast(character: GameHandle, id: GameId, target: TripointCoord) -> CcbResult
+```
 
-- `class`: `"CcbSpellsApi"`
-- `name`: `"queue_cast"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "TripointCoord", "name": "target", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.spells"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `target` | `TripointCoord` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8544,22 +8926,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.spells.set_casting_ignore` { #symbol-api-lua-v5-generated-function-game-spells-set-casting-ignore-496058255169 }
 
-**Contract fields:**
+```lua
+function game.spells.set_casting_ignore(character: GameHandle, enabled: boolean) -> CcbResult
+```
 
-- `class`: `"CcbSpellsApi"`
-- `name`: `"set_casting_ignore"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "boolean", "name": "enabled", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.spells"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `enabled` | `boolean` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8568,22 +8952,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.spells.set_experience` { #symbol-api-lua-v5-generated-function-game-spells-set-experience-9596d6a4fe1d }
 
-**Contract fields:**
+```lua
+function game.spells.set_experience(character: GameHandle, id: GameId, amount: integer) -> CcbResult
+```
 
-- `class`: `"CcbSpellsApi"`
-- `name`: `"set_experience"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "integer", "name": "amount", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.spells"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `amount` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8592,22 +8979,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.spells.set_favorite` { #symbol-api-lua-v5-generated-function-game-spells-set-favorite-1a8bfc40b179 }
 
-**Contract fields:**
+```lua
+function game.spells.set_favorite(character: GameHandle, id: GameId, favorite: boolean) -> CcbResult
+```
 
-- `class`: `"CcbSpellsApi"`
-- `name`: `"set_favorite"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "boolean", "name": "favorite", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.spells"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `favorite` | `boolean` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8616,22 +9006,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.spells.set_level` { #symbol-api-lua-v5-generated-function-game-spells-set-level-72b517eb67c4 }
 
-**Contract fields:**
+```lua
+function game.spells.set_level(character: GameHandle, id: GameId, level: integer) -> CcbResult
+```
 
-- `class`: `"CcbSpellsApi"`
-- `name`: `"set_level"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "integer", "name": "level", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.spells"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `level` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8640,22 +9033,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.spells.set_mana` { #symbol-api-lua-v5-generated-function-game-spells-set-mana-fc946dc95db3 }
 
-**Contract fields:**
+```lua
+function game.spells.set_mana(character: GameHandle, amount: integer) -> CcbResult
+```
 
-- `class`: `"CcbSpellsApi"`
-- `name`: `"set_mana"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "character", "optional": false}, {"declaration": "integer", "name": "amount", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.spells"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `character` | `GameHandle` | Required |
+| `amount` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8664,22 +9059,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.state_get` { #symbol-api-lua-v5-generated-function-game-state-get-4fe438acb43d }
 
-**Contract fields:**
+```lua
+function game.state_get(key: string, default: T) -> T
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"state_get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "key", "optional": false}, {"declaration": "T", "name": "default", "optional": false}]`
-- `returns`: `[{"declaration": "T"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `["state.character"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `key` | `string` | Required |
+| `default` | `T` | Required |
+
+**Returns:**
+
+- `T`
+
+🛡️ **Required Capabilities:** `state.character`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8688,22 +9085,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.state_set` { #symbol-api-lua-v5-generated-function-game-state-set-6a5f7df80014 }
 
-**Contract fields:**
+```lua
+function game.state_set(key: string, value: CcbScalar|nil)
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"state_set"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "key", "optional": false}, {"declaration": "CcbScalar|nil", "name": "value", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `["state.character"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `key` | `string` | Required |
+| `value` | `CcbScalar|nil` | Required |
+
+🛡️ **Required Capabilities:** `state.character`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8712,22 +9107,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.statistics.definition` { #symbol-api-lua-v5-generated-function-game-statistics-definition-88b338266b1d }
 
-**Contract fields:**
+```lua
+function game.statistics.definition(id: GameId) -> CcbStatisticDefinition
+```
 
-- `class`: `"CcbStatisticsApi"`
-- `name`: `"definition"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbStatisticDefinition"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.statistics"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbStatisticDefinition`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8736,22 +9132,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.statistics.definitions` { #symbol-api-lua-v5-generated-function-game-statistics-definitions-b8a5ec46082f }
 
-**Contract fields:**
+```lua
+function game.statistics.definitions(options: CcbDefinitionSearchOptions?) -> table
+```
 
-- `class`: `"CcbStatisticsApi"`
-- `name`: `"definitions"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbDefinitionSearchOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.statistics"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbDefinitionSearchOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8760,22 +9157,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.statistics.event` { #symbol-api-lua-v5-generated-function-game-statistics-event-ee25cdc3b498 }
 
-**Contract fields:**
+```lua
+function game.statistics.event(name: string, options: CcbPageOptions?) -> CcbResult
+```
 
-- `class`: `"CcbStatisticsApi"`
-- `name`: `"event"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "name", "optional": false}, {"declaration": "CcbPageOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.statistics"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `name` | `string` | Required |
+| `options` | `CcbPageOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8784,22 +9183,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.statistics.event_types` { #symbol-api-lua-v5-generated-function-game-statistics-event-types-0e87e57e7dfa }
 
-**Contract fields:**
+```lua
+function game.statistics.event_types(options: CcbDefinitionSearchOptions?) -> table
+```
 
-- `class`: `"CcbStatisticsApi"`
-- `name`: `"event_types"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbDefinitionSearchOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.statistics"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbDefinitionSearchOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8808,22 +9208,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.statistics.score` { #symbol-api-lua-v5-generated-function-game-statistics-score-32e3920917a0 }
 
-**Contract fields:**
+```lua
+function game.statistics.score(id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbStatisticsApi"`
-- `name`: `"score"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.statistics"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8832,22 +9233,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.statistics.scores` { #symbol-api-lua-v5-generated-function-game-statistics-scores-1646ef81818c }
 
-**Contract fields:**
+```lua
+function game.statistics.scores(options: CcbDefinitionSearchOptions?) -> CcbResult
+```
 
-- `class`: `"CcbStatisticsApi"`
-- `name`: `"scores"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbDefinitionSearchOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.statistics"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbDefinitionSearchOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8856,22 +9258,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.statistics.transformation` { #symbol-api-lua-v5-generated-function-game-statistics-transformation-32bee099abe3 }
 
-**Contract fields:**
+```lua
+function game.statistics.transformation(id: GameId, options: CcbPageOptions?) -> CcbResult
+```
 
-- `class`: `"CcbStatisticsApi"`
-- `name`: `"transformation"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "CcbPageOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.statistics"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+| `options` | `CcbPageOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8880,22 +9284,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.statistics.transformations` { #symbol-api-lua-v5-generated-function-game-statistics-transformations-8227907ff4ba }
 
-**Contract fields:**
+```lua
+function game.statistics.transformations(options: CcbDefinitionSearchOptions?) -> table
+```
 
-- `class`: `"CcbStatisticsApi"`
-- `name`: `"transformations"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbDefinitionSearchOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.statistics"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbDefinitionSearchOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8904,22 +9309,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.statistics.value` { #symbol-api-lua-v5-generated-function-game-statistics-value-989d05e06137 }
 
-**Contract fields:**
+```lua
+function game.statistics.value(id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbStatisticsApi"`
-- `name`: `"value"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.statistics"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8928,22 +9334,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.statistics.values` { #symbol-api-lua-v5-generated-function-game-statistics-values-683dadd9d5c0 }
 
-**Contract fields:**
+```lua
+function game.statistics.values(options: CcbDefinitionSearchOptions?) -> CcbResult
+```
 
-- `class`: `"CcbStatisticsApi"`
-- `name`: `"values"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbDefinitionSearchOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.statistics"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbDefinitionSearchOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8952,22 +9359,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.targeting.choose_adjacent` { #symbol-api-lua-v5-generated-function-game-targeting-choose-adjacent-c2b7dc7ad5b5 }
 
-**Contract fields:**
+```lua
+function game.targeting.choose_adjacent(message: string, allow_vertical: boolean?) -> TripointCoord?
+```
 
-- `class`: `"CcbTargetingApi"`
-- `name`: `"choose_adjacent"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "message", "optional": false}, {"declaration": "boolean", "name": "allow_vertical", "optional": true}]`
-- `returns`: `[{"declaration": "TripointCoord?"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.targeting"`
-- `capabilities`: `["game.actions"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `message` | `string` | Required |
+| `allow_vertical` | `boolean` | Optional |
+
+**Returns:**
+
+- `TripointCoord?`
+
+🛡️ **Required Capabilities:** `game.actions`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -8976,22 +9385,27 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.targeting.choose_adjacent_for_action` { #symbol-api-lua-v5-generated-function-game-targeting-choose-adjacent-for-action-65364deb4220 }
 
-**Contract fields:**
+```lua
+function game.targeting.choose_adjacent_for_action(message: string, failure_message: string, action: string, allow_vertical: boolean?, allow_autoselect: boolean?) -> TripointCoord?
+```
 
-- `class`: `"CcbTargetingApi"`
-- `name`: `"choose_adjacent_for_action"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "message", "optional": false}, {"declaration": "string", "name": "failure_message", "optional": false}, {"declaration": "string", "name": "action", "optional": false}, {"declaration": "boolean", "name": "allow_vertical", "optional": true}, {"declaration": "boolean", "name": "allow_autoselect", "optional": true}]`
-- `returns`: `[{"declaration": "TripointCoord?"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.targeting"`
-- `capabilities`: `["game.actions"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `message` | `string` | Required |
+| `failure_message` | `string` | Required |
+| `action` | `string` | Required |
+| `allow_vertical` | `boolean` | Optional |
+| `allow_autoselect` | `boolean` | Optional |
+
+**Returns:**
+
+- `TripointCoord?`
+
+🛡️ **Required Capabilities:** `game.actions`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9000,22 +9414,27 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.targeting.choose_adjacent_where` { #symbol-api-lua-v5-generated-function-game-targeting-choose-adjacent-where-7cc04929c756 }
 
-**Contract fields:**
+```lua
+function game.targeting.choose_adjacent_where(message: string, failure_message: string, candidates: TripointCoord[], allow_vertical: boolean?, allow_autoselect: boolean?) -> TripointCoord?
+```
 
-- `class`: `"CcbTargetingApi"`
-- `name`: `"choose_adjacent_where"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "message", "optional": false}, {"declaration": "string", "name": "failure_message", "optional": false}, {"declaration": "TripointCoord[]", "name": "candidates", "optional": false}, {"declaration": "boolean", "name": "allow_vertical", "optional": true}, {"declaration": "boolean", "name": "allow_autoselect", "optional": true}]`
-- `returns`: `[{"declaration": "TripointCoord?"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.targeting"`
-- `capabilities`: `["game.actions"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `message` | `string` | Required |
+| `failure_message` | `string` | Required |
+| `candidates` | `TripointCoord[]` | Required |
+| `allow_vertical` | `boolean` | Optional |
+| `allow_autoselect` | `boolean` | Optional |
+
+**Returns:**
+
+- `TripointCoord?`
+
+🛡️ **Required Capabilities:** `game.actions`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9024,22 +9443,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.targeting.choose_area` { #symbol-api-lua-v5-generated-function-game-targeting-choose-area-3f1faf78862f }
 
-**Contract fields:**
+```lua
+function game.targeting.choose_area(message: string, start: TripointCoord?, allow_vertical: boolean?) -> CcbTargetArea?
+```
 
-- `class`: `"CcbTargetingApi"`
-- `name`: `"choose_area"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "message", "optional": false}, {"declaration": "TripointCoord", "name": "start", "optional": true}, {"declaration": "boolean", "name": "allow_vertical", "optional": true}]`
-- `returns`: `[{"declaration": "CcbTargetArea?"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.targeting"`
-- `capabilities`: `["game.actions"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `message` | `string` | Required |
+| `start` | `TripointCoord` | Optional |
+| `allow_vertical` | `boolean` | Optional |
+
+**Returns:**
+
+- `CcbTargetArea?`
+
+🛡️ **Required Capabilities:** `game.actions`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9048,22 +9470,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.targeting.choose_direction` { #symbol-api-lua-v5-generated-function-game-targeting-choose-direction-d3ef2c47d7f0 }
 
-**Contract fields:**
+```lua
+function game.targeting.choose_direction(message: string, allow_vertical: boolean?) -> TripointCoord?
+```
 
-- `class`: `"CcbTargetingApi"`
-- `name`: `"choose_direction"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "message", "optional": false}, {"declaration": "boolean", "name": "allow_vertical", "optional": true}]`
-- `returns`: `[{"declaration": "TripointCoord?"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.targeting"`
-- `capabilities`: `["game.actions"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `message` | `string` | Required |
+| `allow_vertical` | `boolean` | Optional |
+
+**Returns:**
+
+- `TripointCoord?`
+
+🛡️ **Required Capabilities:** `game.actions`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9072,22 +9496,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.targeting.look_around` { #symbol-api-lua-v5-generated-function-game-targeting-look-around-dca3f6a08bb8 }
 
-**Contract fields:**
+```lua
+function game.targeting.look_around() -> TripointCoord?
+```
 
-- `class`: `"CcbTargetingApi"`
-- `name`: `"look_around"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "TripointCoord?"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.targeting"`
-- `capabilities`: `["game.actions"]`
-- `examples`: `[]`
+**Returns:**
+
+- `TripointCoord?`
+
+🛡️ **Required Capabilities:** `game.actions`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9096,22 +9515,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.time.advance` { #symbol-api-lua-v5-generated-function-game-time-advance-ebdd5096925b }
 
-**Contract fields:**
+```lua
+function game.time.advance(duration: TimeDuration, expected: TimePoint Optimistic-concurrency guard for the current clock.?) -> CcbResult
+```
 
-- `class`: `"CcbTimeApi"`
-- `name`: `"advance"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TimeDuration", "name": "duration", "optional": false}, {"declaration": "TimePoint Optimistic-concurrency guard for the current clock.", "name": "expected", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.time"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `duration` | `TimeDuration` | Required |
+| `expected` | `TimePoint Optimistic-concurrency guard for the current clock.` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9120,22 +9541,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.time.before_time_starts` { #symbol-api-lua-v5-generated-function-game-time-before-time-starts-5bfaf6abc695 }
 
-**Contract fields:**
+```lua
+function game.time.before_time_starts() -> TimePoint
+```
 
-- `class`: `"CcbTimeApi"`
-- `name`: `"before_time_starts"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "TimePoint"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.time"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `TimePoint`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9144,22 +9560,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.time.calendar` { #symbol-api-lua-v5-generated-function-game-time-calendar-f1bbd7a00b23 }
 
-**Contract fields:**
+```lua
+function game.time.calendar() -> CcbCalendarSnapshot
+```
 
-- `class`: `"CcbTimeApi"`
-- `name`: `"calendar"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbCalendarSnapshot"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.time"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbCalendarSnapshot`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9168,22 +9579,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.time.duration` { #symbol-api-lua-v5-generated-function-game-time-duration-d479dda23811 }
 
-**Contract fields:**
+```lua
+function game.time.duration(value: integer, unit: string) -> TimeDuration
+```
 
-- `class`: `"CcbTimeApi"`
-- `name`: `"duration"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "value", "optional": false}, {"declaration": "string", "name": "unit", "optional": false}]`
-- `returns`: `[{"declaration": "TimeDuration"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.time"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `value` | `integer` | Required |
+| `unit` | `string` | Required |
+
+**Returns:**
+
+- `TimeDuration`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9192,22 +9605,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.time.limits` { #symbol-api-lua-v5-generated-function-game-time-limits-43782db92083 }
 
-**Contract fields:**
+```lua
+function game.time.limits() -> CcbTimeLimits
+```
 
-- `class`: `"CcbTimeApi"`
-- `name`: `"limits"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbTimeLimits"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.time"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbTimeLimits`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9216,22 +9624,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.time.now` { #symbol-api-lua-v5-generated-function-game-time-now-bb96369cf301 }
 
-**Contract fields:**
+```lua
+function game.time.now() -> TimePoint
+```
 
-- `class`: `"CcbTimeApi"`
-- `name`: `"now"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "TimePoint"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.time"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 151, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Returns:**
+
+- `TimePoint`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9240,22 +9643,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.time.point` { #symbol-api-lua-v5-generated-function-game-time-point-ba4f373e188d }
 
-**Contract fields:**
+```lua
+function game.time.point(turn: integer) -> TimePoint
+```
 
-- `class`: `"CcbTimeApi"`
-- `name`: `"point"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "turn", "optional": false}]`
-- `returns`: `[{"declaration": "TimePoint"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.time"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `turn` | `integer` | Required |
+
+**Returns:**
+
+- `TimePoint`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9264,22 +9668,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.time.set_now` { #symbol-api-lua-v5-generated-function-game-time-set-now-841c9e1dec0d }
 
-**Contract fields:**
+```lua
+function game.time.set_now(point: TimePoint, expected: TimePoint Optimistic-concurrency guard for the current clock.?) -> CcbResult
+```
 
-- `class`: `"CcbTimeApi"`
-- `name`: `"set_now"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TimePoint", "name": "point", "optional": false}, {"declaration": "TimePoint Optimistic-concurrency guard for the current clock.", "name": "expected", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.time"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `point` | `TimePoint` | Required |
+| `expected` | `TimePoint Optimistic-concurrency guard for the current clock.` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9288,22 +9694,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.time.snapshot` { #symbol-api-lua-v5-generated-function-game-time-snapshot-c13b36da8a44 }
 
-**Contract fields:**
+```lua
+function game.time.snapshot(point: TimePoint?) -> CcbCalendarPoint
+```
 
-- `class`: `"CcbTimeApi"`
-- `name`: `"snapshot"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TimePoint", "name": "point", "optional": true}]`
-- `returns`: `[{"declaration": "CcbCalendarPoint"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.time"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 71, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `point` | `TimePoint` | Optional |
+
+**Returns:**
+
+- `CcbCalendarPoint`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9312,22 +9719,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.time.turn_zero` { #symbol-api-lua-v5-generated-function-game-time-turn-zero-a80e29fe04fc }
 
-**Contract fields:**
+```lua
+function game.time.turn_zero() -> TimePoint
+```
 
-- `class`: `"CcbTimeApi"`
-- `name`: `"turn_zero"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "TimePoint"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.time"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `TimePoint`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9336,22 +9738,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.time_snapshot` { #symbol-api-lua-v5-generated-function-game-time-snapshot-29532e85049a }
 
-**Contract fields:**
+```lua
+function game.time_snapshot() -> CcbTimeSnapshot
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"time_snapshot"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbTimeSnapshot"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbTimeSnapshot`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9360,22 +9757,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.types.id` { #symbol-api-lua-v5-generated-function-game-types-id-2def69c7c2d4 }
 
-**Contract fields:**
+```lua
+function game.types.id(kind: string, value: string) -> GameId
+```
 
-- `class`: `"CcbTypesApi"`
-- `name`: `"id"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "kind", "optional": false}, {"declaration": "string", "name": "value", "optional": false}]`
-- `returns`: `[{"declaration": "GameId"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.types"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `kind` | `string` | Required |
+| `value` | `string` | Required |
+
+**Returns:**
+
+- `GameId`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9384,22 +9783,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.types.id_kinds` { #symbol-api-lua-v5-generated-function-game-types-id-kinds-37e0672388ab }
 
-**Contract fields:**
+```lua
+function game.types.id_kinds() -> string[]
+```
 
-- `class`: `"CcbTypesApi"`
-- `name`: `"id_kinds"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "string[]"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.types"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `string[]`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9408,22 +9802,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.units.kinds` { #symbol-api-lua-v5-generated-function-game-units-kinds-55488c6ed390 }
 
-**Contract fields:**
+```lua
+function game.units.kinds() -> string[]
+```
 
-- `class`: `"CcbUnitsApi"`
-- `name`: `"kinds"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "string[]"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.units"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `string[]`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9432,22 +9821,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.units.new` { #symbol-api-lua-v5-generated-function-game-units-new-d88ba06998f0 }
 
-**Contract fields:**
+```lua
+function game.units.new(kind: string, value: number, unit: string) -> UnitValue
+```
 
-- `class`: `"CcbUnitsApi"`
-- `name`: `"new"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "kind", "optional": false}, {"declaration": "number", "name": "value", "optional": false}, {"declaration": "string", "name": "unit", "optional": false}]`
-- `returns`: `[{"declaration": "UnitValue"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.units"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `kind` | `string` | Required |
+| `value` | `number` | Required |
+| `unit` | `string` | Required |
+
+**Returns:**
+
+- `UnitValue`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9456,22 +9848,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.units.units` { #symbol-api-lua-v5-generated-function-game-units-units-0b2b5f5ce5dd }
 
-**Contract fields:**
+```lua
+function game.units.units(kind: string) -> string[]
+```
 
-- `class`: `"CcbUnitsApi"`
-- `name`: `"units"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "kind", "optional": false}]`
-- `returns`: `[{"declaration": "string[]"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.units"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `kind` | `string` | Required |
+
+**Returns:**
+
+- `string[]`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9480,22 +9873,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.variables.get` { #symbol-api-lua-v5-generated-function-game-variables-get-02d0e5b85091 }
 
-**Contract fields:**
+```lua
+function game.variables.get(handle: GameHandle Creature or vehicle handle., key: string) -> CcbResult
+```
 
-- `class`: `"CcbVariablesApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle Creature or vehicle handle.", "name": "handle", "optional": false}, {"declaration": "string", "name": "key", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.variables"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle Creature or vehicle handle.` | Required |
+| `key` | `string` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9504,22 +9899,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.variables.remove` { #symbol-api-lua-v5-generated-function-game-variables-remove-b84200e080bd }
 
-**Contract fields:**
+```lua
+function game.variables.remove(handle: GameHandle Creature or vehicle handle., key: string) -> CcbResult
+```
 
-- `class`: `"CcbVariablesApi"`
-- `name`: `"remove"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle Creature or vehicle handle.", "name": "handle", "optional": false}, {"declaration": "string", "name": "key", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.variables"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle Creature or vehicle handle.` | Required |
+| `key` | `string` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9528,22 +9925,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.variables.set` { #symbol-api-lua-v5-generated-function-game-variables-set-4e96665bfce9 }
 
-**Contract fields:**
+```lua
+function game.variables.set(handle: GameHandle Creature or vehicle handle., key: string, value: CcbEocInputValue) -> CcbResult
+```
 
-- `class`: `"CcbVariablesApi"`
-- `name`: `"set"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle Creature or vehicle handle.", "name": "handle", "optional": false}, {"declaration": "string", "name": "key", "optional": false}, {"declaration": "CcbEocInputValue", "name": "value", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.variables"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle Creature or vehicle handle.` | Required |
+| `key` | `string` | Required |
+| `value` | `CcbEocInputValue` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9552,22 +9952,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.vehicles.definition` { #symbol-api-lua-v5-generated-function-game-vehicles-definition-1f228ccf047d }
 
-**Contract fields:**
+```lua
+function game.vehicles.definition(id: GameId) -> CcbVehiclePrototype
+```
 
-- `class`: `"CcbVehiclesApi"`
-- `name`: `"definition"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbVehiclePrototype"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.vehicles"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbVehiclePrototype`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9576,22 +9977,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.vehicles.definitions` { #symbol-api-lua-v5-generated-function-game-vehicles-definitions-5f477dbcb1d7 }
 
-**Contract fields:**
+```lua
+function game.vehicles.definitions(options: CcbDefinitionSearchOptions?) -> table
+```
 
-- `class`: `"CcbVehiclesApi"`
-- `name`: `"definitions"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbDefinitionSearchOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.vehicles"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbDefinitionSearchOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9600,22 +10002,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.vehicles.fuels` { #symbol-api-lua-v5-generated-function-game-vehicles-fuels-8b7da7e85566 }
 
-**Contract fields:**
+```lua
+function game.vehicles.fuels(handle: GameHandle) -> CcbResult
+```
 
-- `class`: `"CcbVehiclesApi"`
-- `name`: `"fuels"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.vehicles"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9624,22 +10027,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.vehicles.get` { #symbol-api-lua-v5-generated-function-game-vehicles-get-777b99041520 }
 
-**Contract fields:**
+```lua
+function game.vehicles.get(handle: GameHandle) -> CcbResult
+```
 
-- `class`: `"CcbVehiclesApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.vehicles"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9648,22 +10052,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.vehicles.parts` { #symbol-api-lua-v5-generated-function-game-vehicles-parts-08804e697a19 }
 
-**Contract fields:**
+```lua
+function game.vehicles.parts(handle: GameHandle, options: CcbVehiclePartOptions?) -> CcbResult
+```
 
-- `class`: `"CcbVehiclesApi"`
-- `name`: `"parts"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "CcbVehiclePartOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.vehicles"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `options` | `CcbVehiclePartOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9672,22 +10078,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.vehicles.rename` { #symbol-api-lua-v5-generated-function-game-vehicles-rename-c935f400bceb }
 
-**Contract fields:**
+```lua
+function game.vehicles.rename(handle: GameHandle, name: string) -> CcbResult
+```
 
-- `class`: `"CcbVehiclesApi"`
-- `name`: `"rename"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "string", "name": "name", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.vehicles"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `name` | `string` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9696,22 +10104,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.vehicles.set_cruise_velocity` { #symbol-api-lua-v5-generated-function-game-vehicles-set-cruise-velocity-f77c2feee1fa }
 
-**Contract fields:**
+```lua
+function game.vehicles.set_cruise_velocity(handle: GameHandle, velocity: integer Native vehicle velocity units.) -> CcbResult
+```
 
-- `class`: `"CcbVehiclesApi"`
-- `name`: `"set_cruise_velocity"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "integer Native vehicle velocity units.", "name": "velocity", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.vehicles"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `velocity` | `integer Native vehicle velocity units.` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9720,22 +10130,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.vehicles.set_part_enabled` { #symbol-api-lua-v5-generated-function-game-vehicles-set-part-enabled-1fae655767d7 }
 
-**Contract fields:**
+```lua
+function game.vehicles.set_part_enabled(handle: GameHandle, part_index: integer, enabled: boolean) -> CcbResult
+```
 
-- `class`: `"CcbVehiclesApi"`
-- `name`: `"set_part_enabled"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "integer", "name": "part_index", "optional": false}, {"declaration": "boolean", "name": "enabled", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.vehicles"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `part_index` | `integer` | Required |
+| `enabled` | `boolean` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9744,22 +10157,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.vehicles.set_tracking` { #symbol-api-lua-v5-generated-function-game-vehicles-set-tracking-410a1dea9e17 }
 
-**Contract fields:**
+```lua
+function game.vehicles.set_tracking(handle: GameHandle, enabled: boolean) -> CcbResult
+```
 
-- `class`: `"CcbVehiclesApi"`
-- `name`: `"set_tracking"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "boolean", "name": "enabled", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.vehicles"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `enabled` | `boolean` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9768,22 +10183,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.vehicles.stop` { #symbol-api-lua-v5-generated-function-game-vehicles-stop-86eebf88cac3 }
 
-**Contract fields:**
+```lua
+function game.vehicles.stop(handle: GameHandle, options: CcbVehicleStopOptions?) -> CcbResult
+```
 
-- `class`: `"CcbVehiclesApi"`
-- `name`: `"stop"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "CcbVehicleStopOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.vehicles"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `options` | `CcbVehicleStopOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9792,22 +10209,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.vitamins.definition` { #symbol-api-lua-v5-generated-function-game-vitamins-definition-9aa17c7526fe }
 
-**Contract fields:**
+```lua
+function game.vitamins.definition(id: GameId) -> CcbVitaminDefinition
+```
 
-- `class`: `"CcbVitaminsApi"`
-- `name`: `"definition"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbVitaminDefinition"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.vitamins"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbVitaminDefinition`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9816,22 +10234,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.vitamins.definitions` { #symbol-api-lua-v5-generated-function-game-vitamins-definitions-7ee8f7a5a1ee }
 
-**Contract fields:**
+```lua
+function game.vitamins.definitions(options: CcbDefinitionSearchOptions?) -> table
+```
 
-- `class`: `"CcbVitaminsApi"`
-- `name`: `"definitions"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbDefinitionSearchOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.vitamins"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbDefinitionSearchOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9840,22 +10259,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.vitamins.get` { #symbol-api-lua-v5-generated-function-game-vitamins-get-1bd8f08cb8bf }
 
-**Contract fields:**
+```lua
+function game.vitamins.get(handle: GameHandle, id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbVitaminsApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.vitamins"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9864,22 +10285,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.vitamins.list` { #symbol-api-lua-v5-generated-function-game-vitamins-list-69fa089b0627 }
 
-**Contract fields:**
+```lua
+function game.vitamins.list(handle: GameHandle, options: CcbPageOptions?) -> CcbResult
+```
 
-- `class`: `"CcbVitaminsApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "CcbPageOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.vitamins"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `options` | `CcbPageOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9888,22 +10311,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.vitamins.modify` { #symbol-api-lua-v5-generated-function-game-vitamins-modify-4269f62526a8 }
 
-**Contract fields:**
+```lua
+function game.vitamins.modify(handle: GameHandle, id: GameId, delta: integer) -> CcbResult
+```
 
-- `class`: `"CcbVitaminsApi"`
-- `name`: `"modify"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "integer", "name": "delta", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.vitamins"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `delta` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9912,22 +10338,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.vitamins.reset_daily` { #symbol-api-lua-v5-generated-function-game-vitamins-reset-daily-dc09046de83b }
 
-**Contract fields:**
+```lua
+function game.vitamins.reset_daily(handle: GameHandle, id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbVitaminsApi"`
-- `name`: `"reset_daily"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.vitamins"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9936,22 +10364,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.vitamins.set` { #symbol-api-lua-v5-generated-function-game-vitamins-set-abcda1ff00fd }
 
-**Contract fields:**
+```lua
+function game.vitamins.set(handle: GameHandle, id: GameId, amount: integer) -> CcbResult
+```
 
-- `class`: `"CcbVitaminsApi"`
-- `name`: `"set"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameHandle", "name": "handle", "optional": false}, {"declaration": "GameId", "name": "id", "optional": false}, {"declaration": "integer", "name": "amount", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.vitamins"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Required |
+| `id` | `GameId` | Required |
+| `amount` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9960,22 +10391,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.weather.clear_override` { #symbol-api-lua-v5-generated-function-game-weather-clear-override-f06987188327 }
 
-**Contract fields:**
+```lua
+function game.weather.clear_override() -> CcbResult
+```
 
-- `class`: `"CcbWeatherApi"`
-- `name`: `"clear_override"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.weather"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -9984,22 +10410,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.weather.clear_overrides` { #symbol-api-lua-v5-generated-function-game-weather-clear-overrides-c32e3aa2f911 }
 
-**Contract fields:**
+```lua
+function game.weather.clear_overrides() -> CcbResult
+```
 
-- `class`: `"CcbWeatherApi"`
-- `name`: `"clear_overrides"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.weather"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10008,22 +10429,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.weather.clear_temperature_override` { #symbol-api-lua-v5-generated-function-game-weather-clear-temperature-override-8cfcfaacc50d }
 
-**Contract fields:**
+```lua
+function game.weather.clear_temperature_override() -> CcbResult
+```
 
-- `class`: `"CcbWeatherApi"`
-- `name`: `"clear_temperature_override"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.weather"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10032,22 +10448,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.weather.current` { #symbol-api-lua-v5-generated-function-game-weather-current-eb4ac6c65de7 }
 
-**Contract fields:**
+```lua
+function game.weather.current() -> CcbCurrentWeather
+```
 
-- `class`: `"CcbWeatherApi"`
-- `name`: `"current"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbCurrentWeather"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.weather"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 72, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Returns:**
+
+- `CcbCurrentWeather`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10056,22 +10467,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.weather.forecast` { #symbol-api-lua-v5-generated-function-game-weather-forecast-e3d832c39730 }
 
-**Contract fields:**
+```lua
+function game.weather.forecast(options: CcbWeatherForecastOptions?) -> CcbWeatherForecast
+```
 
-- `class`: `"CcbWeatherApi"`
-- `name`: `"forecast"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbWeatherForecastOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbWeatherForecast"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.weather"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbWeatherForecastOptions` | Optional |
+
+**Returns:**
+
+- `CcbWeatherForecast`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10080,22 +10492,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.weather.generator` { #symbol-api-lua-v5-generated-function-game-weather-generator-ec1bae9ff9ba }
 
-**Contract fields:**
+```lua
+function game.weather.generator() -> CcbWeatherGenerator
+```
 
-- `class`: `"CcbWeatherApi"`
-- `name`: `"generator"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbWeatherGenerator"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.weather"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbWeatherGenerator`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10104,22 +10511,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.weather.limits` { #symbol-api-lua-v5-generated-function-game-weather-limits-1f1503d57e18 }
 
-**Contract fields:**
+```lua
+function game.weather.limits() -> CcbWeatherLimits
+```
 
-- `class`: `"CcbWeatherApi"`
-- `name`: `"limits"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbWeatherLimits"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.weather"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbWeatherLimits`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10128,22 +10530,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.weather.refresh` { #symbol-api-lua-v5-generated-function-game-weather-refresh-12e58390aa92 }
 
-**Contract fields:**
+```lua
+function game.weather.refresh() -> CcbResult
+```
 
-- `class`: `"CcbWeatherApi"`
-- `name`: `"refresh"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.weather"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10152,22 +10549,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.weather.set_override` { #symbol-api-lua-v5-generated-function-game-weather-set-override-35f6954e9942 }
 
-**Contract fields:**
+```lua
+function game.weather.set_override(id: GameId) -> CcbResult
+```
 
-- `class`: `"CcbWeatherApi"`
-- `name`: `"set_override"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.weather"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10176,22 +10574,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.weather.set_temperature_override` { #symbol-api-lua-v5-generated-function-game-weather-set-temperature-override-702e973efa6e }
 
-**Contract fields:**
+```lua
+function game.weather.set_temperature_override(temperature: UnitValue) -> CcbResult
+```
 
-- `class`: `"CcbWeatherApi"`
-- `name`: `"set_temperature_override"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "UnitValue", "name": "temperature", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.weather"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `temperature` | `UnitValue` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10200,22 +10599,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.weather.set_wind` { #symbol-api-lua-v5-generated-function-game-weather-set-wind-928f42ed4a43 }
 
-**Contract fields:**
+```lua
+function game.weather.set_wind(options: CcbWeatherWindOptions) -> CcbResult
+```
 
-- `class`: `"CcbWeatherApi"`
-- `name`: `"set_wind"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbWeatherWindOptions", "name": "options", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.weather"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbWeatherWindOptions` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10224,22 +10624,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.weather.type` { #symbol-api-lua-v5-generated-function-game-weather-type-1f8ea2624b9f }
 
-**Contract fields:**
+```lua
+function game.weather.type(id: GameId) -> CcbWeatherType
+```
 
-- `class`: `"CcbWeatherApi"`
-- `name`: `"type"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbWeatherType"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.weather"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbWeatherType`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10248,22 +10649,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.weather.types` { #symbol-api-lua-v5-generated-function-game-weather-types-0ffc9c0eb2b4 }
 
-**Contract fields:**
+```lua
+function game.weather.types(options: CcbWeatherListOptions?) -> table
+```
 
-- `class`: `"CcbWeatherApi"`
-- `name`: `"types"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbWeatherListOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.weather"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbWeatherListOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10272,22 +10674,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.weather_snapshot` { #symbol-api-lua-v5-generated-function-game-weather-snapshot-c421c0cedfdf }
 
-**Contract fields:**
+```lua
+function game.weather_snapshot() -> CcbWeatherSnapshot
+```
 
-- `class`: `"CcbGameApi"`
-- `name`: `"weather_snapshot"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbWeatherSnapshot"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbWeatherSnapshot`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10296,22 +10693,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.world.bounds` { #symbol-api-lua-v5-generated-function-game-world-bounds-28a8447b6fa2 }
 
-**Contract fields:**
+```lua
+function game.world.bounds() -> table
+```
 
-- `class`: `"CcbWorldApi"`
-- `name`: `"bounds"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.world"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10320,22 +10712,26 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.world.put_field` { #symbol-api-lua-v5-generated-function-game-world-put-field-a8ecd9242e83 }
 
-**Contract fields:**
+```lua
+function game.world.put_field(position: TripointCoord, field: GameId, intensity: integer, age: TimeDuration) -> CcbResult
+```
 
-- `class`: `"CcbWorldApi"`
-- `name`: `"put_field"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}, {"declaration": "GameId", "name": "field", "optional": false}, {"declaration": "integer", "name": "intensity", "optional": false}, {"declaration": "TimeDuration", "name": "age", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.world"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+| `field` | `GameId` | Required |
+| `intensity` | `integer` | Required |
+| `age` | `TimeDuration` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10344,22 +10740,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.world.region` { #symbol-api-lua-v5-generated-function-game-world-region-60849c478985 }
 
-**Contract fields:**
+```lua
+function game.world.region(center: TripointCoord, options: CcbWorldRegionOptions?) -> CcbResult
+```
 
-- `class`: `"CcbWorldApi"`
-- `name`: `"region"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "center", "optional": false}, {"declaration": "CcbWorldRegionOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.world"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `center` | `TripointCoord` | Required |
+| `options` | `CcbWorldRegionOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10368,22 +10766,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.world.remove_field` { #symbol-api-lua-v5-generated-function-game-world-remove-field-52f5577acc5e }
 
-**Contract fields:**
+```lua
+function game.world.remove_field(position: TripointCoord, field: GameId) -> CcbResult
+```
 
-- `class`: `"CcbWorldApi"`
-- `name`: `"remove_field"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}, {"declaration": "GameId", "name": "field", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.world"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+| `field` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10392,22 +10792,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.world.remove_item` { #symbol-api-lua-v5-generated-function-game-world-remove-item-ac118a77d476 }
 
-**Contract fields:**
+```lua
+function game.world.remove_item(position: TripointCoord, item: GameHandle) -> CcbResult
+```
 
-- `class`: `"CcbWorldApi"`
-- `name`: `"remove_item"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}, {"declaration": "GameHandle", "name": "item", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.world"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+| `item` | `GameHandle` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10416,22 +10818,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.world.set_furniture` { #symbol-api-lua-v5-generated-function-game-world-set-furniture-d6c6419268ee }
 
-**Contract fields:**
+```lua
+function game.world.set_furniture(position: TripointCoord, furniture: GameId?) -> CcbResult
+```
 
-- `class`: `"CcbWorldApi"`
-- `name`: `"set_furniture"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}, {"declaration": "GameId?", "name": "furniture", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.world"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+| `furniture` | `GameId?` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10440,22 +10844,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.world.set_terrain` { #symbol-api-lua-v5-generated-function-game-world-set-terrain-5e9fbed374e3 }
 
-**Contract fields:**
+```lua
+function game.world.set_terrain(position: TripointCoord, terrain: GameId) -> CcbResult
+```
 
-- `class`: `"CcbWorldApi"`
-- `name`: `"set_terrain"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}, {"declaration": "GameId", "name": "terrain", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.world"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+| `terrain` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10464,22 +10870,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.world.set_trap` { #symbol-api-lua-v5-generated-function-game-world-set-trap-57b1afd4c57a }
 
-**Contract fields:**
+```lua
+function game.world.set_trap(position: TripointCoord, trap: GameId?) -> CcbResult
+```
 
-- `class`: `"CcbWorldApi"`
-- `name`: `"set_trap"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}, {"declaration": "GameId?", "name": "trap", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.world"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+| `trap` | `GameId?` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10488,22 +10896,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.world.spawn_item` { #symbol-api-lua-v5-generated-function-game-world-spawn-item-47378cd33d77 }
 
-**Contract fields:**
+```lua
+function game.world.spawn_item(position: TripointCoord, item: GameId, quantity: integer) -> CcbResult
+```
 
-- `class`: `"CcbWorldApi"`
-- `name`: `"spawn_item"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}, {"declaration": "GameId", "name": "item", "optional": false}, {"declaration": "integer", "name": "quantity", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.world"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+| `item` | `GameId` | Required |
+| `quantity` | `integer` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10512,22 +10923,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.world.tile` { #symbol-api-lua-v5-generated-function-game-world-tile-66fc2e8344d1 }
 
-**Contract fields:**
+```lua
+function game.world.tile(position: TripointCoord, options: CcbWorldTileOptions?) -> CcbResult
+```
 
-- `class`: `"CcbWorldApi"`
-- `name`: `"tile"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}, {"declaration": "CcbWorldTileOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.world"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+| `options` | `CcbWorldTileOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10536,22 +10949,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.world.to_absolute` { #symbol-api-lua-v5-generated-function-game-world-to-absolute-2c013575eae5 }
 
-**Contract fields:**
+```lua
+function game.world.to_absolute(position: TripointCoord) -> TripointCoord
+```
 
-- `class`: `"CcbWorldApi"`
-- `name`: `"to_absolute"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.world"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10560,22 +10974,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.world.to_bubble` { #symbol-api-lua-v5-generated-function-game-world-to-bubble-34d5ea03d206 }
 
-**Contract fields:**
+```lua
+function game.world.to_bubble(position: TripointCoord) -> TripointCoord
+```
 
-- `class`: `"CcbWorldApi"`
-- `name`: `"to_bubble"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.world"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+
+**Returns:**
+
+- `TripointCoord`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10584,22 +10999,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.world.vehicles` { #symbol-api-lua-v5-generated-function-game-world-vehicles-f8d1122e418b }
 
-**Contract fields:**
+```lua
+function game.world.vehicles(options: CcbWorldVehicleOptions?) -> CcbResult
+```
 
-- `class`: `"CcbWorldApi"`
-- `name`: `"vehicles"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbWorldVehicleOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.world"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbWorldVehicleOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10608,22 +11024,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.zones.at` { #symbol-api-lua-v5-generated-function-game-zones-at-ff38ba9cf937 }
 
-**Contract fields:**
+```lua
+function game.zones.at(position: TripointCoord, options: CcbZoneListOptions?) -> CcbResult
+```
 
-- `class`: `"CcbZonesApi"`
-- `name`: `"at"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "position", "optional": false}, {"declaration": "CcbZoneListOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.zones"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Required |
+| `options` | `CcbZoneListOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10632,22 +11050,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.zones.contains` { #symbol-api-lua-v5-generated-function-game-zones-contains-c952b9e57797 }
 
-**Contract fields:**
+```lua
+function game.zones.contains(token: ZoneToken, position: TripointCoord) -> CcbResult
+```
 
-- `class`: `"CcbZonesApi"`
-- `name`: `"contains"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "ZoneToken", "name": "token", "optional": false}, {"declaration": "TripointCoord", "name": "position", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.zones"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `token` | `ZoneToken` | Required |
+| `position` | `TripointCoord` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10656,22 +11076,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.zones.create` { #symbol-api-lua-v5-generated-function-game-zones-create-08bd19c741e7 }
 
-**Contract fields:**
+```lua
+function game.zones.create(options: CcbZoneCreateOptions) -> CcbResult
+```
 
-- `class`: `"CcbZonesApi"`
-- `name`: `"create"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbZoneCreateOptions", "name": "options", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.zones"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbZoneCreateOptions` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10680,22 +11101,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.zones.get` { #symbol-api-lua-v5-generated-function-game-zones-get-4556af0f99ba }
 
-**Contract fields:**
+```lua
+function game.zones.get(token: ZoneToken) -> CcbResult
+```
 
-- `class`: `"CcbZonesApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "ZoneToken", "name": "token", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.zones"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `token` | `ZoneToken` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10704,22 +11126,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.zones.list` { #symbol-api-lua-v5-generated-function-game-zones-list-0c9ed35916c4 }
 
-**Contract fields:**
+```lua
+function game.zones.list(options: CcbZoneListOptions?) -> CcbResult
+```
 
-- `class`: `"CcbZonesApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbZoneListOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.zones"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbZoneListOptions` | Optional |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10728,22 +11151,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.zones.remove` { #symbol-api-lua-v5-generated-function-game-zones-remove-765118dc1588 }
 
-**Contract fields:**
+```lua
+function game.zones.remove(token: ZoneToken) -> CcbResult
+```
 
-- `class`: `"CcbZonesApi"`
-- `name`: `"remove"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "ZoneToken", "name": "token", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.zones"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `token` | `ZoneToken` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10752,22 +11176,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.zones.rename` { #symbol-api-lua-v5-generated-function-game-zones-rename-366e4da2a840 }
 
-**Contract fields:**
+```lua
+function game.zones.rename(token: ZoneToken, name: string) -> CcbResult
+```
 
-- `class`: `"CcbZonesApi"`
-- `name`: `"rename"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "ZoneToken", "name": "token", "optional": false}, {"declaration": "string", "name": "name", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.zones"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `token` | `ZoneToken` | Required |
+| `name` | `string` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10776,22 +11202,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.zones.set_enabled` { #symbol-api-lua-v5-generated-function-game-zones-set-enabled-2c3b025d2c35 }
 
-**Contract fields:**
+```lua
+function game.zones.set_enabled(token: ZoneToken, enabled: boolean) -> CcbResult
+```
 
-- `class`: `"CcbZonesApi"`
-- `name`: `"set_enabled"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "ZoneToken", "name": "token", "optional": false}, {"declaration": "boolean", "name": "enabled", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.zones"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `token` | `ZoneToken` | Required |
+| `enabled` | `boolean` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10800,22 +11228,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.zones.set_position` { #symbol-api-lua-v5-generated-function-game-zones-set-position-fa9606aebe81 }
 
-**Contract fields:**
+```lua
+function game.zones.set_position(token: ZoneToken, start: TripointCoord, end_pos: TripointCoord) -> CcbResult
+```
 
-- `class`: `"CcbZonesApi"`
-- `name`: `"set_position"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "ZoneToken", "name": "token", "optional": false}, {"declaration": "TripointCoord", "name": "start", "optional": false}, {"declaration": "TripointCoord", "name": "end_pos", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.zones"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `token` | `ZoneToken` | Required |
+| `start` | `TripointCoord` | Required |
+| `end_pos` | `TripointCoord` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10824,22 +11255,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.zones.set_temporary_disabled` { #symbol-api-lua-v5-generated-function-game-zones-set-temporary-disabled-87ae5cfbad71 }
 
-**Contract fields:**
+```lua
+function game.zones.set_temporary_disabled(token: ZoneToken, disabled: boolean) -> CcbResult
+```
 
-- `class`: `"CcbZonesApi"`
-- `name`: `"set_temporary_disabled"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "ZoneToken", "name": "token", "optional": false}, {"declaration": "boolean", "name": "disabled", "optional": false}]`
-- `returns`: `[{"declaration": "CcbResult"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.zones"`
-- `capabilities`: `["game.write"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `token` | `ZoneToken` | Required |
+| `disabled` | `boolean` | Required |
+
+**Returns:**
+
+- `CcbResult`
+
+🛡️ **Required Capabilities:** `game.write`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10848,22 +11281,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.zones.type` { #symbol-api-lua-v5-generated-function-game-zones-type-9787ae635273 }
 
-**Contract fields:**
+```lua
+function game.zones.type(id: GameId) -> CcbZoneType
+```
 
-- `class`: `"CcbZonesApi"`
-- `name`: `"type"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "GameId", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbZoneType"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.zones"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Required |
+
+**Returns:**
+
+- `CcbZoneType`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10872,22 +11306,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.zones.types` { #symbol-api-lua-v5-generated-function-game-zones-types-b63a2a02a29f }
 
-**Contract fields:**
+```lua
+function game.zones.types(options: CcbDefinitionSearchOptions?) -> table
+```
 
-- `class`: `"CcbZonesApi"`
-- `name`: `"types"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbDefinitionSearchOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "table"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"game.zones"`
-- `capabilities`: `["game.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `options` | `CcbDefinitionSearchOptions` | Optional |
+
+**Returns:**
+
+- `table`
+
+🛡️ **Required Capabilities:** `game.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10896,22 +11331,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `i18n.gettext` { #symbol-api-lua-v5-generated-function-i18n-gettext-b32e3a160759 }
 
-**Contract fields:**
+```lua
+function i18n.gettext(message: string) -> string
+```
 
-- `class`: `"CcbI18nApi"`
-- `name`: `"gettext"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "message", "optional": false}]`
-- `returns`: `[{"declaration": "string"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"i18n"`
-- `capabilities`: `[]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.adaptive_page_v3.lua", "line": 4, "path": "data/lua/examples/adaptive_page_v3.lua"}, {"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 32, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `message` | `string` | Required |
+
+**Returns:**
+
+- `string`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10920,22 +11354,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `i18n.language_revision` { #symbol-api-lua-v5-generated-function-i18n-language-revision-2dff8274bcf4 }
 
-**Contract fields:**
+```lua
+function i18n.language_revision() -> integer
+```
 
-- `class`: `"CcbI18nApi"`
-- `name`: `"language_revision"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "integer"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"i18n"`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `integer`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10944,22 +11371,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `i18n.ngettext` { #symbol-api-lua-v5-generated-function-i18n-ngettext-5ed11322e25a }
 
-**Contract fields:**
+```lua
+function i18n.ngettext(singular: string, plural: string, count: integer) -> string
+```
 
-- `class`: `"CcbI18nApi"`
-- `name`: `"ngettext"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "singular", "optional": false}, {"declaration": "string", "name": "plural", "optional": false}, {"declaration": "integer", "name": "count", "optional": false}]`
-- `returns`: `[{"declaration": "string"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"i18n"`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `singular` | `string` | Required |
+| `plural` | `string` | Required |
+| `count` | `integer` | Required |
+
+**Returns:**
+
+- `string`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10968,22 +11396,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `i18n.npgettext` { #symbol-api-lua-v5-generated-function-i18n-npgettext-11d9e7bc3f0b }
 
-**Contract fields:**
+```lua
+function i18n.npgettext(context: string, singular: string, plural: string, count: integer) -> string
+```
 
-- `class`: `"CcbI18nApi"`
-- `name`: `"npgettext"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "context", "optional": false}, {"declaration": "string", "name": "singular", "optional": false}, {"declaration": "string", "name": "plural", "optional": false}, {"declaration": "integer", "name": "count", "optional": false}]`
-- `returns`: `[{"declaration": "string"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"i18n"`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `context` | `string` | Required |
+| `singular` | `string` | Required |
+| `plural` | `string` | Required |
+| `count` | `integer` | Required |
+
+**Returns:**
+
+- `string`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -10992,22 +11422,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `i18n.pgettext` { #symbol-api-lua-v5-generated-function-i18n-pgettext-eec389e4c36b }
 
-**Contract fields:**
+```lua
+function i18n.pgettext(context: string, message: string) -> string
+```
 
-- `class`: `"CcbI18nApi"`
-- `name`: `"pgettext"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "context", "optional": false}, {"declaration": "string", "name": "message", "optional": false}]`
-- `returns`: `[{"declaration": "string"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"i18n"`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `context` | `string` | Required |
+| `message` | `string` | Required |
+
+**Returns:**
+
+- `string`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11016,22 +11446,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `modules.import` { #symbol-api-lua-v5-generated-function-modules-import-63fa9d6b4b77 }
 
-**Contract fields:**
+```lua
+function modules.import(provider_id: string, module_name: string) -> any exports
+```
 
-- `class`: `"CcbModulesApi"`
-- `name`: `"import"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "provider_id", "optional": false}, {"declaration": "string", "name": "module_name", "optional": false}]`
-- `returns`: `[{"declaration": "any exports"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"modules"`
-- `capabilities`: `["modules.import"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `provider_id` | `string` | Required |
+| `module_name` | `string` | Required |
+
+**Returns:**
+
+- `any exports`
+
+🛡️ **Required Capabilities:** `modules.import`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11040,22 +11472,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `modules.source_id` { #symbol-api-lua-v5-generated-function-modules-source-id-a1902e89e98e }
 
-**Contract fields:**
+```lua
+function modules.source_id() -> string source_id
+```
 
-- `class`: `"CcbModulesApi"`
-- `name`: `"source_id"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "string source_id"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"modules"`
-- `capabilities`: `[]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 2, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Returns:**
+
+- `string source_id`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11064,22 +11489,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `registry.get` { #symbol-api-lua-v5-generated-function-registry-get-dd2331e201bb }
 
-**Contract fields:**
+```lua
+function registry.get(kind: CcbRegistryKind, id: string) -> CcbRegistryDefinition?
+```
 
-- `class`: `"CcbRegistryApi"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbRegistryKind", "name": "kind", "optional": false}, {"declaration": "string", "name": "id", "optional": false}]`
-- `returns`: `[{"declaration": "CcbRegistryDefinition?"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"registry"`
-- `capabilities`: `["game.read", "registry.read"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `kind` | `CcbRegistryKind` | Required |
+| `id` | `string` | Required |
+
+**Returns:**
+
+- `CcbRegistryDefinition?`
+
+🛡️ **Required Capabilities:** `game.read`, `registry.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11088,22 +11515,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `registry.kinds` { #symbol-api-lua-v5-generated-function-registry-kinds-c00492d334b4 }
 
-**Contract fields:**
+```lua
+function registry.kinds() -> CcbRegistryKind[]
+```
 
-- `class`: `"CcbRegistryApi"`
-- `name`: `"kinds"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbRegistryKind[]"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"registry"`
-- `capabilities`: `["game.read", "registry.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbRegistryKind[]`
+
+🛡️ **Required Capabilities:** `game.read`, `registry.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11112,22 +11534,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `registry.list` { #symbol-api-lua-v5-generated-function-registry-list-b0890c9d911a }
 
-**Contract fields:**
+```lua
+function registry.list(kind: CcbRegistryKind, options: CcbRegistryListOptions?) -> CcbRegistryPage
+```
 
-- `class`: `"CcbRegistryApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbRegistryKind", "name": "kind", "optional": false}, {"declaration": "CcbRegistryListOptions", "name": "options", "optional": true}]`
-- `returns`: `[{"declaration": "CcbRegistryPage"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"registry"`
-- `capabilities`: `["game.read", "registry.read"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 103, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `kind` | `CcbRegistryKind` | Required |
+| `options` | `CcbRegistryListOptions` | Optional |
+
+**Returns:**
+
+- `CcbRegistryPage`
+
+🛡️ **Required Capabilities:** `game.read`, `registry.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11136,22 +11560,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `registry.revision` { #symbol-api-lua-v5-generated-function-registry-revision-437a507d7c7c }
 
-**Contract fields:**
+```lua
+function registry.revision() -> integer
+```
 
-- `class`: `"CcbRegistryApi"`
-- `name`: `"revision"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "integer"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"registry"`
-- `capabilities`: `["game.read", "registry.read"]`
-- `examples`: `[]`
+**Returns:**
+
+- `integer`
+
+🛡️ **Required Capabilities:** `game.read`, `registry.read`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11160,22 +11579,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `require` { #symbol-api-lua-v5-generated-function-require-26474cb16e32 }
 
-**Contract fields:**
+```lua
+function _G.require(module_name: string) -> any exported_value
+```
 
-- `namespace`: `"_G"`
-- `class`: `null`
-- `name`: `"require"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "module_name", "optional": false}]`
-- `returns`: `[{"declaration": "any exported_value"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["invalid module name, source context, cycle, or load failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 1, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `module_name` | `string` | Required |
+
+**Returns:**
+
+- `any exported_value`
+
+⚠️ **Error Handling:** `lua-error` (invalid module name, source context, cycle, or load failure)
 
 **Sources:**
 
@@ -11183,22 +11601,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `scheduler.after` { #symbol-api-lua-v5-generated-function-scheduler-after-aeeb1757a3fb }
 
-**Contract fields:**
+```lua
+function scheduler.after(delay_turns: integer, callback: fun(task_id: integer, now_turn: integer, due_turn: integer): boolean?) -> integer task_id
+```
 
-- `class`: `"CcbSchedulerApi"`
-- `name`: `"after"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "delay_turns", "optional": false}, {"declaration": "fun(task_id: integer, now_turn: integer, due_turn: integer): boolean?", "name": "callback", "optional": false}]`
-- `returns`: `[{"declaration": "integer task_id"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"scheduler"`
-- `capabilities`: `["scheduler"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 41, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `delay_turns` | `integer` | Required |
+| `callback` | `fun(task_id: integer, now_turn: integer, due_turn: integer): boolean?` | Required |
+
+**Returns:**
+
+- `integer task_id`
+
+🛡️ **Required Capabilities:** `scheduler`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11207,22 +11627,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `scheduler.cancel` { #symbol-api-lua-v5-generated-function-scheduler-cancel-fbaea296dd07 }
 
-**Contract fields:**
+```lua
+function scheduler.cancel(task_id: integer) -> boolean canceled
+```
 
-- `class`: `"CcbSchedulerApi"`
-- `name`: `"cancel"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "task_id", "optional": false}]`
-- `returns`: `[{"declaration": "boolean canceled"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"scheduler"`
-- `capabilities`: `["scheduler"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `task_id` | `integer` | Required |
+
+**Returns:**
+
+- `boolean canceled`
+
+🛡️ **Required Capabilities:** `scheduler`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11231,22 +11652,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `scheduler.every` { #symbol-api-lua-v5-generated-function-scheduler-every-dfe33a911373 }
 
-**Contract fields:**
+```lua
+function scheduler.every(interval_turns: integer, callback: fun(task_id: integer, now_turn: integer, due_turn: integer): boolean?) -> integer task_id
+```
 
-- `class`: `"CcbSchedulerApi"`
-- `name`: `"every"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "interval_turns", "optional": false}, {"declaration": "fun(task_id: integer, now_turn: integer, due_turn: integer): boolean?", "name": "callback", "optional": false}]`
-- `returns`: `[{"declaration": "integer task_id"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"scheduler"`
-- `capabilities`: `["scheduler"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `interval_turns` | `integer` | Required |
+| `callback` | `fun(task_id: integer, now_turn: integer, due_turn: integer): boolean?` | Required |
+
+**Returns:**
+
+- `integer task_id`
+
+🛡️ **Required Capabilities:** `scheduler`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11255,22 +11678,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `scheduler.now` { #symbol-api-lua-v5-generated-function-scheduler-now-a1d10403c735 }
 
-**Contract fields:**
+```lua
+function scheduler.now() -> integer turn
+```
 
-- `class`: `"CcbSchedulerApi"`
-- `name`: `"now"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "integer turn"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"scheduler"`
-- `capabilities`: `["scheduler"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 38, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Returns:**
+
+- `integer turn`
+
+🛡️ **Required Capabilities:** `scheduler`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11279,22 +11697,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `services.available` { #symbol-api-lua-v5-generated-function-services-available-ecd034b56220 }
 
-**Contract fields:**
+```lua
+function services.available(provider_id: string, service_name: string, minimum_version: integer?) -> boolean
+```
 
-- `class`: `"CcbServicesApi"`
-- `name`: `"available"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "provider_id", "optional": false}, {"declaration": "string", "name": "service_name", "optional": false}, {"declaration": "integer", "name": "minimum_version", "optional": true}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"services"`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `provider_id` | `string` | Required |
+| `service_name` | `string` | Required |
+| `minimum_version` | `integer` | Optional |
+
+**Returns:**
+
+- `boolean`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11303,22 +11722,26 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `services.call` { #symbol-api-lua-v5-generated-function-services-call-ffe6a017572c }
 
-**Contract fields:**
+```lua
+function services.call(provider_id: string, service_name: string, method_name: string, arguments: CcbScalarMap?) -> CcbScalarMap
+```
 
-- `class`: `"CcbServicesApi"`
-- `name`: `"call"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "provider_id", "optional": false}, {"declaration": "string", "name": "service_name", "optional": false}, {"declaration": "string", "name": "method_name", "optional": false}, {"declaration": "CcbScalarMap", "name": "arguments", "optional": true}]`
-- `returns`: `[{"declaration": "CcbScalarMap"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"services"`
-- `capabilities`: `["services.consume"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 61, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `provider_id` | `string` | Required |
+| `service_name` | `string` | Required |
+| `method_name` | `string` | Required |
+| `arguments` | `CcbScalarMap` | Optional |
+
+**Returns:**
+
+- `CcbScalarMap`
+
+🛡️ **Required Capabilities:** `services.consume`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11327,22 +11750,15 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `services.list` { #symbol-api-lua-v5-generated-function-services-list-6500f1493f39 }
 
-**Contract fields:**
+```lua
+function services.list() -> CcbServiceInfo[]
+```
 
-- `class`: `"CcbServicesApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbServiceInfo[]"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"services"`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbServiceInfo[]`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11351,22 +11767,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `services.provide` { #symbol-api-lua-v5-generated-function-services-provide-dc13a9af2c74 }
 
-**Contract fields:**
+```lua
+function services.provide(name: string, descriptor: CcbServiceDescriptor)
+```
 
-- `class`: `"CcbServicesApi"`
-- `name`: `"provide"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "name", "optional": false}, {"declaration": "CcbServiceDescriptor", "name": "descriptor", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"services"`
-- `capabilities`: `["services.provide"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 4, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `name` | `string` | Required |
+| `descriptor` | `CcbServiceDescriptor` | Required |
+
+🛡️ **Required Capabilities:** `services.provide`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11375,22 +11789,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `sidebar.clear_widgets` { #symbol-api-lua-v5-generated-function-sidebar-clear-widgets-ddbd6cd0e994 }
 
-**Contract fields:**
+```lua
+function sidebar.clear_widgets() -> integer removed
+```
 
-- `class`: `"CcbSidebarApi"`
-- `name`: `"clear_widgets"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "integer removed"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"sidebar"`
-- `capabilities`: `["ui.pages"]`
-- `examples`: `[]`
+**Returns:**
+
+- `integer removed`
+
+🛡️ **Required Capabilities:** `ui.pages`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11399,22 +11808,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `sidebar.get_layout_id` { #symbol-api-lua-v5-generated-function-sidebar-get-layout-id-8077945d6806 }
 
-**Contract fields:**
+```lua
+function sidebar.get_layout_id() -> string
+```
 
-- `class`: `"CcbSidebarApi"`
-- `name`: `"get_layout_id"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "string"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"sidebar"`
-- `capabilities`: `["ui.pages"]`
-- `examples`: `[]`
+**Returns:**
+
+- `string`
+
+🛡️ **Required Capabilities:** `ui.pages`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11423,22 +11827,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `sidebar.limits` { #symbol-api-lua-v5-generated-function-sidebar-limits-0d1010296b2f }
 
-**Contract fields:**
+```lua
+function sidebar.limits() -> CcbSidebarLimits
+```
 
-- `class`: `"CcbSidebarApi"`
-- `name`: `"limits"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbSidebarLimits"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"sidebar"`
-- `capabilities`: `["ui.pages"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbSidebarLimits`
+
+🛡️ **Required Capabilities:** `ui.pages`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11447,22 +11846,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `sidebar.list` { #symbol-api-lua-v5-generated-function-sidebar-list-98436166eda6 }
 
-**Contract fields:**
+```lua
+function sidebar.list() -> CcbSidebarWidgetInfo[]
+```
 
-- `class`: `"CcbSidebarApi"`
-- `name`: `"list"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[{"declaration": "CcbSidebarWidgetInfo[]"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"sidebar"`
-- `capabilities`: `["ui.pages"]`
-- `examples`: `[]`
+**Returns:**
+
+- `CcbSidebarWidgetInfo[]`
+
+🛡️ **Required Capabilities:** `ui.pages`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11471,22 +11865,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `sidebar.off` { #symbol-api-lua-v5-generated-function-sidebar-off-5a86ca4cba11 }
 
-**Contract fields:**
+```lua
+function sidebar.off(registration_id: integer) -> boolean removed
+```
 
-- `class`: `"CcbSidebarApi"`
-- `name`: `"off"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "integer", "name": "registration_id", "optional": false}]`
-- `returns`: `[{"declaration": "boolean removed"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"sidebar"`
-- `capabilities`: `["ui.pages"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `registration_id` | `integer` | Required |
+
+**Returns:**
+
+- `boolean removed`
+
+🛡️ **Required Capabilities:** `ui.pages`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11495,22 +11890,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `sidebar.register` { #symbol-api-lua-v5-generated-function-sidebar-register-6afe96c9421c }
 
-**Contract fields:**
+```lua
+function sidebar.register(descriptor: CcbSidebarWidgetDescriptor) -> integer registration_id
+```
 
-- `class`: `"CcbSidebarApi"`
-- `name`: `"register"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbSidebarWidgetDescriptor", "name": "descriptor", "optional": false}]`
-- `returns`: `[{"declaration": "integer registration_id"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"sidebar"`
-- `capabilities`: `["ui.pages"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 140, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `descriptor` | `CcbSidebarWidgetDescriptor` | Required |
+
+**Returns:**
+
+- `integer registration_id`
+
+🛡️ **Required Capabilities:** `ui.pages`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11519,22 +11915,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `sidebar.register_widget` { #symbol-api-lua-v5-generated-function-sidebar-register-widget-96f0d012938c }
 
-**Contract fields:**
+```lua
+function sidebar.register_widget(descriptor: CcbSidebarWidgetDescriptor) -> integer registration_id
+```
 
-- `class`: `"CcbSidebarApi"`
-- `name`: `"register_widget"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "CcbSidebarWidgetDescriptor", "name": "descriptor", "optional": false}]`
-- `returns`: `[{"declaration": "integer registration_id"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"sidebar"`
-- `capabilities`: `["ui.pages"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 140, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `descriptor` | `CcbSidebarWidgetDescriptor` | Required |
+
+**Returns:**
+
+- `integer registration_id`
+
+🛡️ **Required Capabilities:** `ui.pages`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11543,22 +11940,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `state.character.get` { #symbol-api-lua-v5-generated-function-state-character-get-2cd771e0a494 }
 
-**Contract fields:**
+```lua
+function state.character.get(key: string, default: T) -> T
+```
 
-- `class`: `"CcbStateStore"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "key", "optional": false}, {"declaration": "T", "name": "default", "optional": false}]`
-- `returns`: `[{"declaration": "T"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"state.character"`
-- `capabilities`: `["state.character"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.adaptive_page_v3.lua", "line": 36, "path": "data/lua/examples/adaptive_page_v3.lua"}, {"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 9, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `key` | `string` | Required |
+| `default` | `T` | Required |
+
+**Returns:**
+
+- `T`
+
+🛡️ **Required Capabilities:** `state.character`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11567,22 +11966,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `state.character.set` { #symbol-api-lua-v5-generated-function-state-character-set-2baf842c1d6e }
 
-**Contract fields:**
+```lua
+function state.character.set(key: string, value: CcbScalar|nil)
+```
 
-- `class`: `"CcbStateStore"`
-- `name`: `"set"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "key", "optional": false}, {"declaration": "CcbScalar|nil", "name": "value", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"state.character"`
-- `capabilities`: `["state.character"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.adaptive_page_v3.lua", "line": 50, "path": "data/lua/examples/adaptive_page_v3.lua"}, {"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 16, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `key` | `string` | Required |
+| `value` | `CcbScalar|nil` | Required |
+
+🛡️ **Required Capabilities:** `state.character`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11591,22 +11988,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `state.page.get` { #symbol-api-lua-v5-generated-function-state-page-get-896b50b40ba5 }
 
-**Contract fields:**
+```lua
+function state.page.get(key: string, default: T) -> T
+```
 
-- `class`: `"CcbStateStore"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "key", "optional": false}, {"declaration": "T", "name": "default", "optional": false}]`
-- `returns`: `[{"declaration": "T"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"state.page"`
-- `capabilities`: `["state.page"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.adaptive_page_v3.lua", "line": 37, "path": "data/lua/examples/adaptive_page_v3.lua"}, {"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 81, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `key` | `string` | Required |
+| `default` | `T` | Required |
+
+**Returns:**
+
+- `T`
+
+🛡️ **Required Capabilities:** `state.page`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11615,22 +12014,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `state.page.set` { #symbol-api-lua-v5-generated-function-state-page-set-1e24d18761d6 }
 
-**Contract fields:**
+```lua
+function state.page.set(key: string, value: CcbScalar|nil)
+```
 
-- `class`: `"CcbStateStore"`
-- `name`: `"set"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "key", "optional": false}, {"declaration": "CcbScalar|nil", "name": "value", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"state.page"`
-- `capabilities`: `["state.page"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.adaptive_page_v3.lua", "line": 39, "path": "data/lua/examples/adaptive_page_v3.lua"}, {"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 87, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `key` | `string` | Required |
+| `value` | `CcbScalar|nil` | Required |
+
+🛡️ **Required Capabilities:** `state.page`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11639,22 +12036,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `state.world.get` { #symbol-api-lua-v5-generated-function-state-world-get-d5a1d576135b }
 
-**Contract fields:**
+```lua
+function state.world.get(key: string, default: T) -> T
+```
 
-- `class`: `"CcbStateStore"`
-- `name`: `"get"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "key", "optional": false}, {"declaration": "T", "name": "default", "optional": false}]`
-- `returns`: `[{"declaration": "T"}]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"state.world"`
-- `capabilities`: `["state.world"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `key` | `string` | Required |
+| `default` | `T` | Required |
+
+**Returns:**
+
+- `T`
+
+🛡️ **Required Capabilities:** `state.world`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11663,22 +12062,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `state.world.set` { #symbol-api-lua-v5-generated-function-state-world-set-0f5ef7f571e0 }
 
-**Contract fields:**
+```lua
+function state.world.set(key: string, value: CcbScalar|nil)
+```
 
-- `class`: `"CcbStateStore"`
-- `name`: `"set"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "key", "optional": false}, {"declaration": "CcbScalar|nil", "name": "value", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"state.world"`
-- `capabilities`: `["state.world"]`
-- `examples`: `[]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `key` | `string` | Required |
+| `value` | `CcbScalar|nil` | Required |
+
+🛡️ **Required Capabilities:** `state.world`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11687,22 +12084,13 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ui.back` { #symbol-api-lua-v5-generated-function-ui-back-051794fc12be }
 
-**Contract fields:**
+```lua
+function ui.back()
+```
 
-- `class`: `"CcbUiApi"`
-- `name`: `"back"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"ui"`
-- `capabilities`: `["ui.pages"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.adaptive_page_v3.lua", "line": 16, "path": "data/lua/examples/adaptive_page_v3.lua"}]`
+🛡️ **Required Capabilities:** `ui.pages`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11711,22 +12099,13 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ui.close` { #symbol-api-lua-v5-generated-function-ui-close-648c6aa07cc9 }
 
-**Contract fields:**
+```lua
+function ui.close()
+```
 
-- `class`: `"CcbUiApi"`
-- `name`: `"close"`
-- `style`: `"function"`
-- `parameters`: `[]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"ui"`
-- `capabilities`: `["ui.pages"]`
-- `examples`: `[]`
+🛡️ **Required Capabilities:** `ui.pages`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11735,22 +12114,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ui.open` { #symbol-api-lua-v5-generated-function-ui-open-ff3709cde709 }
 
-**Contract fields:**
+```lua
+function ui.open(page_id: string, params: CcbScalarMap?)
+```
 
-- `class`: `"CcbUiApi"`
-- `name`: `"open"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "page_id", "optional": false}, {"declaration": "CcbScalarMap", "name": "params", "optional": true}]`
-- `returns`: `[]`
-- `overloads`: `[]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"ui"`
-- `capabilities`: `["ui.pages"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.adaptive_page_v3.lua", "line": 52, "path": "data/lua/examples/adaptive_page_v3.lua"}, {"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 137, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `page_id` | `string` | Required |
+| `params` | `CcbScalarMap` | Optional |
+
+🛡️ **Required Capabilities:** `ui.pages`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 
@@ -11759,22 +12136,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ui.page` { #symbol-api-lua-v5-generated-function-ui-page-944413f33a24 }
 
-**Contract fields:**
+```lua
+function ui.page(id: string, descriptor: CcbPageDescriptor, draw: fun(ctx: ScriptUiContext, params: CcbScalarMap) ctx is valid only for this invocation)
+```
 
-- `class`: `"CcbUiApi"`
-- `name`: `"page"`
-- `style`: `"function"`
-- `parameters`: `[{"declaration": "string", "name": "id", "optional": false}, {"declaration": "CcbPageDescriptor", "name": "descriptor", "optional": false}, {"declaration": "fun(ctx: ScriptUiContext, params: CcbScalarMap) ctx is valid only for this invocation", "name": "draw", "optional": false}]`
-- `returns`: `[]`
-- `overloads`: `["fun(id: string, title: string, draw: fun(ctx: ScriptUiContext, params: CcbScalarMap))"]`
-- `errors`: `{"conditions": ["capability, validation, lifecycle, or native operation failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `namespace`: `"ui"`
-- `capabilities`: `["ui.pages"]`
-- `examples`: `[{"id": "lua-example.data.lua.examples.adaptive_page_v3.lua", "line": 7, "path": "data/lua/examples/adaptive_page_v3.lua"}, {"id": "lua-example.data.lua.examples.api_v5_mod.lua.main.lua", "line": 51, "path": "data/lua/examples/api_v5_mod/lua/main.lua"}]`
+**Parameters:**
+
+| Parameter | Type | Requirement |
+| :--- | :--- | :--- |
+| `id` | `string` | Required |
+| `descriptor` | `CcbPageDescriptor` | Required |
+| `draw` | `fun(ctx: ScriptUiContext, params: CcbScalarMap) ctx is valid only for this invocation` | Required |
+
+🛡️ **Required Capabilities:** `ui.pages`
+
+⚠️ **Error Handling:** `lua-error` (capability, validation, lifecycle, or native operation failure)
 
 **Sources:**
 

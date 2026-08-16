@@ -1,5 +1,71 @@
 [
   {
+    "id": "api.lua.cookbook.items",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/items/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/items/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/items/"
+    }
+  },
+  {
+    "id": "api.lua.cookbook.items",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/items/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/items/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/items/"
+    }
+  },
+  {
+    "id": "api.lua.cookbook.mapgen",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/mapgen/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/mapgen/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/mapgen/"
+    }
+  },
+  {
+    "id": "api.lua.cookbook.mapgen",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/mapgen/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/mapgen/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/mapgen/"
+    }
+  },
+  {
+    "id": "api.lua.cookbook.monsters",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/monsters/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/monsters/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/monsters/"
+    }
+  },
+  {
+    "id": "api.lua.cookbook.monsters",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/monsters/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/monsters/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/monsters/"
+    }
+  },
+  {
     "id": "api.lua.v5.capabilities",
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/",
@@ -550,6 +616,28 @@
     }
   },
   {
+    "id": "architecture.core-engine-lifecycle",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/core-engine-lifecycle/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/core-engine-lifecycle/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/core-engine-lifecycle/"
+    }
+  },
+  {
+    "id": "architecture.core-engine-lifecycle",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/core-engine-lifecycle/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/core-engine-lifecycle/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/core-engine-lifecycle/"
+    }
+  },
+  {
     "id": "architecture.design-principles",
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/design-principles/",
@@ -638,6 +726,28 @@
     }
   },
   {
+    "id": "architecture.subsystems-deep-dive",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystems-deep-dive/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystems-deep-dive/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystems-deep-dive/"
+    }
+  },
+  {
+    "id": "architecture.subsystems-deep-dive",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystems-deep-dive/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystems-deep-dive/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystems-deep-dive/"
+    }
+  },
+  {
     "id": "build.overview",
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/",
@@ -723,6 +833,28 @@
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/ai-assisted-development/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/ai-assisted-development/"
+    }
+  },
+  {
+    "id": "contributing.core-dev-guide",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/core-dev-guide/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/core-dev-guide/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/core-dev-guide/"
+    }
+  },
+  {
+    "id": "contributing.core-dev-guide",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/core-dev-guide/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/core-dev-guide/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/core-dev-guide/"
     }
   },
   {
@@ -1119,6 +1251,28 @@
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/mutations/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/mutations/"
+    }
+  },
+  {
+    "id": "cpp.native-binding-guide",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/native-binding-guide/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/native-binding-guide/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/native-binding-guide/"
+    }
+  },
+  {
+    "id": "cpp.native-binding-guide",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/native-binding-guide/",
+    "last_verified": "2026-08-02",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/native-binding-guide/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/native-binding-guide/"
     }
   },
   {

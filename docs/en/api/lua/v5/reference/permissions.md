@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 038415d5d035dcafcc0141aa9bb5a42ac45c31172f23b695895d66cdec45e3d8
+translation_source_fingerprint: eb9d867168b0b785ad8f4c704f9df7e551192c7a8925426fa0d51bc60e919532
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,14 +68,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Permission model
 
-This page is generated from the Lua v5 public contract at pinned commit `d32b9cc880a85480840d82cfa05d256c78a16615` and contains 1 `permissions` records. Do not edit it by hand.
+This page is the automatically generated reference manual for CCB Lua 0.1, containing 1 `permissions` contract records.
 
-**Contract fields:**
+## Permission System Model
 
-- `model`: `"capability-gating"`
-- `separate_manifest_field`: `false`
-- `manifest_field`: `"capabilities"`
-- `dependency_rules`: `[{"capability": "game.actions.dangerous", "requires": "game.actions"}, {"capability": "game.write", "requires": "game.read"}, {"capability": "game.hooks", "requires": "events"}, {"capability": "game.callbacks", "requires": "game.read"}]`
+- **模型类型 (Model):** `capability-gating`
+- **Manifest 声明字段 (Manifest Field):** `capabilities`
 
 **Sources:**
 

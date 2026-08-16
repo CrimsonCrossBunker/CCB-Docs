@@ -3,6 +3,12 @@
 > Generated from docs-catalog.yml; do not edit by hand.
 > Runtime and project contracts remain authoritative in the CCB source repository.
 
+- [en] Items and Pockets Cookbook: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/items/
+- [zh_CN] 纯 Lua 装备与容器口袋实战: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/items/
+- [en] Mapgen and Structures Cookbook: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/mapgen/
+- [zh_CN] 纯 Lua 地块与建筑生成实战: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/mapgen/
+- [en] Monsters and AI Cookbook: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/monsters/
+- [zh_CN] 纯 Lua 怪物与技能 AI 实战: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/monsters/
 - [en] Declaring capabilities: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/
 - [zh_CN] Capability 声明: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/capabilities/
 - [en] Lua API changelog: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/changelog/
@@ -53,6 +59,8 @@
 - [zh_CN] 属性参考: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/reference/properties/
 - [en] Portable Lua UI: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/ui/
 - [zh_CN] 跨平台 Lua UI: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/ui/
+- [en] Core Engine Lifecycle and Main Loop: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/core-engine-lifecycle/
+- [zh_CN] 游戏引擎生命周期与主循环深度剖析: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/core-engine-lifecycle/
 - [en] Design principles: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/design-principles/
 - [zh_CN] 设计原则: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/design-principles/
 - [en] CCB project architecture: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/overview/
@@ -61,6 +69,8 @@
 - [zh_CN] 项目地图与权威边界: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/
 - [en] Subsystem map: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystem-map/
 - [zh_CN] 子系统地图: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystem-map/
+- [en] Engine Subsystems Deep Dive: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystems-deep-dive/
+- [zh_CN] 游戏引擎核心八大子系统深度剖析: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystems-deep-dive/
 - [en] Building CCB: https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/
 - [zh_CN] 构建 CCB: https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/
 - [en] Mod compatibility: https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/mods/
@@ -69,6 +79,8 @@
 - [zh_CN] 存档兼容: https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/save/
 - [en] AI-assisted development: https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/ai-assisted-development/
 - [zh_CN] AI 辅助开发: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/ai-assisted-development/
+- [en] Core Development and Contribution Guide: https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/core-dev-guide/
+- [zh_CN] 游戏本体核心开发与贡献指南: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/core-dev-guide/
 - [en] Documentation policy: https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/documentation-policy/
 - [zh_CN] 文档政策: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/documentation-policy/
 - [en] Responsible human and AI-assisted contributions: https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/
@@ -105,6 +117,8 @@
 - [zh_CN] Monster 子系统: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/monsters/
 - [en] Mutations subsystem: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/mutations/
 - [zh_CN] Mutation 子系统: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/mutations/
+- [en] C++ Native Binding Guide: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/native-binding-guide/
+- [zh_CN] C++ 引擎底层 Native 绑定指南: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/native-binding-guide/
 - [en] Overmap subsystem: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/overmap/
 - [zh_CN] Overmap 子系统: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/overmap/
 - [en] Item pockets subsystem: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/pockets/

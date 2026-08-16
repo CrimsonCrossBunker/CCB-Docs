@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: ef35f92963e4520e9568df8959bc60833aa76d42bb041e28ed4967f3df0e8c21
+translation_source_fingerprint: 9eb9617960e6e1e495a0b0d17f1686ce36177601ab40e9636744cea855bd2f32
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,14 +68,29 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Classes and records
 
-This page is generated from the Lua v5 public contract at pinned commit `d32b9cc880a85480840d82cfa05d256c78a16615` and contains 261 `classes` records. Do not edit it by hand.
+This page is the automatically generated reference manual for CCB Lua 0.1, containing 261 `classes` contract records.
 
 ## `CcbAchievementDefinition` { #symbol-api-lua-v5-generated-class-ccbachievementdefinition-794e6bfd9753 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbAchievementDefinition = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `name` | `string` | Read-write |
+| `description` | `string` | Read-write |
+| `conduct` | `boolean` | Read-write |
+| `manually_given` | `boolean` | Read-write |
+| `requirements` | `integer` | Read-write |
+| `loaded` | `boolean` | Read-write |
+| `hidden_by` | `table` | Read-write |
+| `sources` | `table` | Read-write |
+| `time_constraint` | `CcbAchievementTimeConstraint` | Read-write |
 
 **Sources:**
 
@@ -83,11 +98,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbachievementdefinition-id-25629ad023ee }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -95,11 +109,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbachievementdefinition-name-17ac7065a4df }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -107,11 +120,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbachievementdefinition-description-e46c75c840cc }
 
-**Contract fields:**
-
-- `name`: `"description"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field description string
+description = ... -- string
+```
 
 **Sources:**
 
@@ -119,11 +131,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `conduct` { #symbol-api-lua-v5-generated-property-ccbachievementdefinition-conduct-9d7ec895f6f6 }
 
-**Contract fields:**
-
-- `name`: `"conduct"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field conduct boolean
+conduct = ... -- boolean
+```
 
 **Sources:**
 
@@ -131,11 +142,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `manually_given` { #symbol-api-lua-v5-generated-property-ccbachievementdefinition-manually-given-704a45bc5c4f }
 
-**Contract fields:**
-
-- `name`: `"manually_given"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field manually_given boolean
+manually_given = ... -- boolean
+```
 
 **Sources:**
 
@@ -143,11 +153,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `requirements` { #symbol-api-lua-v5-generated-property-ccbachievementdefinition-requirements-56252a04ee22 }
 
-**Contract fields:**
-
-- `name`: `"requirements"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field requirements integer
+requirements = ... -- integer
+```
 
 **Sources:**
 
@@ -155,11 +164,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `loaded` { #symbol-api-lua-v5-generated-property-ccbachievementdefinition-loaded-dfb772821e31 }
 
-**Contract fields:**
-
-- `name`: `"loaded"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field loaded boolean
+loaded = ... -- boolean
+```
 
 **Sources:**
 
@@ -167,11 +175,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hidden_by` { #symbol-api-lua-v5-generated-property-ccbachievementdefinition-hidden-by-979b7102fe3b }
 
-**Contract fields:**
-
-- `name`: `"hidden_by"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field hidden_by table
+hidden_by = ... -- table
+```
 
 **Sources:**
 
@@ -179,11 +186,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sources` { #symbol-api-lua-v5-generated-property-ccbachievementdefinition-sources-8441a53d51e4 }
 
-**Contract fields:**
-
-- `name`: `"sources"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field sources table
+sources = ... -- table
+```
 
 **Sources:**
 
@@ -191,11 +197,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `time_constraint` { #symbol-api-lua-v5-generated-property-ccbachievementdefinition-time-constraint-8f14ca8a5e9a }
 
-**Contract fields:**
-
-- `name`: `"time_constraint"`
-- `optional`: `true`
-- `declaration`: `"CcbAchievementTimeConstraint"`
+```lua
+---@field time_constraint CcbAchievementTimeConstraint
+time_constraint = ... -- CcbAchievementTimeConstraint
+```
 
 **Sources:**
 
@@ -203,10 +208,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbAchievementListOptions` { #symbol-api-lua-v5-generated-class-ccbachievementlistoptions-89f23d86aecc }
 
-**Contract fields:**
+```lua
+---@class : CcbDefinitionSearchOptions
+local CcbAchievementListOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbDefinitionSearchOptions"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `completion` | `"pending"|"completed"|"failed"` | Read-write |
+| `conduct` | `boolean` | Read-write |
+| `manually_given` | `boolean` | Read-write |
+| `valid` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -214,11 +228,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `completion` { #symbol-api-lua-v5-generated-property-ccbachievementlistoptions-completion-679d33eb9263 }
 
-**Contract fields:**
-
-- `name`: `"completion"`
-- `optional`: `true`
-- `declaration`: `"\"pending\"|\"completed\"|\"failed\""`
+```lua
+---@field completion "pending"|"completed"|"failed"
+completion = ... -- "pending"|"completed"|"failed"
+```
 
 **Sources:**
 
@@ -226,11 +239,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `conduct` { #symbol-api-lua-v5-generated-property-ccbachievementlistoptions-conduct-f58b6a90722a }
 
-**Contract fields:**
-
-- `name`: `"conduct"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field conduct boolean
+conduct = ... -- boolean
+```
 
 **Sources:**
 
@@ -238,11 +250,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `manually_given` { #symbol-api-lua-v5-generated-property-ccbachievementlistoptions-manually-given-ea1861aa8b9f }
 
-**Contract fields:**
-
-- `name`: `"manually_given"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field manually_given boolean
+manually_given = ... -- boolean
+```
 
 **Sources:**
 
@@ -250,11 +261,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `valid` { #symbol-api-lua-v5-generated-property-ccbachievementlistoptions-valid-21e914d85fb7 }
 
-**Contract fields:**
-
-- `name`: `"valid"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field valid boolean
+valid = ... -- boolean
+```
 
 **Sources:**
 
@@ -262,10 +272,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbAchievementState` { #symbol-api-lua-v5-generated-class-ccbachievementstate-cec535239d3f }
 
-**Contract fields:**
+```lua
+---@class : CcbAchievementDefinition
+local CcbAchievementState = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbAchievementDefinition"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `valid` | `boolean` | Read-write |
+| `completion` | `"pending"|"completed"|"failed"` | Read-write |
+| `pending` | `boolean` | Read-write |
+| `completed` | `boolean` | Read-write |
+| `failed` | `boolean` | Read-write |
+| `hidden` | `boolean` | Read-write |
+| `ui_text` | `string` | Read-write |
 
 **Sources:**
 
@@ -273,11 +295,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `valid` { #symbol-api-lua-v5-generated-property-ccbachievementstate-valid-89c250c2fc84 }
 
-**Contract fields:**
-
-- `name`: `"valid"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field valid boolean
+valid = ... -- boolean
+```
 
 **Sources:**
 
@@ -285,11 +306,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `completion` { #symbol-api-lua-v5-generated-property-ccbachievementstate-completion-58ec39f370bb }
 
-**Contract fields:**
-
-- `name`: `"completion"`
-- `optional`: `false`
-- `declaration`: `"\"pending\"|\"completed\"|\"failed\""`
+```lua
+---@field completion "pending"|"completed"|"failed"
+completion = ... -- "pending"|"completed"|"failed"
+```
 
 **Sources:**
 
@@ -297,11 +317,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `pending` { #symbol-api-lua-v5-generated-property-ccbachievementstate-pending-d62b2e9164f1 }
 
-**Contract fields:**
-
-- `name`: `"pending"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field pending boolean
+pending = ... -- boolean
+```
 
 **Sources:**
 
@@ -309,11 +328,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `completed` { #symbol-api-lua-v5-generated-property-ccbachievementstate-completed-81b5a607c990 }
 
-**Contract fields:**
-
-- `name`: `"completed"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field completed boolean
+completed = ... -- boolean
+```
 
 **Sources:**
 
@@ -321,11 +339,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `failed` { #symbol-api-lua-v5-generated-property-ccbachievementstate-failed-e09be468a828 }
 
-**Contract fields:**
-
-- `name`: `"failed"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field failed boolean
+failed = ... -- boolean
+```
 
 **Sources:**
 
@@ -333,11 +350,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hidden` { #symbol-api-lua-v5-generated-property-ccbachievementstate-hidden-5b8be3057ac8 }
 
-**Contract fields:**
-
-- `name`: `"hidden"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field hidden boolean
+hidden = ... -- boolean
+```
 
 **Sources:**
 
@@ -345,11 +361,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `ui_text` { #symbol-api-lua-v5-generated-property-ccbachievementstate-ui-text-03feaadda2c0 }
 
-**Contract fields:**
-
-- `name`: `"ui_text"`
-- `optional`: `true`
-- `declaration`: `"string"`
+```lua
+---@field ui_text string
+ui_text = ... -- string
+```
 
 **Sources:**
 
@@ -357,10 +372,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbAchievementTimeConstraint` { #symbol-api-lua-v5-generated-class-ccbachievementtimeconstraint-7afc0812428b }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbAchievementTimeConstraint = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `target` | `TimePoint` | Read-write |
+| `completion` | `string` | Read-write |
+| `becomes_false` | `boolean` | Read-write |
+| `text` | `string` | Read-write |
 
 **Sources:**
 
@@ -368,11 +392,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `target` { #symbol-api-lua-v5-generated-property-ccbachievementtimeconstraint-target-20a2e894c0fd }
 
-**Contract fields:**
-
-- `name`: `"target"`
-- `optional`: `false`
-- `declaration`: `"TimePoint"`
+```lua
+---@field target TimePoint
+target = ... -- TimePoint
+```
 
 **Sources:**
 
@@ -380,11 +403,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `completion` { #symbol-api-lua-v5-generated-property-ccbachievementtimeconstraint-completion-d67614f6dc33 }
 
-**Contract fields:**
-
-- `name`: `"completion"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field completion string
+completion = ... -- string
+```
 
 **Sources:**
 
@@ -392,11 +414,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `becomes_false` { #symbol-api-lua-v5-generated-property-ccbachievementtimeconstraint-becomes-false-945eab552c86 }
 
-**Contract fields:**
-
-- `name`: `"becomes_false"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field becomes_false boolean
+becomes_false = ... -- boolean
+```
 
 **Sources:**
 
@@ -404,11 +425,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `text` { #symbol-api-lua-v5-generated-property-ccbachievementtimeconstraint-text-fff579e45b6c }
 
-**Contract fields:**
-
-- `name`: `"text"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field text string
+text = ... -- string
+```
 
 **Sources:**
 
@@ -416,10 +436,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbAchievementsApi` { #symbol-api-lua-v5-generated-class-ccbachievementsapi-55955fa23f93 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbAchievementsApi = {}
+```
 
 **Sources:**
 
@@ -427,10 +447,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbActionDescriptor` { #symbol-api-lua-v5-generated-class-ccbactiondescriptor-fcfaf3fa13c1 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbActionDescriptor = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `string` | Read-write |
+| `label` | `string` | Read-write |
+| `group` | `string` | Read-write |
+| `repeatable` | `boolean` | Read-write |
+| `dangerous` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -438,11 +468,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbactiondescriptor-id-7119b9fb5053 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field id string
+id = ... -- string
+```
 
 **Sources:**
 
@@ -450,11 +479,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `label` { #symbol-api-lua-v5-generated-property-ccbactiondescriptor-label-054398322d65 }
 
-**Contract fields:**
-
-- `name`: `"label"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field label string
+label = ... -- string
+```
 
 **Sources:**
 
@@ -462,11 +490,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `group` { #symbol-api-lua-v5-generated-property-ccbactiondescriptor-group-721bd4bc52b4 }
 
-**Contract fields:**
-
-- `name`: `"group"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field group string
+group = ... -- string
+```
 
 **Sources:**
 
@@ -474,11 +501,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `repeatable` { #symbol-api-lua-v5-generated-property-ccbactiondescriptor-repeatable-90975352099e }
 
-**Contract fields:**
-
-- `name`: `"repeatable"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field repeatable boolean
+repeatable = ... -- boolean
+```
 
 **Sources:**
 
@@ -486,11 +512,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `dangerous` { #symbol-api-lua-v5-generated-property-ccbactiondescriptor-dangerous-cdd4aafd11de }
 
-**Contract fields:**
-
-- `name`: `"dangerous"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field dangerous boolean
+dangerous = ... -- boolean
+```
 
 **Sources:**
 
@@ -498,10 +523,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbActionEnqueueOptions` { #symbol-api-lua-v5-generated-class-ccbactionenqueueoptions-f172d29ec9c9 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbActionEnqueueOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `direction` | `CcbMoveDirection Required by `move`.` | Read-write |
+| `uid` | `integer Required by `use_item` and `toggle_bionic`.` | Read-write |
+| `id` | `string Required by `toggle_mutation` and `set_move_mode`.` | Read-write |
 
 **Sources:**
 
@@ -509,11 +542,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `direction` { #symbol-api-lua-v5-generated-property-ccbactionenqueueoptions-direction-7801a747668d }
 
-**Contract fields:**
-
-- `name`: `"direction"`
-- `optional`: `true`
-- `declaration`: `"CcbMoveDirection Required by `move`."`
+```lua
+---@field direction CcbMoveDirection Required by `move`.
+direction = ... -- CcbMoveDirection Required by `move`.
+```
 
 **Sources:**
 
@@ -521,11 +553,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `uid` { #symbol-api-lua-v5-generated-property-ccbactionenqueueoptions-uid-82e8dc7bbb21 }
 
-**Contract fields:**
-
-- `name`: `"uid"`
-- `optional`: `true`
-- `declaration`: `"integer Required by `use_item` and `toggle_bionic`."`
+```lua
+---@field uid integer Required by `use_item` and `toggle_bionic`.
+uid = ... -- integer Required by `use_item` and `toggle_bionic`.
+```
 
 **Sources:**
 
@@ -533,11 +564,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbactionenqueueoptions-id-b24bba177c44 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `true`
-- `declaration`: `"string Required by `toggle_mutation` and `set_move_mode`."`
+```lua
+---@field id string Required by `toggle_mutation` and `set_move_mode`.
+id = ... -- string Required by `toggle_mutation` and `set_move_mode`.
+```
 
 **Sources:**
 
@@ -545,10 +575,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbActionMenuApi` { #symbol-api-lua-v5-generated-class-ccbactionmenuapi-cc9b31469ec4 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbActionMenuApi = {}
+```
 
 **Sources:**
 
@@ -556,10 +586,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbActionMenuDescriptor` { #symbol-api-lua-v5-generated-class-ccbactionmenudescriptor-61e14e0e3626 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbActionMenuDescriptor = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `string` | Read-write |
+| `name` | `string` | Read-write |
+| `category` | `string` | Read-write |
+| `hotkey` | `string` | Read-write |
 
 **Sources:**
 
@@ -567,11 +606,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbactionmenudescriptor-id-0e4be6b7fe9d }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field id string
+id = ... -- string
+```
 
 **Sources:**
 
@@ -579,11 +617,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbactionmenudescriptor-name-57b43473199f }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `true`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -591,11 +628,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `category` { #symbol-api-lua-v5-generated-property-ccbactionmenudescriptor-category-cae711bdbbf3 }
 
-**Contract fields:**
-
-- `name`: `"category"`
-- `optional`: `true`
-- `declaration`: `"string"`
+```lua
+---@field category string
+category = ... -- string
+```
 
 **Sources:**
 
@@ -603,11 +639,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hotkey` { #symbol-api-lua-v5-generated-property-ccbactionmenudescriptor-hotkey-1bd9e2dbe05f }
 
-**Contract fields:**
-
-- `name`: `"hotkey"`
-- `optional`: `true`
-- `declaration`: `"string"`
+```lua
+---@field hotkey string
+hotkey = ... -- string
+```
 
 **Sources:**
 
@@ -615,10 +650,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbActionMenuEntry` { #symbol-api-lua-v5-generated-class-ccbactionmenuentry-bfcb5b6520b9 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbActionMenuEntry = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `registration_id` | `integer` | Read-write |
+| `id` | `string` | Read-write |
+| `name` | `string` | Read-write |
+| `category` | `string` | Read-write |
+| `source` | `string` | Read-write |
+| `enabled` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -626,11 +672,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `registration_id` { #symbol-api-lua-v5-generated-property-ccbactionmenuentry-registration-id-ad820a418c67 }
 
-**Contract fields:**
-
-- `name`: `"registration_id"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field registration_id integer
+registration_id = ... -- integer
+```
 
 **Sources:**
 
@@ -638,11 +683,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbactionmenuentry-id-2197ef391a2f }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field id string
+id = ... -- string
+```
 
 **Sources:**
 
@@ -650,11 +694,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbactionmenuentry-name-ff4da77b7a88 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -662,11 +705,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `category` { #symbol-api-lua-v5-generated-property-ccbactionmenuentry-category-1bebc4ef121d }
 
-**Contract fields:**
-
-- `name`: `"category"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field category string
+category = ... -- string
+```
 
 **Sources:**
 
@@ -674,11 +716,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `source` { #symbol-api-lua-v5-generated-property-ccbactionmenuentry-source-187720a99762 }
 
-**Contract fields:**
-
-- `name`: `"source"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field source string
+source = ... -- string
+```
 
 **Sources:**
 
@@ -686,11 +727,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `enabled` { #symbol-api-lua-v5-generated-property-ccbactionmenuentry-enabled-26f2865629bd }
 
-**Contract fields:**
-
-- `name`: `"enabled"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field enabled boolean
+enabled = ... -- boolean
+```
 
 **Sources:**
 
@@ -698,10 +738,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbActionMenuLimits` { #symbol-api-lua-v5-generated-class-ccbactionmenulimits-fb05c8b26deb }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbActionMenuLimits = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `entries` | `integer` | Read-write |
+| `entries_per_source` | `integer` | Read-write |
+| `name_bytes` | `integer` | Read-write |
+| `callback_instructions` | `integer` | Read-write |
 
 **Sources:**
 
@@ -709,11 +758,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `entries` { #symbol-api-lua-v5-generated-property-ccbactionmenulimits-entries-0614032ca8d8 }
 
-**Contract fields:**
-
-- `name`: `"entries"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field entries integer
+entries = ... -- integer
+```
 
 **Sources:**
 
@@ -721,11 +769,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `entries_per_source` { #symbol-api-lua-v5-generated-property-ccbactionmenulimits-entries-per-source-c5ae5d2e40af }
 
-**Contract fields:**
-
-- `name`: `"entries_per_source"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field entries_per_source integer
+entries_per_source = ... -- integer
+```
 
 **Sources:**
 
@@ -733,11 +780,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name_bytes` { #symbol-api-lua-v5-generated-property-ccbactionmenulimits-name-bytes-377470d75a66 }
 
-**Contract fields:**
-
-- `name`: `"name_bytes"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field name_bytes integer
+name_bytes = ... -- integer
+```
 
 **Sources:**
 
@@ -745,11 +791,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `callback_instructions` { #symbol-api-lua-v5-generated-property-ccbactionmenulimits-callback-instructions-eaee2fe637fb }
 
-**Contract fields:**
-
-- `name`: `"callback_instructions"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field callback_instructions integer
+callback_instructions = ... -- integer
+```
 
 **Sources:**
 
@@ -757,10 +802,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbActionResult` { #symbol-api-lua-v5-generated-class-ccbactionresult-01a5859870be }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbActionResult = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `integer` | Read-write |
+| `type` | `string` | Read-write |
+| `status` | `'"succeeded"'|'"failed"'|'"canceled"'|'"denied"'` | Read-write |
+| `error` | `string` | Read-write |
+| `queued_turn` | `integer` | Read-write |
+| `completed_turn` | `integer` | Read-write |
+| `action_taken` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -768,11 +825,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbactionresult-id-d4e7676ffc04 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field id integer
+id = ... -- integer
+```
 
 **Sources:**
 
@@ -780,11 +836,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbactionresult-type-45d724209665 }
 
-**Contract fields:**
-
-- `name`: `"type"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field type string
+type = ... -- string
+```
 
 **Sources:**
 
@@ -792,11 +847,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `status` { #symbol-api-lua-v5-generated-property-ccbactionresult-status-f5024365965a }
 
-**Contract fields:**
-
-- `name`: `"status"`
-- `optional`: `false`
-- `declaration`: `"'\"succeeded\"'|'\"failed\"'|'\"canceled\"'|'\"denied\"'"`
+```lua
+---@field status '"succeeded"'|'"failed"'|'"canceled"'|'"denied"'
+status = ... -- '"succeeded"'|'"failed"'|'"canceled"'|'"denied"'
+```
 
 **Sources:**
 
@@ -804,11 +858,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `error` { #symbol-api-lua-v5-generated-property-ccbactionresult-error-b15506e7845f }
 
-**Contract fields:**
-
-- `name`: `"error"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field error string
+error = ... -- string
+```
 
 **Sources:**
 
@@ -816,11 +869,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `queued_turn` { #symbol-api-lua-v5-generated-property-ccbactionresult-queued-turn-1bc1c5eca338 }
 
-**Contract fields:**
-
-- `name`: `"queued_turn"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field queued_turn integer
+queued_turn = ... -- integer
+```
 
 **Sources:**
 
@@ -828,11 +880,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `completed_turn` { #symbol-api-lua-v5-generated-property-ccbactionresult-completed-turn-f6a875c8dc76 }
 
-**Contract fields:**
-
-- `name`: `"completed_turn"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field completed_turn integer
+completed_turn = ... -- integer
+```
 
 **Sources:**
 
@@ -840,11 +891,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `action_taken` { #symbol-api-lua-v5-generated-property-ccbactionresult-action-taken-2777e5d62aa9 }
 
-**Contract fields:**
-
-- `name`: `"action_taken"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field action_taken boolean
+action_taken = ... -- boolean
+```
 
 **Sources:**
 
@@ -852,10 +902,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbActionSlotOption` { #symbol-api-lua-v5-generated-class-ccbactionslotoption-571dda852b69 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbActionSlotOption = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `string` | Read-write |
+| `label` | `string` | Read-write |
+| `enabled` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -863,11 +921,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbactionslotoption-id-c8036d443653 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field id string
+id = ... -- string
+```
 
 **Sources:**
 
@@ -875,11 +932,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `label` { #symbol-api-lua-v5-generated-property-ccbactionslotoption-label-7cfa43a6a324 }
 
-**Contract fields:**
-
-- `name`: `"label"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field label string
+label = ... -- string
+```
 
 **Sources:**
 
@@ -887,11 +943,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `enabled` { #symbol-api-lua-v5-generated-property-ccbactionslotoption-enabled-915f82feb87a }
 
-**Contract fields:**
-
-- `name`: `"enabled"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field enabled boolean
+enabled = ... -- boolean
+```
 
 **Sources:**
 
@@ -899,10 +954,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbActionsStatus` { #symbol-api-lua-v5-generated-class-ccbactionsstatus-cc30df9a19c6 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbActionsStatus = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `pending_count` | `integer` | Read-write |
+| `result_count` | `integer` | Read-write |
+| `result_limit` | `integer` | Read-write |
+| `pending` | `CcbQueuedAction[]` | Read-write |
+| `results` | `CcbActionResult[]` | Read-write |
 
 **Sources:**
 
@@ -910,11 +975,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `pending_count` { #symbol-api-lua-v5-generated-property-ccbactionsstatus-pending-count-527e58fe2c55 }
 
-**Contract fields:**
-
-- `name`: `"pending_count"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field pending_count integer
+pending_count = ... -- integer
+```
 
 **Sources:**
 
@@ -922,11 +986,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `result_count` { #symbol-api-lua-v5-generated-property-ccbactionsstatus-result-count-cb33e9142eb7 }
 
-**Contract fields:**
-
-- `name`: `"result_count"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field result_count integer
+result_count = ... -- integer
+```
 
 **Sources:**
 
@@ -934,11 +997,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `result_limit` { #symbol-api-lua-v5-generated-property-ccbactionsstatus-result-limit-200ef2aaaeaa }
 
-**Contract fields:**
-
-- `name`: `"result_limit"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field result_limit integer
+result_limit = ... -- integer
+```
 
 **Sources:**
 
@@ -946,11 +1008,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `pending` { #symbol-api-lua-v5-generated-property-ccbactionsstatus-pending-fbc03d5d40ba }
 
-**Contract fields:**
-
-- `name`: `"pending"`
-- `optional`: `false`
-- `declaration`: `"CcbQueuedAction[]"`
+```lua
+---@field pending CcbQueuedAction[]
+pending = ... -- CcbQueuedAction[]
+```
 
 **Sources:**
 
@@ -958,11 +1019,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `results` { #symbol-api-lua-v5-generated-property-ccbactionsstatus-results-15b3797119e6 }
 
-**Contract fields:**
-
-- `name`: `"results"`
-- `optional`: `false`
-- `declaration`: `"CcbActionResult[]"`
+```lua
+---@field results CcbActionResult[]
+results = ... -- CcbActionResult[]
+```
 
 **Sources:**
 
@@ -970,10 +1030,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbActivityEntry` { #symbol-api-lua-v5-generated-class-ccbactivityentry-124474717f99 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbActivityEntry = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `string` | Read-write |
+| `active` | `boolean` | Read-write |
+| `verb` | `string` | Read-write |
+| `moves_total` | `integer` | Read-write |
+| `moves_left` | `integer` | Read-write |
+| `interruptible` | `boolean` | Read-write |
+| `interruptible_with_keyboard` | `boolean` | Read-write |
+| `auto_resume` | `boolean` | Read-write |
+| `progress_message` | `string` | Read-write |
+| `progress` | `number` | Read-write |
 
 **Sources:**
 
@@ -981,11 +1056,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbactivityentry-id-e7bba76246d9 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field id string
+id = ... -- string
+```
 
 **Sources:**
 
@@ -993,11 +1067,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `active` { #symbol-api-lua-v5-generated-property-ccbactivityentry-active-49bbaca7ecaf }
 
-**Contract fields:**
-
-- `name`: `"active"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field active boolean
+active = ... -- boolean
+```
 
 **Sources:**
 
@@ -1005,11 +1078,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `verb` { #symbol-api-lua-v5-generated-property-ccbactivityentry-verb-6312296c378d }
 
-**Contract fields:**
-
-- `name`: `"verb"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field verb string
+verb = ... -- string
+```
 
 **Sources:**
 
@@ -1017,11 +1089,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `moves_total` { #symbol-api-lua-v5-generated-property-ccbactivityentry-moves-total-9a26cfc7d08e }
 
-**Contract fields:**
-
-- `name`: `"moves_total"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field moves_total integer
+moves_total = ... -- integer
+```
 
 **Sources:**
 
@@ -1029,11 +1100,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `moves_left` { #symbol-api-lua-v5-generated-property-ccbactivityentry-moves-left-e36758b676f9 }
 
-**Contract fields:**
-
-- `name`: `"moves_left"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field moves_left integer
+moves_left = ... -- integer
+```
 
 **Sources:**
 
@@ -1041,11 +1111,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `interruptible` { #symbol-api-lua-v5-generated-property-ccbactivityentry-interruptible-79b2a809423a }
 
-**Contract fields:**
-
-- `name`: `"interruptible"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field interruptible boolean
+interruptible = ... -- boolean
+```
 
 **Sources:**
 
@@ -1053,11 +1122,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `interruptible_with_keyboard` { #symbol-api-lua-v5-generated-property-ccbactivityentry-interruptible-with-keyboard-3a7267925215 }
 
-**Contract fields:**
-
-- `name`: `"interruptible_with_keyboard"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field interruptible_with_keyboard boolean
+interruptible_with_keyboard = ... -- boolean
+```
 
 **Sources:**
 
@@ -1065,11 +1133,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `auto_resume` { #symbol-api-lua-v5-generated-property-ccbactivityentry-auto-resume-d7e0f85cdbd4 }
 
-**Contract fields:**
-
-- `name`: `"auto_resume"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field auto_resume boolean
+auto_resume = ... -- boolean
+```
 
 **Sources:**
 
@@ -1077,11 +1144,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `progress_message` { #symbol-api-lua-v5-generated-property-ccbactivityentry-progress-message-684ed88da766 }
 
-**Contract fields:**
-
-- `name`: `"progress_message"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field progress_message string
+progress_message = ... -- string
+```
 
 **Sources:**
 
@@ -1089,11 +1155,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `progress` { #symbol-api-lua-v5-generated-property-ccbactivityentry-progress-b6a82af6089f }
 
-**Contract fields:**
-
-- `name`: `"progress"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field progress number
+progress = ... -- number
+```
 
 **Sources:**
 
@@ -1101,10 +1166,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbAddictionAdjustments` { #symbol-api-lua-v5-generated-class-ccbaddictionadjustments-07c471ed3801 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbAddictionAdjustments = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `intensity` | `integer` | Read-write |
+| `sated` | `TimeDuration` | Read-write |
 
 **Sources:**
 
@@ -1112,11 +1184,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `intensity` { #symbol-api-lua-v5-generated-property-ccbaddictionadjustments-intensity-52daf492b9c9 }
 
-**Contract fields:**
-
-- `name`: `"intensity"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field intensity integer
+intensity = ... -- integer
+```
 
 **Sources:**
 
@@ -1124,11 +1195,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sated` { #symbol-api-lua-v5-generated-property-ccbaddictionadjustments-sated-f41e639ed604 }
 
-**Contract fields:**
-
-- `name`: `"sated"`
-- `optional`: `true`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field sated TimeDuration
+sated = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -1136,10 +1206,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbAddictionDefinition` { #symbol-api-lua-v5-generated-class-ccbaddictiondefinition-155a99e8a0e0 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbAddictionDefinition = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `name` | `string` | Read-write |
+| `type_name` | `string` | Read-write |
+| `description` | `string` | Read-write |
+| `craving_morale` | `GameId` | Read-write |
+| `effect` | `GameId` | Read-write |
+| `builtin` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -1147,11 +1229,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbaddictiondefinition-id-f5f7f43258c7 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -1159,11 +1240,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbaddictiondefinition-name-64c5dde7bc86 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -1171,11 +1251,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `type_name` { #symbol-api-lua-v5-generated-property-ccbaddictiondefinition-type-name-f66210d48e59 }
 
-**Contract fields:**
-
-- `name`: `"type_name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field type_name string
+type_name = ... -- string
+```
 
 **Sources:**
 
@@ -1183,11 +1262,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbaddictiondefinition-description-cb49c13c40d7 }
 
-**Contract fields:**
-
-- `name`: `"description"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field description string
+description = ... -- string
+```
 
 **Sources:**
 
@@ -1195,11 +1273,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `craving_morale` { #symbol-api-lua-v5-generated-property-ccbaddictiondefinition-craving-morale-3060a9cc3710 }
 
-**Contract fields:**
-
-- `name`: `"craving_morale"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field craving_morale GameId
+craving_morale = ... -- GameId
+```
 
 **Sources:**
 
@@ -1207,11 +1284,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `effect` { #symbol-api-lua-v5-generated-property-ccbaddictiondefinition-effect-aa77c3ebc8a2 }
 
-**Contract fields:**
-
-- `name`: `"effect"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field effect GameId
+effect = ... -- GameId
+```
 
 **Sources:**
 
@@ -1219,11 +1295,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `builtin` { #symbol-api-lua-v5-generated-property-ccbaddictiondefinition-builtin-bbe4a5a4939b }
 
-**Contract fields:**
-
-- `name`: `"builtin"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field builtin boolean
+builtin = ... -- boolean
+```
 
 **Sources:**
 
@@ -1231,10 +1306,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbAddictionState` { #symbol-api-lua-v5-generated-class-ccbaddictionstate-e7e780790b66 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbAddictionState = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `name` | `string` | Read-write |
+| `present` | `boolean` | Read-write |
+| `intensity` | `integer` | Read-write |
+| `active` | `boolean` | Read-write |
+| `minimum_active_intensity` | `integer` | Read-write |
+| `maximum_intensity` | `integer` | Read-write |
+| `sated` | `TimeDuration` | Read-write |
+| `withdrawing` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -1242,11 +1331,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbaddictionstate-id-0e09ddd34f82 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -1254,11 +1342,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbaddictionstate-name-cdd55932e94e }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -1266,11 +1353,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `present` { #symbol-api-lua-v5-generated-property-ccbaddictionstate-present-30d03fff74a1 }
 
-**Contract fields:**
-
-- `name`: `"present"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field present boolean
+present = ... -- boolean
+```
 
 **Sources:**
 
@@ -1278,11 +1364,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `intensity` { #symbol-api-lua-v5-generated-property-ccbaddictionstate-intensity-d6b5b84d2de8 }
 
-**Contract fields:**
-
-- `name`: `"intensity"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field intensity integer
+intensity = ... -- integer
+```
 
 **Sources:**
 
@@ -1290,11 +1375,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `active` { #symbol-api-lua-v5-generated-property-ccbaddictionstate-active-7626f8852010 }
 
-**Contract fields:**
-
-- `name`: `"active"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field active boolean
+active = ... -- boolean
+```
 
 **Sources:**
 
@@ -1302,11 +1386,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `minimum_active_intensity` { #symbol-api-lua-v5-generated-property-ccbaddictionstate-minimum-active-intensity-cba73ec5317d }
 
-**Contract fields:**
-
-- `name`: `"minimum_active_intensity"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field minimum_active_intensity integer
+minimum_active_intensity = ... -- integer
+```
 
 **Sources:**
 
@@ -1314,11 +1397,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `maximum_intensity` { #symbol-api-lua-v5-generated-property-ccbaddictionstate-maximum-intensity-c93df4643391 }
 
-**Contract fields:**
-
-- `name`: `"maximum_intensity"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field maximum_intensity integer
+maximum_intensity = ... -- integer
+```
 
 **Sources:**
 
@@ -1326,11 +1408,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sated` { #symbol-api-lua-v5-generated-property-ccbaddictionstate-sated-5276a915ac3d }
 
-**Contract fields:**
-
-- `name`: `"sated"`
-- `optional`: `true`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field sated TimeDuration
+sated = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -1338,11 +1419,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `withdrawing` { #symbol-api-lua-v5-generated-property-ccbaddictionstate-withdrawing-a976f8bacf23 }
 
-**Contract fields:**
-
-- `name`: `"withdrawing"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field withdrawing boolean
+withdrawing = ... -- boolean
+```
 
 **Sources:**
 
@@ -1350,10 +1430,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbAddictionsApi` { #symbol-api-lua-v5-generated-class-ccbaddictionsapi-15d90b2c65ad }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbAddictionsApi = {}
+```
 
 **Sources:**
 
@@ -1361,10 +1441,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbAmbientSoundOptions` { #symbol-api-lua-v5-generated-class-ccbambientsoundoptions-b3dcea9499c7 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbAmbientSoundOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `channel` | `string` | Read-write |
+| `fade_in_ms` | `integer` | Read-write |
+| `pitch` | `number` | Read-write |
+| `loops` | `integer` | Read-write |
 
 **Sources:**
 
@@ -1372,11 +1461,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `channel` { #symbol-api-lua-v5-generated-property-ccbambientsoundoptions-channel-4cf64383b885 }
 
-**Contract fields:**
-
-- `name`: `"channel"`
-- `optional`: `true`
-- `declaration`: `"string"`
+```lua
+---@field channel string
+channel = ... -- string
+```
 
 **Sources:**
 
@@ -1384,11 +1472,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `fade_in_ms` { #symbol-api-lua-v5-generated-property-ccbambientsoundoptions-fade-in-ms-9e1aaa73110f }
 
-**Contract fields:**
-
-- `name`: `"fade_in_ms"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field fade_in_ms integer
+fade_in_ms = ... -- integer
+```
 
 **Sources:**
 
@@ -1396,11 +1483,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `pitch` { #symbol-api-lua-v5-generated-property-ccbambientsoundoptions-pitch-4eb3f1d14008 }
 
-**Contract fields:**
-
-- `name`: `"pitch"`
-- `optional`: `true`
-- `declaration`: `"number"`
+```lua
+---@field pitch number
+pitch = ... -- number
+```
 
 **Sources:**
 
@@ -1408,11 +1494,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `loops` { #symbol-api-lua-v5-generated-property-ccbambientsoundoptions-loops-dbeb05906bf8 }
 
-**Contract fields:**
-
-- `name`: `"loops"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field loops integer
+loops = ... -- integer
+```
 
 **Sources:**
 
@@ -1420,10 +1505,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbBindingDomain` { #symbol-api-lua-v5-generated-class-ccbbindingdomain-f9737a6fc1d0 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbBindingDomain = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `string` | Read-write |
+| `namespace` | `string` | Read-write |
+| `capability` | `CcbCapability|string` | Read-write |
+| `minimum_api_version` | `integer` | Read-write |
+| `status` | `'"planned"'|'"partial"'|'"covered"'|'"not_applicable"'` | Read-write |
 
 **Sources:**
 
@@ -1431,11 +1526,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbbindingdomain-id-2789738bf429 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field id string
+id = ... -- string
+```
 
 **Sources:**
 
@@ -1443,11 +1537,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `namespace` { #symbol-api-lua-v5-generated-property-ccbbindingdomain-namespace-9e49c134ad41 }
 
-**Contract fields:**
-
-- `name`: `"namespace"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field namespace string
+namespace = ... -- string
+```
 
 **Sources:**
 
@@ -1455,11 +1548,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `capability` { #symbol-api-lua-v5-generated-property-ccbbindingdomain-capability-74e76ed5d288 }
 
-**Contract fields:**
-
-- `name`: `"capability"`
-- `optional`: `false`
-- `declaration`: `"CcbCapability|string"`
+```lua
+---@field capability CcbCapability|string
+capability = ... -- CcbCapability|string
+```
 
 **Sources:**
 
@@ -1467,11 +1559,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `minimum_api_version` { #symbol-api-lua-v5-generated-property-ccbbindingdomain-minimum-api-version-8bc7d859595d }
 
-**Contract fields:**
-
-- `name`: `"minimum_api_version"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field minimum_api_version integer
+minimum_api_version = ... -- integer
+```
 
 **Sources:**
 
@@ -1479,11 +1570,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `status` { #symbol-api-lua-v5-generated-property-ccbbindingdomain-status-84a31c3a7eb1 }
 
-**Contract fields:**
-
-- `name`: `"status"`
-- `optional`: `false`
-- `declaration`: `"'\"planned\"'|'\"partial\"'|'\"covered\"'|'\"not_applicable\"'"`
+```lua
+---@field status '"planned"'|'"partial"'|'"covered"'|'"not_applicable"'
+status = ... -- '"planned"'|'"partial"'|'"covered"'|'"not_applicable"'
+```
 
 **Sources:**
 
@@ -1491,10 +1581,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbBionicConfigureOptions` { #symbol-api-lua-v5-generated-class-ccbbionicconfigureoptions-4c501783cce3 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbBionicConfigureOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `auto_shutdown` | `boolean` | Read-write |
+| `show_sprite` | `boolean` | Read-write |
+| `safe_fuel_threshold` | `number` | Read-write |
 
 **Sources:**
 
@@ -1502,11 +1600,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `auto_shutdown` { #symbol-api-lua-v5-generated-property-ccbbionicconfigureoptions-auto-shutdown-817edb917e53 }
 
-**Contract fields:**
-
-- `name`: `"auto_shutdown"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field auto_shutdown boolean
+auto_shutdown = ... -- boolean
+```
 
 **Sources:**
 
@@ -1514,11 +1611,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `show_sprite` { #symbol-api-lua-v5-generated-property-ccbbionicconfigureoptions-show-sprite-b0dc53c04587 }
 
-**Contract fields:**
-
-- `name`: `"show_sprite"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field show_sprite boolean
+show_sprite = ... -- boolean
+```
 
 **Sources:**
 
@@ -1526,11 +1622,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `safe_fuel_threshold` { #symbol-api-lua-v5-generated-property-ccbbionicconfigureoptions-safe-fuel-threshold-59106db0acd3 }
 
-**Contract fields:**
-
-- `name`: `"safe_fuel_threshold"`
-- `optional`: `true`
-- `declaration`: `"number"`
+```lua
+---@field safe_fuel_threshold number
+safe_fuel_threshold = ... -- number
+```
 
 **Sources:**
 
@@ -1538,10 +1633,26 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbBionicSnapshot` { #symbol-api-lua-v5-generated-class-ccbbionicsnapshot-7670589a7719 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbBionicSnapshot = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `uid` | `integer` | Read-write |
+| `id` | `string` | Read-write |
+| `name` | `string` | Read-write |
+| `description` | `string` | Read-write |
+| `powered` | `boolean` | Read-write |
+| `activatable` | `boolean` | Read-write |
+| `included` | `boolean` | Read-write |
+| `incapacitated_turns` | `integer` | Read-write |
+| `charge_timer_turns` | `integer` | Read-write |
+| `activation_cost_kj` | `number` | Read-write |
+| `deactivation_cost_kj` | `number` | Read-write |
 
 **Sources:**
 
@@ -1549,11 +1660,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `uid` { #symbol-api-lua-v5-generated-property-ccbbionicsnapshot-uid-99938b6b1cf6 }
 
-**Contract fields:**
-
-- `name`: `"uid"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field uid integer
+uid = ... -- integer
+```
 
 **Sources:**
 
@@ -1561,11 +1671,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbbionicsnapshot-id-cafe06f8a3c8 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field id string
+id = ... -- string
+```
 
 **Sources:**
 
@@ -1573,11 +1682,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbbionicsnapshot-name-98d966822015 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -1585,11 +1693,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbbionicsnapshot-description-5b6e02879304 }
 
-**Contract fields:**
-
-- `name`: `"description"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field description string
+description = ... -- string
+```
 
 **Sources:**
 
@@ -1597,11 +1704,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `powered` { #symbol-api-lua-v5-generated-property-ccbbionicsnapshot-powered-056130ceffbd }
 
-**Contract fields:**
-
-- `name`: `"powered"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field powered boolean
+powered = ... -- boolean
+```
 
 **Sources:**
 
@@ -1609,11 +1715,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `activatable` { #symbol-api-lua-v5-generated-property-ccbbionicsnapshot-activatable-c8102c59e1eb }
 
-**Contract fields:**
-
-- `name`: `"activatable"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field activatable boolean
+activatable = ... -- boolean
+```
 
 **Sources:**
 
@@ -1621,11 +1726,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `included` { #symbol-api-lua-v5-generated-property-ccbbionicsnapshot-included-c7d54a2a5133 }
 
-**Contract fields:**
-
-- `name`: `"included"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field included boolean
+included = ... -- boolean
+```
 
 **Sources:**
 
@@ -1633,11 +1737,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `incapacitated_turns` { #symbol-api-lua-v5-generated-property-ccbbionicsnapshot-incapacitated-turns-3604e19afdd2 }
 
-**Contract fields:**
-
-- `name`: `"incapacitated_turns"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field incapacitated_turns integer
+incapacitated_turns = ... -- integer
+```
 
 **Sources:**
 
@@ -1645,11 +1748,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `charge_timer_turns` { #symbol-api-lua-v5-generated-property-ccbbionicsnapshot-charge-timer-turns-6bed0ed8c042 }
 
-**Contract fields:**
-
-- `name`: `"charge_timer_turns"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field charge_timer_turns integer
+charge_timer_turns = ... -- integer
+```
 
 **Sources:**
 
@@ -1657,11 +1759,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `activation_cost_kj` { #symbol-api-lua-v5-generated-property-ccbbionicsnapshot-activation-cost-kj-818086d48416 }
 
-**Contract fields:**
-
-- `name`: `"activation_cost_kj"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field activation_cost_kj number
+activation_cost_kj = ... -- number
+```
 
 **Sources:**
 
@@ -1669,11 +1770,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `deactivation_cost_kj` { #symbol-api-lua-v5-generated-property-ccbbionicsnapshot-deactivation-cost-kj-33bd48a1abbb }
 
-**Contract fields:**
-
-- `name`: `"deactivation_cost_kj"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field deactivation_cost_kj number
+deactivation_cost_kj = ... -- number
+```
 
 **Sources:**
 
@@ -1681,10 +1781,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbBionicsApi` { #symbol-api-lua-v5-generated-class-ccbbionicsapi-84eadbbfda2f }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbBionicsApi = {}
+```
 
 **Sources:**
 
@@ -1692,10 +1792,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbBoundedItemList` { #symbol-api-lua-v5-generated-class-ccbboundeditemlist-70e08c6d7400 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbBoundedItemList = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `items` | `CcbItemSnapshot[]` | Read-write |
+| `total` | `integer` | Read-write |
+| `returned` | `integer` | Read-write |
+| `limit` | `integer` | Read-write |
+| `truncated` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -1703,11 +1813,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `items` { #symbol-api-lua-v5-generated-property-ccbboundeditemlist-items-af623ae09e58 }
 
-**Contract fields:**
-
-- `name`: `"items"`
-- `optional`: `false`
-- `declaration`: `"CcbItemSnapshot[]"`
+```lua
+---@field items CcbItemSnapshot[]
+items = ... -- CcbItemSnapshot[]
+```
 
 **Sources:**
 
@@ -1715,11 +1824,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `total` { #symbol-api-lua-v5-generated-property-ccbboundeditemlist-total-1690b9d074dc }
 
-**Contract fields:**
-
-- `name`: `"total"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field total integer
+total = ... -- integer
+```
 
 **Sources:**
 
@@ -1727,11 +1835,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `returned` { #symbol-api-lua-v5-generated-property-ccbboundeditemlist-returned-ed4992210651 }
 
-**Contract fields:**
-
-- `name`: `"returned"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field returned integer
+returned = ... -- integer
+```
 
 **Sources:**
 
@@ -1739,11 +1846,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbboundeditemlist-limit-d75eb1000cef }
 
-**Contract fields:**
-
-- `name`: `"limit"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field limit integer
+limit = ... -- integer
+```
 
 **Sources:**
 
@@ -1751,11 +1857,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `truncated` { #symbol-api-lua-v5-generated-property-ccbboundeditemlist-truncated-85daebd2a970 }
 
-**Contract fields:**
-
-- `name`: `"truncated"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field truncated boolean
+truncated = ... -- boolean
+```
 
 **Sources:**
 
@@ -1763,10 +1868,39 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbCalendarPoint` { #symbol-api-lua-v5-generated-class-ccbcalendarpoint-c42560b87771 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbCalendarPoint = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `point` | `TimePoint` | Read-write |
+| `turn` | `integer` | Read-write |
+| `display` | `string` | Read-write |
+| `time_of_day` | `string` | Read-write |
+| `year` | `integer` | Read-write |
+| `day_of_year` | `integer` | Read-write |
+| `second` | `integer` | Read-write |
+| `minute` | `integer` | Read-write |
+| `hour` | `integer` | Read-write |
+| `season` | `CcbCalendarSeason` | Read-write |
+| `moon_phase` | `"new"|"waxing_crescent"|"waxing_half"|"waxing_gibbous"|"full"|"waning_gibbous"|"waning_half"|"waning_crescent"|"unknown"` | Read-write |
+| `is_day` | `boolean` | Read-write |
+| `is_night` | `boolean` | Read-write |
+| `is_dawn` | `boolean` | Read-write |
+| `is_dusk` | `boolean` | Read-write |
+| `is_twilight` | `boolean` | Read-write |
+| `sunrise` | `TimePoint` | Read-write |
+| `sunset` | `TimePoint` | Read-write |
+| `daylight` | `TimePoint` | Read-write |
+| `nightfall` | `TimePoint` | Read-write |
+| `noon` | `TimePoint` | Read-write |
+| `turns_since_cataclysm` | `integer` | Read-write |
+| `turns_since_game_start` | `integer` | Read-write |
+| `season_turns` | `integer` | Read-write |
 
 **Sources:**
 
@@ -1774,11 +1908,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `point` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-point-54b87b7022cd }
 
-**Contract fields:**
-
-- `name`: `"point"`
-- `optional`: `false`
-- `declaration`: `"TimePoint"`
+```lua
+---@field point TimePoint
+point = ... -- TimePoint
+```
 
 **Sources:**
 
@@ -1786,11 +1919,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `turn` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-turn-5d52d969b207 }
 
-**Contract fields:**
-
-- `name`: `"turn"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field turn integer
+turn = ... -- integer
+```
 
 **Sources:**
 
@@ -1798,11 +1930,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `display` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-display-bd8c60d006aa }
 
-**Contract fields:**
-
-- `name`: `"display"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field display string
+display = ... -- string
+```
 
 **Sources:**
 
@@ -1810,11 +1941,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `time_of_day` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-time-of-day-a0580f600059 }
 
-**Contract fields:**
-
-- `name`: `"time_of_day"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field time_of_day string
+time_of_day = ... -- string
+```
 
 **Sources:**
 
@@ -1822,11 +1952,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `year` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-year-8755038c3415 }
 
-**Contract fields:**
-
-- `name`: `"year"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field year integer
+year = ... -- integer
+```
 
 **Sources:**
 
@@ -1834,11 +1963,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `day_of_year` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-day-of-year-59751dedd9df }
 
-**Contract fields:**
-
-- `name`: `"day_of_year"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field day_of_year integer
+day_of_year = ... -- integer
+```
 
 **Sources:**
 
@@ -1846,11 +1974,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `second` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-second-dad39fddf7fc }
 
-**Contract fields:**
-
-- `name`: `"second"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field second integer
+second = ... -- integer
+```
 
 **Sources:**
 
@@ -1858,11 +1985,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `minute` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-minute-45eab9be609d }
 
-**Contract fields:**
-
-- `name`: `"minute"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field minute integer
+minute = ... -- integer
+```
 
 **Sources:**
 
@@ -1870,11 +1996,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hour` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-hour-cf39c29e5052 }
 
-**Contract fields:**
-
-- `name`: `"hour"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field hour integer
+hour = ... -- integer
+```
 
 **Sources:**
 
@@ -1882,11 +2007,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `season` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-season-c7e9f1e2582c }
 
-**Contract fields:**
-
-- `name`: `"season"`
-- `optional`: `false`
-- `declaration`: `"CcbCalendarSeason"`
+```lua
+---@field season CcbCalendarSeason
+season = ... -- CcbCalendarSeason
+```
 
 **Sources:**
 
@@ -1894,11 +2018,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `moon_phase` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-moon-phase-1044180f7cc1 }
 
-**Contract fields:**
-
-- `name`: `"moon_phase"`
-- `optional`: `false`
-- `declaration`: `"\"new\"|\"waxing_crescent\"|\"waxing_half\"|\"waxing_gibbous\"|\"full\"|\"waning_gibbous\"|\"waning_half\"|\"waning_crescent\"|\"unknown\""`
+```lua
+---@field moon_phase "new"|"waxing_crescent"|"waxing_half"|"waxing_gibbous"|"full"|"waning_gibbous"|"waning_half"|"waning_crescent"|"unknown"
+moon_phase = ... -- "new"|"waxing_crescent"|"waxing_half"|"waxing_gibbous"|"full"|"waning_gibbous"|"waning_half"|"waning_crescent"|"unknown"
+```
 
 **Sources:**
 
@@ -1906,11 +2029,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `is_day` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-is-day-185fce637ae9 }
 
-**Contract fields:**
-
-- `name`: `"is_day"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field is_day boolean
+is_day = ... -- boolean
+```
 
 **Sources:**
 
@@ -1918,11 +2040,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `is_night` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-is-night-99b78924cd31 }
 
-**Contract fields:**
-
-- `name`: `"is_night"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field is_night boolean
+is_night = ... -- boolean
+```
 
 **Sources:**
 
@@ -1930,11 +2051,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `is_dawn` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-is-dawn-71af56433ad3 }
 
-**Contract fields:**
-
-- `name`: `"is_dawn"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field is_dawn boolean
+is_dawn = ... -- boolean
+```
 
 **Sources:**
 
@@ -1942,11 +2062,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `is_dusk` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-is-dusk-aa1a432b6ff3 }
 
-**Contract fields:**
-
-- `name`: `"is_dusk"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field is_dusk boolean
+is_dusk = ... -- boolean
+```
 
 **Sources:**
 
@@ -1954,11 +2073,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `is_twilight` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-is-twilight-1ac71626bccd }
 
-**Contract fields:**
-
-- `name`: `"is_twilight"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field is_twilight boolean
+is_twilight = ... -- boolean
+```
 
 **Sources:**
 
@@ -1966,11 +2084,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sunrise` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-sunrise-c7c3652ea53c }
 
-**Contract fields:**
-
-- `name`: `"sunrise"`
-- `optional`: `false`
-- `declaration`: `"TimePoint"`
+```lua
+---@field sunrise TimePoint
+sunrise = ... -- TimePoint
+```
 
 **Sources:**
 
@@ -1978,11 +2095,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sunset` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-sunset-35014a3e9391 }
 
-**Contract fields:**
-
-- `name`: `"sunset"`
-- `optional`: `false`
-- `declaration`: `"TimePoint"`
+```lua
+---@field sunset TimePoint
+sunset = ... -- TimePoint
+```
 
 **Sources:**
 
@@ -1990,11 +2106,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `daylight` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-daylight-e531e3f16f3f }
 
-**Contract fields:**
-
-- `name`: `"daylight"`
-- `optional`: `false`
-- `declaration`: `"TimePoint"`
+```lua
+---@field daylight TimePoint
+daylight = ... -- TimePoint
+```
 
 **Sources:**
 
@@ -2002,11 +2117,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `nightfall` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-nightfall-7748f26f5283 }
 
-**Contract fields:**
-
-- `name`: `"nightfall"`
-- `optional`: `false`
-- `declaration`: `"TimePoint"`
+```lua
+---@field nightfall TimePoint
+nightfall = ... -- TimePoint
+```
 
 **Sources:**
 
@@ -2014,11 +2128,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `noon` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-noon-f5f0bc917622 }
 
-**Contract fields:**
-
-- `name`: `"noon"`
-- `optional`: `false`
-- `declaration`: `"TimePoint"`
+```lua
+---@field noon TimePoint
+noon = ... -- TimePoint
+```
 
 **Sources:**
 
@@ -2026,11 +2139,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `turns_since_cataclysm` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-turns-since-cataclysm-17764a135aeb }
 
-**Contract fields:**
-
-- `name`: `"turns_since_cataclysm"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field turns_since_cataclysm integer
+turns_since_cataclysm = ... -- integer
+```
 
 **Sources:**
 
@@ -2038,11 +2150,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `turns_since_game_start` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-turns-since-game-start-c795966d6878 }
 
-**Contract fields:**
-
-- `name`: `"turns_since_game_start"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field turns_since_game_start integer
+turns_since_game_start = ... -- integer
+```
 
 **Sources:**
 
@@ -2050,11 +2161,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `season_turns` { #symbol-api-lua-v5-generated-property-ccbcalendarpoint-season-turns-c7fcca490092 }
 
-**Contract fields:**
-
-- `name`: `"season_turns"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field season_turns integer
+season_turns = ... -- integer
+```
 
 **Sources:**
 
@@ -2062,10 +2172,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbCalendarSeason` { #symbol-api-lua-v5-generated-class-ccbcalendarseason-bdab9ff2b235 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbCalendarSeason = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `"spring"|"summer"|"autumn"|"winter"|"unknown"` | Read-write |
+| `index` | `integer` | Read-write |
+| `name` | `string` | Read-write |
+| `day` | `integer` | Read-write |
 
 **Sources:**
 
@@ -2073,11 +2192,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbcalendarseason-id-581aa7c5684b }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"\"spring\"|\"summer\"|\"autumn\"|\"winter\"|\"unknown\""`
+```lua
+---@field id "spring"|"summer"|"autumn"|"winter"|"unknown"
+id = ... -- "spring"|"summer"|"autumn"|"winter"|"unknown"
+```
 
 **Sources:**
 
@@ -2085,11 +2203,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `index` { #symbol-api-lua-v5-generated-property-ccbcalendarseason-index-82474cc498a8 }
 
-**Contract fields:**
-
-- `name`: `"index"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field index integer
+index = ... -- integer
+```
 
 **Sources:**
 
@@ -2097,11 +2214,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbcalendarseason-name-ee94a56d9186 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -2109,11 +2225,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `day` { #symbol-api-lua-v5-generated-property-ccbcalendarseason-day-7bc605a56a56 }
 
-**Contract fields:**
-
-- `name`: `"day"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field day integer
+day = ... -- integer
+```
 
 **Sources:**
 
@@ -2121,10 +2236,26 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbCalendarSnapshot` { #symbol-api-lua-v5-generated-class-ccbcalendarsnapshot-03596a4b8f7a }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbCalendarSnapshot = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `now` | `CcbCalendarPoint` | Read-write |
+| `turn_zero` | `TimePoint` | Read-write |
+| `start_of_cataclysm` | `TimePoint` | Read-write |
+| `start_of_game` | `TimePoint` | Read-write |
+| `season_length` | `TimeDuration` | Read-write |
+| `year_length` | `TimeDuration` | Read-write |
+| `turn_zero_offset` | `TimeDuration` | Read-write |
+| `initial_season` | `CcbCalendarSeason` | Read-write |
+| `eternal_season` | `boolean` | Read-write |
+| `eternal_day` | `boolean` | Read-write |
+| `eternal_night` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -2132,11 +2263,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `now` { #symbol-api-lua-v5-generated-property-ccbcalendarsnapshot-now-db736aad8390 }
 
-**Contract fields:**
-
-- `name`: `"now"`
-- `optional`: `false`
-- `declaration`: `"CcbCalendarPoint"`
+```lua
+---@field now CcbCalendarPoint
+now = ... -- CcbCalendarPoint
+```
 
 **Sources:**
 
@@ -2144,11 +2274,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `turn_zero` { #symbol-api-lua-v5-generated-property-ccbcalendarsnapshot-turn-zero-eb872f5cd634 }
 
-**Contract fields:**
-
-- `name`: `"turn_zero"`
-- `optional`: `false`
-- `declaration`: `"TimePoint"`
+```lua
+---@field turn_zero TimePoint
+turn_zero = ... -- TimePoint
+```
 
 **Sources:**
 
@@ -2156,11 +2285,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `start_of_cataclysm` { #symbol-api-lua-v5-generated-property-ccbcalendarsnapshot-start-of-cataclysm-a6712bcceb6e }
 
-**Contract fields:**
-
-- `name`: `"start_of_cataclysm"`
-- `optional`: `false`
-- `declaration`: `"TimePoint"`
+```lua
+---@field start_of_cataclysm TimePoint
+start_of_cataclysm = ... -- TimePoint
+```
 
 **Sources:**
 
@@ -2168,11 +2296,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `start_of_game` { #symbol-api-lua-v5-generated-property-ccbcalendarsnapshot-start-of-game-f1ef4bc57170 }
 
-**Contract fields:**
-
-- `name`: `"start_of_game"`
-- `optional`: `false`
-- `declaration`: `"TimePoint"`
+```lua
+---@field start_of_game TimePoint
+start_of_game = ... -- TimePoint
+```
 
 **Sources:**
 
@@ -2180,11 +2307,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `season_length` { #symbol-api-lua-v5-generated-property-ccbcalendarsnapshot-season-length-318daebe2114 }
 
-**Contract fields:**
-
-- `name`: `"season_length"`
-- `optional`: `false`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field season_length TimeDuration
+season_length = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -2192,11 +2318,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `year_length` { #symbol-api-lua-v5-generated-property-ccbcalendarsnapshot-year-length-4c1ed60d4cfc }
 
-**Contract fields:**
-
-- `name`: `"year_length"`
-- `optional`: `false`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field year_length TimeDuration
+year_length = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -2204,11 +2329,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `turn_zero_offset` { #symbol-api-lua-v5-generated-property-ccbcalendarsnapshot-turn-zero-offset-cda7ac2246d5 }
 
-**Contract fields:**
-
-- `name`: `"turn_zero_offset"`
-- `optional`: `false`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field turn_zero_offset TimeDuration
+turn_zero_offset = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -2216,11 +2340,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `initial_season` { #symbol-api-lua-v5-generated-property-ccbcalendarsnapshot-initial-season-d64197770744 }
 
-**Contract fields:**
-
-- `name`: `"initial_season"`
-- `optional`: `false`
-- `declaration`: `"CcbCalendarSeason"`
+```lua
+---@field initial_season CcbCalendarSeason
+initial_season = ... -- CcbCalendarSeason
+```
 
 **Sources:**
 
@@ -2228,11 +2351,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `eternal_season` { #symbol-api-lua-v5-generated-property-ccbcalendarsnapshot-eternal-season-9344232c728b }
 
-**Contract fields:**
-
-- `name`: `"eternal_season"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field eternal_season boolean
+eternal_season = ... -- boolean
+```
 
 **Sources:**
 
@@ -2240,11 +2362,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `eternal_day` { #symbol-api-lua-v5-generated-property-ccbcalendarsnapshot-eternal-day-7d9e9e823472 }
 
-**Contract fields:**
-
-- `name`: `"eternal_day"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field eternal_day boolean
+eternal_day = ... -- boolean
+```
 
 **Sources:**
 
@@ -2252,11 +2373,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `eternal_night` { #symbol-api-lua-v5-generated-property-ccbcalendarsnapshot-eternal-night-08b581ce0774 }
 
-**Contract fields:**
-
-- `name`: `"eternal_night"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field eternal_night boolean
+eternal_night = ... -- boolean
+```
 
 **Sources:**
 
@@ -2264,10 +2384,53 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbCallbackDescriptor` { #symbol-api-lua-v5-generated-class-ccbcallbackdescriptor-6c5f8842f629 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbCallbackDescriptor = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `priority` | `integer` | Read-write |
+| `once` | `boolean` | Read-write |
+| `can_use` | `fun(payload: table): boolean|table` | Read-write |
+| `on_use` | `fun(payload: table): boolean|table` | Read-write |
+| `can_unwield` | `fun(payload: table): boolean|table` | Read-write |
+| `can_wield` | `fun(payload: table): boolean|table` | Read-write |
+| `on_unwield` | `fun(payload: table)` | Read-write |
+| `on_wield` | `fun(payload: table)` | Read-write |
+| `can_takeoff` | `fun(payload: table): boolean|table` | Read-write |
+| `can_wear` | `fun(payload: table): boolean|table` | Read-write |
+| `on_takeoff` | `fun(payload: table)` | Read-write |
+| `on_wear` | `fun(payload: table)` | Read-write |
+| `on_break` | `fun(payload: table)` | Read-write |
+| `on_durability_change` | `fun(payload: table)` | Read-write |
+| `on_repair` | `fun(payload: table)` | Read-write |
+| `on_drop` | `fun(payload: table): boolean|table` | Read-write |
+| `on_pickup` | `fun(payload: table)` | Read-write |
+| `on_tick` | `fun(payload: table)` | Read-write |
+| `on_block` | `fun(payload: table)` | Read-write |
+| `on_hit` | `fun(payload: table)` | Read-write |
+| `on_melee_attack` | `fun(payload: table): boolean|table` | Read-write |
+| `on_miss` | `fun(payload: table)` | Read-write |
+| `can_fire` | `fun(payload: table): boolean|table` | Read-write |
+| `can_reload` | `fun(payload: table): boolean|table` | Read-write |
+| `on_fire` | `fun(payload: table): boolean|table` | Read-write |
+| `on_reload` | `fun(payload: table)` | Read-write |
+| `on_activate` | `fun(payload: table)` | Read-write |
+| `on_deactivate` | `fun(payload: table)` | Read-write |
+| `on_installed` | `fun(payload: table)` | Read-write |
+| `on_removed` | `fun(payload: table)` | Read-write |
+| `on_gain` | `fun(payload: table)` | Read-write |
+| `on_loss` | `fun(payload: table)` | Read-write |
+| `can_trigger` | `fun(payload: table): boolean|table` | Read-write |
+| `on_trigger` | `fun(payload: table)` | Read-write |
+| `on_trigger_aftermath` | `fun(payload: table)` | Read-write |
+| `get_examine_menu_entries` | `fun(payload: table): string[]|table` | Read-write |
+| `on_examine_menu_entry` | `fun(payload: table)` | Read-write |
+| `on_tame` | `fun(payload: table)` | Read-write |
 
 **Sources:**
 
@@ -2275,11 +2438,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `priority` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-priority-3dac36fed2af }
 
-**Contract fields:**
-
-- `name`: `"priority"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field priority integer
+priority = ... -- integer
+```
 
 **Sources:**
 
@@ -2287,11 +2449,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `once` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-once-05faae8ddda5 }
 
-**Contract fields:**
-
-- `name`: `"once"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field once boolean
+once = ... -- boolean
+```
 
 **Sources:**
 
@@ -2299,11 +2460,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `can_use` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-can-use-02fe508f70ea }
 
-**Contract fields:**
-
-- `name`: `"can_use"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table): boolean|table"`
+```lua
+---@field can_use fun(payload: table): boolean|table
+can_use = ... -- fun(payload: table): boolean|table
+```
 
 **Sources:**
 
@@ -2311,11 +2471,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_use` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-use-6fa0e09d05be }
 
-**Contract fields:**
-
-- `name`: `"on_use"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table): boolean|table"`
+```lua
+---@field on_use fun(payload: table): boolean|table
+on_use = ... -- fun(payload: table): boolean|table
+```
 
 **Sources:**
 
@@ -2323,11 +2482,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `can_unwield` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-can-unwield-c4a1b7b12867 }
 
-**Contract fields:**
-
-- `name`: `"can_unwield"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table): boolean|table"`
+```lua
+---@field can_unwield fun(payload: table): boolean|table
+can_unwield = ... -- fun(payload: table): boolean|table
+```
 
 **Sources:**
 
@@ -2335,11 +2493,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `can_wield` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-can-wield-b163e36d97a8 }
 
-**Contract fields:**
-
-- `name`: `"can_wield"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table): boolean|table"`
+```lua
+---@field can_wield fun(payload: table): boolean|table
+can_wield = ... -- fun(payload: table): boolean|table
+```
 
 **Sources:**
 
@@ -2347,11 +2504,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_unwield` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-unwield-b10b874000b2 }
 
-**Contract fields:**
-
-- `name`: `"on_unwield"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_unwield fun(payload: table)
+on_unwield = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2359,11 +2515,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_wield` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-wield-56b9893fcc8d }
 
-**Contract fields:**
-
-- `name`: `"on_wield"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_wield fun(payload: table)
+on_wield = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2371,11 +2526,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `can_takeoff` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-can-takeoff-3cda75a5593f }
 
-**Contract fields:**
-
-- `name`: `"can_takeoff"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table): boolean|table"`
+```lua
+---@field can_takeoff fun(payload: table): boolean|table
+can_takeoff = ... -- fun(payload: table): boolean|table
+```
 
 **Sources:**
 
@@ -2383,11 +2537,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `can_wear` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-can-wear-3e55a46312ad }
 
-**Contract fields:**
-
-- `name`: `"can_wear"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table): boolean|table"`
+```lua
+---@field can_wear fun(payload: table): boolean|table
+can_wear = ... -- fun(payload: table): boolean|table
+```
 
 **Sources:**
 
@@ -2395,11 +2548,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_takeoff` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-takeoff-6a4ef30e5ce1 }
 
-**Contract fields:**
-
-- `name`: `"on_takeoff"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_takeoff fun(payload: table)
+on_takeoff = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2407,11 +2559,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_wear` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-wear-35341220c464 }
 
-**Contract fields:**
-
-- `name`: `"on_wear"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_wear fun(payload: table)
+on_wear = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2419,11 +2570,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_break` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-break-147a17996705 }
 
-**Contract fields:**
-
-- `name`: `"on_break"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_break fun(payload: table)
+on_break = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2431,11 +2581,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_durability_change` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-durability-change-9807c2b297fa }
 
-**Contract fields:**
-
-- `name`: `"on_durability_change"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_durability_change fun(payload: table)
+on_durability_change = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2443,11 +2592,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_repair` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-repair-9c71a0a21b7a }
 
-**Contract fields:**
-
-- `name`: `"on_repair"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_repair fun(payload: table)
+on_repair = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2455,11 +2603,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_drop` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-drop-5493e2bdd467 }
 
-**Contract fields:**
-
-- `name`: `"on_drop"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table): boolean|table"`
+```lua
+---@field on_drop fun(payload: table): boolean|table
+on_drop = ... -- fun(payload: table): boolean|table
+```
 
 **Sources:**
 
@@ -2467,11 +2614,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_pickup` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-pickup-9bc81a443884 }
 
-**Contract fields:**
-
-- `name`: `"on_pickup"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_pickup fun(payload: table)
+on_pickup = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2479,11 +2625,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_tick` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-tick-4a8e0f6d24cd }
 
-**Contract fields:**
-
-- `name`: `"on_tick"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_tick fun(payload: table)
+on_tick = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2491,11 +2636,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_block` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-block-7d9d7fa6097c }
 
-**Contract fields:**
-
-- `name`: `"on_block"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_block fun(payload: table)
+on_block = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2503,11 +2647,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_hit` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-hit-a721bcd8e78e }
 
-**Contract fields:**
-
-- `name`: `"on_hit"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_hit fun(payload: table)
+on_hit = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2515,11 +2658,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_melee_attack` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-melee-attack-be56b565c04b }
 
-**Contract fields:**
-
-- `name`: `"on_melee_attack"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table): boolean|table"`
+```lua
+---@field on_melee_attack fun(payload: table): boolean|table
+on_melee_attack = ... -- fun(payload: table): boolean|table
+```
 
 **Sources:**
 
@@ -2527,11 +2669,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_miss` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-miss-671bf22cca1f }
 
-**Contract fields:**
-
-- `name`: `"on_miss"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_miss fun(payload: table)
+on_miss = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2539,11 +2680,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `can_fire` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-can-fire-46e78b09408b }
 
-**Contract fields:**
-
-- `name`: `"can_fire"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table): boolean|table"`
+```lua
+---@field can_fire fun(payload: table): boolean|table
+can_fire = ... -- fun(payload: table): boolean|table
+```
 
 **Sources:**
 
@@ -2551,11 +2691,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `can_reload` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-can-reload-973ff72b2aeb }
 
-**Contract fields:**
-
-- `name`: `"can_reload"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table): boolean|table"`
+```lua
+---@field can_reload fun(payload: table): boolean|table
+can_reload = ... -- fun(payload: table): boolean|table
+```
 
 **Sources:**
 
@@ -2563,11 +2702,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_fire` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-fire-622d69b3bc2d }
 
-**Contract fields:**
-
-- `name`: `"on_fire"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table): boolean|table"`
+```lua
+---@field on_fire fun(payload: table): boolean|table
+on_fire = ... -- fun(payload: table): boolean|table
+```
 
 **Sources:**
 
@@ -2575,11 +2713,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_reload` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-reload-749ab0f89ae7 }
 
-**Contract fields:**
-
-- `name`: `"on_reload"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_reload fun(payload: table)
+on_reload = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2587,11 +2724,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_activate` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-activate-a9433d0d41de }
 
-**Contract fields:**
-
-- `name`: `"on_activate"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_activate fun(payload: table)
+on_activate = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2599,11 +2735,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_deactivate` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-deactivate-a05ef3b24286 }
 
-**Contract fields:**
-
-- `name`: `"on_deactivate"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_deactivate fun(payload: table)
+on_deactivate = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2611,11 +2746,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_installed` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-installed-f1e10b2a28c4 }
 
-**Contract fields:**
-
-- `name`: `"on_installed"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_installed fun(payload: table)
+on_installed = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2623,11 +2757,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_removed` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-removed-8f77111f250d }
 
-**Contract fields:**
-
-- `name`: `"on_removed"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_removed fun(payload: table)
+on_removed = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2635,11 +2768,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_gain` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-gain-5dc987a4cd37 }
 
-**Contract fields:**
-
-- `name`: `"on_gain"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_gain fun(payload: table)
+on_gain = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2647,11 +2779,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_loss` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-loss-b936d93fa842 }
 
-**Contract fields:**
-
-- `name`: `"on_loss"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_loss fun(payload: table)
+on_loss = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2659,11 +2790,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `can_trigger` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-can-trigger-7d997bedd136 }
 
-**Contract fields:**
-
-- `name`: `"can_trigger"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table): boolean|table"`
+```lua
+---@field can_trigger fun(payload: table): boolean|table
+can_trigger = ... -- fun(payload: table): boolean|table
+```
 
 **Sources:**
 
@@ -2671,11 +2801,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_trigger` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-trigger-22ff945b5311 }
 
-**Contract fields:**
-
-- `name`: `"on_trigger"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_trigger fun(payload: table)
+on_trigger = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2683,11 +2812,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_trigger_aftermath` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-trigger-aftermath-65a956bf1760 }
 
-**Contract fields:**
-
-- `name`: `"on_trigger_aftermath"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_trigger_aftermath fun(payload: table)
+on_trigger_aftermath = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2695,11 +2823,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `get_examine_menu_entries` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-get-examine-menu-entries-f33eaf122f71 }
 
-**Contract fields:**
-
-- `name`: `"get_examine_menu_entries"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table): string[]|table"`
+```lua
+---@field get_examine_menu_entries fun(payload: table): string[]|table
+get_examine_menu_entries = ... -- fun(payload: table): string[]|table
+```
 
 **Sources:**
 
@@ -2707,11 +2834,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_examine_menu_entry` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-examine-menu-entry-baf7429d24e7 }
 
-**Contract fields:**
-
-- `name`: `"on_examine_menu_entry"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_examine_menu_entry fun(payload: table)
+on_examine_menu_entry = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2719,11 +2845,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `on_tame` { #symbol-api-lua-v5-generated-property-ccbcallbackdescriptor-on-tame-686089396417 }
 
-**Contract fields:**
-
-- `name`: `"on_tame"`
-- `optional`: `true`
-- `declaration`: `"fun(payload: table)"`
+```lua
+---@field on_tame fun(payload: table)
+on_tame = ... -- fun(payload: table)
+```
 
 **Sources:**
 
@@ -2731,10 +2856,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbCallbackKindSpec` { #symbol-api-lua-v5-generated-class-ccbcallbackkindspec-01a81387498a }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbCallbackKindSpec = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `kind` | `CcbCallbackKind` | Read-write |
+| `target_id_kind` | `string` | Read-write |
+| `methods` | `CcbCallbackMethodSpec[]` | Read-write |
 
 **Sources:**
 
@@ -2742,11 +2875,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `kind` { #symbol-api-lua-v5-generated-property-ccbcallbackkindspec-kind-4be6a480d3f5 }
 
-**Contract fields:**
-
-- `name`: `"kind"`
-- `optional`: `false`
-- `declaration`: `"CcbCallbackKind"`
+```lua
+---@field kind CcbCallbackKind
+kind = ... -- CcbCallbackKind
+```
 
 **Sources:**
 
@@ -2754,11 +2886,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `target_id_kind` { #symbol-api-lua-v5-generated-property-ccbcallbackkindspec-target-id-kind-d55899b68565 }
 
-**Contract fields:**
-
-- `name`: `"target_id_kind"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field target_id_kind string
+target_id_kind = ... -- string
+```
 
 **Sources:**
 
@@ -2766,11 +2897,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `methods` { #symbol-api-lua-v5-generated-property-ccbcallbackkindspec-methods-a20884631a46 }
 
-**Contract fields:**
-
-- `name`: `"methods"`
-- `optional`: `false`
-- `declaration`: `"CcbCallbackMethodSpec[]"`
+```lua
+---@field methods CcbCallbackMethodSpec[]
+methods = ... -- CcbCallbackMethodSpec[]
+```
 
 **Sources:**
 
@@ -2778,10 +2908,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbCallbackLimits` { #symbol-api-lua-v5-generated-class-ccbcallbacklimits-9c36d4754cd4 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbCallbackLimits = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `kinds` | `integer` | Read-write |
+| `registrations` | `integer` | Read-write |
+| `registrations_per_target` | `integer` | Read-write |
+| `registered` | `integer` | Read-write |
+| `priority_min` | `integer` | Read-write |
+| `priority_max` | `integer` | Read-write |
+| `dispatch_depth` | `integer` | Read-write |
+| `instruction_budget` | `integer` | Read-write |
 
 **Sources:**
 
@@ -2789,11 +2932,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `kinds` { #symbol-api-lua-v5-generated-property-ccbcallbacklimits-kinds-bcb8a5386e70 }
 
-**Contract fields:**
-
-- `name`: `"kinds"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field kinds integer
+kinds = ... -- integer
+```
 
 **Sources:**
 
@@ -2801,11 +2943,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `registrations` { #symbol-api-lua-v5-generated-property-ccbcallbacklimits-registrations-3215d6d0151e }
 
-**Contract fields:**
-
-- `name`: `"registrations"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field registrations integer
+registrations = ... -- integer
+```
 
 **Sources:**
 
@@ -2813,11 +2954,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `registrations_per_target` { #symbol-api-lua-v5-generated-property-ccbcallbacklimits-registrations-per-target-eab0b5d140c3 }
 
-**Contract fields:**
-
-- `name`: `"registrations_per_target"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field registrations_per_target integer
+registrations_per_target = ... -- integer
+```
 
 **Sources:**
 
@@ -2825,11 +2965,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `registered` { #symbol-api-lua-v5-generated-property-ccbcallbacklimits-registered-40bbb838847d }
 
-**Contract fields:**
-
-- `name`: `"registered"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field registered integer
+registered = ... -- integer
+```
 
 **Sources:**
 
@@ -2837,11 +2976,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `priority_min` { #symbol-api-lua-v5-generated-property-ccbcallbacklimits-priority-min-ae436bd4b690 }
 
-**Contract fields:**
-
-- `name`: `"priority_min"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field priority_min integer
+priority_min = ... -- integer
+```
 
 **Sources:**
 
@@ -2849,11 +2987,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `priority_max` { #symbol-api-lua-v5-generated-property-ccbcallbacklimits-priority-max-931deb002102 }
 
-**Contract fields:**
-
-- `name`: `"priority_max"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field priority_max integer
+priority_max = ... -- integer
+```
 
 **Sources:**
 
@@ -2861,11 +2998,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `dispatch_depth` { #symbol-api-lua-v5-generated-property-ccbcallbacklimits-dispatch-depth-a8335ba65ff0 }
 
-**Contract fields:**
-
-- `name`: `"dispatch_depth"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field dispatch_depth integer
+dispatch_depth = ... -- integer
+```
 
 **Sources:**
 
@@ -2873,11 +3009,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `instruction_budget` { #symbol-api-lua-v5-generated-property-ccbcallbacklimits-instruction-budget-0b76f3da3e00 }
 
-**Contract fields:**
-
-- `name`: `"instruction_budget"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field instruction_budget integer
+instruction_budget = ... -- integer
+```
 
 **Sources:**
 
@@ -2885,10 +3020,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbCallbackMethodSpec` { #symbol-api-lua-v5-generated-class-ccbcallbackmethodspec-745f77ff40c8 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbCallbackMethodSpec = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `name` | `string` | Read-write |
+| `decision` | `boolean` | Read-write |
+| `consuming` | `boolean` | Read-write |
+| `requires_write` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -2896,11 +3040,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbcallbackmethodspec-name-506f4effb6ed }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -2908,11 +3051,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `decision` { #symbol-api-lua-v5-generated-property-ccbcallbackmethodspec-decision-c89e6895620a }
 
-**Contract fields:**
-
-- `name`: `"decision"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field decision boolean
+decision = ... -- boolean
+```
 
 **Sources:**
 
@@ -2920,11 +3062,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `consuming` { #symbol-api-lua-v5-generated-property-ccbcallbackmethodspec-consuming-dfb7d2b6b9c8 }
 
-**Contract fields:**
-
-- `name`: `"consuming"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field consuming boolean
+consuming = ... -- boolean
+```
 
 **Sources:**
 
@@ -2932,11 +3073,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `requires_write` { #symbol-api-lua-v5-generated-property-ccbcallbackmethodspec-requires-write-1d74c27deed2 }
 
-**Contract fields:**
-
-- `name`: `"requires_write"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field requires_write boolean
+requires_write = ... -- boolean
+```
 
 **Sources:**
 
@@ -2944,10 +3084,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbCallbacksApi` { #symbol-api-lua-v5-generated-class-ccbcallbacksapi-02c789d4c6e7 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbCallbacksApi = {}
+```
 
 **Sources:**
 
@@ -2955,10 +3095,16 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbCampOptions` { #symbol-api-lua-v5-generated-class-ccbcampoptions-feccb81c2441 }
 
-**Contract fields:**
+```lua
+---@class : CcbDefinitionSearchOptions
+local CcbCampOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbDefinitionSearchOptions"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `radius_omt` | `integer` | Read-write |
 
 **Sources:**
 
@@ -2966,11 +3112,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `radius_omt` { #symbol-api-lua-v5-generated-property-ccbcampoptions-radius-omt-d385c12f0b85 }
 
-**Contract fields:**
-
-- `name`: `"radius_omt"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field radius_omt integer
+radius_omt = ... -- integer
+```
 
 **Sources:**
 
@@ -2978,10 +3123,28 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbCampSnapshot` { #symbol-api-lua-v5-generated-class-ccbcampsnapshot-864539f86d20 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbCampSnapshot = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `name` | `string` | Read-write |
+| `board_name` | `string` | Read-write |
+| `valid` | `boolean` | Read-write |
+| `position` | `TripointCoord` | Read-write |
+| `board_position` | `TripointCoord` | Read-write |
+| `owner` | `GameId` | Read-write |
+| `distance_submaps` | `integer` | Read-write |
+| `distance_omt` | `number` | Read-write |
+| `directions` | `table` | Read-write |
+| `fortifications` | `table` | Read-write |
+| `storage_tiles` | `table` | Read-write |
+| `dumping_spot` | `TripointCoord` | Read-write |
+| `liquid_dumping_spots` | `table` | Read-write |
 
 **Sources:**
 
@@ -2989,11 +3152,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-name-9c0b02579e60 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -3001,11 +3163,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `board_name` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-board-name-09ef4e84fad8 }
 
-**Contract fields:**
-
-- `name`: `"board_name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field board_name string
+board_name = ... -- string
+```
 
 **Sources:**
 
@@ -3013,11 +3174,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `valid` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-valid-bf8e8a17464d }
 
-**Contract fields:**
-
-- `name`: `"valid"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field valid boolean
+valid = ... -- boolean
+```
 
 **Sources:**
 
@@ -3025,11 +3185,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `position` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-position-80e68d2d4ab4 }
 
-**Contract fields:**
-
-- `name`: `"position"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
+```lua
+---@field position TripointCoord
+position = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -3037,11 +3196,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `board_position` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-board-position-edfd235298d3 }
 
-**Contract fields:**
-
-- `name`: `"board_position"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
+```lua
+---@field board_position TripointCoord
+board_position = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -3049,11 +3207,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `owner` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-owner-855dd6301573 }
 
-**Contract fields:**
-
-- `name`: `"owner"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field owner GameId
+owner = ... -- GameId
+```
 
 **Sources:**
 
@@ -3061,11 +3218,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `distance_submaps` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-distance-submaps-8a7031308a1a }
 
-**Contract fields:**
-
-- `name`: `"distance_submaps"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field distance_submaps integer
+distance_submaps = ... -- integer
+```
 
 **Sources:**
 
@@ -3073,11 +3229,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `distance_omt` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-distance-omt-234857f1e357 }
 
-**Contract fields:**
-
-- `name`: `"distance_omt"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field distance_omt number
+distance_omt = ... -- number
+```
 
 **Sources:**
 
@@ -3085,11 +3240,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `directions` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-directions-1a5159052e60 }
 
-**Contract fields:**
-
-- `name`: `"directions"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field directions table
+directions = ... -- table
+```
 
 **Sources:**
 
@@ -3097,11 +3251,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `fortifications` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-fortifications-9a0632fcaec8 }
 
-**Contract fields:**
-
-- `name`: `"fortifications"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field fortifications table
+fortifications = ... -- table
+```
 
 **Sources:**
 
@@ -3109,11 +3262,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `storage_tiles` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-storage-tiles-498d8d375425 }
 
-**Contract fields:**
-
-- `name`: `"storage_tiles"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field storage_tiles table
+storage_tiles = ... -- table
+```
 
 **Sources:**
 
@@ -3121,11 +3273,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `dumping_spot` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-dumping-spot-5b926ad7acbb }
 
-**Contract fields:**
-
-- `name`: `"dumping_spot"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
+```lua
+---@field dumping_spot TripointCoord
+dumping_spot = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -3133,11 +3284,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `liquid_dumping_spots` { #symbol-api-lua-v5-generated-property-ccbcampsnapshot-liquid-dumping-spots-63e38e9db33f }
 
-**Contract fields:**
-
-- `name`: `"liquid_dumping_spots"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field liquid_dumping_spots table
+liquid_dumping_spots = ... -- table
+```
 
 **Sources:**
 
@@ -3145,10 +3295,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbCampsApi` { #symbol-api-lua-v5-generated-class-ccbcampsapi-a404423fc8ba }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbCampsApi = {}
+```
 
 **Sources:**
 
@@ -3156,10 +3306,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbCharactersAdjustments` { #symbol-api-lua-v5-generated-class-ccbcharactersadjustments-7455b2364b2a }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbCharactersAdjustments = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `moves` | `integer` | Read-write |
+| `stamina` | `integer` | Read-write |
+| `pain` | `integer` | Read-write |
+| `focus` | `integer` | Read-write |
+| `hunger` | `integer` | Read-write |
+| `thirst` | `integer` | Read-write |
+| `sleepiness` | `integer` | Read-write |
+| `radiation` | `integer` | Read-write |
+| `painkiller` | `integer` | Read-write |
+| `stored_kcal` | `integer` | Read-write |
 
 **Sources:**
 
@@ -3167,11 +3332,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `moves` { #symbol-api-lua-v5-generated-property-ccbcharactersadjustments-moves-cc0d3c762858 }
 
-**Contract fields:**
-
-- `name`: `"moves"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field moves integer
+moves = ... -- integer
+```
 
 **Sources:**
 
@@ -3179,11 +3343,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `stamina` { #symbol-api-lua-v5-generated-property-ccbcharactersadjustments-stamina-bb6b8dffc363 }
 
-**Contract fields:**
-
-- `name`: `"stamina"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field stamina integer
+stamina = ... -- integer
+```
 
 **Sources:**
 
@@ -3191,11 +3354,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `pain` { #symbol-api-lua-v5-generated-property-ccbcharactersadjustments-pain-24b9494c9e07 }
 
-**Contract fields:**
-
-- `name`: `"pain"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field pain integer
+pain = ... -- integer
+```
 
 **Sources:**
 
@@ -3203,11 +3365,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `focus` { #symbol-api-lua-v5-generated-property-ccbcharactersadjustments-focus-f86a5796f78d }
 
-**Contract fields:**
-
-- `name`: `"focus"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field focus integer
+focus = ... -- integer
+```
 
 **Sources:**
 
@@ -3215,11 +3376,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hunger` { #symbol-api-lua-v5-generated-property-ccbcharactersadjustments-hunger-173eca00f43d }
 
-**Contract fields:**
-
-- `name`: `"hunger"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field hunger integer
+hunger = ... -- integer
+```
 
 **Sources:**
 
@@ -3227,11 +3387,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `thirst` { #symbol-api-lua-v5-generated-property-ccbcharactersadjustments-thirst-253620f03590 }
 
-**Contract fields:**
-
-- `name`: `"thirst"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field thirst integer
+thirst = ... -- integer
+```
 
 **Sources:**
 
@@ -3239,11 +3398,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sleepiness` { #symbol-api-lua-v5-generated-property-ccbcharactersadjustments-sleepiness-591b11f9edd2 }
 
-**Contract fields:**
-
-- `name`: `"sleepiness"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field sleepiness integer
+sleepiness = ... -- integer
+```
 
 **Sources:**
 
@@ -3251,11 +3409,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `radiation` { #symbol-api-lua-v5-generated-property-ccbcharactersadjustments-radiation-1d88c177c38a }
 
-**Contract fields:**
-
-- `name`: `"radiation"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field radiation integer
+radiation = ... -- integer
+```
 
 **Sources:**
 
@@ -3263,11 +3420,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `painkiller` { #symbol-api-lua-v5-generated-property-ccbcharactersadjustments-painkiller-1c2148f4b91c }
 
-**Contract fields:**
-
-- `name`: `"painkiller"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field painkiller integer
+painkiller = ... -- integer
+```
 
 **Sources:**
 
@@ -3275,11 +3431,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `stored_kcal` { #symbol-api-lua-v5-generated-property-ccbcharactersadjustments-stored-kcal-6bbfab1ea7e1 }
 
-**Contract fields:**
-
-- `name`: `"stored_kcal"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field stored_kcal integer
+stored_kcal = ... -- integer
+```
 
 **Sources:**
 
@@ -3287,10 +3442,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbCharactersApi` { #symbol-api-lua-v5-generated-class-ccbcharactersapi-e2b6e903a2ff }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbCharactersApi = {}
+```
 
 **Sources:**
 
@@ -3298,10 +3453,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbConstantsApi` { #symbol-api-lua-v5-generated-class-ccbconstantsapi-b23c5ac4342e }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbConstantsApi = {}
+```
 
 **Sources:**
 
@@ -3309,10 +3464,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbConstantsSnapshot` { #symbol-api-lua-v5-generated-class-ccbconstantssnapshot-a438b5dc04e8 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbConstantsSnapshot = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `body_temperature` | `table` | Read-write |
+| `lighting` | `table` | Read-write |
 
 **Sources:**
 
@@ -3320,11 +3482,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `body_temperature` { #symbol-api-lua-v5-generated-property-ccbconstantssnapshot-body-temperature-bf3f0c0fc3bb }
 
-**Contract fields:**
-
-- `name`: `"body_temperature"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field body_temperature table
+body_temperature = ... -- table
+```
 
 **Sources:**
 
@@ -3332,11 +3493,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `lighting` { #symbol-api-lua-v5-generated-property-ccbconstantssnapshot-lighting-2e3f4c8760eb }
 
-**Contract fields:**
-
-- `name`: `"lighting"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field lighting table
+lighting = ... -- table
+```
 
 **Sources:**
 
@@ -3344,10 +3504,52 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbCoordsApi` { #symbol-api-lua-v5-generated-class-ccbcoordsapi-d4aa7d2e2cdc }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbCoordsApi = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `max_range_points` | `integer` | Read-write |
+| `point_rel_ms` | `fun(x: integer, y: integer): PointCoord` | Read-write |
+| `point_rel_sm` | `fun(x: integer, y: integer): PointCoord` | Read-write |
+| `point_rel_omt` | `fun(x: integer, y: integer): PointCoord` | Read-write |
+| `point_rel_seg` | `fun(x: integer, y: integer): PointCoord` | Read-write |
+| `point_rel_om` | `fun(x: integer, y: integer): PointCoord` | Read-write |
+| `point_abs_ms` | `fun(x: integer, y: integer): PointCoord` | Read-write |
+| `point_abs_sm` | `fun(x: integer, y: integer): PointCoord` | Read-write |
+| `point_abs_omt` | `fun(x: integer, y: integer): PointCoord` | Read-write |
+| `point_abs_seg` | `fun(x: integer, y: integer): PointCoord` | Read-write |
+| `point_abs_om` | `fun(x: integer, y: integer): PointCoord` | Read-write |
+| `point_sm_ms` | `fun(x: integer, y: integer): PointCoord` | Read-write |
+| `point_omt_ms` | `fun(x: integer, y: integer): PointCoord` | Read-write |
+| `point_omt_sm` | `fun(x: integer, y: integer): PointCoord` | Read-write |
+| `point_om_ms` | `fun(x: integer, y: integer): PointCoord` | Read-write |
+| `point_om_sm` | `fun(x: integer, y: integer): PointCoord` | Read-write |
+| `point_om_omt` | `fun(x: integer, y: integer): PointCoord` | Read-write |
+| `point_bub_ms` | `fun(x: integer, y: integer): PointCoord` | Read-write |
+| `point_bub_sm` | `fun(x: integer, y: integer): PointCoord` | Read-write |
+| `tripoint_rel_ms` | `fun(x: integer, y: integer, z: integer): TripointCoord` | Read-write |
+| `tripoint_rel_sm` | `fun(x: integer, y: integer, z: integer): TripointCoord` | Read-write |
+| `tripoint_rel_omt` | `fun(x: integer, y: integer, z: integer): TripointCoord` | Read-write |
+| `tripoint_rel_seg` | `fun(x: integer, y: integer, z: integer): TripointCoord` | Read-write |
+| `tripoint_rel_om` | `fun(x: integer, y: integer, z: integer): TripointCoord` | Read-write |
+| `tripoint_abs_ms` | `fun(x: integer, y: integer, z: integer): TripointCoord` | Read-write |
+| `tripoint_abs_sm` | `fun(x: integer, y: integer, z: integer): TripointCoord` | Read-write |
+| `tripoint_abs_omt` | `fun(x: integer, y: integer, z: integer): TripointCoord` | Read-write |
+| `tripoint_abs_seg` | `fun(x: integer, y: integer, z: integer): TripointCoord` | Read-write |
+| `tripoint_abs_om` | `fun(x: integer, y: integer, z: integer): TripointCoord` | Read-write |
+| `tripoint_sm_ms` | `fun(x: integer, y: integer, z: integer): TripointCoord` | Read-write |
+| `tripoint_omt_ms` | `fun(x: integer, y: integer, z: integer): TripointCoord` | Read-write |
+| `tripoint_omt_sm` | `fun(x: integer, y: integer, z: integer): TripointCoord` | Read-write |
+| `tripoint_om_ms` | `fun(x: integer, y: integer, z: integer): TripointCoord` | Read-write |
+| `tripoint_om_sm` | `fun(x: integer, y: integer, z: integer): TripointCoord` | Read-write |
+| `tripoint_om_omt` | `fun(x: integer, y: integer, z: integer): TripointCoord` | Read-write |
+| `tripoint_bub_ms` | `fun(x: integer, y: integer, z: integer): TripointCoord` | Read-write |
+| `tripoint_bub_sm` | `fun(x: integer, y: integer, z: integer): TripointCoord` | Read-write |
 
 **Sources:**
 
@@ -3355,11 +3557,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `max_range_points` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-max-range-points-4f98bd12a3be }
 
-**Contract fields:**
-
-- `name`: `"max_range_points"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field max_range_points integer
+max_range_points = ... -- integer
+```
 
 **Sources:**
 
@@ -3367,11 +3568,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `point_rel_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-rel-ms-d6ba2e6d5432 }
 
-**Contract fields:**
-
-- `name`: `"point_rel_ms"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer): PointCoord"`
+```lua
+---@field point_rel_ms fun(x: integer, y: integer): PointCoord
+point_rel_ms = ... -- fun(x: integer, y: integer): PointCoord
+```
 
 **Sources:**
 
@@ -3379,11 +3579,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `point_rel_sm` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-rel-sm-1bf34357a32a }
 
-**Contract fields:**
-
-- `name`: `"point_rel_sm"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer): PointCoord"`
+```lua
+---@field point_rel_sm fun(x: integer, y: integer): PointCoord
+point_rel_sm = ... -- fun(x: integer, y: integer): PointCoord
+```
 
 **Sources:**
 
@@ -3391,11 +3590,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `point_rel_omt` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-rel-omt-0bea377dfb41 }
 
-**Contract fields:**
-
-- `name`: `"point_rel_omt"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer): PointCoord"`
+```lua
+---@field point_rel_omt fun(x: integer, y: integer): PointCoord
+point_rel_omt = ... -- fun(x: integer, y: integer): PointCoord
+```
 
 **Sources:**
 
@@ -3403,11 +3601,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `point_rel_seg` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-rel-seg-a9b2e73d6dfc }
 
-**Contract fields:**
-
-- `name`: `"point_rel_seg"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer): PointCoord"`
+```lua
+---@field point_rel_seg fun(x: integer, y: integer): PointCoord
+point_rel_seg = ... -- fun(x: integer, y: integer): PointCoord
+```
 
 **Sources:**
 
@@ -3415,11 +3612,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `point_rel_om` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-rel-om-32d69ae5e9cb }
 
-**Contract fields:**
-
-- `name`: `"point_rel_om"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer): PointCoord"`
+```lua
+---@field point_rel_om fun(x: integer, y: integer): PointCoord
+point_rel_om = ... -- fun(x: integer, y: integer): PointCoord
+```
 
 **Sources:**
 
@@ -3427,11 +3623,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `point_abs_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-abs-ms-2b7c9939a6fc }
 
-**Contract fields:**
-
-- `name`: `"point_abs_ms"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer): PointCoord"`
+```lua
+---@field point_abs_ms fun(x: integer, y: integer): PointCoord
+point_abs_ms = ... -- fun(x: integer, y: integer): PointCoord
+```
 
 **Sources:**
 
@@ -3439,11 +3634,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `point_abs_sm` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-abs-sm-e62c07d94912 }
 
-**Contract fields:**
-
-- `name`: `"point_abs_sm"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer): PointCoord"`
+```lua
+---@field point_abs_sm fun(x: integer, y: integer): PointCoord
+point_abs_sm = ... -- fun(x: integer, y: integer): PointCoord
+```
 
 **Sources:**
 
@@ -3451,11 +3645,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `point_abs_omt` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-abs-omt-69c4d1cfc599 }
 
-**Contract fields:**
-
-- `name`: `"point_abs_omt"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer): PointCoord"`
+```lua
+---@field point_abs_omt fun(x: integer, y: integer): PointCoord
+point_abs_omt = ... -- fun(x: integer, y: integer): PointCoord
+```
 
 **Sources:**
 
@@ -3463,11 +3656,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `point_abs_seg` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-abs-seg-0c1315998db4 }
 
-**Contract fields:**
-
-- `name`: `"point_abs_seg"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer): PointCoord"`
+```lua
+---@field point_abs_seg fun(x: integer, y: integer): PointCoord
+point_abs_seg = ... -- fun(x: integer, y: integer): PointCoord
+```
 
 **Sources:**
 
@@ -3475,11 +3667,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `point_abs_om` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-abs-om-e7409bc11a81 }
 
-**Contract fields:**
-
-- `name`: `"point_abs_om"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer): PointCoord"`
+```lua
+---@field point_abs_om fun(x: integer, y: integer): PointCoord
+point_abs_om = ... -- fun(x: integer, y: integer): PointCoord
+```
 
 **Sources:**
 
@@ -3487,11 +3678,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `point_sm_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-sm-ms-d5ea9e1cb32a }
 
-**Contract fields:**
-
-- `name`: `"point_sm_ms"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer): PointCoord"`
+```lua
+---@field point_sm_ms fun(x: integer, y: integer): PointCoord
+point_sm_ms = ... -- fun(x: integer, y: integer): PointCoord
+```
 
 **Sources:**
 
@@ -3499,11 +3689,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `point_omt_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-omt-ms-ea3defa84194 }
 
-**Contract fields:**
-
-- `name`: `"point_omt_ms"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer): PointCoord"`
+```lua
+---@field point_omt_ms fun(x: integer, y: integer): PointCoord
+point_omt_ms = ... -- fun(x: integer, y: integer): PointCoord
+```
 
 **Sources:**
 
@@ -3511,11 +3700,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `point_omt_sm` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-omt-sm-c30584e8aac6 }
 
-**Contract fields:**
-
-- `name`: `"point_omt_sm"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer): PointCoord"`
+```lua
+---@field point_omt_sm fun(x: integer, y: integer): PointCoord
+point_omt_sm = ... -- fun(x: integer, y: integer): PointCoord
+```
 
 **Sources:**
 
@@ -3523,11 +3711,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `point_om_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-om-ms-c183271e3e27 }
 
-**Contract fields:**
-
-- `name`: `"point_om_ms"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer): PointCoord"`
+```lua
+---@field point_om_ms fun(x: integer, y: integer): PointCoord
+point_om_ms = ... -- fun(x: integer, y: integer): PointCoord
+```
 
 **Sources:**
 
@@ -3535,11 +3722,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `point_om_sm` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-om-sm-36e220988dc8 }
 
-**Contract fields:**
-
-- `name`: `"point_om_sm"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer): PointCoord"`
+```lua
+---@field point_om_sm fun(x: integer, y: integer): PointCoord
+point_om_sm = ... -- fun(x: integer, y: integer): PointCoord
+```
 
 **Sources:**
 
@@ -3547,11 +3733,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `point_om_omt` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-om-omt-072f4aef20d8 }
 
-**Contract fields:**
-
-- `name`: `"point_om_omt"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer): PointCoord"`
+```lua
+---@field point_om_omt fun(x: integer, y: integer): PointCoord
+point_om_omt = ... -- fun(x: integer, y: integer): PointCoord
+```
 
 **Sources:**
 
@@ -3559,11 +3744,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `point_bub_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-bub-ms-a99691e20bdc }
 
-**Contract fields:**
-
-- `name`: `"point_bub_ms"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer): PointCoord"`
+```lua
+---@field point_bub_ms fun(x: integer, y: integer): PointCoord
+point_bub_ms = ... -- fun(x: integer, y: integer): PointCoord
+```
 
 **Sources:**
 
@@ -3571,11 +3755,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `point_bub_sm` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-point-bub-sm-79681abb78b2 }
 
-**Contract fields:**
-
-- `name`: `"point_bub_sm"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer): PointCoord"`
+```lua
+---@field point_bub_sm fun(x: integer, y: integer): PointCoord
+point_bub_sm = ... -- fun(x: integer, y: integer): PointCoord
+```
 
 **Sources:**
 
@@ -3583,11 +3766,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `tripoint_rel_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-rel-ms-7855e60e2932 }
 
-**Contract fields:**
-
-- `name`: `"tripoint_rel_ms"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer, z: integer): TripointCoord"`
+```lua
+---@field tripoint_rel_ms fun(x: integer, y: integer, z: integer): TripointCoord
+tripoint_rel_ms = ... -- fun(x: integer, y: integer, z: integer): TripointCoord
+```
 
 **Sources:**
 
@@ -3595,11 +3777,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `tripoint_rel_sm` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-rel-sm-68c6de3ec32a }
 
-**Contract fields:**
-
-- `name`: `"tripoint_rel_sm"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer, z: integer): TripointCoord"`
+```lua
+---@field tripoint_rel_sm fun(x: integer, y: integer, z: integer): TripointCoord
+tripoint_rel_sm = ... -- fun(x: integer, y: integer, z: integer): TripointCoord
+```
 
 **Sources:**
 
@@ -3607,11 +3788,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `tripoint_rel_omt` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-rel-omt-023f635c7b37 }
 
-**Contract fields:**
-
-- `name`: `"tripoint_rel_omt"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer, z: integer): TripointCoord"`
+```lua
+---@field tripoint_rel_omt fun(x: integer, y: integer, z: integer): TripointCoord
+tripoint_rel_omt = ... -- fun(x: integer, y: integer, z: integer): TripointCoord
+```
 
 **Sources:**
 
@@ -3619,11 +3799,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `tripoint_rel_seg` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-rel-seg-c21e79047ffe }
 
-**Contract fields:**
-
-- `name`: `"tripoint_rel_seg"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer, z: integer): TripointCoord"`
+```lua
+---@field tripoint_rel_seg fun(x: integer, y: integer, z: integer): TripointCoord
+tripoint_rel_seg = ... -- fun(x: integer, y: integer, z: integer): TripointCoord
+```
 
 **Sources:**
 
@@ -3631,11 +3810,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `tripoint_rel_om` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-rel-om-d15eca074f33 }
 
-**Contract fields:**
-
-- `name`: `"tripoint_rel_om"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer, z: integer): TripointCoord"`
+```lua
+---@field tripoint_rel_om fun(x: integer, y: integer, z: integer): TripointCoord
+tripoint_rel_om = ... -- fun(x: integer, y: integer, z: integer): TripointCoord
+```
 
 **Sources:**
 
@@ -3643,11 +3821,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `tripoint_abs_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-abs-ms-a0026a43372e }
 
-**Contract fields:**
-
-- `name`: `"tripoint_abs_ms"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer, z: integer): TripointCoord"`
+```lua
+---@field tripoint_abs_ms fun(x: integer, y: integer, z: integer): TripointCoord
+tripoint_abs_ms = ... -- fun(x: integer, y: integer, z: integer): TripointCoord
+```
 
 **Sources:**
 
@@ -3655,11 +3832,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `tripoint_abs_sm` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-abs-sm-c2f46faf7a80 }
 
-**Contract fields:**
-
-- `name`: `"tripoint_abs_sm"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer, z: integer): TripointCoord"`
+```lua
+---@field tripoint_abs_sm fun(x: integer, y: integer, z: integer): TripointCoord
+tripoint_abs_sm = ... -- fun(x: integer, y: integer, z: integer): TripointCoord
+```
 
 **Sources:**
 
@@ -3667,11 +3843,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `tripoint_abs_omt` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-abs-omt-6dcfc62f47b9 }
 
-**Contract fields:**
-
-- `name`: `"tripoint_abs_omt"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer, z: integer): TripointCoord"`
+```lua
+---@field tripoint_abs_omt fun(x: integer, y: integer, z: integer): TripointCoord
+tripoint_abs_omt = ... -- fun(x: integer, y: integer, z: integer): TripointCoord
+```
 
 **Sources:**
 
@@ -3679,11 +3854,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `tripoint_abs_seg` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-abs-seg-66bba1d70aaf }
 
-**Contract fields:**
-
-- `name`: `"tripoint_abs_seg"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer, z: integer): TripointCoord"`
+```lua
+---@field tripoint_abs_seg fun(x: integer, y: integer, z: integer): TripointCoord
+tripoint_abs_seg = ... -- fun(x: integer, y: integer, z: integer): TripointCoord
+```
 
 **Sources:**
 
@@ -3691,11 +3865,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `tripoint_abs_om` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-abs-om-270240f3bb44 }
 
-**Contract fields:**
-
-- `name`: `"tripoint_abs_om"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer, z: integer): TripointCoord"`
+```lua
+---@field tripoint_abs_om fun(x: integer, y: integer, z: integer): TripointCoord
+tripoint_abs_om = ... -- fun(x: integer, y: integer, z: integer): TripointCoord
+```
 
 **Sources:**
 
@@ -3703,11 +3876,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `tripoint_sm_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-sm-ms-78a22b1f7013 }
 
-**Contract fields:**
-
-- `name`: `"tripoint_sm_ms"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer, z: integer): TripointCoord"`
+```lua
+---@field tripoint_sm_ms fun(x: integer, y: integer, z: integer): TripointCoord
+tripoint_sm_ms = ... -- fun(x: integer, y: integer, z: integer): TripointCoord
+```
 
 **Sources:**
 
@@ -3715,11 +3887,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `tripoint_omt_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-omt-ms-ab331d5a862a }
 
-**Contract fields:**
-
-- `name`: `"tripoint_omt_ms"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer, z: integer): TripointCoord"`
+```lua
+---@field tripoint_omt_ms fun(x: integer, y: integer, z: integer): TripointCoord
+tripoint_omt_ms = ... -- fun(x: integer, y: integer, z: integer): TripointCoord
+```
 
 **Sources:**
 
@@ -3727,11 +3898,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `tripoint_omt_sm` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-omt-sm-5e8bdb89d851 }
 
-**Contract fields:**
-
-- `name`: `"tripoint_omt_sm"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer, z: integer): TripointCoord"`
+```lua
+---@field tripoint_omt_sm fun(x: integer, y: integer, z: integer): TripointCoord
+tripoint_omt_sm = ... -- fun(x: integer, y: integer, z: integer): TripointCoord
+```
 
 **Sources:**
 
@@ -3739,11 +3909,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `tripoint_om_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-om-ms-6c9abfff9979 }
 
-**Contract fields:**
-
-- `name`: `"tripoint_om_ms"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer, z: integer): TripointCoord"`
+```lua
+---@field tripoint_om_ms fun(x: integer, y: integer, z: integer): TripointCoord
+tripoint_om_ms = ... -- fun(x: integer, y: integer, z: integer): TripointCoord
+```
 
 **Sources:**
 
@@ -3751,11 +3920,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `tripoint_om_sm` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-om-sm-7db6050f4727 }
 
-**Contract fields:**
-
-- `name`: `"tripoint_om_sm"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer, z: integer): TripointCoord"`
+```lua
+---@field tripoint_om_sm fun(x: integer, y: integer, z: integer): TripointCoord
+tripoint_om_sm = ... -- fun(x: integer, y: integer, z: integer): TripointCoord
+```
 
 **Sources:**
 
@@ -3763,11 +3931,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `tripoint_om_omt` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-om-omt-2e26a0985ec0 }
 
-**Contract fields:**
-
-- `name`: `"tripoint_om_omt"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer, z: integer): TripointCoord"`
+```lua
+---@field tripoint_om_omt fun(x: integer, y: integer, z: integer): TripointCoord
+tripoint_om_omt = ... -- fun(x: integer, y: integer, z: integer): TripointCoord
+```
 
 **Sources:**
 
@@ -3775,11 +3942,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `tripoint_bub_ms` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-bub-ms-05b9db0da2bb }
 
-**Contract fields:**
-
-- `name`: `"tripoint_bub_ms"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer, z: integer): TripointCoord"`
+```lua
+---@field tripoint_bub_ms fun(x: integer, y: integer, z: integer): TripointCoord
+tripoint_bub_ms = ... -- fun(x: integer, y: integer, z: integer): TripointCoord
+```
 
 **Sources:**
 
@@ -3787,11 +3953,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `tripoint_bub_sm` { #symbol-api-lua-v5-generated-property-ccbcoordsapi-tripoint-bub-sm-2451d5f6da8f }
 
-**Contract fields:**
-
-- `name`: `"tripoint_bub_sm"`
-- `optional`: `false`
-- `declaration`: `"fun(x: integer, y: integer, z: integer): TripointCoord"`
+```lua
+---@field tripoint_bub_sm fun(x: integer, y: integer, z: integer): TripointCoord
+tripoint_bub_sm = ... -- fun(x: integer, y: integer, z: integer): TripointCoord
+```
 
 **Sources:**
 
@@ -3799,10 +3964,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbCraftOptions` { #symbol-api-lua-v5-generated-class-ccbcraftoptions-f3fce03d78f9 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbCraftOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `batch` | `integer` | Read-write |
+| `long` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -3810,11 +3982,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `batch` { #symbol-api-lua-v5-generated-property-ccbcraftoptions-batch-518690d12426 }
 
-**Contract fields:**
-
-- `name`: `"batch"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field batch integer
+batch = ... -- integer
+```
 
 **Sources:**
 
@@ -3822,11 +3993,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `long` { #symbol-api-lua-v5-generated-property-ccbcraftoptions-long-3d2fb455b12e }
 
-**Contract fields:**
-
-- `name`: `"long"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field long boolean
+long = ... -- boolean
+```
 
 **Sources:**
 
@@ -3834,10 +4004,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbCraftingApi` { #symbol-api-lua-v5-generated-class-ccbcraftingapi-a46b3747ddf8 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbCraftingApi = {}
+```
 
 **Sources:**
 
@@ -3845,10 +4015,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbCreatureSnapshot` { #symbol-api-lua-v5-generated-class-ccbcreaturesnapshot-11d2640dc5e5 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbCreatureSnapshot = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `name` | `string` | Read-write |
+| `kind` | `'"monster"'|'"npc"'|'"creature"'` | Read-write |
+| `attitude` | `string` | Read-write |
+| `distance` | `integer` | Read-write |
+| `x` | `integer` | Read-write |
+| `y` | `integer` | Read-write |
+| `z` | `integer` | Read-write |
+| `hp` | `integer` | Read-write |
+| `hp_max` | `integer` | Read-write |
 
 **Sources:**
 
@@ -3856,11 +4040,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbcreaturesnapshot-name-ad161772ab92 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -3868,11 +4051,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `kind` { #symbol-api-lua-v5-generated-property-ccbcreaturesnapshot-kind-8a86e6f90934 }
 
-**Contract fields:**
-
-- `name`: `"kind"`
-- `optional`: `false`
-- `declaration`: `"'\"monster\"'|'\"npc\"'|'\"creature\"'"`
+```lua
+---@field kind '"monster"'|'"npc"'|'"creature"'
+kind = ... -- '"monster"'|'"npc"'|'"creature"'
+```
 
 **Sources:**
 
@@ -3880,11 +4062,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `attitude` { #symbol-api-lua-v5-generated-property-ccbcreaturesnapshot-attitude-d2b3f564bc3c }
 
-**Contract fields:**
-
-- `name`: `"attitude"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field attitude string
+attitude = ... -- string
+```
 
 **Sources:**
 
@@ -3892,11 +4073,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `distance` { #symbol-api-lua-v5-generated-property-ccbcreaturesnapshot-distance-b6c099b8c496 }
 
-**Contract fields:**
-
-- `name`: `"distance"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field distance integer
+distance = ... -- integer
+```
 
 **Sources:**
 
@@ -3904,11 +4084,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `x` { #symbol-api-lua-v5-generated-property-ccbcreaturesnapshot-x-ce00c2733fd8 }
 
-**Contract fields:**
-
-- `name`: `"x"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field x integer
+x = ... -- integer
+```
 
 **Sources:**
 
@@ -3916,11 +4095,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `y` { #symbol-api-lua-v5-generated-property-ccbcreaturesnapshot-y-a024adac8428 }
 
-**Contract fields:**
-
-- `name`: `"y"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field y integer
+y = ... -- integer
+```
 
 **Sources:**
 
@@ -3928,11 +4106,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `z` { #symbol-api-lua-v5-generated-property-ccbcreaturesnapshot-z-a76634876993 }
 
-**Contract fields:**
-
-- `name`: `"z"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field z integer
+z = ... -- integer
+```
 
 **Sources:**
 
@@ -3940,11 +4117,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hp` { #symbol-api-lua-v5-generated-property-ccbcreaturesnapshot-hp-90ec63a2f952 }
 
-**Contract fields:**
-
-- `name`: `"hp"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field hp integer
+hp = ... -- integer
+```
 
 **Sources:**
 
@@ -3952,11 +4128,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hp_max` { #symbol-api-lua-v5-generated-property-ccbcreaturesnapshot-hp-max-a5d18fb21616 }
 
-**Contract fields:**
-
-- `name`: `"hp_max"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field hp_max integer
+hp_max = ... -- integer
+```
 
 **Sources:**
 
@@ -3964,10 +4139,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbCreaturesApi` { #symbol-api-lua-v5-generated-class-ccbcreaturesapi-ccdc57194aeb }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbCreaturesApi = {}
+```
 
 **Sources:**
 
@@ -3975,10 +4150,29 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbCurrentWeather` { #symbol-api-lua-v5-generated-class-ccbcurrentweather-1c6eb189f2f9 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbCurrentWeather = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `weather` | `GameId` | Read-write |
+| `type` | `CcbWeatherType` | Read-write |
+| `temperature` | `UnitValue` | Read-write |
+| `temperature_c` | `number` | Read-write |
+| `wind_speed_mph` | `integer` | Read-write |
+| `wind_direction_degrees` | `integer` | Read-write |
+| `next_update` | `TimePoint` | Read-write |
+| `changed` | `boolean` | Read-write |
+| `lightning_active` | `boolean` | Read-write |
+| `weather_override` | `GameId` | Read-write |
+| `temperature_override` | `UnitValue` | Read-write |
+| `wind_speed_override_mph` | `integer` | Read-write |
+| `wind_direction_override_degrees` | `integer` | Read-write |
+| `precise` | `CcbWeatherPoint` | Read-write |
 
 **Sources:**
 
@@ -3986,11 +4180,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `weather` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-weather-b3941de270f2 }
 
-**Contract fields:**
-
-- `name`: `"weather"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field weather GameId
+weather = ... -- GameId
+```
 
 **Sources:**
 
@@ -3998,11 +4191,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-type-4dccf4686678 }
 
-**Contract fields:**
-
-- `name`: `"type"`
-- `optional`: `true`
-- `declaration`: `"CcbWeatherType"`
+```lua
+---@field type CcbWeatherType
+type = ... -- CcbWeatherType
+```
 
 **Sources:**
 
@@ -4010,11 +4202,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `temperature` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-temperature-edd1150ba496 }
 
-**Contract fields:**
-
-- `name`: `"temperature"`
-- `optional`: `false`
-- `declaration`: `"UnitValue"`
+```lua
+---@field temperature UnitValue
+temperature = ... -- UnitValue
+```
 
 **Sources:**
 
@@ -4022,11 +4213,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `temperature_c` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-temperature-c-b2a94294a652 }
 
-**Contract fields:**
-
-- `name`: `"temperature_c"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field temperature_c number
+temperature_c = ... -- number
+```
 
 **Sources:**
 
@@ -4034,11 +4224,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `wind_speed_mph` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-wind-speed-mph-246f34d843c7 }
 
-**Contract fields:**
-
-- `name`: `"wind_speed_mph"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field wind_speed_mph integer
+wind_speed_mph = ... -- integer
+```
 
 **Sources:**
 
@@ -4046,11 +4235,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `wind_direction_degrees` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-wind-direction-degrees-8f9c4c156557 }
 
-**Contract fields:**
-
-- `name`: `"wind_direction_degrees"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field wind_direction_degrees integer
+wind_direction_degrees = ... -- integer
+```
 
 **Sources:**
 
@@ -4058,11 +4246,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `next_update` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-next-update-1368c02b9b3f }
 
-**Contract fields:**
-
-- `name`: `"next_update"`
-- `optional`: `false`
-- `declaration`: `"TimePoint"`
+```lua
+---@field next_update TimePoint
+next_update = ... -- TimePoint
+```
 
 **Sources:**
 
@@ -4070,11 +4257,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `changed` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-changed-04e5b9ae4b95 }
 
-**Contract fields:**
-
-- `name`: `"changed"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field changed boolean
+changed = ... -- boolean
+```
 
 **Sources:**
 
@@ -4082,11 +4268,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `lightning_active` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-lightning-active-b385b7e7bac7 }
 
-**Contract fields:**
-
-- `name`: `"lightning_active"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field lightning_active boolean
+lightning_active = ... -- boolean
+```
 
 **Sources:**
 
@@ -4094,11 +4279,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `weather_override` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-weather-override-1d0b288d7e80 }
 
-**Contract fields:**
-
-- `name`: `"weather_override"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field weather_override GameId
+weather_override = ... -- GameId
+```
 
 **Sources:**
 
@@ -4106,11 +4290,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `temperature_override` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-temperature-override-ac6313158f5a }
 
-**Contract fields:**
-
-- `name`: `"temperature_override"`
-- `optional`: `true`
-- `declaration`: `"UnitValue"`
+```lua
+---@field temperature_override UnitValue
+temperature_override = ... -- UnitValue
+```
 
 **Sources:**
 
@@ -4118,11 +4301,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `wind_speed_override_mph` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-wind-speed-override-mph-d36af63af31a }
 
-**Contract fields:**
-
-- `name`: `"wind_speed_override_mph"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field wind_speed_override_mph integer
+wind_speed_override_mph = ... -- integer
+```
 
 **Sources:**
 
@@ -4130,11 +4312,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `wind_direction_override_degrees` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-wind-direction-override-degrees-da118dcf3a61 }
 
-**Contract fields:**
-
-- `name`: `"wind_direction_override_degrees"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field wind_direction_override_degrees integer
+wind_direction_override_degrees = ... -- integer
+```
 
 **Sources:**
 
@@ -4142,11 +4323,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `precise` { #symbol-api-lua-v5-generated-property-ccbcurrentweather-precise-ff923ac0cb91 }
 
-**Contract fields:**
-
-- `name`: `"precise"`
-- `optional`: `false`
-- `declaration`: `"CcbWeatherPoint"`
+```lua
+---@field precise CcbWeatherPoint
+precise = ... -- CcbWeatherPoint
+```
 
 **Sources:**
 
@@ -4154,10 +4334,16 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbDefinitionSearchOptions` { #symbol-api-lua-v5-generated-class-ccbdefinitionsearchoptions-e76ed9605f41 }
 
-**Contract fields:**
+```lua
+---@class : CcbPageOptions
+local CcbDefinitionSearchOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbPageOptions"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `query` | `string Case-insensitive native id or translated-name fragment.` | Read-write |
 
 **Sources:**
 
@@ -4165,11 +4351,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `query` { #symbol-api-lua-v5-generated-property-ccbdefinitionsearchoptions-query-85a64109d56e }
 
-**Contract fields:**
-
-- `name`: `"query"`
-- `optional`: `true`
-- `declaration`: `"string Case-insensitive native id or translated-name fragment."`
+```lua
+---@field query string Case-insensitive native id or translated-name fragment.
+query = ... -- string Case-insensitive native id or translated-name fragment.
+```
 
 **Sources:**
 
@@ -4177,10 +4362,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbDefinitionsApi` { #symbol-api-lua-v5-generated-class-ccbdefinitionsapi-0357a92f57ea }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbDefinitionsApi = {}
+```
 
 **Sources:**
 
@@ -4188,10 +4373,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbDefinitionsDescription` { #symbol-api-lua-v5-generated-class-ccbdefinitionsdescription-9240e8b9da7f }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbDefinitionsDescription = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `kind` | `string` | Read-write |
+| `typed` | `boolean` | Read-write |
+| `enumerable` | `boolean` | Read-write |
+| `detail_level` | `'"snapshot"'|'"identity"'` | Read-write |
+| `fields` | `string[]` | Read-write |
+| `revision` | `integer` | Read-write |
+| `count` | `integer` | Read-write |
 
 **Sources:**
 
@@ -4199,11 +4396,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `kind` { #symbol-api-lua-v5-generated-property-ccbdefinitionsdescription-kind-c016adc1554c }
 
-**Contract fields:**
-
-- `name`: `"kind"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field kind string
+kind = ... -- string
+```
 
 **Sources:**
 
@@ -4211,11 +4407,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `typed` { #symbol-api-lua-v5-generated-property-ccbdefinitionsdescription-typed-8eddbdc147b6 }
 
-**Contract fields:**
-
-- `name`: `"typed"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field typed boolean
+typed = ... -- boolean
+```
 
 **Sources:**
 
@@ -4223,11 +4418,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `enumerable` { #symbol-api-lua-v5-generated-property-ccbdefinitionsdescription-enumerable-744137df9b9c }
 
-**Contract fields:**
-
-- `name`: `"enumerable"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field enumerable boolean
+enumerable = ... -- boolean
+```
 
 **Sources:**
 
@@ -4235,11 +4429,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `detail_level` { #symbol-api-lua-v5-generated-property-ccbdefinitionsdescription-detail-level-aa8d15a8908e }
 
-**Contract fields:**
-
-- `name`: `"detail_level"`
-- `optional`: `false`
-- `declaration`: `"'\"snapshot\"'|'\"identity\"'"`
+```lua
+---@field detail_level '"snapshot"'|'"identity"'
+detail_level = ... -- '"snapshot"'|'"identity"'
+```
 
 **Sources:**
 
@@ -4247,11 +4440,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `fields` { #symbol-api-lua-v5-generated-property-ccbdefinitionsdescription-fields-61454a971d1d }
 
-**Contract fields:**
-
-- `name`: `"fields"`
-- `optional`: `false`
-- `declaration`: `"string[]"`
+```lua
+---@field fields string[]
+fields = ... -- string[]
+```
 
 **Sources:**
 
@@ -4259,11 +4451,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `revision` { #symbol-api-lua-v5-generated-property-ccbdefinitionsdescription-revision-9296e0494e19 }
 
-**Contract fields:**
-
-- `name`: `"revision"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field revision integer
+revision = ... -- integer
+```
 
 **Sources:**
 
@@ -4271,11 +4462,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `count` { #symbol-api-lua-v5-generated-property-ccbdefinitionsdescription-count-624d652a3ac8 }
 
-**Contract fields:**
-
-- `name`: `"count"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field count integer
+count = ... -- integer
+```
 
 **Sources:**
 
@@ -4283,10 +4473,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbDiagnosticEntry` { #symbol-api-lua-v5-generated-class-ccbdiagnosticentry-920e555b7b28 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbDiagnosticEntry = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `sequence` | `integer` | Read-write |
+| `severity` | `'"error"'` | Read-write |
+| `generation` | `integer` | Read-write |
+| `world_generation` | `integer` | Read-write |
+| `source` | `string` | Read-write |
+| `context` | `string` | Read-write |
+| `message` | `string` | Read-write |
 
 **Sources:**
 
@@ -4294,11 +4496,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sequence` { #symbol-api-lua-v5-generated-property-ccbdiagnosticentry-sequence-d82b35aafc1f }
 
-**Contract fields:**
-
-- `name`: `"sequence"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field sequence integer
+sequence = ... -- integer
+```
 
 **Sources:**
 
@@ -4306,11 +4507,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `severity` { #symbol-api-lua-v5-generated-property-ccbdiagnosticentry-severity-0de385a40c1e }
 
-**Contract fields:**
-
-- `name`: `"severity"`
-- `optional`: `false`
-- `declaration`: `"'\"error\"'"`
+```lua
+---@field severity '"error"'
+severity = ... -- '"error"'
+```
 
 **Sources:**
 
@@ -4318,11 +4518,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `generation` { #symbol-api-lua-v5-generated-property-ccbdiagnosticentry-generation-0b5779bfd5a7 }
 
-**Contract fields:**
-
-- `name`: `"generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field generation integer
+generation = ... -- integer
+```
 
 **Sources:**
 
@@ -4330,11 +4529,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `world_generation` { #symbol-api-lua-v5-generated-property-ccbdiagnosticentry-world-generation-776d8873c39e }
 
-**Contract fields:**
-
-- `name`: `"world_generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field world_generation integer
+world_generation = ... -- integer
+```
 
 **Sources:**
 
@@ -4342,11 +4540,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `source` { #symbol-api-lua-v5-generated-property-ccbdiagnosticentry-source-e1f84ee4d2da }
 
-**Contract fields:**
-
-- `name`: `"source"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field source string
+source = ... -- string
+```
 
 **Sources:**
 
@@ -4354,11 +4551,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `context` { #symbol-api-lua-v5-generated-property-ccbdiagnosticentry-context-314952d58cd9 }
 
-**Contract fields:**
-
-- `name`: `"context"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field context string
+context = ... -- string
+```
 
 **Sources:**
 
@@ -4366,11 +4562,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `message` { #symbol-api-lua-v5-generated-property-ccbdiagnosticentry-message-e98765597696 }
 
-**Contract fields:**
-
-- `name`: `"message"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field message string
+message = ... -- string
+```
 
 **Sources:**
 
@@ -4378,10 +4573,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbDiagnosticsApi` { #symbol-api-lua-v5-generated-class-ccbdiagnosticsapi-1368154c6a10 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbDiagnosticsApi = {}
+```
 
 **Sources:**
 
@@ -4389,10 +4584,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbDiagnosticsCallbacks` { #symbol-api-lua-v5-generated-class-ccbdiagnosticscallbacks-2a30f59319dd }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbDiagnosticsCallbacks = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `count` | `integer` | Read-write |
+| `total_us` | `integer` | Read-write |
+| `max_us` | `integer` | Read-write |
+| `average_us` | `number` | Read-write |
+| `slow_count` | `integer` | Read-write |
+| `slow_threshold_us` | `integer` | Read-write |
+| `last_slow` | `string` | Read-write |
+| `event_dispatch_depth` | `integer` | Read-write |
+| `mapgen_dispatch_depth` | `integer` | Read-write |
+| `service_call_depth` | `integer` | Read-write |
 
 **Sources:**
 
@@ -4400,11 +4610,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `count` { #symbol-api-lua-v5-generated-property-ccbdiagnosticscallbacks-count-b503013f26bd }
 
-**Contract fields:**
-
-- `name`: `"count"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field count integer
+count = ... -- integer
+```
 
 **Sources:**
 
@@ -4412,11 +4621,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `total_us` { #symbol-api-lua-v5-generated-property-ccbdiagnosticscallbacks-total-us-a73c28f40c57 }
 
-**Contract fields:**
-
-- `name`: `"total_us"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field total_us integer
+total_us = ... -- integer
+```
 
 **Sources:**
 
@@ -4424,11 +4632,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `max_us` { #symbol-api-lua-v5-generated-property-ccbdiagnosticscallbacks-max-us-0e3bf1344ea6 }
 
-**Contract fields:**
-
-- `name`: `"max_us"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field max_us integer
+max_us = ... -- integer
+```
 
 **Sources:**
 
@@ -4436,11 +4643,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `average_us` { #symbol-api-lua-v5-generated-property-ccbdiagnosticscallbacks-average-us-4c21eea234d8 }
 
-**Contract fields:**
-
-- `name`: `"average_us"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field average_us number
+average_us = ... -- number
+```
 
 **Sources:**
 
@@ -4448,11 +4654,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `slow_count` { #symbol-api-lua-v5-generated-property-ccbdiagnosticscallbacks-slow-count-5802609fca64 }
 
-**Contract fields:**
-
-- `name`: `"slow_count"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field slow_count integer
+slow_count = ... -- integer
+```
 
 **Sources:**
 
@@ -4460,11 +4665,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `slow_threshold_us` { #symbol-api-lua-v5-generated-property-ccbdiagnosticscallbacks-slow-threshold-us-fad0e69ce2e5 }
 
-**Contract fields:**
-
-- `name`: `"slow_threshold_us"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field slow_threshold_us integer
+slow_threshold_us = ... -- integer
+```
 
 **Sources:**
 
@@ -4472,11 +4676,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `last_slow` { #symbol-api-lua-v5-generated-property-ccbdiagnosticscallbacks-last-slow-825695f01d4a }
 
-**Contract fields:**
-
-- `name`: `"last_slow"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field last_slow string
+last_slow = ... -- string
+```
 
 **Sources:**
 
@@ -4484,11 +4687,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `event_dispatch_depth` { #symbol-api-lua-v5-generated-property-ccbdiagnosticscallbacks-event-dispatch-depth-aea942262bdb }
 
-**Contract fields:**
-
-- `name`: `"event_dispatch_depth"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field event_dispatch_depth integer
+event_dispatch_depth = ... -- integer
+```
 
 **Sources:**
 
@@ -4496,11 +4698,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `mapgen_dispatch_depth` { #symbol-api-lua-v5-generated-property-ccbdiagnosticscallbacks-mapgen-dispatch-depth-a6299e482a9d }
 
-**Contract fields:**
-
-- `name`: `"mapgen_dispatch_depth"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field mapgen_dispatch_depth integer
+mapgen_dispatch_depth = ... -- integer
+```
 
 **Sources:**
 
@@ -4508,11 +4709,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `service_call_depth` { #symbol-api-lua-v5-generated-property-ccbdiagnosticscallbacks-service-call-depth-99693bd43338 }
 
-**Contract fields:**
-
-- `name`: `"service_call_depth"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field service_call_depth integer
+service_call_depth = ... -- integer
+```
 
 **Sources:**
 
@@ -4520,10 +4720,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbDiagnosticsHealth` { #symbol-api-lua-v5-generated-class-ccbdiagnosticshealth-4a29f2e62ca4 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbDiagnosticsHealth = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `ok` | `boolean` | Read-write |
+| `last_error` | `string` | Read-write |
+| `memory_pressure` | `number` | Read-write |
+| `diagnostic_records` | `integer` | Read-write |
+| `latest_diagnostic_sequence` | `integer` | Read-write |
 
 **Sources:**
 
@@ -4531,11 +4741,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `ok` { #symbol-api-lua-v5-generated-property-ccbdiagnosticshealth-ok-1a7905fb8d3b }
 
-**Contract fields:**
-
-- `name`: `"ok"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field ok boolean
+ok = ... -- boolean
+```
 
 **Sources:**
 
@@ -4543,11 +4752,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `last_error` { #symbol-api-lua-v5-generated-property-ccbdiagnosticshealth-last-error-9419a0a44cbb }
 
-**Contract fields:**
-
-- `name`: `"last_error"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field last_error string
+last_error = ... -- string
+```
 
 **Sources:**
 
@@ -4555,11 +4763,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `memory_pressure` { #symbol-api-lua-v5-generated-property-ccbdiagnosticshealth-memory-pressure-10fbea20d5c0 }
 
-**Contract fields:**
-
-- `name`: `"memory_pressure"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field memory_pressure number
+memory_pressure = ... -- number
+```
 
 **Sources:**
 
@@ -4567,11 +4774,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `diagnostic_records` { #symbol-api-lua-v5-generated-property-ccbdiagnosticshealth-diagnostic-records-397cfad98459 }
 
-**Contract fields:**
-
-- `name`: `"diagnostic_records"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field diagnostic_records integer
+diagnostic_records = ... -- integer
+```
 
 **Sources:**
 
@@ -4579,11 +4785,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `latest_diagnostic_sequence` { #symbol-api-lua-v5-generated-property-ccbdiagnosticshealth-latest-diagnostic-sequence-90e10c4b8415 }
 
-**Contract fields:**
-
-- `name`: `"latest_diagnostic_sequence"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field latest_diagnostic_sequence integer
+latest_diagnostic_sequence = ... -- integer
+```
 
 **Sources:**
 
@@ -4591,10 +4796,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbDiagnosticsMemory` { #symbol-api-lua-v5-generated-class-ccbdiagnosticsmemory-28331fae1a41 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbDiagnosticsMemory = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `used` | `integer` | Read-write |
+| `limit` | `integer` | Read-write |
+| `remaining` | `integer` | Read-write |
 
 **Sources:**
 
@@ -4602,11 +4815,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `used` { #symbol-api-lua-v5-generated-property-ccbdiagnosticsmemory-used-52be64de8caf }
 
-**Contract fields:**
-
-- `name`: `"used"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field used integer
+used = ... -- integer
+```
 
 **Sources:**
 
@@ -4614,11 +4826,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbdiagnosticsmemory-limit-124d53fb1efa }
 
-**Contract fields:**
-
-- `name`: `"limit"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field limit integer
+limit = ... -- integer
+```
 
 **Sources:**
 
@@ -4626,11 +4837,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `remaining` { #symbol-api-lua-v5-generated-property-ccbdiagnosticsmemory-remaining-420c5fabbcdc }
 
-**Contract fields:**
-
-- `name`: `"remaining"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field remaining integer
+remaining = ... -- integer
+```
 
 **Sources:**
 
@@ -4638,10 +4848,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbDiagnosticsRuntime` { #symbol-api-lua-v5-generated-class-ccbdiagnosticsruntime-c890a7e0e2a0 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbDiagnosticsRuntime = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `generation` | `integer` | Read-write |
+| `world_generation` | `integer` | Read-write |
+| `source_count` | `integer` | Read-write |
+| `current_source` | `string` | Read-write |
+| `accepting_actions` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -4649,11 +4869,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `generation` { #symbol-api-lua-v5-generated-property-ccbdiagnosticsruntime-generation-4eed87819f89 }
 
-**Contract fields:**
-
-- `name`: `"generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field generation integer
+generation = ... -- integer
+```
 
 **Sources:**
 
@@ -4661,11 +4880,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `world_generation` { #symbol-api-lua-v5-generated-property-ccbdiagnosticsruntime-world-generation-1d1e276ce02a }
 
-**Contract fields:**
-
-- `name`: `"world_generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field world_generation integer
+world_generation = ... -- integer
+```
 
 **Sources:**
 
@@ -4673,11 +4891,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `source_count` { #symbol-api-lua-v5-generated-property-ccbdiagnosticsruntime-source-count-1fec3657b22e }
 
-**Contract fields:**
-
-- `name`: `"source_count"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field source_count integer
+source_count = ... -- integer
+```
 
 **Sources:**
 
@@ -4685,11 +4902,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `current_source` { #symbol-api-lua-v5-generated-property-ccbdiagnosticsruntime-current-source-97143bc21ece }
 
-**Contract fields:**
-
-- `name`: `"current_source"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field current_source string
+current_source = ... -- string
+```
 
 **Sources:**
 
@@ -4697,11 +4913,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `accepting_actions` { #symbol-api-lua-v5-generated-property-ccbdiagnosticsruntime-accepting-actions-30e8da3c68ff }
 
-**Contract fields:**
-
-- `name`: `"accepting_actions"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field accepting_actions boolean
+accepting_actions = ... -- boolean
+```
 
 **Sources:**
 
@@ -4709,10 +4924,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbDiagnosticsSnapshot` { #symbol-api-lua-v5-generated-class-ccbdiagnosticssnapshot-0ad89ea670b6 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbDiagnosticsSnapshot = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `schema_version` | `1` | Read-write |
+| `health` | `CcbDiagnosticsHealth` | Read-write |
+| `runtime` | `CcbDiagnosticsRuntime` | Read-write |
+| `memory` | `CcbDiagnosticsMemory` | Read-write |
+| `callbacks` | `CcbDiagnosticsCallbacks` | Read-write |
+| `resources` | `table<string, integer>` | Read-write |
+| `limits` | `table<string, integer>` | Read-write |
+| `sources` | `CcbDiagnosticsSource[]` | Read-write |
 
 **Sources:**
 
@@ -4720,11 +4948,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `schema_version` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssnapshot-schema-version-d7c3277f77c0 }
 
-**Contract fields:**
-
-- `name`: `"schema_version"`
-- `optional`: `false`
-- `declaration`: `"1"`
+```lua
+---@field schema_version 1
+schema_version = ... -- 1
+```
 
 **Sources:**
 
@@ -4732,11 +4959,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `health` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssnapshot-health-68112c71ff30 }
 
-**Contract fields:**
-
-- `name`: `"health"`
-- `optional`: `false`
-- `declaration`: `"CcbDiagnosticsHealth"`
+```lua
+---@field health CcbDiagnosticsHealth
+health = ... -- CcbDiagnosticsHealth
+```
 
 **Sources:**
 
@@ -4744,11 +4970,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `runtime` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssnapshot-runtime-d402daaf0b50 }
 
-**Contract fields:**
-
-- `name`: `"runtime"`
-- `optional`: `false`
-- `declaration`: `"CcbDiagnosticsRuntime"`
+```lua
+---@field runtime CcbDiagnosticsRuntime
+runtime = ... -- CcbDiagnosticsRuntime
+```
 
 **Sources:**
 
@@ -4756,11 +4981,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `memory` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssnapshot-memory-5684382956dd }
 
-**Contract fields:**
-
-- `name`: `"memory"`
-- `optional`: `false`
-- `declaration`: `"CcbDiagnosticsMemory"`
+```lua
+---@field memory CcbDiagnosticsMemory
+memory = ... -- CcbDiagnosticsMemory
+```
 
 **Sources:**
 
@@ -4768,11 +4992,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `callbacks` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssnapshot-callbacks-65424e2e552f }
 
-**Contract fields:**
-
-- `name`: `"callbacks"`
-- `optional`: `false`
-- `declaration`: `"CcbDiagnosticsCallbacks"`
+```lua
+---@field callbacks CcbDiagnosticsCallbacks
+callbacks = ... -- CcbDiagnosticsCallbacks
+```
 
 **Sources:**
 
@@ -4780,11 +5003,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `resources` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssnapshot-resources-00efa5aaea31 }
 
-**Contract fields:**
-
-- `name`: `"resources"`
-- `optional`: `false`
-- `declaration`: `"table<string, integer>"`
+```lua
+---@field resources table<string, integer>
+resources = ... -- table<string, integer>
+```
 
 **Sources:**
 
@@ -4792,11 +5014,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `limits` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssnapshot-limits-c7ad0a67e5fd }
 
-**Contract fields:**
-
-- `name`: `"limits"`
-- `optional`: `false`
-- `declaration`: `"table<string, integer>"`
+```lua
+---@field limits table<string, integer>
+limits = ... -- table<string, integer>
+```
 
 **Sources:**
 
@@ -4804,11 +5025,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sources` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssnapshot-sources-aa0233da4609 }
 
-**Contract fields:**
-
-- `name`: `"sources"`
-- `optional`: `false`
-- `declaration`: `"CcbDiagnosticsSource[]"`
+```lua
+---@field sources CcbDiagnosticsSource[]
+sources = ... -- CcbDiagnosticsSource[]
+```
 
 **Sources:**
 
@@ -4816,10 +5036,29 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbDiagnosticsSource` { #symbol-api-lua-v5-generated-class-ccbdiagnosticssource-a0a8aa1485ab }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbDiagnosticsSource = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `string` | Read-write |
+| `version` | `string` | Read-write |
+| `api_version` | `integer` | Read-write |
+| `capabilities` | `CcbCapability[]` | Read-write |
+| `dependencies` | `string[]` | Read-write |
+| `pages` | `integer` | Read-write |
+| `action_menu_entries` | `integer` | Read-write |
+| `sidebar_widgets` | `integer` | Read-write |
+| `event_handlers` | `integer` | Read-write |
+| `mapgen_handlers` | `integer` | Read-write |
+| `scheduled_tasks` | `integer` | Read-write |
+| `services` | `integer` | Read-write |
+| `modules` | `integer` | Read-write |
+| `current` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -4827,11 +5066,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-id-da045f807113 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field id string
+id = ... -- string
+```
 
 **Sources:**
 
@@ -4839,11 +5077,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `version` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-version-5e054be06fc3 }
 
-**Contract fields:**
-
-- `name`: `"version"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field version string
+version = ... -- string
+```
 
 **Sources:**
 
@@ -4851,11 +5088,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `api_version` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-api-version-78d1c13d077e }
 
-**Contract fields:**
-
-- `name`: `"api_version"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field api_version integer
+api_version = ... -- integer
+```
 
 **Sources:**
 
@@ -4863,11 +5099,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `capabilities` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-capabilities-3dff743ea2c7 }
 
-**Contract fields:**
-
-- `name`: `"capabilities"`
-- `optional`: `false`
-- `declaration`: `"CcbCapability[]"`
+```lua
+---@field capabilities CcbCapability[]
+capabilities = ... -- CcbCapability[]
+```
 
 **Sources:**
 
@@ -4875,11 +5110,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `dependencies` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-dependencies-6b5bfe74f728 }
 
-**Contract fields:**
-
-- `name`: `"dependencies"`
-- `optional`: `false`
-- `declaration`: `"string[]"`
+```lua
+---@field dependencies string[]
+dependencies = ... -- string[]
+```
 
 **Sources:**
 
@@ -4887,11 +5121,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `pages` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-pages-38a40738254e }
 
-**Contract fields:**
-
-- `name`: `"pages"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field pages integer
+pages = ... -- integer
+```
 
 **Sources:**
 
@@ -4899,11 +5132,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `action_menu_entries` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-action-menu-entries-8b430d2f0435 }
 
-**Contract fields:**
-
-- `name`: `"action_menu_entries"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field action_menu_entries integer
+action_menu_entries = ... -- integer
+```
 
 **Sources:**
 
@@ -4911,11 +5143,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sidebar_widgets` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-sidebar-widgets-b8d889508ffb }
 
-**Contract fields:**
-
-- `name`: `"sidebar_widgets"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field sidebar_widgets integer
+sidebar_widgets = ... -- integer
+```
 
 **Sources:**
 
@@ -4923,11 +5154,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `event_handlers` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-event-handlers-3c13aa2c4a5f }
 
-**Contract fields:**
-
-- `name`: `"event_handlers"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field event_handlers integer
+event_handlers = ... -- integer
+```
 
 **Sources:**
 
@@ -4935,11 +5165,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `mapgen_handlers` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-mapgen-handlers-83bc8e488b36 }
 
-**Contract fields:**
-
-- `name`: `"mapgen_handlers"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field mapgen_handlers integer
+mapgen_handlers = ... -- integer
+```
 
 **Sources:**
 
@@ -4947,11 +5176,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `scheduled_tasks` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-scheduled-tasks-6b2f474769f6 }
 
-**Contract fields:**
-
-- `name`: `"scheduled_tasks"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field scheduled_tasks integer
+scheduled_tasks = ... -- integer
+```
 
 **Sources:**
 
@@ -4959,11 +5187,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `services` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-services-271342cc68a0 }
 
-**Contract fields:**
-
-- `name`: `"services"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field services integer
+services = ... -- integer
+```
 
 **Sources:**
 
@@ -4971,11 +5198,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `modules` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-modules-ef2cc0aff37a }
 
-**Contract fields:**
-
-- `name`: `"modules"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field modules integer
+modules = ... -- integer
+```
 
 **Sources:**
 
@@ -4983,11 +5209,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `current` { #symbol-api-lua-v5-generated-property-ccbdiagnosticssource-current-bcd7b9c8d3a6 }
 
-**Contract fields:**
-
-- `name`: `"current"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field current boolean
+current = ... -- boolean
+```
 
 **Sources:**
 
@@ -4995,10 +5220,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbEffectAddOptions` { #symbol-api-lua-v5-generated-class-ccbeffectaddoptions-276bcc61430c }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbEffectAddOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `body_part` | `GameId` | Read-write |
+| `intensity` | `integer` | Read-write |
+| `force` | `boolean` | Read-write |
+| `permanent` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -5006,11 +5240,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `body_part` { #symbol-api-lua-v5-generated-property-ccbeffectaddoptions-body-part-ffce032912a8 }
 
-**Contract fields:**
-
-- `name`: `"body_part"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field body_part GameId
+body_part = ... -- GameId
+```
 
 **Sources:**
 
@@ -5018,11 +5251,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `intensity` { #symbol-api-lua-v5-generated-property-ccbeffectaddoptions-intensity-f0c6a89cadd2 }
 
-**Contract fields:**
-
-- `name`: `"intensity"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field intensity integer
+intensity = ... -- integer
+```
 
 **Sources:**
 
@@ -5030,11 +5262,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `force` { #symbol-api-lua-v5-generated-property-ccbeffectaddoptions-force-84aaf6e8971a }
 
-**Contract fields:**
-
-- `name`: `"force"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field force boolean
+force = ... -- boolean
+```
 
 **Sources:**
 
@@ -5042,11 +5273,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `permanent` { #symbol-api-lua-v5-generated-property-ccbeffectaddoptions-permanent-caffa0c39718 }
 
-**Contract fields:**
-
-- `name`: `"permanent"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field permanent boolean
+permanent = ... -- boolean
+```
 
 **Sources:**
 
@@ -5054,10 +5284,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbEffectSnapshot` { #symbol-api-lua-v5-generated-class-ccbeffectsnapshot-9db15db5a1ef }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbEffectSnapshot = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `string` | Read-write |
+| `name` | `string` | Read-write |
+| `description` | `string` | Read-write |
+| `body_part_id` | `string` | Read-write |
+| `duration_turns` | `integer` | Read-write |
+| `intensity` | `integer` | Read-write |
+| `permanent` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -5065,11 +5307,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbeffectsnapshot-id-ff5be969f1d5 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field id string
+id = ... -- string
+```
 
 **Sources:**
 
@@ -5077,11 +5318,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbeffectsnapshot-name-8704555ec4a5 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -5089,11 +5329,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbeffectsnapshot-description-275e4d53c5a2 }
 
-**Contract fields:**
-
-- `name`: `"description"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field description string
+description = ... -- string
+```
 
 **Sources:**
 
@@ -5101,11 +5340,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `body_part_id` { #symbol-api-lua-v5-generated-property-ccbeffectsnapshot-body-part-id-a706c90c34d6 }
 
-**Contract fields:**
-
-- `name`: `"body_part_id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field body_part_id string
+body_part_id = ... -- string
+```
 
 **Sources:**
 
@@ -5113,11 +5351,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `duration_turns` { #symbol-api-lua-v5-generated-property-ccbeffectsnapshot-duration-turns-0e021e1fa939 }
 
-**Contract fields:**
-
-- `name`: `"duration_turns"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field duration_turns integer
+duration_turns = ... -- integer
+```
 
 **Sources:**
 
@@ -5125,11 +5362,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `intensity` { #symbol-api-lua-v5-generated-property-ccbeffectsnapshot-intensity-7b28733578fb }
 
-**Contract fields:**
-
-- `name`: `"intensity"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field intensity integer
+intensity = ... -- integer
+```
 
 **Sources:**
 
@@ -5137,11 +5373,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `permanent` { #symbol-api-lua-v5-generated-property-ccbeffectsnapshot-permanent-ce28c9ee1590 }
 
-**Contract fields:**
-
-- `name`: `"permanent"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field permanent boolean
+permanent = ... -- boolean
+```
 
 **Sources:**
 
@@ -5149,10 +5384,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbEffectUpdateOptions` { #symbol-api-lua-v5-generated-class-ccbeffectupdateoptions-74b15c74539f }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbEffectUpdateOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `body_part` | `GameId` | Read-write |
+| `duration` | `TimeDuration` | Read-write |
+| `intensity` | `integer` | Read-write |
+| `permanent` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -5160,11 +5404,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `body_part` { #symbol-api-lua-v5-generated-property-ccbeffectupdateoptions-body-part-46056b02b2e5 }
 
-**Contract fields:**
-
-- `name`: `"body_part"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field body_part GameId
+body_part = ... -- GameId
+```
 
 **Sources:**
 
@@ -5172,11 +5415,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `duration` { #symbol-api-lua-v5-generated-property-ccbeffectupdateoptions-duration-38c38d511c93 }
 
-**Contract fields:**
-
-- `name`: `"duration"`
-- `optional`: `true`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field duration TimeDuration
+duration = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -5184,11 +5426,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `intensity` { #symbol-api-lua-v5-generated-property-ccbeffectupdateoptions-intensity-d656eb132127 }
 
-**Contract fields:**
-
-- `name`: `"intensity"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field intensity integer
+intensity = ... -- integer
+```
 
 **Sources:**
 
@@ -5196,11 +5437,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `permanent` { #symbol-api-lua-v5-generated-property-ccbeffectupdateoptions-permanent-9266079fc9bc }
 
-**Contract fields:**
-
-- `name`: `"permanent"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field permanent boolean
+permanent = ... -- boolean
+```
 
 **Sources:**
 
@@ -5208,10 +5448,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbEffectsApi` { #symbol-api-lua-v5-generated-class-ccbeffectsapi-55adb4369141 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbEffectsApi = {}
+```
 
 **Sources:**
 
@@ -5219,10 +5459,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbEnumDescription` { #symbol-api-lua-v5-generated-class-ccbenumdescription-42383bd46a44 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbEnumDescription = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `kind` | `string` | Read-write |
+| `status` | `'"covered"'|'"not_applicable"'` | Read-write |
+| `available` | `boolean` | Read-write |
+| `replacement` | `string` | Read-write |
+| `reason` | `string` | Read-write |
+| `count` | `integer` | Read-write |
 
 **Sources:**
 
@@ -5230,11 +5481,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `kind` { #symbol-api-lua-v5-generated-property-ccbenumdescription-kind-f809ff3bdde1 }
 
-**Contract fields:**
-
-- `name`: `"kind"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field kind string
+kind = ... -- string
+```
 
 **Sources:**
 
@@ -5242,11 +5492,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `status` { #symbol-api-lua-v5-generated-property-ccbenumdescription-status-dc9c18c72039 }
 
-**Contract fields:**
-
-- `name`: `"status"`
-- `optional`: `false`
-- `declaration`: `"'\"covered\"'|'\"not_applicable\"'"`
+```lua
+---@field status '"covered"'|'"not_applicable"'
+status = ... -- '"covered"'|'"not_applicable"'
+```
 
 **Sources:**
 
@@ -5254,11 +5503,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `available` { #symbol-api-lua-v5-generated-property-ccbenumdescription-available-e6a431591647 }
 
-**Contract fields:**
-
-- `name`: `"available"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field available boolean
+available = ... -- boolean
+```
 
 **Sources:**
 
@@ -5266,11 +5514,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `replacement` { #symbol-api-lua-v5-generated-property-ccbenumdescription-replacement-5297c23870ff }
 
-**Contract fields:**
-
-- `name`: `"replacement"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field replacement string
+replacement = ... -- string
+```
 
 **Sources:**
 
@@ -5278,11 +5525,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `reason` { #symbol-api-lua-v5-generated-property-ccbenumdescription-reason-1134824310b7 }
 
-**Contract fields:**
-
-- `name`: `"reason"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field reason string
+reason = ... -- string
+```
 
 **Sources:**
 
@@ -5290,11 +5536,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `count` { #symbol-api-lua-v5-generated-property-ccbenumdescription-count-305d4b78a615 }
 
-**Contract fields:**
-
-- `name`: `"count"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field count integer
+count = ... -- integer
+```
 
 **Sources:**
 
@@ -5302,10 +5547,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbEnumPage` { #symbol-api-lua-v5-generated-class-ccbenumpage-b24b13585366 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbEnumPage = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `kind` | `string` | Read-write |
+| `offset` | `integer` | Read-write |
+| `limit` | `integer` | Read-write |
+| `total` | `integer` | Read-write |
+| `returned` | `integer` | Read-write |
+| `has_more` | `boolean` | Read-write |
+| `values` | `GameEnum[]` | Read-write |
 
 **Sources:**
 
@@ -5313,11 +5570,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `kind` { #symbol-api-lua-v5-generated-property-ccbenumpage-kind-ab4f110be6df }
 
-**Contract fields:**
-
-- `name`: `"kind"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field kind string
+kind = ... -- string
+```
 
 **Sources:**
 
@@ -5325,11 +5581,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `offset` { #symbol-api-lua-v5-generated-property-ccbenumpage-offset-308e3a734b32 }
 
-**Contract fields:**
-
-- `name`: `"offset"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field offset integer
+offset = ... -- integer
+```
 
 **Sources:**
 
@@ -5337,11 +5592,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbenumpage-limit-bf88edc7151d }
 
-**Contract fields:**
-
-- `name`: `"limit"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field limit integer
+limit = ... -- integer
+```
 
 **Sources:**
 
@@ -5349,11 +5603,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `total` { #symbol-api-lua-v5-generated-property-ccbenumpage-total-9f0b962f0231 }
 
-**Contract fields:**
-
-- `name`: `"total"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field total integer
+total = ... -- integer
+```
 
 **Sources:**
 
@@ -5361,11 +5614,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `returned` { #symbol-api-lua-v5-generated-property-ccbenumpage-returned-cc7a350ff8fb }
 
-**Contract fields:**
-
-- `name`: `"returned"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field returned integer
+returned = ... -- integer
+```
 
 **Sources:**
 
@@ -5373,11 +5625,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `has_more` { #symbol-api-lua-v5-generated-property-ccbenumpage-has-more-61b1b8b5e2df }
 
-**Contract fields:**
-
-- `name`: `"has_more"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field has_more boolean
+has_more = ... -- boolean
+```
 
 **Sources:**
 
@@ -5385,11 +5636,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `values` { #symbol-api-lua-v5-generated-property-ccbenumpage-values-641ae4c83928 }
 
-**Contract fields:**
-
-- `name`: `"values"`
-- `optional`: `false`
-- `declaration`: `"GameEnum[]"`
+```lua
+---@field values GameEnum[]
+values = ... -- GameEnum[]
+```
 
 **Sources:**
 
@@ -5397,10 +5647,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbEnumsApi` { #symbol-api-lua-v5-generated-class-ccbenumsapi-1f96df82e0d8 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbEnumsApi = {}
+```
 
 **Sources:**
 
@@ -5408,10 +5658,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbEocDefinition` { #symbol-api-lua-v5-generated-class-ccbeocdefinition-27b3e806db32 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbEocDefinition = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `value` | `string` | Read-write |
+| `type` | `string` | Read-write |
+| `has_condition` | `boolean` | Read-write |
+| `has_false_effect` | `boolean` | Read-write |
+| `has_deactivate_condition` | `boolean` | Read-write |
+| `global` | `boolean` | Read-write |
+| `run_for_npcs` | `boolean` | Read-write |
+| `required_event` | `string` | Read-write |
+| `sources` | `CcbEocSource[]` | Read-write |
 
 **Sources:**
 
@@ -5419,11 +5684,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbeocdefinition-id-c57d40e28f84 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -5431,11 +5695,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `value` { #symbol-api-lua-v5-generated-property-ccbeocdefinition-value-84d24af63b49 }
 
-**Contract fields:**
-
-- `name`: `"value"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field value string
+value = ... -- string
+```
 
 **Sources:**
 
@@ -5443,11 +5706,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbeocdefinition-type-0c260921e2b3 }
 
-**Contract fields:**
-
-- `name`: `"type"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field type string
+type = ... -- string
+```
 
 **Sources:**
 
@@ -5455,11 +5717,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `has_condition` { #symbol-api-lua-v5-generated-property-ccbeocdefinition-has-condition-c2898685d0de }
 
-**Contract fields:**
-
-- `name`: `"has_condition"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field has_condition boolean
+has_condition = ... -- boolean
+```
 
 **Sources:**
 
@@ -5467,11 +5728,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `has_false_effect` { #symbol-api-lua-v5-generated-property-ccbeocdefinition-has-false-effect-b68d27985a94 }
 
-**Contract fields:**
-
-- `name`: `"has_false_effect"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field has_false_effect boolean
+has_false_effect = ... -- boolean
+```
 
 **Sources:**
 
@@ -5479,11 +5739,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `has_deactivate_condition` { #symbol-api-lua-v5-generated-property-ccbeocdefinition-has-deactivate-condition-09472fe8fad5 }
 
-**Contract fields:**
-
-- `name`: `"has_deactivate_condition"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field has_deactivate_condition boolean
+has_deactivate_condition = ... -- boolean
+```
 
 **Sources:**
 
@@ -5491,11 +5750,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `global` { #symbol-api-lua-v5-generated-property-ccbeocdefinition-global-4603b2fc1284 }
 
-**Contract fields:**
-
-- `name`: `"global"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field global boolean
+global = ... -- boolean
+```
 
 **Sources:**
 
@@ -5503,11 +5761,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `run_for_npcs` { #symbol-api-lua-v5-generated-property-ccbeocdefinition-run-for-npcs-c41716c8ecd2 }
 
-**Contract fields:**
-
-- `name`: `"run_for_npcs"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field run_for_npcs boolean
+run_for_npcs = ... -- boolean
+```
 
 **Sources:**
 
@@ -5515,11 +5772,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `required_event` { #symbol-api-lua-v5-generated-property-ccbeocdefinition-required-event-1676cdc3bdc7 }
 
-**Contract fields:**
-
-- `name`: `"required_event"`
-- `optional`: `true`
-- `declaration`: `"string"`
+```lua
+---@field required_event string
+required_event = ... -- string
+```
 
 **Sources:**
 
@@ -5527,11 +5783,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sources` { #symbol-api-lua-v5-generated-property-ccbeocdefinition-sources-95ec6fd7cf9a }
 
-**Contract fields:**
-
-- `name`: `"sources"`
-- `optional`: `false`
-- `declaration`: `"CcbEocSource[]"`
+```lua
+---@field sources CcbEocSource[]
+sources = ... -- CcbEocSource[]
+```
 
 **Sources:**
 
@@ -5539,10 +5794,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbEocLimits` { #symbol-api-lua-v5-generated-class-ccbeoclimits-7fcef06d4efa }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbEocLimits = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `page` | `integer` | Read-write |
+| `context_entries` | `integer` | Read-write |
+| `context_key_bytes` | `integer` | Read-write |
+| `context_string_bytes` | `integer` | Read-write |
 
 **Sources:**
 
@@ -5550,11 +5814,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `page` { #symbol-api-lua-v5-generated-property-ccbeoclimits-page-722124dbc545 }
 
-**Contract fields:**
-
-- `name`: `"page"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field page integer
+page = ... -- integer
+```
 
 **Sources:**
 
@@ -5562,11 +5825,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `context_entries` { #symbol-api-lua-v5-generated-property-ccbeoclimits-context-entries-48bb6852ccea }
 
-**Contract fields:**
-
-- `name`: `"context_entries"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field context_entries integer
+context_entries = ... -- integer
+```
 
 **Sources:**
 
@@ -5574,11 +5836,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `context_key_bytes` { #symbol-api-lua-v5-generated-property-ccbeoclimits-context-key-bytes-858f57d7ed58 }
 
-**Contract fields:**
-
-- `name`: `"context_key_bytes"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field context_key_bytes integer
+context_key_bytes = ... -- integer
+```
 
 **Sources:**
 
@@ -5586,11 +5847,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `context_string_bytes` { #symbol-api-lua-v5-generated-property-ccbeoclimits-context-string-bytes-a80956453555 }
 
-**Contract fields:**
-
-- `name`: `"context_string_bytes"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field context_string_bytes integer
+context_string_bytes = ... -- integer
+```
 
 **Sources:**
 
@@ -5598,10 +5858,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbEocOptions` { #symbol-api-lua-v5-generated-class-ccbeocoptions-59ad1382428e }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbEocOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `alpha` | `GameHandle Defaults to the avatar.` | Read-write |
+| `beta` | `GameHandle` | Read-write |
+| `context` | `table<string, CcbEocInputValue>` | Read-write |
 
 **Sources:**
 
@@ -5609,11 +5877,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `alpha` { #symbol-api-lua-v5-generated-property-ccbeocoptions-alpha-1c8a12dc277a }
 
-**Contract fields:**
-
-- `name`: `"alpha"`
-- `optional`: `true`
-- `declaration`: `"GameHandle Defaults to the avatar."`
+```lua
+---@field alpha GameHandle Defaults to the avatar.
+alpha = ... -- GameHandle Defaults to the avatar.
+```
 
 **Sources:**
 
@@ -5621,11 +5888,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `beta` { #symbol-api-lua-v5-generated-property-ccbeocoptions-beta-7c53c24e8efe }
 
-**Contract fields:**
-
-- `name`: `"beta"`
-- `optional`: `true`
-- `declaration`: `"GameHandle"`
+```lua
+---@field beta GameHandle
+beta = ... -- GameHandle
+```
 
 **Sources:**
 
@@ -5633,11 +5899,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `context` { #symbol-api-lua-v5-generated-property-ccbeocoptions-context-4bf6d1fd9cc8 }
 
-**Contract fields:**
-
-- `name`: `"context"`
-- `optional`: `true`
-- `declaration`: `"table<string, CcbEocInputValue>"`
+```lua
+---@field context table<string, CcbEocInputValue>
+context = ... -- table<string, CcbEocInputValue>
+```
 
 **Sources:**
 
@@ -5645,10 +5910,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbEocSource` { #symbol-api-lua-v5-generated-class-ccbeocsource-a36125680bb8 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbEocSource = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `string` | Read-write |
+| `mod` | `string` | Read-write |
 
 **Sources:**
 
@@ -5656,11 +5928,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbeocsource-id-e0f65166e0c5 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field id string
+id = ... -- string
+```
 
 **Sources:**
 
@@ -5668,11 +5939,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `mod` { #symbol-api-lua-v5-generated-property-ccbeocsource-mod-33c251b14b64 }
 
-**Contract fields:**
-
-- `name`: `"mod"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field mod string
+mod = ... -- string
+```
 
 **Sources:**
 
@@ -5680,10 +5950,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbEocsApi` { #symbol-api-lua-v5-generated-class-ccbeocsapi-6d06a61f4939 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbEocsApi = {}
+```
 
 **Sources:**
 
@@ -5691,10 +5961,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbError` { #symbol-api-lua-v5-generated-class-ccberror-07877cee9af4 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbError = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `code` | `string` | Read-write |
+| `message` | `string` | Read-write |
 
 **Sources:**
 
@@ -5702,11 +5979,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `code` { #symbol-api-lua-v5-generated-property-ccberror-code-824b98dc51f3 }
 
-**Contract fields:**
-
-- `name`: `"code"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field code string
+code = ... -- string
+```
 
 **Sources:**
 
@@ -5714,11 +5990,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `message` { #symbol-api-lua-v5-generated-property-ccberror-message-d43c75d8bd04 }
 
-**Contract fields:**
-
-- `name`: `"message"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field message string
+message = ... -- string
+```
 
 **Sources:**
 
@@ -5726,10 +6001,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbEvent` { #symbol-api-lua-v5-generated-class-ccbevent-62a4d1add65f }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbEvent = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `type` | `string` | Read-write |
+| `turn` | `integer` | Read-write |
+| `data` | `CcbScalarMap` | Read-write |
+| `data_types` | `table<string, string>` | Read-write |
 
 **Sources:**
 
@@ -5737,11 +6021,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbevent-type-663af0f14e09 }
 
-**Contract fields:**
-
-- `name`: `"type"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field type string
+type = ... -- string
+```
 
 **Sources:**
 
@@ -5749,11 +6032,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `turn` { #symbol-api-lua-v5-generated-property-ccbevent-turn-a6d96cb9ce1f }
 
-**Contract fields:**
-
-- `name`: `"turn"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field turn integer
+turn = ... -- integer
+```
 
 **Sources:**
 
@@ -5761,11 +6043,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `data` { #symbol-api-lua-v5-generated-property-ccbevent-data-754b4da1ac83 }
 
-**Contract fields:**
-
-- `name`: `"data"`
-- `optional`: `false`
-- `declaration`: `"CcbScalarMap"`
+```lua
+---@field data CcbScalarMap
+data = ... -- CcbScalarMap
+```
 
 **Sources:**
 
@@ -5773,11 +6054,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `data_types` { #symbol-api-lua-v5-generated-property-ccbevent-data-types-1505123cffa5 }
 
-**Contract fields:**
-
-- `name`: `"data_types"`
-- `optional`: `false`
-- `declaration`: `"table<string, string>"`
+```lua
+---@field data_types table<string, string>
+data_types = ... -- table<string, string>
+```
 
 **Sources:**
 
@@ -5785,10 +6065,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbEventOptions` { #symbol-api-lua-v5-generated-class-ccbeventoptions-30ae54db5e1b }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbEventOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `priority` | `integer` | Read-write |
+| `once` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -5796,11 +6083,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `priority` { #symbol-api-lua-v5-generated-property-ccbeventoptions-priority-666ada8ca517 }
 
-**Contract fields:**
-
-- `name`: `"priority"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field priority integer
+priority = ... -- integer
+```
 
 **Sources:**
 
@@ -5808,11 +6094,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `once` { #symbol-api-lua-v5-generated-property-ccbeventoptions-once-9f3a12ae6f9a }
 
-**Contract fields:**
-
-- `name`: `"once"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field once boolean
+once = ... -- boolean
+```
 
 **Sources:**
 
@@ -5820,10 +6105,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbEventsApi` { #symbol-api-lua-v5-generated-class-ccbeventsapi-7f600d9f9f6a }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbEventsApi = {}
+```
 
 **Sources:**
 
@@ -5831,10 +6116,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbFactionPolicy` { #symbol-api-lua-v5-generated-class-ccbfactionpolicy-3b2e4dd1611e }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbFactionPolicy = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `consumes_food` | `boolean` | Read-write |
+| `lone_wolf` | `boolean` | Read-write |
+| `limited_area_claim` | `boolean` | Read-write |
+| `stealing` | `"ask"|"always"|"never"` | Read-write |
 
 **Sources:**
 
@@ -5842,11 +6136,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `consumes_food` { #symbol-api-lua-v5-generated-property-ccbfactionpolicy-consumes-food-1c7cb3bd5022 }
 
-**Contract fields:**
-
-- `name`: `"consumes_food"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field consumes_food boolean
+consumes_food = ... -- boolean
+```
 
 **Sources:**
 
@@ -5854,11 +6147,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `lone_wolf` { #symbol-api-lua-v5-generated-property-ccbfactionpolicy-lone-wolf-6808e384c51c }
 
-**Contract fields:**
-
-- `name`: `"lone_wolf"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field lone_wolf boolean
+lone_wolf = ... -- boolean
+```
 
 **Sources:**
 
@@ -5866,11 +6158,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `limited_area_claim` { #symbol-api-lua-v5-generated-property-ccbfactionpolicy-limited-area-claim-46f73a66a2f3 }
 
-**Contract fields:**
-
-- `name`: `"limited_area_claim"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field limited_area_claim boolean
+limited_area_claim = ... -- boolean
+```
 
 **Sources:**
 
@@ -5878,11 +6169,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `stealing` { #symbol-api-lua-v5-generated-property-ccbfactionpolicy-stealing-526e171bc7c4 }
 
-**Contract fields:**
-
-- `name`: `"stealing"`
-- `optional`: `false`
-- `declaration`: `"\"ask\"|\"always\"|\"never\""`
+```lua
+---@field stealing "ask"|"always"|"never"
+stealing = ... -- "ask"|"always"|"never"
+```
 
 **Sources:**
 
@@ -5890,10 +6180,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbFactionPolicyUpdate` { #symbol-api-lua-v5-generated-class-ccbfactionpolicyupdate-1554bd1339ac }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbFactionPolicyUpdate = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `consumes_food` | `boolean` | Read-write |
+| `stealing` | `"ask"|"always"|"never"` | Read-write |
 
 **Sources:**
 
@@ -5901,11 +6198,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `consumes_food` { #symbol-api-lua-v5-generated-property-ccbfactionpolicyupdate-consumes-food-6589c55b8e8c }
 
-**Contract fields:**
-
-- `name`: `"consumes_food"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field consumes_food boolean
+consumes_food = ... -- boolean
+```
 
 **Sources:**
 
@@ -5913,11 +6209,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `stealing` { #symbol-api-lua-v5-generated-property-ccbfactionpolicyupdate-stealing-fbf5e1cf55e5 }
 
-**Contract fields:**
-
-- `name`: `"stealing"`
-- `optional`: `true`
-- `declaration`: `"\"ask\"|\"always\"|\"never\""`
+```lua
+---@field stealing "ask"|"always"|"never"
+stealing = ... -- "ask"|"always"|"never"
+```
 
 **Sources:**
 
@@ -5925,10 +6220,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbFactionRelationshipUpdate` { #symbol-api-lua-v5-generated-class-ccbfactionrelationshipupdate-67284b553735 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbFactionRelationshipUpdate = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `kill_on_sight` | `boolean` | Read-write |
+| `watch_your_back` | `boolean` | Read-write |
+| `share_my_stuff` | `boolean` | Read-write |
+| `share_public_goods` | `boolean` | Read-write |
+| `guard_your_stuff` | `boolean` | Read-write |
+| `lets_you_in` | `boolean` | Read-write |
+| `defend_your_space` | `boolean` | Read-write |
+| `knows_your_voice` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -5936,11 +6244,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `kill_on_sight` { #symbol-api-lua-v5-generated-property-ccbfactionrelationshipupdate-kill-on-sight-39dc5c29289b }
 
-**Contract fields:**
-
-- `name`: `"kill_on_sight"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field kill_on_sight boolean
+kill_on_sight = ... -- boolean
+```
 
 **Sources:**
 
@@ -5948,11 +6255,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `watch_your_back` { #symbol-api-lua-v5-generated-property-ccbfactionrelationshipupdate-watch-your-back-4dfdff153d4b }
 
-**Contract fields:**
-
-- `name`: `"watch_your_back"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field watch_your_back boolean
+watch_your_back = ... -- boolean
+```
 
 **Sources:**
 
@@ -5960,11 +6266,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `share_my_stuff` { #symbol-api-lua-v5-generated-property-ccbfactionrelationshipupdate-share-my-stuff-703d102a7f74 }
 
-**Contract fields:**
-
-- `name`: `"share_my_stuff"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field share_my_stuff boolean
+share_my_stuff = ... -- boolean
+```
 
 **Sources:**
 
@@ -5972,11 +6277,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `share_public_goods` { #symbol-api-lua-v5-generated-property-ccbfactionrelationshipupdate-share-public-goods-b7f6b31f6907 }
 
-**Contract fields:**
-
-- `name`: `"share_public_goods"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field share_public_goods boolean
+share_public_goods = ... -- boolean
+```
 
 **Sources:**
 
@@ -5984,11 +6288,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `guard_your_stuff` { #symbol-api-lua-v5-generated-property-ccbfactionrelationshipupdate-guard-your-stuff-10db71b482e3 }
 
-**Contract fields:**
-
-- `name`: `"guard_your_stuff"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field guard_your_stuff boolean
+guard_your_stuff = ... -- boolean
+```
 
 **Sources:**
 
@@ -5996,11 +6299,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `lets_you_in` { #symbol-api-lua-v5-generated-property-ccbfactionrelationshipupdate-lets-you-in-09fbe5c0b7e0 }
 
-**Contract fields:**
-
-- `name`: `"lets_you_in"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field lets_you_in boolean
+lets_you_in = ... -- boolean
+```
 
 **Sources:**
 
@@ -6008,11 +6310,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `defend_your_space` { #symbol-api-lua-v5-generated-property-ccbfactionrelationshipupdate-defend-your-space-a04c33571ed4 }
 
-**Contract fields:**
-
-- `name`: `"defend_your_space"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field defend_your_space boolean
+defend_your_space = ... -- boolean
+```
 
 **Sources:**
 
@@ -6020,11 +6321,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `knows_your_voice` { #symbol-api-lua-v5-generated-property-ccbfactionrelationshipupdate-knows-your-voice-88e2a04f7ed4 }
 
-**Contract fields:**
-
-- `name`: `"knows_your_voice"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field knows_your_voice boolean
+knows_your_voice = ... -- boolean
+```
 
 **Sources:**
 
@@ -6032,10 +6332,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbFactionReputation` { #symbol-api-lua-v5-generated-class-ccbfactionreputation-06eab368ee85 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbFactionReputation = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `likes` | `integer` | Read-write |
+| `respects` | `integer` | Read-write |
+| `trusts` | `integer` | Read-write |
+| `ranking` | `string` | Read-write |
+| `respect` | `string` | Read-write |
 
 **Sources:**
 
@@ -6043,11 +6353,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `likes` { #symbol-api-lua-v5-generated-property-ccbfactionreputation-likes-b86cdb176dcb }
 
-**Contract fields:**
-
-- `name`: `"likes"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field likes integer
+likes = ... -- integer
+```
 
 **Sources:**
 
@@ -6055,11 +6364,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `respects` { #symbol-api-lua-v5-generated-property-ccbfactionreputation-respects-c3b3c9407e7a }
 
-**Contract fields:**
-
-- `name`: `"respects"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field respects integer
+respects = ... -- integer
+```
 
 **Sources:**
 
@@ -6067,11 +6375,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `trusts` { #symbol-api-lua-v5-generated-property-ccbfactionreputation-trusts-9b964bbc0e0a }
 
-**Contract fields:**
-
-- `name`: `"trusts"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field trusts integer
+trusts = ... -- integer
+```
 
 **Sources:**
 
@@ -6079,11 +6386,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `ranking` { #symbol-api-lua-v5-generated-property-ccbfactionreputation-ranking-6d205a02bcd6 }
 
-**Contract fields:**
-
-- `name`: `"ranking"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field ranking string
+ranking = ... -- string
+```
 
 **Sources:**
 
@@ -6091,11 +6397,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `respect` { #symbol-api-lua-v5-generated-property-ccbfactionreputation-respect-b59b5c0191b8 }
 
-**Contract fields:**
-
-- `name`: `"respect"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field respect string
+respect = ... -- string
+```
 
 **Sources:**
 
@@ -6103,10 +6408,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbFactionReputationDeltas` { #symbol-api-lua-v5-generated-class-ccbfactionreputationdeltas-f6278cfd4097 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbFactionReputationDeltas = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `likes` | `integer` | Read-write |
+| `respects` | `integer` | Read-write |
+| `trusts` | `integer` | Read-write |
 
 **Sources:**
 
@@ -6114,11 +6427,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `likes` { #symbol-api-lua-v5-generated-property-ccbfactionreputationdeltas-likes-8cce0d4b40ea }
 
-**Contract fields:**
-
-- `name`: `"likes"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field likes integer
+likes = ... -- integer
+```
 
 **Sources:**
 
@@ -6126,11 +6438,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `respects` { #symbol-api-lua-v5-generated-property-ccbfactionreputationdeltas-respects-779085fb1e07 }
 
-**Contract fields:**
-
-- `name`: `"respects"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field respects integer
+respects = ... -- integer
+```
 
 **Sources:**
 
@@ -6138,11 +6449,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `trusts` { #symbol-api-lua-v5-generated-property-ccbfactionreputationdeltas-trusts-e107d609f2cd }
 
-**Contract fields:**
-
-- `name`: `"trusts"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field trusts integer
+trusts = ... -- integer
+```
 
 **Sources:**
 
@@ -6150,10 +6460,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbFactionResourceDeltas` { #symbol-api-lua-v5-generated-class-ccbfactionresourcedeltas-3821cab03336 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbFactionResourceDeltas = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `size` | `integer` | Read-write |
+| `power` | `integer` | Read-write |
+| `wealth` | `integer` | Read-write |
 
 **Sources:**
 
@@ -6161,11 +6479,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `size` { #symbol-api-lua-v5-generated-property-ccbfactionresourcedeltas-size-f3483af41900 }
 
-**Contract fields:**
-
-- `name`: `"size"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field size integer
+size = ... -- integer
+```
 
 **Sources:**
 
@@ -6173,11 +6490,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `power` { #symbol-api-lua-v5-generated-property-ccbfactionresourcedeltas-power-b1983820409c }
 
-**Contract fields:**
-
-- `name`: `"power"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field power integer
+power = ... -- integer
+```
 
 **Sources:**
 
@@ -6185,11 +6501,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `wealth` { #symbol-api-lua-v5-generated-property-ccbfactionresourcedeltas-wealth-63c9038b1a25 }
 
-**Contract fields:**
-
-- `name`: `"wealth"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field wealth integer
+wealth = ... -- integer
+```
 
 **Sources:**
 
@@ -6197,10 +6512,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbFactionResources` { #symbol-api-lua-v5-generated-class-ccbfactionresources-001b281ba45a }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbFactionResources = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `size` | `integer` | Read-write |
+| `power` | `integer` | Read-write |
+| `wealth` | `integer` | Read-write |
+| `food_kcal` | `integer` | Read-write |
+| `wealth_description` | `string` | Read-write |
+| `combat_ability` | `string` | Read-write |
 
 **Sources:**
 
@@ -6208,11 +6534,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `size` { #symbol-api-lua-v5-generated-property-ccbfactionresources-size-b0c7fe231cc7 }
 
-**Contract fields:**
-
-- `name`: `"size"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field size integer
+size = ... -- integer
+```
 
 **Sources:**
 
@@ -6220,11 +6545,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `power` { #symbol-api-lua-v5-generated-property-ccbfactionresources-power-be0b6d836416 }
 
-**Contract fields:**
-
-- `name`: `"power"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field power integer
+power = ... -- integer
+```
 
 **Sources:**
 
@@ -6232,11 +6556,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `wealth` { #symbol-api-lua-v5-generated-property-ccbfactionresources-wealth-faf057a51801 }
 
-**Contract fields:**
-
-- `name`: `"wealth"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field wealth integer
+wealth = ... -- integer
+```
 
 **Sources:**
 
@@ -6244,11 +6567,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `food_kcal` { #symbol-api-lua-v5-generated-property-ccbfactionresources-food-kcal-f618e7cc6ad6 }
 
-**Contract fields:**
-
-- `name`: `"food_kcal"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field food_kcal integer
+food_kcal = ... -- integer
+```
 
 **Sources:**
 
@@ -6256,11 +6578,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `wealth_description` { #symbol-api-lua-v5-generated-property-ccbfactionresources-wealth-description-3c1034108633 }
 
-**Contract fields:**
-
-- `name`: `"wealth_description"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field wealth_description string
+wealth_description = ... -- string
+```
 
 **Sources:**
 
@@ -6268,11 +6589,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `combat_ability` { #symbol-api-lua-v5-generated-property-ccbfactionresources-combat-ability-397177da78a8 }
 
-**Contract fields:**
-
-- `name`: `"combat_ability"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field combat_ability string
+combat_ability = ... -- string
+```
 
 **Sources:**
 
@@ -6280,10 +6600,27 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbFactionSnapshot` { #symbol-api-lua-v5-generated-class-ccbfactionsnapshot-1ab5f1c62100 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbFactionSnapshot = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `name` | `string` | Read-write |
+| `description` | `string` | Read-write |
+| `summary` | `string` | Read-write |
+| `known_by_player` | `boolean` | Read-write |
+| `reputation` | `CcbFactionReputation` | Read-write |
+| `resources` | `CcbFactionResources` | Read-write |
+| `policy` | `CcbFactionPolicy` | Read-write |
+| `currency` | `GameId` | Read-write |
+| `monster_faction` | `GameId` | Read-write |
+| `members` | `integer` | Read-write |
+| `relationship_targets` | `integer` | Read-write |
 
 **Sources:**
 
@@ -6291,11 +6628,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-id-8bcb31ed8394 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -6303,11 +6639,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-name-2056fd1e9f2a }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -6315,11 +6650,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-description-863cb27a76d2 }
 
-**Contract fields:**
-
-- `name`: `"description"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field description string
+description = ... -- string
+```
 
 **Sources:**
 
@@ -6327,11 +6661,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `summary` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-summary-f55afee7896f }
 
-**Contract fields:**
-
-- `name`: `"summary"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field summary string
+summary = ... -- string
+```
 
 **Sources:**
 
@@ -6339,11 +6672,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `known_by_player` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-known-by-player-7e7a786bbac6 }
 
-**Contract fields:**
-
-- `name`: `"known_by_player"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field known_by_player boolean
+known_by_player = ... -- boolean
+```
 
 **Sources:**
 
@@ -6351,11 +6683,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `reputation` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-reputation-70feeeff8098 }
 
-**Contract fields:**
-
-- `name`: `"reputation"`
-- `optional`: `false`
-- `declaration`: `"CcbFactionReputation"`
+```lua
+---@field reputation CcbFactionReputation
+reputation = ... -- CcbFactionReputation
+```
 
 **Sources:**
 
@@ -6363,11 +6694,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `resources` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-resources-f8f4a8dbd7b2 }
 
-**Contract fields:**
-
-- `name`: `"resources"`
-- `optional`: `false`
-- `declaration`: `"CcbFactionResources"`
+```lua
+---@field resources CcbFactionResources
+resources = ... -- CcbFactionResources
+```
 
 **Sources:**
 
@@ -6375,11 +6705,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `policy` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-policy-5fac9f622d20 }
 
-**Contract fields:**
-
-- `name`: `"policy"`
-- `optional`: `false`
-- `declaration`: `"CcbFactionPolicy"`
+```lua
+---@field policy CcbFactionPolicy
+policy = ... -- CcbFactionPolicy
+```
 
 **Sources:**
 
@@ -6387,11 +6716,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `currency` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-currency-73ae519b8548 }
 
-**Contract fields:**
-
-- `name`: `"currency"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field currency GameId
+currency = ... -- GameId
+```
 
 **Sources:**
 
@@ -6399,11 +6727,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `monster_faction` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-monster-faction-3640f34d05af }
 
-**Contract fields:**
-
-- `name`: `"monster_faction"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field monster_faction GameId
+monster_faction = ... -- GameId
+```
 
 **Sources:**
 
@@ -6411,11 +6738,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `members` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-members-ebcecbd6901d }
 
-**Contract fields:**
-
-- `name`: `"members"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field members integer
+members = ... -- integer
+```
 
 **Sources:**
 
@@ -6423,11 +6749,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `relationship_targets` { #symbol-api-lua-v5-generated-property-ccbfactionsnapshot-relationship-targets-c9dc040c2253 }
 
-**Contract fields:**
-
-- `name`: `"relationship_targets"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field relationship_targets integer
+relationship_targets = ... -- integer
+```
 
 **Sources:**
 
@@ -6435,10 +6760,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbFactionsApi` { #symbol-api-lua-v5-generated-class-ccbfactionsapi-5892f61d5fba }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbFactionsApi = {}
+```
 
 **Sources:**
 
@@ -6446,10 +6771,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbFollowersApi` { #symbol-api-lua-v5-generated-class-ccbfollowersapi-6b69b29612da }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbFollowersApi = {}
+```
 
 **Sources:**
 
@@ -6457,10 +6782,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbGameActionsApi` { #symbol-api-lua-v5-generated-class-ccbgameactionsapi-d29d9e8391a2 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbGameActionsApi = {}
+```
 
 **Sources:**
 
@@ -6468,10 +6793,71 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbGameApi` { #symbol-api-lua-v5-generated-class-ccbgameapi-6be982da582a }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbGameApi = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `api_version` | `5` | Read-write |
+| `achievements` | `CcbAchievementsApi` | Read-write |
+| `actions` | `CcbGameActionsApi` | Read-write |
+| `action_menu` | `CcbActionMenuApi` | Read-write |
+| `addictions` | `CcbAddictionsApi` | Read-write |
+| `sidebar` | `CcbSidebarApi` | Read-write |
+| `types` | `CcbTypesApi` | Read-write |
+| `units` | `CcbUnitsApi` | Read-write |
+| `time` | `CcbTimeApi` | Read-write |
+| `coords` | `CcbCoordsApi` | Read-write |
+| `enums` | `CcbEnumsApi` | Read-write |
+| `serde` | `CcbSerdeApi` | Read-write |
+| `handles` | `CcbHandlesApi` | Read-write |
+| `definitions` | `CcbDefinitionsApi` | Read-write |
+| `diagnostics` | `CcbDiagnosticsApi` | Read-write |
+| `hooks` | `CcbHooksApi` | Read-write |
+| `callbacks` | `CcbCallbacksApi` | Read-write |
+| `camps` | `CcbCampsApi` | Read-write |
+| `mapgen` | `CcbMapgenApi` | Read-write |
+| `creatures` | `CcbCreaturesApi` | Read-write |
+| `characters` | `CcbCharactersApi` | Read-write |
+| `effects` | `CcbEffectsApi` | Read-write |
+| `bionics` | `CcbBionicsApi` | Read-write |
+| `items` | `CcbItemsApi` | Read-write |
+| `inventory` | `CcbInventoryApi` | Read-write |
+| `mutations` | `CcbMutationsApi` | Read-write |
+| `spells` | `CcbSpellsApi` | Read-write |
+| `missions` | `CcbMissionsApi` | Read-write |
+| `recipes` | `CcbRecipesApi` | Read-write |
+| `requirements` | `CcbRequirementsApi` | Read-write |
+| `crafting` | `CcbCraftingApi` | Read-write |
+| `eocs` | `CcbEocsApi` | Read-write |
+| `factions` | `CcbFactionsApi` | Read-write |
+| `world` | `CcbWorldApi` | Read-write |
+| `overmap` | `CcbOvermapApi` | Read-write |
+| `hordes` | `CcbHordesApi` | Read-write |
+| `martial_arts` | `CcbMartialArtsApi` | Read-write |
+| `messages` | `CcbMessagesApi` | Read-write |
+| `constants` | `CcbConstantsApi` | Read-write |
+| `random` | `CcbRandomApi` | Read-write |
+| `sound` | `CcbSoundApi` | Read-write |
+| `targeting` | `CcbTargetingApi` | Read-write |
+| `spawns` | `CcbSpawnsApi` | Read-write |
+| `followers` | `CcbFollowersApi` | Read-write |
+| `relocation` | `CcbRelocationApi` | Read-write |
+| `native_events` | `CcbNativeEventsApi` | Read-write |
+| `needs` | `CcbNeedsApi` | Read-write |
+| `npcs` | `CcbNpcsApi` | Read-write |
+| `proficiencies` | `CcbProficienciesApi` | Read-write |
+| `skills` | `CcbSkillsApi` | Read-write |
+| `statistics` | `CcbStatisticsApi` | Read-write |
+| `variables` | `CcbVariablesApi` | Read-write |
+| `vehicles` | `CcbVehiclesApi` | Read-write |
+| `vitamins` | `CcbVitaminsApi` | Read-write |
+| `weather` | `CcbWeatherApi` | Read-write |
+| `zones` | `CcbZonesApi` | Read-write |
 
 **Sources:**
 
@@ -6479,11 +6865,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `api_version` { #symbol-api-lua-v5-generated-property-ccbgameapi-api-version-65399051abd5 }
 
-**Contract fields:**
-
-- `name`: `"api_version"`
-- `optional`: `false`
-- `declaration`: `"5"`
+```lua
+---@field api_version 5
+api_version = ... -- 5
+```
 
 **Sources:**
 
@@ -6491,11 +6876,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `achievements` { #symbol-api-lua-v5-generated-property-ccbgameapi-achievements-79bef0b6e0f2 }
 
-**Contract fields:**
-
-- `name`: `"achievements"`
-- `optional`: `false`
-- `declaration`: `"CcbAchievementsApi"`
+```lua
+---@field achievements CcbAchievementsApi
+achievements = ... -- CcbAchievementsApi
+```
 
 **Sources:**
 
@@ -6503,11 +6887,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `actions` { #symbol-api-lua-v5-generated-property-ccbgameapi-actions-ee6ef991a2d8 }
 
-**Contract fields:**
-
-- `name`: `"actions"`
-- `optional`: `false`
-- `declaration`: `"CcbGameActionsApi"`
+```lua
+---@field actions CcbGameActionsApi
+actions = ... -- CcbGameActionsApi
+```
 
 **Sources:**
 
@@ -6515,11 +6898,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `action_menu` { #symbol-api-lua-v5-generated-property-ccbgameapi-action-menu-22fb74acaf2a }
 
-**Contract fields:**
-
-- `name`: `"action_menu"`
-- `optional`: `false`
-- `declaration`: `"CcbActionMenuApi"`
+```lua
+---@field action_menu CcbActionMenuApi
+action_menu = ... -- CcbActionMenuApi
+```
 
 **Sources:**
 
@@ -6527,11 +6909,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `addictions` { #symbol-api-lua-v5-generated-property-ccbgameapi-addictions-759f3d741345 }
 
-**Contract fields:**
-
-- `name`: `"addictions"`
-- `optional`: `false`
-- `declaration`: `"CcbAddictionsApi"`
+```lua
+---@field addictions CcbAddictionsApi
+addictions = ... -- CcbAddictionsApi
+```
 
 **Sources:**
 
@@ -6539,11 +6920,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sidebar` { #symbol-api-lua-v5-generated-property-ccbgameapi-sidebar-c88cb9b7b6cb }
 
-**Contract fields:**
-
-- `name`: `"sidebar"`
-- `optional`: `false`
-- `declaration`: `"CcbSidebarApi"`
+```lua
+---@field sidebar CcbSidebarApi
+sidebar = ... -- CcbSidebarApi
+```
 
 **Sources:**
 
@@ -6551,11 +6931,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `types` { #symbol-api-lua-v5-generated-property-ccbgameapi-types-c4cef9145c72 }
 
-**Contract fields:**
-
-- `name`: `"types"`
-- `optional`: `false`
-- `declaration`: `"CcbTypesApi"`
+```lua
+---@field types CcbTypesApi
+types = ... -- CcbTypesApi
+```
 
 **Sources:**
 
@@ -6563,11 +6942,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `units` { #symbol-api-lua-v5-generated-property-ccbgameapi-units-b284fd7f4422 }
 
-**Contract fields:**
-
-- `name`: `"units"`
-- `optional`: `false`
-- `declaration`: `"CcbUnitsApi"`
+```lua
+---@field units CcbUnitsApi
+units = ... -- CcbUnitsApi
+```
 
 **Sources:**
 
@@ -6575,11 +6953,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `time` { #symbol-api-lua-v5-generated-property-ccbgameapi-time-640184b04b7c }
 
-**Contract fields:**
-
-- `name`: `"time"`
-- `optional`: `false`
-- `declaration`: `"CcbTimeApi"`
+```lua
+---@field time CcbTimeApi
+time = ... -- CcbTimeApi
+```
 
 **Sources:**
 
@@ -6587,11 +6964,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `coords` { #symbol-api-lua-v5-generated-property-ccbgameapi-coords-d795f8e54378 }
 
-**Contract fields:**
-
-- `name`: `"coords"`
-- `optional`: `false`
-- `declaration`: `"CcbCoordsApi"`
+```lua
+---@field coords CcbCoordsApi
+coords = ... -- CcbCoordsApi
+```
 
 **Sources:**
 
@@ -6599,11 +6975,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `enums` { #symbol-api-lua-v5-generated-property-ccbgameapi-enums-667e1f57a533 }
 
-**Contract fields:**
-
-- `name`: `"enums"`
-- `optional`: `false`
-- `declaration`: `"CcbEnumsApi"`
+```lua
+---@field enums CcbEnumsApi
+enums = ... -- CcbEnumsApi
+```
 
 **Sources:**
 
@@ -6611,11 +6986,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `serde` { #symbol-api-lua-v5-generated-property-ccbgameapi-serde-d02caf77b8c8 }
 
-**Contract fields:**
-
-- `name`: `"serde"`
-- `optional`: `false`
-- `declaration`: `"CcbSerdeApi"`
+```lua
+---@field serde CcbSerdeApi
+serde = ... -- CcbSerdeApi
+```
 
 **Sources:**
 
@@ -6623,11 +6997,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `handles` { #symbol-api-lua-v5-generated-property-ccbgameapi-handles-47c7d0203811 }
 
-**Contract fields:**
-
-- `name`: `"handles"`
-- `optional`: `false`
-- `declaration`: `"CcbHandlesApi"`
+```lua
+---@field handles CcbHandlesApi
+handles = ... -- CcbHandlesApi
+```
 
 **Sources:**
 
@@ -6635,11 +7008,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `definitions` { #symbol-api-lua-v5-generated-property-ccbgameapi-definitions-f688bda5c95e }
 
-**Contract fields:**
-
-- `name`: `"definitions"`
-- `optional`: `false`
-- `declaration`: `"CcbDefinitionsApi"`
+```lua
+---@field definitions CcbDefinitionsApi
+definitions = ... -- CcbDefinitionsApi
+```
 
 **Sources:**
 
@@ -6647,11 +7019,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `diagnostics` { #symbol-api-lua-v5-generated-property-ccbgameapi-diagnostics-77f4b1944744 }
 
-**Contract fields:**
-
-- `name`: `"diagnostics"`
-- `optional`: `false`
-- `declaration`: `"CcbDiagnosticsApi"`
+```lua
+---@field diagnostics CcbDiagnosticsApi
+diagnostics = ... -- CcbDiagnosticsApi
+```
 
 **Sources:**
 
@@ -6659,11 +7030,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hooks` { #symbol-api-lua-v5-generated-property-ccbgameapi-hooks-dee07ae396ef }
 
-**Contract fields:**
-
-- `name`: `"hooks"`
-- `optional`: `false`
-- `declaration`: `"CcbHooksApi"`
+```lua
+---@field hooks CcbHooksApi
+hooks = ... -- CcbHooksApi
+```
 
 **Sources:**
 
@@ -6671,11 +7041,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `callbacks` { #symbol-api-lua-v5-generated-property-ccbgameapi-callbacks-0bcdf8a8a56a }
 
-**Contract fields:**
-
-- `name`: `"callbacks"`
-- `optional`: `false`
-- `declaration`: `"CcbCallbacksApi"`
+```lua
+---@field callbacks CcbCallbacksApi
+callbacks = ... -- CcbCallbacksApi
+```
 
 **Sources:**
 
@@ -6683,11 +7052,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `camps` { #symbol-api-lua-v5-generated-property-ccbgameapi-camps-cdd5f4e61866 }
 
-**Contract fields:**
-
-- `name`: `"camps"`
-- `optional`: `false`
-- `declaration`: `"CcbCampsApi"`
+```lua
+---@field camps CcbCampsApi
+camps = ... -- CcbCampsApi
+```
 
 **Sources:**
 
@@ -6695,11 +7063,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `mapgen` { #symbol-api-lua-v5-generated-property-ccbgameapi-mapgen-e8636df110bf }
 
-**Contract fields:**
-
-- `name`: `"mapgen"`
-- `optional`: `false`
-- `declaration`: `"CcbMapgenApi"`
+```lua
+---@field mapgen CcbMapgenApi
+mapgen = ... -- CcbMapgenApi
+```
 
 **Sources:**
 
@@ -6707,11 +7074,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `creatures` { #symbol-api-lua-v5-generated-property-ccbgameapi-creatures-5f827ff8157b }
 
-**Contract fields:**
-
-- `name`: `"creatures"`
-- `optional`: `false`
-- `declaration`: `"CcbCreaturesApi"`
+```lua
+---@field creatures CcbCreaturesApi
+creatures = ... -- CcbCreaturesApi
+```
 
 **Sources:**
 
@@ -6719,11 +7085,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `characters` { #symbol-api-lua-v5-generated-property-ccbgameapi-characters-674f885b2fc4 }
 
-**Contract fields:**
-
-- `name`: `"characters"`
-- `optional`: `false`
-- `declaration`: `"CcbCharactersApi"`
+```lua
+---@field characters CcbCharactersApi
+characters = ... -- CcbCharactersApi
+```
 
 **Sources:**
 
@@ -6731,11 +7096,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `effects` { #symbol-api-lua-v5-generated-property-ccbgameapi-effects-fc9b50c277ca }
 
-**Contract fields:**
-
-- `name`: `"effects"`
-- `optional`: `false`
-- `declaration`: `"CcbEffectsApi"`
+```lua
+---@field effects CcbEffectsApi
+effects = ... -- CcbEffectsApi
+```
 
 **Sources:**
 
@@ -6743,11 +7107,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `bionics` { #symbol-api-lua-v5-generated-property-ccbgameapi-bionics-cb3a866d1e35 }
 
-**Contract fields:**
-
-- `name`: `"bionics"`
-- `optional`: `false`
-- `declaration`: `"CcbBionicsApi"`
+```lua
+---@field bionics CcbBionicsApi
+bionics = ... -- CcbBionicsApi
+```
 
 **Sources:**
 
@@ -6755,11 +7118,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `items` { #symbol-api-lua-v5-generated-property-ccbgameapi-items-b8d08abb681f }
 
-**Contract fields:**
-
-- `name`: `"items"`
-- `optional`: `false`
-- `declaration`: `"CcbItemsApi"`
+```lua
+---@field items CcbItemsApi
+items = ... -- CcbItemsApi
+```
 
 **Sources:**
 
@@ -6767,11 +7129,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `inventory` { #symbol-api-lua-v5-generated-property-ccbgameapi-inventory-ba9c0c2f9a72 }
 
-**Contract fields:**
-
-- `name`: `"inventory"`
-- `optional`: `false`
-- `declaration`: `"CcbInventoryApi"`
+```lua
+---@field inventory CcbInventoryApi
+inventory = ... -- CcbInventoryApi
+```
 
 **Sources:**
 
@@ -6779,11 +7140,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `mutations` { #symbol-api-lua-v5-generated-property-ccbgameapi-mutations-8d3302d1ac21 }
 
-**Contract fields:**
-
-- `name`: `"mutations"`
-- `optional`: `false`
-- `declaration`: `"CcbMutationsApi"`
+```lua
+---@field mutations CcbMutationsApi
+mutations = ... -- CcbMutationsApi
+```
 
 **Sources:**
 
@@ -6791,11 +7151,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `spells` { #symbol-api-lua-v5-generated-property-ccbgameapi-spells-96033f3b4367 }
 
-**Contract fields:**
-
-- `name`: `"spells"`
-- `optional`: `false`
-- `declaration`: `"CcbSpellsApi"`
+```lua
+---@field spells CcbSpellsApi
+spells = ... -- CcbSpellsApi
+```
 
 **Sources:**
 
@@ -6803,11 +7162,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `missions` { #symbol-api-lua-v5-generated-property-ccbgameapi-missions-973622ea08d1 }
 
-**Contract fields:**
-
-- `name`: `"missions"`
-- `optional`: `false`
-- `declaration`: `"CcbMissionsApi"`
+```lua
+---@field missions CcbMissionsApi
+missions = ... -- CcbMissionsApi
+```
 
 **Sources:**
 
@@ -6815,11 +7173,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `recipes` { #symbol-api-lua-v5-generated-property-ccbgameapi-recipes-8e97a5ea636f }
 
-**Contract fields:**
-
-- `name`: `"recipes"`
-- `optional`: `false`
-- `declaration`: `"CcbRecipesApi"`
+```lua
+---@field recipes CcbRecipesApi
+recipes = ... -- CcbRecipesApi
+```
 
 **Sources:**
 
@@ -6827,11 +7184,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `requirements` { #symbol-api-lua-v5-generated-property-ccbgameapi-requirements-836820f710dc }
 
-**Contract fields:**
-
-- `name`: `"requirements"`
-- `optional`: `false`
-- `declaration`: `"CcbRequirementsApi"`
+```lua
+---@field requirements CcbRequirementsApi
+requirements = ... -- CcbRequirementsApi
+```
 
 **Sources:**
 
@@ -6839,11 +7195,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `crafting` { #symbol-api-lua-v5-generated-property-ccbgameapi-crafting-10b96a63dc97 }
 
-**Contract fields:**
-
-- `name`: `"crafting"`
-- `optional`: `false`
-- `declaration`: `"CcbCraftingApi"`
+```lua
+---@field crafting CcbCraftingApi
+crafting = ... -- CcbCraftingApi
+```
 
 **Sources:**
 
@@ -6851,11 +7206,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `eocs` { #symbol-api-lua-v5-generated-property-ccbgameapi-eocs-2391948eeaea }
 
-**Contract fields:**
-
-- `name`: `"eocs"`
-- `optional`: `false`
-- `declaration`: `"CcbEocsApi"`
+```lua
+---@field eocs CcbEocsApi
+eocs = ... -- CcbEocsApi
+```
 
 **Sources:**
 
@@ -6863,11 +7217,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `factions` { #symbol-api-lua-v5-generated-property-ccbgameapi-factions-58eda8fd82f1 }
 
-**Contract fields:**
-
-- `name`: `"factions"`
-- `optional`: `false`
-- `declaration`: `"CcbFactionsApi"`
+```lua
+---@field factions CcbFactionsApi
+factions = ... -- CcbFactionsApi
+```
 
 **Sources:**
 
@@ -6875,11 +7228,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `world` { #symbol-api-lua-v5-generated-property-ccbgameapi-world-90c1c1717aaa }
 
-**Contract fields:**
-
-- `name`: `"world"`
-- `optional`: `false`
-- `declaration`: `"CcbWorldApi"`
+```lua
+---@field world CcbWorldApi
+world = ... -- CcbWorldApi
+```
 
 **Sources:**
 
@@ -6887,11 +7239,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `overmap` { #symbol-api-lua-v5-generated-property-ccbgameapi-overmap-fea5f2a3d261 }
 
-**Contract fields:**
-
-- `name`: `"overmap"`
-- `optional`: `false`
-- `declaration`: `"CcbOvermapApi"`
+```lua
+---@field overmap CcbOvermapApi
+overmap = ... -- CcbOvermapApi
+```
 
 **Sources:**
 
@@ -6899,11 +7250,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hordes` { #symbol-api-lua-v5-generated-property-ccbgameapi-hordes-6fd61f9da3e1 }
 
-**Contract fields:**
-
-- `name`: `"hordes"`
-- `optional`: `false`
-- `declaration`: `"CcbHordesApi"`
+```lua
+---@field hordes CcbHordesApi
+hordes = ... -- CcbHordesApi
+```
 
 **Sources:**
 
@@ -6911,11 +7261,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `martial_arts` { #symbol-api-lua-v5-generated-property-ccbgameapi-martial-arts-d294a59e33c8 }
 
-**Contract fields:**
-
-- `name`: `"martial_arts"`
-- `optional`: `false`
-- `declaration`: `"CcbMartialArtsApi"`
+```lua
+---@field martial_arts CcbMartialArtsApi
+martial_arts = ... -- CcbMartialArtsApi
+```
 
 **Sources:**
 
@@ -6923,11 +7272,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `messages` { #symbol-api-lua-v5-generated-property-ccbgameapi-messages-a3d1b794c437 }
 
-**Contract fields:**
-
-- `name`: `"messages"`
-- `optional`: `false`
-- `declaration`: `"CcbMessagesApi"`
+```lua
+---@field messages CcbMessagesApi
+messages = ... -- CcbMessagesApi
+```
 
 **Sources:**
 
@@ -6935,11 +7283,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `constants` { #symbol-api-lua-v5-generated-property-ccbgameapi-constants-4d82a54639c0 }
 
-**Contract fields:**
-
-- `name`: `"constants"`
-- `optional`: `false`
-- `declaration`: `"CcbConstantsApi"`
+```lua
+---@field constants CcbConstantsApi
+constants = ... -- CcbConstantsApi
+```
 
 **Sources:**
 
@@ -6947,11 +7294,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `random` { #symbol-api-lua-v5-generated-property-ccbgameapi-random-3003a87ac70f }
 
-**Contract fields:**
-
-- `name`: `"random"`
-- `optional`: `false`
-- `declaration`: `"CcbRandomApi"`
+```lua
+---@field random CcbRandomApi
+random = ... -- CcbRandomApi
+```
 
 **Sources:**
 
@@ -6959,11 +7305,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sound` { #symbol-api-lua-v5-generated-property-ccbgameapi-sound-03b54eb708cd }
 
-**Contract fields:**
-
-- `name`: `"sound"`
-- `optional`: `false`
-- `declaration`: `"CcbSoundApi"`
+```lua
+---@field sound CcbSoundApi
+sound = ... -- CcbSoundApi
+```
 
 **Sources:**
 
@@ -6971,11 +7316,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `targeting` { #symbol-api-lua-v5-generated-property-ccbgameapi-targeting-dab13a69c354 }
 
-**Contract fields:**
-
-- `name`: `"targeting"`
-- `optional`: `false`
-- `declaration`: `"CcbTargetingApi"`
+```lua
+---@field targeting CcbTargetingApi
+targeting = ... -- CcbTargetingApi
+```
 
 **Sources:**
 
@@ -6983,11 +7327,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `spawns` { #symbol-api-lua-v5-generated-property-ccbgameapi-spawns-dbadd42d87ee }
 
-**Contract fields:**
-
-- `name`: `"spawns"`
-- `optional`: `false`
-- `declaration`: `"CcbSpawnsApi"`
+```lua
+---@field spawns CcbSpawnsApi
+spawns = ... -- CcbSpawnsApi
+```
 
 **Sources:**
 
@@ -6995,11 +7338,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `followers` { #symbol-api-lua-v5-generated-property-ccbgameapi-followers-4cc2d4780271 }
 
-**Contract fields:**
-
-- `name`: `"followers"`
-- `optional`: `false`
-- `declaration`: `"CcbFollowersApi"`
+```lua
+---@field followers CcbFollowersApi
+followers = ... -- CcbFollowersApi
+```
 
 **Sources:**
 
@@ -7007,11 +7349,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `relocation` { #symbol-api-lua-v5-generated-property-ccbgameapi-relocation-5d8ffbf9ed78 }
 
-**Contract fields:**
-
-- `name`: `"relocation"`
-- `optional`: `false`
-- `declaration`: `"CcbRelocationApi"`
+```lua
+---@field relocation CcbRelocationApi
+relocation = ... -- CcbRelocationApi
+```
 
 **Sources:**
 
@@ -7019,11 +7360,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `native_events` { #symbol-api-lua-v5-generated-property-ccbgameapi-native-events-ad9be97034b1 }
 
-**Contract fields:**
-
-- `name`: `"native_events"`
-- `optional`: `false`
-- `declaration`: `"CcbNativeEventsApi"`
+```lua
+---@field native_events CcbNativeEventsApi
+native_events = ... -- CcbNativeEventsApi
+```
 
 **Sources:**
 
@@ -7031,11 +7371,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `needs` { #symbol-api-lua-v5-generated-property-ccbgameapi-needs-1be9387197c6 }
 
-**Contract fields:**
-
-- `name`: `"needs"`
-- `optional`: `false`
-- `declaration`: `"CcbNeedsApi"`
+```lua
+---@field needs CcbNeedsApi
+needs = ... -- CcbNeedsApi
+```
 
 **Sources:**
 
@@ -7043,11 +7382,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `npcs` { #symbol-api-lua-v5-generated-property-ccbgameapi-npcs-f4f66d551a75 }
 
-**Contract fields:**
-
-- `name`: `"npcs"`
-- `optional`: `false`
-- `declaration`: `"CcbNpcsApi"`
+```lua
+---@field npcs CcbNpcsApi
+npcs = ... -- CcbNpcsApi
+```
 
 **Sources:**
 
@@ -7055,11 +7393,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `proficiencies` { #symbol-api-lua-v5-generated-property-ccbgameapi-proficiencies-75ab3712bff0 }
 
-**Contract fields:**
-
-- `name`: `"proficiencies"`
-- `optional`: `false`
-- `declaration`: `"CcbProficienciesApi"`
+```lua
+---@field proficiencies CcbProficienciesApi
+proficiencies = ... -- CcbProficienciesApi
+```
 
 **Sources:**
 
@@ -7067,11 +7404,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `skills` { #symbol-api-lua-v5-generated-property-ccbgameapi-skills-f83395892301 }
 
-**Contract fields:**
-
-- `name`: `"skills"`
-- `optional`: `false`
-- `declaration`: `"CcbSkillsApi"`
+```lua
+---@field skills CcbSkillsApi
+skills = ... -- CcbSkillsApi
+```
 
 **Sources:**
 
@@ -7079,11 +7415,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `statistics` { #symbol-api-lua-v5-generated-property-ccbgameapi-statistics-e4c90adc0845 }
 
-**Contract fields:**
-
-- `name`: `"statistics"`
-- `optional`: `false`
-- `declaration`: `"CcbStatisticsApi"`
+```lua
+---@field statistics CcbStatisticsApi
+statistics = ... -- CcbStatisticsApi
+```
 
 **Sources:**
 
@@ -7091,11 +7426,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `variables` { #symbol-api-lua-v5-generated-property-ccbgameapi-variables-6646bc1c387b }
 
-**Contract fields:**
-
-- `name`: `"variables"`
-- `optional`: `false`
-- `declaration`: `"CcbVariablesApi"`
+```lua
+---@field variables CcbVariablesApi
+variables = ... -- CcbVariablesApi
+```
 
 **Sources:**
 
@@ -7103,11 +7437,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `vehicles` { #symbol-api-lua-v5-generated-property-ccbgameapi-vehicles-fd9a46f28747 }
 
-**Contract fields:**
-
-- `name`: `"vehicles"`
-- `optional`: `false`
-- `declaration`: `"CcbVehiclesApi"`
+```lua
+---@field vehicles CcbVehiclesApi
+vehicles = ... -- CcbVehiclesApi
+```
 
 **Sources:**
 
@@ -7115,11 +7448,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `vitamins` { #symbol-api-lua-v5-generated-property-ccbgameapi-vitamins-1c8f3e65590e }
 
-**Contract fields:**
-
-- `name`: `"vitamins"`
-- `optional`: `false`
-- `declaration`: `"CcbVitaminsApi"`
+```lua
+---@field vitamins CcbVitaminsApi
+vitamins = ... -- CcbVitaminsApi
+```
 
 **Sources:**
 
@@ -7127,11 +7459,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `weather` { #symbol-api-lua-v5-generated-property-ccbgameapi-weather-60349e38af43 }
 
-**Contract fields:**
-
-- `name`: `"weather"`
-- `optional`: `false`
-- `declaration`: `"CcbWeatherApi"`
+```lua
+---@field weather CcbWeatherApi
+weather = ... -- CcbWeatherApi
+```
 
 **Sources:**
 
@@ -7139,11 +7470,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `zones` { #symbol-api-lua-v5-generated-property-ccbgameapi-zones-22927aeb8906 }
 
-**Contract fields:**
-
-- `name`: `"zones"`
-- `optional`: `false`
-- `declaration`: `"CcbZonesApi"`
+```lua
+---@field zones CcbZonesApi
+zones = ... -- CcbZonesApi
+```
 
 **Sources:**
 
@@ -7151,10 +7481,16 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbGiveItemOptions` { #symbol-api-lua-v5-generated-class-ccbgiveitemoptions-ba5e55638bac }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbGiveItemOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `allow_wield` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -7162,11 +7498,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `allow_wield` { #symbol-api-lua-v5-generated-property-ccbgiveitemoptions-allow-wield-17546bb0de09 }
 
-**Contract fields:**
-
-- `name`: `"allow_wield"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field allow_wield boolean
+allow_wield = ... -- boolean
+```
 
 **Sources:**
 
@@ -7174,10 +7509,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbGutVitaminSnapshot` { #symbol-api-lua-v5-generated-class-ccbgutvitaminsnapshot-31772ea2603b }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbGutVitaminSnapshot = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `amount` | `integer` | Read-write |
 
 **Sources:**
 
@@ -7185,11 +7527,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbgutvitaminsnapshot-id-98e8f000e2be }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -7197,11 +7538,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `amount` { #symbol-api-lua-v5-generated-property-ccbgutvitaminsnapshot-amount-8db86fcfba48 }
 
-**Contract fields:**
-
-- `name`: `"amount"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field amount integer
+amount = ... -- integer
+```
 
 **Sources:**
 
@@ -7209,10 +7549,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbHallucinationOptions` { #symbol-api-lua-v5-generated-class-ccbhallucinationoptions-546ce5b1fb24 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbHallucinationOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `monster` | `GameId` | Read-write |
+| `lifespan` | `TimeDuration` | Read-write |
 
 **Sources:**
 
@@ -7220,11 +7567,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `monster` { #symbol-api-lua-v5-generated-property-ccbhallucinationoptions-monster-b527fdf4d706 }
 
-**Contract fields:**
-
-- `name`: `"monster"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field monster GameId
+monster = ... -- GameId
+```
 
 **Sources:**
 
@@ -7232,11 +7578,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `lifespan` { #symbol-api-lua-v5-generated-property-ccbhallucinationoptions-lifespan-bb9c3013b89f }
 
-**Contract fields:**
-
-- `name`: `"lifespan"`
-- `optional`: `true`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field lifespan TimeDuration
+lifespan = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -7244,10 +7589,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbHandleLocator` { #symbol-api-lua-v5-generated-class-ccbhandlelocator-8dd96735bc67 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbHandleLocator = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `scope` | `string` | Read-write |
+| `stable_id` | `integer` | Read-write |
+| `x` | `integer` | Read-write |
+| `y` | `integer` | Read-write |
+| `z` | `integer` | Read-write |
+| `path` | `integer[]` | Read-write |
 
 **Sources:**
 
@@ -7255,11 +7611,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `scope` { #symbol-api-lua-v5-generated-property-ccbhandlelocator-scope-871e080bfefa }
 
-**Contract fields:**
-
-- `name`: `"scope"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field scope string
+scope = ... -- string
+```
 
 **Sources:**
 
@@ -7267,11 +7622,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `stable_id` { #symbol-api-lua-v5-generated-property-ccbhandlelocator-stable-id-2fb7f919ed48 }
 
-**Contract fields:**
-
-- `name`: `"stable_id"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field stable_id integer
+stable_id = ... -- integer
+```
 
 **Sources:**
 
@@ -7279,11 +7633,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `x` { #symbol-api-lua-v5-generated-property-ccbhandlelocator-x-bbd30bb9657b }
 
-**Contract fields:**
-
-- `name`: `"x"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field x integer
+x = ... -- integer
+```
 
 **Sources:**
 
@@ -7291,11 +7644,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `y` { #symbol-api-lua-v5-generated-property-ccbhandlelocator-y-1ea2d26d7b31 }
 
-**Contract fields:**
-
-- `name`: `"y"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field y integer
+y = ... -- integer
+```
 
 **Sources:**
 
@@ -7303,11 +7655,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `z` { #symbol-api-lua-v5-generated-property-ccbhandlelocator-z-621b7fc92873 }
 
-**Contract fields:**
-
-- `name`: `"z"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field z integer
+z = ... -- integer
+```
 
 **Sources:**
 
@@ -7315,11 +7666,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `path` { #symbol-api-lua-v5-generated-property-ccbhandlelocator-path-f17c1526e052 }
 
-**Contract fields:**
-
-- `name`: `"path"`
-- `optional`: `false`
-- `declaration`: `"integer[]"`
+```lua
+---@field path integer[]
+path = ... -- integer[]
+```
 
 **Sources:**
 
@@ -7327,10 +7677,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbHandlesApi` { #symbol-api-lua-v5-generated-class-ccbhandlesapi-78310f80d2ad }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbHandlesApi = {}
+```
 
 **Sources:**
 
@@ -7338,10 +7688,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbHealthAdjustments` { #symbol-api-lua-v5-generated-class-ccbhealthadjustments-78b6024527e0 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbHealthAdjustments = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `lifestyle` | `integer` | Read-write |
+| `daily_health` | `integer` | Read-write |
 
 **Sources:**
 
@@ -7349,11 +7706,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `lifestyle` { #symbol-api-lua-v5-generated-property-ccbhealthadjustments-lifestyle-585630e21afc }
 
-**Contract fields:**
-
-- `name`: `"lifestyle"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field lifestyle integer
+lifestyle = ... -- integer
+```
 
 **Sources:**
 
@@ -7361,11 +7717,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `daily_health` { #symbol-api-lua-v5-generated-property-ccbhealthadjustments-daily-health-b67dfd96a1d8 }
 
-**Contract fields:**
-
-- `name`: `"daily_health"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field daily_health integer
+daily_health = ... -- integer
+```
 
 **Sources:**
 
@@ -7373,10 +7728,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbHealthDeltas` { #symbol-api-lua-v5-generated-class-ccbhealthdeltas-31aa7f5b4772 }
 
-**Contract fields:**
+```lua
+---@class : CcbHealthAdjustments
+local CcbHealthDeltas = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbHealthAdjustments"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `daily_health_cap` | `integer Required together with `daily_health`.` | Read-write |
+| `health_tally` | `integer` | Read-write |
 
 **Sources:**
 
@@ -7384,11 +7746,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `daily_health_cap` { #symbol-api-lua-v5-generated-property-ccbhealthdeltas-daily-health-cap-e6094b86bb3c }
 
-**Contract fields:**
-
-- `name`: `"daily_health_cap"`
-- `optional`: `true`
-- `declaration`: `"integer Required together with `daily_health`."`
+```lua
+---@field daily_health_cap integer Required together with `daily_health`.
+daily_health_cap = ... -- integer Required together with `daily_health`.
+```
 
 **Sources:**
 
@@ -7396,11 +7757,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `health_tally` { #symbol-api-lua-v5-generated-property-ccbhealthdeltas-health-tally-ebb2857669d9 }
 
-**Contract fields:**
-
-- `name`: `"health_tally"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field health_tally integer
+health_tally = ... -- integer
+```
 
 **Sources:**
 
@@ -7408,10 +7768,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbHookLimits` { #symbol-api-lua-v5-generated-class-ccbhooklimits-6cfe1be2ecf1 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbHookLimits = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `hooks` | `integer` | Read-write |
+| `handlers` | `integer` | Read-write |
+| `registered` | `integer` | Read-write |
+| `priority_min` | `integer` | Read-write |
+| `priority_max` | `integer` | Read-write |
+| `dispatch_depth` | `integer` | Read-write |
+| `instruction_budget` | `integer` | Read-write |
 
 **Sources:**
 
@@ -7419,11 +7791,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hooks` { #symbol-api-lua-v5-generated-property-ccbhooklimits-hooks-7ec75e0844a3 }
 
-**Contract fields:**
-
-- `name`: `"hooks"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field hooks integer
+hooks = ... -- integer
+```
 
 **Sources:**
 
@@ -7431,11 +7802,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `handlers` { #symbol-api-lua-v5-generated-property-ccbhooklimits-handlers-6d9718fd1b8c }
 
-**Contract fields:**
-
-- `name`: `"handlers"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field handlers integer
+handlers = ... -- integer
+```
 
 **Sources:**
 
@@ -7443,11 +7813,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `registered` { #symbol-api-lua-v5-generated-property-ccbhooklimits-registered-6916652a099d }
 
-**Contract fields:**
-
-- `name`: `"registered"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field registered integer
+registered = ... -- integer
+```
 
 **Sources:**
 
@@ -7455,11 +7824,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `priority_min` { #symbol-api-lua-v5-generated-property-ccbhooklimits-priority-min-1191e0701aa3 }
 
-**Contract fields:**
-
-- `name`: `"priority_min"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field priority_min integer
+priority_min = ... -- integer
+```
 
 **Sources:**
 
@@ -7467,11 +7835,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `priority_max` { #symbol-api-lua-v5-generated-property-ccbhooklimits-priority-max-ab47656ee700 }
 
-**Contract fields:**
-
-- `name`: `"priority_max"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field priority_max integer
+priority_max = ... -- integer
+```
 
 **Sources:**
 
@@ -7479,11 +7846,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `dispatch_depth` { #symbol-api-lua-v5-generated-property-ccbhooklimits-dispatch-depth-7a50f116daee }
 
-**Contract fields:**
-
-- `name`: `"dispatch_depth"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field dispatch_depth integer
+dispatch_depth = ... -- integer
+```
 
 **Sources:**
 
@@ -7491,11 +7857,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `instruction_budget` { #symbol-api-lua-v5-generated-property-ccbhooklimits-instruction-budget-3e216de44095 }
 
-**Contract fields:**
-
-- `name`: `"instruction_budget"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field instruction_budget integer
+instruction_budget = ... -- integer
+```
 
 **Sources:**
 
@@ -7503,10 +7868,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbHookOptions` { #symbol-api-lua-v5-generated-class-ccbhookoptions-2acfb401ce0b }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbHookOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `priority` | `integer` | Read-write |
+| `once` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -7514,11 +7886,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `priority` { #symbol-api-lua-v5-generated-property-ccbhookoptions-priority-4d6698602f9a }
 
-**Contract fields:**
-
-- `name`: `"priority"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field priority integer
+priority = ... -- integer
+```
 
 **Sources:**
 
@@ -7526,11 +7897,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `once` { #symbol-api-lua-v5-generated-property-ccbhookoptions-once-a4bf7906254f }
 
-**Contract fields:**
-
-- `name`: `"once"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field once boolean
+once = ... -- boolean
+```
 
 **Sources:**
 
@@ -7538,10 +7908,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbHookPayload` { #symbol-api-lua-v5-generated-class-ccbhookpayload-8cd368ea9b79 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbHookPayload = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `hook` | `string` | Read-write |
+| `turn` | `integer` | Read-write |
 
 **Sources:**
 
@@ -7549,11 +7926,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hook` { #symbol-api-lua-v5-generated-property-ccbhookpayload-hook-a470c267f505 }
 
-**Contract fields:**
-
-- `name`: `"hook"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field hook string
+hook = ... -- string
+```
 
 **Sources:**
 
@@ -7561,11 +7937,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `turn` { #symbol-api-lua-v5-generated-property-ccbhookpayload-turn-2594a9284adc }
 
-**Contract fields:**
-
-- `name`: `"turn"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field turn integer
+turn = ... -- integer
+```
 
 **Sources:**
 
@@ -7573,10 +7948,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbHookSpec` { #symbol-api-lua-v5-generated-class-ccbhookspec-67ef3a8fbb73 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbHookSpec = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `name` | `string` | Read-write |
+| `mode` | `CcbHookMode` | Read-write |
+| `cancellable` | `boolean` | Read-write |
+| `requires_write` | `boolean` | Read-write |
+| `payload_fields` | `string[]` | Read-write |
+| `result_fields` | `string[]` | Read-write |
 
 **Sources:**
 
@@ -7584,11 +7970,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbhookspec-name-7789c7e10cd0 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -7596,11 +7981,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `mode` { #symbol-api-lua-v5-generated-property-ccbhookspec-mode-a553b19e5965 }
 
-**Contract fields:**
-
-- `name`: `"mode"`
-- `optional`: `false`
-- `declaration`: `"CcbHookMode"`
+```lua
+---@field mode CcbHookMode
+mode = ... -- CcbHookMode
+```
 
 **Sources:**
 
@@ -7608,11 +7992,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `cancellable` { #symbol-api-lua-v5-generated-property-ccbhookspec-cancellable-3b78950a8ddd }
 
-**Contract fields:**
-
-- `name`: `"cancellable"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field cancellable boolean
+cancellable = ... -- boolean
+```
 
 **Sources:**
 
@@ -7620,11 +8003,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `requires_write` { #symbol-api-lua-v5-generated-property-ccbhookspec-requires-write-99c78eb166bf }
 
-**Contract fields:**
-
-- `name`: `"requires_write"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field requires_write boolean
+requires_write = ... -- boolean
+```
 
 **Sources:**
 
@@ -7632,11 +8014,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `payload_fields` { #symbol-api-lua-v5-generated-property-ccbhookspec-payload-fields-c25c3f7aee07 }
 
-**Contract fields:**
-
-- `name`: `"payload_fields"`
-- `optional`: `false`
-- `declaration`: `"string[]"`
+```lua
+---@field payload_fields string[]
+payload_fields = ... -- string[]
+```
 
 **Sources:**
 
@@ -7644,11 +8025,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `result_fields` { #symbol-api-lua-v5-generated-property-ccbhookspec-result-fields-a816c48e41b6 }
 
-**Contract fields:**
-
-- `name`: `"result_fields"`
-- `optional`: `false`
-- `declaration`: `"string[]"`
+```lua
+---@field result_fields string[]
+result_fields = ... -- string[]
+```
 
 **Sources:**
 
@@ -7656,10 +8036,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbHooksApi` { #symbol-api-lua-v5-generated-class-ccbhooksapi-2ba4abbefe57 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbHooksApi = {}
+```
 
 **Sources:**
 
@@ -7667,10 +8047,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbHordeEntityQueryOptions` { #symbol-api-lua-v5-generated-class-ccbhordeentityqueryoptions-6edd7b32d333 }
 
-**Contract fields:**
+```lua
+---@class : CcbPageOptions
+local CcbHordeEntityQueryOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbPageOptions"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `radius` | `integer` | Read-write |
+| `radius_z` | `integer` | Read-write |
+| `flavors` | `CcbHordeFlavor[]` | Read-write |
+| `monster` | `GameId` | Read-write |
 
 **Sources:**
 
@@ -7678,11 +8067,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `radius` { #symbol-api-lua-v5-generated-property-ccbhordeentityqueryoptions-radius-53171375bbfe }
 
-**Contract fields:**
-
-- `name`: `"radius"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field radius integer
+radius = ... -- integer
+```
 
 **Sources:**
 
@@ -7690,11 +8078,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `radius_z` { #symbol-api-lua-v5-generated-property-ccbhordeentityqueryoptions-radius-z-a8797bbd0f23 }
 
-**Contract fields:**
-
-- `name`: `"radius_z"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field radius_z integer
+radius_z = ... -- integer
+```
 
 **Sources:**
 
@@ -7702,11 +8089,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `flavors` { #symbol-api-lua-v5-generated-property-ccbhordeentityqueryoptions-flavors-f82ee1ab5a05 }
 
-**Contract fields:**
-
-- `name`: `"flavors"`
-- `optional`: `true`
-- `declaration`: `"CcbHordeFlavor[]"`
+```lua
+---@field flavors CcbHordeFlavor[]
+flavors = ... -- CcbHordeFlavor[]
+```
 
 **Sources:**
 
@@ -7714,11 +8100,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `monster` { #symbol-api-lua-v5-generated-property-ccbhordeentityqueryoptions-monster-a7c1e52eb2bb }
 
-**Contract fields:**
-
-- `name`: `"monster"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field monster GameId
+monster = ... -- GameId
+```
 
 **Sources:**
 
@@ -7726,10 +8111,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbHordesApi` { #symbol-api-lua-v5-generated-class-ccbhordesapi-45b863cd4b33 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbHordesApi = {}
+```
 
 **Sources:**
 
@@ -7737,10 +8122,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbI18nApi` { #symbol-api-lua-v5-generated-class-ccbi18napi-1bb8bf8e7452 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbI18nApi = {}
+```
 
 **Sources:**
 
@@ -7748,10 +8133,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbInputContextSnapshot` { #symbol-api-lua-v5-generated-class-ccbinputcontextsnapshot-5cc1af83f11d }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbInputContextSnapshot = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `category` | `string` | Read-write |
+| `hud_scene_id` | `string` | Read-write |
+| `hud_scene_title` | `string` | Read-write |
+| `revision` | `integer` | Read-write |
+| `actions` | `CcbActionDescriptor[]` | Read-write |
+| `available` | `table<string, boolean>` | Read-write |
 
 **Sources:**
 
@@ -7759,11 +8155,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `category` { #symbol-api-lua-v5-generated-property-ccbinputcontextsnapshot-category-3ad2c7fdafdf }
 
-**Contract fields:**
-
-- `name`: `"category"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field category string
+category = ... -- string
+```
 
 **Sources:**
 
@@ -7771,11 +8166,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hud_scene_id` { #symbol-api-lua-v5-generated-property-ccbinputcontextsnapshot-hud-scene-id-b7b0a9abdaf7 }
 
-**Contract fields:**
-
-- `name`: `"hud_scene_id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field hud_scene_id string
+hud_scene_id = ... -- string
+```
 
 **Sources:**
 
@@ -7783,11 +8177,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hud_scene_title` { #symbol-api-lua-v5-generated-property-ccbinputcontextsnapshot-hud-scene-title-90991699d468 }
 
-**Contract fields:**
-
-- `name`: `"hud_scene_title"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field hud_scene_title string
+hud_scene_title = ... -- string
+```
 
 **Sources:**
 
@@ -7795,11 +8188,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `revision` { #symbol-api-lua-v5-generated-property-ccbinputcontextsnapshot-revision-52183b7c39f5 }
 
-**Contract fields:**
-
-- `name`: `"revision"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field revision integer
+revision = ... -- integer
+```
 
 **Sources:**
 
@@ -7807,11 +8199,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `actions` { #symbol-api-lua-v5-generated-property-ccbinputcontextsnapshot-actions-1afda9426d67 }
 
-**Contract fields:**
-
-- `name`: `"actions"`
-- `optional`: `false`
-- `declaration`: `"CcbActionDescriptor[]"`
+```lua
+---@field actions CcbActionDescriptor[]
+actions = ... -- CcbActionDescriptor[]
+```
 
 **Sources:**
 
@@ -7819,11 +8210,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `available` { #symbol-api-lua-v5-generated-property-ccbinputcontextsnapshot-available-b8d60f2d25f2 }
 
-**Contract fields:**
-
-- `name`: `"available"`
-- `optional`: `false`
-- `declaration`: `"table<string, boolean>"`
+```lua
+---@field available table<string, boolean>
+available = ... -- table<string, boolean>
+```
 
 **Sources:**
 
@@ -7831,10 +8221,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbInventoryApi` { #symbol-api-lua-v5-generated-class-ccbinventoryapi-dad9d7a12754 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbInventoryApi = {}
+```
 
 **Sources:**
 
@@ -7842,10 +8232,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbInventoryOptions` { #symbol-api-lua-v5-generated-class-ccbinventoryoptions-399bd7e79810 }
 
-**Contract fields:**
+```lua
+---@class : CcbPageOptions
+local CcbInventoryOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbPageOptions"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `max_depth` | `integer` | Read-write |
+| `recursive` | `boolean` | Read-write |
+| `include_wielded` | `boolean` | Read-write |
+| `include_worn` | `boolean` | Read-write |
+| `include_carried` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -7853,11 +8253,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `max_depth` { #symbol-api-lua-v5-generated-property-ccbinventoryoptions-max-depth-1bde2c343a33 }
 
-**Contract fields:**
-
-- `name`: `"max_depth"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field max_depth integer
+max_depth = ... -- integer
+```
 
 **Sources:**
 
@@ -7865,11 +8264,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `recursive` { #symbol-api-lua-v5-generated-property-ccbinventoryoptions-recursive-84fdf0c4cf42 }
 
-**Contract fields:**
-
-- `name`: `"recursive"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field recursive boolean
+recursive = ... -- boolean
+```
 
 **Sources:**
 
@@ -7877,11 +8275,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `include_wielded` { #symbol-api-lua-v5-generated-property-ccbinventoryoptions-include-wielded-ef5aa9620afb }
 
-**Contract fields:**
-
-- `name`: `"include_wielded"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field include_wielded boolean
+include_wielded = ... -- boolean
+```
 
 **Sources:**
 
@@ -7889,11 +8286,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `include_worn` { #symbol-api-lua-v5-generated-property-ccbinventoryoptions-include-worn-4b67f10ace78 }
 
-**Contract fields:**
-
-- `name`: `"include_worn"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field include_worn boolean
+include_worn = ... -- boolean
+```
 
 **Sources:**
 
@@ -7901,11 +8297,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `include_carried` { #symbol-api-lua-v5-generated-property-ccbinventoryoptions-include-carried-319906e2a62e }
 
-**Contract fields:**
-
-- `name`: `"include_carried"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field include_carried boolean
+include_carried = ... -- boolean
+```
 
 **Sources:**
 
@@ -7913,10 +8308,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbItemContentsOptions` { #symbol-api-lua-v5-generated-class-ccbitemcontentsoptions-5b26b3b80c8f }
 
-**Contract fields:**
+```lua
+---@class : CcbPageOptions
+local CcbItemContentsOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbPageOptions"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `max_depth` | `integer` | Read-write |
+| `recursive` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -7924,11 +8326,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `max_depth` { #symbol-api-lua-v5-generated-property-ccbitemcontentsoptions-max-depth-77812c3c422c }
 
-**Contract fields:**
-
-- `name`: `"max_depth"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field max_depth integer
+max_depth = ... -- integer
+```
 
 **Sources:**
 
@@ -7936,11 +8337,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `recursive` { #symbol-api-lua-v5-generated-property-ccbitemcontentsoptions-recursive-4b6f86c15c7e }
 
-**Contract fields:**
-
-- `name`: `"recursive"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field recursive boolean
+recursive = ... -- boolean
+```
 
 **Sources:**
 
@@ -7948,10 +8348,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbItemPocketOptions` { #symbol-api-lua-v5-generated-class-ccbitempocketoptions-1861f527179d }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `": CcbPageOptions"`
+```lua
+---@class : CcbPageOptions
+local CcbItemPocketOptions = {}
+```
 
 **Sources:**
 
@@ -7959,10 +8359,27 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbItemSnapshot` { #symbol-api-lua-v5-generated-class-ccbitemsnapshot-7e1d6042a3cc }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbItemSnapshot = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `uid` | `integer` | Read-write |
+| `id` | `string` | Read-write |
+| `name` | `string` | Read-write |
+| `category_id` | `string` | Read-write |
+| `category_name` | `string` | Read-write |
+| `charges` | `integer` | Read-write |
+| `count_by_charges` | `boolean` | Read-write |
+| `weight_grams` | `number` | Read-write |
+| `volume_ml` | `number` | Read-write |
+| `contents_count` | `integer` | Read-write |
+| `worn` | `boolean` | Read-write |
+| `wielded` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -7970,11 +8387,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `uid` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-uid-815d2421bc3b }
 
-**Contract fields:**
-
-- `name`: `"uid"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field uid integer
+uid = ... -- integer
+```
 
 **Sources:**
 
@@ -7982,11 +8398,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-id-2f406404f651 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field id string
+id = ... -- string
+```
 
 **Sources:**
 
@@ -7994,11 +8409,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-name-d334c53f5c33 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -8006,11 +8420,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `category_id` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-category-id-1d43ee884303 }
 
-**Contract fields:**
-
-- `name`: `"category_id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field category_id string
+category_id = ... -- string
+```
 
 **Sources:**
 
@@ -8018,11 +8431,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `category_name` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-category-name-f395e3fdb287 }
 
-**Contract fields:**
-
-- `name`: `"category_name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field category_name string
+category_name = ... -- string
+```
 
 **Sources:**
 
@@ -8030,11 +8442,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `charges` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-charges-b346fdb6da4d }
 
-**Contract fields:**
-
-- `name`: `"charges"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field charges integer
+charges = ... -- integer
+```
 
 **Sources:**
 
@@ -8042,11 +8453,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `count_by_charges` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-count-by-charges-401d06809a9a }
 
-**Contract fields:**
-
-- `name`: `"count_by_charges"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field count_by_charges boolean
+count_by_charges = ... -- boolean
+```
 
 **Sources:**
 
@@ -8054,11 +8464,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `weight_grams` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-weight-grams-e7c3293f244c }
 
-**Contract fields:**
-
-- `name`: `"weight_grams"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field weight_grams number
+weight_grams = ... -- number
+```
 
 **Sources:**
 
@@ -8066,11 +8475,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `volume_ml` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-volume-ml-68ad0e4f0059 }
 
-**Contract fields:**
-
-- `name`: `"volume_ml"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field volume_ml number
+volume_ml = ... -- number
+```
 
 **Sources:**
 
@@ -8078,11 +8486,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `contents_count` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-contents-count-55840938f2b5 }
 
-**Contract fields:**
-
-- `name`: `"contents_count"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field contents_count integer
+contents_count = ... -- integer
+```
 
 **Sources:**
 
@@ -8090,11 +8497,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `worn` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-worn-c52a0fb12043 }
 
-**Contract fields:**
-
-- `name`: `"worn"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field worn boolean
+worn = ... -- boolean
+```
 
 **Sources:**
 
@@ -8102,11 +8508,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `wielded` { #symbol-api-lua-v5-generated-property-ccbitemsnapshot-wielded-23247a9c7724 }
 
-**Contract fields:**
-
-- `name`: `"wielded"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field wielded boolean
+wielded = ... -- boolean
+```
 
 **Sources:**
 
@@ -8114,10 +8519,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbItemUpdates` { #symbol-api-lua-v5-generated-class-ccbitemupdates-4d1a81627c32 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbItemUpdates = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `charges` | `integer` | Read-write |
+| `damage` | `integer` | Read-write |
+| `favorite` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -8125,11 +8538,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `charges` { #symbol-api-lua-v5-generated-property-ccbitemupdates-charges-438ddfbca77b }
 
-**Contract fields:**
-
-- `name`: `"charges"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field charges integer
+charges = ... -- integer
+```
 
 **Sources:**
 
@@ -8137,11 +8549,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `damage` { #symbol-api-lua-v5-generated-property-ccbitemupdates-damage-b4e86f98ea64 }
 
-**Contract fields:**
-
-- `name`: `"damage"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field damage integer
+damage = ... -- integer
+```
 
 **Sources:**
 
@@ -8149,11 +8560,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `favorite` { #symbol-api-lua-v5-generated-property-ccbitemupdates-favorite-4c524b047156 }
 
-**Contract fields:**
-
-- `name`: `"favorite"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field favorite boolean
+favorite = ... -- boolean
+```
 
 **Sources:**
 
@@ -8161,10 +8571,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbItemsApi` { #symbol-api-lua-v5-generated-class-ccbitemsapi-e7595cacba07 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbItemsApi = {}
+```
 
 **Sources:**
 
@@ -8172,10 +8582,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbLearnSpellOptions` { #symbol-api-lua-v5-generated-class-ccblearnspelloptions-babcc4f4be04 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbLearnSpellOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `force` | `boolean` | Read-write |
+| `level` | `integer` | Read-write |
+| `experience` | `integer` | Read-write |
 
 **Sources:**
 
@@ -8183,11 +8601,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `force` { #symbol-api-lua-v5-generated-property-ccblearnspelloptions-force-c7b869e8a603 }
 
-**Contract fields:**
-
-- `name`: `"force"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field force boolean
+force = ... -- boolean
+```
 
 **Sources:**
 
@@ -8195,11 +8612,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `level` { #symbol-api-lua-v5-generated-property-ccblearnspelloptions-level-43e196d9dbc0 }
 
-**Contract fields:**
-
-- `name`: `"level"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field level integer
+level = ... -- integer
+```
 
 **Sources:**
 
@@ -8207,11 +8623,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `experience` { #symbol-api-lua-v5-generated-property-ccblearnspelloptions-experience-b6de7add8f8d }
 
-**Contract fields:**
-
-- `name`: `"experience"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field experience integer
+experience = ... -- integer
+```
 
 **Sources:**
 
@@ -8219,10 +8634,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbLegacyHordeQueryOptions` { #symbol-api-lua-v5-generated-class-ccblegacyhordequeryoptions-0ddf8ec390cf }
 
-**Contract fields:**
+```lua
+---@class : CcbPageOptions
+local CcbLegacyHordeQueryOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbPageOptions"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `radius` | `integer` | Read-write |
+| `radius_z` | `integer` | Read-write |
+| `horde_only` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -8230,11 +8653,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `radius` { #symbol-api-lua-v5-generated-property-ccblegacyhordequeryoptions-radius-4163bc277b90 }
 
-**Contract fields:**
-
-- `name`: `"radius"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field radius integer
+radius = ... -- integer
+```
 
 **Sources:**
 
@@ -8242,11 +8664,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `radius_z` { #symbol-api-lua-v5-generated-property-ccblegacyhordequeryoptions-radius-z-20ec04eacb0e }
 
-**Contract fields:**
-
-- `name`: `"radius_z"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field radius_z integer
+radius_z = ... -- integer
+```
 
 **Sources:**
 
@@ -8254,11 +8675,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `horde_only` { #symbol-api-lua-v5-generated-property-ccblegacyhordequeryoptions-horde-only-b3769a983e4a }
 
-**Contract fields:**
-
-- `name`: `"horde_only"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field horde_only boolean
+horde_only = ... -- boolean
+```
 
 **Sources:**
 
@@ -8266,10 +8686,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbLegacyHordeSettings` { #symbol-api-lua-v5-generated-class-ccblegacyhordesettings-209e936a3c83 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbLegacyHordeSettings = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `population` | `integer` | Read-write |
+| `interest` | `integer` | Read-write |
+| `dying` | `boolean` | Read-write |
+| `horde` | `boolean` | Read-write |
+| `behavior` | `"none"|"city"|"roam"|"nemesis"` | Read-write |
+| `target` | `TripointCoord` | Read-write |
+| `nemesis_target` | `TripointCoord` | Read-write |
 
 **Sources:**
 
@@ -8277,11 +8709,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `population` { #symbol-api-lua-v5-generated-property-ccblegacyhordesettings-population-c69d2910e04b }
 
-**Contract fields:**
-
-- `name`: `"population"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field population integer
+population = ... -- integer
+```
 
 **Sources:**
 
@@ -8289,11 +8720,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `interest` { #symbol-api-lua-v5-generated-property-ccblegacyhordesettings-interest-8bfe24d7d144 }
 
-**Contract fields:**
-
-- `name`: `"interest"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field interest integer
+interest = ... -- integer
+```
 
 **Sources:**
 
@@ -8301,11 +8731,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `dying` { #symbol-api-lua-v5-generated-property-ccblegacyhordesettings-dying-d9c9ba752052 }
 
-**Contract fields:**
-
-- `name`: `"dying"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field dying boolean
+dying = ... -- boolean
+```
 
 **Sources:**
 
@@ -8313,11 +8742,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `horde` { #symbol-api-lua-v5-generated-property-ccblegacyhordesettings-horde-5beae7843f7b }
 
-**Contract fields:**
-
-- `name`: `"horde"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field horde boolean
+horde = ... -- boolean
+```
 
 **Sources:**
 
@@ -8325,11 +8753,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `behavior` { #symbol-api-lua-v5-generated-property-ccblegacyhordesettings-behavior-43bbf1bd0a12 }
 
-**Contract fields:**
-
-- `name`: `"behavior"`
-- `optional`: `true`
-- `declaration`: `"\"none\"|\"city\"|\"roam\"|\"nemesis\""`
+```lua
+---@field behavior "none"|"city"|"roam"|"nemesis"
+behavior = ... -- "none"|"city"|"roam"|"nemesis"
+```
 
 **Sources:**
 
@@ -8337,11 +8764,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `target` { #symbol-api-lua-v5-generated-property-ccblegacyhordesettings-target-d2f02ed31ef6 }
 
-**Contract fields:**
-
-- `name`: `"target"`
-- `optional`: `true`
-- `declaration`: `"TripointCoord"`
+```lua
+---@field target TripointCoord
+target = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -8349,11 +8775,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `nemesis_target` { #symbol-api-lua-v5-generated-property-ccblegacyhordesettings-nemesis-target-f33d79cdca3a }
 
-**Contract fields:**
-
-- `name`: `"nemesis_target"`
-- `optional`: `true`
-- `declaration`: `"TripointCoord"`
+```lua
+---@field nemesis_target TripointCoord
+nemesis_target = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -8361,10 +8786,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbLegacyHordeSpawnOptions` { #symbol-api-lua-v5-generated-class-ccblegacyhordespawnoptions-248f75e01775 }
 
-**Contract fields:**
+```lua
+---@class : CcbLegacyHordeSettings
+local CcbLegacyHordeSpawnOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbLegacyHordeSettings"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `group` | `GameId` | Read-write |
+| `position` | `TripointCoord` | Read-write |
 
 **Sources:**
 
@@ -8372,11 +8804,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `group` { #symbol-api-lua-v5-generated-property-ccblegacyhordespawnoptions-group-d4c1422e5f88 }
 
-**Contract fields:**
-
-- `name`: `"group"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field group GameId
+group = ... -- GameId
+```
 
 **Sources:**
 
@@ -8384,11 +8815,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `position` { #symbol-api-lua-v5-generated-property-ccblegacyhordespawnoptions-position-08b8a185095f }
 
-**Contract fields:**
-
-- `name`: `"position"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
+```lua
+---@field position TripointCoord
+position = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -8396,10 +8826,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbMapgenApi` { #symbol-api-lua-v5-generated-class-ccbmapgenapi-ef50aa501aeb }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbMapgenApi = {}
+```
 
 **Sources:**
 
@@ -8407,10 +8837,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbMapgenHookOptions` { #symbol-api-lua-v5-generated-class-ccbmapgenhookoptions-df029fdca804 }
 
-**Contract fields:**
+```lua
+---@class : CcbHookOptions
+local CcbMapgenHookOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbHookOptions"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `terrain_ids` | `string[]` | Read-write |
+| `z_min` | `integer` | Read-write |
+| `z_max` | `integer` | Read-write |
 
 **Sources:**
 
@@ -8418,11 +8856,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `terrain_ids` { #symbol-api-lua-v5-generated-property-ccbmapgenhookoptions-terrain-ids-1aa07da13a8f }
 
-**Contract fields:**
-
-- `name`: `"terrain_ids"`
-- `optional`: `true`
-- `declaration`: `"string[]"`
+```lua
+---@field terrain_ids string[]
+terrain_ids = ... -- string[]
+```
 
 **Sources:**
 
@@ -8430,11 +8867,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `z_min` { #symbol-api-lua-v5-generated-property-ccbmapgenhookoptions-z-min-19a59922f181 }
 
-**Contract fields:**
-
-- `name`: `"z_min"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field z_min integer
+z_min = ... -- integer
+```
 
 **Sources:**
 
@@ -8442,11 +8878,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `z_max` { #symbol-api-lua-v5-generated-property-ccbmapgenhookoptions-z-max-ac5dfccf9463 }
 
-**Contract fields:**
-
-- `name`: `"z_max"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field z_max integer
+z_max = ... -- integer
+```
 
 **Sources:**
 
@@ -8454,10 +8889,27 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbMapgenLimits` { #symbol-api-lua-v5-generated-class-ccbmapgenlimits-09a4148e1b3d }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbMapgenLimits = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `map_width` | `integer` | Read-write |
+| `map_height` | `integer` | Read-write |
+| `operations` | `integer` | Read-write |
+| `nested_generators` | `integer` | Read-write |
+| `full_generators` | `integer` | Read-write |
+| `handlers` | `integer` | Read-write |
+| `registered` | `integer` | Read-write |
+| `priority_min` | `integer` | Read-write |
+| `priority_max` | `integer` | Read-write |
+| `z_min` | `integer` | Read-write |
+| `z_max` | `integer` | Read-write |
+| `terrain_ids` | `integer` | Read-write |
 
 **Sources:**
 
@@ -8465,11 +8917,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `map_width` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-map-width-42f781d25884 }
 
-**Contract fields:**
-
-- `name`: `"map_width"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field map_width integer
+map_width = ... -- integer
+```
 
 **Sources:**
 
@@ -8477,11 +8928,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `map_height` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-map-height-47270329c8df }
 
-**Contract fields:**
-
-- `name`: `"map_height"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field map_height integer
+map_height = ... -- integer
+```
 
 **Sources:**
 
@@ -8489,11 +8939,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `operations` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-operations-b884643bbb4a }
 
-**Contract fields:**
-
-- `name`: `"operations"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field operations integer
+operations = ... -- integer
+```
 
 **Sources:**
 
@@ -8501,11 +8950,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `nested_generators` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-nested-generators-d41330610962 }
 
-**Contract fields:**
-
-- `name`: `"nested_generators"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field nested_generators integer
+nested_generators = ... -- integer
+```
 
 **Sources:**
 
@@ -8513,11 +8961,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `full_generators` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-full-generators-d403d7477e2e }
 
-**Contract fields:**
-
-- `name`: `"full_generators"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field full_generators integer
+full_generators = ... -- integer
+```
 
 **Sources:**
 
@@ -8525,11 +8972,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `handlers` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-handlers-ab2b1127f857 }
 
-**Contract fields:**
-
-- `name`: `"handlers"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field handlers integer
+handlers = ... -- integer
+```
 
 **Sources:**
 
@@ -8537,11 +8983,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `registered` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-registered-13a2eade9cf2 }
 
-**Contract fields:**
-
-- `name`: `"registered"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field registered integer
+registered = ... -- integer
+```
 
 **Sources:**
 
@@ -8549,11 +8994,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `priority_min` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-priority-min-b7492ae26a1d }
 
-**Contract fields:**
-
-- `name`: `"priority_min"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field priority_min integer
+priority_min = ... -- integer
+```
 
 **Sources:**
 
@@ -8561,11 +9005,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `priority_max` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-priority-max-17cf5c2284a5 }
 
-**Contract fields:**
-
-- `name`: `"priority_max"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field priority_max integer
+priority_max = ... -- integer
+```
 
 **Sources:**
 
@@ -8573,11 +9016,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `z_min` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-z-min-52ee9658b567 }
 
-**Contract fields:**
-
-- `name`: `"z_min"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field z_min integer
+z_min = ... -- integer
+```
 
 **Sources:**
 
@@ -8585,11 +9027,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `z_max` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-z-max-41db7bca80be }
 
-**Contract fields:**
-
-- `name`: `"z_max"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field z_max integer
+z_max = ... -- integer
+```
 
 **Sources:**
 
@@ -8597,11 +9038,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `terrain_ids` { #symbol-api-lua-v5-generated-property-ccbmapgenlimits-terrain-ids-dafd29863d14 }
 
-**Contract fields:**
-
-- `name`: `"terrain_ids"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field terrain_ids integer
+terrain_ids = ... -- integer
+```
 
 **Sources:**
 
@@ -8609,10 +9049,33 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbMartialArtDefinition` { #symbol-api-lua-v5-generated-class-ccbmartialartdefinition-313d3523a90c }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbMartialArtDefinition = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `name` | `string` | Read-write |
+| `description` | `string` | Read-write |
+| `priority` | `integer` | Read-write |
+| `teachable` | `boolean` | Read-write |
+| `learn_difficulty` | `integer` | Read-write |
+| `arm_block` | `integer` | Read-write |
+| `leg_block` | `integer` | Read-write |
+| `nonstandard_block` | `integer` | Read-write |
+| `primary_skill` | `GameId` | Read-write |
+| `strictly_unarmed` | `boolean` | Read-write |
+| `strictly_melee` | `boolean` | Read-write |
+| `allow_all_weapons` | `boolean` | Read-write |
+| `force_unarmed` | `boolean` | Read-write |
+| `prevent_weapon_blocking` | `boolean` | Read-write |
+| `techniques` | `table` | Read-write |
+| `weapons` | `table` | Read-write |
+| `weapon_categories` | `table` | Read-write |
 
 **Sources:**
 
@@ -8620,11 +9083,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-id-74ccfc9e448b }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -8632,11 +9094,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-name-5619974cd93a }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -8644,11 +9105,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-description-49671e2a59b5 }
 
-**Contract fields:**
-
-- `name`: `"description"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field description string
+description = ... -- string
+```
 
 **Sources:**
 
@@ -8656,11 +9116,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `priority` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-priority-16da39090b82 }
 
-**Contract fields:**
-
-- `name`: `"priority"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field priority integer
+priority = ... -- integer
+```
 
 **Sources:**
 
@@ -8668,11 +9127,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `teachable` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-teachable-1e1e44b53f12 }
 
-**Contract fields:**
-
-- `name`: `"teachable"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field teachable boolean
+teachable = ... -- boolean
+```
 
 **Sources:**
 
@@ -8680,11 +9138,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `learn_difficulty` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-learn-difficulty-2d008ac5040e }
 
-**Contract fields:**
-
-- `name`: `"learn_difficulty"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field learn_difficulty integer
+learn_difficulty = ... -- integer
+```
 
 **Sources:**
 
@@ -8692,11 +9149,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `arm_block` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-arm-block-0460c7773839 }
 
-**Contract fields:**
-
-- `name`: `"arm_block"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field arm_block integer
+arm_block = ... -- integer
+```
 
 **Sources:**
 
@@ -8704,11 +9160,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `leg_block` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-leg-block-7d46cbeb1737 }
 
-**Contract fields:**
-
-- `name`: `"leg_block"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field leg_block integer
+leg_block = ... -- integer
+```
 
 **Sources:**
 
@@ -8716,11 +9171,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `nonstandard_block` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-nonstandard-block-0c62b635275b }
 
-**Contract fields:**
-
-- `name`: `"nonstandard_block"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field nonstandard_block integer
+nonstandard_block = ... -- integer
+```
 
 **Sources:**
 
@@ -8728,11 +9182,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `primary_skill` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-primary-skill-e38eb08e96fe }
 
-**Contract fields:**
-
-- `name`: `"primary_skill"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field primary_skill GameId
+primary_skill = ... -- GameId
+```
 
 **Sources:**
 
@@ -8740,11 +9193,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `strictly_unarmed` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-strictly-unarmed-d4b7396588cd }
 
-**Contract fields:**
-
-- `name`: `"strictly_unarmed"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field strictly_unarmed boolean
+strictly_unarmed = ... -- boolean
+```
 
 **Sources:**
 
@@ -8752,11 +9204,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `strictly_melee` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-strictly-melee-ad05fc7fec13 }
 
-**Contract fields:**
-
-- `name`: `"strictly_melee"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field strictly_melee boolean
+strictly_melee = ... -- boolean
+```
 
 **Sources:**
 
@@ -8764,11 +9215,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `allow_all_weapons` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-allow-all-weapons-205dd4b35daa }
 
-**Contract fields:**
-
-- `name`: `"allow_all_weapons"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field allow_all_weapons boolean
+allow_all_weapons = ... -- boolean
+```
 
 **Sources:**
 
@@ -8776,11 +9226,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `force_unarmed` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-force-unarmed-e22e2e96f633 }
 
-**Contract fields:**
-
-- `name`: `"force_unarmed"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field force_unarmed boolean
+force_unarmed = ... -- boolean
+```
 
 **Sources:**
 
@@ -8788,11 +9237,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `prevent_weapon_blocking` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-prevent-weapon-blocking-06ca1be8e321 }
 
-**Contract fields:**
-
-- `name`: `"prevent_weapon_blocking"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field prevent_weapon_blocking boolean
+prevent_weapon_blocking = ... -- boolean
+```
 
 **Sources:**
 
@@ -8800,11 +9248,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `techniques` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-techniques-ec1b0756c1d6 }
 
-**Contract fields:**
-
-- `name`: `"techniques"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field techniques table
+techniques = ... -- table
+```
 
 **Sources:**
 
@@ -8812,11 +9259,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `weapons` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-weapons-5ff5cec11b88 }
 
-**Contract fields:**
-
-- `name`: `"weapons"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field weapons table
+weapons = ... -- table
+```
 
 **Sources:**
 
@@ -8824,11 +9270,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `weapon_categories` { #symbol-api-lua-v5-generated-property-ccbmartialartdefinition-weapon-categories-b703fffccab0 }
 
-**Contract fields:**
-
-- `name`: `"weapon_categories"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field weapon_categories table
+weapon_categories = ... -- table
+```
 
 **Sources:**
 
@@ -8836,10 +9281,16 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbMartialArtListOptions` { #symbol-api-lua-v5-generated-class-ccbmartialartlistoptions-d3e6148f51e8 }
 
-**Contract fields:**
+```lua
+---@class : CcbPageOptions
+local CcbMartialArtListOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbPageOptions"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `teachable_only` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -8847,11 +9298,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `teachable_only` { #symbol-api-lua-v5-generated-property-ccbmartialartlistoptions-teachable-only-a4b5958532e2 }
 
-**Contract fields:**
-
-- `name`: `"teachable_only"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field teachable_only boolean
+teachable_only = ... -- boolean
+```
 
 **Sources:**
 
@@ -8859,10 +9309,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbMartialArtState` { #symbol-api-lua-v5-generated-class-ccbmartialartstate-0723feece051 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbMartialArtState = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `name` | `string` | Read-write |
+| `known` | `boolean` | Read-write |
+| `selected` | `boolean` | Read-write |
+| `teachable` | `boolean` | Read-write |
+| `strictly_unarmed` | `boolean` | Read-write |
+| `strictly_melee` | `boolean` | Read-write |
+| `allow_all_weapons` | `boolean` | Read-write |
+| `force_unarmed` | `boolean` | Read-write |
+| `keep_hands_free` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -8870,11 +9335,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbmartialartstate-id-01d474375838 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -8882,11 +9346,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbmartialartstate-name-7b05c4ab37e9 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -8894,11 +9357,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `known` { #symbol-api-lua-v5-generated-property-ccbmartialartstate-known-ec37e735bdd0 }
 
-**Contract fields:**
-
-- `name`: `"known"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field known boolean
+known = ... -- boolean
+```
 
 **Sources:**
 
@@ -8906,11 +9368,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `selected` { #symbol-api-lua-v5-generated-property-ccbmartialartstate-selected-5e30d06eb315 }
 
-**Contract fields:**
-
-- `name`: `"selected"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field selected boolean
+selected = ... -- boolean
+```
 
 **Sources:**
 
@@ -8918,11 +9379,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `teachable` { #symbol-api-lua-v5-generated-property-ccbmartialartstate-teachable-a1acb2d67a90 }
 
-**Contract fields:**
-
-- `name`: `"teachable"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field teachable boolean
+teachable = ... -- boolean
+```
 
 **Sources:**
 
@@ -8930,11 +9390,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `strictly_unarmed` { #symbol-api-lua-v5-generated-property-ccbmartialartstate-strictly-unarmed-24f63f62d599 }
 
-**Contract fields:**
-
-- `name`: `"strictly_unarmed"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field strictly_unarmed boolean
+strictly_unarmed = ... -- boolean
+```
 
 **Sources:**
 
@@ -8942,11 +9401,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `strictly_melee` { #symbol-api-lua-v5-generated-property-ccbmartialartstate-strictly-melee-8b0de728f2f1 }
 
-**Contract fields:**
-
-- `name`: `"strictly_melee"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field strictly_melee boolean
+strictly_melee = ... -- boolean
+```
 
 **Sources:**
 
@@ -8954,11 +9412,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `allow_all_weapons` { #symbol-api-lua-v5-generated-property-ccbmartialartstate-allow-all-weapons-710bbee3a9dc }
 
-**Contract fields:**
-
-- `name`: `"allow_all_weapons"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field allow_all_weapons boolean
+allow_all_weapons = ... -- boolean
+```
 
 **Sources:**
 
@@ -8966,11 +9423,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `force_unarmed` { #symbol-api-lua-v5-generated-property-ccbmartialartstate-force-unarmed-db615e1cd317 }
 
-**Contract fields:**
-
-- `name`: `"force_unarmed"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field force_unarmed boolean
+force_unarmed = ... -- boolean
+```
 
 **Sources:**
 
@@ -8978,11 +9434,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `keep_hands_free` { #symbol-api-lua-v5-generated-property-ccbmartialartstate-keep-hands-free-0361426cc5c9 }
 
-**Contract fields:**
-
-- `name`: `"keep_hands_free"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field keep_hands_free boolean
+keep_hands_free = ... -- boolean
+```
 
 **Sources:**
 
@@ -8990,10 +9445,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbMartialArtsApi` { #symbol-api-lua-v5-generated-class-ccbmartialartsapi-ef54d7525f95 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbMartialArtsApi = {}
+```
 
 **Sources:**
 
@@ -9001,10 +9456,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbMessageEntry` { #symbol-api-lua-v5-generated-class-ccbmessageentry-2edc77492ca1 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbMessageEntry = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `time` | `string` | Read-write |
+| `text` | `string` | Read-write |
 
 **Sources:**
 
@@ -9012,11 +9474,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `time` { #symbol-api-lua-v5-generated-property-ccbmessageentry-time-6cd12c672784 }
 
-**Contract fields:**
-
-- `name`: `"time"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field time string
+time = ... -- string
+```
 
 **Sources:**
 
@@ -9024,11 +9485,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `text` { #symbol-api-lua-v5-generated-property-ccbmessageentry-text-f73eb4e97c48 }
 
-**Contract fields:**
-
-- `name`: `"text"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field text string
+text = ... -- string
+```
 
 **Sources:**
 
@@ -9036,10 +9496,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbMessagePage` { #symbol-api-lua-v5-generated-class-ccbmessagepage-f6c812e9d129 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbMessagePage = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `items` | `CcbMessageEntry[]` | Read-write |
+| `total` | `integer` | Read-write |
+| `returned` | `integer` | Read-write |
+| `limit` | `integer` | Read-write |
+| `truncated` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -9047,11 +9517,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `items` { #symbol-api-lua-v5-generated-property-ccbmessagepage-items-5af1613fa7c7 }
 
-**Contract fields:**
-
-- `name`: `"items"`
-- `optional`: `false`
-- `declaration`: `"CcbMessageEntry[]"`
+```lua
+---@field items CcbMessageEntry[]
+items = ... -- CcbMessageEntry[]
+```
 
 **Sources:**
 
@@ -9059,11 +9528,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `total` { #symbol-api-lua-v5-generated-property-ccbmessagepage-total-2039e81b2e9d }
 
-**Contract fields:**
-
-- `name`: `"total"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field total integer
+total = ... -- integer
+```
 
 **Sources:**
 
@@ -9071,11 +9539,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `returned` { #symbol-api-lua-v5-generated-property-ccbmessagepage-returned-d45b1ddcc7b5 }
 
-**Contract fields:**
-
-- `name`: `"returned"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field returned integer
+returned = ... -- integer
+```
 
 **Sources:**
 
@@ -9083,11 +9550,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbmessagepage-limit-79e9578a3be1 }
 
-**Contract fields:**
-
-- `name`: `"limit"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field limit integer
+limit = ... -- integer
+```
 
 **Sources:**
 
@@ -9095,11 +9561,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `truncated` { #symbol-api-lua-v5-generated-property-ccbmessagepage-truncated-2af61f885152 }
 
-**Contract fields:**
-
-- `name`: `"truncated"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field truncated boolean
+truncated = ... -- boolean
+```
 
 **Sources:**
 
@@ -9107,10 +9572,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbMessagesApi` { #symbol-api-lua-v5-generated-class-ccbmessagesapi-f50689b92b94 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbMessagesApi = {}
+```
 
 **Sources:**
 
@@ -9118,10 +9583,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbMissionListOptions` { #symbol-api-lua-v5-generated-class-ccbmissionlistoptions-ed9a2f233c60 }
 
-**Contract fields:**
+```lua
+---@class : CcbPageOptions
+local CcbMissionListOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbPageOptions"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `scope` | `"all"|"avatar"` | Read-write |
+| `status` | `"all"|"reserved"|"active"|"success"|"failure"` | Read-write |
 
 **Sources:**
 
@@ -9129,11 +9601,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `scope` { #symbol-api-lua-v5-generated-property-ccbmissionlistoptions-scope-77f8eb1a89be }
 
-**Contract fields:**
-
-- `name`: `"scope"`
-- `optional`: `true`
-- `declaration`: `"\"all\"|\"avatar\""`
+```lua
+---@field scope "all"|"avatar"
+scope = ... -- "all"|"avatar"
+```
 
 **Sources:**
 
@@ -9141,11 +9612,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `status` { #symbol-api-lua-v5-generated-property-ccbmissionlistoptions-status-28b9b4fa5df6 }
 
-**Contract fields:**
-
-- `name`: `"status"`
-- `optional`: `true`
-- `declaration`: `"\"all\"|\"reserved\"|\"active\"|\"success\"|\"failure\""`
+```lua
+---@field status "all"|"reserved"|"active"|"success"|"failure"
+status = ... -- "all"|"reserved"|"active"|"success"|"failure"
+```
 
 **Sources:**
 
@@ -9153,10 +9623,27 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbMissionSnapshot` { #symbol-api-lua-v5-generated-class-ccbmissionsnapshot-020a88e83304 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbMissionSnapshot = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `uid` | `integer` | Read-write |
+| `id` | `string` | Read-write |
+| `name` | `string` | Read-write |
+| `description` | `string` | Read-write |
+| `status` | `'"active"'|'"completed"'|'"failed"'` | Read-write |
+| `selected` | `boolean` | Read-write |
+| `has_deadline` | `boolean` | Read-write |
+| `deadline_turn` | `integer` | Read-write |
+| `has_target` | `boolean` | Read-write |
+| `target_x` | `integer` | Read-write |
+| `target_y` | `integer` | Read-write |
+| `target_z` | `integer` | Read-write |
 
 **Sources:**
 
@@ -9164,11 +9651,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `uid` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-uid-b42b15eab906 }
 
-**Contract fields:**
-
-- `name`: `"uid"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field uid integer
+uid = ... -- integer
+```
 
 **Sources:**
 
@@ -9176,11 +9662,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-id-ca9fbf9e190c }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field id string
+id = ... -- string
+```
 
 **Sources:**
 
@@ -9188,11 +9673,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-name-91df25f8d8a5 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -9200,11 +9684,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-description-c9ba10fb0bfb }
 
-**Contract fields:**
-
-- `name`: `"description"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field description string
+description = ... -- string
+```
 
 **Sources:**
 
@@ -9212,11 +9695,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `status` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-status-d2be3372911a }
 
-**Contract fields:**
-
-- `name`: `"status"`
-- `optional`: `false`
-- `declaration`: `"'\"active\"'|'\"completed\"'|'\"failed\"'"`
+```lua
+---@field status '"active"'|'"completed"'|'"failed"'
+status = ... -- '"active"'|'"completed"'|'"failed"'
+```
 
 **Sources:**
 
@@ -9224,11 +9706,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `selected` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-selected-1ba19ca5571c }
 
-**Contract fields:**
-
-- `name`: `"selected"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field selected boolean
+selected = ... -- boolean
+```
 
 **Sources:**
 
@@ -9236,11 +9717,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `has_deadline` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-has-deadline-6f652bbabec0 }
 
-**Contract fields:**
-
-- `name`: `"has_deadline"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field has_deadline boolean
+has_deadline = ... -- boolean
+```
 
 **Sources:**
 
@@ -9248,11 +9728,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `deadline_turn` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-deadline-turn-b4121cfae74a }
 
-**Contract fields:**
-
-- `name`: `"deadline_turn"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field deadline_turn integer
+deadline_turn = ... -- integer
+```
 
 **Sources:**
 
@@ -9260,11 +9739,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `has_target` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-has-target-2a3de34f717a }
 
-**Contract fields:**
-
-- `name`: `"has_target"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field has_target boolean
+has_target = ... -- boolean
+```
 
 **Sources:**
 
@@ -9272,11 +9750,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `target_x` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-target-x-349e281522a1 }
 
-**Contract fields:**
-
-- `name`: `"target_x"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field target_x integer
+target_x = ... -- integer
+```
 
 **Sources:**
 
@@ -9284,11 +9761,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `target_y` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-target-y-bddba769ea10 }
 
-**Contract fields:**
-
-- `name`: `"target_y"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field target_y integer
+target_y = ... -- integer
+```
 
 **Sources:**
 
@@ -9296,11 +9772,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `target_z` { #symbol-api-lua-v5-generated-property-ccbmissionsnapshot-target-z-a9fed48d6fff }
 
-**Contract fields:**
-
-- `name`: `"target_z"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field target_z integer
+target_z = ... -- integer
+```
 
 **Sources:**
 
@@ -9308,10 +9783,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbMissionsApi` { #symbol-api-lua-v5-generated-class-ccbmissionsapi-725828335e3a }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbMissionsApi = {}
+```
 
 **Sources:**
 
@@ -9319,10 +9794,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbModulesApi` { #symbol-api-lua-v5-generated-class-ccbmodulesapi-fa2ea836bb59 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbModulesApi = {}
+```
 
 **Sources:**
 
@@ -9330,10 +9805,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbMovementMode` { #symbol-api-lua-v5-generated-class-ccbmovementmode-8c41be6616e0 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbMovementMode = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `string` | Read-write |
+| `name` | `string` | Read-write |
+| `available` | `boolean` | Read-write |
+| `current` | `boolean` | Read-write |
+| `desired` | `boolean` | Read-write |
+| `switch_moves` | `integer` | Read-write |
+| `switch_seconds` | `number` | Read-write |
 
 **Sources:**
 
@@ -9341,11 +9828,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbmovementmode-id-0d2c288f2ff0 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field id string
+id = ... -- string
+```
 
 **Sources:**
 
@@ -9353,11 +9839,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbmovementmode-name-a9a2fad21040 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -9365,11 +9850,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `available` { #symbol-api-lua-v5-generated-property-ccbmovementmode-available-988f49a3959a }
 
-**Contract fields:**
-
-- `name`: `"available"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field available boolean
+available = ... -- boolean
+```
 
 **Sources:**
 
@@ -9377,11 +9861,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `current` { #symbol-api-lua-v5-generated-property-ccbmovementmode-current-d6cf88622717 }
 
-**Contract fields:**
-
-- `name`: `"current"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field current boolean
+current = ... -- boolean
+```
 
 **Sources:**
 
@@ -9389,11 +9872,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `desired` { #symbol-api-lua-v5-generated-property-ccbmovementmode-desired-9e91df544d55 }
 
-**Contract fields:**
-
-- `name`: `"desired"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field desired boolean
+desired = ... -- boolean
+```
 
 **Sources:**
 
@@ -9401,11 +9883,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `switch_moves` { #symbol-api-lua-v5-generated-property-ccbmovementmode-switch-moves-39a1d8681150 }
 
-**Contract fields:**
-
-- `name`: `"switch_moves"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field switch_moves integer
+switch_moves = ... -- integer
+```
 
 **Sources:**
 
@@ -9413,11 +9894,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `switch_seconds` { #symbol-api-lua-v5-generated-property-ccbmovementmode-switch-seconds-6c2647974b0b }
 
-**Contract fields:**
-
-- `name`: `"switch_seconds"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field switch_seconds number
+switch_seconds = ... -- number
+```
 
 **Sources:**
 
@@ -9425,10 +9905,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbMovementModesSnapshot` { #symbol-api-lua-v5-generated-class-ccbmovementmodessnapshot-a7fe51fe196e }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbMovementModesSnapshot = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `items` | `CcbMovementMode[]` | Read-write |
+| `count` | `integer` | Read-write |
+| `current_id` | `string` | Read-write |
+| `desired_id` | `string` | Read-write |
 
 **Sources:**
 
@@ -9436,11 +9925,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `items` { #symbol-api-lua-v5-generated-property-ccbmovementmodessnapshot-items-3f787abc6cc4 }
 
-**Contract fields:**
-
-- `name`: `"items"`
-- `optional`: `false`
-- `declaration`: `"CcbMovementMode[]"`
+```lua
+---@field items CcbMovementMode[]
+items = ... -- CcbMovementMode[]
+```
 
 **Sources:**
 
@@ -9448,11 +9936,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `count` { #symbol-api-lua-v5-generated-property-ccbmovementmodessnapshot-count-0a931385f91b }
 
-**Contract fields:**
-
-- `name`: `"count"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field count integer
+count = ... -- integer
+```
 
 **Sources:**
 
@@ -9460,11 +9947,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `current_id` { #symbol-api-lua-v5-generated-property-ccbmovementmodessnapshot-current-id-77a0cf3ab22e }
 
-**Contract fields:**
-
-- `name`: `"current_id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field current_id string
+current_id = ... -- string
+```
 
 **Sources:**
 
@@ -9472,11 +9958,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `desired_id` { #symbol-api-lua-v5-generated-property-ccbmovementmodessnapshot-desired-id-36356ba6ea81 }
 
-**Contract fields:**
-
-- `name`: `"desired_id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field desired_id string
+desired_id = ... -- string
+```
 
 **Sources:**
 
@@ -9484,10 +9969,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbMutationListOptions` { #symbol-api-lua-v5-generated-class-ccbmutationlistoptions-978bc1d9a950 }
 
-**Contract fields:**
+```lua
+---@class : CcbPageOptions
+local CcbMutationListOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbPageOptions"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `include_hidden` | `boolean` | Read-write |
+| `include_enchantment` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -9495,11 +9987,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `include_hidden` { #symbol-api-lua-v5-generated-property-ccbmutationlistoptions-include-hidden-1ea66daf8263 }
 
-**Contract fields:**
-
-- `name`: `"include_hidden"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field include_hidden boolean
+include_hidden = ... -- boolean
+```
 
 **Sources:**
 
@@ -9507,11 +9998,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `include_enchantment` { #symbol-api-lua-v5-generated-property-ccbmutationlistoptions-include-enchantment-ac4b1c1a1c96 }
 
-**Contract fields:**
-
-- `name`: `"include_enchantment"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field include_enchantment boolean
+include_enchantment = ... -- boolean
+```
 
 **Sources:**
 
@@ -9519,10 +10009,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbMutationSnapshot` { #symbol-api-lua-v5-generated-class-ccbmutationsnapshot-e0f0af6ff198 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbMutationSnapshot = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `string` | Read-write |
+| `name` | `string` | Read-write |
+| `description` | `string` | Read-write |
+| `active` | `boolean` | Read-write |
+| `activatable` | `boolean` | Read-write |
+| `base_trait` | `boolean` | Read-write |
+| `purifiable` | `boolean` | Read-write |
+| `threshold` | `boolean` | Read-write |
+| `points` | `integer` | Read-write |
 
 **Sources:**
 
@@ -9530,11 +10034,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbmutationsnapshot-id-e366b6b5dd2c }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field id string
+id = ... -- string
+```
 
 **Sources:**
 
@@ -9542,11 +10045,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbmutationsnapshot-name-998ca30aced0 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -9554,11 +10056,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbmutationsnapshot-description-ef9031d298f2 }
 
-**Contract fields:**
-
-- `name`: `"description"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field description string
+description = ... -- string
+```
 
 **Sources:**
 
@@ -9566,11 +10067,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `active` { #symbol-api-lua-v5-generated-property-ccbmutationsnapshot-active-34424c4eddea }
 
-**Contract fields:**
-
-- `name`: `"active"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field active boolean
+active = ... -- boolean
+```
 
 **Sources:**
 
@@ -9578,11 +10078,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `activatable` { #symbol-api-lua-v5-generated-property-ccbmutationsnapshot-activatable-5a14709e1ddf }
 
-**Contract fields:**
-
-- `name`: `"activatable"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field activatable boolean
+activatable = ... -- boolean
+```
 
 **Sources:**
 
@@ -9590,11 +10089,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `base_trait` { #symbol-api-lua-v5-generated-property-ccbmutationsnapshot-base-trait-7721d580163a }
 
-**Contract fields:**
-
-- `name`: `"base_trait"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field base_trait boolean
+base_trait = ... -- boolean
+```
 
 **Sources:**
 
@@ -9602,11 +10100,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `purifiable` { #symbol-api-lua-v5-generated-property-ccbmutationsnapshot-purifiable-23415c48cc2e }
 
-**Contract fields:**
-
-- `name`: `"purifiable"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field purifiable boolean
+purifiable = ... -- boolean
+```
 
 **Sources:**
 
@@ -9614,11 +10111,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `threshold` { #symbol-api-lua-v5-generated-property-ccbmutationsnapshot-threshold-c25916da9fd1 }
 
-**Contract fields:**
-
-- `name`: `"threshold"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field threshold boolean
+threshold = ... -- boolean
+```
 
 **Sources:**
 
@@ -9626,11 +10122,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `points` { #symbol-api-lua-v5-generated-property-ccbmutationsnapshot-points-61f46928cdf2 }
 
-**Contract fields:**
-
-- `name`: `"points"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field points integer
+points = ... -- integer
+```
 
 **Sources:**
 
@@ -9638,10 +10133,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbMutationsApi` { #symbol-api-lua-v5-generated-class-ccbmutationsapi-27d1cc6b3189 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbMutationsApi = {}
+```
 
 **Sources:**
 
@@ -9649,10 +10144,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbNativeEventDescription` { #symbol-api-lua-v5-generated-class-ccbnativeeventdescription-114bc89b39e9 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbNativeEventDescription = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `type` | `string` | Read-write |
+| `fields` | `CcbNativeEventField[]` | Read-write |
+| `subscribable` | `true` | Read-write |
+| `emittable` | `true` | Read-write |
 
 **Sources:**
 
@@ -9660,11 +10164,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbnativeeventdescription-type-da4119353858 }
 
-**Contract fields:**
-
-- `name`: `"type"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field type string
+type = ... -- string
+```
 
 **Sources:**
 
@@ -9672,11 +10175,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `fields` { #symbol-api-lua-v5-generated-property-ccbnativeeventdescription-fields-bacee18cd21a }
 
-**Contract fields:**
-
-- `name`: `"fields"`
-- `optional`: `false`
-- `declaration`: `"CcbNativeEventField[]"`
+```lua
+---@field fields CcbNativeEventField[]
+fields = ... -- CcbNativeEventField[]
+```
 
 **Sources:**
 
@@ -9684,11 +10186,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `subscribable` { #symbol-api-lua-v5-generated-property-ccbnativeeventdescription-subscribable-c29f0cc408ac }
 
-**Contract fields:**
-
-- `name`: `"subscribable"`
-- `optional`: `false`
-- `declaration`: `"true"`
+```lua
+---@field subscribable true
+subscribable = ... -- true
+```
 
 **Sources:**
 
@@ -9696,11 +10197,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `emittable` { #symbol-api-lua-v5-generated-property-ccbnativeeventdescription-emittable-9482cbf64ee6 }
 
-**Contract fields:**
-
-- `name`: `"emittable"`
-- `optional`: `false`
-- `declaration`: `"true"`
+```lua
+---@field emittable true
+emittable = ... -- true
+```
 
 **Sources:**
 
@@ -9708,10 +10208,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbNativeEventField` { #symbol-api-lua-v5-generated-class-ccbnativeeventfield-e3dd1af8ad37 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbNativeEventField = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `name` | `string` | Read-write |
+| `type` | `string Native cata_variant type.` | Read-write |
+| `lua_type` | `"boolean"|"integer"|"string"|"nil"` | Read-write |
 
 **Sources:**
 
@@ -9719,11 +10227,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbnativeeventfield-name-4bae31642786 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -9731,11 +10238,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbnativeeventfield-type-0647d71aec34 }
 
-**Contract fields:**
-
-- `name`: `"type"`
-- `optional`: `false`
-- `declaration`: `"string Native cata_variant type."`
+```lua
+---@field type string Native cata_variant type.
+type = ... -- string Native cata_variant type.
+```
 
 **Sources:**
 
@@ -9743,11 +10249,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `lua_type` { #symbol-api-lua-v5-generated-property-ccbnativeeventfield-lua-type-514a5b49fb5b }
 
-**Contract fields:**
-
-- `name`: `"lua_type"`
-- `optional`: `false`
-- `declaration`: `"\"boolean\"|\"integer\"|\"string\"|\"nil\""`
+```lua
+---@field lua_type "boolean"|"integer"|"string"|"nil"
+lua_type = ... -- "boolean"|"integer"|"string"|"nil"
+```
 
 **Sources:**
 
@@ -9755,10 +10260,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbNativeEventsApi` { #symbol-api-lua-v5-generated-class-ccbnativeeventsapi-bfa632c69756 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbNativeEventsApi = {}
+```
 
 **Sources:**
 
@@ -9766,10 +10271,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbNativeScore` { #symbol-api-lua-v5-generated-class-ccbnativescore-5da2a88846dc }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbNativeScore = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `description` | `string` | Read-write |
+| `value` | `CcbStatisticVariant` | Read-write |
+| `valid` | `boolean` | Read-write |
+| `loaded` | `boolean` | Read-write |
+| `sources` | `table` | Read-write |
 
 **Sources:**
 
@@ -9777,11 +10293,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbnativescore-id-0f53bb751999 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -9789,11 +10304,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbnativescore-description-d278b785c5b3 }
 
-**Contract fields:**
-
-- `name`: `"description"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field description string
+description = ... -- string
+```
 
 **Sources:**
 
@@ -9801,11 +10315,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `value` { #symbol-api-lua-v5-generated-property-ccbnativescore-value-81434698605a }
 
-**Contract fields:**
-
-- `name`: `"value"`
-- `optional`: `false`
-- `declaration`: `"CcbStatisticVariant"`
+```lua
+---@field value CcbStatisticVariant
+value = ... -- CcbStatisticVariant
+```
 
 **Sources:**
 
@@ -9813,11 +10326,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `valid` { #symbol-api-lua-v5-generated-property-ccbnativescore-valid-174e28c38963 }
 
-**Contract fields:**
-
-- `name`: `"valid"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field valid boolean
+valid = ... -- boolean
+```
 
 **Sources:**
 
@@ -9825,11 +10337,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `loaded` { #symbol-api-lua-v5-generated-property-ccbnativescore-loaded-657dcf529a4b }
 
-**Contract fields:**
-
-- `name`: `"loaded"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field loaded boolean
+loaded = ... -- boolean
+```
 
 **Sources:**
 
@@ -9837,11 +10348,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sources` { #symbol-api-lua-v5-generated-property-ccbnativescore-sources-f5a705017930 }
 
-**Contract fields:**
-
-- `name`: `"sources"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field sources table
+sources = ... -- table
+```
 
 **Sources:**
 
@@ -9849,10 +10359,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbNativeSkillDefinition` { #symbol-api-lua-v5-generated-class-ccbnativeskilldefinition-bb42f120d59a }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbNativeSkillDefinition = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `name` | `string` | Read-write |
+| `description` | `string` | Read-write |
+| `display_type` | `GameId` | Read-write |
+| `sort_rank` | `integer` | Read-write |
+| `teachable` | `boolean` | Read-write |
+| `obsolete` | `boolean` | Read-write |
+| `combat` | `boolean` | Read-write |
+| `contextual` | `boolean` | Read-write |
+| `consumes_focus` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -9860,11 +10385,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbnativeskilldefinition-id-875d5147368a }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -9872,11 +10396,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbnativeskilldefinition-name-791a6fa43e01 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -9884,11 +10407,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbnativeskilldefinition-description-21859b430d7f }
 
-**Contract fields:**
-
-- `name`: `"description"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field description string
+description = ... -- string
+```
 
 **Sources:**
 
@@ -9896,11 +10418,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `display_type` { #symbol-api-lua-v5-generated-property-ccbnativeskilldefinition-display-type-1e90f1e0bdfd }
 
-**Contract fields:**
-
-- `name`: `"display_type"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field display_type GameId
+display_type = ... -- GameId
+```
 
 **Sources:**
 
@@ -9908,11 +10429,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sort_rank` { #symbol-api-lua-v5-generated-property-ccbnativeskilldefinition-sort-rank-31857c7e6325 }
 
-**Contract fields:**
-
-- `name`: `"sort_rank"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field sort_rank integer
+sort_rank = ... -- integer
+```
 
 **Sources:**
 
@@ -9920,11 +10440,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `teachable` { #symbol-api-lua-v5-generated-property-ccbnativeskilldefinition-teachable-121784c6600c }
 
-**Contract fields:**
-
-- `name`: `"teachable"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field teachable boolean
+teachable = ... -- boolean
+```
 
 **Sources:**
 
@@ -9932,11 +10451,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `obsolete` { #symbol-api-lua-v5-generated-property-ccbnativeskilldefinition-obsolete-6be5cabcbb45 }
 
-**Contract fields:**
-
-- `name`: `"obsolete"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field obsolete boolean
+obsolete = ... -- boolean
+```
 
 **Sources:**
 
@@ -9944,11 +10462,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `combat` { #symbol-api-lua-v5-generated-property-ccbnativeskilldefinition-combat-99c3cd94d45c }
 
-**Contract fields:**
-
-- `name`: `"combat"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field combat boolean
+combat = ... -- boolean
+```
 
 **Sources:**
 
@@ -9956,11 +10473,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `contextual` { #symbol-api-lua-v5-generated-property-ccbnativeskilldefinition-contextual-9a22ac3f969d }
 
-**Contract fields:**
-
-- `name`: `"contextual"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field contextual boolean
+contextual = ... -- boolean
+```
 
 **Sources:**
 
@@ -9968,11 +10484,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `consumes_focus` { #symbol-api-lua-v5-generated-property-ccbnativeskilldefinition-consumes-focus-eccc8072543f }
 
-**Contract fields:**
-
-- `name`: `"consumes_focus"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field consumes_focus boolean
+consumes_focus = ... -- boolean
+```
 
 **Sources:**
 
@@ -9980,10 +10495,32 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbNativeSkillState` { #symbol-api-lua-v5-generated-class-ccbnativeskillstate-8515ce918368 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbNativeSkillState = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `name` | `string` | Read-write |
+| `practical` | `integer` | Read-write |
+| `practical_effective` | `integer` | Read-write |
+| `practical_exercise_percent` | `integer` | Read-write |
+| `practical_exercise_raw` | `integer` | Read-write |
+| `knowledge` | `integer` | Read-write |
+| `knowledge_experience_percent` | `integer` | Read-write |
+| `knowledge_experience_raw` | `integer` | Read-write |
+| `rust_accumulator` | `integer` | Read-write |
+| `rusty` | `boolean` | Read-write |
+| `training` | `boolean` | Read-write |
+| `can_train` | `boolean` | Read-write |
+| `available` | `boolean` | Read-write |
+| `practical_description` | `string` | Read-write |
+| `knowledge_description` | `string` | Read-write |
+| `maximum_level` | `integer` | Read-write |
 
 **Sources:**
 
@@ -9991,11 +10528,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-id-904e6f87a0fa }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -10003,11 +10539,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-name-eec6ea306344 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -10015,11 +10550,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `practical` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-practical-a9d208ea01d8 }
 
-**Contract fields:**
-
-- `name`: `"practical"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field practical integer
+practical = ... -- integer
+```
 
 **Sources:**
 
@@ -10027,11 +10561,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `practical_effective` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-practical-effective-6c2536ac95d3 }
 
-**Contract fields:**
-
-- `name`: `"practical_effective"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field practical_effective integer
+practical_effective = ... -- integer
+```
 
 **Sources:**
 
@@ -10039,11 +10572,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `practical_exercise_percent` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-practical-exercise-percent-4e4feff7f252 }
 
-**Contract fields:**
-
-- `name`: `"practical_exercise_percent"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field practical_exercise_percent integer
+practical_exercise_percent = ... -- integer
+```
 
 **Sources:**
 
@@ -10051,11 +10583,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `practical_exercise_raw` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-practical-exercise-raw-ff93793f7291 }
 
-**Contract fields:**
-
-- `name`: `"practical_exercise_raw"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field practical_exercise_raw integer
+practical_exercise_raw = ... -- integer
+```
 
 **Sources:**
 
@@ -10063,11 +10594,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `knowledge` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-knowledge-c590e9bc179c }
 
-**Contract fields:**
-
-- `name`: `"knowledge"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field knowledge integer
+knowledge = ... -- integer
+```
 
 **Sources:**
 
@@ -10075,11 +10605,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `knowledge_experience_percent` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-knowledge-experience-percent-ab49e6df3576 }
 
-**Contract fields:**
-
-- `name`: `"knowledge_experience_percent"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field knowledge_experience_percent integer
+knowledge_experience_percent = ... -- integer
+```
 
 **Sources:**
 
@@ -10087,11 +10616,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `knowledge_experience_raw` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-knowledge-experience-raw-675a03993ba8 }
 
-**Contract fields:**
-
-- `name`: `"knowledge_experience_raw"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field knowledge_experience_raw integer
+knowledge_experience_raw = ... -- integer
+```
 
 **Sources:**
 
@@ -10099,11 +10627,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `rust_accumulator` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-rust-accumulator-b2d4e2ba5d3b }
 
-**Contract fields:**
-
-- `name`: `"rust_accumulator"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field rust_accumulator integer
+rust_accumulator = ... -- integer
+```
 
 **Sources:**
 
@@ -10111,11 +10638,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `rusty` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-rusty-514764ebbfed }
 
-**Contract fields:**
-
-- `name`: `"rusty"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field rusty boolean
+rusty = ... -- boolean
+```
 
 **Sources:**
 
@@ -10123,11 +10649,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `training` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-training-5f25b28ade0d }
 
-**Contract fields:**
-
-- `name`: `"training"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field training boolean
+training = ... -- boolean
+```
 
 **Sources:**
 
@@ -10135,11 +10660,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `can_train` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-can-train-89728c9881e2 }
 
-**Contract fields:**
-
-- `name`: `"can_train"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field can_train boolean
+can_train = ... -- boolean
+```
 
 **Sources:**
 
@@ -10147,11 +10671,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `available` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-available-7c262f179b0e }
 
-**Contract fields:**
-
-- `name`: `"available"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field available boolean
+available = ... -- boolean
+```
 
 **Sources:**
 
@@ -10159,11 +10682,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `practical_description` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-practical-description-2b780da03d71 }
 
-**Contract fields:**
-
-- `name`: `"practical_description"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field practical_description string
+practical_description = ... -- string
+```
 
 **Sources:**
 
@@ -10171,11 +10693,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `knowledge_description` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-knowledge-description-bc2b458bf037 }
 
-**Contract fields:**
-
-- `name`: `"knowledge_description"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field knowledge_description string
+knowledge_description = ... -- string
+```
 
 **Sources:**
 
@@ -10183,11 +10704,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `maximum_level` { #symbol-api-lua-v5-generated-property-ccbnativeskillstate-maximum-level-72e44a482626 }
 
-**Contract fields:**
-
-- `name`: `"maximum_level"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field maximum_level integer
+maximum_level = ... -- integer
+```
 
 **Sources:**
 
@@ -10195,10 +10715,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbNearbyOptions` { #symbol-api-lua-v5-generated-class-ccbnearbyoptions-a3b9b8f69d5c }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbNearbyOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `radius` | `integer` | Read-write |
+| `limit` | `integer` | Read-write |
+| `visible_only` | `boolean` | Read-write |
+| `include_avatar` | `boolean` | Read-write |
+| `include_hallucinations` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -10206,11 +10736,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `radius` { #symbol-api-lua-v5-generated-property-ccbnearbyoptions-radius-d6d91b1b5a7e }
 
-**Contract fields:**
-
-- `name`: `"radius"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field radius integer
+radius = ... -- integer
+```
 
 **Sources:**
 
@@ -10218,11 +10747,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbnearbyoptions-limit-8be68f6b7aa0 }
 
-**Contract fields:**
-
-- `name`: `"limit"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field limit integer
+limit = ... -- integer
+```
 
 **Sources:**
 
@@ -10230,11 +10758,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `visible_only` { #symbol-api-lua-v5-generated-property-ccbnearbyoptions-visible-only-32e295b90442 }
 
-**Contract fields:**
-
-- `name`: `"visible_only"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field visible_only boolean
+visible_only = ... -- boolean
+```
 
 **Sources:**
 
@@ -10242,11 +10769,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `include_avatar` { #symbol-api-lua-v5-generated-property-ccbnearbyoptions-include-avatar-0d0b52c17fe7 }
 
-**Contract fields:**
-
-- `name`: `"include_avatar"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field include_avatar boolean
+include_avatar = ... -- boolean
+```
 
 **Sources:**
 
@@ -10254,11 +10780,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `include_hallucinations` { #symbol-api-lua-v5-generated-property-ccbnearbyoptions-include-hallucinations-0007e22ce9eb }
 
-**Contract fields:**
-
-- `name`: `"include_hallucinations"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field include_hallucinations boolean
+include_hallucinations = ... -- boolean
+```
 
 **Sources:**
 
@@ -10266,10 +10791,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbNeedAdjustments` { #symbol-api-lua-v5-generated-class-ccbneedadjustments-872de3b13f1b }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbNeedAdjustments = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `hunger` | `integer` | Read-write |
+| `thirst` | `integer` | Read-write |
+| `sleepiness` | `integer` | Read-write |
+| `sleep_deprivation` | `integer` | Read-write |
 
 **Sources:**
 
@@ -10277,11 +10811,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hunger` { #symbol-api-lua-v5-generated-property-ccbneedadjustments-hunger-d3b6b1f2e4f4 }
 
-**Contract fields:**
-
-- `name`: `"hunger"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field hunger integer
+hunger = ... -- integer
+```
 
 **Sources:**
 
@@ -10289,11 +10822,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `thirst` { #symbol-api-lua-v5-generated-property-ccbneedadjustments-thirst-77a32840aa5e }
 
-**Contract fields:**
-
-- `name`: `"thirst"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field thirst integer
+thirst = ... -- integer
+```
 
 **Sources:**
 
@@ -10301,11 +10833,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sleepiness` { #symbol-api-lua-v5-generated-property-ccbneedadjustments-sleepiness-654497e55340 }
 
-**Contract fields:**
-
-- `name`: `"sleepiness"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field sleepiness integer
+sleepiness = ... -- integer
+```
 
 **Sources:**
 
@@ -10313,11 +10844,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sleep_deprivation` { #symbol-api-lua-v5-generated-property-ccbneedadjustments-sleep-deprivation-c7959929545f }
 
-**Contract fields:**
-
-- `name`: `"sleep_deprivation"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field sleep_deprivation integer
+sleep_deprivation = ... -- integer
+```
 
 **Sources:**
 
@@ -10325,10 +10855,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbNeedsApi` { #symbol-api-lua-v5-generated-class-ccbneedsapi-2b557a005aee }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbNeedsApi = {}
+```
 
 **Sources:**
 
@@ -10336,10 +10866,30 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbNeedsSnapshot` { #symbol-api-lua-v5-generated-class-ccbneedssnapshot-81d84e6f5aff }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbNeedsSnapshot = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `hunger` | `integer` | Read-write |
+| `starvation` | `integer` | Read-write |
+| `thirst` | `integer` | Read-write |
+| `instant_thirst` | `integer` | Read-write |
+| `sleepiness` | `integer` | Read-write |
+| `sleep_deprivation` | `integer` | Read-write |
+| `stored_kcal` | `integer` | Read-write |
+| `healthy_kcal` | `integer` | Read-write |
+| `kcal_fraction` | `number` | Read-write |
+| `kcal_speed_penalty` | `number` | Read-write |
+| `daily_sleep` | `TimeDuration` | Read-write |
+| `continuous_sleep` | `TimeDuration` | Read-write |
+| `lifestyle` | `integer` | Read-write |
+| `daily_health` | `integer` | Read-write |
+| `health_tally` | `integer` | Read-write |
 
 **Sources:**
 
@@ -10347,11 +10897,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hunger` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-hunger-cf9d25580a59 }
 
-**Contract fields:**
-
-- `name`: `"hunger"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field hunger integer
+hunger = ... -- integer
+```
 
 **Sources:**
 
@@ -10359,11 +10908,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `starvation` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-starvation-de7cb9b7f9a7 }
 
-**Contract fields:**
-
-- `name`: `"starvation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field starvation integer
+starvation = ... -- integer
+```
 
 **Sources:**
 
@@ -10371,11 +10919,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `thirst` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-thirst-7d3da6f60cd8 }
 
-**Contract fields:**
-
-- `name`: `"thirst"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field thirst integer
+thirst = ... -- integer
+```
 
 **Sources:**
 
@@ -10383,11 +10930,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `instant_thirst` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-instant-thirst-42a92e333f42 }
 
-**Contract fields:**
-
-- `name`: `"instant_thirst"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field instant_thirst integer
+instant_thirst = ... -- integer
+```
 
 **Sources:**
 
@@ -10395,11 +10941,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sleepiness` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-sleepiness-f7b34050ae05 }
 
-**Contract fields:**
-
-- `name`: `"sleepiness"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field sleepiness integer
+sleepiness = ... -- integer
+```
 
 **Sources:**
 
@@ -10407,11 +10952,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sleep_deprivation` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-sleep-deprivation-928b314eaa46 }
 
-**Contract fields:**
-
-- `name`: `"sleep_deprivation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field sleep_deprivation integer
+sleep_deprivation = ... -- integer
+```
 
 **Sources:**
 
@@ -10419,11 +10963,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `stored_kcal` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-stored-kcal-3f57d2c194ea }
 
-**Contract fields:**
-
-- `name`: `"stored_kcal"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field stored_kcal integer
+stored_kcal = ... -- integer
+```
 
 **Sources:**
 
@@ -10431,11 +10974,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `healthy_kcal` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-healthy-kcal-5a800590162b }
 
-**Contract fields:**
-
-- `name`: `"healthy_kcal"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field healthy_kcal integer
+healthy_kcal = ... -- integer
+```
 
 **Sources:**
 
@@ -10443,11 +10985,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `kcal_fraction` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-kcal-fraction-e2a8737bd894 }
 
-**Contract fields:**
-
-- `name`: `"kcal_fraction"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field kcal_fraction number
+kcal_fraction = ... -- number
+```
 
 **Sources:**
 
@@ -10455,11 +10996,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `kcal_speed_penalty` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-kcal-speed-penalty-b7650b11afe7 }
 
-**Contract fields:**
-
-- `name`: `"kcal_speed_penalty"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field kcal_speed_penalty number
+kcal_speed_penalty = ... -- number
+```
 
 **Sources:**
 
@@ -10467,11 +11007,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `daily_sleep` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-daily-sleep-4c04e5b485f0 }
 
-**Contract fields:**
-
-- `name`: `"daily_sleep"`
-- `optional`: `false`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field daily_sleep TimeDuration
+daily_sleep = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -10479,11 +11018,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `continuous_sleep` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-continuous-sleep-23b6f6674646 }
 
-**Contract fields:**
-
-- `name`: `"continuous_sleep"`
-- `optional`: `false`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field continuous_sleep TimeDuration
+continuous_sleep = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -10491,11 +11029,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `lifestyle` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-lifestyle-c8694411cce2 }
 
-**Contract fields:**
-
-- `name`: `"lifestyle"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field lifestyle integer
+lifestyle = ... -- integer
+```
 
 **Sources:**
 
@@ -10503,11 +11040,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `daily_health` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-daily-health-ce462f54af2a }
 
-**Contract fields:**
-
-- `name`: `"daily_health"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field daily_health integer
+daily_health = ... -- integer
+```
 
 **Sources:**
 
@@ -10515,11 +11051,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `health_tally` { #symbol-api-lua-v5-generated-property-ccbneedssnapshot-health-tally-7b81adeff076 }
 
-**Contract fields:**
-
-- `name`: `"health_tally"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field health_tally integer
+health_tally = ... -- integer
+```
 
 **Sources:**
 
@@ -10527,10 +11062,26 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbNpcClassDefinition` { #symbol-api-lua-v5-generated-class-ccbnpcclassdefinition-c45b6fd8fd3b }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbNpcClassDefinition = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `name` | `string` | Read-write |
+| `job_description` | `string` | Read-write |
+| `common` | `boolean` | Read-write |
+| `sells_belongings` | `boolean` | Read-write |
+| `restock_interval` | `TimeDuration` | Read-write |
+| `work_hours` | `table` | Read-write |
+| `shop_item_group_count` | `integer` | Read-write |
+| `starting_spells` | `table` | Read-write |
+| `starting_bionics` | `table` | Read-write |
+| `starting_proficiencies` | `table` | Read-write |
 
 **Sources:**
 
@@ -10538,11 +11089,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbnpcclassdefinition-id-3bf9bd92e23c }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -10550,11 +11100,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbnpcclassdefinition-name-d747a5d52e3e }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -10562,11 +11111,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `job_description` { #symbol-api-lua-v5-generated-property-ccbnpcclassdefinition-job-description-67f5e52e5df4 }
 
-**Contract fields:**
-
-- `name`: `"job_description"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field job_description string
+job_description = ... -- string
+```
 
 **Sources:**
 
@@ -10574,11 +11122,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `common` { #symbol-api-lua-v5-generated-property-ccbnpcclassdefinition-common-f935cae6052f }
 
-**Contract fields:**
-
-- `name`: `"common"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field common boolean
+common = ... -- boolean
+```
 
 **Sources:**
 
@@ -10586,11 +11133,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sells_belongings` { #symbol-api-lua-v5-generated-property-ccbnpcclassdefinition-sells-belongings-4f1713a8ab4a }
 
-**Contract fields:**
-
-- `name`: `"sells_belongings"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field sells_belongings boolean
+sells_belongings = ... -- boolean
+```
 
 **Sources:**
 
@@ -10598,11 +11144,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `restock_interval` { #symbol-api-lua-v5-generated-property-ccbnpcclassdefinition-restock-interval-f3594248be17 }
 
-**Contract fields:**
-
-- `name`: `"restock_interval"`
-- `optional`: `false`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field restock_interval TimeDuration
+restock_interval = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -10610,11 +11155,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `work_hours` { #symbol-api-lua-v5-generated-property-ccbnpcclassdefinition-work-hours-51388cd19a3f }
 
-**Contract fields:**
-
-- `name`: `"work_hours"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field work_hours table
+work_hours = ... -- table
+```
 
 **Sources:**
 
@@ -10622,11 +11166,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `shop_item_group_count` { #symbol-api-lua-v5-generated-property-ccbnpcclassdefinition-shop-item-group-count-677c9e3844cc }
 
-**Contract fields:**
-
-- `name`: `"shop_item_group_count"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field shop_item_group_count integer
+shop_item_group_count = ... -- integer
+```
 
 **Sources:**
 
@@ -10634,11 +11177,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `starting_spells` { #symbol-api-lua-v5-generated-property-ccbnpcclassdefinition-starting-spells-476653580ffe }
 
-**Contract fields:**
-
-- `name`: `"starting_spells"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field starting_spells table
+starting_spells = ... -- table
+```
 
 **Sources:**
 
@@ -10646,11 +11188,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `starting_bionics` { #symbol-api-lua-v5-generated-property-ccbnpcclassdefinition-starting-bionics-96145e3414be }
 
-**Contract fields:**
-
-- `name`: `"starting_bionics"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field starting_bionics table
+starting_bionics = ... -- table
+```
 
 **Sources:**
 
@@ -10658,11 +11199,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `starting_proficiencies` { #symbol-api-lua-v5-generated-property-ccbnpcclassdefinition-starting-proficiencies-425539c8f2da }
 
-**Contract fields:**
-
-- `name`: `"starting_proficiencies"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field starting_proficiencies table
+starting_proficiencies = ... -- table
+```
 
 **Sources:**
 
@@ -10670,10 +11210,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbNpcOpinion` { #symbol-api-lua-v5-generated-class-ccbnpcopinion-b6f0d6e6c838 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbNpcOpinion = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `trust` | `integer` | Read-write |
+| `fear` | `integer` | Read-write |
+| `value` | `integer` | Read-write |
+| `anger` | `integer` | Read-write |
+| `owed` | `integer` | Read-write |
+| `sold` | `integer` | Read-write |
 
 **Sources:**
 
@@ -10681,11 +11232,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `trust` { #symbol-api-lua-v5-generated-property-ccbnpcopinion-trust-02c9c75f5346 }
 
-**Contract fields:**
-
-- `name`: `"trust"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field trust integer
+trust = ... -- integer
+```
 
 **Sources:**
 
@@ -10693,11 +11243,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `fear` { #symbol-api-lua-v5-generated-property-ccbnpcopinion-fear-eec25148b54f }
 
-**Contract fields:**
-
-- `name`: `"fear"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field fear integer
+fear = ... -- integer
+```
 
 **Sources:**
 
@@ -10705,11 +11254,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `value` { #symbol-api-lua-v5-generated-property-ccbnpcopinion-value-5c7332fc3aa6 }
 
-**Contract fields:**
-
-- `name`: `"value"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field value integer
+value = ... -- integer
+```
 
 **Sources:**
 
@@ -10717,11 +11265,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `anger` { #symbol-api-lua-v5-generated-property-ccbnpcopinion-anger-f144296872e7 }
 
-**Contract fields:**
-
-- `name`: `"anger"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field anger integer
+anger = ... -- integer
+```
 
 **Sources:**
 
@@ -10729,11 +11276,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `owed` { #symbol-api-lua-v5-generated-property-ccbnpcopinion-owed-a6b549942840 }
 
-**Contract fields:**
-
-- `name`: `"owed"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field owed integer
+owed = ... -- integer
+```
 
 **Sources:**
 
@@ -10741,11 +11287,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sold` { #symbol-api-lua-v5-generated-property-ccbnpcopinion-sold-579cf7d8997a }
 
-**Contract fields:**
-
-- `name`: `"sold"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field sold integer
+sold = ... -- integer
+```
 
 **Sources:**
 
@@ -10753,10 +11298,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbNpcOpinionDeltas` { #symbol-api-lua-v5-generated-class-ccbnpcopiniondeltas-0eabe67b29b2 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbNpcOpinionDeltas = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `trust` | `integer` | Read-write |
+| `fear` | `integer` | Read-write |
+| `value` | `integer` | Read-write |
+| `anger` | `integer` | Read-write |
+| `owed` | `integer` | Read-write |
+| `sold` | `integer` | Read-write |
 
 **Sources:**
 
@@ -10764,11 +11320,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `trust` { #symbol-api-lua-v5-generated-property-ccbnpcopiniondeltas-trust-68ceccc4abfe }
 
-**Contract fields:**
-
-- `name`: `"trust"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field trust integer
+trust = ... -- integer
+```
 
 **Sources:**
 
@@ -10776,11 +11331,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `fear` { #symbol-api-lua-v5-generated-property-ccbnpcopiniondeltas-fear-ae75500f173b }
 
-**Contract fields:**
-
-- `name`: `"fear"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field fear integer
+fear = ... -- integer
+```
 
 **Sources:**
 
@@ -10788,11 +11342,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `value` { #symbol-api-lua-v5-generated-property-ccbnpcopiniondeltas-value-61014ceb1247 }
 
-**Contract fields:**
-
-- `name`: `"value"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field value integer
+value = ... -- integer
+```
 
 **Sources:**
 
@@ -10800,11 +11353,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `anger` { #symbol-api-lua-v5-generated-property-ccbnpcopiniondeltas-anger-64038763e2fc }
 
-**Contract fields:**
-
-- `name`: `"anger"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field anger integer
+anger = ... -- integer
+```
 
 **Sources:**
 
@@ -10812,11 +11364,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `owed` { #symbol-api-lua-v5-generated-property-ccbnpcopiniondeltas-owed-0d6f8df4358f }
 
-**Contract fields:**
-
-- `name`: `"owed"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field owed integer
+owed = ... -- integer
+```
 
 **Sources:**
 
@@ -10824,11 +11375,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sold` { #symbol-api-lua-v5-generated-property-ccbnpcopiniondeltas-sold-d2464a84b1ce }
 
-**Contract fields:**
-
-- `name`: `"sold"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field sold integer
+sold = ... -- integer
+```
 
 **Sources:**
 
@@ -10836,10 +11386,42 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbNpcSnapshot` { #symbol-api-lua-v5-generated-class-ccbnpcsnapshot-c3bd0a2d00fb }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbNpcSnapshot = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `handle` | `GameHandle` | Read-write |
+| `id` | `integer` | Read-write |
+| `unique_id` | `string` | Read-write |
+| `name` | `string` | Read-write |
+| `display_name` | `string` | Read-write |
+| `position` | `TripointCoord` | Read-write |
+| `class` | `GameId` | Read-write |
+| `template` | `GameId` | Read-write |
+| `faction` | `GameId` | Read-write |
+| `attitude` | `string` | Read-write |
+| `attitude_name` | `string` | Read-write |
+| `mission` | `integer` | Read-write |
+| `status` | `string` | Read-write |
+| `activity` | `string` | Read-write |
+| `male` | `boolean` | Read-write |
+| `dead` | `boolean` | Read-write |
+| `hallucination` | `boolean` | Read-write |
+| `enemy` | `boolean` | Read-write |
+| `following` | `boolean` | Read-write |
+| `player_ally` | `boolean` | Read-write |
+| `leader` | `boolean` | Read-write |
+| `guarding` | `boolean` | Read-write |
+| `patrolling` | `boolean` | Read-write |
+| `shopkeeper` | `boolean` | Read-write |
+| `faction_representative` | `boolean` | Read-write |
+| `opinion` | `CcbNpcOpinion` | Read-write |
+| `personality` | `table` | Read-write |
 
 **Sources:**
 
@@ -10847,11 +11429,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `handle` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-handle-6bbf28683c85 }
 
-**Contract fields:**
-
-- `name`: `"handle"`
-- `optional`: `false`
-- `declaration`: `"GameHandle"`
+```lua
+---@field handle GameHandle
+handle = ... -- GameHandle
+```
 
 **Sources:**
 
@@ -10859,11 +11440,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-id-c9e41289e97b }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field id integer
+id = ... -- integer
+```
 
 **Sources:**
 
@@ -10871,11 +11451,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `unique_id` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-unique-id-9fb8621c8f88 }
 
-**Contract fields:**
-
-- `name`: `"unique_id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field unique_id string
+unique_id = ... -- string
+```
 
 **Sources:**
 
@@ -10883,11 +11462,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-name-4f86db9323ea }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -10895,11 +11473,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `display_name` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-display-name-0b5dfe0781c1 }
 
-**Contract fields:**
-
-- `name`: `"display_name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field display_name string
+display_name = ... -- string
+```
 
 **Sources:**
 
@@ -10907,11 +11484,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `position` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-position-d253bbe9a567 }
 
-**Contract fields:**
-
-- `name`: `"position"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
+```lua
+---@field position TripointCoord
+position = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -10919,11 +11495,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `class` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-class-2339075df0fb }
 
-**Contract fields:**
-
-- `name`: `"class"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field class GameId
+class = ... -- GameId
+```
 
 **Sources:**
 
@@ -10931,11 +11506,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `template` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-template-b4ac964eadf3 }
 
-**Contract fields:**
-
-- `name`: `"template"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field template GameId
+template = ... -- GameId
+```
 
 **Sources:**
 
@@ -10943,11 +11517,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `faction` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-faction-9b50cae4cc7e }
 
-**Contract fields:**
-
-- `name`: `"faction"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field faction GameId
+faction = ... -- GameId
+```
 
 **Sources:**
 
@@ -10955,11 +11528,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `attitude` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-attitude-b6663f617566 }
 
-**Contract fields:**
-
-- `name`: `"attitude"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field attitude string
+attitude = ... -- string
+```
 
 **Sources:**
 
@@ -10967,11 +11539,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `attitude_name` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-attitude-name-13a9906124cc }
 
-**Contract fields:**
-
-- `name`: `"attitude_name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field attitude_name string
+attitude_name = ... -- string
+```
 
 **Sources:**
 
@@ -10979,11 +11550,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `mission` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-mission-559108e9dbbb }
 
-**Contract fields:**
-
-- `name`: `"mission"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field mission integer
+mission = ... -- integer
+```
 
 **Sources:**
 
@@ -10991,11 +11561,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `status` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-status-ceb76ffac3c3 }
 
-**Contract fields:**
-
-- `name`: `"status"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field status string
+status = ... -- string
+```
 
 **Sources:**
 
@@ -11003,11 +11572,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `activity` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-activity-47d86cb9042c }
 
-**Contract fields:**
-
-- `name`: `"activity"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field activity string
+activity = ... -- string
+```
 
 **Sources:**
 
@@ -11015,11 +11583,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `male` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-male-347f3557ad18 }
 
-**Contract fields:**
-
-- `name`: `"male"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field male boolean
+male = ... -- boolean
+```
 
 **Sources:**
 
@@ -11027,11 +11594,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `dead` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-dead-c86964746434 }
 
-**Contract fields:**
-
-- `name`: `"dead"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field dead boolean
+dead = ... -- boolean
+```
 
 **Sources:**
 
@@ -11039,11 +11605,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hallucination` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-hallucination-0efa4b10c167 }
 
-**Contract fields:**
-
-- `name`: `"hallucination"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field hallucination boolean
+hallucination = ... -- boolean
+```
 
 **Sources:**
 
@@ -11051,11 +11616,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `enemy` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-enemy-f9c8bd43cb3b }
 
-**Contract fields:**
-
-- `name`: `"enemy"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field enemy boolean
+enemy = ... -- boolean
+```
 
 **Sources:**
 
@@ -11063,11 +11627,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `following` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-following-fcd6849e6657 }
 
-**Contract fields:**
-
-- `name`: `"following"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field following boolean
+following = ... -- boolean
+```
 
 **Sources:**
 
@@ -11075,11 +11638,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `player_ally` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-player-ally-60422959abfb }
 
-**Contract fields:**
-
-- `name`: `"player_ally"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field player_ally boolean
+player_ally = ... -- boolean
+```
 
 **Sources:**
 
@@ -11087,11 +11649,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `leader` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-leader-7b0d71cacff7 }
 
-**Contract fields:**
-
-- `name`: `"leader"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field leader boolean
+leader = ... -- boolean
+```
 
 **Sources:**
 
@@ -11099,11 +11660,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `guarding` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-guarding-04807bff55a3 }
 
-**Contract fields:**
-
-- `name`: `"guarding"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field guarding boolean
+guarding = ... -- boolean
+```
 
 **Sources:**
 
@@ -11111,11 +11671,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `patrolling` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-patrolling-3d411a3b99e5 }
 
-**Contract fields:**
-
-- `name`: `"patrolling"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field patrolling boolean
+patrolling = ... -- boolean
+```
 
 **Sources:**
 
@@ -11123,11 +11682,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `shopkeeper` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-shopkeeper-3bd705168a83 }
 
-**Contract fields:**
-
-- `name`: `"shopkeeper"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field shopkeeper boolean
+shopkeeper = ... -- boolean
+```
 
 **Sources:**
 
@@ -11135,11 +11693,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `faction_representative` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-faction-representative-44451362f04e }
 
-**Contract fields:**
-
-- `name`: `"faction_representative"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field faction_representative boolean
+faction_representative = ... -- boolean
+```
 
 **Sources:**
 
@@ -11147,11 +11704,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `opinion` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-opinion-add82f206905 }
 
-**Contract fields:**
-
-- `name`: `"opinion"`
-- `optional`: `false`
-- `declaration`: `"CcbNpcOpinion"`
+```lua
+---@field opinion CcbNpcOpinion
+opinion = ... -- CcbNpcOpinion
+```
 
 **Sources:**
 
@@ -11159,11 +11715,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `personality` { #symbol-api-lua-v5-generated-property-ccbnpcsnapshot-personality-9651417e8648 }
 
-**Contract fields:**
-
-- `name`: `"personality"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field personality table
+personality = ... -- table
+```
 
 **Sources:**
 
@@ -11171,10 +11726,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbNpcsApi` { #symbol-api-lua-v5-generated-class-ccbnpcsapi-bedf0cc88089 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbNpcsApi = {}
+```
 
 **Sources:**
 
@@ -11182,10 +11737,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbOvermapApi` { #symbol-api-lua-v5-generated-class-ccbovermapapi-324d11e0937e }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbOvermapApi = {}
+```
 
 **Sources:**
 
@@ -11193,10 +11748,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbOvermapSearchOptions` { #symbol-api-lua-v5-generated-class-ccbovermapsearchoptions-84effbe43780 }
 
-**Contract fields:**
+```lua
+---@class : CcbPageOptions
+local CcbOvermapSearchOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbPageOptions"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `types` | `CcbOvermapSelector[]` | Read-write |
+| `exclude_types` | `CcbOvermapSelector[]` | Read-write |
+| `minimum_radius` | `integer` | Read-write |
+| `radius` | `integer` | Read-write |
+| `radius_z` | `integer` | Read-write |
+| `seen` | `boolean` | Read-write |
+| `explored` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -11204,11 +11771,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `types` { #symbol-api-lua-v5-generated-property-ccbovermapsearchoptions-types-b72d71f678c1 }
 
-**Contract fields:**
-
-- `name`: `"types"`
-- `optional`: `true`
-- `declaration`: `"CcbOvermapSelector[]"`
+```lua
+---@field types CcbOvermapSelector[]
+types = ... -- CcbOvermapSelector[]
+```
 
 **Sources:**
 
@@ -11216,11 +11782,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `exclude_types` { #symbol-api-lua-v5-generated-property-ccbovermapsearchoptions-exclude-types-dc39e673dd6e }
 
-**Contract fields:**
-
-- `name`: `"exclude_types"`
-- `optional`: `true`
-- `declaration`: `"CcbOvermapSelector[]"`
+```lua
+---@field exclude_types CcbOvermapSelector[]
+exclude_types = ... -- CcbOvermapSelector[]
+```
 
 **Sources:**
 
@@ -11228,11 +11793,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `minimum_radius` { #symbol-api-lua-v5-generated-property-ccbovermapsearchoptions-minimum-radius-5e02ca91e048 }
 
-**Contract fields:**
-
-- `name`: `"minimum_radius"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field minimum_radius integer
+minimum_radius = ... -- integer
+```
 
 **Sources:**
 
@@ -11240,11 +11804,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `radius` { #symbol-api-lua-v5-generated-property-ccbovermapsearchoptions-radius-bef736e42ff8 }
 
-**Contract fields:**
-
-- `name`: `"radius"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field radius integer
+radius = ... -- integer
+```
 
 **Sources:**
 
@@ -11252,11 +11815,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `radius_z` { #symbol-api-lua-v5-generated-property-ccbovermapsearchoptions-radius-z-9717448d39b4 }
 
-**Contract fields:**
-
-- `name`: `"radius_z"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field radius_z integer
+radius_z = ... -- integer
+```
 
 **Sources:**
 
@@ -11264,11 +11826,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `seen` { #symbol-api-lua-v5-generated-property-ccbovermapsearchoptions-seen-2c932ca0a056 }
 
-**Contract fields:**
-
-- `name`: `"seen"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field seen boolean
+seen = ... -- boolean
+```
 
 **Sources:**
 
@@ -11276,11 +11837,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `explored` { #symbol-api-lua-v5-generated-property-ccbovermapsearchoptions-explored-7ff7cbf67461 }
 
-**Contract fields:**
-
-- `name`: `"explored"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field explored boolean
+explored = ... -- boolean
+```
 
 **Sources:**
 
@@ -11288,10 +11848,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbOvermapSelectorTable` { #symbol-api-lua-v5-generated-class-ccbovermapselectortable-d4f4e0a62e76 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbOvermapSelectorTable = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `terrain` | `GameId|string` | Read-write |
+| `match` | `GameEnum` | Read-write |
 
 **Sources:**
 
@@ -11299,11 +11866,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `terrain` { #symbol-api-lua-v5-generated-property-ccbovermapselectortable-terrain-6f1d503939b2 }
 
-**Contract fields:**
-
-- `name`: `"terrain"`
-- `optional`: `false`
-- `declaration`: `"GameId|string"`
+```lua
+---@field terrain GameId|string
+terrain = ... -- GameId|string
+```
 
 **Sources:**
 
@@ -11311,11 +11877,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `match` { #symbol-api-lua-v5-generated-property-ccbovermapselectortable-match-455913d2167f }
 
-**Contract fields:**
-
-- `name`: `"match"`
-- `optional`: `true`
-- `declaration`: `"GameEnum"`
+```lua
+---@field match GameEnum
+match = ... -- GameEnum
+```
 
 **Sources:**
 
@@ -11323,10 +11888,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbPageDescriptor` { #symbol-api-lua-v5-generated-class-ccbpagedescriptor-bc8ed5b1d5c4 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbPageDescriptor = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `title` | `string` | Read-write |
+| `category` | `string` | Read-write |
+| `order` | `integer` | Read-write |
+| `slots` | `CcbPageSlot[]` | Read-write |
 
 **Sources:**
 
@@ -11334,11 +11908,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `title` { #symbol-api-lua-v5-generated-property-ccbpagedescriptor-title-fa55dca77c02 }
 
-**Contract fields:**
-
-- `name`: `"title"`
-- `optional`: `true`
-- `declaration`: `"string"`
+```lua
+---@field title string
+title = ... -- string
+```
 
 **Sources:**
 
@@ -11346,11 +11919,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `category` { #symbol-api-lua-v5-generated-property-ccbpagedescriptor-category-6fccd4779aca }
 
-**Contract fields:**
-
-- `name`: `"category"`
-- `optional`: `true`
-- `declaration`: `"string"`
+```lua
+---@field category string
+category = ... -- string
+```
 
 **Sources:**
 
@@ -11358,11 +11930,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `order` { #symbol-api-lua-v5-generated-property-ccbpagedescriptor-order-215ff5bad8cc }
 
-**Contract fields:**
-
-- `name`: `"order"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field order integer
+order = ... -- integer
+```
 
 **Sources:**
 
@@ -11370,11 +11941,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `slots` { #symbol-api-lua-v5-generated-property-ccbpagedescriptor-slots-bad7d946cba9 }
 
-**Contract fields:**
-
-- `name`: `"slots"`
-- `optional`: `true`
-- `declaration`: `"CcbPageSlot[]"`
+```lua
+---@field slots CcbPageSlot[]
+slots = ... -- CcbPageSlot[]
+```
 
 **Sources:**
 
@@ -11382,10 +11952,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbPageOptions` { #symbol-api-lua-v5-generated-class-ccbpageoptions-6f81e3131b0c }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbPageOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `offset` | `integer` | Read-write |
+| `limit` | `integer` | Read-write |
 
 **Sources:**
 
@@ -11393,11 +11970,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `offset` { #symbol-api-lua-v5-generated-property-ccbpageoptions-offset-c772cac686b7 }
 
-**Contract fields:**
-
-- `name`: `"offset"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field offset integer
+offset = ... -- integer
+```
 
 **Sources:**
 
@@ -11405,11 +11981,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbpageoptions-limit-9103aff11035 }
 
-**Contract fields:**
-
-- `name`: `"limit"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field limit integer
+limit = ... -- integer
+```
 
 **Sources:**
 
@@ -11417,10 +11992,40 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbPlayerSnapshot` { #symbol-api-lua-v5-generated-class-ccbplayersnapshot-b04d18bb9eaa }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbPlayerSnapshot = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `name` | `string` | Read-write |
+| `moves` | `integer` | Read-write |
+| `stamina` | `integer` | Read-write |
+| `stamina_max` | `integer` | Read-write |
+| `pain` | `integer` | Read-write |
+| `focus` | `integer` | Read-write |
+| `speed` | `integer` | Read-write |
+| `hunger` | `integer` | Read-write |
+| `thirst` | `integer` | Read-write |
+| `sleepiness` | `integer` | Read-write |
+| `morale` | `integer` | Read-write |
+| `stored_kcal` | `integer` | Read-write |
+| `healthy_kcal` | `integer` | Read-write |
+| `kcal_percent` | `number` | Read-write |
+| `radiation` | `integer` | Read-write |
+| `bionic_power_kj` | `number` | Read-write |
+| `bionic_power_max_kj` | `number` | Read-write |
+| `movement_mode_id` | `string` | Read-write |
+| `movement_mode_name` | `string` | Read-write |
+| `desired_movement_mode_id` | `string` | Read-write |
+| `desired_movement_mode_name` | `string` | Read-write |
+| `movement_mode_pending` | `boolean` | Read-write |
+| `x` | `integer` | Read-write |
+| `y` | `integer` | Read-write |
+| `z` | `integer` | Read-write |
 
 **Sources:**
 
@@ -11428,11 +12033,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-name-15b30d01b667 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -11440,11 +12044,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `moves` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-moves-e094c6ff0380 }
 
-**Contract fields:**
-
-- `name`: `"moves"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field moves integer
+moves = ... -- integer
+```
 
 **Sources:**
 
@@ -11452,11 +12055,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `stamina` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-stamina-8dd83b7f4308 }
 
-**Contract fields:**
-
-- `name`: `"stamina"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field stamina integer
+stamina = ... -- integer
+```
 
 **Sources:**
 
@@ -11464,11 +12066,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `stamina_max` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-stamina-max-363448d55bbb }
 
-**Contract fields:**
-
-- `name`: `"stamina_max"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field stamina_max integer
+stamina_max = ... -- integer
+```
 
 **Sources:**
 
@@ -11476,11 +12077,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `pain` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-pain-59356d91ac07 }
 
-**Contract fields:**
-
-- `name`: `"pain"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field pain integer
+pain = ... -- integer
+```
 
 **Sources:**
 
@@ -11488,11 +12088,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `focus` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-focus-cccc493daa79 }
 
-**Contract fields:**
-
-- `name`: `"focus"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field focus integer
+focus = ... -- integer
+```
 
 **Sources:**
 
@@ -11500,11 +12099,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `speed` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-speed-bdd931e82c19 }
 
-**Contract fields:**
-
-- `name`: `"speed"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field speed integer
+speed = ... -- integer
+```
 
 **Sources:**
 
@@ -11512,11 +12110,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hunger` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-hunger-4b6b920df5ea }
 
-**Contract fields:**
-
-- `name`: `"hunger"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field hunger integer
+hunger = ... -- integer
+```
 
 **Sources:**
 
@@ -11524,11 +12121,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `thirst` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-thirst-efb2f72e981a }
 
-**Contract fields:**
-
-- `name`: `"thirst"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field thirst integer
+thirst = ... -- integer
+```
 
 **Sources:**
 
@@ -11536,11 +12132,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sleepiness` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-sleepiness-b6b0d6e96367 }
 
-**Contract fields:**
-
-- `name`: `"sleepiness"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field sleepiness integer
+sleepiness = ... -- integer
+```
 
 **Sources:**
 
@@ -11548,11 +12143,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `morale` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-morale-422f8399d758 }
 
-**Contract fields:**
-
-- `name`: `"morale"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field morale integer
+morale = ... -- integer
+```
 
 **Sources:**
 
@@ -11560,11 +12154,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `stored_kcal` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-stored-kcal-9b09839b4e89 }
 
-**Contract fields:**
-
-- `name`: `"stored_kcal"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field stored_kcal integer
+stored_kcal = ... -- integer
+```
 
 **Sources:**
 
@@ -11572,11 +12165,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `healthy_kcal` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-healthy-kcal-39cb6555ca85 }
 
-**Contract fields:**
-
-- `name`: `"healthy_kcal"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field healthy_kcal integer
+healthy_kcal = ... -- integer
+```
 
 **Sources:**
 
@@ -11584,11 +12176,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `kcal_percent` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-kcal-percent-2ec16ffbd5ad }
 
-**Contract fields:**
-
-- `name`: `"kcal_percent"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field kcal_percent number
+kcal_percent = ... -- number
+```
 
 **Sources:**
 
@@ -11596,11 +12187,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `radiation` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-radiation-0aaa43a50759 }
 
-**Contract fields:**
-
-- `name`: `"radiation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field radiation integer
+radiation = ... -- integer
+```
 
 **Sources:**
 
@@ -11608,11 +12198,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `bionic_power_kj` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-bionic-power-kj-9b850a22b802 }
 
-**Contract fields:**
-
-- `name`: `"bionic_power_kj"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field bionic_power_kj number
+bionic_power_kj = ... -- number
+```
 
 **Sources:**
 
@@ -11620,11 +12209,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `bionic_power_max_kj` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-bionic-power-max-kj-009420567664 }
 
-**Contract fields:**
-
-- `name`: `"bionic_power_max_kj"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field bionic_power_max_kj number
+bionic_power_max_kj = ... -- number
+```
 
 **Sources:**
 
@@ -11632,11 +12220,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `movement_mode_id` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-movement-mode-id-401a8e692502 }
 
-**Contract fields:**
-
-- `name`: `"movement_mode_id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field movement_mode_id string
+movement_mode_id = ... -- string
+```
 
 **Sources:**
 
@@ -11644,11 +12231,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `movement_mode_name` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-movement-mode-name-1524d1d7b95c }
 
-**Contract fields:**
-
-- `name`: `"movement_mode_name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field movement_mode_name string
+movement_mode_name = ... -- string
+```
 
 **Sources:**
 
@@ -11656,11 +12242,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `desired_movement_mode_id` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-desired-movement-mode-id-098fcda57bc6 }
 
-**Contract fields:**
-
-- `name`: `"desired_movement_mode_id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field desired_movement_mode_id string
+desired_movement_mode_id = ... -- string
+```
 
 **Sources:**
 
@@ -11668,11 +12253,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `desired_movement_mode_name` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-desired-movement-mode-name-45c28c799dfa }
 
-**Contract fields:**
-
-- `name`: `"desired_movement_mode_name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field desired_movement_mode_name string
+desired_movement_mode_name = ... -- string
+```
 
 **Sources:**
 
@@ -11680,11 +12264,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `movement_mode_pending` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-movement-mode-pending-c607eb2dea07 }
 
-**Contract fields:**
-
-- `name`: `"movement_mode_pending"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field movement_mode_pending boolean
+movement_mode_pending = ... -- boolean
+```
 
 **Sources:**
 
@@ -11692,11 +12275,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `x` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-x-a7c23474f9d8 }
 
-**Contract fields:**
-
-- `name`: `"x"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field x integer
+x = ... -- integer
+```
 
 **Sources:**
 
@@ -11704,11 +12286,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `y` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-y-a235c27df040 }
 
-**Contract fields:**
-
-- `name`: `"y"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field y integer
+y = ... -- integer
+```
 
 **Sources:**
 
@@ -11716,11 +12297,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `z` { #symbol-api-lua-v5-generated-property-ccbplayersnapshot-z-ff09855af05b }
 
-**Contract fields:**
-
-- `name`: `"z"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field z integer
+z = ... -- integer
+```
 
 **Sources:**
 
@@ -11728,10 +12308,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbProficienciesApi` { #symbol-api-lua-v5-generated-class-ccbproficienciesapi-1e74e9b38ff1 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbProficienciesApi = {}
+```
 
 **Sources:**
 
@@ -11739,10 +12319,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbProficiencyCategory` { #symbol-api-lua-v5-generated-class-ccbproficiencycategory-a5138cc08b96 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbProficiencyCategory = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `name` | `string` | Read-write |
+| `description` | `string` | Read-write |
 
 **Sources:**
 
@@ -11750,11 +12338,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbproficiencycategory-id-670410086465 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -11762,11 +12349,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbproficiencycategory-name-1d9e5de0009f }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -11774,11 +12360,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbproficiencycategory-description-47c695148d10 }
 
-**Contract fields:**
-
-- `name`: `"description"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field description string
+description = ... -- string
+```
 
 **Sources:**
 
@@ -11786,10 +12371,28 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbProficiencyDefinition` { #symbol-api-lua-v5-generated-class-ccbproficiencydefinition-c34c317f278c }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbProficiencyDefinition = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `name` | `string` | Read-write |
+| `description` | `string` | Read-write |
+| `category` | `GameId` | Read-write |
+| `can_learn` | `boolean` | Read-write |
+| `ignore_focus` | `boolean` | Read-write |
+| `teachable` | `boolean` | Read-write |
+| `time_to_learn` | `TimeDuration` | Read-write |
+| `time_multiplier` | `number` | Read-write |
+| `skill_penalty` | `number` | Read-write |
+| `weakpoint_bonus` | `number` | Read-write |
+| `weakpoint_penalty` | `number` | Read-write |
+| `required` | `table` | Read-write |
 
 **Sources:**
 
@@ -11797,11 +12400,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-id-eee3607611bf }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -11809,11 +12411,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-name-cf5990df13b7 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -11821,11 +12422,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-description-1cefe3aa7758 }
 
-**Contract fields:**
-
-- `name`: `"description"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field description string
+description = ... -- string
+```
 
 **Sources:**
 
@@ -11833,11 +12433,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `category` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-category-7e55b405a3a9 }
 
-**Contract fields:**
-
-- `name`: `"category"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field category GameId
+category = ... -- GameId
+```
 
 **Sources:**
 
@@ -11845,11 +12444,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `can_learn` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-can-learn-edf5a73687ac }
 
-**Contract fields:**
-
-- `name`: `"can_learn"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field can_learn boolean
+can_learn = ... -- boolean
+```
 
 **Sources:**
 
@@ -11857,11 +12455,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `ignore_focus` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-ignore-focus-d64a1b4f64fe }
 
-**Contract fields:**
-
-- `name`: `"ignore_focus"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field ignore_focus boolean
+ignore_focus = ... -- boolean
+```
 
 **Sources:**
 
@@ -11869,11 +12466,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `teachable` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-teachable-1d105c4f40df }
 
-**Contract fields:**
-
-- `name`: `"teachable"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field teachable boolean
+teachable = ... -- boolean
+```
 
 **Sources:**
 
@@ -11881,11 +12477,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `time_to_learn` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-time-to-learn-edbf76660d84 }
 
-**Contract fields:**
-
-- `name`: `"time_to_learn"`
-- `optional`: `false`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field time_to_learn TimeDuration
+time_to_learn = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -11893,11 +12488,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `time_multiplier` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-time-multiplier-d3356171c4e5 }
 
-**Contract fields:**
-
-- `name`: `"time_multiplier"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field time_multiplier number
+time_multiplier = ... -- number
+```
 
 **Sources:**
 
@@ -11905,11 +12499,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `skill_penalty` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-skill-penalty-a44adf02e252 }
 
-**Contract fields:**
-
-- `name`: `"skill_penalty"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field skill_penalty number
+skill_penalty = ... -- number
+```
 
 **Sources:**
 
@@ -11917,11 +12510,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `weakpoint_bonus` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-weakpoint-bonus-e7084907d52d }
 
-**Contract fields:**
-
-- `name`: `"weakpoint_bonus"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field weakpoint_bonus number
+weakpoint_bonus = ... -- number
+```
 
 **Sources:**
 
@@ -11929,11 +12521,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `weakpoint_penalty` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-weakpoint-penalty-0236317519fb }
 
-**Contract fields:**
-
-- `name`: `"weakpoint_penalty"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field weakpoint_penalty number
+weakpoint_penalty = ... -- number
+```
 
 **Sources:**
 
@@ -11941,11 +12532,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `required` { #symbol-api-lua-v5-generated-property-ccbproficiencydefinition-required-54d3ed8f372c }
 
-**Contract fields:**
-
-- `name`: `"required"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field required table
+required = ... -- table
+```
 
 **Sources:**
 
@@ -11953,10 +12543,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbProficiencyGrantOptions` { #symbol-api-lua-v5-generated-class-ccbproficiencygrantoptions-0804b402810d }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbProficiencyGrantOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `ignore_requirements` | `boolean` | Read-write |
+| `recursive` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -11964,11 +12561,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `ignore_requirements` { #symbol-api-lua-v5-generated-property-ccbproficiencygrantoptions-ignore-requirements-5c2417fe2b0b }
 
-**Contract fields:**
-
-- `name`: `"ignore_requirements"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field ignore_requirements boolean
+ignore_requirements = ... -- boolean
+```
 
 **Sources:**
 
@@ -11976,11 +12572,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `recursive` { #symbol-api-lua-v5-generated-property-ccbproficiencygrantoptions-recursive-2c7a2086020a }
 
-**Contract fields:**
-
-- `name`: `"recursive"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field recursive boolean
+recursive = ... -- boolean
+```
 
 **Sources:**
 
@@ -11988,10 +12583,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbProficiencyListOptions` { #symbol-api-lua-v5-generated-class-ccbproficiencylistoptions-659d41e2bf95 }
 
-**Contract fields:**
+```lua
+---@class : CcbPageOptions
+local CcbProficiencyListOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbPageOptions"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `include_known` | `boolean` | Read-write |
+| `include_learning` | `boolean` | Read-write |
+| `include_unstarted` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -11999,11 +12602,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `include_known` { #symbol-api-lua-v5-generated-property-ccbproficiencylistoptions-include-known-816a34381a33 }
 
-**Contract fields:**
-
-- `name`: `"include_known"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field include_known boolean
+include_known = ... -- boolean
+```
 
 **Sources:**
 
@@ -12011,11 +12613,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `include_learning` { #symbol-api-lua-v5-generated-property-ccbproficiencylistoptions-include-learning-87cc3bb068aa }
 
-**Contract fields:**
-
-- `name`: `"include_learning"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field include_learning boolean
+include_learning = ... -- boolean
+```
 
 **Sources:**
 
@@ -12023,11 +12624,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `include_unstarted` { #symbol-api-lua-v5-generated-property-ccbproficiencylistoptions-include-unstarted-9987fc0597d5 }
 
-**Contract fields:**
-
-- `name`: `"include_unstarted"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field include_unstarted boolean
+include_unstarted = ... -- boolean
+```
 
 **Sources:**
 
@@ -12035,10 +12635,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbProficiencyState` { #symbol-api-lua-v5-generated-class-ccbproficiencystate-c13c49b8e7e9 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbProficiencyState = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `name` | `string` | Read-write |
+| `known` | `boolean` | Read-write |
+| `learning` | `boolean` | Read-write |
+| `practice` | `number` | Read-write |
+| `practiced` | `TimeDuration` | Read-write |
+| `remaining` | `TimeDuration` | Read-write |
+| `prerequisites_met` | `boolean` | Read-write |
+| `can_practice` | `boolean` | Read-write |
+| `ignore_focus` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -12046,11 +12661,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbproficiencystate-id-a3a82999f271 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -12058,11 +12672,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbproficiencystate-name-1a13530c5dc2 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -12070,11 +12683,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `known` { #symbol-api-lua-v5-generated-property-ccbproficiencystate-known-34c7b78978bd }
 
-**Contract fields:**
-
-- `name`: `"known"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field known boolean
+known = ... -- boolean
+```
 
 **Sources:**
 
@@ -12082,11 +12694,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `learning` { #symbol-api-lua-v5-generated-property-ccbproficiencystate-learning-a0bcf909830d }
 
-**Contract fields:**
-
-- `name`: `"learning"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field learning boolean
+learning = ... -- boolean
+```
 
 **Sources:**
 
@@ -12094,11 +12705,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `practice` { #symbol-api-lua-v5-generated-property-ccbproficiencystate-practice-9d062b943d3e }
 
-**Contract fields:**
-
-- `name`: `"practice"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field practice number
+practice = ... -- number
+```
 
 **Sources:**
 
@@ -12106,11 +12716,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `practiced` { #symbol-api-lua-v5-generated-property-ccbproficiencystate-practiced-441e379686f5 }
 
-**Contract fields:**
-
-- `name`: `"practiced"`
-- `optional`: `false`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field practiced TimeDuration
+practiced = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -12118,11 +12727,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `remaining` { #symbol-api-lua-v5-generated-property-ccbproficiencystate-remaining-51a222979ab0 }
 
-**Contract fields:**
-
-- `name`: `"remaining"`
-- `optional`: `false`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field remaining TimeDuration
+remaining = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -12130,11 +12738,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `prerequisites_met` { #symbol-api-lua-v5-generated-property-ccbproficiencystate-prerequisites-met-104a2d920872 }
 
-**Contract fields:**
-
-- `name`: `"prerequisites_met"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field prerequisites_met boolean
+prerequisites_met = ... -- boolean
+```
 
 **Sources:**
 
@@ -12142,11 +12749,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `can_practice` { #symbol-api-lua-v5-generated-property-ccbproficiencystate-can-practice-1bde04c1e1c7 }
 
-**Contract fields:**
-
-- `name`: `"can_practice"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field can_practice boolean
+can_practice = ... -- boolean
+```
 
 **Sources:**
 
@@ -12154,11 +12760,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `ignore_focus` { #symbol-api-lua-v5-generated-property-ccbproficiencystate-ignore-focus-95c7c128d37d }
 
-**Contract fields:**
-
-- `name`: `"ignore_focus"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field ignore_focus boolean
+ignore_focus = ... -- boolean
+```
 
 **Sources:**
 
@@ -12166,10 +12771,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbQueuedAction` { #symbol-api-lua-v5-generated-class-ccbqueuedaction-e12de30e31ca }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbQueuedAction = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `integer` | Read-write |
+| `type` | `string` | Read-write |
+| `status` | `'"queued"'` | Read-write |
+| `queued_turn` | `integer` | Read-write |
+| `action` | `string` | Read-write |
+| `context_revision` | `integer` | Read-write |
+| `dangerous` | `boolean` | Read-write |
+| `source` | `string` | Read-write |
 
 **Sources:**
 
@@ -12177,11 +12795,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbqueuedaction-id-44ecd6cc0d2b }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field id integer
+id = ... -- integer
+```
 
 **Sources:**
 
@@ -12189,11 +12806,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbqueuedaction-type-796d699ab99f }
 
-**Contract fields:**
-
-- `name`: `"type"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field type string
+type = ... -- string
+```
 
 **Sources:**
 
@@ -12201,11 +12817,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `status` { #symbol-api-lua-v5-generated-property-ccbqueuedaction-status-838fdc7fb02e }
 
-**Contract fields:**
-
-- `name`: `"status"`
-- `optional`: `false`
-- `declaration`: `"'\"queued\"'"`
+```lua
+---@field status '"queued"'
+status = ... -- '"queued"'
+```
 
 **Sources:**
 
@@ -12213,11 +12828,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `queued_turn` { #symbol-api-lua-v5-generated-property-ccbqueuedaction-queued-turn-104efe0f7305 }
 
-**Contract fields:**
-
-- `name`: `"queued_turn"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field queued_turn integer
+queued_turn = ... -- integer
+```
 
 **Sources:**
 
@@ -12225,11 +12839,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `action` { #symbol-api-lua-v5-generated-property-ccbqueuedaction-action-67ed78f9a7cf }
 
-**Contract fields:**
-
-- `name`: `"action"`
-- `optional`: `true`
-- `declaration`: `"string"`
+```lua
+---@field action string
+action = ... -- string
+```
 
 **Sources:**
 
@@ -12237,11 +12850,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `context_revision` { #symbol-api-lua-v5-generated-property-ccbqueuedaction-context-revision-b972d0720a86 }
 
-**Contract fields:**
-
-- `name`: `"context_revision"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field context_revision integer
+context_revision = ... -- integer
+```
 
 **Sources:**
 
@@ -12249,11 +12861,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `dangerous` { #symbol-api-lua-v5-generated-property-ccbqueuedaction-dangerous-27193fde342c }
 
-**Contract fields:**
-
-- `name`: `"dangerous"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field dangerous boolean
+dangerous = ... -- boolean
+```
 
 **Sources:**
 
@@ -12261,11 +12872,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `source` { #symbol-api-lua-v5-generated-property-ccbqueuedaction-source-a06ec12ff859 }
 
-**Contract fields:**
-
-- `name`: `"source"`
-- `optional`: `true`
-- `declaration`: `"string"`
+```lua
+---@field source string
+source = ... -- string
+```
 
 **Sources:**
 
@@ -12273,10 +12883,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbRadialOption` { #symbol-api-lua-v5-generated-class-ccbradialoption-533f61b1e951 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbRadialOption = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `string` | Read-write |
+| `label` | `string` | Read-write |
+| `enabled` | `boolean` | Read-write |
+| `selected` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -12284,11 +12903,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbradialoption-id-b8f90730e72c }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field id string
+id = ... -- string
+```
 
 **Sources:**
 
@@ -12296,11 +12914,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `label` { #symbol-api-lua-v5-generated-property-ccbradialoption-label-abbfd99b6c36 }
 
-**Contract fields:**
-
-- `name`: `"label"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field label string
+label = ... -- string
+```
 
 **Sources:**
 
@@ -12308,11 +12925,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `enabled` { #symbol-api-lua-v5-generated-property-ccbradialoption-enabled-6801e2f32600 }
 
-**Contract fields:**
-
-- `name`: `"enabled"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field enabled boolean
+enabled = ... -- boolean
+```
 
 **Sources:**
 
@@ -12320,11 +12936,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `selected` { #symbol-api-lua-v5-generated-property-ccbradialoption-selected-84bf0148e950 }
 
-**Contract fields:**
-
-- `name`: `"selected"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field selected boolean
+selected = ... -- boolean
+```
 
 **Sources:**
 
@@ -12332,10 +12947,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbRandomApi` { #symbol-api-lua-v5-generated-class-ccbrandomapi-74c52f5c679c }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbRandomApi = {}
+```
 
 **Sources:**
 
@@ -12343,10 +12958,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbRecipeListOptions` { #symbol-api-lua-v5-generated-class-ccbrecipelistoptions-ac0697f8a4e6 }
 
-**Contract fields:**
+```lua
+---@class : CcbPageOptions
+local CcbRecipeListOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbPageOptions"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `batch` | `integer` | Read-write |
+| `include_obsolete` | `boolean` | Read-write |
+| `known` | `boolean` | Read-write |
+| `craftable` | `boolean` | Read-write |
+| `skill` | `GameId` | Read-write |
+| `result` | `GameId` | Read-write |
+| `flag` | `string` | Read-write |
 
 **Sources:**
 
@@ -12354,11 +12981,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `batch` { #symbol-api-lua-v5-generated-property-ccbrecipelistoptions-batch-1c42b4789483 }
 
-**Contract fields:**
-
-- `name`: `"batch"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field batch integer
+batch = ... -- integer
+```
 
 **Sources:**
 
@@ -12366,11 +12992,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `include_obsolete` { #symbol-api-lua-v5-generated-property-ccbrecipelistoptions-include-obsolete-460b715e2813 }
 
-**Contract fields:**
-
-- `name`: `"include_obsolete"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field include_obsolete boolean
+include_obsolete = ... -- boolean
+```
 
 **Sources:**
 
@@ -12378,11 +13003,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `known` { #symbol-api-lua-v5-generated-property-ccbrecipelistoptions-known-f3da0dbd6a20 }
 
-**Contract fields:**
-
-- `name`: `"known"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field known boolean
+known = ... -- boolean
+```
 
 **Sources:**
 
@@ -12390,11 +13014,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `craftable` { #symbol-api-lua-v5-generated-property-ccbrecipelistoptions-craftable-53de09ef298c }
 
-**Contract fields:**
-
-- `name`: `"craftable"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field craftable boolean
+craftable = ... -- boolean
+```
 
 **Sources:**
 
@@ -12402,11 +13025,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `skill` { #symbol-api-lua-v5-generated-property-ccbrecipelistoptions-skill-f7e6b6ed8210 }
 
-**Contract fields:**
-
-- `name`: `"skill"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field skill GameId
+skill = ... -- GameId
+```
 
 **Sources:**
 
@@ -12414,11 +13036,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `result` { #symbol-api-lua-v5-generated-property-ccbrecipelistoptions-result-e4f304fcb3b9 }
 
-**Contract fields:**
-
-- `name`: `"result"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field result GameId
+result = ... -- GameId
+```
 
 **Sources:**
 
@@ -12426,11 +13047,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `flag` { #symbol-api-lua-v5-generated-property-ccbrecipelistoptions-flag-f30c4796666b }
 
-**Contract fields:**
-
-- `name`: `"flag"`
-- `optional`: `true`
-- `declaration`: `"string"`
+```lua
+---@field flag string
+flag = ... -- string
+```
 
 **Sources:**
 
@@ -12438,10 +13058,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbRecipesApi` { #symbol-api-lua-v5-generated-class-ccbrecipesapi-884dfd321275 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbRecipesApi = {}
+```
 
 **Sources:**
 
@@ -12449,10 +13069,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbRegistryApi` { #symbol-api-lua-v5-generated-class-ccbregistryapi-9efc5bf1fccb }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbRegistryApi = {}
+```
 
 **Sources:**
 
@@ -12460,10 +13080,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbRegistryDefinition` { #symbol-api-lua-v5-generated-class-ccbregistrydefinition-0632062db9f5 }
 
-**Contract fields:**
+```lua
+---@class : CcbRegistryEntry
+local CcbRegistryDefinition = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbRegistryEntry"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `kind` | `CcbRegistryKind` | Read-write |
+| `description` | `string` | Read-write |
 
 **Sources:**
 
@@ -12471,11 +13098,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `kind` { #symbol-api-lua-v5-generated-property-ccbregistrydefinition-kind-8d6538819489 }
 
-**Contract fields:**
-
-- `name`: `"kind"`
-- `optional`: `false`
-- `declaration`: `"CcbRegistryKind"`
+```lua
+---@field kind CcbRegistryKind
+kind = ... -- CcbRegistryKind
+```
 
 **Sources:**
 
@@ -12483,11 +13109,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbregistrydefinition-description-b64b2dbc88fd }
 
-**Contract fields:**
-
-- `name`: `"description"`
-- `optional`: `true`
-- `declaration`: `"string"`
+```lua
+---@field description string
+description = ... -- string
+```
 
 **Sources:**
 
@@ -12495,10 +13120,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbRegistryEntry` { #symbol-api-lua-v5-generated-class-ccbregistryentry-eb006af383f1 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbRegistryEntry = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `string` | Read-write |
+| `name` | `string` | Read-write |
 
 **Sources:**
 
@@ -12506,11 +13138,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbregistryentry-id-8a87d5be8777 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field id string
+id = ... -- string
+```
 
 **Sources:**
 
@@ -12518,11 +13149,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbregistryentry-name-50e73457da3c }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -12530,10 +13160,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbRegistryListOptions` { #symbol-api-lua-v5-generated-class-ccbregistrylistoptions-a89200874d68 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbRegistryListOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `offset` | `integer` | Read-write |
+| `limit` | `integer` | Read-write |
+| `query` | `string` | Read-write |
+| `details` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -12541,11 +13180,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `offset` { #symbol-api-lua-v5-generated-property-ccbregistrylistoptions-offset-5ec0049cd85a }
 
-**Contract fields:**
-
-- `name`: `"offset"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field offset integer
+offset = ... -- integer
+```
 
 **Sources:**
 
@@ -12553,11 +13191,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbregistrylistoptions-limit-249e5de115ef }
 
-**Contract fields:**
-
-- `name`: `"limit"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field limit integer
+limit = ... -- integer
+```
 
 **Sources:**
 
@@ -12565,11 +13202,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `query` { #symbol-api-lua-v5-generated-property-ccbregistrylistoptions-query-dd6f35814f64 }
 
-**Contract fields:**
-
-- `name`: `"query"`
-- `optional`: `true`
-- `declaration`: `"string"`
+```lua
+---@field query string
+query = ... -- string
+```
 
 **Sources:**
 
@@ -12577,11 +13213,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `details` { #symbol-api-lua-v5-generated-property-ccbregistrylistoptions-details-235aa084c045 }
 
-**Contract fields:**
-
-- `name`: `"details"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field details boolean
+details = ... -- boolean
+```
 
 **Sources:**
 
@@ -12589,10 +13224,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbRegistryPage` { #symbol-api-lua-v5-generated-class-ccbregistrypage-d9145f339fdf }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbRegistryPage = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `kind` | `CcbRegistryKind` | Read-write |
+| `revision` | `integer` | Read-write |
+| `offset` | `integer` | Read-write |
+| `limit` | `integer` | Read-write |
+| `total` | `integer` | Read-write |
+| `returned` | `integer` | Read-write |
+| `has_more` | `boolean` | Read-write |
+| `entries` | `(CcbRegistryEntry|CcbRegistryDefinition)[]` | Read-write |
 
 **Sources:**
 
@@ -12600,11 +13248,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `kind` { #symbol-api-lua-v5-generated-property-ccbregistrypage-kind-b383b4c9b074 }
 
-**Contract fields:**
-
-- `name`: `"kind"`
-- `optional`: `false`
-- `declaration`: `"CcbRegistryKind"`
+```lua
+---@field kind CcbRegistryKind
+kind = ... -- CcbRegistryKind
+```
 
 **Sources:**
 
@@ -12612,11 +13259,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `revision` { #symbol-api-lua-v5-generated-property-ccbregistrypage-revision-77f5f19c882a }
 
-**Contract fields:**
-
-- `name`: `"revision"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field revision integer
+revision = ... -- integer
+```
 
 **Sources:**
 
@@ -12624,11 +13270,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `offset` { #symbol-api-lua-v5-generated-property-ccbregistrypage-offset-d41eb4cf7c84 }
 
-**Contract fields:**
-
-- `name`: `"offset"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field offset integer
+offset = ... -- integer
+```
 
 **Sources:**
 
@@ -12636,11 +13281,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbregistrypage-limit-89ae180f663c }
 
-**Contract fields:**
-
-- `name`: `"limit"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field limit integer
+limit = ... -- integer
+```
 
 **Sources:**
 
@@ -12648,11 +13292,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `total` { #symbol-api-lua-v5-generated-property-ccbregistrypage-total-d086b44733e6 }
 
-**Contract fields:**
-
-- `name`: `"total"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field total integer
+total = ... -- integer
+```
 
 **Sources:**
 
@@ -12660,11 +13303,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `returned` { #symbol-api-lua-v5-generated-property-ccbregistrypage-returned-fb0e00d02441 }
 
-**Contract fields:**
-
-- `name`: `"returned"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field returned integer
+returned = ... -- integer
+```
 
 **Sources:**
 
@@ -12672,11 +13314,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `has_more` { #symbol-api-lua-v5-generated-property-ccbregistrypage-has-more-9800da8c022c }
 
-**Contract fields:**
-
-- `name`: `"has_more"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field has_more boolean
+has_more = ... -- boolean
+```
 
 **Sources:**
 
@@ -12684,11 +13325,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `entries` { #symbol-api-lua-v5-generated-property-ccbregistrypage-entries-a92c14f95ea1 }
 
-**Contract fields:**
-
-- `name`: `"entries"`
-- `optional`: `false`
-- `declaration`: `"(CcbRegistryEntry|CcbRegistryDefinition)[]"`
+```lua
+---@field entries (CcbRegistryEntry|CcbRegistryDefinition)[]
+entries = ... -- (CcbRegistryEntry|CcbRegistryDefinition)[]
+```
 
 **Sources:**
 
@@ -12696,10 +13336,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbRelocationApi` { #symbol-api-lua-v5-generated-class-ccbrelocationapi-492a188835bc }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbRelocationApi = {}
+```
 
 **Sources:**
 
@@ -12707,10 +13347,16 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbRequirementListOptions` { #symbol-api-lua-v5-generated-class-ccbrequirementlistoptions-6973971db9f1 }
 
-**Contract fields:**
+```lua
+---@class : CcbPageOptions
+local CcbRequirementListOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbPageOptions"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `batch` | `integer` | Read-write |
 
 **Sources:**
 
@@ -12718,11 +13364,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `batch` { #symbol-api-lua-v5-generated-property-ccbrequirementlistoptions-batch-5ed0125a88a3 }
 
-**Contract fields:**
-
-- `name`: `"batch"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field batch integer
+batch = ... -- integer
+```
 
 **Sources:**
 
@@ -12730,10 +13375,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbRequirementsApi` { #symbol-api-lua-v5-generated-class-ccbrequirementsapi-eeaec1ba5435 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbRequirementsApi = {}
+```
 
 **Sources:**
 
@@ -12741,10 +13386,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbResult` { #symbol-api-lua-v5-generated-class-ccbresult-afc2d8632769 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbResult = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `ok` | `boolean` | Read-write |
+| `value` | `any` | Read-write |
+| `error` | `CcbError` | Read-write |
 
 **Sources:**
 
@@ -12752,11 +13405,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `ok` { #symbol-api-lua-v5-generated-property-ccbresult-ok-9e4ae8342257 }
 
-**Contract fields:**
-
-- `name`: `"ok"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field ok boolean
+ok = ... -- boolean
+```
 
 **Sources:**
 
@@ -12764,11 +13416,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `value` { #symbol-api-lua-v5-generated-property-ccbresult-value-a857a2027077 }
 
-**Contract fields:**
-
-- `name`: `"value"`
-- `optional`: `true`
-- `declaration`: `"any"`
+```lua
+---@field value any
+value = ... -- any
+```
 
 **Sources:**
 
@@ -12776,11 +13427,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `error` { #symbol-api-lua-v5-generated-property-ccbresult-error-dd75bce1a621 }
 
-**Contract fields:**
-
-- `name`: `"error"`
-- `optional`: `true`
-- `declaration`: `"CcbError"`
+```lua
+---@field error CcbError
+error = ... -- CcbError
+```
 
 **Sources:**
 
@@ -12788,10 +13438,32 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbRuntimeStatus` { #symbol-api-lua-v5-generated-class-ccbruntimestatus-def8fa659f38 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbRuntimeStatus = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `loaded` | `boolean` | Read-write |
+| `generation` | `integer` | Read-write |
+| `world_generation` | `integer` | Read-write |
+| `pages` | `integer` | Read-write |
+| `action_menu_entries` | `integer` | Read-write |
+| `sidebar_widgets` | `integer` | Read-write |
+| `event_handlers` | `integer` | Read-write |
+| `mapgen_handlers` | `integer` | Read-write |
+| `sources` | `integer` | Read-write |
+| `memory_used` | `integer` | Read-write |
+| `memory_limit` | `integer` | Read-write |
+| `callback_count` | `integer` | Read-write |
+| `callback_time_total_us` | `integer` | Read-write |
+| `callback_time_max_us` | `integer` | Read-write |
+| `slow_callback_count` | `integer` | Read-write |
+| `last_slow_callback` | `string` | Read-write |
+| `last_error` | `string` | Read-write |
 
 **Sources:**
 
@@ -12799,11 +13471,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `loaded` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-loaded-f36021d6b595 }
 
-**Contract fields:**
-
-- `name`: `"loaded"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field loaded boolean
+loaded = ... -- boolean
+```
 
 **Sources:**
 
@@ -12811,11 +13482,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `generation` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-generation-b3929e393a95 }
 
-**Contract fields:**
-
-- `name`: `"generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field generation integer
+generation = ... -- integer
+```
 
 **Sources:**
 
@@ -12823,11 +13493,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `world_generation` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-world-generation-a089165f1c3c }
 
-**Contract fields:**
-
-- `name`: `"world_generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field world_generation integer
+world_generation = ... -- integer
+```
 
 **Sources:**
 
@@ -12835,11 +13504,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `pages` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-pages-6750a3019412 }
 
-**Contract fields:**
-
-- `name`: `"pages"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field pages integer
+pages = ... -- integer
+```
 
 **Sources:**
 
@@ -12847,11 +13515,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `action_menu_entries` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-action-menu-entries-d0e9322e81b1 }
 
-**Contract fields:**
-
-- `name`: `"action_menu_entries"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field action_menu_entries integer
+action_menu_entries = ... -- integer
+```
 
 **Sources:**
 
@@ -12859,11 +13526,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sidebar_widgets` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-sidebar-widgets-74745fe20fc7 }
 
-**Contract fields:**
-
-- `name`: `"sidebar_widgets"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field sidebar_widgets integer
+sidebar_widgets = ... -- integer
+```
 
 **Sources:**
 
@@ -12871,11 +13537,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `event_handlers` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-event-handlers-dec2919d313b }
 
-**Contract fields:**
-
-- `name`: `"event_handlers"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field event_handlers integer
+event_handlers = ... -- integer
+```
 
 **Sources:**
 
@@ -12883,11 +13548,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `mapgen_handlers` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-mapgen-handlers-97e43ed443aa }
 
-**Contract fields:**
-
-- `name`: `"mapgen_handlers"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field mapgen_handlers integer
+mapgen_handlers = ... -- integer
+```
 
 **Sources:**
 
@@ -12895,11 +13559,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sources` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-sources-4ff2dc4676a3 }
 
-**Contract fields:**
-
-- `name`: `"sources"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field sources integer
+sources = ... -- integer
+```
 
 **Sources:**
 
@@ -12907,11 +13570,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `memory_used` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-memory-used-3e4fa0b33a41 }
 
-**Contract fields:**
-
-- `name`: `"memory_used"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field memory_used integer
+memory_used = ... -- integer
+```
 
 **Sources:**
 
@@ -12919,11 +13581,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `memory_limit` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-memory-limit-b90b6481f8e9 }
 
-**Contract fields:**
-
-- `name`: `"memory_limit"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field memory_limit integer
+memory_limit = ... -- integer
+```
 
 **Sources:**
 
@@ -12931,11 +13592,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `callback_count` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-callback-count-3b1f127b0dcb }
 
-**Contract fields:**
-
-- `name`: `"callback_count"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field callback_count integer
+callback_count = ... -- integer
+```
 
 **Sources:**
 
@@ -12943,11 +13603,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `callback_time_total_us` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-callback-time-total-us-a31e51528f70 }
 
-**Contract fields:**
-
-- `name`: `"callback_time_total_us"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field callback_time_total_us integer
+callback_time_total_us = ... -- integer
+```
 
 **Sources:**
 
@@ -12955,11 +13614,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `callback_time_max_us` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-callback-time-max-us-ac14efe5076e }
 
-**Contract fields:**
-
-- `name`: `"callback_time_max_us"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field callback_time_max_us integer
+callback_time_max_us = ... -- integer
+```
 
 **Sources:**
 
@@ -12967,11 +13625,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `slow_callback_count` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-slow-callback-count-f564ad15b706 }
 
-**Contract fields:**
-
-- `name`: `"slow_callback_count"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field slow_callback_count integer
+slow_callback_count = ... -- integer
+```
 
 **Sources:**
 
@@ -12979,11 +13636,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `last_slow_callback` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-last-slow-callback-de5cadd04967 }
 
-**Contract fields:**
-
-- `name`: `"last_slow_callback"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field last_slow_callback string
+last_slow_callback = ... -- string
+```
 
 **Sources:**
 
@@ -12991,11 +13647,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `last_error` { #symbol-api-lua-v5-generated-property-ccbruntimestatus-last-error-6c6fb5f110a8 }
 
-**Contract fields:**
-
-- `name`: `"last_error"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field last_error string
+last_error = ... -- string
+```
 
 **Sources:**
 
@@ -13003,10 +13658,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbSchedulerApi` { #symbol-api-lua-v5-generated-class-ccbschedulerapi-5744977a0273 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbSchedulerApi = {}
+```
 
 **Sources:**
 
@@ -13014,10 +13669,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbSerdeApi` { #symbol-api-lua-v5-generated-class-ccbserdeapi-44947fbfaabf }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbSerdeApi = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `format` | `'"ccb_lua_value"'` | Read-write |
+| `version` | `integer` | Read-write |
+| `max_bytes` | `integer` | Read-write |
+| `max_depth` | `integer` | Read-write |
+| `max_nodes` | `integer` | Read-write |
+| `max_table_entries` | `integer` | Read-write |
 
 **Sources:**
 
@@ -13025,11 +13691,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `format` { #symbol-api-lua-v5-generated-property-ccbserdeapi-format-9dba57af2ddb }
 
-**Contract fields:**
-
-- `name`: `"format"`
-- `optional`: `false`
-- `declaration`: `"'\"ccb_lua_value\"'"`
+```lua
+---@field format '"ccb_lua_value"'
+format = ... -- '"ccb_lua_value"'
+```
 
 **Sources:**
 
@@ -13037,11 +13702,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `version` { #symbol-api-lua-v5-generated-property-ccbserdeapi-version-f183f1980318 }
 
-**Contract fields:**
-
-- `name`: `"version"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field version integer
+version = ... -- integer
+```
 
 **Sources:**
 
@@ -13049,11 +13713,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `max_bytes` { #symbol-api-lua-v5-generated-property-ccbserdeapi-max-bytes-7c8c761856ff }
 
-**Contract fields:**
-
-- `name`: `"max_bytes"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field max_bytes integer
+max_bytes = ... -- integer
+```
 
 **Sources:**
 
@@ -13061,11 +13724,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `max_depth` { #symbol-api-lua-v5-generated-property-ccbserdeapi-max-depth-de96004b0146 }
 
-**Contract fields:**
-
-- `name`: `"max_depth"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field max_depth integer
+max_depth = ... -- integer
+```
 
 **Sources:**
 
@@ -13073,11 +13735,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `max_nodes` { #symbol-api-lua-v5-generated-property-ccbserdeapi-max-nodes-ef035750dd8e }
 
-**Contract fields:**
-
-- `name`: `"max_nodes"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field max_nodes integer
+max_nodes = ... -- integer
+```
 
 **Sources:**
 
@@ -13085,11 +13746,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `max_table_entries` { #symbol-api-lua-v5-generated-property-ccbserdeapi-max-table-entries-a7635fb654fa }
 
-**Contract fields:**
-
-- `name`: `"max_table_entries"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field max_table_entries integer
+max_table_entries = ... -- integer
+```
 
 **Sources:**
 
@@ -13097,10 +13757,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbServiceDescriptor` { #symbol-api-lua-v5-generated-class-ccbservicedescriptor-dcbf2c411248 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbServiceDescriptor = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `version` | `integer` | Read-write |
+| `methods` | `table<string, fun(arguments: CcbScalarMap): CcbScalarMap?>` | Read-write |
 
 **Sources:**
 
@@ -13108,11 +13775,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `version` { #symbol-api-lua-v5-generated-property-ccbservicedescriptor-version-d85b19c18cdc }
 
-**Contract fields:**
-
-- `name`: `"version"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field version integer
+version = ... -- integer
+```
 
 **Sources:**
 
@@ -13120,11 +13786,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `methods` { #symbol-api-lua-v5-generated-property-ccbservicedescriptor-methods-8f3cadaae34c }
 
-**Contract fields:**
-
-- `name`: `"methods"`
-- `optional`: `false`
-- `declaration`: `"table<string, fun(arguments: CcbScalarMap): CcbScalarMap?>"`
+```lua
+---@field methods table<string, fun(arguments: CcbScalarMap): CcbScalarMap?>
+methods = ... -- table<string, fun(arguments: CcbScalarMap): CcbScalarMap?>
+```
 
 **Sources:**
 
@@ -13132,10 +13797,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbServiceInfo` { #symbol-api-lua-v5-generated-class-ccbserviceinfo-b2c19310d186 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbServiceInfo = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `provider` | `string` | Read-write |
+| `name` | `string` | Read-write |
+| `version` | `integer` | Read-write |
+| `methods` | `string[]` | Read-write |
 
 **Sources:**
 
@@ -13143,11 +13817,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `provider` { #symbol-api-lua-v5-generated-property-ccbserviceinfo-provider-b6edf8eae3f8 }
 
-**Contract fields:**
-
-- `name`: `"provider"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field provider string
+provider = ... -- string
+```
 
 **Sources:**
 
@@ -13155,11 +13828,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbserviceinfo-name-9f73b47be072 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -13167,11 +13839,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `version` { #symbol-api-lua-v5-generated-property-ccbserviceinfo-version-f515bac672ca }
 
-**Contract fields:**
-
-- `name`: `"version"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field version integer
+version = ... -- integer
+```
 
 **Sources:**
 
@@ -13179,11 +13850,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `methods` { #symbol-api-lua-v5-generated-property-ccbserviceinfo-methods-2e2087d0f201 }
 
-**Contract fields:**
-
-- `name`: `"methods"`
-- `optional`: `false`
-- `declaration`: `"string[]"`
+```lua
+---@field methods string[]
+methods = ... -- string[]
+```
 
 **Sources:**
 
@@ -13191,10 +13861,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbServicesApi` { #symbol-api-lua-v5-generated-class-ccbservicesapi-75f497f6d5a5 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbServicesApi = {}
+```
 
 **Sources:**
 
@@ -13202,10 +13872,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbSidebarApi` { #symbol-api-lua-v5-generated-class-ccbsidebarapi-6e8a5beb07be }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbSidebarApi = {}
+```
 
 **Sources:**
 
@@ -13213,10 +13883,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbSidebarLimits` { #symbol-api-lua-v5-generated-class-ccbsidebarlimits-3482a6eafa46 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbSidebarLimits = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `widgets` | `integer` | Read-write |
+| `widgets_per_source` | `integer` | Read-write |
+| `height` | `integer` | Read-write |
+| `lines` | `integer` | Read-write |
+| `line_bytes` | `integer` | Read-write |
+| `output_bytes` | `integer` | Read-write |
+| `callback_instructions` | `integer` | Read-write |
 
 **Sources:**
 
@@ -13224,11 +13906,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `widgets` { #symbol-api-lua-v5-generated-property-ccbsidebarlimits-widgets-ba78e8bf08be }
 
-**Contract fields:**
-
-- `name`: `"widgets"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field widgets integer
+widgets = ... -- integer
+```
 
 **Sources:**
 
@@ -13236,11 +13917,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `widgets_per_source` { #symbol-api-lua-v5-generated-property-ccbsidebarlimits-widgets-per-source-5f441bb3a86e }
 
-**Contract fields:**
-
-- `name`: `"widgets_per_source"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field widgets_per_source integer
+widgets_per_source = ... -- integer
+```
 
 **Sources:**
 
@@ -13248,11 +13928,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `height` { #symbol-api-lua-v5-generated-property-ccbsidebarlimits-height-f7054b87efdc }
 
-**Contract fields:**
-
-- `name`: `"height"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field height integer
+height = ... -- integer
+```
 
 **Sources:**
 
@@ -13260,11 +13939,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `lines` { #symbol-api-lua-v5-generated-property-ccbsidebarlimits-lines-875310c17d6a }
 
-**Contract fields:**
-
-- `name`: `"lines"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field lines integer
+lines = ... -- integer
+```
 
 **Sources:**
 
@@ -13272,11 +13950,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `line_bytes` { #symbol-api-lua-v5-generated-property-ccbsidebarlimits-line-bytes-5719fe85fcc8 }
 
-**Contract fields:**
-
-- `name`: `"line_bytes"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field line_bytes integer
+line_bytes = ... -- integer
+```
 
 **Sources:**
 
@@ -13284,11 +13961,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `output_bytes` { #symbol-api-lua-v5-generated-property-ccbsidebarlimits-output-bytes-3759c2df9934 }
 
-**Contract fields:**
-
-- `name`: `"output_bytes"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field output_bytes integer
+output_bytes = ... -- integer
+```
 
 **Sources:**
 
@@ -13296,11 +13972,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `callback_instructions` { #symbol-api-lua-v5-generated-property-ccbsidebarlimits-callback-instructions-30551a593863 }
 
-**Contract fields:**
-
-- `name`: `"callback_instructions"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field callback_instructions integer
+callback_instructions = ... -- integer
+```
 
 **Sources:**
 
@@ -13308,10 +13983,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbSidebarLine` { #symbol-api-lua-v5-generated-class-ccbsidebarline-c39374c799c9 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbSidebarLine = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `text` | `string` | Read-write |
+| `color` | `string` | Read-write |
 
 **Sources:**
 
@@ -13319,11 +14001,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `text` { #symbol-api-lua-v5-generated-property-ccbsidebarline-text-99fdb40da224 }
 
-**Contract fields:**
-
-- `name`: `"text"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field text string
+text = ... -- string
+```
 
 **Sources:**
 
@@ -13331,11 +14012,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `color` { #symbol-api-lua-v5-generated-property-ccbsidebarline-color-474fcb9d6118 }
 
-**Contract fields:**
-
-- `name`: `"color"`
-- `optional`: `true`
-- `declaration`: `"string"`
+```lua
+---@field color string
+color = ... -- string
+```
 
 **Sources:**
 
@@ -13343,10 +14023,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbSidebarWidgetDescriptor` { #symbol-api-lua-v5-generated-class-ccbsidebarwidgetdescriptor-03f3b13509fe }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbSidebarWidgetDescriptor = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `string` | Read-write |
+| `name` | `string` | Read-write |
+| `height` | `integer Use -2 for dynamic height, otherwise 1..64.` | Read-write |
+| `order` | `integer` | Read-write |
+| `default_toggle` | `boolean` | Read-write |
+| `redraw_every_frame` | `boolean` | Read-write |
+| `panel_visible` | `boolean|fun(): boolean` | Read-write |
+| `draw` | `fun(): CcbSidebarOutput` | Read-write |
+| `render` | `fun()` | Read-write |
 
 **Sources:**
 
@@ -13354,11 +14048,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetdescriptor-id-f5ce6d87b4da }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field id string
+id = ... -- string
+```
 
 **Sources:**
 
@@ -13366,11 +14059,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetdescriptor-name-4bf5a66db6e9 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `true`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -13378,11 +14070,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `height` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetdescriptor-height-cc8f3bdbd51a }
 
-**Contract fields:**
-
-- `name`: `"height"`
-- `optional`: `true`
-- `declaration`: `"integer Use -2 for dynamic height, otherwise 1..64."`
+```lua
+---@field height integer Use -2 for dynamic height, otherwise 1..64.
+height = ... -- integer Use -2 for dynamic height, otherwise 1..64.
+```
 
 **Sources:**
 
@@ -13390,11 +14081,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `order` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetdescriptor-order-fc610a17ff35 }
 
-**Contract fields:**
-
-- `name`: `"order"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field order integer
+order = ... -- integer
+```
 
 **Sources:**
 
@@ -13402,11 +14092,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `default_toggle` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetdescriptor-default-toggle-98eaf1bc54f3 }
 
-**Contract fields:**
-
-- `name`: `"default_toggle"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field default_toggle boolean
+default_toggle = ... -- boolean
+```
 
 **Sources:**
 
@@ -13414,11 +14103,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `redraw_every_frame` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetdescriptor-redraw-every-frame-b1933c3143ed }
 
-**Contract fields:**
-
-- `name`: `"redraw_every_frame"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field redraw_every_frame boolean
+redraw_every_frame = ... -- boolean
+```
 
 **Sources:**
 
@@ -13426,11 +14114,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `panel_visible` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetdescriptor-panel-visible-0d9723ca9983 }
 
-**Contract fields:**
-
-- `name`: `"panel_visible"`
-- `optional`: `true`
-- `declaration`: `"boolean|fun(): boolean"`
+```lua
+---@field panel_visible boolean|fun(): boolean
+panel_visible = ... -- boolean|fun(): boolean
+```
 
 **Sources:**
 
@@ -13438,11 +14125,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `draw` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetdescriptor-draw-f6a3d33967a2 }
 
-**Contract fields:**
-
-- `name`: `"draw"`
-- `optional`: `false`
-- `declaration`: `"fun(): CcbSidebarOutput"`
+```lua
+---@field draw fun(): CcbSidebarOutput
+draw = ... -- fun(): CcbSidebarOutput
+```
 
 **Sources:**
 
@@ -13450,11 +14136,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `render` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetdescriptor-render-705d54688d5f }
 
-**Contract fields:**
-
-- `name`: `"render"`
-- `optional`: `true`
-- `declaration`: `"fun()"`
+```lua
+---@field render fun()
+render = ... -- fun()
+```
 
 **Sources:**
 
@@ -13462,10 +14147,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbSidebarWidgetInfo` { #symbol-api-lua-v5-generated-class-ccbsidebarwidgetinfo-8cb28b22e5e2 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbSidebarWidgetInfo = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `registration_id` | `integer` | Read-write |
+| `key` | `string` | Read-write |
+| `id` | `string` | Read-write |
+| `name` | `string` | Read-write |
+| `source` | `string` | Read-write |
+| `height` | `integer` | Read-write |
+| `order` | `integer` | Read-write |
+| `default_toggle` | `boolean` | Read-write |
+| `redraw_every_frame` | `boolean` | Read-write |
+| `enabled` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -13473,11 +14173,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `registration_id` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetinfo-registration-id-eff0b955f34b }
 
-**Contract fields:**
-
-- `name`: `"registration_id"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field registration_id integer
+registration_id = ... -- integer
+```
 
 **Sources:**
 
@@ -13485,11 +14184,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `key` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetinfo-key-4595a5a25dc4 }
 
-**Contract fields:**
-
-- `name`: `"key"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field key string
+key = ... -- string
+```
 
 **Sources:**
 
@@ -13497,11 +14195,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetinfo-id-cb7623454e51 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field id string
+id = ... -- string
+```
 
 **Sources:**
 
@@ -13509,11 +14206,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetinfo-name-765a3154606d }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -13521,11 +14217,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `source` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetinfo-source-3a3489122441 }
 
-**Contract fields:**
-
-- `name`: `"source"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field source string
+source = ... -- string
+```
 
 **Sources:**
 
@@ -13533,11 +14228,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `height` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetinfo-height-1490f05602a9 }
 
-**Contract fields:**
-
-- `name`: `"height"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field height integer
+height = ... -- integer
+```
 
 **Sources:**
 
@@ -13545,11 +14239,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `order` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetinfo-order-a076c77e1164 }
 
-**Contract fields:**
-
-- `name`: `"order"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field order integer
+order = ... -- integer
+```
 
 **Sources:**
 
@@ -13557,11 +14250,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `default_toggle` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetinfo-default-toggle-5e109ea55dea }
 
-**Contract fields:**
-
-- `name`: `"default_toggle"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field default_toggle boolean
+default_toggle = ... -- boolean
+```
 
 **Sources:**
 
@@ -13569,11 +14261,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `redraw_every_frame` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetinfo-redraw-every-frame-144326cba15a }
 
-**Contract fields:**
-
-- `name`: `"redraw_every_frame"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field redraw_every_frame boolean
+redraw_every_frame = ... -- boolean
+```
 
 **Sources:**
 
@@ -13581,11 +14272,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `enabled` { #symbol-api-lua-v5-generated-property-ccbsidebarwidgetinfo-enabled-722d50ac68b3 }
 
-**Contract fields:**
-
-- `name`: `"enabled"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field enabled boolean
+enabled = ... -- boolean
+```
 
 **Sources:**
 
@@ -13593,10 +14283,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbSkillAdjustments` { #symbol-api-lua-v5-generated-class-ccbskilladjustments-64dbf02c666e }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbSkillAdjustments = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `practical` | `integer` | Read-write |
+| `knowledge` | `integer` | Read-write |
+| `exercise_percent` | `integer` | Read-write |
 
 **Sources:**
 
@@ -13604,11 +14302,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `practical` { #symbol-api-lua-v5-generated-property-ccbskilladjustments-practical-a6fa5e771ccf }
 
-**Contract fields:**
-
-- `name`: `"practical"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field practical integer
+practical = ... -- integer
+```
 
 **Sources:**
 
@@ -13616,11 +14313,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `knowledge` { #symbol-api-lua-v5-generated-property-ccbskilladjustments-knowledge-978f2565cf99 }
 
-**Contract fields:**
-
-- `name`: `"knowledge"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field knowledge integer
+knowledge = ... -- integer
+```
 
 **Sources:**
 
@@ -13628,11 +14324,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `exercise_percent` { #symbol-api-lua-v5-generated-property-ccbskilladjustments-exercise-percent-fe2423070aba }
 
-**Contract fields:**
-
-- `name`: `"exercise_percent"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field exercise_percent integer
+exercise_percent = ... -- integer
+```
 
 **Sources:**
 
@@ -13640,10 +14335,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbSkillDefinitionPage` { #symbol-api-lua-v5-generated-class-ccbskilldefinitionpage-5ac72a5145c8 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbSkillDefinitionPage = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `items` | `CcbNativeSkillDefinition[]` | Read-write |
+| `offset` | `integer` | Read-write |
+| `limit` | `integer` | Read-write |
+| `total` | `integer` | Read-write |
+| `returned` | `integer` | Read-write |
+| `has_more` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -13651,11 +14357,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `items` { #symbol-api-lua-v5-generated-property-ccbskilldefinitionpage-items-3fb87c6518a4 }
 
-**Contract fields:**
-
-- `name`: `"items"`
-- `optional`: `false`
-- `declaration`: `"CcbNativeSkillDefinition[]"`
+```lua
+---@field items CcbNativeSkillDefinition[]
+items = ... -- CcbNativeSkillDefinition[]
+```
 
 **Sources:**
 
@@ -13663,11 +14368,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `offset` { #symbol-api-lua-v5-generated-property-ccbskilldefinitionpage-offset-37b57aa1385e }
 
-**Contract fields:**
-
-- `name`: `"offset"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field offset integer
+offset = ... -- integer
+```
 
 **Sources:**
 
@@ -13675,11 +14379,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbskilldefinitionpage-limit-4e45479a699f }
 
-**Contract fields:**
-
-- `name`: `"limit"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field limit integer
+limit = ... -- integer
+```
 
 **Sources:**
 
@@ -13687,11 +14390,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `total` { #symbol-api-lua-v5-generated-property-ccbskilldefinitionpage-total-6e432bb0103e }
 
-**Contract fields:**
-
-- `name`: `"total"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field total integer
+total = ... -- integer
+```
 
 **Sources:**
 
@@ -13699,11 +14401,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `returned` { #symbol-api-lua-v5-generated-property-ccbskilldefinitionpage-returned-e07e2346b3a2 }
 
-**Contract fields:**
-
-- `name`: `"returned"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field returned integer
+returned = ... -- integer
+```
 
 **Sources:**
 
@@ -13711,11 +14412,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `has_more` { #symbol-api-lua-v5-generated-property-ccbskilldefinitionpage-has-more-6b24436efc17 }
 
-**Contract fields:**
-
-- `name`: `"has_more"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field has_more boolean
+has_more = ... -- boolean
+```
 
 **Sources:**
 
@@ -13723,10 +14423,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbSkillListOptions` { #symbol-api-lua-v5-generated-class-ccbskilllistoptions-bbb18341524a }
 
-**Contract fields:**
+```lua
+---@class : CcbPageOptions
+local CcbSkillListOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbPageOptions"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `include_obsolete` | `boolean` | Read-write |
+| `include_contextual` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -13734,11 +14441,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `include_obsolete` { #symbol-api-lua-v5-generated-property-ccbskilllistoptions-include-obsolete-184b16728afc }
 
-**Contract fields:**
-
-- `name`: `"include_obsolete"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field include_obsolete boolean
+include_obsolete = ... -- boolean
+```
 
 **Sources:**
 
@@ -13746,11 +14452,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `include_contextual` { #symbol-api-lua-v5-generated-property-ccbskilllistoptions-include-contextual-b54124872273 }
 
-**Contract fields:**
-
-- `name`: `"include_contextual"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field include_contextual boolean
+include_contextual = ... -- boolean
+```
 
 **Sources:**
 
@@ -13758,10 +14463,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbSkillPracticeOptions` { #symbol-api-lua-v5-generated-class-ccbskillpracticeoptions-fd5276c1d896 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbSkillPracticeOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `cap` | `integer` | Read-write |
+| `allow_multilevel` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -13769,11 +14481,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `cap` { #symbol-api-lua-v5-generated-property-ccbskillpracticeoptions-cap-7537df54e4c5 }
 
-**Contract fields:**
-
-- `name`: `"cap"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field cap integer
+cap = ... -- integer
+```
 
 **Sources:**
 
@@ -13781,11 +14492,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `allow_multilevel` { #symbol-api-lua-v5-generated-property-ccbskillpracticeoptions-allow-multilevel-70358781b1b0 }
 
-**Contract fields:**
-
-- `name`: `"allow_multilevel"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field allow_multilevel boolean
+allow_multilevel = ... -- boolean
+```
 
 **Sources:**
 
@@ -13793,10 +14503,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbSkillSnapshot` { #symbol-api-lua-v5-generated-class-ccbskillsnapshot-7ddd0546bdac }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbSkillSnapshot = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `string` | Read-write |
+| `name` | `string` | Read-write |
+| `description` | `string` | Read-write |
+| `level` | `integer` | Read-write |
+| `exercise_percent` | `integer` | Read-write |
+| `knowledge_level` | `integer` | Read-write |
+| `knowledge_percent` | `integer` | Read-write |
+| `rusty` | `boolean` | Read-write |
+| `training` | `boolean` | Read-write |
+| `combat` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -13804,11 +14529,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbskillsnapshot-id-767a9de960fd }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field id string
+id = ... -- string
+```
 
 **Sources:**
 
@@ -13816,11 +14540,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbskillsnapshot-name-e1eaf151e09d }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -13828,11 +14551,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbskillsnapshot-description-1b1e0e418cce }
 
-**Contract fields:**
-
-- `name`: `"description"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field description string
+description = ... -- string
+```
 
 **Sources:**
 
@@ -13840,11 +14562,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `level` { #symbol-api-lua-v5-generated-property-ccbskillsnapshot-level-1b90d9be1e59 }
 
-**Contract fields:**
-
-- `name`: `"level"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field level integer
+level = ... -- integer
+```
 
 **Sources:**
 
@@ -13852,11 +14573,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `exercise_percent` { #symbol-api-lua-v5-generated-property-ccbskillsnapshot-exercise-percent-2457366d5a42 }
 
-**Contract fields:**
-
-- `name`: `"exercise_percent"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field exercise_percent integer
+exercise_percent = ... -- integer
+```
 
 **Sources:**
 
@@ -13864,11 +14584,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `knowledge_level` { #symbol-api-lua-v5-generated-property-ccbskillsnapshot-knowledge-level-d695cf86eb05 }
 
-**Contract fields:**
-
-- `name`: `"knowledge_level"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field knowledge_level integer
+knowledge_level = ... -- integer
+```
 
 **Sources:**
 
@@ -13876,11 +14595,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `knowledge_percent` { #symbol-api-lua-v5-generated-property-ccbskillsnapshot-knowledge-percent-2b8d30c3b76a }
 
-**Contract fields:**
-
-- `name`: `"knowledge_percent"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field knowledge_percent integer
+knowledge_percent = ... -- integer
+```
 
 **Sources:**
 
@@ -13888,11 +14606,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `rusty` { #symbol-api-lua-v5-generated-property-ccbskillsnapshot-rusty-beb747880fb3 }
 
-**Contract fields:**
-
-- `name`: `"rusty"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field rusty boolean
+rusty = ... -- boolean
+```
 
 **Sources:**
 
@@ -13900,11 +14617,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `training` { #symbol-api-lua-v5-generated-property-ccbskillsnapshot-training-c8f241c9305d }
 
-**Contract fields:**
-
-- `name`: `"training"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field training boolean
+training = ... -- boolean
+```
 
 **Sources:**
 
@@ -13912,11 +14628,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `combat` { #symbol-api-lua-v5-generated-property-ccbskillsnapshot-combat-cf997d3ab098 }
 
-**Contract fields:**
-
-- `name`: `"combat"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field combat boolean
+combat = ... -- boolean
+```
 
 **Sources:**
 
@@ -13924,10 +14639,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbSkillsApi` { #symbol-api-lua-v5-generated-class-ccbskillsapi-4f45f19e672a }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbSkillsApi = {}
+```
 
 **Sources:**
 
@@ -13935,10 +14650,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbSleepAdjustments` { #symbol-api-lua-v5-generated-class-ccbsleepadjustments-5ae60a3207e9 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbSleepAdjustments = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `daily` | `TimeDuration` | Read-write |
+| `continuous` | `TimeDuration` | Read-write |
 
 **Sources:**
 
@@ -13946,11 +14668,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `daily` { #symbol-api-lua-v5-generated-property-ccbsleepadjustments-daily-fedafd681609 }
 
-**Contract fields:**
-
-- `name`: `"daily"`
-- `optional`: `true`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field daily TimeDuration
+daily = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -13958,11 +14679,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `continuous` { #symbol-api-lua-v5-generated-property-ccbsleepadjustments-continuous-3101ae5c05b2 }
 
-**Contract fields:**
-
-- `name`: `"continuous"`
-- `optional`: `true`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field continuous TimeDuration
+continuous = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -13970,10 +14690,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbSoundApi` { #symbol-api-lua-v5-generated-class-ccbsoundapi-5770f31e364d }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbSoundApi = {}
+```
 
 **Sources:**
 
@@ -13981,10 +14701,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbSpawnsApi` { #symbol-api-lua-v5-generated-class-ccbspawnsapi-046c9aeba7db }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbSpawnsApi = {}
+```
 
 **Sources:**
 
@@ -13992,10 +14712,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbSpellsApi` { #symbol-api-lua-v5-generated-class-ccbspellsapi-eb8f67cfbc7d }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbSpellsApi = {}
+```
 
 **Sources:**
 
@@ -14003,10 +14723,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbStateApi` { #symbol-api-lua-v5-generated-class-ccbstateapi-94a4b7d4993b }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbStateApi = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `character` | `CcbStateStore` | Read-write |
+| `world` | `CcbStateStore` | Read-write |
+| `page` | `CcbStateStore` | Read-write |
 
 **Sources:**
 
@@ -14014,11 +14742,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `character` { #symbol-api-lua-v5-generated-property-ccbstateapi-character-ead975fa5ad4 }
 
-**Contract fields:**
-
-- `name`: `"character"`
-- `optional`: `false`
-- `declaration`: `"CcbStateStore"`
+```lua
+---@field character CcbStateStore
+character = ... -- CcbStateStore
+```
 
 **Sources:**
 
@@ -14026,11 +14753,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `world` { #symbol-api-lua-v5-generated-property-ccbstateapi-world-a0d3c23ac398 }
 
-**Contract fields:**
-
-- `name`: `"world"`
-- `optional`: `false`
-- `declaration`: `"CcbStateStore"`
+```lua
+---@field world CcbStateStore
+world = ... -- CcbStateStore
+```
 
 **Sources:**
 
@@ -14038,11 +14764,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `page` { #symbol-api-lua-v5-generated-property-ccbstateapi-page-a46cebbd91a0 }
 
-**Contract fields:**
-
-- `name`: `"page"`
-- `optional`: `false`
-- `declaration`: `"CcbStateStore"`
+```lua
+---@field page CcbStateStore
+page = ... -- CcbStateStore
+```
 
 **Sources:**
 
@@ -14050,10 +14775,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbStateStore` { #symbol-api-lua-v5-generated-class-ccbstatestore-ce9d88325e37 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbStateStore = {}
+```
 
 **Sources:**
 
@@ -14061,10 +14786,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbStatisticDefinition` { #symbol-api-lua-v5-generated-class-ccbstatisticdefinition-4dc47d331ad8 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbStatisticDefinition = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `description` | `string` | Read-write |
+| `type` | `string` | Read-write |
+| `monotonicity` | `"constant"|"increasing"|"decreasing"|"unknown"` | Read-write |
+| `loaded` | `boolean` | Read-write |
+| `sources` | `table` | Read-write |
 
 **Sources:**
 
@@ -14072,11 +14808,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbstatisticdefinition-id-ba6fffe0186d }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -14084,11 +14819,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbstatisticdefinition-description-52d4c5363154 }
 
-**Contract fields:**
-
-- `name`: `"description"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field description string
+description = ... -- string
+```
 
 **Sources:**
 
@@ -14096,11 +14830,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbstatisticdefinition-type-7bfa1067dfbe }
 
-**Contract fields:**
-
-- `name`: `"type"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field type string
+type = ... -- string
+```
 
 **Sources:**
 
@@ -14108,11 +14841,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `monotonicity` { #symbol-api-lua-v5-generated-property-ccbstatisticdefinition-monotonicity-d2436a7b714f }
 
-**Contract fields:**
-
-- `name`: `"monotonicity"`
-- `optional`: `false`
-- `declaration`: `"\"constant\"|\"increasing\"|\"decreasing\"|\"unknown\""`
+```lua
+---@field monotonicity "constant"|"increasing"|"decreasing"|"unknown"
+monotonicity = ... -- "constant"|"increasing"|"decreasing"|"unknown"
+```
 
 **Sources:**
 
@@ -14120,11 +14852,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `loaded` { #symbol-api-lua-v5-generated-property-ccbstatisticdefinition-loaded-2a5f32ac84b4 }
 
-**Contract fields:**
-
-- `name`: `"loaded"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field loaded boolean
+loaded = ... -- boolean
+```
 
 **Sources:**
 
@@ -14132,11 +14863,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sources` { #symbol-api-lua-v5-generated-property-ccbstatisticdefinition-sources-2d79df4b558e }
 
-**Contract fields:**
-
-- `name`: `"sources"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field sources table
+sources = ... -- table
+```
 
 **Sources:**
 
@@ -14144,10 +14874,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbStatisticEventPartition` { #symbol-api-lua-v5-generated-class-ccbstatisticeventpartition-5284506f40ec }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbStatisticEventPartition = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `count` | `integer` | Read-write |
+| `first` | `TimePoint` | Read-write |
+| `last` | `TimePoint` | Read-write |
+| `data` | `table<string, CcbStatisticVariant>` | Read-write |
 
 **Sources:**
 
@@ -14155,11 +14894,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `count` { #symbol-api-lua-v5-generated-property-ccbstatisticeventpartition-count-f8c43119f79a }
 
-**Contract fields:**
-
-- `name`: `"count"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field count integer
+count = ... -- integer
+```
 
 **Sources:**
 
@@ -14167,11 +14905,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `first` { #symbol-api-lua-v5-generated-property-ccbstatisticeventpartition-first-bd3a67e36279 }
 
-**Contract fields:**
-
-- `name`: `"first"`
-- `optional`: `false`
-- `declaration`: `"TimePoint"`
+```lua
+---@field first TimePoint
+first = ... -- TimePoint
+```
 
 **Sources:**
 
@@ -14179,11 +14916,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `last` { #symbol-api-lua-v5-generated-property-ccbstatisticeventpartition-last-f37cfc32e477 }
 
-**Contract fields:**
-
-- `name`: `"last"`
-- `optional`: `false`
-- `declaration`: `"TimePoint"`
+```lua
+---@field last TimePoint
+last = ... -- TimePoint
+```
 
 **Sources:**
 
@@ -14191,11 +14927,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `data` { #symbol-api-lua-v5-generated-property-ccbstatisticeventpartition-data-a9333d57e4f9 }
 
-**Contract fields:**
-
-- `name`: `"data"`
-- `optional`: `false`
-- `declaration`: `"table<string, CcbStatisticVariant>"`
+```lua
+---@field data table<string, CcbStatisticVariant>
+data = ... -- table<string, CcbStatisticVariant>
+```
 
 **Sources:**
 
@@ -14203,10 +14938,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbStatisticEventType` { #symbol-api-lua-v5-generated-class-ccbstatisticeventtype-968b1c626938 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbStatisticEventType = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `name` | `string` | Read-write |
+| `fields` | `table` | Read-write |
+| `count` | `integer` | Read-write |
 
 **Sources:**
 
@@ -14214,11 +14957,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbstatisticeventtype-name-8059fee6f11d }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -14226,11 +14968,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `fields` { #symbol-api-lua-v5-generated-property-ccbstatisticeventtype-fields-411d99551eb7 }
 
-**Contract fields:**
-
-- `name`: `"fields"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field fields table
+fields = ... -- table
+```
 
 **Sources:**
 
@@ -14238,11 +14979,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `count` { #symbol-api-lua-v5-generated-property-ccbstatisticeventtype-count-418e79f8a740 }
 
-**Contract fields:**
-
-- `name`: `"count"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field count integer
+count = ... -- integer
+```
 
 **Sources:**
 
@@ -14250,10 +14990,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbStatisticTransformation` { #symbol-api-lua-v5-generated-class-ccbstatistictransformation-18a8effaa56d }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbStatisticTransformation = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `monotonicity` | `"constant"|"increasing"|"decreasing"|"unknown"` | Read-write |
+| `loaded` | `boolean` | Read-write |
+| `sources` | `table` | Read-write |
+| `fields` | `table` | Read-write |
 
 **Sources:**
 
@@ -14261,11 +15011,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbstatistictransformation-id-549747538317 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -14273,11 +15022,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `monotonicity` { #symbol-api-lua-v5-generated-property-ccbstatistictransformation-monotonicity-cd76155fcb5d }
 
-**Contract fields:**
-
-- `name`: `"monotonicity"`
-- `optional`: `false`
-- `declaration`: `"\"constant\"|\"increasing\"|\"decreasing\"|\"unknown\""`
+```lua
+---@field monotonicity "constant"|"increasing"|"decreasing"|"unknown"
+monotonicity = ... -- "constant"|"increasing"|"decreasing"|"unknown"
+```
 
 **Sources:**
 
@@ -14285,11 +15033,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `loaded` { #symbol-api-lua-v5-generated-property-ccbstatistictransformation-loaded-8a035a25a02a }
 
-**Contract fields:**
-
-- `name`: `"loaded"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field loaded boolean
+loaded = ... -- boolean
+```
 
 **Sources:**
 
@@ -14297,11 +15044,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sources` { #symbol-api-lua-v5-generated-property-ccbstatistictransformation-sources-2a030229b6fa }
 
-**Contract fields:**
-
-- `name`: `"sources"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field sources table
+sources = ... -- table
+```
 
 **Sources:**
 
@@ -14309,11 +15055,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `fields` { #symbol-api-lua-v5-generated-property-ccbstatistictransformation-fields-527e670f9dd5 }
 
-**Contract fields:**
-
-- `name`: `"fields"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field fields table
+fields = ... -- table
+```
 
 **Sources:**
 
@@ -14321,10 +15066,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbStatisticVariant` { #symbol-api-lua-v5-generated-class-ccbstatisticvariant-f6324a536096 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbStatisticVariant = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `type` | `string` | Read-write |
+| `raw` | `string` | Read-write |
+| `valid` | `boolean` | Read-write |
+| `value` | `boolean|integer|number|string|table` | Read-write |
 
 **Sources:**
 
@@ -14332,11 +15086,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbstatisticvariant-type-1812570ece89 }
 
-**Contract fields:**
-
-- `name`: `"type"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field type string
+type = ... -- string
+```
 
 **Sources:**
 
@@ -14344,11 +15097,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `raw` { #symbol-api-lua-v5-generated-property-ccbstatisticvariant-raw-8622cf1fea20 }
 
-**Contract fields:**
-
-- `name`: `"raw"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field raw string
+raw = ... -- string
+```
 
 **Sources:**
 
@@ -14356,11 +15108,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `valid` { #symbol-api-lua-v5-generated-property-ccbstatisticvariant-valid-05d582ea7ec4 }
 
-**Contract fields:**
-
-- `name`: `"valid"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field valid boolean
+valid = ... -- boolean
+```
 
 **Sources:**
 
@@ -14368,11 +15119,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `value` { #symbol-api-lua-v5-generated-property-ccbstatisticvariant-value-50084a9b3be0 }
 
-**Contract fields:**
-
-- `name`: `"value"`
-- `optional`: `true`
-- `declaration`: `"boolean|integer|number|string|table"`
+```lua
+---@field value boolean|integer|number|string|table
+value = ... -- boolean|integer|number|string|table
+```
 
 **Sources:**
 
@@ -14380,10 +15130,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbStatisticsApi` { #symbol-api-lua-v5-generated-class-ccbstatisticsapi-11247c94b77f }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbStatisticsApi = {}
+```
 
 **Sources:**
 
@@ -14391,10 +15141,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbTargetArea` { #symbol-api-lua-v5-generated-class-ccbtargetarea-5ee463883fda }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbTargetArea = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `first` | `TripointCoord` | Read-write |
+| `second` | `TripointCoord` | Read-write |
 
 **Sources:**
 
@@ -14402,11 +15159,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `first` { #symbol-api-lua-v5-generated-property-ccbtargetarea-first-8b7f2cbbbc95 }
 
-**Contract fields:**
-
-- `name`: `"first"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
+```lua
+---@field first TripointCoord
+first = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -14414,11 +15170,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `second` { #symbol-api-lua-v5-generated-property-ccbtargetarea-second-9bdbcedcc5f6 }
 
-**Contract fields:**
-
-- `name`: `"second"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
+```lua
+---@field second TripointCoord
+second = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -14426,10 +15181,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbTargetingApi` { #symbol-api-lua-v5-generated-class-ccbtargetingapi-272087733a9d }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbTargetingApi = {}
+```
 
 **Sources:**
 
@@ -14437,10 +15192,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbTimeApi` { #symbol-api-lua-v5-generated-class-ccbtimeapi-e11416b88dc0 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbTimeApi = {}
+```
 
 **Sources:**
 
@@ -14448,10 +15203,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbTimeChange` { #symbol-api-lua-v5-generated-class-ccbtimechange-d330f0e24fb7 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbTimeChange = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `previous` | `CcbCalendarPoint` | Read-write |
+| `current` | `CcbCalendarPoint` | Read-write |
+| `delta` | `TimeDuration` | Read-write |
+| `simulated_turns` | `false` | Read-write |
 
 **Sources:**
 
@@ -14459,11 +15223,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `previous` { #symbol-api-lua-v5-generated-property-ccbtimechange-previous-8ad8a080ad0f }
 
-**Contract fields:**
-
-- `name`: `"previous"`
-- `optional`: `false`
-- `declaration`: `"CcbCalendarPoint"`
+```lua
+---@field previous CcbCalendarPoint
+previous = ... -- CcbCalendarPoint
+```
 
 **Sources:**
 
@@ -14471,11 +15234,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `current` { #symbol-api-lua-v5-generated-property-ccbtimechange-current-49aaa8d8db08 }
 
-**Contract fields:**
-
-- `name`: `"current"`
-- `optional`: `false`
-- `declaration`: `"CcbCalendarPoint"`
+```lua
+---@field current CcbCalendarPoint
+current = ... -- CcbCalendarPoint
+```
 
 **Sources:**
 
@@ -14483,11 +15245,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `delta` { #symbol-api-lua-v5-generated-property-ccbtimechange-delta-9d8d3113a12e }
 
-**Contract fields:**
-
-- `name`: `"delta"`
-- `optional`: `false`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field delta TimeDuration
+delta = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -14495,11 +15256,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `simulated_turns` { #symbol-api-lua-v5-generated-property-ccbtimechange-simulated-turns-48eb2ebded67 }
 
-**Contract fields:**
-
-- `name`: `"simulated_turns"`
-- `optional`: `false`
-- `declaration`: `"false"`
+```lua
+---@field simulated_turns false
+simulated_turns = ... -- false
+```
 
 **Sources:**
 
@@ -14507,10 +15267,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbTimeLimits` { #symbol-api-lua-v5-generated-class-ccbtimelimits-1b02240c270b }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbTimeLimits = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `minimum` | `TimePoint` | Read-write |
+| `maximum` | `TimePoint` | Read-write |
+| `minimum_turn` | `integer` | Read-write |
+| `maximum_turn` | `integer` | Read-write |
+| `set_now_simulates_turns` | `false` | Read-write |
 
 **Sources:**
 
@@ -14518,11 +15288,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `minimum` { #symbol-api-lua-v5-generated-property-ccbtimelimits-minimum-a624b5b9f5f7 }
 
-**Contract fields:**
-
-- `name`: `"minimum"`
-- `optional`: `false`
-- `declaration`: `"TimePoint"`
+```lua
+---@field minimum TimePoint
+minimum = ... -- TimePoint
+```
 
 **Sources:**
 
@@ -14530,11 +15299,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `maximum` { #symbol-api-lua-v5-generated-property-ccbtimelimits-maximum-e85ef09bee35 }
 
-**Contract fields:**
-
-- `name`: `"maximum"`
-- `optional`: `false`
-- `declaration`: `"TimePoint"`
+```lua
+---@field maximum TimePoint
+maximum = ... -- TimePoint
+```
 
 **Sources:**
 
@@ -14542,11 +15310,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `minimum_turn` { #symbol-api-lua-v5-generated-property-ccbtimelimits-minimum-turn-11819293ced6 }
 
-**Contract fields:**
-
-- `name`: `"minimum_turn"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field minimum_turn integer
+minimum_turn = ... -- integer
+```
 
 **Sources:**
 
@@ -14554,11 +15321,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `maximum_turn` { #symbol-api-lua-v5-generated-property-ccbtimelimits-maximum-turn-a827b087007b }
 
-**Contract fields:**
-
-- `name`: `"maximum_turn"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field maximum_turn integer
+maximum_turn = ... -- integer
+```
 
 **Sources:**
 
@@ -14566,11 +15332,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `set_now_simulates_turns` { #symbol-api-lua-v5-generated-property-ccbtimelimits-set-now-simulates-turns-eadc7cc0b48c }
 
-**Contract fields:**
-
-- `name`: `"set_now_simulates_turns"`
-- `optional`: `false`
-- `declaration`: `"false"`
+```lua
+---@field set_now_simulates_turns false
+set_now_simulates_turns = ... -- false
+```
 
 **Sources:**
 
@@ -14578,10 +15343,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbTimeSnapshot` { #symbol-api-lua-v5-generated-class-ccbtimesnapshot-e681c0cfc40d }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbTimeSnapshot = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `turn` | `integer` | Read-write |
+| `year` | `integer` | Read-write |
+| `season_id` | `string` | Read-write |
+| `season_name` | `string` | Read-write |
+| `day` | `integer` | Read-write |
+| `hour` | `integer` | Read-write |
+| `minute` | `integer` | Read-write |
+| `display` | `string` | Read-write |
 
 **Sources:**
 
@@ -14589,11 +15367,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `turn` { #symbol-api-lua-v5-generated-property-ccbtimesnapshot-turn-9aef66253653 }
 
-**Contract fields:**
-
-- `name`: `"turn"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field turn integer
+turn = ... -- integer
+```
 
 **Sources:**
 
@@ -14601,11 +15378,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `year` { #symbol-api-lua-v5-generated-property-ccbtimesnapshot-year-ef269e94c294 }
 
-**Contract fields:**
-
-- `name`: `"year"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field year integer
+year = ... -- integer
+```
 
 **Sources:**
 
@@ -14613,11 +15389,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `season_id` { #symbol-api-lua-v5-generated-property-ccbtimesnapshot-season-id-10985b63cf24 }
 
-**Contract fields:**
-
-- `name`: `"season_id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field season_id string
+season_id = ... -- string
+```
 
 **Sources:**
 
@@ -14625,11 +15400,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `season_name` { #symbol-api-lua-v5-generated-property-ccbtimesnapshot-season-name-8d95313af5d8 }
 
-**Contract fields:**
-
-- `name`: `"season_name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field season_name string
+season_name = ... -- string
+```
 
 **Sources:**
 
@@ -14637,11 +15411,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `day` { #symbol-api-lua-v5-generated-property-ccbtimesnapshot-day-2a9100914971 }
 
-**Contract fields:**
-
-- `name`: `"day"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field day integer
+day = ... -- integer
+```
 
 **Sources:**
 
@@ -14649,11 +15422,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hour` { #symbol-api-lua-v5-generated-property-ccbtimesnapshot-hour-3f52cc3d2602 }
 
-**Contract fields:**
-
-- `name`: `"hour"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field hour integer
+hour = ... -- integer
+```
 
 **Sources:**
 
@@ -14661,11 +15433,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `minute` { #symbol-api-lua-v5-generated-property-ccbtimesnapshot-minute-90660e83cdbe }
 
-**Contract fields:**
-
-- `name`: `"minute"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field minute integer
+minute = ... -- integer
+```
 
 **Sources:**
 
@@ -14673,11 +15444,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `display` { #symbol-api-lua-v5-generated-property-ccbtimesnapshot-display-fe52c9ce4748 }
 
-**Contract fields:**
-
-- `name`: `"display"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field display string
+display = ... -- string
+```
 
 **Sources:**
 
@@ -14685,10 +15455,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbTypedDefinitionEntry` { #symbol-api-lua-v5-generated-class-ccbtypeddefinitionentry-720322b86b31 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbTypedDefinitionEntry = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `value` | `string` | Read-write |
+| `name` | `string` | Read-write |
 
 **Sources:**
 
@@ -14696,11 +15474,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbtypeddefinitionentry-id-8c0b7017b769 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -14708,11 +15485,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `value` { #symbol-api-lua-v5-generated-property-ccbtypeddefinitionentry-value-851d53d479a8 }
 
-**Contract fields:**
-
-- `name`: `"value"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field value string
+value = ... -- string
+```
 
 **Sources:**
 
@@ -14720,11 +15496,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbtypeddefinitionentry-name-6eb78c337486 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -14732,10 +15507,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbTypedDefinitionPage` { #symbol-api-lua-v5-generated-class-ccbtypeddefinitionpage-6ec61f3212cc }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbTypedDefinitionPage = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `kind` | `string` | Read-write |
+| `revision` | `integer` | Read-write |
+| `offset` | `integer` | Read-write |
+| `limit` | `integer` | Read-write |
+| `total` | `integer` | Read-write |
+| `returned` | `integer` | Read-write |
+| `has_more` | `boolean` | Read-write |
+| `entries` | `table[]` | Read-write |
 
 **Sources:**
 
@@ -14743,11 +15531,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `kind` { #symbol-api-lua-v5-generated-property-ccbtypeddefinitionpage-kind-aca964c0aa7e }
 
-**Contract fields:**
-
-- `name`: `"kind"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field kind string
+kind = ... -- string
+```
 
 **Sources:**
 
@@ -14755,11 +15542,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `revision` { #symbol-api-lua-v5-generated-property-ccbtypeddefinitionpage-revision-51d33aa88a4d }
 
-**Contract fields:**
-
-- `name`: `"revision"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field revision integer
+revision = ... -- integer
+```
 
 **Sources:**
 
@@ -14767,11 +15553,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `offset` { #symbol-api-lua-v5-generated-property-ccbtypeddefinitionpage-offset-9f0165f04264 }
 
-**Contract fields:**
-
-- `name`: `"offset"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field offset integer
+offset = ... -- integer
+```
 
 **Sources:**
 
@@ -14779,11 +15564,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbtypeddefinitionpage-limit-d6584c6875d2 }
 
-**Contract fields:**
-
-- `name`: `"limit"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field limit integer
+limit = ... -- integer
+```
 
 **Sources:**
 
@@ -14791,11 +15575,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `total` { #symbol-api-lua-v5-generated-property-ccbtypeddefinitionpage-total-fca9c0ec7c07 }
 
-**Contract fields:**
-
-- `name`: `"total"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field total integer
+total = ... -- integer
+```
 
 **Sources:**
 
@@ -14803,11 +15586,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `returned` { #symbol-api-lua-v5-generated-property-ccbtypeddefinitionpage-returned-0d1c9f72af9d }
 
-**Contract fields:**
-
-- `name`: `"returned"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field returned integer
+returned = ... -- integer
+```
 
 **Sources:**
 
@@ -14815,11 +15597,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `has_more` { #symbol-api-lua-v5-generated-property-ccbtypeddefinitionpage-has-more-4e16b5026b14 }
 
-**Contract fields:**
-
-- `name`: `"has_more"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field has_more boolean
+has_more = ... -- boolean
+```
 
 **Sources:**
 
@@ -14827,11 +15608,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `entries` { #symbol-api-lua-v5-generated-property-ccbtypeddefinitionpage-entries-91cca7cf1b4e }
 
-**Contract fields:**
-
-- `name`: `"entries"`
-- `optional`: `false`
-- `declaration`: `"table[]"`
+```lua
+---@field entries table[]
+entries = ... -- table[]
+```
 
 **Sources:**
 
@@ -14839,10 +15619,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbTypesApi` { #symbol-api-lua-v5-generated-class-ccbtypesapi-526585dcad60 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbTypesApi = {}
+```
 
 **Sources:**
 
@@ -14850,10 +15630,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbUiApi` { #symbol-api-lua-v5-generated-class-ccbuiapi-5fba544da3a7 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbUiApi = {}
+```
 
 **Sources:**
 
@@ -14861,10 +15641,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbUnitsApi` { #symbol-api-lua-v5-generated-class-ccbunitsapi-a8d4657afad1 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbUnitsApi = {}
+```
 
 **Sources:**
 
@@ -14872,10 +15652,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbVariablesApi` { #symbol-api-lua-v5-generated-class-ccbvariablesapi-5574ab2c15a5 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbVariablesApi = {}
+```
 
 **Sources:**
 
@@ -14883,10 +15663,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbVariantSoundOptions` { #symbol-api-lua-v5-generated-class-ccbvariantsoundoptions-45b441dd58e3 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbVariantSoundOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `angle_degrees` | `number` | Read-write |
+| `pitch_min` | `number` | Read-write |
+| `pitch_max` | `number` | Read-write |
 
 **Sources:**
 
@@ -14894,11 +15682,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `angle_degrees` { #symbol-api-lua-v5-generated-property-ccbvariantsoundoptions-angle-degrees-6ba1a2c0d308 }
 
-**Contract fields:**
-
-- `name`: `"angle_degrees"`
-- `optional`: `true`
-- `declaration`: `"number"`
+```lua
+---@field angle_degrees number
+angle_degrees = ... -- number
+```
 
 **Sources:**
 
@@ -14906,11 +15693,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `pitch_min` { #symbol-api-lua-v5-generated-property-ccbvariantsoundoptions-pitch-min-189a21062ff1 }
 
-**Contract fields:**
-
-- `name`: `"pitch_min"`
-- `optional`: `true`
-- `declaration`: `"number"`
+```lua
+---@field pitch_min number
+pitch_min = ... -- number
+```
 
 **Sources:**
 
@@ -14918,11 +15704,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `pitch_max` { #symbol-api-lua-v5-generated-property-ccbvariantsoundoptions-pitch-max-369e3b501aae }
 
-**Contract fields:**
-
-- `name`: `"pitch_max"`
-- `optional`: `true`
-- `declaration`: `"number"`
+```lua
+---@field pitch_max number
+pitch_max = ... -- number
+```
 
 **Sources:**
 
@@ -14930,10 +15715,28 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbVehicleLift` { #symbol-api-lua-v5-generated-class-ccbvehiclelift-4e2edff66c35 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbVehicleLift = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `mass` | `UnitValue` | Read-write |
+| `weight_newtons` | `number` | Read-write |
+| `rotor_lift_newtons` | `number` | Read-write |
+| `safe_rotor_lift_newtons` | `number` | Read-write |
+| `balloon_lift_newtons` | `number` | Read-write |
+| `maximum_lift_newtons` | `number` | Read-write |
+| `lift_margin_newtons` | `number` | Read-write |
+| `sufficient_rotor_lift` | `boolean` | Read-write |
+| `sufficient_balloon_lift` | `boolean` | Read-write |
+| `rotorcraft` | `boolean` | Read-write |
+| `airship` | `boolean` | Read-write |
+| `flying` | `boolean` | Read-write |
+| `flyable` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -14941,11 +15744,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `mass` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-mass-bed95d3444b0 }
 
-**Contract fields:**
-
-- `name`: `"mass"`
-- `optional`: `false`
-- `declaration`: `"UnitValue"`
+```lua
+---@field mass UnitValue
+mass = ... -- UnitValue
+```
 
 **Sources:**
 
@@ -14953,11 +15755,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `weight_newtons` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-weight-newtons-fe3c84fc02ca }
 
-**Contract fields:**
-
-- `name`: `"weight_newtons"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field weight_newtons number
+weight_newtons = ... -- number
+```
 
 **Sources:**
 
@@ -14965,11 +15766,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `rotor_lift_newtons` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-rotor-lift-newtons-3172b82e492e }
 
-**Contract fields:**
-
-- `name`: `"rotor_lift_newtons"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field rotor_lift_newtons number
+rotor_lift_newtons = ... -- number
+```
 
 **Sources:**
 
@@ -14977,11 +15777,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `safe_rotor_lift_newtons` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-safe-rotor-lift-newtons-0d4986a5d8d9 }
 
-**Contract fields:**
-
-- `name`: `"safe_rotor_lift_newtons"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field safe_rotor_lift_newtons number
+safe_rotor_lift_newtons = ... -- number
+```
 
 **Sources:**
 
@@ -14989,11 +15788,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `balloon_lift_newtons` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-balloon-lift-newtons-2b626aeb5408 }
 
-**Contract fields:**
-
-- `name`: `"balloon_lift_newtons"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field balloon_lift_newtons number
+balloon_lift_newtons = ... -- number
+```
 
 **Sources:**
 
@@ -15001,11 +15799,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `maximum_lift_newtons` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-maximum-lift-newtons-f8eb0efdccc4 }
 
-**Contract fields:**
-
-- `name`: `"maximum_lift_newtons"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field maximum_lift_newtons number
+maximum_lift_newtons = ... -- number
+```
 
 **Sources:**
 
@@ -15013,11 +15810,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `lift_margin_newtons` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-lift-margin-newtons-98c6086b7bea }
 
-**Contract fields:**
-
-- `name`: `"lift_margin_newtons"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field lift_margin_newtons number
+lift_margin_newtons = ... -- number
+```
 
 **Sources:**
 
@@ -15025,11 +15821,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sufficient_rotor_lift` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-sufficient-rotor-lift-3b5dc64d1951 }
 
-**Contract fields:**
-
-- `name`: `"sufficient_rotor_lift"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field sufficient_rotor_lift boolean
+sufficient_rotor_lift = ... -- boolean
+```
 
 **Sources:**
 
@@ -15037,11 +15832,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sufficient_balloon_lift` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-sufficient-balloon-lift-7b9a1d250240 }
 
-**Contract fields:**
-
-- `name`: `"sufficient_balloon_lift"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field sufficient_balloon_lift boolean
+sufficient_balloon_lift = ... -- boolean
+```
 
 **Sources:**
 
@@ -15049,11 +15843,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `rotorcraft` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-rotorcraft-da084f5999ed }
 
-**Contract fields:**
-
-- `name`: `"rotorcraft"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field rotorcraft boolean
+rotorcraft = ... -- boolean
+```
 
 **Sources:**
 
@@ -15061,11 +15854,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `airship` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-airship-1503c534afe3 }
 
-**Contract fields:**
-
-- `name`: `"airship"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field airship boolean
+airship = ... -- boolean
+```
 
 **Sources:**
 
@@ -15073,11 +15865,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `flying` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-flying-58bc2f3da450 }
 
-**Contract fields:**
-
-- `name`: `"flying"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field flying boolean
+flying = ... -- boolean
+```
 
 **Sources:**
 
@@ -15085,11 +15876,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `flyable` { #symbol-api-lua-v5-generated-property-ccbvehiclelift-flyable-fed9fca4ce10 }
 
-**Contract fields:**
-
-- `name`: `"flyable"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field flyable boolean
+flyable = ... -- boolean
+```
 
 **Sources:**
 
@@ -15097,10 +15887,28 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbVehicleMotion` { #symbol-api-lua-v5-generated-class-ccbvehiclemotion-0ed85dbd4ec3 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbVehicleMotion = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `velocity` | `integer` | Read-write |
+| `average_velocity` | `integer` | Read-write |
+| `cruise_velocity` | `integer` | Read-write |
+| `vertical_velocity` | `integer` | Read-write |
+| `forward_velocity` | `integer` | Read-write |
+| `maximum_velocity` | `integer` | Read-write |
+| `maximum_reverse_velocity` | `integer` | Read-write |
+| `safe_velocity` | `integer` | Read-write |
+| `acceleration` | `integer` | Read-write |
+| `moving` | `boolean` | Read-write |
+| `skidding` | `boolean` | Read-write |
+| `facing` | `UnitValue` | Read-write |
+| `turn_direction` | `integer` | Read-write |
 
 **Sources:**
 
@@ -15108,11 +15916,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `velocity` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-velocity-5fd666d14697 }
 
-**Contract fields:**
-
-- `name`: `"velocity"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field velocity integer
+velocity = ... -- integer
+```
 
 **Sources:**
 
@@ -15120,11 +15927,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `average_velocity` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-average-velocity-c405152510bd }
 
-**Contract fields:**
-
-- `name`: `"average_velocity"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field average_velocity integer
+average_velocity = ... -- integer
+```
 
 **Sources:**
 
@@ -15132,11 +15938,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `cruise_velocity` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-cruise-velocity-5c4565783787 }
 
-**Contract fields:**
-
-- `name`: `"cruise_velocity"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field cruise_velocity integer
+cruise_velocity = ... -- integer
+```
 
 **Sources:**
 
@@ -15144,11 +15949,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `vertical_velocity` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-vertical-velocity-dd28fb0db797 }
 
-**Contract fields:**
-
-- `name`: `"vertical_velocity"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field vertical_velocity integer
+vertical_velocity = ... -- integer
+```
 
 **Sources:**
 
@@ -15156,11 +15960,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `forward_velocity` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-forward-velocity-c9d47be04a52 }
 
-**Contract fields:**
-
-- `name`: `"forward_velocity"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field forward_velocity integer
+forward_velocity = ... -- integer
+```
 
 **Sources:**
 
@@ -15168,11 +15971,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `maximum_velocity` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-maximum-velocity-abcef64705e5 }
 
-**Contract fields:**
-
-- `name`: `"maximum_velocity"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field maximum_velocity integer
+maximum_velocity = ... -- integer
+```
 
 **Sources:**
 
@@ -15180,11 +15982,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `maximum_reverse_velocity` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-maximum-reverse-velocity-e6ece0ecef6b }
 
-**Contract fields:**
-
-- `name`: `"maximum_reverse_velocity"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field maximum_reverse_velocity integer
+maximum_reverse_velocity = ... -- integer
+```
 
 **Sources:**
 
@@ -15192,11 +15993,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `safe_velocity` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-safe-velocity-f7b8cde28b5f }
 
-**Contract fields:**
-
-- `name`: `"safe_velocity"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field safe_velocity integer
+safe_velocity = ... -- integer
+```
 
 **Sources:**
 
@@ -15204,11 +16004,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `acceleration` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-acceleration-633097a93986 }
 
-**Contract fields:**
-
-- `name`: `"acceleration"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field acceleration integer
+acceleration = ... -- integer
+```
 
 **Sources:**
 
@@ -15216,11 +16015,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `moving` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-moving-2c13df012817 }
 
-**Contract fields:**
-
-- `name`: `"moving"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field moving boolean
+moving = ... -- boolean
+```
 
 **Sources:**
 
@@ -15228,11 +16026,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `skidding` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-skidding-87c47ebc5296 }
 
-**Contract fields:**
-
-- `name`: `"skidding"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field skidding boolean
+skidding = ... -- boolean
+```
 
 **Sources:**
 
@@ -15240,11 +16037,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `facing` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-facing-7dd3174fd0db }
 
-**Contract fields:**
-
-- `name`: `"facing"`
-- `optional`: `false`
-- `declaration`: `"UnitValue"`
+```lua
+---@field facing UnitValue
+facing = ... -- UnitValue
+```
 
 **Sources:**
 
@@ -15252,11 +16048,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `turn_direction` { #symbol-api-lua-v5-generated-property-ccbvehiclemotion-turn-direction-aa089da79d89 }
 
-**Contract fields:**
-
-- `name`: `"turn_direction"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field turn_direction integer
+turn_direction = ... -- integer
+```
 
 **Sources:**
 
@@ -15264,10 +16059,37 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbVehiclePart` { #symbol-api-lua-v5-generated-class-ccbvehiclepart-f782854a4cf7 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbVehiclePart = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `index` | `integer` | Read-write |
+| `id` | `GameId` | Read-write |
+| `location` | `GameId` | Read-write |
+| `name` | `string` | Read-write |
+| `mount` | `PointCoord` | Read-write |
+| `position` | `TripointCoord` | Read-write |
+| `variant` | `string` | Read-write |
+| `hp` | `integer` | Read-write |
+| `durability` | `integer` | Read-write |
+| `damage_percent` | `integer` | Read-write |
+| `broken` | `boolean` | Read-write |
+| `available` | `boolean` | Read-write |
+| `enabled` | `boolean` | Read-write |
+| `power_disabled` | `boolean` | Read-write |
+| `open` | `boolean` | Read-write |
+| `locked` | `boolean` | Read-write |
+| `inside` | `boolean` | Read-write |
+| `hidden` | `boolean` | Read-write |
+| `removed` | `boolean` | Read-write |
+| `fake` | `boolean` | Read-write |
+| `capabilities` | `table` | Read-write |
+| `ammo` | `table` | Read-write |
 
 **Sources:**
 
@@ -15275,11 +16097,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `index` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-index-fc8771601054 }
 
-**Contract fields:**
-
-- `name`: `"index"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field index integer
+index = ... -- integer
+```
 
 **Sources:**
 
@@ -15287,11 +16108,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-id-14feb199622a }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -15299,11 +16119,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `location` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-location-7d9f787a4406 }
 
-**Contract fields:**
-
-- `name`: `"location"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field location GameId
+location = ... -- GameId
+```
 
 **Sources:**
 
@@ -15311,11 +16130,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-name-200864dc7115 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -15323,11 +16141,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `mount` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-mount-e6636a9efc8c }
 
-**Contract fields:**
-
-- `name`: `"mount"`
-- `optional`: `false`
-- `declaration`: `"PointCoord"`
+```lua
+---@field mount PointCoord
+mount = ... -- PointCoord
+```
 
 **Sources:**
 
@@ -15335,11 +16152,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `position` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-position-aed142046c8f }
 
-**Contract fields:**
-
-- `name`: `"position"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
+```lua
+---@field position TripointCoord
+position = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -15347,11 +16163,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `variant` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-variant-ee21b8708b07 }
 
-**Contract fields:**
-
-- `name`: `"variant"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field variant string
+variant = ... -- string
+```
 
 **Sources:**
 
@@ -15359,11 +16174,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hp` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-hp-0f6e6c0a41bb }
 
-**Contract fields:**
-
-- `name`: `"hp"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field hp integer
+hp = ... -- integer
+```
 
 **Sources:**
 
@@ -15371,11 +16185,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `durability` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-durability-02044e0fbbc5 }
 
-**Contract fields:**
-
-- `name`: `"durability"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field durability integer
+durability = ... -- integer
+```
 
 **Sources:**
 
@@ -15383,11 +16196,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `damage_percent` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-damage-percent-1c2d3de9484c }
 
-**Contract fields:**
-
-- `name`: `"damage_percent"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field damage_percent integer
+damage_percent = ... -- integer
+```
 
 **Sources:**
 
@@ -15395,11 +16207,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `broken` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-broken-8a6a3c968df6 }
 
-**Contract fields:**
-
-- `name`: `"broken"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field broken boolean
+broken = ... -- boolean
+```
 
 **Sources:**
 
@@ -15407,11 +16218,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `available` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-available-0866d5f9c080 }
 
-**Contract fields:**
-
-- `name`: `"available"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field available boolean
+available = ... -- boolean
+```
 
 **Sources:**
 
@@ -15419,11 +16229,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `enabled` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-enabled-85a76bdbeae6 }
 
-**Contract fields:**
-
-- `name`: `"enabled"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field enabled boolean
+enabled = ... -- boolean
+```
 
 **Sources:**
 
@@ -15431,11 +16240,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `power_disabled` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-power-disabled-87984ca2e4ed }
 
-**Contract fields:**
-
-- `name`: `"power_disabled"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field power_disabled boolean
+power_disabled = ... -- boolean
+```
 
 **Sources:**
 
@@ -15443,11 +16251,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `open` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-open-166bb4a77628 }
 
-**Contract fields:**
-
-- `name`: `"open"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field open boolean
+open = ... -- boolean
+```
 
 **Sources:**
 
@@ -15455,11 +16262,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `locked` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-locked-f29c3768780a }
 
-**Contract fields:**
-
-- `name`: `"locked"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field locked boolean
+locked = ... -- boolean
+```
 
 **Sources:**
 
@@ -15467,11 +16273,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `inside` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-inside-74416ec714b8 }
 
-**Contract fields:**
-
-- `name`: `"inside"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field inside boolean
+inside = ... -- boolean
+```
 
 **Sources:**
 
@@ -15479,11 +16284,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hidden` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-hidden-9f26ee87df99 }
 
-**Contract fields:**
-
-- `name`: `"hidden"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field hidden boolean
+hidden = ... -- boolean
+```
 
 **Sources:**
 
@@ -15491,11 +16295,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `removed` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-removed-4d36023fbfd1 }
 
-**Contract fields:**
-
-- `name`: `"removed"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field removed boolean
+removed = ... -- boolean
+```
 
 **Sources:**
 
@@ -15503,11 +16306,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `fake` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-fake-5ec9d6416e48 }
 
-**Contract fields:**
-
-- `name`: `"fake"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field fake boolean
+fake = ... -- boolean
+```
 
 **Sources:**
 
@@ -15515,11 +16317,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `capabilities` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-capabilities-32ec10bd8edc }
 
-**Contract fields:**
-
-- `name`: `"capabilities"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field capabilities table
+capabilities = ... -- table
+```
 
 **Sources:**
 
@@ -15527,11 +16328,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `ammo` { #symbol-api-lua-v5-generated-property-ccbvehiclepart-ammo-8d1dce4ceb8b }
 
-**Contract fields:**
-
-- `name`: `"ammo"`
-- `optional`: `true`
-- `declaration`: `"table"`
+```lua
+---@field ammo table
+ammo = ... -- table
+```
 
 **Sources:**
 
@@ -15539,10 +16339,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbVehiclePartOptions` { #symbol-api-lua-v5-generated-class-ccbvehiclepartoptions-9cb9a1c6c741 }
 
-**Contract fields:**
+```lua
+---@class : CcbPageOptions
+local CcbVehiclePartOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbPageOptions"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `include_fake` | `boolean` | Read-write |
+| `include_removed` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -15550,11 +16357,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `include_fake` { #symbol-api-lua-v5-generated-property-ccbvehiclepartoptions-include-fake-a2422807b78a }
 
-**Contract fields:**
-
-- `name`: `"include_fake"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field include_fake boolean
+include_fake = ... -- boolean
+```
 
 **Sources:**
 
@@ -15562,11 +16368,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `include_removed` { #symbol-api-lua-v5-generated-property-ccbvehiclepartoptions-include-removed-aafa05e516ba }
 
-**Contract fields:**
-
-- `name`: `"include_removed"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field include_removed boolean
+include_removed = ... -- boolean
+```
 
 **Sources:**
 
@@ -15574,10 +16379,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbVehiclePrototype` { #symbol-api-lua-v5-generated-class-ccbvehicleprototype-90d444a559ac }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbVehiclePrototype = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `name` | `string` | Read-write |
+| `parts` | `table` | Read-write |
+| `item_spawn_count` | `integer` | Read-write |
+| `zone_count` | `integer` | Read-write |
+| `has_blueprint` | `boolean` | Read-write |
+| `color_palette` | `GameId` | Read-write |
 
 **Sources:**
 
@@ -15585,11 +16402,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbvehicleprototype-id-9a9eb48390de }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -15597,11 +16413,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbvehicleprototype-name-4bf843fd5038 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -15609,11 +16424,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `parts` { #symbol-api-lua-v5-generated-property-ccbvehicleprototype-parts-2bd441d31e97 }
 
-**Contract fields:**
-
-- `name`: `"parts"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field parts table
+parts = ... -- table
+```
 
 **Sources:**
 
@@ -15621,11 +16435,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `item_spawn_count` { #symbol-api-lua-v5-generated-property-ccbvehicleprototype-item-spawn-count-8c2b4f139f4b }
 
-**Contract fields:**
-
-- `name`: `"item_spawn_count"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field item_spawn_count integer
+item_spawn_count = ... -- integer
+```
 
 **Sources:**
 
@@ -15633,11 +16446,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `zone_count` { #symbol-api-lua-v5-generated-property-ccbvehicleprototype-zone-count-ca0ef0f6f5a0 }
 
-**Contract fields:**
-
-- `name`: `"zone_count"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field zone_count integer
+zone_count = ... -- integer
+```
 
 **Sources:**
 
@@ -15645,11 +16457,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `has_blueprint` { #symbol-api-lua-v5-generated-property-ccbvehicleprototype-has-blueprint-495638c58306 }
 
-**Contract fields:**
-
-- `name`: `"has_blueprint"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field has_blueprint boolean
+has_blueprint = ... -- boolean
+```
 
 **Sources:**
 
@@ -15657,11 +16468,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `color_palette` { #symbol-api-lua-v5-generated-property-ccbvehicleprototype-color-palette-1d9e8f15a437 }
 
-**Contract fields:**
-
-- `name`: `"color_palette"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field color_palette GameId
+color_palette = ... -- GameId
+```
 
 **Sources:**
 
@@ -15669,10 +16479,27 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbVehicleSnapshot` { #symbol-api-lua-v5-generated-class-ccbvehiclesnapshot-1adbc3d8067a }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbVehicleSnapshot = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `name` | `string` | Read-write |
+| `display_name` | `string` | Read-write |
+| `prototype` | `GameId` | Read-write |
+| `position` | `TripointCoord` | Read-write |
+| `parts` | `integer` | Read-write |
+| `real_parts` | `integer` | Read-write |
+| `owner` | `GameId` | Read-write |
+| `old_owner` | `GameId` | Read-write |
+| `motion` | `CcbVehicleMotion` | Read-write |
+| `lift` | `CcbVehicleLift` | Read-write |
+| `power` | `table` | Read-write |
+| `state` | `table` | Read-write |
 
 **Sources:**
 
@@ -15680,11 +16507,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-name-86c05e917757 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -15692,11 +16518,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `display_name` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-display-name-fc206031676d }
 
-**Contract fields:**
-
-- `name`: `"display_name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field display_name string
+display_name = ... -- string
+```
 
 **Sources:**
 
@@ -15704,11 +16529,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `prototype` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-prototype-2629b98b2a61 }
 
-**Contract fields:**
-
-- `name`: `"prototype"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field prototype GameId
+prototype = ... -- GameId
+```
 
 **Sources:**
 
@@ -15716,11 +16540,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `position` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-position-0785b85bff8e }
 
-**Contract fields:**
-
-- `name`: `"position"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
+```lua
+---@field position TripointCoord
+position = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -15728,11 +16551,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `parts` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-parts-3ce93bcab466 }
 
-**Contract fields:**
-
-- `name`: `"parts"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field parts integer
+parts = ... -- integer
+```
 
 **Sources:**
 
@@ -15740,11 +16562,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `real_parts` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-real-parts-8daf69a7be11 }
 
-**Contract fields:**
-
-- `name`: `"real_parts"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field real_parts integer
+real_parts = ... -- integer
+```
 
 **Sources:**
 
@@ -15752,11 +16573,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `owner` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-owner-5711150e9b12 }
 
-**Contract fields:**
-
-- `name`: `"owner"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field owner GameId
+owner = ... -- GameId
+```
 
 **Sources:**
 
@@ -15764,11 +16584,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `old_owner` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-old-owner-d7eac050f8a1 }
 
-**Contract fields:**
-
-- `name`: `"old_owner"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field old_owner GameId
+old_owner = ... -- GameId
+```
 
 **Sources:**
 
@@ -15776,11 +16595,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `motion` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-motion-4d3b6167140a }
 
-**Contract fields:**
-
-- `name`: `"motion"`
-- `optional`: `false`
-- `declaration`: `"CcbVehicleMotion"`
+```lua
+---@field motion CcbVehicleMotion
+motion = ... -- CcbVehicleMotion
+```
 
 **Sources:**
 
@@ -15788,11 +16606,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `lift` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-lift-923db6c8913e }
 
-**Contract fields:**
-
-- `name`: `"lift"`
-- `optional`: `false`
-- `declaration`: `"CcbVehicleLift"`
+```lua
+---@field lift CcbVehicleLift
+lift = ... -- CcbVehicleLift
+```
 
 **Sources:**
 
@@ -15800,11 +16617,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `power` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-power-7bd6fb4366fe }
 
-**Contract fields:**
-
-- `name`: `"power"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field power table
+power = ... -- table
+```
 
 **Sources:**
 
@@ -15812,11 +16628,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `state` { #symbol-api-lua-v5-generated-property-ccbvehiclesnapshot-state-a43f1d67e3de }
 
-**Contract fields:**
-
-- `name`: `"state"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field state table
+state = ... -- table
+```
 
 **Sources:**
 
@@ -15824,10 +16639,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbVehicleStopOptions` { #symbol-api-lua-v5-generated-class-ccbvehiclestopoptions-659a427fe477 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbVehicleStopOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `motion` | `boolean` | Read-write |
+| `engines` | `boolean` | Read-write |
+| `autopilot` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -15835,11 +16658,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `motion` { #symbol-api-lua-v5-generated-property-ccbvehiclestopoptions-motion-9e12627098e7 }
 
-**Contract fields:**
-
-- `name`: `"motion"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field motion boolean
+motion = ... -- boolean
+```
 
 **Sources:**
 
@@ -15847,11 +16669,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `engines` { #symbol-api-lua-v5-generated-property-ccbvehiclestopoptions-engines-91e0f2a10cfc }
 
-**Contract fields:**
-
-- `name`: `"engines"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field engines boolean
+engines = ... -- boolean
+```
 
 **Sources:**
 
@@ -15859,11 +16680,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `autopilot` { #symbol-api-lua-v5-generated-property-ccbvehiclestopoptions-autopilot-c1e560317527 }
 
-**Contract fields:**
-
-- `name`: `"autopilot"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field autopilot boolean
+autopilot = ... -- boolean
+```
 
 **Sources:**
 
@@ -15871,10 +16691,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbVehiclesApi` { #symbol-api-lua-v5-generated-class-ccbvehiclesapi-0df7b8d33d3d }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbVehiclesApi = {}
+```
 
 **Sources:**
 
@@ -15882,10 +16702,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbVitaminDecay` { #symbol-api-lua-v5-generated-class-ccbvitamindecay-90b2e1a812fd }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbVitaminDecay = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `ratio` | `integer` | Read-write |
 
 **Sources:**
 
@@ -15893,11 +16720,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbvitamindecay-id-ee150d8dce7e }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -15905,11 +16731,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `ratio` { #symbol-api-lua-v5-generated-property-ccbvitamindecay-ratio-c09555010405 }
 
-**Contract fields:**
-
-- `name`: `"ratio"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field ratio integer
+ratio = ... -- integer
+```
 
 **Sources:**
 
@@ -15917,10 +16742,25 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbVitaminDefinition` { #symbol-api-lua-v5-generated-class-ccbvitamindefinition-6e0ecdaa653f }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbVitaminDefinition = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `name` | `string` | Read-write |
+| `type` | `string` | Read-write |
+| `minimum` | `integer` | Read-write |
+| `maximum` | `integer` | Read-write |
+| `rate` | `TimeDuration` | Read-write |
+| `absorption_per_day` | `number` | Read-write |
+| `deficiency_effect` | `GameId` | Read-write |
+| `excess_effect` | `GameId` | Read-write |
+| `decays_into` | `table` | Read-write |
 
 **Sources:**
 
@@ -15928,11 +16768,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbvitamindefinition-id-86770969ba39 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -15940,11 +16779,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbvitamindefinition-name-d8523b8cf09f }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -15952,11 +16790,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbvitamindefinition-type-ccb2f4e0cccf }
 
-**Contract fields:**
-
-- `name`: `"type"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field type string
+type = ... -- string
+```
 
 **Sources:**
 
@@ -15964,11 +16801,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `minimum` { #symbol-api-lua-v5-generated-property-ccbvitamindefinition-minimum-2c81e0b290d0 }
 
-**Contract fields:**
-
-- `name`: `"minimum"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field minimum integer
+minimum = ... -- integer
+```
 
 **Sources:**
 
@@ -15976,11 +16812,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `maximum` { #symbol-api-lua-v5-generated-property-ccbvitamindefinition-maximum-db35e2340a9a }
 
-**Contract fields:**
-
-- `name`: `"maximum"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field maximum integer
+maximum = ... -- integer
+```
 
 **Sources:**
 
@@ -15988,11 +16823,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `rate` { #symbol-api-lua-v5-generated-property-ccbvitamindefinition-rate-47f25331b7d4 }
 
-**Contract fields:**
-
-- `name`: `"rate"`
-- `optional`: `false`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field rate TimeDuration
+rate = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -16000,11 +16834,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `absorption_per_day` { #symbol-api-lua-v5-generated-property-ccbvitamindefinition-absorption-per-day-22599ce09bd9 }
 
-**Contract fields:**
-
-- `name`: `"absorption_per_day"`
-- `optional`: `true`
-- `declaration`: `"number"`
+```lua
+---@field absorption_per_day number
+absorption_per_day = ... -- number
+```
 
 **Sources:**
 
@@ -16012,11 +16845,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `deficiency_effect` { #symbol-api-lua-v5-generated-property-ccbvitamindefinition-deficiency-effect-1a6f1ebda7bf }
 
-**Contract fields:**
-
-- `name`: `"deficiency_effect"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field deficiency_effect GameId
+deficiency_effect = ... -- GameId
+```
 
 **Sources:**
 
@@ -16024,11 +16856,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `excess_effect` { #symbol-api-lua-v5-generated-property-ccbvitamindefinition-excess-effect-d311bcff3ff5 }
 
-**Contract fields:**
-
-- `name`: `"excess_effect"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field excess_effect GameId
+excess_effect = ... -- GameId
+```
 
 **Sources:**
 
@@ -16036,11 +16867,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `decays_into` { #symbol-api-lua-v5-generated-property-ccbvitamindefinition-decays-into-560ced6ed19f }
 
-**Contract fields:**
-
-- `name`: `"decays_into"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field decays_into table
+decays_into = ... -- table
+```
 
 **Sources:**
 
@@ -16048,10 +16878,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbVitaminState` { #symbol-api-lua-v5-generated-class-ccbvitaminstate-a09bbfbc5cff }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbVitaminState = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `name` | `string` | Read-write |
+| `amount` | `integer` | Read-write |
+| `minimum` | `integer` | Read-write |
+| `maximum` | `integer` | Read-write |
+| `severity` | `integer` | Read-write |
+| `daily_actual` | `integer` | Read-write |
+| `daily_estimated` | `integer` | Read-write |
+| `rate` | `TimeDuration` | Read-write |
 
 **Sources:**
 
@@ -16059,11 +16903,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbvitaminstate-id-b46938c8033a }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -16071,11 +16914,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbvitaminstate-name-90a1c22dd77c }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -16083,11 +16925,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `amount` { #symbol-api-lua-v5-generated-property-ccbvitaminstate-amount-82730c39d355 }
 
-**Contract fields:**
-
-- `name`: `"amount"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field amount integer
+amount = ... -- integer
+```
 
 **Sources:**
 
@@ -16095,11 +16936,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `minimum` { #symbol-api-lua-v5-generated-property-ccbvitaminstate-minimum-dfe035b5b614 }
 
-**Contract fields:**
-
-- `name`: `"minimum"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field minimum integer
+minimum = ... -- integer
+```
 
 **Sources:**
 
@@ -16107,11 +16947,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `maximum` { #symbol-api-lua-v5-generated-property-ccbvitaminstate-maximum-f628ab5530d2 }
 
-**Contract fields:**
-
-- `name`: `"maximum"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field maximum integer
+maximum = ... -- integer
+```
 
 **Sources:**
 
@@ -16119,11 +16958,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `severity` { #symbol-api-lua-v5-generated-property-ccbvitaminstate-severity-1c192d7a2ed0 }
 
-**Contract fields:**
-
-- `name`: `"severity"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field severity integer
+severity = ... -- integer
+```
 
 **Sources:**
 
@@ -16131,11 +16969,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `daily_actual` { #symbol-api-lua-v5-generated-property-ccbvitaminstate-daily-actual-88ae170440bc }
 
-**Contract fields:**
-
-- `name`: `"daily_actual"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field daily_actual integer
+daily_actual = ... -- integer
+```
 
 **Sources:**
 
@@ -16143,11 +16980,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `daily_estimated` { #symbol-api-lua-v5-generated-property-ccbvitaminstate-daily-estimated-066c1d6ca931 }
 
-**Contract fields:**
-
-- `name`: `"daily_estimated"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field daily_estimated integer
+daily_estimated = ... -- integer
+```
 
 **Sources:**
 
@@ -16155,11 +16991,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `rate` { #symbol-api-lua-v5-generated-property-ccbvitaminstate-rate-8ed2bac93ccc }
 
-**Contract fields:**
-
-- `name`: `"rate"`
-- `optional`: `false`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field rate TimeDuration
+rate = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -16167,10 +17002,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbVitaminsApi` { #symbol-api-lua-v5-generated-class-ccbvitaminsapi-76b750c58493 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbVitaminsApi = {}
+```
 
 **Sources:**
 
@@ -16178,10 +17013,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbWeatherApi` { #symbol-api-lua-v5-generated-class-ccbweatherapi-dff7c37f06da }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbWeatherApi = {}
+```
 
 **Sources:**
 
@@ -16189,10 +17024,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbWeatherForecast` { #symbol-api-lua-v5-generated-class-ccbweatherforecast-5550674b7dde }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbWeatherForecast = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `items` | `CcbWeatherPoint[]` | Read-write |
+| `returned` | `integer` | Read-write |
+| `limit` | `integer` | Read-write |
+| `start` | `TimePoint` | Read-write |
+| `step` | `TimeDuration` | Read-write |
+| `position` | `TripointCoord` | Read-write |
+| `respected_override` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -16200,11 +17047,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `items` { #symbol-api-lua-v5-generated-property-ccbweatherforecast-items-e28f16d23f56 }
 
-**Contract fields:**
-
-- `name`: `"items"`
-- `optional`: `false`
-- `declaration`: `"CcbWeatherPoint[]"`
+```lua
+---@field items CcbWeatherPoint[]
+items = ... -- CcbWeatherPoint[]
+```
 
 **Sources:**
 
@@ -16212,11 +17058,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `returned` { #symbol-api-lua-v5-generated-property-ccbweatherforecast-returned-35758e7460e2 }
 
-**Contract fields:**
-
-- `name`: `"returned"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field returned integer
+returned = ... -- integer
+```
 
 **Sources:**
 
@@ -16224,11 +17069,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbweatherforecast-limit-b46af7aec421 }
 
-**Contract fields:**
-
-- `name`: `"limit"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field limit integer
+limit = ... -- integer
+```
 
 **Sources:**
 
@@ -16236,11 +17080,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `start` { #symbol-api-lua-v5-generated-property-ccbweatherforecast-start-56623d0fd79b }
 
-**Contract fields:**
-
-- `name`: `"start"`
-- `optional`: `false`
-- `declaration`: `"TimePoint"`
+```lua
+---@field start TimePoint
+start = ... -- TimePoint
+```
 
 **Sources:**
 
@@ -16248,11 +17091,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `step` { #symbol-api-lua-v5-generated-property-ccbweatherforecast-step-2755ab8d258a }
 
-**Contract fields:**
-
-- `name`: `"step"`
-- `optional`: `false`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field step TimeDuration
+step = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -16260,11 +17102,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `position` { #symbol-api-lua-v5-generated-property-ccbweatherforecast-position-18038e3236dc }
 
-**Contract fields:**
-
-- `name`: `"position"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
+```lua
+---@field position TripointCoord
+position = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -16272,11 +17113,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `respected_override` { #symbol-api-lua-v5-generated-property-ccbweatherforecast-respected-override-d30ac20620ba }
 
-**Contract fields:**
-
-- `name`: `"respected_override"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field respected_override boolean
+respected_override = ... -- boolean
+```
 
 **Sources:**
 
@@ -16284,10 +17124,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbWeatherForecastOptions` { #symbol-api-lua-v5-generated-class-ccbweatherforecastoptions-bc7be7ff75fd }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbWeatherForecastOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `start` | `TimePoint` | Read-write |
+| `position` | `TripointCoord Absolute map-square coordinate.` | Read-write |
+| `step` | `TimeDuration` | Read-write |
+| `limit` | `integer` | Read-write |
+| `respect_override` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -16295,11 +17145,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `start` { #symbol-api-lua-v5-generated-property-ccbweatherforecastoptions-start-f26d86ca1764 }
 
-**Contract fields:**
-
-- `name`: `"start"`
-- `optional`: `true`
-- `declaration`: `"TimePoint"`
+```lua
+---@field start TimePoint
+start = ... -- TimePoint
+```
 
 **Sources:**
 
@@ -16307,11 +17156,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `position` { #symbol-api-lua-v5-generated-property-ccbweatherforecastoptions-position-98f5a13d8d66 }
 
-**Contract fields:**
-
-- `name`: `"position"`
-- `optional`: `true`
-- `declaration`: `"TripointCoord Absolute map-square coordinate."`
+```lua
+---@field position TripointCoord Absolute map-square coordinate.
+position = ... -- TripointCoord Absolute map-square coordinate.
+```
 
 **Sources:**
 
@@ -16319,11 +17167,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `step` { #symbol-api-lua-v5-generated-property-ccbweatherforecastoptions-step-bc34d93fe754 }
 
-**Contract fields:**
-
-- `name`: `"step"`
-- `optional`: `true`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field step TimeDuration
+step = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -16331,11 +17178,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbweatherforecastoptions-limit-539c25993ef9 }
 
-**Contract fields:**
-
-- `name`: `"limit"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field limit integer
+limit = ... -- integer
+```
 
 **Sources:**
 
@@ -16343,11 +17189,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `respect_override` { #symbol-api-lua-v5-generated-property-ccbweatherforecastoptions-respect-override-6be084ade30c }
 
-**Contract fields:**
-
-- `name`: `"respect_override"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field respect_override boolean
+respect_override = ... -- boolean
+```
 
 **Sources:**
 
@@ -16355,10 +17200,27 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbWeatherGenerator` { #symbol-api-lua-v5-generated-class-ccbweathergenerator-8a5b707af9e9 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbWeatherGenerator = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `loaded` | `boolean` | Read-write |
+| `base_temperature_c` | `number` | Read-write |
+| `base_humidity` | `number` | Read-write |
+| `base_pressure` | `number` | Read-write |
+| `base_wind_mph` | `number` | Read-write |
+| `wind_distribution_peaks` | `integer` | Read-write |
+| `wind_season_variation` | `integer` | Read-write |
+| `seasonal` | `table<"spring"|"summer"|"autumn"|"winter", CcbWeatherSeasonModifiers>` | Read-write |
+| `blacklist` | `table` | Read-write |
+| `whitelist` | `table` | Read-write |
+| `sorted_weather` | `table` | Read-write |
 
 **Sources:**
 
@@ -16366,11 +17228,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-id-49ccfa068723 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -16378,11 +17239,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `loaded` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-loaded-fdeb041b1eaf }
 
-**Contract fields:**
-
-- `name`: `"loaded"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field loaded boolean
+loaded = ... -- boolean
+```
 
 **Sources:**
 
@@ -16390,11 +17250,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `base_temperature_c` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-base-temperature-c-1cf2d3fd7ce8 }
 
-**Contract fields:**
-
-- `name`: `"base_temperature_c"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field base_temperature_c number
+base_temperature_c = ... -- number
+```
 
 **Sources:**
 
@@ -16402,11 +17261,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `base_humidity` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-base-humidity-f5b770ea5ef3 }
 
-**Contract fields:**
-
-- `name`: `"base_humidity"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field base_humidity number
+base_humidity = ... -- number
+```
 
 **Sources:**
 
@@ -16414,11 +17272,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `base_pressure` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-base-pressure-57df30b16a26 }
 
-**Contract fields:**
-
-- `name`: `"base_pressure"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field base_pressure number
+base_pressure = ... -- number
+```
 
 **Sources:**
 
@@ -16426,11 +17283,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `base_wind_mph` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-base-wind-mph-ce7f7cd40e70 }
 
-**Contract fields:**
-
-- `name`: `"base_wind_mph"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field base_wind_mph number
+base_wind_mph = ... -- number
+```
 
 **Sources:**
 
@@ -16438,11 +17294,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `wind_distribution_peaks` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-wind-distribution-peaks-d662daf5c28d }
 
-**Contract fields:**
-
-- `name`: `"wind_distribution_peaks"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field wind_distribution_peaks integer
+wind_distribution_peaks = ... -- integer
+```
 
 **Sources:**
 
@@ -16450,11 +17305,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `wind_season_variation` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-wind-season-variation-96b33b46c1e5 }
 
-**Contract fields:**
-
-- `name`: `"wind_season_variation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field wind_season_variation integer
+wind_season_variation = ... -- integer
+```
 
 **Sources:**
 
@@ -16462,11 +17316,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `seasonal` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-seasonal-5de7c4f92baf }
 
-**Contract fields:**
-
-- `name`: `"seasonal"`
-- `optional`: `false`
-- `declaration`: `"table<\"spring\"|\"summer\"|\"autumn\"|\"winter\", CcbWeatherSeasonModifiers>"`
+```lua
+---@field seasonal table<"spring"|"summer"|"autumn"|"winter", CcbWeatherSeasonModifiers>
+seasonal = ... -- table<"spring"|"summer"|"autumn"|"winter", CcbWeatherSeasonModifiers>
+```
 
 **Sources:**
 
@@ -16474,11 +17327,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `blacklist` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-blacklist-f9d583caa647 }
 
-**Contract fields:**
-
-- `name`: `"blacklist"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field blacklist table
+blacklist = ... -- table
+```
 
 **Sources:**
 
@@ -16486,11 +17338,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `whitelist` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-whitelist-08f17dd44c8c }
 
-**Contract fields:**
-
-- `name`: `"whitelist"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field whitelist table
+whitelist = ... -- table
+```
 
 **Sources:**
 
@@ -16498,11 +17349,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sorted_weather` { #symbol-api-lua-v5-generated-property-ccbweathergenerator-sorted-weather-8b8c1f8c2667 }
 
-**Contract fields:**
-
-- `name`: `"sorted_weather"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field sorted_weather table
+sorted_weather = ... -- table
+```
 
 **Sources:**
 
@@ -16510,10 +17360,22 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbWeatherLimits` { #symbol-api-lua-v5-generated-class-ccbweatherlimits-deb067ed397c }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbWeatherLimits = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `catalog_limit` | `integer` | Read-write |
+| `forecast_limit` | `integer` | Read-write |
+| `forecast_minimum_step` | `TimeDuration` | Read-write |
+| `forecast_maximum_step` | `TimeDuration` | Read-write |
+| `forecast_maximum_horizon` | `TimeDuration` | Read-write |
+| `maximum_wind_speed_mph` | `integer` | Read-write |
+| `maximum_temperature_kelvin` | `number` | Read-write |
 
 **Sources:**
 
@@ -16521,11 +17383,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `catalog_limit` { #symbol-api-lua-v5-generated-property-ccbweatherlimits-catalog-limit-3210961b377f }
 
-**Contract fields:**
-
-- `name`: `"catalog_limit"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field catalog_limit integer
+catalog_limit = ... -- integer
+```
 
 **Sources:**
 
@@ -16533,11 +17394,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `forecast_limit` { #symbol-api-lua-v5-generated-property-ccbweatherlimits-forecast-limit-4665d7e3c651 }
 
-**Contract fields:**
-
-- `name`: `"forecast_limit"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field forecast_limit integer
+forecast_limit = ... -- integer
+```
 
 **Sources:**
 
@@ -16545,11 +17405,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `forecast_minimum_step` { #symbol-api-lua-v5-generated-property-ccbweatherlimits-forecast-minimum-step-d694cfea0158 }
 
-**Contract fields:**
-
-- `name`: `"forecast_minimum_step"`
-- `optional`: `false`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field forecast_minimum_step TimeDuration
+forecast_minimum_step = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -16557,11 +17416,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `forecast_maximum_step` { #symbol-api-lua-v5-generated-property-ccbweatherlimits-forecast-maximum-step-194db5b181ae }
 
-**Contract fields:**
-
-- `name`: `"forecast_maximum_step"`
-- `optional`: `false`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field forecast_maximum_step TimeDuration
+forecast_maximum_step = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -16569,11 +17427,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `forecast_maximum_horizon` { #symbol-api-lua-v5-generated-property-ccbweatherlimits-forecast-maximum-horizon-b27ac56f9440 }
 
-**Contract fields:**
-
-- `name`: `"forecast_maximum_horizon"`
-- `optional`: `false`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field forecast_maximum_horizon TimeDuration
+forecast_maximum_horizon = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -16581,11 +17438,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `maximum_wind_speed_mph` { #symbol-api-lua-v5-generated-property-ccbweatherlimits-maximum-wind-speed-mph-d4617d90cfe4 }
 
-**Contract fields:**
-
-- `name`: `"maximum_wind_speed_mph"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field maximum_wind_speed_mph integer
+maximum_wind_speed_mph = ... -- integer
+```
 
 **Sources:**
 
@@ -16593,11 +17449,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `maximum_temperature_kelvin` { #symbol-api-lua-v5-generated-property-ccbweatherlimits-maximum-temperature-kelvin-7dfa93a58d94 }
 
-**Contract fields:**
-
-- `name`: `"maximum_temperature_kelvin"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field maximum_temperature_kelvin number
+maximum_temperature_kelvin = ... -- number
+```
 
 **Sources:**
 
@@ -16605,10 +17460,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbWeatherListOptions` { #symbol-api-lua-v5-generated-class-ccbweatherlistoptions-9ed5cf80c420 }
 
-**Contract fields:**
+```lua
+---@class : CcbDefinitionSearchOptions
+local CcbWeatherListOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbDefinitionSearchOptions"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `dangerous` | `boolean` | Read-write |
+| `rains` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -16616,11 +17478,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `dangerous` { #symbol-api-lua-v5-generated-property-ccbweatherlistoptions-dangerous-215d987798e4 }
 
-**Contract fields:**
-
-- `name`: `"dangerous"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field dangerous boolean
+dangerous = ... -- boolean
+```
 
 **Sources:**
 
@@ -16628,11 +17489,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `rains` { #symbol-api-lua-v5-generated-property-ccbweatherlistoptions-rains-754567961771 }
 
-**Contract fields:**
-
-- `name`: `"rains"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field rains boolean
+rains = ... -- boolean
+```
 
 **Sources:**
 
@@ -16640,10 +17500,31 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbWeatherPoint` { #symbol-api-lua-v5-generated-class-ccbweatherpoint-69261d1098cc }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbWeatherPoint = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `at` | `TimePoint` | Read-write |
+| `weather` | `GameId` | Read-write |
+| `temperature` | `UnitValue` | Read-write |
+| `temperature_c` | `number` | Read-write |
+| `humidity` | `number` | Read-write |
+| `pressure` | `number` | Read-write |
+| `wind_speed_mph` | `integer` | Read-write |
+| `wind_direction_degrees` | `integer` | Read-write |
+| `wind_description` | `string` | Read-write |
+| `position` | `TripointCoord` | Read-write |
+| `precipitation_mm_per_hour` | `number` | Read-write |
+| `sunlight` | `number` | Read-write |
+| `sun_irradiance` | `number` | Read-write |
+| `moonlight` | `number` | Read-write |
+| `is_day` | `boolean` | Read-write |
+| `is_night` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -16651,11 +17532,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `at` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-at-ebe847c4c066 }
 
-**Contract fields:**
-
-- `name`: `"at"`
-- `optional`: `false`
-- `declaration`: `"TimePoint"`
+```lua
+---@field at TimePoint
+at = ... -- TimePoint
+```
 
 **Sources:**
 
@@ -16663,11 +17543,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `weather` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-weather-c86755f61778 }
 
-**Contract fields:**
-
-- `name`: `"weather"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field weather GameId
+weather = ... -- GameId
+```
 
 **Sources:**
 
@@ -16675,11 +17554,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `temperature` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-temperature-b77a41ac1f45 }
 
-**Contract fields:**
-
-- `name`: `"temperature"`
-- `optional`: `false`
-- `declaration`: `"UnitValue"`
+```lua
+---@field temperature UnitValue
+temperature = ... -- UnitValue
+```
 
 **Sources:**
 
@@ -16687,11 +17565,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `temperature_c` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-temperature-c-c134826c5bc5 }
 
-**Contract fields:**
-
-- `name`: `"temperature_c"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field temperature_c number
+temperature_c = ... -- number
+```
 
 **Sources:**
 
@@ -16699,11 +17576,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `humidity` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-humidity-3d2f4d0d6559 }
 
-**Contract fields:**
-
-- `name`: `"humidity"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field humidity number
+humidity = ... -- number
+```
 
 **Sources:**
 
@@ -16711,11 +17587,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `pressure` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-pressure-16e37b2c967c }
 
-**Contract fields:**
-
-- `name`: `"pressure"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field pressure number
+pressure = ... -- number
+```
 
 **Sources:**
 
@@ -16723,11 +17598,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `wind_speed_mph` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-wind-speed-mph-cf1c3c672fbb }
 
-**Contract fields:**
-
-- `name`: `"wind_speed_mph"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field wind_speed_mph integer
+wind_speed_mph = ... -- integer
+```
 
 **Sources:**
 
@@ -16735,11 +17609,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `wind_direction_degrees` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-wind-direction-degrees-8741e5aae442 }
 
-**Contract fields:**
-
-- `name`: `"wind_direction_degrees"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field wind_direction_degrees integer
+wind_direction_degrees = ... -- integer
+```
 
 **Sources:**
 
@@ -16747,11 +17620,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `wind_description` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-wind-description-92d5195b06c4 }
 
-**Contract fields:**
-
-- `name`: `"wind_description"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field wind_description string
+wind_description = ... -- string
+```
 
 **Sources:**
 
@@ -16759,11 +17631,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `position` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-position-043759055a86 }
 
-**Contract fields:**
-
-- `name`: `"position"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
+```lua
+---@field position TripointCoord
+position = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -16771,11 +17642,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `precipitation_mm_per_hour` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-precipitation-mm-per-hour-456e5389d9d0 }
 
-**Contract fields:**
-
-- `name`: `"precipitation_mm_per_hour"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field precipitation_mm_per_hour number
+precipitation_mm_per_hour = ... -- number
+```
 
 **Sources:**
 
@@ -16783,11 +17653,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sunlight` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-sunlight-04691c20a281 }
 
-**Contract fields:**
-
-- `name`: `"sunlight"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field sunlight number
+sunlight = ... -- number
+```
 
 **Sources:**
 
@@ -16795,11 +17664,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sun_irradiance` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-sun-irradiance-7db80cc958a5 }
 
-**Contract fields:**
-
-- `name`: `"sun_irradiance"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field sun_irradiance number
+sun_irradiance = ... -- number
+```
 
 **Sources:**
 
@@ -16807,11 +17675,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `moonlight` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-moonlight-e18ff82a7871 }
 
-**Contract fields:**
-
-- `name`: `"moonlight"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field moonlight number
+moonlight = ... -- number
+```
 
 **Sources:**
 
@@ -16819,11 +17686,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `is_day` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-is-day-db2cdee166ad }
 
-**Contract fields:**
-
-- `name`: `"is_day"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field is_day boolean
+is_day = ... -- boolean
+```
 
 **Sources:**
 
@@ -16831,11 +17697,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `is_night` { #symbol-api-lua-v5-generated-property-ccbweatherpoint-is-night-b9944170c4f9 }
 
-**Contract fields:**
-
-- `name`: `"is_night"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field is_night boolean
+is_night = ... -- boolean
+```
 
 **Sources:**
 
@@ -16843,10 +17708,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbWeatherSeasonModifiers` { #symbol-api-lua-v5-generated-class-ccbweatherseasonmodifiers-c05c543fcd1a }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbWeatherSeasonModifiers = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `temperature_modifier` | `number` | Read-write |
+| `humidity_modifier` | `number` | Read-write |
 
 **Sources:**
 
@@ -16854,11 +17726,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `temperature_modifier` { #symbol-api-lua-v5-generated-property-ccbweatherseasonmodifiers-temperature-modifier-d381e316a172 }
 
-**Contract fields:**
-
-- `name`: `"temperature_modifier"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field temperature_modifier number
+temperature_modifier = ... -- number
+```
 
 **Sources:**
 
@@ -16866,11 +17737,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `humidity_modifier` { #symbol-api-lua-v5-generated-property-ccbweatherseasonmodifiers-humidity-modifier-c7d791ca398c }
 
-**Contract fields:**
-
-- `name`: `"humidity_modifier"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field humidity_modifier number
+humidity_modifier = ... -- number
+```
 
 **Sources:**
 
@@ -16878,10 +17748,24 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbWeatherSnapshot` { #symbol-api-lua-v5-generated-class-ccbweathersnapshot-cb0e83186758 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbWeatherSnapshot = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `string` | Read-write |
+| `name` | `string` | Read-write |
+| `temperature_c` | `number` | Read-write |
+| `temperature_display` | `string` | Read-write |
+| `dangerous` | `boolean` | Read-write |
+| `raining` | `boolean` | Read-write |
+| `sight_penalty` | `number` | Read-write |
+| `wind_speed` | `number` | Read-write |
+| `wind_direction` | `string` | Read-write |
 
 **Sources:**
 
@@ -16889,11 +17773,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbweathersnapshot-id-79aa84c1c213 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field id string
+id = ... -- string
+```
 
 **Sources:**
 
@@ -16901,11 +17784,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbweathersnapshot-name-7b29514f7e46 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -16913,11 +17795,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `temperature_c` { #symbol-api-lua-v5-generated-property-ccbweathersnapshot-temperature-c-4967e6dd1e7e }
 
-**Contract fields:**
-
-- `name`: `"temperature_c"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field temperature_c number
+temperature_c = ... -- number
+```
 
 **Sources:**
 
@@ -16925,11 +17806,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `temperature_display` { #symbol-api-lua-v5-generated-property-ccbweathersnapshot-temperature-display-e46e4b7cbbf9 }
 
-**Contract fields:**
-
-- `name`: `"temperature_display"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field temperature_display string
+temperature_display = ... -- string
+```
 
 **Sources:**
 
@@ -16937,11 +17817,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `dangerous` { #symbol-api-lua-v5-generated-property-ccbweathersnapshot-dangerous-a7c9328f9f25 }
 
-**Contract fields:**
-
-- `name`: `"dangerous"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field dangerous boolean
+dangerous = ... -- boolean
+```
 
 **Sources:**
 
@@ -16949,11 +17828,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `raining` { #symbol-api-lua-v5-generated-property-ccbweathersnapshot-raining-0e7dbf91db13 }
 
-**Contract fields:**
-
-- `name`: `"raining"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field raining boolean
+raining = ... -- boolean
+```
 
 **Sources:**
 
@@ -16961,11 +17839,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sight_penalty` { #symbol-api-lua-v5-generated-property-ccbweathersnapshot-sight-penalty-14b0eeb42b06 }
 
-**Contract fields:**
-
-- `name`: `"sight_penalty"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field sight_penalty number
+sight_penalty = ... -- number
+```
 
 **Sources:**
 
@@ -16973,11 +17850,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `wind_speed` { #symbol-api-lua-v5-generated-property-ccbweathersnapshot-wind-speed-8d5f28c4fa96 }
 
-**Contract fields:**
-
-- `name`: `"wind_speed"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field wind_speed number
+wind_speed = ... -- number
+```
 
 **Sources:**
 
@@ -16985,11 +17861,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `wind_direction` { #symbol-api-lua-v5-generated-property-ccbweathersnapshot-wind-direction-73a0f8594e24 }
 
-**Contract fields:**
-
-- `name`: `"wind_direction"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field wind_direction string
+wind_direction = ... -- string
+```
 
 **Sources:**
 
@@ -16997,10 +17872,38 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbWeatherType` { #symbol-api-lua-v5-generated-class-ccbweathertype-7bc0a3d6e66c }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbWeatherType = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `name` | `string` | Read-write |
+| `loaded` | `boolean` | Read-write |
+| `symbol` | `string` | Read-write |
+| `sun_symbol` | `string` | Read-write |
+| `ranged_penalty` | `integer` | Read-write |
+| `sight_penalty` | `integer` | Read-write |
+| `light_modifier` | `integer` | Read-write |
+| `light_multiplier` | `number` | Read-write |
+| `sun_multiplier` | `number` | Read-write |
+| `sound_attenuation` | `integer` | Read-write |
+| `dangerous` | `boolean` | Read-write |
+| `precipitation` | `string` | Read-write |
+| `precipitation_mm_per_hour` | `number` | Read-write |
+| `rains` | `boolean` | Read-write |
+| `temperature_modifier_c` | `number` | Read-write |
+| `priority` | `integer` | Read-write |
+| `tiles_animation` | `string` | Read-write |
+| `sound_category` | `string` | Read-write |
+| `duration_min` | `TimeDuration` | Read-write |
+| `duration_max` | `TimeDuration` | Read-write |
+| `required_weathers` | `table` | Read-write |
+| `sources` | `table` | Read-write |
 
 **Sources:**
 
@@ -17008,11 +17911,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbweathertype-id-7adfba608aaa }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -17020,11 +17922,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbweathertype-name-3b078bfdb3d1 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -17032,11 +17933,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `loaded` { #symbol-api-lua-v5-generated-property-ccbweathertype-loaded-8a283d002964 }
 
-**Contract fields:**
-
-- `name`: `"loaded"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field loaded boolean
+loaded = ... -- boolean
+```
 
 **Sources:**
 
@@ -17044,11 +17944,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `symbol` { #symbol-api-lua-v5-generated-property-ccbweathertype-symbol-0c7c2c4a476f }
 
-**Contract fields:**
-
-- `name`: `"symbol"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field symbol string
+symbol = ... -- string
+```
 
 **Sources:**
 
@@ -17056,11 +17955,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sun_symbol` { #symbol-api-lua-v5-generated-property-ccbweathertype-sun-symbol-b6039a302b53 }
 
-**Contract fields:**
-
-- `name`: `"sun_symbol"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field sun_symbol string
+sun_symbol = ... -- string
+```
 
 **Sources:**
 
@@ -17068,11 +17966,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `ranged_penalty` { #symbol-api-lua-v5-generated-property-ccbweathertype-ranged-penalty-c3350018716b }
 
-**Contract fields:**
-
-- `name`: `"ranged_penalty"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field ranged_penalty integer
+ranged_penalty = ... -- integer
+```
 
 **Sources:**
 
@@ -17080,11 +17977,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sight_penalty` { #symbol-api-lua-v5-generated-property-ccbweathertype-sight-penalty-ccaf78d537c3 }
 
-**Contract fields:**
-
-- `name`: `"sight_penalty"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field sight_penalty integer
+sight_penalty = ... -- integer
+```
 
 **Sources:**
 
@@ -17092,11 +17988,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `light_modifier` { #symbol-api-lua-v5-generated-property-ccbweathertype-light-modifier-640fb9e73cc3 }
 
-**Contract fields:**
-
-- `name`: `"light_modifier"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field light_modifier integer
+light_modifier = ... -- integer
+```
 
 **Sources:**
 
@@ -17104,11 +17999,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `light_multiplier` { #symbol-api-lua-v5-generated-property-ccbweathertype-light-multiplier-2b8899368de9 }
 
-**Contract fields:**
-
-- `name`: `"light_multiplier"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field light_multiplier number
+light_multiplier = ... -- number
+```
 
 **Sources:**
 
@@ -17116,11 +18010,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sun_multiplier` { #symbol-api-lua-v5-generated-property-ccbweathertype-sun-multiplier-23dad705fade }
 
-**Contract fields:**
-
-- `name`: `"sun_multiplier"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field sun_multiplier number
+sun_multiplier = ... -- number
+```
 
 **Sources:**
 
@@ -17128,11 +18021,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sound_attenuation` { #symbol-api-lua-v5-generated-property-ccbweathertype-sound-attenuation-5d4f2e5c4442 }
 
-**Contract fields:**
-
-- `name`: `"sound_attenuation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field sound_attenuation integer
+sound_attenuation = ... -- integer
+```
 
 **Sources:**
 
@@ -17140,11 +18032,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `dangerous` { #symbol-api-lua-v5-generated-property-ccbweathertype-dangerous-8dd2c3f6e10a }
 
-**Contract fields:**
-
-- `name`: `"dangerous"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field dangerous boolean
+dangerous = ... -- boolean
+```
 
 **Sources:**
 
@@ -17152,11 +18043,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `precipitation` { #symbol-api-lua-v5-generated-property-ccbweathertype-precipitation-76f036515642 }
 
-**Contract fields:**
-
-- `name`: `"precipitation"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field precipitation string
+precipitation = ... -- string
+```
 
 **Sources:**
 
@@ -17164,11 +18054,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `precipitation_mm_per_hour` { #symbol-api-lua-v5-generated-property-ccbweathertype-precipitation-mm-per-hour-b7f95259d4dc }
 
-**Contract fields:**
-
-- `name`: `"precipitation_mm_per_hour"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field precipitation_mm_per_hour number
+precipitation_mm_per_hour = ... -- number
+```
 
 **Sources:**
 
@@ -17176,11 +18065,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `rains` { #symbol-api-lua-v5-generated-property-ccbweathertype-rains-9fb4d65576fb }
 
-**Contract fields:**
-
-- `name`: `"rains"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field rains boolean
+rains = ... -- boolean
+```
 
 **Sources:**
 
@@ -17188,11 +18076,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `temperature_modifier_c` { #symbol-api-lua-v5-generated-property-ccbweathertype-temperature-modifier-c-9585bd829682 }
 
-**Contract fields:**
-
-- `name`: `"temperature_modifier_c"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field temperature_modifier_c number
+temperature_modifier_c = ... -- number
+```
 
 **Sources:**
 
@@ -17200,11 +18087,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `priority` { #symbol-api-lua-v5-generated-property-ccbweathertype-priority-ba2913b16edc }
 
-**Contract fields:**
-
-- `name`: `"priority"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field priority integer
+priority = ... -- integer
+```
 
 **Sources:**
 
@@ -17212,11 +18098,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `tiles_animation` { #symbol-api-lua-v5-generated-property-ccbweathertype-tiles-animation-785afdf5ddfd }
 
-**Contract fields:**
-
-- `name`: `"tiles_animation"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field tiles_animation string
+tiles_animation = ... -- string
+```
 
 **Sources:**
 
@@ -17224,11 +18109,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sound_category` { #symbol-api-lua-v5-generated-property-ccbweathertype-sound-category-86312831e1e8 }
 
-**Contract fields:**
-
-- `name`: `"sound_category"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field sound_category string
+sound_category = ... -- string
+```
 
 **Sources:**
 
@@ -17236,11 +18120,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `duration_min` { #symbol-api-lua-v5-generated-property-ccbweathertype-duration-min-f83d2233f378 }
 
-**Contract fields:**
-
-- `name`: `"duration_min"`
-- `optional`: `false`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field duration_min TimeDuration
+duration_min = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -17248,11 +18131,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `duration_max` { #symbol-api-lua-v5-generated-property-ccbweathertype-duration-max-c29e0aa7bede }
 
-**Contract fields:**
-
-- `name`: `"duration_max"`
-- `optional`: `false`
-- `declaration`: `"TimeDuration"`
+```lua
+---@field duration_max TimeDuration
+duration_max = ... -- TimeDuration
+```
 
 **Sources:**
 
@@ -17260,11 +18142,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `required_weathers` { #symbol-api-lua-v5-generated-property-ccbweathertype-required-weathers-38d19c6e296b }
 
-**Contract fields:**
-
-- `name`: `"required_weathers"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field required_weathers table
+required_weathers = ... -- table
+```
 
 **Sources:**
 
@@ -17272,11 +18153,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sources` { #symbol-api-lua-v5-generated-property-ccbweathertype-sources-4d0e473dd080 }
 
-**Contract fields:**
-
-- `name`: `"sources"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field sources table
+sources = ... -- table
+```
 
 **Sources:**
 
@@ -17284,10 +18164,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbWeatherWindOptions` { #symbol-api-lua-v5-generated-class-ccbweatherwindoptions-bc02a0c11a2e }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbWeatherWindOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `speed_mph` | `integer` | Read-write |
+| `direction_degrees` | `integer` | Read-write |
+| `clear_speed` | `boolean` | Read-write |
+| `clear_direction` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -17295,11 +18184,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `speed_mph` { #symbol-api-lua-v5-generated-property-ccbweatherwindoptions-speed-mph-aa0e3a1bffe2 }
 
-**Contract fields:**
-
-- `name`: `"speed_mph"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field speed_mph integer
+speed_mph = ... -- integer
+```
 
 **Sources:**
 
@@ -17307,11 +18195,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `direction_degrees` { #symbol-api-lua-v5-generated-property-ccbweatherwindoptions-direction-degrees-fe234d360898 }
 
-**Contract fields:**
-
-- `name`: `"direction_degrees"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field direction_degrees integer
+direction_degrees = ... -- integer
+```
 
 **Sources:**
 
@@ -17319,11 +18206,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `clear_speed` { #symbol-api-lua-v5-generated-property-ccbweatherwindoptions-clear-speed-f12b8601da63 }
 
-**Contract fields:**
-
-- `name`: `"clear_speed"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field clear_speed boolean
+clear_speed = ... -- boolean
+```
 
 **Sources:**
 
@@ -17331,11 +18217,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `clear_direction` { #symbol-api-lua-v5-generated-property-ccbweatherwindoptions-clear-direction-43c39469edfb }
 
-**Contract fields:**
-
-- `name`: `"clear_direction"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field clear_direction boolean
+clear_direction = ... -- boolean
+```
 
 **Sources:**
 
@@ -17343,10 +18228,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbWorldApi` { #symbol-api-lua-v5-generated-class-ccbworldapi-a4c9bea0c425 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbWorldApi = {}
+```
 
 **Sources:**
 
@@ -17354,10 +18239,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbWorldRegionOptions` { #symbol-api-lua-v5-generated-class-ccbworldregionoptions-dfff3fa3fb34 }
 
-**Contract fields:**
+```lua
+---@class : CcbWorldTileOptions
+local CcbWorldRegionOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbWorldTileOptions"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `radius` | `integer` | Read-write |
+| `radius_z` | `integer` | Read-write |
+| `offset` | `integer` | Read-write |
+| `limit` | `integer` | Read-write |
 
 **Sources:**
 
@@ -17365,11 +18259,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `radius` { #symbol-api-lua-v5-generated-property-ccbworldregionoptions-radius-5bca69120c27 }
 
-**Contract fields:**
-
-- `name`: `"radius"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field radius integer
+radius = ... -- integer
+```
 
 **Sources:**
 
@@ -17377,11 +18270,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `radius_z` { #symbol-api-lua-v5-generated-property-ccbworldregionoptions-radius-z-3c4cfaa028a6 }
 
-**Contract fields:**
-
-- `name`: `"radius_z"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field radius_z integer
+radius_z = ... -- integer
+```
 
 **Sources:**
 
@@ -17389,11 +18281,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `offset` { #symbol-api-lua-v5-generated-property-ccbworldregionoptions-offset-f23183ecda98 }
 
-**Contract fields:**
-
-- `name`: `"offset"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field offset integer
+offset = ... -- integer
+```
 
 **Sources:**
 
@@ -17401,11 +18292,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `limit` { #symbol-api-lua-v5-generated-property-ccbworldregionoptions-limit-fd9d8b9d2387 }
 
-**Contract fields:**
-
-- `name`: `"limit"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field limit integer
+limit = ... -- integer
+```
 
 **Sources:**
 
@@ -17413,10 +18303,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbWorldTileOptions` { #symbol-api-lua-v5-generated-class-ccbworldtileoptions-5ad6e4e35d93 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbWorldTileOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `item_limit` | `integer` | Read-write |
+| `field_limit` | `integer` | Read-write |
 
 **Sources:**
 
@@ -17424,11 +18321,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `item_limit` { #symbol-api-lua-v5-generated-property-ccbworldtileoptions-item-limit-9fd12f029752 }
 
-**Contract fields:**
-
-- `name`: `"item_limit"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field item_limit integer
+item_limit = ... -- integer
+```
 
 **Sources:**
 
@@ -17436,11 +18332,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `field_limit` { #symbol-api-lua-v5-generated-property-ccbworldtileoptions-field-limit-b4df00f83e63 }
 
-**Contract fields:**
-
-- `name`: `"field_limit"`
-- `optional`: `true`
-- `declaration`: `"integer"`
+```lua
+---@field field_limit integer
+field_limit = ... -- integer
+```
 
 **Sources:**
 
@@ -17448,10 +18343,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbWorldVehicleOptions` { #symbol-api-lua-v5-generated-class-ccbworldvehicleoptions-383104d39d31 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `": CcbPageOptions"`
+```lua
+---@class : CcbPageOptions
+local CcbWorldVehicleOptions = {}
+```
 
 **Sources:**
 
@@ -17459,10 +18354,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbZoneCreateOptions` { #symbol-api-lua-v5-generated-class-ccbzonecreateoptions-ebeb95122cf0 }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbZoneCreateOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `name` | `string` | Read-write |
+| `type` | `GameId` | Read-write |
+| `faction` | `GameId` | Read-write |
+| `start` | `TripointCoord` | Read-write |
+| `end` | `TripointCoord` | Read-write |
+| `invert` | `boolean` | Read-write |
+| `enabled` | `boolean` | Read-write |
+| `personal` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -17470,11 +18378,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbzonecreateoptions-name-8260b50b83fb }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -17482,11 +18389,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbzonecreateoptions-type-7c2a9961d5ac }
 
-**Contract fields:**
-
-- `name`: `"type"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field type GameId
+type = ... -- GameId
+```
 
 **Sources:**
 
@@ -17494,11 +18400,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `faction` { #symbol-api-lua-v5-generated-property-ccbzonecreateoptions-faction-e634af5cab34 }
 
-**Contract fields:**
-
-- `name`: `"faction"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field faction GameId
+faction = ... -- GameId
+```
 
 **Sources:**
 
@@ -17506,11 +18411,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `start` { #symbol-api-lua-v5-generated-property-ccbzonecreateoptions-start-bf694a43ed48 }
 
-**Contract fields:**
-
-- `name`: `"start"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
+```lua
+---@field start TripointCoord
+start = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -17518,11 +18422,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `end` { #symbol-api-lua-v5-generated-property-ccbzonecreateoptions-end-3b2c46e35dd3 }
 
-**Contract fields:**
-
-- `name`: `"end"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
+```lua
+---@field end TripointCoord
+end = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -17530,11 +18433,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `invert` { #symbol-api-lua-v5-generated-property-ccbzonecreateoptions-invert-0b450709bd2a }
 
-**Contract fields:**
-
-- `name`: `"invert"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field invert boolean
+invert = ... -- boolean
+```
 
 **Sources:**
 
@@ -17542,11 +18444,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `enabled` { #symbol-api-lua-v5-generated-property-ccbzonecreateoptions-enabled-49aaa0af517b }
 
-**Contract fields:**
-
-- `name`: `"enabled"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field enabled boolean
+enabled = ... -- boolean
+```
 
 **Sources:**
 
@@ -17554,11 +18455,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `personal` { #symbol-api-lua-v5-generated-property-ccbzonecreateoptions-personal-d10eebc3e148 }
 
-**Contract fields:**
-
-- `name`: `"personal"`
-- `optional`: `true`
-- `declaration`: `"boolean"`
+```lua
+---@field personal boolean
+personal = ... -- boolean
+```
 
 **Sources:**
 
@@ -17566,10 +18466,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbZoneListOptions` { #symbol-api-lua-v5-generated-class-ccbzonelistoptions-fcfc3fe37bd4 }
 
-**Contract fields:**
+```lua
+---@class : CcbDefinitionSearchOptions
+local CcbZoneListOptions = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `": CcbDefinitionSearchOptions"`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `faction` | `GameId` | Read-write |
+| `type` | `GameId` | Read-write |
 
 **Sources:**
 
@@ -17577,11 +18484,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `faction` { #symbol-api-lua-v5-generated-property-ccbzonelistoptions-faction-c7c3e7341e8f }
 
-**Contract fields:**
-
-- `name`: `"faction"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field faction GameId
+faction = ... -- GameId
+```
 
 **Sources:**
 
@@ -17589,11 +18495,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbzonelistoptions-type-270e7265c609 }
 
-**Contract fields:**
-
-- `name`: `"type"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field type GameId
+type = ... -- GameId
+```
 
 **Sources:**
 
@@ -17601,10 +18506,31 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbZoneSnapshot` { #symbol-api-lua-v5-generated-class-ccbzonesnapshot-a5dbcadc9a6f }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbZoneSnapshot = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `token` | `ZoneToken` | Read-write |
+| `name` | `string` | Read-write |
+| `type` | `GameId` | Read-write |
+| `type_name` | `string` | Read-write |
+| `faction` | `GameId` | Read-write |
+| `start` | `TripointCoord` | Read-write |
+| `end` | `TripointCoord` | Read-write |
+| `center` | `TripointCoord` | Read-write |
+| `invert` | `boolean` | Read-write |
+| `enabled` | `boolean` | Read-write |
+| `temporarily_disabled` | `boolean` | Read-write |
+| `displayed` | `boolean` | Read-write |
+| `vehicle` | `boolean` | Read-write |
+| `personal` | `boolean` | Read-write |
+| `has_options` | `boolean` | Read-write |
+| `options` | `table` | Read-write |
 
 **Sources:**
 
@@ -17612,11 +18538,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `token` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-token-df3f94d5811b }
 
-**Contract fields:**
-
-- `name`: `"token"`
-- `optional`: `false`
-- `declaration`: `"ZoneToken"`
+```lua
+---@field token ZoneToken
+token = ... -- ZoneToken
+```
 
 **Sources:**
 
@@ -17624,11 +18549,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-name-f2f77ebf1366 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -17636,11 +18560,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `type` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-type-a7ae610b7669 }
 
-**Contract fields:**
-
-- `name`: `"type"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field type GameId
+type = ... -- GameId
+```
 
 **Sources:**
 
@@ -17648,11 +18571,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `type_name` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-type-name-61fa891ddaf7 }
 
-**Contract fields:**
-
-- `name`: `"type_name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field type_name string
+type_name = ... -- string
+```
 
 **Sources:**
 
@@ -17660,11 +18582,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `faction` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-faction-a3cc526356bf }
 
-**Contract fields:**
-
-- `name`: `"faction"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field faction GameId
+faction = ... -- GameId
+```
 
 **Sources:**
 
@@ -17672,11 +18593,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `start` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-start-d83c682fc504 }
 
-**Contract fields:**
-
-- `name`: `"start"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
+```lua
+---@field start TripointCoord
+start = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -17684,11 +18604,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `end` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-end-d296ccef3689 }
 
-**Contract fields:**
-
-- `name`: `"end"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
+```lua
+---@field end TripointCoord
+end = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -17696,11 +18615,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `center` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-center-fd551828912e }
 
-**Contract fields:**
-
-- `name`: `"center"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
+```lua
+---@field center TripointCoord
+center = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -17708,11 +18626,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `invert` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-invert-a28260c1a52f }
 
-**Contract fields:**
-
-- `name`: `"invert"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field invert boolean
+invert = ... -- boolean
+```
 
 **Sources:**
 
@@ -17720,11 +18637,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `enabled` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-enabled-5eb84f07f9be }
 
-**Contract fields:**
-
-- `name`: `"enabled"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field enabled boolean
+enabled = ... -- boolean
+```
 
 **Sources:**
 
@@ -17732,11 +18648,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `temporarily_disabled` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-temporarily-disabled-7fb60ea54b38 }
 
-**Contract fields:**
-
-- `name`: `"temporarily_disabled"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field temporarily_disabled boolean
+temporarily_disabled = ... -- boolean
+```
 
 **Sources:**
 
@@ -17744,11 +18659,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `displayed` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-displayed-de13ad4f3cc1 }
 
-**Contract fields:**
-
-- `name`: `"displayed"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field displayed boolean
+displayed = ... -- boolean
+```
 
 **Sources:**
 
@@ -17756,11 +18670,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `vehicle` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-vehicle-54732e024a23 }
 
-**Contract fields:**
-
-- `name`: `"vehicle"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field vehicle boolean
+vehicle = ... -- boolean
+```
 
 **Sources:**
 
@@ -17768,11 +18681,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `personal` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-personal-f0913345d606 }
 
-**Contract fields:**
-
-- `name`: `"personal"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field personal boolean
+personal = ... -- boolean
+```
 
 **Sources:**
 
@@ -17780,11 +18692,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `has_options` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-has-options-d538297ba836 }
 
-**Contract fields:**
-
-- `name`: `"has_options"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field has_options boolean
+has_options = ... -- boolean
+```
 
 **Sources:**
 
@@ -17792,11 +18703,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `options` { #symbol-api-lua-v5-generated-property-ccbzonesnapshot-options-adf7a9dabaae }
 
-**Contract fields:**
-
-- `name`: `"options"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field options table
+options = ... -- table
+```
 
 **Sources:**
 
@@ -17804,10 +18714,23 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbZoneType` { #symbol-api-lua-v5-generated-class-ccbzonetype-16d6507a2b8f }
 
-**Contract fields:**
+```lua
+---@class 
+local CcbZoneType = {}
+```
 
-- `kind`: `"record"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `id` | `GameId` | Read-write |
+| `name` | `string` | Read-write |
+| `description` | `string` | Read-write |
+| `can_be_personal` | `boolean` | Read-write |
+| `hidden` | `boolean` | Read-write |
+| `loaded` | `boolean` | Read-write |
+| `field` | `GameId` | Read-write |
+| `sources` | `table` | Read-write |
 
 **Sources:**
 
@@ -17815,11 +18738,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `id` { #symbol-api-lua-v5-generated-property-ccbzonetype-id-e93bf10fca64 }
 
-**Contract fields:**
-
-- `name`: `"id"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field id GameId
+id = ... -- GameId
+```
 
 **Sources:**
 
@@ -17827,11 +18749,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-ccbzonetype-name-cfca800b81ee }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -17839,11 +18760,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `description` { #symbol-api-lua-v5-generated-property-ccbzonetype-description-c086f905ad7a }
 
-**Contract fields:**
-
-- `name`: `"description"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field description string
+description = ... -- string
+```
 
 **Sources:**
 
@@ -17851,11 +18771,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `can_be_personal` { #symbol-api-lua-v5-generated-property-ccbzonetype-can-be-personal-598df14c51ce }
 
-**Contract fields:**
-
-- `name`: `"can_be_personal"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field can_be_personal boolean
+can_be_personal = ... -- boolean
+```
 
 **Sources:**
 
@@ -17863,11 +18782,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hidden` { #symbol-api-lua-v5-generated-property-ccbzonetype-hidden-ae83f745ca3b }
 
-**Contract fields:**
-
-- `name`: `"hidden"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field hidden boolean
+hidden = ... -- boolean
+```
 
 **Sources:**
 
@@ -17875,11 +18793,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `loaded` { #symbol-api-lua-v5-generated-property-ccbzonetype-loaded-2ed592734758 }
 
-**Contract fields:**
-
-- `name`: `"loaded"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field loaded boolean
+loaded = ... -- boolean
+```
 
 **Sources:**
 
@@ -17887,11 +18804,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `field` { #symbol-api-lua-v5-generated-property-ccbzonetype-field-c0b1c275ea99 }
 
-**Contract fields:**
-
-- `name`: `"field"`
-- `optional`: `true`
-- `declaration`: `"GameId"`
+```lua
+---@field field GameId
+field = ... -- GameId
+```
 
 **Sources:**
 
@@ -17899,11 +18815,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `sources` { #symbol-api-lua-v5-generated-property-ccbzonetype-sources-ac21dfa76619 }
 
-**Contract fields:**
-
-- `name`: `"sources"`
-- `optional`: `false`
-- `declaration`: `"table"`
+```lua
+---@field sources table
+sources = ... -- table
+```
 
 **Sources:**
 
@@ -17911,10 +18826,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `CcbZonesApi` { #symbol-api-lua-v5-generated-class-ccbzonesapi-d2bdf7715721 }
 
-**Contract fields:**
-
-- `kind`: `"record"`
-- `declaration`: `""`
+```lua
+---@class 
+local CcbZonesApi = {}
+```
 
 **Sources:**
 
@@ -17922,10 +18837,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `GameEnum` { #symbol-api-lua-v5-generated-class-gameenum-1b2531fa4574 }
 
-**Contract fields:**
+```lua
+---@class 
+local GameEnum = {}
+```
 
-- `kind`: `"native-usertype"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `kind` | `string` | Read-write |
+| `name` | `string` | Read-write |
+| `ordinal` | `integer` | Read-write |
 
 **Sources:**
 
@@ -17934,11 +18857,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `kind` { #symbol-api-lua-v5-generated-property-gameenum-kind-2898909880c9 }
 
-**Contract fields:**
-
-- `name`: `"kind"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field kind string
+kind = ... -- string
+```
 
 **Sources:**
 
@@ -17946,11 +18868,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-gameenum-name-502c12af0c25 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -17958,11 +18879,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `ordinal` { #symbol-api-lua-v5-generated-property-gameenum-ordinal-876abf1c5b4e }
 
-**Contract fields:**
-
-- `name`: `"ordinal"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field ordinal integer
+ordinal = ... -- integer
+```
 
 **Sources:**
 
@@ -17970,10 +18890,16 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `GameHandle` { #symbol-api-lua-v5-generated-class-gamehandle-9d9eee34a7c4 }
 
-**Contract fields:**
+```lua
+---@class 
+local GameHandle = {}
+```
 
-- `kind`: `"native-usertype"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `kind` | `'"creature"'|'"item"'|'"vehicle"'` | Read-write |
 
 **Sources:**
 
@@ -17982,11 +18908,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `kind` { #symbol-api-lua-v5-generated-property-gamehandle-kind-9ee39b9273ea }
 
-**Contract fields:**
-
-- `name`: `"kind"`
-- `optional`: `false`
-- `declaration`: `"'\"creature\"'|'\"item\"'|'\"vehicle\"'"`
+```lua
+---@field kind '"creature"'|'"item"'|'"vehicle"'
+kind = ... -- '"creature"'|'"item"'|'"vehicle"'
+```
 
 **Sources:**
 
@@ -17994,10 +18919,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `GameId` { #symbol-api-lua-v5-generated-class-gameid-e665e6c51d5e }
 
-**Contract fields:**
+```lua
+---@class 
+local GameId = {}
+```
 
-- `kind`: `"native-usertype"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `kind` | `string` | Read-write |
+| `value` | `string` | Read-write |
 
 **Sources:**
 
@@ -18006,11 +18938,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `kind` { #symbol-api-lua-v5-generated-property-gameid-kind-e58a40b981a5 }
 
-**Contract fields:**
-
-- `name`: `"kind"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field kind string
+kind = ... -- string
+```
 
 **Sources:**
 
@@ -18018,11 +18949,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `value` { #symbol-api-lua-v5-generated-property-gameid-value-2dac8b48de9a }
 
-**Contract fields:**
-
-- `name`: `"value"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field value string
+value = ... -- string
+```
 
 **Sources:**
 
@@ -18030,10 +18960,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `HordeEntityToken` { #symbol-api-lua-v5-generated-class-hordeentitytoken-1e25370b85a4 }
 
-**Contract fields:**
+```lua
+---@class 
+local HordeEntityToken = {}
+```
 
-- `kind`: `"native-usertype"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Read-write |
+| `monster` | `GameId` | Read-write |
+| `runtime_generation` | `integer` | Read-write |
+| `world_generation` | `integer` | Read-write |
 
 **Sources:**
 
@@ -18042,11 +18981,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `position` { #symbol-api-lua-v5-generated-property-hordeentitytoken-position-8ba8b74b866c }
 
-**Contract fields:**
-
-- `name`: `"position"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
+```lua
+---@field position TripointCoord
+position = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -18054,11 +18992,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `monster` { #symbol-api-lua-v5-generated-property-hordeentitytoken-monster-321a38d44617 }
 
-**Contract fields:**
-
-- `name`: `"monster"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field monster GameId
+monster = ... -- GameId
+```
 
 **Sources:**
 
@@ -18066,11 +19003,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `runtime_generation` { #symbol-api-lua-v5-generated-property-hordeentitytoken-runtime-generation-3ce7c83c1268 }
 
-**Contract fields:**
-
-- `name`: `"runtime_generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field runtime_generation integer
+runtime_generation = ... -- integer
+```
 
 **Sources:**
 
@@ -18078,11 +19014,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `world_generation` { #symbol-api-lua-v5-generated-property-hordeentitytoken-world-generation-1f0823837bc7 }
 
-**Contract fields:**
-
-- `name`: `"world_generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field world_generation integer
+world_generation = ... -- integer
+```
 
 **Sources:**
 
@@ -18090,10 +19025,19 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `LegacyHordeToken` { #symbol-api-lua-v5-generated-class-legacyhordetoken-4debd02b9446 }
 
-**Contract fields:**
+```lua
+---@class 
+local LegacyHordeToken = {}
+```
 
-- `kind`: `"native-usertype"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `position` | `TripointCoord` | Read-write |
+| `group` | `GameId` | Read-write |
+| `runtime_generation` | `integer` | Read-write |
+| `world_generation` | `integer` | Read-write |
 
 **Sources:**
 
@@ -18102,11 +19046,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `position` { #symbol-api-lua-v5-generated-property-legacyhordetoken-position-3c16048af0ae }
 
-**Contract fields:**
-
-- `name`: `"position"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
+```lua
+---@field position TripointCoord
+position = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -18114,11 +19057,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `group` { #symbol-api-lua-v5-generated-property-legacyhordetoken-group-fa8ed99c1d25 }
 
-**Contract fields:**
-
-- `name`: `"group"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field group GameId
+group = ... -- GameId
+```
 
 **Sources:**
 
@@ -18126,11 +19068,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `runtime_generation` { #symbol-api-lua-v5-generated-property-legacyhordetoken-runtime-generation-4dbf7d61646b }
 
-**Contract fields:**
-
-- `name`: `"runtime_generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field runtime_generation integer
+runtime_generation = ... -- integer
+```
 
 **Sources:**
 
@@ -18138,11 +19079,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `world_generation` { #symbol-api-lua-v5-generated-property-legacyhordetoken-world-generation-c6b375cd0fe9 }
 
-**Contract fields:**
-
-- `name`: `"world_generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field world_generation integer
+world_generation = ... -- integer
+```
 
 **Sources:**
 
@@ -18150,10 +19090,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `MissionToken` { #symbol-api-lua-v5-generated-class-missiontoken-468219d7fb26 }
 
-**Contract fields:**
+```lua
+---@class 
+local MissionToken = {}
+```
 
-- `kind`: `"native-usertype"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `uid` | `integer` | Read-write |
+| `runtime_generation` | `integer` | Read-write |
+| `world_generation` | `integer` | Read-write |
 
 **Sources:**
 
@@ -18162,11 +19110,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `uid` { #symbol-api-lua-v5-generated-property-missiontoken-uid-d4c4c0f03517 }
 
-**Contract fields:**
-
-- `name`: `"uid"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field uid integer
+uid = ... -- integer
+```
 
 **Sources:**
 
@@ -18174,11 +19121,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `runtime_generation` { #symbol-api-lua-v5-generated-property-missiontoken-runtime-generation-6b5502a4ce11 }
 
-**Contract fields:**
-
-- `name`: `"runtime_generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field runtime_generation integer
+runtime_generation = ... -- integer
+```
 
 **Sources:**
 
@@ -18186,11 +19132,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `world_generation` { #symbol-api-lua-v5-generated-property-missiontoken-world-generation-b196924cae81 }
 
-**Contract fields:**
-
-- `name`: `"world_generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field world_generation integer
+world_generation = ... -- integer
+```
 
 **Sources:**
 
@@ -18198,10 +19143,20 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `PointCoord` { #symbol-api-lua-v5-generated-class-pointcoord-7b9823b7daa7 }
 
-**Contract fields:**
+```lua
+---@class 
+local PointCoord = {}
+```
 
-- `kind`: `"native-usertype"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `x` | `integer` | Read-write |
+| `y` | `integer` | Read-write |
+| `origin` | `CcbCoordinateOrigin` | Read-write |
+| `scale` | `CcbCoordinateScale` | Read-write |
+| `type` | `string` | Read-write |
 
 **Sources:**
 
@@ -18210,11 +19165,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `x` { #symbol-api-lua-v5-generated-property-pointcoord-x-6fdfbc13f4aa }
 
-**Contract fields:**
-
-- `name`: `"x"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field x integer
+x = ... -- integer
+```
 
 **Sources:**
 
@@ -18222,11 +19176,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `y` { #symbol-api-lua-v5-generated-property-pointcoord-y-9e5596aab765 }
 
-**Contract fields:**
-
-- `name`: `"y"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field y integer
+y = ... -- integer
+```
 
 **Sources:**
 
@@ -18234,11 +19187,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `origin` { #symbol-api-lua-v5-generated-property-pointcoord-origin-8a9cee8df020 }
 
-**Contract fields:**
-
-- `name`: `"origin"`
-- `optional`: `false`
-- `declaration`: `"CcbCoordinateOrigin"`
+```lua
+---@field origin CcbCoordinateOrigin
+origin = ... -- CcbCoordinateOrigin
+```
 
 **Sources:**
 
@@ -18246,11 +19198,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `scale` { #symbol-api-lua-v5-generated-property-pointcoord-scale-f4c7aeaf968a }
 
-**Contract fields:**
-
-- `name`: `"scale"`
-- `optional`: `false`
-- `declaration`: `"CcbCoordinateScale"`
+```lua
+---@field scale CcbCoordinateScale
+scale = ... -- CcbCoordinateScale
+```
 
 **Sources:**
 
@@ -18258,11 +19209,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `type` { #symbol-api-lua-v5-generated-property-pointcoord-type-2d104ab19607 }
 
-**Contract fields:**
-
-- `name`: `"type"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field type string
+type = ... -- string
+```
 
 **Sources:**
 
@@ -18270,10 +19220,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptMapgenContext` { #symbol-api-lua-v5-generated-class-scriptmapgencontext-94f3be26bbe0 }
 
-**Contract fields:**
-
-- `kind`: `"native-usertype"`
-- `declaration`: `""`
+```lua
+---@class 
+local ScriptMapgenContext = {}
+```
 
 **Sources:**
 
@@ -18282,10 +19232,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiContext` { #symbol-api-lua-v5-generated-class-scriptuicontext-58d447cb94a1 }
 
-**Contract fields:**
-
-- `kind`: `"native-usertype"`
-- `declaration`: `""`
+```lua
+---@class 
+local ScriptUiContext = {}
+```
 
 **Sources:**
 
@@ -18294,10 +19244,28 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiEnvironment` { #symbol-api-lua-v5-generated-class-scriptuienvironment-b1801c28fa5f }
 
-**Contract fields:**
+```lua
+---@class 
+local ScriptUiEnvironment = {}
+```
 
-- `kind`: `"native-usertype"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `profile` | `string` | Read-write |
+| `input` | `'"touch"'|'"mouse_keyboard"'|'"terminal"'` | Read-write |
+| `density` | `'"touch"'|'"comfortable"'|'"compact"'` | Read-write |
+| `breakpoint` | `'"narrow"'|'"regular"'|'"wide"'` | Read-write |
+| `minimum_target` | `number` | Read-write |
+| `touch` | `boolean` | Read-write |
+| `hover` | `boolean` | Read-write |
+| `swipe_scroll` | `boolean` | Read-write |
+| `native_text_input` | `boolean` | Read-write |
+| `keyboard_navigation` | `boolean` | Read-write |
+| `pointer_activation` | `boolean` | Read-write |
+| `tap_activation` | `boolean` | Read-write |
+| `long_press_dangerous` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -18306,11 +19274,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `profile` { #symbol-api-lua-v5-generated-property-scriptuienvironment-profile-f56911006ef2 }
 
-**Contract fields:**
-
-- `name`: `"profile"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field profile string
+profile = ... -- string
+```
 
 **Sources:**
 
@@ -18318,11 +19285,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `input` { #symbol-api-lua-v5-generated-property-scriptuienvironment-input-507d128db0cd }
 
-**Contract fields:**
-
-- `name`: `"input"`
-- `optional`: `false`
-- `declaration`: `"'\"touch\"'|'\"mouse_keyboard\"'|'\"terminal\"'"`
+```lua
+---@field input '"touch"'|'"mouse_keyboard"'|'"terminal"'
+input = ... -- '"touch"'|'"mouse_keyboard"'|'"terminal"'
+```
 
 **Sources:**
 
@@ -18330,11 +19296,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `density` { #symbol-api-lua-v5-generated-property-scriptuienvironment-density-cc4767d34d41 }
 
-**Contract fields:**
-
-- `name`: `"density"`
-- `optional`: `false`
-- `declaration`: `"'\"touch\"'|'\"comfortable\"'|'\"compact\"'"`
+```lua
+---@field density '"touch"'|'"comfortable"'|'"compact"'
+density = ... -- '"touch"'|'"comfortable"'|'"compact"'
+```
 
 **Sources:**
 
@@ -18342,11 +19307,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `breakpoint` { #symbol-api-lua-v5-generated-property-scriptuienvironment-breakpoint-f82c4fece477 }
 
-**Contract fields:**
-
-- `name`: `"breakpoint"`
-- `optional`: `false`
-- `declaration`: `"'\"narrow\"'|'\"regular\"'|'\"wide\"'"`
+```lua
+---@field breakpoint '"narrow"'|'"regular"'|'"wide"'
+breakpoint = ... -- '"narrow"'|'"regular"'|'"wide"'
+```
 
 **Sources:**
 
@@ -18354,11 +19318,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `minimum_target` { #symbol-api-lua-v5-generated-property-scriptuienvironment-minimum-target-5ec4ad380501 }
 
-**Contract fields:**
-
-- `name`: `"minimum_target"`
-- `optional`: `false`
-- `declaration`: `"number"`
+```lua
+---@field minimum_target number
+minimum_target = ... -- number
+```
 
 **Sources:**
 
@@ -18366,11 +19329,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `touch` { #symbol-api-lua-v5-generated-property-scriptuienvironment-touch-62e43c5a4c7b }
 
-**Contract fields:**
-
-- `name`: `"touch"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field touch boolean
+touch = ... -- boolean
+```
 
 **Sources:**
 
@@ -18378,11 +19340,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `hover` { #symbol-api-lua-v5-generated-property-scriptuienvironment-hover-7f174da0cbce }
 
-**Contract fields:**
-
-- `name`: `"hover"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field hover boolean
+hover = ... -- boolean
+```
 
 **Sources:**
 
@@ -18390,11 +19351,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `swipe_scroll` { #symbol-api-lua-v5-generated-property-scriptuienvironment-swipe-scroll-c311b7e13801 }
 
-**Contract fields:**
-
-- `name`: `"swipe_scroll"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field swipe_scroll boolean
+swipe_scroll = ... -- boolean
+```
 
 **Sources:**
 
@@ -18402,11 +19362,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `native_text_input` { #symbol-api-lua-v5-generated-property-scriptuienvironment-native-text-input-c71a60c60d11 }
 
-**Contract fields:**
-
-- `name`: `"native_text_input"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field native_text_input boolean
+native_text_input = ... -- boolean
+```
 
 **Sources:**
 
@@ -18414,11 +19373,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `keyboard_navigation` { #symbol-api-lua-v5-generated-property-scriptuienvironment-keyboard-navigation-9378ce95a9ff }
 
-**Contract fields:**
-
-- `name`: `"keyboard_navigation"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field keyboard_navigation boolean
+keyboard_navigation = ... -- boolean
+```
 
 **Sources:**
 
@@ -18426,11 +19384,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `pointer_activation` { #symbol-api-lua-v5-generated-property-scriptuienvironment-pointer-activation-6f3d28aa1acf }
 
-**Contract fields:**
-
-- `name`: `"pointer_activation"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field pointer_activation boolean
+pointer_activation = ... -- boolean
+```
 
 **Sources:**
 
@@ -18438,11 +19395,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `tap_activation` { #symbol-api-lua-v5-generated-property-scriptuienvironment-tap-activation-2c770d835fca }
 
-**Contract fields:**
-
-- `name`: `"tap_activation"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field tap_activation boolean
+tap_activation = ... -- boolean
+```
 
 **Sources:**
 
@@ -18450,11 +19406,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `long_press_dangerous` { #symbol-api-lua-v5-generated-property-scriptuienvironment-long-press-dangerous-bd8675b1decf }
 
-**Contract fields:**
-
-- `name`: `"long_press_dangerous"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field long_press_dangerous boolean
+long_press_dangerous = ... -- boolean
+```
 
 **Sources:**
 
@@ -18462,10 +19417,16 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TimeDuration` { #symbol-api-lua-v5-generated-class-timeduration-ac5dce848018 }
 
-**Contract fields:**
+```lua
+---@class 
+local TimeDuration = {}
+```
 
-- `kind`: `"native-usertype"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `turns` | `integer` | Read-write |
 
 **Sources:**
 
@@ -18474,11 +19435,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `turns` { #symbol-api-lua-v5-generated-property-timeduration-turns-9015108bdcce }
 
-**Contract fields:**
-
-- `name`: `"turns"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field turns integer
+turns = ... -- integer
+```
 
 **Sources:**
 
@@ -18486,10 +19446,16 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TimePoint` { #symbol-api-lua-v5-generated-class-timepoint-15b06299ea74 }
 
-**Contract fields:**
+```lua
+---@class 
+local TimePoint = {}
+```
 
-- `kind`: `"native-usertype"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `turn` | `integer` | Read-write |
 
 **Sources:**
 
@@ -18498,11 +19464,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `turn` { #symbol-api-lua-v5-generated-property-timepoint-turn-3e090291264d }
 
-**Contract fields:**
-
-- `name`: `"turn"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field turn integer
+turn = ... -- integer
+```
 
 **Sources:**
 
@@ -18510,10 +19475,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TripointCoord` { #symbol-api-lua-v5-generated-class-tripointcoord-e96ac9fd40e8 }
 
-**Contract fields:**
+```lua
+---@class 
+local TripointCoord = {}
+```
 
-- `kind`: `"native-usertype"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `x` | `integer` | Read-write |
+| `y` | `integer` | Read-write |
+| `z` | `integer` | Read-write |
+| `origin` | `CcbCoordinateOrigin` | Read-write |
+| `scale` | `CcbCoordinateScale` | Read-write |
+| `type` | `string` | Read-write |
 
 **Sources:**
 
@@ -18522,11 +19498,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `x` { #symbol-api-lua-v5-generated-property-tripointcoord-x-3c09b813544a }
 
-**Contract fields:**
-
-- `name`: `"x"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field x integer
+x = ... -- integer
+```
 
 **Sources:**
 
@@ -18534,11 +19509,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `y` { #symbol-api-lua-v5-generated-property-tripointcoord-y-341e534c39f9 }
 
-**Contract fields:**
-
-- `name`: `"y"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field y integer
+y = ... -- integer
+```
 
 **Sources:**
 
@@ -18546,11 +19520,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `z` { #symbol-api-lua-v5-generated-property-tripointcoord-z-b4309ee729d9 }
 
-**Contract fields:**
-
-- `name`: `"z"`
-- `optional`: `false`
-- `declaration`: `"integer"`
+```lua
+---@field z integer
+z = ... -- integer
+```
 
 **Sources:**
 
@@ -18558,11 +19531,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `origin` { #symbol-api-lua-v5-generated-property-tripointcoord-origin-612d720f92ec }
 
-**Contract fields:**
-
-- `name`: `"origin"`
-- `optional`: `false`
-- `declaration`: `"CcbCoordinateOrigin"`
+```lua
+---@field origin CcbCoordinateOrigin
+origin = ... -- CcbCoordinateOrigin
+```
 
 **Sources:**
 
@@ -18570,11 +19542,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `scale` { #symbol-api-lua-v5-generated-property-tripointcoord-scale-965c7d6b7dde }
 
-**Contract fields:**
-
-- `name`: `"scale"`
-- `optional`: `false`
-- `declaration`: `"CcbCoordinateScale"`
+```lua
+---@field scale CcbCoordinateScale
+scale = ... -- CcbCoordinateScale
+```
 
 **Sources:**
 
@@ -18582,11 +19553,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `type` { #symbol-api-lua-v5-generated-property-tripointcoord-type-b37ad1a9bb47 }
 
-**Contract fields:**
-
-- `name`: `"type"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field type string
+type = ... -- string
+```
 
 **Sources:**
 
@@ -18594,10 +19564,17 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `UnitValue` { #symbol-api-lua-v5-generated-class-unitvalue-05e4981642f9 }
 
-**Contract fields:**
+```lua
+---@class 
+local UnitValue = {}
+```
 
-- `kind`: `"native-usertype"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `kind` | `string` | Read-write |
+| `canonical_unit` | `string` | Read-write |
 
 **Sources:**
 
@@ -18606,11 +19583,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `kind` { #symbol-api-lua-v5-generated-property-unitvalue-kind-ae3630d3bebe }
 
-**Contract fields:**
-
-- `name`: `"kind"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field kind string
+kind = ... -- string
+```
 
 **Sources:**
 
@@ -18618,11 +19594,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `canonical_unit` { #symbol-api-lua-v5-generated-property-unitvalue-canonical-unit-e573d8c6a85d }
 
-**Contract fields:**
-
-- `name`: `"canonical_unit"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field canonical_unit string
+canonical_unit = ... -- string
+```
 
 **Sources:**
 
@@ -18630,10 +19605,21 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ZoneToken` { #symbol-api-lua-v5-generated-class-zonetoken-eb6cd1d67bac }
 
-**Contract fields:**
+```lua
+---@class 
+local ZoneToken = {}
+```
 
-- `kind`: `"native-usertype"`
-- `declaration`: `""`
+**Fields:**
+
+| Field | Type | Access |
+| :--- | :--- | :--- |
+| `faction` | `GameId` | Read-write |
+| `type` | `GameId` | Read-write |
+| `name` | `string` | Read-write |
+| `start` | `TripointCoord` | Read-write |
+| `end` | `TripointCoord` | Read-write |
+| `personal` | `boolean` | Read-write |
 
 **Sources:**
 
@@ -18642,11 +19628,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `faction` { #symbol-api-lua-v5-generated-property-zonetoken-faction-5a8b72667bcd }
 
-**Contract fields:**
-
-- `name`: `"faction"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field faction GameId
+faction = ... -- GameId
+```
 
 **Sources:**
 
@@ -18654,11 +19639,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `type` { #symbol-api-lua-v5-generated-property-zonetoken-type-1cc7821bf333 }
 
-**Contract fields:**
-
-- `name`: `"type"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
+```lua
+---@field type GameId
+type = ... -- GameId
+```
 
 **Sources:**
 
@@ -18666,11 +19650,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `name` { #symbol-api-lua-v5-generated-property-zonetoken-name-f740b8053413 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
+```lua
+---@field name string
+name = ... -- string
+```
 
 **Sources:**
 
@@ -18678,11 +19661,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `start` { #symbol-api-lua-v5-generated-property-zonetoken-start-920d1df8907f }
 
-**Contract fields:**
-
-- `name`: `"start"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
+```lua
+---@field start TripointCoord
+start = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -18690,11 +19672,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `end` { #symbol-api-lua-v5-generated-property-zonetoken-end-fffec26775ce }
 
-**Contract fields:**
-
-- `name`: `"end"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
+```lua
+---@field end TripointCoord
+end = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -18702,11 +19683,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ### `personal` { #symbol-api-lua-v5-generated-property-zonetoken-personal-a11670439b75 }
 
-**Contract fields:**
-
-- `name`: `"personal"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
+```lua
+---@field personal boolean
+personal = ... -- boolean
+```
 
 **Sources:**
 

@@ -45,7 +45,7 @@ pages:
   translation_group: home
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: d8a9ca0fabfab96a6fe77b122cd552e7584cd6a3096cdae173a99dcdbda07399
+  translation_source_fingerprint: 065b04168dbb4fd6e3ff34aa2498611e85123e94f36693b630a4b8393fa9e89f
   prerequisites: []
   depends_on: []
   redirect_from: &id003 []
@@ -100,7 +100,7 @@ pages:
   translation_group: home
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: d8a9ca0fabfab96a6fe77b122cd552e7584cd6a3096cdae173a99dcdbda07399
+  translation_source_fingerprint: 065b04168dbb4fd6e3ff34aa2498611e85123e94f36693b630a4b8393fa9e89f
   prerequisites: []
   depends_on: []
   redirect_from: []
@@ -2173,7 +2173,8 @@ pages:
   supersedes: &id128
   - lua.v5.overview
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified commit.
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
   example_validation_ids: &id129 []
   api_version: '5'
   deprecated: false
@@ -2216,7 +2217,8 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified commit.
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
   example_validation_ids: *id129
   api_version: '5'
   deprecated: false
@@ -2262,7 +2264,8 @@ pages:
   redirect_from: *id127
   supersedes: &id133 []
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified commit.
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
   example_validation_ids: *id129
   api_version: '5'
   deprecated: false
@@ -2305,7 +2308,8 @@ pages:
   redirect_from: *id127
   supersedes: *id133
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified commit.
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
   example_validation_ids: *id129
   api_version: '5'
   deprecated: false
@@ -2351,7 +2355,8 @@ pages:
   redirect_from: *id127
   supersedes: &id138 []
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified commit.
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
   example_validation_ids: *id129
   api_version: '5'
   deprecated: false
@@ -2394,7 +2399,8 @@ pages:
   redirect_from: *id127
   supersedes: *id138
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified commit.
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
   example_validation_ids: *id129
   api_version: '5'
   deprecated: false
@@ -2439,7 +2445,8 @@ pages:
   redirect_from: *id127
   supersedes: &id143 []
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified commit.
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
   example_validation_ids: *id129
   api_version: '5'
   deprecated: false
@@ -2482,7 +2489,8 @@ pages:
   redirect_from: *id127
   supersedes: *id143
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified commit.
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
   example_validation_ids: *id129
   api_version: '5'
   deprecated: false
@@ -2526,7 +2534,8 @@ pages:
   redirect_from: *id127
   supersedes: &id148 []
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified commit.
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
   example_validation_ids: *id129
   api_version: '5'
   deprecated: false
@@ -2569,7 +2578,8 @@ pages:
   redirect_from: *id127
   supersedes: *id148
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified commit.
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
   example_validation_ids: *id129
   api_version: '5'
   deprecated: false
@@ -2615,7 +2625,8 @@ pages:
   redirect_from: *id127
   supersedes: &id153 []
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified commit.
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
   example_validation_ids: *id129
   api_version: '5'
   deprecated: false
@@ -2658,7 +2669,8 @@ pages:
   redirect_from: *id127
   supersedes: *id153
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified commit.
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
   example_validation_ids: *id129
   api_version: '5'
   deprecated: false
@@ -2702,7 +2714,8 @@ pages:
   redirect_from: *id127
   supersedes: &id158 []
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified commit.
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
   example_validation_ids: &id159
   - lua-contract
   - lua-docs
@@ -2747,7 +2760,8 @@ pages:
   redirect_from: *id127
   supersedes: *id158
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified commit.
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
   example_validation_ids: *id159
   api_version: '5'
   deprecated: false
@@ -2792,7 +2806,8 @@ pages:
   redirect_from: *id127
   supersedes: &id164 []
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified commit.
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
   example_validation_ids: *id129
   api_version: '5'
   deprecated: false
@@ -2835,7 +2850,8 @@ pages:
   redirect_from: *id127
   supersedes: *id164
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified commit.
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
   example_validation_ids: *id129
   api_version: '5'
   deprecated: false
@@ -2881,7 +2897,8 @@ pages:
   redirect_from: *id127
   supersedes: &id169 []
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified commit.
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
   example_validation_ids: *id129
   api_version: '5'
   deprecated: false
@@ -2924,7 +2941,8 @@ pages:
   redirect_from: *id127
   supersedes: *id169
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified commit.
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
   example_validation_ids: *id129
   api_version: '5'
   deprecated: false
@@ -2968,7 +2986,8 @@ pages:
   redirect_from: *id127
   supersedes: &id174 []
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified commit.
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
   example_validation_ids: *id129
   api_version: '5'
   deprecated: false
@@ -3011,7 +3030,8 @@ pages:
   redirect_from: *id127
   supersedes: *id174
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified commit.
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
   example_validation_ids: *id129
   api_version: '5'
   deprecated: false
@@ -3056,7 +3076,7 @@ pages:
   translation_group: api.lua.v5.reference.modules
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: f4cc744a16d15e98b78e03fb1ae259affd19405c72bd31c7ae1cfafd213ae0ab
+  translation_source_fingerprint: 94b678cfc1044cc53363c83e8794b43686253fb2b8a7bcd4876fe411ede6b1a5
   prerequisites: &id182
   - api.lua.v5.overview
   depends_on: &id183 []
@@ -3100,7 +3120,7 @@ pages:
   translation_group: api.lua.v5.reference.modules
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: f4cc744a16d15e98b78e03fb1ae259affd19405c72bd31c7ae1cfafd213ae0ab
+  translation_source_fingerprint: 94b678cfc1044cc53363c83e8794b43686253fb2b8a7bcd4876fe411ede6b1a5
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3144,7 +3164,7 @@ pages:
   translation_group: api.lua.v5.reference.namespaces
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: c61826836f61b0a559204196d1b05adc2197be6cfca503befb389b5023a3014d
+  translation_source_fingerprint: ba90185837772e666d9b441b803e9ebee7dd701cff79086d208018aa1978b457
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3187,7 +3207,7 @@ pages:
   translation_group: api.lua.v5.reference.namespaces
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: c61826836f61b0a559204196d1b05adc2197be6cfca503befb389b5023a3014d
+  translation_source_fingerprint: ba90185837772e666d9b441b803e9ebee7dd701cff79086d208018aa1978b457
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3231,7 +3251,7 @@ pages:
   translation_group: api.lua.v5.reference.classes
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: ef35f92963e4520e9568df8959bc60833aa76d42bb041e28ed4967f3df0e8c21
+  translation_source_fingerprint: 9eb9617960e6e1e495a0b0d17f1686ce36177601ab40e9636744cea855bd2f32
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3274,7 +3294,7 @@ pages:
   translation_group: api.lua.v5.reference.classes
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: ef35f92963e4520e9568df8959bc60833aa76d42bb041e28ed4967f3df0e8c21
+  translation_source_fingerprint: 9eb9617960e6e1e495a0b0d17f1686ce36177601ab40e9636744cea855bd2f32
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3318,7 +3338,7 @@ pages:
   translation_group: api.lua.v5.reference.functions
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 3ce89c51b301a8c6a9e7fb5dc282999c6b846bf5fa35ffb365509acd23849ce9
+  translation_source_fingerprint: ebf414851eee61cc73c409e8a8ca934d452abacdbf0ca5cf728ec5e92b1a28d6
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3361,7 +3381,7 @@ pages:
   translation_group: api.lua.v5.reference.functions
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 3ce89c51b301a8c6a9e7fb5dc282999c6b846bf5fa35ffb365509acd23849ce9
+  translation_source_fingerprint: ebf414851eee61cc73c409e8a8ca934d452abacdbf0ca5cf728ec5e92b1a28d6
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3405,7 +3425,7 @@ pages:
   translation_group: api.lua.v5.reference.methods
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 53b661b7c99f1ea8c0f5058b175b09362cf1912d65108aab86430206b83c4799
+  translation_source_fingerprint: 3a1f90876b97b55dec30797cdd16a146ef8602ea37108e90acc4076f4eae9b5c
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3448,7 +3468,7 @@ pages:
   translation_group: api.lua.v5.reference.methods
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 53b661b7c99f1ea8c0f5058b175b09362cf1912d65108aab86430206b83c4799
+  translation_source_fingerprint: 3a1f90876b97b55dec30797cdd16a146ef8602ea37108e90acc4076f4eae9b5c
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3492,7 +3512,7 @@ pages:
   translation_group: api.lua.v5.reference.properties
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 51a10f98fb3eb767b250f2df3d84e4427cadbc105d549fd9994fbb03904cfc73
+  translation_source_fingerprint: 2e01bc6900b3485997d53b65db28ef6ef5ddd75bb119ba3f4ee669b90dafef60
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3535,7 +3555,7 @@ pages:
   translation_group: api.lua.v5.reference.properties
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 51a10f98fb3eb767b250f2df3d84e4427cadbc105d549fd9994fbb03904cfc73
+  translation_source_fingerprint: 2e01bc6900b3485997d53b65db28ef6ef5ddd75bb119ba3f4ee669b90dafef60
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3579,7 +3599,7 @@ pages:
   translation_group: api.lua.v5.reference.operators
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 0e1a642fff857179549783d4251940a5d291dca9912b8b497f22f6d06ff21450
+  translation_source_fingerprint: 0ec165c155b122517974c365e6323e592a655d2865171adc824a7dcd9da97dee
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3622,7 +3642,7 @@ pages:
   translation_group: api.lua.v5.reference.operators
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 0e1a642fff857179549783d4251940a5d291dca9912b8b497f22f6d06ff21450
+  translation_source_fingerprint: 0ec165c155b122517974c365e6323e592a655d2865171adc824a7dcd9da97dee
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3666,7 +3686,7 @@ pages:
   translation_group: api.lua.v5.reference.enums
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: a9a55ea405ad9a5272355754a75e4e56adc7a64eb0e06738ddc7dec49b14ee1a
+  translation_source_fingerprint: 53bb24a1c7d9d3c816e1d8f66039cfc8c9aa1e40a773ec4a2e7f4ebb967f0032
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3709,7 +3729,7 @@ pages:
   translation_group: api.lua.v5.reference.enums
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: a9a55ea405ad9a5272355754a75e4e56adc7a64eb0e06738ddc7dec49b14ee1a
+  translation_source_fingerprint: 53bb24a1c7d9d3c816e1d8f66039cfc8c9aa1e40a773ec4a2e7f4ebb967f0032
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3753,7 +3773,7 @@ pages:
   translation_group: api.lua.v5.reference.events
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: c1c38da28909fae960bcbdfd5ab3a0309270bb3ed2f0830bc1a39838059dc819
+  translation_source_fingerprint: 94dcec848261436c63701d24a7da6f8d6524b73d6c0a59a598ce306220f84f08
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3796,7 +3816,7 @@ pages:
   translation_group: api.lua.v5.reference.events
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: c1c38da28909fae960bcbdfd5ab3a0309270bb3ed2f0830bc1a39838059dc819
+  translation_source_fingerprint: 94dcec848261436c63701d24a7da6f8d6524b73d6c0a59a598ce306220f84f08
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3840,7 +3860,7 @@ pages:
   translation_group: api.lua.v5.reference.hooks
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 97689d64aa4efceed496ab8ef8b3e4d1a8a40aa22458bdcd86089a4b3fdd0530
+  translation_source_fingerprint: 3044d988f01e944de2f87ad9a03418f99495fa75bedd13992193bf37ce5ca487
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3883,7 +3903,7 @@ pages:
   translation_group: api.lua.v5.reference.hooks
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 97689d64aa4efceed496ab8ef8b3e4d1a8a40aa22458bdcd86089a4b3fdd0530
+  translation_source_fingerprint: 3044d988f01e944de2f87ad9a03418f99495fa75bedd13992193bf37ce5ca487
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3927,7 +3947,7 @@ pages:
   translation_group: api.lua.v5.reference.callbacks
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 9b65949157754228bffac8af5bac8948096391a3bd4c2ce5ac64701949bb0a39
+  translation_source_fingerprint: cec8811ba952d1591c227f256acb2c1edac6a512e5dc055caece597200249256
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -3970,7 +3990,7 @@ pages:
   translation_group: api.lua.v5.reference.callbacks
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 9b65949157754228bffac8af5bac8948096391a3bd4c2ce5ac64701949bb0a39
+  translation_source_fingerprint: cec8811ba952d1591c227f256acb2c1edac6a512e5dc055caece597200249256
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -4014,7 +4034,7 @@ pages:
   translation_group: api.lua.v5.reference.capabilities
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 8830de6fbf3b62c7d6a9eeec98ec4fd61cd1c89be521fc1e2683dbc9c91a2e3d
+  translation_source_fingerprint: 14bf3f1fc054684e43bb7e625775ae091f36e3e253897886ff34b4ad754f8c07
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -4057,7 +4077,7 @@ pages:
   translation_group: api.lua.v5.reference.capabilities
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 8830de6fbf3b62c7d6a9eeec98ec4fd61cd1c89be521fc1e2683dbc9c91a2e3d
+  translation_source_fingerprint: 14bf3f1fc054684e43bb7e625775ae091f36e3e253897886ff34b4ad754f8c07
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -4101,7 +4121,7 @@ pages:
   translation_group: api.lua.v5.reference.permissions
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 038415d5d035dcafcc0141aa9bb5a42ac45c31172f23b695895d66cdec45e3d8
+  translation_source_fingerprint: eb9d867168b0b785ad8f4c704f9df7e551192c7a8925426fa0d51bc60e919532
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -4144,7 +4164,7 @@ pages:
   translation_group: api.lua.v5.reference.permissions
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 038415d5d035dcafcc0141aa9bb5a42ac45c31172f23b695895d66cdec45e3d8
+  translation_source_fingerprint: eb9d867168b0b785ad8f4c704f9df7e551192c7a8925426fa0d51bc60e919532
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -4188,7 +4208,7 @@ pages:
   translation_group: api.lua.v5.reference.manifest-fields
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: c040556d26d107f4a86bc7c98d47925ec8ffb8d647ada7202c084bfb706691e4
+  translation_source_fingerprint: 10dbab444dd6b988e9e227d5da3f555fa1848cd0e993282027534a416a0c4782
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -4231,7 +4251,7 @@ pages:
   translation_group: api.lua.v5.reference.manifest-fields
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: c040556d26d107f4a86bc7c98d47925ec8ffb8d647ada7202c084bfb706691e4
+  translation_source_fingerprint: 10dbab444dd6b988e9e227d5da3f555fa1848cd0e993282027534a416a0c4782
   prerequisites: *id182
   depends_on: *id183
   redirect_from: *id184
@@ -4672,7 +4692,8 @@ pages:
   redirect_from: &id230 []
   supersedes: &id231 []
   license: CC-BY-SA-3.0
-  attribution: Generated from CCB source inventories; CCB contributors retain source attribution.
+  attribution: Generated from CCB source inventories; CCB contributors retain source
+    attribution.
   example_validation_ids: &id232 []
   api_version: contract-inventory-v1
   deprecated: false
@@ -4715,7 +4736,8 @@ pages:
   redirect_from: *id230
   supersedes: *id231
   license: CC-BY-SA-3.0
-  attribution: Generated from CCB source inventories; CCB contributors retain source attribution.
+  attribution: Generated from CCB source inventories; CCB contributors retain source
+    attribution.
   example_validation_ids: *id232
   api_version: contract-inventory-v1
   deprecated: false
@@ -4779,7 +4801,8 @@ pages:
   redirect_from: &id241 []
   supersedes: &id242 []
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  attribution: CCB contributors; parser registrations, inventories, and tests remain
+    authoritative.
   example_validation_ids: &id243 []
   api_version: contract-inventory-v1
   deprecated: false
@@ -4822,7 +4845,8 @@ pages:
   redirect_from: *id241
   supersedes: *id242
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  attribution: CCB contributors; parser registrations, inventories, and tests remain
+    authoritative.
   example_validation_ids: *id243
   api_version: contract-inventory-v1
   deprecated: false
@@ -4868,7 +4892,8 @@ pages:
   redirect_from: *id241
   supersedes: *id242
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  attribution: CCB contributors; parser registrations, inventories, and tests remain
+    authoritative.
   example_validation_ids: *id243
   api_version: contract-inventory-v1
   deprecated: false
@@ -4911,7 +4936,8 @@ pages:
   redirect_from: *id241
   supersedes: *id242
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  attribution: CCB contributors; parser registrations, inventories, and tests remain
+    authoritative.
   example_validation_ids: *id243
   api_version: contract-inventory-v1
   deprecated: false
@@ -4956,7 +4982,8 @@ pages:
   redirect_from: *id241
   supersedes: *id242
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  attribution: CCB contributors; parser registrations, inventories, and tests remain
+    authoritative.
   example_validation_ids: *id243
   api_version: contract-inventory-v1
   deprecated: false
@@ -4999,7 +5026,8 @@ pages:
   redirect_from: *id241
   supersedes: *id242
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  attribution: CCB contributors; parser registrations, inventories, and tests remain
+    authoritative.
   example_validation_ids: *id243
   api_version: contract-inventory-v1
   deprecated: false
@@ -5044,7 +5072,8 @@ pages:
   redirect_from: *id241
   supersedes: *id242
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  attribution: CCB contributors; parser registrations, inventories, and tests remain
+    authoritative.
   example_validation_ids: *id243
   api_version: contract-inventory-v1
   deprecated: false
@@ -5087,7 +5116,8 @@ pages:
   redirect_from: *id241
   supersedes: *id242
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  attribution: CCB contributors; parser registrations, inventories, and tests remain
+    authoritative.
   example_validation_ids: *id243
   api_version: contract-inventory-v1
   deprecated: false
@@ -5142,7 +5172,8 @@ pages:
   redirect_from: &id258 []
   supersedes: &id259 []
   license: CC-BY-SA-3.0
-  attribution: Generated from CCB source inventories; CCB contributors retain source attribution.
+  attribution: Generated from CCB source inventories; CCB contributors retain source
+    attribution.
   example_validation_ids: &id260 []
   api_version: contract-inventory-v1
   deprecated: false
@@ -5185,7 +5216,8 @@ pages:
   redirect_from: *id258
   supersedes: *id259
   license: CC-BY-SA-3.0
-  attribution: Generated from CCB source inventories; CCB contributors retain source attribution.
+  attribution: Generated from CCB source inventories; CCB contributors retain source
+    attribution.
   example_validation_ids: *id260
   api_version: contract-inventory-v1
   deprecated: false
@@ -5234,7 +5266,8 @@ pages:
   redirect_from: *id258
   supersedes: *id259
   license: CC-BY-SA-3.0
-  attribution: Generated from CCB source inventories; CCB contributors retain source attribution.
+  attribution: Generated from CCB source inventories; CCB contributors retain source
+    attribution.
   example_validation_ids: *id260
   api_version: contract-inventory-v1
   deprecated: false
@@ -5277,7 +5310,8 @@ pages:
   redirect_from: *id258
   supersedes: *id259
   license: CC-BY-SA-3.0
-  attribution: Generated from CCB source inventories; CCB contributors retain source attribution.
+  attribution: Generated from CCB source inventories; CCB contributors retain source
+    attribution.
   example_validation_ids: *id260
   api_version: contract-inventory-v1
   deprecated: false
@@ -8998,3 +9032,619 @@ pages:
   nav:
     section: Operations
     order: 303
+- id: api.lua.cookbook.items
+  title: 纯 Lua 装备与容器口袋实战
+  language: zh_CN
+  path: api/lua/v5/cookbook/items.md
+  status: active
+  doc_type: tutorial
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: api.lua.cookbook.items
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: a72760fa18c5e8777dd154d3157780468424dec30614b3b5569e143bbf693b25
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: CCB Lua 0.1 指南
+    order: 20
+- id: api.lua.cookbook.items
+  title: Items and Pockets Cookbook
+  language: en
+  path: api/lua/v5/cookbook/items.md
+  status: active
+  doc_type: tutorial
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: api.lua.cookbook.items
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: a72760fa18c5e8777dd154d3157780468424dec30614b3b5569e143bbf693b25
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: CCB Lua 0.1 Guides
+    order: 20
+- id: api.lua.cookbook.monsters
+  title: 纯 Lua 怪物与技能 AI 实战
+  language: zh_CN
+  path: api/lua/v5/cookbook/monsters.md
+  status: active
+  doc_type: tutorial
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: api.lua.cookbook.monsters
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 8468deb56a88c844b6b5dd023fde5a7181e14c5b6d601365334d9201c4e68771
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: CCB Lua 0.1 指南
+    order: 21
+- id: api.lua.cookbook.monsters
+  title: Monsters and AI Cookbook
+  language: en
+  path: api/lua/v5/cookbook/monsters.md
+  status: active
+  doc_type: tutorial
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: api.lua.cookbook.monsters
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 8468deb56a88c844b6b5dd023fde5a7181e14c5b6d601365334d9201c4e68771
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: CCB Lua 0.1 Guides
+    order: 21
+- id: api.lua.cookbook.mapgen
+  title: 纯 Lua 地块与建筑生成实战
+  language: zh_CN
+  path: api/lua/v5/cookbook/mapgen.md
+  status: active
+  doc_type: tutorial
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: api.lua.cookbook.mapgen
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 7b5d114a976aa1a8f56fb718898b7d58d29d0bf5d29698af121c3930f54947f9
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: CCB Lua 0.1 指南
+    order: 22
+- id: api.lua.cookbook.mapgen
+  title: Mapgen and Structures Cookbook
+  language: en
+  path: api/lua/v5/cookbook/mapgen.md
+  status: active
+  doc_type: tutorial
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: api.lua.cookbook.mapgen
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 7b5d114a976aa1a8f56fb718898b7d58d29d0bf5d29698af121c3930f54947f9
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: CCB Lua 0.1 Guides
+    order: 22
+- id: cpp.native-binding-guide
+  title: C++ 引擎底层 Native 绑定指南
+  language: zh_CN
+  path: cpp/native-binding-guide.md
+  status: active
+  doc_type: how-to
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: cpp.native-binding-guide
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: fcde8ced25dc2526a85370d3be893fd7d8dbbcd3374b4c5e798c407ef8928da0
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: C++ 核心子系统
+    order: 10
+- id: cpp.native-binding-guide
+  title: C++ Native Binding Guide
+  language: en
+  path: cpp/native-binding-guide.md
+  status: active
+  doc_type: how-to
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: cpp.native-binding-guide
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: fcde8ced25dc2526a85370d3be893fd7d8dbbcd3374b4c5e798c407ef8928da0
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: C++ Subsystems
+    order: 10
+- id: architecture.core-engine-lifecycle
+  title: 游戏引擎生命周期与主循环深度剖析
+  language: zh_CN
+  path: architecture/core-engine-lifecycle.md
+  status: active
+  doc_type: explanation
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: architecture.core-engine-lifecycle
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: e2e764d412ef85a2da5058d71cb37fbeb52a488afe41552d505db490351c3512
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: 架构
+    order: 5
+- id: architecture.core-engine-lifecycle
+  title: Core Engine Lifecycle and Main Loop
+  language: en
+  path: architecture/core-engine-lifecycle.md
+  status: active
+  doc_type: explanation
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: architecture.core-engine-lifecycle
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: e2e764d412ef85a2da5058d71cb37fbeb52a488afe41552d505db490351c3512
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: Architecture
+    order: 5
+- id: architecture.subsystems-deep-dive
+  title: 游戏引擎核心八大子系统深度剖析
+  language: zh_CN
+  path: architecture/subsystems-deep-dive.md
+  status: active
+  doc_type: explanation
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: architecture.subsystems-deep-dive
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 622bd12bcc721c275377c7ccec54d67e02876038b2bdad26fd7eeb8404e0e820
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: 架构
+    order: 6
+- id: architecture.subsystems-deep-dive
+  title: Engine Subsystems Deep Dive
+  language: en
+  path: architecture/subsystems-deep-dive.md
+  status: active
+  doc_type: explanation
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: architecture.subsystems-deep-dive
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 622bd12bcc721c275377c7ccec54d67e02876038b2bdad26fd7eeb8404e0e820
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: Architecture
+    order: 6
+- id: contributing.core-dev-guide
+  title: 游戏本体核心开发与贡献指南
+  language: zh_CN
+  path: contributing/core-dev-guide.md
+  status: active
+  doc_type: how-to
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: contributing.core-dev-guide
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: a6563eb431fef0176e8dad8ce9e00d2f2018f8c070517edc149ed3553fdd44cf
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: 贡献与治理
+    order: 3
+- id: contributing.core-dev-guide
+  title: Core Development and Contribution Guide
+  language: en
+  path: contributing/core-dev-guide.md
+  status: active
+  doc_type: how-to
+  audiences: *id119
+  owners: *id120
+  reviewers: *id121
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths: *id122
+  source_symbols: *id123
+  source_queries: *id124
+  source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
+  authority: api-contract
+  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
+  verified_at: '2026-08-02'
+  generated: false
+  generated_by: null
+  include_in_search: true
+  include_in_ai_index: true
+  translation_group: contributing.core-dev-guide
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: a6563eb431fef0176e8dad8ce9e00d2f2018f8c070517edc149ed3553fdd44cf
+  prerequisites: *id125
+  depends_on: *id126
+  redirect_from: *id127
+  supersedes: *id128
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; generated contract and source paths at the verified
+    commit.
+  example_validation_ids: *id129
+  api_version: '5'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: Contributing and Governance
+    order: 3

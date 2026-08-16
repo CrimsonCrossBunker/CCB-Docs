@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 8830de6fbf3b62c7d6a9eeec98ec4fd61cd1c89be521fc1e2683dbc9c91a2e3d
+translation_source_fingerprint: 14bf3f1fc054684e43bb7e625775ae091f36e3e253897886ff34b4ad754f8c07
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,13 +68,14 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Capability 参考
 
-本页由固定提交 `d32b9cc880a85480840d82cfa05d256c78a16615` 的 Lua v5 公开契约生成，收录 16 条 `capabilities` 记录。不要手工修改本页。
+本页为 CCB Lua 0.1 平台自动生成的 `Capability 参考` 规范手册，收录 16 条 `capabilities` 契约记录。
 
 ## `events` { #symbol-api-lua-v5-generated-capability-events-dd9d47a21b81 }
 
-**契约字段:**
-
-- `minimum_api_version`: `2`
+```lua
+-- Capability: "events"
+-- Minimum API: CCB Lua 0.1
+```
 
 **来源:**
 
@@ -83,9 +84,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `game.actions` { #symbol-api-lua-v5-generated-capability-game-actions-c771aff6e0cc }
 
-**契约字段:**
-
-- `minimum_api_version`: `2`
+```lua
+-- Capability: "game.actions"
+-- Minimum API: CCB Lua 0.1
+```
 
 **来源:**
 
@@ -94,9 +96,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `game.actions.dangerous` { #symbol-api-lua-v5-generated-capability-game-actions-dangerous-5c2621168bd0 }
 
-**契约字段:**
-
-- `minimum_api_version`: `4`
+```lua
+-- Capability: "game.actions.dangerous"
+-- Minimum API: CCB Lua 0.1
+```
 
 **来源:**
 
@@ -105,9 +108,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `game.callbacks` { #symbol-api-lua-v5-generated-capability-game-callbacks-ab45fefde250 }
 
-**契约字段:**
-
-- `minimum_api_version`: `5`
+```lua
+-- Capability: "game.callbacks"
+-- Minimum API: CCB Lua 0.1
+```
 
 **来源:**
 
@@ -116,9 +120,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `game.hooks` { #symbol-api-lua-v5-generated-capability-game-hooks-e4bdd0ad0853 }
 
-**契约字段:**
-
-- `minimum_api_version`: `5`
+```lua
+-- Capability: "game.hooks"
+-- Minimum API: CCB Lua 0.1
+```
 
 **来源:**
 
@@ -127,9 +132,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `game.read` { #symbol-api-lua-v5-generated-capability-game-read-22dddd20f970 }
 
-**契约字段:**
-
-- `minimum_api_version`: `2`
+```lua
+-- Capability: "game.read"
+-- Minimum API: CCB Lua 0.1
+```
 
 **来源:**
 
@@ -138,9 +144,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `game.write` { #symbol-api-lua-v5-generated-capability-game-write-3123d644b85d }
 
-**契约字段:**
-
-- `minimum_api_version`: `5`
+```lua
+-- Capability: "game.write"
+-- Minimum API: CCB Lua 0.1
+```
 
 **来源:**
 
@@ -149,9 +156,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `modules.import` { #symbol-api-lua-v5-generated-capability-modules-import-11e2f13410b0 }
 
-**契约字段:**
-
-- `minimum_api_version`: `4`
+```lua
+-- Capability: "modules.import"
+-- Minimum API: CCB Lua 0.1
+```
 
 **来源:**
 
@@ -160,9 +168,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `registry.read` { #symbol-api-lua-v5-generated-capability-registry-read-b023710d8c40 }
 
-**契约字段:**
-
-- `minimum_api_version`: `4`
+```lua
+-- Capability: "registry.read"
+-- Minimum API: CCB Lua 0.1
+```
 
 **来源:**
 
@@ -171,9 +180,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `scheduler` { #symbol-api-lua-v5-generated-capability-scheduler-56e18fc9c044 }
 
-**契约字段:**
-
-- `minimum_api_version`: `4`
+```lua
+-- Capability: "scheduler"
+-- Minimum API: CCB Lua 0.1
+```
 
 **来源:**
 
@@ -182,9 +192,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `services.consume` { #symbol-api-lua-v5-generated-capability-services-consume-ccfe9baf4b88 }
 
-**契约字段:**
-
-- `minimum_api_version`: `4`
+```lua
+-- Capability: "services.consume"
+-- Minimum API: CCB Lua 0.1
+```
 
 **来源:**
 
@@ -193,9 +204,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `services.provide` { #symbol-api-lua-v5-generated-capability-services-provide-0f37089a3da1 }
 
-**契约字段:**
-
-- `minimum_api_version`: `4`
+```lua
+-- Capability: "services.provide"
+-- Minimum API: CCB Lua 0.1
+```
 
 **来源:**
 
@@ -204,9 +216,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `state.character` { #symbol-api-lua-v5-generated-capability-state-character-a3247107923a }
 
-**契约字段:**
-
-- `minimum_api_version`: `2`
+```lua
+-- Capability: "state.character"
+-- Minimum API: CCB Lua 0.1
+```
 
 **来源:**
 
@@ -215,9 +228,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `state.page` { #symbol-api-lua-v5-generated-capability-state-page-ca30270c2848 }
 
-**契约字段:**
-
-- `minimum_api_version`: `2`
+```lua
+-- Capability: "state.page"
+-- Minimum API: CCB Lua 0.1
+```
 
 **来源:**
 
@@ -226,9 +240,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `state.world` { #symbol-api-lua-v5-generated-capability-state-world-ba671b3f16e9 }
 
-**契约字段:**
-
-- `minimum_api_version`: `2`
+```lua
+-- Capability: "state.world"
+-- Minimum API: CCB Lua 0.1
+```
 
 **来源:**
 
@@ -237,9 +252,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ui.pages` { #symbol-api-lua-v5-generated-capability-ui-pages-fc4984fb695e }
 
-**契约字段:**
-
-- `minimum_api_version`: `2`
+```lua
+-- Capability: "ui.pages"
+-- Minimum API: CCB Lua 0.1
+```
 
 **来源:**
 

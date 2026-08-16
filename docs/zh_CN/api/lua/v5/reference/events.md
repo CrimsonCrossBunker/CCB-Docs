@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: c1c38da28909fae960bcbdfd5ab3a0309270bb3ed2f0830bc1a39838059dc819
+translation_source_fingerprint: 94dcec848261436c63701d24a7da6f8d6524b73d6c0a59a598ce306220f84f08
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,13 +68,23 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # 原生事件参考
 
-本页由固定提交 `d32b9cc880a85480840d82cfa05d256c78a16615` 的 Lua v5 公开契约生成，收录 113 条 `events` 记录。不要手工修改本页。
+本页为 CCB Lua 0.1 平台自动生成的 `原生事件参考` 规范手册，收录 113 条 `events` 契约记录。
 
 ## `activates_artifact` { #symbol-api-lua-v5-generated-event-activates-artifact-f81a1c7b5e6e }
 
-**契约字段:**
+```lua
+---@class activates_artifact
+local activates_artifact = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `item_name` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -82,10 +92,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-activates-artifact-character-e8b68582c15d }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -93,10 +103,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `item_name` { #symbol-api-lua-v5-generated-event-field-activates-artifact-item-name-8f30de926db9 }
 
-**契约字段:**
-
-- `name`: `"item_name"`
-- `type`: `"string"`
+```lua
+---@field item_name any
+item_name = ... -- any
+```
 
 **来源:**
 
@@ -104,9 +114,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `activates_mininuke` { #symbol-api-lua-v5-generated-event-activates-mininuke-8ac51708f538 }
 
-**契约字段:**
+```lua
+---@class activates_mininuke
+local activates_mininuke = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -114,10 +133,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-activates-mininuke-character-36b0c951456e }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -125,9 +144,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `administers_mutagen` { #symbol-api-lua-v5-generated-event-administers-mutagen-8fdba2d5c4dc }
 
-**契约字段:**
+```lua
+---@class administers_mutagen
+local administers_mutagen = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `technique` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -135,10 +164,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-administers-mutagen-character-9f08c679917a }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -146,10 +175,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `technique` { #symbol-api-lua-v5-generated-event-field-administers-mutagen-technique-35e00f696c4f }
 
-**契约字段:**
-
-- `name`: `"technique"`
-- `type`: `"mutagen_technique"`
+```lua
+---@field technique any
+technique = ... -- any
+```
 
 **来源:**
 
@@ -157,9 +186,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `angers_amigara_horrors` { #symbol-api-lua-v5-generated-event-angers-amigara-horrors-2e1cc9e327b1 }
 
-**契约字段:**
+```lua
+---@class angers_amigara_horrors
+local angers_amigara_horrors = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -167,9 +199,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `avatar_dies` { #symbol-api-lua-v5-generated-event-avatar-dies-69876e697e32 }
 
-**契约字段:**
+```lua
+---@class avatar_dies
+local avatar_dies = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -177,9 +212,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `avatar_enters_omt` { #symbol-api-lua-v5-generated-event-avatar-enters-omt-4fdad80ff8f9 }
 
-**契约字段:**
+```lua
+---@class avatar_enters_omt
+local avatar_enters_omt = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `pos` | `any` | 可读写 |
+| `oter_id` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -187,10 +232,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `pos` { #symbol-api-lua-v5-generated-event-field-avatar-enters-omt-pos-807a7d1509a4 }
 
-**契约字段:**
-
-- `name`: `"pos"`
-- `type`: `"tripoint"`
+```lua
+---@field pos any
+pos = ... -- any
+```
 
 **来源:**
 
@@ -198,10 +243,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `oter_id` { #symbol-api-lua-v5-generated-event-field-avatar-enters-omt-oter-id-73ae5b499652 }
 
-**契约字段:**
-
-- `name`: `"oter_id"`
-- `type`: `"oter_id"`
+```lua
+---@field oter_id any
+oter_id = ... -- any
+```
 
 **来源:**
 
@@ -209,9 +254,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `avatar_moves` { #symbol-api-lua-v5-generated-event-avatar-moves-2e76ce901cea }
 
-**契约字段:**
+```lua
+---@class avatar_moves
+local avatar_moves = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `mount` | `any` | 可读写 |
+| `terrain` | `any` | 可读写 |
+| `movement_mode` | `any` | 可读写 |
+| `underwater` | `any` | 可读写 |
+| `z` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -219,10 +277,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `mount` { #symbol-api-lua-v5-generated-event-field-avatar-moves-mount-18bb1e49682a }
 
-**契约字段:**
-
-- `name`: `"mount"`
-- `type`: `"mtype_id"`
+```lua
+---@field mount any
+mount = ... -- any
+```
 
 **来源:**
 
@@ -230,10 +288,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `terrain` { #symbol-api-lua-v5-generated-event-field-avatar-moves-terrain-45210bdecd26 }
 
-**契约字段:**
-
-- `name`: `"terrain"`
-- `type`: `"ter_id"`
+```lua
+---@field terrain any
+terrain = ... -- any
+```
 
 **来源:**
 
@@ -241,10 +299,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `movement_mode` { #symbol-api-lua-v5-generated-event-field-avatar-moves-movement-mode-3b596b9ea1cb }
 
-**契约字段:**
-
-- `name`: `"movement_mode"`
-- `type`: `"move_mode_id"`
+```lua
+---@field movement_mode any
+movement_mode = ... -- any
+```
 
 **来源:**
 
@@ -252,10 +310,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `underwater` { #symbol-api-lua-v5-generated-event-field-avatar-moves-underwater-6b125935d475 }
 
-**契约字段:**
-
-- `name`: `"underwater"`
-- `type`: `"bool_"`
+```lua
+---@field underwater any
+underwater = ... -- any
+```
 
 **来源:**
 
@@ -263,10 +321,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `z` { #symbol-api-lua-v5-generated-event-field-avatar-moves-z-cdd965f14e58 }
 
-**契约字段:**
-
-- `name`: `"z"`
-- `type`: `"int_"`
+```lua
+---@field z any
+z = ... -- any
+```
 
 **来源:**
 
@@ -274,9 +332,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `awakes_dark_wyrms` { #symbol-api-lua-v5-generated-event-awakes-dark-wyrms-26ef50102783 }
 
-**契约字段:**
+```lua
+---@class awakes_dark_wyrms
+local awakes_dark_wyrms = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -284,9 +345,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `becomes_wanted` { #symbol-api-lua-v5-generated-event-becomes-wanted-745f3581c816 }
 
-**契约字段:**
+```lua
+---@class becomes_wanted
+local becomes_wanted = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -294,10 +364,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-becomes-wanted-character-592b83e1ccd2 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -305,9 +375,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `broken_bone` { #symbol-api-lua-v5-generated-event-broken-bone-ac77d28872e9 }
 
-**契约字段:**
+```lua
+---@class broken_bone
+local broken_bone = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `part` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -315,10 +395,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-broken-bone-character-96232fe84417 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -326,10 +406,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `part` { #symbol-api-lua-v5-generated-event-field-broken-bone-part-a462fe862211 }
 
-**契约字段:**
-
-- `name`: `"part"`
-- `type`: `"body_part"`
+```lua
+---@field part any
+part = ... -- any
+```
 
 **来源:**
 
@@ -337,9 +417,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `broken_bone_mends` { #symbol-api-lua-v5-generated-event-broken-bone-mends-4ca7c0146e6c }
 
-**契约字段:**
+```lua
+---@class broken_bone_mends
+local broken_bone_mends = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `part` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -347,10 +437,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-broken-bone-mends-character-8eff59987682 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -358,10 +448,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `part` { #symbol-api-lua-v5-generated-event-field-broken-bone-mends-part-9ae7b4b6b2c7 }
 
-**契约字段:**
-
-- `name`: `"part"`
-- `type`: `"body_part"`
+```lua
+---@field part any
+part = ... -- any
+```
 
 **来源:**
 
@@ -369,9 +459,20 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `buries_corpse` { #symbol-api-lua-v5-generated-event-buries-corpse-68a95b7ba324 }
 
-**契约字段:**
+```lua
+---@class buries_corpse
+local buries_corpse = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `corpse_type` | `any` | 可读写 |
+| `corpse_name` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -379,10 +480,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-buries-corpse-character-3cef8ac1ad04 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -390,10 +491,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `corpse_type` { #symbol-api-lua-v5-generated-event-field-buries-corpse-corpse-type-f8a36a550d19 }
 
-**契约字段:**
-
-- `name`: `"corpse_type"`
-- `type`: `"mtype_id"`
+```lua
+---@field corpse_type any
+corpse_type = ... -- any
+```
 
 **来源:**
 
@@ -401,10 +502,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `corpse_name` { #symbol-api-lua-v5-generated-event-field-buries-corpse-corpse-name-1e0a12b2129f }
 
-**契约字段:**
-
-- `name`: `"corpse_name"`
-- `type`: `"string"`
+```lua
+---@field corpse_name any
+corpse_name = ... -- any
+```
 
 **来源:**
 
@@ -412,9 +513,21 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `camp_taken_over` { #symbol-api-lua-v5-generated-event-camp-taken-over-5f8cf84e5187 }
 
-**契约字段:**
+```lua
+---@class camp_taken_over
+local camp_taken_over = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `old_owner` | `any` | 可读写 |
+| `new_owner` | `any` | 可读写 |
+| `camp_name` | `any` | 可读写 |
+| `was_violent` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -422,10 +535,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `old_owner` { #symbol-api-lua-v5-generated-event-field-camp-taken-over-old-owner-2b3770a24cf7 }
 
-**契约字段:**
-
-- `name`: `"old_owner"`
-- `type`: `"faction_id"`
+```lua
+---@field old_owner any
+old_owner = ... -- any
+```
 
 **来源:**
 
@@ -433,10 +546,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `new_owner` { #symbol-api-lua-v5-generated-event-field-camp-taken-over-new-owner-b499a5c3a9d9 }
 
-**契约字段:**
-
-- `name`: `"new_owner"`
-- `type`: `"faction_id"`
+```lua
+---@field new_owner any
+new_owner = ... -- any
+```
 
 **来源:**
 
@@ -444,10 +557,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `camp_name` { #symbol-api-lua-v5-generated-event-field-camp-taken-over-camp-name-ac403d63b44b }
 
-**契约字段:**
-
-- `name`: `"camp_name"`
-- `type`: `"string"`
+```lua
+---@field camp_name any
+camp_name = ... -- any
+```
 
 **来源:**
 
@@ -455,10 +568,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `was_violent` { #symbol-api-lua-v5-generated-event-field-camp-taken-over-was-violent-1dc8557e4b64 }
 
-**契约字段:**
-
-- `name`: `"was_violent"`
-- `type`: `"bool_"`
+```lua
+---@field was_violent any
+was_violent = ... -- any
+```
 
 **来源:**
 
@@ -466,9 +579,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `causes_resonance_cascade` { #symbol-api-lua-v5-generated-event-causes-resonance-cascade-7ed492ccdb3f }
 
-**契约字段:**
+```lua
+---@class causes_resonance_cascade
+local causes_resonance_cascade = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -476,9 +592,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_armor_destroyed` { #symbol-api-lua-v5-generated-event-character-armor-destroyed-58410d6b7a32 }
 
-**契约字段:**
+```lua
+---@class character_armor_destroyed
+local character_armor_destroyed = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `itype` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -486,10 +612,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-armor-destroyed-character-38ac36251fcb }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -497,10 +623,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-character-armor-destroyed-itype-6e57fced52df }
 
-**契约字段:**
-
-- `name`: `"itype"`
-- `type`: `"itype_id"`
+```lua
+---@field itype any
+itype = ... -- any
+```
 
 **来源:**
 
@@ -508,9 +634,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_attempt_to_fall_asleep` { #symbol-api-lua-v5-generated-event-character-attempt-to-fall-asleep-8cc9d13d24ed }
 
-**契约字段:**
+```lua
+---@class character_attempt_to_fall_asleep
+local character_attempt_to_fall_asleep = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -518,10 +653,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-attempt-to-fall-asleep-character-7c1000ab3b6a }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -529,9 +664,20 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_butchered_corpse` { #symbol-api-lua-v5-generated-event-character-butchered-corpse-d1c1bcbdf0e3 }
 
-**契约字段:**
+```lua
+---@class character_butchered_corpse
+local character_butchered_corpse = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `monster_id` | `any` | 可读写 |
+| `butcher_type` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -539,10 +685,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-butchered-corpse-character-e2fa56dcd286 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -550,10 +696,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `monster_id` { #symbol-api-lua-v5-generated-event-field-character-butchered-corpse-monster-id-f39afd5ef8f7 }
 
-**契约字段:**
-
-- `name`: `"monster_id"`
-- `type`: `"mtype_id"`
+```lua
+---@field monster_id any
+monster_id = ... -- any
+```
 
 **来源:**
 
@@ -561,10 +707,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `butcher_type` { #symbol-api-lua-v5-generated-event-field-character-butchered-corpse-butcher-type-22397ab850a3 }
 
-**契约字段:**
-
-- `name`: `"butcher_type"`
-- `type`: `"string"`
+```lua
+---@field butcher_type any
+butcher_type = ... -- any
+```
 
 **来源:**
 
@@ -572,9 +718,24 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_casts_spell` { #symbol-api-lua-v5-generated-event-character-casts-spell-b84e8f16e4d3 }
 
-**契约字段:**
+```lua
+---@class character_casts_spell
+local character_casts_spell = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `spell` | `any` | 可读写 |
+| `school` | `any` | 可读写 |
+| `difficulty` | `any` | 可读写 |
+| `cost` | `any` | 可读写 |
+| `cast_time` | `any` | 可读写 |
+| `damage` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -582,10 +743,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-casts-spell-character-0ac3fae70caf }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -593,10 +754,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `spell` { #symbol-api-lua-v5-generated-event-field-character-casts-spell-spell-4ac45818620a }
 
-**契约字段:**
-
-- `name`: `"spell"`
-- `type`: `"spell_id"`
+```lua
+---@field spell any
+spell = ... -- any
+```
 
 **来源:**
 
@@ -604,10 +765,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `school` { #symbol-api-lua-v5-generated-event-field-character-casts-spell-school-256ab3407bf6 }
 
-**契约字段:**
-
-- `name`: `"school"`
-- `type`: `"trait_id"`
+```lua
+---@field school any
+school = ... -- any
+```
 
 **来源:**
 
@@ -615,10 +776,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `difficulty` { #symbol-api-lua-v5-generated-event-field-character-casts-spell-difficulty-62e4fd8601e9 }
 
-**契约字段:**
-
-- `name`: `"difficulty"`
-- `type`: `"int_"`
+```lua
+---@field difficulty any
+difficulty = ... -- any
+```
 
 **来源:**
 
@@ -626,10 +787,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `cost` { #symbol-api-lua-v5-generated-event-field-character-casts-spell-cost-1cd399227609 }
 
-**契约字段:**
-
-- `name`: `"cost"`
-- `type`: `"int_"`
+```lua
+---@field cost any
+cost = ... -- any
+```
 
 **来源:**
 
@@ -637,10 +798,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `cast_time` { #symbol-api-lua-v5-generated-event-field-character-casts-spell-cast-time-a59f657bc624 }
 
-**契约字段:**
-
-- `name`: `"cast_time"`
-- `type`: `"int_"`
+```lua
+---@field cast_time any
+cast_time = ... -- any
+```
 
 **来源:**
 
@@ -648,10 +809,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `damage` { #symbol-api-lua-v5-generated-event-field-character-casts-spell-damage-a7e697a15596 }
 
-**契约字段:**
-
-- `name`: `"damage"`
-- `type`: `"int_"`
+```lua
+---@field damage any
+damage = ... -- any
+```
 
 **来源:**
 
@@ -659,9 +820,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_consumes_item` { #symbol-api-lua-v5-generated-event-character-consumes-item-a1cc86b4b41d }
 
-**契约字段:**
+```lua
+---@class character_consumes_item
+local character_consumes_item = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `itype` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -669,10 +840,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-consumes-item-character-9834d40a1b6e }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -680,10 +851,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-character-consumes-item-itype-0b7244f65bdb }
 
-**契约字段:**
-
-- `name`: `"itype"`
-- `type`: `"itype_id"`
+```lua
+---@field itype any
+itype = ... -- any
+```
 
 **来源:**
 
@@ -691,9 +862,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_dies` { #symbol-api-lua-v5-generated-event-character-dies-8df6d1b23f5a }
 
-**契约字段:**
+```lua
+---@class character_dies
+local character_dies = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -701,10 +881,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-dies-character-d9f80bb5e743 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -712,9 +892,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_eats_item` { #symbol-api-lua-v5-generated-event-character-eats-item-0d23da3d80bc }
 
-**契约字段:**
+```lua
+---@class character_eats_item
+local character_eats_item = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `itype` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -722,10 +912,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-eats-item-character-768515717f84 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -733,10 +923,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-character-eats-item-itype-5764a87a4363 }
 
-**契约字段:**
-
-- `name`: `"itype"`
-- `type`: `"itype_id"`
+```lua
+---@field itype any
+itype = ... -- any
+```
 
 **来源:**
 
@@ -744,9 +934,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_falls_asleep` { #symbol-api-lua-v5-generated-event-character-falls-asleep-dde44cc6640a }
 
-**契约字段:**
+```lua
+---@class character_falls_asleep
+local character_falls_asleep = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `duration` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -754,10 +954,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-falls-asleep-character-9b84771d3169 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -765,10 +965,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `duration` { #symbol-api-lua-v5-generated-event-field-character-falls-asleep-duration-0d62b1164980 }
 
-**契约字段:**
-
-- `name`: `"duration"`
-- `type`: `"int_"`
+```lua
+---@field duration any
+duration = ... -- any
+```
 
 **来源:**
 
@@ -776,9 +976,23 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_fertilizes_plant` { #symbol-api-lua-v5-generated-event-character-fertilizes-plant-b60547d3e1fb }
 
-**契约字段:**
+```lua
+---@class character_fertilizes_plant
+local character_fertilizes_plant = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `pos` | `any` | 可读写 |
+| `seed_id` | `any` | 可读写 |
+| `furniture_id` | `any` | 可读写 |
+| `fertilizer_id` | `any` | 可读写 |
+| `reduction_turns` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -786,10 +1000,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-fertilizes-plant-character-702f151398a1 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -797,10 +1011,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `pos` { #symbol-api-lua-v5-generated-event-field-character-fertilizes-plant-pos-ae2b749ae007 }
 
-**契约字段:**
-
-- `name`: `"pos"`
-- `type`: `"tripoint"`
+```lua
+---@field pos any
+pos = ... -- any
+```
 
 **来源:**
 
@@ -808,10 +1022,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `seed_id` { #symbol-api-lua-v5-generated-event-field-character-fertilizes-plant-seed-id-a77146d9b1a1 }
 
-**契约字段:**
-
-- `name`: `"seed_id"`
-- `type`: `"itype_id"`
+```lua
+---@field seed_id any
+seed_id = ... -- any
+```
 
 **来源:**
 
@@ -819,10 +1033,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `furniture_id` { #symbol-api-lua-v5-generated-event-field-character-fertilizes-plant-furniture-id-1d7683e6f5a0 }
 
-**契约字段:**
-
-- `name`: `"furniture_id"`
-- `type`: `"furn_str_id"`
+```lua
+---@field furniture_id any
+furniture_id = ... -- any
+```
 
 **来源:**
 
@@ -830,10 +1044,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `fertilizer_id` { #symbol-api-lua-v5-generated-event-field-character-fertilizes-plant-fertilizer-id-7966616ab722 }
 
-**契约字段:**
-
-- `name`: `"fertilizer_id"`
-- `type`: `"itype_id"`
+```lua
+---@field fertilizer_id any
+fertilizer_id = ... -- any
+```
 
 **来源:**
 
@@ -841,10 +1055,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `reduction_turns` { #symbol-api-lua-v5-generated-event-field-character-fertilizes-plant-reduction-turns-d660dc5268b4 }
 
-**契约字段:**
-
-- `name`: `"reduction_turns"`
-- `type`: `"int_"`
+```lua
+---@field reduction_turns any
+reduction_turns = ... -- any
+```
 
 **来源:**
 
@@ -852,9 +1066,20 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_finished_activity` { #symbol-api-lua-v5-generated-event-character-finished-activity-8a271aa0b38d }
 
-**契约字段:**
+```lua
+---@class character_finished_activity
+local character_finished_activity = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `activity` | `any` | 可读写 |
+| `canceled` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -862,10 +1087,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-finished-activity-character-61b1f252580c }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -873,10 +1098,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `activity` { #symbol-api-lua-v5-generated-event-field-character-finished-activity-activity-0ecfdfae22fb }
 
-**契约字段:**
-
-- `name`: `"activity"`
-- `type`: `"activity_id"`
+```lua
+---@field activity any
+activity = ... -- any
+```
 
 **来源:**
 
@@ -884,10 +1109,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `canceled` { #symbol-api-lua-v5-generated-event-field-character-finished-activity-canceled-8a200f1a3faf }
 
-**契约字段:**
-
-- `name`: `"canceled"`
-- `type`: `"bool_"`
+```lua
+---@field canceled any
+canceled = ... -- any
+```
 
 **来源:**
 
@@ -895,9 +1120,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_forgets_spell` { #symbol-api-lua-v5-generated-event-character-forgets-spell-a775a1e62ce9 }
 
-**契约字段:**
+```lua
+---@class character_forgets_spell
+local character_forgets_spell = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `spell` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -905,10 +1140,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-forgets-spell-character-a3c5ac859cba }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -916,10 +1151,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `spell` { #symbol-api-lua-v5-generated-event-field-character-forgets-spell-spell-388688f8358a }
 
-**契约字段:**
-
-- `name`: `"spell"`
-- `type`: `"spell_id"`
+```lua
+---@field spell any
+spell = ... -- any
+```
 
 **来源:**
 
@@ -927,9 +1162,21 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_gains_effect` { #symbol-api-lua-v5-generated-event-character-gains-effect-44f188ee18a7 }
 
-**契约字段:**
+```lua
+---@class character_gains_effect
+local character_gains_effect = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `bodypart` | `any` | 可读写 |
+| `effect` | `any` | 可读写 |
+| `intensity` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -937,10 +1184,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-gains-effect-character-a14fae1a51ce }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -948,10 +1195,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `bodypart` { #symbol-api-lua-v5-generated-event-field-character-gains-effect-bodypart-3f1d7f624ba8 }
 
-**契约字段:**
-
-- `name`: `"bodypart"`
-- `type`: `"body_part"`
+```lua
+---@field bodypart any
+bodypart = ... -- any
+```
 
 **来源:**
 
@@ -959,10 +1206,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `effect` { #symbol-api-lua-v5-generated-event-field-character-gains-effect-effect-c79b9c01b700 }
 
-**契约字段:**
-
-- `name`: `"effect"`
-- `type`: `"efftype_id"`
+```lua
+---@field effect any
+effect = ... -- any
+```
 
 **来源:**
 
@@ -970,10 +1217,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `intensity` { #symbol-api-lua-v5-generated-event-field-character-gains-effect-intensity-c9645fe020a8 }
 
-**契约字段:**
-
-- `name`: `"intensity"`
-- `type`: `"int_"`
+```lua
+---@field intensity any
+intensity = ... -- any
+```
 
 **来源:**
 
@@ -981,9 +1228,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_gets_headshot` { #symbol-api-lua-v5-generated-event-character-gets-headshot-5f3818849d65 }
 
-**契约字段:**
+```lua
+---@class character_gets_headshot
+local character_gets_headshot = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -991,10 +1247,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-gets-headshot-character-24de9eab8ae8 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -1002,9 +1258,23 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_harvests_plant` { #symbol-api-lua-v5-generated-event-character-harvests-plant-9ed93c0acc05 }
 
-**契约字段:**
+```lua
+---@class character_harvests_plant
+local character_harvests_plant = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `pos` | `any` | 可读写 |
+| `seed_id` | `any` | 可读写 |
+| `furniture_id` | `any` | 可读写 |
+| `plant_count` | `any` | 可读写 |
+| `seed_count` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -1012,10 +1282,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-harvests-plant-character-bbe5d4dae91b }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -1023,10 +1293,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `pos` { #symbol-api-lua-v5-generated-event-field-character-harvests-plant-pos-e3a5920f7ba5 }
 
-**契约字段:**
-
-- `name`: `"pos"`
-- `type`: `"tripoint"`
+```lua
+---@field pos any
+pos = ... -- any
+```
 
 **来源:**
 
@@ -1034,10 +1304,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `seed_id` { #symbol-api-lua-v5-generated-event-field-character-harvests-plant-seed-id-1c153e337ba8 }
 
-**契约字段:**
-
-- `name`: `"seed_id"`
-- `type`: `"itype_id"`
+```lua
+---@field seed_id any
+seed_id = ... -- any
+```
 
 **来源:**
 
@@ -1045,10 +1315,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `furniture_id` { #symbol-api-lua-v5-generated-event-field-character-harvests-plant-furniture-id-14e15f54cf99 }
 
-**契约字段:**
-
-- `name`: `"furniture_id"`
-- `type`: `"furn_str_id"`
+```lua
+---@field furniture_id any
+furniture_id = ... -- any
+```
 
 **来源:**
 
@@ -1056,10 +1326,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `plant_count` { #symbol-api-lua-v5-generated-event-field-character-harvests-plant-plant-count-76ff3103e167 }
 
-**契约字段:**
-
-- `name`: `"plant_count"`
-- `type`: `"int_"`
+```lua
+---@field plant_count any
+plant_count = ... -- any
+```
 
 **来源:**
 
@@ -1067,10 +1337,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `seed_count` { #symbol-api-lua-v5-generated-event-field-character-harvests-plant-seed-count-ae73f0a9a620 }
 
-**契约字段:**
-
-- `name`: `"seed_count"`
-- `type`: `"int_"`
+```lua
+---@field seed_count any
+seed_count = ... -- any
+```
 
 **来源:**
 
@@ -1078,9 +1348,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_heals_damage` { #symbol-api-lua-v5-generated-event-character-heals-damage-fba57676ab46 }
 
-**契约字段:**
+```lua
+---@class character_heals_damage
+local character_heals_damage = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `damage` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -1088,10 +1368,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-heals-damage-character-08901805c403 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -1099,10 +1379,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `damage` { #symbol-api-lua-v5-generated-event-field-character-heals-damage-damage-e2c54196c429 }
 
-**契约字段:**
-
-- `name`: `"damage"`
-- `type`: `"int_"`
+```lua
+---@field damage any
+damage = ... -- any
+```
 
 **来源:**
 
@@ -1110,9 +1390,21 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_kills_character` { #symbol-api-lua-v5-generated-event-character-kills-character-f20b4f09e5d0 }
 
-**契约字段:**
+```lua
+---@class character_kills_character
+local character_kills_character = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `killer` | `any` | 可读写 |
+| `victim` | `any` | 可读写 |
+| `victim_name` | `any` | 可读写 |
+| `victim_class` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -1120,10 +1412,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `killer` { #symbol-api-lua-v5-generated-event-field-character-kills-character-killer-856489c76b22 }
 
-**契约字段:**
-
-- `name`: `"killer"`
-- `type`: `"character_id"`
+```lua
+---@field killer any
+killer = ... -- any
+```
 
 **来源:**
 
@@ -1131,10 +1423,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `victim` { #symbol-api-lua-v5-generated-event-field-character-kills-character-victim-1ea9773135df }
 
-**契约字段:**
-
-- `name`: `"victim"`
-- `type`: `"character_id"`
+```lua
+---@field victim any
+victim = ... -- any
+```
 
 **来源:**
 
@@ -1142,10 +1434,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `victim_name` { #symbol-api-lua-v5-generated-event-field-character-kills-character-victim-name-b7e597466d55 }
 
-**契约字段:**
-
-- `name`: `"victim_name"`
-- `type`: `"string"`
+```lua
+---@field victim_name any
+victim_name = ... -- any
+```
 
 **来源:**
 
@@ -1153,10 +1445,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `victim_class` { #symbol-api-lua-v5-generated-event-field-character-kills-character-victim-class-7b927a155d7e }
 
-**契约字段:**
-
-- `name`: `"victim_class"`
-- `type`: `"string"`
+```lua
+---@field victim_class any
+victim_class = ... -- any
+```
 
 **来源:**
 
@@ -1164,9 +1456,20 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_kills_monster` { #symbol-api-lua-v5-generated-event-character-kills-monster-f5c8c5a4c36e }
 
-**契约字段:**
+```lua
+---@class character_kills_monster
+local character_kills_monster = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `killer` | `any` | 可读写 |
+| `victim_type` | `any` | 可读写 |
+| `exp` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -1174,10 +1477,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `killer` { #symbol-api-lua-v5-generated-event-field-character-kills-monster-killer-a03a41225f6c }
 
-**契约字段:**
-
-- `name`: `"killer"`
-- `type`: `"character_id"`
+```lua
+---@field killer any
+killer = ... -- any
+```
 
 **来源:**
 
@@ -1185,10 +1488,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `victim_type` { #symbol-api-lua-v5-generated-event-field-character-kills-monster-victim-type-0af2d8712be3 }
 
-**契约字段:**
-
-- `name`: `"victim_type"`
-- `type`: `"mtype_id"`
+```lua
+---@field victim_type any
+victim_type = ... -- any
+```
 
 **来源:**
 
@@ -1196,10 +1499,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `exp` { #symbol-api-lua-v5-generated-event-field-character-kills-monster-exp-ebd390aa92af }
 
-**契约字段:**
-
-- `name`: `"exp"`
-- `type`: `"int_"`
+```lua
+---@field exp any
+exp = ... -- any
+```
 
 **来源:**
 
@@ -1207,9 +1510,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_learns_spell` { #symbol-api-lua-v5-generated-event-character-learns-spell-77d762220f91 }
 
-**契约字段:**
+```lua
+---@class character_learns_spell
+local character_learns_spell = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `spell` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -1217,10 +1530,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-learns-spell-character-2341fd831714 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -1228,10 +1541,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `spell` { #symbol-api-lua-v5-generated-event-field-character-learns-spell-spell-cb545eac52e6 }
 
-**契约字段:**
-
-- `name`: `"spell"`
-- `type`: `"spell_id"`
+```lua
+---@field spell any
+spell = ... -- any
+```
 
 **来源:**
 
@@ -1239,9 +1552,20 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_loses_effect` { #symbol-api-lua-v5-generated-event-character-loses-effect-cd108bccca04 }
 
-**契约字段:**
+```lua
+---@class character_loses_effect
+local character_loses_effect = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `bodypart` | `any` | 可读写 |
+| `effect` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -1249,10 +1573,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-loses-effect-character-cebd9c5217b5 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -1260,10 +1584,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `bodypart` { #symbol-api-lua-v5-generated-event-field-character-loses-effect-bodypart-b56032eda49b }
 
-**契约字段:**
-
-- `name`: `"bodypart"`
-- `type`: `"body_part"`
+```lua
+---@field bodypart any
+bodypart = ... -- any
+```
 
 **来源:**
 
@@ -1271,10 +1595,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `effect` { #symbol-api-lua-v5-generated-event-field-character-loses-effect-effect-2cf82f891989 }
 
-**契约字段:**
-
-- `name`: `"effect"`
-- `type`: `"efftype_id"`
+```lua
+---@field effect any
+effect = ... -- any
+```
 
 **来源:**
 
@@ -1282,9 +1606,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_melee_attacks_character` { #symbol-api-lua-v5-generated-event-character-melee-attacks-character-6da9ea75f68d }
 
-**契约字段:**
+```lua
+---@class character_melee_attacks_character
+local character_melee_attacks_character = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `attacker` | `any` | 可读写 |
+| `weapon` | `any` | 可读写 |
+| `hits` | `any` | 可读写 |
+| `victim` | `any` | 可读写 |
+| `victim_name` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -1292,10 +1629,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `attacker` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-character-attacker-fb6d8bc875bf }
 
-**契约字段:**
-
-- `name`: `"attacker"`
-- `type`: `"character_id"`
+```lua
+---@field attacker any
+attacker = ... -- any
+```
 
 **来源:**
 
@@ -1303,10 +1640,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `weapon` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-character-weapon-dc2d2af25be6 }
 
-**契约字段:**
-
-- `name`: `"weapon"`
-- `type`: `"itype_id"`
+```lua
+---@field weapon any
+weapon = ... -- any
+```
 
 **来源:**
 
@@ -1314,10 +1651,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `hits` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-character-hits-79e8a393b2c9 }
 
-**契约字段:**
-
-- `name`: `"hits"`
-- `type`: `"bool_"`
+```lua
+---@field hits any
+hits = ... -- any
+```
 
 **来源:**
 
@@ -1325,10 +1662,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `victim` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-character-victim-545c1d255804 }
 
-**契约字段:**
-
-- `name`: `"victim"`
-- `type`: `"character_id"`
+```lua
+---@field victim any
+victim = ... -- any
+```
 
 **来源:**
 
@@ -1336,10 +1673,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `victim_name` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-character-victim-name-b7d07d336a97 }
 
-**契约字段:**
-
-- `name`: `"victim_name"`
-- `type`: `"string"`
+```lua
+---@field victim_name any
+victim_name = ... -- any
+```
 
 **来源:**
 
@@ -1347,9 +1684,21 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_melee_attacks_monster` { #symbol-api-lua-v5-generated-event-character-melee-attacks-monster-c824bd988bf6 }
 
-**契约字段:**
+```lua
+---@class character_melee_attacks_monster
+local character_melee_attacks_monster = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `attacker` | `any` | 可读写 |
+| `weapon` | `any` | 可读写 |
+| `hits` | `any` | 可读写 |
+| `victim_type` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -1357,10 +1706,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `attacker` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-monster-attacker-1411ab445eb4 }
 
-**契约字段:**
-
-- `name`: `"attacker"`
-- `type`: `"character_id"`
+```lua
+---@field attacker any
+attacker = ... -- any
+```
 
 **来源:**
 
@@ -1368,10 +1717,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `weapon` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-monster-weapon-e833409d126c }
 
-**契约字段:**
-
-- `name`: `"weapon"`
-- `type`: `"itype_id"`
+```lua
+---@field weapon any
+weapon = ... -- any
+```
 
 **来源:**
 
@@ -1379,10 +1728,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `hits` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-monster-hits-6a3ad6107a9d }
 
-**契约字段:**
-
-- `name`: `"hits"`
-- `type`: `"bool_"`
+```lua
+---@field hits any
+hits = ... -- any
+```
 
 **来源:**
 
@@ -1390,10 +1739,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `victim_type` { #symbol-api-lua-v5-generated-event-field-character-melee-attacks-monster-victim-type-5b45a333938c }
 
-**契约字段:**
-
-- `name`: `"victim_type"`
-- `type`: `"mtype_id"`
+```lua
+---@field victim_type any
+victim_type = ... -- any
+```
 
 **来源:**
 
@@ -1401,9 +1750,21 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_plants_seed` { #symbol-api-lua-v5-generated-event-character-plants-seed-f647b7eca649 }
 
-**契约字段:**
+```lua
+---@class character_plants_seed
+local character_plants_seed = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `pos` | `any` | 可读写 |
+| `seed_id` | `any` | 可读写 |
+| `furniture_id` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -1411,10 +1772,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-plants-seed-character-4156501a3d55 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -1422,10 +1783,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `pos` { #symbol-api-lua-v5-generated-event-field-character-plants-seed-pos-1cf44e7a711d }
 
-**契约字段:**
-
-- `name`: `"pos"`
-- `type`: `"tripoint"`
+```lua
+---@field pos any
+pos = ... -- any
+```
 
 **来源:**
 
@@ -1433,10 +1794,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `seed_id` { #symbol-api-lua-v5-generated-event-field-character-plants-seed-seed-id-59018a68c291 }
 
-**契约字段:**
-
-- `name`: `"seed_id"`
-- `type`: `"itype_id"`
+```lua
+---@field seed_id any
+seed_id = ... -- any
+```
 
 **来源:**
 
@@ -1444,10 +1805,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `furniture_id` { #symbol-api-lua-v5-generated-event-field-character-plants-seed-furniture-id-fa17c095f67e }
 
-**契约字段:**
-
-- `name`: `"furniture_id"`
-- `type`: `"furn_str_id"`
+```lua
+---@field furniture_id any
+furniture_id = ... -- any
+```
 
 **来源:**
 
@@ -1455,9 +1816,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_radioactively_mutates` { #symbol-api-lua-v5-generated-event-character-radioactively-mutates-5839fe927c4b }
 
-**契约字段:**
+```lua
+---@class character_radioactively_mutates
+local character_radioactively_mutates = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -1465,10 +1835,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-radioactively-mutates-character-de4f5b6870c4 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -1476,9 +1846,23 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_ranged_attacks_character` { #symbol-api-lua-v5-generated-event-character-ranged-attacks-character-f06d61a602b6 }
 
-**契约字段:**
+```lua
+---@class character_ranged_attacks_character
+local character_ranged_attacks_character = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `attacker` | `any` | 可读写 |
+| `weapon` | `any` | 可读写 |
+| `ammo` | `any` | 可读写 |
+| `is_throw` | `any` | 可读写 |
+| `victim` | `any` | 可读写 |
+| `victim_name` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -1486,10 +1870,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `attacker` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-character-attacker-9c51ca9ac94a }
 
-**契约字段:**
-
-- `name`: `"attacker"`
-- `type`: `"character_id"`
+```lua
+---@field attacker any
+attacker = ... -- any
+```
 
 **来源:**
 
@@ -1497,10 +1881,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `weapon` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-character-weapon-4557afdde7c8 }
 
-**契约字段:**
-
-- `name`: `"weapon"`
-- `type`: `"itype_id"`
+```lua
+---@field weapon any
+weapon = ... -- any
+```
 
 **来源:**
 
@@ -1508,10 +1892,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `ammo` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-character-ammo-940b3b50b435 }
 
-**契约字段:**
-
-- `name`: `"ammo"`
-- `type`: `"itype_id"`
+```lua
+---@field ammo any
+ammo = ... -- any
+```
 
 **来源:**
 
@@ -1519,10 +1903,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `is_throw` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-character-is-throw-79c9386f22f6 }
 
-**契约字段:**
-
-- `name`: `"is_throw"`
-- `type`: `"bool_"`
+```lua
+---@field is_throw any
+is_throw = ... -- any
+```
 
 **来源:**
 
@@ -1530,10 +1914,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `victim` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-character-victim-6e6d4e042b7d }
 
-**契约字段:**
-
-- `name`: `"victim"`
-- `type`: `"character_id"`
+```lua
+---@field victim any
+victim = ... -- any
+```
 
 **来源:**
 
@@ -1541,10 +1925,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `victim_name` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-character-victim-name-930917ad0888 }
 
-**契约字段:**
-
-- `name`: `"victim_name"`
-- `type`: `"string"`
+```lua
+---@field victim_name any
+victim_name = ... -- any
+```
 
 **来源:**
 
@@ -1552,9 +1936,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_ranged_attacks_monster` { #symbol-api-lua-v5-generated-event-character-ranged-attacks-monster-831e3571aee6 }
 
-**契约字段:**
+```lua
+---@class character_ranged_attacks_monster
+local character_ranged_attacks_monster = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `attacker` | `any` | 可读写 |
+| `weapon` | `any` | 可读写 |
+| `ammo` | `any` | 可读写 |
+| `is_throw` | `any` | 可读写 |
+| `victim_type` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -1562,10 +1959,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `attacker` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-monster-attacker-2a14e70ac6ed }
 
-**契约字段:**
-
-- `name`: `"attacker"`
-- `type`: `"character_id"`
+```lua
+---@field attacker any
+attacker = ... -- any
+```
 
 **来源:**
 
@@ -1573,10 +1970,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `weapon` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-monster-weapon-3a56a7f0cb23 }
 
-**契约字段:**
-
-- `name`: `"weapon"`
-- `type`: `"itype_id"`
+```lua
+---@field weapon any
+weapon = ... -- any
+```
 
 **来源:**
 
@@ -1584,10 +1981,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `ammo` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-monster-ammo-508f28efec36 }
 
-**契约字段:**
-
-- `name`: `"ammo"`
-- `type`: `"itype_id"`
+```lua
+---@field ammo any
+ammo = ... -- any
+```
 
 **来源:**
 
@@ -1595,10 +1992,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `is_throw` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-monster-is-throw-41b4a8e5c31b }
 
-**契约字段:**
-
-- `name`: `"is_throw"`
-- `type`: `"bool_"`
+```lua
+---@field is_throw any
+is_throw = ... -- any
+```
 
 **来源:**
 
@@ -1606,10 +2003,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `victim_type` { #symbol-api-lua-v5-generated-event-field-character-ranged-attacks-monster-victim-type-3ca91ae9a7e8 }
 
-**契约字段:**
-
-- `name`: `"victim_type"`
-- `type`: `"mtype_id"`
+```lua
+---@field victim_type any
+victim_type = ... -- any
+```
 
 **来源:**
 
@@ -1617,9 +2014,20 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_smashes_tile` { #symbol-api-lua-v5-generated-event-character-smashes-tile-24602e6f0407 }
 
-**契约字段:**
+```lua
+---@class character_smashes_tile
+local character_smashes_tile = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `terrain` | `any` | 可读写 |
+| `furniture` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -1627,10 +2035,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-smashes-tile-character-5a68e1dea427 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -1638,10 +2046,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `terrain` { #symbol-api-lua-v5-generated-event-field-character-smashes-tile-terrain-b56ddfdcd44c }
 
-**契约字段:**
-
-- `name`: `"terrain"`
-- `type`: `"ter_str_id"`
+```lua
+---@field terrain any
+terrain = ... -- any
+```
 
 **来源:**
 
@@ -1649,10 +2057,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `furniture` { #symbol-api-lua-v5-generated-event-field-character-smashes-tile-furniture-12e46db66f75 }
 
-**契约字段:**
-
-- `name`: `"furniture"`
-- `type`: `"furn_str_id"`
+```lua
+---@field furniture any
+furniture = ... -- any
+```
 
 **来源:**
 
@@ -1660,9 +2068,20 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_starts_activity` { #symbol-api-lua-v5-generated-event-character-starts-activity-ddaa0c4cad6c }
 
-**契约字段:**
+```lua
+---@class character_starts_activity
+local character_starts_activity = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `activity` | `any` | 可读写 |
+| `resume` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -1670,10 +2089,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-starts-activity-character-3fd3434fed67 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -1681,10 +2100,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `activity` { #symbol-api-lua-v5-generated-event-field-character-starts-activity-activity-c7fc28f1904a }
 
-**契约字段:**
-
-- `name`: `"activity"`
-- `type`: `"activity_id"`
+```lua
+---@field activity any
+activity = ... -- any
+```
 
 **来源:**
 
@@ -1692,10 +2111,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `resume` { #symbol-api-lua-v5-generated-event-field-character-starts-activity-resume-305bfffe5efb }
 
-**契约字段:**
-
-- `name`: `"resume"`
-- `type`: `"bool_"`
+```lua
+---@field resume any
+resume = ... -- any
+```
 
 **来源:**
 
@@ -1703,9 +2122,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_takeoff_item` { #symbol-api-lua-v5-generated-event-character-takeoff-item-278a14c8547e }
 
-**契约字段:**
+```lua
+---@class character_takeoff_item
+local character_takeoff_item = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `itype` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -1713,10 +2142,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-takeoff-item-character-db5d79db8211 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -1724,10 +2153,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-character-takeoff-item-itype-e6edc445f8e8 }
 
-**契约字段:**
-
-- `name`: `"itype"`
-- `type`: `"itype_id"`
+```lua
+---@field itype any
+itype = ... -- any
+```
 
 **来源:**
 
@@ -1735,9 +2164,21 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_takes_damage` { #symbol-api-lua-v5-generated-event-character-takes-damage-e5d6a1d6409f }
 
-**契约字段:**
+```lua
+---@class character_takes_damage
+local character_takes_damage = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `damage` | `any` | 可读写 |
+| `bodypart` | `any` | 可读写 |
+| `pain` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -1745,10 +2186,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-takes-damage-character-18a5e67b0fc3 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -1756,10 +2197,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `damage` { #symbol-api-lua-v5-generated-event-field-character-takes-damage-damage-fadaaf9a61ee }
 
-**契约字段:**
-
-- `name`: `"damage"`
-- `type`: `"int_"`
+```lua
+---@field damage any
+damage = ... -- any
+```
 
 **来源:**
 
@@ -1767,10 +2208,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `bodypart` { #symbol-api-lua-v5-generated-event-field-character-takes-damage-bodypart-069892052db6 }
 
-**契约字段:**
-
-- `name`: `"bodypart"`
-- `type`: `"body_part"`
+```lua
+---@field bodypart any
+bodypart = ... -- any
+```
 
 **来源:**
 
@@ -1778,10 +2219,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `pain` { #symbol-api-lua-v5-generated-event-field-character-takes-damage-pain-9183177901a1 }
 
-**契约字段:**
-
-- `name`: `"pain"`
-- `type`: `"int_"`
+```lua
+---@field pain any
+pain = ... -- any
+```
 
 **来源:**
 
@@ -1789,9 +2230,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_triggers_trap` { #symbol-api-lua-v5-generated-event-character-triggers-trap-045c5704eb63 }
 
-**契约字段:**
+```lua
+---@class character_triggers_trap
+local character_triggers_trap = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `trap` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -1799,10 +2250,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-triggers-trap-character-642a0731d45d }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -1810,10 +2261,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `trap` { #symbol-api-lua-v5-generated-event-field-character-triggers-trap-trap-fcdb76331178 }
 
-**契约字段:**
-
-- `name`: `"trap"`
-- `type`: `"trap_str_id"`
+```lua
+---@field trap any
+trap = ... -- any
+```
 
 **来源:**
 
@@ -1821,9 +2272,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_wakes_up` { #symbol-api-lua-v5-generated-event-character-wakes-up-ee3634de48f7 }
 
-**契约字段:**
+```lua
+---@class character_wakes_up
+local character_wakes_up = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -1831,10 +2291,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-wakes-up-character-e01cfb1e070a }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -1842,9 +2302,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_waters_plant` { #symbol-api-lua-v5-generated-event-character-waters-plant-45fcf7be065b }
 
-**契约字段:**
+```lua
+---@class character_waters_plant
+local character_waters_plant = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `pos` | `any` | 可读写 |
+| `seed_id` | `any` | 可读写 |
+| `furniture_id` | `any` | 可读写 |
+| `water_added` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -1852,10 +2325,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-waters-plant-character-76a8b77abf18 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -1863,10 +2336,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `pos` { #symbol-api-lua-v5-generated-event-field-character-waters-plant-pos-9ffa1ad3bdbd }
 
-**契约字段:**
-
-- `name`: `"pos"`
-- `type`: `"tripoint"`
+```lua
+---@field pos any
+pos = ... -- any
+```
 
 **来源:**
 
@@ -1874,10 +2347,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `seed_id` { #symbol-api-lua-v5-generated-event-field-character-waters-plant-seed-id-4a47cf7e3a13 }
 
-**契约字段:**
-
-- `name`: `"seed_id"`
-- `type`: `"itype_id"`
+```lua
+---@field seed_id any
+seed_id = ... -- any
+```
 
 **来源:**
 
@@ -1885,10 +2358,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `furniture_id` { #symbol-api-lua-v5-generated-event-field-character-waters-plant-furniture-id-f2c32ff7330b }
 
-**契约字段:**
-
-- `name`: `"furniture_id"`
-- `type`: `"furn_str_id"`
+```lua
+---@field furniture_id any
+furniture_id = ... -- any
+```
 
 **来源:**
 
@@ -1896,10 +2369,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `water_added` { #symbol-api-lua-v5-generated-event-field-character-waters-plant-water-added-eb93c6f6ed8f }
 
-**契约字段:**
-
-- `name`: `"water_added"`
-- `type`: `"int_"`
+```lua
+---@field water_added any
+water_added = ... -- any
+```
 
 **来源:**
 
@@ -1907,9 +2380,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_wears_item` { #symbol-api-lua-v5-generated-event-character-wears-item-4ac57510812a }
 
-**契约字段:**
+```lua
+---@class character_wears_item
+local character_wears_item = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `itype` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -1917,10 +2400,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-wears-item-character-84c1c1108e48 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -1928,10 +2411,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-character-wears-item-itype-333f58332fa2 }
 
-**契约字段:**
-
-- `name`: `"itype"`
-- `type`: `"itype_id"`
+```lua
+---@field itype any
+itype = ... -- any
+```
 
 **来源:**
 
@@ -1939,9 +2422,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `character_wields_item` { #symbol-api-lua-v5-generated-event-character-wields-item-f21f88cd326a }
 
-**契约字段:**
+```lua
+---@class character_wields_item
+local character_wields_item = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `itype` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -1949,10 +2442,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-character-wields-item-character-ed69e659384b }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -1960,10 +2453,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-character-wields-item-itype-407f27745857 }
 
-**契约字段:**
-
-- `name`: `"itype"`
-- `type`: `"itype_id"`
+```lua
+---@field itype any
+itype = ... -- any
+```
 
 **来源:**
 
@@ -1971,9 +2464,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `consumes_marloss_item` { #symbol-api-lua-v5-generated-event-consumes-marloss-item-3f9f6fb36c47 }
 
-**契约字段:**
+```lua
+---@class consumes_marloss_item
+local consumes_marloss_item = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `itype` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -1981,10 +2484,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-consumes-marloss-item-character-9019d7ebcd55 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -1992,10 +2495,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-consumes-marloss-item-itype-869f2491c441 }
 
-**契约字段:**
-
-- `name`: `"itype"`
-- `type`: `"itype_id"`
+```lua
+---@field itype any
+itype = ... -- any
+```
 
 **来源:**
 
@@ -2003,9 +2506,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `crosses_marloss_threshold` { #symbol-api-lua-v5-generated-event-crosses-marloss-threshold-c795fa72270d }
 
-**契约字段:**
+```lua
+---@class crosses_marloss_threshold
+local crosses_marloss_threshold = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2013,10 +2525,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-crosses-marloss-threshold-character-75c5a8dc8365 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2024,9 +2536,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `crosses_mutation_threshold` { #symbol-api-lua-v5-generated-event-crosses-mutation-threshold-8acd227f5e1a }
 
-**契约字段:**
+```lua
+---@class crosses_mutation_threshold
+local crosses_mutation_threshold = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `category` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2034,10 +2556,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-crosses-mutation-threshold-character-4cfcd691e740 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2045,10 +2567,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `category` { #symbol-api-lua-v5-generated-event-field-crosses-mutation-threshold-category-3797cd7d93cf }
 
-**契约字段:**
-
-- `name`: `"category"`
-- `type`: `"mutation_category_id"`
+```lua
+---@field category any
+category = ... -- any
+```
 
 **来源:**
 
@@ -2056,9 +2578,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `crosses_mycus_threshold` { #symbol-api-lua-v5-generated-event-crosses-mycus-threshold-5627752b50e3 }
 
-**契约字段:**
+```lua
+---@class crosses_mycus_threshold
+local crosses_mycus_threshold = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2066,10 +2597,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-crosses-mycus-threshold-character-6099ae681a10 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2077,9 +2608,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `cuts_tree` { #symbol-api-lua-v5-generated-event-cuts-tree-2ca4e65dd0c0 }
 
-**契约字段:**
+```lua
+---@class cuts_tree
+local cuts_tree = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2087,10 +2627,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-cuts-tree-character-b8f9e00d7adb }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2098,9 +2638,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `dermatik_eggs_hatch` { #symbol-api-lua-v5-generated-event-dermatik-eggs-hatch-75ced0541036 }
 
-**契约字段:**
+```lua
+---@class dermatik_eggs_hatch
+local dermatik_eggs_hatch = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2108,10 +2657,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dermatik-eggs-hatch-character-c8b4b9110a54 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2119,9 +2668,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `dermatik_eggs_injected` { #symbol-api-lua-v5-generated-event-dermatik-eggs-injected-8baa6ad2615d }
 
-**契约字段:**
+```lua
+---@class dermatik_eggs_injected
+local dermatik_eggs_injected = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2129,10 +2687,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dermatik-eggs-injected-character-ab99910dea02 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2140,9 +2698,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `destroys_triffid_grove` { #symbol-api-lua-v5-generated-event-destroys-triffid-grove-4e8d10481959 }
 
-**契约字段:**
+```lua
+---@class destroys_triffid_grove
+local destroys_triffid_grove = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2150,9 +2711,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `dies_from_asthma_attack` { #symbol-api-lua-v5-generated-event-dies-from-asthma-attack-fb91a5cea8b2 }
 
-**契约字段:**
+```lua
+---@class dies_from_asthma_attack
+local dies_from_asthma_attack = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2160,10 +2730,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-from-asthma-attack-character-bd4353defa2a }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2171,9 +2741,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `dies_from_bleeding` { #symbol-api-lua-v5-generated-event-dies-from-bleeding-d844d9954f8c }
 
-**契约字段:**
+```lua
+---@class dies_from_bleeding
+local dies_from_bleeding = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2181,10 +2760,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-from-bleeding-character-484b3d09bc01 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2192,9 +2771,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `dies_from_drug_overdose` { #symbol-api-lua-v5-generated-event-dies-from-drug-overdose-6998abc8a1de }
 
-**契约字段:**
+```lua
+---@class dies_from_drug_overdose
+local dies_from_drug_overdose = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `effect` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2202,10 +2791,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-from-drug-overdose-character-2eaf34a1696b }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2213,10 +2802,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `effect` { #symbol-api-lua-v5-generated-event-field-dies-from-drug-overdose-effect-08c8fa143fe7 }
 
-**契约字段:**
-
-- `name`: `"effect"`
-- `type`: `"efftype_id"`
+```lua
+---@field effect any
+effect = ... -- any
+```
 
 **来源:**
 
@@ -2224,9 +2813,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `dies_from_hypovolemia` { #symbol-api-lua-v5-generated-event-dies-from-hypovolemia-f874b8da444d }
 
-**契约字段:**
+```lua
+---@class dies_from_hypovolemia
+local dies_from_hypovolemia = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2234,10 +2832,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-from-hypovolemia-character-d50257dfc7fe }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2245,9 +2843,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `dies_from_redcells_loss` { #symbol-api-lua-v5-generated-event-dies-from-redcells-loss-07815e045fb5 }
 
-**契约字段:**
+```lua
+---@class dies_from_redcells_loss
+local dies_from_redcells_loss = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2255,10 +2862,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-from-redcells-loss-character-95ec6877216c }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2266,9 +2873,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `dies_of_infection` { #symbol-api-lua-v5-generated-event-dies-of-infection-044fcc4f26b1 }
 
-**契约字段:**
+```lua
+---@class dies_of_infection
+local dies_of_infection = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2276,10 +2892,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-of-infection-character-3cd1dcf8789f }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2287,9 +2903,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `dies_of_starvation` { #symbol-api-lua-v5-generated-event-dies-of-starvation-d937e49b785d }
 
-**契约字段:**
+```lua
+---@class dies_of_starvation
+local dies_of_starvation = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2297,10 +2922,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-of-starvation-character-5447adf9956d }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2308,9 +2933,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `dies_of_thirst` { #symbol-api-lua-v5-generated-event-dies-of-thirst-4c77a0ffbf9c }
 
-**契约字段:**
+```lua
+---@class dies_of_thirst
+local dies_of_thirst = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2318,10 +2952,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dies-of-thirst-character-d8038d53685f }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2329,9 +2963,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `digs_into_lava` { #symbol-api-lua-v5-generated-event-digs-into-lava-a2eaed44da94 }
 
-**契约字段:**
+```lua
+---@class digs_into_lava
+local digs_into_lava = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2339,9 +2976,20 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `dimension_travel` { #symbol-api-lua-v5-generated-event-dimension-travel-3e329de86a55 }
 
-**契约字段:**
+```lua
+---@class dimension_travel
+local dimension_travel = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `from_dimension` | `any` | 可读写 |
+| `to_dimension` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2349,10 +2997,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-dimension-travel-character-1466cd04d057 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2360,10 +3008,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `from_dimension` { #symbol-api-lua-v5-generated-event-field-dimension-travel-from-dimension-74ec35838887 }
 
-**契约字段:**
-
-- `name`: `"from_dimension"`
-- `type`: `"dimension_id"`
+```lua
+---@field from_dimension any
+from_dimension = ... -- any
+```
 
 **来源:**
 
@@ -2371,10 +3019,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `to_dimension` { #symbol-api-lua-v5-generated-event-field-dimension-travel-to-dimension-71be80b012c4 }
 
-**契约字段:**
-
-- `name`: `"to_dimension"`
-- `type`: `"dimension_id"`
+```lua
+---@field to_dimension any
+to_dimension = ... -- any
+```
 
 **来源:**
 
@@ -2382,9 +3030,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `disarms_nuke` { #symbol-api-lua-v5-generated-event-disarms-nuke-86b2839a6b15 }
 
-**契约字段:**
+```lua
+---@class disarms_nuke
+local disarms_nuke = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2392,9 +3043,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `eats_sewage` { #symbol-api-lua-v5-generated-event-eats-sewage-22b10e28f633 }
 
-**契约字段:**
+```lua
+---@class eats_sewage
+local eats_sewage = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2402,9 +3056,20 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `evolves_mutation` { #symbol-api-lua-v5-generated-event-evolves-mutation-14b490938316 }
 
-**契约字段:**
+```lua
+---@class evolves_mutation
+local evolves_mutation = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `from_trait` | `any` | 可读写 |
+| `to_trait` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2412,10 +3077,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-evolves-mutation-character-734a54de8254 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2423,10 +3088,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `from_trait` { #symbol-api-lua-v5-generated-event-field-evolves-mutation-from-trait-2add04c58431 }
 
-**契约字段:**
-
-- `name`: `"from_trait"`
-- `type`: `"trait_id"`
+```lua
+---@field from_trait any
+from_trait = ... -- any
+```
 
 **来源:**
 
@@ -2434,10 +3099,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `to_trait` { #symbol-api-lua-v5-generated-event-field-evolves-mutation-to-trait-065227e0dc7f }
 
-**契约字段:**
-
-- `name`: `"to_trait"`
-- `type`: `"trait_id"`
+```lua
+---@field to_trait any
+to_trait = ... -- any
+```
 
 **来源:**
 
@@ -2445,9 +3110,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `exhumes_grave` { #symbol-api-lua-v5-generated-event-exhumes-grave-c6d20ea646b2 }
 
-**契约字段:**
+```lua
+---@class exhumes_grave
+local exhumes_grave = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2455,10 +3129,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-exhumes-grave-character-325da22bd85c }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2466,9 +3140,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `fails_to_install_cbm` { #symbol-api-lua-v5-generated-event-fails-to-install-cbm-fb0f0ea5a679 }
 
-**契约字段:**
+```lua
+---@class fails_to_install_cbm
+local fails_to_install_cbm = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `bionic` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2476,10 +3160,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-fails-to-install-cbm-character-612408584e66 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2487,10 +3171,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `bionic` { #symbol-api-lua-v5-generated-event-field-fails-to-install-cbm-bionic-f85bb80b8393 }
 
-**契约字段:**
-
-- `name`: `"bionic"`
-- `type`: `"bionic_id"`
+```lua
+---@field bionic any
+bionic = ... -- any
+```
 
 **来源:**
 
@@ -2498,9 +3182,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `fails_to_remove_cbm` { #symbol-api-lua-v5-generated-event-fails-to-remove-cbm-8e9e9e90ade1 }
 
-**契约字段:**
+```lua
+---@class fails_to_remove_cbm
+local fails_to_remove_cbm = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `bionic` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2508,10 +3202,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-fails-to-remove-cbm-character-fee84fbc4bbd }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2519,10 +3213,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `bionic` { #symbol-api-lua-v5-generated-event-field-fails-to-remove-cbm-bionic-a959067e4563 }
 
-**契约字段:**
-
-- `name`: `"bionic"`
-- `type`: `"bionic_id"`
+```lua
+---@field bionic any
+bionic = ... -- any
+```
 
 **来源:**
 
@@ -2530,9 +3224,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `falls_asleep_from_exhaustion` { #symbol-api-lua-v5-generated-event-falls-asleep-from-exhaustion-eb4530757a04 }
 
-**契约字段:**
+```lua
+---@class falls_asleep_from_exhaustion
+local falls_asleep_from_exhaustion = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2540,10 +3243,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-falls-asleep-from-exhaustion-character-5df351c5b8d6 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2551,9 +3254,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `fuel_tank_explodes` { #symbol-api-lua-v5-generated-event-fuel-tank-explodes-601b6373437a }
 
-**契约字段:**
+```lua
+---@class fuel_tank_explodes
+local fuel_tank_explodes = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `vehicle_name` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2561,10 +3273,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `vehicle_name` { #symbol-api-lua-v5-generated-event-field-fuel-tank-explodes-vehicle-name-2cbae4a016a9 }
 
-**契约字段:**
-
-- `name`: `"vehicle_name"`
-- `type`: `"string"`
+```lua
+---@field vehicle_name any
+vehicle_name = ... -- any
+```
 
 **来源:**
 
@@ -2572,9 +3284,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `gains_addiction` { #symbol-api-lua-v5-generated-event-gains-addiction-c20f8a8a4792 }
 
-**契约字段:**
+```lua
+---@class gains_addiction
+local gains_addiction = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `add_type` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2582,10 +3304,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-gains-addiction-character-51ad2baedf22 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2593,10 +3315,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `add_type` { #symbol-api-lua-v5-generated-event-field-gains-addiction-add-type-ed3e82a2584c }
 
-**契约字段:**
-
-- `name`: `"add_type"`
-- `type`: `"addiction_id"`
+```lua
+---@field add_type any
+add_type = ... -- any
+```
 
 **来源:**
 
@@ -2604,9 +3326,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `gains_mutation` { #symbol-api-lua-v5-generated-event-gains-mutation-28451f149736 }
 
-**契约字段:**
+```lua
+---@class gains_mutation
+local gains_mutation = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `trait` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2614,10 +3346,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-gains-mutation-character-b3ea53889a6c }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2625,10 +3357,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `trait` { #symbol-api-lua-v5-generated-event-field-gains-mutation-trait-b39ca08be4e8 }
 
-**契约字段:**
-
-- `name`: `"trait"`
-- `type`: `"trait_id"`
+```lua
+---@field trait any
+trait = ... -- any
+```
 
 **来源:**
 
@@ -2636,9 +3368,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `gains_proficiency` { #symbol-api-lua-v5-generated-event-gains-proficiency-e14a6fe41ff8 }
 
-**契约字段:**
+```lua
+---@class gains_proficiency
+local gains_proficiency = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `proficiency` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2646,10 +3388,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-gains-proficiency-character-348e93e8a4c2 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2657,10 +3399,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `proficiency` { #symbol-api-lua-v5-generated-event-field-gains-proficiency-proficiency-0c4c64a0a30e }
 
-**契约字段:**
-
-- `name`: `"proficiency"`
-- `type`: `"proficiency_id"`
+```lua
+---@field proficiency any
+proficiency = ... -- any
+```
 
 **来源:**
 
@@ -2668,9 +3410,20 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `gains_skill_level` { #symbol-api-lua-v5-generated-event-gains-skill-level-7f228d0dfc50 }
 
-**契约字段:**
+```lua
+---@class gains_skill_level
+local gains_skill_level = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `skill` | `any` | 可读写 |
+| `new_level` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2678,10 +3431,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-gains-skill-level-character-86659ce6b2cb }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2689,10 +3442,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `skill` { #symbol-api-lua-v5-generated-event-field-gains-skill-level-skill-b61152b69d46 }
 
-**契约字段:**
-
-- `name`: `"skill"`
-- `type`: `"skill_id"`
+```lua
+---@field skill any
+skill = ... -- any
+```
 
 **来源:**
 
@@ -2700,10 +3453,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `new_level` { #symbol-api-lua-v5-generated-event-field-gains-skill-level-new-level-3fd4551d32a7 }
 
-**契约字段:**
-
-- `name`: `"new_level"`
-- `type`: `"int_"`
+```lua
+---@field new_level any
+new_level = ... -- any
+```
 
 **来源:**
 
@@ -2711,9 +3464,21 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `game_avatar_death` { #symbol-api-lua-v5-generated-event-game-avatar-death-0e53a88758a1 }
 
-**契约字段:**
+```lua
+---@class game_avatar_death
+local game_avatar_death = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `avatar_id` | `any` | 可读写 |
+| `avatar_name` | `any` | 可读写 |
+| `is_suicide` | `any` | 可读写 |
+| `last_words` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2721,10 +3486,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `avatar_id` { #symbol-api-lua-v5-generated-event-field-game-avatar-death-avatar-id-b93f1a33157b }
 
-**契约字段:**
-
-- `name`: `"avatar_id"`
-- `type`: `"character_id"`
+```lua
+---@field avatar_id any
+avatar_id = ... -- any
+```
 
 **来源:**
 
@@ -2732,10 +3497,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `avatar_name` { #symbol-api-lua-v5-generated-event-field-game-avatar-death-avatar-name-5de966dac1a0 }
 
-**契约字段:**
-
-- `name`: `"avatar_name"`
-- `type`: `"string"`
+```lua
+---@field avatar_name any
+avatar_name = ... -- any
+```
 
 **来源:**
 
@@ -2743,10 +3508,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `is_suicide` { #symbol-api-lua-v5-generated-event-field-game-avatar-death-is-suicide-36aeaeebbf71 }
 
-**契约字段:**
-
-- `name`: `"is_suicide"`
-- `type`: `"bool_"`
+```lua
+---@field is_suicide any
+is_suicide = ... -- any
+```
 
 **来源:**
 
@@ -2754,10 +3519,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `last_words` { #symbol-api-lua-v5-generated-event-field-game-avatar-death-last-words-bd6e0d5caf9d }
 
-**契约字段:**
-
-- `name`: `"last_words"`
-- `type`: `"string"`
+```lua
+---@field last_words any
+last_words = ... -- any
+```
 
 **来源:**
 
@@ -2765,9 +3530,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `game_avatar_new` { #symbol-api-lua-v5-generated-event-game-avatar-new-38b032f26094 }
 
-**契约字段:**
+```lua
+---@class game_avatar_new
+local game_avatar_new = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `is_new_game` | `any` | 可读写 |
+| `is_debug` | `any` | 可读写 |
+| `avatar_id` | `any` | 可读写 |
+| `avatar_name` | `any` | 可读写 |
+| `avatar_custom_profession` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2775,10 +3553,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `is_new_game` { #symbol-api-lua-v5-generated-event-field-game-avatar-new-is-new-game-1edfc87d1c32 }
 
-**契约字段:**
-
-- `name`: `"is_new_game"`
-- `type`: `"bool_"`
+```lua
+---@field is_new_game any
+is_new_game = ... -- any
+```
 
 **来源:**
 
@@ -2786,10 +3564,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `is_debug` { #symbol-api-lua-v5-generated-event-field-game-avatar-new-is-debug-bb00299b905d }
 
-**契约字段:**
-
-- `name`: `"is_debug"`
-- `type`: `"bool_"`
+```lua
+---@field is_debug any
+is_debug = ... -- any
+```
 
 **来源:**
 
@@ -2797,10 +3575,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `avatar_id` { #symbol-api-lua-v5-generated-event-field-game-avatar-new-avatar-id-4871dcd5fad3 }
 
-**契约字段:**
-
-- `name`: `"avatar_id"`
-- `type`: `"character_id"`
+```lua
+---@field avatar_id any
+avatar_id = ... -- any
+```
 
 **来源:**
 
@@ -2808,10 +3586,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `avatar_name` { #symbol-api-lua-v5-generated-event-field-game-avatar-new-avatar-name-a6e7aeedc30a }
 
-**契约字段:**
-
-- `name`: `"avatar_name"`
-- `type`: `"string"`
+```lua
+---@field avatar_name any
+avatar_name = ... -- any
+```
 
 **来源:**
 
@@ -2819,10 +3597,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `avatar_custom_profession` { #symbol-api-lua-v5-generated-event-field-game-avatar-new-avatar-custom-profession-06b8e151d720 }
 
-**契约字段:**
-
-- `name`: `"avatar_custom_profession"`
-- `type`: `"string"`
+```lua
+---@field avatar_custom_profession any
+avatar_custom_profession = ... -- any
+```
 
 **来源:**
 
@@ -2830,9 +3608,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `game_begin` { #symbol-api-lua-v5-generated-event-game-begin-03a90bc39ed3 }
 
-**契约字段:**
+```lua
+---@class game_begin
+local game_begin = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `cdda_version` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2840,10 +3627,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `cdda_version` { #symbol-api-lua-v5-generated-event-field-game-begin-cdda-version-df8a810131d9 }
 
-**契约字段:**
-
-- `name`: `"cdda_version"`
-- `type`: `"string"`
+```lua
+---@field cdda_version any
+cdda_version = ... -- any
+```
 
 **来源:**
 
@@ -2851,9 +3638,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `game_load` { #symbol-api-lua-v5-generated-event-game-load-f6af9cd6501d }
 
-**契约字段:**
+```lua
+---@class game_load
+local game_load = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `cdda_version` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2861,10 +3657,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `cdda_version` { #symbol-api-lua-v5-generated-event-field-game-load-cdda-version-b9a4ee762eb5 }
 
-**契约字段:**
-
-- `name`: `"cdda_version"`
-- `type`: `"string"`
+```lua
+---@field cdda_version any
+cdda_version = ... -- any
+```
 
 **来源:**
 
@@ -2872,9 +3668,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `game_over` { #symbol-api-lua-v5-generated-event-game-over-d65a7a36cfeb }
 
-**契约字段:**
+```lua
+---@class game_over
+local game_over = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `total_time_played` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2882,10 +3687,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `total_time_played` { #symbol-api-lua-v5-generated-event-field-game-over-total-time-played-317b77c7417e }
 
-**契约字段:**
-
-- `name`: `"total_time_played"`
-- `type`: `"chrono_seconds"`
+```lua
+---@field total_time_played any
+total_time_played = ... -- any
+```
 
 **来源:**
 
@@ -2893,9 +3698,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `game_save` { #symbol-api-lua-v5-generated-event-game-save-0ef1ea32cce9 }
 
-**契约字段:**
+```lua
+---@class game_save
+local game_save = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `time_since_load` | `any` | 可读写 |
+| `total_time_played` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2903,10 +3718,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `time_since_load` { #symbol-api-lua-v5-generated-event-field-game-save-time-since-load-5932a32ed08d }
 
-**契约字段:**
-
-- `name`: `"time_since_load"`
-- `type`: `"chrono_seconds"`
+```lua
+---@field time_since_load any
+time_since_load = ... -- any
+```
 
 **来源:**
 
@@ -2914,10 +3729,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `total_time_played` { #symbol-api-lua-v5-generated-event-field-game-save-total-time-played-ae2c10ba5570 }
 
-**契约字段:**
-
-- `name`: `"total_time_played"`
-- `type`: `"chrono_seconds"`
+```lua
+---@field total_time_played any
+total_time_played = ... -- any
+```
 
 **来源:**
 
@@ -2925,9 +3740,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `game_start` { #symbol-api-lua-v5-generated-event-game-start-6de0dab596e6 }
 
-**契约字段:**
+```lua
+---@class game_start
+local game_start = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `game_version` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2935,10 +3759,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `game_version` { #symbol-api-lua-v5-generated-event-field-game-start-game-version-6bc0c920ae8c }
 
-**契约字段:**
-
-- `name`: `"game_version"`
-- `type`: `"string"`
+```lua
+---@field game_version any
+game_version = ... -- any
+```
 
 **来源:**
 
@@ -2946,9 +3770,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `installs_cbm` { #symbol-api-lua-v5-generated-event-installs-cbm-953dace357e8 }
 
-**契约字段:**
+```lua
+---@class installs_cbm
+local installs_cbm = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `bionic` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2956,10 +3790,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-installs-cbm-character-4834da5c656c }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2967,10 +3801,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `bionic` { #symbol-api-lua-v5-generated-event-field-installs-cbm-bionic-ec62687fff4c }
 
-**契约字段:**
-
-- `name`: `"bionic"`
-- `type`: `"bionic_id"`
+```lua
+---@field bionic any
+bionic = ... -- any
+```
 
 **来源:**
 
@@ -2978,9 +3812,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `installs_faulty_cbm` { #symbol-api-lua-v5-generated-event-installs-faulty-cbm-1da35527f7c0 }
 
-**契约字段:**
+```lua
+---@class installs_faulty_cbm
+local installs_faulty_cbm = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `bionic` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -2988,10 +3832,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-installs-faulty-cbm-character-523b9fd492e5 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -2999,10 +3843,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `bionic` { #symbol-api-lua-v5-generated-event-field-installs-faulty-cbm-bionic-6f25540b89fd }
 
-**契约字段:**
-
-- `name`: `"bionic"`
-- `type`: `"bionic_id"`
+```lua
+---@field bionic any
+bionic = ... -- any
+```
 
 **来源:**
 
@@ -3010,9 +3854,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `learns_martial_art` { #symbol-api-lua-v5-generated-event-learns-martial-art-d2ad6154d366 }
 
-**契约字段:**
+```lua
+---@class learns_martial_art
+local learns_martial_art = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `martial_art` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3020,10 +3874,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-learns-martial-art-character-ac3f27f45ac7 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -3031,10 +3885,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `martial_art` { #symbol-api-lua-v5-generated-event-field-learns-martial-art-martial-art-a6baf451d54c }
 
-**契约字段:**
-
-- `name`: `"martial_art"`
-- `type`: `"matype_id"`
+```lua
+---@field martial_art any
+martial_art = ... -- any
+```
 
 **来源:**
 
@@ -3042,9 +3896,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `loses_addiction` { #symbol-api-lua-v5-generated-event-loses-addiction-ccfb620f2d13 }
 
-**契约字段:**
+```lua
+---@class loses_addiction
+local loses_addiction = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `add_type` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3052,10 +3916,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-loses-addiction-character-7b1df56b55c8 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -3063,10 +3927,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `add_type` { #symbol-api-lua-v5-generated-event-field-loses-addiction-add-type-a40c755936af }
 
-**契约字段:**
-
-- `name`: `"add_type"`
-- `type`: `"addiction_id"`
+```lua
+---@field add_type any
+add_type = ... -- any
+```
 
 **来源:**
 
@@ -3074,9 +3938,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `loses_mutation` { #symbol-api-lua-v5-generated-event-loses-mutation-250e63cfdfc8 }
 
-**契约字段:**
+```lua
+---@class loses_mutation
+local loses_mutation = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `trait` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3084,10 +3958,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-loses-mutation-character-230e5bbcb538 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -3095,10 +3969,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `trait` { #symbol-api-lua-v5-generated-event-field-loses-mutation-trait-22650090857c }
 
-**契约字段:**
-
-- `name`: `"trait"`
-- `type`: `"trait_id"`
+```lua
+---@field trait any
+trait = ... -- any
+```
 
 **来源:**
 
@@ -3106,9 +3980,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `monster_takes_damage` { #symbol-api-lua-v5-generated-event-monster-takes-damage-6eef0baa5b82 }
 
-**契约字段:**
+```lua
+---@class monster_takes_damage
+local monster_takes_damage = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `damage` | `any` | 可读写 |
+| `dies` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3116,10 +4000,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `damage` { #symbol-api-lua-v5-generated-event-field-monster-takes-damage-damage-6fad682a10b7 }
 
-**契约字段:**
-
-- `name`: `"damage"`
-- `type`: `"int_"`
+```lua
+---@field damage any
+damage = ... -- any
+```
 
 **来源:**
 
@@ -3127,10 +4011,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `dies` { #symbol-api-lua-v5-generated-event-field-monster-takes-damage-dies-b882e269bfa9 }
 
-**契约字段:**
-
-- `name`: `"dies"`
-- `type`: `"bool_"`
+```lua
+---@field dies any
+dies = ... -- any
+```
 
 **来源:**
 
@@ -3138,9 +4022,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `npc_becomes_hostile` { #symbol-api-lua-v5-generated-event-npc-becomes-hostile-dff223ee35b1 }
 
-**契约字段:**
+```lua
+---@class npc_becomes_hostile
+local npc_becomes_hostile = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `npc` | `any` | 可读写 |
+| `npc_name` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3148,10 +4042,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `npc` { #symbol-api-lua-v5-generated-event-field-npc-becomes-hostile-npc-90c713be8902 }
 
-**契约字段:**
-
-- `name`: `"npc"`
-- `type`: `"character_id"`
+```lua
+---@field npc any
+npc = ... -- any
+```
 
 **来源:**
 
@@ -3159,10 +4053,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `npc_name` { #symbol-api-lua-v5-generated-event-field-npc-becomes-hostile-npc-name-3a561d488aef }
 
-**契约字段:**
-
-- `name`: `"npc_name"`
-- `type`: `"string"`
+```lua
+---@field npc_name any
+npc_name = ... -- any
+```
 
 **来源:**
 
@@ -3170,9 +4064,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `opens_portal` { #symbol-api-lua-v5-generated-event-opens-portal-c1b1133cb32f }
 
-**契约字段:**
+```lua
+---@class opens_portal
+local opens_portal = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3180,9 +4077,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `opens_spellbook` { #symbol-api-lua-v5-generated-event-opens-spellbook-45b84cbd5d4f }
 
-**契约字段:**
+```lua
+---@class opens_spellbook
+local opens_spellbook = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3190,10 +4096,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-opens-spellbook-character-cf21c8926336 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -3201,9 +4107,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `opens_temple` { #symbol-api-lua-v5-generated-event-opens-temple-1fb67651cd07 }
 
-**契约字段:**
+```lua
+---@class opens_temple
+local opens_temple = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3211,9 +4120,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `phase_move` { #symbol-api-lua-v5-generated-event-phase-move-6b84f61437c6 }
 
-**契约字段:**
+```lua
+---@class phase_move
+local phase_move = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `distance_traveled` | `any` | 可读写 |
+| `is_bionic` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3221,10 +4140,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `distance_traveled` { #symbol-api-lua-v5-generated-event-field-phase-move-distance-traveled-24cffb42fa94 }
 
-**契约字段:**
-
-- `name`: `"distance_traveled"`
-- `type`: `"int_"`
+```lua
+---@field distance_traveled any
+distance_traveled = ... -- any
+```
 
 **来源:**
 
@@ -3232,10 +4151,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `is_bionic` { #symbol-api-lua-v5-generated-event-field-phase-move-is-bionic-dfad013961a7 }
 
-**契约字段:**
-
-- `name`: `"is_bionic"`
-- `type`: `"bool_"`
+```lua
+---@field is_bionic any
+is_bionic = ... -- any
+```
 
 **来源:**
 
@@ -3243,9 +4162,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `player_fails_conduct` { #symbol-api-lua-v5-generated-event-player-fails-conduct-ee7addec8294 }
 
-**契约字段:**
+```lua
+---@class player_fails_conduct
+local player_fails_conduct = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `conduct` | `any` | 可读写 |
+| `achievements_enabled` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3253,10 +4182,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `conduct` { #symbol-api-lua-v5-generated-event-field-player-fails-conduct-conduct-3f68e9188106 }
 
-**契约字段:**
-
-- `name`: `"conduct"`
-- `type`: `"achievement_id"`
+```lua
+---@field conduct any
+conduct = ... -- any
+```
 
 **来源:**
 
@@ -3264,10 +4193,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `achievements_enabled` { #symbol-api-lua-v5-generated-event-field-player-fails-conduct-achievements-enabled-9344d341f9da }
 
-**契约字段:**
-
-- `name`: `"achievements_enabled"`
-- `type`: `"bool_"`
+```lua
+---@field achievements_enabled any
+achievements_enabled = ... -- any
+```
 
 **来源:**
 
@@ -3275,9 +4204,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `player_gets_achievement` { #symbol-api-lua-v5-generated-event-player-gets-achievement-1907706a8704 }
 
-**契约字段:**
+```lua
+---@class player_gets_achievement
+local player_gets_achievement = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `achievement` | `any` | 可读写 |
+| `achievements_enabled` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3285,10 +4224,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `achievement` { #symbol-api-lua-v5-generated-event-field-player-gets-achievement-achievement-37451bcac027 }
 
-**契约字段:**
-
-- `name`: `"achievement"`
-- `type`: `"achievement_id"`
+```lua
+---@field achievement any
+achievement = ... -- any
+```
 
 **来源:**
 
@@ -3296,10 +4235,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `achievements_enabled` { #symbol-api-lua-v5-generated-event-field-player-gets-achievement-achievements-enabled-5627817028e3 }
 
-**契约字段:**
-
-- `name`: `"achievements_enabled"`
-- `type`: `"bool_"`
+```lua
+---@field achievements_enabled any
+achievements_enabled = ... -- any
+```
 
 **来源:**
 
@@ -3307,9 +4246,21 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `player_levels_spell` { #symbol-api-lua-v5-generated-event-player-levels-spell-0c963878287a }
 
-**契约字段:**
+```lua
+---@class player_levels_spell
+local player_levels_spell = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `spell` | `any` | 可读写 |
+| `new_level` | `any` | 可读写 |
+| `school` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3317,10 +4268,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-player-levels-spell-character-6da9a8769ac0 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -3328,10 +4279,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `spell` { #symbol-api-lua-v5-generated-event-field-player-levels-spell-spell-a2f42405bf1f }
 
-**契约字段:**
-
-- `name`: `"spell"`
-- `type`: `"spell_id"`
+```lua
+---@field spell any
+spell = ... -- any
+```
 
 **来源:**
 
@@ -3339,10 +4290,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `new_level` { #symbol-api-lua-v5-generated-event-field-player-levels-spell-new-level-579fb9148583 }
 
-**契约字段:**
-
-- `name`: `"new_level"`
-- `type`: `"int_"`
+```lua
+---@field new_level any
+new_level = ... -- any
+```
 
 **来源:**
 
@@ -3350,10 +4301,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `school` { #symbol-api-lua-v5-generated-event-field-player-levels-spell-school-e4d4a41b37fb }
 
-**契约字段:**
-
-- `name`: `"school"`
-- `type`: `"trait_id"`
+```lua
+---@field school any
+school = ... -- any
+```
 
 **来源:**
 
@@ -3361,9 +4312,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `reads_book` { #symbol-api-lua-v5-generated-event-reads-book-b988a1dfdc82 }
 
-**契约字段:**
+```lua
+---@class reads_book
+local reads_book = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `itype` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3371,10 +4332,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-reads-book-character-30e16561d51f }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -3382,10 +4343,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `itype` { #symbol-api-lua-v5-generated-event-field-reads-book-itype-50343f1223b0 }
 
-**契约字段:**
-
-- `name`: `"itype"`
-- `type`: `"itype_id"`
+```lua
+---@field itype any
+itype = ... -- any
+```
 
 **来源:**
 
@@ -3393,9 +4354,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `releases_subspace_specimens` { #symbol-api-lua-v5-generated-event-releases-subspace-specimens-1ab0b89e4fe6 }
 
-**契约字段:**
+```lua
+---@class releases_subspace_specimens
+local releases_subspace_specimens = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3403,9 +4367,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `removes_cbm` { #symbol-api-lua-v5-generated-event-removes-cbm-6d22c303040a }
 
-**契约字段:**
+```lua
+---@class removes_cbm
+local removes_cbm = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `bionic` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3413,10 +4387,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-removes-cbm-character-40a841571882 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -3424,10 +4398,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `bionic` { #symbol-api-lua-v5-generated-event-field-removes-cbm-bionic-008081e0a02c }
 
-**契约字段:**
-
-- `name`: `"bionic"`
-- `type`: `"bionic_id"`
+```lua
+---@field bionic any
+bionic = ... -- any
+```
 
 **来源:**
 
@@ -3435,9 +4409,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `seals_hazardous_material_sarcophagus` { #symbol-api-lua-v5-generated-event-seals-hazardous-material-sarcophagus-7867dd81ea71 }
 
-**契约字段:**
+```lua
+---@class seals_hazardous_material_sarcophagus
+local seals_hazardous_material_sarcophagus = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3445,9 +4422,25 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `spellcasting_finish` { #symbol-api-lua-v5-generated-event-spellcasting-finish-f9c5310693f6 }
 
-**契约字段:**
+```lua
+---@class spellcasting_finish
+local spellcasting_finish = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `success` | `any` | 可读写 |
+| `spell` | `any` | 可读写 |
+| `school` | `any` | 可读写 |
+| `difficulty` | `any` | 可读写 |
+| `cost` | `any` | 可读写 |
+| `cast_time` | `any` | 可读写 |
+| `damage` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3455,10 +4448,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-character-44e163d4f2c2 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -3466,10 +4459,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `success` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-success-34445e725ccc }
 
-**契约字段:**
-
-- `name`: `"success"`
-- `type`: `"bool_"`
+```lua
+---@field success any
+success = ... -- any
+```
 
 **来源:**
 
@@ -3477,10 +4470,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `spell` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-spell-97dfe06130f3 }
 
-**契约字段:**
-
-- `name`: `"spell"`
-- `type`: `"spell_id"`
+```lua
+---@field spell any
+spell = ... -- any
+```
 
 **来源:**
 
@@ -3488,10 +4481,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `school` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-school-7e754bbef370 }
 
-**契约字段:**
-
-- `name`: `"school"`
-- `type`: `"trait_id"`
+```lua
+---@field school any
+school = ... -- any
+```
 
 **来源:**
 
@@ -3499,10 +4492,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `difficulty` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-difficulty-0fd7176dfd5f }
 
-**契约字段:**
-
-- `name`: `"difficulty"`
-- `type`: `"int_"`
+```lua
+---@field difficulty any
+difficulty = ... -- any
+```
 
 **来源:**
 
@@ -3510,10 +4503,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `cost` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-cost-5cb941dd216b }
 
-**契约字段:**
-
-- `name`: `"cost"`
-- `type`: `"int_"`
+```lua
+---@field cost any
+cost = ... -- any
+```
 
 **来源:**
 
@@ -3521,10 +4514,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `cast_time` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-cast-time-2cacf4cdfeb0 }
 
-**契约字段:**
-
-- `name`: `"cast_time"`
-- `type`: `"int_"`
+```lua
+---@field cast_time any
+cast_time = ... -- any
+```
 
 **来源:**
 
@@ -3532,10 +4525,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `damage` { #symbol-api-lua-v5-generated-event-field-spellcasting-finish-damage-05c6c09291fb }
 
-**契约字段:**
-
-- `name`: `"damage"`
-- `type`: `"int_"`
+```lua
+---@field damage any
+damage = ... -- any
+```
 
 **来源:**
 
@@ -3543,9 +4536,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `telefrags_creature` { #symbol-api-lua-v5-generated-event-telefrags-creature-b6402d7604d8 }
 
-**契约字段:**
+```lua
+---@class telefrags_creature
+local telefrags_creature = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `victim_name` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3553,10 +4556,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-telefrags-creature-character-f2a84eda9331 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -3564,10 +4567,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `victim_name` { #symbol-api-lua-v5-generated-event-field-telefrags-creature-victim-name-e806a1f3a17f }
 
-**契约字段:**
-
-- `name`: `"victim_name"`
-- `type`: `"string"`
+```lua
+---@field victim_name any
+victim_name = ... -- any
+```
 
 **来源:**
 
@@ -3575,9 +4578,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `teleglow_teleports` { #symbol-api-lua-v5-generated-event-teleglow-teleports-8834db858823 }
 
-**契约字段:**
+```lua
+---@class teleglow_teleports
+local teleglow_teleports = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3585,10 +4597,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-teleglow-teleports-character-577446ea44c7 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -3596,9 +4608,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `teleports_into_wall` { #symbol-api-lua-v5-generated-event-teleports-into-wall-48583f3f996a }
 
-**契约字段:**
+```lua
+---@class teleports_into_wall
+local teleports_into_wall = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+| `obstacle_name` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3606,10 +4628,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-teleports-into-wall-character-c53cefd360f4 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -3617,10 +4639,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `obstacle_name` { #symbol-api-lua-v5-generated-event-field-teleports-into-wall-obstacle-name-3688bb3fb981 }
 
-**契约字段:**
-
-- `name`: `"obstacle_name"`
-- `type`: `"string"`
+```lua
+---@field obstacle_name any
+obstacle_name = ... -- any
+```
 
 **来源:**
 
@@ -3628,9 +4650,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `terminates_subspace_specimens` { #symbol-api-lua-v5-generated-event-terminates-subspace-specimens-f5f42a521fd7 }
 
-**契约字段:**
+```lua
+---@class terminates_subspace_specimens
+local terminates_subspace_specimens = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3638,9 +4663,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `throws_up` { #symbol-api-lua-v5-generated-event-throws-up-fd793f1fa60e }
 
-**契约字段:**
+```lua
+---@class throws_up
+local throws_up = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3648,10 +4682,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-throws-up-character-ca206a210f02 }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -3659,9 +4693,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `triggers_alarm` { #symbol-api-lua-v5-generated-event-triggers-alarm-af86cf6481c8 }
 
-**契约字段:**
+```lua
+---@class triggers_alarm
+local triggers_alarm = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `character` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3669,10 +4712,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `character` { #symbol-api-lua-v5-generated-event-field-triggers-alarm-character-8aec5d80867c }
 
-**契约字段:**
-
-- `name`: `"character"`
-- `type`: `"character_id"`
+```lua
+---@field character any
+character = ... -- any
+```
 
 **来源:**
 
@@ -3680,9 +4723,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `u_var_changed` { #symbol-api-lua-v5-generated-event-u-var-changed-a51347238929 }
 
-**契约字段:**
+```lua
+---@class u_var_changed
+local u_var_changed = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `var` | `any` | 可读写 |
+| `value` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3690,10 +4743,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `var` { #symbol-api-lua-v5-generated-event-field-u-var-changed-var-d1d60cd5652b }
 
-**契约字段:**
-
-- `name`: `"var"`
-- `type`: `"string"`
+```lua
+---@field var any
+var = ... -- any
+```
 
 **来源:**
 
@@ -3701,10 +4754,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `value` { #symbol-api-lua-v5-generated-event-field-u-var-changed-value-9455cf703409 }
 
-**契约字段:**
-
-- `name`: `"value"`
-- `type`: `"string"`
+```lua
+---@field value any
+value = ... -- any
+```
 
 **来源:**
 
@@ -3712,9 +4765,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `uses_debug_menu` { #symbol-api-lua-v5-generated-event-uses-debug-menu-099c9cbfd213 }
 
-**契约字段:**
+```lua
+---@class uses_debug_menu
+local uses_debug_menu = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `debug_menu_option` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3722,10 +4784,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `debug_menu_option` { #symbol-api-lua-v5-generated-event-field-uses-debug-menu-debug-menu-option-58e0ac644bb5 }
 
-**契约字段:**
-
-- `name`: `"debug_menu_option"`
-- `type`: `"debug_menu_index"`
+```lua
+---@field debug_menu_option any
+debug_menu_option = ... -- any
+```
 
 **来源:**
 
@@ -3733,9 +4795,28 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `vehicle_moves` { #symbol-api-lua-v5-generated-event-vehicle-moves-8e9973428d28 }
 
-**契约字段:**
+```lua
+---@class vehicle_moves
+local vehicle_moves = {}
+```
 
-- `capabilities`: `["events", "game.read"]`
+**字段属性 (Fields):**
+
+| 字段名 | 类型 | 特性 |
+| :--- | :--- | :--- |
+| `avatar_on_board` | `any` | 可读写 |
+| `avatar_is_driving` | `any` | 可读写 |
+| `avatar_remote_control` | `any` | 可读写 |
+| `is_flying_aircraft` | `any` | 可读写 |
+| `is_floating_watercraft` | `any` | 可读写 |
+| `is_on_rails` | `any` | 可读写 |
+| `is_falling` | `any` | 可读写 |
+| `is_sinking` | `any` | 可读写 |
+| `is_skidding` | `any` | 可读写 |
+| `velocity` | `any` | 可读写 |
+| `z` | `any` | 可读写 |
+
+🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
 
 **来源:**
 
@@ -3743,10 +4824,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `avatar_on_board` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-avatar-on-board-8771973d86e6 }
 
-**契约字段:**
-
-- `name`: `"avatar_on_board"`
-- `type`: `"bool_"`
+```lua
+---@field avatar_on_board any
+avatar_on_board = ... -- any
+```
 
 **来源:**
 
@@ -3754,10 +4835,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `avatar_is_driving` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-avatar-is-driving-080c950edef0 }
 
-**契约字段:**
-
-- `name`: `"avatar_is_driving"`
-- `type`: `"bool_"`
+```lua
+---@field avatar_is_driving any
+avatar_is_driving = ... -- any
+```
 
 **来源:**
 
@@ -3765,10 +4846,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `avatar_remote_control` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-avatar-remote-control-2edf4772cbb8 }
 
-**契约字段:**
-
-- `name`: `"avatar_remote_control"`
-- `type`: `"bool_"`
+```lua
+---@field avatar_remote_control any
+avatar_remote_control = ... -- any
+```
 
 **来源:**
 
@@ -3776,10 +4857,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `is_flying_aircraft` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-is-flying-aircraft-62ee94cf6789 }
 
-**契约字段:**
-
-- `name`: `"is_flying_aircraft"`
-- `type`: `"bool_"`
+```lua
+---@field is_flying_aircraft any
+is_flying_aircraft = ... -- any
+```
 
 **来源:**
 
@@ -3787,10 +4868,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `is_floating_watercraft` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-is-floating-watercraft-ee87c3f6c119 }
 
-**契约字段:**
-
-- `name`: `"is_floating_watercraft"`
-- `type`: `"bool_"`
+```lua
+---@field is_floating_watercraft any
+is_floating_watercraft = ... -- any
+```
 
 **来源:**
 
@@ -3798,10 +4879,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `is_on_rails` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-is-on-rails-096b06d5a8bf }
 
-**契约字段:**
-
-- `name`: `"is_on_rails"`
-- `type`: `"bool_"`
+```lua
+---@field is_on_rails any
+is_on_rails = ... -- any
+```
 
 **来源:**
 
@@ -3809,10 +4890,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `is_falling` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-is-falling-019c27176450 }
 
-**契约字段:**
-
-- `name`: `"is_falling"`
-- `type`: `"bool_"`
+```lua
+---@field is_falling any
+is_falling = ... -- any
+```
 
 **来源:**
 
@@ -3820,10 +4901,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `is_sinking` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-is-sinking-359bfd98d750 }
 
-**契约字段:**
-
-- `name`: `"is_sinking"`
-- `type`: `"bool_"`
+```lua
+---@field is_sinking any
+is_sinking = ... -- any
+```
 
 **来源:**
 
@@ -3831,10 +4912,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `is_skidding` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-is-skidding-2ba9e5a45938 }
 
-**契约字段:**
-
-- `name`: `"is_skidding"`
-- `type`: `"bool_"`
+```lua
+---@field is_skidding any
+is_skidding = ... -- any
+```
 
 **来源:**
 
@@ -3842,10 +4923,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `velocity` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-velocity-5bdae51abf27 }
 
-**契约字段:**
-
-- `name`: `"velocity"`
-- `type`: `"int_"`
+```lua
+---@field velocity any
+velocity = ... -- any
+```
 
 **来源:**
 
@@ -3853,10 +4934,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ### `z` { #symbol-api-lua-v5-generated-event-field-vehicle-moves-z-b3e0677e31db }
 
-**契约字段:**
-
-- `name`: `"z"`
-- `type`: `"int_"`
+```lua
+---@field z any
+z = ... -- any
+```
 
 **来源:**
 

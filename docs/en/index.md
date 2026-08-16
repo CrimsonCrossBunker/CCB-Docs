@@ -34,7 +34,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: d8a9ca0fabfab96a6fe77b122cd552e7584cd6a3096cdae173a99dcdbda07399
+translation_source_fingerprint: 065b04168dbb4fd6e3ff34aa2498611e85123e94f36693b630a4b8393fa9e89f
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -83,6 +83,11 @@ CCB provides **CCB Lua 0.1**, a modern pure-Lua content and scripting engine fre
 - [Portable Lua UI](api/lua/v5/ui.md): Build responsive pages tailored for PC keyboard and Android touch HUD.
 - [Permissions & Capabilities](api/lua/v5/capabilities.md): Understand the capability declaration and sandbox model.
 
+#### 🍳 Pure-Lua Creation Cookbooks
+- [Pure-Lua Items and Pockets Cookbook](api/lua/v5/cookbook/items.md): Define weapons, armor, and nested multi-pocket container models.
+- [Pure-Lua Monsters and AI Cookbook](api/lua/v5/cookbook/monsters.md): Create custom species, AI tactical trees, and dynamic special attacks.
+- [Pure-Lua Mapgen & Structures Cookbook](api/lua/v5/cookbook/mapgen.md): Procedurally generate shelters, outposts, and ASCII matrix blueprints.
+
 #### 📚 API Reference Direct Links
 | Category | Quick Entry | Description |
 | --- | --- | --- |
@@ -94,12 +99,13 @@ CCB provides **CCB Lua 0.1**, a modern pure-Lua content and scripting engine fre
 | 🎭 **Callback Actors** | [View Callbacks](api/lua/v5/reference/callbacks.md) | Player actions, IUSE callbacks, and activity execution targets. |
 | 🏷️ **Enums & Constants** | [View Enums](api/lua/v5/reference/enums.md) | Damage types, body parts, weather types, terrain flags, etc. |
 
-### 🛠️ 2. Core & Engine Developer Track (C++ Engine & Build)
+### 🛠️ 2. Core & Engine Developer Track (C++ Engine & Architecture)
 For contributors building core systems, game mechanics, and native bindings:
-- [Project Map & Architecture](architecture/project-map.md): Navigate C++ subsystems, source boundaries, and test routing.
+- [Core Engine Lifecycle & Main Loop Deep-Dive](architecture/core-engine-lifecycle.md): Complete control flow from bootstrap, content loading to `process_turn` loop.
+- [Engine Subsystems Deep Dive](architecture/subsystems-deep-dive.md): Entities, sliding map cache, item pocket trees, finite water, and physics.
+- [Core Development & Contribution Guide](contributing/core-dev-guide.md): Linux/Windows/Android setup, C++20 standards, Catch2 tests, and PR practices.
+- [C++ Native Binding & Lua Export Guide](cpp/native-binding-guide.md): Sol2 bindings, LuaLS annotations, and 100% coverage gates.
 - [Build Overview](build/overview.md): Learn CMake and Make modern build workflows and multi-platform support.
-- [Validation & Testing](validation/quickstart.md): Run Catch2 unit test suites and fast validator tools.
-- [Native Lua Bridge & Bindings](cpp/lua-bridge.md): Understand the bridge between the C++ engine and Lua 0.1 runtime.
 
 ### 🏛️ 3. Project Governance & Policies
 - [First Contribution](getting-started/first-contribution.md): The fastest path from local environment to your first Pull Request.

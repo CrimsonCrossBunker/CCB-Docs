@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 51a10f98fb3eb767b250f2df3d84e4427cadbc105d549fd9994fbb03904cfc73
+translation_source_fingerprint: 2e01bc6900b3485997d53b65db28ef6ef5ddd75bb119ba3f4ee669b90dafef60
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,17 +68,14 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Properties
 
-This page is generated from the Lua v5 public contract at pinned commit `d32b9cc880a85480840d82cfa05d256c78a16615` and contains 51 `properties` records. Do not edit it by hand.
+This page is the automatically generated reference manual for CCB Lua 0.1, containing 51 `properties` contract records.
 
 ## `GameEnum.kind` { #symbol-api-lua-v5-generated-property-gameenum-kind-2898909880c9 }
 
-**Contract fields:**
-
-- `name`: `"kind"`
-- `optional`: `false`
-- `declaration`: `"string"`
-- `class`: `"GameEnum"`
-- `read_only`: `true`
+```lua
+---@field kind string (readonly)
+GameEnum.kind = ... -- string
+```
 
 **Sources:**
 
@@ -87,13 +84,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `GameEnum.name` { #symbol-api-lua-v5-generated-property-gameenum-name-502c12af0c25 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
-- `class`: `"GameEnum"`
-- `read_only`: `true`
+```lua
+---@field name string (readonly)
+GameEnum.name = ... -- string
+```
 
 **Sources:**
 
@@ -102,13 +96,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `GameEnum.ordinal` { #symbol-api-lua-v5-generated-property-gameenum-ordinal-876abf1c5b4e }
 
-**Contract fields:**
-
-- `name`: `"ordinal"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"GameEnum"`
-- `read_only`: `true`
+```lua
+---@field ordinal integer (readonly)
+GameEnum.ordinal = ... -- integer
+```
 
 **Sources:**
 
@@ -117,13 +108,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `GameHandle.kind` { #symbol-api-lua-v5-generated-property-gamehandle-kind-9ee39b9273ea }
 
-**Contract fields:**
-
-- `name`: `"kind"`
-- `optional`: `false`
-- `declaration`: `"'\"creature\"'|'\"item\"'|'\"vehicle\"'"`
-- `class`: `"GameHandle"`
-- `read_only`: `true`
+```lua
+---@field kind '"creature"'|'"item"'|'"vehicle"' (readonly)
+GameHandle.kind = ... -- '"creature"'|'"item"'|'"vehicle"'
+```
 
 **Sources:**
 
@@ -132,13 +120,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `GameId.kind` { #symbol-api-lua-v5-generated-property-gameid-kind-e58a40b981a5 }
 
-**Contract fields:**
-
-- `name`: `"kind"`
-- `optional`: `false`
-- `declaration`: `"string"`
-- `class`: `"GameId"`
-- `read_only`: `true`
+```lua
+---@field kind string (readonly)
+GameId.kind = ... -- string
+```
 
 **Sources:**
 
@@ -147,13 +132,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `GameId.value` { #symbol-api-lua-v5-generated-property-gameid-value-2dac8b48de9a }
 
-**Contract fields:**
-
-- `name`: `"value"`
-- `optional`: `false`
-- `declaration`: `"string"`
-- `class`: `"GameId"`
-- `read_only`: `true`
+```lua
+---@field value string (readonly)
+GameId.value = ... -- string
+```
 
 **Sources:**
 
@@ -162,13 +144,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `HordeEntityToken.monster` { #symbol-api-lua-v5-generated-property-hordeentitytoken-monster-321a38d44617 }
 
-**Contract fields:**
-
-- `name`: `"monster"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
-- `class`: `"HordeEntityToken"`
-- `read_only`: `true`
+```lua
+---@field monster GameId (readonly)
+HordeEntityToken.monster = ... -- GameId
+```
 
 **Sources:**
 
@@ -177,13 +156,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `HordeEntityToken.position` { #symbol-api-lua-v5-generated-property-hordeentitytoken-position-8ba8b74b866c }
 
-**Contract fields:**
-
-- `name`: `"position"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
-- `class`: `"HordeEntityToken"`
-- `read_only`: `true`
+```lua
+---@field position TripointCoord (readonly)
+HordeEntityToken.position = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -192,13 +168,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `HordeEntityToken.runtime_generation` { #symbol-api-lua-v5-generated-property-hordeentitytoken-runtime-generation-3ce7c83c1268 }
 
-**Contract fields:**
-
-- `name`: `"runtime_generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"HordeEntityToken"`
-- `read_only`: `true`
+```lua
+---@field runtime_generation integer (readonly)
+HordeEntityToken.runtime_generation = ... -- integer
+```
 
 **Sources:**
 
@@ -207,13 +180,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `HordeEntityToken.world_generation` { #symbol-api-lua-v5-generated-property-hordeentitytoken-world-generation-1f0823837bc7 }
 
-**Contract fields:**
-
-- `name`: `"world_generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"HordeEntityToken"`
-- `read_only`: `true`
+```lua
+---@field world_generation integer (readonly)
+HordeEntityToken.world_generation = ... -- integer
+```
 
 **Sources:**
 
@@ -222,13 +192,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `LegacyHordeToken.group` { #symbol-api-lua-v5-generated-property-legacyhordetoken-group-fa8ed99c1d25 }
 
-**Contract fields:**
-
-- `name`: `"group"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
-- `class`: `"LegacyHordeToken"`
-- `read_only`: `true`
+```lua
+---@field group GameId (readonly)
+LegacyHordeToken.group = ... -- GameId
+```
 
 **Sources:**
 
@@ -237,13 +204,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `LegacyHordeToken.position` { #symbol-api-lua-v5-generated-property-legacyhordetoken-position-3c16048af0ae }
 
-**Contract fields:**
-
-- `name`: `"position"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
-- `class`: `"LegacyHordeToken"`
-- `read_only`: `true`
+```lua
+---@field position TripointCoord (readonly)
+LegacyHordeToken.position = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -252,13 +216,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `LegacyHordeToken.runtime_generation` { #symbol-api-lua-v5-generated-property-legacyhordetoken-runtime-generation-4dbf7d61646b }
 
-**Contract fields:**
-
-- `name`: `"runtime_generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"LegacyHordeToken"`
-- `read_only`: `true`
+```lua
+---@field runtime_generation integer (readonly)
+LegacyHordeToken.runtime_generation = ... -- integer
+```
 
 **Sources:**
 
@@ -267,13 +228,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `LegacyHordeToken.world_generation` { #symbol-api-lua-v5-generated-property-legacyhordetoken-world-generation-c6b375cd0fe9 }
 
-**Contract fields:**
-
-- `name`: `"world_generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"LegacyHordeToken"`
-- `read_only`: `true`
+```lua
+---@field world_generation integer (readonly)
+LegacyHordeToken.world_generation = ... -- integer
+```
 
 **Sources:**
 
@@ -282,13 +240,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `MissionToken.runtime_generation` { #symbol-api-lua-v5-generated-property-missiontoken-runtime-generation-6b5502a4ce11 }
 
-**Contract fields:**
-
-- `name`: `"runtime_generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"MissionToken"`
-- `read_only`: `true`
+```lua
+---@field runtime_generation integer (readonly)
+MissionToken.runtime_generation = ... -- integer
+```
 
 **Sources:**
 
@@ -297,13 +252,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `MissionToken.uid` { #symbol-api-lua-v5-generated-property-missiontoken-uid-d4c4c0f03517 }
 
-**Contract fields:**
-
-- `name`: `"uid"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"MissionToken"`
-- `read_only`: `true`
+```lua
+---@field uid integer (readonly)
+MissionToken.uid = ... -- integer
+```
 
 **Sources:**
 
@@ -312,13 +264,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `MissionToken.world_generation` { #symbol-api-lua-v5-generated-property-missiontoken-world-generation-b196924cae81 }
 
-**Contract fields:**
-
-- `name`: `"world_generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"MissionToken"`
-- `read_only`: `true`
+```lua
+---@field world_generation integer (readonly)
+MissionToken.world_generation = ... -- integer
+```
 
 **Sources:**
 
@@ -327,13 +276,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `PointCoord.origin` { #symbol-api-lua-v5-generated-property-pointcoord-origin-8a9cee8df020 }
 
-**Contract fields:**
-
-- `name`: `"origin"`
-- `optional`: `false`
-- `declaration`: `"CcbCoordinateOrigin"`
-- `class`: `"PointCoord"`
-- `read_only`: `true`
+```lua
+---@field origin CcbCoordinateOrigin (readonly)
+PointCoord.origin = ... -- CcbCoordinateOrigin
+```
 
 **Sources:**
 
@@ -342,13 +288,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `PointCoord.scale` { #symbol-api-lua-v5-generated-property-pointcoord-scale-f4c7aeaf968a }
 
-**Contract fields:**
-
-- `name`: `"scale"`
-- `optional`: `false`
-- `declaration`: `"CcbCoordinateScale"`
-- `class`: `"PointCoord"`
-- `read_only`: `true`
+```lua
+---@field scale CcbCoordinateScale (readonly)
+PointCoord.scale = ... -- CcbCoordinateScale
+```
 
 **Sources:**
 
@@ -357,13 +300,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `PointCoord.type` { #symbol-api-lua-v5-generated-property-pointcoord-type-2d104ab19607 }
 
-**Contract fields:**
-
-- `name`: `"type"`
-- `optional`: `false`
-- `declaration`: `"string"`
-- `class`: `"PointCoord"`
-- `read_only`: `true`
+```lua
+---@field type string (readonly)
+PointCoord.type = ... -- string
+```
 
 **Sources:**
 
@@ -372,13 +312,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `PointCoord.x` { #symbol-api-lua-v5-generated-property-pointcoord-x-6fdfbc13f4aa }
 
-**Contract fields:**
-
-- `name`: `"x"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"PointCoord"`
-- `read_only`: `true`
+```lua
+---@field x integer (readonly)
+PointCoord.x = ... -- integer
+```
 
 **Sources:**
 
@@ -387,13 +324,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `PointCoord.y` { #symbol-api-lua-v5-generated-property-pointcoord-y-9e5596aab765 }
 
-**Contract fields:**
-
-- `name`: `"y"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"PointCoord"`
-- `read_only`: `true`
+```lua
+---@field y integer (readonly)
+PointCoord.y = ... -- integer
+```
 
 **Sources:**
 
@@ -402,13 +336,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiEnvironment.breakpoint` { #symbol-api-lua-v5-generated-property-scriptuienvironment-breakpoint-f82c4fece477 }
 
-**Contract fields:**
-
-- `name`: `"breakpoint"`
-- `optional`: `false`
-- `declaration`: `"'\"narrow\"'|'\"regular\"'|'\"wide\"'"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field breakpoint '"narrow"'|'"regular"'|'"wide"'
+ScriptUiEnvironment.breakpoint = ... -- '"narrow"'|'"regular"'|'"wide"'
+```
 
 **Sources:**
 
@@ -417,13 +348,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiEnvironment.density` { #symbol-api-lua-v5-generated-property-scriptuienvironment-density-cc4767d34d41 }
 
-**Contract fields:**
-
-- `name`: `"density"`
-- `optional`: `false`
-- `declaration`: `"'\"touch\"'|'\"comfortable\"'|'\"compact\"'"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field density '"touch"'|'"comfortable"'|'"compact"'
+ScriptUiEnvironment.density = ... -- '"touch"'|'"comfortable"'|'"compact"'
+```
 
 **Sources:**
 
@@ -432,13 +360,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiEnvironment.hover` { #symbol-api-lua-v5-generated-property-scriptuienvironment-hover-7f174da0cbce }
 
-**Contract fields:**
-
-- `name`: `"hover"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field hover boolean
+ScriptUiEnvironment.hover = ... -- boolean
+```
 
 **Sources:**
 
@@ -447,13 +372,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiEnvironment.input` { #symbol-api-lua-v5-generated-property-scriptuienvironment-input-507d128db0cd }
 
-**Contract fields:**
-
-- `name`: `"input"`
-- `optional`: `false`
-- `declaration`: `"'\"touch\"'|'\"mouse_keyboard\"'|'\"terminal\"'"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field input '"touch"'|'"mouse_keyboard"'|'"terminal"'
+ScriptUiEnvironment.input = ... -- '"touch"'|'"mouse_keyboard"'|'"terminal"'
+```
 
 **Sources:**
 
@@ -462,13 +384,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiEnvironment.keyboard_navigation` { #symbol-api-lua-v5-generated-property-scriptuienvironment-keyboard-navigation-9378ce95a9ff }
 
-**Contract fields:**
-
-- `name`: `"keyboard_navigation"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field keyboard_navigation boolean
+ScriptUiEnvironment.keyboard_navigation = ... -- boolean
+```
 
 **Sources:**
 
@@ -477,13 +396,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiEnvironment.long_press_dangerous` { #symbol-api-lua-v5-generated-property-scriptuienvironment-long-press-dangerous-bd8675b1decf }
 
-**Contract fields:**
-
-- `name`: `"long_press_dangerous"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field long_press_dangerous boolean
+ScriptUiEnvironment.long_press_dangerous = ... -- boolean
+```
 
 **Sources:**
 
@@ -492,13 +408,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiEnvironment.minimum_target` { #symbol-api-lua-v5-generated-property-scriptuienvironment-minimum-target-5ec4ad380501 }
 
-**Contract fields:**
-
-- `name`: `"minimum_target"`
-- `optional`: `false`
-- `declaration`: `"number"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field minimum_target number
+ScriptUiEnvironment.minimum_target = ... -- number
+```
 
 **Sources:**
 
@@ -507,13 +420,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiEnvironment.native_text_input` { #symbol-api-lua-v5-generated-property-scriptuienvironment-native-text-input-c71a60c60d11 }
 
-**Contract fields:**
-
-- `name`: `"native_text_input"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field native_text_input boolean
+ScriptUiEnvironment.native_text_input = ... -- boolean
+```
 
 **Sources:**
 
@@ -522,13 +432,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiEnvironment.pointer_activation` { #symbol-api-lua-v5-generated-property-scriptuienvironment-pointer-activation-6f3d28aa1acf }
 
-**Contract fields:**
-
-- `name`: `"pointer_activation"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field pointer_activation boolean
+ScriptUiEnvironment.pointer_activation = ... -- boolean
+```
 
 **Sources:**
 
@@ -537,13 +444,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiEnvironment.profile` { #symbol-api-lua-v5-generated-property-scriptuienvironment-profile-f56911006ef2 }
 
-**Contract fields:**
-
-- `name`: `"profile"`
-- `optional`: `false`
-- `declaration`: `"string"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field profile string
+ScriptUiEnvironment.profile = ... -- string
+```
 
 **Sources:**
 
@@ -552,13 +456,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiEnvironment.swipe_scroll` { #symbol-api-lua-v5-generated-property-scriptuienvironment-swipe-scroll-c311b7e13801 }
 
-**Contract fields:**
-
-- `name`: `"swipe_scroll"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field swipe_scroll boolean
+ScriptUiEnvironment.swipe_scroll = ... -- boolean
+```
 
 **Sources:**
 
@@ -567,13 +468,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiEnvironment.tap_activation` { #symbol-api-lua-v5-generated-property-scriptuienvironment-tap-activation-2c770d835fca }
 
-**Contract fields:**
-
-- `name`: `"tap_activation"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field tap_activation boolean
+ScriptUiEnvironment.tap_activation = ... -- boolean
+```
 
 **Sources:**
 
@@ -582,13 +480,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ScriptUiEnvironment.touch` { #symbol-api-lua-v5-generated-property-scriptuienvironment-touch-62e43c5a4c7b }
 
-**Contract fields:**
-
-- `name`: `"touch"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field touch boolean
+ScriptUiEnvironment.touch = ... -- boolean
+```
 
 **Sources:**
 
@@ -597,13 +492,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TimeDuration.turns` { #symbol-api-lua-v5-generated-property-timeduration-turns-9015108bdcce }
 
-**Contract fields:**
-
-- `name`: `"turns"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"TimeDuration"`
-- `read_only`: `true`
+```lua
+---@field turns integer (readonly)
+TimeDuration.turns = ... -- integer
+```
 
 **Sources:**
 
@@ -612,13 +504,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TimePoint.turn` { #symbol-api-lua-v5-generated-property-timepoint-turn-3e090291264d }
 
-**Contract fields:**
-
-- `name`: `"turn"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"TimePoint"`
-- `read_only`: `true`
+```lua
+---@field turn integer (readonly)
+TimePoint.turn = ... -- integer
+```
 
 **Sources:**
 
@@ -627,13 +516,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TripointCoord.origin` { #symbol-api-lua-v5-generated-property-tripointcoord-origin-612d720f92ec }
 
-**Contract fields:**
-
-- `name`: `"origin"`
-- `optional`: `false`
-- `declaration`: `"CcbCoordinateOrigin"`
-- `class`: `"TripointCoord"`
-- `read_only`: `true`
+```lua
+---@field origin CcbCoordinateOrigin (readonly)
+TripointCoord.origin = ... -- CcbCoordinateOrigin
+```
 
 **Sources:**
 
@@ -642,13 +528,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TripointCoord.scale` { #symbol-api-lua-v5-generated-property-tripointcoord-scale-965c7d6b7dde }
 
-**Contract fields:**
-
-- `name`: `"scale"`
-- `optional`: `false`
-- `declaration`: `"CcbCoordinateScale"`
-- `class`: `"TripointCoord"`
-- `read_only`: `true`
+```lua
+---@field scale CcbCoordinateScale (readonly)
+TripointCoord.scale = ... -- CcbCoordinateScale
+```
 
 **Sources:**
 
@@ -657,13 +540,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TripointCoord.type` { #symbol-api-lua-v5-generated-property-tripointcoord-type-b37ad1a9bb47 }
 
-**Contract fields:**
-
-- `name`: `"type"`
-- `optional`: `false`
-- `declaration`: `"string"`
-- `class`: `"TripointCoord"`
-- `read_only`: `true`
+```lua
+---@field type string (readonly)
+TripointCoord.type = ... -- string
+```
 
 **Sources:**
 
@@ -672,13 +552,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TripointCoord.x` { #symbol-api-lua-v5-generated-property-tripointcoord-x-3c09b813544a }
 
-**Contract fields:**
-
-- `name`: `"x"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"TripointCoord"`
-- `read_only`: `true`
+```lua
+---@field x integer (readonly)
+TripointCoord.x = ... -- integer
+```
 
 **Sources:**
 
@@ -687,13 +564,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TripointCoord.y` { #symbol-api-lua-v5-generated-property-tripointcoord-y-341e534c39f9 }
 
-**Contract fields:**
-
-- `name`: `"y"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"TripointCoord"`
-- `read_only`: `true`
+```lua
+---@field y integer (readonly)
+TripointCoord.y = ... -- integer
+```
 
 **Sources:**
 
@@ -702,13 +576,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `TripointCoord.z` { #symbol-api-lua-v5-generated-property-tripointcoord-z-b4309ee729d9 }
 
-**Contract fields:**
-
-- `name`: `"z"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"TripointCoord"`
-- `read_only`: `true`
+```lua
+---@field z integer (readonly)
+TripointCoord.z = ... -- integer
+```
 
 **Sources:**
 
@@ -717,13 +588,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `UnitValue.canonical_unit` { #symbol-api-lua-v5-generated-property-unitvalue-canonical-unit-e573d8c6a85d }
 
-**Contract fields:**
-
-- `name`: `"canonical_unit"`
-- `optional`: `false`
-- `declaration`: `"string"`
-- `class`: `"UnitValue"`
-- `read_only`: `true`
+```lua
+---@field canonical_unit string (readonly)
+UnitValue.canonical_unit = ... -- string
+```
 
 **Sources:**
 
@@ -732,13 +600,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `UnitValue.kind` { #symbol-api-lua-v5-generated-property-unitvalue-kind-ae3630d3bebe }
 
-**Contract fields:**
-
-- `name`: `"kind"`
-- `optional`: `false`
-- `declaration`: `"string"`
-- `class`: `"UnitValue"`
-- `read_only`: `true`
+```lua
+---@field kind string (readonly)
+UnitValue.kind = ... -- string
+```
 
 **Sources:**
 
@@ -747,13 +612,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ZoneToken.end` { #symbol-api-lua-v5-generated-property-zonetoken-end-fffec26775ce }
 
-**Contract fields:**
-
-- `name`: `"end"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
-- `class`: `"ZoneToken"`
-- `read_only`: `true`
+```lua
+---@field end TripointCoord (readonly)
+ZoneToken.end = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -762,13 +624,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ZoneToken.faction` { #symbol-api-lua-v5-generated-property-zonetoken-faction-5a8b72667bcd }
 
-**Contract fields:**
-
-- `name`: `"faction"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
-- `class`: `"ZoneToken"`
-- `read_only`: `true`
+```lua
+---@field faction GameId (readonly)
+ZoneToken.faction = ... -- GameId
+```
 
 **Sources:**
 
@@ -777,13 +636,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ZoneToken.name` { #symbol-api-lua-v5-generated-property-zonetoken-name-f740b8053413 }
 
-**Contract fields:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
-- `class`: `"ZoneToken"`
-- `read_only`: `true`
+```lua
+---@field name string (readonly)
+ZoneToken.name = ... -- string
+```
 
 **Sources:**
 
@@ -792,13 +648,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ZoneToken.personal` { #symbol-api-lua-v5-generated-property-zonetoken-personal-a11670439b75 }
 
-**Contract fields:**
-
-- `name`: `"personal"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
-- `class`: `"ZoneToken"`
-- `read_only`: `true`
+```lua
+---@field personal boolean (readonly)
+ZoneToken.personal = ... -- boolean
+```
 
 **Sources:**
 
@@ -807,13 +660,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ZoneToken.start` { #symbol-api-lua-v5-generated-property-zonetoken-start-920d1df8907f }
 
-**Contract fields:**
-
-- `name`: `"start"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
-- `class`: `"ZoneToken"`
-- `read_only`: `true`
+```lua
+---@field start TripointCoord (readonly)
+ZoneToken.start = ... -- TripointCoord
+```
 
 **Sources:**
 
@@ -822,13 +672,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ZoneToken.type` { #symbol-api-lua-v5-generated-property-zonetoken-type-1cc7821bf333 }
 
-**Contract fields:**
-
-- `name`: `"type"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
-- `class`: `"ZoneToken"`
-- `read_only`: `true`
+```lua
+---@field type GameId (readonly)
+ZoneToken.type = ... -- GameId
+```
 
 **Sources:**
 

@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: a9a55ea405ad9a5272355754a75e4e56adc7a64eb0e06738ddc7dec49b14ee1a
+translation_source_fingerprint: 53bb24a1c7d9d3c816e1d8f66039cfc8c9aa1e40a773ec4a2e7f4ebb967f0032
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,18 +68,13 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # 枚举族参考
 
-本页由固定提交 `d32b9cc880a85480840d82cfa05d256c78a16615` 的 Lua v5 公开契约生成，收录 26 条 `enums` 记录。不要手工修改本页。
+本页为 CCB Lua 0.1 平台自动生成的 `枚举族参考` 规范手册，收录 26 条 `enums` 契约记录。
 
 ## `ActionId` { #symbol-api-lua-v5-generated-enum-actionid-3fb0709b98c6 }
 
-**契约字段:**
-
-- `status`: `"native"`
-- `replacement`: `null`
-- `reason`: `null`
-- `members`: `[]`
-- `member_source`: `"runtime"`
-- `factory`: `"action_values"`
+```lua
+---@enum ActionId
+```
 
 **来源:**
 
@@ -87,14 +82,9 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `AddictionType` { #symbol-api-lua-v5-generated-enum-addictiontype-d1df21fe92d4 }
 
-**契约字段:**
-
-- `status`: `"dynamic_id"`
-- `replacement`: `"GameId<addiction>"`
-- `reason`: `"CCB addiction types are JSON-defined string IDs."`
-- `members`: `[]`
-- `member_source`: `"runtime"`
-- `factory`: `"addiction_values"`
+```lua
+---@enum AddictionType
+```
 
 **来源:**
 
@@ -102,14 +92,9 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ArtifactCharge` { #symbol-api-lua-v5-generated-enum-artifactcharge-1e906b0ee3aa }
 
-**契约字段:**
-
-- `status`: `"not_applicable"`
-- `replacement`: `null`
-- `reason`: `"CCB removed the legacy artifact charge enum."`
-- `members`: `[]`
-- `member_source`: `"not-applicable"`
-- `factory`: `"no_values"`
+```lua
+---@enum ArtifactCharge
+```
 
 **来源:**
 
@@ -117,14 +102,9 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ArtifactChargeReq` { #symbol-api-lua-v5-generated-enum-artifactchargereq-0cbe3738235c }
 
-**契约字段:**
-
-- `status`: `"not_applicable"`
-- `replacement`: `null`
-- `reason`: `"CCB removed the legacy artifact charge requirement enum."`
-- `members`: `[]`
-- `member_source`: `"not-applicable"`
-- `factory`: `"no_values"`
+```lua
+---@enum ArtifactChargeReq
+```
 
 **来源:**
 
@@ -132,14 +112,52 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ArtifactEffectActive` { #symbol-api-lua-v5-generated-enum-artifacteffectactive-5f6482871f0f }
 
-**契约字段:**
+```lua
+---@enum ArtifactEffectActive
+```
 
-- `status`: `"native"`
-- `replacement`: `null`
-- `reason`: `null`
-- `members`: `["null", "str_up", "dex_up", "per_up", "int_up", "all_up", "speed_up", "pblue", "snakes", "invisible", "clairvoyance", "super_clairvoyance", "stealth", "extinguish", "glow", "psyshield", "resist_electricity", "carry_more", "sap_life", "fun", "split", "hunger", "thirst", "smoke", "evil", "schizo", "radioactive", "mutagenic", "attention", "str_down", "dex_down", "per_down", "int_down", "all_down", "speed_down", "force_teleport", "movement_noise", "bad_weather", "sick", "clairvoyance_plus"]`
-- `member_source`: `"fixed-native-list"`
-- `factory`: `"artifact_passive_values"`
+**枚举值列表 (Values):**
+
+- `null`
+- `str_up`
+- `dex_up`
+- `per_up`
+- `int_up`
+- `all_up`
+- `speed_up`
+- `pblue`
+- `snakes`
+- `invisible`
+- `clairvoyance`
+- `super_clairvoyance`
+- `stealth`
+- `extinguish`
+- `glow`
+- `psyshield`
+- `resist_electricity`
+- `carry_more`
+- `sap_life`
+- `fun`
+- `split`
+- `hunger`
+- `thirst`
+- `smoke`
+- `evil`
+- `schizo`
+- `radioactive`
+- `mutagenic`
+- `attention`
+- `str_down`
+- `dex_down`
+- `per_down`
+- `int_down`
+- `all_down`
+- `speed_down`
+- `force_teleport`
+- `movement_noise`
+- `bad_weather`
+- `sick`
+- `clairvoyance_plus`
 
 **来源:**
 
@@ -147,14 +165,9 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ArtifactEffectPassive` { #symbol-api-lua-v5-generated-enum-artifacteffectpassive-89fb42600658 }
 
-**契约字段:**
-
-- `status`: `"not_applicable"`
-- `replacement`: `null`
-- `reason`: `"CCB no longer models active artifact effects with this legacy enum."`
-- `members`: `[]`
-- `member_source`: `"not-applicable"`
-- `factory`: `"no_values"`
+```lua
+---@enum ArtifactEffectPassive
+```
 
 **来源:**
 
@@ -162,14 +175,16 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `Attitude` { #symbol-api-lua-v5-generated-enum-attitude-3f9bda378d0a }
 
-**契约字段:**
+```lua
+---@enum Attitude
+```
 
-- `status`: `"native"`
-- `replacement`: `null`
-- `reason`: `null`
-- `members`: `["hostile", "neutral", "friendly", "any"]`
-- `member_source`: `"fixed-native-list"`
-- `factory`: `"attitude_values"`
+**枚举值列表 (Values):**
+
+- `hostile`
+- `neutral`
+- `friendly`
+- `any`
 
 **来源:**
 
@@ -177,14 +192,24 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `BodyPart` { #symbol-api-lua-v5-generated-enum-bodypart-70255c17e73e }
 
-**契约字段:**
+```lua
+---@enum BodyPart
+```
 
-- `status`: `"native"`
-- `replacement`: `null`
-- `reason`: `null`
-- `members`: `["torso", "head", "eyes", "mouth", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r"]`
-- `member_source`: `"fixed-native-list"`
-- `factory`: `"body_part_values"`
+**枚举值列表 (Values):**
+
+- `torso`
+- `head`
+- `eyes`
+- `mouth`
+- `arm_l`
+- `arm_r`
+- `hand_l`
+- `hand_r`
+- `leg_l`
+- `leg_r`
+- `foot_l`
+- `foot_r`
 
 **来源:**
 
@@ -192,14 +217,9 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `CharacterMoveMode` { #symbol-api-lua-v5-generated-enum-charactermovemode-d70589a29433 }
 
-**契约字段:**
-
-- `status`: `"dynamic_id"`
-- `replacement`: `"GameId<move_mode>"`
-- `reason`: `"CCB movement modes are JSON-defined string IDs."`
-- `members`: `[]`
-- `member_source`: `"runtime"`
-- `factory`: `"move_mode_values"`
+```lua
+---@enum CharacterMoveMode
+```
 
 **来源:**
 
@@ -207,14 +227,9 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `DamageType` { #symbol-api-lua-v5-generated-enum-damagetype-032bdce6019a }
 
-**契约字段:**
-
-- `status`: `"dynamic_id"`
-- `replacement`: `"GameId<damage_type>"`
-- `reason`: `"CCB damage types are JSON-defined string IDs."`
-- `members`: `[]`
-- `member_source`: `"runtime"`
-- `factory`: `"damage_type_values"`
+```lua
+---@enum DamageType
+```
 
 **来源:**
 
@@ -222,14 +237,9 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `Direction` { #symbol-api-lua-v5-generated-enum-direction-236fc31102b9 }
 
-**契约字段:**
-
-- `status`: `"native"`
-- `replacement`: `null`
-- `reason`: `null`
-- `members`: `[]`
-- `member_source`: `"runtime"`
-- `factory`: `"direction_values"`
+```lua
+---@enum Direction
+```
 
 **来源:**
 
@@ -237,14 +247,9 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `MissionGoal` { #symbol-api-lua-v5-generated-enum-missiongoal-fddc4f9c2aee }
 
-**契约字段:**
-
-- `status`: `"native"`
-- `replacement`: `null`
-- `reason`: `null`
-- `members`: `[]`
-- `member_source`: `"runtime"`
-- `factory`: `"mission_goal_values"`
+```lua
+---@enum MissionGoal
+```
 
 **来源:**
 
@@ -252,14 +257,9 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `MissionOrigin` { #symbol-api-lua-v5-generated-enum-missionorigin-d037edd96d6e }
 
-**契约字段:**
-
-- `status`: `"native"`
-- `replacement`: `null`
-- `reason`: `null`
-- `members`: `[]`
-- `member_source`: `"runtime"`
-- `factory`: `"mission_origin_values"`
+```lua
+---@enum MissionOrigin
+```
 
 **来源:**
 
@@ -267,14 +267,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `MonsterAttitude` { #symbol-api-lua-v5-generated-enum-monsterattitude-3c4ab58c8dee }
 
-**契约字段:**
+```lua
+---@enum MonsterAttitude
+```
 
-- `status`: `"native"`
-- `replacement`: `null`
-- `reason`: `null`
-- `members`: `["null", "friend", "friendly_passive", "flee", "ignore", "follow", "attack"]`
-- `member_source`: `"fixed-native-list"`
-- `factory`: `"monster_attitude_values"`
+**枚举值列表 (Values):**
+
+- `null`
+- `friend`
+- `friendly_passive`
+- `flee`
+- `ignore`
+- `follow`
+- `attack`
 
 **来源:**
 
@@ -282,14 +287,16 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `MonsterFactionAttitude` { #symbol-api-lua-v5-generated-enum-monsterfactionattitude-25970d012e90 }
 
-**契约字段:**
+```lua
+---@enum MonsterFactionAttitude
+```
 
-- `status`: `"native"`
-- `replacement`: `null`
-- `reason`: `null`
-- `members`: `["by_mood", "neutral", "friendly", "hate"]`
-- `member_source`: `"fixed-native-list"`
-- `factory`: `"monster_faction_attitude_values"`
+**枚举值列表 (Values):**
+
+- `by_mood`
+- `neutral`
+- `friendly`
+- `hate`
 
 **来源:**
 
@@ -297,14 +304,9 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `MonsterFlag` { #symbol-api-lua-v5-generated-enum-monsterflag-035d9051fb37 }
 
-**契约字段:**
-
-- `status`: `"dynamic_id"`
-- `replacement`: `"GameId<monster_flag>"`
-- `reason`: `"CCB monster flags are JSON-defined string IDs."`
-- `members`: `[]`
-- `member_source`: `"runtime"`
-- `factory`: `"monster_flag_values"`
+```lua
+---@enum MonsterFlag
+```
 
 **来源:**
 
@@ -312,14 +314,17 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `MonsterSize` { #symbol-api-lua-v5-generated-enum-monstersize-53d224eca3be }
 
-**契约字段:**
+```lua
+---@enum MonsterSize
+```
 
-- `status`: `"native"`
-- `replacement`: `null`
-- `reason`: `null`
-- `members`: `["tiny", "small", "medium", "large", "huge"]`
-- `member_source`: `"fixed-native-list"`
-- `factory`: `"monster_size_values"`
+**枚举值列表 (Values):**
+
+- `tiny`
+- `small`
+- `medium`
+- `large`
+- `huge`
 
 **来源:**
 
@@ -327,14 +332,9 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `MoonPhase` { #symbol-api-lua-v5-generated-enum-moonphase-386ff0ce95c6 }
 
-**契约字段:**
-
-- `status`: `"native"`
-- `replacement`: `null`
-- `reason`: `null`
-- `members`: `[]`
-- `member_source`: `"runtime"`
-- `factory`: `"moon_phase_values"`
+```lua
+---@enum MoonPhase
+```
 
 **来源:**
 
@@ -342,14 +342,9 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `MsgType` { #symbol-api-lua-v5-generated-enum-msgtype-b1ce43cd91aa }
 
-**契约字段:**
-
-- `status`: `"native"`
-- `replacement`: `null`
-- `reason`: `null`
-- `members`: `[]`
-- `member_source`: `"runtime"`
-- `factory`: `"message_type_values"`
+```lua
+---@enum MsgType
+```
 
 **来源:**
 
@@ -357,14 +352,9 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `NpcAttitude` { #symbol-api-lua-v5-generated-enum-npcattitude-3cf0c9da83a9 }
 
-**契约字段:**
-
-- `status`: `"native"`
-- `replacement`: `null`
-- `reason`: `null`
-- `members`: `[]`
-- `member_source`: `"runtime"`
-- `factory`: `"npc_attitude_values"`
+```lua
+---@enum NpcAttitude
+```
 
 **来源:**
 
@@ -372,14 +362,19 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `NpcNeed` { #symbol-api-lua-v5-generated-enum-npcneed-2b51048178c9 }
 
-**契约字段:**
+```lua
+---@enum NpcNeed
+```
 
-- `status`: `"native"`
-- `replacement`: `null`
-- `reason`: `null`
-- `members`: `["none", "ammo", "weapon", "gun", "food", "drink", "safety"]`
-- `member_source`: `"fixed-native-list"`
-- `factory`: `"npc_need_values"`
+**枚举值列表 (Values):**
+
+- `none`
+- `ammo`
+- `weapon`
+- `gun`
+- `food`
+- `drink`
+- `safety`
 
 **来源:**
 
@@ -387,14 +382,17 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `OmVisionLevel` { #symbol-api-lua-v5-generated-enum-omvisionlevel-e172cde6ba45 }
 
-**契约字段:**
+```lua
+---@enum OmVisionLevel
+```
 
-- `status`: `"native"`
-- `replacement`: `null`
-- `reason`: `null`
-- `members`: `["unseen", "vague", "outlines", "details", "full"]`
-- `member_source`: `"fixed-native-list"`
-- `factory`: `"overmap_vision_values"`
+**枚举值列表 (Values):**
+
+- `unseen`
+- `vague`
+- `outlines`
+- `details`
+- `full`
 
 **来源:**
 
@@ -402,14 +400,17 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `OtMatchType` { #symbol-api-lua-v5-generated-enum-otmatchtype-f6c147477b31 }
 
-**契约字段:**
+```lua
+---@enum OtMatchType
+```
 
-- `status`: `"native"`
-- `replacement`: `null`
-- `reason`: `null`
-- `members`: `["exact", "type", "subtype", "prefix", "contains"]`
-- `member_source`: `"fixed-native-list"`
-- `factory`: `"overmap_match_values"`
+**枚举值列表 (Values):**
+
+- `exact`
+- `type`
+- `subtype`
+- `prefix`
+- `contains`
 
 **来源:**
 
@@ -417,14 +418,9 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `Phase` { #symbol-api-lua-v5-generated-enum-phase-ff3546f941ac }
 
-**契约字段:**
-
-- `status`: `"native"`
-- `replacement`: `null`
-- `reason`: `null`
-- `members`: `[]`
-- `member_source`: `"runtime"`
-- `factory`: `"phase_values"`
+```lua
+---@enum Phase
+```
 
 **来源:**
 
@@ -432,14 +428,42 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `SfxChannel` { #symbol-api-lua-v5-generated-enum-sfxchannel-a97086933488 }
 
-**契约字段:**
+```lua
+---@enum SfxChannel
+```
 
-- `status`: `"native"`
-- `replacement`: `null`
-- `reason`: `null`
-- `members`: `["daytime_outdoors_env", "nighttime_outdoors_env", "underground_env", "indoors_env", "indoors_rain_env", "outdoors_snow_env", "outdoors_flurry_env", "outdoors_thunderstorm_env", "outdoors_rainstorm_env", "outdoors_rain_env", "outdoors_drizzle_env", "outdoor_blizzard", "deafness_tone", "danger_extreme_theme", "danger_high_theme", "danger_medium_theme", "danger_low_theme", "stamina_75", "stamina_50", "stamina_35", "idle_chainsaw", "chainsaw_theme", "player_activities", "exterior_engine_sound", "interior_engine_sound", "radio", "outdoors_portal_storm_env", "outdoors_clear_env", "outdoors_cloudy_env", "outdoors_sunny_env"]`
-- `member_source`: `"fixed-native-list"`
-- `factory`: `"sfx_channel_values"`
+**枚举值列表 (Values):**
+
+- `daytime_outdoors_env`
+- `nighttime_outdoors_env`
+- `underground_env`
+- `indoors_env`
+- `indoors_rain_env`
+- `outdoors_snow_env`
+- `outdoors_flurry_env`
+- `outdoors_thunderstorm_env`
+- `outdoors_rainstorm_env`
+- `outdoors_rain_env`
+- `outdoors_drizzle_env`
+- `outdoor_blizzard`
+- `deafness_tone`
+- `danger_extreme_theme`
+- `danger_high_theme`
+- `danger_medium_theme`
+- `danger_low_theme`
+- `stamina_75`
+- `stamina_50`
+- `stamina_35`
+- `idle_chainsaw`
+- `chainsaw_theme`
+- `player_activities`
+- `exterior_engine_sound`
+- `interior_engine_sound`
+- `radio`
+- `outdoors_portal_storm_env`
+- `outdoors_clear_env`
+- `outdoors_cloudy_env`
+- `outdoors_sunny_env`
 
 **来源:**
 
@@ -447,14 +471,9 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `VitaminType` { #symbol-api-lua-v5-generated-enum-vitamintype-2fc7a3ea204e }
 
-**契约字段:**
-
-- `status`: `"native"`
-- `replacement`: `null`
-- `reason`: `null`
-- `members`: `[]`
-- `member_source`: `"runtime"`
-- `factory`: `"vitamin_type_values"`
+```lua
+---@enum VitaminType
+```
 
 **来源:**
 

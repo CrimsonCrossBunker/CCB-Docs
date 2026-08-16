@@ -300,29 +300,16 @@ def render_sources(
     return lines
 
 
-def render_details(item: dict[str, Any], language: str, excluded: set[str]) -> list[str]:
-    label = "契约字段" if language == "zh_CN" else "Contract fields"
-    values = [
-        (key, value)
-        for key, value in item.items()
-        if key not in excluded
-    ]
-    if not values:
-        return []
-    lines = [f"**{label}:**", ""]
-    for key, value in values:
-        lines.append(f"- `{key}`: `{json_literal(value)}`")
-    lines.append("")
-    return lines
-
-
 def documented_heading(item: dict[str, Any], level: int) -> str:
-    documentation = item["documentation"]
-    identity = str(item.get("id") or item.get("name") or documentation["id"])
-    return (
-        f"{'#' * level} `{identity}` "
-        f"{{ #{anchor_for(documentation['id'])} }}"
-    )
+    documentation = item.get("documentation")
+    if documentation and "id" in documentation:
+        identity = str(item.get("id") or item.get("name") or documentation["id"])
+        return (
+            f"{'#' * level} `{identity}` "
+            f"{{ #{anchor_for(documentation['id'])} }}"
+        )
+    identity = str(item.get("id") or item.get("name") or "item")
+    return f"{'#' * level} `{identity}`"
 
 
 def render_documented_item(
@@ -331,12 +318,201 @@ def render_documented_item(
     language: str,
     level: int = 2,
     excluded: set[str] | None = None,
+    section: str = "",
 ) -> list[str]:
-    ignored = {"id", "documentation", "sources"}
-    if excluded:
-        ignored.update(excluded)
     lines = [documented_heading(item, level), ""]
-    lines.extend(render_details(item, language, ignored))
+    is_zh = language == "zh_CN"
+
+    # 1. Render Lua Signature Block
+    sig_lines = []
+    name = item.get("name") or item.get("id") or ""
+    cls = item.get("class", "")
+    ns = item.get("namespace", "")
+    params = item.get("parameters", [])
+    returns = item.get("returns", [])
+    style = item.get("style", "")
+    fields = item.get("fields", [])
+    members = item.get("members", [])
+    values = item.get("values", []) or members
+    payload = item.get("payload", [])
+
+    if section == "functions" or style == "function":
+        full_fn = f"{ns}.{name}" if ns else name
+        param_sigs = [f"{p['name']}: {p.get('declaration', 'any')}{'?' if p.get('optional') else ''}" for p in params]
+        ret_sig = f" -> {', '.join(r.get('declaration', 'void') for r in returns)}" if returns else ""
+        sig_lines = [
+            "```lua",
+            f"function {full_fn}({', '.join(param_sigs)}){ret_sig}",
+            "```",
+            "",
+        ]
+    elif section == "methods" or style == "method":
+        param_sigs = [f"{p['name']}: {p.get('declaration', 'any')}{'?' if p.get('optional') else ''}" for p in params]
+        ret_sig = f" -> {', '.join(r.get('declaration', 'void') for r in returns)}" if returns else ""
+        sep = ":" if style == "method" else "."
+        sig_lines = [
+            "```lua",
+            f"function {cls}{sep}{name}({', '.join(param_sigs)}){ret_sig}",
+            "```",
+            "",
+        ]
+    elif section == "classes" or "fields" in item:
+        decl = item.get("declaration", name)
+        sig_lines = [
+            "```lua",
+            f"---@class {decl}",
+            f"local {name} = {{}}",
+            "```",
+            "",
+        ]
+    elif section == "events":
+        sig_lines = [
+            "```lua",
+            f'-- {"订阅事件" if is_zh else "Subscribe to event"}',
+            f'events.on("{name}", function(event)',
+            f'    -- {"处理事件逻辑" if is_zh else "Handle event logic"}',
+            "end)",
+            "```",
+            "",
+        ]
+    elif section == "hooks":
+        payload_list = payload if isinstance(payload, list) else []
+        payload_sigs = [f"{p['name']}: {p.get('declaration', 'any')}" for p in payload_list if isinstance(p, dict) and 'name' in p]
+        payload_args = [p.get('name', 'arg') for p in payload_list if isinstance(p, dict)]
+        ret_sig = f" -> {', '.join(r.get('declaration', 'void') for r in returns)}" if isinstance(returns, list) and returns else ""
+        sig_lines = [
+            "```lua",
+            f'-- {"注册拦截 Hook" if is_zh else "Register hook interceptor"}',
+            f'game.hooks.on("{name}", function({", ".join(payload_args)}){ret_sig}',
+            f'    -- {"同步拦截并返回值" if is_zh else "Intercept and return result"}',
+            "end)",
+            "```",
+            "",
+        ]
+    elif section == "callbacks":
+        sig_lines = [
+            "```lua",
+            f'-- Callback: {name}',
+            f'-- Kind: {item.get("kind", "callback")} (Payload: {item.get("payload_type", "table")} -> Result: {item.get("result_type", "void")})',
+            "```",
+            "",
+        ]
+    elif section == "enums":
+        sig_lines = [
+            "```lua",
+            f"---@enum {name}",
+            "```",
+            "",
+        ]
+    elif section == "namespaces":
+        sig_lines = [
+            "```lua",
+            f"-- Namespace: {name}",
+            f"local {name.split('.')[-1]} = {name}",
+            "```",
+            "",
+        ]
+    elif section == "properties" or "read_only" in item:
+        ro_tag = " (readonly)" if item.get("read_only") else ""
+        decl = item.get("declaration", "any")
+        full_prop = f"{cls}.{name}" if cls else name
+        sig_lines = [
+            "```lua",
+            f"---@field {name} {decl}{ro_tag}",
+            f"{full_prop} = ... -- {decl}",
+            "```",
+            "",
+        ]
+    elif section == "capabilities":
+        sig_lines = [
+            "```lua",
+            f'-- Capability: "{name}"',
+            f'-- Minimum API: CCB Lua 0.1',
+            "```",
+            "",
+        ]
+    elif section == "manifest_fields":
+        req = "required" if item.get("required") else "optional"
+        sig_lines = [
+            "```json",
+            f'"{name}": ... // {req}',
+            "```",
+            "",
+        ]
+    elif section == "modules":
+        sig_lines = [
+            "```lua",
+            f'-- Module: {name} (Mode: {item.get("mode", "lua")})',
+            "```",
+            "",
+        ]
+    elif section == "operators":
+        sig_lines = [
+            "```lua",
+            f'-- Operator: {item.get("name", "op")} for {cls}',
+            "```",
+            "",
+        ]
+
+    lines.extend(sig_lines)
+
+    # 2. Render Parameters Table
+    if params:
+        lines.append(f"**{'参数列表 (Parameters)' if is_zh else 'Parameters'}:**")
+        lines.append("")
+        lines.append(f"| {'参数名' if is_zh else 'Parameter'} | {'类型' if is_zh else 'Type'} | {'要求' if is_zh else 'Requirement'} |")
+        lines.append("| :--- | :--- | :--- |")
+        for p in params:
+            req = ("可选 (Optional)" if p.get("optional") else "必选 (Required)") if is_zh else ("Optional" if p.get("optional") else "Required")
+            lines.append(f"| `{p.get('name', 'arg')}` | `{p.get('declaration', 'any')}` | {req} |")
+        lines.append("")
+
+    # 3. Render Return Value
+    if returns and isinstance(returns, list):
+        lines.append(f"**{'返回值 (Returns)' if is_zh else 'Returns'}:**")
+        lines.append("")
+        for r in returns:
+            if isinstance(r, dict):
+                lines.append(f"- `{r.get('declaration', 'void')}`")
+            else:
+                lines.append(f"- `{r}`")
+        lines.append("")
+
+    # 4. Render Fields (for classes and events)
+    if fields and isinstance(fields, list):
+        lines.append(f"**{'字段属性 (Fields)' if is_zh else 'Fields'}:**")
+        lines.append("")
+        lines.append(f"| {'字段名' if is_zh else 'Field'} | {'类型' if is_zh else 'Type'} | {'特性' if is_zh else 'Access'} |")
+        lines.append("| :--- | :--- | :--- |")
+        for f in fields:
+            access = ("只读" if f.get("read_only") else "可读写") if is_zh else ("Read-only" if f.get("read_only") else "Read-write")
+            lines.append(f"| `{f.get('name', 'field')}` | `{f.get('declaration', 'any')}` | {access} |")
+        lines.append("")
+
+    # 5. Render Enum Values
+    if values and isinstance(values, list):
+        lines.append(f"**{'枚举值列表 (Values)' if is_zh else 'Enum Values'}:**")
+        lines.append("")
+        for v in values:
+            lines.append(f"- `{v}`")
+        lines.append("")
+
+    # 6. Capabilities & Permissions Badge
+    caps = item.get("capabilities", [])
+    if caps and isinstance(caps, list):
+        caps_str = ", ".join(f"`{c}`" for c in caps)
+        lines.append(f"🛡️ **{'所需权限 (Required Capabilities)' if is_zh else 'Required Capabilities'}:** {caps_str}")
+        lines.append("")
+
+    # 7. Error Handling Mode
+    errors = item.get("errors")
+    if isinstance(errors, dict) and errors.get("conditions"):
+        conds = "; ".join(errors.get("conditions", []))
+        mode = errors.get("mode", "lua-error")
+        lines.append(f"⚠️ **{'错误模式' if is_zh else 'Error Handling'}:** `{mode}` ({conds})")
+        lines.append("")
+
+    # 8. Sources
     lines.extend(render_sources(config, item.get("sources", []), language))
     return lines
 
@@ -350,21 +526,25 @@ def render_section(
     section = page["section"]
     title = page[f"{language}_title"]
     count = len(contract[section]) if section != "permissions" else 1
-    if language == "zh_CN":
+    is_zh = language == "zh_CN"
+    if is_zh:
         intro = (
-            f"本页由固定提交 `{config['source_commit']}` 的 Lua v5 公开契约生成，"
-            f"收录 {count} 条 `{section}` 记录。不要手工修改本页。"
+            f"本页为 CCB Lua 0.1 平台自动生成的 `{title}` 规范手册，"
+            f"收录 {count} 条 `{section}` 契约记录。"
         )
     else:
         intro = (
-            f"This page is generated from the Lua v5 public contract at pinned commit "
-            f"`{config['source_commit']}` and contains {count} `{section}` records. "
-            "Do not edit it by hand."
+            f"This page is the automatically generated reference manual for CCB Lua 0.1, "
+            f"containing {count} `{section}` contract records."
         )
     lines = [GENERATED_MARKER, "", f"# {title}", "", intro, ""]
     if section == "permissions":
         permission = contract["permissions"]
-        lines.extend(render_details(permission, language, {"sources"}))
+        lines.append("## 权限系统模型" if is_zh else "## Permission System Model")
+        lines.append("")
+        lines.append(f"- **模型类型 (Model):** `{permission.get('model', 'standard')}`")
+        lines.append(f"- **Manifest 声明字段 (Manifest Field):** `{permission.get('manifest_field', 'capabilities')}`")
+        lines.append("")
         lines.extend(render_sources(config, permission.get("sources", []), language))
     else:
         for item in contract[section]:
@@ -375,10 +555,11 @@ def render_section(
                     item,
                     language,
                     excluded=nested,
+                    section=section,
                 )
             )
             for field in item.get("fields", []):
-                lines.extend(render_documented_item(config, field, language, level=3))
+                lines.extend(render_documented_item(config, field, language, level=3, section="properties"))
     return "\n".join(lines).rstrip() + "\n"
 
 

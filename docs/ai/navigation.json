@@ -8,6 +8,34 @@
       "path": "index.md"
     },
     {
+      "id": "contributing.core-dev-guide",
+      "title": "游戏本体核心开发与贡献指南",
+      "section": "贡献与治理",
+      "order": 3,
+      "path": "contributing/core-dev-guide.md"
+    },
+    {
+      "id": "architecture.core-engine-lifecycle",
+      "title": "游戏引擎生命周期与主循环深度剖析",
+      "section": "架构",
+      "order": 5,
+      "path": "architecture/core-engine-lifecycle.md"
+    },
+    {
+      "id": "architecture.subsystems-deep-dive",
+      "title": "游戏引擎核心八大子系统深度剖析",
+      "section": "架构",
+      "order": 6,
+      "path": "architecture/subsystems-deep-dive.md"
+    },
+    {
+      "id": "cpp.native-binding-guide",
+      "title": "C++ 引擎底层 Native 绑定指南",
+      "section": "C++ 核心子系统",
+      "order": 10,
+      "path": "cpp/native-binding-guide.md"
+    },
+    {
       "id": "getting-started.first-contribution",
       "title": "第一次贡献",
       "section": "开始贡献",
@@ -29,6 +57,13 @@
       "path": "getting-started/common-tasks.md"
     },
     {
+      "id": "api.lua.cookbook.items",
+      "title": "纯 Lua 装备与容器口袋实战",
+      "section": "CCB Lua 0.1 指南",
+      "order": 20,
+      "path": "api/lua/v5/cookbook/items.md"
+    },
+    {
       "id": "architecture.overview",
       "title": "CCB 项目架构",
       "section": "架构",
@@ -43,11 +78,25 @@
       "path": "architecture/project-map.md"
     },
     {
+      "id": "api.lua.cookbook.monsters",
+      "title": "纯 Lua 怪物与技能 AI 实战",
+      "section": "CCB Lua 0.1 指南",
+      "order": 21,
+      "path": "api/lua/v5/cookbook/monsters.md"
+    },
+    {
       "id": "architecture.subsystem-map",
       "title": "子系统地图",
       "section": "架构",
       "order": 21,
       "path": "architecture/subsystem-map.md"
+    },
+    {
+      "id": "api.lua.cookbook.mapgen",
+      "title": "纯 Lua 地块与建筑生成实战",
+      "section": "CCB Lua 0.1 指南",
+      "order": 22,
+      "path": "api/lua/v5/cookbook/mapgen.md"
     },
     {
       "id": "architecture.design-principles",
@@ -668,6 +717,34 @@
       "path": "index.md"
     },
     {
+      "id": "contributing.core-dev-guide",
+      "title": "Core Development and Contribution Guide",
+      "section": "Contributing and Governance",
+      "order": 3,
+      "path": "contributing/core-dev-guide.md"
+    },
+    {
+      "id": "architecture.core-engine-lifecycle",
+      "title": "Core Engine Lifecycle and Main Loop",
+      "section": "Architecture",
+      "order": 5,
+      "path": "architecture/core-engine-lifecycle.md"
+    },
+    {
+      "id": "architecture.subsystems-deep-dive",
+      "title": "Engine Subsystems Deep Dive",
+      "section": "Architecture",
+      "order": 6,
+      "path": "architecture/subsystems-deep-dive.md"
+    },
+    {
+      "id": "cpp.native-binding-guide",
+      "title": "C++ Native Binding Guide",
+      "section": "C++ Subsystems",
+      "order": 10,
+      "path": "cpp/native-binding-guide.md"
+    },
+    {
       "id": "getting-started.first-contribution",
       "title": "First contribution",
       "section": "Start contributing",
@@ -689,6 +766,13 @@
       "path": "getting-started/common-tasks.md"
     },
     {
+      "id": "api.lua.cookbook.items",
+      "title": "Items and Pockets Cookbook",
+      "section": "CCB Lua 0.1 Guides",
+      "order": 20,
+      "path": "api/lua/v5/cookbook/items.md"
+    },
+    {
       "id": "architecture.overview",
       "title": "CCB project architecture",
       "section": "Architecture",
@@ -703,11 +787,25 @@
       "path": "architecture/project-map.md"
     },
     {
+      "id": "api.lua.cookbook.monsters",
+      "title": "Monsters and AI Cookbook",
+      "section": "CCB Lua 0.1 Guides",
+      "order": 21,
+      "path": "api/lua/v5/cookbook/monsters.md"
+    },
+    {
       "id": "architecture.subsystem-map",
       "title": "Subsystem map",
       "section": "Architecture",
       "order": 21,
       "path": "architecture/subsystem-map.md"
+    },
+    {
+      "id": "api.lua.cookbook.mapgen",
+      "title": "Mapgen and Structures Cookbook",
+      "section": "CCB Lua 0.1 Guides",
+      "order": 22,
+      "path": "api/lua/v5/cookbook/mapgen.md"
     },
     {
       "id": "architecture.design-principles",

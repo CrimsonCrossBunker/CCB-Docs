@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 97689d64aa4efceed496ab8ef8b3e4d1a8a40aa22458bdcd86089a4b3fdd0530
+translation_source_fingerprint: 3044d988f01e944de2f87ad9a03418f99495fa75bedd13992193bf37ce5ca487
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,16 +68,18 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Native hooks
 
-This page is generated from the Lua v5 public contract at pinned commit `d32b9cc880a85480840d82cfa05d256c78a16615` and contains 52 `hooks` records. Do not edit it by hand.
+This page is the automatically generated reference manual for CCB Lua 0.1, containing 52 `hooks` contract records.
 
 ## `on_character_death` { #symbol-api-lua-v5-generated-hook-on-character-death-15ad1b50a8ab }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_character_death", function(character, killer)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "character", "type": "CcbLuaValue"}, {"name": "killer", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -85,12 +87,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_character_display_skill_action` { #symbol-api-lua-v5-generated-hook-on-character-display-skill-action-6a4e9563c14b }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_character_display_skill_action", function(character, skill, action) -> void
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"intercept"`
-- `payload`: `[{"name": "character", "type": "CcbLuaValue"}, {"name": "skill", "type": "CcbLuaValue"}, {"name": "action", "type": "CcbLuaValue"}]`
-- `returns`: `[{"name": "handled", "type": "CcbLuaValue"}]`
-- `capabilities`: `["events", "game.hooks", "game.write"]`
+**Returns:**
+
+- `void`
+
+🛡️ **Required Capabilities:** `events`, `game.hooks`, `game.write`
 
 **Sources:**
 
@@ -98,12 +106,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_character_display_skill_info` { #symbol-api-lua-v5-generated-hook-on-character-display-skill-info-3e3806f8ec44 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_character_display_skill_info", function(character, skill) -> void
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"intercept"`
-- `payload`: `[{"name": "character", "type": "CcbLuaValue"}, {"name": "skill", "type": "CcbLuaValue"}]`
-- `returns`: `[{"name": "text", "type": "CcbLuaValue"}]`
-- `capabilities`: `["events", "game.hooks", "game.write"]`
+**Returns:**
+
+- `void`
+
+🛡️ **Required Capabilities:** `events`, `game.hooks`, `game.write`
 
 **Sources:**
 
@@ -111,12 +125,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_character_effect` { #symbol-api-lua-v5-generated-hook-on-character-effect-84096e3bce20 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_character_effect", function(character, effect, body_part, intensity)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "character", "type": "CcbLuaValue"}, {"name": "effect", "type": "CcbLuaValue"}, {"name": "body_part", "type": "CcbLuaValue"}, {"name": "intensity", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -124,12 +140,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_character_effect_added` { #symbol-api-lua-v5-generated-hook-on-character-effect-added-7f6dd7288043 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_character_effect_added", function(character, effect, body_part, intensity)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "character", "type": "CcbLuaValue"}, {"name": "effect", "type": "CcbLuaValue"}, {"name": "body_part", "type": "CcbLuaValue"}, {"name": "intensity", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -137,12 +155,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_character_effect_removed` { #symbol-api-lua-v5-generated-hook-on-character-effect-removed-f37ef70feb5e }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_character_effect_removed", function(character, effect, body_part)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "character", "type": "CcbLuaValue"}, {"name": "effect", "type": "CcbLuaValue"}, {"name": "body_part", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -150,12 +170,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_character_reset_stats` { #symbol-api-lua-v5-generated-hook-on-character-reset-stats-a61f61e8b03d }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_character_reset_stats", function(character)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "character", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -163,12 +185,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_character_try_move` { #symbol-api-lua-v5-generated-hook-on-character-try-move-40aa585bf604 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_character_try_move", function(character, from, to, movement_mode, via_ramp, mounted, mount) -> void
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"intercept"`
-- `payload`: `[{"name": "character", "type": "CcbLuaValue"}, {"name": "from", "type": "CcbLuaValue"}, {"name": "to", "type": "CcbLuaValue"}, {"name": "movement_mode", "type": "CcbLuaValue"}, {"name": "via_ramp", "type": "CcbLuaValue"}, {"name": "mounted", "type": "CcbLuaValue"}, {"name": "mount", "type": "CcbLuaValue"}]`
-- `returns`: `[{"name": "allow", "type": "CcbLuaValue"}]`
-- `capabilities`: `["events", "game.hooks", "game.write"]`
+**Returns:**
+
+- `void`
+
+🛡️ **Required Capabilities:** `events`, `game.hooks`, `game.write`
 
 **Sources:**
 
@@ -176,12 +204,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_control_npc` { #symbol-api-lua-v5-generated-hook-on-control-npc-20e9ec039314 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_control_npc", function(avatar, npc, debug)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "avatar", "type": "CcbLuaValue"}, {"name": "npc", "type": "CcbLuaValue"}, {"name": "debug", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -189,12 +219,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_craft_result` { #symbol-api-lua-v5-generated-hook-on-craft-result-c354f1e35c44 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_craft_result", function(character, recipe, result, batch)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "character", "type": "CcbLuaValue"}, {"name": "recipe", "type": "CcbLuaValue"}, {"name": "result", "type": "CcbLuaValue"}, {"name": "batch", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -202,12 +234,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_creature_blocked` { #symbol-api-lua-v5-generated-hook-on-creature-blocked-d401bf4ca3d8 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_creature_blocked", function(creature, source, damage_blocked)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "creature", "type": "CcbLuaValue"}, {"name": "source", "type": "CcbLuaValue"}, {"name": "damage_blocked", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -215,12 +249,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_creature_do_turn` { #symbol-api-lua-v5-generated-hook-on-creature-do-turn-721616f786fc }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_creature_do_turn", function(creature)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "creature", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -228,12 +264,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_creature_dodged` { #symbol-api-lua-v5-generated-hook-on-creature-dodged-280f014ea0c9 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_creature_dodged", function(creature, source)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "creature", "type": "CcbLuaValue"}, {"name": "source", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -241,12 +279,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_creature_loaded` { #symbol-api-lua-v5-generated-hook-on-creature-loaded-9aeb888432a0 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_creature_loaded", function(creature)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "creature", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -254,12 +294,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_creature_melee_attacked` { #symbol-api-lua-v5-generated-hook-on-creature-melee-attacked-4ee869394670 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_creature_melee_attacked", function(attacker, target, weapon)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "attacker", "type": "CcbLuaValue"}, {"name": "target", "type": "CcbLuaValue"}, {"name": "weapon", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -267,12 +309,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_creature_performed_technique` { #symbol-api-lua-v5-generated-hook-on-creature-performed-technique-a3e4f1986f90 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_creature_performed_technique", function(creature, target, technique)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "creature", "type": "CcbLuaValue"}, {"name": "target", "type": "CcbLuaValue"}, {"name": "technique", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -280,12 +324,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_creature_spawn` { #symbol-api-lua-v5-generated-hook-on-creature-spawn-9105c4537f06 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_creature_spawn", function(creature, source)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "creature", "type": "CcbLuaValue"}, {"name": "source", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -293,12 +339,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_dialogue_end` { #symbol-api-lua-v5-generated-hook-on-dialogue-end-549e5fd02501 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_dialogue_end", function(alpha, beta, topic)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "alpha", "type": "CcbLuaValue"}, {"name": "beta", "type": "CcbLuaValue"}, {"name": "topic", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -306,12 +354,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_dialogue_option` { #symbol-api-lua-v5-generated-hook-on-dialogue-option-9cffbd232ea7 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_dialogue_option", function(alpha, beta, topic, option) -> void
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"intercept"`
-- `payload`: `[{"name": "alpha", "type": "CcbLuaValue"}, {"name": "beta", "type": "CcbLuaValue"}, {"name": "topic", "type": "CcbLuaValue"}, {"name": "option", "type": "CcbLuaValue"}]`
-- `returns`: `[{"name": "result", "type": "CcbLuaValue"}]`
-- `capabilities`: `["events", "game.hooks", "game.write"]`
+**Returns:**
+
+- `void`
+
+🛡️ **Required Capabilities:** `events`, `game.hooks`, `game.write`
 
 **Sources:**
 
@@ -319,12 +373,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_dialogue_start` { #symbol-api-lua-v5-generated-hook-on-dialogue-start-1574bd2e23a8 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_dialogue_start", function(alpha, beta, topic) -> void
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"intercept"`
-- `payload`: `[{"name": "alpha", "type": "CcbLuaValue"}, {"name": "beta", "type": "CcbLuaValue"}, {"name": "topic", "type": "CcbLuaValue"}]`
-- `returns`: `[{"name": "result", "type": "CcbLuaValue"}]`
-- `capabilities`: `["events", "game.hooks", "game.write"]`
+**Returns:**
+
+- `void`
+
+🛡️ **Required Capabilities:** `events`, `game.hooks`, `game.write`
 
 **Sources:**
 
@@ -332,12 +392,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_elevator_try_use` { #symbol-api-lua-v5-generated-hook-on-elevator-try-use-b111ec7261a2 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_elevator_try_use", function(character, position, destination) -> void
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"intercept"`
-- `payload`: `[{"name": "character", "type": "CcbLuaValue"}, {"name": "position", "type": "CcbLuaValue"}, {"name": "destination", "type": "CcbLuaValue"}]`
-- `returns`: `[{"name": "allow", "type": "CcbLuaValue"}]`
-- `capabilities`: `["events", "game.hooks", "game.write"]`
+**Returns:**
+
+- `void`
+
+🛡️ **Required Capabilities:** `events`, `game.hooks`, `game.write`
 
 **Sources:**
 
@@ -345,12 +411,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_explosion_start` { #symbol-api-lua-v5-generated-hook-on-explosion-start-35da2e802306 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_explosion_start", function(position, power, source)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "position", "type": "CcbLuaValue"}, {"name": "power", "type": "CcbLuaValue"}, {"name": "source", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -358,12 +426,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_game_load` { #symbol-api-lua-v5-generated-hook-on-game-load-8a24c2b04594 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_game_load", function()
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -371,12 +441,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_game_save` { #symbol-api-lua-v5-generated-hook-on-game-save-50822c9a5896 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_game_save", function()
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -384,12 +456,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_game_started` { #symbol-api-lua-v5-generated-hook-on-game-started-d55f3354b53c }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_game_started", function()
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -397,12 +471,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_make_mapgen_factory_list` { #symbol-api-lua-v5-generated-hook-on-make-mapgen-factory-list-7f043f13e70b }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_make_mapgen_factory_list", function(candidates) -> void
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"intercept"`
-- `payload`: `[{"name": "candidates", "type": "CcbLuaValue"}]`
-- `returns`: `[{"name": "results", "type": "CcbLuaValue"}]`
-- `capabilities`: `["events", "game.hooks", "game.write"]`
+**Returns:**
+
+- `void`
+
+🛡️ **Required Capabilities:** `events`, `game.hooks`, `game.write`
 
 **Sources:**
 
@@ -410,12 +490,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_mapgen_postprocess` { #symbol-api-lua-v5-generated-hook-on-mapgen-postprocess-9269ea06e124 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_mapgen_postprocess", function(context)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "context", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -423,12 +505,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_mission_end` { #symbol-api-lua-v5-generated-hook-on-mission-end-a36ac3f66b59 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_mission_end", function(mission, success)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "mission", "type": "CcbLuaValue"}, {"name": "success", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -436,12 +520,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_mission_start` { #symbol-api-lua-v5-generated-hook-on-mission-start-bd6ba327f9f7 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_mission_start", function(mission)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "mission", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -449,12 +535,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_mon_death` { #symbol-api-lua-v5-generated-hook-on-mon-death-3ba922d5cbbd }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_mon_death", function(monster, killer)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "monster", "type": "CcbLuaValue"}, {"name": "killer", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -462,12 +550,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_mon_effect` { #symbol-api-lua-v5-generated-hook-on-mon-effect-2547889b93a3 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_mon_effect", function(monster, effect, body_part, intensity)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "monster", "type": "CcbLuaValue"}, {"name": "effect", "type": "CcbLuaValue"}, {"name": "body_part", "type": "CcbLuaValue"}, {"name": "intensity", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -475,12 +565,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_mon_effect_added` { #symbol-api-lua-v5-generated-hook-on-mon-effect-added-5f8783db8329 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_mon_effect_added", function(monster, effect, body_part, intensity)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "monster", "type": "CcbLuaValue"}, {"name": "effect", "type": "CcbLuaValue"}, {"name": "body_part", "type": "CcbLuaValue"}, {"name": "intensity", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -488,12 +580,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_mon_effect_removed` { #symbol-api-lua-v5-generated-hook-on-mon-effect-removed-150babd6a82e }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_mon_effect_removed", function(monster, effect, body_part)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "monster", "type": "CcbLuaValue"}, {"name": "effect", "type": "CcbLuaValue"}, {"name": "body_part", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -501,12 +595,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_monster_do_turn` { #symbol-api-lua-v5-generated-hook-on-monster-do-turn-92d93707cfe9 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_monster_do_turn", function(monster)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "monster", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -514,12 +610,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_monster_examine_menu_entry` { #symbol-api-lua-v5-generated-hook-on-monster-examine-menu-entry-b68d65073ab1 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_monster_examine_menu_entry", function(character, monster, entry)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "character", "type": "CcbLuaValue"}, {"name": "monster", "type": "CcbLuaValue"}, {"name": "entry", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -527,12 +625,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_monster_get_examine_menu_entries` { #symbol-api-lua-v5-generated-hook-on-monster-get-examine-menu-entries-d087d9b639f4 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_monster_get_examine_menu_entries", function(character, monster) -> void
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"intercept"`
-- `payload`: `[{"name": "character", "type": "CcbLuaValue"}, {"name": "monster", "type": "CcbLuaValue"}]`
-- `returns`: `[{"name": "entries", "type": "CcbLuaValue"}]`
-- `capabilities`: `["events", "game.hooks", "game.write"]`
+**Returns:**
+
+- `void`
+
+🛡️ **Required Capabilities:** `events`, `game.hooks`, `game.write`
 
 **Sources:**
 
@@ -540,12 +644,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_monster_loaded` { #symbol-api-lua-v5-generated-hook-on-monster-loaded-cdd203e840a4 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_monster_loaded", function(monster)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "monster", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -553,12 +659,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_monster_spawn` { #symbol-api-lua-v5-generated-hook-on-monster-spawn-7f4961f06250 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_monster_spawn", function(monster, source)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "monster", "type": "CcbLuaValue"}, {"name": "source", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -566,12 +674,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_monster_tame` { #symbol-api-lua-v5-generated-hook-on-monster-tame-104c00e3f8ea }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_monster_tame", function(character, monster)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "character", "type": "CcbLuaValue"}, {"name": "monster", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -579,12 +689,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_monster_try_move` { #symbol-api-lua-v5-generated-hook-on-monster-try-move-a4c97837612d }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_monster_try_move", function(monster, from, to, force) -> void
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"intercept"`
-- `payload`: `[{"name": "monster", "type": "CcbLuaValue"}, {"name": "from", "type": "CcbLuaValue"}, {"name": "to", "type": "CcbLuaValue"}, {"name": "force", "type": "CcbLuaValue"}]`
-- `returns`: `[{"name": "allow", "type": "CcbLuaValue"}]`
-- `capabilities`: `["events", "game.hooks", "game.write"]`
+**Returns:**
+
+- `void`
+
+🛡️ **Required Capabilities:** `events`, `game.hooks`, `game.write`
 
 **Sources:**
 
@@ -592,12 +708,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_npc_do_turn` { #symbol-api-lua-v5-generated-hook-on-npc-do-turn-913b6aff6f43 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_npc_do_turn", function(npc)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "npc", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -605,12 +723,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_npc_interaction` { #symbol-api-lua-v5-generated-hook-on-npc-interaction-4f3b8db50600 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_npc_interaction", function(avatar, npc)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "avatar", "type": "CcbLuaValue"}, {"name": "npc", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -618,12 +738,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_npc_loaded` { #symbol-api-lua-v5-generated-hook-on-npc-loaded-7561b6517c5d }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_npc_loaded", function(npc)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "npc", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -631,12 +753,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_npc_spawn` { #symbol-api-lua-v5-generated-hook-on-npc-spawn-87eb4b87de6e }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_npc_spawn", function(npc, source)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "npc", "type": "CcbLuaValue"}, {"name": "source", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -644,12 +768,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_npc_try_move` { #symbol-api-lua-v5-generated-hook-on-npc-try-move-5a81f3d3000a }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_npc_try_move", function(npc, from, to, movement_mode, via_ramp, mounted, mount) -> void
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"intercept"`
-- `payload`: `[{"name": "npc", "type": "CcbLuaValue"}, {"name": "from", "type": "CcbLuaValue"}, {"name": "to", "type": "CcbLuaValue"}, {"name": "movement_mode", "type": "CcbLuaValue"}, {"name": "via_ramp", "type": "CcbLuaValue"}, {"name": "mounted", "type": "CcbLuaValue"}, {"name": "mount", "type": "CcbLuaValue"}]`
-- `returns`: `[{"name": "allow", "type": "CcbLuaValue"}]`
-- `capabilities`: `["events", "game.hooks", "game.write"]`
+**Returns:**
+
+- `void`
+
+🛡️ **Required Capabilities:** `events`, `game.hooks`, `game.write`
 
 **Sources:**
 
@@ -657,12 +787,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_player_try_move` { #symbol-api-lua-v5-generated-hook-on-player-try-move-1c762edf0c25 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_player_try_move", function(player, from, to, movement_mode, via_ramp, mounted, mount) -> void
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"intercept"`
-- `payload`: `[{"name": "player", "type": "CcbLuaValue"}, {"name": "from", "type": "CcbLuaValue"}, {"name": "to", "type": "CcbLuaValue"}, {"name": "movement_mode", "type": "CcbLuaValue"}, {"name": "via_ramp", "type": "CcbLuaValue"}, {"name": "mounted", "type": "CcbLuaValue"}, {"name": "mount", "type": "CcbLuaValue"}]`
-- `returns`: `[{"name": "allow", "type": "CcbLuaValue"}]`
-- `capabilities`: `["events", "game.hooks", "game.write"]`
+**Returns:**
+
+- `void`
+
+🛡️ **Required Capabilities:** `events`, `game.hooks`, `game.write`
 
 **Sources:**
 
@@ -670,12 +806,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_shoot` { #symbol-api-lua-v5-generated-hook-on-shoot-38442b38ef02 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_shoot", function(character, weapon, target, shots)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "character", "type": "CcbLuaValue"}, {"name": "weapon", "type": "CcbLuaValue"}, {"name": "target", "type": "CcbLuaValue"}, {"name": "shots", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -683,12 +821,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_throw` { #symbol-api-lua-v5-generated-hook-on-throw-00e0bf973e63 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_throw", function(character, item, target)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "character", "type": "CcbLuaValue"}, {"name": "item", "type": "CcbLuaValue"}, {"name": "target", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -696,12 +836,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_try_monster_interaction` { #symbol-api-lua-v5-generated-hook-on-try-monster-interaction-f0babb8d0306 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_try_monster_interaction", function(avatar, monster) -> void
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"intercept"`
-- `payload`: `[{"name": "avatar", "type": "CcbLuaValue"}, {"name": "monster", "type": "CcbLuaValue"}]`
-- `returns`: `[{"name": "allow", "type": "CcbLuaValue"}]`
-- `capabilities`: `["events", "game.hooks", "game.write"]`
+**Returns:**
+
+- `void`
+
+🛡️ **Required Capabilities:** `events`, `game.hooks`, `game.write`
 
 **Sources:**
 
@@ -709,12 +855,18 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_try_npc_interaction` { #symbol-api-lua-v5-generated-hook-on-try-npc-interaction-f64d539e9be7 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_try_npc_interaction", function(avatar, npc) -> void
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"intercept"`
-- `payload`: `[{"name": "avatar", "type": "CcbLuaValue"}, {"name": "npc", "type": "CcbLuaValue"}]`
-- `returns`: `[{"name": "allow", "type": "CcbLuaValue"}]`
-- `capabilities`: `["events", "game.hooks", "game.write"]`
+**Returns:**
+
+- `void`
+
+🛡️ **Required Capabilities:** `events`, `game.hooks`, `game.write`
 
 **Sources:**
 
@@ -722,12 +874,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_weather_changed` { #symbol-api-lua-v5-generated-hook-on-weather-changed-9c3c717f64a5 }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_weather_changed", function(before, after)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "before", "type": "CcbLuaValue"}, {"name": "after", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 
@@ -735,12 +889,14 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `on_weather_updated` { #symbol-api-lua-v5-generated-hook-on-weather-updated-11ecb431b60a }
 
-**Contract fields:**
+```lua
+-- Register hook interceptor
+game.hooks.on("on_weather_updated", function(weather, temperature, windpower)
+    -- Intercept and return result
+end)
+```
 
-- `mode`: `"observe"`
-- `payload`: `[{"name": "weather", "type": "CcbLuaValue"}, {"name": "temperature", "type": "CcbLuaValue"}, {"name": "windpower", "type": "CcbLuaValue"}]`
-- `returns`: `[]`
-- `capabilities`: `["events", "game.hooks"]`
+🛡️ **Required Capabilities:** `events`, `game.hooks`
 
 **Sources:**
 

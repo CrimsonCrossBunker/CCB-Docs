@@ -1,4 +1,16 @@
 {
+  "api.lua.cookbook.items": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/items/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/items/"
+  },
+  "api.lua.cookbook.mapgen": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/mapgen/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/mapgen/"
+  },
+  "api.lua.cookbook.monsters": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/monsters/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/monsters/"
+  },
   "api.lua.v5.capabilities": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/capabilities/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/"
@@ -99,6 +111,10 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/ui/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/ui/"
   },
+  "architecture.core-engine-lifecycle": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/core-engine-lifecycle/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/core-engine-lifecycle/"
+  },
   "architecture.design-principles": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/design-principles/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/design-principles/"
@@ -115,6 +131,10 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystem-map/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystem-map/"
   },
+  "architecture.subsystems-deep-dive": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystems-deep-dive/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystems-deep-dive/"
+  },
   "build.overview": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/"
@@ -130,6 +150,10 @@
   "contributing.ai-assisted-development": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/ai-assisted-development/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/ai-assisted-development/"
+  },
+  "contributing.core-dev-guide": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/core-dev-guide/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/core-dev-guide/"
   },
   "contributing.documentation-policy": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/documentation-policy/",
@@ -202,6 +226,10 @@
   "cpp.mutations": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/mutations/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/mutations/"
+  },
+  "cpp.native-binding-guide": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/native-binding-guide/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/native-binding-guide/"
   },
   "cpp.overmap": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/overmap/",

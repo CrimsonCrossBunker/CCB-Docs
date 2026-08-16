@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 51a10f98fb3eb767b250f2df3d84e4427cadbc105d549fd9994fbb03904cfc73
+translation_source_fingerprint: 2e01bc6900b3485997d53b65db28ef6ef5ddd75bb119ba3f4ee669b90dafef60
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,17 +68,14 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # 属性参考
 
-本页由固定提交 `d32b9cc880a85480840d82cfa05d256c78a16615` 的 Lua v5 公开契约生成，收录 51 条 `properties` 记录。不要手工修改本页。
+本页为 CCB Lua 0.1 平台自动生成的 `属性参考` 规范手册，收录 51 条 `properties` 契约记录。
 
 ## `GameEnum.kind` { #symbol-api-lua-v5-generated-property-gameenum-kind-2898909880c9 }
 
-**契约字段:**
-
-- `name`: `"kind"`
-- `optional`: `false`
-- `declaration`: `"string"`
-- `class`: `"GameEnum"`
-- `read_only`: `true`
+```lua
+---@field kind string (readonly)
+GameEnum.kind = ... -- string
+```
 
 **来源:**
 
@@ -87,13 +84,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `GameEnum.name` { #symbol-api-lua-v5-generated-property-gameenum-name-502c12af0c25 }
 
-**契约字段:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
-- `class`: `"GameEnum"`
-- `read_only`: `true`
+```lua
+---@field name string (readonly)
+GameEnum.name = ... -- string
+```
 
 **来源:**
 
@@ -102,13 +96,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `GameEnum.ordinal` { #symbol-api-lua-v5-generated-property-gameenum-ordinal-876abf1c5b4e }
 
-**契约字段:**
-
-- `name`: `"ordinal"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"GameEnum"`
-- `read_only`: `true`
+```lua
+---@field ordinal integer (readonly)
+GameEnum.ordinal = ... -- integer
+```
 
 **来源:**
 
@@ -117,13 +108,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `GameHandle.kind` { #symbol-api-lua-v5-generated-property-gamehandle-kind-9ee39b9273ea }
 
-**契约字段:**
-
-- `name`: `"kind"`
-- `optional`: `false`
-- `declaration`: `"'\"creature\"'|'\"item\"'|'\"vehicle\"'"`
-- `class`: `"GameHandle"`
-- `read_only`: `true`
+```lua
+---@field kind '"creature"'|'"item"'|'"vehicle"' (readonly)
+GameHandle.kind = ... -- '"creature"'|'"item"'|'"vehicle"'
+```
 
 **来源:**
 
@@ -132,13 +120,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `GameId.kind` { #symbol-api-lua-v5-generated-property-gameid-kind-e58a40b981a5 }
 
-**契约字段:**
-
-- `name`: `"kind"`
-- `optional`: `false`
-- `declaration`: `"string"`
-- `class`: `"GameId"`
-- `read_only`: `true`
+```lua
+---@field kind string (readonly)
+GameId.kind = ... -- string
+```
 
 **来源:**
 
@@ -147,13 +132,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `GameId.value` { #symbol-api-lua-v5-generated-property-gameid-value-2dac8b48de9a }
 
-**契约字段:**
-
-- `name`: `"value"`
-- `optional`: `false`
-- `declaration`: `"string"`
-- `class`: `"GameId"`
-- `read_only`: `true`
+```lua
+---@field value string (readonly)
+GameId.value = ... -- string
+```
 
 **来源:**
 
@@ -162,13 +144,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `HordeEntityToken.monster` { #symbol-api-lua-v5-generated-property-hordeentitytoken-monster-321a38d44617 }
 
-**契约字段:**
-
-- `name`: `"monster"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
-- `class`: `"HordeEntityToken"`
-- `read_only`: `true`
+```lua
+---@field monster GameId (readonly)
+HordeEntityToken.monster = ... -- GameId
+```
 
 **来源:**
 
@@ -177,13 +156,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `HordeEntityToken.position` { #symbol-api-lua-v5-generated-property-hordeentitytoken-position-8ba8b74b866c }
 
-**契约字段:**
-
-- `name`: `"position"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
-- `class`: `"HordeEntityToken"`
-- `read_only`: `true`
+```lua
+---@field position TripointCoord (readonly)
+HordeEntityToken.position = ... -- TripointCoord
+```
 
 **来源:**
 
@@ -192,13 +168,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `HordeEntityToken.runtime_generation` { #symbol-api-lua-v5-generated-property-hordeentitytoken-runtime-generation-3ce7c83c1268 }
 
-**契约字段:**
-
-- `name`: `"runtime_generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"HordeEntityToken"`
-- `read_only`: `true`
+```lua
+---@field runtime_generation integer (readonly)
+HordeEntityToken.runtime_generation = ... -- integer
+```
 
 **来源:**
 
@@ -207,13 +180,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `HordeEntityToken.world_generation` { #symbol-api-lua-v5-generated-property-hordeentitytoken-world-generation-1f0823837bc7 }
 
-**契约字段:**
-
-- `name`: `"world_generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"HordeEntityToken"`
-- `read_only`: `true`
+```lua
+---@field world_generation integer (readonly)
+HordeEntityToken.world_generation = ... -- integer
+```
 
 **来源:**
 
@@ -222,13 +192,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `LegacyHordeToken.group` { #symbol-api-lua-v5-generated-property-legacyhordetoken-group-fa8ed99c1d25 }
 
-**契约字段:**
-
-- `name`: `"group"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
-- `class`: `"LegacyHordeToken"`
-- `read_only`: `true`
+```lua
+---@field group GameId (readonly)
+LegacyHordeToken.group = ... -- GameId
+```
 
 **来源:**
 
@@ -237,13 +204,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `LegacyHordeToken.position` { #symbol-api-lua-v5-generated-property-legacyhordetoken-position-3c16048af0ae }
 
-**契约字段:**
-
-- `name`: `"position"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
-- `class`: `"LegacyHordeToken"`
-- `read_only`: `true`
+```lua
+---@field position TripointCoord (readonly)
+LegacyHordeToken.position = ... -- TripointCoord
+```
 
 **来源:**
 
@@ -252,13 +216,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `LegacyHordeToken.runtime_generation` { #symbol-api-lua-v5-generated-property-legacyhordetoken-runtime-generation-4dbf7d61646b }
 
-**契约字段:**
-
-- `name`: `"runtime_generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"LegacyHordeToken"`
-- `read_only`: `true`
+```lua
+---@field runtime_generation integer (readonly)
+LegacyHordeToken.runtime_generation = ... -- integer
+```
 
 **来源:**
 
@@ -267,13 +228,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `LegacyHordeToken.world_generation` { #symbol-api-lua-v5-generated-property-legacyhordetoken-world-generation-c6b375cd0fe9 }
 
-**契约字段:**
-
-- `name`: `"world_generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"LegacyHordeToken"`
-- `read_only`: `true`
+```lua
+---@field world_generation integer (readonly)
+LegacyHordeToken.world_generation = ... -- integer
+```
 
 **来源:**
 
@@ -282,13 +240,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `MissionToken.runtime_generation` { #symbol-api-lua-v5-generated-property-missiontoken-runtime-generation-6b5502a4ce11 }
 
-**契约字段:**
-
-- `name`: `"runtime_generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"MissionToken"`
-- `read_only`: `true`
+```lua
+---@field runtime_generation integer (readonly)
+MissionToken.runtime_generation = ... -- integer
+```
 
 **来源:**
 
@@ -297,13 +252,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `MissionToken.uid` { #symbol-api-lua-v5-generated-property-missiontoken-uid-d4c4c0f03517 }
 
-**契约字段:**
-
-- `name`: `"uid"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"MissionToken"`
-- `read_only`: `true`
+```lua
+---@field uid integer (readonly)
+MissionToken.uid = ... -- integer
+```
 
 **来源:**
 
@@ -312,13 +264,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `MissionToken.world_generation` { #symbol-api-lua-v5-generated-property-missiontoken-world-generation-b196924cae81 }
 
-**契约字段:**
-
-- `name`: `"world_generation"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"MissionToken"`
-- `read_only`: `true`
+```lua
+---@field world_generation integer (readonly)
+MissionToken.world_generation = ... -- integer
+```
 
 **来源:**
 
@@ -327,13 +276,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `PointCoord.origin` { #symbol-api-lua-v5-generated-property-pointcoord-origin-8a9cee8df020 }
 
-**契约字段:**
-
-- `name`: `"origin"`
-- `optional`: `false`
-- `declaration`: `"CcbCoordinateOrigin"`
-- `class`: `"PointCoord"`
-- `read_only`: `true`
+```lua
+---@field origin CcbCoordinateOrigin (readonly)
+PointCoord.origin = ... -- CcbCoordinateOrigin
+```
 
 **来源:**
 
@@ -342,13 +288,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `PointCoord.scale` { #symbol-api-lua-v5-generated-property-pointcoord-scale-f4c7aeaf968a }
 
-**契约字段:**
-
-- `name`: `"scale"`
-- `optional`: `false`
-- `declaration`: `"CcbCoordinateScale"`
-- `class`: `"PointCoord"`
-- `read_only`: `true`
+```lua
+---@field scale CcbCoordinateScale (readonly)
+PointCoord.scale = ... -- CcbCoordinateScale
+```
 
 **来源:**
 
@@ -357,13 +300,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `PointCoord.type` { #symbol-api-lua-v5-generated-property-pointcoord-type-2d104ab19607 }
 
-**契约字段:**
-
-- `name`: `"type"`
-- `optional`: `false`
-- `declaration`: `"string"`
-- `class`: `"PointCoord"`
-- `read_only`: `true`
+```lua
+---@field type string (readonly)
+PointCoord.type = ... -- string
+```
 
 **来源:**
 
@@ -372,13 +312,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `PointCoord.x` { #symbol-api-lua-v5-generated-property-pointcoord-x-6fdfbc13f4aa }
 
-**契约字段:**
-
-- `name`: `"x"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"PointCoord"`
-- `read_only`: `true`
+```lua
+---@field x integer (readonly)
+PointCoord.x = ... -- integer
+```
 
 **来源:**
 
@@ -387,13 +324,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `PointCoord.y` { #symbol-api-lua-v5-generated-property-pointcoord-y-9e5596aab765 }
 
-**契约字段:**
-
-- `name`: `"y"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"PointCoord"`
-- `read_only`: `true`
+```lua
+---@field y integer (readonly)
+PointCoord.y = ... -- integer
+```
 
 **来源:**
 
@@ -402,13 +336,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ScriptUiEnvironment.breakpoint` { #symbol-api-lua-v5-generated-property-scriptuienvironment-breakpoint-f82c4fece477 }
 
-**契约字段:**
-
-- `name`: `"breakpoint"`
-- `optional`: `false`
-- `declaration`: `"'\"narrow\"'|'\"regular\"'|'\"wide\"'"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field breakpoint '"narrow"'|'"regular"'|'"wide"'
+ScriptUiEnvironment.breakpoint = ... -- '"narrow"'|'"regular"'|'"wide"'
+```
 
 **来源:**
 
@@ -417,13 +348,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ScriptUiEnvironment.density` { #symbol-api-lua-v5-generated-property-scriptuienvironment-density-cc4767d34d41 }
 
-**契约字段:**
-
-- `name`: `"density"`
-- `optional`: `false`
-- `declaration`: `"'\"touch\"'|'\"comfortable\"'|'\"compact\"'"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field density '"touch"'|'"comfortable"'|'"compact"'
+ScriptUiEnvironment.density = ... -- '"touch"'|'"comfortable"'|'"compact"'
+```
 
 **来源:**
 
@@ -432,13 +360,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ScriptUiEnvironment.hover` { #symbol-api-lua-v5-generated-property-scriptuienvironment-hover-7f174da0cbce }
 
-**契约字段:**
-
-- `name`: `"hover"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field hover boolean
+ScriptUiEnvironment.hover = ... -- boolean
+```
 
 **来源:**
 
@@ -447,13 +372,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ScriptUiEnvironment.input` { #symbol-api-lua-v5-generated-property-scriptuienvironment-input-507d128db0cd }
 
-**契约字段:**
-
-- `name`: `"input"`
-- `optional`: `false`
-- `declaration`: `"'\"touch\"'|'\"mouse_keyboard\"'|'\"terminal\"'"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field input '"touch"'|'"mouse_keyboard"'|'"terminal"'
+ScriptUiEnvironment.input = ... -- '"touch"'|'"mouse_keyboard"'|'"terminal"'
+```
 
 **来源:**
 
@@ -462,13 +384,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ScriptUiEnvironment.keyboard_navigation` { #symbol-api-lua-v5-generated-property-scriptuienvironment-keyboard-navigation-9378ce95a9ff }
 
-**契约字段:**
-
-- `name`: `"keyboard_navigation"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field keyboard_navigation boolean
+ScriptUiEnvironment.keyboard_navigation = ... -- boolean
+```
 
 **来源:**
 
@@ -477,13 +396,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ScriptUiEnvironment.long_press_dangerous` { #symbol-api-lua-v5-generated-property-scriptuienvironment-long-press-dangerous-bd8675b1decf }
 
-**契约字段:**
-
-- `name`: `"long_press_dangerous"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field long_press_dangerous boolean
+ScriptUiEnvironment.long_press_dangerous = ... -- boolean
+```
 
 **来源:**
 
@@ -492,13 +408,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ScriptUiEnvironment.minimum_target` { #symbol-api-lua-v5-generated-property-scriptuienvironment-minimum-target-5ec4ad380501 }
 
-**契约字段:**
-
-- `name`: `"minimum_target"`
-- `optional`: `false`
-- `declaration`: `"number"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field minimum_target number
+ScriptUiEnvironment.minimum_target = ... -- number
+```
 
 **来源:**
 
@@ -507,13 +420,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ScriptUiEnvironment.native_text_input` { #symbol-api-lua-v5-generated-property-scriptuienvironment-native-text-input-c71a60c60d11 }
 
-**契约字段:**
-
-- `name`: `"native_text_input"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field native_text_input boolean
+ScriptUiEnvironment.native_text_input = ... -- boolean
+```
 
 **来源:**
 
@@ -522,13 +432,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ScriptUiEnvironment.pointer_activation` { #symbol-api-lua-v5-generated-property-scriptuienvironment-pointer-activation-6f3d28aa1acf }
 
-**契约字段:**
-
-- `name`: `"pointer_activation"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field pointer_activation boolean
+ScriptUiEnvironment.pointer_activation = ... -- boolean
+```
 
 **来源:**
 
@@ -537,13 +444,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ScriptUiEnvironment.profile` { #symbol-api-lua-v5-generated-property-scriptuienvironment-profile-f56911006ef2 }
 
-**契约字段:**
-
-- `name`: `"profile"`
-- `optional`: `false`
-- `declaration`: `"string"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field profile string
+ScriptUiEnvironment.profile = ... -- string
+```
 
 **来源:**
 
@@ -552,13 +456,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ScriptUiEnvironment.swipe_scroll` { #symbol-api-lua-v5-generated-property-scriptuienvironment-swipe-scroll-c311b7e13801 }
 
-**契约字段:**
-
-- `name`: `"swipe_scroll"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field swipe_scroll boolean
+ScriptUiEnvironment.swipe_scroll = ... -- boolean
+```
 
 **来源:**
 
@@ -567,13 +468,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ScriptUiEnvironment.tap_activation` { #symbol-api-lua-v5-generated-property-scriptuienvironment-tap-activation-2c770d835fca }
 
-**契约字段:**
-
-- `name`: `"tap_activation"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field tap_activation boolean
+ScriptUiEnvironment.tap_activation = ... -- boolean
+```
 
 **来源:**
 
@@ -582,13 +480,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ScriptUiEnvironment.touch` { #symbol-api-lua-v5-generated-property-scriptuienvironment-touch-62e43c5a4c7b }
 
-**契约字段:**
-
-- `name`: `"touch"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
-- `class`: `"ScriptUiEnvironment"`
-- `read_only`: `false`
+```lua
+---@field touch boolean
+ScriptUiEnvironment.touch = ... -- boolean
+```
 
 **来源:**
 
@@ -597,13 +492,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TimeDuration.turns` { #symbol-api-lua-v5-generated-property-timeduration-turns-9015108bdcce }
 
-**契约字段:**
-
-- `name`: `"turns"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"TimeDuration"`
-- `read_only`: `true`
+```lua
+---@field turns integer (readonly)
+TimeDuration.turns = ... -- integer
+```
 
 **来源:**
 
@@ -612,13 +504,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TimePoint.turn` { #symbol-api-lua-v5-generated-property-timepoint-turn-3e090291264d }
 
-**契约字段:**
-
-- `name`: `"turn"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"TimePoint"`
-- `read_only`: `true`
+```lua
+---@field turn integer (readonly)
+TimePoint.turn = ... -- integer
+```
 
 **来源:**
 
@@ -627,13 +516,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TripointCoord.origin` { #symbol-api-lua-v5-generated-property-tripointcoord-origin-612d720f92ec }
 
-**契约字段:**
-
-- `name`: `"origin"`
-- `optional`: `false`
-- `declaration`: `"CcbCoordinateOrigin"`
-- `class`: `"TripointCoord"`
-- `read_only`: `true`
+```lua
+---@field origin CcbCoordinateOrigin (readonly)
+TripointCoord.origin = ... -- CcbCoordinateOrigin
+```
 
 **来源:**
 
@@ -642,13 +528,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TripointCoord.scale` { #symbol-api-lua-v5-generated-property-tripointcoord-scale-965c7d6b7dde }
 
-**契约字段:**
-
-- `name`: `"scale"`
-- `optional`: `false`
-- `declaration`: `"CcbCoordinateScale"`
-- `class`: `"TripointCoord"`
-- `read_only`: `true`
+```lua
+---@field scale CcbCoordinateScale (readonly)
+TripointCoord.scale = ... -- CcbCoordinateScale
+```
 
 **来源:**
 
@@ -657,13 +540,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TripointCoord.type` { #symbol-api-lua-v5-generated-property-tripointcoord-type-b37ad1a9bb47 }
 
-**契约字段:**
-
-- `name`: `"type"`
-- `optional`: `false`
-- `declaration`: `"string"`
-- `class`: `"TripointCoord"`
-- `read_only`: `true`
+```lua
+---@field type string (readonly)
+TripointCoord.type = ... -- string
+```
 
 **来源:**
 
@@ -672,13 +552,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TripointCoord.x` { #symbol-api-lua-v5-generated-property-tripointcoord-x-3c09b813544a }
 
-**契约字段:**
-
-- `name`: `"x"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"TripointCoord"`
-- `read_only`: `true`
+```lua
+---@field x integer (readonly)
+TripointCoord.x = ... -- integer
+```
 
 **来源:**
 
@@ -687,13 +564,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TripointCoord.y` { #symbol-api-lua-v5-generated-property-tripointcoord-y-341e534c39f9 }
 
-**契约字段:**
-
-- `name`: `"y"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"TripointCoord"`
-- `read_only`: `true`
+```lua
+---@field y integer (readonly)
+TripointCoord.y = ... -- integer
+```
 
 **来源:**
 
@@ -702,13 +576,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TripointCoord.z` { #symbol-api-lua-v5-generated-property-tripointcoord-z-b4309ee729d9 }
 
-**契约字段:**
-
-- `name`: `"z"`
-- `optional`: `false`
-- `declaration`: `"integer"`
-- `class`: `"TripointCoord"`
-- `read_only`: `true`
+```lua
+---@field z integer (readonly)
+TripointCoord.z = ... -- integer
+```
 
 **来源:**
 
@@ -717,13 +588,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `UnitValue.canonical_unit` { #symbol-api-lua-v5-generated-property-unitvalue-canonical-unit-e573d8c6a85d }
 
-**契约字段:**
-
-- `name`: `"canonical_unit"`
-- `optional`: `false`
-- `declaration`: `"string"`
-- `class`: `"UnitValue"`
-- `read_only`: `true`
+```lua
+---@field canonical_unit string (readonly)
+UnitValue.canonical_unit = ... -- string
+```
 
 **来源:**
 
@@ -732,13 +600,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `UnitValue.kind` { #symbol-api-lua-v5-generated-property-unitvalue-kind-ae3630d3bebe }
 
-**契约字段:**
-
-- `name`: `"kind"`
-- `optional`: `false`
-- `declaration`: `"string"`
-- `class`: `"UnitValue"`
-- `read_only`: `true`
+```lua
+---@field kind string (readonly)
+UnitValue.kind = ... -- string
+```
 
 **来源:**
 
@@ -747,13 +612,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ZoneToken.end` { #symbol-api-lua-v5-generated-property-zonetoken-end-fffec26775ce }
 
-**契约字段:**
-
-- `name`: `"end"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
-- `class`: `"ZoneToken"`
-- `read_only`: `true`
+```lua
+---@field end TripointCoord (readonly)
+ZoneToken.end = ... -- TripointCoord
+```
 
 **来源:**
 
@@ -762,13 +624,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ZoneToken.faction` { #symbol-api-lua-v5-generated-property-zonetoken-faction-5a8b72667bcd }
 
-**契约字段:**
-
-- `name`: `"faction"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
-- `class`: `"ZoneToken"`
-- `read_only`: `true`
+```lua
+---@field faction GameId (readonly)
+ZoneToken.faction = ... -- GameId
+```
 
 **来源:**
 
@@ -777,13 +636,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ZoneToken.name` { #symbol-api-lua-v5-generated-property-zonetoken-name-f740b8053413 }
 
-**契约字段:**
-
-- `name`: `"name"`
-- `optional`: `false`
-- `declaration`: `"string"`
-- `class`: `"ZoneToken"`
-- `read_only`: `true`
+```lua
+---@field name string (readonly)
+ZoneToken.name = ... -- string
+```
 
 **来源:**
 
@@ -792,13 +648,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ZoneToken.personal` { #symbol-api-lua-v5-generated-property-zonetoken-personal-a11670439b75 }
 
-**契约字段:**
-
-- `name`: `"personal"`
-- `optional`: `false`
-- `declaration`: `"boolean"`
-- `class`: `"ZoneToken"`
-- `read_only`: `true`
+```lua
+---@field personal boolean (readonly)
+ZoneToken.personal = ... -- boolean
+```
 
 **来源:**
 
@@ -807,13 +660,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ZoneToken.start` { #symbol-api-lua-v5-generated-property-zonetoken-start-920d1df8907f }
 
-**契约字段:**
-
-- `name`: `"start"`
-- `optional`: `false`
-- `declaration`: `"TripointCoord"`
-- `class`: `"ZoneToken"`
-- `read_only`: `true`
+```lua
+---@field start TripointCoord (readonly)
+ZoneToken.start = ... -- TripointCoord
+```
 
 **来源:**
 
@@ -822,13 +672,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `ZoneToken.type` { #symbol-api-lua-v5-generated-property-zonetoken-type-1cc7821bf333 }
 
-**契约字段:**
-
-- `name`: `"type"`
-- `optional`: `false`
-- `declaration`: `"GameId"`
-- `class`: `"ZoneToken"`
-- `read_only`: `true`
+```lua
+---@field type GameId (readonly)
+ZoneToken.type = ... -- GameId
+```
 
 **来源:**
 

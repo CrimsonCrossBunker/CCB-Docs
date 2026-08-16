@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: c040556d26d107f4a86bc7c98d47925ec8ffb8d647ada7202c084bfb706691e4
+translation_source_fingerprint: 10dbab444dd6b988e9e227d5da3f555fa1848cd0e993282027534a416a0c4782
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,15 +68,13 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Manifest 字段参考
 
-本页由固定提交 `d32b9cc880a85480840d82cfa05d256c78a16615` 的 Lua v5 公开契约生成，收录 6 条 `manifest_fields` 记录。不要手工修改本页。
+本页为 CCB Lua 0.1 平台自动生成的 `Manifest 字段参考` 规范手册，收录 6 条 `manifest_fields` 契约记录。
 
 ## `$schema` { #symbol-api-lua-v5-generated-manifest-field-schema-24601b92d545 }
 
-**契约字段:**
-
-- `required`: `false`
-- `schema`: `{"type": "string"}`
-- `runtime_read`: `false`
+```json
+"$schema": ... // optional
+```
 
 **来源:**
 
@@ -84,11 +82,9 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `id` { #symbol-api-lua-v5-generated-manifest-field-id-2b0fc6d708d6 }
 
-**契约字段:**
-
-- `required`: `true`
-- `schema`: `{"description": "Stable source id. A Mod manifest id must equal the Mod id.", "maxLength": 128, "minLength": 1, "pattern": "^[A-Za-z0-9_.:-]+$", "type": "string"}`
-- `runtime_read`: `true`
+```json
+"id": ... // required
+```
 
 **来源:**
 
@@ -96,11 +92,9 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `version` { #symbol-api-lua-v5-generated-manifest-field-version-c3c278d955b4 }
 
-**契约字段:**
-
-- `required`: `true`
-- `schema`: `{"description": "Source-defined version shown to developers and service consumers.", "maxLength": 64, "minLength": 1, "type": "string"}`
-- `runtime_read`: `true`
+```json
+"version": ... // required
+```
 
 **来源:**
 
@@ -108,11 +102,9 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `api_version` { #symbol-api-lua-v5-generated-manifest-field-api-version-decd4c1a4386 }
 
-**契约字段:**
-
-- `required`: `true`
-- `schema`: `{"description": "Lua API contract requested by this source.", "enum": [2, 3, 4, 5], "type": "integer"}`
-- `runtime_read`: `true`
+```json
+"api_version": ... // required
+```
 
 **来源:**
 
@@ -120,11 +112,9 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `capabilities` { #symbol-api-lua-v5-generated-manifest-field-capabilities-c5c79cd2551a }
 
-**契约字段:**
-
-- `required`: `true`
-- `schema`: `{"description": "Explicit privileges granted to this source.", "items": {"enum": ["events", "game.actions", "game.actions.dangerous", "game.callbacks", "game.hooks", "game.read", "game.write", "modules.import", "registry.read", "scheduler", "services.consume", "services.provide", "state.character", "state.page", "state.world", "ui.pages"], "type": "string"}, "maxItems": 64, "type": "array", "uniqueItems": true}`
-- `runtime_read`: `true`
+```json
+"capabilities": ... // required
+```
 
 **来源:**
 
@@ -132,11 +122,9 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `dependencies` { #symbol-api-lua-v5-generated-manifest-field-dependencies-c2978cee57bf }
 
-**契约字段:**
-
-- `required`: `true`
-- `schema`: `{"description": "Earlier-loaded source ids that may be imported, observed, or called.", "items": {"maxLength": 128, "minLength": 1, "pattern": "^[A-Za-z0-9_.:-]+$", "type": "string"}, "maxItems": 64, "type": "array", "uniqueItems": true}`
-- `runtime_read`: `true`
+```json
+"dependencies": ... // required
+```
 
 **来源:**
 

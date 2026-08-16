@@ -34,7 +34,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: d8a9ca0fabfab96a6fe77b122cd552e7584cd6a3096cdae173a99dcdbda07399
+translation_source_fingerprint: 065b04168dbb4fd6e3ff34aa2498611e85123e94f36693b630a4b8393fa9e89f
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -83,6 +83,11 @@ CCB 提供全新自研的 **CCB Lua 0.1** 纯原生内容与逻辑创作引擎�
 - [跨平台 Lua UI](api/lua/v5/ui.md)：为 PC 键盘操作和 Android 原生触屏设计自适应页面。
 - [CCB Lua 0.1 权限与能力](api/lua/v5/capabilities.md)：理解 Capability 声明与沙箱安全模型。
 
+#### 🍳 纯 Lua 创作实战手册 (Cookbooks)
+- [纯 Lua 装备与容器口袋实战](api/lua/v5/cookbook/items.md)：定义近战/远程武器、护甲及多 Pocket 容器嵌套模型。
+- [纯 Lua 怪物与技能 AI 实战](api/lua/v5/cookbook/monsters.md)：编写全新物种、AI 策略树与动态特殊攻击。
+- [纯 Lua 地块与建筑生成实战](api/lua/v5/cookbook/mapgen.md)：算法化生成避难所、哨站与 ASCII 字符矩阵蓝图。
+
 #### 📚 API 参考手册直达（API Reference）
 | API 分类 | 快速入口 | 内容说明 |
 | --- | --- | --- |
@@ -94,12 +99,13 @@ CCB 提供全新自研的 **CCB Lua 0.1** 纯原生内容与逻辑创作引擎�
 | 🎭 **回调 Actor (Callbacks)** | [查阅回调表](api/lua/v5/reference/callbacks.md) | 玩家交互、IUSE 动作与活动执行回调 |
 | 🏷️ **枚举与常量 (Enums)** | [查阅枚举常量](api/lua/v5/reference/enums.md) | 伤害类型、部位、天气、标记等枚举定义 |
 
-### 🛠️ 2. 本体与引擎开发者（C++ 引擎与构建）
+### 🛠️ 2. 本体与引擎开发者（C++ 引擎与底层架构）
 面向贡献游戏底层逻辑、系统机制与原生绑定的开发者：
-- [项目地图与架构](architecture/project-map.md)：按子系统导航 C++ 源码、数据与测试边界。
+- [游戏引擎生命周期与主循环深度剖析](architecture/core-engine-lifecycle.md)：从引导启动、数据装载到 `process_turn` 回合循环全景图。
+- [游戏引擎核心八大子系统深度剖析](architecture/subsystems-deep-dive.md)：实体、地图缓存、物品 Pocket、有限水体与物理场全拆解。
+- [游戏本体核心开发与贡献指南](contributing/core-dev-guide.md)：Linux/Windows/Android 全平台环境、C++20 规范、Catch2 测试与 PR 规范。
+- [C++ 引擎底层 Native 绑定指南](cpp/native-binding-guide.md)：使用 Sol2 导出类与函数、编写 LuaLS 注解与 100% 覆盖率验证。
 - [快速构建指南](build/overview.md)：掌握 CMake / Make 现代编译流程与平台支持。
-- [自动化测试与验证](validation/quickstart.md)：运行 Catch2 单元测试与快速校验工具。
-- [Native Lua Bridge 与绑定](cpp/lua-bridge.md)：了解 C++ 引擎与 Lua 0.1 运行时的数据桥接机制。
 
 ### 🏛️ 3. 参与项目与治理规范
 - [第一次贡献](getting-started/first-contribution.md)：完成从环境配置到 PR 提交的最短路线。

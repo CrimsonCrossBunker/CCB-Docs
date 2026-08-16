@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 9b65949157754228bffac8af5bac8948096391a3bd4c2ce5ac64701949bb0a39
+translation_source_fingerprint: cec8811ba952d1591c227f256acb2c1edac6a512e5dc055caece597200249256
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,21 +68,16 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # 回调 Actor 参考
 
-本页由固定提交 `d32b9cc880a85480840d82cfa05d256c78a16615` 的 Lua v5 公开契约生成，收录 38 条 `callbacks` 记录。不要手工修改本页。
+本页为 CCB Lua 0.1 平台自动生成的 `回调 Actor 参考` 规范手册，收录 38 条 `callbacks` 契约记录。
 
 ## `bionic.on_activate` { #symbol-api-lua-v5-generated-callback-bionic-on-activate-b54ab11f71b1 }
 
-**契约字段:**
+```lua
+-- Callback: bionic.on_activate
+-- Kind: bionic (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"bionic"`
-- `target_id_kind`: `"bionic"`
-- `method`: `"on_activate"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -90,17 +85,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `bionic.on_deactivate` { #symbol-api-lua-v5-generated-callback-bionic-on-deactivate-f00c274c8df2 }
 
-**契约字段:**
+```lua
+-- Callback: bionic.on_deactivate
+-- Kind: bionic (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"bionic"`
-- `target_id_kind`: `"bionic"`
-- `method`: `"on_deactivate"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -108,17 +98,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `bionic.on_installed` { #symbol-api-lua-v5-generated-callback-bionic-on-installed-8f968037c42a }
 
-**契约字段:**
+```lua
+-- Callback: bionic.on_installed
+-- Kind: bionic (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"bionic"`
-- `target_id_kind`: `"bionic"`
-- `method`: `"on_installed"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -126,17 +111,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `bionic.on_removed` { #symbol-api-lua-v5-generated-callback-bionic-on-removed-2ab3d687f73c }
 
-**契约字段:**
+```lua
+-- Callback: bionic.on_removed
+-- Kind: bionic (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"bionic"`
-- `target_id_kind`: `"bionic"`
-- `method`: `"on_removed"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -144,17 +124,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `iequippable.on_break` { #symbol-api-lua-v5-generated-callback-iequippable-on-break-85fe31c09d04 }
 
-**契约字段:**
+```lua
+-- Callback: iequippable.on_break
+-- Kind: iequippable (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"iequippable"`
-- `target_id_kind`: `"item"`
-- `method`: `"on_break"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -162,17 +137,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `iequippable.on_durability_change` { #symbol-api-lua-v5-generated-callback-iequippable-on-durability-change-cb6b4742b9a6 }
 
-**契约字段:**
+```lua
+-- Callback: iequippable.on_durability_change
+-- Kind: iequippable (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"iequippable"`
-- `target_id_kind`: `"item"`
-- `method`: `"on_durability_change"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -180,17 +150,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `iequippable.on_repair` { #symbol-api-lua-v5-generated-callback-iequippable-on-repair-793ad287b3a1 }
 
-**契约字段:**
+```lua
+-- Callback: iequippable.on_repair
+-- Kind: iequippable (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"iequippable"`
-- `target_id_kind`: `"item"`
-- `method`: `"on_repair"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -198,17 +163,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `imelee.on_block` { #symbol-api-lua-v5-generated-callback-imelee-on-block-e43e6adb200f }
 
-**契约字段:**
+```lua
+-- Callback: imelee.on_block
+-- Kind: imelee (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"imelee"`
-- `target_id_kind`: `"item"`
-- `method`: `"on_block"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -216,17 +176,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `imelee.on_hit` { #symbol-api-lua-v5-generated-callback-imelee-on-hit-ef9506ed9453 }
 
-**契约字段:**
+```lua
+-- Callback: imelee.on_hit
+-- Kind: imelee (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"imelee"`
-- `target_id_kind`: `"item"`
-- `method`: `"on_hit"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -234,17 +189,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `imelee.on_melee_attack` { #symbol-api-lua-v5-generated-callback-imelee-on-melee-attack-ddb14f32d6b6 }
 
-**契约字段:**
+```lua
+-- Callback: imelee.on_melee_attack
+-- Kind: imelee (Payload: table<string, CcbLuaValue> -> Result: boolean|table|nil)
+```
 
-- `kind`: `"imelee"`
-- `target_id_kind`: `"item"`
-- `method`: `"on_melee_attack"`
-- `decision`: `true`
-- `consuming`: `false`
-- `requires_write`: `true`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"boolean|table|nil"`
-- `capabilities`: `["game.callbacks", "game.read", "game.write"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`, `game.write`
 
 **来源:**
 
@@ -252,17 +202,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `imelee.on_miss` { #symbol-api-lua-v5-generated-callback-imelee-on-miss-26374299b729 }
 
-**契约字段:**
+```lua
+-- Callback: imelee.on_miss
+-- Kind: imelee (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"imelee"`
-- `target_id_kind`: `"item"`
-- `method`: `"on_miss"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -270,17 +215,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `iranged.can_fire` { #symbol-api-lua-v5-generated-callback-iranged-can-fire-142485faee13 }
 
-**契约字段:**
+```lua
+-- Callback: iranged.can_fire
+-- Kind: iranged (Payload: table<string, CcbLuaValue> -> Result: boolean|table|nil)
+```
 
-- `kind`: `"iranged"`
-- `target_id_kind`: `"item"`
-- `method`: `"can_fire"`
-- `decision`: `true`
-- `consuming`: `false`
-- `requires_write`: `true`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"boolean|table|nil"`
-- `capabilities`: `["game.callbacks", "game.read", "game.write"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`, `game.write`
 
 **来源:**
 
@@ -288,17 +228,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `iranged.can_reload` { #symbol-api-lua-v5-generated-callback-iranged-can-reload-3ba135cbc496 }
 
-**契约字段:**
+```lua
+-- Callback: iranged.can_reload
+-- Kind: iranged (Payload: table<string, CcbLuaValue> -> Result: boolean|table|nil)
+```
 
-- `kind`: `"iranged"`
-- `target_id_kind`: `"item"`
-- `method`: `"can_reload"`
-- `decision`: `true`
-- `consuming`: `false`
-- `requires_write`: `true`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"boolean|table|nil"`
-- `capabilities`: `["game.callbacks", "game.read", "game.write"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`, `game.write`
 
 **来源:**
 
@@ -306,17 +241,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `iranged.on_fire` { #symbol-api-lua-v5-generated-callback-iranged-on-fire-6e0a60b635bc }
 
-**契约字段:**
+```lua
+-- Callback: iranged.on_fire
+-- Kind: iranged (Payload: table<string, CcbLuaValue> -> Result: boolean|table|nil)
+```
 
-- `kind`: `"iranged"`
-- `target_id_kind`: `"item"`
-- `method`: `"on_fire"`
-- `decision`: `true`
-- `consuming`: `false`
-- `requires_write`: `true`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"boolean|table|nil"`
-- `capabilities`: `["game.callbacks", "game.read", "game.write"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`, `game.write`
 
 **来源:**
 
@@ -324,17 +254,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `iranged.on_reload` { #symbol-api-lua-v5-generated-callback-iranged-on-reload-8504c64b006f }
 
-**契约字段:**
+```lua
+-- Callback: iranged.on_reload
+-- Kind: iranged (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"iranged"`
-- `target_id_kind`: `"item"`
-- `method`: `"on_reload"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -342,17 +267,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `istate.on_drop` { #symbol-api-lua-v5-generated-callback-istate-on-drop-ef31d434fbf2 }
 
-**契约字段:**
+```lua
+-- Callback: istate.on_drop
+-- Kind: istate (Payload: table<string, CcbLuaValue> -> Result: boolean|table|nil)
+```
 
-- `kind`: `"istate"`
-- `target_id_kind`: `"item"`
-- `method`: `"on_drop"`
-- `decision`: `true`
-- `consuming`: `true`
-- `requires_write`: `true`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"boolean|table|nil"`
-- `capabilities`: `["game.callbacks", "game.read", "game.write"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`, `game.write`
 
 **来源:**
 
@@ -360,17 +280,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `istate.on_pickup` { #symbol-api-lua-v5-generated-callback-istate-on-pickup-17dbb0f18479 }
 
-**契约字段:**
+```lua
+-- Callback: istate.on_pickup
+-- Kind: istate (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"istate"`
-- `target_id_kind`: `"item"`
-- `method`: `"on_pickup"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -378,17 +293,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `istate.on_tick` { #symbol-api-lua-v5-generated-callback-istate-on-tick-9e0740ee4c91 }
 
-**契约字段:**
+```lua
+-- Callback: istate.on_tick
+-- Kind: istate (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"istate"`
-- `target_id_kind`: `"item"`
-- `method`: `"on_tick"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -396,17 +306,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `iuse.can_use` { #symbol-api-lua-v5-generated-callback-iuse-can-use-c46b3cc02fed }
 
-**契约字段:**
+```lua
+-- Callback: iuse.can_use
+-- Kind: iuse (Payload: table<string, CcbLuaValue> -> Result: boolean|table|nil)
+```
 
-- `kind`: `"iuse"`
-- `target_id_kind`: `"item"`
-- `method`: `"can_use"`
-- `decision`: `true`
-- `consuming`: `false`
-- `requires_write`: `true`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"boolean|table|nil"`
-- `capabilities`: `["game.callbacks", "game.read", "game.write"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`, `game.write`
 
 **来源:**
 
@@ -414,17 +319,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `iuse.on_use` { #symbol-api-lua-v5-generated-callback-iuse-on-use-33c372b5458f }
 
-**契约字段:**
+```lua
+-- Callback: iuse.on_use
+-- Kind: iuse (Payload: table<string, CcbLuaValue> -> Result: boolean|table|nil)
+```
 
-- `kind`: `"iuse"`
-- `target_id_kind`: `"item"`
-- `method`: `"on_use"`
-- `decision`: `true`
-- `consuming`: `false`
-- `requires_write`: `true`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"boolean|table|nil"`
-- `capabilities`: `["game.callbacks", "game.read", "game.write"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`, `game.write`
 
 **来源:**
 
@@ -432,17 +332,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `iwearable.can_takeoff` { #symbol-api-lua-v5-generated-callback-iwearable-can-takeoff-f9d35a9aa3a2 }
 
-**契约字段:**
+```lua
+-- Callback: iwearable.can_takeoff
+-- Kind: iwearable (Payload: table<string, CcbLuaValue> -> Result: boolean|table|nil)
+```
 
-- `kind`: `"iwearable"`
-- `target_id_kind`: `"item"`
-- `method`: `"can_takeoff"`
-- `decision`: `true`
-- `consuming`: `false`
-- `requires_write`: `true`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"boolean|table|nil"`
-- `capabilities`: `["game.callbacks", "game.read", "game.write"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`, `game.write`
 
 **来源:**
 
@@ -450,17 +345,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `iwearable.can_wear` { #symbol-api-lua-v5-generated-callback-iwearable-can-wear-308e41bad2b8 }
 
-**契约字段:**
+```lua
+-- Callback: iwearable.can_wear
+-- Kind: iwearable (Payload: table<string, CcbLuaValue> -> Result: boolean|table|nil)
+```
 
-- `kind`: `"iwearable"`
-- `target_id_kind`: `"item"`
-- `method`: `"can_wear"`
-- `decision`: `true`
-- `consuming`: `false`
-- `requires_write`: `true`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"boolean|table|nil"`
-- `capabilities`: `["game.callbacks", "game.read", "game.write"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`, `game.write`
 
 **来源:**
 
@@ -468,17 +358,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `iwearable.on_takeoff` { #symbol-api-lua-v5-generated-callback-iwearable-on-takeoff-4ad85eef6d55 }
 
-**契约字段:**
+```lua
+-- Callback: iwearable.on_takeoff
+-- Kind: iwearable (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"iwearable"`
-- `target_id_kind`: `"item"`
-- `method`: `"on_takeoff"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -486,17 +371,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `iwearable.on_wear` { #symbol-api-lua-v5-generated-callback-iwearable-on-wear-b69df0da75ef }
 
-**契约字段:**
+```lua
+-- Callback: iwearable.on_wear
+-- Kind: iwearable (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"iwearable"`
-- `target_id_kind`: `"item"`
-- `method`: `"on_wear"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -504,17 +384,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `iwieldable.can_unwield` { #symbol-api-lua-v5-generated-callback-iwieldable-can-unwield-87831b6d1e7b }
 
-**契约字段:**
+```lua
+-- Callback: iwieldable.can_unwield
+-- Kind: iwieldable (Payload: table<string, CcbLuaValue> -> Result: boolean|table|nil)
+```
 
-- `kind`: `"iwieldable"`
-- `target_id_kind`: `"item"`
-- `method`: `"can_unwield"`
-- `decision`: `true`
-- `consuming`: `false`
-- `requires_write`: `true`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"boolean|table|nil"`
-- `capabilities`: `["game.callbacks", "game.read", "game.write"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`, `game.write`
 
 **来源:**
 
@@ -522,17 +397,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `iwieldable.can_wield` { #symbol-api-lua-v5-generated-callback-iwieldable-can-wield-16c1aa232287 }
 
-**契约字段:**
+```lua
+-- Callback: iwieldable.can_wield
+-- Kind: iwieldable (Payload: table<string, CcbLuaValue> -> Result: boolean|table|nil)
+```
 
-- `kind`: `"iwieldable"`
-- `target_id_kind`: `"item"`
-- `method`: `"can_wield"`
-- `decision`: `true`
-- `consuming`: `false`
-- `requires_write`: `true`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"boolean|table|nil"`
-- `capabilities`: `["game.callbacks", "game.read", "game.write"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`, `game.write`
 
 **来源:**
 
@@ -540,17 +410,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `iwieldable.on_unwield` { #symbol-api-lua-v5-generated-callback-iwieldable-on-unwield-64a7f044e434 }
 
-**契约字段:**
+```lua
+-- Callback: iwieldable.on_unwield
+-- Kind: iwieldable (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"iwieldable"`
-- `target_id_kind`: `"item"`
-- `method`: `"on_unwield"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -558,17 +423,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `iwieldable.on_wield` { #symbol-api-lua-v5-generated-callback-iwieldable-on-wield-6e1e6532b273 }
 
-**契约字段:**
+```lua
+-- Callback: iwieldable.on_wield
+-- Kind: iwieldable (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"iwieldable"`
-- `target_id_kind`: `"item"`
-- `method`: `"on_wield"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -576,17 +436,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `monster.get_examine_menu_entries` { #symbol-api-lua-v5-generated-callback-monster-get-examine-menu-entries-f2d0c92d0b53 }
 
-**契约字段:**
+```lua
+-- Callback: monster.get_examine_menu_entries
+-- Kind: monster (Payload: table<string, CcbLuaValue> -> Result: boolean|table|nil)
+```
 
-- `kind`: `"monster"`
-- `target_id_kind`: `"monster"`
-- `method`: `"get_examine_menu_entries"`
-- `decision`: `true`
-- `consuming`: `false`
-- `requires_write`: `true`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"boolean|table|nil"`
-- `capabilities`: `["game.callbacks", "game.read", "game.write"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`, `game.write`
 
 **来源:**
 
@@ -594,17 +449,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `monster.on_examine_menu_entry` { #symbol-api-lua-v5-generated-callback-monster-on-examine-menu-entry-2de390a24741 }
 
-**契约字段:**
+```lua
+-- Callback: monster.on_examine_menu_entry
+-- Kind: monster (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"monster"`
-- `target_id_kind`: `"monster"`
-- `method`: `"on_examine_menu_entry"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -612,17 +462,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `monster.on_tame` { #symbol-api-lua-v5-generated-callback-monster-on-tame-d545175fa737 }
 
-**契约字段:**
+```lua
+-- Callback: monster.on_tame
+-- Kind: monster (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"monster"`
-- `target_id_kind`: `"monster"`
-- `method`: `"on_tame"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -630,17 +475,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `mutation.on_activate` { #symbol-api-lua-v5-generated-callback-mutation-on-activate-a810fb6a1cfc }
 
-**契约字段:**
+```lua
+-- Callback: mutation.on_activate
+-- Kind: mutation (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"mutation"`
-- `target_id_kind`: `"mutation"`
-- `method`: `"on_activate"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -648,17 +488,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `mutation.on_deactivate` { #symbol-api-lua-v5-generated-callback-mutation-on-deactivate-f5c2990815a8 }
 
-**契约字段:**
+```lua
+-- Callback: mutation.on_deactivate
+-- Kind: mutation (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"mutation"`
-- `target_id_kind`: `"mutation"`
-- `method`: `"on_deactivate"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -666,17 +501,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `mutation.on_gain` { #symbol-api-lua-v5-generated-callback-mutation-on-gain-7cc55da49c8b }
 
-**契约字段:**
+```lua
+-- Callback: mutation.on_gain
+-- Kind: mutation (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"mutation"`
-- `target_id_kind`: `"mutation"`
-- `method`: `"on_gain"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -684,17 +514,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `mutation.on_loss` { #symbol-api-lua-v5-generated-callback-mutation-on-loss-1936fa43ebbc }
 
-**契约字段:**
+```lua
+-- Callback: mutation.on_loss
+-- Kind: mutation (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"mutation"`
-- `target_id_kind`: `"mutation"`
-- `method`: `"on_loss"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -702,17 +527,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `trap.can_trigger` { #symbol-api-lua-v5-generated-callback-trap-can-trigger-c9382c6b42c6 }
 
-**契约字段:**
+```lua
+-- Callback: trap.can_trigger
+-- Kind: trap (Payload: table<string, CcbLuaValue> -> Result: boolean|table|nil)
+```
 
-- `kind`: `"trap"`
-- `target_id_kind`: `"trap"`
-- `method`: `"can_trigger"`
-- `decision`: `true`
-- `consuming`: `false`
-- `requires_write`: `true`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"boolean|table|nil"`
-- `capabilities`: `["game.callbacks", "game.read", "game.write"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`, `game.write`
 
 **来源:**
 
@@ -720,17 +540,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `trap.on_trigger` { #symbol-api-lua-v5-generated-callback-trap-on-trigger-78f302fc373b }
 
-**契约字段:**
+```lua
+-- Callback: trap.on_trigger
+-- Kind: trap (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"trap"`
-- `target_id_kind`: `"trap"`
-- `method`: `"on_trigger"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 
@@ -738,17 +553,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `trap.on_trigger_aftermath` { #symbol-api-lua-v5-generated-callback-trap-on-trigger-aftermath-0ded4f89fc74 }
 
-**契约字段:**
+```lua
+-- Callback: trap.on_trigger_aftermath
+-- Kind: trap (Payload: table<string, CcbLuaValue> -> Result: nil)
+```
 
-- `kind`: `"trap"`
-- `target_id_kind`: `"trap"`
-- `method`: `"on_trigger_aftermath"`
-- `decision`: `false`
-- `consuming`: `false`
-- `requires_write`: `false`
-- `payload_type`: `"table<string, CcbLuaValue>"`
-- `result_type`: `"nil"`
-- `capabilities`: `["game.callbacks", "game.read"]`
+🛡️ **所需权限 (Required Capabilities):** `game.callbacks`, `game.read`
 
 **来源:**
 

@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 0e1a642fff857179549783d4251940a5d291dca9912b8b497f22f6d06ff21450
+translation_source_fingerprint: 0ec165c155b122517974c365e6323e592a655d2865171adc824a7dcd9da97dee
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,23 +68,26 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # 运算符参考
 
-本页由固定提交 `d32b9cc880a85480840d82cfa05d256c78a16615` 的 Lua v5 公开契约生成，收录 47 条 `operators` 记录。不要手工修改本页。
+本页为 CCB Lua 0.1 平台自动生成的 `运算符参考` 规范手册，收录 47 条 `operators` 契约记录。
 
 ## `GameEnum.__eq` { #symbol-api-lua-v5-generated-operator-gameenum-eq-6dd6d6fdda2c }
 
-**契约字段:**
+```lua
+-- Operator: __eq for GameEnum
+```
 
-- `class`: `"GameEnum"`
-- `name`: `"__eq"`
-- `parameters`: `[{"declaration": "GameEnum", "name": "self", "optional": false}, {"declaration": "GameEnum", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `GameEnum` | 必选 (Required) |
+| `other` | `GameEnum` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `boolean`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -92,19 +95,21 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `GameEnum.__tostring` { #symbol-api-lua-v5-generated-operator-gameenum-tostring-bf647f8e7dda }
 
-**契约字段:**
+```lua
+-- Operator: __tostring for GameEnum
+```
 
-- `class`: `"GameEnum"`
-- `name`: `"__tostring"`
-- `parameters`: `[{"declaration": "GameEnum", "name": "self", "optional": false}]`
-- `returns`: `[{"declaration": "string"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `GameEnum` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `string`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -112,19 +117,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `GameId.__eq` { #symbol-api-lua-v5-generated-operator-gameid-eq-8d17b025768c }
 
-**契约字段:**
+```lua
+-- Operator: __eq for GameId
+```
 
-- `class`: `"GameId"`
-- `name`: `"__eq"`
-- `parameters`: `[{"declaration": "GameId", "name": "self", "optional": false}, {"declaration": "GameId", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `GameId` | 必选 (Required) |
+| `other` | `GameId` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `boolean`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -132,19 +140,21 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `GameId.__tostring` { #symbol-api-lua-v5-generated-operator-gameid-tostring-8045351d4126 }
 
-**契约字段:**
+```lua
+-- Operator: __tostring for GameId
+```
 
-- `class`: `"GameId"`
-- `name`: `"__tostring"`
-- `parameters`: `[{"declaration": "GameId", "name": "self", "optional": false}]`
-- `returns`: `[{"declaration": "string"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `GameId` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `string`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -152,19 +162,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `HordeEntityToken.__eq` { #symbol-api-lua-v5-generated-operator-hordeentitytoken-eq-a0c70a59a512 }
 
-**契约字段:**
+```lua
+-- Operator: __eq for HordeEntityToken
+```
 
-- `class`: `"HordeEntityToken"`
-- `name`: `"__eq"`
-- `parameters`: `[{"declaration": "HordeEntityToken", "name": "self", "optional": false}, {"declaration": "HordeEntityToken", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `HordeEntityToken` | 必选 (Required) |
+| `other` | `HordeEntityToken` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `boolean`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -172,19 +185,21 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `HordeEntityToken.__tostring` { #symbol-api-lua-v5-generated-operator-hordeentitytoken-tostring-c28946b97d7c }
 
-**契约字段:**
+```lua
+-- Operator: __tostring for HordeEntityToken
+```
 
-- `class`: `"HordeEntityToken"`
-- `name`: `"__tostring"`
-- `parameters`: `[{"declaration": "HordeEntityToken", "name": "self", "optional": false}]`
-- `returns`: `[{"declaration": "string"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `HordeEntityToken` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `string`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -192,19 +207,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `LegacyHordeToken.__eq` { #symbol-api-lua-v5-generated-operator-legacyhordetoken-eq-cdaa0ad87d11 }
 
-**契约字段:**
+```lua
+-- Operator: __eq for LegacyHordeToken
+```
 
-- `class`: `"LegacyHordeToken"`
-- `name`: `"__eq"`
-- `parameters`: `[{"declaration": "LegacyHordeToken", "name": "self", "optional": false}, {"declaration": "LegacyHordeToken", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `LegacyHordeToken` | 必选 (Required) |
+| `other` | `LegacyHordeToken` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `boolean`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -212,19 +230,21 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `LegacyHordeToken.__tostring` { #symbol-api-lua-v5-generated-operator-legacyhordetoken-tostring-9d66a39dc46b }
 
-**契约字段:**
+```lua
+-- Operator: __tostring for LegacyHordeToken
+```
 
-- `class`: `"LegacyHordeToken"`
-- `name`: `"__tostring"`
-- `parameters`: `[{"declaration": "LegacyHordeToken", "name": "self", "optional": false}]`
-- `returns`: `[{"declaration": "string"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `LegacyHordeToken` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `string`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -232,19 +252,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `MissionToken.__eq` { #symbol-api-lua-v5-generated-operator-missiontoken-eq-6910261746b3 }
 
-**契约字段:**
+```lua
+-- Operator: __eq for MissionToken
+```
 
-- `class`: `"MissionToken"`
-- `name`: `"__eq"`
-- `parameters`: `[{"declaration": "MissionToken", "name": "self", "optional": false}, {"declaration": "MissionToken", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `MissionToken` | 必选 (Required) |
+| `other` | `MissionToken` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `boolean`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -252,19 +275,21 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `MissionToken.__tostring` { #symbol-api-lua-v5-generated-operator-missiontoken-tostring-0fae8944c862 }
 
-**契约字段:**
+```lua
+-- Operator: __tostring for MissionToken
+```
 
-- `class`: `"MissionToken"`
-- `name`: `"__tostring"`
-- `parameters`: `[{"declaration": "MissionToken", "name": "self", "optional": false}]`
-- `returns`: `[{"declaration": "string"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `MissionToken` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `string`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -272,19 +297,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `PointCoord.__add` { #symbol-api-lua-v5-generated-operator-pointcoord-add-f1aace952d87 }
 
-**契约字段:**
+```lua
+-- Operator: __add for PointCoord
+```
 
-- `class`: `"PointCoord"`
-- `name`: `"__add"`
-- `parameters`: `[{"declaration": "PointCoord", "name": "self", "optional": false}, {"declaration": "PointCoord", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `PointCoord` | 必选 (Required) |
+| `other` | `PointCoord` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `PointCoord`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -292,19 +320,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `PointCoord.__eq` { #symbol-api-lua-v5-generated-operator-pointcoord-eq-ffaa698b587a }
 
-**契约字段:**
+```lua
+-- Operator: __eq for PointCoord
+```
 
-- `class`: `"PointCoord"`
-- `name`: `"__eq"`
-- `parameters`: `[{"declaration": "PointCoord", "name": "self", "optional": false}, {"declaration": "PointCoord", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `PointCoord` | 必选 (Required) |
+| `other` | `PointCoord` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `boolean`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -312,19 +343,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `PointCoord.__le` { #symbol-api-lua-v5-generated-operator-pointcoord-le-2d4721f424f8 }
 
-**契约字段:**
+```lua
+-- Operator: __le for PointCoord
+```
 
-- `class`: `"PointCoord"`
-- `name`: `"__le"`
-- `parameters`: `[{"declaration": "PointCoord", "name": "self", "optional": false}, {"declaration": "PointCoord", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `PointCoord` | 必选 (Required) |
+| `other` | `PointCoord` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `boolean`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -332,19 +366,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `PointCoord.__lt` { #symbol-api-lua-v5-generated-operator-pointcoord-lt-dd05866cb5f3 }
 
-**契约字段:**
+```lua
+-- Operator: __lt for PointCoord
+```
 
-- `class`: `"PointCoord"`
-- `name`: `"__lt"`
-- `parameters`: `[{"declaration": "PointCoord", "name": "self", "optional": false}, {"declaration": "PointCoord", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `PointCoord` | 必选 (Required) |
+| `other` | `PointCoord` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `boolean`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -352,19 +389,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `PointCoord.__mul` { #symbol-api-lua-v5-generated-operator-pointcoord-mul-07542bb07365 }
 
-**契约字段:**
+```lua
+-- Operator: __mul for PointCoord
+```
 
-- `class`: `"PointCoord"`
-- `name`: `"__mul"`
-- `parameters`: `[{"declaration": "PointCoord", "name": "self", "optional": false}, {"declaration": "number", "name": "factor", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `PointCoord` | 必选 (Required) |
+| `factor` | `number` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `PointCoord`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -372,19 +412,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `PointCoord.__sub` { #symbol-api-lua-v5-generated-operator-pointcoord-sub-31a8215ba177 }
 
-**契约字段:**
+```lua
+-- Operator: __sub for PointCoord
+```
 
-- `class`: `"PointCoord"`
-- `name`: `"__sub"`
-- `parameters`: `[{"declaration": "PointCoord", "name": "self", "optional": false}, {"declaration": "PointCoord", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `PointCoord` | 必选 (Required) |
+| `other` | `PointCoord` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `PointCoord`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -392,19 +435,21 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `PointCoord.__tostring` { #symbol-api-lua-v5-generated-operator-pointcoord-tostring-a74fedf72e68 }
 
-**契约字段:**
+```lua
+-- Operator: __tostring for PointCoord
+```
 
-- `class`: `"PointCoord"`
-- `name`: `"__tostring"`
-- `parameters`: `[{"declaration": "PointCoord", "name": "self", "optional": false}]`
-- `returns`: `[{"declaration": "string"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `PointCoord` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `string`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -412,19 +457,21 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `PointCoord.__unm` { #symbol-api-lua-v5-generated-operator-pointcoord-unm-f6e39aa11143 }
 
-**契约字段:**
+```lua
+-- Operator: __unm for PointCoord
+```
 
-- `class`: `"PointCoord"`
-- `name`: `"__unm"`
-- `parameters`: `[{"declaration": "PointCoord", "name": "self", "optional": false}]`
-- `returns`: `[{"declaration": "PointCoord"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `PointCoord` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `PointCoord`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -432,19 +479,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TimeDuration.__add` { #symbol-api-lua-v5-generated-operator-timeduration-add-3ec0f4c51e24 }
 
-**契约字段:**
+```lua
+-- Operator: __add for TimeDuration
+```
 
-- `class`: `"TimeDuration"`
-- `name`: `"__add"`
-- `parameters`: `[{"declaration": "TimeDuration", "name": "self", "optional": false}, {"declaration": "TimeDuration", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "TimeDuration"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TimeDuration` | 必选 (Required) |
+| `other` | `TimeDuration` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `TimeDuration`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -452,19 +502,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TimeDuration.__div` { #symbol-api-lua-v5-generated-operator-timeduration-div-6df4d99d7e96 }
 
-**契约字段:**
+```lua
+-- Operator: __div for TimeDuration
+```
 
-- `class`: `"TimeDuration"`
-- `name`: `"__div"`
-- `parameters`: `[{"declaration": "TimeDuration", "name": "self", "optional": false}, {"declaration": "number", "name": "divisor", "optional": false}]`
-- `returns`: `[{"declaration": "TimeDuration"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TimeDuration` | 必选 (Required) |
+| `divisor` | `number` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `TimeDuration`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -472,19 +525,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TimeDuration.__eq` { #symbol-api-lua-v5-generated-operator-timeduration-eq-e145148a2990 }
 
-**契约字段:**
+```lua
+-- Operator: __eq for TimeDuration
+```
 
-- `class`: `"TimeDuration"`
-- `name`: `"__eq"`
-- `parameters`: `[{"declaration": "TimeDuration", "name": "self", "optional": false}, {"declaration": "TimeDuration", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TimeDuration` | 必选 (Required) |
+| `other` | `TimeDuration` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `boolean`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -492,19 +548,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TimeDuration.__le` { #symbol-api-lua-v5-generated-operator-timeduration-le-06b0461a68f5 }
 
-**契约字段:**
+```lua
+-- Operator: __le for TimeDuration
+```
 
-- `class`: `"TimeDuration"`
-- `name`: `"__le"`
-- `parameters`: `[{"declaration": "TimeDuration", "name": "self", "optional": false}, {"declaration": "TimeDuration", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TimeDuration` | 必选 (Required) |
+| `other` | `TimeDuration` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `boolean`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -512,19 +571,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TimeDuration.__lt` { #symbol-api-lua-v5-generated-operator-timeduration-lt-c9be6da4561f }
 
-**契约字段:**
+```lua
+-- Operator: __lt for TimeDuration
+```
 
-- `class`: `"TimeDuration"`
-- `name`: `"__lt"`
-- `parameters`: `[{"declaration": "TimeDuration", "name": "self", "optional": false}, {"declaration": "TimeDuration", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TimeDuration` | 必选 (Required) |
+| `other` | `TimeDuration` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `boolean`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -532,19 +594,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TimeDuration.__mul` { #symbol-api-lua-v5-generated-operator-timeduration-mul-7dd04bb7b0a7 }
 
-**契约字段:**
+```lua
+-- Operator: __mul for TimeDuration
+```
 
-- `class`: `"TimeDuration"`
-- `name`: `"__mul"`
-- `parameters`: `[{"declaration": "TimeDuration", "name": "self", "optional": false}, {"declaration": "number", "name": "factor", "optional": false}]`
-- `returns`: `[{"declaration": "TimeDuration"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TimeDuration` | 必选 (Required) |
+| `factor` | `number` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `TimeDuration`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -552,19 +617,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TimeDuration.__sub` { #symbol-api-lua-v5-generated-operator-timeduration-sub-624c0488eb5a }
 
-**契约字段:**
+```lua
+-- Operator: __sub for TimeDuration
+```
 
-- `class`: `"TimeDuration"`
-- `name`: `"__sub"`
-- `parameters`: `[{"declaration": "TimeDuration", "name": "self", "optional": false}, {"declaration": "TimeDuration", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "TimeDuration"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TimeDuration` | 必选 (Required) |
+| `other` | `TimeDuration` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `TimeDuration`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -572,19 +640,21 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TimeDuration.__tostring` { #symbol-api-lua-v5-generated-operator-timeduration-tostring-fda2e58b5735 }
 
-**契约字段:**
+```lua
+-- Operator: __tostring for TimeDuration
+```
 
-- `class`: `"TimeDuration"`
-- `name`: `"__tostring"`
-- `parameters`: `[{"declaration": "TimeDuration", "name": "self", "optional": false}]`
-- `returns`: `[{"declaration": "string"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TimeDuration` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `string`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -592,19 +662,21 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TimeDuration.__unm` { #symbol-api-lua-v5-generated-operator-timeduration-unm-64403374e0f1 }
 
-**契约字段:**
+```lua
+-- Operator: __unm for TimeDuration
+```
 
-- `class`: `"TimeDuration"`
-- `name`: `"__unm"`
-- `parameters`: `[{"declaration": "TimeDuration", "name": "self", "optional": false}]`
-- `returns`: `[{"declaration": "TimeDuration"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TimeDuration` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `TimeDuration`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -612,19 +684,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TimePoint.__add` { #symbol-api-lua-v5-generated-operator-timepoint-add-d26e556b6907 }
 
-**契约字段:**
+```lua
+-- Operator: __add for TimePoint
+```
 
-- `class`: `"TimePoint"`
-- `name`: `"__add"`
-- `parameters`: `[{"declaration": "TimePoint", "name": "self", "optional": false}, {"declaration": "TimePoint", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "TimePoint"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TimePoint` | 必选 (Required) |
+| `other` | `TimePoint` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `TimePoint`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -632,19 +707,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TimePoint.__eq` { #symbol-api-lua-v5-generated-operator-timepoint-eq-4d9c226ac302 }
 
-**契约字段:**
+```lua
+-- Operator: __eq for TimePoint
+```
 
-- `class`: `"TimePoint"`
-- `name`: `"__eq"`
-- `parameters`: `[{"declaration": "TimePoint", "name": "self", "optional": false}, {"declaration": "TimePoint", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TimePoint` | 必选 (Required) |
+| `other` | `TimePoint` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `boolean`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -652,19 +730,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TimePoint.__le` { #symbol-api-lua-v5-generated-operator-timepoint-le-75f7b5493a62 }
 
-**契约字段:**
+```lua
+-- Operator: __le for TimePoint
+```
 
-- `class`: `"TimePoint"`
-- `name`: `"__le"`
-- `parameters`: `[{"declaration": "TimePoint", "name": "self", "optional": false}, {"declaration": "TimePoint", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TimePoint` | 必选 (Required) |
+| `other` | `TimePoint` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `boolean`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -672,19 +753,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TimePoint.__lt` { #symbol-api-lua-v5-generated-operator-timepoint-lt-eed37ff15b6a }
 
-**契约字段:**
+```lua
+-- Operator: __lt for TimePoint
+```
 
-- `class`: `"TimePoint"`
-- `name`: `"__lt"`
-- `parameters`: `[{"declaration": "TimePoint", "name": "self", "optional": false}, {"declaration": "TimePoint", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TimePoint` | 必选 (Required) |
+| `other` | `TimePoint` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `boolean`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -692,19 +776,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TimePoint.__sub` { #symbol-api-lua-v5-generated-operator-timepoint-sub-00796ce5375a }
 
-**契约字段:**
+```lua
+-- Operator: __sub for TimePoint
+```
 
-- `class`: `"TimePoint"`
-- `name`: `"__sub"`
-- `parameters`: `[{"declaration": "TimePoint", "name": "self", "optional": false}, {"declaration": "TimePoint", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "TimePoint"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TimePoint` | 必选 (Required) |
+| `other` | `TimePoint` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `TimePoint`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -712,19 +799,21 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TimePoint.__tostring` { #symbol-api-lua-v5-generated-operator-timepoint-tostring-ef1818d78ff2 }
 
-**契约字段:**
+```lua
+-- Operator: __tostring for TimePoint
+```
 
-- `class`: `"TimePoint"`
-- `name`: `"__tostring"`
-- `parameters`: `[{"declaration": "TimePoint", "name": "self", "optional": false}]`
-- `returns`: `[{"declaration": "string"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TimePoint` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `string`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -732,19 +821,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TripointCoord.__add` { #symbol-api-lua-v5-generated-operator-tripointcoord-add-b7c3edf2fbb2 }
 
-**契约字段:**
+```lua
+-- Operator: __add for TripointCoord
+```
 
-- `class`: `"TripointCoord"`
-- `name`: `"__add"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "self", "optional": false}, {"declaration": "TripointCoord", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TripointCoord` | 必选 (Required) |
+| `other` | `TripointCoord` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `TripointCoord`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -752,19 +844,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TripointCoord.__eq` { #symbol-api-lua-v5-generated-operator-tripointcoord-eq-f3c5d6ee47f8 }
 
-**契约字段:**
+```lua
+-- Operator: __eq for TripointCoord
+```
 
-- `class`: `"TripointCoord"`
-- `name`: `"__eq"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "self", "optional": false}, {"declaration": "TripointCoord", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TripointCoord` | 必选 (Required) |
+| `other` | `TripointCoord` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `boolean`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -772,19 +867,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TripointCoord.__le` { #symbol-api-lua-v5-generated-operator-tripointcoord-le-10c2256820cd }
 
-**契约字段:**
+```lua
+-- Operator: __le for TripointCoord
+```
 
-- `class`: `"TripointCoord"`
-- `name`: `"__le"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "self", "optional": false}, {"declaration": "TripointCoord", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TripointCoord` | 必选 (Required) |
+| `other` | `TripointCoord` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `boolean`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -792,19 +890,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TripointCoord.__lt` { #symbol-api-lua-v5-generated-operator-tripointcoord-lt-e4bc5b78a389 }
 
-**契约字段:**
+```lua
+-- Operator: __lt for TripointCoord
+```
 
-- `class`: `"TripointCoord"`
-- `name`: `"__lt"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "self", "optional": false}, {"declaration": "TripointCoord", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TripointCoord` | 必选 (Required) |
+| `other` | `TripointCoord` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `boolean`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -812,19 +913,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TripointCoord.__mul` { #symbol-api-lua-v5-generated-operator-tripointcoord-mul-c78a340fd1e0 }
 
-**契约字段:**
+```lua
+-- Operator: __mul for TripointCoord
+```
 
-- `class`: `"TripointCoord"`
-- `name`: `"__mul"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "self", "optional": false}, {"declaration": "number", "name": "factor", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TripointCoord` | 必选 (Required) |
+| `factor` | `number` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `TripointCoord`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -832,19 +936,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TripointCoord.__sub` { #symbol-api-lua-v5-generated-operator-tripointcoord-sub-67761429a085 }
 
-**契约字段:**
+```lua
+-- Operator: __sub for TripointCoord
+```
 
-- `class`: `"TripointCoord"`
-- `name`: `"__sub"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "self", "optional": false}, {"declaration": "TripointCoord", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TripointCoord` | 必选 (Required) |
+| `other` | `TripointCoord` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `TripointCoord`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -852,19 +959,21 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TripointCoord.__tostring` { #symbol-api-lua-v5-generated-operator-tripointcoord-tostring-274618cb1a7e }
 
-**契约字段:**
+```lua
+-- Operator: __tostring for TripointCoord
+```
 
-- `class`: `"TripointCoord"`
-- `name`: `"__tostring"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "self", "optional": false}]`
-- `returns`: `[{"declaration": "string"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TripointCoord` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `string`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -872,19 +981,21 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `TripointCoord.__unm` { #symbol-api-lua-v5-generated-operator-tripointcoord-unm-a7d6116591dc }
 
-**契约字段:**
+```lua
+-- Operator: __unm for TripointCoord
+```
 
-- `class`: `"TripointCoord"`
-- `name`: `"__unm"`
-- `parameters`: `[{"declaration": "TripointCoord", "name": "self", "optional": false}]`
-- `returns`: `[{"declaration": "TripointCoord"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `TripointCoord` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `TripointCoord`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -892,19 +1003,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `UnitValue.__add` { #symbol-api-lua-v5-generated-operator-unitvalue-add-b2c6bd684102 }
 
-**契约字段:**
+```lua
+-- Operator: __add for UnitValue
+```
 
-- `class`: `"UnitValue"`
-- `name`: `"__add"`
-- `parameters`: `[{"declaration": "UnitValue", "name": "self", "optional": false}, {"declaration": "UnitValue", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "UnitValue"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `UnitValue` | 必选 (Required) |
+| `other` | `UnitValue` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `UnitValue`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -912,19 +1026,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `UnitValue.__eq` { #symbol-api-lua-v5-generated-operator-unitvalue-eq-9eef2e3a8fb5 }
 
-**契约字段:**
+```lua
+-- Operator: __eq for UnitValue
+```
 
-- `class`: `"UnitValue"`
-- `name`: `"__eq"`
-- `parameters`: `[{"declaration": "UnitValue", "name": "self", "optional": false}, {"declaration": "UnitValue", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `UnitValue` | 必选 (Required) |
+| `other` | `UnitValue` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `boolean`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -932,19 +1049,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `UnitValue.__le` { #symbol-api-lua-v5-generated-operator-unitvalue-le-e13d9bc41824 }
 
-**契约字段:**
+```lua
+-- Operator: __le for UnitValue
+```
 
-- `class`: `"UnitValue"`
-- `name`: `"__le"`
-- `parameters`: `[{"declaration": "UnitValue", "name": "self", "optional": false}, {"declaration": "UnitValue", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `UnitValue` | 必选 (Required) |
+| `other` | `UnitValue` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `boolean`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -952,19 +1072,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `UnitValue.__lt` { #symbol-api-lua-v5-generated-operator-unitvalue-lt-93db78a99dbc }
 
-**契约字段:**
+```lua
+-- Operator: __lt for UnitValue
+```
 
-- `class`: `"UnitValue"`
-- `name`: `"__lt"`
-- `parameters`: `[{"declaration": "UnitValue", "name": "self", "optional": false}, {"declaration": "UnitValue", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "boolean"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `UnitValue` | 必选 (Required) |
+| `other` | `UnitValue` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `boolean`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -972,19 +1095,22 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `UnitValue.__sub` { #symbol-api-lua-v5-generated-operator-unitvalue-sub-217a77033148 }
 
-**契约字段:**
+```lua
+-- Operator: __sub for UnitValue
+```
 
-- `class`: `"UnitValue"`
-- `name`: `"__sub"`
-- `parameters`: `[{"declaration": "UnitValue", "name": "self", "optional": false}, {"declaration": "UnitValue", "name": "other", "optional": false}]`
-- `returns`: `[{"declaration": "UnitValue"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `UnitValue` | 必选 (Required) |
+| `other` | `UnitValue` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `UnitValue`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 
@@ -992,19 +1118,21 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## `UnitValue.__tostring` { #symbol-api-lua-v5-generated-operator-unitvalue-tostring-69236ee415a6 }
 
-**契约字段:**
+```lua
+-- Operator: __tostring for UnitValue
+```
 
-- `class`: `"UnitValue"`
-- `name`: `"__tostring"`
-- `parameters`: `[{"declaration": "UnitValue", "name": "self", "optional": false}]`
-- `returns`: `[{"declaration": "string"}]`
-- `errors`: `{"conditions": ["invalid operand type or native value failure"], "message_stability": "not-guaranteed", "mode": "lua-error"}`
-- `api_version`: `5`
-- `since`: `"untracked-before-or-at-v5"`
-- `deprecated`: `false`
-- `deprecation_replacement`: `null`
-- `capabilities`: `[]`
-- `examples`: `[]`
+**参数列表 (Parameters):**
+
+| 参数名 | 类型 | 要求 |
+| :--- | :--- | :--- |
+| `self` | `UnitValue` | 必选 (Required) |
+
+**返回值 (Returns):**
+
+- `string`
+
+⚠️ **错误模式:** `lua-error` (invalid operand type or native value failure)
 
 **来源:**
 

@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: c040556d26d107f4a86bc7c98d47925ec8ffb8d647ada7202c084bfb706691e4
+translation_source_fingerprint: 10dbab444dd6b988e9e227d5da3f555fa1848cd0e993282027534a416a0c4782
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,15 +68,13 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Manifest fields
 
-This page is generated from the Lua v5 public contract at pinned commit `d32b9cc880a85480840d82cfa05d256c78a16615` and contains 6 `manifest_fields` records. Do not edit it by hand.
+This page is the automatically generated reference manual for CCB Lua 0.1, containing 6 `manifest_fields` contract records.
 
 ## `$schema` { #symbol-api-lua-v5-generated-manifest-field-schema-24601b92d545 }
 
-**Contract fields:**
-
-- `required`: `false`
-- `schema`: `{"type": "string"}`
-- `runtime_read`: `false`
+```json
+"$schema": ... // optional
+```
 
 **Sources:**
 
@@ -84,11 +82,9 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `id` { #symbol-api-lua-v5-generated-manifest-field-id-2b0fc6d708d6 }
 
-**Contract fields:**
-
-- `required`: `true`
-- `schema`: `{"description": "Stable source id. A Mod manifest id must equal the Mod id.", "maxLength": 128, "minLength": 1, "pattern": "^[A-Za-z0-9_.:-]+$", "type": "string"}`
-- `runtime_read`: `true`
+```json
+"id": ... // required
+```
 
 **Sources:**
 
@@ -96,11 +92,9 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `version` { #symbol-api-lua-v5-generated-manifest-field-version-c3c278d955b4 }
 
-**Contract fields:**
-
-- `required`: `true`
-- `schema`: `{"description": "Source-defined version shown to developers and service consumers.", "maxLength": 64, "minLength": 1, "type": "string"}`
-- `runtime_read`: `true`
+```json
+"version": ... // required
+```
 
 **Sources:**
 
@@ -108,11 +102,9 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `api_version` { #symbol-api-lua-v5-generated-manifest-field-api-version-decd4c1a4386 }
 
-**Contract fields:**
-
-- `required`: `true`
-- `schema`: `{"description": "Lua API contract requested by this source.", "enum": [2, 3, 4, 5], "type": "integer"}`
-- `runtime_read`: `true`
+```json
+"api_version": ... // required
+```
 
 **Sources:**
 
@@ -120,11 +112,9 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `capabilities` { #symbol-api-lua-v5-generated-manifest-field-capabilities-c5c79cd2551a }
 
-**Contract fields:**
-
-- `required`: `true`
-- `schema`: `{"description": "Explicit privileges granted to this source.", "items": {"enum": ["events", "game.actions", "game.actions.dangerous", "game.callbacks", "game.hooks", "game.read", "game.write", "modules.import", "registry.read", "scheduler", "services.consume", "services.provide", "state.character", "state.page", "state.world", "ui.pages"], "type": "string"}, "maxItems": 64, "type": "array", "uniqueItems": true}`
-- `runtime_read`: `true`
+```json
+"capabilities": ... // required
+```
 
 **Sources:**
 
@@ -132,11 +122,9 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `dependencies` { #symbol-api-lua-v5-generated-manifest-field-dependencies-c2978cee57bf }
 
-**Contract fields:**
-
-- `required`: `true`
-- `schema`: `{"description": "Earlier-loaded source ids that may be imported, observed, or called.", "items": {"maxLength": 128, "minLength": 1, "pattern": "^[A-Za-z0-9_.:-]+$", "type": "string"}, "maxItems": 64, "type": "array", "uniqueItems": true}`
-- `runtime_read`: `true`
+```json
+"dependencies": ... // required
+```
 
 **Sources:**
 

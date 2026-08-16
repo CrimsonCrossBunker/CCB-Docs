@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: c61826836f61b0a559204196d1b05adc2197be6cfca503befb389b5023a3014d
+translation_source_fingerprint: ba90185837772e666d9b441b803e9ebee7dd701cff79086d208018aa1978b457
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -68,14 +68,14 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # Namespaces
 
-This page is generated from the Lua v5 public contract at pinned commit `d32b9cc880a85480840d82cfa05d256c78a16615` and contains 68 `namespaces` records. Do not edit it by hand.
+This page is the automatically generated reference manual for CCB Lua 0.1, containing 68 `namespaces` contract records.
 
 ## `events` { #symbol-api-lua-v5-generated-namespace-events-6e35342e82c2 }
 
-**Contract fields:**
-
-- `kind`: `"global"`
-- `class`: `"CcbEventsApi"`
+```lua
+-- Namespace: events
+local events = events
+```
 
 **Sources:**
 
@@ -83,10 +83,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game` { #symbol-api-lua-v5-generated-namespace-game-2ae6dfe05cbc }
 
-**Contract fields:**
-
-- `kind`: `"global"`
-- `class`: `"CcbGameApi"`
+```lua
+-- Namespace: game
+local game = game
+```
 
 **Sources:**
 
@@ -94,10 +94,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.achievements` { #symbol-api-lua-v5-generated-namespace-game-achievements-486374f6a303 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbAchievementsApi"`
+```lua
+-- Namespace: game.achievements
+local achievements = game.achievements
+```
 
 **Sources:**
 
@@ -105,10 +105,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.action_menu` { #symbol-api-lua-v5-generated-namespace-game-action-menu-6f19cb7a4195 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbActionMenuApi"`
+```lua
+-- Namespace: game.action_menu
+local action_menu = game.action_menu
+```
 
 **Sources:**
 
@@ -116,10 +116,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.actions` { #symbol-api-lua-v5-generated-namespace-game-actions-c382e7f18b9f }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbGameActionsApi"`
+```lua
+-- Namespace: game.actions
+local actions = game.actions
+```
 
 **Sources:**
 
@@ -127,10 +127,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.addictions` { #symbol-api-lua-v5-generated-namespace-game-addictions-c5db6bc99cc3 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbAddictionsApi"`
+```lua
+-- Namespace: game.addictions
+local addictions = game.addictions
+```
 
 **Sources:**
 
@@ -138,10 +138,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.bionics` { #symbol-api-lua-v5-generated-namespace-game-bionics-356ef466826f }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbBionicsApi"`
+```lua
+-- Namespace: game.bionics
+local bionics = game.bionics
+```
 
 **Sources:**
 
@@ -149,10 +149,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.callbacks` { #symbol-api-lua-v5-generated-namespace-game-callbacks-ec7a4118f470 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbCallbacksApi"`
+```lua
+-- Namespace: game.callbacks
+local callbacks = game.callbacks
+```
 
 **Sources:**
 
@@ -160,10 +160,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.camps` { #symbol-api-lua-v5-generated-namespace-game-camps-f8074e898591 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbCampsApi"`
+```lua
+-- Namespace: game.camps
+local camps = game.camps
+```
 
 **Sources:**
 
@@ -171,10 +171,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.characters` { #symbol-api-lua-v5-generated-namespace-game-characters-be40357f5a7c }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbCharactersApi"`
+```lua
+-- Namespace: game.characters
+local characters = game.characters
+```
 
 **Sources:**
 
@@ -182,10 +182,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.constants` { #symbol-api-lua-v5-generated-namespace-game-constants-76ce9c218c2e }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbConstantsApi"`
+```lua
+-- Namespace: game.constants
+local constants = game.constants
+```
 
 **Sources:**
 
@@ -193,10 +193,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.coords` { #symbol-api-lua-v5-generated-namespace-game-coords-66eda1080d04 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbCoordsApi"`
+```lua
+-- Namespace: game.coords
+local coords = game.coords
+```
 
 **Sources:**
 
@@ -204,10 +204,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.crafting` { #symbol-api-lua-v5-generated-namespace-game-crafting-0d59d7c268cb }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbCraftingApi"`
+```lua
+-- Namespace: game.crafting
+local crafting = game.crafting
+```
 
 **Sources:**
 
@@ -215,10 +215,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.creatures` { #symbol-api-lua-v5-generated-namespace-game-creatures-8317a891d8e6 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbCreaturesApi"`
+```lua
+-- Namespace: game.creatures
+local creatures = game.creatures
+```
 
 **Sources:**
 
@@ -226,10 +226,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.definitions` { #symbol-api-lua-v5-generated-namespace-game-definitions-5dec0b272bb8 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbDefinitionsApi"`
+```lua
+-- Namespace: game.definitions
+local definitions = game.definitions
+```
 
 **Sources:**
 
@@ -237,10 +237,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.diagnostics` { #symbol-api-lua-v5-generated-namespace-game-diagnostics-242c3efa4467 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbDiagnosticsApi"`
+```lua
+-- Namespace: game.diagnostics
+local diagnostics = game.diagnostics
+```
 
 **Sources:**
 
@@ -248,10 +248,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.effects` { #symbol-api-lua-v5-generated-namespace-game-effects-d72d7dfbc6ae }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbEffectsApi"`
+```lua
+-- Namespace: game.effects
+local effects = game.effects
+```
 
 **Sources:**
 
@@ -259,10 +259,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.enums` { #symbol-api-lua-v5-generated-namespace-game-enums-5091b466eb56 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbEnumsApi"`
+```lua
+-- Namespace: game.enums
+local enums = game.enums
+```
 
 **Sources:**
 
@@ -270,10 +270,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.eocs` { #symbol-api-lua-v5-generated-namespace-game-eocs-ebdecfe4ccf9 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbEocsApi"`
+```lua
+-- Namespace: game.eocs
+local eocs = game.eocs
+```
 
 **Sources:**
 
@@ -281,10 +281,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.factions` { #symbol-api-lua-v5-generated-namespace-game-factions-87bb6326e765 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbFactionsApi"`
+```lua
+-- Namespace: game.factions
+local factions = game.factions
+```
 
 **Sources:**
 
@@ -292,10 +292,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.followers` { #symbol-api-lua-v5-generated-namespace-game-followers-fd5524486b10 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbFollowersApi"`
+```lua
+-- Namespace: game.followers
+local followers = game.followers
+```
 
 **Sources:**
 
@@ -303,10 +303,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.handles` { #symbol-api-lua-v5-generated-namespace-game-handles-82d44f5e6f56 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbHandlesApi"`
+```lua
+-- Namespace: game.handles
+local handles = game.handles
+```
 
 **Sources:**
 
@@ -314,10 +314,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hooks` { #symbol-api-lua-v5-generated-namespace-game-hooks-1668c8580722 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbHooksApi"`
+```lua
+-- Namespace: game.hooks
+local hooks = game.hooks
+```
 
 **Sources:**
 
@@ -325,10 +325,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.hordes` { #symbol-api-lua-v5-generated-namespace-game-hordes-064fdabe18ba }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbHordesApi"`
+```lua
+-- Namespace: game.hordes
+local hordes = game.hordes
+```
 
 **Sources:**
 
@@ -336,10 +336,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.inventory` { #symbol-api-lua-v5-generated-namespace-game-inventory-964c8fbe49d3 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbInventoryApi"`
+```lua
+-- Namespace: game.inventory
+local inventory = game.inventory
+```
 
 **Sources:**
 
@@ -347,10 +347,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.items` { #symbol-api-lua-v5-generated-namespace-game-items-7b9ad7e47b8e }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbItemsApi"`
+```lua
+-- Namespace: game.items
+local items = game.items
+```
 
 **Sources:**
 
@@ -358,10 +358,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.mapgen` { #symbol-api-lua-v5-generated-namespace-game-mapgen-9afe0efb7407 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbMapgenApi"`
+```lua
+-- Namespace: game.mapgen
+local mapgen = game.mapgen
+```
 
 **Sources:**
 
@@ -369,10 +369,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.martial_arts` { #symbol-api-lua-v5-generated-namespace-game-martial-arts-8ff063762870 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbMartialArtsApi"`
+```lua
+-- Namespace: game.martial_arts
+local martial_arts = game.martial_arts
+```
 
 **Sources:**
 
@@ -380,10 +380,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.messages` { #symbol-api-lua-v5-generated-namespace-game-messages-7b649772fcb0 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbMessagesApi"`
+```lua
+-- Namespace: game.messages
+local messages = game.messages
+```
 
 **Sources:**
 
@@ -391,10 +391,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.missions` { #symbol-api-lua-v5-generated-namespace-game-missions-afb1493b5163 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbMissionsApi"`
+```lua
+-- Namespace: game.missions
+local missions = game.missions
+```
 
 **Sources:**
 
@@ -402,10 +402,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.mutations` { #symbol-api-lua-v5-generated-namespace-game-mutations-f2148197c667 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbMutationsApi"`
+```lua
+-- Namespace: game.mutations
+local mutations = game.mutations
+```
 
 **Sources:**
 
@@ -413,10 +413,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.native_events` { #symbol-api-lua-v5-generated-namespace-game-native-events-78980824dcb1 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbNativeEventsApi"`
+```lua
+-- Namespace: game.native_events
+local native_events = game.native_events
+```
 
 **Sources:**
 
@@ -424,10 +424,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.needs` { #symbol-api-lua-v5-generated-namespace-game-needs-f156cfe5ae77 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbNeedsApi"`
+```lua
+-- Namespace: game.needs
+local needs = game.needs
+```
 
 **Sources:**
 
@@ -435,10 +435,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.npcs` { #symbol-api-lua-v5-generated-namespace-game-npcs-213a4b18afaf }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbNpcsApi"`
+```lua
+-- Namespace: game.npcs
+local npcs = game.npcs
+```
 
 **Sources:**
 
@@ -446,10 +446,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.overmap` { #symbol-api-lua-v5-generated-namespace-game-overmap-a4596e793ec1 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbOvermapApi"`
+```lua
+-- Namespace: game.overmap
+local overmap = game.overmap
+```
 
 **Sources:**
 
@@ -457,10 +457,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.proficiencies` { #symbol-api-lua-v5-generated-namespace-game-proficiencies-1d04fd6b5a8d }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbProficienciesApi"`
+```lua
+-- Namespace: game.proficiencies
+local proficiencies = game.proficiencies
+```
 
 **Sources:**
 
@@ -468,10 +468,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.random` { #symbol-api-lua-v5-generated-namespace-game-random-7ed69c1043d7 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbRandomApi"`
+```lua
+-- Namespace: game.random
+local random = game.random
+```
 
 **Sources:**
 
@@ -479,10 +479,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.recipes` { #symbol-api-lua-v5-generated-namespace-game-recipes-eb3cd40ba1bc }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbRecipesApi"`
+```lua
+-- Namespace: game.recipes
+local recipes = game.recipes
+```
 
 **Sources:**
 
@@ -490,10 +490,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.relocation` { #symbol-api-lua-v5-generated-namespace-game-relocation-51b21655a788 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbRelocationApi"`
+```lua
+-- Namespace: game.relocation
+local relocation = game.relocation
+```
 
 **Sources:**
 
@@ -501,10 +501,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.requirements` { #symbol-api-lua-v5-generated-namespace-game-requirements-cdf12bbe97df }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbRequirementsApi"`
+```lua
+-- Namespace: game.requirements
+local requirements = game.requirements
+```
 
 **Sources:**
 
@@ -512,10 +512,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.serde` { #symbol-api-lua-v5-generated-namespace-game-serde-966ef8a9aedb }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbSerdeApi"`
+```lua
+-- Namespace: game.serde
+local serde = game.serde
+```
 
 **Sources:**
 
@@ -523,10 +523,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.sidebar` { #symbol-api-lua-v5-generated-namespace-game-sidebar-09176f9b51d8 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbSidebarApi"`
+```lua
+-- Namespace: game.sidebar
+local sidebar = game.sidebar
+```
 
 **Sources:**
 
@@ -534,10 +534,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.skills` { #symbol-api-lua-v5-generated-namespace-game-skills-eae5e8292f7d }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbSkillsApi"`
+```lua
+-- Namespace: game.skills
+local skills = game.skills
+```
 
 **Sources:**
 
@@ -545,10 +545,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.sound` { #symbol-api-lua-v5-generated-namespace-game-sound-2cc88e8c083c }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbSoundApi"`
+```lua
+-- Namespace: game.sound
+local sound = game.sound
+```
 
 **Sources:**
 
@@ -556,10 +556,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.spawns` { #symbol-api-lua-v5-generated-namespace-game-spawns-f6d1e41b0ecb }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbSpawnsApi"`
+```lua
+-- Namespace: game.spawns
+local spawns = game.spawns
+```
 
 **Sources:**
 
@@ -567,10 +567,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.spells` { #symbol-api-lua-v5-generated-namespace-game-spells-43a9a1570960 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbSpellsApi"`
+```lua
+-- Namespace: game.spells
+local spells = game.spells
+```
 
 **Sources:**
 
@@ -578,10 +578,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.statistics` { #symbol-api-lua-v5-generated-namespace-game-statistics-93a2c3674e78 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbStatisticsApi"`
+```lua
+-- Namespace: game.statistics
+local statistics = game.statistics
+```
 
 **Sources:**
 
@@ -589,10 +589,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.targeting` { #symbol-api-lua-v5-generated-namespace-game-targeting-da96648cd86f }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbTargetingApi"`
+```lua
+-- Namespace: game.targeting
+local targeting = game.targeting
+```
 
 **Sources:**
 
@@ -600,10 +600,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.time` { #symbol-api-lua-v5-generated-namespace-game-time-32c93d01b192 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbTimeApi"`
+```lua
+-- Namespace: game.time
+local time = game.time
+```
 
 **Sources:**
 
@@ -611,10 +611,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.types` { #symbol-api-lua-v5-generated-namespace-game-types-44581d0b168a }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbTypesApi"`
+```lua
+-- Namespace: game.types
+local types = game.types
+```
 
 **Sources:**
 
@@ -622,10 +622,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.units` { #symbol-api-lua-v5-generated-namespace-game-units-cccd378398cd }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbUnitsApi"`
+```lua
+-- Namespace: game.units
+local units = game.units
+```
 
 **Sources:**
 
@@ -633,10 +633,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.variables` { #symbol-api-lua-v5-generated-namespace-game-variables-53b996d2cd12 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbVariablesApi"`
+```lua
+-- Namespace: game.variables
+local variables = game.variables
+```
 
 **Sources:**
 
@@ -644,10 +644,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.vehicles` { #symbol-api-lua-v5-generated-namespace-game-vehicles-4ae19e611d62 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbVehiclesApi"`
+```lua
+-- Namespace: game.vehicles
+local vehicles = game.vehicles
+```
 
 **Sources:**
 
@@ -655,10 +655,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.vitamins` { #symbol-api-lua-v5-generated-namespace-game-vitamins-8d3d22dfdcd3 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbVitaminsApi"`
+```lua
+-- Namespace: game.vitamins
+local vitamins = game.vitamins
+```
 
 **Sources:**
 
@@ -666,10 +666,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.weather` { #symbol-api-lua-v5-generated-namespace-game-weather-53c5b8c87cb9 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbWeatherApi"`
+```lua
+-- Namespace: game.weather
+local weather = game.weather
+```
 
 **Sources:**
 
@@ -677,10 +677,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.world` { #symbol-api-lua-v5-generated-namespace-game-world-f68a01ec053e }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbWorldApi"`
+```lua
+-- Namespace: game.world
+local world = game.world
+```
 
 **Sources:**
 
@@ -688,10 +688,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `game.zones` { #symbol-api-lua-v5-generated-namespace-game-zones-a8989fc3ba6a }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbZonesApi"`
+```lua
+-- Namespace: game.zones
+local zones = game.zones
+```
 
 **Sources:**
 
@@ -699,10 +699,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `i18n` { #symbol-api-lua-v5-generated-namespace-i18n-6347cd99ead0 }
 
-**Contract fields:**
-
-- `kind`: `"global"`
-- `class`: `"CcbI18nApi"`
+```lua
+-- Namespace: i18n
+local i18n = i18n
+```
 
 **Sources:**
 
@@ -710,10 +710,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `modules` { #symbol-api-lua-v5-generated-namespace-modules-4a5d485b7898 }
 
-**Contract fields:**
-
-- `kind`: `"global"`
-- `class`: `"CcbModulesApi"`
+```lua
+-- Namespace: modules
+local modules = modules
+```
 
 **Sources:**
 
@@ -721,10 +721,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `registry` { #symbol-api-lua-v5-generated-namespace-registry-64b3408634ae }
 
-**Contract fields:**
-
-- `kind`: `"global"`
-- `class`: `"CcbRegistryApi"`
+```lua
+-- Namespace: registry
+local registry = registry
+```
 
 **Sources:**
 
@@ -732,10 +732,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `scheduler` { #symbol-api-lua-v5-generated-namespace-scheduler-08ef12a8082b }
 
-**Contract fields:**
-
-- `kind`: `"global"`
-- `class`: `"CcbSchedulerApi"`
+```lua
+-- Namespace: scheduler
+local scheduler = scheduler
+```
 
 **Sources:**
 
@@ -743,10 +743,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `services` { #symbol-api-lua-v5-generated-namespace-services-4c59eb31e185 }
 
-**Contract fields:**
-
-- `kind`: `"global"`
-- `class`: `"CcbServicesApi"`
+```lua
+-- Namespace: services
+local services = services
+```
 
 **Sources:**
 
@@ -754,10 +754,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `sidebar` { #symbol-api-lua-v5-generated-namespace-sidebar-3be0e323074f }
 
-**Contract fields:**
-
-- `kind`: `"global"`
-- `class`: `"CcbSidebarApi"`
+```lua
+-- Namespace: sidebar
+local sidebar = sidebar
+```
 
 **Sources:**
 
@@ -765,10 +765,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `state` { #symbol-api-lua-v5-generated-namespace-state-c65f0e4ad064 }
 
-**Contract fields:**
-
-- `kind`: `"global"`
-- `class`: `null`
+```lua
+-- Namespace: state
+local state = state
+```
 
 **Sources:**
 
@@ -776,10 +776,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `state.character` { #symbol-api-lua-v5-generated-namespace-state-character-b2e570d589cf }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbStateStore"`
+```lua
+-- Namespace: state.character
+local character = state.character
+```
 
 **Sources:**
 
@@ -787,10 +787,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `state.page` { #symbol-api-lua-v5-generated-namespace-state-page-a6f1c3fd18fe }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbStateStore"`
+```lua
+-- Namespace: state.page
+local page = state.page
+```
 
 **Sources:**
 
@@ -798,10 +798,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `state.world` { #symbol-api-lua-v5-generated-namespace-state-world-01d814e5ed38 }
 
-**Contract fields:**
-
-- `kind`: `"child"`
-- `class`: `"CcbStateStore"`
+```lua
+-- Namespace: state.world
+local world = state.world
+```
 
 **Sources:**
 
@@ -809,10 +809,10 @@ This page is generated from the Lua v5 public contract at pinned commit `d32b9cc
 
 ## `ui` { #symbol-api-lua-v5-generated-namespace-ui-9d508aed8ee2 }
 
-**Contract fields:**
-
-- `kind`: `"global"`
-- `class`: `"CcbUiApi"`
+```lua
+-- Namespace: ui
+local ui = ui
+```
 
 **Sources:**
 
