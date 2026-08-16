@@ -115,50 +115,6 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystem-map/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystem-map/"
   },
-  "archive-build-cygwin": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/archive/build/cygwin/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/archive/build/cygwin/"
-  },
-  "archive-build-flatpak": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/archive/build/flatpak/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/archive/build/flatpak/"
-  },
-  "archive-construction-balance": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/archive/design/construction-balance/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/archive/design/construction-balance/"
-  },
-  "archive-lore-faq": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/archive/lore/faq/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/archive/lore/faq/"
-  },
-  "archive-melee-balance-spreadsheet": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/archive/design/melee-balance-spreadsheet/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/archive/design/melee-balance-spreadsheet/"
-  },
-  "archive-upstream-development-process": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/archive/governance/development-process/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/archive/governance/development-process/"
-  },
-  "archive.firearms-massachusetts-data-workflow": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/archive/firearms/massachusetts-data-workflow/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/archive/firearms/massachusetts-data-workflow/"
-  },
-  "build-cmake": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/build/cmake/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/cmake/"
-  },
-  "build-devcontainer": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/build/devcontainer/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/devcontainer/"
-  },
-  "build-windows-msvc": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/build/windows-msvc/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/windows-msvc/"
-  },
-  "build-windows-msys2": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/build/windows-msys2/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/windows-msys2/"
-  },
   "build.overview": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/"
@@ -171,18 +127,6 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/save/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/save/"
   },
-  "content.ascii-art": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/content/ascii-art/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/content/ascii-art/"
-  },
-  "content.firearms-naming-and-inclusion": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/content/firearms/naming-and-inclusion/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/content/firearms/naming-and-inclusion/"
-  },
-  "content.manual-of-style": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/in-game-text-style/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/in-game-text-style/"
-  },
   "contributing.ai-assisted-development": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/ai-assisted-development/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/ai-assisted-development/"
@@ -191,33 +135,9 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/documentation-policy/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/documentation-policy/"
   },
-  "contributing.json-style": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/json-style/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/json-style/"
-  },
   "contributing.responsible-human": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/responsible-human/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/responsible-human/"
-  },
-  "cpp-code-style": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/code-style/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/code-style/"
-  },
-  "cpp-coordinates": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/coordinates/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/coordinates/"
-  },
-  "cpp-json-interface": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/json-interface/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/json-interface/"
-  },
-  "cpp-performance": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/performance/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/performance/"
-  },
-  "cpp-testing": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/testing/cpp/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/testing/cpp/"
   },
   "cpp.activities": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/activities/",
@@ -303,42 +223,6 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/vehicles/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/vehicles/"
   },
-  "design-balance": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/design/balance/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/design/balance/"
-  },
-  "design-batteries-electricity": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/design/batteries-electricity/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/design/batteries-electricity/"
-  },
-  "design-gameplay": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/design/gameplay/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/design/gameplay/"
-  },
-  "design-overview": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/design/overview/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/design/overview/"
-  },
-  "design-portal-storms": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/design/portal-storms/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/design/portal-storms/"
-  },
-  "design-steel-crafting": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/design/steel-crafting/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/design/steel-crafting/"
-  },
-  "design-user-experience": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/design/user-experience/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/design/user-experience/"
-  },
-  "design.frequently-made-suggestions": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/design/frequently-made-suggestions/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/design/frequently-made-suggestions/"
-  },
-  "developer-tooling": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/developer-tooling/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/developer-tooling/"
-  },
   "eoc.nesting": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/nesting/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/nesting/"
@@ -346,10 +230,6 @@
   "eoc.overview": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/"
-  },
-  "eoc.reference": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc/"
   },
   "eoc.talkers": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",
@@ -379,221 +259,17 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/"
   },
-  "how-to.common-tasks": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/how-to/common-tasks/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/how-to/common-tasks/"
-  },
-  "how-to.json-tools": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/how-to/json/tools/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/how-to/json/tools/"
-  },
-  "json-armor-design": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/armor-design/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/armor-design/"
-  },
-  "json-item-pricing": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/item-pricing/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/item-pricing/"
-  },
-  "json-item-variants": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/item-variants/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/item-variants/"
-  },
-  "json-widgets": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/widgets/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/widgets/"
-  },
-  "json.artifacts": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/artifacts/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/artifacts/"
-  },
-  "json.basecamp": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/basecamp/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/basecamp/"
-  },
-  "json.climbing-aids": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/climbing-aids/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/climbing-aids/"
-  },
-  "json.comestibles-placement": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/how-to/json/comestibles/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/how-to/json/comestibles/"
-  },
-  "json.dimensions": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/dimensions/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/dimensions/"
-  },
-  "json.effects": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/effects/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/effects/"
-  },
-  "json.examine-actions": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/examine-actions/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/examine-actions/"
-  },
-  "json.faction-missions": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/faction-missions/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/faction-missions/"
-  },
-  "json.flags": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/generated/flags/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/generated/flags/"
-  },
-  "json.help-menu": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/help-menu/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/help-menu/"
-  },
-  "json.inheritance": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/inheritance/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/inheritance/"
-  },
   "json.inheritance-copy-from": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/inheritance-copy-from/"
-  },
-  "json.item-groups": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/item-groups/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/item-groups/"
-  },
-  "json.items": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/items/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/items/"
-  },
-  "json.loading-order": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/loading-order/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/loading-order/"
-  },
-  "json.magic-spells-enchantments": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/magic-spells-enchantments/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/magic-spells-enchantments/"
-  },
-  "json.mapgen": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/mapgen/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/mapgen/"
-  },
-  "json.martial-arts": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/martial-arts/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/martial-arts/"
-  },
-  "json.missions": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/missions/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/missions/"
-  },
-  "json.monster-special-attacks": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/monster-special-attacks/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/monster-special-attacks/"
-  },
-  "json.monsters": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/monsters/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/monsters/"
-  },
-  "json.movement-modes": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/movement-modes/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/movement-modes/"
-  },
-  "json.mutations": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/mutations/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/mutations/"
-  },
-  "json.npc-factions": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/npc-factions/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/npc-factions/"
-  },
-  "json.npcs-dialogue": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc/npcs-and-dialogue/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc/npcs-and-dialogue/"
-  },
-  "json.object-types": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/"
-  },
-  "json.obsoletion-and-migration": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/obsoletion-and-migration/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/obsoletion-and-migration/"
-  },
-  "json.options": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/options/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/options/"
-  },
-  "json.overmap": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/overmap/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/overmap/"
   },
   "json.overview": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/"
   },
-  "json.practice-recipes": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/practice-recipes/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/practice-recipes/"
-  },
-  "json.proficiencies": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/proficiencies/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/proficiencies/"
-  },
-  "json.proficiencies-index": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/generated/proficiencies/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/generated/proficiencies/"
-  },
-  "json.recipes-and-disassembly": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/recipes-and-disassembly/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/recipes-and-disassembly/"
-  },
-  "json.region-layout": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/region-layout/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/region-layout/"
-  },
-  "json.region-settings": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/region-settings/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/region-settings/"
-  },
-  "json.terrain-and-furniture": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/terrain-and-furniture/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/terrain-and-furniture/"
-  },
-  "json.terrain-furniture-transforms": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/terrain-furniture-transforms/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/terrain-furniture-transforms/"
-  },
   "json.validation": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/"
-  },
-  "json.vehicle-prototypes": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/vehicle-prototypes/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/vehicle-prototypes/"
-  },
-  "json.vitamins": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/vitamins/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/vitamins/"
-  },
-  "json.weather-types": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/weather-types/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/weather-types/"
-  },
-  "json.wounds": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json/wounds/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json/wounds/"
-  },
-  "lore-background": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/lore/background/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/lore/background/"
-  },
-  "lore-factions": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/lore/factions/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/lore/factions/"
-  },
-  "lore-overview": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/lore/overview/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/lore/overview/"
-  },
-  "lore-technology": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/lore/technology/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/lore/technology/"
-  },
-  "maintainers.issue-triage": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/maintainers/issue-triage/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintainers/issue-triage/"
   },
   "maintenance.releases": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/releases/",
@@ -603,41 +279,9 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/upstream-sync/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/upstream-sync/"
   },
-  "migration.filtered-history-experiment": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/migration/filtered-history-experiment/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/migration/filtered-history-experiment/"
-  },
-  "mod-compatibility": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/modding/compatibility/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/modding/compatibility/"
-  },
-  "mod-localization": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/modding/localization/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/modding/localization/"
-  },
-  "modding-overview": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/modding/overview/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/modding/overview/"
-  },
-  "mods.aftershock-exoplanet.balance.ranged-weapons": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/data/mods/aftershock_exoplanet/doc/lore/ranged_weapon_balance/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/data/mods/aftershock_exoplanet/doc/lore/ranged_weapon_balance/"
-  },
-  "mods.aftershock-exoplanet.lore.organizations": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/data/mods/aftershock_exoplanet/doc/lore/organizations/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/data/mods/aftershock_exoplanet/doc/lore/organizations/"
-  },
   "mods.complete-json-eoc-mod": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/"
-  },
-  "mods.in-repository-policy": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/in-repository-policy/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/in-repository-policy/"
-  },
-  "mods.mind-over-matter.power-reference": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/data/mods/MindOverMatter/PowerDescriptionSpoilers/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/data/mods/MindOverMatter/PowerDescriptionSpoilers/"
   },
   "operations.crash-reports": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/crash-reports/",
@@ -654,10 +298,6 @@
   "operations.releases": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/releases/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/releases/"
-  },
-  "platform-matrix": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/compiler-support/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/compiler-support/"
   },
   "platforms.android": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/android/",
@@ -691,10 +331,6 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/"
   },
-  "pr-review-guide": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/pr-review/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/pr-review/"
-  },
   "reference.eoc-conditions": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/"
@@ -726,42 +362,6 @@
   "resources.translation": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/resources/translation/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/translation/"
-  },
-  "soundpacks": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/resources/soundpacks/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/soundpacks/"
-  },
-  "testing-manual": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/testing/manual-playtesting/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/testing/manual-playtesting/"
-  },
-  "tilesets": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/resources/tilesets/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/tilesets/"
-  },
-  "translation-guide": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/localization/translation-guide/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/localization/translation-guide/"
-  },
-  "tutorial.mapgen-beginner": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/tutorials/json-mapgen/beginner/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/tutorials/json-mapgen/beginner/"
-  },
-  "tutorial.mapgen-intermediate": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/tutorials/json-mapgen/intermediate/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/tutorials/json-mapgen/intermediate/"
-  },
-  "ui-accessibility": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/ui/accessibility/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/ui/accessibility/"
-  },
-  "ui-colors": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/ui/colors/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/ui/colors/"
-  },
-  "ui-fonts": {
-    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/ui/fonts/",
-    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/ui/fonts/"
   },
   "validation.debugging": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/validation/debugging/",
