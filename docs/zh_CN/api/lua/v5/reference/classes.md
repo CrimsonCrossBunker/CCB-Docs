@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 9eb9617960e6e1e495a0b0d17f1686ce36177601ab40e9636744cea855bd2f32
+translation_source_fingerprint: 5d8baf43000e8f65fb9b6d6a8ab3452ec4b2e04533991a5d1343b834e2a28338
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -73,7 +73,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 ## `CcbAchievementDefinition` { #symbol-api-lua-v5-generated-class-ccbachievementdefinition-794e6bfd9753 }
 
 ```lua
----@class 
+---@class CcbAchievementDefinition
 local CcbAchievementDefinition = {}
 ```
 
@@ -373,7 +373,7 @@ ui_text = ... -- string
 ## `CcbAchievementTimeConstraint` { #symbol-api-lua-v5-generated-class-ccbachievementtimeconstraint-7afc0812428b }
 
 ```lua
----@class 
+---@class CcbAchievementTimeConstraint
 local CcbAchievementTimeConstraint = {}
 ```
 
@@ -437,7 +437,7 @@ text = ... -- string
 ## `CcbAchievementsApi` { #symbol-api-lua-v5-generated-class-ccbachievementsapi-55955fa23f93 }
 
 ```lua
----@class 
+---@class CcbAchievementsApi
 local CcbAchievementsApi = {}
 ```
 
@@ -448,7 +448,7 @@ local CcbAchievementsApi = {}
 ## `CcbActionDescriptor` { #symbol-api-lua-v5-generated-class-ccbactiondescriptor-fcfaf3fa13c1 }
 
 ```lua
----@class 
+---@class CcbActionDescriptor
 local CcbActionDescriptor = {}
 ```
 
@@ -524,7 +524,7 @@ dangerous = ... -- boolean
 ## `CcbActionEnqueueOptions` { #symbol-api-lua-v5-generated-class-ccbactionenqueueoptions-f172d29ec9c9 }
 
 ```lua
----@class 
+---@class CcbActionEnqueueOptions
 local CcbActionEnqueueOptions = {}
 ```
 
@@ -576,7 +576,7 @@ id = ... -- string Required by `toggle_mutation` and `set_move_mode`.
 ## `CcbActionMenuApi` { #symbol-api-lua-v5-generated-class-ccbactionmenuapi-cc9b31469ec4 }
 
 ```lua
----@class 
+---@class CcbActionMenuApi
 local CcbActionMenuApi = {}
 ```
 
@@ -587,7 +587,7 @@ local CcbActionMenuApi = {}
 ## `CcbActionMenuDescriptor` { #symbol-api-lua-v5-generated-class-ccbactionmenudescriptor-61e14e0e3626 }
 
 ```lua
----@class 
+---@class CcbActionMenuDescriptor
 local CcbActionMenuDescriptor = {}
 ```
 
@@ -651,7 +651,7 @@ hotkey = ... -- string
 ## `CcbActionMenuEntry` { #symbol-api-lua-v5-generated-class-ccbactionmenuentry-bfcb5b6520b9 }
 
 ```lua
----@class 
+---@class CcbActionMenuEntry
 local CcbActionMenuEntry = {}
 ```
 
@@ -739,7 +739,7 @@ enabled = ... -- boolean
 ## `CcbActionMenuLimits` { #symbol-api-lua-v5-generated-class-ccbactionmenulimits-fb05c8b26deb }
 
 ```lua
----@class 
+---@class CcbActionMenuLimits
 local CcbActionMenuLimits = {}
 ```
 
@@ -803,7 +803,7 @@ callback_instructions = ... -- integer
 ## `CcbActionResult` { #symbol-api-lua-v5-generated-class-ccbactionresult-01a5859870be }
 
 ```lua
----@class 
+---@class CcbActionResult
 local CcbActionResult = {}
 ```
 
@@ -903,7 +903,7 @@ action_taken = ... -- boolean
 ## `CcbActionSlotOption` { #symbol-api-lua-v5-generated-class-ccbactionslotoption-571dda852b69 }
 
 ```lua
----@class 
+---@class CcbActionSlotOption
 local CcbActionSlotOption = {}
 ```
 
@@ -955,7 +955,7 @@ enabled = ... -- boolean
 ## `CcbActionsStatus` { #symbol-api-lua-v5-generated-class-ccbactionsstatus-cc30df9a19c6 }
 
 ```lua
----@class 
+---@class CcbActionsStatus
 local CcbActionsStatus = {}
 ```
 
@@ -1031,7 +1031,7 @@ results = ... -- CcbActionResult[]
 ## `CcbActivityEntry` { #symbol-api-lua-v5-generated-class-ccbactivityentry-124474717f99 }
 
 ```lua
----@class 
+---@class CcbActivityEntry
 local CcbActivityEntry = {}
 ```
 
@@ -1167,7 +1167,7 @@ progress = ... -- number
 ## `CcbAddictionAdjustments` { #symbol-api-lua-v5-generated-class-ccbaddictionadjustments-07c471ed3801 }
 
 ```lua
----@class 
+---@class CcbAddictionAdjustments
 local CcbAddictionAdjustments = {}
 ```
 
@@ -1207,7 +1207,7 @@ sated = ... -- TimeDuration
 ## `CcbAddictionDefinition` { #symbol-api-lua-v5-generated-class-ccbaddictiondefinition-155a99e8a0e0 }
 
 ```lua
----@class 
+---@class CcbAddictionDefinition
 local CcbAddictionDefinition = {}
 ```
 
@@ -1307,7 +1307,7 @@ builtin = ... -- boolean
 ## `CcbAddictionState` { #symbol-api-lua-v5-generated-class-ccbaddictionstate-e7e780790b66 }
 
 ```lua
----@class 
+---@class CcbAddictionState
 local CcbAddictionState = {}
 ```
 
@@ -1431,7 +1431,7 @@ withdrawing = ... -- boolean
 ## `CcbAddictionsApi` { #symbol-api-lua-v5-generated-class-ccbaddictionsapi-15d90b2c65ad }
 
 ```lua
----@class 
+---@class CcbAddictionsApi
 local CcbAddictionsApi = {}
 ```
 
@@ -1442,7 +1442,7 @@ local CcbAddictionsApi = {}
 ## `CcbAmbientSoundOptions` { #symbol-api-lua-v5-generated-class-ccbambientsoundoptions-b3dcea9499c7 }
 
 ```lua
----@class 
+---@class CcbAmbientSoundOptions
 local CcbAmbientSoundOptions = {}
 ```
 
@@ -1506,7 +1506,7 @@ loops = ... -- integer
 ## `CcbBindingDomain` { #symbol-api-lua-v5-generated-class-ccbbindingdomain-f9737a6fc1d0 }
 
 ```lua
----@class 
+---@class CcbBindingDomain
 local CcbBindingDomain = {}
 ```
 
@@ -1582,7 +1582,7 @@ status = ... -- '"planned"'|'"partial"'|'"covered"'|'"not_applicable"'
 ## `CcbBionicConfigureOptions` { #symbol-api-lua-v5-generated-class-ccbbionicconfigureoptions-4c501783cce3 }
 
 ```lua
----@class 
+---@class CcbBionicConfigureOptions
 local CcbBionicConfigureOptions = {}
 ```
 
@@ -1634,7 +1634,7 @@ safe_fuel_threshold = ... -- number
 ## `CcbBionicSnapshot` { #symbol-api-lua-v5-generated-class-ccbbionicsnapshot-7670589a7719 }
 
 ```lua
----@class 
+---@class CcbBionicSnapshot
 local CcbBionicSnapshot = {}
 ```
 
@@ -1782,7 +1782,7 @@ deactivation_cost_kj = ... -- number
 ## `CcbBionicsApi` { #symbol-api-lua-v5-generated-class-ccbbionicsapi-84eadbbfda2f }
 
 ```lua
----@class 
+---@class CcbBionicsApi
 local CcbBionicsApi = {}
 ```
 
@@ -1793,7 +1793,7 @@ local CcbBionicsApi = {}
 ## `CcbBoundedItemList` { #symbol-api-lua-v5-generated-class-ccbboundeditemlist-70e08c6d7400 }
 
 ```lua
----@class 
+---@class CcbBoundedItemList
 local CcbBoundedItemList = {}
 ```
 
@@ -1869,7 +1869,7 @@ truncated = ... -- boolean
 ## `CcbCalendarPoint` { #symbol-api-lua-v5-generated-class-ccbcalendarpoint-c42560b87771 }
 
 ```lua
----@class 
+---@class CcbCalendarPoint
 local CcbCalendarPoint = {}
 ```
 
@@ -2173,7 +2173,7 @@ season_turns = ... -- integer
 ## `CcbCalendarSeason` { #symbol-api-lua-v5-generated-class-ccbcalendarseason-bdab9ff2b235 }
 
 ```lua
----@class 
+---@class CcbCalendarSeason
 local CcbCalendarSeason = {}
 ```
 
@@ -2237,7 +2237,7 @@ day = ... -- integer
 ## `CcbCalendarSnapshot` { #symbol-api-lua-v5-generated-class-ccbcalendarsnapshot-03596a4b8f7a }
 
 ```lua
----@class 
+---@class CcbCalendarSnapshot
 local CcbCalendarSnapshot = {}
 ```
 
@@ -2385,7 +2385,7 @@ eternal_night = ... -- boolean
 ## `CcbCallbackDescriptor` { #symbol-api-lua-v5-generated-class-ccbcallbackdescriptor-6c5f8842f629 }
 
 ```lua
----@class 
+---@class CcbCallbackDescriptor
 local CcbCallbackDescriptor = {}
 ```
 
@@ -2857,7 +2857,7 @@ on_tame = ... -- fun(payload: table)
 ## `CcbCallbackKindSpec` { #symbol-api-lua-v5-generated-class-ccbcallbackkindspec-01a81387498a }
 
 ```lua
----@class 
+---@class CcbCallbackKindSpec
 local CcbCallbackKindSpec = {}
 ```
 
@@ -2909,7 +2909,7 @@ methods = ... -- CcbCallbackMethodSpec[]
 ## `CcbCallbackLimits` { #symbol-api-lua-v5-generated-class-ccbcallbacklimits-9c36d4754cd4 }
 
 ```lua
----@class 
+---@class CcbCallbackLimits
 local CcbCallbackLimits = {}
 ```
 
@@ -3021,7 +3021,7 @@ instruction_budget = ... -- integer
 ## `CcbCallbackMethodSpec` { #symbol-api-lua-v5-generated-class-ccbcallbackmethodspec-745f77ff40c8 }
 
 ```lua
----@class 
+---@class CcbCallbackMethodSpec
 local CcbCallbackMethodSpec = {}
 ```
 
@@ -3085,7 +3085,7 @@ requires_write = ... -- boolean
 ## `CcbCallbacksApi` { #symbol-api-lua-v5-generated-class-ccbcallbacksapi-02c789d4c6e7 }
 
 ```lua
----@class 
+---@class CcbCallbacksApi
 local CcbCallbacksApi = {}
 ```
 
@@ -3124,7 +3124,7 @@ radius_omt = ... -- integer
 ## `CcbCampSnapshot` { #symbol-api-lua-v5-generated-class-ccbcampsnapshot-864539f86d20 }
 
 ```lua
----@class 
+---@class CcbCampSnapshot
 local CcbCampSnapshot = {}
 ```
 
@@ -3296,7 +3296,7 @@ liquid_dumping_spots = ... -- table
 ## `CcbCampsApi` { #symbol-api-lua-v5-generated-class-ccbcampsapi-a404423fc8ba }
 
 ```lua
----@class 
+---@class CcbCampsApi
 local CcbCampsApi = {}
 ```
 
@@ -3307,7 +3307,7 @@ local CcbCampsApi = {}
 ## `CcbCharactersAdjustments` { #symbol-api-lua-v5-generated-class-ccbcharactersadjustments-7455b2364b2a }
 
 ```lua
----@class 
+---@class CcbCharactersAdjustments
 local CcbCharactersAdjustments = {}
 ```
 
@@ -3443,7 +3443,7 @@ stored_kcal = ... -- integer
 ## `CcbCharactersApi` { #symbol-api-lua-v5-generated-class-ccbcharactersapi-e2b6e903a2ff }
 
 ```lua
----@class 
+---@class CcbCharactersApi
 local CcbCharactersApi = {}
 ```
 
@@ -3454,7 +3454,7 @@ local CcbCharactersApi = {}
 ## `CcbConstantsApi` { #symbol-api-lua-v5-generated-class-ccbconstantsapi-b23c5ac4342e }
 
 ```lua
----@class 
+---@class CcbConstantsApi
 local CcbConstantsApi = {}
 ```
 
@@ -3465,7 +3465,7 @@ local CcbConstantsApi = {}
 ## `CcbConstantsSnapshot` { #symbol-api-lua-v5-generated-class-ccbconstantssnapshot-a438b5dc04e8 }
 
 ```lua
----@class 
+---@class CcbConstantsSnapshot
 local CcbConstantsSnapshot = {}
 ```
 
@@ -3505,7 +3505,7 @@ lighting = ... -- table
 ## `CcbCoordsApi` { #symbol-api-lua-v5-generated-class-ccbcoordsapi-d4aa7d2e2cdc }
 
 ```lua
----@class 
+---@class CcbCoordsApi
 local CcbCoordsApi = {}
 ```
 
@@ -3965,7 +3965,7 @@ tripoint_bub_sm = ... -- fun(x: integer, y: integer, z: integer): TripointCoord
 ## `CcbCraftOptions` { #symbol-api-lua-v5-generated-class-ccbcraftoptions-f3fce03d78f9 }
 
 ```lua
----@class 
+---@class CcbCraftOptions
 local CcbCraftOptions = {}
 ```
 
@@ -4005,7 +4005,7 @@ long = ... -- boolean
 ## `CcbCraftingApi` { #symbol-api-lua-v5-generated-class-ccbcraftingapi-a46b3747ddf8 }
 
 ```lua
----@class 
+---@class CcbCraftingApi
 local CcbCraftingApi = {}
 ```
 
@@ -4016,7 +4016,7 @@ local CcbCraftingApi = {}
 ## `CcbCreatureSnapshot` { #symbol-api-lua-v5-generated-class-ccbcreaturesnapshot-11d2640dc5e5 }
 
 ```lua
----@class 
+---@class CcbCreatureSnapshot
 local CcbCreatureSnapshot = {}
 ```
 
@@ -4140,7 +4140,7 @@ hp_max = ... -- integer
 ## `CcbCreaturesApi` { #symbol-api-lua-v5-generated-class-ccbcreaturesapi-ccdc57194aeb }
 
 ```lua
----@class 
+---@class CcbCreaturesApi
 local CcbCreaturesApi = {}
 ```
 
@@ -4151,7 +4151,7 @@ local CcbCreaturesApi = {}
 ## `CcbCurrentWeather` { #symbol-api-lua-v5-generated-class-ccbcurrentweather-1c6eb189f2f9 }
 
 ```lua
----@class 
+---@class CcbCurrentWeather
 local CcbCurrentWeather = {}
 ```
 
@@ -4363,7 +4363,7 @@ query = ... -- string Case-insensitive native id or translated-name fragment.
 ## `CcbDefinitionsApi` { #symbol-api-lua-v5-generated-class-ccbdefinitionsapi-0357a92f57ea }
 
 ```lua
----@class 
+---@class CcbDefinitionsApi
 local CcbDefinitionsApi = {}
 ```
 
@@ -4374,7 +4374,7 @@ local CcbDefinitionsApi = {}
 ## `CcbDefinitionsDescription` { #symbol-api-lua-v5-generated-class-ccbdefinitionsdescription-9240e8b9da7f }
 
 ```lua
----@class 
+---@class CcbDefinitionsDescription
 local CcbDefinitionsDescription = {}
 ```
 
@@ -4474,7 +4474,7 @@ count = ... -- integer
 ## `CcbDiagnosticEntry` { #symbol-api-lua-v5-generated-class-ccbdiagnosticentry-920e555b7b28 }
 
 ```lua
----@class 
+---@class CcbDiagnosticEntry
 local CcbDiagnosticEntry = {}
 ```
 
@@ -4574,7 +4574,7 @@ message = ... -- string
 ## `CcbDiagnosticsApi` { #symbol-api-lua-v5-generated-class-ccbdiagnosticsapi-1368154c6a10 }
 
 ```lua
----@class 
+---@class CcbDiagnosticsApi
 local CcbDiagnosticsApi = {}
 ```
 
@@ -4585,7 +4585,7 @@ local CcbDiagnosticsApi = {}
 ## `CcbDiagnosticsCallbacks` { #symbol-api-lua-v5-generated-class-ccbdiagnosticscallbacks-2a30f59319dd }
 
 ```lua
----@class 
+---@class CcbDiagnosticsCallbacks
 local CcbDiagnosticsCallbacks = {}
 ```
 
@@ -4721,7 +4721,7 @@ service_call_depth = ... -- integer
 ## `CcbDiagnosticsHealth` { #symbol-api-lua-v5-generated-class-ccbdiagnosticshealth-4a29f2e62ca4 }
 
 ```lua
----@class 
+---@class CcbDiagnosticsHealth
 local CcbDiagnosticsHealth = {}
 ```
 
@@ -4797,7 +4797,7 @@ latest_diagnostic_sequence = ... -- integer
 ## `CcbDiagnosticsMemory` { #symbol-api-lua-v5-generated-class-ccbdiagnosticsmemory-28331fae1a41 }
 
 ```lua
----@class 
+---@class CcbDiagnosticsMemory
 local CcbDiagnosticsMemory = {}
 ```
 
@@ -4849,7 +4849,7 @@ remaining = ... -- integer
 ## `CcbDiagnosticsRuntime` { #symbol-api-lua-v5-generated-class-ccbdiagnosticsruntime-c890a7e0e2a0 }
 
 ```lua
----@class 
+---@class CcbDiagnosticsRuntime
 local CcbDiagnosticsRuntime = {}
 ```
 
@@ -4925,7 +4925,7 @@ accepting_actions = ... -- boolean
 ## `CcbDiagnosticsSnapshot` { #symbol-api-lua-v5-generated-class-ccbdiagnosticssnapshot-0ad89ea670b6 }
 
 ```lua
----@class 
+---@class CcbDiagnosticsSnapshot
 local CcbDiagnosticsSnapshot = {}
 ```
 
@@ -5037,7 +5037,7 @@ sources = ... -- CcbDiagnosticsSource[]
 ## `CcbDiagnosticsSource` { #symbol-api-lua-v5-generated-class-ccbdiagnosticssource-a0a8aa1485ab }
 
 ```lua
----@class 
+---@class CcbDiagnosticsSource
 local CcbDiagnosticsSource = {}
 ```
 
@@ -5221,7 +5221,7 @@ current = ... -- boolean
 ## `CcbEffectAddOptions` { #symbol-api-lua-v5-generated-class-ccbeffectaddoptions-276bcc61430c }
 
 ```lua
----@class 
+---@class CcbEffectAddOptions
 local CcbEffectAddOptions = {}
 ```
 
@@ -5285,7 +5285,7 @@ permanent = ... -- boolean
 ## `CcbEffectSnapshot` { #symbol-api-lua-v5-generated-class-ccbeffectsnapshot-9db15db5a1ef }
 
 ```lua
----@class 
+---@class CcbEffectSnapshot
 local CcbEffectSnapshot = {}
 ```
 
@@ -5385,7 +5385,7 @@ permanent = ... -- boolean
 ## `CcbEffectUpdateOptions` { #symbol-api-lua-v5-generated-class-ccbeffectupdateoptions-74b15c74539f }
 
 ```lua
----@class 
+---@class CcbEffectUpdateOptions
 local CcbEffectUpdateOptions = {}
 ```
 
@@ -5449,7 +5449,7 @@ permanent = ... -- boolean
 ## `CcbEffectsApi` { #symbol-api-lua-v5-generated-class-ccbeffectsapi-55adb4369141 }
 
 ```lua
----@class 
+---@class CcbEffectsApi
 local CcbEffectsApi = {}
 ```
 
@@ -5460,7 +5460,7 @@ local CcbEffectsApi = {}
 ## `CcbEnumDescription` { #symbol-api-lua-v5-generated-class-ccbenumdescription-42383bd46a44 }
 
 ```lua
----@class 
+---@class CcbEnumDescription
 local CcbEnumDescription = {}
 ```
 
@@ -5548,7 +5548,7 @@ count = ... -- integer
 ## `CcbEnumPage` { #symbol-api-lua-v5-generated-class-ccbenumpage-b24b13585366 }
 
 ```lua
----@class 
+---@class CcbEnumPage
 local CcbEnumPage = {}
 ```
 
@@ -5648,7 +5648,7 @@ values = ... -- GameEnum[]
 ## `CcbEnumsApi` { #symbol-api-lua-v5-generated-class-ccbenumsapi-1f96df82e0d8 }
 
 ```lua
----@class 
+---@class CcbEnumsApi
 local CcbEnumsApi = {}
 ```
 
@@ -5659,7 +5659,7 @@ local CcbEnumsApi = {}
 ## `CcbEocDefinition` { #symbol-api-lua-v5-generated-class-ccbeocdefinition-27b3e806db32 }
 
 ```lua
----@class 
+---@class CcbEocDefinition
 local CcbEocDefinition = {}
 ```
 
@@ -5795,7 +5795,7 @@ sources = ... -- CcbEocSource[]
 ## `CcbEocLimits` { #symbol-api-lua-v5-generated-class-ccbeoclimits-7fcef06d4efa }
 
 ```lua
----@class 
+---@class CcbEocLimits
 local CcbEocLimits = {}
 ```
 
@@ -5859,7 +5859,7 @@ context_string_bytes = ... -- integer
 ## `CcbEocOptions` { #symbol-api-lua-v5-generated-class-ccbeocoptions-59ad1382428e }
 
 ```lua
----@class 
+---@class CcbEocOptions
 local CcbEocOptions = {}
 ```
 
@@ -5911,7 +5911,7 @@ context = ... -- table<string, CcbEocInputValue>
 ## `CcbEocSource` { #symbol-api-lua-v5-generated-class-ccbeocsource-a36125680bb8 }
 
 ```lua
----@class 
+---@class CcbEocSource
 local CcbEocSource = {}
 ```
 
@@ -5951,7 +5951,7 @@ mod = ... -- string
 ## `CcbEocsApi` { #symbol-api-lua-v5-generated-class-ccbeocsapi-6d06a61f4939 }
 
 ```lua
----@class 
+---@class CcbEocsApi
 local CcbEocsApi = {}
 ```
 
@@ -5962,7 +5962,7 @@ local CcbEocsApi = {}
 ## `CcbError` { #symbol-api-lua-v5-generated-class-ccberror-07877cee9af4 }
 
 ```lua
----@class 
+---@class CcbError
 local CcbError = {}
 ```
 
@@ -6002,7 +6002,7 @@ message = ... -- string
 ## `CcbEvent` { #symbol-api-lua-v5-generated-class-ccbevent-62a4d1add65f }
 
 ```lua
----@class 
+---@class CcbEvent
 local CcbEvent = {}
 ```
 
@@ -6066,7 +6066,7 @@ data_types = ... -- table<string, string>
 ## `CcbEventOptions` { #symbol-api-lua-v5-generated-class-ccbeventoptions-30ae54db5e1b }
 
 ```lua
----@class 
+---@class CcbEventOptions
 local CcbEventOptions = {}
 ```
 
@@ -6106,7 +6106,7 @@ once = ... -- boolean
 ## `CcbEventsApi` { #symbol-api-lua-v5-generated-class-ccbeventsapi-7f600d9f9f6a }
 
 ```lua
----@class 
+---@class CcbEventsApi
 local CcbEventsApi = {}
 ```
 
@@ -6117,7 +6117,7 @@ local CcbEventsApi = {}
 ## `CcbFactionPolicy` { #symbol-api-lua-v5-generated-class-ccbfactionpolicy-3b2e4dd1611e }
 
 ```lua
----@class 
+---@class CcbFactionPolicy
 local CcbFactionPolicy = {}
 ```
 
@@ -6181,7 +6181,7 @@ stealing = ... -- "ask"|"always"|"never"
 ## `CcbFactionPolicyUpdate` { #symbol-api-lua-v5-generated-class-ccbfactionpolicyupdate-1554bd1339ac }
 
 ```lua
----@class 
+---@class CcbFactionPolicyUpdate
 local CcbFactionPolicyUpdate = {}
 ```
 
@@ -6221,7 +6221,7 @@ stealing = ... -- "ask"|"always"|"never"
 ## `CcbFactionRelationshipUpdate` { #symbol-api-lua-v5-generated-class-ccbfactionrelationshipupdate-67284b553735 }
 
 ```lua
----@class 
+---@class CcbFactionRelationshipUpdate
 local CcbFactionRelationshipUpdate = {}
 ```
 
@@ -6333,7 +6333,7 @@ knows_your_voice = ... -- boolean
 ## `CcbFactionReputation` { #symbol-api-lua-v5-generated-class-ccbfactionreputation-06eab368ee85 }
 
 ```lua
----@class 
+---@class CcbFactionReputation
 local CcbFactionReputation = {}
 ```
 
@@ -6409,7 +6409,7 @@ respect = ... -- string
 ## `CcbFactionReputationDeltas` { #symbol-api-lua-v5-generated-class-ccbfactionreputationdeltas-f6278cfd4097 }
 
 ```lua
----@class 
+---@class CcbFactionReputationDeltas
 local CcbFactionReputationDeltas = {}
 ```
 
@@ -6461,7 +6461,7 @@ trusts = ... -- integer
 ## `CcbFactionResourceDeltas` { #symbol-api-lua-v5-generated-class-ccbfactionresourcedeltas-3821cab03336 }
 
 ```lua
----@class 
+---@class CcbFactionResourceDeltas
 local CcbFactionResourceDeltas = {}
 ```
 
@@ -6513,7 +6513,7 @@ wealth = ... -- integer
 ## `CcbFactionResources` { #symbol-api-lua-v5-generated-class-ccbfactionresources-001b281ba45a }
 
 ```lua
----@class 
+---@class CcbFactionResources
 local CcbFactionResources = {}
 ```
 
@@ -6601,7 +6601,7 @@ combat_ability = ... -- string
 ## `CcbFactionSnapshot` { #symbol-api-lua-v5-generated-class-ccbfactionsnapshot-1ab5f1c62100 }
 
 ```lua
----@class 
+---@class CcbFactionSnapshot
 local CcbFactionSnapshot = {}
 ```
 
@@ -6761,7 +6761,7 @@ relationship_targets = ... -- integer
 ## `CcbFactionsApi` { #symbol-api-lua-v5-generated-class-ccbfactionsapi-5892f61d5fba }
 
 ```lua
----@class 
+---@class CcbFactionsApi
 local CcbFactionsApi = {}
 ```
 
@@ -6772,7 +6772,7 @@ local CcbFactionsApi = {}
 ## `CcbFollowersApi` { #symbol-api-lua-v5-generated-class-ccbfollowersapi-6b69b29612da }
 
 ```lua
----@class 
+---@class CcbFollowersApi
 local CcbFollowersApi = {}
 ```
 
@@ -6783,7 +6783,7 @@ local CcbFollowersApi = {}
 ## `CcbGameActionsApi` { #symbol-api-lua-v5-generated-class-ccbgameactionsapi-d29d9e8391a2 }
 
 ```lua
----@class 
+---@class CcbGameActionsApi
 local CcbGameActionsApi = {}
 ```
 
@@ -6794,7 +6794,7 @@ local CcbGameActionsApi = {}
 ## `CcbGameApi` { #symbol-api-lua-v5-generated-class-ccbgameapi-6be982da582a }
 
 ```lua
----@class 
+---@class CcbGameApi
 local CcbGameApi = {}
 ```
 
@@ -7482,7 +7482,7 @@ zones = ... -- CcbZonesApi
 ## `CcbGiveItemOptions` { #symbol-api-lua-v5-generated-class-ccbgiveitemoptions-ba5e55638bac }
 
 ```lua
----@class 
+---@class CcbGiveItemOptions
 local CcbGiveItemOptions = {}
 ```
 
@@ -7510,7 +7510,7 @@ allow_wield = ... -- boolean
 ## `CcbGutVitaminSnapshot` { #symbol-api-lua-v5-generated-class-ccbgutvitaminsnapshot-31772ea2603b }
 
 ```lua
----@class 
+---@class CcbGutVitaminSnapshot
 local CcbGutVitaminSnapshot = {}
 ```
 
@@ -7550,7 +7550,7 @@ amount = ... -- integer
 ## `CcbHallucinationOptions` { #symbol-api-lua-v5-generated-class-ccbhallucinationoptions-546ce5b1fb24 }
 
 ```lua
----@class 
+---@class CcbHallucinationOptions
 local CcbHallucinationOptions = {}
 ```
 
@@ -7590,7 +7590,7 @@ lifespan = ... -- TimeDuration
 ## `CcbHandleLocator` { #symbol-api-lua-v5-generated-class-ccbhandlelocator-8dd96735bc67 }
 
 ```lua
----@class 
+---@class CcbHandleLocator
 local CcbHandleLocator = {}
 ```
 
@@ -7678,7 +7678,7 @@ path = ... -- integer[]
 ## `CcbHandlesApi` { #symbol-api-lua-v5-generated-class-ccbhandlesapi-78310f80d2ad }
 
 ```lua
----@class 
+---@class CcbHandlesApi
 local CcbHandlesApi = {}
 ```
 
@@ -7689,7 +7689,7 @@ local CcbHandlesApi = {}
 ## `CcbHealthAdjustments` { #symbol-api-lua-v5-generated-class-ccbhealthadjustments-78b6024527e0 }
 
 ```lua
----@class 
+---@class CcbHealthAdjustments
 local CcbHealthAdjustments = {}
 ```
 
@@ -7769,7 +7769,7 @@ health_tally = ... -- integer
 ## `CcbHookLimits` { #symbol-api-lua-v5-generated-class-ccbhooklimits-6cfe1be2ecf1 }
 
 ```lua
----@class 
+---@class CcbHookLimits
 local CcbHookLimits = {}
 ```
 
@@ -7869,7 +7869,7 @@ instruction_budget = ... -- integer
 ## `CcbHookOptions` { #symbol-api-lua-v5-generated-class-ccbhookoptions-2acfb401ce0b }
 
 ```lua
----@class 
+---@class CcbHookOptions
 local CcbHookOptions = {}
 ```
 
@@ -7909,7 +7909,7 @@ once = ... -- boolean
 ## `CcbHookPayload` { #symbol-api-lua-v5-generated-class-ccbhookpayload-8cd368ea9b79 }
 
 ```lua
----@class 
+---@class CcbHookPayload
 local CcbHookPayload = {}
 ```
 
@@ -7949,7 +7949,7 @@ turn = ... -- integer
 ## `CcbHookSpec` { #symbol-api-lua-v5-generated-class-ccbhookspec-67ef3a8fbb73 }
 
 ```lua
----@class 
+---@class CcbHookSpec
 local CcbHookSpec = {}
 ```
 
@@ -8037,7 +8037,7 @@ result_fields = ... -- string[]
 ## `CcbHooksApi` { #symbol-api-lua-v5-generated-class-ccbhooksapi-2ba4abbefe57 }
 
 ```lua
----@class 
+---@class CcbHooksApi
 local CcbHooksApi = {}
 ```
 
@@ -8112,7 +8112,7 @@ monster = ... -- GameId
 ## `CcbHordesApi` { #symbol-api-lua-v5-generated-class-ccbhordesapi-45b863cd4b33 }
 
 ```lua
----@class 
+---@class CcbHordesApi
 local CcbHordesApi = {}
 ```
 
@@ -8123,7 +8123,7 @@ local CcbHordesApi = {}
 ## `CcbI18nApi` { #symbol-api-lua-v5-generated-class-ccbi18napi-1bb8bf8e7452 }
 
 ```lua
----@class 
+---@class CcbI18nApi
 local CcbI18nApi = {}
 ```
 
@@ -8134,7 +8134,7 @@ local CcbI18nApi = {}
 ## `CcbInputContextSnapshot` { #symbol-api-lua-v5-generated-class-ccbinputcontextsnapshot-5cc1af83f11d }
 
 ```lua
----@class 
+---@class CcbInputContextSnapshot
 local CcbInputContextSnapshot = {}
 ```
 
@@ -8222,7 +8222,7 @@ available = ... -- table<string, boolean>
 ## `CcbInventoryApi` { #symbol-api-lua-v5-generated-class-ccbinventoryapi-dad9d7a12754 }
 
 ```lua
----@class 
+---@class CcbInventoryApi
 local CcbInventoryApi = {}
 ```
 
@@ -8360,7 +8360,7 @@ local CcbItemPocketOptions = {}
 ## `CcbItemSnapshot` { #symbol-api-lua-v5-generated-class-ccbitemsnapshot-7e1d6042a3cc }
 
 ```lua
----@class 
+---@class CcbItemSnapshot
 local CcbItemSnapshot = {}
 ```
 
@@ -8520,7 +8520,7 @@ wielded = ... -- boolean
 ## `CcbItemUpdates` { #symbol-api-lua-v5-generated-class-ccbitemupdates-4d1a81627c32 }
 
 ```lua
----@class 
+---@class CcbItemUpdates
 local CcbItemUpdates = {}
 ```
 
@@ -8572,7 +8572,7 @@ favorite = ... -- boolean
 ## `CcbItemsApi` { #symbol-api-lua-v5-generated-class-ccbitemsapi-e7595cacba07 }
 
 ```lua
----@class 
+---@class CcbItemsApi
 local CcbItemsApi = {}
 ```
 
@@ -8583,7 +8583,7 @@ local CcbItemsApi = {}
 ## `CcbLearnSpellOptions` { #symbol-api-lua-v5-generated-class-ccblearnspelloptions-babcc4f4be04 }
 
 ```lua
----@class 
+---@class CcbLearnSpellOptions
 local CcbLearnSpellOptions = {}
 ```
 
@@ -8687,7 +8687,7 @@ horde_only = ... -- boolean
 ## `CcbLegacyHordeSettings` { #symbol-api-lua-v5-generated-class-ccblegacyhordesettings-209e936a3c83 }
 
 ```lua
----@class 
+---@class CcbLegacyHordeSettings
 local CcbLegacyHordeSettings = {}
 ```
 
@@ -8827,7 +8827,7 @@ position = ... -- TripointCoord
 ## `CcbMapgenApi` { #symbol-api-lua-v5-generated-class-ccbmapgenapi-ef50aa501aeb }
 
 ```lua
----@class 
+---@class CcbMapgenApi
 local CcbMapgenApi = {}
 ```
 
@@ -8890,7 +8890,7 @@ z_max = ... -- integer
 ## `CcbMapgenLimits` { #symbol-api-lua-v5-generated-class-ccbmapgenlimits-09a4148e1b3d }
 
 ```lua
----@class 
+---@class CcbMapgenLimits
 local CcbMapgenLimits = {}
 ```
 
@@ -9050,7 +9050,7 @@ terrain_ids = ... -- integer
 ## `CcbMartialArtDefinition` { #symbol-api-lua-v5-generated-class-ccbmartialartdefinition-313d3523a90c }
 
 ```lua
----@class 
+---@class CcbMartialArtDefinition
 local CcbMartialArtDefinition = {}
 ```
 
@@ -9310,7 +9310,7 @@ teachable_only = ... -- boolean
 ## `CcbMartialArtState` { #symbol-api-lua-v5-generated-class-ccbmartialartstate-0723feece051 }
 
 ```lua
----@class 
+---@class CcbMartialArtState
 local CcbMartialArtState = {}
 ```
 
@@ -9446,7 +9446,7 @@ keep_hands_free = ... -- boolean
 ## `CcbMartialArtsApi` { #symbol-api-lua-v5-generated-class-ccbmartialartsapi-ef54d7525f95 }
 
 ```lua
----@class 
+---@class CcbMartialArtsApi
 local CcbMartialArtsApi = {}
 ```
 
@@ -9457,7 +9457,7 @@ local CcbMartialArtsApi = {}
 ## `CcbMessageEntry` { #symbol-api-lua-v5-generated-class-ccbmessageentry-2edc77492ca1 }
 
 ```lua
----@class 
+---@class CcbMessageEntry
 local CcbMessageEntry = {}
 ```
 
@@ -9497,7 +9497,7 @@ text = ... -- string
 ## `CcbMessagePage` { #symbol-api-lua-v5-generated-class-ccbmessagepage-f6c812e9d129 }
 
 ```lua
----@class 
+---@class CcbMessagePage
 local CcbMessagePage = {}
 ```
 
@@ -9573,7 +9573,7 @@ truncated = ... -- boolean
 ## `CcbMessagesApi` { #symbol-api-lua-v5-generated-class-ccbmessagesapi-f50689b92b94 }
 
 ```lua
----@class 
+---@class CcbMessagesApi
 local CcbMessagesApi = {}
 ```
 
@@ -9624,7 +9624,7 @@ status = ... -- "all"|"reserved"|"active"|"success"|"failure"
 ## `CcbMissionSnapshot` { #symbol-api-lua-v5-generated-class-ccbmissionsnapshot-020a88e83304 }
 
 ```lua
----@class 
+---@class CcbMissionSnapshot
 local CcbMissionSnapshot = {}
 ```
 
@@ -9784,7 +9784,7 @@ target_z = ... -- integer
 ## `CcbMissionsApi` { #symbol-api-lua-v5-generated-class-ccbmissionsapi-725828335e3a }
 
 ```lua
----@class 
+---@class CcbMissionsApi
 local CcbMissionsApi = {}
 ```
 
@@ -9795,7 +9795,7 @@ local CcbMissionsApi = {}
 ## `CcbModulesApi` { #symbol-api-lua-v5-generated-class-ccbmodulesapi-fa2ea836bb59 }
 
 ```lua
----@class 
+---@class CcbModulesApi
 local CcbModulesApi = {}
 ```
 
@@ -9806,7 +9806,7 @@ local CcbModulesApi = {}
 ## `CcbMovementMode` { #symbol-api-lua-v5-generated-class-ccbmovementmode-8c41be6616e0 }
 
 ```lua
----@class 
+---@class CcbMovementMode
 local CcbMovementMode = {}
 ```
 
@@ -9906,7 +9906,7 @@ switch_seconds = ... -- number
 ## `CcbMovementModesSnapshot` { #symbol-api-lua-v5-generated-class-ccbmovementmodessnapshot-a7fe51fe196e }
 
 ```lua
----@class 
+---@class CcbMovementModesSnapshot
 local CcbMovementModesSnapshot = {}
 ```
 
@@ -10010,7 +10010,7 @@ include_enchantment = ... -- boolean
 ## `CcbMutationSnapshot` { #symbol-api-lua-v5-generated-class-ccbmutationsnapshot-e0f0af6ff198 }
 
 ```lua
----@class 
+---@class CcbMutationSnapshot
 local CcbMutationSnapshot = {}
 ```
 
@@ -10134,7 +10134,7 @@ points = ... -- integer
 ## `CcbMutationsApi` { #symbol-api-lua-v5-generated-class-ccbmutationsapi-27d1cc6b3189 }
 
 ```lua
----@class 
+---@class CcbMutationsApi
 local CcbMutationsApi = {}
 ```
 
@@ -10145,7 +10145,7 @@ local CcbMutationsApi = {}
 ## `CcbNativeEventDescription` { #symbol-api-lua-v5-generated-class-ccbnativeeventdescription-114bc89b39e9 }
 
 ```lua
----@class 
+---@class CcbNativeEventDescription
 local CcbNativeEventDescription = {}
 ```
 
@@ -10209,7 +10209,7 @@ emittable = ... -- true
 ## `CcbNativeEventField` { #symbol-api-lua-v5-generated-class-ccbnativeeventfield-e3dd1af8ad37 }
 
 ```lua
----@class 
+---@class CcbNativeEventField
 local CcbNativeEventField = {}
 ```
 
@@ -10261,7 +10261,7 @@ lua_type = ... -- "boolean"|"integer"|"string"|"nil"
 ## `CcbNativeEventsApi` { #symbol-api-lua-v5-generated-class-ccbnativeeventsapi-bfa632c69756 }
 
 ```lua
----@class 
+---@class CcbNativeEventsApi
 local CcbNativeEventsApi = {}
 ```
 
@@ -10272,7 +10272,7 @@ local CcbNativeEventsApi = {}
 ## `CcbNativeScore` { #symbol-api-lua-v5-generated-class-ccbnativescore-5da2a88846dc }
 
 ```lua
----@class 
+---@class CcbNativeScore
 local CcbNativeScore = {}
 ```
 
@@ -10360,7 +10360,7 @@ sources = ... -- table
 ## `CcbNativeSkillDefinition` { #symbol-api-lua-v5-generated-class-ccbnativeskilldefinition-bb42f120d59a }
 
 ```lua
----@class 
+---@class CcbNativeSkillDefinition
 local CcbNativeSkillDefinition = {}
 ```
 
@@ -10496,7 +10496,7 @@ consumes_focus = ... -- boolean
 ## `CcbNativeSkillState` { #symbol-api-lua-v5-generated-class-ccbnativeskillstate-8515ce918368 }
 
 ```lua
----@class 
+---@class CcbNativeSkillState
 local CcbNativeSkillState = {}
 ```
 
@@ -10716,7 +10716,7 @@ maximum_level = ... -- integer
 ## `CcbNearbyOptions` { #symbol-api-lua-v5-generated-class-ccbnearbyoptions-a3b9b8f69d5c }
 
 ```lua
----@class 
+---@class CcbNearbyOptions
 local CcbNearbyOptions = {}
 ```
 
@@ -10792,7 +10792,7 @@ include_hallucinations = ... -- boolean
 ## `CcbNeedAdjustments` { #symbol-api-lua-v5-generated-class-ccbneedadjustments-872de3b13f1b }
 
 ```lua
----@class 
+---@class CcbNeedAdjustments
 local CcbNeedAdjustments = {}
 ```
 
@@ -10856,7 +10856,7 @@ sleep_deprivation = ... -- integer
 ## `CcbNeedsApi` { #symbol-api-lua-v5-generated-class-ccbneedsapi-2b557a005aee }
 
 ```lua
----@class 
+---@class CcbNeedsApi
 local CcbNeedsApi = {}
 ```
 
@@ -10867,7 +10867,7 @@ local CcbNeedsApi = {}
 ## `CcbNeedsSnapshot` { #symbol-api-lua-v5-generated-class-ccbneedssnapshot-81d84e6f5aff }
 
 ```lua
----@class 
+---@class CcbNeedsSnapshot
 local CcbNeedsSnapshot = {}
 ```
 
@@ -11063,7 +11063,7 @@ health_tally = ... -- integer
 ## `CcbNpcClassDefinition` { #symbol-api-lua-v5-generated-class-ccbnpcclassdefinition-c45b6fd8fd3b }
 
 ```lua
----@class 
+---@class CcbNpcClassDefinition
 local CcbNpcClassDefinition = {}
 ```
 
@@ -11211,7 +11211,7 @@ starting_proficiencies = ... -- table
 ## `CcbNpcOpinion` { #symbol-api-lua-v5-generated-class-ccbnpcopinion-b6f0d6e6c838 }
 
 ```lua
----@class 
+---@class CcbNpcOpinion
 local CcbNpcOpinion = {}
 ```
 
@@ -11299,7 +11299,7 @@ sold = ... -- integer
 ## `CcbNpcOpinionDeltas` { #symbol-api-lua-v5-generated-class-ccbnpcopiniondeltas-0eabe67b29b2 }
 
 ```lua
----@class 
+---@class CcbNpcOpinionDeltas
 local CcbNpcOpinionDeltas = {}
 ```
 
@@ -11387,7 +11387,7 @@ sold = ... -- integer
 ## `CcbNpcSnapshot` { #symbol-api-lua-v5-generated-class-ccbnpcsnapshot-c3bd0a2d00fb }
 
 ```lua
----@class 
+---@class CcbNpcSnapshot
 local CcbNpcSnapshot = {}
 ```
 
@@ -11727,7 +11727,7 @@ personality = ... -- table
 ## `CcbNpcsApi` { #symbol-api-lua-v5-generated-class-ccbnpcsapi-bedf0cc88089 }
 
 ```lua
----@class 
+---@class CcbNpcsApi
 local CcbNpcsApi = {}
 ```
 
@@ -11738,7 +11738,7 @@ local CcbNpcsApi = {}
 ## `CcbOvermapApi` { #symbol-api-lua-v5-generated-class-ccbovermapapi-324d11e0937e }
 
 ```lua
----@class 
+---@class CcbOvermapApi
 local CcbOvermapApi = {}
 ```
 
@@ -11849,7 +11849,7 @@ explored = ... -- boolean
 ## `CcbOvermapSelectorTable` { #symbol-api-lua-v5-generated-class-ccbovermapselectortable-d4f4e0a62e76 }
 
 ```lua
----@class 
+---@class CcbOvermapSelectorTable
 local CcbOvermapSelectorTable = {}
 ```
 
@@ -11889,7 +11889,7 @@ match = ... -- GameEnum
 ## `CcbPageDescriptor` { #symbol-api-lua-v5-generated-class-ccbpagedescriptor-bc8ed5b1d5c4 }
 
 ```lua
----@class 
+---@class CcbPageDescriptor
 local CcbPageDescriptor = {}
 ```
 
@@ -11953,7 +11953,7 @@ slots = ... -- CcbPageSlot[]
 ## `CcbPageOptions` { #symbol-api-lua-v5-generated-class-ccbpageoptions-6f81e3131b0c }
 
 ```lua
----@class 
+---@class CcbPageOptions
 local CcbPageOptions = {}
 ```
 
@@ -11993,7 +11993,7 @@ limit = ... -- integer
 ## `CcbPlayerSnapshot` { #symbol-api-lua-v5-generated-class-ccbplayersnapshot-b04d18bb9eaa }
 
 ```lua
----@class 
+---@class CcbPlayerSnapshot
 local CcbPlayerSnapshot = {}
 ```
 
@@ -12309,7 +12309,7 @@ z = ... -- integer
 ## `CcbProficienciesApi` { #symbol-api-lua-v5-generated-class-ccbproficienciesapi-1e74e9b38ff1 }
 
 ```lua
----@class 
+---@class CcbProficienciesApi
 local CcbProficienciesApi = {}
 ```
 
@@ -12320,7 +12320,7 @@ local CcbProficienciesApi = {}
 ## `CcbProficiencyCategory` { #symbol-api-lua-v5-generated-class-ccbproficiencycategory-a5138cc08b96 }
 
 ```lua
----@class 
+---@class CcbProficiencyCategory
 local CcbProficiencyCategory = {}
 ```
 
@@ -12372,7 +12372,7 @@ description = ... -- string
 ## `CcbProficiencyDefinition` { #symbol-api-lua-v5-generated-class-ccbproficiencydefinition-c34c317f278c }
 
 ```lua
----@class 
+---@class CcbProficiencyDefinition
 local CcbProficiencyDefinition = {}
 ```
 
@@ -12544,7 +12544,7 @@ required = ... -- table
 ## `CcbProficiencyGrantOptions` { #symbol-api-lua-v5-generated-class-ccbproficiencygrantoptions-0804b402810d }
 
 ```lua
----@class 
+---@class CcbProficiencyGrantOptions
 local CcbProficiencyGrantOptions = {}
 ```
 
@@ -12636,7 +12636,7 @@ include_unstarted = ... -- boolean
 ## `CcbProficiencyState` { #symbol-api-lua-v5-generated-class-ccbproficiencystate-c13c49b8e7e9 }
 
 ```lua
----@class 
+---@class CcbProficiencyState
 local CcbProficiencyState = {}
 ```
 
@@ -12772,7 +12772,7 @@ ignore_focus = ... -- boolean
 ## `CcbQueuedAction` { #symbol-api-lua-v5-generated-class-ccbqueuedaction-e12de30e31ca }
 
 ```lua
----@class 
+---@class CcbQueuedAction
 local CcbQueuedAction = {}
 ```
 
@@ -12884,7 +12884,7 @@ source = ... -- string
 ## `CcbRadialOption` { #symbol-api-lua-v5-generated-class-ccbradialoption-533f61b1e951 }
 
 ```lua
----@class 
+---@class CcbRadialOption
 local CcbRadialOption = {}
 ```
 
@@ -12948,7 +12948,7 @@ selected = ... -- boolean
 ## `CcbRandomApi` { #symbol-api-lua-v5-generated-class-ccbrandomapi-74c52f5c679c }
 
 ```lua
----@class 
+---@class CcbRandomApi
 local CcbRandomApi = {}
 ```
 
@@ -13059,7 +13059,7 @@ flag = ... -- string
 ## `CcbRecipesApi` { #symbol-api-lua-v5-generated-class-ccbrecipesapi-884dfd321275 }
 
 ```lua
----@class 
+---@class CcbRecipesApi
 local CcbRecipesApi = {}
 ```
 
@@ -13070,7 +13070,7 @@ local CcbRecipesApi = {}
 ## `CcbRegistryApi` { #symbol-api-lua-v5-generated-class-ccbregistryapi-9efc5bf1fccb }
 
 ```lua
----@class 
+---@class CcbRegistryApi
 local CcbRegistryApi = {}
 ```
 
@@ -13121,7 +13121,7 @@ description = ... -- string
 ## `CcbRegistryEntry` { #symbol-api-lua-v5-generated-class-ccbregistryentry-eb006af383f1 }
 
 ```lua
----@class 
+---@class CcbRegistryEntry
 local CcbRegistryEntry = {}
 ```
 
@@ -13161,7 +13161,7 @@ name = ... -- string
 ## `CcbRegistryListOptions` { #symbol-api-lua-v5-generated-class-ccbregistrylistoptions-a89200874d68 }
 
 ```lua
----@class 
+---@class CcbRegistryListOptions
 local CcbRegistryListOptions = {}
 ```
 
@@ -13225,7 +13225,7 @@ details = ... -- boolean
 ## `CcbRegistryPage` { #symbol-api-lua-v5-generated-class-ccbregistrypage-d9145f339fdf }
 
 ```lua
----@class 
+---@class CcbRegistryPage
 local CcbRegistryPage = {}
 ```
 
@@ -13337,7 +13337,7 @@ entries = ... -- (CcbRegistryEntry|CcbRegistryDefinition)[]
 ## `CcbRelocationApi` { #symbol-api-lua-v5-generated-class-ccbrelocationapi-492a188835bc }
 
 ```lua
----@class 
+---@class CcbRelocationApi
 local CcbRelocationApi = {}
 ```
 
@@ -13376,7 +13376,7 @@ batch = ... -- integer
 ## `CcbRequirementsApi` { #symbol-api-lua-v5-generated-class-ccbrequirementsapi-eeaec1ba5435 }
 
 ```lua
----@class 
+---@class CcbRequirementsApi
 local CcbRequirementsApi = {}
 ```
 
@@ -13387,7 +13387,7 @@ local CcbRequirementsApi = {}
 ## `CcbResult` { #symbol-api-lua-v5-generated-class-ccbresult-afc2d8632769 }
 
 ```lua
----@class 
+---@class CcbResult
 local CcbResult = {}
 ```
 
@@ -13439,7 +13439,7 @@ error = ... -- CcbError
 ## `CcbRuntimeStatus` { #symbol-api-lua-v5-generated-class-ccbruntimestatus-def8fa659f38 }
 
 ```lua
----@class 
+---@class CcbRuntimeStatus
 local CcbRuntimeStatus = {}
 ```
 
@@ -13659,7 +13659,7 @@ last_error = ... -- string
 ## `CcbSchedulerApi` { #symbol-api-lua-v5-generated-class-ccbschedulerapi-5744977a0273 }
 
 ```lua
----@class 
+---@class CcbSchedulerApi
 local CcbSchedulerApi = {}
 ```
 
@@ -13670,7 +13670,7 @@ local CcbSchedulerApi = {}
 ## `CcbSerdeApi` { #symbol-api-lua-v5-generated-class-ccbserdeapi-44947fbfaabf }
 
 ```lua
----@class 
+---@class CcbSerdeApi
 local CcbSerdeApi = {}
 ```
 
@@ -13758,7 +13758,7 @@ max_table_entries = ... -- integer
 ## `CcbServiceDescriptor` { #symbol-api-lua-v5-generated-class-ccbservicedescriptor-dcbf2c411248 }
 
 ```lua
----@class 
+---@class CcbServiceDescriptor
 local CcbServiceDescriptor = {}
 ```
 
@@ -13798,7 +13798,7 @@ methods = ... -- table<string, fun(arguments: CcbScalarMap): CcbScalarMap?>
 ## `CcbServiceInfo` { #symbol-api-lua-v5-generated-class-ccbserviceinfo-b2c19310d186 }
 
 ```lua
----@class 
+---@class CcbServiceInfo
 local CcbServiceInfo = {}
 ```
 
@@ -13862,7 +13862,7 @@ methods = ... -- string[]
 ## `CcbServicesApi` { #symbol-api-lua-v5-generated-class-ccbservicesapi-75f497f6d5a5 }
 
 ```lua
----@class 
+---@class CcbServicesApi
 local CcbServicesApi = {}
 ```
 
@@ -13873,7 +13873,7 @@ local CcbServicesApi = {}
 ## `CcbSidebarApi` { #symbol-api-lua-v5-generated-class-ccbsidebarapi-6e8a5beb07be }
 
 ```lua
----@class 
+---@class CcbSidebarApi
 local CcbSidebarApi = {}
 ```
 
@@ -13884,7 +13884,7 @@ local CcbSidebarApi = {}
 ## `CcbSidebarLimits` { #symbol-api-lua-v5-generated-class-ccbsidebarlimits-3482a6eafa46 }
 
 ```lua
----@class 
+---@class CcbSidebarLimits
 local CcbSidebarLimits = {}
 ```
 
@@ -13984,7 +13984,7 @@ callback_instructions = ... -- integer
 ## `CcbSidebarLine` { #symbol-api-lua-v5-generated-class-ccbsidebarline-c39374c799c9 }
 
 ```lua
----@class 
+---@class CcbSidebarLine
 local CcbSidebarLine = {}
 ```
 
@@ -14024,7 +14024,7 @@ color = ... -- string
 ## `CcbSidebarWidgetDescriptor` { #symbol-api-lua-v5-generated-class-ccbsidebarwidgetdescriptor-03f3b13509fe }
 
 ```lua
----@class 
+---@class CcbSidebarWidgetDescriptor
 local CcbSidebarWidgetDescriptor = {}
 ```
 
@@ -14148,7 +14148,7 @@ render = ... -- fun()
 ## `CcbSidebarWidgetInfo` { #symbol-api-lua-v5-generated-class-ccbsidebarwidgetinfo-8cb28b22e5e2 }
 
 ```lua
----@class 
+---@class CcbSidebarWidgetInfo
 local CcbSidebarWidgetInfo = {}
 ```
 
@@ -14284,7 +14284,7 @@ enabled = ... -- boolean
 ## `CcbSkillAdjustments` { #symbol-api-lua-v5-generated-class-ccbskilladjustments-64dbf02c666e }
 
 ```lua
----@class 
+---@class CcbSkillAdjustments
 local CcbSkillAdjustments = {}
 ```
 
@@ -14336,7 +14336,7 @@ exercise_percent = ... -- integer
 ## `CcbSkillDefinitionPage` { #symbol-api-lua-v5-generated-class-ccbskilldefinitionpage-5ac72a5145c8 }
 
 ```lua
----@class 
+---@class CcbSkillDefinitionPage
 local CcbSkillDefinitionPage = {}
 ```
 
@@ -14464,7 +14464,7 @@ include_contextual = ... -- boolean
 ## `CcbSkillPracticeOptions` { #symbol-api-lua-v5-generated-class-ccbskillpracticeoptions-fd5276c1d896 }
 
 ```lua
----@class 
+---@class CcbSkillPracticeOptions
 local CcbSkillPracticeOptions = {}
 ```
 
@@ -14504,7 +14504,7 @@ allow_multilevel = ... -- boolean
 ## `CcbSkillSnapshot` { #symbol-api-lua-v5-generated-class-ccbskillsnapshot-7ddd0546bdac }
 
 ```lua
----@class 
+---@class CcbSkillSnapshot
 local CcbSkillSnapshot = {}
 ```
 
@@ -14640,7 +14640,7 @@ combat = ... -- boolean
 ## `CcbSkillsApi` { #symbol-api-lua-v5-generated-class-ccbskillsapi-4f45f19e672a }
 
 ```lua
----@class 
+---@class CcbSkillsApi
 local CcbSkillsApi = {}
 ```
 
@@ -14651,7 +14651,7 @@ local CcbSkillsApi = {}
 ## `CcbSleepAdjustments` { #symbol-api-lua-v5-generated-class-ccbsleepadjustments-5ae60a3207e9 }
 
 ```lua
----@class 
+---@class CcbSleepAdjustments
 local CcbSleepAdjustments = {}
 ```
 
@@ -14691,7 +14691,7 @@ continuous = ... -- TimeDuration
 ## `CcbSoundApi` { #symbol-api-lua-v5-generated-class-ccbsoundapi-5770f31e364d }
 
 ```lua
----@class 
+---@class CcbSoundApi
 local CcbSoundApi = {}
 ```
 
@@ -14702,7 +14702,7 @@ local CcbSoundApi = {}
 ## `CcbSpawnsApi` { #symbol-api-lua-v5-generated-class-ccbspawnsapi-046c9aeba7db }
 
 ```lua
----@class 
+---@class CcbSpawnsApi
 local CcbSpawnsApi = {}
 ```
 
@@ -14713,7 +14713,7 @@ local CcbSpawnsApi = {}
 ## `CcbSpellsApi` { #symbol-api-lua-v5-generated-class-ccbspellsapi-eb8f67cfbc7d }
 
 ```lua
----@class 
+---@class CcbSpellsApi
 local CcbSpellsApi = {}
 ```
 
@@ -14724,7 +14724,7 @@ local CcbSpellsApi = {}
 ## `CcbStateApi` { #symbol-api-lua-v5-generated-class-ccbstateapi-94a4b7d4993b }
 
 ```lua
----@class 
+---@class CcbStateApi
 local CcbStateApi = {}
 ```
 
@@ -14776,7 +14776,7 @@ page = ... -- CcbStateStore
 ## `CcbStateStore` { #symbol-api-lua-v5-generated-class-ccbstatestore-ce9d88325e37 }
 
 ```lua
----@class 
+---@class CcbStateStore
 local CcbStateStore = {}
 ```
 
@@ -14787,7 +14787,7 @@ local CcbStateStore = {}
 ## `CcbStatisticDefinition` { #symbol-api-lua-v5-generated-class-ccbstatisticdefinition-4dc47d331ad8 }
 
 ```lua
----@class 
+---@class CcbStatisticDefinition
 local CcbStatisticDefinition = {}
 ```
 
@@ -14875,7 +14875,7 @@ sources = ... -- table
 ## `CcbStatisticEventPartition` { #symbol-api-lua-v5-generated-class-ccbstatisticeventpartition-5284506f40ec }
 
 ```lua
----@class 
+---@class CcbStatisticEventPartition
 local CcbStatisticEventPartition = {}
 ```
 
@@ -14939,7 +14939,7 @@ data = ... -- table<string, CcbStatisticVariant>
 ## `CcbStatisticEventType` { #symbol-api-lua-v5-generated-class-ccbstatisticeventtype-968b1c626938 }
 
 ```lua
----@class 
+---@class CcbStatisticEventType
 local CcbStatisticEventType = {}
 ```
 
@@ -14991,7 +14991,7 @@ count = ... -- integer
 ## `CcbStatisticTransformation` { #symbol-api-lua-v5-generated-class-ccbstatistictransformation-18a8effaa56d }
 
 ```lua
----@class 
+---@class CcbStatisticTransformation
 local CcbStatisticTransformation = {}
 ```
 
@@ -15067,7 +15067,7 @@ fields = ... -- table
 ## `CcbStatisticVariant` { #symbol-api-lua-v5-generated-class-ccbstatisticvariant-f6324a536096 }
 
 ```lua
----@class 
+---@class CcbStatisticVariant
 local CcbStatisticVariant = {}
 ```
 
@@ -15131,7 +15131,7 @@ value = ... -- boolean|integer|number|string|table
 ## `CcbStatisticsApi` { #symbol-api-lua-v5-generated-class-ccbstatisticsapi-11247c94b77f }
 
 ```lua
----@class 
+---@class CcbStatisticsApi
 local CcbStatisticsApi = {}
 ```
 
@@ -15142,7 +15142,7 @@ local CcbStatisticsApi = {}
 ## `CcbTargetArea` { #symbol-api-lua-v5-generated-class-ccbtargetarea-5ee463883fda }
 
 ```lua
----@class 
+---@class CcbTargetArea
 local CcbTargetArea = {}
 ```
 
@@ -15182,7 +15182,7 @@ second = ... -- TripointCoord
 ## `CcbTargetingApi` { #symbol-api-lua-v5-generated-class-ccbtargetingapi-272087733a9d }
 
 ```lua
----@class 
+---@class CcbTargetingApi
 local CcbTargetingApi = {}
 ```
 
@@ -15193,7 +15193,7 @@ local CcbTargetingApi = {}
 ## `CcbTimeApi` { #symbol-api-lua-v5-generated-class-ccbtimeapi-e11416b88dc0 }
 
 ```lua
----@class 
+---@class CcbTimeApi
 local CcbTimeApi = {}
 ```
 
@@ -15204,7 +15204,7 @@ local CcbTimeApi = {}
 ## `CcbTimeChange` { #symbol-api-lua-v5-generated-class-ccbtimechange-d330f0e24fb7 }
 
 ```lua
----@class 
+---@class CcbTimeChange
 local CcbTimeChange = {}
 ```
 
@@ -15268,7 +15268,7 @@ simulated_turns = ... -- false
 ## `CcbTimeLimits` { #symbol-api-lua-v5-generated-class-ccbtimelimits-1b02240c270b }
 
 ```lua
----@class 
+---@class CcbTimeLimits
 local CcbTimeLimits = {}
 ```
 
@@ -15344,7 +15344,7 @@ set_now_simulates_turns = ... -- false
 ## `CcbTimeSnapshot` { #symbol-api-lua-v5-generated-class-ccbtimesnapshot-e681c0cfc40d }
 
 ```lua
----@class 
+---@class CcbTimeSnapshot
 local CcbTimeSnapshot = {}
 ```
 
@@ -15456,7 +15456,7 @@ display = ... -- string
 ## `CcbTypedDefinitionEntry` { #symbol-api-lua-v5-generated-class-ccbtypeddefinitionentry-720322b86b31 }
 
 ```lua
----@class 
+---@class CcbTypedDefinitionEntry
 local CcbTypedDefinitionEntry = {}
 ```
 
@@ -15508,7 +15508,7 @@ name = ... -- string
 ## `CcbTypedDefinitionPage` { #symbol-api-lua-v5-generated-class-ccbtypeddefinitionpage-6ec61f3212cc }
 
 ```lua
----@class 
+---@class CcbTypedDefinitionPage
 local CcbTypedDefinitionPage = {}
 ```
 
@@ -15620,7 +15620,7 @@ entries = ... -- table[]
 ## `CcbTypesApi` { #symbol-api-lua-v5-generated-class-ccbtypesapi-526585dcad60 }
 
 ```lua
----@class 
+---@class CcbTypesApi
 local CcbTypesApi = {}
 ```
 
@@ -15631,7 +15631,7 @@ local CcbTypesApi = {}
 ## `CcbUiApi` { #symbol-api-lua-v5-generated-class-ccbuiapi-5fba544da3a7 }
 
 ```lua
----@class 
+---@class CcbUiApi
 local CcbUiApi = {}
 ```
 
@@ -15642,7 +15642,7 @@ local CcbUiApi = {}
 ## `CcbUnitsApi` { #symbol-api-lua-v5-generated-class-ccbunitsapi-a8d4657afad1 }
 
 ```lua
----@class 
+---@class CcbUnitsApi
 local CcbUnitsApi = {}
 ```
 
@@ -15653,7 +15653,7 @@ local CcbUnitsApi = {}
 ## `CcbVariablesApi` { #symbol-api-lua-v5-generated-class-ccbvariablesapi-5574ab2c15a5 }
 
 ```lua
----@class 
+---@class CcbVariablesApi
 local CcbVariablesApi = {}
 ```
 
@@ -15664,7 +15664,7 @@ local CcbVariablesApi = {}
 ## `CcbVariantSoundOptions` { #symbol-api-lua-v5-generated-class-ccbvariantsoundoptions-45b441dd58e3 }
 
 ```lua
----@class 
+---@class CcbVariantSoundOptions
 local CcbVariantSoundOptions = {}
 ```
 
@@ -15716,7 +15716,7 @@ pitch_max = ... -- number
 ## `CcbVehicleLift` { #symbol-api-lua-v5-generated-class-ccbvehiclelift-4e2edff66c35 }
 
 ```lua
----@class 
+---@class CcbVehicleLift
 local CcbVehicleLift = {}
 ```
 
@@ -15888,7 +15888,7 @@ flyable = ... -- boolean
 ## `CcbVehicleMotion` { #symbol-api-lua-v5-generated-class-ccbvehiclemotion-0ed85dbd4ec3 }
 
 ```lua
----@class 
+---@class CcbVehicleMotion
 local CcbVehicleMotion = {}
 ```
 
@@ -16060,7 +16060,7 @@ turn_direction = ... -- integer
 ## `CcbVehiclePart` { #symbol-api-lua-v5-generated-class-ccbvehiclepart-f782854a4cf7 }
 
 ```lua
----@class 
+---@class CcbVehiclePart
 local CcbVehiclePart = {}
 ```
 
@@ -16380,7 +16380,7 @@ include_removed = ... -- boolean
 ## `CcbVehiclePrototype` { #symbol-api-lua-v5-generated-class-ccbvehicleprototype-90d444a559ac }
 
 ```lua
----@class 
+---@class CcbVehiclePrototype
 local CcbVehiclePrototype = {}
 ```
 
@@ -16480,7 +16480,7 @@ color_palette = ... -- GameId
 ## `CcbVehicleSnapshot` { #symbol-api-lua-v5-generated-class-ccbvehiclesnapshot-1adbc3d8067a }
 
 ```lua
----@class 
+---@class CcbVehicleSnapshot
 local CcbVehicleSnapshot = {}
 ```
 
@@ -16640,7 +16640,7 @@ state = ... -- table
 ## `CcbVehicleStopOptions` { #symbol-api-lua-v5-generated-class-ccbvehiclestopoptions-659a427fe477 }
 
 ```lua
----@class 
+---@class CcbVehicleStopOptions
 local CcbVehicleStopOptions = {}
 ```
 
@@ -16692,7 +16692,7 @@ autopilot = ... -- boolean
 ## `CcbVehiclesApi` { #symbol-api-lua-v5-generated-class-ccbvehiclesapi-0df7b8d33d3d }
 
 ```lua
----@class 
+---@class CcbVehiclesApi
 local CcbVehiclesApi = {}
 ```
 
@@ -16703,7 +16703,7 @@ local CcbVehiclesApi = {}
 ## `CcbVitaminDecay` { #symbol-api-lua-v5-generated-class-ccbvitamindecay-90b2e1a812fd }
 
 ```lua
----@class 
+---@class CcbVitaminDecay
 local CcbVitaminDecay = {}
 ```
 
@@ -16743,7 +16743,7 @@ ratio = ... -- integer
 ## `CcbVitaminDefinition` { #symbol-api-lua-v5-generated-class-ccbvitamindefinition-6e0ecdaa653f }
 
 ```lua
----@class 
+---@class CcbVitaminDefinition
 local CcbVitaminDefinition = {}
 ```
 
@@ -16879,7 +16879,7 @@ decays_into = ... -- table
 ## `CcbVitaminState` { #symbol-api-lua-v5-generated-class-ccbvitaminstate-a09bbfbc5cff }
 
 ```lua
----@class 
+---@class CcbVitaminState
 local CcbVitaminState = {}
 ```
 
@@ -17003,7 +17003,7 @@ rate = ... -- TimeDuration
 ## `CcbVitaminsApi` { #symbol-api-lua-v5-generated-class-ccbvitaminsapi-76b750c58493 }
 
 ```lua
----@class 
+---@class CcbVitaminsApi
 local CcbVitaminsApi = {}
 ```
 
@@ -17014,7 +17014,7 @@ local CcbVitaminsApi = {}
 ## `CcbWeatherApi` { #symbol-api-lua-v5-generated-class-ccbweatherapi-dff7c37f06da }
 
 ```lua
----@class 
+---@class CcbWeatherApi
 local CcbWeatherApi = {}
 ```
 
@@ -17025,7 +17025,7 @@ local CcbWeatherApi = {}
 ## `CcbWeatherForecast` { #symbol-api-lua-v5-generated-class-ccbweatherforecast-5550674b7dde }
 
 ```lua
----@class 
+---@class CcbWeatherForecast
 local CcbWeatherForecast = {}
 ```
 
@@ -17125,7 +17125,7 @@ respected_override = ... -- boolean
 ## `CcbWeatherForecastOptions` { #symbol-api-lua-v5-generated-class-ccbweatherforecastoptions-bc7be7ff75fd }
 
 ```lua
----@class 
+---@class CcbWeatherForecastOptions
 local CcbWeatherForecastOptions = {}
 ```
 
@@ -17201,7 +17201,7 @@ respect_override = ... -- boolean
 ## `CcbWeatherGenerator` { #symbol-api-lua-v5-generated-class-ccbweathergenerator-8a5b707af9e9 }
 
 ```lua
----@class 
+---@class CcbWeatherGenerator
 local CcbWeatherGenerator = {}
 ```
 
@@ -17361,7 +17361,7 @@ sorted_weather = ... -- table
 ## `CcbWeatherLimits` { #symbol-api-lua-v5-generated-class-ccbweatherlimits-deb067ed397c }
 
 ```lua
----@class 
+---@class CcbWeatherLimits
 local CcbWeatherLimits = {}
 ```
 
@@ -17501,7 +17501,7 @@ rains = ... -- boolean
 ## `CcbWeatherPoint` { #symbol-api-lua-v5-generated-class-ccbweatherpoint-69261d1098cc }
 
 ```lua
----@class 
+---@class CcbWeatherPoint
 local CcbWeatherPoint = {}
 ```
 
@@ -17709,7 +17709,7 @@ is_night = ... -- boolean
 ## `CcbWeatherSeasonModifiers` { #symbol-api-lua-v5-generated-class-ccbweatherseasonmodifiers-c05c543fcd1a }
 
 ```lua
----@class 
+---@class CcbWeatherSeasonModifiers
 local CcbWeatherSeasonModifiers = {}
 ```
 
@@ -17749,7 +17749,7 @@ humidity_modifier = ... -- number
 ## `CcbWeatherSnapshot` { #symbol-api-lua-v5-generated-class-ccbweathersnapshot-cb0e83186758 }
 
 ```lua
----@class 
+---@class CcbWeatherSnapshot
 local CcbWeatherSnapshot = {}
 ```
 
@@ -17873,7 +17873,7 @@ wind_direction = ... -- string
 ## `CcbWeatherType` { #symbol-api-lua-v5-generated-class-ccbweathertype-7bc0a3d6e66c }
 
 ```lua
----@class 
+---@class CcbWeatherType
 local CcbWeatherType = {}
 ```
 
@@ -18165,7 +18165,7 @@ sources = ... -- table
 ## `CcbWeatherWindOptions` { #symbol-api-lua-v5-generated-class-ccbweatherwindoptions-bc02a0c11a2e }
 
 ```lua
----@class 
+---@class CcbWeatherWindOptions
 local CcbWeatherWindOptions = {}
 ```
 
@@ -18229,7 +18229,7 @@ clear_direction = ... -- boolean
 ## `CcbWorldApi` { #symbol-api-lua-v5-generated-class-ccbworldapi-a4c9bea0c425 }
 
 ```lua
----@class 
+---@class CcbWorldApi
 local CcbWorldApi = {}
 ```
 
@@ -18304,7 +18304,7 @@ limit = ... -- integer
 ## `CcbWorldTileOptions` { #symbol-api-lua-v5-generated-class-ccbworldtileoptions-5ad6e4e35d93 }
 
 ```lua
----@class 
+---@class CcbWorldTileOptions
 local CcbWorldTileOptions = {}
 ```
 
@@ -18355,7 +18355,7 @@ local CcbWorldVehicleOptions = {}
 ## `CcbZoneCreateOptions` { #symbol-api-lua-v5-generated-class-ccbzonecreateoptions-ebeb95122cf0 }
 
 ```lua
----@class 
+---@class CcbZoneCreateOptions
 local CcbZoneCreateOptions = {}
 ```
 
@@ -18507,7 +18507,7 @@ type = ... -- GameId
 ## `CcbZoneSnapshot` { #symbol-api-lua-v5-generated-class-ccbzonesnapshot-a5dbcadc9a6f }
 
 ```lua
----@class 
+---@class CcbZoneSnapshot
 local CcbZoneSnapshot = {}
 ```
 
@@ -18715,7 +18715,7 @@ options = ... -- table
 ## `CcbZoneType` { #symbol-api-lua-v5-generated-class-ccbzonetype-16d6507a2b8f }
 
 ```lua
----@class 
+---@class CcbZoneType
 local CcbZoneType = {}
 ```
 
@@ -18827,7 +18827,7 @@ sources = ... -- table
 ## `CcbZonesApi` { #symbol-api-lua-v5-generated-class-ccbzonesapi-d2bdf7715721 }
 
 ```lua
----@class 
+---@class CcbZonesApi
 local CcbZonesApi = {}
 ```
 
@@ -18838,7 +18838,7 @@ local CcbZonesApi = {}
 ## `GameEnum` { #symbol-api-lua-v5-generated-class-gameenum-1b2531fa4574 }
 
 ```lua
----@class 
+---@class GameEnum
 local GameEnum = {}
 ```
 
@@ -18891,7 +18891,7 @@ ordinal = ... -- integer
 ## `GameHandle` { #symbol-api-lua-v5-generated-class-gamehandle-9d9eee34a7c4 }
 
 ```lua
----@class 
+---@class GameHandle
 local GameHandle = {}
 ```
 
@@ -18920,7 +18920,7 @@ kind = ... -- '"creature"'|'"item"'|'"vehicle"'
 ## `GameId` { #symbol-api-lua-v5-generated-class-gameid-e665e6c51d5e }
 
 ```lua
----@class 
+---@class GameId
 local GameId = {}
 ```
 
@@ -18961,7 +18961,7 @@ value = ... -- string
 ## `HordeEntityToken` { #symbol-api-lua-v5-generated-class-hordeentitytoken-1e25370b85a4 }
 
 ```lua
----@class 
+---@class HordeEntityToken
 local HordeEntityToken = {}
 ```
 
@@ -19026,7 +19026,7 @@ world_generation = ... -- integer
 ## `LegacyHordeToken` { #symbol-api-lua-v5-generated-class-legacyhordetoken-4debd02b9446 }
 
 ```lua
----@class 
+---@class LegacyHordeToken
 local LegacyHordeToken = {}
 ```
 
@@ -19091,7 +19091,7 @@ world_generation = ... -- integer
 ## `MissionToken` { #symbol-api-lua-v5-generated-class-missiontoken-468219d7fb26 }
 
 ```lua
----@class 
+---@class MissionToken
 local MissionToken = {}
 ```
 
@@ -19144,7 +19144,7 @@ world_generation = ... -- integer
 ## `PointCoord` { #symbol-api-lua-v5-generated-class-pointcoord-7b9823b7daa7 }
 
 ```lua
----@class 
+---@class PointCoord
 local PointCoord = {}
 ```
 
@@ -19221,7 +19221,7 @@ type = ... -- string
 ## `ScriptMapgenContext` { #symbol-api-lua-v5-generated-class-scriptmapgencontext-94f3be26bbe0 }
 
 ```lua
----@class 
+---@class ScriptMapgenContext
 local ScriptMapgenContext = {}
 ```
 
@@ -19233,7 +19233,7 @@ local ScriptMapgenContext = {}
 ## `ScriptUiContext` { #symbol-api-lua-v5-generated-class-scriptuicontext-58d447cb94a1 }
 
 ```lua
----@class 
+---@class ScriptUiContext
 local ScriptUiContext = {}
 ```
 
@@ -19245,7 +19245,7 @@ local ScriptUiContext = {}
 ## `ScriptUiEnvironment` { #symbol-api-lua-v5-generated-class-scriptuienvironment-b1801c28fa5f }
 
 ```lua
----@class 
+---@class ScriptUiEnvironment
 local ScriptUiEnvironment = {}
 ```
 
@@ -19418,7 +19418,7 @@ long_press_dangerous = ... -- boolean
 ## `TimeDuration` { #symbol-api-lua-v5-generated-class-timeduration-ac5dce848018 }
 
 ```lua
----@class 
+---@class TimeDuration
 local TimeDuration = {}
 ```
 
@@ -19447,7 +19447,7 @@ turns = ... -- integer
 ## `TimePoint` { #symbol-api-lua-v5-generated-class-timepoint-15b06299ea74 }
 
 ```lua
----@class 
+---@class TimePoint
 local TimePoint = {}
 ```
 
@@ -19476,7 +19476,7 @@ turn = ... -- integer
 ## `TripointCoord` { #symbol-api-lua-v5-generated-class-tripointcoord-e96ac9fd40e8 }
 
 ```lua
----@class 
+---@class TripointCoord
 local TripointCoord = {}
 ```
 
@@ -19565,7 +19565,7 @@ type = ... -- string
 ## `UnitValue` { #symbol-api-lua-v5-generated-class-unitvalue-05e4981642f9 }
 
 ```lua
----@class 
+---@class UnitValue
 local UnitValue = {}
 ```
 
@@ -19606,7 +19606,7 @@ canonical_unit = ... -- string
 ## `ZoneToken` { #symbol-api-lua-v5-generated-class-zonetoken-eb6cd1d67bac }
 
 ```lua
----@class 
+---@class ZoneToken
 local ZoneToken = {}
 ```
 

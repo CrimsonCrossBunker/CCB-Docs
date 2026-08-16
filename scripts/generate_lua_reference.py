@@ -364,8 +364,8 @@ def render_documented_item(
             "```",
             "",
         ]
-    elif section == "classes" or "fields" in item:
-        decl = item.get("declaration", name)
+    elif section == "classes" or ("fields" in item and section != "events"):
+        decl = item.get("declaration") or name
         sig_lines = [
             "```lua",
             f"---@class {decl}",
@@ -374,15 +374,25 @@ def render_documented_item(
             "",
         ]
     elif section == "events":
+        field_hints = [
+            f"    -- event.{f.get('name', 'field')}: {f.get('declaration', 'any')}"
+            for f in fields
+        ]
+        sub_title = "订阅事件" if is_zh else "Subscribe to event"
         sig_lines = [
             "```lua",
-            f'-- {"订阅事件" if is_zh else "Subscribe to event"}',
+            f'-- {sub_title}',
             f'events.on("{name}", function(event)',
-            f'    -- {"处理事件逻辑" if is_zh else "Handle event logic"}',
+        ]
+        if field_hints:
+            sig_lines.extend(field_hints)
+        else:
+            sig_lines.append(f'    -- {"处理事件逻辑" if is_zh else "Handle event logic"}')
+        sig_lines.extend([
             "end)",
             "```",
             "",
-        ]
+        ])
     elif section == "hooks":
         payload_list = payload if isinstance(payload, list) else []
         payload_args = [p.get('name', 'arg') for p in payload_list if isinstance(p, dict)]
@@ -506,6 +516,7 @@ def render_documented_item(
         lines.append(f"**{'字段属性 (Fields)' if is_zh else 'Fields'}:**")
         lines.append("")
         col_f = '字段名' if is_zh else 'Field'
+        col_t = '类型' if is_zh else 'Type'
         col_a = '特性' if is_zh else 'Access'
         lines.append(f"| {col_f} | {col_t} | {col_a} |")
         lines.append("| :--- | :--- | :--- |")

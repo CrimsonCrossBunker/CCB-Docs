@@ -33,7 +33,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 94dcec848261436c63701d24a7da6f8d6524b73d6c0a59a598ce306220f84f08
+translation_source_fingerprint: 2a92f980977bd669bcda6cf8775aa50e0c1772f1346b61406897e1d7fda45aad
 prerequisites:
 - api.lua.v5.overview
 depends_on: []
@@ -73,8 +73,11 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 ## `activates_artifact` { #symbol-api-lua-v5-generated-event-activates-artifact-f81a1c7b5e6e }
 
 ```lua
----@class activates_artifact
-local activates_artifact = {}
+-- 订阅事件
+events.on("activates_artifact", function(event)
+    -- event.character: any
+    -- event.item_name: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -115,8 +118,10 @@ item_name = ... -- any
 ## `activates_mininuke` { #symbol-api-lua-v5-generated-event-activates-mininuke-8ac51708f538 }
 
 ```lua
----@class activates_mininuke
-local activates_mininuke = {}
+-- 订阅事件
+events.on("activates_mininuke", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -145,8 +150,11 @@ character = ... -- any
 ## `administers_mutagen` { #symbol-api-lua-v5-generated-event-administers-mutagen-8fdba2d5c4dc }
 
 ```lua
----@class administers_mutagen
-local administers_mutagen = {}
+-- 订阅事件
+events.on("administers_mutagen", function(event)
+    -- event.character: any
+    -- event.technique: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -187,8 +195,10 @@ technique = ... -- any
 ## `angers_amigara_horrors` { #symbol-api-lua-v5-generated-event-angers-amigara-horrors-2e1cc9e327b1 }
 
 ```lua
----@class angers_amigara_horrors
-local angers_amigara_horrors = {}
+-- 订阅事件
+events.on("angers_amigara_horrors", function(event)
+    -- 处理事件逻辑
+end)
 ```
 
 🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
@@ -200,8 +210,10 @@ local angers_amigara_horrors = {}
 ## `avatar_dies` { #symbol-api-lua-v5-generated-event-avatar-dies-69876e697e32 }
 
 ```lua
----@class avatar_dies
-local avatar_dies = {}
+-- 订阅事件
+events.on("avatar_dies", function(event)
+    -- 处理事件逻辑
+end)
 ```
 
 🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
@@ -213,8 +225,11 @@ local avatar_dies = {}
 ## `avatar_enters_omt` { #symbol-api-lua-v5-generated-event-avatar-enters-omt-4fdad80ff8f9 }
 
 ```lua
----@class avatar_enters_omt
-local avatar_enters_omt = {}
+-- 订阅事件
+events.on("avatar_enters_omt", function(event)
+    -- event.pos: any
+    -- event.oter_id: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -255,8 +270,14 @@ oter_id = ... -- any
 ## `avatar_moves` { #symbol-api-lua-v5-generated-event-avatar-moves-2e76ce901cea }
 
 ```lua
----@class avatar_moves
-local avatar_moves = {}
+-- 订阅事件
+events.on("avatar_moves", function(event)
+    -- event.mount: any
+    -- event.terrain: any
+    -- event.movement_mode: any
+    -- event.underwater: any
+    -- event.z: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -333,8 +354,10 @@ z = ... -- any
 ## `awakes_dark_wyrms` { #symbol-api-lua-v5-generated-event-awakes-dark-wyrms-26ef50102783 }
 
 ```lua
----@class awakes_dark_wyrms
-local awakes_dark_wyrms = {}
+-- 订阅事件
+events.on("awakes_dark_wyrms", function(event)
+    -- 处理事件逻辑
+end)
 ```
 
 🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
@@ -346,8 +369,10 @@ local awakes_dark_wyrms = {}
 ## `becomes_wanted` { #symbol-api-lua-v5-generated-event-becomes-wanted-745f3581c816 }
 
 ```lua
----@class becomes_wanted
-local becomes_wanted = {}
+-- 订阅事件
+events.on("becomes_wanted", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -376,8 +401,11 @@ character = ... -- any
 ## `broken_bone` { #symbol-api-lua-v5-generated-event-broken-bone-ac77d28872e9 }
 
 ```lua
----@class broken_bone
-local broken_bone = {}
+-- 订阅事件
+events.on("broken_bone", function(event)
+    -- event.character: any
+    -- event.part: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -418,8 +446,11 @@ part = ... -- any
 ## `broken_bone_mends` { #symbol-api-lua-v5-generated-event-broken-bone-mends-4ca7c0146e6c }
 
 ```lua
----@class broken_bone_mends
-local broken_bone_mends = {}
+-- 订阅事件
+events.on("broken_bone_mends", function(event)
+    -- event.character: any
+    -- event.part: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -460,8 +491,12 @@ part = ... -- any
 ## `buries_corpse` { #symbol-api-lua-v5-generated-event-buries-corpse-68a95b7ba324 }
 
 ```lua
----@class buries_corpse
-local buries_corpse = {}
+-- 订阅事件
+events.on("buries_corpse", function(event)
+    -- event.character: any
+    -- event.corpse_type: any
+    -- event.corpse_name: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -514,8 +549,13 @@ corpse_name = ... -- any
 ## `camp_taken_over` { #symbol-api-lua-v5-generated-event-camp-taken-over-5f8cf84e5187 }
 
 ```lua
----@class camp_taken_over
-local camp_taken_over = {}
+-- 订阅事件
+events.on("camp_taken_over", function(event)
+    -- event.old_owner: any
+    -- event.new_owner: any
+    -- event.camp_name: any
+    -- event.was_violent: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -580,8 +620,10 @@ was_violent = ... -- any
 ## `causes_resonance_cascade` { #symbol-api-lua-v5-generated-event-causes-resonance-cascade-7ed492ccdb3f }
 
 ```lua
----@class causes_resonance_cascade
-local causes_resonance_cascade = {}
+-- 订阅事件
+events.on("causes_resonance_cascade", function(event)
+    -- 处理事件逻辑
+end)
 ```
 
 🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
@@ -593,8 +635,11 @@ local causes_resonance_cascade = {}
 ## `character_armor_destroyed` { #symbol-api-lua-v5-generated-event-character-armor-destroyed-58410d6b7a32 }
 
 ```lua
----@class character_armor_destroyed
-local character_armor_destroyed = {}
+-- 订阅事件
+events.on("character_armor_destroyed", function(event)
+    -- event.character: any
+    -- event.itype: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -635,8 +680,10 @@ itype = ... -- any
 ## `character_attempt_to_fall_asleep` { #symbol-api-lua-v5-generated-event-character-attempt-to-fall-asleep-8cc9d13d24ed }
 
 ```lua
----@class character_attempt_to_fall_asleep
-local character_attempt_to_fall_asleep = {}
+-- 订阅事件
+events.on("character_attempt_to_fall_asleep", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -665,8 +712,12 @@ character = ... -- any
 ## `character_butchered_corpse` { #symbol-api-lua-v5-generated-event-character-butchered-corpse-d1c1bcbdf0e3 }
 
 ```lua
----@class character_butchered_corpse
-local character_butchered_corpse = {}
+-- 订阅事件
+events.on("character_butchered_corpse", function(event)
+    -- event.character: any
+    -- event.monster_id: any
+    -- event.butcher_type: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -719,8 +770,16 @@ butcher_type = ... -- any
 ## `character_casts_spell` { #symbol-api-lua-v5-generated-event-character-casts-spell-b84e8f16e4d3 }
 
 ```lua
----@class character_casts_spell
-local character_casts_spell = {}
+-- 订阅事件
+events.on("character_casts_spell", function(event)
+    -- event.character: any
+    -- event.spell: any
+    -- event.school: any
+    -- event.difficulty: any
+    -- event.cost: any
+    -- event.cast_time: any
+    -- event.damage: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -821,8 +880,11 @@ damage = ... -- any
 ## `character_consumes_item` { #symbol-api-lua-v5-generated-event-character-consumes-item-a1cc86b4b41d }
 
 ```lua
----@class character_consumes_item
-local character_consumes_item = {}
+-- 订阅事件
+events.on("character_consumes_item", function(event)
+    -- event.character: any
+    -- event.itype: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -863,8 +925,10 @@ itype = ... -- any
 ## `character_dies` { #symbol-api-lua-v5-generated-event-character-dies-8df6d1b23f5a }
 
 ```lua
----@class character_dies
-local character_dies = {}
+-- 订阅事件
+events.on("character_dies", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -893,8 +957,11 @@ character = ... -- any
 ## `character_eats_item` { #symbol-api-lua-v5-generated-event-character-eats-item-0d23da3d80bc }
 
 ```lua
----@class character_eats_item
-local character_eats_item = {}
+-- 订阅事件
+events.on("character_eats_item", function(event)
+    -- event.character: any
+    -- event.itype: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -935,8 +1002,11 @@ itype = ... -- any
 ## `character_falls_asleep` { #symbol-api-lua-v5-generated-event-character-falls-asleep-dde44cc6640a }
 
 ```lua
----@class character_falls_asleep
-local character_falls_asleep = {}
+-- 订阅事件
+events.on("character_falls_asleep", function(event)
+    -- event.character: any
+    -- event.duration: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -977,8 +1047,15 @@ duration = ... -- any
 ## `character_fertilizes_plant` { #symbol-api-lua-v5-generated-event-character-fertilizes-plant-b60547d3e1fb }
 
 ```lua
----@class character_fertilizes_plant
-local character_fertilizes_plant = {}
+-- 订阅事件
+events.on("character_fertilizes_plant", function(event)
+    -- event.character: any
+    -- event.pos: any
+    -- event.seed_id: any
+    -- event.furniture_id: any
+    -- event.fertilizer_id: any
+    -- event.reduction_turns: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -1067,8 +1144,12 @@ reduction_turns = ... -- any
 ## `character_finished_activity` { #symbol-api-lua-v5-generated-event-character-finished-activity-8a271aa0b38d }
 
 ```lua
----@class character_finished_activity
-local character_finished_activity = {}
+-- 订阅事件
+events.on("character_finished_activity", function(event)
+    -- event.character: any
+    -- event.activity: any
+    -- event.canceled: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -1121,8 +1202,11 @@ canceled = ... -- any
 ## `character_forgets_spell` { #symbol-api-lua-v5-generated-event-character-forgets-spell-a775a1e62ce9 }
 
 ```lua
----@class character_forgets_spell
-local character_forgets_spell = {}
+-- 订阅事件
+events.on("character_forgets_spell", function(event)
+    -- event.character: any
+    -- event.spell: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -1163,8 +1247,13 @@ spell = ... -- any
 ## `character_gains_effect` { #symbol-api-lua-v5-generated-event-character-gains-effect-44f188ee18a7 }
 
 ```lua
----@class character_gains_effect
-local character_gains_effect = {}
+-- 订阅事件
+events.on("character_gains_effect", function(event)
+    -- event.character: any
+    -- event.bodypart: any
+    -- event.effect: any
+    -- event.intensity: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -1229,8 +1318,10 @@ intensity = ... -- any
 ## `character_gets_headshot` { #symbol-api-lua-v5-generated-event-character-gets-headshot-5f3818849d65 }
 
 ```lua
----@class character_gets_headshot
-local character_gets_headshot = {}
+-- 订阅事件
+events.on("character_gets_headshot", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -1259,8 +1350,15 @@ character = ... -- any
 ## `character_harvests_plant` { #symbol-api-lua-v5-generated-event-character-harvests-plant-9ed93c0acc05 }
 
 ```lua
----@class character_harvests_plant
-local character_harvests_plant = {}
+-- 订阅事件
+events.on("character_harvests_plant", function(event)
+    -- event.character: any
+    -- event.pos: any
+    -- event.seed_id: any
+    -- event.furniture_id: any
+    -- event.plant_count: any
+    -- event.seed_count: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -1349,8 +1447,11 @@ seed_count = ... -- any
 ## `character_heals_damage` { #symbol-api-lua-v5-generated-event-character-heals-damage-fba57676ab46 }
 
 ```lua
----@class character_heals_damage
-local character_heals_damage = {}
+-- 订阅事件
+events.on("character_heals_damage", function(event)
+    -- event.character: any
+    -- event.damage: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -1391,8 +1492,13 @@ damage = ... -- any
 ## `character_kills_character` { #symbol-api-lua-v5-generated-event-character-kills-character-f20b4f09e5d0 }
 
 ```lua
----@class character_kills_character
-local character_kills_character = {}
+-- 订阅事件
+events.on("character_kills_character", function(event)
+    -- event.killer: any
+    -- event.victim: any
+    -- event.victim_name: any
+    -- event.victim_class: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -1457,8 +1563,12 @@ victim_class = ... -- any
 ## `character_kills_monster` { #symbol-api-lua-v5-generated-event-character-kills-monster-f5c8c5a4c36e }
 
 ```lua
----@class character_kills_monster
-local character_kills_monster = {}
+-- 订阅事件
+events.on("character_kills_monster", function(event)
+    -- event.killer: any
+    -- event.victim_type: any
+    -- event.exp: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -1511,8 +1621,11 @@ exp = ... -- any
 ## `character_learns_spell` { #symbol-api-lua-v5-generated-event-character-learns-spell-77d762220f91 }
 
 ```lua
----@class character_learns_spell
-local character_learns_spell = {}
+-- 订阅事件
+events.on("character_learns_spell", function(event)
+    -- event.character: any
+    -- event.spell: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -1553,8 +1666,12 @@ spell = ... -- any
 ## `character_loses_effect` { #symbol-api-lua-v5-generated-event-character-loses-effect-cd108bccca04 }
 
 ```lua
----@class character_loses_effect
-local character_loses_effect = {}
+-- 订阅事件
+events.on("character_loses_effect", function(event)
+    -- event.character: any
+    -- event.bodypart: any
+    -- event.effect: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -1607,8 +1724,14 @@ effect = ... -- any
 ## `character_melee_attacks_character` { #symbol-api-lua-v5-generated-event-character-melee-attacks-character-6da9ea75f68d }
 
 ```lua
----@class character_melee_attacks_character
-local character_melee_attacks_character = {}
+-- 订阅事件
+events.on("character_melee_attacks_character", function(event)
+    -- event.attacker: any
+    -- event.weapon: any
+    -- event.hits: any
+    -- event.victim: any
+    -- event.victim_name: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -1685,8 +1808,13 @@ victim_name = ... -- any
 ## `character_melee_attacks_monster` { #symbol-api-lua-v5-generated-event-character-melee-attacks-monster-c824bd988bf6 }
 
 ```lua
----@class character_melee_attacks_monster
-local character_melee_attacks_monster = {}
+-- 订阅事件
+events.on("character_melee_attacks_monster", function(event)
+    -- event.attacker: any
+    -- event.weapon: any
+    -- event.hits: any
+    -- event.victim_type: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -1751,8 +1879,13 @@ victim_type = ... -- any
 ## `character_plants_seed` { #symbol-api-lua-v5-generated-event-character-plants-seed-f647b7eca649 }
 
 ```lua
----@class character_plants_seed
-local character_plants_seed = {}
+-- 订阅事件
+events.on("character_plants_seed", function(event)
+    -- event.character: any
+    -- event.pos: any
+    -- event.seed_id: any
+    -- event.furniture_id: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -1817,8 +1950,10 @@ furniture_id = ... -- any
 ## `character_radioactively_mutates` { #symbol-api-lua-v5-generated-event-character-radioactively-mutates-5839fe927c4b }
 
 ```lua
----@class character_radioactively_mutates
-local character_radioactively_mutates = {}
+-- 订阅事件
+events.on("character_radioactively_mutates", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -1847,8 +1982,15 @@ character = ... -- any
 ## `character_ranged_attacks_character` { #symbol-api-lua-v5-generated-event-character-ranged-attacks-character-f06d61a602b6 }
 
 ```lua
----@class character_ranged_attacks_character
-local character_ranged_attacks_character = {}
+-- 订阅事件
+events.on("character_ranged_attacks_character", function(event)
+    -- event.attacker: any
+    -- event.weapon: any
+    -- event.ammo: any
+    -- event.is_throw: any
+    -- event.victim: any
+    -- event.victim_name: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -1937,8 +2079,14 @@ victim_name = ... -- any
 ## `character_ranged_attacks_monster` { #symbol-api-lua-v5-generated-event-character-ranged-attacks-monster-831e3571aee6 }
 
 ```lua
----@class character_ranged_attacks_monster
-local character_ranged_attacks_monster = {}
+-- 订阅事件
+events.on("character_ranged_attacks_monster", function(event)
+    -- event.attacker: any
+    -- event.weapon: any
+    -- event.ammo: any
+    -- event.is_throw: any
+    -- event.victim_type: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2015,8 +2163,12 @@ victim_type = ... -- any
 ## `character_smashes_tile` { #symbol-api-lua-v5-generated-event-character-smashes-tile-24602e6f0407 }
 
 ```lua
----@class character_smashes_tile
-local character_smashes_tile = {}
+-- 订阅事件
+events.on("character_smashes_tile", function(event)
+    -- event.character: any
+    -- event.terrain: any
+    -- event.furniture: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2069,8 +2221,12 @@ furniture = ... -- any
 ## `character_starts_activity` { #symbol-api-lua-v5-generated-event-character-starts-activity-ddaa0c4cad6c }
 
 ```lua
----@class character_starts_activity
-local character_starts_activity = {}
+-- 订阅事件
+events.on("character_starts_activity", function(event)
+    -- event.character: any
+    -- event.activity: any
+    -- event.resume: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2123,8 +2279,11 @@ resume = ... -- any
 ## `character_takeoff_item` { #symbol-api-lua-v5-generated-event-character-takeoff-item-278a14c8547e }
 
 ```lua
----@class character_takeoff_item
-local character_takeoff_item = {}
+-- 订阅事件
+events.on("character_takeoff_item", function(event)
+    -- event.character: any
+    -- event.itype: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2165,8 +2324,13 @@ itype = ... -- any
 ## `character_takes_damage` { #symbol-api-lua-v5-generated-event-character-takes-damage-e5d6a1d6409f }
 
 ```lua
----@class character_takes_damage
-local character_takes_damage = {}
+-- 订阅事件
+events.on("character_takes_damage", function(event)
+    -- event.character: any
+    -- event.damage: any
+    -- event.bodypart: any
+    -- event.pain: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2231,8 +2395,11 @@ pain = ... -- any
 ## `character_triggers_trap` { #symbol-api-lua-v5-generated-event-character-triggers-trap-045c5704eb63 }
 
 ```lua
----@class character_triggers_trap
-local character_triggers_trap = {}
+-- 订阅事件
+events.on("character_triggers_trap", function(event)
+    -- event.character: any
+    -- event.trap: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2273,8 +2440,10 @@ trap = ... -- any
 ## `character_wakes_up` { #symbol-api-lua-v5-generated-event-character-wakes-up-ee3634de48f7 }
 
 ```lua
----@class character_wakes_up
-local character_wakes_up = {}
+-- 订阅事件
+events.on("character_wakes_up", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2303,8 +2472,14 @@ character = ... -- any
 ## `character_waters_plant` { #symbol-api-lua-v5-generated-event-character-waters-plant-45fcf7be065b }
 
 ```lua
----@class character_waters_plant
-local character_waters_plant = {}
+-- 订阅事件
+events.on("character_waters_plant", function(event)
+    -- event.character: any
+    -- event.pos: any
+    -- event.seed_id: any
+    -- event.furniture_id: any
+    -- event.water_added: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2381,8 +2556,11 @@ water_added = ... -- any
 ## `character_wears_item` { #symbol-api-lua-v5-generated-event-character-wears-item-4ac57510812a }
 
 ```lua
----@class character_wears_item
-local character_wears_item = {}
+-- 订阅事件
+events.on("character_wears_item", function(event)
+    -- event.character: any
+    -- event.itype: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2423,8 +2601,11 @@ itype = ... -- any
 ## `character_wields_item` { #symbol-api-lua-v5-generated-event-character-wields-item-f21f88cd326a }
 
 ```lua
----@class character_wields_item
-local character_wields_item = {}
+-- 订阅事件
+events.on("character_wields_item", function(event)
+    -- event.character: any
+    -- event.itype: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2465,8 +2646,11 @@ itype = ... -- any
 ## `consumes_marloss_item` { #symbol-api-lua-v5-generated-event-consumes-marloss-item-3f9f6fb36c47 }
 
 ```lua
----@class consumes_marloss_item
-local consumes_marloss_item = {}
+-- 订阅事件
+events.on("consumes_marloss_item", function(event)
+    -- event.character: any
+    -- event.itype: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2507,8 +2691,10 @@ itype = ... -- any
 ## `crosses_marloss_threshold` { #symbol-api-lua-v5-generated-event-crosses-marloss-threshold-c795fa72270d }
 
 ```lua
----@class crosses_marloss_threshold
-local crosses_marloss_threshold = {}
+-- 订阅事件
+events.on("crosses_marloss_threshold", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2537,8 +2723,11 @@ character = ... -- any
 ## `crosses_mutation_threshold` { #symbol-api-lua-v5-generated-event-crosses-mutation-threshold-8acd227f5e1a }
 
 ```lua
----@class crosses_mutation_threshold
-local crosses_mutation_threshold = {}
+-- 订阅事件
+events.on("crosses_mutation_threshold", function(event)
+    -- event.character: any
+    -- event.category: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2579,8 +2768,10 @@ category = ... -- any
 ## `crosses_mycus_threshold` { #symbol-api-lua-v5-generated-event-crosses-mycus-threshold-5627752b50e3 }
 
 ```lua
----@class crosses_mycus_threshold
-local crosses_mycus_threshold = {}
+-- 订阅事件
+events.on("crosses_mycus_threshold", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2609,8 +2800,10 @@ character = ... -- any
 ## `cuts_tree` { #symbol-api-lua-v5-generated-event-cuts-tree-2ca4e65dd0c0 }
 
 ```lua
----@class cuts_tree
-local cuts_tree = {}
+-- 订阅事件
+events.on("cuts_tree", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2639,8 +2832,10 @@ character = ... -- any
 ## `dermatik_eggs_hatch` { #symbol-api-lua-v5-generated-event-dermatik-eggs-hatch-75ced0541036 }
 
 ```lua
----@class dermatik_eggs_hatch
-local dermatik_eggs_hatch = {}
+-- 订阅事件
+events.on("dermatik_eggs_hatch", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2669,8 +2864,10 @@ character = ... -- any
 ## `dermatik_eggs_injected` { #symbol-api-lua-v5-generated-event-dermatik-eggs-injected-8baa6ad2615d }
 
 ```lua
----@class dermatik_eggs_injected
-local dermatik_eggs_injected = {}
+-- 订阅事件
+events.on("dermatik_eggs_injected", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2699,8 +2896,10 @@ character = ... -- any
 ## `destroys_triffid_grove` { #symbol-api-lua-v5-generated-event-destroys-triffid-grove-4e8d10481959 }
 
 ```lua
----@class destroys_triffid_grove
-local destroys_triffid_grove = {}
+-- 订阅事件
+events.on("destroys_triffid_grove", function(event)
+    -- 处理事件逻辑
+end)
 ```
 
 🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
@@ -2712,8 +2911,10 @@ local destroys_triffid_grove = {}
 ## `dies_from_asthma_attack` { #symbol-api-lua-v5-generated-event-dies-from-asthma-attack-fb91a5cea8b2 }
 
 ```lua
----@class dies_from_asthma_attack
-local dies_from_asthma_attack = {}
+-- 订阅事件
+events.on("dies_from_asthma_attack", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2742,8 +2943,10 @@ character = ... -- any
 ## `dies_from_bleeding` { #symbol-api-lua-v5-generated-event-dies-from-bleeding-d844d9954f8c }
 
 ```lua
----@class dies_from_bleeding
-local dies_from_bleeding = {}
+-- 订阅事件
+events.on("dies_from_bleeding", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2772,8 +2975,11 @@ character = ... -- any
 ## `dies_from_drug_overdose` { #symbol-api-lua-v5-generated-event-dies-from-drug-overdose-6998abc8a1de }
 
 ```lua
----@class dies_from_drug_overdose
-local dies_from_drug_overdose = {}
+-- 订阅事件
+events.on("dies_from_drug_overdose", function(event)
+    -- event.character: any
+    -- event.effect: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2814,8 +3020,10 @@ effect = ... -- any
 ## `dies_from_hypovolemia` { #symbol-api-lua-v5-generated-event-dies-from-hypovolemia-f874b8da444d }
 
 ```lua
----@class dies_from_hypovolemia
-local dies_from_hypovolemia = {}
+-- 订阅事件
+events.on("dies_from_hypovolemia", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2844,8 +3052,10 @@ character = ... -- any
 ## `dies_from_redcells_loss` { #symbol-api-lua-v5-generated-event-dies-from-redcells-loss-07815e045fb5 }
 
 ```lua
----@class dies_from_redcells_loss
-local dies_from_redcells_loss = {}
+-- 订阅事件
+events.on("dies_from_redcells_loss", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2874,8 +3084,10 @@ character = ... -- any
 ## `dies_of_infection` { #symbol-api-lua-v5-generated-event-dies-of-infection-044fcc4f26b1 }
 
 ```lua
----@class dies_of_infection
-local dies_of_infection = {}
+-- 订阅事件
+events.on("dies_of_infection", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2904,8 +3116,10 @@ character = ... -- any
 ## `dies_of_starvation` { #symbol-api-lua-v5-generated-event-dies-of-starvation-d937e49b785d }
 
 ```lua
----@class dies_of_starvation
-local dies_of_starvation = {}
+-- 订阅事件
+events.on("dies_of_starvation", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2934,8 +3148,10 @@ character = ... -- any
 ## `dies_of_thirst` { #symbol-api-lua-v5-generated-event-dies-of-thirst-4c77a0ffbf9c }
 
 ```lua
----@class dies_of_thirst
-local dies_of_thirst = {}
+-- 订阅事件
+events.on("dies_of_thirst", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -2964,8 +3180,10 @@ character = ... -- any
 ## `digs_into_lava` { #symbol-api-lua-v5-generated-event-digs-into-lava-a2eaed44da94 }
 
 ```lua
----@class digs_into_lava
-local digs_into_lava = {}
+-- 订阅事件
+events.on("digs_into_lava", function(event)
+    -- 处理事件逻辑
+end)
 ```
 
 🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
@@ -2977,8 +3195,12 @@ local digs_into_lava = {}
 ## `dimension_travel` { #symbol-api-lua-v5-generated-event-dimension-travel-3e329de86a55 }
 
 ```lua
----@class dimension_travel
-local dimension_travel = {}
+-- 订阅事件
+events.on("dimension_travel", function(event)
+    -- event.character: any
+    -- event.from_dimension: any
+    -- event.to_dimension: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3031,8 +3253,10 @@ to_dimension = ... -- any
 ## `disarms_nuke` { #symbol-api-lua-v5-generated-event-disarms-nuke-86b2839a6b15 }
 
 ```lua
----@class disarms_nuke
-local disarms_nuke = {}
+-- 订阅事件
+events.on("disarms_nuke", function(event)
+    -- 处理事件逻辑
+end)
 ```
 
 🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
@@ -3044,8 +3268,10 @@ local disarms_nuke = {}
 ## `eats_sewage` { #symbol-api-lua-v5-generated-event-eats-sewage-22b10e28f633 }
 
 ```lua
----@class eats_sewage
-local eats_sewage = {}
+-- 订阅事件
+events.on("eats_sewage", function(event)
+    -- 处理事件逻辑
+end)
 ```
 
 🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
@@ -3057,8 +3283,12 @@ local eats_sewage = {}
 ## `evolves_mutation` { #symbol-api-lua-v5-generated-event-evolves-mutation-14b490938316 }
 
 ```lua
----@class evolves_mutation
-local evolves_mutation = {}
+-- 订阅事件
+events.on("evolves_mutation", function(event)
+    -- event.character: any
+    -- event.from_trait: any
+    -- event.to_trait: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3111,8 +3341,10 @@ to_trait = ... -- any
 ## `exhumes_grave` { #symbol-api-lua-v5-generated-event-exhumes-grave-c6d20ea646b2 }
 
 ```lua
----@class exhumes_grave
-local exhumes_grave = {}
+-- 订阅事件
+events.on("exhumes_grave", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3141,8 +3373,11 @@ character = ... -- any
 ## `fails_to_install_cbm` { #symbol-api-lua-v5-generated-event-fails-to-install-cbm-fb0f0ea5a679 }
 
 ```lua
----@class fails_to_install_cbm
-local fails_to_install_cbm = {}
+-- 订阅事件
+events.on("fails_to_install_cbm", function(event)
+    -- event.character: any
+    -- event.bionic: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3183,8 +3418,11 @@ bionic = ... -- any
 ## `fails_to_remove_cbm` { #symbol-api-lua-v5-generated-event-fails-to-remove-cbm-8e9e9e90ade1 }
 
 ```lua
----@class fails_to_remove_cbm
-local fails_to_remove_cbm = {}
+-- 订阅事件
+events.on("fails_to_remove_cbm", function(event)
+    -- event.character: any
+    -- event.bionic: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3225,8 +3463,10 @@ bionic = ... -- any
 ## `falls_asleep_from_exhaustion` { #symbol-api-lua-v5-generated-event-falls-asleep-from-exhaustion-eb4530757a04 }
 
 ```lua
----@class falls_asleep_from_exhaustion
-local falls_asleep_from_exhaustion = {}
+-- 订阅事件
+events.on("falls_asleep_from_exhaustion", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3255,8 +3495,10 @@ character = ... -- any
 ## `fuel_tank_explodes` { #symbol-api-lua-v5-generated-event-fuel-tank-explodes-601b6373437a }
 
 ```lua
----@class fuel_tank_explodes
-local fuel_tank_explodes = {}
+-- 订阅事件
+events.on("fuel_tank_explodes", function(event)
+    -- event.vehicle_name: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3285,8 +3527,11 @@ vehicle_name = ... -- any
 ## `gains_addiction` { #symbol-api-lua-v5-generated-event-gains-addiction-c20f8a8a4792 }
 
 ```lua
----@class gains_addiction
-local gains_addiction = {}
+-- 订阅事件
+events.on("gains_addiction", function(event)
+    -- event.character: any
+    -- event.add_type: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3327,8 +3572,11 @@ add_type = ... -- any
 ## `gains_mutation` { #symbol-api-lua-v5-generated-event-gains-mutation-28451f149736 }
 
 ```lua
----@class gains_mutation
-local gains_mutation = {}
+-- 订阅事件
+events.on("gains_mutation", function(event)
+    -- event.character: any
+    -- event.trait: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3369,8 +3617,11 @@ trait = ... -- any
 ## `gains_proficiency` { #symbol-api-lua-v5-generated-event-gains-proficiency-e14a6fe41ff8 }
 
 ```lua
----@class gains_proficiency
-local gains_proficiency = {}
+-- 订阅事件
+events.on("gains_proficiency", function(event)
+    -- event.character: any
+    -- event.proficiency: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3411,8 +3662,12 @@ proficiency = ... -- any
 ## `gains_skill_level` { #symbol-api-lua-v5-generated-event-gains-skill-level-7f228d0dfc50 }
 
 ```lua
----@class gains_skill_level
-local gains_skill_level = {}
+-- 订阅事件
+events.on("gains_skill_level", function(event)
+    -- event.character: any
+    -- event.skill: any
+    -- event.new_level: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3465,8 +3720,13 @@ new_level = ... -- any
 ## `game_avatar_death` { #symbol-api-lua-v5-generated-event-game-avatar-death-0e53a88758a1 }
 
 ```lua
----@class game_avatar_death
-local game_avatar_death = {}
+-- 订阅事件
+events.on("game_avatar_death", function(event)
+    -- event.avatar_id: any
+    -- event.avatar_name: any
+    -- event.is_suicide: any
+    -- event.last_words: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3531,8 +3791,14 @@ last_words = ... -- any
 ## `game_avatar_new` { #symbol-api-lua-v5-generated-event-game-avatar-new-38b032f26094 }
 
 ```lua
----@class game_avatar_new
-local game_avatar_new = {}
+-- 订阅事件
+events.on("game_avatar_new", function(event)
+    -- event.is_new_game: any
+    -- event.is_debug: any
+    -- event.avatar_id: any
+    -- event.avatar_name: any
+    -- event.avatar_custom_profession: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3609,8 +3875,10 @@ avatar_custom_profession = ... -- any
 ## `game_begin` { #symbol-api-lua-v5-generated-event-game-begin-03a90bc39ed3 }
 
 ```lua
----@class game_begin
-local game_begin = {}
+-- 订阅事件
+events.on("game_begin", function(event)
+    -- event.cdda_version: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3639,8 +3907,10 @@ cdda_version = ... -- any
 ## `game_load` { #symbol-api-lua-v5-generated-event-game-load-f6af9cd6501d }
 
 ```lua
----@class game_load
-local game_load = {}
+-- 订阅事件
+events.on("game_load", function(event)
+    -- event.cdda_version: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3669,8 +3939,10 @@ cdda_version = ... -- any
 ## `game_over` { #symbol-api-lua-v5-generated-event-game-over-d65a7a36cfeb }
 
 ```lua
----@class game_over
-local game_over = {}
+-- 订阅事件
+events.on("game_over", function(event)
+    -- event.total_time_played: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3699,8 +3971,11 @@ total_time_played = ... -- any
 ## `game_save` { #symbol-api-lua-v5-generated-event-game-save-0ef1ea32cce9 }
 
 ```lua
----@class game_save
-local game_save = {}
+-- 订阅事件
+events.on("game_save", function(event)
+    -- event.time_since_load: any
+    -- event.total_time_played: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3741,8 +4016,10 @@ total_time_played = ... -- any
 ## `game_start` { #symbol-api-lua-v5-generated-event-game-start-6de0dab596e6 }
 
 ```lua
----@class game_start
-local game_start = {}
+-- 订阅事件
+events.on("game_start", function(event)
+    -- event.game_version: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3771,8 +4048,11 @@ game_version = ... -- any
 ## `installs_cbm` { #symbol-api-lua-v5-generated-event-installs-cbm-953dace357e8 }
 
 ```lua
----@class installs_cbm
-local installs_cbm = {}
+-- 订阅事件
+events.on("installs_cbm", function(event)
+    -- event.character: any
+    -- event.bionic: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3813,8 +4093,11 @@ bionic = ... -- any
 ## `installs_faulty_cbm` { #symbol-api-lua-v5-generated-event-installs-faulty-cbm-1da35527f7c0 }
 
 ```lua
----@class installs_faulty_cbm
-local installs_faulty_cbm = {}
+-- 订阅事件
+events.on("installs_faulty_cbm", function(event)
+    -- event.character: any
+    -- event.bionic: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3855,8 +4138,11 @@ bionic = ... -- any
 ## `learns_martial_art` { #symbol-api-lua-v5-generated-event-learns-martial-art-d2ad6154d366 }
 
 ```lua
----@class learns_martial_art
-local learns_martial_art = {}
+-- 订阅事件
+events.on("learns_martial_art", function(event)
+    -- event.character: any
+    -- event.martial_art: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3897,8 +4183,11 @@ martial_art = ... -- any
 ## `loses_addiction` { #symbol-api-lua-v5-generated-event-loses-addiction-ccfb620f2d13 }
 
 ```lua
----@class loses_addiction
-local loses_addiction = {}
+-- 订阅事件
+events.on("loses_addiction", function(event)
+    -- event.character: any
+    -- event.add_type: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3939,8 +4228,11 @@ add_type = ... -- any
 ## `loses_mutation` { #symbol-api-lua-v5-generated-event-loses-mutation-250e63cfdfc8 }
 
 ```lua
----@class loses_mutation
-local loses_mutation = {}
+-- 订阅事件
+events.on("loses_mutation", function(event)
+    -- event.character: any
+    -- event.trait: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -3981,8 +4273,11 @@ trait = ... -- any
 ## `monster_takes_damage` { #symbol-api-lua-v5-generated-event-monster-takes-damage-6eef0baa5b82 }
 
 ```lua
----@class monster_takes_damage
-local monster_takes_damage = {}
+-- 订阅事件
+events.on("monster_takes_damage", function(event)
+    -- event.damage: any
+    -- event.dies: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -4023,8 +4318,11 @@ dies = ... -- any
 ## `npc_becomes_hostile` { #symbol-api-lua-v5-generated-event-npc-becomes-hostile-dff223ee35b1 }
 
 ```lua
----@class npc_becomes_hostile
-local npc_becomes_hostile = {}
+-- 订阅事件
+events.on("npc_becomes_hostile", function(event)
+    -- event.npc: any
+    -- event.npc_name: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -4065,8 +4363,10 @@ npc_name = ... -- any
 ## `opens_portal` { #symbol-api-lua-v5-generated-event-opens-portal-c1b1133cb32f }
 
 ```lua
----@class opens_portal
-local opens_portal = {}
+-- 订阅事件
+events.on("opens_portal", function(event)
+    -- 处理事件逻辑
+end)
 ```
 
 🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
@@ -4078,8 +4378,10 @@ local opens_portal = {}
 ## `opens_spellbook` { #symbol-api-lua-v5-generated-event-opens-spellbook-45b84cbd5d4f }
 
 ```lua
----@class opens_spellbook
-local opens_spellbook = {}
+-- 订阅事件
+events.on("opens_spellbook", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -4108,8 +4410,10 @@ character = ... -- any
 ## `opens_temple` { #symbol-api-lua-v5-generated-event-opens-temple-1fb67651cd07 }
 
 ```lua
----@class opens_temple
-local opens_temple = {}
+-- 订阅事件
+events.on("opens_temple", function(event)
+    -- 处理事件逻辑
+end)
 ```
 
 🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
@@ -4121,8 +4425,11 @@ local opens_temple = {}
 ## `phase_move` { #symbol-api-lua-v5-generated-event-phase-move-6b84f61437c6 }
 
 ```lua
----@class phase_move
-local phase_move = {}
+-- 订阅事件
+events.on("phase_move", function(event)
+    -- event.distance_traveled: any
+    -- event.is_bionic: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -4163,8 +4470,11 @@ is_bionic = ... -- any
 ## `player_fails_conduct` { #symbol-api-lua-v5-generated-event-player-fails-conduct-ee7addec8294 }
 
 ```lua
----@class player_fails_conduct
-local player_fails_conduct = {}
+-- 订阅事件
+events.on("player_fails_conduct", function(event)
+    -- event.conduct: any
+    -- event.achievements_enabled: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -4205,8 +4515,11 @@ achievements_enabled = ... -- any
 ## `player_gets_achievement` { #symbol-api-lua-v5-generated-event-player-gets-achievement-1907706a8704 }
 
 ```lua
----@class player_gets_achievement
-local player_gets_achievement = {}
+-- 订阅事件
+events.on("player_gets_achievement", function(event)
+    -- event.achievement: any
+    -- event.achievements_enabled: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -4247,8 +4560,13 @@ achievements_enabled = ... -- any
 ## `player_levels_spell` { #symbol-api-lua-v5-generated-event-player-levels-spell-0c963878287a }
 
 ```lua
----@class player_levels_spell
-local player_levels_spell = {}
+-- 订阅事件
+events.on("player_levels_spell", function(event)
+    -- event.character: any
+    -- event.spell: any
+    -- event.new_level: any
+    -- event.school: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -4313,8 +4631,11 @@ school = ... -- any
 ## `reads_book` { #symbol-api-lua-v5-generated-event-reads-book-b988a1dfdc82 }
 
 ```lua
----@class reads_book
-local reads_book = {}
+-- 订阅事件
+events.on("reads_book", function(event)
+    -- event.character: any
+    -- event.itype: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -4355,8 +4676,10 @@ itype = ... -- any
 ## `releases_subspace_specimens` { #symbol-api-lua-v5-generated-event-releases-subspace-specimens-1ab0b89e4fe6 }
 
 ```lua
----@class releases_subspace_specimens
-local releases_subspace_specimens = {}
+-- 订阅事件
+events.on("releases_subspace_specimens", function(event)
+    -- 处理事件逻辑
+end)
 ```
 
 🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
@@ -4368,8 +4691,11 @@ local releases_subspace_specimens = {}
 ## `removes_cbm` { #symbol-api-lua-v5-generated-event-removes-cbm-6d22c303040a }
 
 ```lua
----@class removes_cbm
-local removes_cbm = {}
+-- 订阅事件
+events.on("removes_cbm", function(event)
+    -- event.character: any
+    -- event.bionic: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -4410,8 +4736,10 @@ bionic = ... -- any
 ## `seals_hazardous_material_sarcophagus` { #symbol-api-lua-v5-generated-event-seals-hazardous-material-sarcophagus-7867dd81ea71 }
 
 ```lua
----@class seals_hazardous_material_sarcophagus
-local seals_hazardous_material_sarcophagus = {}
+-- 订阅事件
+events.on("seals_hazardous_material_sarcophagus", function(event)
+    -- 处理事件逻辑
+end)
 ```
 
 🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
@@ -4423,8 +4751,17 @@ local seals_hazardous_material_sarcophagus = {}
 ## `spellcasting_finish` { #symbol-api-lua-v5-generated-event-spellcasting-finish-f9c5310693f6 }
 
 ```lua
----@class spellcasting_finish
-local spellcasting_finish = {}
+-- 订阅事件
+events.on("spellcasting_finish", function(event)
+    -- event.character: any
+    -- event.success: any
+    -- event.spell: any
+    -- event.school: any
+    -- event.difficulty: any
+    -- event.cost: any
+    -- event.cast_time: any
+    -- event.damage: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -4537,8 +4874,11 @@ damage = ... -- any
 ## `telefrags_creature` { #symbol-api-lua-v5-generated-event-telefrags-creature-b6402d7604d8 }
 
 ```lua
----@class telefrags_creature
-local telefrags_creature = {}
+-- 订阅事件
+events.on("telefrags_creature", function(event)
+    -- event.character: any
+    -- event.victim_name: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -4579,8 +4919,10 @@ victim_name = ... -- any
 ## `teleglow_teleports` { #symbol-api-lua-v5-generated-event-teleglow-teleports-8834db858823 }
 
 ```lua
----@class teleglow_teleports
-local teleglow_teleports = {}
+-- 订阅事件
+events.on("teleglow_teleports", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -4609,8 +4951,11 @@ character = ... -- any
 ## `teleports_into_wall` { #symbol-api-lua-v5-generated-event-teleports-into-wall-48583f3f996a }
 
 ```lua
----@class teleports_into_wall
-local teleports_into_wall = {}
+-- 订阅事件
+events.on("teleports_into_wall", function(event)
+    -- event.character: any
+    -- event.obstacle_name: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -4651,8 +4996,10 @@ obstacle_name = ... -- any
 ## `terminates_subspace_specimens` { #symbol-api-lua-v5-generated-event-terminates-subspace-specimens-f5f42a521fd7 }
 
 ```lua
----@class terminates_subspace_specimens
-local terminates_subspace_specimens = {}
+-- 订阅事件
+events.on("terminates_subspace_specimens", function(event)
+    -- 处理事件逻辑
+end)
 ```
 
 🛡️ **所需权限 (Required Capabilities):** `events`, `game.read`
@@ -4664,8 +5011,10 @@ local terminates_subspace_specimens = {}
 ## `throws_up` { #symbol-api-lua-v5-generated-event-throws-up-fd793f1fa60e }
 
 ```lua
----@class throws_up
-local throws_up = {}
+-- 订阅事件
+events.on("throws_up", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -4694,8 +5043,10 @@ character = ... -- any
 ## `triggers_alarm` { #symbol-api-lua-v5-generated-event-triggers-alarm-af86cf6481c8 }
 
 ```lua
----@class triggers_alarm
-local triggers_alarm = {}
+-- 订阅事件
+events.on("triggers_alarm", function(event)
+    -- event.character: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -4724,8 +5075,11 @@ character = ... -- any
 ## `u_var_changed` { #symbol-api-lua-v5-generated-event-u-var-changed-a51347238929 }
 
 ```lua
----@class u_var_changed
-local u_var_changed = {}
+-- 订阅事件
+events.on("u_var_changed", function(event)
+    -- event.var: any
+    -- event.value: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -4766,8 +5120,10 @@ value = ... -- any
 ## `uses_debug_menu` { #symbol-api-lua-v5-generated-event-uses-debug-menu-099c9cbfd213 }
 
 ```lua
----@class uses_debug_menu
-local uses_debug_menu = {}
+-- 订阅事件
+events.on("uses_debug_menu", function(event)
+    -- event.debug_menu_option: any
+end)
 ```
 
 **字段属性 (Fields):**
@@ -4796,8 +5152,20 @@ debug_menu_option = ... -- any
 ## `vehicle_moves` { #symbol-api-lua-v5-generated-event-vehicle-moves-8e9973428d28 }
 
 ```lua
----@class vehicle_moves
-local vehicle_moves = {}
+-- 订阅事件
+events.on("vehicle_moves", function(event)
+    -- event.avatar_on_board: any
+    -- event.avatar_is_driving: any
+    -- event.avatar_remote_control: any
+    -- event.is_flying_aircraft: any
+    -- event.is_floating_watercraft: any
+    -- event.is_on_rails: any
+    -- event.is_falling: any
+    -- event.is_sinking: any
+    -- event.is_skidding: any
+    -- event.velocity: any
+    -- event.z: any
+end)
 ```
 
 **字段属性 (Fields):**

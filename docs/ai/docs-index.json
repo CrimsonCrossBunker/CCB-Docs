@@ -1995,7 +1995,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "9eb9617960e6e1e495a0b0d17f1686ce36177601ab40e9636744cea855bd2f32",
+      "translation_source_fingerprint": "5d8baf43000e8f65fb9b6d6a8ab3452ec4b2e04533991a5d1343b834e2a28338",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -2054,7 +2054,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "9eb9617960e6e1e495a0b0d17f1686ce36177601ab40e9636744cea855bd2f32",
+      "translation_source_fingerprint": "5d8baf43000e8f65fb9b6d6a8ab3452ec4b2e04533991a5d1343b834e2a28338",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -2231,7 +2231,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "94dcec848261436c63701d24a7da6f8d6524b73d6c0a59a598ce306220f84f08",
+      "translation_source_fingerprint": "2a92f980977bd669bcda6cf8775aa50e0c1772f1346b61406897e1d7fda45aad",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
@@ -2290,7 +2290,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "94dcec848261436c63701d24a7da6f8d6524b73d6c0a59a598ce306220f84f08",
+      "translation_source_fingerprint": "2a92f980977bd669bcda6cf8775aa50e0c1772f1346b61406897e1d7fda45aad",
       "prerequisites": [
         "api.lua.v5.overview"
       ],
