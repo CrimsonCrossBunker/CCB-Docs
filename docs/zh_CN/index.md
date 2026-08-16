@@ -34,7 +34,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 232961e0cbd3e506537154eb53f7bb787c5dd7343a4f4637db90ca65dcb2b7e5
+translation_source_fingerprint: d8a9ca0fabfab96a6fe77b122cd552e7584cd6a3096cdae173a99dcdbda07399
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -81,7 +81,18 @@ CCB 提供全新自研的 **CCB Lua 0.1** 纯原生内容与逻辑创作引擎�
 - [完整示例 Mod 剖析](api/lua/v5/example-mod.md)：快速上手一个包含模块、状态与事件的完整 Mod。
 - [事件、Hook 与 Callback](api/lua/v5/events.md)：订阅游戏事件，同步拦截与重写游戏行为。
 - [跨平台 Lua UI](api/lua/v5/ui.md)：为 PC 键盘操作和 Android 原生触屏设计自适应页面。
-- [CCB Lua 0.1 自动参考手册](api/lua/v5/reference/modules.md)：查阅全部 500+ 个核心函数、事件、Hook 与类定义。
+- [CCB Lua 0.1 权限与能力](api/lua/v5/capabilities.md)：理解 Capability 声明与沙箱安全模型。
+
+#### 📚 API 参考手册直达（API Reference）
+| API 分类 | 快速入口 | 内容说明 |
+| --- | --- | --- |
+| 📦 **核心类与对象 (Classes)** | [查阅类定义](api/lua/v5/reference/classes.md) | `Character`, `Creature`, `Item`, `Map`, `Mapgen`, `Vehicle` 等实体与句柄 |
+| ⚡ **原生事件 (Events)** | [查阅 113 个事件](api/lua/v5/reference/events.md) | 回合更替、移动、受击、技能释放、装备穿脱等全量事件订阅 |
+| 🪝 **逻辑拦截点 (Hooks)** | [查阅 52 个 Hooks](api/lua/v5/reference/hooks.md) | 同步拦截并覆写游戏原生核心决策与判定逻辑 |
+| 🔧 **引擎全局函数 (Functions)** | [查阅函数表](api/lua/v5/reference/functions.md) | 引擎导出的所有全局工具函数与静态方法 |
+| 🎮 **命名空间 (Namespaces)** | [查阅命名空间](api/lua/v5/reference/namespaces.md) | `game.*`, `map.*`, `player.*`, `ui.*` 等顶级命名空间 |
+| 🎭 **回调 Actor (Callbacks)** | [查阅回调表](api/lua/v5/reference/callbacks.md) | 玩家交互、IUSE 动作与活动执行回调 |
+| 🏷️ **枚举与常量 (Enums)** | [查阅枚举常量](api/lua/v5/reference/enums.md) | 伤害类型、部位、天气、标记等枚举定义 |
 
 ### 🛠️ 2. 本体与引擎开发者（C++ 引擎与构建）
 面向贡献游戏底层逻辑、系统机制与原生绑定的开发者：

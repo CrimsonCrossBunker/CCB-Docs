@@ -34,7 +34,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 232961e0cbd3e506537154eb53f7bb787c5dd7343a4f4637db90ca65dcb2b7e5
+translation_source_fingerprint: d8a9ca0fabfab96a6fe77b122cd552e7584cd6a3096cdae173a99dcdbda07399
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -81,7 +81,18 @@ CCB provides **CCB Lua 0.1**, a modern pure-Lua content and scripting engine fre
 - [Complete Example Mod](api/lua/v5/example-mod.md): Walk through a working Mod with modules, state, and custom actions.
 - [Events, Hooks, and Callbacks](api/lua/v5/events.md): Subscribe to game events, intercept decisions, and rewrite behaviours synchronously.
 - [Portable Lua UI](api/lua/v5/ui.md): Build responsive pages tailored for PC keyboard and Android touch HUD.
-- [CCB Lua 0.1 Generated Reference](api/lua/v5/reference/modules.md): Explore all 500+ callable functions, events, hooks, and class definitions.
+- [Permissions & Capabilities](api/lua/v5/capabilities.md): Understand the capability declaration and sandbox model.
+
+#### 📚 API Reference Direct Links
+| Category | Quick Entry | Description |
+| --- | --- | --- |
+| 📦 **Classes & Handles** | [View Classes](api/lua/v5/reference/classes.md) | `Character`, `Creature`, `Item`, `Map`, `Mapgen`, `Vehicle`, etc. |
+| ⚡ **Native Events** | [View 113 Events](api/lua/v5/reference/events.md) | Turn turns, movements, damage, spell casts, gear equips, etc. |
+| 🪝 **Native Hooks** | [View 52 Hooks](api/lua/v5/reference/hooks.md) | Intercept and override game decisions synchronously. |
+| 🔧 **Global Functions** | [View Functions](api/lua/v5/reference/functions.md) | All utility functions and static methods exposed by the engine. |
+| 🎮 **Namespaces** | [View Namespaces](api/lua/v5/reference/namespaces.md) | `game.*`, `map.*`, `player.*`, `ui.*`, and other top-level tables. |
+| 🎭 **Callback Actors** | [View Callbacks](api/lua/v5/reference/callbacks.md) | Player actions, IUSE callbacks, and activity execution targets. |
+| 🏷️ **Enums & Constants** | [View Enums](api/lua/v5/reference/enums.md) | Damage types, body parts, weather types, terrain flags, etc. |
 
 ### 🛠️ 2. Core & Engine Developer Track (C++ Engine & Build)
 For contributors building core systems, game mechanics, and native bindings:
