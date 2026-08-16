@@ -338,8 +338,12 @@ def render_documented_item(
 
     if section == "functions" or style == "function":
         full_fn = f"{ns}.{name}" if ns else name
-        param_sigs = [f"{p['name']}: {p.get('declaration', 'any')}{'?' if p.get('optional') else ''}" for p in params]
-        ret_sig = f" -> {', '.join(r.get('declaration', 'void') for r in returns)}" if returns else ""
+        param_sigs = [
+            f"{p['name']}: {p.get('declaration', 'any')}{'?' if p.get('optional') else ''}"
+            for p in params
+        ]
+        ret_list = [r.get('declaration', 'void') for r in returns]
+        ret_sig = f" -> {', '.join(ret_list)}" if returns else ""
         sig_lines = [
             "```lua",
             f"function {full_fn}({', '.join(param_sigs)}){ret_sig}",
@@ -347,8 +351,12 @@ def render_documented_item(
             "",
         ]
     elif section == "methods" or style == "method":
-        param_sigs = [f"{p['name']}: {p.get('declaration', 'any')}{'?' if p.get('optional') else ''}" for p in params]
-        ret_sig = f" -> {', '.join(r.get('declaration', 'void') for r in returns)}" if returns else ""
+        param_sigs = [
+            f"{p['name']}: {p.get('declaration', 'any')}{'?' if p.get('optional') else ''}"
+            for p in params
+        ]
+        ret_list = [r.get('declaration', 'void') for r in returns]
+        ret_sig = f" -> {', '.join(ret_list)}" if returns else ""
         sep = ":" if style == "method" else "."
         sig_lines = [
             "```lua",
@@ -377,23 +385,30 @@ def render_documented_item(
         ]
     elif section == "hooks":
         payload_list = payload if isinstance(payload, list) else []
-        payload_sigs = [f"{p['name']}: {p.get('declaration', 'any')}" for p in payload_list if isinstance(p, dict) and 'name' in p]
         payload_args = [p.get('name', 'arg') for p in payload_list if isinstance(p, dict)]
-        ret_sig = f" -> {', '.join(r.get('declaration', 'void') for r in returns)}" if isinstance(returns, list) and returns else ""
+        ret_list = (
+            [r.get('declaration', 'void') for r in returns]
+            if isinstance(returns, list) else []
+        )
+        ret_sig = f" -> {', '.join(ret_list)}" if ret_list else ""
+        hook_cb = f"function({', '.join(payload_args)}){ret_sig}"
         sig_lines = [
             "```lua",
             f'-- {"注册拦截 Hook" if is_zh else "Register hook interceptor"}',
-            f'game.hooks.on("{name}", function({", ".join(payload_args)}){ret_sig}',
+            f'game.hooks.on("{name}", {hook_cb}',
             f'    -- {"同步拦截并返回值" if is_zh else "Intercept and return result"}',
             "end)",
             "```",
             "",
         ]
     elif section == "callbacks":
+        kind = item.get("kind", "callback")
+        p_type = item.get("payload_type", "table")
+        r_type = item.get("result_type", "void")
         sig_lines = [
             "```lua",
             f'-- Callback: {name}',
-            f'-- Kind: {item.get("kind", "callback")} (Payload: {item.get("payload_type", "table")} -> Result: {item.get("result_type", "void")})',
+            f'-- Kind: {kind} (Payload: {p_type} -> Result: {r_type})',
             "```",
             "",
         ]
@@ -427,7 +442,7 @@ def render_documented_item(
         sig_lines = [
             "```lua",
             f'-- Capability: "{name}"',
-            f'-- Minimum API: CCB Lua 0.1',
+            '-- Minimum API: CCB Lua 0.1',
             "```",
             "",
         ]
@@ -460,11 +475,19 @@ def render_documented_item(
     if params:
         lines.append(f"**{'参数列表 (Parameters)' if is_zh else 'Parameters'}:**")
         lines.append("")
-        lines.append(f"| {'参数名' if is_zh else 'Parameter'} | {'类型' if is_zh else 'Type'} | {'要求' if is_zh else 'Requirement'} |")
+        col_p = '参数名' if is_zh else 'Parameter'
+        col_t = '类型' if is_zh else 'Type'
+        col_r = '要求' if is_zh else 'Requirement'
+        lines.append(f"| {col_p} | {col_t} | {col_r} |")
         lines.append("| :--- | :--- | :--- |")
         for p in params:
-            req = ("可选 (Optional)" if p.get("optional") else "必选 (Required)") if is_zh else ("Optional" if p.get("optional") else "Required")
-            lines.append(f"| `{p.get('name', 'arg')}` | `{p.get('declaration', 'any')}` | {req} |")
+            is_opt = p.get("optional")
+            req_zh = "可选 (Optional)" if is_opt else "必选 (Required)"
+            req_en = "Optional" if is_opt else "Required"
+            req = req_zh if is_zh else req_en
+            p_name = p.get('name', 'arg')
+            p_decl = p.get('declaration', 'any')
+            lines.append(f"| `{p_name}` | `{p_decl}` | {req} |")
         lines.append("")
 
     # 3. Render Return Value
@@ -482,11 +505,18 @@ def render_documented_item(
     if fields and isinstance(fields, list):
         lines.append(f"**{'字段属性 (Fields)' if is_zh else 'Fields'}:**")
         lines.append("")
-        lines.append(f"| {'字段名' if is_zh else 'Field'} | {'类型' if is_zh else 'Type'} | {'特性' if is_zh else 'Access'} |")
+        col_f = '字段名' if is_zh else 'Field'
+        col_a = '特性' if is_zh else 'Access'
+        lines.append(f"| {col_f} | {col_t} | {col_a} |")
         lines.append("| :--- | :--- | :--- |")
         for f in fields:
-            access = ("只读" if f.get("read_only") else "可读写") if is_zh else ("Read-only" if f.get("read_only") else "Read-write")
-            lines.append(f"| `{f.get('name', 'field')}` | `{f.get('declaration', 'any')}` | {access} |")
+            is_ro = f.get("read_only")
+            ro_zh = "只读" if is_ro else "可读写"
+            ro_en = "Read-only" if is_ro else "Read-write"
+            access = ro_zh if is_zh else ro_en
+            f_name = f.get('name', 'field')
+            f_decl = f.get('declaration', 'any')
+            lines.append(f"| `{f_name}` | `{f_decl}` | {access} |")
         lines.append("")
 
     # 5. Render Enum Values
@@ -501,7 +531,8 @@ def render_documented_item(
     caps = item.get("capabilities", [])
     if caps and isinstance(caps, list):
         caps_str = ", ".join(f"`{c}`" for c in caps)
-        lines.append(f"🛡️ **{'所需权限 (Required Capabilities)' if is_zh else 'Required Capabilities'}:** {caps_str}")
+        cap_title = "所需权限 (Required Capabilities)" if is_zh else "Required Capabilities"
+        lines.append(f"🛡️ **{cap_title}:** {caps_str}")
         lines.append("")
 
     # 7. Error Handling Mode
@@ -509,7 +540,8 @@ def render_documented_item(
     if isinstance(errors, dict) and errors.get("conditions"):
         conds = "; ".join(errors.get("conditions", []))
         mode = errors.get("mode", "lua-error")
-        lines.append(f"⚠️ **{'错误模式' if is_zh else 'Error Handling'}:** `{mode}` ({conds})")
+        err_title = "错误模式" if is_zh else "Error Handling"
+        lines.append(f"⚠️ **{err_title}:** `{mode}` ({conds})")
         lines.append("")
 
     # 8. Sources
@@ -543,7 +575,8 @@ def render_section(
         lines.append("## 权限系统模型" if is_zh else "## Permission System Model")
         lines.append("")
         lines.append(f"- **模型类型 (Model):** `{permission.get('model', 'standard')}`")
-        lines.append(f"- **Manifest 声明字段 (Manifest Field):** `{permission.get('manifest_field', 'capabilities')}`")
+        m_field = permission.get('manifest_field', 'capabilities')
+        lines.append(f"- **Manifest 声明字段 (Manifest Field):** `{m_field}`")
         lines.append("")
         lines.extend(render_sources(config, permission.get("sources", []), language))
     else:
@@ -559,7 +592,11 @@ def render_section(
                 )
             )
             for field in item.get("fields", []):
-                lines.extend(render_documented_item(config, field, language, level=3, section="properties"))
+                lines.extend(
+                    render_documented_item(
+                        config, field, language, level=3, section="properties"
+                    )
+                )
     return "\n".join(lines).rstrip() + "\n"
 
 
