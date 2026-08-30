@@ -7280,7 +7280,7 @@ pages:
   title: Native Lua bridge
   language: zh_CN
   path: cpp/lua-bridge.md
-  status: active
+  status: draft
   doc_type: reference
   audiences: &id408
   - experienced-contributor
@@ -7292,26 +7292,56 @@ pages:
   review_interval_days: 90
   last_human_reviewer: Pending human review
   source_paths: &id409
-  - src/catalua_bindings.cpp
-  - src/catalua_ui_manifest.cpp
-  - src/catalua_ui_registry.cpp
-  - data/lua/types/ccb_api_v5.d.lua
-  - data/lua/manifest.schema.json
+  - .github/workflows/lua-contract.yml
+  - .github/workflows/matrix.yml
+  - ai/test-matrix.yml
+  - Makefile
+  - android/app/build.gradle
+  - android/app/jni/CMakeLists.txt
+  - build-scripts/gha_compile_only.sh
+  - data/lua/LUA_FIRST_PLATFORM.md
+  - data/lua/types/ccb_platform_v1.d.lua
+  - src/CMakeLists.txt
+  - src/lua/CMakeLists.txt
+  - src/lua/lua.hpp
+  - src/lua_platform_loader.h
+  - src/lua_platform_loader.cpp
+  - src/lua_platform_runtime.h
+  - src/lua_platform_runtime.cpp
+  - src/sol/CMakeLists.txt
+  - src/sol/config.hpp
+  - tools/lua_api/check_cmake_contract.py
+  - tools/lua_api/generate_platform_native_inventory.py
+  - tools/lua_api/test_check_cmake_contract.py
+  - tests/lua_platform_test.cpp
   source_symbols: &id410
-  - binding_catalog()
-  source_queries: &id411 []
-  source_fingerprint: f49affe36444cf0aaa8cdbd2064a4c8d6e45e09d96d359984078ec5b326a0c9a
+  - platform_version = 1
+  - initialize_state(
+  - install_runtime_api(
+  - configure_lua_platform
+  - validate_cmake_contract
+  - INSTALLER_SPECS
+  source_queries: &id411
+  - PROPERTIES LANGUAGE C
+  - $(COMPILE.c)
+  - '#define SOL_BUILD_CXX_MODE 1'
+  - 'CATA_ENABLE_LUA_PLATFORM: ${{ matrix.lua_platform }}'
+  - 'lua_platform: 1'
+  - '-DCATA_ENABLE_LUA_PLATFORM="${CATA_ENABLE_LUA_PLATFORM:-1}"'
+  - -DCATA_ENABLE_LUA_PLATFORM=ON
+  - python3 tools/lua_api/check_cmake_contract.py
+  source_fingerprint: 39aae4e1674e20ce79f1afed08505dfbe6e40e0fb0269c5f4958b57d5b56bb9e
   authority: api-contract
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: b9a8d08beffe5b77aca4d4ff7f80821a7e6bb94c
+  verified_at: '2026-08-31'
   generated: false
   generated_by: null
-  include_in_search: true
-  include_in_ai_index: true
+  include_in_search: false
+  include_in_ai_index: false
   translation_group: cpp.lua-bridge
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 7e06bb671d6532093277a532546614dadca86a79266039f03d3e5bc7338a800f
+  translation_source_fingerprint: 6e0a39ccb8ab876b10c0e1465e61ba9f51336c05b84f4e7a83e72dea68925144
   prerequisites: &id412
   - cpp.mod-loading
   depends_on: &id413 []
@@ -7321,13 +7351,12 @@ pages:
   attribution: CCB contributors; see source paths and Git history.
   example_validation_ids: &id414
   - lua-contract
-  - cpp-tests
-  api_version: '5'
+  api_version: '1'
   deprecated: false
   deprecation_replacement: null
   risk_group: lua-api
   risk_level: high
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/695
   stale_reason: null
   nav:
     section: C++ 子系统
@@ -7336,7 +7365,7 @@ pages:
   title: Native Lua bridge
   language: en
   path: cpp/lua-bridge.md
-  status: active
+  status: draft
   doc_type: reference
   audiences: *id408
   owners: *id001
@@ -7346,18 +7375,18 @@ pages:
   source_paths: *id409
   source_symbols: *id410
   source_queries: *id411
-  source_fingerprint: f49affe36444cf0aaa8cdbd2064a4c8d6e45e09d96d359984078ec5b326a0c9a
+  source_fingerprint: 39aae4e1674e20ce79f1afed08505dfbe6e40e0fb0269c5f4958b57d5b56bb9e
   authority: api-contract
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: b9a8d08beffe5b77aca4d4ff7f80821a7e6bb94c
+  verified_at: '2026-08-31'
   generated: false
   generated_by: null
-  include_in_search: true
-  include_in_ai_index: true
+  include_in_search: false
+  include_in_ai_index: false
   translation_group: cpp.lua-bridge
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 7e06bb671d6532093277a532546614dadca86a79266039f03d3e5bc7338a800f
+  translation_source_fingerprint: 6e0a39ccb8ab876b10c0e1465e61ba9f51336c05b84f4e7a83e72dea68925144
   prerequisites: *id412
   depends_on: *id413
   redirect_from: *id003
@@ -7365,12 +7394,12 @@ pages:
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
   example_validation_ids: *id414
-  api_version: '5'
+  api_version: '1'
   deprecated: false
   deprecation_replacement: null
   risk_group: lua-api
   risk_level: high
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/695
   stale_reason: null
   nav:
     section: C++ subsystems
