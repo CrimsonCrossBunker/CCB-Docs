@@ -17,25 +17,55 @@ reviewers:
 review_interval_days: 90
 last_human_reviewer: Pending human review
 source_paths:
-- src/catalua_bindings.cpp
-- src/catalua_ui_manifest.cpp
-- src/catalua_ui_registry.cpp
-- data/lua/types/ccb_api_v5.d.lua
-- data/lua/manifest.schema.json
+- .github/workflows/lua-contract.yml
+- .github/workflows/matrix.yml
+- ai/test-matrix.yml
+- Makefile
+- android/app/build.gradle
+- android/app/jni/CMakeLists.txt
+- build-scripts/gha_compile_only.sh
+- data/lua/LUA_FIRST_PLATFORM.md
+- data/lua/types/ccb_platform_v1.d.lua
+- src/CMakeLists.txt
+- src/lua/CMakeLists.txt
+- src/lua/lua.hpp
+- src/lua_platform_loader.h
+- src/lua_platform_loader.cpp
+- src/lua_platform_runtime.h
+- src/lua_platform_runtime.cpp
+- src/sol/CMakeLists.txt
+- src/sol/config.hpp
+- tools/lua_api/check_cmake_contract.py
+- tools/lua_api/generate_platform_native_inventory.py
+- tools/lua_api/test_check_cmake_contract.py
+- tests/lua_platform_test.cpp
 source_symbols:
-- binding_catalog()
-source_queries: []
-source_fingerprint: f49affe36444cf0aaa8cdbd2064a4c8d6e45e09d96d359984078ec5b326a0c9a
+- platform_version = 1
+- initialize_state(
+- install_runtime_api(
+- configure_lua_platform
+- validate_cmake_contract
+- INSTALLER_SPECS
+source_queries:
+- PROPERTIES LANGUAGE C
+- $(COMPILE.c)
+- '#define SOL_BUILD_CXX_MODE 1'
+- 'CATA_ENABLE_LUA_PLATFORM: ${{ matrix.lua_platform }}'
+- 'lua_platform: 1'
+- -DCATA_ENABLE_LUA_PLATFORM="${CATA_ENABLE_LUA_PLATFORM:-1}"
+- -DCATA_ENABLE_LUA_PLATFORM=ON
+- python3 tools/lua_api/check_cmake_contract.py
+source_fingerprint: 1e0cd7300f0352381de0ea3414d9a48bacf7ee61d0d9f2da78132498776f7100
 authority: api-contract
-verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-verified_at: '2026-08-02'
+verified_commit: 9773fd98a173b617e066ee68a85fdbed72e0bbba
+verified_at: '2026-08-31'
 generated: false
 generated_by: null
 include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 7e06bb671d6532093277a532546614dadca86a79266039f03d3e5bc7338a800f
+translation_source_fingerprint: 6e0a39ccb8ab876b10c0e1465e61ba9f51336c05b84f4e7a83e72dea68925144
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -45,8 +75,7 @@ license: CC-BY-SA-3.0
 attribution: CCB contributors; see source paths and Git history.
 example_validation_ids:
 - lua-contract
-- cpp-tests
-api_version: '5'
+api_version: '1'
 deprecated: false
 deprecation_replacement: null
 risk_group: lua-api
@@ -59,88 +88,150 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/d32b9cc880a85480840d82cfa05d256c78a16615
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/9773fd98a173b617e066ee68a85fdbed72e0bbba
 source_urls:
-- path: src/catalua_bindings.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/src/catalua_bindings.cpp
-- path: src/catalua_ui_manifest.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/src/catalua_ui_manifest.cpp
-- path: src/catalua_ui_registry.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/src/catalua_ui_registry.cpp
-- path: data/lua/types/ccb_api_v5.d.lua
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/lua/types/ccb_api_v5.d.lua
-- path: data/lua/manifest.schema.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/lua/manifest.schema.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28cpp.lua-bridge%29%3A+&body=Document+ID%3A+cpp.lua-bridge%0ALanguage%3A+en%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+- path: .github/workflows/lua-contract.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9773fd98a173b617e066ee68a85fdbed72e0bbba/.github/workflows/lua-contract.yml
+- path: .github/workflows/matrix.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9773fd98a173b617e066ee68a85fdbed72e0bbba/.github/workflows/matrix.yml
+- path: ai/test-matrix.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9773fd98a173b617e066ee68a85fdbed72e0bbba/ai/test-matrix.yml
+- path: Makefile
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9773fd98a173b617e066ee68a85fdbed72e0bbba/Makefile
+- path: android/app/build.gradle
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9773fd98a173b617e066ee68a85fdbed72e0bbba/android/app/build.gradle
+- path: android/app/jni/CMakeLists.txt
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9773fd98a173b617e066ee68a85fdbed72e0bbba/android/app/jni/CMakeLists.txt
+- path: build-scripts/gha_compile_only.sh
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9773fd98a173b617e066ee68a85fdbed72e0bbba/build-scripts/gha_compile_only.sh
+- path: data/lua/LUA_FIRST_PLATFORM.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9773fd98a173b617e066ee68a85fdbed72e0bbba/data/lua/LUA_FIRST_PLATFORM.md
+- path: data/lua/types/ccb_platform_v1.d.lua
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9773fd98a173b617e066ee68a85fdbed72e0bbba/data/lua/types/ccb_platform_v1.d.lua
+- path: src/CMakeLists.txt
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9773fd98a173b617e066ee68a85fdbed72e0bbba/src/CMakeLists.txt
+- path: src/lua/CMakeLists.txt
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9773fd98a173b617e066ee68a85fdbed72e0bbba/src/lua/CMakeLists.txt
+- path: src/lua/lua.hpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9773fd98a173b617e066ee68a85fdbed72e0bbba/src/lua/lua.hpp
+- path: src/lua_platform_loader.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9773fd98a173b617e066ee68a85fdbed72e0bbba/src/lua_platform_loader.h
+- path: src/lua_platform_loader.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9773fd98a173b617e066ee68a85fdbed72e0bbba/src/lua_platform_loader.cpp
+- path: src/lua_platform_runtime.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9773fd98a173b617e066ee68a85fdbed72e0bbba/src/lua_platform_runtime.h
+- path: src/lua_platform_runtime.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9773fd98a173b617e066ee68a85fdbed72e0bbba/src/lua_platform_runtime.cpp
+- path: src/sol/CMakeLists.txt
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9773fd98a173b617e066ee68a85fdbed72e0bbba/src/sol/CMakeLists.txt
+- path: src/sol/config.hpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9773fd98a173b617e066ee68a85fdbed72e0bbba/src/sol/config.hpp
+- path: tools/lua_api/check_cmake_contract.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9773fd98a173b617e066ee68a85fdbed72e0bbba/tools/lua_api/check_cmake_contract.py
+- path: tools/lua_api/generate_platform_native_inventory.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9773fd98a173b617e066ee68a85fdbed72e0bbba/tools/lua_api/generate_platform_native_inventory.py
+- path: tools/lua_api/test_check_cmake_contract.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9773fd98a173b617e066ee68a85fdbed72e0bbba/tools/lua_api/test_check_cmake_contract.py
+- path: tests/lua_platform_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9773fd98a173b617e066ee68a85fdbed72e0bbba/tests/lua_platform_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28cpp.lua-bridge%29%3A+&body=Document+ID%3A+cpp.lua-bridge%0ALanguage%3A+en%0AVerified+commit%3A+9773fd98a173b617e066ee68a85fdbed72e0bbba%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Native Lua bridge
 
-## Responsibility
+## Contract boundary
 
-The bridge embeds Lua and exposes the versioned CCB Lua API. It validates manifests and
-capabilities, constructs namespaces and typed values/handles, installs bounded registry
-snapshots, routes events/hooks/callbacks/services, and enforces read/write/action permissions.
+CCB supports only Lua-first Platform v1. A Mod obtains its package-local `ccb` table through
+`require("ccb")`; the authoritative public declaration is
+`data/lua/types/ccb_platform_v1.d.lua`. The removed Lua API v5, its manifest/capability model,
+and the `game.*` compatibility entry are not part of this bridge and must not return as a second
+runtime.
 
-## Entry points
+Platform is a trusted in-process extension boundary, not a process-level sandbox. The loader
+creates an isolated Lua state for each Mod and restricts module resolution and the exposed native
+surface. The engine continues to own native objects, registries, and lifetimes; Lua reaches them
+only through the values, snapshots, and generation-checked handles declared by Platform v1.
 
-Read `src/catalua_bindings.cpp`, `src/catalua_ui_manifest.cpp`, and
-`src/catalua_ui_registry.cpp`, then the domain-specific `catalua_ui_*.cpp`. The authoritative
-public shape is cross-checked against `data/lua/types/ccb_api_v5.d.lua`, manifest schema, and
-generated native inventory.
+## Public entry and lifecycle
 
-## Data ownership
+`src/lua_platform_loader.cpp` discovers `main.lua` and optional `mod.lua`, creates states,
+installs `package.loaded["ccb"]`, resolves modules within the Mod root, and manages candidate
+runtime preparation, commit, rollback, and replacement. `src/lua_platform_runtime.cpp` and the
+domain-specific `src/lua_platform_*.cpp` files install the native implementations of
+`ccb.content`, `ccb.runtime`, `ccb.dialogue`, `ccb.services`, `ccb.state`,
+`ccb.tasks`, and `ccb.presentation`.
 
-The engine owns native objects and the Lua state. Lua receives detached immutable snapshots,
-value types, or checked handles—never borrowed native pointers. The manifest owns the script's
-declared capabilities; the runtime owns enforcement.
+Every public symbol must agree across native registration, the LuaLS declaration, and the
+generated inventory, with Platform contract and coverage tests proving parity. Explanatory prose
+cannot replace those sources.
 
-## Dependencies
+## One bundled Lua ABI
 
-The bridge depends on embedded Lua/sol, native registries and services, manifest JSON, API
-version constants, LuaLS declarations, generated inventories, event/callback registries, and
-Lua contract tests.
+Make, desktop CMake, and Android compile the same repository-owned `src/lua/*.c` sources and use
+Lua's standard C ABI throughout:
 
-## Lifecycle
+| Build entry | ABI constraint |
+| --- | --- |
+| `Makefile` | Places bundled Lua in `LUA_C_SOURCES`/`C_SOURCES` and compiles it with `$(COMPILE.c) -x c`. |
+| `src/lua/CMakeLists.txt` | Sets `PROPERTIES LANGUAGE C` on `LUA_SOURCES` before creating `liblua`. |
+| `android/app/jni/CMakeLists.txt` | Enables C and C++, then reuses the `src/lua` subdirectory and therefore the same `LANGUAGE C` contract. |
 
-Runtime creates a state, reads and validates manifests in dependency order, installs only
-allowed API surfaces, loads modules, dispatches bounded events/callbacks, then tears down the
-state before native owners disappear.
+`CATA_ENABLE_LUA_PLATFORM` controls whether Platform is linked. When enabled, desktop CMake
+propagates `libsol` through `configure_lua_platform()`, Android links the same `libsol`, and Make
+places the Lua C objects and Platform C++ objects in the same final link. A disabled build must
+use the disabled stub rather than retain a partial Lua runtime.
 
-## Invariants
+## C++ and sol2 linkage
 
-Manifest ID/version/capabilities validate; capability dependencies hold; declared API version
-is supported; native registration, LuaLS declarations, and inventories remain in parity;
-handles validate identity/lifetime; no borrowed pointer crosses into Lua.
+Platform C++ translation units wrap directly included Lua headers in `extern "C"`;
+`src/lua/lua.hpp` provides the same C-linkage wrapper. sol2 itself is consumed as C++, so
+`src/sol/config.hpp` defines `SOL_BUILD_CXX_MODE=1`, but that setting does not change the Lua
+library ABI.
 
-## Extension points
+Do not define `SOL_USE_CXX_LUA`, and do not change the bundled `*.c` files to `LANGUAGE CXX`.
+Either change makes one side expect C++ linkage while the other exports C symbols, producing Lua
+API undefined references at final link. The invariant is: compile the Lua runtime as C, and have
+every C++/sol2 caller declare the Lua API with C linkage.
 
-Add a public symbol to a focused registration module, declare it in LuaLS, inventory it, gate
-it with the minimum capability, and add parity/behavior/example tests. Generated references
-must come from those contracts rather than prose.
+## Extension and change checklist
 
-## Serialization
+Complete a bridge change as one coherent batch:
 
-Lua state is not a raw save snapshot. Scripts persist only through supported scoped state
-services and serializable values; native handles and callbacks must be reacquired after load.
+1. Implement and register the native operation in the matching domain `lua_platform_*.cpp`;
+2. update `ccb_platform_v1.d.lua`, the native inventory, and the Platform contract together;
+3. keep the Make, CMake, and Android Lua source sets and C ABI aligned;
+4. add or update focused behavior, parity, coverage, and disabled-build tests;
+5. update generated reference material only after source, declaration, inventory, and tests agree.
 
-## Tests
+## Contract and build gates
 
-Run LuaLS parsing, native-registration parity, coverage, manifest schema, Lua syntax, callback
-and disabled-build tests, plus complete example-mod loading. Public undocumented symbols must
-remain zero.
+The `Lua public contract` workflow runs the LuaLS, native-inventory, Platform-contract, coverage,
+CMake/ABI, and `tools/lua_api` unit checks. `check_cmake_contract.py` explicitly rejects
+`LANGUAGE CXX` and `SOL_USE_CXX_LUA`, while verifying that `libsol` stays optional and propagates
+correctly.
 
-## Performance
+In addition to those static gates, the orthogonal PR build matrix must actually compile and link
+Platform-enabled Make, desktop CMake, and Android configurations. The static checker proves
+configuration-text invariants; the build jobs prove that compilers, linkers, and target platforms
+can consume the ABI. Neither result substitutes for the other.
 
-Cross-language calls, snapshot construction, and event fan-out are costs. Bound collection
-sizes, avoid rebuilding registries per frame, and keep callbacks deterministic and short.
+The narrow local contract gate is:
 
-## CCB divergence
+```sh
+# validation: lua-contract
+python3 tools/lua_api/check_luals_declarations.py
+python3 tools/lua_api/check_platform_native_inventory.py
+python3 tools/lua_api/check_platform_contract.py
+python3 tools/lua_api/check_platform_coverage.py
+python3 tools/lua_api/check_cmake_contract.py
+python3 -m unittest discover -s tools/lua_api -p 'test_*.py'
+```
 
-Lua API v5, capability gates, typed handles, snapshots, hooks, and callbacks are CCB contracts;
-they are not interchangeable with CDDA, CBN, or historical Lua APIs.
+## PR artifact boundary
 
-## Technical debt
-
-Many domain modules increase parity and review burden. Keep one generated contract pipeline and
-deprecate public symbols explicitly instead of leaving aliases or undocumented registrations.
+PR artifacts are downloadable copies of successful builds and result-navigation aids for manual
+testing and diagnosis. They are not contracts for the Lua API, ABI, loader, lifecycle, or runtime
+behavior. Artifact names, archive formats, retention, PR-comment links, and even optional upload
+success cannot prove Platform correctness. Contract evidence comes from the source, checkers, and
+build jobs above; the artifact-publishing workflow only consumes those results and must not define
+the runtime in reverse.
