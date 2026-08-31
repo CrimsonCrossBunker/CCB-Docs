@@ -105,6 +105,8 @@
 - [zh_CN] Item 子系统: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/items/
 - [en] Localization runtime: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/localization/
 - [zh_CN] 本地化运行时: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/localization/
+- [en] Native Lua bridge: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/
+- [zh_CN] Native Lua bridge: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/
 - [en] Map subsystem: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/map/
 - [zh_CN] Map 子系统: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/map/
 - [en] Map generation subsystem: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/mapgen/

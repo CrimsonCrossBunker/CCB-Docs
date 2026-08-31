@@ -568,6 +568,13 @@
       "path": "api/lua/v5/reference/hooks.md"
     },
     {
+      "id": "cpp.lua-bridge",
+      "title": "Native Lua bridge",
+      "section": "C++ 子系统",
+      "order": 119,
+      "path": "cpp/lua-bridge.md"
+    },
+    {
       "id": "api.lua.v5.reference.callbacks",
       "title": "回调 Actor 参考",
       "section": "CCB Lua 0.1 参考",
@@ -1310,6 +1317,13 @@
       "section": "CCB Lua 0.1 Reference",
       "order": 119,
       "path": "api/lua/v5/reference/hooks.md"
+    },
+    {
+      "id": "cpp.lua-bridge",
+      "title": "Native Lua bridge",
+      "section": "C++ subsystems",
+      "order": 119,
+      "path": "cpp/lua-bridge.md"
     },
     {
       "id": "api.lua.v5.reference.callbacks",
