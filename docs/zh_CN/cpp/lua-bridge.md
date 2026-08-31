@@ -55,7 +55,7 @@ source_queries:
 - -DCATA_ENABLE_LUA_PLATFORM="${CATA_ENABLE_LUA_PLATFORM:-1}"
 - -DCATA_ENABLE_LUA_PLATFORM=ON
 - python3 tools/lua_api/check_cmake_contract.py
-source_fingerprint: 39aae4e1674e20ce79f1afed08505dfbe6e40e0fb0269c5f4958b57d5b56bb9e
+source_fingerprint: 1e0cd7300f0352381de0ea3414d9a48bacf7ee61d0d9f2da78132498776f7100
 authority: api-contract
 verified_commit: 9773fd98a173b617e066ee68a85fdbed72e0bbba
 verified_at: '2026-08-31'
