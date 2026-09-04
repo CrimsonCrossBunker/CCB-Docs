@@ -66,6 +66,28 @@
     }
   },
   {
+    "id": "api.lua.platform-v1.overview",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v1/overview/",
+    "last_verified": "2026-09-05",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v1/overview/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v1/overview/"
+    }
+  },
+  {
+    "id": "api.lua.platform-v1.overview",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v1/overview/",
+    "last_verified": "2026-09-05",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v1/overview/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v1/overview/"
+    }
+  },
+  {
     "id": "api.lua.v5.capabilities",
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/",

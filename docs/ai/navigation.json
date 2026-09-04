@@ -8,6 +8,13 @@
       "path": "index.md"
     },
     {
+      "id": "api.lua.platform-v1.overview",
+      "title": "Lua Platform v1：从零到运行",
+      "section": "CCB Lua Platform v1",
+      "order": 1,
+      "path": "api/lua/v1/overview.md"
+    },
+    {
       "id": "subsystems.character",
       "title": "角色与生物系统技术手册",
       "section": "游戏核心子系统手册",
@@ -757,6 +764,13 @@
       "section": "Home",
       "order": 0,
       "path": "index.md"
+    },
+    {
+      "id": "api.lua.platform-v1.overview",
+      "title": "Lua Platform v1: zero to running",
+      "section": "CCB Lua Platform v1",
+      "order": 1,
+      "path": "api/lua/v1/overview.md"
     },
     {
       "id": "subsystems.character",
