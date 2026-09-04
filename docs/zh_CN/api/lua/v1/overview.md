@@ -34,7 +34,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: cc17c0218d706cbd06b0da238f53513a48ddf48ddc53c4b9b83cd43af2341874
+translation_source_fingerprint: 6da945e4adc641f874db7ad6a848bba8c6f7b2b818d88efb0301a829a3039da4
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -124,15 +124,31 @@ cataclysm-tiles --userdir /你的/CCB用户目录/ --check-mods my_first_mod
 
 ## API 在哪里
 
-- [LuaLS 完整声明](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/types/ccb_platform_v1.d.lua)：函数、参数、返回值和类型说明；
-- [机器可读 API 契约](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/reference/ccb_platform_api_v1.json)：可用于生成工具和检查变更；
-- [平台设计与生命周期](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/LUA_FIRST_PLATFORM.md)：加载、隔离、状态和安全边界；
-- [完整示例 MOD](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/tree/master/data/mods/Lua_First_Example)：按领域拆分的可运行示例；
+- [LuaLS 完整声明](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/0.Ag-Candidate-2026-09-05-0219/data/lua/types/ccb_platform_v1.d.lua)：函数、参数、返回值和类型说明；
+- [机器可读 API 契约](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/0.Ag-Candidate-2026-09-05-0219/data/lua/reference/ccb_platform_api_v1.json)：可用于生成工具和检查变更；
+- [平台设计与生命周期](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/0.Ag-Candidate-2026-09-05-0219/data/lua/LUA_FIRST_PLATFORM.md)：加载、隔离、状态和安全边界；
+- [完整示例 MOD](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/tree/0.Ag-Candidate-2026-09-05-0219/data/mods/Lua_First_Example)：按领域拆分的可运行示例；
 - [CCB-MOD](https://github.com/CrimsonCrossBunker/CCB-MOD)：登记、维护和发布外部 MOD。
 
 编辑器使用 LuaLS 时，把 `ccb_platform_v1.d.lua` 加入工作区库即可获得补全。遇到 API
 缺失或文档与运行结果不一致时，以 CCB 主仓库的声明、原生注册和测试为准，并在 CCB
 主仓库报告问题。
+
+## 第一版推荐版本
+
+当前适配基线为 [0.Ag-Candidate-2026-09-05-0219](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/releases/tag/0.Ag-Candidate-2026-09-05-0219)，Lua API 为 `1`。
+在 Catapult 的“实验版 / 候选版”列表选择该完整版本号；它尚不是 Stable。
+下面的声明和示例链接固定到这个 Candidate，不随 master 的后续开发变动。
+
+命令行验证时先创建用户目录中的 `config/`，再运行：
+
+```sh
+mkdir -p /tmp/ccb-mod-check/config /tmp/ccb-mod-check/mods
+# 将解压后的 hello_ccb 文件夹放入 /tmp/ccb-mod-check/mods/
+./cataclysm-tiles --userdir /tmp/ccb-mod-check/ --check-mods hello_ccb
+```
+
+退出码 `0` 表示加载检查通过；仍需在新世界启用 MOD，确认进入世界后的实际效果。
 
 ## 版本规则
 

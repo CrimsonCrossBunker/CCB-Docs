@@ -34,7 +34,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: e43e7e2af4484e419221ff81b4eb74b9bbff52fa87bce0cdf4d762d5c7f1eede
+translation_source_fingerprint: d4ca77032fb59a245876f6d2e67bfd4c3f77cc29f08ab6f13083d5a6df85e512
 prerequisites:
 - home
 depends_on:
@@ -76,15 +76,15 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 # CCB 项目架构
 
 CCB 是数据驱动的 C++ 游戏。C++ 引擎负责对象生命周期、地图与存档、核心模拟、UI
-和加载流程；JSON 定义大量游戏内容；EOC 在 JSON 中表达条件化行为；Lua v5 为明确
-授权的 Mod 提供版本化公共接口。
+和加载流程；JSON 定义大量游戏内容；EOC 在 JSON 中表达条件化行为；Lua Platform v1
+通过 `require("ccb")` 为 MOD 提供公共接口。旧 v5 已移除，不适用于当前 Candidate。
 
 ## 层次与依赖方向
 
 1. **构建与平台层**：Make、CMake、Gradle、CI 和打包脚本决定可用工具链与产物。
 2. **原生运行时**：`src/` 拥有对象、模拟、UI、序列化和 native Lua bridge。
 3. **数据契约**：`data/json/`、`data/core/` 和 `data/mods/` 由注册器、工厂和验证器加载。
-4. **脚本契约**：Lua manifest、LuaLS 声明、native 注册和生成清单必须一致。
+4. **脚本契约**：Lua Platform v1 的 ModDefinition、LuaLS 声明、native 注册和生成清单必须一致。
 5. **验证层**：`tests/` 与仓库工具验证运行时、数据、公开契约和生成边界。
 
 依赖通常从数据和脚本进入已注册的引擎接口。不要让说明文档成为新的运行时契约，
@@ -95,7 +95,7 @@ CCB 是数据驱动的 C++ 游戏。C++ 引擎负责对象生命周期、地图�
 - C++ 类型拥有运行时状态和序列化不变量。
 - JSON ID 是跨数据、存档和 Mod 的兼容边界；重命名需要迁移或 obsolete 记录。
 - EOC 的 talker、变量与 context 决定求值语义，不能只按字段名字猜测。
-- Lua 只能使用 manifest 中声明的 capability；公共符号以 v5 契约链为准。
+- Lua Platform v1 的公共符号以 `ccb_platform_v1.d.lua` 和原生注册为准；MOD 是受信任代码，不再使用旧 v5 的 capability manifest。
 - 生成文件由源契约推导，应更新生成器或源，不应直接修补输出。
 
 ## 扩展点
