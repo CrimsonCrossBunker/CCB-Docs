@@ -9411,7 +9411,7 @@ pages:
   pending_source_pr: null
   stale_reason: null
   nav:
-    section: C++ Subsystems
+    section: C++ Native Binding
     order: 10
 - id: architecture.core-engine-lifecycle
   title: 游戏引擎生命周期与主循环深度剖析

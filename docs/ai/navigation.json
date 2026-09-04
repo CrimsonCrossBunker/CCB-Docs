@@ -838,7 +838,7 @@
     {
       "id": "cpp.native-binding-guide",
       "title": "C++ Native Binding Guide",
-      "section": "C++ Subsystems",
+      "section": "C++ Native Binding",
       "order": 10,
       "path": "cpp/native-binding-guide.md"
     },
