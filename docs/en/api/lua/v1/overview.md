@@ -34,7 +34,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: cc17c0218d706cbd06b0da238f53513a48ddf48ddc53c4b9b83cd43af2341874
+translation_source_fingerprint: 6da945e4adc641f874db7ad6a848bba8c6f7b2b818d88efb0301a829a3039da4
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -124,15 +124,31 @@ MOD and completed its data-load check. You can also install catalog MODs directl
 
 ## Where the API is documented
 
-- [Complete LuaLS declarations](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/types/ccb_platform_v1.d.lua): functions, parameters, returns, and types;
-- [Machine-readable API contract](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/reference/ccb_platform_api_v1.json): generator input and change checks;
-- [Platform design and lifecycle](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/LUA_FIRST_PLATFORM.md): loading, isolation, state, and safety boundaries;
-- [Complete example MOD](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/tree/master/data/mods/Lua_First_Example): a runnable example split by game domain;
+- [Complete LuaLS declarations](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/0.Ag-Candidate-2026-09-05-0219/data/lua/types/ccb_platform_v1.d.lua): functions, parameters, returns, and types;
+- [Machine-readable API contract](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/0.Ag-Candidate-2026-09-05-0219/data/lua/reference/ccb_platform_api_v1.json): generator input and change checks;
+- [Platform design and lifecycle](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/0.Ag-Candidate-2026-09-05-0219/data/lua/LUA_FIRST_PLATFORM.md): loading, isolation, state, and safety boundaries;
+- [Complete example MOD](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/tree/0.Ag-Candidate-2026-09-05-0219/data/mods/Lua_First_Example): a runnable example split by game domain;
 - [CCB-MOD](https://github.com/CrimsonCrossBunker/CCB-MOD): registration, maintenance, and publishing for external MODs.
 
 When using LuaLS, add `ccb_platform_v1.d.lua` to the workspace library to enable completion. If the
 documentation disagrees with runtime behaviour, treat declarations, native registrations, and tests
 in the CCB repository as authoritative and report the problem there.
+
+## Recommended first-version baseline
+
+Use [0.Ag-Candidate-2026-09-05-0219](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/releases/tag/0.Ag-Candidate-2026-09-05-0219) with Lua API `1`.
+Select that exact tag in Catapult's **Experimental / Candidate** list. It is not yet Stable.
+The declarations and examples below are pinned to this Candidate rather than moving master.
+
+Create the user directory's `config/` before running a command-line check:
+
+```sh
+mkdir -p /tmp/ccb-mod-check/config /tmp/ccb-mod-check/mods
+# Place the extracted hello_ccb folder in /tmp/ccb-mod-check/mods/
+./cataclysm-tiles --userdir /tmp/ccb-mod-check/ --check-mods hello_ccb
+```
+
+Exit code `0` confirms data loading. Also enable the MOD in a new world and check its runtime effect.
 
 ## Version rules
 

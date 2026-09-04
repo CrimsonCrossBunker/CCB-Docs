@@ -1030,15 +1030,31 @@ MOD and completed its data-load check. You can also install catalog MODs directl
 
 ## Where the API is documented
 
-- [Complete LuaLS declarations](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/types/ccb_platform_v1.d.lua): functions, parameters, returns, and types;
-- [Machine-readable API contract](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/reference/ccb_platform_api_v1.json): generator input and change checks;
-- [Platform design and lifecycle](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/LUA_FIRST_PLATFORM.md): loading, isolation, state, and safety boundaries;
-- [Complete example MOD](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/tree/master/data/mods/Lua_First_Example): a runnable example split by game domain;
+- [Complete LuaLS declarations](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/0.Ag-Candidate-2026-09-05-0219/data/lua/types/ccb_platform_v1.d.lua): functions, parameters, returns, and types;
+- [Machine-readable API contract](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/0.Ag-Candidate-2026-09-05-0219/data/lua/reference/ccb_platform_api_v1.json): generator input and change checks;
+- [Platform design and lifecycle](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/0.Ag-Candidate-2026-09-05-0219/data/lua/LUA_FIRST_PLATFORM.md): loading, isolation, state, and safety boundaries;
+- [Complete example MOD](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/tree/0.Ag-Candidate-2026-09-05-0219/data/mods/Lua_First_Example): a runnable example split by game domain;
 - [CCB-MOD](https://github.com/CrimsonCrossBunker/CCB-MOD): registration, maintenance, and publishing for external MODs.
 
 When using LuaLS, add `ccb_platform_v1.d.lua` to the workspace library to enable completion. If the
 documentation disagrees with runtime behaviour, treat declarations, native registrations, and tests
 in the CCB repository as authoritative and report the problem there.
+
+## Recommended first-version baseline
+
+Use [0.Ag-Candidate-2026-09-05-0219](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/releases/tag/0.Ag-Candidate-2026-09-05-0219) with Lua API `1`.
+Select that exact tag in Catapult's **Experimental / Candidate** list. It is not yet Stable.
+The declarations and examples below are pinned to this Candidate rather than moving master.
+
+Create the user directory's `config/` before running a command-line check:
+
+```sh
+mkdir -p /tmp/ccb-mod-check/config /tmp/ccb-mod-check/mods
+# Place the extracted hello_ccb folder in /tmp/ccb-mod-check/mods/
+./cataclysm-tiles --userdir /tmp/ccb-mod-check/ --check-mods hello_ccb
+```
+
+Exit code `0` confirms data loading. Also enable the MOD in a new world and check its runtime effect.
 
 ## Version rules
 
@@ -1109,15 +1125,31 @@ cataclysm-tiles --userdir /你的/CCB用户目录/ --check-mods my_first_mod
 
 ## API 在哪里
 
-- [LuaLS 完整声明](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/types/ccb_platform_v1.d.lua)：函数、参数、返回值和类型说明；
-- [机器可读 API 契约](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/reference/ccb_platform_api_v1.json)：可用于生成工具和检查变更；
-- [平台设计与生命周期](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/LUA_FIRST_PLATFORM.md)：加载、隔离、状态和安全边界；
-- [完整示例 MOD](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/tree/master/data/mods/Lua_First_Example)：按领域拆分的可运行示例；
+- [LuaLS 完整声明](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/0.Ag-Candidate-2026-09-05-0219/data/lua/types/ccb_platform_v1.d.lua)：函数、参数、返回值和类型说明；
+- [机器可读 API 契约](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/0.Ag-Candidate-2026-09-05-0219/data/lua/reference/ccb_platform_api_v1.json)：可用于生成工具和检查变更；
+- [平台设计与生命周期](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/0.Ag-Candidate-2026-09-05-0219/data/lua/LUA_FIRST_PLATFORM.md)：加载、隔离、状态和安全边界；
+- [完整示例 MOD](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/tree/0.Ag-Candidate-2026-09-05-0219/data/mods/Lua_First_Example)：按领域拆分的可运行示例；
 - [CCB-MOD](https://github.com/CrimsonCrossBunker/CCB-MOD)：登记、维护和发布外部 MOD。
 
 编辑器使用 LuaLS 时，把 `ccb_platform_v1.d.lua` 加入工作区库即可获得补全。遇到 API
 缺失或文档与运行结果不一致时，以 CCB 主仓库的声明、原生注册和测试为准，并在 CCB
 主仓库报告问题。
+
+## 第一版推荐版本
+
+当前适配基线为 [0.Ag-Candidate-2026-09-05-0219](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/releases/tag/0.Ag-Candidate-2026-09-05-0219)，Lua API 为 `1`。
+在 Catapult 的“实验版 / 候选版”列表选择该完整版本号；它尚不是 Stable。
+下面的声明和示例链接固定到这个 Candidate，不随 master 的后续开发变动。
+
+命令行验证时先创建用户目录中的 `config/`，再运行：
+
+```sh
+mkdir -p /tmp/ccb-mod-check/config /tmp/ccb-mod-check/mods
+# 将解压后的 hello_ccb 文件夹放入 /tmp/ccb-mod-check/mods/
+./cataclysm-tiles --userdir /tmp/ccb-mod-check/ --check-mods hello_ccb
+```
+
+退出码 `0` 表示加载检查通过；仍需在新世界启用 MOD，确认进入世界后的实际效果。
 
 ## 版本规则
 
@@ -92089,14 +92121,14 @@ Sources: AGENTS.md, ai/project-map.yml, src/AGENTS.md, data/AGENTS.md, tests/AGE
 
 # CCB project architecture
 
-CCB is a data-driven C++ game. The native engine owns object lifetimes, map and save handling, core simulation, UI, and loading. JSON defines much of the game content; EOC expresses conditional behaviour in JSON; Lua v5 exposes a versioned, capability-gated public interface to mods.
+CCB is a data-driven C++ game. The native engine owns object lifetimes, map and save handling, core simulation, UI, and loading. JSON defines much of the game content; EOC expresses conditional behaviour in JSON; Lua Platform v1 exposes the public MOD interface through `require("ccb")`. The former v5 runtime has been removed and does not apply to the current Candidate.
 
 ## Layers and dependency direction
 
 1. **Build and platform layer**: Make, CMake, Gradle, CI, and packaging scripts define toolchains and artifacts.
 2. **Native runtime**: `src/` owns objects, simulation, UI, serialization, and the native Lua bridge.
 3. **Data contracts**: `data/json/`, `data/core/`, and `data/mods/` are consumed by registrations, factories, and validators.
-4. **Scripting contract**: the Lua manifest, LuaLS declarations, native registration, and generated inventories must agree.
+4. **Scripting contract**: Lua Platform v1 ModDefinition, LuaLS declarations, native registration, and generated inventories must agree.
 5. **Validation layer**: `tests/` and repository tools validate behaviour, data, public contracts, and generated boundaries.
 
 Data and scripts normally enter through registered engine interfaces. Explanatory documentation is not a new runtime contract, and source semantics must not be changed merely to match stale prose.
@@ -92106,7 +92138,7 @@ Data and scripts normally enter through registered engine interfaces. Explanator
 - C++ types own runtime state and serialization invariants.
 - JSON IDs are compatibility boundaries across data, saves, and mods; a rename needs migration or obsoletion data.
 - EOC talkers, variables, and context determine evaluation semantics; field names alone are insufficient.
-- Lua may use only capabilities declared by its manifest; public symbols come from the v5 contract chain.
+- Lua Platform v1 public symbols come from `ccb_platform_v1.d.lua` and native registration. MODs are trusted code and no longer use the v5 capability manifest.
 - Generated files are derived from source contracts. Fix the generator or source rather than patching output.
 
 ## Extension points
@@ -92124,15 +92156,15 @@ Sources: AGENTS.md, ai/project-map.yml, src/AGENTS.md, data/AGENTS.md, tests/AGE
 # CCB 项目架构
 
 CCB 是数据驱动的 C++ 游戏。C++ 引擎负责对象生命周期、地图与存档、核心模拟、UI
-和加载流程；JSON 定义大量游戏内容；EOC 在 JSON 中表达条件化行为；Lua v5 为明确
-授权的 Mod 提供版本化公共接口。
+和加载流程；JSON 定义大量游戏内容；EOC 在 JSON 中表达条件化行为；Lua Platform v1
+通过 `require("ccb")` 为 MOD 提供公共接口。旧 v5 已移除，不适用于当前 Candidate。
 
 ## 层次与依赖方向
 
 1. **构建与平台层**：Make、CMake、Gradle、CI 和打包脚本决定可用工具链与产物。
 2. **原生运行时**：`src/` 拥有对象、模拟、UI、序列化和 native Lua bridge。
 3. **数据契约**：`data/json/`、`data/core/` 和 `data/mods/` 由注册器、工厂和验证器加载。
-4. **脚本契约**：Lua manifest、LuaLS 声明、native 注册和生成清单必须一致。
+4. **脚本契约**：Lua Platform v1 的 ModDefinition、LuaLS 声明、native 注册和生成清单必须一致。
 5. **验证层**：`tests/` 与仓库工具验证运行时、数据、公开契约和生成边界。
 
 依赖通常从数据和脚本进入已注册的引擎接口。不要让说明文档成为新的运行时契约，
@@ -92143,7 +92175,7 @@ CCB 是数据驱动的 C++ 游戏。C++ 引擎负责对象生命周期、地图�
 - C++ 类型拥有运行时状态和序列化不变量。
 - JSON ID 是跨数据、存档和 Mod 的兼容边界；重命名需要迁移或 obsolete 记录。
 - EOC 的 talker、变量与 context 决定求值语义，不能只按字段名字猜测。
-- Lua 只能使用 manifest 中声明的 capability；公共符号以 v5 契约链为准。
+- Lua Platform v1 的公共符号以 `ccb_platform_v1.d.lua` 和原生注册为准；MOD 是受信任代码，不再使用旧 v5 的 capability manifest。
 - 生成文件由源契约推导，应更新生成器或源，不应直接修补输出。
 
 ## 扩展点

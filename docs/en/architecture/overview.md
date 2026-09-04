@@ -34,7 +34,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: e43e7e2af4484e419221ff81b4eb74b9bbff52fa87bce0cdf4d762d5c7f1eede
+translation_source_fingerprint: d4ca77032fb59a245876f6d2e67bfd4c3f77cc29f08ab6f13083d5a6df85e512
 prerequisites:
 - home
 depends_on:
@@ -75,14 +75,14 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 # CCB project architecture
 
-CCB is a data-driven C++ game. The native engine owns object lifetimes, map and save handling, core simulation, UI, and loading. JSON defines much of the game content; EOC expresses conditional behaviour in JSON; Lua v5 exposes a versioned, capability-gated public interface to mods.
+CCB is a data-driven C++ game. The native engine owns object lifetimes, map and save handling, core simulation, UI, and loading. JSON defines much of the game content; EOC expresses conditional behaviour in JSON; Lua Platform v1 exposes the public MOD interface through `require("ccb")`. The former v5 runtime has been removed and does not apply to the current Candidate.
 
 ## Layers and dependency direction
 
 1. **Build and platform layer**: Make, CMake, Gradle, CI, and packaging scripts define toolchains and artifacts.
 2. **Native runtime**: `src/` owns objects, simulation, UI, serialization, and the native Lua bridge.
 3. **Data contracts**: `data/json/`, `data/core/`, and `data/mods/` are consumed by registrations, factories, and validators.
-4. **Scripting contract**: the Lua manifest, LuaLS declarations, native registration, and generated inventories must agree.
+4. **Scripting contract**: Lua Platform v1 ModDefinition, LuaLS declarations, native registration, and generated inventories must agree.
 5. **Validation layer**: `tests/` and repository tools validate behaviour, data, public contracts, and generated boundaries.
 
 Data and scripts normally enter through registered engine interfaces. Explanatory documentation is not a new runtime contract, and source semantics must not be changed merely to match stale prose.
@@ -92,7 +92,7 @@ Data and scripts normally enter through registered engine interfaces. Explanator
 - C++ types own runtime state and serialization invariants.
 - JSON IDs are compatibility boundaries across data, saves, and mods; a rename needs migration or obsoletion data.
 - EOC talkers, variables, and context determine evaluation semantics; field names alone are insufficient.
-- Lua may use only capabilities declared by its manifest; public symbols come from the v5 contract chain.
+- Lua Platform v1 public symbols come from `ccb_platform_v1.d.lua` and native registration. MODs are trusted code and no longer use the v5 capability manifest.
 - Generated files are derived from source contracts. Fix the generator or source rather than patching output.
 
 ## Extension points

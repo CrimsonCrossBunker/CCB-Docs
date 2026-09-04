@@ -432,7 +432,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "cc17c0218d706cbd06b0da238f53513a48ddf48ddc53c4b9b83cd43af2341874",
+      "translation_source_fingerprint": "6da945e4adc641f874db7ad6a848bba8c6f7b2b818d88efb0301a829a3039da4",
       "prerequisites": [],
       "depends_on": [],
       "redirect_from": [],
@@ -492,7 +492,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "cc17c0218d706cbd06b0da238f53513a48ddf48ddc53c4b9b83cd43af2341874",
+      "translation_source_fingerprint": "6da945e4adc641f874db7ad6a848bba8c6f7b2b818d88efb0301a829a3039da4",
       "prerequisites": [],
       "depends_on": [],
       "redirect_from": [],
@@ -3909,7 +3909,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "e43e7e2af4484e419221ff81b4eb74b9bbff52fa87bce0cdf4d762d5c7f1eede",
+      "translation_source_fingerprint": "d4ca77032fb59a245876f6d2e67bfd4c3f77cc29f08ab6f13083d5a6df85e512",
       "prerequisites": [
         "home"
       ],
@@ -3972,7 +3972,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "e43e7e2af4484e419221ff81b4eb74b9bbff52fa87bce0cdf4d762d5c7f1eede",
+      "translation_source_fingerprint": "d4ca77032fb59a245876f6d2e67bfd4c3f77cc29f08ab6f13083d5a6df85e512",
       "prerequisites": [
         "home"
       ],
