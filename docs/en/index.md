@@ -34,7 +34,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: c029e08e0748ea803758654a8ace577e544623452fbbd0ccf8f5ec0b5511fc61
+translation_source_fingerprint: 9b7a15d02359cbafb53035ecd09d311a33440c72da3b3a8d2c594fcb632af0fd
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -76,8 +76,7 @@ This site is dedicated to two primary developer groups: **Mod Authors** and **Co
 ## Quick Navigation & Manual Directory
 
 ### 🚀 1. Getting Started & Mental Models
-- [CCB Lua 0.1 Platform Overview](api/lua/v5/overview.md): Learn zero-config Mod discovery, native transactional commits, and generation-safe handles.
-- [Complete Example Mod](api/lua/v5/example-mod.md): Walk through a working Mod with modules, state, and custom actions.
+- [Lua Platform v1: zero to running](api/lua/v1/overview.md): the only supported Lua MOD entry point and a minimal example.
 - [First Contribution Guide](getting-started/first-contribution.md): The fastest path from local environment to your first Pull Request.
 
 ### ⚔️ 2. Core Subsystems Manual
@@ -88,33 +87,19 @@ This site is dedicated to two primary developer groups: **Mod Authors** and **Co
 - [Finite Water & Environment Manual](subsystems/water.md): Mass-conserving fluid simulation, storm radar forecasting, and field diffusion.
 - [Vehicles & Parts Manual](subsystems/vehicles.md): Rigid-body center-of-mass physics, powertrain torque, and modular part mount slots.
 
-### 🌙 3. CCB Lua 0.1 Platform Reference
-- [Native Events & Hook Interception](api/lua/v5/events.md): Subscribe to native engine events, intercept and override decisions synchronously.
-- [Portable Responsive Lua UI](api/lua/v5/ui.md): Build responsive windows tailored for PC keyboard and Android touch HUD.
-- [Permission Manifest & Capabilities](api/lua/v5/capabilities.md): Understand the capability declaration system and memory sandbox boundaries.
+### 🌙 3. CCB Lua Platform v1
+- [Quickstart and version rules](api/lua/v1/overview.md): create, install, and check your first Lua MOD.
+- [Complete LuaLS declarations](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/types/ccb_platform_v1.d.lua): detailed functions, parameters, returns, and types.
+- [Machine-readable API contract](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/reference/ccb_platform_api_v1.json): generator input and API change checks.
+- [Complete example MOD](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/tree/master/data/mods/Lua_First_Example): real code organized by game domain.
+- [CCB-MOD catalog](https://crimsoncrossbunker.github.io/CCB-MOD/): find, install, or register external MODs.
 
-### 🍳 4. Pure-Lua Creation Cookbooks
-- [Pure-Lua Items and Pockets Cookbook](api/lua/v5/cookbook/items.md): High-frequency tactical blades, ballistic chest rigs, and nested pouches.
-- [Pure-Lua Monsters and AI Cookbook](api/lua/v5/cookbook/monsters.md): Stealth stalkers, aura bosses, and dynamic special attacks.
-- [Pure-Lua Mapgen & Structures Cookbook](api/lua/v5/cookbook/mapgen.md): Procedurally generate outpost bunkers and ASCII matrix blueprints.
-
-### ⚙️ 5. C++ Engine Core & Native Bindings
+### ⚙️ 4. C++ Engine Core & Native Bindings
 - [Core Engine Lifecycle & Main Loop Deep-Dive](architecture/core-engine-lifecycle.md): Complete control flow from bootstrap, content loading to `process_turn` loop.
 - [Engine Subsystems Deep Dive](architecture/subsystems-deep-dive.md): Entities, sliding map cache, item pocket trees, finite water, and physics.
 - [Core Development & Contribution Guide](contributing/core-dev-guide.md): Linux/Windows/Android setup, C++20 standards, Catch2 tests, and PR practices.
 - [C++ Native Binding & Lua Export Guide](cpp/native-binding-guide.md): Sol2 bindings, LuaLS annotations, and 100% coverage gates.
 - [Build & Compilation Overview](build/overview.md): Learn CMake and Make modern build workflows and multi-platform support.
 
-### 📚 6. Full API Dictionary
-| Category | Quick Entry | Description |
-| --- | --- | --- |
-| 📦 **Classes & Handles** | [View Classes](api/lua/v5/reference/classes.md) | `Character`, `Creature`, `Item`, `Map`, `Mapgen`, `Vehicle`, etc. |
-| ⚡ **Native Events** | [View 113 Events](api/lua/v5/reference/events.md) | Turn turns, movements, damage, spell casts, gear equips, etc. |
-| 🪝 **Native Hooks** | [View 52 Hooks](api/lua/v5/reference/hooks.md) | Intercept and override game decisions synchronously. |
-| 🔧 **Global Functions** | [View Functions](api/lua/v5/reference/functions.md) | All utility functions and static methods exposed by the engine. |
-| 🎮 **Namespaces** | [View Namespaces](api/lua/v5/reference/namespaces.md) | `game.*`, `map.*`, `player.*`, `ui.*`, and other top-level tables. |
-| 🎭 **Callback Actors** | [View Callbacks](api/lua/v5/reference/callbacks.md) | Player actions, IUSE callbacks, and activity execution targets. |
-| 🏷️ **Enums & Constants** | [View Enums](api/lua/v5/reference/enums.md) | Damage types, body parts, weather types, terrain flags, etc. |
-
-### 🏛️ 7. Project Governance & Policies
+### 🏛️ 5. Project Governance & Policies
 - [Responsible Human](contributing/responsible-human.md): Understand our accountability model for human and AI-assisted contributions.

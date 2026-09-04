@@ -78,6 +78,28 @@
     }
   };
 
+  const warnLegacyLuaPages = () => {
+    if (!window.location.pathname.includes("/api/lua/v5/")) {
+      return;
+    }
+    const article = document.querySelector("article.md-content__inner");
+    if (!(article instanceof HTMLElement) || article.querySelector("[data-ccb-lua-v5-warning]")) {
+      return;
+    }
+    const english = window.location.pathname.includes("/CCB-Docs/en/");
+    const warning = document.createElement("div");
+    warning.className = "ccb-page-banner ccb-page-banner--archived";
+    warning.dataset.ccbLuaV5Warning = "";
+    const replacement = english
+      ? "/CCB-Docs/en/api/lua/v1/overview/"
+      : "/CCB-Docs/api/lua/v1/overview/";
+    warning.innerHTML = english
+      ? `<strong>Removed API:</strong> Lua API v5 is historical and no longer runs in CCB. Use <a href="${replacement}">Lua Platform v1</a>.`
+      : `<strong>已移除的 API：</strong>Lua API v5 仅作历史保留，当前 CCB 已无法运行。请使用 <a href="${replacement}">Lua Platform v1</a>。`;
+    article.prepend(warning);
+  };
+
   activateKeyboardShortcuts();
   lookupMigration();
+  warnLegacyLuaPages();
 })();

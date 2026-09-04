@@ -969,6 +969,164 @@ end)
 ```
 进入游戏后，在调试菜单中选择 `Debug Menu -> Spawn Monster`，输入 `ccb_mutant_stalker` 即可直接召唤该生物进行战斗测试！
 
+## api.lua.platform-v1.overview [en] — Lua Platform v1: zero to running
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v1/overview/
+Verified commit: 73432156f423ed3ef3301e6632c94c03c017d115
+Sources: data/lua/README.md, data/lua/LUA_FIRST_PLATFORM.md, data/lua/types/ccb_platform_v1.d.lua, tools/create_lua_mod.py
+
+# Lua Platform v1: zero to running
+
+CCB currently supports **Lua Platform v1 only**. The old Lua API v5, global `game.*` table,
+capability manifest, and JSON Manifest have been removed. Do not use the old pages for new MODs.
+
+## Minimal MOD
+
+Create a directory containing only `main.lua`:
+
+```lua
+local ccb = require("ccb")
+
+ccb.runtime.handler("welcome", function()
+    ccb.services.message("My first CCB Lua MOD is running")
+end, 1)
+
+ccb.runtime.on("world_ready", "welcome")
+```
+
+An optional `mod.lua` declares the name, version, and dependencies:
+
+```lua
+local ccb = require("ccb")
+
+return ccb.ModDefinition {
+    id = "my_first_mod",
+    name = "My First MOD",
+    version = "0.1.0",
+    dependencies = { "dda" },
+}
+```
+
+The resulting directory is:
+
+```text
+my_first_mod/
+├── main.lua
+└── mod.lua        # optional
+```
+
+You do not need `modinfo.json`, `manifest.json`, or a `lua/` subdirectory.
+
+## Install and check
+
+Place the directory under `mods/` in the CCB user directory, then run:
+
+```sh
+cataclysm-tiles --userdir /path/to/your/CCB-user-directory/ --check-mods my_first_mod
+```
+
+If you see `Checking mod My First MOD [my_first_mod]` and the process exits normally, CCB found the
+MOD and completed its data-load check. You can also install catalog MODs directly with Catapult.
+
+## Where the API is documented
+
+- [Complete LuaLS declarations](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/types/ccb_platform_v1.d.lua): functions, parameters, returns, and types;
+- [Machine-readable API contract](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/reference/ccb_platform_api_v1.json): generator input and change checks;
+- [Platform design and lifecycle](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/LUA_FIRST_PLATFORM.md): loading, isolation, state, and safety boundaries;
+- [Complete example MOD](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/tree/master/data/mods/Lua_First_Example): a runnable example split by game domain;
+- [CCB-MOD](https://github.com/CrimsonCrossBunker/CCB-MOD): registration, maintenance, and publishing for external MODs.
+
+When using LuaLS, add `ccb_platform_v1.d.lua` to the workspace library to enable completion. If the
+documentation disagrees with runtime behaviour, treat declarations, native registrations, and tests
+in the CCB repository as authoritative and report the problem there.
+
+## Version rules
+
+- A MOD declares the integer Lua API version it requires; the current version is `1`;
+- public MOD-facing APIs freeze when a CCB RC is published;
+- existing public APIs are not removed or renamed during a Stable cycle;
+- unavoidable compatibility breaks require Platform v2;
+- new APIs on `Experimental` are not a Stable promise.
+
+## api.lua.platform-v1.overview [zh_CN] — Lua Platform v1：从零到运行
+
+Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v1/overview/
+Verified commit: 73432156f423ed3ef3301e6632c94c03c017d115
+Sources: data/lua/README.md, data/lua/LUA_FIRST_PLATFORM.md, data/lua/types/ccb_platform_v1.d.lua, tools/create_lua_mod.py
+
+# Lua Platform v1：从零到运行
+
+CCB 当前只支持 **Lua Platform v1**。旧的 Lua API v5、`game.*` 全局表、权限清单和
+JSON Manifest 已经移除，不要照旧页面编写新 MOD。
+
+## 最小 MOD
+
+新建一个目录，只放 `main.lua`：
+
+```lua
+local ccb = require("ccb")
+
+ccb.runtime.handler("welcome", function()
+    ccb.services.message("我的第一个 CCB Lua MOD 已运行")
+end, 1)
+
+ccb.runtime.on("world_ready", "welcome")
+```
+
+可选的 `mod.lua` 用来声明名称、版本和依赖：
+
+```lua
+local ccb = require("ccb")
+
+return ccb.ModDefinition {
+    id = "my_first_mod",
+    name = "My First MOD",
+    version = "0.1.0",
+    dependencies = { "dda" },
+}
+```
+
+最终目录如下：
+
+```text
+my_first_mod/
+├── main.lua
+└── mod.lua        # 可选
+```
+
+不需要 `modinfo.json`、`manifest.json` 或 `lua/` 子目录。
+
+## 安装和检查
+
+把目录放到 CCB 用户目录的 `mods/` 下，然后运行：
+
+```sh
+cataclysm-tiles --userdir /你的/CCB用户目录/ --check-mods my_first_mod
+```
+
+看到 `Checking mod My First MOD [my_first_mod]` 且程序正常退出，表示 MOD 已被发现并通过
+数据加载检查。也可以使用 Catapult 从 CCB MOD 目录直接安装。
+
+## API 在哪里
+
+- [LuaLS 完整声明](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/types/ccb_platform_v1.d.lua)：函数、参数、返回值和类型说明；
+- [机器可读 API 契约](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/reference/ccb_platform_api_v1.json)：可用于生成工具和检查变更；
+- [平台设计与生命周期](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/LUA_FIRST_PLATFORM.md)：加载、隔离、状态和安全边界；
+- [完整示例 MOD](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/tree/master/data/mods/Lua_First_Example)：按领域拆分的可运行示例；
+- [CCB-MOD](https://github.com/CrimsonCrossBunker/CCB-MOD)：登记、维护和发布外部 MOD。
+
+编辑器使用 LuaLS 时，把 `ccb_platform_v1.d.lua` 加入工作区库即可获得补全。遇到 API
+缺失或文档与运行结果不一致时，以 CCB 主仓库的声明、原生注册和测试为准，并在 CCB
+主仓库报告问题。
+
+## 版本规则
+
+- MOD 写明所需的 Lua API 整数版本，当前为 `1`；
+- CCB RC 发布后冻结会影响 MOD 的公共 API；
+- Stable 周期内不删除或改名现有公共 API；
+- 必须破坏兼容时才提升为 Platform v2；
+- `Experimental` 上的新接口不能视为 Stable 承诺。
+
 ## api.lua.v5.capabilities [en] — Declaring capabilities
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/
@@ -97203,8 +97361,7 @@ This site is dedicated to two primary developer groups: **Mod Authors** and **Co
 ## Quick Navigation & Manual Directory
 
 ### 🚀 1. Getting Started & Mental Models
-- [CCB Lua 0.1 Platform Overview](api/lua/v5/overview.md): Learn zero-config Mod discovery, native transactional commits, and generation-safe handles.
-- [Complete Example Mod](api/lua/v5/example-mod.md): Walk through a working Mod with modules, state, and custom actions.
+- [Lua Platform v1: zero to running](api/lua/v1/overview.md): the only supported Lua MOD entry point and a minimal example.
 - [First Contribution Guide](getting-started/first-contribution.md): The fastest path from local environment to your first Pull Request.
 
 ### ⚔️ 2. Core Subsystems Manual
@@ -97215,35 +97372,21 @@ This site is dedicated to two primary developer groups: **Mod Authors** and **Co
 - [Finite Water & Environment Manual](subsystems/water.md): Mass-conserving fluid simulation, storm radar forecasting, and field diffusion.
 - [Vehicles & Parts Manual](subsystems/vehicles.md): Rigid-body center-of-mass physics, powertrain torque, and modular part mount slots.
 
-### 🌙 3. CCB Lua 0.1 Platform Reference
-- [Native Events & Hook Interception](api/lua/v5/events.md): Subscribe to native engine events, intercept and override decisions synchronously.
-- [Portable Responsive Lua UI](api/lua/v5/ui.md): Build responsive windows tailored for PC keyboard and Android touch HUD.
-- [Permission Manifest & Capabilities](api/lua/v5/capabilities.md): Understand the capability declaration system and memory sandbox boundaries.
+### 🌙 3. CCB Lua Platform v1
+- [Quickstart and version rules](api/lua/v1/overview.md): create, install, and check your first Lua MOD.
+- [Complete LuaLS declarations](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/types/ccb_platform_v1.d.lua): detailed functions, parameters, returns, and types.
+- [Machine-readable API contract](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/reference/ccb_platform_api_v1.json): generator input and API change checks.
+- [Complete example MOD](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/tree/master/data/mods/Lua_First_Example): real code organized by game domain.
+- [CCB-MOD catalog](https://crimsoncrossbunker.github.io/CCB-MOD/): find, install, or register external MODs.
 
-### 🍳 4. Pure-Lua Creation Cookbooks
-- [Pure-Lua Items and Pockets Cookbook](api/lua/v5/cookbook/items.md): High-frequency tactical blades, ballistic chest rigs, and nested pouches.
-- [Pure-Lua Monsters and AI Cookbook](api/lua/v5/cookbook/monsters.md): Stealth stalkers, aura bosses, and dynamic special attacks.
-- [Pure-Lua Mapgen & Structures Cookbook](api/lua/v5/cookbook/mapgen.md): Procedurally generate outpost bunkers and ASCII matrix blueprints.
-
-### ⚙️ 5. C++ Engine Core & Native Bindings
+### ⚙️ 4. C++ Engine Core & Native Bindings
 - [Core Engine Lifecycle & Main Loop Deep-Dive](architecture/core-engine-lifecycle.md): Complete control flow from bootstrap, content loading to `process_turn` loop.
 - [Engine Subsystems Deep Dive](architecture/subsystems-deep-dive.md): Entities, sliding map cache, item pocket trees, finite water, and physics.
 - [Core Development & Contribution Guide](contributing/core-dev-guide.md): Linux/Windows/Android setup, C++20 standards, Catch2 tests, and PR practices.
 - [C++ Native Binding & Lua Export Guide](cpp/native-binding-guide.md): Sol2 bindings, LuaLS annotations, and 100% coverage gates.
 - [Build & Compilation Overview](build/overview.md): Learn CMake and Make modern build workflows and multi-platform support.
 
-### 📚 6. Full API Dictionary
-| Category | Quick Entry | Description |
-| --- | --- | --- |
-| 📦 **Classes & Handles** | [View Classes](api/lua/v5/reference/classes.md) | `Character`, `Creature`, `Item`, `Map`, `Mapgen`, `Vehicle`, etc. |
-| ⚡ **Native Events** | [View 113 Events](api/lua/v5/reference/events.md) | Turn turns, movements, damage, spell casts, gear equips, etc. |
-| 🪝 **Native Hooks** | [View 52 Hooks](api/lua/v5/reference/hooks.md) | Intercept and override game decisions synchronously. |
-| 🔧 **Global Functions** | [View Functions](api/lua/v5/reference/functions.md) | All utility functions and static methods exposed by the engine. |
-| 🎮 **Namespaces** | [View Namespaces](api/lua/v5/reference/namespaces.md) | `game.*`, `map.*`, `player.*`, `ui.*`, and other top-level tables. |
-| 🎭 **Callback Actors** | [View Callbacks](api/lua/v5/reference/callbacks.md) | Player actions, IUSE callbacks, and activity execution targets. |
-| 🏷️ **Enums & Constants** | [View Enums](api/lua/v5/reference/enums.md) | Damage types, body parts, weather types, terrain flags, etc. |
-
-### 🏛️ 7. Project Governance & Policies
+### 🏛️ 5. Project Governance & Policies
 - [Responsible Human](contributing/responsible-human.md): Understand our accountability model for human and AI-assisted contributions.
 
 ## home [zh_CN] — CCB 开发文档
@@ -97263,8 +97406,7 @@ Sources: AGENTS.md, GOVERNANCE.md
 ## 快速导航与技术手册目录
 
 ### 🚀 1. 起步与心智模型 (Getting Started)
-- [CCB Lua 0.1 原生平台总览](api/lua/v5/overview.md)：理解零配置 Mod 发现、原生事务提交与代际安全句柄。
-- [完整示例 Mod 剖析](api/lua/v5/example-mod.md)：快速上手一个包含模块、状态与事件的完整 Mod。
+- [Lua Platform v1：从零到运行](api/lua/v1/overview.md)：当前唯一受支持的 Lua MOD 入口和最小示例。
 - [第一次代码贡献指南](getting-started/first-contribution.md)：完成从本地环境搭建到 PR 提交的最短路线。
 
 ### ⚔️ 2. 游戏核心子系统手册 (Core Subsystems Manual)
@@ -97275,35 +97417,21 @@ Sources: AGENTS.md, GOVERNANCE.md
 - [有限水体与环境物理系统手册](subsystems/water.md)：有限水体流体动力学、雷暴气象预报与物理场扩散。
 - [车辆动力学与模块化部件手册](subsystems/vehicles.md)：刚体质心动力学、发动机传动比与模块化装甲槽位。
 
-### 🌙 3. CCB Lua 0.1 平台参考 (Lua Platform Reference)
-- [原生事件与 Hook 拦截](api/lua/v5/events.md)：订阅游戏原生事件，同步拦截并覆写游戏决策逻辑。
-- [跨平台响应式 Lua UI](api/lua/v5/ui.md)：为 PC 键盘操作和 Android 原生触屏设计自适应窗口。
-- [权限声明与 Capability 沙箱](api/lua/v5/capabilities.md)：理解 Capability 权限清单与内存安全边界。
+### 🌙 3. CCB Lua Platform v1
+- [快速上手与版本规则](api/lua/v1/overview.md)：创建、安装并检查第一个 Lua MOD。
+- [LuaLS 完整声明](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/types/ccb_platform_v1.d.lua)：详细函数、参数、返回值和类型。
+- [机器可读 API 契约](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/master/data/lua/reference/ccb_platform_api_v1.json)：工具生成与接口变更检查。
+- [完整示例 MOD](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/tree/master/data/mods/Lua_First_Example)：按领域拆分的实际代码。
+- [CCB-MOD 目录](https://crimsoncrossbunker.github.io/CCB-MOD/)：查找、安装或登记外部 MOD。
 
-### 🍳 4. 开发者实战食谱 (Cookbooks)
-- [纯 Lua 装备与容器口袋实战](api/lua/v5/cookbook/items.md)：定义高周波战术军刀、防弹胸挂与多仓嵌套背包。
-- [纯 Lua 怪物与技能 AI 实战](api/lua/v5/cookbook/monsters.md)：编写潜行掠食者、光环 Boss 与动态特殊攻击。
-- [纯 Lua 地块与建筑生成实战](api/lua/v5/cookbook/mapgen.md)：算法化生成避难所前哨站与 ASCII 字符矩阵蓝图。
-
-### ⚙️ 5. 引擎 C++ 底层与 Native 绑定 (C++ Engine Core)
+### ⚙️ 4. 引擎 C++ 底层与 Native 绑定 (C++ Engine Core)
 - [游戏引擎生命周期与主循环深度剖析](architecture/core-engine-lifecycle.md)：从引导启动、数据装载到 `process_turn` 回合循环全景图。
 - [游戏引擎核心八大子系统深度剖析](architecture/subsystems-deep-dive.md)：实体、地图缓存、物品 Pocket、有限水体与物理场全拆解。
 - [游戏本体核心开发与贡献指南](contributing/core-dev-guide.md)：Linux/Windows/Android 全平台环境、C++20 规范与 Catch2 测试。
 - [C++ 引擎底层 Native 绑定指南](cpp/native-binding-guide.md)：使用 Sol2 导出类与函数、编写 LuaLS 注解与 100% 覆盖率验证。
 - [快速构建与编译指南](build/overview.md)：掌握 CMake / Make 现代编译流程与平台支持。
 
-### 📚 6. 完整 API 字典速查 (Full API Reference)
-| API 分类 | 快速入口 | 内容说明 |
-| --- | --- | --- |
-| 📦 **核心类与对象 (Classes)** | [查阅类定义](api/lua/v5/reference/classes.md) | `Character`, `Creature`, `Item`, `Map`, `Mapgen`, `Vehicle` 等实体与句柄 |
-| ⚡ **原生事件 (Events)** | [查阅 113 个事件](api/lua/v5/reference/events.md) | 回合更替、移动、受击、技能释放、装备穿脱等全量事件订阅 |
-| 🪝 **逻辑拦截点 (Hooks)** | [查阅 52 个 Hooks](api/lua/v5/reference/hooks.md) | 同步拦截并覆写游戏原生核心决策与判定逻辑 |
-| 🔧 **引擎全局函数 (Functions)** | [查阅函数表](api/lua/v5/reference/functions.md) | 引擎导出的所有全局工具函数与静态方法 |
-| 🎮 **命名空间 (Namespaces)** | [查阅命名空间](api/lua/v5/reference/namespaces.md) | `game.*`, `map.*`, `player.*`, `ui.*` 等顶级命名空间 |
-| 🎭 **回调 Actor (Callbacks)** | [查阅回调表](api/lua/v5/reference/callbacks.md) | 玩家交互、IUSE 动作与活动执行回调 |
-| 🏷️ **枚举与常量 (Enums)** | [查阅枚举常量](api/lua/v5/reference/enums.md) | 伤害类型、部位、天气、标记等枚举定义 |
-
-### 🏛️ 7. 项目治理与贡献准则 (Governance & Policies)
+### 🏛️ 5. 项目治理与贡献准则 (Governance & Policies)
 - [Responsible Human 责任模型](contributing/responsible-human.md)：理解代码贡献与 AI 辅助开发的责任归属。
 
 ## json.inheritance-copy-from [en] — JSON inheritance and copy-from

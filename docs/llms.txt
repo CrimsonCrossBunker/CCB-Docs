@@ -9,6 +9,8 @@
 - [zh_CN] 纯 Lua 地块与建筑生成实战: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/mapgen/
 - [en] Monsters and AI Cookbook: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/monsters/
 - [zh_CN] 纯 Lua 怪物与技能 AI 实战: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/monsters/
+- [en] Lua Platform v1: zero to running: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v1/overview/
+- [zh_CN] Lua Platform v1：从零到运行: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v1/overview/
 - [en] Declaring capabilities: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/
 - [zh_CN] Capability 声明: https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/capabilities/
 - [en] Lua API changelog: https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/changelog/

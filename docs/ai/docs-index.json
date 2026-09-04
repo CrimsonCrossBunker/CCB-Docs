@@ -393,6 +393,126 @@
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/monsters/"
     },
     {
+      "id": "api.lua.platform-v1.overview",
+      "title": "Lua Platform v1: zero to running",
+      "language": "en",
+      "status": "active",
+      "doc_type": "tutorial",
+      "audiences": [
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/LUA_FIRST_PLATFORM.md",
+        "data/lua/types/ccb_platform_v1.d.lua",
+        "tools/create_lua_mod.py"
+      ],
+      "source_symbols": [
+        "Platform v1",
+        "ModDefinition"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "90d2d199e14a83b2fe78c4c1981c2c05d5e5a77045d6a64953e42c735841c183",
+      "authority": "api-contract",
+      "verified_commit": "73432156f423ed3ef3301e6632c94c03c017d115",
+      "verified_at": "2026-09-05",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "cc17c0218d706cbd06b0da238f53513a48ddf48ddc53c4b9b83cd43af2341874",
+      "prerequisites": [],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [
+        "api.lua.v5.overview"
+      ],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; source paths and Git history at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "api/lua/v1/overview.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v1/overview/"
+    },
+    {
+      "id": "api.lua.platform-v1.overview",
+      "title": "Lua Platform v1：从零到运行",
+      "language": "zh_CN",
+      "status": "active",
+      "doc_type": "tutorial",
+      "audiences": [
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB Lua API maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers",
+        "Lua API reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "data/lua/README.md",
+        "data/lua/LUA_FIRST_PLATFORM.md",
+        "data/lua/types/ccb_platform_v1.d.lua",
+        "tools/create_lua_mod.py"
+      ],
+      "source_symbols": [
+        "Platform v1",
+        "ModDefinition"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "90d2d199e14a83b2fe78c4c1981c2c05d5e5a77045d6a64953e42c735841c183",
+      "authority": "api-contract",
+      "verified_commit": "73432156f423ed3ef3301e6632c94c03c017d115",
+      "verified_at": "2026-09-05",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": true,
+      "include_in_ai_index": true,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "cc17c0218d706cbd06b0da238f53513a48ddf48ddc53c4b9b83cd43af2341874",
+      "prerequisites": [],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [
+        "api.lua.v5.overview"
+      ],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; source paths and Git history at the verified commit.",
+      "example_validation_ids": [],
+      "api_version": "1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "api/lua/v1/overview.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v1/overview/"
+    },
+    {
       "id": "api.lua.v5.capabilities",
       "title": "Declaring capabilities",
       "language": "en",
@@ -9028,7 +9148,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "c029e08e0748ea803758654a8ace577e544623452fbbd0ccf8f5ec0b5511fc61",
+      "translation_source_fingerprint": "9b7a15d02359cbafb53035ecd09d311a33440c72da3b3a8d2c594fcb632af0fd",
       "prerequisites": [],
       "depends_on": [],
       "redirect_from": [],
@@ -9088,7 +9208,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "c029e08e0748ea803758654a8ace577e544623452fbbd0ccf8f5ec0b5511fc61",
+      "translation_source_fingerprint": "9b7a15d02359cbafb53035ecd09d311a33440c72da3b3a8d2c594fcb632af0fd",
       "prerequisites": [],
       "depends_on": [],
       "redirect_from": [],
@@ -13570,6 +13690,10 @@
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/monsters/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/monsters/"
     },
+    "api.lua.platform-v1.overview": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v1/overview/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v1/overview/"
+    },
     "api.lua.v5.capabilities": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/capabilities/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/"
@@ -13989,6 +14113,7 @@
   },
   "ai_allowlist": [
     "https://crimsoncrossbunker.github.io/CCB-Docs/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v1/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/capabilities/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/changelog/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/items/",
@@ -14053,6 +14178,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/vehicles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v1/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/changelog/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/items/",
@@ -14205,6 +14331,7 @@
   ],
   "ai_index": [
     "https://crimsoncrossbunker.github.io/CCB-Docs/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v1/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/capabilities/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/changelog/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/items/",
@@ -14269,6 +14396,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/vehicles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v1/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/changelog/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/items/",
@@ -14421,6 +14549,7 @@
   ],
   "search_allowlist": [
     "https://crimsoncrossbunker.github.io/CCB-Docs/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v1/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/capabilities/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/changelog/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/items/",
@@ -14485,6 +14614,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/vehicles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v1/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/changelog/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/items/",
@@ -14646,6 +14776,13 @@
         "section": "首页",
         "order": 0,
         "path": "index.md"
+      },
+      {
+        "id": "api.lua.platform-v1.overview",
+        "title": "Lua Platform v1：从零到运行",
+        "section": "CCB Lua Platform v1",
+        "order": 1,
+        "path": "api/lua/v1/overview.md"
       },
       {
         "id": "subsystems.character",
@@ -15399,6 +15536,13 @@
         "path": "index.md"
       },
       {
+        "id": "api.lua.platform-v1.overview",
+        "title": "Lua Platform v1: zero to running",
+        "section": "CCB Lua Platform v1",
+        "order": 1,
+        "path": "api/lua/v1/overview.md"
+      },
+      {
         "id": "subsystems.character",
         "title": "Characters and Creatures Manual",
         "section": "Core Subsystems Manual",
@@ -15464,7 +15608,7 @@
       {
         "id": "cpp.native-binding-guide",
         "title": "C++ Native Binding Guide",
-        "section": "C++ Subsystems",
+        "section": "C++ Native Binding",
         "order": 10,
         "path": "cpp/native-binding-guide.md"
       },
@@ -16207,6 +16351,28 @@
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/cookbook/monsters/",
         "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/monsters/"
+      }
+    },
+    {
+      "id": "api.lua.platform-v1.overview",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v1/overview/",
+      "last_verified": "2026-09-05",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v1/overview/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v1/overview/"
+      }
+    },
+    {
+      "id": "api.lua.platform-v1.overview",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v1/overview/",
+      "last_verified": "2026-09-05",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v1/overview/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v1/overview/"
       }
     },
     {
