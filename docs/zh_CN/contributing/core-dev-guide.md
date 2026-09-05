@@ -3,7 +3,7 @@
 id: contributing.core-dev-guide
 title: 游戏本体核心开发与贡献指南
 language: zh_CN
-status: active
+status: stale
 doc_type: how-to
 audiences:
 - mod-author
@@ -33,11 +33,11 @@ verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
 verified_at: '2026-08-02'
 generated: false
 generated_by: null
-include_in_search: true
-include_in_ai_index: true
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: a6563eb431fef0176e8dad8ce9e00d2f2018f8c070517edc149ed3553fdd44cf
+translation_source_fingerprint: d58c6591843fbb5e8d642f293643d07cd045e445e312735e214c8f844bc6bc2a
 prerequisites:
 - architecture.overview
 depends_on: []
@@ -53,7 +53,7 @@ deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: Contains retired Lua API examples; Lua sections need Platform v1 source verification.
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/core-dev-guide/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/contributing/core-dev-guide/
@@ -75,7 +75,11 @@ source_urls:
 - path: tools/lua_api/README.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/tools/lua_api/README.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28contributing.core-dev-guide%29%3A+&body=Document+ID%3A+contributing.core-dev-guide%0ALanguage%3A+zh_CN%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
+
+> **Lua 内容待修订：** 本页仍含已移除的 v5 接口或旧运行时示例，不可作为当前 Lua 开发依据。请使用 [Platform v1 入门](../api/lua/v1/overview.md)。
 
 # 游戏本体核心开发与贡献指南 (Core Development & Contribution Guide)
 

@@ -27,7 +27,7 @@
       "pattern": "^[0-9a-f]{40}$"
     },
     "pending_source_pr": {
-      "type": "string",
+      "type": ["string", "null"],
       "pattern": "^https://github\\.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/[1-9][0-9]*$"
     },
     "build_backend": {
@@ -63,7 +63,7 @@
       "minItems": 2,
       "uniqueItems": true,
       "contains": {
-        "const": "ccb_lua_v5_example"
+        "const": "ccb_docs_lua_example"
       },
       "items": {
         "type": "string",

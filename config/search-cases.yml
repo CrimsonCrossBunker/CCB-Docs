@@ -1,5 +1,13 @@
 schema_version: 1
 cases:
+  - id: zh-current-lua
+    language: zh_CN
+    query: Lua Platform v1
+    expected_location: api/lua/v1/overview/
+  - id: en-current-lua
+    language: en
+    query: Lua Platform v1
+    expected_location: api/lua/v1/overview/
   - id: zh-project-map
     language: zh_CN
     query: 项目地图

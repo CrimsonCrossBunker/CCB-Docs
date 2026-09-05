@@ -30,16 +30,16 @@ validations:
   lua-mod-load:
     description: Real CCB executable validation that executes selected top-level Lua Mod sources
     authority_paths:
-      - src/catalua_ui.cpp
+      - src/lua_platform_loader.cpp
       - src/game_io.cpp
       - src/main.cpp
-      - tests/catalua_ui_test.cpp
+      - tests/lua_platform_test.cpp
   lua-contract:
     description: Lua-first Platform declaration, parity, coverage, and build-contract validation
     authority_paths: [data/lua/types/ccb_platform_v1.d.lua, tools/lua_api]
   lua-docs:
-    description: Generated bilingual Lua v5 reference and catalog validation
-    authority_paths: [config/lua-reference-v5.yml, scripts/generate_lua_reference.py]
+    description: Retired Lua URL and catalog validation
+    authority_paths: [docs-catalog.yml, scripts/generate_retired_lua_pages.py]
   legacy-migration:
     description: Frozen 175-record Markdown migration, permanent stubs, and generated references
     authority_paths:

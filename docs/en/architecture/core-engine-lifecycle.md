@@ -3,7 +3,7 @@
 id: architecture.core-engine-lifecycle
 title: Core Engine Lifecycle and Main Loop
 language: en
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - mod-author
@@ -33,11 +33,11 @@ verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
 verified_at: '2026-08-02'
 generated: false
 generated_by: null
-include_in_search: true
-include_in_ai_index: true
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: e2e764d412ef85a2da5058d71cb37fbeb52a488afe41552d505db490351c3512
+translation_source_fingerprint: 7a3f0327a2d25c9a9fe4883996b14a96f48a74a3d5f98d67054b29a4c10c63c9
 prerequisites:
 - architecture.overview
 depends_on: []
@@ -53,7 +53,7 @@ deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: Contains retired Lua API examples; Lua sections need Platform v1 source verification.
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/core-engine-lifecycle/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/core-engine-lifecycle/
@@ -75,7 +75,11 @@ source_urls:
 - path: tools/lua_api/README.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/tools/lua_api/README.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28architecture.core-engine-lifecycle%29%3A+&body=Document+ID%3A+architecture.core-engine-lifecycle%0ALanguage%3A+en%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
+
+> **Lua sections need revision:** This page contains removed v5 APIs or old runtime examples. Do not use its Lua examples for current development. Start with [Platform v1](../api/lua/v1/overview.md).
 
 # Core Engine Lifecycle & Main Loop Deep-Dive
 

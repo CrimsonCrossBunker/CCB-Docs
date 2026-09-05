@@ -39,7 +39,7 @@ prerequisites: []
 depends_on: []
 redirect_from: []
 supersedes:
-- api.lua.v5.overview
+- api.lua.v1.overview
 license: CC-BY-SA-3.0
 attribution: CCB contributors; source paths and Git history at the verified commit.
 example_validation_ids: []

@@ -3,7 +3,7 @@
 id: subsystems.vehicles
 title: Vehicles and Parts Manual
 language: en
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - mod-author
@@ -33,11 +33,11 @@ verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
 verified_at: '2026-08-02'
 generated: false
 generated_by: null
-include_in_search: true
-include_in_ai_index: true
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 3f95dc96abe7c05ee2b417ec1635f7549d8d303235597e7e18a2e0d7405c41f5
+translation_source_fingerprint: ea40ed26f341791e0c157c046b02ca1ce4386d1ec29df2abd305f08c97d7f5fb
 prerequisites:
 - architecture.overview
 depends_on: []
@@ -53,7 +53,7 @@ deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: Contains retired Lua API examples; Lua sections need Platform v1 source verification.
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/vehicles/
@@ -75,7 +75,11 @@ source_urls:
 - path: tools/lua_api/README.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/tools/lua_api/README.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28subsystems.vehicles%29%3A+&body=Document+ID%3A+subsystems.vehicles%0ALanguage%3A+en%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
+
+> **Lua sections need revision:** This page contains removed v5 APIs or old runtime examples. Do not use its Lua examples for current development. Start with [Platform v1](../api/lua/v1/overview.md).
 
 # Vehicles & Parts Manual
 

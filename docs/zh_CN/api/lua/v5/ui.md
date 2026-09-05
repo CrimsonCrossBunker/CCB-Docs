@@ -3,8 +3,8 @@
 id: api.lua.v5.ui
 title: 跨平台 Lua UI
 language: zh_CN
-status: active
-doc_type: explanation
+status: archived
+doc_type: archive
 audiences:
 - mod-author
 - api-user
@@ -28,16 +28,16 @@ source_symbols:
 - ctx:environment()
 source_queries: []
 source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
-authority: api-contract
+authority: historical
 verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
 verified_at: '2026-08-02'
-generated: false
-generated_by: null
-include_in_search: true
-include_in_ai_index: true
+generated: true
+generated_by: scripts/generate_retired_lua_pages.py
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 782c93e819b86b219cd3df29162a540afad030ae56da6d60f6d4bb207357f970
+translation_source_fingerprint: 597a0943a36c0bc69650a11552f0a460b98ba37ecfe2134768c5a64109291e3b
 prerequisites:
 - api.lua.v5.lifecycle
 - api.lua.v5.capabilities
@@ -50,8 +50,8 @@ license: CC-BY-SA-3.0
 attribution: CCB contributors; generated contract and source paths at the verified commit.
 example_validation_ids: []
 api_version: '5'
-deprecated: false
-deprecation_replacement: null
+deprecated: true
+deprecation_replacement: api.lua.v1.overview
 risk_group: lua-api
 risk_level: high
 pending_source_pr: null
@@ -77,54 +77,14 @@ source_urls:
 - path: tools/lua_api/README.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/tools/lua_api/README.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.ui%29%3A+&body=Document+ID%3A+api.lua.v5.ui%0ALanguage%3A+zh_CN%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
-# 跨平台 Lua UI
+# Lua API v5 已停用
 
-`ui.page` 注册语义页面，不注册像素位置。一个页面实现由 Android/桌面 Tiles 的 ImGui
-host 或终端 ImTui fallback 渲染；Mod 不应导入渲染后端。
+此网址仅用于保留旧链接。旧 API v5、`game.*` 和 JSON Manifest 已移除，不能用于当前 CCB MOD。
 
-## 页面与 slot
+请从 [Lua Platform v1 入门](../v1/overview.md) 开始，使用 `require("ccb")`。
 
-descriptor 形式可声明 `title`、`category`、`order` 与以下 slot：
-
-- `main.extensions`
-- `ingame.extensions`
-- `settings.mods`
-- `debug.tools`
-
-字符串标题形式保留兼容性，默认进入主菜单和游戏内 Extensions。稳定页面 id 可在热重载
-后保留选择；`ui.open`、`ui.back`、`ui.close` 的导航请求在回调返回后处理。
-
-```lua
-ui.page("my_mod.settings", {
-    title = i18n.gettext("My Mod"),
-    category = "settings",
-    order = 50,
-    slots = { "main.extensions", "ingame.extensions", "settings.mods" },
-}, function(ctx)
-    ctx:heading(i18n.gettext("Settings"))
-    local env = ctx:environment()
-    ctx:text(env.profile .. " / " .. env.input)
-end)
-```
-
-## `ctx` 生命周期与稳定 id
-
-`ctx` 只在当前 draw 回调中有效，不得保存到全局、闭包、事件或调度任务。持久数据放入
-合适的 `state` scope。翻译标签、动态标签和重复控件必须用 `_id` 形式，把稳定 id 与
-显示文字分开。
-
-`ctx:environment()` 提供 profile、input、density、breakpoint、touch、hover 和键盘导航
-能力。布局应根据这些语义信息降级，不要用旧 `ctx:platform()` 判断触摸/桌面。
-
-## 大列表与每帧成本
-
-页面回调可能每帧运行。使用有界查询，只渲染需要的字段；大列表使用 `virtual_list`/
-`virtual_list_rows`，缓存仅依赖 `language_revision()`、registry revision 等明确代次的数据。
-
-## 与原生 HUD/sidebar 的边界
-
-Lua 没有 `ui.hud`。Android schema-6 HUD 是独立的 Java/原生扩展面，不调用 Lua。
-API v5 的 `sidebar` widget 只挂载到 PC 原生 Widget sidebar。跨平台信息入口应使用
-`ui.page`。完整控件、类和方法见[类](reference/classes.md)与[方法](reference/methods.md)。
+[查看停用前的历史文档](https://github.com/CrimsonCrossBunker/CCB-Docs/blob/fd69d0f47ce95fb8e707162b4bac453a2a44ff2b/docs/zh_CN/api/lua/v5/ui.md)（仅供历史查阅）。

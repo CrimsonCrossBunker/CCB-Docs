@@ -3,7 +3,7 @@
 id: subsystems.items
 title: 物品与 Pocket 容器系统技术手册
 language: zh_CN
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - mod-author
@@ -33,11 +33,11 @@ verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
 verified_at: '2026-08-02'
 generated: false
 generated_by: null
-include_in_search: true
-include_in_ai_index: true
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 6eddd8f446b4c2f91b776c7fb6b676cd77c5e79f09fad5cd7d7f0b2bc56fe6fd
+translation_source_fingerprint: 14952f644ee8353cbc308187e686095838c26808665aa67f9433a22456e9ca57
 prerequisites:
 - architecture.overview
 depends_on: []
@@ -53,7 +53,7 @@ deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: Contains retired Lua API examples; Lua sections need Platform v1 source verification.
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/
@@ -75,7 +75,11 @@ source_urls:
 - path: tools/lua_api/README.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/tools/lua_api/README.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28subsystems.items%29%3A+&body=Document+ID%3A+subsystems.items%0ALanguage%3A+zh_CN%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
+
+> **Lua 内容待修订：** 本页仍含已移除的 v5 接口或旧运行时示例，不可作为当前 Lua 开发依据。请使用 [Platform v1 入门](../api/lua/v1/overview.md)。
 
 # 物品与 Pocket 容器系统技术手册 (Items & Pockets Manual)
 

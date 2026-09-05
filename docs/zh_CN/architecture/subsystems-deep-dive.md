@@ -3,7 +3,7 @@
 id: architecture.subsystems-deep-dive
 title: 游戏引擎核心八大子系统深度剖析
 language: zh_CN
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - mod-author
@@ -33,11 +33,11 @@ verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
 verified_at: '2026-08-02'
 generated: false
 generated_by: null
-include_in_search: true
-include_in_ai_index: true
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 622bd12bcc721c275377c7ccec54d67e02876038b2bdad26fd7eeb8404e0e820
+translation_source_fingerprint: e702f0ae0996fceeb5823bd66e23fe91ad1d6893dd54ae97234ca8f36f387b4d
 prerequisites:
 - architecture.overview
 depends_on: []
@@ -53,7 +53,7 @@ deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: Contains retired Lua API examples; Lua sections need Platform v1 source verification.
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystems-deep-dive/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystems-deep-dive/
@@ -75,7 +75,11 @@ source_urls:
 - path: tools/lua_api/README.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/tools/lua_api/README.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28architecture.subsystems-deep-dive%29%3A+&body=Document+ID%3A+architecture.subsystems-deep-dive%0ALanguage%3A+zh_CN%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
+
+> **Lua 内容待修订：** 本页仍含已移除的 v5 接口或旧运行时示例，不可作为当前 Lua 开发依据。请使用 [Platform v1 入门](../api/lua/v1/overview.md)。
 
 # 游戏引擎核心八大子系统深度剖析 (Engine Subsystems Deep Dive)
 

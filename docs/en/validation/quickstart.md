@@ -26,17 +26,17 @@ source_symbols: []
 source_queries:
 - Basic discovery and validation
 - 'kind: test_matrix'
-source_fingerprint: 06becbb3f2b609160d76397d8fadc859dccba43afac130409debd79d1c7be849
+source_fingerprint: d1b661988bbefdc6a1ada27a2d8ddadd6917ce70a231fbb74de159b1aab87d50
 authority: build-config
-verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-verified_at: '2026-08-01'
+verified_commit: 3053bf160578e46c1692a89c60594aa1acc6a276
+verified_at: '2026-09-05'
 generated: false
 generated_by: null
 include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 7bbe452f2a9397eac25ccbfb804f71d0a081288915bb3900ef5f2c0fcb9f4114
+translation_source_fingerprint: 1f2d23c42c6848d0880ee05681b48e4bfbfdd78c33d1c7a797e740f5d25747df
 prerequisites:
 - architecture.project-map
 depends_on: []
@@ -63,19 +63,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/validation/quickstart/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/d32b9cc880a85480840d82cfa05d256c78a16615
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/3053bf160578e46c1692a89c60594aa1acc6a276
 source_urls:
 - path: AGENTS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/AGENTS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3053bf160578e46c1692a89c60594aa1acc6a276/AGENTS.md
 - path: ai/test-matrix.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/ai/test-matrix.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3053bf160578e46c1692a89c60594aa1acc6a276/ai/test-matrix.yml
 - path: Makefile
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/Makefile
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3053bf160578e46c1692a89c60594aa1acc6a276/Makefile
 - path: CMakePresets.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/CMakePresets.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3053bf160578e46c1692a89c60594aa1acc6a276/CMakePresets.json
 - path: android/gradlew
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/android/gradlew
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28validation.quickstart%29%3A+&body=Document+ID%3A+validation.quickstart%0ALanguage%3A+en%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3053bf160578e46c1692a89c60594aa1acc6a276/android/gradlew
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28validation.quickstart%29%3A+&body=Document+ID%3A+validation.quickstart%0ALanguage%3A+en%0AVerified+commit%3A+3053bf160578e46c1692a89c60594aa1acc6a276%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Build and validation quickstart
@@ -92,7 +92,7 @@ build file, mark this page stale and repair it against the build contract.
 | C++ | `make astyle-check` | Behaviour changes also need focused Catch2 tests |
 | C++ tests | `make -j2 tests` | Then run `./tests/cata_test "filter"` |
 | JSON | `make -j2 json-check` | Also run the repository formatter on changed files |
-| Lua contract | `check_luals_declarations.py` and `check_coverage.py` | Check schema, registration, and declaration changes |
+| Lua contract | `check_luals_declarations.py` and `check_platform_coverage.py` | Check schema, registration, and declaration changes |
 | CMake | `cmake --preset linux-x64` | Use an existing repository preset |
 | Android | `cd android && ./gradlew test` | Requires a configured Android SDK |
 

@@ -34,7 +34,7 @@ def load_source_config(
         prefix = f"{location}: " if location else ""
         raise RuntimeValidationSourceError(prefix + error.message) from error
 
-    required_examples = {"ccb_lua_v5_example", "ccb_docs_json_eoc_example"}
+    required_examples = {"ccb_docs_lua_example", "ccb_docs_json_eoc_example"}
     examples = set(config["examples"])
     if not required_examples.issubset(examples):
         missing = ", ".join(sorted(required_examples - examples))

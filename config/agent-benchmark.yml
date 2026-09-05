@@ -15,8 +15,8 @@ tasks:
     expected_paths: [data/AGENTS.md, src/condition.cpp, src/effect_on_condition.cpp]
     expected_document_ids: [eoc.overview]
   - id: lua-api
-    expected_paths: [data/lua/AGENTS.md, data/lua/manifest.schema.json, data/lua/types/ccb_api_v5.d.lua]
-    expected_document_ids: [api.lua.v5.overview]
+    expected_paths: [data/lua/AGENTS.md, data/lua/LUA_FIRST_PLATFORM.md, data/lua/types/ccb_platform_v1.d.lua]
+    expected_document_ids: [api.lua.v1.overview]
   - id: upstream-port
     expected_paths: [CONTRIBUTING.md, doc/development_process.md]
     expected_document_ids: [maintenance.upstream-sync]
