@@ -3,7 +3,7 @@
 id: subsystems.character
 title: 角色与生物系统技术手册
 language: zh_CN
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - mod-author
@@ -33,11 +33,11 @@ verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
 verified_at: '2026-08-02'
 generated: false
 generated_by: null
-include_in_search: true
-include_in_ai_index: true
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 288754596440a1d571ef830cb63b3541390668930744733d8dd833cf0158830a
+translation_source_fingerprint: 6fa1e8c43132ab67de0355e7270befec94b77e44c258ca5d3372b08f14f52202
 prerequisites:
 - architecture.overview
 depends_on: []
@@ -53,7 +53,7 @@ deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: Contains retired Lua API examples; Lua sections need Platform v1 source verification.
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/
@@ -75,7 +75,11 @@ source_urls:
 - path: tools/lua_api/README.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/tools/lua_api/README.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28subsystems.character%29%3A+&body=Document+ID%3A+subsystems.character%0ALanguage%3A+zh_CN%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
+
+> **Lua 内容待修订：** 本页仍含已移除的 v5 接口或旧运行时示例，不可作为当前 Lua 开发依据。请使用 [Platform v1 入门](../api/lua/v1/overview.md)。
 
 # 角色与生物系统技术手册 (Characters & Creatures Manual)
 

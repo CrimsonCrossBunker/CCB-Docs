@@ -44,11 +44,11 @@ jobs:
 
       - name: Validate authoritative CCB Lua public contracts
         run: |
-          uv run python .build/ccb-source/tools/lua_api/generate_public_contract.py --check
-          uv run python .build/ccb-source/tools/lua_api/check_public_contract.py
-          uv run python .build/ccb-source/tools/lua_api/check_ccb_inventory.py
+          uv run python .build/ccb-source/tools/lua_api/check_platform_contract.py
+          uv run python .build/ccb-source/tools/lua_api/check_platform_native_inventory.py
+          uv run python .build/ccb-source/tools/lua_api/check_cmake_contract.py
           uv run python .build/ccb-source/tools/lua_api/check_luals_declarations.py
-          uv run python .build/ccb-source/tools/lua_api/check_coverage.py --require-complete
+          uv run python .build/ccb-source/tools/lua_api/check_platform_coverage.py
 
       - name: Generate documentation coverage report
         run: >-

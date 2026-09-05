@@ -23,17 +23,17 @@ source_paths:
 - .github/workflows/matrix.yml
 source_symbols: []
 source_queries: []
-source_fingerprint: 18b6f58d864b8586a07f6ea4c1859a2e3dc18f4825b38067261d75417466cb96
+source_fingerprint: caa96df9d4a464cf685a6bf610bef827c7c0a9a5900d7ff27b34fa3ab53d9098
 authority: build-config
-verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-verified_at: '2026-08-02'
+verified_commit: 3053bf160578e46c1692a89c60594aa1acc6a276
+verified_at: '2026-09-05'
 generated: false
 generated_by: null
 include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 2a5adc64a79b2cb017b29f11abb46a6685a76fc1949b56ccc9616d1b25e9eda8
+translation_source_fingerprint: 2100545da75d2202b5fc176a154e3d164c2fe77cac41ecdbc6f5d36c38e60f67
 prerequisites:
 - architecture.project-map
 depends_on:
@@ -63,19 +63,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/d32b9cc880a85480840d82cfa05d256c78a16615
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/3053bf160578e46c1692a89c60594aa1acc6a276
 source_urls:
 - path: Makefile
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/Makefile
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3053bf160578e46c1692a89c60594aa1acc6a276/Makefile
 - path: CMakePresets.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/CMakePresets.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3053bf160578e46c1692a89c60594aa1acc6a276/CMakePresets.json
 - path: android/gradlew
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/android/gradlew
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3053bf160578e46c1692a89c60594aa1acc6a276/android/gradlew
 - path: android/build.gradle
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/android/build.gradle
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3053bf160578e46c1692a89c60594aa1acc6a276/android/build.gradle
 - path: .github/workflows/matrix.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/.github/workflows/matrix.yml
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28build.overview%29%3A+&body=Document+ID%3A+build.overview%0ALanguage%3A+en%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3053bf160578e46c1692a89c60594aa1acc6a276/.github/workflows/matrix.yml
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28build.overview%29%3A+&body=Document+ID%3A+build.overview%0ALanguage%3A+en%0AVerified+commit%3A+3053bf160578e46c1692a89c60594aa1acc6a276%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Building CCB
@@ -136,7 +136,7 @@ does not substitute for real Windows, MSVC, or Android validation.
 
 ## Configuration boundaries
 
-- `CATA_ENABLE_LUA_UI` is enabled by default in CCB Make, CMake, and Android
+- `CATA_ENABLE_LUA_PLATFORM` is enabled by default in CCB Make, CMake, and Android
   configuration.
 - Android uses SDL3. Desktop generally uses SDL2; desktop SDL3 CI is gated by
   `CCB_DESKTOP_SDL3_ENABLED`. Do not infer one platform from another.

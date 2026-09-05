@@ -3,8 +3,8 @@
 id: api.lua.v5.performance
 title: Lua performance and resource bounds
 language: en
-status: active
-doc_type: explanation
+status: archived
+doc_type: archive
 audiences:
 - mod-author
 - api-user
@@ -28,16 +28,16 @@ source_symbols:
 - callback_time_total_us
 source_queries: []
 source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
-authority: api-contract
+authority: historical
 verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
 verified_at: '2026-08-02'
-generated: false
-generated_by: null
-include_in_search: true
-include_in_ai_index: true
+generated: true
+generated_by: scripts/generate_retired_lua_pages.py
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 8eac9b8b799105af96a709f068d936b1590c6986f0c735b31d9fa53323d4e233
+translation_source_fingerprint: 06b3ec657d446ed43e9107741e33b696d42ff066c69540bc0f100f61d0e98942
 prerequisites:
 - api.lua.v5.ui
 - api.lua.v5.lifecycle
@@ -49,8 +49,8 @@ license: CC-BY-SA-3.0
 attribution: CCB contributors; generated contract and source paths at the verified commit.
 example_validation_ids: []
 api_version: '5'
-deprecated: false
-deprecation_replacement: null
+deprecated: true
+deprecation_replacement: api.lua.v1.overview
 risk_group: lua-api
 risk_level: high
 pending_source_pr: null
@@ -76,42 +76,14 @@ source_urls:
 - path: tools/lua_api/README.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/tools/lua_api/README.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.performance%29%3A+&body=Document+ID%3A+api.lua.v5.performance%0ALanguage%3A+en%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
-# Lua performance and resource bounds
+# Lua API v5 has been retired
 
-Lua pages may run every frame; events and hooks can sit on frequent paths. Bounded API results
-are runtime/game-thread protection contracts, not merely recommendations.
+This URL preserves an old link. API v5, `game.*`, and the JSON manifest have been removed and cannot be used for current CCB Mods.
 
-## Principal boundaries
+Start with [Lua Platform v1](../v1/overview.md) and use `require("ccb")`.
 
-- Each runtime has a 32 MiB Lua memory limit.
-- Entry, page, event, scheduler, service, hook, and callback invocations have instruction budgets.
-- An over-budget or throwing callback is independently disabled/removed. `pcall`/`xpcall`
-  cannot suppress a budget termination.
-- Registry, inventory, creature, map, event payload, service argument/result, and navigation
-  operations have explicit count/byte/depth bounds.
-- The scheduler uses game turns, never wall-clock time, with bounded task and due-callback counts.
-
-Exact limits belong to the source contract. Inspect the relevant [function](reference/functions.md),
-[method](reference/methods.md), and `data/lua/README.md`; do not assume an old prose number is a
-permanent constant.
-
-## Page hot paths
-
-1. Pass the smallest `limit` that serves the current UI.
-2. Use `virtual_list`/`virtual_list_rows` and render only the visible half-open range.
-3. Key translated/definition caches to `language_revision()` or a registry revision.
-4. Do not repeatedly register pages, subscriptions, hooks, callbacks, action-menu entries, or
-   sidebar widgets inside draw.
-5. Do not build large tables, serialize whole-world state, or scan every definition each frame.
-6. Keep edit drafts in `state.page`; never retain `ctx` or live objects.
-
-## Measurement
-
-`game.runtime_status()` exposes `callback_count`, `callback_time_total_us`,
-`callback_time_max_us`, `slow_callback_count`, and `last_slow_callback`. Reproduce and record the
-callback/page, input size, platform, and pinned CCB commit before reducing query count or bounds.
-
-Disabling capability checks, increasing generated limits, or caching handles across generations
-is not an optimization. It breaks safety and compatibility contracts instead of fixing the path.
+[Read the previous documentation](https://github.com/CrimsonCrossBunker/CCB-Docs/blob/fd69d0f47ce95fb8e707162b4bac453a2a44ff2b/docs/en/api/lua/v5/performance.md) for historical reference only.

@@ -3,8 +3,8 @@
 id: api.lua.v5.permissions
 title: 权限与信任模型
 language: zh_CN
-status: active
-doc_type: explanation
+status: archived
+doc_type: archive
 audiences:
 - mod-author
 - api-user
@@ -28,16 +28,16 @@ source_symbols:
 - capability-gating
 source_queries: []
 source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
-authority: api-contract
+authority: historical
 verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
 verified_at: '2026-08-02'
-generated: false
-generated_by: null
-include_in_search: true
-include_in_ai_index: true
+generated: true
+generated_by: scripts/generate_retired_lua_pages.py
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 97e992a62f3f105811f0d23a9fdbeac395bb0c6d73ff166b944e26578916a06f
+translation_source_fingerprint: b71ac2b60780fbf1e19cf204014c7a19ceb59a28ad03ce658c8d39748bcd1031
 prerequisites:
 - api.lua.v5.capabilities
 depends_on:
@@ -48,8 +48,8 @@ license: CC-BY-SA-3.0
 attribution: CCB contributors; generated contract and source paths at the verified commit.
 example_validation_ids: []
 api_version: '5'
-deprecated: false
-deprecation_replacement: null
+deprecated: true
+deprecation_replacement: api.lua.v1.overview
 risk_group: lua-api
 risk_level: high
 pending_source_pr: null
@@ -75,39 +75,14 @@ source_urls:
 - path: tools/lua_api/README.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/tools/lua_api/README.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.permissions%29%3A+&body=Document+ID%3A+api.lua.v5.permissions%0ALanguage%3A+zh_CN%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
-# 权限与信任模型
+# Lua API v5 已停用
 
-Lua v5 使用 capability gating；没有独立 `permissions` Manifest 字段，`capabilities` 就是
-权限声明。权限绑定“来源身份”，不是当前函数、页面 id 或调用栈。
+此网址仅用于保留旧链接。旧 API v5、`game.*` 和 JSON Manifest 已移除，不能用于当前 CCB MOD。
 
-## 身份传播
+请从 [Lua Platform v1 入门](../v1/overview.md) 开始，使用 `require("ccb")`。
 
-- `require` 在当前来源环境执行。
-- `modules.import` 导入提供者源码，但代码以消费者 capability 执行。
-- `services.call` 在提供者身份和预算下执行服务，再复制结果给消费者。
-- 事件、调度任务、Hook、Callback、action-menu 和 sidebar 回调恢复注册来源身份。
-- 用相同 id 替换页面不会取得原页面来源权限。
-
-因此跨 Mod 共享能力时，源码复用用 `modules.import`，需要权限隔离的操作用 `services`。
-
-## 写与交互边界
-
-`game.write` 不是任意内存访问。每个操作仍会验证 id、坐标空间、对象代次、范围、调用
-阶段和结果上限。危险当前输入动作还需要 `game.actions.dangerous`，并由原生界面显示
-来源与动作的一次性确认。许多交互、移动和写操作只允许在活跃回调内调用。
-
-Lua 标准库环境不提供 `io`、`os`、`debug`、原生 C 模块或任意动态代码/文件加载。
-不过这仍是应用脚本隔离，不是执行不受信任下载代码的安全沙箱：安装 Lua Mod 应采用
-与安装普通游戏 Mod 相同的信任判断。
-
-## 审查清单
-
-1. Manifest 是否只请求代码实际使用的 capability？
-2. 写操作是否能改为只读快照或安全动作队列？
-3. 跨来源调用是否应由 service 保留提供者身份？
-4. 是否在日志或 UI 中泄露本地路径、存档内容或不必要的状态？
-5. 是否假定 capability 能绕过参数、生命周期或代次验证？（不能。）
-
-机器契约见[权限模型参考](reference/permissions.md)。
+[查看停用前的历史文档](https://github.com/CrimsonCrossBunker/CCB-Docs/blob/fd69d0f47ce95fb8e707162b4bac453a2a44ff2b/docs/zh_CN/api/lua/v5/permissions.md)（仅供历史查阅）。

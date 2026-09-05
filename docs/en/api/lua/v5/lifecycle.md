@@ -3,8 +3,8 @@
 id: api.lua.v5.lifecycle
 title: Lua sources and lifecycle
 language: en
-status: active
-doc_type: explanation
+status: archived
+doc_type: archive
 audiences:
 - mod-author
 - api-user
@@ -28,16 +28,16 @@ source_symbols:
 - ccb.lifecycle.reload
 source_queries: []
 source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
-authority: api-contract
+authority: historical
 verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
 verified_at: '2026-08-02'
-generated: false
-generated_by: null
-include_in_search: true
-include_in_ai_index: true
+generated: true
+generated_by: scripts/generate_retired_lua_pages.py
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: ac95dbf6b61cdeb4e9f921e901cce7c75c662e5162301423b88843b2b1176b0b
+translation_source_fingerprint: 18d6c6edc467f5a8bcbe0d3b3a32e12fab948e37ff8a5dcaf104e8f9bc57db9e
 prerequisites:
 - api.lua.v5.overview
 depends_on:
@@ -48,8 +48,8 @@ license: CC-BY-SA-3.0
 attribution: CCB contributors; generated contract and source paths at the verified commit.
 example_validation_ids: []
 api_version: '5'
-deprecated: false
-deprecation_replacement: null
+deprecated: true
+deprecation_replacement: api.lua.v1.overview
 risk_group: lua-api
 risk_level: high
 pending_source_pr: null
@@ -75,57 +75,14 @@ source_urls:
 - path: tools/lua_api/README.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/tools/lua_api/README.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.lifecycle%29%3A+&body=Document+ID%3A+api.lua.v5.lifecycle%0ALanguage%3A+en%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
-# Lua sources and lifecycle
+# Lua API v5 has been retired
 
-## Load transaction
+This URL preserves an old link. API v5, `game.*`, and the JSON manifest have been removed and cannot be used for current CCB Mods.
 
-The runtime loads the built-in `data/lua/main.lua`, each enabled Mod's `lua/main.lua` in
-Mod order, and finally `config/lua/main.lua`. Each source has an isolated environment,
-manifest identity, capability set, and module cache.
+Start with [Lua Platform v1](../v1/overview.md) and use `require("ccb")`.
 
-A hot reload first builds a candidate Lua state. It replaces the running state only after
-every entry point succeeds. Any entry failure discards the candidate and keeps the old
-runtime, so pages, events, tasks, hooks, and callbacks cannot be committed half-loaded.
-
-## Module boundaries
-
-- On API v4/v5, `require("foo.bar")` searches only the calling source's root.
-- `modules.import(provider_id, "foo.bar")` accepts only `builtin`, the caller, or an
-  earlier-loaded dependency declared in the manifest.
-- Use a versioned `services` contract when the provider must retain its permission identity;
-  do not treat source import as a service boundary.
-- Absolute paths, traversal, dynamic libraries, and arbitrary file loading are unavailable.
-
-## Lifecycle signals
-
-| Name | Delivery point |
-| --- | --- |
-| `ccb.lifecycle.reload` | after the new candidate runtime commits |
-| `ccb.lifecycle.world_ready` | after a new-game/save runtime loads |
-| `ccb.lifecycle.before_save` | before Lua sidecars are written |
-| `ccb.lifecycle.after_save` | after saving, with `success`/`error` payload fields |
-| `ccb.lifecycle.shutdown` | before a world or runtime is released |
-
-Subscribe to lifecycle events through `events.on`. Native lifecycle hooks use `game.hooks`;
-their names, payloads, and return contracts are separate and must be checked in the
-[generated hook reference](reference/hooks.md).
-
-## State and generations
-
-- `state.character`: source- and character-scoped, persisted with the save.
-- `state.world`: source-scoped, shared by characters in the world, and persisted.
-- `state.page`: source- and page-scoped for the current world session; draw callbacks only.
-- Ordinary Lua globals/locals: replaced after a successful reload.
-
-The creating source owns `GameHandle` values, task ids, subscription ids, and callback
-registrations. World changes and successful reloads advance generations. Check
-`is_valid()`/`status()` before retaining a handle, and never retain `ctx`: a page context is
-valid only during its current draw callback.
-
-## Safe initialization pattern
-
-Use entry points to declare modules, services, and registrations. Put live reads or writes
-inside an explicit page, event, scheduler, hook, or callback invocation. Many interaction
-and mutation operations intentionally reject top-level load-time calls.
+[Read the previous documentation](https://github.com/CrimsonCrossBunker/CCB-Docs/blob/fd69d0f47ce95fb8e707162b4bac453a2a44ff2b/docs/en/api/lua/v5/lifecycle.md) for historical reference only.

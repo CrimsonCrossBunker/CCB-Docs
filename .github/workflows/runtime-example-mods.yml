@@ -98,7 +98,7 @@ jobs:
             -DSOUND=OFF \
             -DLOCALIZE=OFF \
             -DTESTS=OFF \
-            -DCATA_ENABLE_LUA_UI=ON \
+            -DCATA_ENABLE_LUA_PLATFORM=ON \
             -DUSE_PREFIX_DATA_DIR=OFF \
             -DCATA_CCACHE=OFF \
             2>&1 | tee .build/logs/ccb-configure.log
@@ -111,10 +111,10 @@ jobs:
       - name: Install both maintained examples as user Mods
         shell: bash
         run: |
-          mkdir -p "$CCB_RUNTIME_USER_DIR/mods"
+          mkdir -p "$CCB_RUNTIME_USER_DIR/mods" "$CCB_RUNTIME_USER_DIR/config"
           cp -a \
-            "$CCB_SOURCE_DIR/data/lua/examples/api_v5_mod" \
-            "$CCB_RUNTIME_USER_DIR/mods/ccb_lua_v5_example"
+            examples/complete-lua-mod \
+            "$CCB_RUNTIME_USER_DIR/mods/ccb_docs_lua_example"
           cp -a \
             examples/complete-json-eoc-mod \
             "$CCB_RUNTIME_USER_DIR/mods/ccb_docs_json_eoc_example"
@@ -138,13 +138,19 @@ jobs:
               --check-mods "$@" \
               2>&1 | tee ".build/logs/${log_name}.log"
           }
-          lua_main="$CCB_RUNTIME_USER_DIR/mods/ccb_lua_v5_example/lua/main.lua"
-          original_lua_main="$CCB_SOURCE_DIR/data/lua/examples/api_v5_mod/lua/main.lua"
+          lua_main="$CCB_RUNTIME_USER_DIR/mods/ccb_docs_lua_example/main.lua"
+          original_lua_main="$GITHUB_WORKSPACE/examples/complete-lua-mod/main.lua"
 
           printf '\nerror("validation execution sentinel")\n' >> "$lua_main"
           trap 'cp "$original_lua_main" "$lua_main"' EXIT
-          if run_mod_check lua-negative-sentinel ccb_lua_v5_example; then
+          if run_mod_check lua-negative-sentinel ccb_docs_lua_example; then
             echo "Lua validation unexpectedly accepted the execution sentinel" >&2
+            exit 1
+          else
+            sentinel_status=$?
+          fi
+          if [ "$sentinel_status" -ne 1 ]; then
+            echo "Lua validation crashed or timed out (exit $sentinel_status)" >&2
             exit 1
           fi
           grep -F "validation execution sentinel" \
@@ -153,7 +159,7 @@ jobs:
           cp "$original_lua_main" "$lua_main"
           trap - EXIT
           run_mod_check examples-positive \
-            ccb_lua_v5_example \
+            ccb_docs_lua_example \
             ccb_docs_json_eoc_example
 
       - name: Collect minimal failure logs

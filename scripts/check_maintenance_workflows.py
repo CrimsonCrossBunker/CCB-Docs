@@ -222,11 +222,11 @@ def validate_monthly_contracts() -> list[str]:
     raw = path.read_text(encoding="utf-8")
     errors: list[str] = []
     required_commands = (
-        "tools/lua_api/generate_public_contract.py --check",
-        "tools/lua_api/check_public_contract.py",
-        "tools/lua_api/check_ccb_inventory.py",
+        "tools/lua_api/check_platform_contract.py",
+        "tools/lua_api/check_platform_native_inventory.py",
+        "tools/lua_api/check_cmake_contract.py",
         "tools/lua_api/check_luals_declarations.py",
-        "tools/lua_api/check_coverage.py --require-complete",
+        "tools/lua_api/check_platform_coverage.py",
     )
     for command in required_commands:
         if command not in raw:
@@ -256,16 +256,16 @@ def validate_monthly_contracts() -> list[str]:
         (ROOT / "config/api-contract-watch.yml").read_text(encoding="utf-8")
     )
     contracts = mapping(mapping(watch).get("contracts"))
-    lua_contract = mapping(contracts.get("lua-v5"))
+    lua_contract = mapping(contracts.get("lua-platform-v1"))
     lua_paths = set(lua_contract.get("paths", []))
     required_paths = {
-        "data/lua/manifest.schema.json",
-        "data/lua/types/ccb_api_v5.d.lua",
-        "data/lua/reference/ccb_native_inventory.json",
-        "data/lua/reference/ccb_public_api_v5.json",
-        "data/lua/reference/ccb_public_api_v5.schema.json",
-        "data/lua/reference/ccb_public_api_v5_coverage.json",
-        "data/lua/reference/ccb_public_api_v5_coverage.schema.json",
+        "data/lua/reference/ccb_platform_native_inventory.schema.json",
+        "data/lua/types/ccb_platform_v1.d.lua",
+        "data/lua/reference/ccb_platform_native_inventory.json",
+        "data/lua/reference/ccb_platform_api_v1.json",
+        "data/lua/reference/ccb_platform_api_v1.schema.json",
+        "data/lua/reference/ccb_platform_api_v1_coverage.json",
+        "data/lua/reference/ccb_platform_api_v1_coverage.schema.json",
     }
     missing = sorted(required_paths - lua_paths)
     if missing:
@@ -411,7 +411,7 @@ def validate_runtime_example_workflow(
         "-DSOUND=OFF",
         "-DLOCALIZE=OFF",
         "-DTESTS=OFF",
-        "-DCATA_ENABLE_LUA_UI=ON",
+        "-DCATA_ENABLE_LUA_PLATFORM=ON",
         "-DUSE_PREFIX_DATA_DIR=OFF",
         "-DCATA_CCACHE=OFF",
     ):
@@ -436,9 +436,9 @@ def validate_runtime_example_workflow(
         named_steps.get("Install both maintained examples as user Mods", {}).get("run", "")
     )
     for token in (
-        "data/lua/examples/api_v5_mod",
+        "examples/complete-lua-mod",
         "examples/complete-json-eoc-mod",
-        "$CCB_RUNTIME_USER_DIR/mods/ccb_lua_v5_example",
+        "$CCB_RUNTIME_USER_DIR/mods/ccb_docs_lua_example",
         "$CCB_RUNTIME_USER_DIR/mods/ccb_docs_json_eoc_example",
     ):
         if token not in stage_run:
@@ -456,7 +456,8 @@ def validate_runtime_example_workflow(
         '--userdir "$CCB_RUNTIME_USER_DIR/"',
         '--check-mods "$@"',
         'error("validation execution sentinel")',
-        "if run_mod_check lua-negative-sentinel ccb_lua_v5_example; then",
+        "if run_mod_check lua-negative-sentinel ccb_docs_lua_example; then",
+        'if [ "$sentinel_status" -ne 1 ]; then',
         'grep -F "validation execution sentinel"',
         'cp "$original_lua_main" "$lua_main"',
         "run_mod_check examples-positive",

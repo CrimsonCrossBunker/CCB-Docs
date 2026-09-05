@@ -3,8 +3,8 @@
 id: api.lua.v5.capabilities
 title: Capability 声明
 language: zh_CN
-status: active
-doc_type: explanation
+status: archived
+doc_type: archive
 audiences:
 - mod-author
 - api-user
@@ -28,16 +28,16 @@ source_symbols:
 - game.actions.dangerous
 source_queries: []
 source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
-authority: api-contract
+authority: historical
 verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
 verified_at: '2026-08-02'
-generated: false
-generated_by: null
-include_in_search: true
-include_in_ai_index: true
+generated: true
+generated_by: scripts/generate_retired_lua_pages.py
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 7f006e3e9d2c5d2b02a4c2c83c46c8470ea1952d15614f277e23683c27e708e6
+translation_source_fingerprint: 1fccbc0f78336579f9d52244ee7583b2ab54f040b1f607ad0834d5d89b902504
 prerequisites:
 - api.lua.v5.overview
 depends_on:
@@ -49,8 +49,8 @@ license: CC-BY-SA-3.0
 attribution: CCB contributors; generated contract and source paths at the verified commit.
 example_validation_ids: []
 api_version: '5'
-deprecated: false
-deprecation_replacement: null
+deprecated: true
+deprecation_replacement: api.lua.v1.overview
 risk_group: lua-api
 risk_level: high
 pending_source_pr: null
@@ -76,56 +76,14 @@ source_urls:
 - path: tools/lua_api/README.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/tools/lua_api/README.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.capabilities%29%3A+&body=Document+ID%3A+api.lua.v5.capabilities%0ALanguage%3A+zh_CN%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
-# Capability 声明
+# Lua API v5 已停用
 
-每个 Lua 来源通过 `lua/manifest.json` 请求最小权限集合。未声明 capability 的调用会失败；
-Callback、Hook、事件、模块或页面替换都不会借用另一个来源的权限。
+此网址仅用于保留旧链接。旧 API v5、`game.*` 和 JSON Manifest 已移除，不能用于当前 CCB MOD。
 
-## v5 Manifest 最小骨架
+请从 [Lua Platform v1 入门](../v1/overview.md) 开始，使用 `require("ccb")`。
 
-```json
-{
-  "$schema": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/raw/master/data/lua/manifest.schema.json",
-  "id": "my_mod",
-  "version": "1.0.0",
-  "api_version": 5,
-  "capabilities": ["events", "game.read", "ui.pages"],
-  "dependencies": []
-}
-```
-
-Mod 的 Manifest `id` 必须等于 Mod id。新代码应使用 API 5，并只声明真实调用所需项。
-
-## 完整 capability 表
-
-| Capability | 最低 API | 作用 |
-| --- | ---: | --- |
-| `events` | 2 | 自定义、生命周期与原生事件表面 |
-| `game.actions` | 2 | 安全的游戏动作队列/当前输入动作 |
-| `game.actions.dangerous` | 4 | 危险命名动作（仍需本地确认） |
-| `game.callbacks` | 5 | JSON 定义 Callback Actor |
-| `game.hooks` | 5 | 原生 Hook |
-| `game.read` | 2 | 游戏快照、定义和查询 |
-| `game.write` | 5 | 受校验的游戏写操作 |
-| `modules.import` | 4 | 导入已声明依赖的源码模块 |
-| `registry.read` | 4 | 分离的定义注册表查询 |
-| `scheduler` | 4 | 确定性 turn 调度 |
-| `services.consume` | 4 | 调用依赖提供的服务 |
-| `services.provide` | 4 | 发布版本化服务 |
-| `state.character` | 2 | 角色级持久状态 |
-| `state.page` | 2 | 页面会话状态 |
-| `state.world` | 2 | 世界级持久状态 |
-| `ui.pages` | 2 | 注册和导航跨平台页面 |
-
-## 依赖约束
-
-- `game.actions.dangerous` → `game.actions`
-- `game.write` → `game.read`
-- `game.hooks` → `events`
-- `game.callbacks` → `game.read`
-
-Schema 会拒绝未知项、重复项、API 版本过低或缺少上述依赖的 Manifest。精确 Schema 和
-来源见[生成 Capability 参考](reference/capabilities.md)与
-[Manifest 字段](reference/manifest-fields.md)。
+[查看停用前的历史文档](https://github.com/CrimsonCrossBunker/CCB-Docs/blob/fd69d0f47ce95fb8e707162b4bac453a2a44ff2b/docs/zh_CN/api/lua/v5/capabilities.md)（仅供历史查阅）。

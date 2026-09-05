@@ -3,7 +3,7 @@
 id: subsystems.map
 title: Map and Mapgen Manual
 language: en
-status: active
+status: stale
 doc_type: explanation
 audiences:
 - mod-author
@@ -33,11 +33,11 @@ verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
 verified_at: '2026-08-02'
 generated: false
 generated_by: null
-include_in_search: true
-include_in_ai_index: true
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: b127ae98a838029ef6a31fb5a7740699bc02cecae605021f8792122938fdd0a9
+translation_source_fingerprint: ff4c0d735d3e3e34bc8c555549a37d71d7e1e1d028e6b551a030b027f8c5ee74
 prerequisites:
 - architecture.overview
 depends_on: []
@@ -53,7 +53,7 @@ deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
 pending_source_pr: null
-stale_reason: null
+stale_reason: Contains retired Lua API examples; Lua sections need Platform v1 source verification.
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/map/
@@ -75,7 +75,11 @@ source_urls:
 - path: tools/lua_api/README.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/tools/lua_api/README.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28subsystems.map%29%3A+&body=Document+ID%3A+subsystems.map%0ALanguage%3A+en%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
+
+> **Lua sections need revision:** This page contains removed v5 APIs or old runtime examples. Do not use its Lua examples for current development. Start with [Platform v1](../api/lua/v1/overview.md).
 
 # Map & Mapgen Manual
 

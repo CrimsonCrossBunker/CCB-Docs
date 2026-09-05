@@ -3,8 +3,8 @@
 id: api.lua.v5.permissions
 title: Permission and trust model
 language: en
-status: active
-doc_type: explanation
+status: archived
+doc_type: archive
 audiences:
 - mod-author
 - api-user
@@ -28,16 +28,16 @@ source_symbols:
 - capability-gating
 source_queries: []
 source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
-authority: api-contract
+authority: historical
 verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
 verified_at: '2026-08-02'
-generated: false
-generated_by: null
-include_in_search: true
-include_in_ai_index: true
+generated: true
+generated_by: scripts/generate_retired_lua_pages.py
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 97e992a62f3f105811f0d23a9fdbeac395bb0c6d73ff166b944e26578916a06f
+translation_source_fingerprint: b71ac2b60780fbf1e19cf204014c7a19ceb59a28ad03ce658c8d39748bcd1031
 prerequisites:
 - api.lua.v5.capabilities
 depends_on:
@@ -48,8 +48,8 @@ license: CC-BY-SA-3.0
 attribution: CCB contributors; generated contract and source paths at the verified commit.
 example_validation_ids: []
 api_version: '5'
-deprecated: false
-deprecation_replacement: null
+deprecated: true
+deprecation_replacement: api.lua.v1.overview
 risk_group: lua-api
 risk_level: high
 pending_source_pr: null
@@ -75,43 +75,14 @@ source_urls:
 - path: tools/lua_api/README.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/tools/lua_api/README.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.permissions%29%3A+&body=Document+ID%3A+api.lua.v5.permissions%0ALanguage%3A+en%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
-# Permission and trust model
+# Lua API v5 has been retired
 
-Lua v5 uses capability gating. There is no separate `permissions` manifest field:
-`capabilities` is the permission declaration. Permissions bind to a source identity, not to
-the current function, page id, or call stack.
+This URL preserves an old link. API v5, `game.*`, and the JSON manifest have been removed and cannot be used for current CCB Mods.
 
-## Identity propagation
+Start with [Lua Platform v1](../v1/overview.md) and use `require("ccb")`.
 
-- `require` executes in the current source environment.
-- `modules.import` imports provider source, but it executes with consumer capabilities.
-- `services.call` runs under the provider's identity and budget, then copies its result.
-- Events, scheduled tasks, hooks, callbacks, action-menu entries, and sidebar callbacks
-  restore the registering source's identity.
-- Replacing a page with the same id does not inherit the old page source's permissions.
-
-Use `modules.import` for source reuse and `services` when an operation needs the provider's
-permission boundary.
-
-## Mutation and interaction boundary
-
-`game.write` is not arbitrary memory access. Each operation still validates ids, coordinate
-spaces, generations, ranges, call phase, and result bounds. Dangerous current-context actions
-also need `game.actions.dangerous` and a one-time native confirmation naming the source and
-action. Many interaction, relocation, and mutation calls are legal only from an active callback.
-
-The Lua standard-library environment omits `io`, `os`, `debug`, native C modules, and arbitrary
-dynamic-code/file loading. This is application scripting isolation, not a security sandbox for
-untrusted downloaded code. Apply the same trust decision as for any installed game Mod.
-
-## Review checklist
-
-1. Does the manifest request only capabilities that code actually uses?
-2. Can a write become a detached read or safe action-queue request?
-3. Should a cross-source call use a service to preserve provider identity?
-4. Does logging/UI expose local paths, save content, or unnecessary state?
-5. Does code assume a capability bypasses parameter, lifecycle, or generation checks? It does not.
-
-See the machine-derived [permission-model reference](reference/permissions.md).
+[Read the previous documentation](https://github.com/CrimsonCrossBunker/CCB-Docs/blob/fd69d0f47ce95fb8e707162b4bac453a2a44ff2b/docs/en/api/lua/v5/permissions.md) for historical reference only.

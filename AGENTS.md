@@ -31,9 +31,9 @@ This file is sufficient for basic offline work.
 
 - Edit metadata in `docs-catalog.yml`, then run the generator. Do not hand-edit
   generated front matter, `docs/llms*.txt`, or any file under `docs/ai/`.
-- Do not hand-edit pages whose metadata names
-  `scripts/generate_lua_reference.py`; rebuild them from the pinned CCB commit
-  in `config/lua-reference-v5.yml`. The source repository remains authoritative.
+- Retired Lua pages are owned by `scripts/generate_retired_lua_pages.py`.
+  Keep their original URLs and historical links, but exclude them from current
+  navigation, search, and AI indexes. No v5 source checkout is required.
 - JSON/EOC registry pages under `docs/*/reference/` are additionally owned by
   `scripts/generate_json_eoc_reference.py`; regenerate them from the exact CCB
   `verified_commit` instead of editing their bodies.
@@ -64,8 +64,7 @@ This file is sufficient for basic offline work.
 
 ```sh
 uv sync --frozen
-uv run python scripts/generate_lua_reference.py \
-  --source-repo /path/to/CCB --check --require-luac
+uv run python scripts/generate_retired_lua_pages.py --check
 uv run python scripts/generate_catalog.py --check
 uv run python scripts/check_catalog.py
 uv run python scripts/generate_json_eoc_reference.py --source-repo /path/to/CCB --check

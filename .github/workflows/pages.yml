@@ -21,16 +21,6 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
-      - name: Check out pinned CCB Lua contract
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-        with:
-          repository: CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-          ref: d32b9cc880a85480840d82cfa05d256c78a16615
-          path: .source/ccb
-          fetch-depth: 1
-          sparse-checkout: |
-            data/lua
-
       - name: Install uv
         uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9 # v9.0.0
         with:
@@ -39,12 +29,6 @@ jobs:
 
       - name: Sync locked dependencies
         run: uv sync --frozen
-
-      - name: Install Lua syntax checker
-        run: |
-          sudo apt-get update
-          sudo apt-get install --no-install-recommends --yes lua5.4
-          luac -v
 
       - name: Resolve JSON/EOC source commit from catalog
         id: json-eoc-source
@@ -68,7 +52,7 @@ jobs:
 
       - name: Validate production inputs
         run: |
-          uv run python scripts/generate_lua_reference.py --source-repo .source/ccb --check --require-luac
+          uv run python scripts/generate_retired_lua_pages.py --check
           uv run python scripts/generate_catalog.py --check
           uv run python scripts/check_catalog.py
 

@@ -3,8 +3,8 @@
 id: api.lua.v5.changelog
 title: Lua API changelog
 language: en
-status: active
-doc_type: reference
+status: archived
+doc_type: archive
 audiences:
 - mod-author
 - api-user
@@ -28,16 +28,16 @@ source_symbols:
 - native_luals_callable_parity
 source_queries: []
 source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
-authority: api-contract
+authority: historical
 verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
 verified_at: '2026-08-02'
-generated: false
-generated_by: null
-include_in_search: true
-include_in_ai_index: true
+generated: true
+generated_by: scripts/generate_retired_lua_pages.py
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 39c073b18b6732436210edee27a6ab51c66015ee4864fd7f0c7173416ec41363
+translation_source_fingerprint: d34a0b3afc431fdee9c6bcfce1c86a36f2239e5651861aba1f498cc204939203
 prerequisites:
 - api.lua.v5.overview
 depends_on:
@@ -48,8 +48,8 @@ license: CC-BY-SA-3.0
 attribution: CCB contributors; generated contract and source paths at the verified commit.
 example_validation_ids: []
 api_version: '5'
-deprecated: false
-deprecation_replacement: null
+deprecated: true
+deprecation_replacement: api.lua.v1.overview
 risk_group: lua-api
 risk_level: high
 pending_source_pr: null
@@ -75,36 +75,14 @@ source_urls:
 - path: tools/lua_api/README.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/tools/lua_api/README.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.changelog%29%3A+&body=Document+ID%3A+api.lua.v5.changelog%0ALanguage%3A+en%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
-# Lua API changelog
+# Lua API v5 has been retired
 
-This page records only API changes supported by repository commits and generated contracts.
-The current contract marks callables whose exact introduction history cannot be recovered as
-`since: untracked-before-or-at-v5`. That is not a release date and must not be guessed.
+This URL preserves an old link. API v5, `game.*`, and the JSON manifest have been removed and cannot be used for current CCB Mods.
 
-## API v5 contract baseline (pending)
+Start with [Lua Platform v1](../v1/overview.md) and use `require("ccb")`.
 
-| Field | Value |
-| --- | --- |
-| Pinned commit | `3ac0bd7f356b30b880dc655f3006ebf1cbda9cfd` |
-| Source PR | [CCB #565](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/565) |
-| API version | 5 |
-| Unique public symbols | 2,806 |
-| Undocumented | 0 |
-| Native/LuaLS callable parity | 100% |
-| Manifest Schema/runtime/LuaLS parity | true |
-
-This baseline first joins modules, namespaces, classes/fields, functions, methods, properties,
-operators, enums, events/fields, hooks, callbacks, capabilities, the permission model, and
-manifest fields into one public inventory, with documentation ids and sources on each record.
-
-## Updating this changelog
-
-A public API change must update the authoritative registration/declaration/Schema, tests,
-generated contract and coverage, examples when applicable, and this changelog. New entries get
-a real `since`; deprecations set `deprecated: true` and a `deprecation_replacement`. Never patch
-only generated JSON or generated pages.
-
-After the source lands, every Lua page must refresh to the final master commit, regenerate, and
-pass the [debugging and validation](debugging.md) checks before draft can become active.
+[Read the previous documentation](https://github.com/CrimsonCrossBunker/CCB-Docs/blob/fd69d0f47ce95fb8e707162b4bac453a2a44ff2b/docs/en/api/lua/v5/changelog.md) for historical reference only.

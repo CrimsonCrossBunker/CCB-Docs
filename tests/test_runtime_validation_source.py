@@ -23,13 +23,9 @@ class RuntimeValidationSourceTests(unittest.TestCase):
         config = load_source_config()
         self.assertEqual(
             config["source_commit"],
-            "d32b9cc880a85480840d82cfa05d256c78a16615",
+            "b3e34fe53aafb94982bb032b09df0a4a551dfb5b",
         )
-        self.assertEqual(
-            config["pending_source_pr"],
-            "https://github.com/CrimsonCrossBunker/"
-            "Cataclysm-Cleanwater-Bomb/pull/574",
-        )
+        self.assertIsNone(config["pending_source_pr"])
         self.assertEqual(config["build_backend"], "cmake_headless")
         self.assertEqual(config["command_timeout_seconds"], 300)
         self.assertNotIn("docs-catalog.yml", config["workflow_trigger_paths"])
@@ -58,7 +54,7 @@ class RuntimeValidationSourceTests(unittest.TestCase):
 
     def test_both_maintained_examples_are_required(self) -> None:
         config = yaml.safe_load(CONFIG_PATH.read_text(encoding="utf-8"))
-        config["examples"] = ["ccb_lua_v5_example", "unexpected_example"]
+        config["examples"] = ["ccb_docs_lua_example", "unexpected_example"]
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "runtime-example-validation.yml"
             path.write_text(yaml.safe_dump(config), encoding="utf-8")

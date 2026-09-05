@@ -106,13 +106,6 @@
       "path": "getting-started/common-tasks.md"
     },
     {
-      "id": "api.lua.cookbook.items",
-      "title": "纯 Lua 装备与容器口袋实战",
-      "section": "CCB Lua 0.1 指南",
-      "order": 20,
-      "path": "api/lua/v5/cookbook/items.md"
-    },
-    {
       "id": "architecture.overview",
       "title": "CCB 项目架构",
       "section": "架构",
@@ -127,25 +120,11 @@
       "path": "architecture/project-map.md"
     },
     {
-      "id": "api.lua.cookbook.monsters",
-      "title": "纯 Lua 怪物与技能 AI 实战",
-      "section": "CCB Lua 0.1 指南",
-      "order": 21,
-      "path": "api/lua/v5/cookbook/monsters.md"
-    },
-    {
       "id": "architecture.subsystem-map",
       "title": "子系统地图",
       "section": "架构",
       "order": 21,
       "path": "architecture/subsystem-map.md"
-    },
-    {
-      "id": "api.lua.cookbook.mapgen",
-      "title": "纯 Lua 地块与建筑生成实战",
-      "section": "CCB Lua 0.1 指南",
-      "order": 22,
-      "path": "api/lua/v5/cookbook/mapgen.md"
     },
     {
       "id": "architecture.design-principles",
@@ -295,83 +274,6 @@
       "path": "governance/security-license.md"
     },
     {
-      "id": "api.lua.v5.overview",
-      "title": "CCB Lua 0.1 总览",
-      "section": "CCB Lua 0.1",
-      "order": 90,
-      "path": "api/lua/v5/overview.md"
-    },
-    {
-      "id": "api.lua.v5.lifecycle",
-      "title": "Lua 来源与生命周期",
-      "section": "CCB Lua 0.1",
-      "order": 91,
-      "path": "api/lua/v5/lifecycle.md"
-    },
-    {
-      "id": "api.lua.v5.events",
-      "title": "事件、Hook 与 Callback",
-      "section": "CCB Lua 0.1",
-      "order": 92,
-      "path": "api/lua/v5/events.md"
-    },
-    {
-      "id": "api.lua.v5.capabilities",
-      "title": "Capability 声明",
-      "section": "CCB Lua 0.1",
-      "order": 93,
-      "path": "api/lua/v5/capabilities.md"
-    },
-    {
-      "id": "api.lua.v5.permissions",
-      "title": "权限与信任模型",
-      "section": "CCB Lua 0.1",
-      "order": 94,
-      "path": "api/lua/v5/permissions.md"
-    },
-    {
-      "id": "api.lua.v5.ui",
-      "title": "跨平台 Lua UI",
-      "section": "CCB Lua 0.1",
-      "order": 95,
-      "path": "api/lua/v5/ui.md"
-    },
-    {
-      "id": "api.lua.v5.debugging",
-      "title": "Lua 调试与契约验证",
-      "section": "CCB Lua 0.1",
-      "order": 96,
-      "path": "api/lua/v5/debugging.md"
-    },
-    {
-      "id": "api.lua.v5.performance",
-      "title": "Lua 性能与资源边界",
-      "section": "CCB Lua 0.1",
-      "order": 97,
-      "path": "api/lua/v5/performance.md"
-    },
-    {
-      "id": "api.lua.v5.migration",
-      "title": "迁移到 Lua API v5",
-      "section": "CCB Lua 0.1",
-      "order": 98,
-      "path": "api/lua/v5/migration.md"
-    },
-    {
-      "id": "api.lua.v5.changelog",
-      "title": "Lua API 变更记录",
-      "section": "CCB Lua 0.1",
-      "order": 99,
-      "path": "api/lua/v5/changelog.md"
-    },
-    {
-      "id": "api.lua.v5.example-mod",
-      "title": "完整 Lua API v5 示例 Mod",
-      "section": "CCB Lua 0.1",
-      "order": 100,
-      "path": "api/lua/v5/example-mod.md"
-    },
-    {
       "id": "cpp.character",
       "title": "Character 子系统",
       "section": "C++ 子系统",
@@ -442,25 +344,11 @@
       "path": "cpp/mapgen.md"
     },
     {
-      "id": "api.lua.v5.reference.modules",
-      "title": "模块入口参考",
-      "section": "CCB Lua 0.1 参考",
-      "order": 110,
-      "path": "api/lua/v5/reference/modules.md"
-    },
-    {
       "id": "cpp.vehicles",
       "title": "Vehicle 子系统",
       "section": "C++ 子系统",
       "order": 110,
       "path": "cpp/vehicles.md"
-    },
-    {
-      "id": "api.lua.v5.reference.namespaces",
-      "title": "命名空间参考",
-      "section": "CCB Lua 0.1 参考",
-      "order": 111,
-      "path": "api/lua/v5/reference/namespaces.md"
     },
     {
       "id": "cpp.crafting",
@@ -470,25 +358,11 @@
       "path": "cpp/crafting.md"
     },
     {
-      "id": "api.lua.v5.reference.classes",
-      "title": "类与记录参考",
-      "section": "CCB Lua 0.1 参考",
-      "order": 112,
-      "path": "api/lua/v5/reference/classes.md"
-    },
-    {
       "id": "cpp.mutations",
       "title": "Mutation 子系统",
       "section": "C++ 子系统",
       "order": 112,
       "path": "cpp/mutations.md"
-    },
-    {
-      "id": "api.lua.v5.reference.functions",
-      "title": "函数参考",
-      "section": "CCB Lua 0.1 参考",
-      "order": 113,
-      "path": "api/lua/v5/reference/functions.md"
     },
     {
       "id": "cpp.effects",
@@ -498,25 +372,11 @@
       "path": "cpp/effects.md"
     },
     {
-      "id": "api.lua.v5.reference.methods",
-      "title": "方法参考",
-      "section": "CCB Lua 0.1 参考",
-      "order": 114,
-      "path": "api/lua/v5/reference/methods.md"
-    },
-    {
       "id": "cpp.activities",
       "title": "Activity 子系统",
       "section": "C++ 子系统",
       "order": 114,
       "path": "cpp/activities.md"
-    },
-    {
-      "id": "api.lua.v5.reference.properties",
-      "title": "属性参考",
-      "section": "CCB Lua 0.1 参考",
-      "order": 115,
-      "path": "api/lua/v5/reference/properties.md"
     },
     {
       "id": "cpp.ui",
@@ -526,25 +386,11 @@
       "path": "cpp/ui.md"
     },
     {
-      "id": "api.lua.v5.reference.operators",
-      "title": "运算符参考",
-      "section": "CCB Lua 0.1 参考",
-      "order": 116,
-      "path": "api/lua/v5/reference/operators.md"
-    },
-    {
       "id": "cpp.input",
       "title": "Input 子系统",
       "section": "C++ 子系统",
       "order": 116,
       "path": "cpp/input.md"
-    },
-    {
-      "id": "api.lua.v5.reference.enums",
-      "title": "枚举族参考",
-      "section": "CCB Lua 0.1 参考",
-      "order": 117,
-      "path": "api/lua/v5/reference/enums.md"
     },
     {
       "id": "cpp.save",
@@ -554,25 +400,11 @@
       "path": "cpp/save.md"
     },
     {
-      "id": "api.lua.v5.reference.events",
-      "title": "原生事件参考",
-      "section": "CCB Lua 0.1 参考",
-      "order": 118,
-      "path": "api/lua/v5/reference/events.md"
-    },
-    {
       "id": "cpp.mod-loading",
       "title": "Mod 加载子系统",
       "section": "C++ 子系统",
       "order": 118,
       "path": "cpp/mod-loading.md"
-    },
-    {
-      "id": "api.lua.v5.reference.hooks",
-      "title": "原生 Hook 参考",
-      "section": "CCB Lua 0.1 参考",
-      "order": 119,
-      "path": "api/lua/v5/reference/hooks.md"
     },
     {
       "id": "cpp.lua-bridge",
@@ -582,39 +414,11 @@
       "path": "cpp/lua-bridge.md"
     },
     {
-      "id": "api.lua.v5.reference.callbacks",
-      "title": "回调 Actor 参考",
-      "section": "CCB Lua 0.1 参考",
-      "order": 120,
-      "path": "api/lua/v5/reference/callbacks.md"
-    },
-    {
       "id": "cpp.localization",
       "title": "本地化运行时",
       "section": "C++ 子系统",
       "order": 120,
       "path": "cpp/localization.md"
-    },
-    {
-      "id": "api.lua.v5.reference.capabilities",
-      "title": "Capability 参考",
-      "section": "CCB Lua 0.1 参考",
-      "order": 121,
-      "path": "api/lua/v5/reference/capabilities.md"
-    },
-    {
-      "id": "api.lua.v5.reference.permissions",
-      "title": "权限模型参考",
-      "section": "CCB Lua 0.1 参考",
-      "order": 122,
-      "path": "api/lua/v5/reference/permissions.md"
-    },
-    {
-      "id": "api.lua.v5.reference.manifest-fields",
-      "title": "Manifest 字段参考",
-      "section": "CCB Lua 0.1 参考",
-      "order": 123,
-      "path": "api/lua/v5/reference/manifest-fields.md"
     },
     {
       "id": "json.overview",
@@ -864,13 +668,6 @@
       "path": "getting-started/common-tasks.md"
     },
     {
-      "id": "api.lua.cookbook.items",
-      "title": "Items and Pockets Cookbook",
-      "section": "CCB Lua 0.1 Guides",
-      "order": 20,
-      "path": "api/lua/v5/cookbook/items.md"
-    },
-    {
       "id": "architecture.overview",
       "title": "CCB project architecture",
       "section": "Architecture",
@@ -885,25 +682,11 @@
       "path": "architecture/project-map.md"
     },
     {
-      "id": "api.lua.cookbook.monsters",
-      "title": "Monsters and AI Cookbook",
-      "section": "CCB Lua 0.1 Guides",
-      "order": 21,
-      "path": "api/lua/v5/cookbook/monsters.md"
-    },
-    {
       "id": "architecture.subsystem-map",
       "title": "Subsystem map",
       "section": "Architecture",
       "order": 21,
       "path": "architecture/subsystem-map.md"
-    },
-    {
-      "id": "api.lua.cookbook.mapgen",
-      "title": "Mapgen and Structures Cookbook",
-      "section": "CCB Lua 0.1 Guides",
-      "order": 22,
-      "path": "api/lua/v5/cookbook/mapgen.md"
     },
     {
       "id": "architecture.design-principles",
@@ -1053,83 +836,6 @@
       "path": "governance/security-license.md"
     },
     {
-      "id": "api.lua.v5.overview",
-      "title": "CCB Lua 0.1 Overview",
-      "section": "CCB Lua 0.1",
-      "order": 90,
-      "path": "api/lua/v5/overview.md"
-    },
-    {
-      "id": "api.lua.v5.lifecycle",
-      "title": "Lua sources and lifecycle",
-      "section": "CCB Lua 0.1",
-      "order": 91,
-      "path": "api/lua/v5/lifecycle.md"
-    },
-    {
-      "id": "api.lua.v5.events",
-      "title": "Events, hooks, and callbacks",
-      "section": "CCB Lua 0.1",
-      "order": 92,
-      "path": "api/lua/v5/events.md"
-    },
-    {
-      "id": "api.lua.v5.capabilities",
-      "title": "Declaring capabilities",
-      "section": "CCB Lua 0.1",
-      "order": 93,
-      "path": "api/lua/v5/capabilities.md"
-    },
-    {
-      "id": "api.lua.v5.permissions",
-      "title": "Permission and trust model",
-      "section": "CCB Lua 0.1",
-      "order": 94,
-      "path": "api/lua/v5/permissions.md"
-    },
-    {
-      "id": "api.lua.v5.ui",
-      "title": "Portable Lua UI",
-      "section": "CCB Lua 0.1",
-      "order": 95,
-      "path": "api/lua/v5/ui.md"
-    },
-    {
-      "id": "api.lua.v5.debugging",
-      "title": "Lua debugging and contract validation",
-      "section": "CCB Lua 0.1",
-      "order": 96,
-      "path": "api/lua/v5/debugging.md"
-    },
-    {
-      "id": "api.lua.v5.performance",
-      "title": "Lua performance and resource bounds",
-      "section": "CCB Lua 0.1",
-      "order": 97,
-      "path": "api/lua/v5/performance.md"
-    },
-    {
-      "id": "api.lua.v5.migration",
-      "title": "Migrating to Lua API v5",
-      "section": "CCB Lua 0.1",
-      "order": 98,
-      "path": "api/lua/v5/migration.md"
-    },
-    {
-      "id": "api.lua.v5.changelog",
-      "title": "Lua API changelog",
-      "section": "CCB Lua 0.1",
-      "order": 99,
-      "path": "api/lua/v5/changelog.md"
-    },
-    {
-      "id": "api.lua.v5.example-mod",
-      "title": "Complete Lua API v5 example Mod",
-      "section": "CCB Lua 0.1",
-      "order": 100,
-      "path": "api/lua/v5/example-mod.md"
-    },
-    {
       "id": "cpp.character",
       "title": "Character subsystem",
       "section": "C++ subsystems",
@@ -1200,25 +906,11 @@
       "path": "cpp/mapgen.md"
     },
     {
-      "id": "api.lua.v5.reference.modules",
-      "title": "Module entry points",
-      "section": "CCB Lua 0.1 Reference",
-      "order": 110,
-      "path": "api/lua/v5/reference/modules.md"
-    },
-    {
       "id": "cpp.vehicles",
       "title": "Vehicles subsystem",
       "section": "C++ subsystems",
       "order": 110,
       "path": "cpp/vehicles.md"
-    },
-    {
-      "id": "api.lua.v5.reference.namespaces",
-      "title": "Namespaces",
-      "section": "CCB Lua 0.1 Reference",
-      "order": 111,
-      "path": "api/lua/v5/reference/namespaces.md"
     },
     {
       "id": "cpp.crafting",
@@ -1228,25 +920,11 @@
       "path": "cpp/crafting.md"
     },
     {
-      "id": "api.lua.v5.reference.classes",
-      "title": "Classes and records",
-      "section": "CCB Lua 0.1 Reference",
-      "order": 112,
-      "path": "api/lua/v5/reference/classes.md"
-    },
-    {
       "id": "cpp.mutations",
       "title": "Mutations subsystem",
       "section": "C++ subsystems",
       "order": 112,
       "path": "cpp/mutations.md"
-    },
-    {
-      "id": "api.lua.v5.reference.functions",
-      "title": "Functions",
-      "section": "CCB Lua 0.1 Reference",
-      "order": 113,
-      "path": "api/lua/v5/reference/functions.md"
     },
     {
       "id": "cpp.effects",
@@ -1256,25 +934,11 @@
       "path": "cpp/effects.md"
     },
     {
-      "id": "api.lua.v5.reference.methods",
-      "title": "Methods",
-      "section": "CCB Lua 0.1 Reference",
-      "order": 114,
-      "path": "api/lua/v5/reference/methods.md"
-    },
-    {
       "id": "cpp.activities",
       "title": "Activities subsystem",
       "section": "C++ subsystems",
       "order": 114,
       "path": "cpp/activities.md"
-    },
-    {
-      "id": "api.lua.v5.reference.properties",
-      "title": "Properties",
-      "section": "CCB Lua 0.1 Reference",
-      "order": 115,
-      "path": "api/lua/v5/reference/properties.md"
     },
     {
       "id": "cpp.ui",
@@ -1284,25 +948,11 @@
       "path": "cpp/ui.md"
     },
     {
-      "id": "api.lua.v5.reference.operators",
-      "title": "Operators",
-      "section": "CCB Lua 0.1 Reference",
-      "order": 116,
-      "path": "api/lua/v5/reference/operators.md"
-    },
-    {
       "id": "cpp.input",
       "title": "Input subsystem",
       "section": "C++ subsystems",
       "order": 116,
       "path": "cpp/input.md"
-    },
-    {
-      "id": "api.lua.v5.reference.enums",
-      "title": "Enum families",
-      "section": "CCB Lua 0.1 Reference",
-      "order": 117,
-      "path": "api/lua/v5/reference/enums.md"
     },
     {
       "id": "cpp.save",
@@ -1312,25 +962,11 @@
       "path": "cpp/save.md"
     },
     {
-      "id": "api.lua.v5.reference.events",
-      "title": "Native events",
-      "section": "CCB Lua 0.1 Reference",
-      "order": 118,
-      "path": "api/lua/v5/reference/events.md"
-    },
-    {
       "id": "cpp.mod-loading",
       "title": "Mod-loading subsystem",
       "section": "C++ subsystems",
       "order": 118,
       "path": "cpp/mod-loading.md"
-    },
-    {
-      "id": "api.lua.v5.reference.hooks",
-      "title": "Native hooks",
-      "section": "CCB Lua 0.1 Reference",
-      "order": 119,
-      "path": "api/lua/v5/reference/hooks.md"
     },
     {
       "id": "cpp.lua-bridge",
@@ -1340,39 +976,11 @@
       "path": "cpp/lua-bridge.md"
     },
     {
-      "id": "api.lua.v5.reference.callbacks",
-      "title": "Callback actors",
-      "section": "CCB Lua 0.1 Reference",
-      "order": 120,
-      "path": "api/lua/v5/reference/callbacks.md"
-    },
-    {
       "id": "cpp.localization",
       "title": "Localization runtime",
       "section": "C++ subsystems",
       "order": 120,
       "path": "cpp/localization.md"
-    },
-    {
-      "id": "api.lua.v5.reference.capabilities",
-      "title": "Capabilities",
-      "section": "CCB Lua 0.1 Reference",
-      "order": 121,
-      "path": "api/lua/v5/reference/capabilities.md"
-    },
-    {
-      "id": "api.lua.v5.reference.permissions",
-      "title": "Permission model",
-      "section": "CCB Lua 0.1 Reference",
-      "order": 122,
-      "path": "api/lua/v5/reference/permissions.md"
-    },
-    {
-      "id": "api.lua.v5.reference.manifest-fields",
-      "title": "Manifest fields",
-      "section": "CCB Lua 0.1 Reference",
-      "order": 123,
-      "path": "api/lua/v5/reference/manifest-fields.md"
     },
     {
       "id": "json.overview",

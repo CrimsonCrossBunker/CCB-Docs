@@ -3,7 +3,7 @@ source_commit: null
 updated_by: null
 updated_at: null
 contracts:
-  lua-v5: null
+  lua-platform-v1: null
   json-object-types: null
   eoc-conditions: null
   eoc-effects: null

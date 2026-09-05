@@ -3,8 +3,8 @@
 id: api.lua.v5.events
 title: Events, hooks, and callbacks
 language: en
-status: active
-doc_type: explanation
+status: archived
+doc_type: archive
 audiences:
 - mod-author
 - api-user
@@ -28,16 +28,16 @@ source_symbols:
 - game.native_events
 source_queries: []
 source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
-authority: api-contract
+authority: historical
 verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
 verified_at: '2026-08-02'
-generated: false
-generated_by: null
-include_in_search: true
-include_in_ai_index: true
+generated: true
+generated_by: scripts/generate_retired_lua_pages.py
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: c5889f704d092b0f46fdbdd8d00c81ebf6e80985b50a1fcb935f1a4814f2ca12
+translation_source_fingerprint: bcba015902daab057c1ed121fd4c8a13496c595a0a0489d682aa82fa209f983a
 prerequisites:
 - api.lua.v5.lifecycle
 depends_on:
@@ -50,8 +50,8 @@ license: CC-BY-SA-3.0
 attribution: CCB contributors; generated contract and source paths at the verified commit.
 example_validation_ids: []
 api_version: '5'
-deprecated: false
-deprecation_replacement: null
+deprecated: true
+deprecation_replacement: api.lua.v1.overview
 risk_group: lua-api
 risk_level: high
 pending_source_pr: null
@@ -77,53 +77,14 @@ source_urls:
 - path: tools/lua_api/README.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/tools/lua_api/README.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.events%29%3A+&body=Document+ID%3A+api.lua.v5.events%0ALanguage%3A+en%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
-# Events, hooks, and callbacks
+# Lua API v5 has been retired
 
-Lua v5 has four notification/extension surfaces that are easy to confuse. Choose by
-ownership and call direction first, then inspect the generated contract.
+This URL preserves an old link. API v5, `game.*`, and the JSON manifest have been removed and cannot be used for current CCB Mods.
 
-| Surface | Registration | Purpose | Can a return affect native flow? |
-| --- | --- | --- | --- |
-| Custom/lifecycle event | `events.on` | source messages and CCB lifecycle | `false` stops this propagation |
-| Native event bus | `game.native_events.on` | 113 schema-described game events | observe; emission is separate and strict |
-| Native hook | `game.hooks.on` | 52 explicit native boundaries | intercept hooks may return declared fields |
-| Definition callback | `game.callbacks.register` | attach methods to 11 JSON definition kinds | per-method decision/consuming contract |
+Start with [Lua Platform v1](../v1/overview.md) and use `require("ccb")`.
 
-## Custom events
-
-A plain event name is source-local. To observe a dependency, declare it first and use
-`events.on_from`. Payloads accept bounded string keys and copied scalar values; do not use
-events to transfer tables, functions, userdata, or handles.
-
-```lua
-events.on("quest_updated", function(event)
-    game.add_msg(event.data.quest_id .. ":" .. tostring(event.data.stage))
-end)
-events.emit("quest_updated", { quest_id = "intro", stage = 2 })
-```
-
-## Native events
-
-Discover names and fields with `game.native_events.list()`/`describe(name)` rather than
-guessing. Subscription payloads carry the event type, turn, and typed fields. `emit` is
-callback-scoped and requires the exact field set, correct Lua types, and `events` plus
-`game.read` plus `game.write`.
-
-## Hooks
-
-A hook description gives its mode, payload, returns, and capabilities. Observe hooks ignore
-returns; intercept hooks accept only declared result fields. Higher priorities run first and
-equal priorities preserve registration order. An erroring or over-budget handler disables
-only itself.
-
-## Callback actors
-
-Kinds are `iuse`, `iwieldable`, `iwearable`, `iequippable`, `istate`, `imelee`, `iranged`,
-`bionic`, `mutation`, `trap`, and `monster`. Registrations bind to a target id, source, and
-hot-reload transaction. When native C++ invokes Lua, it restores the registering source's
-permission identity.
-
-See [native events](reference/events.md), [hooks](reference/hooks.md), and
-[callbacks](reference/callbacks.md) for every name, field, decision/consuming flag, and source.
+[Read the previous documentation](https://github.com/CrimsonCrossBunker/CCB-Docs/blob/fd69d0f47ce95fb8e707162b4bac453a2a44ff2b/docs/en/api/lua/v5/events.md) for historical reference only.

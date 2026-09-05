@@ -3,8 +3,8 @@
 id: api.lua.v5.migration
 title: 迁移到 Lua API v5
 language: zh_CN
-status: active
-doc_type: how-to
+status: archived
+doc_type: archive
 audiences:
 - mod-author
 - api-user
@@ -28,16 +28,16 @@ source_symbols:
 - game.state_get
 source_queries: []
 source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
-authority: api-contract
+authority: historical
 verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
 verified_at: '2026-08-02'
-generated: false
-generated_by: null
-include_in_search: true
-include_in_ai_index: true
+generated: true
+generated_by: scripts/generate_retired_lua_pages.py
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: c8a8f098d63c7f79ce5c0ab4a7464e05da60693906e8a2215cfc398aecd0e3e8
+translation_source_fingerprint: b69d0ea50beb9da0856e565202316b5e644b6b57f6e21c21237542593f67222b
 prerequisites:
 - api.lua.v5.overview
 depends_on:
@@ -50,8 +50,8 @@ license: CC-BY-SA-3.0
 attribution: CCB contributors; generated contract and source paths at the verified commit.
 example_validation_ids: []
 api_version: '5'
-deprecated: false
-deprecation_replacement: null
+deprecated: true
+deprecation_replacement: api.lua.v1.overview
 risk_group: lua-api
 risk_level: high
 pending_source_pr: null
@@ -77,41 +77,14 @@ source_urls:
 - path: tools/lua_api/README.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/tools/lua_api/README.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28api.lua.v5.migration%29%3A+&body=Document+ID%3A+api.lua.v5.migration%0ALanguage%3A+zh_CN%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
-# 迁移到 Lua API v5
+# Lua API v5 已停用
 
-API v2–v4 Manifest 仍可使用其原有表面；新代码应显式迁移到 v5，不要依赖无 Manifest
-的兼容 capability。
+此网址仅用于保留旧链接。旧 API v5、`game.*` 和 JSON Manifest 已移除，不能用于当前 CCB MOD。
 
-## 迁移步骤
+请从 [Lua Platform v1 入门](../v1/overview.md) 开始，使用 `require("ccb")`。
 
-1. 将 `api_version` 设为 `5`，用当前 `manifest.schema.json` 校验。
-2. 从实际调用推导最小 capability；写操作增加 `game.write`（同时需要 `game.read`）。
-3. 把 API v2/v3 的跨来源 `require` 假设改为本地 `require`，跨来源改用声明依赖后的
-   `modules.import` 或版本化 `services`。
-4. 把长期保存的原生对象假设改为类型化值、分离快照、token 或 `GameHandle`；使用前
-   检查代次/有效性。
-5. 把直接修改改为受校验的 v5 service 或 `game.actions` 请求，并处理结果 envelope。
-6. 把 `game.state_get/state_set` 迁移到明确的 `state.character`、`state.world` 或
-   `state.page` scope。
-7. 页面用 descriptor 和稳定控件 `_id`；用 `ctx:environment()` 判断输入/布局，不能用
-   `ctx:platform()` 区分触摸与桌面。
-8. 把 Android HUD 假设移除：跨平台入口使用 `ui.page`，PC-only 信息才用 `sidebar`。
-9. 对照生成参考更新所有参数、返回值和错误处理，运行完整契约与示例测试。
-
-## 兼容点
-
-- API v4/v5 的 `require` 仅当前来源；API v2/v3 保留旧反向加载顺序查找。
-- `ui.page` 字符串标题形式仍可用，但 descriptor 明确 slot，适合新代码。
-- `game.player_stats()` 等兼容别名可能保留；新代码应使用生成参考中的当前名称。
-- `ctx:platform()` 仅保留 API v2 诊断用途。
-- `game.state_get/state_set` 是 API v2 的角色级、旧式未分 scope 状态。
-
-## 完成标准
-
-- Manifest Schema 通过，Mod id/Manifest id 一致。
-- 所有调用都在[函数](reference/functions.md)/[方法](reference/methods.md)参考中存在。
-- 没有保存 `ctx`、裸对象或跨代次句柄。
-- 热重载失败时旧 runtime 可继续运行，成功后持久状态符合预期。
-- [完整示例 Mod](example-mod.md)和[调试命令](debugging.md)可作为最小基线。
+[查看停用前的历史文档](https://github.com/CrimsonCrossBunker/CCB-Docs/blob/fd69d0f47ce95fb8e707162b4bac453a2a44ff2b/docs/zh_CN/api/lua/v5/migration.md)（仅供历史查阅）。
