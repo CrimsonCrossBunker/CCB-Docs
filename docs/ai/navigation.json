@@ -407,6 +407,13 @@
       "path": "cpp/mod-loading.md"
     },
     {
+      "id": "cpp.lua-bridge",
+      "title": "Native Lua bridge",
+      "section": "C++ 子系统",
+      "order": 119,
+      "path": "cpp/lua-bridge.md"
+    },
+    {
       "id": "cpp.localization",
       "title": "本地化运行时",
       "section": "C++ 子系统",
@@ -960,6 +967,13 @@
       "section": "C++ subsystems",
       "order": 118,
       "path": "cpp/mod-loading.md"
+    },
+    {
+      "id": "cpp.lua-bridge",
+      "title": "Native Lua bridge",
+      "section": "C++ subsystems",
+      "order": 119,
+      "path": "cpp/lua-bridge.md"
     },
     {
       "id": "cpp.localization",

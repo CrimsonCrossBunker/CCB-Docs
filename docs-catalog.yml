@@ -7278,7 +7278,7 @@ pages:
   title: Native Lua bridge
   language: zh_CN
   path: cpp/lua-bridge.md
-  status: draft
+  status: active
   doc_type: reference
   audiences: &id408
   - experienced-contributor
@@ -7333,12 +7333,12 @@ pages:
   - python3 tools/lua_api/check_cmake_contract.py
   source_fingerprint: 1151c25bcfbd563323b5004b700f649ecf7d58cf4637d9563e8db2bc84e1a6bd
   authority: api-contract
-  verified_commit: 71bfdf23ba26594efbc57797fb6bfb6cf497af82
+  verified_commit: f2821e0bf31ba12879672cc06f111a2e6fc5bc13
   verified_at: '2026-09-06'
   generated: false
   generated_by: null
-  include_in_search: false
-  include_in_ai_index: false
+  include_in_search: true
+  include_in_ai_index: true
   translation_group: cpp.lua-bridge
   translation_status: current
   translation_stale_since: null
@@ -7357,7 +7357,7 @@ pages:
   deprecation_replacement: null
   risk_group: lua-api
   risk_level: high
-  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/743
+  pending_source_pr: null
   stale_reason: null
   nav:
     section: C++ 子系统
@@ -7366,7 +7366,7 @@ pages:
   title: Native Lua bridge
   language: en
   path: cpp/lua-bridge.md
-  status: draft
+  status: active
   doc_type: reference
   audiences: *id408
   owners: *id001
@@ -7378,12 +7378,12 @@ pages:
   source_queries: *id411
   source_fingerprint: 1151c25bcfbd563323b5004b700f649ecf7d58cf4637d9563e8db2bc84e1a6bd
   authority: api-contract
-  verified_commit: 71bfdf23ba26594efbc57797fb6bfb6cf497af82
+  verified_commit: f2821e0bf31ba12879672cc06f111a2e6fc5bc13
   verified_at: '2026-09-06'
   generated: false
   generated_by: null
-  include_in_search: false
-  include_in_ai_index: false
+  include_in_search: true
+  include_in_ai_index: true
   translation_group: cpp.lua-bridge
   translation_status: current
   translation_stale_since: null
@@ -7400,7 +7400,7 @@ pages:
   deprecation_replacement: null
   risk_group: lua-api
   risk_level: high
-  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/743
+  pending_source_pr: null
   stale_reason: null
   nav:
     section: C++ subsystems
