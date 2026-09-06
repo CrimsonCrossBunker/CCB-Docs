@@ -7312,6 +7312,9 @@ pages:
   - tools/lua_api/generate_platform_native_inventory.py
   - tools/lua_api/test_check_cmake_contract.py
   - tests/lua_platform_test.cpp
+  - tools/create_lua_mod.py
+  - tools/lua_api/mod_sdk.py
+  - data/lua/LUA_FIRST_EOC_WORKFLOW.md
   source_symbols: &id410
   - platform_version = 1
   - initialize_state(
@@ -7328,10 +7331,10 @@ pages:
   - '-DCATA_ENABLE_LUA_PLATFORM="${CATA_ENABLE_LUA_PLATFORM:-1}"'
   - -DCATA_ENABLE_LUA_PLATFORM=ON
   - python3 tools/lua_api/check_cmake_contract.py
-  source_fingerprint: 1e0cd7300f0352381de0ea3414d9a48bacf7ee61d0d9f2da78132498776f7100
+  source_fingerprint: 1151c25bcfbd563323b5004b700f649ecf7d58cf4637d9563e8db2bc84e1a6bd
   authority: api-contract
-  verified_commit: 9773fd98a173b617e066ee68a85fdbed72e0bbba
-  verified_at: '2026-08-31'
+  verified_commit: f2821e0bf31ba12879672cc06f111a2e6fc5bc13
+  verified_at: '2026-09-06'
   generated: false
   generated_by: null
   include_in_search: true
@@ -7339,7 +7342,7 @@ pages:
   translation_group: cpp.lua-bridge
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 6e0a39ccb8ab876b10c0e1465e61ba9f51336c05b84f4e7a83e72dea68925144
+  translation_source_fingerprint: 25efd3c9c2010db1c3336a07a30985f7440900a209ba3fdff555fe91c71245d1
   prerequisites: &id412
   - cpp.mod-loading
   depends_on: &id413 []
@@ -7373,10 +7376,10 @@ pages:
   source_paths: *id409
   source_symbols: *id410
   source_queries: *id411
-  source_fingerprint: 1e0cd7300f0352381de0ea3414d9a48bacf7ee61d0d9f2da78132498776f7100
+  source_fingerprint: 1151c25bcfbd563323b5004b700f649ecf7d58cf4637d9563e8db2bc84e1a6bd
   authority: api-contract
-  verified_commit: 9773fd98a173b617e066ee68a85fdbed72e0bbba
-  verified_at: '2026-08-31'
+  verified_commit: f2821e0bf31ba12879672cc06f111a2e6fc5bc13
+  verified_at: '2026-09-06'
   generated: false
   generated_by: null
   include_in_search: true
@@ -7384,7 +7387,7 @@ pages:
   translation_group: cpp.lua-bridge
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 6e0a39ccb8ab876b10c0e1465e61ba9f51336c05b84f4e7a83e72dea68925144
+  translation_source_fingerprint: 25efd3c9c2010db1c3336a07a30985f7440900a209ba3fdff555fe91c71245d1
   prerequisites: *id412
   depends_on: *id413
   redirect_from: *id003
