@@ -83,7 +83,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/743
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/
 alternate_urls:
