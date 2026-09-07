@@ -68,7 +68,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: aea9f69efb6ccb2b0a443617873e8455f39663442472dde6d449b3109a4d0b4c
+translation_source_fingerprint: 9d3b9083f19658b5fc897f1ce44a23c54975d9ce9b396ec32989799ef6780a06
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -312,8 +312,10 @@ build job；artifact 发布 workflow 只消费这些 job 的结果，不得反�
 [#758](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/758)、
 [#759](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/759)、
 [#760](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/760)、
-[#761](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/761) 和
-[#762](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/762)。
+[#761](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/761)、
+[#762](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/762)、
+[#763](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/763) 和
+[#764](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/764)。
 尚未编译或进行原生验收；本页的 `verified_commit` 保留此前已核对的源码基线，
 不能用它证明下列草稿能力已发布。配套源码合并并验收后，才可更新本页证据并发布。
 
@@ -394,6 +396,20 @@ python3 tools/lua_api/mod_sdk.py compare-release /path/MyMod --declarations /pat
 或对象是否仍存活。
 #757 可直接对比目标游戏附带的声明文件，不需要先创建第二个 Mod 项目；比较不会更新 SDK，
 也不能证明原生行为或存档兼容。
+
+### 运行时状态检查与存档边界
+
+#763 提供 `ccb.state.world.keys(after_key?, limit?)` 及角色作用域版本，
+在 `world_ready` 后返回所属 Mod 的状态键副本，不包含值。默认每页 20 项，范围 1–200；
+按字节字典序排列，游标为排他的字符串键，无须仍存在于状态中。结果包含
+`items`、`total`、`matched`、`returned`、`limit`、`truncated`，仅在还有下一页时提供
+`next_after`。键可包含 NUL；保留游标原值传回，不要按显示文本重建。
+每次调用都是新快照，分页期间键发生变化时应重新开始。修改返回表不会修改状态。
+
+#764 保留原有 1 MiB 状态编码及 16 MiB 运行时作用域文件限制，在临时 JSON
+编码过程中即拒绝超限，不再先构造完整超大输出。超限不会开始写入目标；这不承诺
+多个作用域文件之间的事务，也不是 Lua 进程的总内存限制。两项草稿均只有原生测试源码，
+尚未编译或完成运行时验收。
 
 ### 运行时与物品文本翻译
 

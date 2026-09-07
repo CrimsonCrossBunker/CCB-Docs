@@ -68,7 +68,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: aea9f69efb6ccb2b0a443617873e8455f39663442472dde6d449b3109a4d0b4c
+translation_source_fingerprint: 9d3b9083f19658b5fc897f1ce44a23c54975d9ce9b396ec32989799ef6780a06
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -337,8 +337,10 @@ This section accompanies source drafts [#755](https://github.com/CrimsonCrossBun
 [#758](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/758),
 [#759](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/759),
 [#760](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/760),
-[#761](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/761) and
-[#762](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/762).
+[#761](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/761),
+[#762](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/762),
+[#763](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/763) and
+[#764](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/764).
 No native build or acceptance has run. This page retains its previously checked
 `verified_commit` as a baseline, not evidence that these draft capabilities ship.
 Refresh the evidence and publish only after source merge and acceptance.
@@ -437,6 +439,25 @@ total and matched counts separately. It does not execute
 Lua, load a world, edit saves or establish handler availability/object liveness.
 #757 compares against the target game's declaration file directly, without a
 second Mod scaffold. It neither updates the SDK nor proves native/save compatibility.
+
+### Live state inspection and save boundaries
+
+#763 adds `ccb.state.world.keys(after_key?, limit?)` and its character-scope
+counterpart after `world_ready`. They return copied keys owned by the Mod, without
+values. The default page size is 20, with a range of 1–200. Keys use bytewise
+lexicographic order and an exclusive string cursor that need not still exist.
+Results contain `items`, `total`, `matched`, `returned`, `limit`, and `truncated`;
+`next_after` is present only when another page exists. Keys may contain NUL: pass
+the original cursor back rather than reconstructing it from displayed text.
+Each call takes a fresh snapshot; restart pagination if keys change between calls.
+Editing a returned table does not mutate state.
+
+#764 retains the existing 1 MiB state-codec and 16 MiB runtime-scope file limits,
+but rejects excess output during temporary JSON encoding instead of constructing
+the entire oversized result first. Limit failure occurs before destination writes.
+This is neither a transaction across scope files nor a process-wide Lua memory
+limit. Both drafts have native regression source only; compilation and runtime
+acceptance remain pending.
 
 ### Runtime and Item text translation
 
