@@ -68,7 +68,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: adef9efe85935220ae1f555ce5274ff58e66fe390eece32fda859aa4555dd5f3
+translation_source_fingerprint: ce7308d0ad0d4362f6d6cd609a97e4a741c4fc057f506378f1bc23c8c970f461
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -157,7 +157,7 @@ CCB 只支持 Lua-first Platform v1。Mod 通过 `require("ccb")` 获得包内 `
 模型以及 `game.*` 兼容入口都不属于当前 bridge，也不得作为第二套运行时恢复。
 
 Platform 是受信任的进程内扩展边界，不是进程级沙箱。loader 为每个 Mod 创建独立 Lua
-state，并限制模块解析和公开 native surface；引擎继续拥有原生对象、registries 和生命周期。
+state，维护所属 Mod 的 `ccb` 入口；引擎继续拥有原生对象、registries 和生命周期。
 Lua 侧只通过 Platform v1 声明的 value、snapshot 和代际检查 handle 访问这些对象。
 
 ## 公共入口与生命周期
@@ -308,15 +308,19 @@ build job；artifact 发布 workflow 只消费这些 job 的结果，不得反�
 
 本节对应源码草稿 [#755](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/755)、
 [#756](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/756)、
-[#757](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/757) 和
-[#758](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/758)。
+[#757](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/757)、
+[#758](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/758)、
+[#759](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/759) 和
+[#760](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/760)。
 尚未编译或进行原生验收；本页的 `verified_commit` 保留此前已核对的源码基线，
 不能用它证明下列草稿能力已发布。配套源码合并并验收后，才可更新本页证据并发布。
 
 ### 加载与失败诊断
 
 #755 的实现开放完整标准库与普通 `package` 搜索器。Mod 本地搜索器优先，其他模块保留
-Lua 5.4 的缓存、预加载与 loader-data 返回语义；`require("ccb")` 始终返回该 Mod 的
+Lua 5.4 的缓存、预加载与 loader-data 返回语义。原生路径优先搜索 Mod 根目录的
+`?.so`（Windows 为 `?.dll`），并保留原始路径；目录含 `;` 或 `?` 时改用明确的
+`package.loadlib` 路径，避免 cpath 语法歧义。`require("ccb")` 始终返回该 Mod 的
 Platform 表。加载原生模块要求匹配宿主的系统、架构与 Lua C ABI，不能链接另一个 Lua
 运行时。配置修改不等于真实 DLL/SO 已经加载成功；Windows 打包和各平台原生库验收仍待完成。
 
@@ -326,19 +330,35 @@ Platform 表。加载原生模块要求匹配宿主的系统、架构与 Lua C A
 首次 `require` 的第二个返回值被误当成多份元数据。
 
 加载错误保留 Mod、阶段、文件与 Lua 原始错误。回调错误增加事件／钩子名称；任务错误增加
-任务 ID、作用域和到期回合，便于定位同一 handler 的不同调用实例。存档失败回滚不保证撤销
+任务 ID、作用域和到期回合，便于定位同一 handler 的不同调用实例。Platform 回滚不保证撤销
 可信 Lua 代码对用户文件、系统或外部服务造成的副作用。
+
+### 游戏内脚本重载
+
+#760 提供“调试菜单 → 游戏 → 重新加载 Lua Mod 脚本”，也可通过调试动作搜索找到。
+它复用已有替换后端；活动 Lua 尚未返回时拒绝重入，静态定义改变时要求重启游戏。
+准备失败时保留原注册表，错误会在界面显示。成功只表示脚本注册表已替换，应继续检查
+消息日志中的回调错误。菜单集成和重入回归测试源码尚未进行原生验收。
+
+缺失 handler 或 payload 迁移失败会按已有规则丢弃对应持久任务。#755 在消息日志中汇总
+每个 Mod 的丢弃数量，具体任务和原因仍在 `debug.log`；应在任务处理前提供迁移。
+存档加载失败也会标出作用域、Mod、任务序号与任务 ID，便于用下方工具定位。
+#759 修复了保存的角色循环到期回合从浮点数转整数时的范围检查，阻止 `2^63` 越界转换；
+这项实现及边界回归测试同样尚未编译运行。
 
 ### 读取存档和对比目标 SDK
 
 ```sh
 python3 tools/lua_api/inspect_state.py /path/world/lua_platform_world.json --mod MyMod
+python3 tools/lua_api/inspect_state.py /path/world/lua_platform_world.json --mod MyMod --task 225
 python3 tools/lua_api/mod_sdk.py compare-release /path/MyMod --declarations /path/game/data/lua/types/ccb_platform_v1.d.lua
 ```
 
 #756 的检查器只读取指定存档文件，汇总状态键、任务、参与者、到期回合和保存的定位提示。
 `--values` 才显示状态与 payload 值；`--limit` 限制每个列表的展示数量，同时保留总数。
-它不执行 Lua、不载入世界、不修改存档，也不能判断当前 handler 是否存在或对象是否仍存活。
+`--mod ID --task N` 可直接查询日志中的任务 ID，包括列表显示上限之后的记录；总数和
+匹配数分开报告。它不执行 Lua、不载入世界、不修改存档，也不能判断 handler 是否存在
+或对象是否仍存活。
 #757 可直接对比目标游戏附带的声明文件，不需要先创建第二个 Mod 项目；比较不会更新 SDK，
 也不能证明原生行为或存档兼容。
 

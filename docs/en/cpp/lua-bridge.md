@@ -68,7 +68,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: adef9efe85935220ae1f555ce5274ff58e66fe390eece32fda859aa4555dd5f3
+translation_source_fingerprint: ce7308d0ad0d4362f6d6cd609a97e4a741c4fc057f506378f1bc23c8c970f461
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -159,8 +159,7 @@ and the `game.*` compatibility entry are not part of this bridge and must not re
 runtime.
 
 Platform is a trusted in-process extension boundary, not a process-level sandbox. The loader
-creates an isolated Lua state for each Mod and restricts module resolution and the exposed native
-surface. The engine continues to own native objects, registries, and lifetimes; Lua reaches them
+creates a separate Lua state and owner-specific `ccb` entry for each Mod. The engine continues to own native objects, registries, and lifetimes; Lua reaches them
 only through the values, snapshots, and generation-checked handles declared by Platform v1.
 
 ## Public entry and lifecycle
@@ -334,8 +333,10 @@ with cached static engine definitions, not manual UI or full process-restart acc
 
 This section accompanies source drafts [#755](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/755),
 [#756](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/756),
-[#757](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/757) and
-[#758](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/758).
+[#757](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/757),
+[#758](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/758),
+[#759](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/759) and
+[#760](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/760).
 No native build or acceptance has run. This page retains its previously checked
 `verified_commit` as a baseline, not evidence that these draft capabilities ship.
 Refresh the evidence and publish only after source merge and acceptance.
@@ -344,7 +345,9 @@ Refresh the evidence and publish only after source merge and acceptance.
 
 #755 opens all standard libraries and retains normal `package` searchers. The
 Mod-local searcher runs first; other modules retain Lua 5.4 cache, preload and
-loader-data return semantics. `require("ccb")` always returns that Mod's Platform
+loader-data return semantics. Native paths start with the Mod root’s `?.so`
+(`?.dll` on Windows), retaining original paths. Roots containing `;` or `?` use
+explicit `package.loadlib` paths to avoid cpath grammar ambiguity. `require("ccb")` always returns that Mod's Platform
 table. Native modules must match the host OS, architecture and Lua C ABI, without
 linking another Lua runtime. Build configuration is not proof that a real DLL/SO
 loads; Windows packaging and native loading on each platform still need acceptance.
@@ -357,19 +360,39 @@ Lua 5.4's second return value on the first `require` call.
 
 Load errors preserve owner, stage, source path and original Lua error. Callback
 errors name the triggering event/hook; task errors include task ID, scope and due
-turn, distinguishing uses of the same handler. Save-failure rollback cannot undo
+turn, distinguishing uses of the same handler. Platform rollback cannot undo
 trusted Lua code's side effects on user files, the OS or external services.
+
+### Reload scripts inside the game
+
+#760 adds **Debug menu → Game → Reload Lua Mod scripts**, also available through
+debug-action search. It reuses the existing replacement backend, rejects
+reentry while Lua is executing and requires a restart for changed static
+definitions. Preparation failures retain previous registrations and show the
+error. Success means registration replacement; check the message log for
+callback failures. The UI and reentry regression source still need native acceptance.
+
+Missing handlers and failed payload migrations already discard the affected
+persistent tasks. #755 summarizes each Mod's discard count in the message log;
+`debug.log` retains task-specific reasons. Supply migrations before task
+processing. Save-load errors also identify scope, Mod, task index and task ID,
+which can be inspected below. #759 corrects the floating-to-integer range check
+for saved Character recurrence due turns, rejecting `2^63` before conversion.
+That implementation and its boundary regression source have not been compiled or run.
 
 ### Inspect a save and compare the target SDK
 
 ```sh
 python3 tools/lua_api/inspect_state.py /path/world/lua_platform_world.json --mod MyMod
+python3 tools/lua_api/inspect_state.py /path/world/lua_platform_world.json --mod MyMod --task 225
 python3 tools/lua_api/mod_sdk.py compare-release /path/MyMod --declarations /path/game/data/lua/types/ccb_platform_v1.d.lua
 ```
 
 #756 reads only the named save file, summarizing state keys, tasks, participants,
 due turns and saved location hints. State/payload values require `--values`;
-`--limit` caps each displayed list while retaining totals. It does not execute
+`--limit` caps each displayed list while retaining totals. `--mod ID --task N`
+finds a logged task directly, including records beyond display limits, reporting
+total and matched counts separately. It does not execute
 Lua, load a world, edit saves or establish handler availability/object liveness.
 #757 compares against the target game's declaration file directly, without a
 second Mod scaffold. It neither updates the SDK nor proves native/save compatibility.
