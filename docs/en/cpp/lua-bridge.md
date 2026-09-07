@@ -68,7 +68,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 25efd3c9c2010db1c3336a07a30985f7440900a209ba3fdff555fe91c71245d1
+translation_source_fingerprint: 57975b5e0043b2f88ae8b16f4320111089e3bfc5830b7b5b3a325e6e5e1208d7
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -300,3 +300,31 @@ behavior. Artifact names, archive formats, retention, PR-comment links, and even
 success cannot prove Platform correctness. Contract evidence comes from the source, checkers, and
 build jobs above; the artifact-publishing workflow only consumes those results and must not define
 the runtime in reverse.
+
+## Pending merge: 50-selector semantic acceptance and persistent tonic
+
+This section accompanies source branch `codex/lua-semantic-acceptance` and takes
+effect when its source PR merges. The batch establishes bounded evidence for 50
+selected EOC selectors, not replacement of all 586 entries. Eight mutation writes
+intentionally differ: the migrator retains `semantic_choice` so authors choose
+the intended gameplay semantics explicitly.
+
+- `services.skills.offered(teacher, student)` returns a `CcbResult` whose `value`
+  contains `items` (at most 256 skill IDs), `total`, `returned`, and `truncated`.
+  Teaching uses the student's knowledge level. Both arguments require valid
+  Character handles.
+- Teaching and visible-mutation queries require both proven participants.
+  Unknown partners remain migration TODOs; they are not inferred as the avatar,
+  and teaching conditions are not replaced with a constant `false`.
+- Effect addition preserves native zero-duration and signed-intensity semantics;
+  a negative intensity is not a delta. Morale range migration uses the native
+  integer bounds, including bounds written in reverse order.
+- The `Lua_First_Example` tonic consumes a capacitor cell, starts three stamina
+  pulses through a native effect event, and persists cooldown and remaining
+  tasks. Native tests check avatar files, fresh Lua state restoration, and the
+  absence of duplicate pulses.
+
+Evidence lives in the source repository's `tests/lua_platform_*_semantics_test.cpp`,
+`tests/lua_platform_mutations_test.cpp`, `tests/lua_platform_effects_test.cpp`, and
+`tests/lua_platform_tonic_lifecycle_test.cpp`. These are native integration tests
+with cached static engine definitions, not manual UI or full process-restart acceptance.

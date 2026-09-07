@@ -68,7 +68,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 25efd3c9c2010db1c3336a07a30985f7440900a209ba3fdff555fe91c71245d1
+translation_source_fingerprint: 57975b5e0043b2f88ae8b16f4320111089e3bfc5830b7b5b3a325e6e5e1208d7
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -279,3 +279,25 @@ PR artifacts 是成功 build 的下载副本和结果导航，用于人工试用
 ABI、loader、生命周期或运行时行为契约。artifact 名称、压缩格式、保留期、PR comment 链接，
 甚至可选上传是否成功，都不能作为 Platform 正确性的证明。契约证据来自上述源码、检查器与
 build job；artifact 发布 workflow 只消费这些 job 的结果，不得反向定义运行时。
+
+## 待合并：50 项语义验收与持续药剂示例
+
+本节对应源码分支 `codex/lua-semantic-acceptance`，随配套源码 PR 合并后生效。
+本批只为选定的 50 个 EOC selector 建立有界验收证据，不代表全部 586 项替代完成。
+其中 8 个突变写操作与旧行为不同，迁移器保留 `semantic_choice`，要求作者选择
+新的玩法语义；不会静默声称兼容。
+
+- `services.skills.offered(teacher, student)` 返回 `CcbResult`，其 `value` 包含
+  `items`（最多 256 个技能 ID）、`total`、`returned` 和 `truncated`。
+  教学依据学生的理论知识等级。双方必须是有效角色句柄。
+- 技能教学和可见突变查询必须有明确的双方角色；无法证明另一方时保留迁移提示，
+  不猜测为玩家，也不把教学条件直接替换为 `false`。
+- 效果添加保留零时长和有符号强度的原生含义；负强度不是增量操作。
+  士气区间迁移按原生上下界含义生成随机整数，支持反向书写的上下界。
+- `Lua_First_Example` 的药剂消耗一枚净化电池，通过原生效果事件启动三次耐力脉冲，
+  并保存冷却与剩余任务。原生测试验证角色文件及新 Lua 运行时的状态恢复和任务不重复。
+
+验收测试位于源码仓库的 `tests/lua_platform_*_semantics_test.cpp`、
+`tests/lua_platform_mutations_test.cpp`、`tests/lua_platform_effects_test.cpp` 和
+`tests/lua_platform_tonic_lifecycle_test.cpp`。这是原生集成证据；静态引擎定义在测试中
+保留缓存，不声称已完成手工 UI 验收或完整进程重启验收。
