@@ -68,7 +68,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 1534fd781a7a8ed933019e8f997c84877d3b9e4c29acaeb5840fcdedaf41dd3a
+translation_source_fingerprint: aea9f69efb6ccb2b0a443617873e8455f39663442472dde6d449b3109a4d0b4c
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -311,8 +311,9 @@ build job；artifact 发布 workflow 只消费这些 job 的结果，不得反�
 [#757](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/757)、
 [#758](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/758)、
 [#759](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/759)、
-[#760](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/760) 和
-[#761](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/761)。
+[#760](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/760)、
+[#761](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/761) 和
+[#762](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/762)。
 尚未编译或进行原生验收；本页的 `verified_commit` 保留此前已核对的源码基线，
 不能用它证明下列草稿能力已发布。配套源码合并并验收后，才可更新本页证据并发布。
 
@@ -346,6 +347,9 @@ Platform 表。加载原生模块要求匹配宿主的系统、架构与 Lua C A
 存档加载失败也会标出作用域、Mod、任务序号与任务 ID，便于用下方工具定位。
 #759 修复了保存的角色循环到期回合从浮点数转整数时的范围检查，阻止 `2^63` 越界转换；
 这项实现及边界回归测试同样尚未编译运行。
+
+#762 让物品指纹区分省略字段和显式默认值。例如继承物品省略 `mass_grams` 会保留来源重量，
+写入 `mass_grams = 0` 则覆盖重量；现在两者不会被指纹误判为同一种静态定义。原生测试仍待运行。
 
 ### Lua 控制台
 
@@ -391,7 +395,7 @@ python3 tools/lua_api/mod_sdk.py compare-release /path/MyMod --declarations /pat
 #757 可直接对比目标游戏附带的声明文件，不需要先创建第二个 Mod 项目；比较不会更新 SDK，
 也不能证明原生行为或存档兼容。
 
-### 运行时文本翻译
+### 运行时与物品文本翻译
 
 #758 草稿提供 `ccb.services.translate(text, context?)` 和
 `ccb.services.translate_plural(singular, plural, count, context?)`，在 `world_ready` 后
@@ -407,6 +411,22 @@ end)
 ccb.runtime.on("world_ready", "ready_text")
 ```
 
+物品名称与说明可使用静态文本值，供原生层在显示时翻译：
+
+```lua
+local ccb = require("ccb")
+ccb.content.add(ccb.content.Item {
+    id = "MyMod_water_bottle", mass_grams = 500, volume_ml = 500,
+    name = ccb.content.plural_text("bottle of water", "bottles of water", "MyMod item"),
+    description = ccb.content.text("A sealed bottle.", "MyMod description")
+})
+```
+
+这些不可变 `LocalizedText` 值保留源文本，不提前绑定当前语言。普通字符串继续不翻译，
+说明不接受复数值；`text` 用于名称时以相同源文本作为复数回退，不同复数使用 `plural_text`。
+源文本不能为空，输入不接受 NUL。继承保留省略的翻译字段，显式普通字符串替换它；
+翻译状态、上下文和复数改变都属于静态定义变化。当前只有物品名称与说明接收这些值。
+
 在 Mod 根目录运行提取工具，明确列出文件：
 
 ```sh
@@ -414,12 +434,13 @@ python3 /path/CCB/tools/lua_api/extract_translations.py main.lua --output messag
 python3 /path/CCB/tools/lua_api/extract_translations.py main.lua --output messages.pot --check
 ```
 
-工具调用 GNU `xgettext`，不执行 Lua。保持完整 `ccb.services` 调用名与字面量文本／上下文；
+工具调用 GNU `xgettext`，不执行 Lua。保持完整的运行时翻译或 `ccb.content.text`／
+`ccb.content.plural_text` 调用名与字面量文本／上下文；
 别名、动态字符串或变量上下文不能可靠提取。翻译调用直接嵌在 `string.format` 中时可继承
 格式检查标记。`--check` 只比较文件，不写入；退出码 1 表示模板缺失或过期，2 表示提取失败。
 
 外部 Mod 放在游戏用户 Mod 目录时，现有扫描器识别
 `MyMod/lang/mo/<language>/LC_MESSAGES/MyMod.mo`。翻译目录编译与安装属于后续发布步骤。
 内置 Mod 不会自动通过用户目录扫描加载翻译；共享目录中的常见词应使用独特上下文。
-本批不实现静态内容名／元数据的延迟翻译或目录热重载。真实翻译、复数规则、语言切换与
+其他内容 builder、Mod 元数据翻译和目录热重载仍未实现。真实翻译、复数规则、语言切换与
 不启用本地化的构建均待原生验收；不能据此宣称完整国际化已完成。

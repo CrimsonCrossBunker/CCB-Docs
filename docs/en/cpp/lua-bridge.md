@@ -68,7 +68,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 1534fd781a7a8ed933019e8f997c84877d3b9e4c29acaeb5840fcdedaf41dd3a
+translation_source_fingerprint: aea9f69efb6ccb2b0a443617873e8455f39663442472dde6d449b3109a4d0b4c
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -336,8 +336,9 @@ This section accompanies source drafts [#755](https://github.com/CrimsonCrossBun
 [#757](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/757),
 [#758](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/758),
 [#759](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/759),
-[#760](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/760) and
-[#761](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/761).
+[#760](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/760),
+[#761](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/761) and
+[#762](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/762).
 No native build or acceptance has run. This page retains its previously checked
 `verified_commit` as a baseline, not evidence that these draft capabilities ship.
 Refresh the evidence and publish only after source merge and acceptance.
@@ -380,6 +381,10 @@ processing. Save-load errors also identify scope, Mod, task index and task ID,
 which can be inspected below. #759 corrects the floating-to-integer range check
 for saved Character recurrence due turns, rejecting `2^63` before conversion.
 That implementation and its boundary regression source have not been compiled or run.
+
+#762 distinguishes omitted Item fields from explicit defaults in static fingerprints.
+For an inherited Item, omitting `mass_grams` keeps the source mass; setting
+`mass_grams = 0` overwrites it. Their fingerprints now differ. Native tests remain pending.
 
 ### Lua console
 
@@ -433,7 +438,7 @@ Lua, load a world, edit saves or establish handler availability/object liveness.
 #757 compares against the target game's declaration file directly, without a
 second Mod scaffold. It neither updates the SDK nor proves native/save compatibility.
 
-### Runtime text translation
+### Runtime and Item text translation
 
 #758 proposes `ccb.services.translate(text, context?)` and
 `ccb.services.translate_plural(singular, plural, count, context?)` after
@@ -451,6 +456,26 @@ end)
 ccb.runtime.on("world_ready", "ready_text")
 ```
 
+Item names and descriptions can instead retain static text for native translation
+at display time:
+
+```lua
+local ccb = require("ccb")
+ccb.content.add(ccb.content.Item {
+    id = "MyMod_water_bottle", mass_grams = 500, volume_ml = 500,
+    name = ccb.content.plural_text("bottle of water", "bottles of water", "MyMod item"),
+    description = ccb.content.text("A sealed bottle.", "MyMod description")
+})
+```
+
+These immutable `LocalizedText` values retain source forms without fixing the
+current language. Plain strings remain untranslated; descriptions reject plural
+values. A name marked with `text` uses the same plural source fallback; use
+`plural_text` for distinct forms. Source forms must be nonempty and inputs must
+exclude NUL. Inheritance preserves omitted translated fields; explicit strings
+replace them. Translation status, context and plural changes affect the static
+fingerprint. Currently only Item names and descriptions accept these values.
+
 Run extraction from the Mod root with explicit filenames:
 
 ```sh
@@ -458,7 +483,8 @@ python3 /path/CCB/tools/lua_api/extract_translations.py main.lua --output messag
 python3 /path/CCB/tools/lua_api/extract_translations.py main.lua --output messages.pot --check
 ```
 
-The tool invokes GNU `xgettext`, never Lua. Keep full `ccb.services` calls and
+The tool invokes GNU `xgettext`, never Lua. Keep full runtime translation or
+`ccb.content.text`/`ccb.content.plural_text` calls and
 literal messages/contexts; aliases and computed text/context cannot be reliably
 extracted. Translation calls directly nested inside `string.format` inherit
 format-check flags. `--check` only compares: exit 1 means a missing/stale template,
@@ -468,7 +494,7 @@ For external Mods under the configured user Mod directory, the existing scanner
 recognizes `MyMod/lang/mo/<language>/LC_MESSAGES/MyMod.mo`. Catalog compilation and
 installation are later release steps. Bundled Mods are not automatically covered
 by the user-directory scan. Use distinctive contexts for common messages in the
-shared catalog registry. This slice excludes deferred content-name/metadata
-translation and catalog hot reload. Real translations, plural rules, language
+shared catalog registry. Other content builders, Mod metadata translation and
+catalog hot reload remain deferred. Real translations, plural rules, language
 changes and nonlocalized builds still need native acceptance; this is not complete
 internationalization.
