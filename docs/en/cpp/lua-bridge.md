@@ -3,7 +3,7 @@
 id: cpp.lua-bridge
 title: Native Lua bridge
 language: en
-status: active
+status: draft
 doc_type: reference
 audiences:
 - experienced-contributor
@@ -64,11 +64,11 @@ verified_commit: 77631e8b0c782684b88e1cfc05dd4da64a7ec926
 verified_at: '2026-09-08'
 generated: false
 generated_by: null
-include_in_search: true
-include_in_ai_index: true
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 57975b5e0043b2f88ae8b16f4320111089e3bfc5830b7b5b3a325e6e5e1208d7
+translation_source_fingerprint: adef9efe85935220ae1f555ce5274ff58e66fe390eece32fda859aa4555dd5f3
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -83,7 +83,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/755
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/
 alternate_urls:
@@ -144,6 +144,8 @@ source_urls:
 - path: data/lua/LUA_FIRST_EOC_WORKFLOW.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/77631e8b0c782684b88e1cfc05dd4da64a7ec926/data/lua/LUA_FIRST_EOC_WORKFLOW.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28cpp.lua-bridge%29%3A+&body=Document+ID%3A+cpp.lua-bridge%0ALanguage%3A+en%0AVerified+commit%3A+77631e8b0c782684b88e1cfc05dd4da64a7ec926%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
 # Native Lua bridge
@@ -287,10 +289,9 @@ not process crash containment. No mandatory global instruction/memory quota is i
 default; supported `ccb` argument, handle, lifecycle, and persistent-data checks remain.
 Native module authors own OS, architecture, Lua ABI, and dependency compatibility.
 
-This target is not implemented by the tooling change. The current loader still restricts
-libraries and module paths. An execution-risk notice before downloaded Mod code, including
-`mod.lua` discovery, also needs integration. Policy acceptance must not be described as
-permissions already being opened.
+The previously checked source baseline still restricts libraries and module paths.
+Draft #755 below begins implementing the open policy and discovery notice, but
+native acceptance and merge remain pending; this is not a shipped capability.
 
 ## PR artifact boundary
 
@@ -328,3 +329,87 @@ Evidence lives in the source repository's `tests/lua_platform_*_semantics_test.c
 `tests/lua_platform_mutations_test.cpp`, `tests/lua_platform_effects_test.cpp`, and
 `tests/lua_platform_tonic_lifecycle_test.cpp`. These are native integration tests
 with cached static engine definitions, not manual UI or full process-restart acceptance.
+
+## Draft: trusted loading, diagnostics and author tools
+
+This section accompanies source drafts [#755](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/755),
+[#756](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/756),
+[#757](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/757) and
+[#758](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/758).
+No native build or acceptance has run. This page retains its previously checked
+`verified_commit` as a baseline, not evidence that these draft capabilities ship.
+Refresh the evidence and publish only after source merge and acceptance.
+
+### Loading and failure diagnostics
+
+#755 opens all standard libraries and retains normal `package` searchers. The
+Mod-local searcher runs first; other modules retain Lua 5.4 cache, preload and
+loader-data return semantics. `require("ccb")` always returns that Mod's Platform
+table. Native modules must match the host OS, architecture and Lua C ABI, without
+linking another Lua runtime. Build configuration is not proof that a real DLL/SO
+loads; Windows packaging and native loading on each platform still need acceptance.
+
+Discovery presents the execution notice before evaluating possible Lua metadata
+in `mod.lua`. Its first prompt does not depend on keybindings initialized later;
+noninteractive checks emit the notice to stderr. Forward metadata with
+`return (require("metadata"))`: parentheses retain one `ccb.ModDefinition`, avoiding
+Lua 5.4's second return value on the first `require` call.
+
+Load errors preserve owner, stage, source path and original Lua error. Callback
+errors name the triggering event/hook; task errors include task ID, scope and due
+turn, distinguishing uses of the same handler. Save-failure rollback cannot undo
+trusted Lua code's side effects on user files, the OS or external services.
+
+### Inspect a save and compare the target SDK
+
+```sh
+python3 tools/lua_api/inspect_state.py /path/world/lua_platform_world.json --mod MyMod
+python3 tools/lua_api/mod_sdk.py compare-release /path/MyMod --declarations /path/game/data/lua/types/ccb_platform_v1.d.lua
+```
+
+#756 reads only the named save file, summarizing state keys, tasks, participants,
+due turns and saved location hints. State/payload values require `--values`;
+`--limit` caps each displayed list while retaining totals. It does not execute
+Lua, load a world, edit saves or establish handler availability/object liveness.
+#757 compares against the target game's declaration file directly, without a
+second Mod scaffold. It neither updates the SDK nor proves native/save compatibility.
+
+### Runtime text translation
+
+#758 proposes `ccb.services.translate(text, context?)` and
+`ccb.services.translate_plural(singular, plural, count, context?)` after
+`world_ready`, reusing the current native language catalog. Both return strings.
+Missing entries fall back to source text: count 1 selects singular, other
+nonnegative counts select plural. Text/context cannot contain NUL; counts must
+fit the target's native `size_t`.
+
+```lua
+local ccb = require("ccb")
+ccb.runtime.handler("ready_text", function()
+    ccb.services.message(string.format(ccb.services.translate_plural(
+        "%d item is ready", "%d items are ready", 2, "MyMod status"), 2))
+end)
+ccb.runtime.on("world_ready", "ready_text")
+```
+
+Run extraction from the Mod root with explicit filenames:
+
+```sh
+python3 /path/CCB/tools/lua_api/extract_translations.py main.lua --output messages.pot
+python3 /path/CCB/tools/lua_api/extract_translations.py main.lua --output messages.pot --check
+```
+
+The tool invokes GNU `xgettext`, never Lua. Keep full `ccb.services` calls and
+literal messages/contexts; aliases and computed text/context cannot be reliably
+extracted. Translation calls directly nested inside `string.format` inherit
+format-check flags. `--check` only compares: exit 1 means a missing/stale template,
+2 means extraction failure.
+
+For external Mods under the configured user Mod directory, the existing scanner
+recognizes `MyMod/lang/mo/<language>/LC_MESSAGES/MyMod.mo`. Catalog compilation and
+installation are later release steps. Bundled Mods are not automatically covered
+by the user-directory scan. Use distinctive contexts for common messages in the
+shared catalog registry. This slice excludes deferred content-name/metadata
+translation and catalog hot reload. Real translations, plural rules, language
+changes and nonlocalized builds still need native acceptance; this is not complete
+internationalization.

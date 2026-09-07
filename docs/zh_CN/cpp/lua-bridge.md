@@ -3,7 +3,7 @@
 id: cpp.lua-bridge
 title: Native Lua bridge
 language: zh_CN
-status: active
+status: draft
 doc_type: reference
 audiences:
 - experienced-contributor
@@ -64,11 +64,11 @@ verified_commit: 77631e8b0c782684b88e1cfc05dd4da64a7ec926
 verified_at: '2026-09-08'
 generated: false
 generated_by: null
-include_in_search: true
-include_in_ai_index: true
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 57975b5e0043b2f88ae8b16f4320111089e3bfc5830b7b5b3a325e6e5e1208d7
+translation_source_fingerprint: adef9efe85935220ae1f555ce5274ff58e66fe390eece32fda859aa4555dd5f3
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -83,7 +83,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/755
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/
 alternate_urls:
@@ -144,6 +144,8 @@ source_urls:
 - path: data/lua/LUA_FIRST_EOC_WORKFLOW.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/77631e8b0c782684b88e1cfc05dd4da64a7ec926/data/lua/LUA_FIRST_EOC_WORKFLOW.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28cpp.lua-bridge%29%3A+&body=Document+ID%3A+cpp.lua-bridge%0ALanguage%3A+zh_CN%0AVerified+commit%3A+77631e8b0c782684b88e1cfc05dd4da64a7ec926%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
 # Native Lua bridge
@@ -270,8 +272,8 @@ python3 tools/test_create_lua_mod.py
 不能隔离进程崩溃。默认不施加全局指令/内存配额；`ccb` 的参数、句柄、生命周期和持久数据
 校验继续保留。原生模块作者负责系统、架构、Lua ABI 与依赖适配。
 
-这是目标契约，尚未随本次工具改动实现。当前 loader 仍限制标准库和模块路径；首次执行下载
-Mod（含 `mod.lua` 发现阶段）前的风险告知也仍待集成。不能把契约采纳描述为权限已经开放。
+此前核对的源码基线仍限制标准库与模块路径。下方 #755 草稿开始落实开放策略和发现阶段
+告知；原生验收与合并尚未完成，不能把草稿实现描述为已发布。
 
 ## PR artifacts 的边界
 
@@ -301,3 +303,74 @@ build job；artifact 发布 workflow 只消费这些 job 的结果，不得反�
 `tests/lua_platform_mutations_test.cpp`、`tests/lua_platform_effects_test.cpp` 和
 `tests/lua_platform_tonic_lifecycle_test.cpp`。这是原生集成证据；静态引擎定义在测试中
 保留缓存，不声称已完成手工 UI 验收或完整进程重启验收。
+
+## 草稿：可信加载、诊断与作者工具
+
+本节对应源码草稿 [#755](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/755)、
+[#756](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/756)、
+[#757](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/757) 和
+[#758](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/758)。
+尚未编译或进行原生验收；本页的 `verified_commit` 保留此前已核对的源码基线，
+不能用它证明下列草稿能力已发布。配套源码合并并验收后，才可更新本页证据并发布。
+
+### 加载与失败诊断
+
+#755 的实现开放完整标准库与普通 `package` 搜索器。Mod 本地搜索器优先，其他模块保留
+Lua 5.4 的缓存、预加载与 loader-data 返回语义；`require("ccb")` 始终返回该 Mod 的
+Platform 表。加载原生模块要求匹配宿主的系统、架构与 Lua C ABI，不能链接另一个 Lua
+运行时。配置修改不等于真实 DLL/SO 已经加载成功；Windows 打包和各平台原生库验收仍待完成。
+
+发现 Mod 时会先告知代码执行风险，再读取可能执行 Lua 的 `mod.lua`；首次提示不依赖尚未
+初始化的按键绑定，非交互检查通过标准错误输出告知。元数据模块转发应写
+`return (require("metadata"))`，括号确保只返回一个 `ccb.ModDefinition`，避免 Lua 5.4
+首次 `require` 的第二个返回值被误当成多份元数据。
+
+加载错误保留 Mod、阶段、文件与 Lua 原始错误。回调错误增加事件／钩子名称；任务错误增加
+任务 ID、作用域和到期回合，便于定位同一 handler 的不同调用实例。存档失败回滚不保证撤销
+可信 Lua 代码对用户文件、系统或外部服务造成的副作用。
+
+### 读取存档和对比目标 SDK
+
+```sh
+python3 tools/lua_api/inspect_state.py /path/world/lua_platform_world.json --mod MyMod
+python3 tools/lua_api/mod_sdk.py compare-release /path/MyMod --declarations /path/game/data/lua/types/ccb_platform_v1.d.lua
+```
+
+#756 的检查器只读取指定存档文件，汇总状态键、任务、参与者、到期回合和保存的定位提示。
+`--values` 才显示状态与 payload 值；`--limit` 限制每个列表的展示数量，同时保留总数。
+它不执行 Lua、不载入世界、不修改存档，也不能判断当前 handler 是否存在或对象是否仍存活。
+#757 可直接对比目标游戏附带的声明文件，不需要先创建第二个 Mod 项目；比较不会更新 SDK，
+也不能证明原生行为或存档兼容。
+
+### 运行时文本翻译
+
+#758 草稿提供 `ccb.services.translate(text, context?)` 和
+`ccb.services.translate_plural(singular, plural, count, context?)`，在 `world_ready` 后
+复用游戏当前语言的翻译目录。返回普通字符串；缺少翻译时退回源文本，数量为 1 选单数，
+其他非负数量选复数。文本与上下文不接受 NUL，数量必须能由原生 `size_t` 表示。
+
+```lua
+local ccb = require("ccb")
+ccb.runtime.handler("ready_text", function()
+    ccb.services.message(string.format(ccb.services.translate_plural(
+        "%d item is ready", "%d items are ready", 2, "MyMod status"), 2))
+end)
+ccb.runtime.on("world_ready", "ready_text")
+```
+
+在 Mod 根目录运行提取工具，明确列出文件：
+
+```sh
+python3 /path/CCB/tools/lua_api/extract_translations.py main.lua --output messages.pot
+python3 /path/CCB/tools/lua_api/extract_translations.py main.lua --output messages.pot --check
+```
+
+工具调用 GNU `xgettext`，不执行 Lua。保持完整 `ccb.services` 调用名与字面量文本／上下文；
+别名、动态字符串或变量上下文不能可靠提取。翻译调用直接嵌在 `string.format` 中时可继承
+格式检查标记。`--check` 只比较文件，不写入；退出码 1 表示模板缺失或过期，2 表示提取失败。
+
+外部 Mod 放在游戏用户 Mod 目录时，现有扫描器识别
+`MyMod/lang/mo/<language>/LC_MESSAGES/MyMod.mo`。翻译目录编译与安装属于后续发布步骤。
+内置 Mod 不会自动通过用户目录扫描加载翻译；共享目录中的常见词应使用独特上下文。
+本批不实现静态内容名／元数据的延迟翻译或目录热重载。真实翻译、复数规则、语言切换与
+不启用本地化的构建均待原生验收；不能据此宣称完整国际化已完成。
