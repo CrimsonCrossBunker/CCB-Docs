@@ -68,7 +68,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: a724d8b49cc10f542d1630e96fdcdefacb5ad28a609754d5c19560c9886baf47
+translation_source_fingerprint: 1534fd781a7a8ed933019e8f997c84877d3b9e4c29acaeb5840fcdedaf41dd3a
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -310,8 +310,9 @@ build job；artifact 发布 workflow 只消费这些 job 的结果，不得反�
 [#756](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/756)、
 [#757](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/757)、
 [#758](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/758)、
-[#759](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/759) 和
-[#760](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/760)。
+[#759](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/759)、
+[#760](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/760) 和
+[#761](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/761)。
 尚未编译或进行原生验收；本页的 `verified_commit` 保留此前已核对的源码基线，
 不能用它证明下列草稿能力已发布。配套源码合并并验收后，才可更新本页证据并发布。
 
@@ -336,7 +337,7 @@ Platform 表。加载原生模块要求匹配宿主的系统、架构与 Lua C A
 ### 游戏内脚本重载
 
 #760 提供“调试菜单 → 游戏 → 重新加载 Lua Mod 脚本”，也可通过调试动作搜索找到。
-它复用已有替换后端；活动 Lua 尚未返回时拒绝重入，静态定义改变时要求重启游戏。
+它复用已有替换后端；活动 Lua 尚未返回或另一轮替换仍在进行时拒绝重入，静态定义改变时要求重启游戏。
 准备失败时保留原注册表，错误会在界面显示。成功只表示脚本注册表已替换，应继续检查
 消息日志中的回调错误。菜单集成和重入回归测试源码尚未进行原生验收。
 
@@ -345,6 +346,24 @@ Platform 表。加载原生模块要求匹配宿主的系统、架构与 Lua C A
 存档加载失败也会标出作用域、Mod、任务序号与任务 ID，便于用下方工具定位。
 #759 修复了保存的角色循环到期回合从浮点数转整数时的范围检查，阻止 `2^63` 越界转换；
 这项实现及边界回归测试同样尚未编译运行。
+
+### Lua 控制台
+
+#761 基于 #760，提供“调试菜单 → 控制台 → Lua”页。选择一个已加载 Mod，输入普通 Lua
+代码并点击“Run Lua”；继续通过 `require("ccb")` 获取 Platform，用 `return` 显示结果：
+
+```lua
+local ccb = require("ccb")
+return ccb.services.turn()
+```
+
+代码使用所选 Mod 的现有状态，在绘制帧结束后显式执行，不自动重跑。调用具有该 Mod 的
+回调上下文；world-ready、句柄和领域检查继续有效。全局变量、世界状态及外部副作用
+不会因为后续代码报错而回滚。控制台拒绝同一状态递归执行以及重载过程中的执行。
+返回展示最多 16 项，每个字符串最多读取 1024 字节；控制字节会转义，无效 UTF-8 会替换，
+返回表最多展示 20 个原始字段，顺序不作保证；嵌套表和其他对象仅显示类型。
+不调用 `__pairs` 或 `__tostring`；要继续查看，显式返回嵌套字段即可。这些是显示限制，不是脚本配额。
+这不是断点调试器，尚未编译或完成交互验收。
 
 ### 读取存档和对比目标 SDK
 

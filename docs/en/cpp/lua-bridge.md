@@ -68,7 +68,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: a724d8b49cc10f542d1630e96fdcdefacb5ad28a609754d5c19560c9886baf47
+translation_source_fingerprint: 1534fd781a7a8ed933019e8f997c84877d3b9e4c29acaeb5840fcdedaf41dd3a
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -335,8 +335,9 @@ This section accompanies source drafts [#755](https://github.com/CrimsonCrossBun
 [#756](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/756),
 [#757](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/757),
 [#758](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/758),
-[#759](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/759) and
-[#760](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/760).
+[#759](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/759),
+[#760](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/760) and
+[#761](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/761).
 No native build or acceptance has run. This page retains its previously checked
 `verified_commit` as a baseline, not evidence that these draft capabilities ship.
 Refresh the evidence and publish only after source merge and acceptance.
@@ -367,7 +368,7 @@ trusted Lua code's side effects on user files, the OS or external services.
 
 #760 adds **Debug menu → Game → Reload Lua Mod scripts**, also available through
 debug-action search. It reuses the existing replacement backend, rejects
-reentry while Lua is executing and requires a restart for changed static
+reentry while Lua is executing or another replacement is in progress, and requires a restart for changed static
 definitions. Preparation failures retain previous registrations and show the
 error. Success means registration replacement; check the message log for
 callback failures. The UI and reentry regression source still need native acceptance.
@@ -379,6 +380,29 @@ processing. Save-load errors also identify scope, Mod, task index and task ID,
 which can be inspected below. #759 corrects the floating-to-integer range check
 for saved Character recurrence due turns, rejecting `2^63` before conversion.
 That implementation and its boundary regression source have not been compiled or run.
+
+### Lua console
+
+#761 builds on #760 with **Debug menu → Console → Lua**. Select a loaded Mod,
+enter ordinary Lua code and click **Run Lua**. Continue using `require("ccb")`
+for Platform access and `return` to display values:
+
+```lua
+local ccb = require("ccb")
+return ccb.services.turn()
+```
+
+Code runs explicitly in the selected Mod's existing state after the drawing frame,
+without automatic reevaluation. Calls enter that Mod's callback scope; world-ready,
+handle and domain checks still apply. Global, world and external changes do not
+roll back if later code fails. Recursive execution in the same state and execution
+during reload are rejected. Display shows up to 16 returns and reads at most 1024
+bytes per string, escaping controls and replacing invalid UTF-8. Returned tables
+show at most 20 raw fields in unspecified order; nested tables and other objects
+appear as type labels. No `__pairs` or `__tostring` runs. Return a nested field
+explicitly to inspect it. These are display
+limits, not script quotas. This is not a breakpoint debugger and still needs
+native and interactive acceptance.
 
 ### Inspect a save and compare the target SDK
 
