@@ -68,7 +68,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 9d3b9083f19658b5fc897f1ce44a23c54975d9ce9b396ec32989799ef6780a06
+translation_source_fingerprint: 5149a97e1410885641a47475c19e5a5f1a16eca9f0d3270f9c51ede11c32a889
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -339,8 +339,9 @@ This section accompanies source drafts [#755](https://github.com/CrimsonCrossBun
 [#760](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/760),
 [#761](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/761),
 [#762](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/762),
-[#763](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/763) and
-[#764](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/764).
+[#763](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/763),
+[#764](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/764) and
+[#765](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/765).
 No native build or acceptance has run. This page retains its previously checked
 `verified_commit` as a baseline, not evidence that these draft capabilities ship.
 Refresh the evidence and publish only after source merge and acceptance.
@@ -458,6 +459,12 @@ the entire oversized result first. Limit failure occurs before destination write
 This is neither a transaction across scope files nor a process-wide Lua memory
 limit. Both drafts have native regression source only; compilation and runtime
 acceptance remain pending.
+
+#765 fixes result construction in `tasks.get`, `tasks.next`, and `tasks.list`:
+selected task records are copied before Lua table allocation, so cancellation
+from garbage collection cannot invalidate borrowed records. Existing ordering
+and list limits remain unchanged; query results are detached snapshots. Native
+regression source models cancellation at the allocation boundary but has not run.
 
 ### Runtime and Item text translation
 

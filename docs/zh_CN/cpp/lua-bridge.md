@@ -68,7 +68,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 9d3b9083f19658b5fc897f1ce44a23c54975d9ce9b396ec32989799ef6780a06
+translation_source_fingerprint: 5149a97e1410885641a47475c19e5a5f1a16eca9f0d3270f9c51ede11c32a889
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -314,8 +314,9 @@ build job；artifact 发布 workflow 只消费这些 job 的结果，不得反�
 [#760](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/760)、
 [#761](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/761)、
 [#762](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/762)、
-[#763](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/763) 和
-[#764](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/764)。
+[#763](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/763)、
+[#764](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/764) 和
+[#765](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/765)。
 尚未编译或进行原生验收；本页的 `verified_commit` 保留此前已核对的源码基线，
 不能用它证明下列草稿能力已发布。配套源码合并并验收后，才可更新本页证据并发布。
 
@@ -410,6 +411,10 @@ python3 tools/lua_api/mod_sdk.py compare-release /path/MyMod --declarations /pat
 编码过程中即拒绝超限，不再先构造完整超大输出。超限不会开始写入目标；这不承诺
 多个作用域文件之间的事务，也不是 Lua 进程的总内存限制。两项草稿均只有原生测试源码，
 尚未编译或完成运行时验收。
+
+#765 修复 `tasks.get`、`tasks.next`、`tasks.list` 的返回值构造：在分配 Lua 表前
+复制选中的任务记录，避免垃圾回收中的任务取消使借用记录失效。列表仍遵循原有排序和
+数量限制；查询结果是独立快照。分配边界上的取消回归测试源码已补，尚未执行。
 
 ### 运行时与物品文本翻译
 
