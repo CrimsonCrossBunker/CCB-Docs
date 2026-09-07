@@ -2495,7 +2495,7 @@ gettext macro、typed `translation`、JSON 形式、Android resource 与 Lua i18
 ## cpp.lua-bridge [en] — Native Lua bridge
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/
-Verified commit: f2821e0bf31ba12879672cc06f111a2e6fc5bc13
+Verified commit: 77631e8b0c782684b88e1cfc05dd4da64a7ec926
 Sources: .github/workflows/lua-contract.yml, .github/workflows/matrix.yml, ai/test-matrix.yml, Makefile, android/app/build.gradle, android/app/jni/CMakeLists.txt, build-scripts/gha_compile_only.sh, data/lua/LUA_FIRST_PLATFORM.md, data/lua/types/ccb_platform_v1.d.lua, src/CMakeLists.txt, src/lua/CMakeLists.txt, src/lua/lua.hpp, src/lua_platform_loader.h, src/lua_platform_loader.cpp, src/lua_platform_runtime.h, src/lua_platform_runtime.cpp, src/sol/CMakeLists.txt, src/sol/config.hpp, tools/lua_api/check_cmake_contract.py, tools/lua_api/generate_platform_native_inventory.py, tools/lua_api/test_check_cmake_contract.py, tests/lua_platform_test.cpp, tools/create_lua_mod.py, tools/lua_api/mod_sdk.py, data/lua/LUA_FIRST_EOC_WORKFLOW.md
 
 # Native Lua bridge
@@ -2684,7 +2684,7 @@ with cached static engine definitions, not manual UI or full process-restart acc
 ## cpp.lua-bridge [zh_CN] — Native Lua bridge
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/
-Verified commit: f2821e0bf31ba12879672cc06f111a2e6fc5bc13
+Verified commit: 77631e8b0c782684b88e1cfc05dd4da64a7ec926
 Sources: .github/workflows/lua-contract.yml, .github/workflows/matrix.yml, ai/test-matrix.yml, Makefile, android/app/build.gradle, android/app/jni/CMakeLists.txt, build-scripts/gha_compile_only.sh, data/lua/LUA_FIRST_PLATFORM.md, data/lua/types/ccb_platform_v1.d.lua, src/CMakeLists.txt, src/lua/CMakeLists.txt, src/lua/lua.hpp, src/lua_platform_loader.h, src/lua_platform_loader.cpp, src/lua_platform_runtime.h, src/lua_platform_runtime.cpp, src/sol/CMakeLists.txt, src/sol/config.hpp, tools/lua_api/check_cmake_contract.py, tools/lua_api/generate_platform_native_inventory.py, tools/lua_api/test_check_cmake_contract.py, tests/lua_platform_test.cpp, tools/create_lua_mod.py, tools/lua_api/mod_sdk.py, data/lua/LUA_FIRST_EOC_WORKFLOW.md
 
 # Native Lua bridge
