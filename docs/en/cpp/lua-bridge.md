@@ -68,7 +68,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: ce7308d0ad0d4362f6d6cd609a97e4a741c4fc057f506378f1bc23c8c970f461
+translation_source_fingerprint: a724d8b49cc10f542d1630e96fdcdefacb5ad28a609754d5c19560c9886baf47
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -381,6 +381,18 @@ for saved Character recurrence due turns, rejecting `2^63` before conversion.
 That implementation and its boundary regression source have not been compiled or run.
 
 ### Inspect a save and compare the target SDK
+
+#757 also adds an editor SDK to an existing Mod:
+
+```sh
+python3 tools/lua_api/mod_sdk.py init /path/MyMod --declarations /path/game/data/lua/types/ccb_platform_v1.d.lua
+```
+
+The directory must already exist. This adds `.ccb-sdk/` and `.luarc.json` without
+rewriting author Lua files. Either destination already existing, including a
+symlink, prevents installation; keep or integrate the existing editor setup yourself.
+Omitting `--declarations` selects this source tree's declarations, without searching
+for an installed game.
 
 ```sh
 python3 tools/lua_api/inspect_state.py /path/world/lua_platform_world.json --mod MyMod

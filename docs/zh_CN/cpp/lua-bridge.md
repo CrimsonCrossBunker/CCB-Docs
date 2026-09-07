@@ -68,7 +68,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: ce7308d0ad0d4362f6d6cd609a97e4a741c4fc057f506378f1bc23c8c970f461
+translation_source_fingerprint: a724d8b49cc10f542d1630e96fdcdefacb5ad28a609754d5c19560c9886baf47
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -347,6 +347,16 @@ Platform 表。加载原生模块要求匹配宿主的系统、架构与 Lua C A
 这项实现及边界回归测试同样尚未编译运行。
 
 ### 读取存档和对比目标 SDK
+
+#757 还提供给现有 Mod 添加编辑器声明的入口：
+
+```sh
+python3 tools/lua_api/mod_sdk.py init /path/MyMod --declarations /path/game/data/lua/types/ccb_platform_v1.d.lua
+```
+
+目录必须已经存在；工具添加 `.ccb-sdk/` 和 `.luarc.json`，不改写作者的 Lua 文件。
+已有这两个路径中的任意一个时会拒绝覆盖，包括符号链接；请保留或自行整合原有编辑器配置。
+省略 `--declarations` 时使用当前源码树的声明，而非自动查找已安装游戏。
 
 ```sh
 python3 tools/lua_api/inspect_state.py /path/world/lua_platform_world.json --mod MyMod
