@@ -6476,7 +6476,7 @@
       "id": "cpp.lua-bridge",
       "title": "Native Lua bridge",
       "language": "en",
-      "status": "draft",
+      "status": "active",
       "doc_type": "reference",
       "audiences": [
         "experienced-contributor",
@@ -6553,14 +6553,14 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "a97b115fd73f078273935607bd00367885ea268c7828a928db0306ecf64b52f8",
+      "source_fingerprint": "002fd7c1157ad3e6763b7fc551c4e7082a375b319a6dcc324aa0975e1e93059a",
       "authority": "api-contract",
-      "verified_commit": "832a147bc3c0d51c70de83fc36b0445fce6b697d",
+      "verified_commit": "1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9",
       "verified_at": "2026-09-09",
       "generated": false,
       "generated_by": null,
-      "include_in_search": false,
-      "include_in_ai_index": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
       "translation_source_fingerprint": "57efc9fad0094dadc00e690e6084d684ea9b11a5345c9cf548bbf3f75691f4dc",
@@ -6580,7 +6580,7 @@
       "deprecation_replacement": null,
       "risk_group": "lua-api",
       "risk_level": "high",
-      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/768",
+      "pending_source_pr": null,
       "stale_reason": null,
       "path": "cpp/lua-bridge.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/"
@@ -6589,7 +6589,7 @@
       "id": "cpp.lua-bridge",
       "title": "Native Lua bridge",
       "language": "zh_CN",
-      "status": "draft",
+      "status": "active",
       "doc_type": "reference",
       "audiences": [
         "experienced-contributor",
@@ -6666,14 +6666,14 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "a97b115fd73f078273935607bd00367885ea268c7828a928db0306ecf64b52f8",
+      "source_fingerprint": "002fd7c1157ad3e6763b7fc551c4e7082a375b319a6dcc324aa0975e1e93059a",
       "authority": "api-contract",
-      "verified_commit": "832a147bc3c0d51c70de83fc36b0445fce6b697d",
+      "verified_commit": "1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9",
       "verified_at": "2026-09-09",
       "generated": false,
       "generated_by": null,
-      "include_in_search": false,
-      "include_in_ai_index": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
       "translation_source_fingerprint": "57efc9fad0094dadc00e690e6084d684ea9b11a5345c9cf548bbf3f75691f4dc",
@@ -6693,7 +6693,7 @@
       "deprecation_replacement": null,
       "risk_group": "lua-api",
       "risk_level": "high",
-      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/768",
+      "pending_source_pr": null,
       "stale_reason": null,
       "path": "cpp/lua-bridge.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/"
@@ -14166,6 +14166,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/inventory/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/items/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/localization/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/mapgen/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/mod-loading/",
@@ -14198,6 +14199,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/inventory/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/items/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/localization/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/mapgen/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/mod-loading/",
@@ -14306,6 +14308,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/inventory/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/items/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/localization/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/mapgen/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/mod-loading/",
@@ -14338,6 +14341,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/inventory/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/items/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/localization/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/mapgen/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/mod-loading/",
@@ -14446,6 +14450,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/inventory/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/items/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/localization/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/mapgen/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/mod-loading/",
@@ -14478,6 +14483,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/inventory/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/items/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/localization/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/mapgen/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/mod-loading/",
@@ -14595,7 +14601,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/core-engine-lifecycle/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystems-deep-dive/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/core-dev-guide/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/native-binding-guide/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/changelog/",
@@ -14628,7 +14633,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/core-engine-lifecycle/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystems-deep-dive/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/core-dev-guide/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/native-binding-guide/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/",
@@ -15109,6 +15113,13 @@
         "section": "C++ 子系统",
         "order": 118,
         "path": "cpp/mod-loading.md"
+      },
+      {
+        "id": "cpp.lua-bridge",
+        "title": "Native Lua bridge",
+        "section": "C++ 子系统",
+        "order": 119,
+        "path": "cpp/lua-bridge.md"
       },
       {
         "id": "cpp.localization",
@@ -15664,6 +15675,13 @@
         "section": "C++ subsystems",
         "order": 118,
         "path": "cpp/mod-loading.md"
+      },
+      {
+        "id": "cpp.lua-bridge",
+        "title": "Native Lua bridge",
+        "section": "C++ subsystems",
+        "order": 119,
+        "path": "cpp/lua-bridge.md"
       },
       {
         "id": "cpp.localization",
@@ -16341,6 +16359,28 @@
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/localization/",
         "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/localization/"
+      }
+    },
+    {
+      "id": "cpp.lua-bridge",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/",
+      "last_verified": "2026-09-09",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/"
+      }
+    },
+    {
+      "id": "cpp.lua-bridge",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/",
+      "last_verified": "2026-09-09",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/"
       }
     },
     {
