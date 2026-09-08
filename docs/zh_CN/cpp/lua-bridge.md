@@ -68,7 +68,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 5149a97e1410885641a47475c19e5a5f1a16eca9f0d3270f9c51ede11c32a889
+translation_source_fingerprint: 8712fab78632106fc0f26763d66f6c1ed7d67aeab9e0b7787afde9a972dc48b5
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -315,8 +315,10 @@ build job；artifact 发布 workflow 只消费这些 job 的结果，不得反�
 [#761](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/761)、
 [#762](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/762)、
 [#763](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/763)、
-[#764](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/764) 和
-[#765](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/765)。
+[#764](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/764)、
+[#765](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/765)、
+[#766](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/766) 和
+[#767](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/767)。
 尚未编译或进行原生验收；本页的 `verified_commit` 保留此前已核对的源码基线，
 不能用它证明下列草稿能力已发布。配套源码合并并验收后，才可更新本页证据并发布。
 
@@ -416,7 +418,21 @@ python3 tools/lua_api/mod_sdk.py compare-release /path/MyMod --declarations /pat
 复制选中的任务记录，避免垃圾回收中的任务取消使借用记录失效。列表仍遵循原有排序和
 数量限制；查询结果是独立快照。分配边界上的取消回归测试源码已补，尚未执行。
 
-### 运行时与物品文本翻译
+#764 同时让 Lua 存档临时流使用 double 往返精度，避免通用 JSON 固定 6 位小数
+把很小的状态值写成零。只调整 Lua 存档写入，不改变其他 JSON 写入器；此前已损失的
+数值精度无法恢复。#765 也把已有任务迁移保护延伸到参数构造和返回值解码，成功或失败
+均恢复此前标记，不对无关回调副作用承诺回滚。
+
+#766 在两个作用域的 Mod 记录中保存可选 `last_task_id`，空任务列表也保留已分配计数，
+加载时合并最大值，耗尽状态和暂未加载 Mod 的计数不会在重进时重置。旧 v1 文件缺少该字段
+时仍按尚存任务推导，无法追溯已完成的旧任务。#756 报告 `last_task_id` 和
+`task_counter_persisted`，区分保存的计数与旧记录的推导结果。
+
+#767 让同轮到期、尚未开始派发的任务继续可查可取消。前一个回调可以取消后一个任务；
+到期回合／ID 排序不变，回调新建的任务仍留到下一次处理。上述原生回归均只有测试源码，
+尚未执行存取或派发验收。
+
+### 运行时与静态内容文本翻译
 
 #758 草稿提供 `ccb.services.translate(text, context?)` 和
 `ccb.services.translate_plural(singular, plural, count, context?)`，在 `world_ready` 后
@@ -446,7 +462,9 @@ ccb.content.add(ccb.content.Item {
 这些不可变 `LocalizedText` 值保留源文本，不提前绑定当前语言。普通字符串继续不翻译，
 说明不接受复数值；`text` 用于名称时以相同源文本作为复数回退，不同复数使用 `plural_text`。
 源文本不能为空，输入不接受 NUL。继承保留省略的翻译字段，显式普通字符串替换它；
-翻译状态、上下文和复数改变都属于静态定义变化。当前只有物品名称与说明接收这些值。
+翻译状态、上下文和复数改变都属于静态定义变化。Skill 名称、说明、SkillDisplay 分类名称及理论／实践等级说明也接收单数
+`content.text`，并拒绝复数标记。普通字符串保持字面值；省略实践说明仍不改动独立的
+实践映射，参数无效时不会只改写理论一侧。技能静态指纹区分文本上下文及理论／实践列表。
 
 在 Mod 根目录运行提取工具，明确列出文件：
 
@@ -463,5 +481,5 @@ python3 /path/CCB/tools/lua_api/extract_translations.py main.lua --output messag
 外部 Mod 放在游戏用户 Mod 目录时，现有扫描器识别
 `MyMod/lang/mo/<language>/LC_MESSAGES/MyMod.mo`。翻译目录编译与安装属于后续发布步骤。
 内置 Mod 不会自动通过用户目录扫描加载翻译；共享目录中的常见词应使用独特上下文。
-其他内容 builder、Mod 元数据翻译和目录热重载仍未实现。真实翻译、复数规则、语言切换与
+除 Item／Skill／SkillDisplay 外的内容 builder、Mod 元数据翻译和目录热重载仍未实现。真实翻译、复数规则、语言切换与
 不启用本地化的构建均待原生验收；不能据此宣称完整国际化已完成。

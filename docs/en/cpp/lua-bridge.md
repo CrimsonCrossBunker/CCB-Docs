@@ -68,7 +68,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 5149a97e1410885641a47475c19e5a5f1a16eca9f0d3270f9c51ede11c32a889
+translation_source_fingerprint: 8712fab78632106fc0f26763d66f6c1ed7d67aeab9e0b7787afde9a972dc48b5
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -340,8 +340,10 @@ This section accompanies source drafts [#755](https://github.com/CrimsonCrossBun
 [#761](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/761),
 [#762](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/762),
 [#763](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/763),
-[#764](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/764) and
-[#765](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/765).
+[#764](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/764),
+[#765](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/765),
+[#766](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/766) and
+[#767](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/767).
 No native build or acceptance has run. This page retains its previously checked
 `verified_commit` as a baseline, not evidence that these draft capabilities ship.
 Refresh the evidence and publish only after source merge and acceptance.
@@ -466,7 +468,25 @@ from garbage collection cannot invalidate borrowed records. Existing ordering
 and list limits remain unchanged; query results are detached snapshots. Native
 regression source models cancellation at the allocation boundary but has not run.
 
-### Runtime and Item text translation
+#764 also uses double round-trip precision on Lua save staging streams, preventing
+the generic JSON writer's fixed six decimal places from rounding small state
+values to zero. Other JSON writers are unchanged; earlier lost precision cannot
+be recovered. #765 extends the existing task-migration guard through argument
+construction and result decoding, restoring the previous flag on success or
+failure without promising rollback of unrelated callback side effects.
+
+#766 stores optional per-Mod `last_task_id` in both scopes, even with no pending
+tasks. Loading takes the maximum counter and preserves exhaustion and absent-Mod
+records. Older version-1 files without the field still derive a counter from
+pending tasks; completed legacy IDs cannot be reconstructed. #756 reports
+`last_task_id` and `task_counter_persisted` to distinguish these cases.
+
+#767 keeps same-pass due tasks queryable and cancellable until their own dispatch
+starts. An earlier callback can cancel a later task; due-turn/ID order is unchanged,
+and newly scheduled tasks still wait for another processing pass. These native
+save/load and dispatch regressions remain test source only, without execution.
+
+### Runtime and static content text translation
 
 #758 proposes `ccb.services.translate(text, context?)` and
 `ccb.services.translate_plural(singular, plural, count, context?)` after
@@ -502,7 +522,11 @@ values. A name marked with `text` uses the same plural source fallback; use
 `plural_text` for distinct forms. Source forms must be nonempty and inputs must
 exclude NUL. Inheritance preserves omitted translated fields; explicit strings
 replace them. Translation status, context and plural changes affect the static
-fingerprint. Currently only Item names and descriptions accept these values.
+fingerprint. Singular `content.text` also covers Skill names/descriptions, SkillDisplay labels
+and theory/practice level descriptions; those fields reject plural markers.
+Plain strings remain literal. Omitting practice text leaves its independent map
+alone, and invalid arguments do not partially overwrite theory text. Skill static
+fingerprints distinguish text context and theory/practice collection identity.
 
 Run extraction from the Mod root with explicit filenames:
 
@@ -522,7 +546,7 @@ For external Mods under the configured user Mod directory, the existing scanner
 recognizes `MyMod/lang/mo/<language>/LC_MESSAGES/MyMod.mo`. Catalog compilation and
 installation are later release steps. Bundled Mods are not automatically covered
 by the user-directory scan. Use distinctive contexts for common messages in the
-shared catalog registry. Other content builders, Mod metadata translation and
+shared catalog registry. Builders beyond Item/Skill/SkillDisplay, Mod metadata translation and
 catalog hot reload remain deferred. Real translations, plural rules, language
 changes and nonlocalized builds still need native acceptance; this is not complete
 internationalization.

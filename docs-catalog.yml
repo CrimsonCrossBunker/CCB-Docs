@@ -7342,7 +7342,7 @@ pages:
   translation_group: cpp.lua-bridge
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 5149a97e1410885641a47475c19e5a5f1a16eca9f0d3270f9c51ede11c32a889
+  translation_source_fingerprint: 8712fab78632106fc0f26763d66f6c1ed7d67aeab9e0b7787afde9a972dc48b5
   prerequisites: &id412
   - cpp.mod-loading
   depends_on: &id413 []
@@ -7387,7 +7387,7 @@ pages:
   translation_group: cpp.lua-bridge
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 5149a97e1410885641a47475c19e5a5f1a16eca9f0d3270f9c51ede11c32a889
+  translation_source_fingerprint: 8712fab78632106fc0f26763d66f6c1ed7d67aeab9e0b7787afde9a972dc48b5
   prerequisites: *id412
   depends_on: *id413
   redirect_from: *id003
