@@ -7315,6 +7315,23 @@ pages:
   - tools/create_lua_mod.py
   - tools/lua_api/mod_sdk.py
   - data/lua/LUA_FIRST_EOC_WORKFLOW.md
+  - src/lua_platform_runtime_services.cpp
+  - src/lua_platform_runtime_lifecycle.cpp
+  - src/lua_platform_runtime_hooks.cpp
+  - src/lua_platform_state.cpp
+  - src/lua_platform_content_items.cpp
+  - src/lua_platform_content_character.cpp
+  - src/debug_console.cpp
+  - src/mod_manager.cpp
+  - tools/lua_api/inspect_state.py
+  - tools/lua_api/extract_translations.py
+  - tests/lua_platform_callback_diagnostic_test.cpp
+  - tests/lua_platform_content_translation_test.cpp
+  - tests/lua_platform_test_05_tasks.cpp
+  - tests/mod_manager_test.cpp
+  - tests/lua_platform_test_02_loader.cpp
+  - tools/lua_api/fixtures/native_probe/ccb_native_probe.c
+  - tests/lua_platform_tonic_lifecycle_test.cpp
   source_symbols: &id410
   - platform_version = 1
   - initialize_state(
@@ -7330,11 +7347,10 @@ pages:
   - 'lua_platform: 1'
   - '-DCATA_ENABLE_LUA_PLATFORM="${CATA_ENABLE_LUA_PLATFORM:-1}"'
   - -DCATA_ENABLE_LUA_PLATFORM=ON
-  - python3 tools/lua_api/check_cmake_contract.py
-  source_fingerprint: bdb44582cdb3cede21b88c87e11435e7d5520c28559a73914d34fcb00944e1f3
+  source_fingerprint: a97b115fd73f078273935607bd00367885ea268c7828a928db0306ecf64b52f8
   authority: api-contract
-  verified_commit: 77631e8b0c782684b88e1cfc05dd4da64a7ec926
-  verified_at: '2026-09-08'
+  verified_commit: 832a147bc3c0d51c70de83fc36b0445fce6b697d
+  verified_at: '2026-09-09'
   generated: false
   generated_by: null
   include_in_search: false
@@ -7342,7 +7358,7 @@ pages:
   translation_group: cpp.lua-bridge
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 8712fab78632106fc0f26763d66f6c1ed7d67aeab9e0b7787afde9a972dc48b5
+  translation_source_fingerprint: 57efc9fad0094dadc00e690e6084d684ea9b11a5345c9cf548bbf3f75691f4dc
   prerequisites: &id412
   - cpp.mod-loading
   depends_on: &id413 []
@@ -7357,7 +7373,7 @@ pages:
   deprecation_replacement: null
   risk_group: lua-api
   risk_level: high
-  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/755
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/768
   stale_reason: null
   nav:
     section: C++ 子系统
@@ -7376,10 +7392,10 @@ pages:
   source_paths: *id409
   source_symbols: *id410
   source_queries: *id411
-  source_fingerprint: bdb44582cdb3cede21b88c87e11435e7d5520c28559a73914d34fcb00944e1f3
+  source_fingerprint: a97b115fd73f078273935607bd00367885ea268c7828a928db0306ecf64b52f8
   authority: api-contract
-  verified_commit: 77631e8b0c782684b88e1cfc05dd4da64a7ec926
-  verified_at: '2026-09-08'
+  verified_commit: 832a147bc3c0d51c70de83fc36b0445fce6b697d
+  verified_at: '2026-09-09'
   generated: false
   generated_by: null
   include_in_search: false
@@ -7387,7 +7403,7 @@ pages:
   translation_group: cpp.lua-bridge
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 8712fab78632106fc0f26763d66f6c1ed7d67aeab9e0b7787afde9a972dc48b5
+  translation_source_fingerprint: 57efc9fad0094dadc00e690e6084d684ea9b11a5345c9cf548bbf3f75691f4dc
   prerequisites: *id412
   depends_on: *id413
   redirect_from: *id003
@@ -7400,7 +7416,7 @@ pages:
   deprecation_replacement: null
   risk_group: lua-api
   risk_level: high
-  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/755
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/768
   stale_reason: null
   nav:
     section: C++ subsystems
