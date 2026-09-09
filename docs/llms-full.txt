@@ -2495,8 +2495,8 @@ gettext macro、typed `translation`、JSON 形式、Android resource 与 Lua i18
 ## cpp.lua-bridge [en] — Native Lua bridge
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/
-Verified commit: 1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9
-Sources: .github/workflows/lua-contract.yml, .github/workflows/matrix.yml, ai/test-matrix.yml, Makefile, android/app/build.gradle, android/app/jni/CMakeLists.txt, build-scripts/gha_compile_only.sh, data/lua/LUA_FIRST_PLATFORM.md, data/lua/types/ccb_platform_v1.d.lua, src/CMakeLists.txt, src/lua/CMakeLists.txt, src/lua/lua.hpp, src/lua_platform_loader.h, src/lua_platform_loader.cpp, src/lua_platform_runtime.h, src/lua_platform_runtime.cpp, src/sol/CMakeLists.txt, src/sol/config.hpp, tools/lua_api/check_cmake_contract.py, tools/lua_api/generate_platform_native_inventory.py, tools/lua_api/test_check_cmake_contract.py, tests/lua_platform_test.cpp, tools/create_lua_mod.py, tools/lua_api/mod_sdk.py, data/lua/LUA_FIRST_EOC_WORKFLOW.md, src/lua_platform_runtime_services.cpp, src/lua_platform_runtime_lifecycle.cpp, src/lua_platform_runtime_hooks.cpp, src/lua_platform_state.cpp, src/lua_platform_content_items.cpp, src/lua_platform_content_character.cpp, src/debug_console.cpp, src/mod_manager.cpp, tools/lua_api/inspect_state.py, tools/lua_api/extract_translations.py, tests/lua_platform_callback_diagnostic_test.cpp, tests/lua_platform_content_translation_test.cpp, tests/lua_platform_test_05_tasks.cpp, tests/mod_manager_test.cpp, tests/lua_platform_test_02_loader.cpp, tools/lua_api/fixtures/native_probe/ccb_native_probe.c, tests/lua_platform_tonic_lifecycle_test.cpp
+Verified commit: 7d9e60d31d633f5242af229f2e908c22a941c5e2
+Sources: .github/workflows/lua-contract.yml, .github/workflows/matrix.yml, ai/test-matrix.yml, Makefile, android/app/build.gradle, android/app/jni/CMakeLists.txt, build-scripts/gha_compile_only.sh, data/lua/LUA_FIRST_PLATFORM.md, data/lua/types/ccb_platform_v1.d.lua, src/CMakeLists.txt, src/lua/CMakeLists.txt, src/lua/lua.hpp, src/lua_platform_loader.h, src/lua_platform_loader.cpp, src/lua_platform_runtime.h, src/lua_platform_runtime.cpp, src/sol/CMakeLists.txt, src/sol/config.hpp, tools/lua_api/check_cmake_contract.py, tools/lua_api/generate_platform_native_inventory.py, tools/lua_api/test_check_cmake_contract.py, tests/lua_platform_test.cpp, tools/create_lua_mod.py, tools/lua_api/mod_sdk.py, data/lua/LUA_FIRST_EOC_WORKFLOW.md, src/lua_platform_runtime_services.cpp, src/lua_platform_runtime_lifecycle.cpp, src/lua_platform_runtime_hooks.cpp, src/lua_platform_state.cpp, src/lua_platform_content_items.cpp, src/lua_platform_content_character.cpp, src/debug_console.cpp, src/mod_manager.cpp, tools/lua_api/inspect_state.py, tools/lua_api/extract_translations.py, tests/lua_platform_callback_diagnostic_test.cpp, tests/lua_platform_content_translation_test.cpp, tests/lua_platform_test_05_tasks.cpp, tests/mod_manager_test.cpp, tests/lua_platform_test_02_loader.cpp, tools/lua_api/fixtures/native_probe/ccb_native_probe.c, tests/lua_platform_tonic_lifecycle_test.cpp, src/mod_id_compat.h
 
 # Native Lua bridge
 
@@ -2897,11 +2897,31 @@ catalog hot reload remain deferred. Real catalogs, plural rules and language
 changes still need dedicated acceptance; see #768 for tested build configurations.
 This is not complete internationalization.
 
+## Core package ID compatibility (pending source PR merge)
+
+The canonical core package ID becomes `ccb`. New JSON metadata uses
+`"dependencies": [ "ccb" ]`, and Lua `ModDefinition` uses `dependencies = { "ccb" }`.
+Existing Mods may retain `dda` dependencies. JSON conflict lists and user default
+Mod lists also resolve the old ID. This aliases one core package; it does not
+register a second core.
+
+Old worlds resolve `dda` to `ccb` while reading their Mod lists. Lists containing
+both IDs are deduplicated in order, loading core once; subsequent Mod-list saves
+write the canonical ID. Old provenance records, `mod_interactions/dda/`, and
+`services.gameplay.mods.is_loaded("dda")` / `load_order("dda")` continue to identify
+that core. The display name and `data/mods/dda/` directory remain unchanged; user
+save directories are not renamed.
+
+Compatibility is forward from old CCB worlds and Mods to the new version. Worlds
+saved by the new version are not guaranteed to work in older versions. Coverage
+includes alias deduplication and real Mod discovery tests. Keep this section in
+the companion draft until the source PR merges and its final validation is checked.
+
 ## cpp.lua-bridge [zh_CN] — Native Lua bridge
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/
-Verified commit: 1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9
-Sources: .github/workflows/lua-contract.yml, .github/workflows/matrix.yml, ai/test-matrix.yml, Makefile, android/app/build.gradle, android/app/jni/CMakeLists.txt, build-scripts/gha_compile_only.sh, data/lua/LUA_FIRST_PLATFORM.md, data/lua/types/ccb_platform_v1.d.lua, src/CMakeLists.txt, src/lua/CMakeLists.txt, src/lua/lua.hpp, src/lua_platform_loader.h, src/lua_platform_loader.cpp, src/lua_platform_runtime.h, src/lua_platform_runtime.cpp, src/sol/CMakeLists.txt, src/sol/config.hpp, tools/lua_api/check_cmake_contract.py, tools/lua_api/generate_platform_native_inventory.py, tools/lua_api/test_check_cmake_contract.py, tests/lua_platform_test.cpp, tools/create_lua_mod.py, tools/lua_api/mod_sdk.py, data/lua/LUA_FIRST_EOC_WORKFLOW.md, src/lua_platform_runtime_services.cpp, src/lua_platform_runtime_lifecycle.cpp, src/lua_platform_runtime_hooks.cpp, src/lua_platform_state.cpp, src/lua_platform_content_items.cpp, src/lua_platform_content_character.cpp, src/debug_console.cpp, src/mod_manager.cpp, tools/lua_api/inspect_state.py, tools/lua_api/extract_translations.py, tests/lua_platform_callback_diagnostic_test.cpp, tests/lua_platform_content_translation_test.cpp, tests/lua_platform_test_05_tasks.cpp, tests/mod_manager_test.cpp, tests/lua_platform_test_02_loader.cpp, tools/lua_api/fixtures/native_probe/ccb_native_probe.c, tests/lua_platform_tonic_lifecycle_test.cpp
+Verified commit: 7d9e60d31d633f5242af229f2e908c22a941c5e2
+Sources: .github/workflows/lua-contract.yml, .github/workflows/matrix.yml, ai/test-matrix.yml, Makefile, android/app/build.gradle, android/app/jni/CMakeLists.txt, build-scripts/gha_compile_only.sh, data/lua/LUA_FIRST_PLATFORM.md, data/lua/types/ccb_platform_v1.d.lua, src/CMakeLists.txt, src/lua/CMakeLists.txt, src/lua/lua.hpp, src/lua_platform_loader.h, src/lua_platform_loader.cpp, src/lua_platform_runtime.h, src/lua_platform_runtime.cpp, src/sol/CMakeLists.txt, src/sol/config.hpp, tools/lua_api/check_cmake_contract.py, tools/lua_api/generate_platform_native_inventory.py, tools/lua_api/test_check_cmake_contract.py, tests/lua_platform_test.cpp, tools/create_lua_mod.py, tools/lua_api/mod_sdk.py, data/lua/LUA_FIRST_EOC_WORKFLOW.md, src/lua_platform_runtime_services.cpp, src/lua_platform_runtime_lifecycle.cpp, src/lua_platform_runtime_hooks.cpp, src/lua_platform_state.cpp, src/lua_platform_content_items.cpp, src/lua_platform_content_character.cpp, src/debug_console.cpp, src/mod_manager.cpp, tools/lua_api/inspect_state.py, tools/lua_api/extract_translations.py, tests/lua_platform_callback_diagnostic_test.cpp, tests/lua_platform_content_translation_test.cpp, tests/lua_platform_test_05_tasks.cpp, tests/mod_manager_test.cpp, tests/lua_platform_test_02_loader.cpp, tools/lua_api/fixtures/native_probe/ccb_native_probe.c, tests/lua_platform_tonic_lifecycle_test.cpp, src/mod_id_compat.h
 
 # Native Lua bridge
 
@@ -3236,6 +3256,20 @@ python3 /path/CCB/tools/lua_api/extract_translations.py main.lua --output messag
 内置 Mod 不会自动通过用户目录扫描加载翻译；共享目录中的常见词应使用独特上下文。
 除 Item／Skill／SkillDisplay 外的内容 builder、Mod 元数据翻译和目录热重载仍未实现。
 真实翻译目录、复数规则与语言切换仍待专门验收；本次编译配置见 #768，不能据此宣称完整国际化已完成。
+
+## 核心包 ID 兼容（待源码 PR 合并）
+
+核心包的规范 ID 改为 `ccb`。新 JSON 元数据使用 `"dependencies": [ "ccb" ]`，
+Lua `ModDefinition` 使用 `dependencies = { "ccb" }`。旧 Mod 的 `dda` 依赖仍被接受；
+JSON 冲突列表和用户默认 Mod 列表也解析旧 ID。它是同一核心包的别名，不注册第二个核心。
+
+旧世界中的 `dda` 在读取时解析为 `ccb`；同时出现两者时按原顺序去重，核心只加载一次。
+之后保存 Mod 列表使用规范 ID。旧来源记录、`mod_interactions/dda/` 和
+`services.gameplay.mods.is_loaded("dda")`、`load_order("dda")` 继续识别该核心。
+包的显示名称与 `data/mods/dda/` 目录保持原样；此变更不重命名用户存档目录。
+
+兼容方向是旧 CCB 世界和旧 Mod 加载到新版本；不保证更新后保存的世界能退回旧版。
+配套测试包括别名去重和真实 Mod 发现测试。此节随源码 PR 保持草稿，合并前核对其最终验证记录。
 
 ## cpp.map [en] — Map subsystem
 
