@@ -59,6 +59,7 @@ source_paths:
 - tests/lua_platform_test_02_loader.cpp
 - tools/lua_api/fixtures/native_probe/ccb_native_probe.c
 - tests/lua_platform_tonic_lifecycle_test.cpp
+- src/mod_id_compat.h
 source_symbols:
 - platform_version = 1
 - initialize_state(
@@ -74,17 +75,17 @@ source_queries:
 - 'lua_platform: 1'
 - -DCATA_ENABLE_LUA_PLATFORM="${CATA_ENABLE_LUA_PLATFORM:-1}"
 - -DCATA_ENABLE_LUA_PLATFORM=ON
-source_fingerprint: 002fd7c1157ad3e6763b7fc551c4e7082a375b319a6dcc324aa0975e1e93059a
+source_fingerprint: 5876a1d32703e664eaeee0496a5099d76e1d00b599cc5b73daa8101dd01daa85
 authority: api-contract
-verified_commit: 1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9
-verified_at: '2026-09-09'
+verified_commit: a06dc64145ea7e0ae5a153d741f99705ee5eb262
+verified_at: '2026-09-10'
 generated: false
 generated_by: null
 include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 57efc9fad0094dadc00e690e6084d684ea9b11a5345c9cf548bbf3f75691f4dc
+translation_source_fingerprint: 0d725d5d838b33f01839dafe72c8c05f7a873256f4cb31c24f6da0afbac3e1ee
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -107,93 +108,95 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/a06dc64145ea7e0ae5a153d741f99705ee5eb262
 source_urls:
 - path: .github/workflows/lua-contract.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/.github/workflows/lua-contract.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/.github/workflows/lua-contract.yml
 - path: .github/workflows/matrix.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/.github/workflows/matrix.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/.github/workflows/matrix.yml
 - path: ai/test-matrix.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/ai/test-matrix.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/ai/test-matrix.yml
 - path: Makefile
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/Makefile
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/Makefile
 - path: android/app/build.gradle
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/android/app/build.gradle
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/android/app/build.gradle
 - path: android/app/jni/CMakeLists.txt
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/android/app/jni/CMakeLists.txt
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/android/app/jni/CMakeLists.txt
 - path: build-scripts/gha_compile_only.sh
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/build-scripts/gha_compile_only.sh
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/build-scripts/gha_compile_only.sh
 - path: data/lua/LUA_FIRST_PLATFORM.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/data/lua/LUA_FIRST_PLATFORM.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/data/lua/LUA_FIRST_PLATFORM.md
 - path: data/lua/types/ccb_platform_v1.d.lua
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/data/lua/types/ccb_platform_v1.d.lua
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/data/lua/types/ccb_platform_v1.d.lua
 - path: src/CMakeLists.txt
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/src/CMakeLists.txt
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/src/CMakeLists.txt
 - path: src/lua/CMakeLists.txt
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/src/lua/CMakeLists.txt
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/src/lua/CMakeLists.txt
 - path: src/lua/lua.hpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/src/lua/lua.hpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/src/lua/lua.hpp
 - path: src/lua_platform_loader.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/src/lua_platform_loader.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/src/lua_platform_loader.h
 - path: src/lua_platform_loader.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/src/lua_platform_loader.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/src/lua_platform_loader.cpp
 - path: src/lua_platform_runtime.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/src/lua_platform_runtime.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/src/lua_platform_runtime.h
 - path: src/lua_platform_runtime.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/src/lua_platform_runtime.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/src/lua_platform_runtime.cpp
 - path: src/sol/CMakeLists.txt
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/src/sol/CMakeLists.txt
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/src/sol/CMakeLists.txt
 - path: src/sol/config.hpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/src/sol/config.hpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/src/sol/config.hpp
 - path: tools/lua_api/check_cmake_contract.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/tools/lua_api/check_cmake_contract.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/tools/lua_api/check_cmake_contract.py
 - path: tools/lua_api/generate_platform_native_inventory.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/tools/lua_api/generate_platform_native_inventory.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/tools/lua_api/generate_platform_native_inventory.py
 - path: tools/lua_api/test_check_cmake_contract.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/tools/lua_api/test_check_cmake_contract.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/tools/lua_api/test_check_cmake_contract.py
 - path: tests/lua_platform_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/tests/lua_platform_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/tests/lua_platform_test.cpp
 - path: tools/create_lua_mod.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/tools/create_lua_mod.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/tools/create_lua_mod.py
 - path: tools/lua_api/mod_sdk.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/tools/lua_api/mod_sdk.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/tools/lua_api/mod_sdk.py
 - path: data/lua/LUA_FIRST_EOC_WORKFLOW.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/data/lua/LUA_FIRST_EOC_WORKFLOW.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/data/lua/LUA_FIRST_EOC_WORKFLOW.md
 - path: src/lua_platform_runtime_services.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/src/lua_platform_runtime_services.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/src/lua_platform_runtime_services.cpp
 - path: src/lua_platform_runtime_lifecycle.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/src/lua_platform_runtime_lifecycle.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/src/lua_platform_runtime_lifecycle.cpp
 - path: src/lua_platform_runtime_hooks.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/src/lua_platform_runtime_hooks.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/src/lua_platform_runtime_hooks.cpp
 - path: src/lua_platform_state.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/src/lua_platform_state.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/src/lua_platform_state.cpp
 - path: src/lua_platform_content_items.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/src/lua_platform_content_items.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/src/lua_platform_content_items.cpp
 - path: src/lua_platform_content_character.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/src/lua_platform_content_character.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/src/lua_platform_content_character.cpp
 - path: src/debug_console.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/src/debug_console.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/src/debug_console.cpp
 - path: src/mod_manager.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/src/mod_manager.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/src/mod_manager.cpp
 - path: tools/lua_api/inspect_state.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/tools/lua_api/inspect_state.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/tools/lua_api/inspect_state.py
 - path: tools/lua_api/extract_translations.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/tools/lua_api/extract_translations.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/tools/lua_api/extract_translations.py
 - path: tests/lua_platform_callback_diagnostic_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/tests/lua_platform_callback_diagnostic_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/tests/lua_platform_callback_diagnostic_test.cpp
 - path: tests/lua_platform_content_translation_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/tests/lua_platform_content_translation_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/tests/lua_platform_content_translation_test.cpp
 - path: tests/lua_platform_test_05_tasks.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/tests/lua_platform_test_05_tasks.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/tests/lua_platform_test_05_tasks.cpp
 - path: tests/mod_manager_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/tests/mod_manager_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/tests/mod_manager_test.cpp
 - path: tests/lua_platform_test_02_loader.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/tests/lua_platform_test_02_loader.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/tests/lua_platform_test_02_loader.cpp
 - path: tools/lua_api/fixtures/native_probe/ccb_native_probe.c
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/tools/lua_api/fixtures/native_probe/ccb_native_probe.c
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/tools/lua_api/fixtures/native_probe/ccb_native_probe.c
 - path: tests/lua_platform_tonic_lifecycle_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9/tests/lua_platform_tonic_lifecycle_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28cpp.lua-bridge%29%3A+&body=Document+ID%3A+cpp.lua-bridge%0ALanguage%3A+zh_CN%0AVerified+commit%3A+1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/tests/lua_platform_tonic_lifecycle_test.cpp
+- path: src/mod_id_compat.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/a06dc64145ea7e0ae5a153d741f99705ee5eb262/src/mod_id_compat.h
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28cpp.lua-bridge%29%3A+&body=Document+ID%3A+cpp.lua-bridge%0ALanguage%3A+zh_CN%0AVerified+commit%3A+a06dc64145ea7e0ae5a153d741f99705ee5eb262%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Native Lua bridge
@@ -529,3 +532,17 @@ python3 /path/CCB/tools/lua_api/extract_translations.py main.lua --output messag
 内置 Mod 不会自动通过用户目录扫描加载翻译；共享目录中的常见词应使用独特上下文。
 除 Item／Skill／SkillDisplay 外的内容 builder、Mod 元数据翻译和目录热重载仍未实现。
 真实翻译目录、复数规则与语言切换仍待专门验收；本次编译配置见 #768，不能据此宣称完整国际化已完成。
+
+## 核心包 ID 兼容
+
+核心包的规范 ID 改为 `ccb`。新 JSON 元数据使用 `"dependencies": [ "ccb" ]`，
+Lua `ModDefinition` 使用 `dependencies = { "ccb" }`。旧 Mod 的 `dda` 依赖仍被接受；
+JSON 冲突列表和用户默认 Mod 列表也解析旧 ID。它是同一核心包的别名，不注册第二个核心。
+
+旧世界中的 `dda` 在读取时解析为 `ccb`；同时出现两者时按原顺序去重，核心只加载一次。
+之后保存 Mod 列表使用规范 ID。旧来源记录、`mod_interactions/dda/` 和
+`services.gameplay.mods.is_loaded("dda")`、`load_order("dda")` 继续识别该核心。
+包的显示名称与 `data/mods/dda/` 目录保持原样；此变更不重命名用户存档目录。
+
+兼容方向是旧 CCB 世界和旧 Mod 加载到新版本；不保证更新后保存的世界能退回旧版。
+别名去重测试的 12 个断言已通过；真实 Mod 发现测试已编译，尚未执行。旧世界读档和 Android 设备验证尚未完成。

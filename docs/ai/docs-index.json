@@ -6534,7 +6534,8 @@
         "tests/mod_manager_test.cpp",
         "tests/lua_platform_test_02_loader.cpp",
         "tools/lua_api/fixtures/native_probe/ccb_native_probe.c",
-        "tests/lua_platform_tonic_lifecycle_test.cpp"
+        "tests/lua_platform_tonic_lifecycle_test.cpp",
+        "src/mod_id_compat.h"
       ],
       "source_symbols": [
         "platform_version = 1",
@@ -6553,17 +6554,17 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "002fd7c1157ad3e6763b7fc551c4e7082a375b319a6dcc324aa0975e1e93059a",
+      "source_fingerprint": "5876a1d32703e664eaeee0496a5099d76e1d00b599cc5b73daa8101dd01daa85",
       "authority": "api-contract",
-      "verified_commit": "1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9",
-      "verified_at": "2026-09-09",
+      "verified_commit": "a06dc64145ea7e0ae5a153d741f99705ee5eb262",
+      "verified_at": "2026-09-10",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "57efc9fad0094dadc00e690e6084d684ea9b11a5345c9cf548bbf3f75691f4dc",
+      "translation_source_fingerprint": "0d725d5d838b33f01839dafe72c8c05f7a873256f4cb31c24f6da0afbac3e1ee",
       "prerequisites": [
         "cpp.mod-loading"
       ],
@@ -6647,7 +6648,8 @@
         "tests/mod_manager_test.cpp",
         "tests/lua_platform_test_02_loader.cpp",
         "tools/lua_api/fixtures/native_probe/ccb_native_probe.c",
-        "tests/lua_platform_tonic_lifecycle_test.cpp"
+        "tests/lua_platform_tonic_lifecycle_test.cpp",
+        "src/mod_id_compat.h"
       ],
       "source_symbols": [
         "platform_version = 1",
@@ -6666,17 +6668,17 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "002fd7c1157ad3e6763b7fc551c4e7082a375b319a6dcc324aa0975e1e93059a",
+      "source_fingerprint": "5876a1d32703e664eaeee0496a5099d76e1d00b599cc5b73daa8101dd01daa85",
       "authority": "api-contract",
-      "verified_commit": "1595ae8c2e0d55bab9a0d48405e2ed5e607ae2c9",
-      "verified_at": "2026-09-09",
+      "verified_commit": "a06dc64145ea7e0ae5a153d741f99705ee5eb262",
+      "verified_at": "2026-09-10",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "57efc9fad0094dadc00e690e6084d684ea9b11a5345c9cf548bbf3f75691f4dc",
+      "translation_source_fingerprint": "0d725d5d838b33f01839dafe72c8c05f7a873256f4cb31c24f6da0afbac3e1ee",
       "prerequisites": [
         "cpp.mod-loading"
       ],
@@ -16365,7 +16367,7 @@
       "id": "cpp.lua-bridge",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/",
-      "last_verified": "2026-09-09",
+      "last_verified": "2026-09-10",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/",
@@ -16376,7 +16378,7 @@
       "id": "cpp.lua-bridge",
       "language": "zh_CN",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/",
-      "last_verified": "2026-09-09",
+      "last_verified": "2026-09-10",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/",
