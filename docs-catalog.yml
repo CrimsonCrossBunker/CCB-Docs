@@ -7337,6 +7337,9 @@ pages:
   - src/lua_platform_bindings_values.cpp
   - src/lua_platform_variables.cpp
   - tests/lua_platform_string_variables_test.cpp
+  - tests/lua_platform_day_semantic_test.cpp
+  - tests/lua_platform_environment_predicate_test.cpp
+  - tests/lua_platform_random_range_test.cpp
   - src/lua_platform_effects.cpp
   - tests/lua_platform_effects_test.cpp
   - tools/lua_api/test_mod_sdk.py
@@ -7360,9 +7363,9 @@ pages:
   - 'lua_platform: 1'
   - '-DCATA_ENABLE_LUA_PLATFORM="${CATA_ENABLE_LUA_PLATFORM:-1}"'
   - -DCATA_ENABLE_LUA_PLATFORM=ON
-  source_fingerprint: 826e54c1d34b12c5497f2af2d28653155635d2f250a45b3258f62e3e0dfeaaa1
+  source_fingerprint: a802bed7e42035bb27d857dabc505f93d3e97f0242c1ead0366ed5802f9c7c88
   authority: api-contract
-  verified_commit: 039f333709b9ca6f68807daa9a8ea25715236270
+  verified_commit: f32a265ec9cb247420a8335b4656c02ecea2edd4
   verified_at: '2026-09-10'
   generated: false
   generated_by: null
@@ -7371,7 +7374,7 @@ pages:
   translation_group: cpp.lua-bridge
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 4c756ec0635dae9930d96e4f3225c6d08c481d066540ae5cc50a0cc531ae2a1f
+  translation_source_fingerprint: 3aa3bf2d7b72a81a636592e032703d1f46f609ff9c41159dafa368141901612c
   prerequisites: &id412
   - cpp.mod-loading
   depends_on: &id413 []
@@ -7386,7 +7389,7 @@ pages:
   deprecation_replacement: null
   risk_group: lua-api
   risk_level: high
-  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/798
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/804
   stale_reason: null
   nav:
     section: C++ 子系统
@@ -7405,9 +7408,9 @@ pages:
   source_paths: *id409
   source_symbols: *id410
   source_queries: *id411
-  source_fingerprint: 826e54c1d34b12c5497f2af2d28653155635d2f250a45b3258f62e3e0dfeaaa1
+  source_fingerprint: a802bed7e42035bb27d857dabc505f93d3e97f0242c1ead0366ed5802f9c7c88
   authority: api-contract
-  verified_commit: 039f333709b9ca6f68807daa9a8ea25715236270
+  verified_commit: f32a265ec9cb247420a8335b4656c02ecea2edd4
   verified_at: '2026-09-10'
   generated: false
   generated_by: null
@@ -7416,7 +7419,7 @@ pages:
   translation_group: cpp.lua-bridge
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 4c756ec0635dae9930d96e4f3225c6d08c481d066540ae5cc50a0cc531ae2a1f
+  translation_source_fingerprint: 3aa3bf2d7b72a81a636592e032703d1f46f609ff9c41159dafa368141901612c
   prerequisites: *id412
   depends_on: *id413
   redirect_from: *id003
@@ -7429,7 +7432,7 @@ pages:
   deprecation_replacement: null
   risk_group: lua-api
   risk_level: high
-  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/798
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/804
   stale_reason: null
   nav:
     section: C++ subsystems
