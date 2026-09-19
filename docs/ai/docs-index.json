@@ -6550,7 +6550,11 @@
         "src/lua_platform_creatures.cpp",
         "src/game.cpp",
         "src/lua_platform_martial_arts.cpp",
-        "tests/lua_platform_technique_description_test.cpp"
+        "tests/lua_platform_technique_description_test.cpp",
+        "ai/lua-first-replacement-ledger.yml",
+        "src/lua_platform_trade.cpp",
+        "src/lua_platform_npc_services.cpp",
+        "src/lua_platform_mutations.cpp"
       ],
       "source_symbols": [
         "platform_version = 1",
@@ -6569,17 +6573,17 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "d60ad547d8ed0d78b577949ed53d33d6d88d61eaca88414876ec1789f36121ed",
+      "source_fingerprint": "f6a3bb50ab96428a11c7c6361a3932f8a29fce97992e3e556fcd8955b5feaec6",
       "authority": "api-contract",
-      "verified_commit": "7da361e09a2828f959844c71199f150e1b6521d3",
-      "verified_at": "2026-09-10",
+      "verified_commit": "8ac305b649964acc877a86e7fc872a0a315f3ecf",
+      "verified_at": "2026-09-19",
       "generated": false,
       "generated_by": null,
       "include_in_search": false,
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "3aa3bf2d7b72a81a636592e032703d1f46f609ff9c41159dafa368141901612c",
+      "translation_source_fingerprint": "789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396",
       "prerequisites": [
         "cpp.mod-loading"
       ],
@@ -6679,7 +6683,11 @@
         "src/lua_platform_creatures.cpp",
         "src/game.cpp",
         "src/lua_platform_martial_arts.cpp",
-        "tests/lua_platform_technique_description_test.cpp"
+        "tests/lua_platform_technique_description_test.cpp",
+        "ai/lua-first-replacement-ledger.yml",
+        "src/lua_platform_trade.cpp",
+        "src/lua_platform_npc_services.cpp",
+        "src/lua_platform_mutations.cpp"
       ],
       "source_symbols": [
         "platform_version = 1",
@@ -6698,17 +6706,17 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "d60ad547d8ed0d78b577949ed53d33d6d88d61eaca88414876ec1789f36121ed",
+      "source_fingerprint": "f6a3bb50ab96428a11c7c6361a3932f8a29fce97992e3e556fcd8955b5feaec6",
       "authority": "api-contract",
-      "verified_commit": "7da361e09a2828f959844c71199f150e1b6521d3",
-      "verified_at": "2026-09-10",
+      "verified_commit": "8ac305b649964acc877a86e7fc872a0a315f3ecf",
+      "verified_at": "2026-09-19",
       "generated": false,
       "generated_by": null,
       "include_in_search": false,
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "3aa3bf2d7b72a81a636592e032703d1f46f609ff9c41159dafa368141901612c",
+      "translation_source_fingerprint": "789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396",
       "prerequisites": [
         "cpp.mod-loading"
       ],
