@@ -7280,16 +7280,18 @@ pages:
   path: cpp/lua-bridge.md
   status: draft
   doc_type: reference
-  audiences: &id408
+  audiences:
   - experienced-contributor
   - maintainer
   - mod-author
   - api-user
-  owners: *id001
-  reviewers: *id002
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: &id409
+  source_paths:
   - .github/workflows/lua-contract.yml
   - .github/workflows/matrix.yml
   - ai/test-matrix.yml
@@ -7348,25 +7350,29 @@ pages:
   - src/game.cpp
   - src/lua_platform_martial_arts.cpp
   - tests/lua_platform_technique_description_test.cpp
-  source_symbols: &id410
+  - ai/lua-first-replacement-ledger.yml
+  - src/lua_platform_trade.cpp
+  - src/lua_platform_npc_services.cpp
+  - src/lua_platform_mutations.cpp
+  source_symbols:
   - platform_version = 1
   - initialize_state(
   - install_runtime_api(
   - configure_lua_platform
   - validate_cmake_contract
   - INSTALLER_SPECS
-  source_queries: &id411
+  source_queries:
   - PROPERTIES LANGUAGE C
   - $(COMPILE.c)
   - '#define SOL_BUILD_CXX_MODE 1'
   - 'CATA_ENABLE_LUA_PLATFORM: ${{ matrix.lua_platform }}'
   - 'lua_platform: 1'
-  - '-DCATA_ENABLE_LUA_PLATFORM="${CATA_ENABLE_LUA_PLATFORM:-1}"'
+  - -DCATA_ENABLE_LUA_PLATFORM="${CATA_ENABLE_LUA_PLATFORM:-1}"
   - -DCATA_ENABLE_LUA_PLATFORM=ON
-  source_fingerprint: d60ad547d8ed0d78b577949ed53d33d6d88d61eaca88414876ec1789f36121ed
+  source_fingerprint: 8c019435cf719f11cc27d81fbee5822b23c6e057e0474d6666d865b7d8b095a1
   authority: api-contract
-  verified_commit: 7da361e09a2828f959844c71199f150e1b6521d3
-  verified_at: '2026-09-10'
+  verified_commit: 4c7c7c53d6cb78eac69a4fb298405b195ba63b99
+  verified_at: '2026-09-19'
   generated: false
   generated_by: null
   include_in_search: false
@@ -7374,22 +7380,22 @@ pages:
   translation_group: cpp.lua-bridge
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 3aa3bf2d7b72a81a636592e032703d1f46f609ff9c41159dafa368141901612c
-  prerequisites: &id412
+  translation_source_fingerprint: b28c357debd0dd83605b6883aec4c323baf30fbb9b105258ecca0b115c499325
+  prerequisites:
   - cpp.mod-loading
-  depends_on: &id413 []
-  redirect_from: *id003
-  supersedes: *id004
+  depends_on: []
+  redirect_from: []
+  supersedes: []
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id414
+  example_validation_ids:
   - lua-contract
   api_version: '1'
   deprecated: false
   deprecation_replacement: null
   risk_group: lua-api
   risk_level: high
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/825
   stale_reason: null
   nav:
     section: C++ 子系统
@@ -7400,18 +7406,99 @@ pages:
   path: cpp/lua-bridge.md
   status: draft
   doc_type: reference
-  audiences: *id408
-  owners: *id001
-  reviewers: *id002
+  audiences:
+  - experienced-contributor
+  - maintainer
+  - mod-author
+  - api-user
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: *id409
-  source_symbols: *id410
-  source_queries: *id411
-  source_fingerprint: d60ad547d8ed0d78b577949ed53d33d6d88d61eaca88414876ec1789f36121ed
+  source_paths:
+  - .github/workflows/lua-contract.yml
+  - .github/workflows/matrix.yml
+  - ai/test-matrix.yml
+  - Makefile
+  - android/app/build.gradle
+  - android/app/jni/CMakeLists.txt
+  - build-scripts/gha_compile_only.sh
+  - data/lua/LUA_FIRST_PLATFORM.md
+  - data/lua/types/ccb_platform_v1.d.lua
+  - src/CMakeLists.txt
+  - src/lua/CMakeLists.txt
+  - src/lua/lua.hpp
+  - src/lua_platform_loader.h
+  - src/lua_platform_loader.cpp
+  - src/lua_platform_runtime.h
+  - src/lua_platform_runtime.cpp
+  - src/sol/CMakeLists.txt
+  - src/sol/config.hpp
+  - tools/lua_api/check_cmake_contract.py
+  - tools/lua_api/generate_platform_native_inventory.py
+  - tools/lua_api/test_check_cmake_contract.py
+  - tests/lua_platform_test.cpp
+  - tools/create_lua_mod.py
+  - tools/lua_api/mod_sdk.py
+  - data/lua/LUA_FIRST_EOC_WORKFLOW.md
+  - src/lua_platform_runtime_services.cpp
+  - src/lua_platform_interaction.cpp
+  - src/lua_platform_runtime_lifecycle.cpp
+  - src/lua_platform_runtime_hooks.cpp
+  - src/lua_platform_state.cpp
+  - src/lua_platform_content_items.cpp
+  - src/lua_platform_content_character.cpp
+  - src/debug_console.cpp
+  - src/mod_manager.cpp
+  - tools/lua_api/inspect_state.py
+  - tools/lua_api/extract_translations.py
+  - tests/lua_platform_callback_diagnostic_test.cpp
+  - tests/lua_platform_content_translation_test.cpp
+  - tests/lua_platform_test_05_tasks.cpp
+  - tests/mod_manager_test.cpp
+  - tests/lua_platform_test_02_loader.cpp
+  - tools/lua_api/fixtures/native_probe/ccb_native_probe.c
+  - tests/lua_platform_tonic_lifecycle_test.cpp
+  - src/mod_id_compat.h
+  - src/lua_platform_bindings_values.cpp
+  - src/lua_platform_variables.cpp
+  - tests/lua_platform_string_variables_test.cpp
+  - tests/lua_platform_day_semantic_test.cpp
+  - tests/lua_platform_environment_predicate_test.cpp
+  - tests/lua_platform_random_range_test.cpp
+  - src/lua_platform_effects.cpp
+  - tests/lua_platform_effects_test.cpp
+  - tools/lua_api/test_mod_sdk.py
+  - tools/migrate_lua_first.py
+  - src/lua_platform_creatures.cpp
+  - src/game.cpp
+  - src/lua_platform_martial_arts.cpp
+  - tests/lua_platform_technique_description_test.cpp
+  - ai/lua-first-replacement-ledger.yml
+  - src/lua_platform_trade.cpp
+  - src/lua_platform_npc_services.cpp
+  - src/lua_platform_mutations.cpp
+  source_symbols:
+  - platform_version = 1
+  - initialize_state(
+  - install_runtime_api(
+  - configure_lua_platform
+  - validate_cmake_contract
+  - INSTALLER_SPECS
+  source_queries:
+  - PROPERTIES LANGUAGE C
+  - $(COMPILE.c)
+  - '#define SOL_BUILD_CXX_MODE 1'
+  - 'CATA_ENABLE_LUA_PLATFORM: ${{ matrix.lua_platform }}'
+  - 'lua_platform: 1'
+  - -DCATA_ENABLE_LUA_PLATFORM="${CATA_ENABLE_LUA_PLATFORM:-1}"
+  - -DCATA_ENABLE_LUA_PLATFORM=ON
+  source_fingerprint: 8c019435cf719f11cc27d81fbee5822b23c6e057e0474d6666d865b7d8b095a1
   authority: api-contract
-  verified_commit: 7da361e09a2828f959844c71199f150e1b6521d3
-  verified_at: '2026-09-10'
+  verified_commit: 4c7c7c53d6cb78eac69a4fb298405b195ba63b99
+  verified_at: '2026-09-19'
   generated: false
   generated_by: null
   include_in_search: false
@@ -7419,20 +7506,22 @@ pages:
   translation_group: cpp.lua-bridge
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 3aa3bf2d7b72a81a636592e032703d1f46f609ff9c41159dafa368141901612c
-  prerequisites: *id412
-  depends_on: *id413
-  redirect_from: *id003
-  supersedes: *id004
+  translation_source_fingerprint: b28c357debd0dd83605b6883aec4c323baf30fbb9b105258ecca0b115c499325
+  prerequisites:
+  - cpp.mod-loading
+  depends_on: []
+  redirect_from: []
+  supersedes: []
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id414
+  example_validation_ids:
+  - lua-contract
   api_version: '1'
   deprecated: false
   deprecation_replacement: null
   risk_group: lua-api
   risk_level: high
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/825
   stale_reason: null
   nav:
     section: C++ subsystems
