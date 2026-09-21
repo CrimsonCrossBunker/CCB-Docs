@@ -35,7 +35,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 0b0600c0494b57218f60c7346aa6a20a2a0e995fb71a330e374920c5e3d1e19a
+translation_source_fingerprint: ad5e0765232ab25b8a0662ea11000afb63b4a2397f8954876d1b2a14db912046
 prerequisites:
 - eoc.overview
 depends_on: []
@@ -83,7 +83,7 @@ This table indexes all 310 public effect keys in the parser inventory.
 
 ## Evidence boundary
 
-The inventories prove registry/parser dispatch, source locations, and recorded example candidates. They are not a complete game JSON Schema. `partial`, `unclassified`, `unknown`, and `lexical_only` preserve known unknowns intentionally.
+The inventories prove registry/parser dispatch, source locations, and recorded example candidates. They are not a complete game JSON Schema. `partial`, `unclassified`, `unknown`, and `lexical_only` preserve known unknowns intentionally. Content files also contribute to `source_fingerprint`: moving JSON content can change the fingerprint without changing registered types or condition/effect keys.
 
 Classification order: `params`, `values`, `defaults`, `nesting`, `vars`, and `context`. `u_`/`npc_` are legacy alpha/beta routing aliases; they do not by themselves prove a concrete runtime talker type.
 

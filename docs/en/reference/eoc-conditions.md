@@ -34,7 +34,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 23b8363116cec96c0c361fa3919ebac4c8f9f1596cd044b3330948cbbeced065
+translation_source_fingerprint: 48283d8965a4038f7ab5ef909115fec523e1320ef8d59d8537d6f6f13fabae46
 prerequisites:
 - eoc.overview
 depends_on: []
@@ -82,7 +82,7 @@ This table indexes all 275 public condition keys in the parser inventory.
 
 ## Evidence boundary
 
-The inventories prove registry/parser dispatch, source locations, and recorded example candidates. They are not a complete game JSON Schema. `partial`, `unclassified`, `unknown`, and `lexical_only` preserve known unknowns intentionally.
+The inventories prove registry/parser dispatch, source locations, and recorded example candidates. They are not a complete game JSON Schema. `partial`, `unclassified`, `unknown`, and `lexical_only` preserve known unknowns intentionally. Content files also contribute to `source_fingerprint`: moving JSON content can change the fingerprint without changing registered types or condition/effect keys.
 
 Classification order: `params`, `values`, `defaults`, `nesting`, `vars`, and `context`. `u_`/`npc_` are legacy alpha/beta routing aliases; they do not by themselves prove a concrete runtime talker type.
 

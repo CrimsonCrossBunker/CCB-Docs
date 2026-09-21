@@ -34,7 +34,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 093580aa01cee68d522f0ecc7d7249b4be0a0364912043fad42983125304c846
+translation_source_fingerprint: 35a5f5a18cae75f8da4fb6754ede2adbd73e98f4b74fe18dcd2043951050848c
 prerequisites:
 - json.overview
 depends_on: []
@@ -82,7 +82,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## 证据边界
 
-清单证明注册表、解析器分派、源码位置和已记录的示例候选；它不等于完整游戏 JSON Schema。`partial`、`unclassified`、`unknown` 和 `lexical_only` 都是有意保留的未知信息。
+清单证明注册表、解析器分派、源码位置和已记录的示例候选；它不等于完整游戏 JSON Schema。`partial`、`unclassified`、`unknown` 和 `lexical_only` 都是有意保留的未知信息。内容文件也参与 `source_fingerprint`；仅移动 JSON 内容即可改变指纹，不能据此推断注册类型或条件/效果键发生变化。
 
 | 类型 | 契约 | 加载器 | 字段证据 | Schema | 实例 | 文档证据 | 源码 |
 | --- | --- | --- | --- | --- | --- | --- | --- |

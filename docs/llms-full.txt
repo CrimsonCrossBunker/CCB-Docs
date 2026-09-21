@@ -6440,7 +6440,7 @@ This table indexes all 275 public condition keys in the parser inventory.
 
 ## Evidence boundary
 
-The inventories prove registry/parser dispatch, source locations, and recorded example candidates. They are not a complete game JSON Schema. `partial`, `unclassified`, `unknown`, and `lexical_only` preserve known unknowns intentionally.
+The inventories prove registry/parser dispatch, source locations, and recorded example candidates. They are not a complete game JSON Schema. `partial`, `unclassified`, `unknown`, and `lexical_only` preserve known unknowns intentionally. Content files also contribute to `source_fingerprint`: moving JSON content can change the fingerprint without changing registered types or condition/effect keys.
 
 Classification order: `params`, `values`, `defaults`, `nesting`, `vars`, and `context`. `u_`/`npc_` are legacy alpha/beta routing aliases; they do not by themselves prove a concrete runtime talker type.
 
@@ -6741,7 +6741,7 @@ Sources: data/reference/json/ccb_eoc_conditions.json, tools/json_api/contract-in
 
 ## 证据边界
 
-清单证明注册表、解析器分派、源码位置和已记录的示例候选；它不等于完整游戏 JSON Schema。`partial`、`unclassified`、`unknown` 和 `lexical_only` 都是有意保留的未知信息。
+清单证明注册表、解析器分派、源码位置和已记录的示例候选；它不等于完整游戏 JSON Schema。`partial`、`unclassified`、`unknown` 和 `lexical_only` 都是有意保留的未知信息。内容文件也参与 `source_fingerprint`；仅移动 JSON 内容即可改变指纹，不能据此推断注册类型或条件/效果键发生变化。
 
 分类状态顺序：`params` 参数、`values` 值类型、`defaults` 默认值、`nesting` 嵌套、`vars` 变量、`context` 上下文。`u_`/`npc_` 仅是历史 alpha/beta 路由别名，不能单独证明具体运行时 talker 类型。
 
@@ -7042,7 +7042,7 @@ This table indexes all 310 public effect keys in the parser inventory.
 
 ## Evidence boundary
 
-The inventories prove registry/parser dispatch, source locations, and recorded example candidates. They are not a complete game JSON Schema. `partial`, `unclassified`, `unknown`, and `lexical_only` preserve known unknowns intentionally.
+The inventories prove registry/parser dispatch, source locations, and recorded example candidates. They are not a complete game JSON Schema. `partial`, `unclassified`, `unknown`, and `lexical_only` preserve known unknowns intentionally. Content files also contribute to `source_fingerprint`: moving JSON content can change the fingerprint without changing registered types or condition/effect keys.
 
 Classification order: `params`, `values`, `defaults`, `nesting`, `vars`, and `context`. `u_`/`npc_` are legacy alpha/beta routing aliases; they do not by themselves prove a concrete runtime talker type.
 
@@ -7378,7 +7378,7 @@ Sources: data/reference/json/ccb_eoc_effects.json, tools/json_api/contract-inven
 
 ## 证据边界
 
-清单证明注册表、解析器分派、源码位置和已记录的示例候选；它不等于完整游戏 JSON Schema。`partial`、`unclassified`、`unknown` 和 `lexical_only` 都是有意保留的未知信息。
+清单证明注册表、解析器分派、源码位置和已记录的示例候选；它不等于完整游戏 JSON Schema。`partial`、`unclassified`、`unknown` 和 `lexical_only` 都是有意保留的未知信息。内容文件也参与 `source_fingerprint`；仅移动 JSON 内容即可改变指纹，不能据此推断注册类型或条件/效果键发生变化。
 
 分类状态顺序：`params` 参数、`values` 值类型、`defaults` 默认值、`nesting` 嵌套、`vars` 变量、`context` 上下文。`u_`/`npc_` 仅是历史 alpha/beta 路由别名，不能单独证明具体运行时 talker 类型。
 
@@ -7714,7 +7714,7 @@ This table indexes all 190 unique registered object types in the current invento
 
 ## Evidence boundary
 
-The inventories prove registry/parser dispatch, source locations, and recorded example candidates. They are not a complete game JSON Schema. `partial`, `unclassified`, `unknown`, and `lexical_only` preserve known unknowns intentionally.
+The inventories prove registry/parser dispatch, source locations, and recorded example candidates. They are not a complete game JSON Schema. `partial`, `unclassified`, `unknown`, and `lexical_only` preserve known unknowns intentionally. Content files also contribute to `source_fingerprint`: moving JSON content can change the fingerprint without changing registered types or condition/effect keys.
 
 | Type | Contract | Loader | Field evidence | Schema | Instances | Documentation evidence | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -7928,7 +7928,7 @@ Sources: data/reference/json/ccb_json_object_types.json, tools/json_api/contract
 
 ## 证据边界
 
-清单证明注册表、解析器分派、源码位置和已记录的示例候选；它不等于完整游戏 JSON Schema。`partial`、`unclassified`、`unknown` 和 `lexical_only` 都是有意保留的未知信息。
+清单证明注册表、解析器分派、源码位置和已记录的示例候选；它不等于完整游戏 JSON Schema。`partial`、`unclassified`、`unknown` 和 `lexical_only` 都是有意保留的未知信息。内容文件也参与 `source_fingerprint`；仅移动 JSON 内容即可改变指纹，不能据此推断注册类型或条件/效果键发生变化。
 
 | 类型 | 契约 | 加载器 | 字段证据 | Schema | 实例 | 文档证据 | 源码 |
 | --- | --- | --- | --- | --- | --- | --- | --- |

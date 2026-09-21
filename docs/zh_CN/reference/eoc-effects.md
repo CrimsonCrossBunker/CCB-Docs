@@ -35,7 +35,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 0b0600c0494b57218f60c7346aa6a20a2a0e995fb71a330e374920c5e3d1e19a
+translation_source_fingerprint: ad5e0765232ab25b8a0662ea11000afb63b4a2397f8954876d1b2a14db912046
 prerequisites:
 - eoc.overview
 depends_on: []
@@ -83,7 +83,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 
 ## 证据边界
 
-清单证明注册表、解析器分派、源码位置和已记录的示例候选；它不等于完整游戏 JSON Schema。`partial`、`unclassified`、`unknown` 和 `lexical_only` 都是有意保留的未知信息。
+清单证明注册表、解析器分派、源码位置和已记录的示例候选；它不等于完整游戏 JSON Schema。`partial`、`unclassified`、`unknown` 和 `lexical_only` 都是有意保留的未知信息。内容文件也参与 `source_fingerprint`；仅移动 JSON 内容即可改变指纹，不能据此推断注册类型或条件/效果键发生变化。
 
 分类状态顺序：`params` 参数、`values` 值类型、`defaults` 默认值、`nesting` 嵌套、`vars` 变量、`context` 上下文。`u_`/`npc_` 仅是历史 alpha/beta 路由别名，不能单独证明具体运行时 talker 类型。
 

@@ -84,6 +84,8 @@ TEXT = {
             "清单证明注册表、解析器分派、源码位置和已记录的示例候选；"
             "它不等于完整游戏 JSON Schema。`partial`、`unclassified`、"
             "`unknown` 和 `lexical_only` 都是有意保留的未知信息。"
+            "内容文件也参与 `source_fingerprint`；仅移动 JSON 内容即可改变指纹，"
+            "不能据此推断注册类型或条件/效果键发生变化。"
         ),
         "source": "机器来源",
         "json_title": "JSON 对象类型注册表",
@@ -132,6 +134,9 @@ TEXT = {
             "recorded example candidates. They are not a complete game JSON Schema. "
             "`partial`, `unclassified`, `unknown`, and `lexical_only` preserve known "
             "unknowns intentionally."
+            " Content files also contribute to `source_fingerprint`: moving JSON "
+            "content can change the fingerprint without changing registered types "
+            "or condition/effect keys."
         ),
         "source": "Machine source",
         "json_title": "JSON object-type registry",

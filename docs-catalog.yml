@@ -4683,7 +4683,7 @@ pages:
   translation_group: reference.json-object-types
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 093580aa01cee68d522f0ecc7d7249b4be0a0364912043fad42983125304c846
+  translation_source_fingerprint: 35a5f5a18cae75f8da4fb6754ede2adbd73e98f4b74fe18dcd2043951050848c
   prerequisites: &id228
   - json.overview
   depends_on: &id229 []
@@ -4728,7 +4728,7 @@ pages:
   translation_group: reference.json-object-types
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 093580aa01cee68d522f0ecc7d7249b4be0a0364912043fad42983125304c846
+  translation_source_fingerprint: 35a5f5a18cae75f8da4fb6754ede2adbd73e98f4b74fe18dcd2043951050848c
   prerequisites: *id228
   depends_on: *id229
   redirect_from: *id230
@@ -5163,7 +5163,7 @@ pages:
   translation_group: reference.eoc-conditions
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 23b8363116cec96c0c361fa3919ebac4c8f9f1596cd044b3330948cbbeced065
+  translation_source_fingerprint: 48283d8965a4038f7ab5ef909115fec523e1320ef8d59d8537d6f6f13fabae46
   prerequisites: &id256
   - eoc.overview
   depends_on: &id257 []
@@ -5208,7 +5208,7 @@ pages:
   translation_group: reference.eoc-conditions
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 23b8363116cec96c0c361fa3919ebac4c8f9f1596cd044b3330948cbbeced065
+  translation_source_fingerprint: 48283d8965a4038f7ab5ef909115fec523e1320ef8d59d8537d6f6f13fabae46
   prerequisites: *id256
   depends_on: *id257
   redirect_from: *id258
@@ -5258,7 +5258,7 @@ pages:
   translation_group: reference.eoc-effects
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 0b0600c0494b57218f60c7346aa6a20a2a0e995fb71a330e374920c5e3d1e19a
+  translation_source_fingerprint: ad5e0765232ab25b8a0662ea11000afb63b4a2397f8954876d1b2a14db912046
   prerequisites: *id256
   depends_on: *id257
   redirect_from: *id258
@@ -5302,7 +5302,7 @@ pages:
   translation_group: reference.eoc-effects
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 0b0600c0494b57218f60c7346aa6a20a2a0e995fb71a330e374920c5e3d1e19a
+  translation_source_fingerprint: ad5e0765232ab25b8a0662ea11000afb63b4a2397f8954876d1b2a14db912046
   prerequisites: *id256
   depends_on: *id257
   redirect_from: *id258

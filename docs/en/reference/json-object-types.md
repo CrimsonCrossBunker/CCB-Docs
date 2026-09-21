@@ -34,7 +34,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 093580aa01cee68d522f0ecc7d7249b4be0a0364912043fad42983125304c846
+translation_source_fingerprint: 35a5f5a18cae75f8da4fb6754ede2adbd73e98f4b74fe18dcd2043951050848c
 prerequisites:
 - json.overview
 depends_on: []
@@ -82,7 +82,7 @@ This table indexes all 190 unique registered object types in the current invento
 
 ## Evidence boundary
 
-The inventories prove registry/parser dispatch, source locations, and recorded example candidates. They are not a complete game JSON Schema. `partial`, `unclassified`, `unknown`, and `lexical_only` preserve known unknowns intentionally.
+The inventories prove registry/parser dispatch, source locations, and recorded example candidates. They are not a complete game JSON Schema. `partial`, `unclassified`, `unknown`, and `lexical_only` preserve known unknowns intentionally. Content files also contribute to `source_fingerprint`: moving JSON content can change the fingerprint without changing registered types or condition/effect keys.
 
 | Type | Contract | Loader | Field evidence | Schema | Instances | Documentation evidence | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- |
