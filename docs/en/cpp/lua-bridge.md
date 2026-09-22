@@ -107,7 +107,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 54aca6f959560e8cf8438ce5f4150996e3d45d4034d2215d33d3d0551d989666
+translation_source_fingerprint: 536bc84f0e61e095bf64caf5e7ef4d20a0bf82a6c0d96d8a419ecfc7400116ca
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -700,9 +700,9 @@ call `set_value` explicitly to write it back.
 Top-level reads of missing or empty values still return `nil`, and
 `context:set_value(key, nil)` still removes the key. Pass `ccb.services.types.null` to store
 an explicit null. Do not use `nil` for array slots: it removes the corresponding key and
-creates a sparse table. Existing limits remain 256 entries per array and per store,
-512 recursive nodes, 8 levels, and 8192 bytes per string. Rejected cyclic or sparse tables,
-invalid values, and oversized inputs leave the previous value unchanged.
+can create a sparse table or shorten the array. Existing limits remain 256 entries per array
+and per store, 512 recursive nodes, 8 levels, and 8192 bytes per string. Rejected cyclic or
+sparse tables, invalid values, and oversized inputs leave the previous value unchanged.
 
 ## Effect snapshots and variable queries
 

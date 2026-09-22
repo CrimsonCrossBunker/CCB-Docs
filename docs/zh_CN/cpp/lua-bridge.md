@@ -107,7 +107,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 54aca6f959560e8cf8438ce5f4150996e3d45d4034d2215d33d3d0551d989666
+translation_source_fingerprint: 536bc84f0e61e095bf64caf5e7ef4d20a0bf82a6c0d96d8a419ecfc7400116ca
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -626,7 +626,7 @@ JSON 冲突列表和用户默认 Mod 列表也解析旧 ID。它是同一核心�
 
 顶层读取不存在或为空的值仍返回 `nil`；`context:set_value(key, nil)` 仍删除键。
 要保存明确的空值，应传入 `ccb.services.types.null`。不要用 `nil` 在 Lua 数组中表示空槽，
-否则它会删除对应键并产生稀疏表。原有的每个数组及存储 256 项、递归 512 节点／8 层、
+它会删除对应键，可能形成稀疏表或缩短数组。原有的每个数组及存储 256 项、递归 512 节点／8 层、
 字符串 8192 字节限制保持不变；循环、稀疏表、无效值或超限输入被拒绝时不改写已有值。
 
 ## 效果快照与变量查询
