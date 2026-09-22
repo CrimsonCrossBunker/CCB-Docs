@@ -6554,7 +6554,14 @@
         "ai/lua-first-replacement-ledger.yml",
         "src/lua_platform_trade.cpp",
         "src/lua_platform_npc_services.cpp",
-        "src/lua_platform_mutations.cpp"
+        "src/lua_platform_mutations.cpp",
+        "src/lua_platform_values.cpp",
+        "src/lua_platform_values.h",
+        "src/lua_platform_items.cpp",
+        "src/lua_platform_world.cpp",
+        "tests/lua_platform_task_counter_persistence_test.cpp",
+        "tests/lua_platform_test_12_handles.cpp",
+        "tests/lua_platform_test_23_map.cpp"
       ],
       "source_symbols": [
         "platform_version = 1",
@@ -6573,17 +6580,17 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "f6a3bb50ab96428a11c7c6361a3932f8a29fce97992e3e556fcd8955b5feaec6",
+      "source_fingerprint": "324a4763e329d885ee0d09f0f8c847de37ab50d8d804f7321ebd16d63d6a2ac4",
       "authority": "api-contract",
-      "verified_commit": "8ac305b649964acc877a86e7fc872a0a315f3ecf",
-      "verified_at": "2026-09-19",
+      "verified_commit": "c9e7078e511af4100d97ee201a7bd4591c983a17",
+      "verified_at": "2026-09-22",
       "generated": false,
       "generated_by": null,
       "include_in_search": false,
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396",
+      "translation_source_fingerprint": "e42dbd6a5a0a71e6a732c5870854d53fb61d5ac04f173839a77c7089eda651e2",
       "prerequisites": [
         "cpp.mod-loading"
       ],
@@ -6687,7 +6694,14 @@
         "ai/lua-first-replacement-ledger.yml",
         "src/lua_platform_trade.cpp",
         "src/lua_platform_npc_services.cpp",
-        "src/lua_platform_mutations.cpp"
+        "src/lua_platform_mutations.cpp",
+        "src/lua_platform_values.cpp",
+        "src/lua_platform_values.h",
+        "src/lua_platform_items.cpp",
+        "src/lua_platform_world.cpp",
+        "tests/lua_platform_task_counter_persistence_test.cpp",
+        "tests/lua_platform_test_12_handles.cpp",
+        "tests/lua_platform_test_23_map.cpp"
       ],
       "source_symbols": [
         "platform_version = 1",
@@ -6706,17 +6720,17 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "f6a3bb50ab96428a11c7c6361a3932f8a29fce97992e3e556fcd8955b5feaec6",
+      "source_fingerprint": "324a4763e329d885ee0d09f0f8c847de37ab50d8d804f7321ebd16d63d6a2ac4",
       "authority": "api-contract",
-      "verified_commit": "8ac305b649964acc877a86e7fc872a0a315f3ecf",
-      "verified_at": "2026-09-19",
+      "verified_commit": "c9e7078e511af4100d97ee201a7bd4591c983a17",
+      "verified_at": "2026-09-22",
       "generated": false,
       "generated_by": null,
       "include_in_search": false,
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396",
+      "translation_source_fingerprint": "e42dbd6a5a0a71e6a732c5870854d53fb61d5ac04f173839a77c7089eda651e2",
       "prerequisites": [
         "cpp.mod-loading"
       ],
