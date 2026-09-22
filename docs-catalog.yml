@@ -7376,9 +7376,9 @@ pages:
   - 'lua_platform: 1'
   - -DCATA_ENABLE_LUA_PLATFORM="${CATA_ENABLE_LUA_PLATFORM:-1}"
   - -DCATA_ENABLE_LUA_PLATFORM=ON
-  source_fingerprint: 324a4763e329d885ee0d09f0f8c847de37ab50d8d804f7321ebd16d63d6a2ac4
+  source_fingerprint: db9ecaa3c7f84fd1103131fe7c28ba235e92b39617f6b9c461dfe7d106e5ce38
   authority: api-contract
-  verified_commit: c9e7078e511af4100d97ee201a7bd4591c983a17
+  verified_commit: 4f14337459700254325deac12cd7fd790f07e939
   verified_at: '2026-09-22'
   generated: false
   generated_by: null
@@ -7509,9 +7509,9 @@ pages:
   - 'lua_platform: 1'
   - -DCATA_ENABLE_LUA_PLATFORM="${CATA_ENABLE_LUA_PLATFORM:-1}"
   - -DCATA_ENABLE_LUA_PLATFORM=ON
-  source_fingerprint: 324a4763e329d885ee0d09f0f8c847de37ab50d8d804f7321ebd16d63d6a2ac4
+  source_fingerprint: db9ecaa3c7f84fd1103131fe7c28ba235e92b39617f6b9c461dfe7d106e5ce38
   authority: api-contract
-  verified_commit: c9e7078e511af4100d97ee201a7bd4591c983a17
+  verified_commit: 4f14337459700254325deac12cd7fd790f07e939
   verified_at: '2026-09-22'
   generated: false
   generated_by: null
