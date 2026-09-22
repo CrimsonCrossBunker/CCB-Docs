@@ -6580,9 +6580,9 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "1c1e2171340d800070b51a8c519794d88592a50006e73fccd328e1444cb53c7b",
+      "source_fingerprint": "af2165cfc1eba0bd4ccc4cf12a7e7c90700c2bc3c4d0ddcc40657471db2db7a1",
       "authority": "api-contract",
-      "verified_commit": "75fb3f93cfd71470ee92d712c2d8eec8fefdde1a",
+      "verified_commit": "89f01518fb83cedce3a258351734a5e139cc86c2",
       "verified_at": "2026-09-22",
       "generated": false,
       "generated_by": null,
@@ -6720,9 +6720,9 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "1c1e2171340d800070b51a8c519794d88592a50006e73fccd328e1444cb53c7b",
+      "source_fingerprint": "af2165cfc1eba0bd4ccc4cf12a7e7c90700c2bc3c4d0ddcc40657471db2db7a1",
       "authority": "api-contract",
-      "verified_commit": "75fb3f93cfd71470ee92d712c2d8eec8fefdde1a",
+      "verified_commit": "89f01518fb83cedce3a258351734a5e139cc86c2",
       "verified_at": "2026-09-22",
       "generated": false,
       "generated_by": null,
