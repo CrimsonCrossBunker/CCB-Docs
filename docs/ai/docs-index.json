@@ -6560,8 +6560,8 @@
         "src/lua_platform_items.cpp",
         "src/lua_platform_world.cpp",
         "tests/lua_platform_task_counter_persistence_test.cpp",
-        "tests/lua_platform_test_12_handles.cpp",
-        "tests/lua_platform_test_23_map.cpp"
+        "tests/lua_platform_test_12_handles_test.cpp",
+        "tests/lua_platform_test_23_map_test.cpp"
       ],
       "source_symbols": [
         "platform_version = 1",
@@ -6580,9 +6580,9 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "28af238ebb441f87fb7a6f81dd8fa7a68e139454b8d54929f8e2378b6614b9b4",
+      "source_fingerprint": "1c1e2171340d800070b51a8c519794d88592a50006e73fccd328e1444cb53c7b",
       "authority": "api-contract",
-      "verified_commit": "50fb48ab25a8d52bc439ac17a7cc904900e9b4ec",
+      "verified_commit": "75fb3f93cfd71470ee92d712c2d8eec8fefdde1a",
       "verified_at": "2026-09-22",
       "generated": false,
       "generated_by": null,
@@ -6700,8 +6700,8 @@
         "src/lua_platform_items.cpp",
         "src/lua_platform_world.cpp",
         "tests/lua_platform_task_counter_persistence_test.cpp",
-        "tests/lua_platform_test_12_handles.cpp",
-        "tests/lua_platform_test_23_map.cpp"
+        "tests/lua_platform_test_12_handles_test.cpp",
+        "tests/lua_platform_test_23_map_test.cpp"
       ],
       "source_symbols": [
         "platform_version = 1",
@@ -6720,9 +6720,9 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "28af238ebb441f87fb7a6f81dd8fa7a68e139454b8d54929f8e2378b6614b9b4",
+      "source_fingerprint": "1c1e2171340d800070b51a8c519794d88592a50006e73fccd328e1444cb53c7b",
       "authority": "api-contract",
-      "verified_commit": "50fb48ab25a8d52bc439ac17a7cc904900e9b4ec",
+      "verified_commit": "75fb3f93cfd71470ee92d712c2d8eec8fefdde1a",
       "verified_at": "2026-09-22",
       "generated": false,
       "generated_by": null,
