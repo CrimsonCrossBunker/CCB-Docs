@@ -104,7 +104,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396
+translation_source_fingerprint: 9add580af02a09199389af38b72856381fd65550de55b18eb53c49e5f2db5099
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -119,7 +119,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/858
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/
 alternate_urls:
@@ -277,6 +277,10 @@ Lua 侧只通过 Platform v1 声明的 value、snapshot 和代际检查 handle �
 与替换。`src/lua_platform_runtime.cpp` 及按领域拆分的 `src/lua_platform_*.cpp` 安装
 `ccb.content`、`ccb.runtime`、`ccb.dialogue`、`ccb.services`、`ccb.state`、
 `ccb.tasks` 和 `ccb.presentation` 的原生实现。
+
+原生回调的垃圾回收标识按实际 C++ 存储类型区分，不依赖编译器生成的类型显示名，
+以避免不同捕获类型的同签名回调共用析构入口。标识仅在当前进程内使用，
+不属于公开 Lua API，也不写入存档。
 
 公共 symbol 必须同时存在于原生 registration、LuaLS 声明和生成 inventory，并由 Platform
 contract/coverage tests 证明。说明性文档不能替代这些来源。
@@ -619,6 +623,12 @@ JSON 冲突列表和用户默认 Mod 列表也解析旧 ID。它是同一核心�
 `variables.resolve(context, actor, scope, key)` 的 `u`、`npc` 作用域使用传入的同一个 `actor`，不会替调用者选择对话中的某一方。`var` 间接引用也保留该对象。调用者应明确选择变量主人；迁移器在引用指向另一方时先解析最终作用域，再传入对应句柄。直接面向角色编写玩法时，可使用 `get`、`set`、`remove` 明确表达归属。
 
 本轮验证包含实际 LuaLS 检查、迁移器执行测试和效果原生对照。它关闭了上述范围的缺口；全部 EOC 选择器的语义验收仍按领域继续。
+
+全局作用域不需要上下文表或角色句柄，可调用
+`variables.resolve(nil, nil, "global", key)`，写入时使用
+`variables.set_resolved(nil, nil, "global", key, value)`。显式 `nil` 仍占据对应参数位置，
+不改变后续作用域、键和值的含义。写入 `nil` 保留“存在但为空”的变量；删除应使用
+`variables.remove_global(key)`。
 
 ### 按身体结构权重抽取部位
 

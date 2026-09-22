@@ -102,8 +102,8 @@ generated: false
 generated_by: null
 include_in_search: false
 include_in_ai_index: false
-translation_status: current
-translation_stale_since: null
+translation_status: translation-stale
+translation_stale_since: '2026-09-21'
 translation_source_fingerprint: 789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396
 prerequisites:
 - cpp.mod-loading
@@ -119,7 +119,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/858
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/
 alternate_urls:

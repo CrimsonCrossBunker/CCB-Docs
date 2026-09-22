@@ -6581,8 +6581,8 @@
       "generated_by": null,
       "include_in_search": false,
       "include_in_ai_index": false,
-      "translation_status": "current",
-      "translation_stale_since": null,
+      "translation_status": "translation-stale",
+      "translation_stale_since": "2026-09-21",
       "translation_source_fingerprint": "789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396",
       "prerequisites": [
         "cpp.mod-loading"
@@ -6600,7 +6600,7 @@
       "deprecation_replacement": null,
       "risk_group": "lua-api",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/858",
       "stale_reason": null,
       "path": "cpp/lua-bridge.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/"
@@ -6716,7 +6716,7 @@
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396",
+      "translation_source_fingerprint": "9add580af02a09199389af38b72856381fd65550de55b18eb53c49e5f2db5099",
       "prerequisites": [
         "cpp.mod-loading"
       ],
@@ -6733,7 +6733,7 @@
       "deprecation_replacement": null,
       "risk_group": "lua-api",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/858",
       "stale_reason": null,
       "path": "cpp/lua-bridge.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/"
