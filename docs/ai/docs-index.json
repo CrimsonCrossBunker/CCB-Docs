@@ -6554,7 +6554,17 @@
         "ai/lua-first-replacement-ledger.yml",
         "src/lua_platform_trade.cpp",
         "src/lua_platform_npc_services.cpp",
-        "src/lua_platform_mutations.cpp"
+        "src/lua_platform_mutations.cpp",
+        "src/lua_platform_values.cpp",
+        "src/lua_platform_values.h",
+        "tests/lua_platform_computer_values_test.cpp",
+        "src/lua_platform_items.cpp",
+        "src/lua_platform_world.cpp",
+        "tests/lua_platform_task_counter_persistence_test.cpp",
+        "tests/lua_platform_test_12_handles_test.cpp",
+        "tests/lua_platform_test_23_map_test.cpp",
+        "src/lua_platform_sol.h",
+        "tests/lua_platform_sol_test.cpp"
       ],
       "source_symbols": [
         "platform_version = 1",
@@ -6573,17 +6583,17 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "f6a3bb50ab96428a11c7c6361a3932f8a29fce97992e3e556fcd8955b5feaec6",
+      "source_fingerprint": "a5b475120495052c7875a73ec891626dad2dbbab5839b12269d932a82d05cc6c",
       "authority": "api-contract",
-      "verified_commit": "8ac305b649964acc877a86e7fc872a0a315f3ecf",
-      "verified_at": "2026-09-19",
+      "verified_commit": "1ee417bc8f97ebfdfd9fd07dbb6b7749bcee6e38",
+      "verified_at": "2026-09-23",
       "generated": false,
       "generated_by": null,
       "include_in_search": false,
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396",
+      "translation_source_fingerprint": "cf8702c676916a9d5d1767796f9375c533e5b9d7bc9be5d28760ff18cd5ac691",
       "prerequisites": [
         "cpp.mod-loading"
       ],
@@ -6600,7 +6610,7 @@
       "deprecation_replacement": null,
       "risk_group": "lua-api",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/883",
       "stale_reason": null,
       "path": "cpp/lua-bridge.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/"
@@ -6687,7 +6697,17 @@
         "ai/lua-first-replacement-ledger.yml",
         "src/lua_platform_trade.cpp",
         "src/lua_platform_npc_services.cpp",
-        "src/lua_platform_mutations.cpp"
+        "src/lua_platform_mutations.cpp",
+        "src/lua_platform_values.cpp",
+        "src/lua_platform_values.h",
+        "tests/lua_platform_computer_values_test.cpp",
+        "src/lua_platform_items.cpp",
+        "src/lua_platform_world.cpp",
+        "tests/lua_platform_task_counter_persistence_test.cpp",
+        "tests/lua_platform_test_12_handles_test.cpp",
+        "tests/lua_platform_test_23_map_test.cpp",
+        "src/lua_platform_sol.h",
+        "tests/lua_platform_sol_test.cpp"
       ],
       "source_symbols": [
         "platform_version = 1",
@@ -6706,17 +6726,17 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "f6a3bb50ab96428a11c7c6361a3932f8a29fce97992e3e556fcd8955b5feaec6",
+      "source_fingerprint": "a5b475120495052c7875a73ec891626dad2dbbab5839b12269d932a82d05cc6c",
       "authority": "api-contract",
-      "verified_commit": "8ac305b649964acc877a86e7fc872a0a315f3ecf",
-      "verified_at": "2026-09-19",
+      "verified_commit": "1ee417bc8f97ebfdfd9fd07dbb6b7749bcee6e38",
+      "verified_at": "2026-09-23",
       "generated": false,
       "generated_by": null,
       "include_in_search": false,
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396",
+      "translation_source_fingerprint": "cf8702c676916a9d5d1767796f9375c533e5b9d7bc9be5d28760ff18cd5ac691",
       "prerequisites": [
         "cpp.mod-loading"
       ],
@@ -6733,7 +6753,7 @@
       "deprecation_replacement": null,
       "risk_group": "lua-api",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/883",
       "stale_reason": null,
       "path": "cpp/lua-bridge.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/"
