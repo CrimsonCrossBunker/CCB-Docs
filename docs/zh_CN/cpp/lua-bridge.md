@@ -318,6 +318,20 @@ Lua API。
 4. 添加或更新聚焦 behavior、parity、coverage 和 disabled-build tests；
 5. 只有在源码、声明、生成 inventory 和测试一致后才更新生成 reference。
 
+### 变量写入结果与原生字符串范围
+
+本批 Platform v1 的 `ccb.services.variables.set`、`remove`、`set_global`、
+`remove_global` 和 `set_resolved` 接受可选 `include_before = false`。
+默认仍返回旧值；关闭时省略结果中的 `before`，并跳过旧值到 Lua 的转换。
+这适用于只需要写入副作用、且旧值可能超出结构化转换限额的调用；新值的校验
+和回调上下文变量的键限制仍然适用。
+
+角色、物品、载具和全局原生变量的运行时键遵循原生字符串范围；顶层原生标量
+字符串保留完整字节。回调上下文及其间接查找入口仍有独立的键限制，嵌套数组
+仍受结构化转换限额约束。运行时可使用含 NUL 的原生键，但持久化路径未证明
+此类键能在存档后往返。迁移器仅在原生语义有依据的路径采用这些范围；
+这批测试与接口存在本身不构成全部 EOC 条目已验证的证据。
+
 ## Contract 与 build gates
 
 `Lua public contract` workflow 运行 LuaLS、native inventory、Platform contract、coverage、

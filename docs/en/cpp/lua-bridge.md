@@ -323,6 +323,25 @@ Complete a bridge change as one coherent batch:
 4. add or update focused behavior, parity, coverage, and disabled-build tests;
 5. update generated reference material only after source, declaration, inventory, and tests agree.
 
+### Variable mutation results and native string ranges
+
+In this Platform v1 batch, `ccb.services.variables.set`, `remove`,
+`set_global`, `remove_global`, and `set_resolved` accept optional
+`include_before = false`. The default still returns the prior value.
+Setting it to false omits `before` from the result and skips converting the
+prior value to Lua. This supports writes that only need their side effect when
+the old value exceeds structured conversion limits. Validation of the new
+value and callback-context key limits still apply.
+
+Runtime keys for native actor, item, vehicle, and global variables follow
+native string ranges; top-level native scalar strings preserve all bytes.
+Callback-context and indirect lookup entry keys retain their separate
+limits, and nested arrays remain subject to structured conversion limits.
+A native key containing NUL can work at runtime, but persistence across a
+save/load round trip is not established. The migrator uses these ranges only
+where native semantics support them. Passing these tests or exposing the API
+does not prove that every EOC entry has been semantically verified.
+
 ## Contract and build gates
 
 The `Lua public contract` workflow runs the LuaLS, native-inventory, Platform-contract, coverage,
