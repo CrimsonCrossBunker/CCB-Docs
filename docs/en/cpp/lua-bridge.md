@@ -104,7 +104,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 5415f98f4f33a3ef89a9cdb73e866d21d2c5e65c42ed0e6c5b65fd06832d88c6
+translation_source_fingerprint: 510e6eddd6e77c40c4173ed25a8f539f3620cf6d88031ed95ad0262ae513cd71
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -873,3 +873,8 @@ scope, rather than repeating that gate for each Lua API change. Compile once at 
 coherent batch, execute the affected native cases, and reuse unchanged evidence. Passing tool
 checks, having test source, and passing native execution are separate evidence. None establishes
 that every EOC has been replaced.
+
+This batch refreshes source locations, example locations, and test-data occurrence counts in
+the generated JSON/EOC inventories. Registered JSON types, EOC condition/effect keys, and
+their parameter contracts remain unchanged. Refreshing an inventory does not provide new
+complete runtime acceptance evidence for those keys.

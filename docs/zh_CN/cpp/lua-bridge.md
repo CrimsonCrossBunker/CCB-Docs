@@ -104,7 +104,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 5415f98f4f33a3ef89a9cdb73e866d21d2c5e65c42ed0e6c5b65fd06832d88c6
+translation_source_fingerprint: 510e6eddd6e77c40c4173ed25a8f539f3620cf6d88031ed95ad0262ae513cd71
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -769,3 +769,7 @@ Lua 关闭配置不能选择 `lua` 测试源码范围。两者复用游戏引擎
 手动入口选择。迁移器工具改动走自己的检查范围，不作为每次 Lua API 改动的重复 gate。
 本地应在完整批次结束后编译一次并运行受影响的原生用例，再复用未变化的证据。
 工具检查通过、测试源码存在和原生运行通过是不同证据；这些结果均不代表全部 EOC 已替换。
+
+生成的 JSON/EOC 清单在本批更新了源码位置、示例位置和测试数据实例计数。
+对比注册内容后，JSON 类型及 EOC 条件／效果键的集合与参数契约保持一致；
+清单刷新不代表新增了这些键的完整运行验收证据。
