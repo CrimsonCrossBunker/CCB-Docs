@@ -4972,7 +4972,7 @@ pages:
   translation_group: eoc.variables-context
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 8e90cbae7e8c02b7eaa85d8151d686e20feb0dac08e769660feee6034b89c055
+  translation_source_fingerprint: 98556c52c2794b8e3df9165ea60a0925a14f8d162127f5ceb4a09b9890013b24
   prerequisites: &id246
   - eoc.overview
   depends_on: &id247
@@ -4988,7 +4988,7 @@ pages:
   deprecation_replacement: null
   risk_group: eoc
   risk_level: high
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/937
   stale_reason: null
   nav:
     section: EOC
@@ -5018,7 +5018,7 @@ pages:
   translation_group: eoc.variables-context
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 8e90cbae7e8c02b7eaa85d8151d686e20feb0dac08e769660feee6034b89c055
+  translation_source_fingerprint: 98556c52c2794b8e3df9165ea60a0925a14f8d162127f5ceb4a09b9890013b24
   prerequisites: *id246
   depends_on: *id247
   redirect_from: *id241
@@ -5032,7 +5032,7 @@ pages:
   deprecation_replacement: null
   risk_group: eoc
   risk_level: high
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/937
   stale_reason: null
   nav:
     section: EOC

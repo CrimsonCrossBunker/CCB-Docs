@@ -41,7 +41,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 8e90cbae7e8c02b7eaa85d8151d686e20feb0dac08e769660feee6034b89c055
+translation_source_fingerprint: 98556c52c2794b8e3df9165ea60a0925a14f8d162127f5ceb4a09b9890013b24
 prerequisites:
 - eoc.overview
 depends_on:
@@ -56,7 +56,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: eoc
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/937
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/variables-context/
 alternate_urls:
@@ -119,3 +119,13 @@ prove that every condition or effect accepts every scope or value type.
 The handler-level variable contract remains `unclassified` for 272 of 275 conditions and all 306
 effects. `known_global_scopes` in generated reference is a global parser capability, not a
 per-key allowlist.
+
+## Coordinate and timer implementations shared with Lua (PR #937 pending)
+
+[CCB #937](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/937)
+uses the native coordinate reflection method for EOC `mirror_coordinates` and the native
+due-time calculation for `place_override`, `revert_location`, and `copy_location`. The existing
+additional one-second due-time offset is preserved. Lua operations and EOC use the same
+underlying methods; source and native tests define their ranges and extreme-value behavior.
+This does not introduce an EOC authoring compatibility layer or establish automatic conversion
+of all older content. See [Native Lua bridge](../cpp/lua-bridge.md) for the acceptance boundary.

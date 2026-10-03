@@ -4183,6 +4183,16 @@ The handler-level variable contract remains `unclassified` for 272 of 275 condit
 effects. `known_global_scopes` in generated reference is a global parser capability, not a
 per-key allowlist.
 
+## Coordinate and timer implementations shared with Lua (PR #937 pending)
+
+[CCB #937](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/937)
+uses the native coordinate reflection method for EOC `mirror_coordinates` and the native
+due-time calculation for `place_override`, `revert_location`, and `copy_location`. The existing
+additional one-second due-time offset is preserved. Lua operations and EOC use the same
+underlying methods; source and native tests define their ranges and extreme-value behavior.
+This does not introduce an EOC authoring compatibility layer or establish automatic conversion
+of all older content. See [Native Lua bridge](../cpp/lua-bridge.md) for the acceptance boundary.
+
 ## eoc.variables-context [zh_CN] — EOC 变量与上下文
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/
@@ -4216,6 +4226,15 @@ Sources: data/reference/json/ccb_eoc_conditions.json, data/reference/json/ccb_eo
 275 个条件中 272 个、306 个效果中全部 306 个的 handler 变量契约仍是
 `unclassified`。生成参考显示 `known_global_scopes` 是全局 parser 能力，不是每个键的
 逐项许可列表。
+
+## 与 Lua 共用的坐标和定时实现（PR #937 待合并）
+
+[CCB #937](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/937)
+让 EOC 的 `mirror_coordinates` 复用原生坐标镜像方法，`place_override`、
+`revert_location` 和 `copy_location` 复用原生定时到期计算；原有额外一秒的到期偏移保留。
+Lua 操作与 EOC 调用相同的底层方法，输入范围和极值行为以源码及对应原生测试为准。
+这次共享实现不增加 EOC 创作兼容层，也不证明全部旧内容可直接转换。
+参见 [Native Lua bridge](../cpp/lua-bridge.md) 的集中验收边界。
 
 ## getting-started.common-tasks [en] — Common contribution tasks
 

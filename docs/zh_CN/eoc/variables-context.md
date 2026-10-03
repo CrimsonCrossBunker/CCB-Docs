@@ -41,7 +41,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 8e90cbae7e8c02b7eaa85d8151d686e20feb0dac08e769660feee6034b89c055
+translation_source_fingerprint: 98556c52c2794b8e3df9165ea60a0925a14f8d162127f5ceb4a09b9890013b24
 prerequisites:
 - eoc.overview
 depends_on:
@@ -56,7 +56,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: eoc
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/937
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/
 alternate_urls:
@@ -118,3 +118,12 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 275 个条件中 272 个、306 个效果中全部 306 个的 handler 变量契约仍是
 `unclassified`。生成参考显示 `known_global_scopes` 是全局 parser 能力，不是每个键的
 逐项许可列表。
+
+## 与 Lua 共用的坐标和定时实现（PR #937 待合并）
+
+[CCB #937](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/937)
+让 EOC 的 `mirror_coordinates` 复用原生坐标镜像方法，`place_override`、
+`revert_location` 和 `copy_location` 复用原生定时到期计算；原有额外一秒的到期偏移保留。
+Lua 操作与 EOC 调用相同的底层方法，输入范围和极值行为以源码及对应原生测试为准。
+这次共享实现不增加 EOC 创作兼容层，也不证明全部旧内容可直接转换。
+参见 [Native Lua bridge](../cpp/lua-bridge.md) 的集中验收边界。
