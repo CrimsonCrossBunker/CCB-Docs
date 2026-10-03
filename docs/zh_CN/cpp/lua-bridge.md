@@ -104,7 +104,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396
+translation_source_fingerprint: 5415f98f4f33a3ef89a9cdb73e866d21d2c5e65c42ed0e6c5b65fd06832d88c6
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -119,7 +119,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/937
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/
 alternate_urls:
@@ -274,7 +274,7 @@ Lua 侧只通过 Platform v1 声明的 value、snapshot 和代际检查 handle �
 
 `src/lua_platform_loader.cpp` 负责发现 `main.lua`/可选 `mod.lua`、创建 state、安装
 `package.loaded["ccb"]`、解析 Mod 根目录内的模块，并管理候选 runtime 的准备、提交、回滚
-与替换。`src/lua_platform_runtime.cpp` 及按领域拆分的 `src/lua_platform_*.cpp` 安装
+与替换。`src/lua_platform_runtime_api.cpp` 及按领域拆分的 `src/lua_platform_*.cpp` 安装
 `ccb.content`、`ccb.runtime`、`ccb.dialogue`、`ccb.services`、`ccb.state`、
 `ccb.tasks` 和 `ccb.presentation` 的原生实现。
 
@@ -746,3 +746,26 @@ JSON 冲突列表和用户默认 Mod 列表也解析旧 ID。它是同一核心�
 这些检查不替代 C++ 原生执行、真实 JSON/EOC 语料或游戏交互验收。
 586 项账本仍为：1 项完整验收、572 项限定范围实现但未完整验收、13 项已审查不适用。
 不得将该比例解释为平台完成百分比，也不得据此删除 EOC。
+
+## PR #937：原生能力与验收收尾（待合并）
+
+本节跟随 [CCB PR #937](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/937)。
+该 PR 的领域实现与回归测试仍在集中验收；本页保持草稿，源码合并后再绑定最终提交。
+
+- 变量的 context/var 键遵循原生存储规则，保留空键、长键、控制字符和 UTF-8；
+  显式空值、不存在和空字符串仍是不同状态。不要恢复旧的 128 字节兼容限制。
+- NPC 活动要求对象仍由游戏管理；世界切换会使旧代际句柄失效。
+  测试和 Mod 都应在世界就绪后获取参与者，不把临时脱离游戏的对象当成活动目标。
+- 精确交易保留源物品身份和容器内顺序，失败时回滚。未归属物品遵循原生可取用规则；
+  需要禁止取用的夹具应设置外部所有者。
+- 原生回调错误需要记录上下文并允许后续回调继续执行；任务、活动和任务系统退出时
+  必须先撤销引用，不能将静态清单一致性作为生命周期验收结果。
+
+`CATA_TEST_SUITE=lua` 只缩小编译的测试源码范围，仍链接实际引擎并加载游戏数据。
+它适合 Lua 原生回归；`CATA_TEST_SUITE=all` 保留完整测试源码范围，供其他领域使用。
+Lua 关闭配置不能选择 `lua` 测试源码范围。两者复用游戏引擎构建缓存。
+
+`Lua public contract` 的自动检查集中运行 Lua API 工具测试；原生编译和执行由工作流的
+手动入口选择。迁移器工具改动走自己的检查范围，不作为每次 Lua API 改动的重复 gate。
+本地应在完整批次结束后编译一次并运行受影响的原生用例，再复用未变化的证据。
+工具检查通过、测试源码存在和原生运行通过是不同证据；这些结果均不代表全部 EOC 已替换。

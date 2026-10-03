@@ -104,7 +104,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396
+translation_source_fingerprint: 5415f98f4f33a3ef89a9cdb73e866d21d2c5e65c42ed0e6c5b65fd06832d88c6
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -119,7 +119,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/937
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/
 alternate_urls:
@@ -276,7 +276,7 @@ only through the values, snapshots, and generation-checked handles declared by P
 
 `src/lua_platform_loader.cpp` discovers `main.lua` and optional `mod.lua`, creates states,
 installs `package.loaded["ccb"]`, resolves modules within the Mod root, and manages candidate
-runtime preparation, commit, rollback, and replacement. `src/lua_platform_runtime.cpp` and the
+runtime preparation, commit, rollback, and replacement. `src/lua_platform_runtime_api.cpp` and the
 domain-specific `src/lua_platform_*.cpp` files install the native implementations of
 `ccb.content`, `ccb.runtime`, `ccb.dialogue`, `ccb.services`, `ccb.state`,
 `ccb.tasks`, and `ccb.presentation`.
@@ -842,3 +842,34 @@ The final combined working tree passes 511 migration-tool tests plus LuaLS, nati
 These checks do not replace native C++ execution, real JSON/EOC corpus acceptance or in-game interaction.
 The 586-entry ledger remains: one fully verified entry, 572 bounded implementations awaiting complete acceptance, and 13 reviewed as not applicable.
 This distribution is not a platform completion percentage and does not justify removing EOC.
+
+## PR #937: native capabilities and acceptance closeout (pending merge)
+
+This section follows [CCB PR #937](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/937).
+Its domain implementations and regression tests are undergoing batch acceptance. This page
+remains a draft; bind it to the final source commit after the source PR merges.
+
+- Context/var keys follow native storage rules, preserving empty keys, long keys, control
+  characters, and UTF-8. Explicit null, absence, and the empty string remain distinct. Do not
+  restore the former 128-byte compatibility limit.
+- NPC activities require an object still owned by the game. World transitions invalidate older
+  handle generations. Obtain participants after world readiness; a detached temporary object
+  is not an active activity target.
+- Exact trades preserve source item identity and container ordering, with rollback on failure.
+  Unowned items follow native availability rules; fixtures that forbid taking an item must
+  assign a foreign owner.
+- Native callback errors record context and allow later callbacks to continue. Tasks,
+  activities, and missions must retire references during teardown. Static inventory
+  consistency does not establish lifecycle acceptance.
+
+`CATA_TEST_SUITE=lua` narrows compiled test sources while linking the actual engine and loading
+game data. Use it for Lua native regressions; `CATA_TEST_SUITE=all` retains the complete test
+source set for other domains. A Lua-disabled build cannot select the `lua` test source set.
+Both selections reuse the engine build cache.
+
+The automatic `Lua public contract` check runs the Lua API tool tests together; its manual
+workflow entry selects native compilation and execution. Migrator changes use their own check
+scope, rather than repeating that gate for each Lua API change. Compile once at the end of a
+coherent batch, execute the affected native cases, and reuse unchanged evidence. Passing tool
+checks, having test source, and passing native execution are separate evidence. None establishes
+that every EOC has been replaced.
