@@ -6554,7 +6554,10 @@
         "ai/lua-first-replacement-ledger.yml",
         "src/lua_platform_trade.cpp",
         "src/lua_platform_npc_services.cpp",
-        "src/lua_platform_mutations.cpp"
+        "src/lua_platform_mutations.cpp",
+        "src/flexbuffer_json.cpp",
+        "src/flexbuffer_json.h",
+        "tests/lua_platform_persistent_integer_test.cpp"
       ],
       "source_symbols": [
         "platform_version = 1",
@@ -6573,17 +6576,17 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "f6a3bb50ab96428a11c7c6361a3932f8a29fce97992e3e556fcd8955b5feaec6",
+      "source_fingerprint": "5e91e0340ced65cb2530da6f382e49d923757c5c70379d3ad90fdb99c1378320",
       "authority": "api-contract",
-      "verified_commit": "8ac305b649964acc877a86e7fc872a0a315f3ecf",
-      "verified_at": "2026-09-19",
+      "verified_commit": "62e69a762a00ec6197ba6a829972de8dd344e9f2",
+      "verified_at": "2026-10-04",
       "generated": false,
       "generated_by": null,
       "include_in_search": false,
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396",
+      "translation_source_fingerprint": "0d14bda191911ca70a8c15a9680cde99a5394a533b6c17c54f2d6d5842fb6d62",
       "prerequisites": [
         "cpp.mod-loading"
       ],
@@ -6687,7 +6690,10 @@
         "ai/lua-first-replacement-ledger.yml",
         "src/lua_platform_trade.cpp",
         "src/lua_platform_npc_services.cpp",
-        "src/lua_platform_mutations.cpp"
+        "src/lua_platform_mutations.cpp",
+        "src/flexbuffer_json.cpp",
+        "src/flexbuffer_json.h",
+        "tests/lua_platform_persistent_integer_test.cpp"
       ],
       "source_symbols": [
         "platform_version = 1",
@@ -6706,17 +6712,17 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "f6a3bb50ab96428a11c7c6361a3932f8a29fce97992e3e556fcd8955b5feaec6",
+      "source_fingerprint": "5e91e0340ced65cb2530da6f382e49d923757c5c70379d3ad90fdb99c1378320",
       "authority": "api-contract",
-      "verified_commit": "8ac305b649964acc877a86e7fc872a0a315f3ecf",
-      "verified_at": "2026-09-19",
+      "verified_commit": "62e69a762a00ec6197ba6a829972de8dd344e9f2",
+      "verified_at": "2026-10-04",
       "generated": false,
       "generated_by": null,
       "include_in_search": false,
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396",
+      "translation_source_fingerprint": "0d14bda191911ca70a8c15a9680cde99a5394a533b6c17c54f2d6d5842fb6d62",
       "prerequisites": [
         "cpp.mod-loading"
       ],
@@ -8580,17 +8586,17 @@
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e",
+      "source_fingerprint": "81648d78c697a464607987d0aa2cd8c8d85f06dfa6e9a97117cdae8581ca2b90",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "62e69a762a00ec6197ba6a829972de8dd344e9f2",
+      "verified_at": "2026-10-04",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "8e90cbae7e8c02b7eaa85d8151d686e20feb0dac08e769660feee6034b89c055",
+      "translation_source_fingerprint": "98556c52c2794b8e3df9165ea60a0925a14f8d162127f5ceb4a09b9890013b24",
       "prerequisites": [
         "eoc.overview"
       ],
@@ -8648,17 +8654,17 @@
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e",
+      "source_fingerprint": "81648d78c697a464607987d0aa2cd8c8d85f06dfa6e9a97117cdae8581ca2b90",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "62e69a762a00ec6197ba6a829972de8dd344e9f2",
+      "verified_at": "2026-10-04",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "8e90cbae7e8c02b7eaa85d8151d686e20feb0dac08e769660feee6034b89c055",
+      "translation_source_fingerprint": "98556c52c2794b8e3df9165ea60a0925a14f8d162127f5ceb4a09b9890013b24",
       "prerequisites": [
         "eoc.overview"
       ],
@@ -16695,7 +16701,7 @@
       "id": "eoc.variables-context",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/variables-context/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-10-04",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/",
@@ -16706,7 +16712,7 @@
       "id": "eoc.variables-context",
       "language": "zh_CN",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-10-04",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/",

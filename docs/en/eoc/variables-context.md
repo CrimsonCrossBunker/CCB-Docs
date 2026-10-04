@@ -31,17 +31,17 @@ source_paths:
 - doc/JSON/EFFECT_ON_CONDITION.md
 source_symbols: []
 source_queries: []
-source_fingerprint: 222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e
+source_fingerprint: 81648d78c697a464607987d0aa2cd8c8d85f06dfa6e9a97117cdae8581ca2b90
 authority: api-contract
-verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-verified_at: '2026-08-12'
+verified_commit: 62e69a762a00ec6197ba6a829972de8dd344e9f2
+verified_at: '2026-10-04'
 generated: false
 generated_by: null
 include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 8e90cbae7e8c02b7eaa85d8151d686e20feb0dac08e769660feee6034b89c055
+translation_source_fingerprint: 98556c52c2794b8e3df9165ea60a0925a14f8d162127f5ceb4a09b9890013b24
 prerequisites:
 - eoc.overview
 depends_on:
@@ -64,31 +64,31 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/variables-context/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/62e69a762a00ec6197ba6a829972de8dd344e9f2
 source_urls:
 - path: data/reference/json/ccb_eoc_conditions.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/data/reference/json/ccb_eoc_conditions.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/62e69a762a00ec6197ba6a829972de8dd344e9f2/data/reference/json/ccb_eoc_conditions.json
 - path: data/reference/json/ccb_eoc_effects.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/data/reference/json/ccb_eoc_effects.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/62e69a762a00ec6197ba6a829972de8dd344e9f2/data/reference/json/ccb_eoc_effects.json
 - path: tools/json_api/contract-inventory.schema.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tools/json_api/contract-inventory.schema.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/62e69a762a00ec6197ba6a829972de8dd344e9f2/tools/json_api/contract-inventory.schema.json
 - path: tools/json_api/generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tools/json_api/generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/62e69a762a00ec6197ba6a829972de8dd344e9f2/tools/json_api/generate_contracts.py
 - path: tools/json_api/test_generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tools/json_api/test_generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/62e69a762a00ec6197ba6a829972de8dd344e9f2/tools/json_api/test_generate_contracts.py
 - path: src/condition.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/condition.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/62e69a762a00ec6197ba6a829972de8dd344e9f2/src/condition.cpp
 - path: src/npctalk.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/npctalk.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/62e69a762a00ec6197ba6a829972de8dd344e9f2/src/npctalk.cpp
 - path: src/effect_on_condition.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/effect_on_condition.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/62e69a762a00ec6197ba6a829972de8dd344e9f2/src/effect_on_condition.cpp
 - path: src/effect_on_condition.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/effect_on_condition.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/62e69a762a00ec6197ba6a829972de8dd344e9f2/src/effect_on_condition.h
 - path: tests/eoc_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tests/eoc_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/62e69a762a00ec6197ba6a829972de8dd344e9f2/tests/eoc_test.cpp
 - path: doc/JSON/EFFECT_ON_CONDITION.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/doc/JSON/EFFECT_ON_CONDITION.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28eoc.variables-context%29%3A+&body=Document+ID%3A+eoc.variables-context%0ALanguage%3A+en%0AVerified+commit%3A+c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/62e69a762a00ec6197ba6a829972de8dd344e9f2/doc/JSON/EFFECT_ON_CONDITION.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28eoc.variables-context%29%3A+&body=Document+ID%3A+eoc.variables-context%0ALanguage%3A+en%0AVerified+commit%3A+62e69a762a00ec6197ba6a829972de8dd344e9f2%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # EOC variables and context
@@ -119,3 +119,13 @@ prove that every condition or effect accepts every scope or value type.
 The handler-level variable contract remains `unclassified` for 272 of 275 conditions and all 306
 effects. `known_global_scopes` in generated reference is a global parser capability, not a
 per-key allowlist.
+
+## Coordinate and timer implementations shared with Lua (PR #937 pending)
+
+[CCB #937](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/937)
+uses the native coordinate reflection method for EOC `mirror_coordinates` and the native
+due-time calculation for `place_override`, `revert_location`, and `copy_location`. The existing
+additional one-second due-time offset is preserved. Lua operations and EOC use the same
+underlying methods; source and native tests define their ranges and extreme-value behavior.
+This does not introduce an EOC authoring compatibility layer or establish automatic conversion
+of all older content. See [Native Lua bridge](../cpp/lua-bridge.md) for the acceptance boundary.
