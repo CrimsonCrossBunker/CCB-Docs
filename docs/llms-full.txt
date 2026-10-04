@@ -4151,7 +4151,7 @@ EOC 条件和效果在 dialogue 上下文中操作 alpha/beta talker。历史键
 ## eoc.variables-context [en] — EOC variables and context
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/variables-context/
-Verified commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+Verified commit: 62e69a762a00ec6197ba6a829972de8dd344e9f2
 Sources: data/reference/json/ccb_eoc_conditions.json, data/reference/json/ccb_eoc_effects.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/condition.cpp, src/npctalk.cpp, src/effect_on_condition.cpp, src/effect_on_condition.h, tests/eoc_test.cpp, doc/JSON/EFFECT_ON_CONDITION.md
 
 # EOC variables and context
@@ -4196,7 +4196,7 @@ of all older content. See [Native Lua bridge](../cpp/lua-bridge.md) for the acce
 ## eoc.variables-context [zh_CN] — EOC 变量与上下文
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/
-Verified commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+Verified commit: 62e69a762a00ec6197ba6a829972de8dd344e9f2
 Sources: data/reference/json/ccb_eoc_conditions.json, data/reference/json/ccb_eoc_effects.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/condition.cpp, src/npctalk.cpp, src/effect_on_condition.cpp, src/effect_on_condition.h, tests/eoc_test.cpp, doc/JSON/EFFECT_ON_CONDITION.md
 
 # EOC 变量与上下文
