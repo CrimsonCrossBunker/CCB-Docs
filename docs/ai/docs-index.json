@@ -9986,7 +9986,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "de9cdb3a343ea018217d94be59be2e49b6baaa9cf80b451f22c8796f660bc9f4",
+      "translation_source_fingerprint": "9bfbec4adf55ce95bbad4bf3b6d1b8755882c8d3c10366a7450446fd8f96feee",
       "prerequisites": [
         "json.overview",
         "eoc.overview"
@@ -10056,7 +10056,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "de9cdb3a343ea018217d94be59be2e49b6baaa9cf80b451f22c8796f660bc9f4",
+      "translation_source_fingerprint": "9bfbec4adf55ce95bbad4bf3b6d1b8755882c8d3c10366a7450446fd8f96feee",
       "prerequisites": [
         "json.overview",
         "eoc.overview"
