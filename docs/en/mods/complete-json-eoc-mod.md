@@ -37,7 +37,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: d5c35e08ad2c22fe3748e66e17ea951940656d1fac9c2bf7df9d93893f43f31b
+translation_source_fingerprint: de9cdb3a343ea018217d94be59be2e49b6baaa9cf80b451f22c8796f660bc9f4
 prerequisites:
 - json.overview
 - eoc.overview
@@ -195,3 +195,5 @@ Railway maps, vehicle prototypes and station entrances can use static JSON. New 
 `point` lies outside the station footprint; adjacent `from` identifies the station side. Connection directions rotate with the special. Entrances using the region's `rail_connection` seek reachable existing rails; entrances placed before regional railway generation participate in that later network. If no route is reachable, only a stub facing the station remains, without a connectivity guarantee. Ordinary road connections retain their city targets.
 
 Validation needs real loading, reciprocal overmap connections, local track alignment and vehicle travel. Refreshing content fingerprints in generated inventories does not add JSON types or EOC capabilities, and does not establish usable station entrances. Previously generated stations in existing saves are not rebuilt automatically. See `data/mods/railroads/README.md` in the source repository for data and acceptance limits.
+
+Follow-up content and acceptance are tracked in [PR #964](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/964), [PR #969](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/969), [PR #970](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/970) and [PR #971](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/971). The combined batch passed 12 native tests and 29,853 assertions with seed 3404, covering actual vehicle spawning, station entrances, curves and junctions, bridges and crossings, engine fuel use, and continued driving after disk reload. Acceptance reused a compatible Curses/Lua Platform v1 native cache; complete build CI and manual UI driving remain outstanding. Keep this documentation draft until the source PRs merge, then refresh it to the final commits and acceptance results before publishing.

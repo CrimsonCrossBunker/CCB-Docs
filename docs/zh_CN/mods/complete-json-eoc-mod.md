@@ -37,7 +37,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: d5c35e08ad2c22fe3748e66e17ea951940656d1fac9c2bf7df9d93893f43f31b
+translation_source_fingerprint: de9cdb3a343ea018217d94be59be2e49b6baaa9cf80b451f22c8796f660bc9f4
 prerequisites:
 - json.overview
 - eoc.overview
@@ -190,3 +190,5 @@ cp -R examples/complete-json-eoc-mod "$ccb_example_user/mods/ccb_docs_json_eoc_e
 `point` 位于站房占地之外；相邻的 `from` 指出站房一侧，连接方向随特殊建筑旋转。使用区域 `rail_connection` 的入口寻找可达的既有铁路；早于区域路网生成的车站入口参与后续路网生成。没有可达线路时仅留下朝向车站的短轨，不保证联网。普通公路仍连接原有城市目标。
 
 检查应同时包含真实加载、大地图双向连接及局部钢轨和车辆通行；生成清单中的内容指纹刷新不代表新增 JSON 类型或 EOC 能力，也不证明车辆能通过站口。旧存档中的已生成车站不会自动重建。具体数据和验收边界见源码仓库的 `data/mods/railroads/README.md`。
+
+后续内容与验收分别见 [PR #964](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/964)、[PR #969](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/969)、[PR #970](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/970) 和 [PR #971](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/971)。组合批次在固定种子 3404 下通过 12 个原生测试、29,853 条断言，覆盖车辆实际生成、进出站、曲线与道岔、桥梁和平交道、发动机耗油及磁盘读档后继续行驶。验收复用了兼容的 Curses/Lua Platform v1 原生缓存；完整构建 CI 和人工 UI 驾驶仍待完成。这些源码 PR 合并前，文档保持草稿，发布前应同步最终提交及验收结果。
