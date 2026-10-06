@@ -37,7 +37,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 6ded0b43085f4eef208e8256f7d9d497323f2dba7a085068a440d48be7a306c8
+translation_source_fingerprint: d5c35e08ad2c22fe3748e66e17ea951940656d1fac9c2bf7df9d93893f43f31b
 prerequisites:
 - json.overview
 - eoc.overview
@@ -57,7 +57,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: mods
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/968
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/
 alternate_urls:
@@ -178,3 +178,20 @@ and retain the load log.
 - Keep IDs stable and mod-prefixed; declare dependencies explicitly.
 - Start from the minimal EOC, then add nesting, variables, and talker use one layer at a time and
   test each layer with the real loader.
+
+## 5. Declarative map connections: the Railroads example
+
+Railway maps, vehicle prototypes and station entrances can use static JSON. New authored gameplay behavior follows Lua Platform v1 (`require("ccb")`); this section introduces no additional behavior runtime.
+
+[CCB PR #968](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/968) has not merged. Its source and native regressions verify the fields below; check the final merged commit before publishing. Fixed `city_building` and fixed `overmap_special` definitions use the same `connections` format:
+
+```json
+"connections": [
+  { "point": [ 0, 0, 0 ], "terrain": "railroad", "connection": "local_railroad", "from": [ 0, 1, 0 ] },
+  { "point": [ 0, 5, 0 ], "terrain": "railroad", "connection": "local_railroad", "from": [ 0, 4, 0 ] }
+]
+```
+
+`point` lies outside the station footprint; adjacent `from` identifies the station side. Connection directions rotate with the special. Entrances using the region's `rail_connection` seek reachable existing rails; entrances placed before regional railway generation participate in that later network. If no route is reachable, only a stub facing the station remains, without a connectivity guarantee. Ordinary road connections retain their city targets.
+
+Validation needs real loading, reciprocal overmap connections, local track alignment and vehicle travel. Refreshing content fingerprints in generated inventories does not add JSON types or EOC capabilities, and does not establish usable station entrances. Previously generated stations in existing saves are not rebuilt automatically. See `data/mods/railroads/README.md` in the source repository for data and acceptance limits.
