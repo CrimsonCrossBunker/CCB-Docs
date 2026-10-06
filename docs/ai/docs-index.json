@@ -9986,7 +9986,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "6ded0b43085f4eef208e8256f7d9d497323f2dba7a085068a440d48be7a306c8",
+      "translation_source_fingerprint": "9bfbec4adf55ce95bbad4bf3b6d1b8755882c8d3c10366a7450446fd8f96feee",
       "prerequisites": [
         "json.overview",
         "eoc.overview"
@@ -10009,7 +10009,7 @@
       "deprecation_replacement": null,
       "risk_group": "mods",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/968",
       "stale_reason": null,
       "path": "mods/complete-json-eoc-mod.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/"
@@ -10056,7 +10056,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "6ded0b43085f4eef208e8256f7d9d497323f2dba7a085068a440d48be7a306c8",
+      "translation_source_fingerprint": "9bfbec4adf55ce95bbad4bf3b6d1b8755882c8d3c10366a7450446fd8f96feee",
       "prerequisites": [
         "json.overview",
         "eoc.overview"
@@ -10079,7 +10079,7 @@
       "deprecation_replacement": null,
       "risk_group": "mods",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/968",
       "stale_reason": null,
       "path": "mods/complete-json-eoc-mod.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/"
