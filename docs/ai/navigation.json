@@ -155,13 +155,6 @@
       "path": "contributing/documentation-policy.md"
     },
     {
-      "id": "build.overview",
-      "title": "构建 CCB",
-      "section": "构建",
-      "order": 40,
-      "path": "build/overview.md"
-    },
-    {
       "id": "validation.quickstart",
       "title": "验证快速入门",
       "section": "验证",
@@ -183,20 +176,6 @@
       "path": "validation/debugging.md"
     },
     {
-      "id": "platforms.matrix",
-      "title": "平台矩阵",
-      "section": "平台",
-      "order": 50,
-      "path": "platforms/matrix.md"
-    },
-    {
-      "id": "platforms.linux",
-      "title": "Linux 开发",
-      "section": "平台",
-      "order": 51,
-      "path": "platforms/linux.md"
-    },
-    {
       "id": "platforms.windows",
       "title": "Windows 开发",
       "section": "平台",
@@ -211,13 +190,6 @@
       "path": "platforms/msys2.md"
     },
     {
-      "id": "platforms.msvc",
-      "title": "MSVC 与 vcpkg",
-      "section": "平台",
-      "order": 54,
-      "path": "platforms/msvc.md"
-    },
-    {
       "id": "platforms.wsl",
       "title": "WSL 开发",
       "section": "平台",
@@ -230,13 +202,6 @@
       "section": "平台",
       "order": 56,
       "path": "platforms/android.md"
-    },
-    {
-      "id": "platforms.ui",
-      "title": "UI 平台矩阵",
-      "section": "平台",
-      "order": 57,
-      "path": "platforms/ui.md"
     },
     {
       "id": "compatibility.save",
@@ -710,13 +675,6 @@
       "path": "contributing/documentation-policy.md"
     },
     {
-      "id": "build.overview",
-      "title": "Building CCB",
-      "section": "Build",
-      "order": 40,
-      "path": "build/overview.md"
-    },
-    {
       "id": "validation.quickstart",
       "title": "Validation quickstart",
       "section": "Validation",
@@ -738,20 +696,6 @@
       "path": "validation/debugging.md"
     },
     {
-      "id": "platforms.matrix",
-      "title": "Platform matrix",
-      "section": "Platforms",
-      "order": 50,
-      "path": "platforms/matrix.md"
-    },
-    {
-      "id": "platforms.linux",
-      "title": "Linux development",
-      "section": "Platforms",
-      "order": 51,
-      "path": "platforms/linux.md"
-    },
-    {
       "id": "platforms.windows",
       "title": "Windows development",
       "section": "Platforms",
@@ -766,13 +710,6 @@
       "path": "platforms/msys2.md"
     },
     {
-      "id": "platforms.msvc",
-      "title": "MSVC and vcpkg",
-      "section": "Platforms",
-      "order": 54,
-      "path": "platforms/msvc.md"
-    },
-    {
       "id": "platforms.wsl",
       "title": "WSL development",
       "section": "Platforms",
@@ -785,13 +722,6 @@
       "section": "Platforms",
       "order": 56,
       "path": "platforms/android.md"
-    },
-    {
-      "id": "platforms.ui",
-      "title": "UI platform matrix",
-      "section": "Platforms",
-      "order": 57,
-      "path": "platforms/ui.md"
     },
     {
       "id": "compatibility.save",

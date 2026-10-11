@@ -3,7 +3,7 @@
 id: platforms.ui
 title: UI platform matrix
 language: en
-status: active
+status: draft
 doc_type: reference
 audiences:
 - experienced-contributor
@@ -20,21 +20,23 @@ source_paths:
 - src/input_context.cpp
 - src/sdltiles.h
 - android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
+- src/sdltiles.cpp
+- data/lua/LUA_FIRST_PLATFORM.md
 source_symbols:
 - class ui_adaptor
 - android_ui_mode::is_new_ui_build()
 source_queries: []
-source_fingerprint: 4f2ee856289cb1352882870efe2efd69335a90b9e51750df07c43205fa0b2c12
+source_fingerprint: 8ff82f8da6559a83a43ed66a2f15903cfbda4407649fc32625f4c92975cbd4da
 authority: source-and-tests
-verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-verified_at: '2026-08-02'
+verified_commit: d2a99d7a74b792ae953acc5ba98d93ab4de65e92
+verified_at: '2026-10-11'
 generated: false
 generated_by: null
-include_in_search: true
-include_in_ai_index: true
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 8e5535d38d8ae267597a3fd6a545d71f480bcb4a173599d1ee3e5f4aee0c0ace
+translation_source_fingerprint: 349a7f7b769231e70b9b2b7275982033c51fd515d3c2817558a56ceed1a2594f
 prerequisites:
 - cpp.ui
 - cpp.input
@@ -52,7 +54,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: platforms-ui
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/
 alternate_urls:
@@ -60,17 +62,23 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/d32b9cc880a85480840d82cfa05d256c78a16615
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/d2a99d7a74b792ae953acc5ba98d93ab4de65e92
 source_urls:
 - path: src/ui_manager.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/src/ui_manager.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d2a99d7a74b792ae953acc5ba98d93ab4de65e92/src/ui_manager.h
 - path: src/input_context.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/src/input_context.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d2a99d7a74b792ae953acc5ba98d93ab4de65e92/src/input_context.cpp
 - path: src/sdltiles.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/src/sdltiles.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d2a99d7a74b792ae953acc5ba98d93ab4de65e92/src/sdltiles.h
 - path: android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28platforms.ui%29%3A+&body=Document+ID%3A+platforms.ui%0ALanguage%3A+en%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d2a99d7a74b792ae953acc5ba98d93ab4de65e92/android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
+- path: src/sdltiles.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d2a99d7a74b792ae953acc5ba98d93ab4de65e92/src/sdltiles.cpp
+- path: data/lua/LUA_FIRST_PLATFORM.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d2a99d7a74b792ae953acc5ba98d93ab4de65e92/data/lua/LUA_FIRST_PLATFORM.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28platforms.ui%29%3A+&body=Document+ID%3A+platforms.ui%0ALanguage%3A+en%0AVerified+commit%3A+d2a99d7a74b792ae953acc5ba98d93ab4de65e92%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
 # UI platform matrix
@@ -83,10 +91,9 @@ input routes. Every UI change must name which routes were exercised.
 | Route | Build/runtime boundary | Evidence to collect |
 | --- | --- | --- |
 | Curses | terminal cells, terminal colors and keyboard | terminal type/size, locale, key path |
-| SDL2 tiles | fallback desktop renderer and SDL2 input/audio | OS, renderer, scale, font, device |
 | SDL3 tiles | SDL3 renderer/GPU shader and recovery path | GPU/backend, artifact format, recovery |
 | Native UI | `ui_adaptor`, `input_context`, curses-compatible windows | resize/redraw and input actions |
-| Lua UI/ImGui | capability-gated Lua pages and native ImGui integration | manifest, API v5, native fallback |
+| Lua UI/ImGui | sole Lua Platform v1 and native ImGui integration | Platform v1 contract, actions, native fallback |
 | Android | Java HUD/touch/text input plus SDL3 native runtime | device/API, UI mode, orientation, touch |
 
 ## Shared invariants
@@ -99,8 +106,10 @@ new UI remains operable at narrow sizes.
 ## Validation matrix
 
 At minimum exercise keyboard navigation, cancel/confirm, resize, narrow viewport, translation,
-and the route directly changed. Renderer or coordinate changes need SDL2/SDL3 and Android where
-those branches differ. Lua UI work also validates the disabled/native fallback build.
+and the route directly changed. Renderer or coordinate changes cover SDL3 software, OpenGL,
+and GPU routes plus Android where platform input differs. Record the SDK, renderer, integer
+scale, and viewport; linked SDK identity does not prove device input or audible sound.
+Lua UI work also validates the disabled/native fallback build.
 
 ## Accessibility and failure evidence
 
