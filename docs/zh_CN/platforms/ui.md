@@ -26,9 +26,9 @@ source_symbols:
 - class ui_adaptor
 - android_ui_mode::is_new_ui_build()
 source_queries: []
-source_fingerprint: 16b05f93caea07d5ea0b95749a05d660c6d361a1c1656bc25d3f12a3e471b999
+source_fingerprint: 8ff82f8da6559a83a43ed66a2f15903cfbda4407649fc32625f4c92975cbd4da
 authority: source-and-tests
-verified_commit: 7d65b4eff3d92393e659699a312b694f0e72d2cb
+verified_commit: d2a99d7a74b792ae953acc5ba98d93ab4de65e92
 verified_at: '2026-10-11'
 generated: false
 generated_by: null
@@ -62,21 +62,21 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/7d65b4eff3d92393e659699a312b694f0e72d2cb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/d2a99d7a74b792ae953acc5ba98d93ab4de65e92
 source_urls:
 - path: src/ui_manager.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/src/ui_manager.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d2a99d7a74b792ae953acc5ba98d93ab4de65e92/src/ui_manager.h
 - path: src/input_context.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/src/input_context.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d2a99d7a74b792ae953acc5ba98d93ab4de65e92/src/input_context.cpp
 - path: src/sdltiles.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/src/sdltiles.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d2a99d7a74b792ae953acc5ba98d93ab4de65e92/src/sdltiles.h
 - path: android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d2a99d7a74b792ae953acc5ba98d93ab4de65e92/android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
 - path: src/sdltiles.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/src/sdltiles.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d2a99d7a74b792ae953acc5ba98d93ab4de65e92/src/sdltiles.cpp
 - path: data/lua/LUA_FIRST_PLATFORM.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/data/lua/LUA_FIRST_PLATFORM.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28platforms.ui%29%3A+&body=Document+ID%3A+platforms.ui%0ALanguage%3A+zh_CN%0AVerified+commit%3A+7d65b4eff3d92393e659699a312b694f0e72d2cb%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d2a99d7a74b792ae953acc5ba98d93ab4de65e92/data/lua/LUA_FIRST_PLATFORM.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28platforms.ui%29%3A+&body=Document+ID%3A+platforms.ui%0ALanguage%3A+zh_CN%0AVerified+commit%3A+d2a99d7a74b792ae953acc5ba98d93ab4de65e92%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---
