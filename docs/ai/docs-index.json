@@ -11596,7 +11596,7 @@
       "id": "reference.eoc-conditions",
       "title": "EOC condition registry",
       "language": "en",
-      "status": "active",
+      "status": "draft",
       "doc_type": "generated-api",
       "audiences": [
         "experienced-contributor",
@@ -11622,17 +11622,17 @@
         "conditional_t::conditional_t"
       ],
       "source_queries": [],
-      "source_fingerprint": "86703a8d02d00e3124d40ad05263ab9988f7739745c78bf0fde928f43bde63a8",
+      "source_fingerprint": "4741d6d7fa2366511d52a81d94cf1bb377d8c9443d7f1e084636e477ba648e3f",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "a8a470d318d405757a24fa8ab0faeafb4bfc11f4",
+      "verified_at": "2026-10-11",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "23b8363116cec96c0c361fa3919ebac4c8f9f1596cd044b3330948cbbeced065",
+      "translation_source_fingerprint": "8164445f1c26ceea5f1a514fb9a416c18b8f10eb7ea47e01a838e36f44f198a2",
       "prerequisites": [
         "eoc.overview"
       ],
@@ -11647,7 +11647,7 @@
       "deprecation_replacement": null,
       "risk_group": "eoc",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/986",
       "stale_reason": null,
       "path": "reference/eoc-conditions.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/"
@@ -11656,7 +11656,7 @@
       "id": "reference.eoc-conditions",
       "title": "EOC 条件注册表",
       "language": "zh_CN",
-      "status": "active",
+      "status": "draft",
       "doc_type": "generated-api",
       "audiences": [
         "experienced-contributor",
@@ -11682,17 +11682,17 @@
         "conditional_t::conditional_t"
       ],
       "source_queries": [],
-      "source_fingerprint": "86703a8d02d00e3124d40ad05263ab9988f7739745c78bf0fde928f43bde63a8",
+      "source_fingerprint": "4741d6d7fa2366511d52a81d94cf1bb377d8c9443d7f1e084636e477ba648e3f",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "a8a470d318d405757a24fa8ab0faeafb4bfc11f4",
+      "verified_at": "2026-10-11",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "23b8363116cec96c0c361fa3919ebac4c8f9f1596cd044b3330948cbbeced065",
+      "translation_source_fingerprint": "8164445f1c26ceea5f1a514fb9a416c18b8f10eb7ea47e01a838e36f44f198a2",
       "prerequisites": [
         "eoc.overview"
       ],
@@ -11707,7 +11707,7 @@
       "deprecation_replacement": null,
       "risk_group": "eoc",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/986",
       "stale_reason": null,
       "path": "reference/eoc-conditions.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/"
@@ -11716,7 +11716,7 @@
       "id": "reference.eoc-effects",
       "title": "EOC effect registry",
       "language": "en",
-      "status": "active",
+      "status": "draft",
       "doc_type": "generated-api",
       "audiences": [
         "experienced-contributor",
@@ -11743,17 +11743,17 @@
         "talk_effect_t::parse_string_effect"
       ],
       "source_queries": [],
-      "source_fingerprint": "663fff8aceec48e5f21eb548edbf5068c6ae3175094ad280a9f635375337db5f",
+      "source_fingerprint": "7c775e7d2505d58043bac833145a9bea6473bd23a34a45c7abcdfd5ad132abb7",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "a8a470d318d405757a24fa8ab0faeafb4bfc11f4",
+      "verified_at": "2026-10-11",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "0b0600c0494b57218f60c7346aa6a20a2a0e995fb71a330e374920c5e3d1e19a",
+      "translation_source_fingerprint": "1c226dd948baf7b5a57dfb3f8a18eff607fd7abcadda66842ecf125265aba066",
       "prerequisites": [
         "eoc.overview"
       ],
@@ -11768,7 +11768,7 @@
       "deprecation_replacement": null,
       "risk_group": "eoc",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/986",
       "stale_reason": null,
       "path": "reference/eoc-effects.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/"
@@ -11777,7 +11777,7 @@
       "id": "reference.eoc-effects",
       "title": "EOC 效果注册表",
       "language": "zh_CN",
-      "status": "active",
+      "status": "draft",
       "doc_type": "generated-api",
       "audiences": [
         "experienced-contributor",
@@ -11804,17 +11804,17 @@
         "talk_effect_t::parse_string_effect"
       ],
       "source_queries": [],
-      "source_fingerprint": "663fff8aceec48e5f21eb548edbf5068c6ae3175094ad280a9f635375337db5f",
+      "source_fingerprint": "7c775e7d2505d58043bac833145a9bea6473bd23a34a45c7abcdfd5ad132abb7",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "a8a470d318d405757a24fa8ab0faeafb4bfc11f4",
+      "verified_at": "2026-10-11",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "0b0600c0494b57218f60c7346aa6a20a2a0e995fb71a330e374920c5e3d1e19a",
+      "translation_source_fingerprint": "1c226dd948baf7b5a57dfb3f8a18eff607fd7abcadda66842ecf125265aba066",
       "prerequisites": [
         "eoc.overview"
       ],
@@ -11829,7 +11829,7 @@
       "deprecation_replacement": null,
       "risk_group": "eoc",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/986",
       "stale_reason": null,
       "path": "reference/eoc-effects.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/"
@@ -11838,7 +11838,7 @@
       "id": "reference.json-object-types",
       "title": "JSON object-type registry",
       "language": "en",
-      "status": "active",
+      "status": "draft",
       "doc_type": "generated-api",
       "audiences": [
         "experienced-contributor",
@@ -11864,17 +11864,17 @@
         "DynamicDataLoader::initialize"
       ],
       "source_queries": [],
-      "source_fingerprint": "6fcd9eedee8650f4d8a84330e61eb679e2798363db415c80b83260285c974cda",
+      "source_fingerprint": "5685b198845fcecd3fa4cea475b9e46ed821fcf114d484e59735f348ec30dea5",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "a8a470d318d405757a24fa8ab0faeafb4bfc11f4",
+      "verified_at": "2026-10-11",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "093580aa01cee68d522f0ecc7d7249b4be0a0364912043fad42983125304c846",
+      "translation_source_fingerprint": "df37178dbf4b14344cd5c03cd4b70260ff6781474e12bd001595aaec74fc9646",
       "prerequisites": [
         "json.overview"
       ],
@@ -11889,7 +11889,7 @@
       "deprecation_replacement": null,
       "risk_group": "json",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/986",
       "stale_reason": null,
       "path": "reference/json-object-types.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/"
@@ -11898,7 +11898,7 @@
       "id": "reference.json-object-types",
       "title": "JSON 对象类型注册表",
       "language": "zh_CN",
-      "status": "active",
+      "status": "draft",
       "doc_type": "generated-api",
       "audiences": [
         "experienced-contributor",
@@ -11924,17 +11924,17 @@
         "DynamicDataLoader::initialize"
       ],
       "source_queries": [],
-      "source_fingerprint": "6fcd9eedee8650f4d8a84330e61eb679e2798363db415c80b83260285c974cda",
+      "source_fingerprint": "5685b198845fcecd3fa4cea475b9e46ed821fcf114d484e59735f348ec30dea5",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "a8a470d318d405757a24fa8ab0faeafb4bfc11f4",
+      "verified_at": "2026-10-11",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "093580aa01cee68d522f0ecc7d7249b4be0a0364912043fad42983125304c846",
+      "translation_source_fingerprint": "df37178dbf4b14344cd5c03cd4b70260ff6781474e12bd001595aaec74fc9646",
       "prerequisites": [
         "json.overview"
       ],
@@ -11949,7 +11949,7 @@
       "deprecation_replacement": null,
       "risk_group": "json",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/986",
       "stale_reason": null,
       "path": "reference/json-object-types.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/"
@@ -14274,9 +14274,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/fonts/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/shaders/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/sound/",
@@ -14311,9 +14308,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/fonts/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/shaders/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/sound/",
@@ -14414,9 +14408,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/fonts/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/shaders/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/sound/",
@@ -14451,9 +14442,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/fonts/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/shaders/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/sound/",
@@ -14554,9 +14542,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/fonts/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/shaders/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/sound/",
@@ -14591,9 +14576,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/fonts/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/shaders/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/sound/",
@@ -14670,12 +14652,18 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/core-dev-guide/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/native-binding-guide/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/items/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/",
@@ -15179,13 +15167,6 @@
         "path": "json/validation.md"
       },
       {
-        "id": "reference.json-object-types",
-        "title": "JSON 对象类型注册表",
-        "section": "生成参考",
-        "order": 133,
-        "path": "reference/json-object-types.md"
-      },
-      {
         "id": "eoc.overview",
         "title": "EOC 契约与生命周期",
         "section": "EOC",
@@ -15212,20 +15193,6 @@
         "section": "EOC",
         "order": 143,
         "path": "eoc/nesting.md"
-      },
-      {
-        "id": "reference.eoc-conditions",
-        "title": "EOC 条件注册表",
-        "section": "生成参考",
-        "order": 144,
-        "path": "reference/eoc-conditions.md"
-      },
-      {
-        "id": "reference.eoc-effects",
-        "title": "EOC 效果注册表",
-        "section": "生成参考",
-        "order": 145,
-        "path": "reference/eoc-effects.md"
       },
       {
         "id": "mods.complete-json-eoc-mod",
@@ -15734,13 +15701,6 @@
         "path": "json/validation.md"
       },
       {
-        "id": "reference.json-object-types",
-        "title": "JSON object-type registry",
-        "section": "Generated reference",
-        "order": 133,
-        "path": "reference/json-object-types.md"
-      },
-      {
         "id": "eoc.overview",
         "title": "EOC contracts and lifecycle",
         "section": "EOC",
@@ -15767,20 +15727,6 @@
         "section": "EOC",
         "order": 143,
         "path": "eoc/nesting.md"
-      },
-      {
-        "id": "reference.eoc-conditions",
-        "title": "EOC condition registry",
-        "section": "Generated reference",
-        "order": 144,
-        "path": "reference/eoc-conditions.md"
-      },
-      {
-        "id": "reference.eoc-effects",
-        "title": "EOC effect registry",
-        "section": "Generated reference",
-        "order": 145,
-        "path": "reference/eoc-effects.md"
       },
       {
         "id": "mods.complete-json-eoc-mod",
@@ -17217,72 +17163,6 @@
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/",
         "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/"
-      }
-    },
-    {
-      "id": "reference.eoc-conditions",
-      "language": "en",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
-      "last_verified": "2026-08-12",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/"
-      }
-    },
-    {
-      "id": "reference.eoc-conditions",
-      "language": "zh_CN",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
-      "last_verified": "2026-08-12",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/"
-      }
-    },
-    {
-      "id": "reference.eoc-effects",
-      "language": "en",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/",
-      "last_verified": "2026-08-12",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/"
-      }
-    },
-    {
-      "id": "reference.eoc-effects",
-      "language": "zh_CN",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
-      "last_verified": "2026-08-12",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/"
-      }
-    },
-    {
-      "id": "reference.json-object-types",
-      "language": "en",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/",
-      "last_verified": "2026-08-12",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/"
-      }
-    },
-    {
-      "id": "reference.json-object-types",
-      "language": "zh_CN",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
-      "last_verified": "2026-08-12",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/"
       }
     },
     {

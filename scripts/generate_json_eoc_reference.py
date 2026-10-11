@@ -66,7 +66,7 @@ SPECS = (
         kind="eoc_effects",
         source_path="data/reference/json/ccb_eoc_effects.json",
         count_key="public_keys",
-        expected_count=310,
+        expected_count=311,
         outputs={
             "zh_CN": ROOT / "docs/zh_CN/reference/eoc-effects.md",
             "en": ROOT / "docs/en/reference/eoc-effects.md",
