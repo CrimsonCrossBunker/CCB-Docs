@@ -94,7 +94,7 @@ TEXT = {
         "condition_title": "EOC 条件注册表",
         "condition_intro": "下表覆盖解析器清单中的全部 275 个公开条件键。",
         "effect_title": "EOC 效果注册表",
-        "effect_intro": "下表覆盖解析器清单中的全部 310 个公开效果键。",
+        "effect_intro": "下表覆盖解析器清单中的全部 311 个公开效果键。",
         "json_headers": (
             "类型",
             "契约",
@@ -145,7 +145,7 @@ TEXT = {
             "This table indexes all 275 public condition keys in the parser inventory."
         ),
         "effect_title": "EOC effect registry",
-        "effect_intro": "This table indexes all 310 public effect keys in the parser inventory.",
+        "effect_intro": "This table indexes all 311 public effect keys in the parser inventory.",
         "json_headers": (
             "Type",
             "Contract",

@@ -11624,7 +11624,7 @@
       "source_queries": [],
       "source_fingerprint": "4741d6d7fa2366511d52a81d94cf1bb377d8c9443d7f1e084636e477ba648e3f",
       "authority": "api-contract",
-      "verified_commit": "a8a470d318d405757a24fa8ab0faeafb4bfc11f4",
+      "verified_commit": "cd9524b873c3b7f19d41743f6649f19d40accfe2",
       "verified_at": "2026-10-11",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
@@ -11632,7 +11632,7 @@
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "8164445f1c26ceea5f1a514fb9a416c18b8f10eb7ea47e01a838e36f44f198a2",
+      "translation_source_fingerprint": "d9e0e2c6b2cd1f4df3068765736c417f341c66456d7a87518660d52c1621f96d",
       "prerequisites": [
         "eoc.overview"
       ],
@@ -11684,7 +11684,7 @@
       "source_queries": [],
       "source_fingerprint": "4741d6d7fa2366511d52a81d94cf1bb377d8c9443d7f1e084636e477ba648e3f",
       "authority": "api-contract",
-      "verified_commit": "a8a470d318d405757a24fa8ab0faeafb4bfc11f4",
+      "verified_commit": "cd9524b873c3b7f19d41743f6649f19d40accfe2",
       "verified_at": "2026-10-11",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
@@ -11692,7 +11692,7 @@
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "8164445f1c26ceea5f1a514fb9a416c18b8f10eb7ea47e01a838e36f44f198a2",
+      "translation_source_fingerprint": "d9e0e2c6b2cd1f4df3068765736c417f341c66456d7a87518660d52c1621f96d",
       "prerequisites": [
         "eoc.overview"
       ],
@@ -11745,7 +11745,7 @@
       "source_queries": [],
       "source_fingerprint": "7c775e7d2505d58043bac833145a9bea6473bd23a34a45c7abcdfd5ad132abb7",
       "authority": "api-contract",
-      "verified_commit": "a8a470d318d405757a24fa8ab0faeafb4bfc11f4",
+      "verified_commit": "cd9524b873c3b7f19d41743f6649f19d40accfe2",
       "verified_at": "2026-10-11",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
@@ -11753,7 +11753,7 @@
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "1c226dd948baf7b5a57dfb3f8a18eff607fd7abcadda66842ecf125265aba066",
+      "translation_source_fingerprint": "8196131be04d3940b8b954e246f2a5be689f6ec2be21715a2be4a65f79daac1b",
       "prerequisites": [
         "eoc.overview"
       ],
@@ -11806,7 +11806,7 @@
       "source_queries": [],
       "source_fingerprint": "7c775e7d2505d58043bac833145a9bea6473bd23a34a45c7abcdfd5ad132abb7",
       "authority": "api-contract",
-      "verified_commit": "a8a470d318d405757a24fa8ab0faeafb4bfc11f4",
+      "verified_commit": "cd9524b873c3b7f19d41743f6649f19d40accfe2",
       "verified_at": "2026-10-11",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
@@ -11814,7 +11814,7 @@
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "1c226dd948baf7b5a57dfb3f8a18eff607fd7abcadda66842ecf125265aba066",
+      "translation_source_fingerprint": "8196131be04d3940b8b954e246f2a5be689f6ec2be21715a2be4a65f79daac1b",
       "prerequisites": [
         "eoc.overview"
       ],
@@ -11866,7 +11866,7 @@
       "source_queries": [],
       "source_fingerprint": "5685b198845fcecd3fa4cea475b9e46ed821fcf114d484e59735f348ec30dea5",
       "authority": "api-contract",
-      "verified_commit": "a8a470d318d405757a24fa8ab0faeafb4bfc11f4",
+      "verified_commit": "cd9524b873c3b7f19d41743f6649f19d40accfe2",
       "verified_at": "2026-10-11",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
@@ -11874,7 +11874,7 @@
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "df37178dbf4b14344cd5c03cd4b70260ff6781474e12bd001595aaec74fc9646",
+      "translation_source_fingerprint": "44b2116b358a450787d2bf52d9d44e341159e7116da4bbc9aeefdf70c6ae489d",
       "prerequisites": [
         "json.overview"
       ],
@@ -11926,7 +11926,7 @@
       "source_queries": [],
       "source_fingerprint": "5685b198845fcecd3fa4cea475b9e46ed821fcf114d484e59735f348ec30dea5",
       "authority": "api-contract",
-      "verified_commit": "a8a470d318d405757a24fa8ab0faeafb4bfc11f4",
+      "verified_commit": "cd9524b873c3b7f19d41743f6649f19d40accfe2",
       "verified_at": "2026-10-11",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
@@ -11934,7 +11934,7 @@
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "df37178dbf4b14344cd5c03cd4b70260ff6781474e12bd001595aaec74fc9646",
+      "translation_source_fingerprint": "44b2116b358a450787d2bf52d9d44e341159e7116da4bbc9aeefdf70c6ae489d",
       "prerequisites": [
         "json.overview"
       ],
