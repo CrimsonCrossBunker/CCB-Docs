@@ -154,28 +154,6 @@
     }
   },
   {
-    "id": "build.overview",
-    "language": "en",
-    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/",
-    "last_verified": "2026-09-05",
-    "status": "active",
-    "alternate": {
-      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
-      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/"
-    }
-  },
-  {
-    "id": "build.overview",
-    "language": "zh_CN",
-    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
-    "last_verified": "2026-09-05",
-    "status": "active",
-    "alternate": {
-      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
-      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/"
-    }
-  },
-  {
     "id": "compatibility.mods",
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/mods/",
@@ -1210,72 +1188,6 @@
     }
   },
   {
-    "id": "platforms.linux",
-    "language": "en",
-    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/",
-    "last_verified": "2026-08-02",
-    "status": "active",
-    "alternate": {
-      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
-      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/"
-    }
-  },
-  {
-    "id": "platforms.linux",
-    "language": "zh_CN",
-    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
-    "last_verified": "2026-08-02",
-    "status": "active",
-    "alternate": {
-      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
-      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/"
-    }
-  },
-  {
-    "id": "platforms.matrix",
-    "language": "en",
-    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/",
-    "last_verified": "2026-08-02",
-    "status": "active",
-    "alternate": {
-      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
-      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/"
-    }
-  },
-  {
-    "id": "platforms.matrix",
-    "language": "zh_CN",
-    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
-    "last_verified": "2026-08-02",
-    "status": "active",
-    "alternate": {
-      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
-      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/"
-    }
-  },
-  {
-    "id": "platforms.msvc",
-    "language": "en",
-    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/",
-    "last_verified": "2026-08-02",
-    "status": "active",
-    "alternate": {
-      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
-      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/"
-    }
-  },
-  {
-    "id": "platforms.msvc",
-    "language": "zh_CN",
-    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
-    "last_verified": "2026-08-02",
-    "status": "active",
-    "alternate": {
-      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
-      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/"
-    }
-  },
-  {
     "id": "platforms.msys2",
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/",
@@ -1295,28 +1207,6 @@
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/"
-    }
-  },
-  {
-    "id": "platforms.ui",
-    "language": "en",
-    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/",
-    "last_verified": "2026-08-02",
-    "status": "active",
-    "alternate": {
-      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
-      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/"
-    }
-  },
-  {
-    "id": "platforms.ui",
-    "language": "zh_CN",
-    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
-    "last_verified": "2026-08-02",
-    "status": "active",
-    "alternate": {
-      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
-      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/"
     }
   },
   {

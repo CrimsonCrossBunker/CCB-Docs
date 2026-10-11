@@ -3,7 +3,7 @@
 id: platforms.linux
 title: Linux 开发
 language: zh_CN
-status: active
+status: draft
 doc_type: how-to
 audiences:
 - new-contributor
@@ -20,20 +20,22 @@ source_paths:
 - CMakePresets.json
 - .github/workflows/matrix.yml
 - doc/c++/COMPILING.md
+- CMakeLists.txt
+- .github/actions/setup-sdl3-stack/action.yml
 source_symbols: []
 source_queries:
 - linux-x64
-source_fingerprint: 2dba8fbfa2140a345e7ae382dda6be3b45598895eea9130a0a7f7e02c27158bf
+source_fingerprint: abe5b45a8d3024027e643dd8b0797a20967055098488185be3475fbcb377962e
 authority: build-config
-verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-verified_at: '2026-08-02'
+verified_commit: 7d65b4eff3d92393e659699a312b694f0e72d2cb
+verified_at: '2026-10-11'
 generated: false
 generated_by: null
-include_in_search: true
-include_in_ai_index: true
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 4e369a0d5512e76ab86eb50a35d7ef9d9bf57a9c01e655bdaa4c683411f050da
+translation_source_fingerprint: b35fb53e6d6883e1d78329e7096e78927b197bb182ae3e67c465c9066ce61458
 prerequisites:
 - platforms.matrix
 - build.overview
@@ -51,7 +53,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: platforms-linux
 risk_level: normal
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/
 alternate_urls:
@@ -59,17 +61,23 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/d32b9cc880a85480840d82cfa05d256c78a16615
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/7d65b4eff3d92393e659699a312b694f0e72d2cb
 source_urls:
 - path: Makefile
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/Makefile
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/Makefile
 - path: CMakePresets.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/CMakePresets.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/CMakePresets.json
 - path: .github/workflows/matrix.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/.github/workflows/matrix.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/.github/workflows/matrix.yml
 - path: doc/c++/COMPILING.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/doc/c++/COMPILING.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28platforms.linux%29%3A+&body=Document+ID%3A+platforms.linux%0ALanguage%3A+zh_CN%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/doc/c++/COMPILING.md
+- path: CMakeLists.txt
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/CMakeLists.txt
+- path: .github/actions/setup-sdl3-stack/action.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/.github/actions/setup-sdl3-stack/action.yml
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28platforms.linux%29%3A+&body=Document+ID%3A+platforms.linux%0ALanguage%3A+zh_CN%0AVerified+commit%3A+7d65b4eff3d92393e659699a312b694f0e72d2cb%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
 # Linux 开发
@@ -106,12 +114,13 @@ make -j2 tests
 ## 验证与产物
 
 报告 distribution、architecture、compiler/version、Make/CMake、preset/flag、curses/tiles、
-SDL2/SDL3、sound、localization、sanitizer 和准确 test filter。build directory、
+SDL3 SDK 版本、sound、localization、sanitizer 和准确 test filter。build directory、
 `compile_commands.json`、profiler capture 与 symbol database 是本地/CI artifact，不是要
 提交的源码。
 
 ## 边界与注意事项
 
-Linux 通过不能证明 Windows 或 Android 支持。SDL3 需要编译后的 shader artifact；SDL2
-仍是独立 fallback lane。旧文档中的包管理命令容易过时，应按 configure 输出与已验证
-构建配置诊断。
+Linux 通过不能证明 Windows 或 Android 已验收。图形构建统一使用 SDL3，并需要
+编译后的 shader artifact。`TILES=1 SDL3=0` 和 `TILES=ON USE_SDL3=OFF` 会报错；
+终端构建和仅本地化目标不查询 SDL 依赖。旧包管理命令容易过时，应按 configure 输出
+与已验证构建配置诊断。

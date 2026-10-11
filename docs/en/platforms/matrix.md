@@ -3,7 +3,7 @@
 id: platforms.matrix
 title: Platform matrix
 language: en
-status: active
+status: draft
 doc_type: reference
 audiences:
 - new-contributor
@@ -22,19 +22,21 @@ source_paths:
 - .github/workflows/matrix.yml
 - .github/workflows/msvc-full-features.yml
 - .github/workflows/sdl3-matrix.yml
+- .github/workflows/release.yml
+- .github/actions/setup-sdl3-stack-macos/action.yml
 source_symbols: []
 source_queries: []
-source_fingerprint: 99e40d9f40038bf5e7decd52c09c777224ff262822fed80bda9cbc94e5c53b2d
+source_fingerprint: 3af89901fb085d31b24e3b4ddf1bf2bbc90275acb78acafff4d1cce77922e6e2
 authority: build-config
-verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-verified_at: '2026-08-02'
+verified_commit: 7d65b4eff3d92393e659699a312b694f0e72d2cb
+verified_at: '2026-10-11'
 generated: false
 generated_by: null
-include_in_search: true
-include_in_ai_index: true
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 8ae2dc2c8738c0cbf41d337f70d7c7796755182f4eea9bf39c0d40447c4a623f
+translation_source_fingerprint: 479d980e5f008a8893ca4c1282505d3488c96fd9c25c4412bb29beb7bb85002f
 prerequisites:
 - build.overview
 depends_on: []
@@ -50,7 +52,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: platforms
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/
 alternate_urls:
@@ -58,21 +60,27 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/d32b9cc880a85480840d82cfa05d256c78a16615
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/7d65b4eff3d92393e659699a312b694f0e72d2cb
 source_urls:
 - path: Makefile
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/Makefile
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/Makefile
 - path: CMakePresets.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/CMakePresets.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/CMakePresets.json
 - path: android/app/build.gradle
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/android/app/build.gradle
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/android/app/build.gradle
 - path: .github/workflows/matrix.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/.github/workflows/matrix.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/.github/workflows/matrix.yml
 - path: .github/workflows/msvc-full-features.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/.github/workflows/msvc-full-features.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/.github/workflows/msvc-full-features.yml
 - path: .github/workflows/sdl3-matrix.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/.github/workflows/sdl3-matrix.yml
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28platforms.matrix%29%3A+&body=Document+ID%3A+platforms.matrix%0ALanguage%3A+en%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/.github/workflows/sdl3-matrix.yml
+- path: .github/workflows/release.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/.github/workflows/release.yml
+- path: .github/actions/setup-sdl3-stack-macos/action.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/.github/actions/setup-sdl3-stack-macos/action.yml
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28platforms.matrix%29%3A+&body=Document+ID%3A+platforms.matrix%0ALanguage%3A+en%0AVerified+commit%3A+7d65b4eff3d92393e659699a312b694f0e72d2cb%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
 # Platform matrix
@@ -83,7 +91,7 @@ Windows, MSVC, or Android.
 
 | Platform | Maintained entry point | Important boundary | Minimum useful evidence |
 | --- | --- | --- | --- |
-| Linux | Make or `linux-x64` CMake preset | Desktop uses SDL2 by default | Configure/build plus focused tests |
+| Linux | Make or `linux-x64` CMake preset | Graphical builds require SDL3 >= 3.4.0 | Configure/build plus focused tests |
 | WSL | Linux toolchain inside WSL | Filesystem and graphics integration differ from native Linux | Name WSL version and filesystem location |
 | Windows MSYS2 | Windows MSYS2 CMake presets | Package names, shell quoting, and DLL packaging | Preset configure/build on MSYS2 |
 | Windows MSVC | vcpkg/MSVC flow and MSVC CI | Compiler diagnostics and dependency model differ | MSVC workflow or equivalent local build |
@@ -98,10 +106,12 @@ cmake --list-presets
 
 ## Feature combinations
 
-Tiles, sound, localization, tests, Lua UI, compiler, and build type are part of
-the platform identity. Report them in a pull request. CCB's desktop SDL3 jobs
-are experimental and gated by `CCB_DESKTOP_SDL3_ENABLED`; Android's use of SDL3
-does not change the desktop default.
+Tiles, sound, localization, tests, Lua Platform v1, compiler, and build type are part of
+the platform identity. All graphical lanes use SDL3; the standard Linux and macOS
+matrix and MSVC workflow exercise this backend without an opt-in repository variable.
+The Release matrix retains ten packages: Windows 2, Linux 3, macOS 2, and Android 3.
+Manual matrix/MSVC runs with `package_artifacts=true` validate installable artifacts
+without publishing a Release; `run_tests` separately controls broad native test execution.
 
 ## What this page does not claim
 

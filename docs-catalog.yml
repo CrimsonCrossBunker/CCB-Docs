@@ -960,47 +960,50 @@ pages:
   title: 构建 CCB
   language: zh_CN
   path: build/overview.md
-  status: active
+  status: draft
   doc_type: how-to
-  audiences: &id033
+  audiences:
   - new-contributor
   - experienced-contributor
   - maintainer
-  owners: *id001
-  reviewers: *id002
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: &id034
+  source_paths:
   - Makefile
   - CMakePresets.json
   - android/gradlew
   - android/build.gradle
   - .github/workflows/matrix.yml
-  source_symbols: &id035 []
-  source_queries: &id036 []
-  source_fingerprint: caa96df9d4a464cf685a6bf610bef827c7c0a9a5900d7ff27b34fa3ab53d9098
+  - CMakeLists.txt
+  source_symbols: []
+  source_queries: []
+  source_fingerprint: 4ea5d8a6d7e907ed3a54890d6b535f3c79a41f4b14043fafd6ddfc6f0bded1f4
   authority: build-config
-  verified_commit: 3053bf160578e46c1692a89c60594aa1acc6a276
-  verified_at: '2026-09-05'
+  verified_commit: 7d65b4eff3d92393e659699a312b694f0e72d2cb
+  verified_at: '2026-10-11'
   generated: false
   generated_by: null
-  include_in_search: true
-  include_in_ai_index: true
+  include_in_search: false
+  include_in_ai_index: false
   translation_group: build.overview
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 2100545da75d2202b5fc176a154e3d164c2fe77cac41ecdbc6f5d36c38e60f67
-  prerequisites: &id037
+  translation_source_fingerprint: 00bfd096819317162b7d3953883dcfb276209505946d88ca83a81066fbadb21c
+  prerequisites:
   - architecture.project-map
-  depends_on: &id038
+  depends_on:
   - platforms.matrix
   - validation.quickstart
-  redirect_from: *id003
-  supersedes: &id039
+  redirect_from: []
+  supersedes:
   - build-overview
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id040
+  example_validation_ids:
   - cmake-configure
   - cpp-format
   - cpp-tests
@@ -1011,7 +1014,7 @@ pages:
   deprecation_replacement: null
   risk_group: build
   risk_level: high
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987
   stale_reason: null
   nav:
     section: 构建
@@ -1020,41 +1023,61 @@ pages:
   title: Building CCB
   language: en
   path: build/overview.md
-  status: active
+  status: draft
   doc_type: how-to
-  audiences: *id033
-  owners: *id001
-  reviewers: *id002
+  audiences:
+  - new-contributor
+  - experienced-contributor
+  - maintainer
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id034
-  source_symbols: *id035
-  source_queries: *id036
-  source_fingerprint: caa96df9d4a464cf685a6bf610bef827c7c0a9a5900d7ff27b34fa3ab53d9098
+  source_paths:
+  - Makefile
+  - CMakePresets.json
+  - android/gradlew
+  - android/build.gradle
+  - .github/workflows/matrix.yml
+  - CMakeLists.txt
+  source_symbols: []
+  source_queries: []
+  source_fingerprint: 4ea5d8a6d7e907ed3a54890d6b535f3c79a41f4b14043fafd6ddfc6f0bded1f4
   authority: build-config
-  verified_commit: 3053bf160578e46c1692a89c60594aa1acc6a276
-  verified_at: '2026-09-05'
+  verified_commit: 7d65b4eff3d92393e659699a312b694f0e72d2cb
+  verified_at: '2026-10-11'
   generated: false
   generated_by: null
-  include_in_search: true
-  include_in_ai_index: true
+  include_in_search: false
+  include_in_ai_index: false
   translation_group: build.overview
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 2100545da75d2202b5fc176a154e3d164c2fe77cac41ecdbc6f5d36c38e60f67
-  prerequisites: *id037
-  depends_on: *id038
-  redirect_from: *id003
-  supersedes: *id039
+  translation_source_fingerprint: 00bfd096819317162b7d3953883dcfb276209505946d88ca83a81066fbadb21c
+  prerequisites:
+  - architecture.project-map
+  depends_on:
+  - platforms.matrix
+  - validation.quickstart
+  redirect_from: []
+  supersedes:
+  - build-overview
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id040
+  example_validation_ids:
+  - cmake-configure
+  - cpp-format
+  - cpp-tests
+  - json-load
+  - android-unit
   api_version: null
   deprecated: false
   deprecation_replacement: null
   risk_group: build
   risk_level: high
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987
   stale_reason: null
   nav:
     section: Build
@@ -1257,45 +1280,49 @@ pages:
   title: 平台矩阵
   language: zh_CN
   path: platforms/matrix.md
-  status: active
+  status: draft
   doc_type: reference
-  audiences: &id055
+  audiences:
   - new-contributor
   - experienced-contributor
   - maintainer
-  owners: *id001
-  reviewers: *id002
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: &id056
+  source_paths:
   - Makefile
   - CMakePresets.json
   - android/app/build.gradle
   - .github/workflows/matrix.yml
   - .github/workflows/msvc-full-features.yml
   - .github/workflows/sdl3-matrix.yml
-  source_symbols: &id057 []
-  source_queries: &id058 []
-  source_fingerprint: 99e40d9f40038bf5e7decd52c09c777224ff262822fed80bda9cbc94e5c53b2d
+  - .github/workflows/release.yml
+  - .github/actions/setup-sdl3-stack-macos/action.yml
+  source_symbols: []
+  source_queries: []
+  source_fingerprint: 3af89901fb085d31b24e3b4ddf1bf2bbc90275acb78acafff4d1cce77922e6e2
   authority: build-config
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 7d65b4eff3d92393e659699a312b694f0e72d2cb
+  verified_at: '2026-10-11'
   generated: false
   generated_by: null
-  include_in_search: true
-  include_in_ai_index: true
+  include_in_search: false
+  include_in_ai_index: false
   translation_group: platforms.matrix
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 8ae2dc2c8738c0cbf41d337f70d7c7796755182f4eea9bf39c0d40447c4a623f
-  prerequisites: &id059
+  translation_source_fingerprint: 479d980e5f008a8893ca4c1282505d3488c96fd9c25c4412bb29beb7bb85002f
+  prerequisites:
   - build.overview
-  depends_on: &id060 []
-  redirect_from: *id003
-  supersedes: *id004
+  depends_on: []
+  redirect_from: []
+  supersedes: []
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id061
+  example_validation_ids:
   - cmake-configure
   - android-unit
   api_version: null
@@ -1303,7 +1330,7 @@ pages:
   deprecation_replacement: null
   risk_group: platforms
   risk_level: high
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987
   stale_reason: null
   nav:
     section: 平台
@@ -1312,41 +1339,57 @@ pages:
   title: Platform matrix
   language: en
   path: platforms/matrix.md
-  status: active
+  status: draft
   doc_type: reference
-  audiences: *id055
-  owners: *id001
-  reviewers: *id002
+  audiences:
+  - new-contributor
+  - experienced-contributor
+  - maintainer
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id056
-  source_symbols: *id057
-  source_queries: *id058
-  source_fingerprint: 99e40d9f40038bf5e7decd52c09c777224ff262822fed80bda9cbc94e5c53b2d
+  source_paths:
+  - Makefile
+  - CMakePresets.json
+  - android/app/build.gradle
+  - .github/workflows/matrix.yml
+  - .github/workflows/msvc-full-features.yml
+  - .github/workflows/sdl3-matrix.yml
+  - .github/workflows/release.yml
+  - .github/actions/setup-sdl3-stack-macos/action.yml
+  source_symbols: []
+  source_queries: []
+  source_fingerprint: 3af89901fb085d31b24e3b4ddf1bf2bbc90275acb78acafff4d1cce77922e6e2
   authority: build-config
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 7d65b4eff3d92393e659699a312b694f0e72d2cb
+  verified_at: '2026-10-11'
   generated: false
   generated_by: null
-  include_in_search: true
-  include_in_ai_index: true
+  include_in_search: false
+  include_in_ai_index: false
   translation_group: platforms.matrix
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 8ae2dc2c8738c0cbf41d337f70d7c7796755182f4eea9bf39c0d40447c4a623f
-  prerequisites: *id059
-  depends_on: *id060
-  redirect_from: *id003
-  supersedes: *id004
+  translation_source_fingerprint: 479d980e5f008a8893ca4c1282505d3488c96fd9c25c4412bb29beb7bb85002f
+  prerequisites:
+  - build.overview
+  depends_on: []
+  redirect_from: []
+  supersedes: []
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id061
+  example_validation_ids:
+  - cmake-configure
+  - android-unit
   api_version: null
   deprecated: false
   deprecation_replacement: null
   risk_group: platforms
   risk_level: high
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987
   stale_reason: null
   nav:
     section: Platforms
@@ -7627,46 +7670,50 @@ pages:
   title: Linux 开发
   language: zh_CN
   path: platforms/linux.md
-  status: active
+  status: draft
   doc_type: how-to
-  audiences: &id422
+  audiences:
   - new-contributor
   - experienced-contributor
   - maintainer
-  owners: *id001
-  reviewers: *id002
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: &id423
+  source_paths:
   - Makefile
   - CMakePresets.json
   - .github/workflows/matrix.yml
   - doc/c++/COMPILING.md
-  source_symbols: &id424 []
-  source_queries: &id425
+  - CMakeLists.txt
+  - .github/actions/setup-sdl3-stack/action.yml
+  source_symbols: []
+  source_queries:
   - linux-x64
-  source_fingerprint: 2dba8fbfa2140a345e7ae382dda6be3b45598895eea9130a0a7f7e02c27158bf
+  source_fingerprint: abe5b45a8d3024027e643dd8b0797a20967055098488185be3475fbcb377962e
   authority: build-config
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 7d65b4eff3d92393e659699a312b694f0e72d2cb
+  verified_at: '2026-10-11'
   generated: false
   generated_by: null
-  include_in_search: true
-  include_in_ai_index: true
+  include_in_search: false
+  include_in_ai_index: false
   translation_group: platforms.linux
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 4e369a0d5512e76ab86eb50a35d7ef9d9bf57a9c01e655bdaa4c683411f050da
-  prerequisites: &id426
+  translation_source_fingerprint: b35fb53e6d6883e1d78329e7096e78927b197bb182ae3e67c465c9066ce61458
+  prerequisites:
   - platforms.matrix
   - build.overview
-  depends_on: &id427
+  depends_on:
   - validation.testing
-  redirect_from: *id003
-  supersedes: *id004
+  redirect_from: []
+  supersedes: []
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id428
+  example_validation_ids:
   - cmake-configure
   - cpp-tests
   api_version: null
@@ -7674,7 +7721,7 @@ pages:
   deprecation_replacement: null
   risk_group: platforms-linux
   risk_level: normal
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987
   stale_reason: null
   nav:
     section: 平台
@@ -7683,41 +7730,58 @@ pages:
   title: Linux development
   language: en
   path: platforms/linux.md
-  status: active
+  status: draft
   doc_type: how-to
-  audiences: *id422
-  owners: *id001
-  reviewers: *id002
+  audiences:
+  - new-contributor
+  - experienced-contributor
+  - maintainer
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: *id423
-  source_symbols: *id424
-  source_queries: *id425
-  source_fingerprint: 2dba8fbfa2140a345e7ae382dda6be3b45598895eea9130a0a7f7e02c27158bf
+  source_paths:
+  - Makefile
+  - CMakePresets.json
+  - .github/workflows/matrix.yml
+  - doc/c++/COMPILING.md
+  - CMakeLists.txt
+  - .github/actions/setup-sdl3-stack/action.yml
+  source_symbols: []
+  source_queries:
+  - linux-x64
+  source_fingerprint: abe5b45a8d3024027e643dd8b0797a20967055098488185be3475fbcb377962e
   authority: build-config
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 7d65b4eff3d92393e659699a312b694f0e72d2cb
+  verified_at: '2026-10-11'
   generated: false
   generated_by: null
-  include_in_search: true
-  include_in_ai_index: true
+  include_in_search: false
+  include_in_ai_index: false
   translation_group: platforms.linux
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 4e369a0d5512e76ab86eb50a35d7ef9d9bf57a9c01e655bdaa4c683411f050da
-  prerequisites: *id426
-  depends_on: *id427
-  redirect_from: *id003
-  supersedes: *id004
+  translation_source_fingerprint: b35fb53e6d6883e1d78329e7096e78927b197bb182ae3e67c465c9066ce61458
+  prerequisites:
+  - platforms.matrix
+  - build.overview
+  depends_on:
+  - validation.testing
+  redirect_from: []
+  supersedes: []
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id428
+  example_validation_ids:
+  - cmake-configure
+  - cpp-tests
   api_version: null
   deprecated: false
   deprecation_replacement: null
   risk_group: platforms-linux
   risk_level: normal
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987
   stale_reason: null
   nav:
     section: Platforms
@@ -7920,43 +7984,48 @@ pages:
   title: MSVC 与 vcpkg
   language: zh_CN
   path: platforms/msvc.md
-  status: active
+  status: draft
   doc_type: how-to
-  audiences: &id443
+  audiences:
   - experienced-contributor
   - maintainer
-  owners: *id001
-  reviewers: *id002
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: &id444
+  source_paths:
   - CMakePresets.json
   - build-scripts/MSVC.cmake
   - build-scripts/windows-tiles-sounds-x64-msvc.cmake
   - .github/workflows/msvc-full-features.yml
-  source_symbols: &id445 []
-  source_queries: &id446
+  - msvc-full-features/Cataclysm.Cpp.props
+  - msvc-full-features/vcpkg.json
+  - build-scripts/windist.ps1
+  source_symbols: []
+  source_queries:
   - windows-tiles-sounds-x64-msvc
-  source_fingerprint: d2dbe858dd29b80612d853044debd594adb8e0ffeaf9d473becbc5dd3d2b0d74
+  source_fingerprint: b5bd59ffe6061a3c7818da7be3ad88b95755843829de165a1801b5a2650c5ad0
   authority: build-config
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 7d65b4eff3d92393e659699a312b694f0e72d2cb
+  verified_at: '2026-10-11'
   generated: false
   generated_by: null
-  include_in_search: true
-  include_in_ai_index: true
+  include_in_search: false
+  include_in_ai_index: false
   translation_group: platforms.msvc
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: de436d260762856faafc61fcc6f466c2b2e07c1d6c8db41648cec2681eda5411
-  prerequisites: &id447
+  translation_source_fingerprint: d759f841a8e8f174ae8a4820487c8073ccda3010120bb90a008ed86465bf2003
+  prerequisites:
   - platforms.windows
-  depends_on: &id448 []
-  redirect_from: *id003
-  supersedes: *id004
+  depends_on: []
+  redirect_from: []
+  supersedes: []
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id449
+  example_validation_ids:
   - cmake-configure
   - cpp-tests
   api_version: null
@@ -7964,7 +8033,7 @@ pages:
   deprecation_replacement: null
   risk_group: platforms-windows
   risk_level: high
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987
   stale_reason: null
   nav:
     section: 平台
@@ -7973,41 +8042,56 @@ pages:
   title: MSVC and vcpkg
   language: en
   path: platforms/msvc.md
-  status: active
+  status: draft
   doc_type: how-to
-  audiences: *id443
-  owners: *id001
-  reviewers: *id002
+  audiences:
+  - experienced-contributor
+  - maintainer
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: *id444
-  source_symbols: *id445
-  source_queries: *id446
-  source_fingerprint: d2dbe858dd29b80612d853044debd594adb8e0ffeaf9d473becbc5dd3d2b0d74
+  source_paths:
+  - CMakePresets.json
+  - build-scripts/MSVC.cmake
+  - build-scripts/windows-tiles-sounds-x64-msvc.cmake
+  - .github/workflows/msvc-full-features.yml
+  - msvc-full-features/Cataclysm.Cpp.props
+  - msvc-full-features/vcpkg.json
+  - build-scripts/windist.ps1
+  source_symbols: []
+  source_queries:
+  - windows-tiles-sounds-x64-msvc
+  source_fingerprint: b5bd59ffe6061a3c7818da7be3ad88b95755843829de165a1801b5a2650c5ad0
   authority: build-config
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 7d65b4eff3d92393e659699a312b694f0e72d2cb
+  verified_at: '2026-10-11'
   generated: false
   generated_by: null
-  include_in_search: true
-  include_in_ai_index: true
+  include_in_search: false
+  include_in_ai_index: false
   translation_group: platforms.msvc
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: de436d260762856faafc61fcc6f466c2b2e07c1d6c8db41648cec2681eda5411
-  prerequisites: *id447
-  depends_on: *id448
-  redirect_from: *id003
-  supersedes: *id004
+  translation_source_fingerprint: d759f841a8e8f174ae8a4820487c8073ccda3010120bb90a008ed86465bf2003
+  prerequisites:
+  - platforms.windows
+  depends_on: []
+  redirect_from: []
+  supersedes: []
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id449
+  example_validation_ids:
+  - cmake-configure
+  - cpp-tests
   api_version: null
   deprecated: false
   deprecation_replacement: null
   risk_group: platforms-windows
   risk_level: high
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987
   stale_reason: null
   nav:
     section: Platforms
@@ -8212,46 +8296,50 @@ pages:
   title: UI 平台矩阵
   language: zh_CN
   path: platforms/ui.md
-  status: active
+  status: draft
   doc_type: reference
-  audiences: &id464
+  audiences:
   - experienced-contributor
   - maintainer
   - api-user
-  owners: *id001
-  reviewers: *id002
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: &id465
+  source_paths:
   - src/ui_manager.h
   - src/input_context.cpp
   - src/sdltiles.h
   - android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
-  source_symbols: &id466
+  - src/sdltiles.cpp
+  - data/lua/LUA_FIRST_PLATFORM.md
+  source_symbols:
   - class ui_adaptor
   - android_ui_mode::is_new_ui_build()
-  source_queries: &id467 []
-  source_fingerprint: 4f2ee856289cb1352882870efe2efd69335a90b9e51750df07c43205fa0b2c12
+  source_queries: []
+  source_fingerprint: 16b05f93caea07d5ea0b95749a05d660c6d361a1c1656bc25d3f12a3e471b999
   authority: source-and-tests
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 7d65b4eff3d92393e659699a312b694f0e72d2cb
+  verified_at: '2026-10-11'
   generated: false
   generated_by: null
-  include_in_search: true
-  include_in_ai_index: true
+  include_in_search: false
+  include_in_ai_index: false
   translation_group: platforms.ui
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 8e5535d38d8ae267597a3fd6a545d71f480bcb4a173599d1ee3e5f4aee0c0ace
-  prerequisites: &id468
+  translation_source_fingerprint: 349a7f7b769231e70b9b2b7275982033c51fd515d3c2817558a56ceed1a2594f
+  prerequisites:
   - cpp.ui
   - cpp.input
-  depends_on: &id469 []
-  redirect_from: *id003
-  supersedes: *id004
+  depends_on: []
+  redirect_from: []
+  supersedes: []
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id470
+  example_validation_ids:
   - cpp-tests
   - android-unit
   - lua-contract
@@ -8260,7 +8348,7 @@ pages:
   deprecation_replacement: null
   risk_group: platforms-ui
   risk_level: high
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987
   stale_reason: null
   nav:
     section: 平台
@@ -8269,41 +8357,59 @@ pages:
   title: UI platform matrix
   language: en
   path: platforms/ui.md
-  status: active
+  status: draft
   doc_type: reference
-  audiences: *id464
-  owners: *id001
-  reviewers: *id002
+  audiences:
+  - experienced-contributor
+  - maintainer
+  - api-user
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: *id465
-  source_symbols: *id466
-  source_queries: *id467
-  source_fingerprint: 4f2ee856289cb1352882870efe2efd69335a90b9e51750df07c43205fa0b2c12
+  source_paths:
+  - src/ui_manager.h
+  - src/input_context.cpp
+  - src/sdltiles.h
+  - android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
+  - src/sdltiles.cpp
+  - data/lua/LUA_FIRST_PLATFORM.md
+  source_symbols:
+  - class ui_adaptor
+  - android_ui_mode::is_new_ui_build()
+  source_queries: []
+  source_fingerprint: 16b05f93caea07d5ea0b95749a05d660c6d361a1c1656bc25d3f12a3e471b999
   authority: source-and-tests
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 7d65b4eff3d92393e659699a312b694f0e72d2cb
+  verified_at: '2026-10-11'
   generated: false
   generated_by: null
-  include_in_search: true
-  include_in_ai_index: true
+  include_in_search: false
+  include_in_ai_index: false
   translation_group: platforms.ui
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 8e5535d38d8ae267597a3fd6a545d71f480bcb4a173599d1ee3e5f4aee0c0ace
-  prerequisites: *id468
-  depends_on: *id469
-  redirect_from: *id003
-  supersedes: *id004
+  translation_source_fingerprint: 349a7f7b769231e70b9b2b7275982033c51fd515d3c2817558a56ceed1a2594f
+  prerequisites:
+  - cpp.ui
+  - cpp.input
+  depends_on: []
+  redirect_from: []
+  supersedes: []
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id470
+  example_validation_ids:
+  - cpp-tests
+  - android-unit
+  - lua-contract
   api_version: null
   deprecated: false
   deprecation_replacement: null
   risk_group: platforms-ui
   risk_level: high
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987
   stale_reason: null
   nav:
     section: Platforms

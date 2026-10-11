@@ -4372,7 +4372,7 @@
       "id": "build.overview",
       "title": "Building CCB",
       "language": "en",
-      "status": "active",
+      "status": "draft",
       "doc_type": "how-to",
       "audiences": [
         "new-contributor",
@@ -4392,21 +4392,22 @@
         "CMakePresets.json",
         "android/gradlew",
         "android/build.gradle",
-        ".github/workflows/matrix.yml"
+        ".github/workflows/matrix.yml",
+        "CMakeLists.txt"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "caa96df9d4a464cf685a6bf610bef827c7c0a9a5900d7ff27b34fa3ab53d9098",
+      "source_fingerprint": "4ea5d8a6d7e907ed3a54890d6b535f3c79a41f4b14043fafd6ddfc6f0bded1f4",
       "authority": "build-config",
-      "verified_commit": "3053bf160578e46c1692a89c60594aa1acc6a276",
-      "verified_at": "2026-09-05",
+      "verified_commit": "7d65b4eff3d92393e659699a312b694f0e72d2cb",
+      "verified_at": "2026-10-11",
       "generated": false,
       "generated_by": null,
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "2100545da75d2202b5fc176a154e3d164c2fe77cac41ecdbc6f5d36c38e60f67",
+      "translation_source_fingerprint": "00bfd096819317162b7d3953883dcfb276209505946d88ca83a81066fbadb21c",
       "prerequisites": [
         "architecture.project-map"
       ],
@@ -4432,7 +4433,7 @@
       "deprecation_replacement": null,
       "risk_group": "build",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
       "stale_reason": null,
       "path": "build/overview.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/"
@@ -4441,7 +4442,7 @@
       "id": "build.overview",
       "title": "构建 CCB",
       "language": "zh_CN",
-      "status": "active",
+      "status": "draft",
       "doc_type": "how-to",
       "audiences": [
         "new-contributor",
@@ -4461,21 +4462,22 @@
         "CMakePresets.json",
         "android/gradlew",
         "android/build.gradle",
-        ".github/workflows/matrix.yml"
+        ".github/workflows/matrix.yml",
+        "CMakeLists.txt"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "caa96df9d4a464cf685a6bf610bef827c7c0a9a5900d7ff27b34fa3ab53d9098",
+      "source_fingerprint": "4ea5d8a6d7e907ed3a54890d6b535f3c79a41f4b14043fafd6ddfc6f0bded1f4",
       "authority": "build-config",
-      "verified_commit": "3053bf160578e46c1692a89c60594aa1acc6a276",
-      "verified_at": "2026-09-05",
+      "verified_commit": "7d65b4eff3d92393e659699a312b694f0e72d2cb",
+      "verified_at": "2026-10-11",
       "generated": false,
       "generated_by": null,
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "2100545da75d2202b5fc176a154e3d164c2fe77cac41ecdbc6f5d36c38e60f67",
+      "translation_source_fingerprint": "00bfd096819317162b7d3953883dcfb276209505946d88ca83a81066fbadb21c",
       "prerequisites": [
         "architecture.project-map"
       ],
@@ -4501,7 +4503,7 @@
       "deprecation_replacement": null,
       "risk_group": "build",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
       "stale_reason": null,
       "path": "build/overview.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/"
@@ -10720,7 +10722,7 @@
       "id": "platforms.linux",
       "title": "Linux development",
       "language": "en",
-      "status": "active",
+      "status": "draft",
       "doc_type": "how-to",
       "audiences": [
         "new-contributor",
@@ -10739,23 +10741,25 @@
         "Makefile",
         "CMakePresets.json",
         ".github/workflows/matrix.yml",
-        "doc/c++/COMPILING.md"
+        "doc/c++/COMPILING.md",
+        "CMakeLists.txt",
+        ".github/actions/setup-sdl3-stack/action.yml"
       ],
       "source_symbols": [],
       "source_queries": [
         "linux-x64"
       ],
-      "source_fingerprint": "2dba8fbfa2140a345e7ae382dda6be3b45598895eea9130a0a7f7e02c27158bf",
+      "source_fingerprint": "abe5b45a8d3024027e643dd8b0797a20967055098488185be3475fbcb377962e",
       "authority": "build-config",
-      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
-      "verified_at": "2026-08-02",
+      "verified_commit": "7d65b4eff3d92393e659699a312b694f0e72d2cb",
+      "verified_at": "2026-10-11",
       "generated": false,
       "generated_by": null,
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "4e369a0d5512e76ab86eb50a35d7ef9d9bf57a9c01e655bdaa4c683411f050da",
+      "translation_source_fingerprint": "b35fb53e6d6883e1d78329e7096e78927b197bb182ae3e67c465c9066ce61458",
       "prerequisites": [
         "platforms.matrix",
         "build.overview"
@@ -10776,7 +10780,7 @@
       "deprecation_replacement": null,
       "risk_group": "platforms-linux",
       "risk_level": "normal",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
       "stale_reason": null,
       "path": "platforms/linux.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/"
@@ -10785,7 +10789,7 @@
       "id": "platforms.linux",
       "title": "Linux 开发",
       "language": "zh_CN",
-      "status": "active",
+      "status": "draft",
       "doc_type": "how-to",
       "audiences": [
         "new-contributor",
@@ -10804,23 +10808,25 @@
         "Makefile",
         "CMakePresets.json",
         ".github/workflows/matrix.yml",
-        "doc/c++/COMPILING.md"
+        "doc/c++/COMPILING.md",
+        "CMakeLists.txt",
+        ".github/actions/setup-sdl3-stack/action.yml"
       ],
       "source_symbols": [],
       "source_queries": [
         "linux-x64"
       ],
-      "source_fingerprint": "2dba8fbfa2140a345e7ae382dda6be3b45598895eea9130a0a7f7e02c27158bf",
+      "source_fingerprint": "abe5b45a8d3024027e643dd8b0797a20967055098488185be3475fbcb377962e",
       "authority": "build-config",
-      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
-      "verified_at": "2026-08-02",
+      "verified_commit": "7d65b4eff3d92393e659699a312b694f0e72d2cb",
+      "verified_at": "2026-10-11",
       "generated": false,
       "generated_by": null,
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "4e369a0d5512e76ab86eb50a35d7ef9d9bf57a9c01e655bdaa4c683411f050da",
+      "translation_source_fingerprint": "b35fb53e6d6883e1d78329e7096e78927b197bb182ae3e67c465c9066ce61458",
       "prerequisites": [
         "platforms.matrix",
         "build.overview"
@@ -10841,7 +10847,7 @@
       "deprecation_replacement": null,
       "risk_group": "platforms-linux",
       "risk_level": "normal",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
       "stale_reason": null,
       "path": "platforms/linux.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/"
@@ -10850,7 +10856,7 @@
       "id": "platforms.matrix",
       "title": "Platform matrix",
       "language": "en",
-      "status": "active",
+      "status": "draft",
       "doc_type": "reference",
       "audiences": [
         "new-contributor",
@@ -10871,21 +10877,23 @@
         "android/app/build.gradle",
         ".github/workflows/matrix.yml",
         ".github/workflows/msvc-full-features.yml",
-        ".github/workflows/sdl3-matrix.yml"
+        ".github/workflows/sdl3-matrix.yml",
+        ".github/workflows/release.yml",
+        ".github/actions/setup-sdl3-stack-macos/action.yml"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "99e40d9f40038bf5e7decd52c09c777224ff262822fed80bda9cbc94e5c53b2d",
+      "source_fingerprint": "3af89901fb085d31b24e3b4ddf1bf2bbc90275acb78acafff4d1cce77922e6e2",
       "authority": "build-config",
-      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
-      "verified_at": "2026-08-02",
+      "verified_commit": "7d65b4eff3d92393e659699a312b694f0e72d2cb",
+      "verified_at": "2026-10-11",
       "generated": false,
       "generated_by": null,
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "8ae2dc2c8738c0cbf41d337f70d7c7796755182f4eea9bf39c0d40447c4a623f",
+      "translation_source_fingerprint": "479d980e5f008a8893ca4c1282505d3488c96fd9c25c4412bb29beb7bb85002f",
       "prerequisites": [
         "build.overview"
       ],
@@ -10903,7 +10911,7 @@
       "deprecation_replacement": null,
       "risk_group": "platforms",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
       "stale_reason": null,
       "path": "platforms/matrix.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/"
@@ -10912,7 +10920,7 @@
       "id": "platforms.matrix",
       "title": "平台矩阵",
       "language": "zh_CN",
-      "status": "active",
+      "status": "draft",
       "doc_type": "reference",
       "audiences": [
         "new-contributor",
@@ -10933,21 +10941,23 @@
         "android/app/build.gradle",
         ".github/workflows/matrix.yml",
         ".github/workflows/msvc-full-features.yml",
-        ".github/workflows/sdl3-matrix.yml"
+        ".github/workflows/sdl3-matrix.yml",
+        ".github/workflows/release.yml",
+        ".github/actions/setup-sdl3-stack-macos/action.yml"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "99e40d9f40038bf5e7decd52c09c777224ff262822fed80bda9cbc94e5c53b2d",
+      "source_fingerprint": "3af89901fb085d31b24e3b4ddf1bf2bbc90275acb78acafff4d1cce77922e6e2",
       "authority": "build-config",
-      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
-      "verified_at": "2026-08-02",
+      "verified_commit": "7d65b4eff3d92393e659699a312b694f0e72d2cb",
+      "verified_at": "2026-10-11",
       "generated": false,
       "generated_by": null,
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "8ae2dc2c8738c0cbf41d337f70d7c7796755182f4eea9bf39c0d40447c4a623f",
+      "translation_source_fingerprint": "479d980e5f008a8893ca4c1282505d3488c96fd9c25c4412bb29beb7bb85002f",
       "prerequisites": [
         "build.overview"
       ],
@@ -10965,7 +10975,7 @@
       "deprecation_replacement": null,
       "risk_group": "platforms",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
       "stale_reason": null,
       "path": "platforms/matrix.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/"
@@ -10974,7 +10984,7 @@
       "id": "platforms.msvc",
       "title": "MSVC and vcpkg",
       "language": "en",
-      "status": "active",
+      "status": "draft",
       "doc_type": "how-to",
       "audiences": [
         "experienced-contributor",
@@ -10992,23 +11002,26 @@
         "CMakePresets.json",
         "build-scripts/MSVC.cmake",
         "build-scripts/windows-tiles-sounds-x64-msvc.cmake",
-        ".github/workflows/msvc-full-features.yml"
+        ".github/workflows/msvc-full-features.yml",
+        "msvc-full-features/Cataclysm.Cpp.props",
+        "msvc-full-features/vcpkg.json",
+        "build-scripts/windist.ps1"
       ],
       "source_symbols": [],
       "source_queries": [
         "windows-tiles-sounds-x64-msvc"
       ],
-      "source_fingerprint": "d2dbe858dd29b80612d853044debd594adb8e0ffeaf9d473becbc5dd3d2b0d74",
+      "source_fingerprint": "b5bd59ffe6061a3c7818da7be3ad88b95755843829de165a1801b5a2650c5ad0",
       "authority": "build-config",
-      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
-      "verified_at": "2026-08-02",
+      "verified_commit": "7d65b4eff3d92393e659699a312b694f0e72d2cb",
+      "verified_at": "2026-10-11",
       "generated": false,
       "generated_by": null,
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "de436d260762856faafc61fcc6f466c2b2e07c1d6c8db41648cec2681eda5411",
+      "translation_source_fingerprint": "d759f841a8e8f174ae8a4820487c8073ccda3010120bb90a008ed86465bf2003",
       "prerequisites": [
         "platforms.windows"
       ],
@@ -11026,7 +11039,7 @@
       "deprecation_replacement": null,
       "risk_group": "platforms-windows",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
       "stale_reason": null,
       "path": "platforms/msvc.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/"
@@ -11035,7 +11048,7 @@
       "id": "platforms.msvc",
       "title": "MSVC 与 vcpkg",
       "language": "zh_CN",
-      "status": "active",
+      "status": "draft",
       "doc_type": "how-to",
       "audiences": [
         "experienced-contributor",
@@ -11053,23 +11066,26 @@
         "CMakePresets.json",
         "build-scripts/MSVC.cmake",
         "build-scripts/windows-tiles-sounds-x64-msvc.cmake",
-        ".github/workflows/msvc-full-features.yml"
+        ".github/workflows/msvc-full-features.yml",
+        "msvc-full-features/Cataclysm.Cpp.props",
+        "msvc-full-features/vcpkg.json",
+        "build-scripts/windist.ps1"
       ],
       "source_symbols": [],
       "source_queries": [
         "windows-tiles-sounds-x64-msvc"
       ],
-      "source_fingerprint": "d2dbe858dd29b80612d853044debd594adb8e0ffeaf9d473becbc5dd3d2b0d74",
+      "source_fingerprint": "b5bd59ffe6061a3c7818da7be3ad88b95755843829de165a1801b5a2650c5ad0",
       "authority": "build-config",
-      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
-      "verified_at": "2026-08-02",
+      "verified_commit": "7d65b4eff3d92393e659699a312b694f0e72d2cb",
+      "verified_at": "2026-10-11",
       "generated": false,
       "generated_by": null,
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "de436d260762856faafc61fcc6f466c2b2e07c1d6c8db41648cec2681eda5411",
+      "translation_source_fingerprint": "d759f841a8e8f174ae8a4820487c8073ccda3010120bb90a008ed86465bf2003",
       "prerequisites": [
         "platforms.windows"
       ],
@@ -11087,7 +11103,7 @@
       "deprecation_replacement": null,
       "risk_group": "platforms-windows",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
       "stale_reason": null,
       "path": "platforms/msvc.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/"
@@ -11218,7 +11234,7 @@
       "id": "platforms.ui",
       "title": "UI platform matrix",
       "language": "en",
-      "status": "active",
+      "status": "draft",
       "doc_type": "reference",
       "audiences": [
         "experienced-contributor",
@@ -11237,24 +11253,26 @@
         "src/ui_manager.h",
         "src/input_context.cpp",
         "src/sdltiles.h",
-        "android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java"
+        "android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java",
+        "src/sdltiles.cpp",
+        "data/lua/LUA_FIRST_PLATFORM.md"
       ],
       "source_symbols": [
         "class ui_adaptor",
         "android_ui_mode::is_new_ui_build()"
       ],
       "source_queries": [],
-      "source_fingerprint": "4f2ee856289cb1352882870efe2efd69335a90b9e51750df07c43205fa0b2c12",
+      "source_fingerprint": "16b05f93caea07d5ea0b95749a05d660c6d361a1c1656bc25d3f12a3e471b999",
       "authority": "source-and-tests",
-      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
-      "verified_at": "2026-08-02",
+      "verified_commit": "7d65b4eff3d92393e659699a312b694f0e72d2cb",
+      "verified_at": "2026-10-11",
       "generated": false,
       "generated_by": null,
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "8e5535d38d8ae267597a3fd6a545d71f480bcb4a173599d1ee3e5f4aee0c0ace",
+      "translation_source_fingerprint": "349a7f7b769231e70b9b2b7275982033c51fd515d3c2817558a56ceed1a2594f",
       "prerequisites": [
         "cpp.ui",
         "cpp.input"
@@ -11274,7 +11292,7 @@
       "deprecation_replacement": null,
       "risk_group": "platforms-ui",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
       "stale_reason": null,
       "path": "platforms/ui.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/"
@@ -11283,7 +11301,7 @@
       "id": "platforms.ui",
       "title": "UI 平台矩阵",
       "language": "zh_CN",
-      "status": "active",
+      "status": "draft",
       "doc_type": "reference",
       "audiences": [
         "experienced-contributor",
@@ -11302,24 +11320,26 @@
         "src/ui_manager.h",
         "src/input_context.cpp",
         "src/sdltiles.h",
-        "android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java"
+        "android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java",
+        "src/sdltiles.cpp",
+        "data/lua/LUA_FIRST_PLATFORM.md"
       ],
       "source_symbols": [
         "class ui_adaptor",
         "android_ui_mode::is_new_ui_build()"
       ],
       "source_queries": [],
-      "source_fingerprint": "4f2ee856289cb1352882870efe2efd69335a90b9e51750df07c43205fa0b2c12",
+      "source_fingerprint": "16b05f93caea07d5ea0b95749a05d660c6d361a1c1656bc25d3f12a3e471b999",
       "authority": "source-and-tests",
-      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
-      "verified_at": "2026-08-02",
+      "verified_commit": "7d65b4eff3d92393e659699a312b694f0e72d2cb",
+      "verified_at": "2026-10-11",
       "generated": false,
       "generated_by": null,
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "8e5535d38d8ae267597a3fd6a545d71f480bcb4a173599d1ee3e5f4aee0c0ace",
+      "translation_source_fingerprint": "349a7f7b769231e70b9b2b7275982033c51fd515d3c2817558a56ceed1a2594f",
       "prerequisites": [
         "cpp.ui",
         "cpp.input"
@@ -11339,7 +11359,7 @@
       "deprecation_replacement": null,
       "risk_group": "platforms-ui",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
       "stale_reason": null,
       "path": "platforms/ui.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/"
@@ -14190,7 +14210,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystem-map/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/mods/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/save/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/ai-assisted-development/",
@@ -14222,7 +14241,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystem-map/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/mods/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/save/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/ai-assisted-development/",
@@ -14267,11 +14285,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/performance-profiling/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/android/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
@@ -14304,11 +14318,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/performance-profiling/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/android/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
@@ -14330,7 +14340,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystem-map/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/mods/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/save/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/ai-assisted-development/",
@@ -14362,7 +14371,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystem-map/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/mods/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/save/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/ai-assisted-development/",
@@ -14407,11 +14415,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/performance-profiling/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/android/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
@@ -14444,11 +14448,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/performance-profiling/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/android/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
@@ -14470,7 +14470,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystem-map/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/mods/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/save/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/ai-assisted-development/",
@@ -14502,7 +14501,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystem-map/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/mods/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/save/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/ai-assisted-development/",
@@ -14547,11 +14545,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/performance-profiling/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/android/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
@@ -14584,11 +14578,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/performance-profiling/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/android/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
@@ -14634,6 +14624,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/core-engine-lifecycle/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystems-deep-dive/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/core-dev-guide/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/native-binding-guide/",
@@ -14667,15 +14658,24 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/core-engine-lifecycle/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystems-deep-dive/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/core-dev-guide/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/native-binding-guide/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/items/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/",
@@ -14899,13 +14899,6 @@
         "path": "contributing/documentation-policy.md"
       },
       {
-        "id": "build.overview",
-        "title": "构建 CCB",
-        "section": "构建",
-        "order": 40,
-        "path": "build/overview.md"
-      },
-      {
         "id": "validation.quickstart",
         "title": "验证快速入门",
         "section": "验证",
@@ -14927,20 +14920,6 @@
         "path": "validation/debugging.md"
       },
       {
-        "id": "platforms.matrix",
-        "title": "平台矩阵",
-        "section": "平台",
-        "order": 50,
-        "path": "platforms/matrix.md"
-      },
-      {
-        "id": "platforms.linux",
-        "title": "Linux 开发",
-        "section": "平台",
-        "order": 51,
-        "path": "platforms/linux.md"
-      },
-      {
         "id": "platforms.windows",
         "title": "Windows 开发",
         "section": "平台",
@@ -14955,13 +14934,6 @@
         "path": "platforms/msys2.md"
       },
       {
-        "id": "platforms.msvc",
-        "title": "MSVC 与 vcpkg",
-        "section": "平台",
-        "order": 54,
-        "path": "platforms/msvc.md"
-      },
-      {
         "id": "platforms.wsl",
         "title": "WSL 开发",
         "section": "平台",
@@ -14974,13 +14946,6 @@
         "section": "平台",
         "order": 56,
         "path": "platforms/android.md"
-      },
-      {
-        "id": "platforms.ui",
-        "title": "UI 平台矩阵",
-        "section": "平台",
-        "order": 57,
-        "path": "platforms/ui.md"
       },
       {
         "id": "compatibility.save",
@@ -15454,13 +15419,6 @@
         "path": "contributing/documentation-policy.md"
       },
       {
-        "id": "build.overview",
-        "title": "Building CCB",
-        "section": "Build",
-        "order": 40,
-        "path": "build/overview.md"
-      },
-      {
         "id": "validation.quickstart",
         "title": "Validation quickstart",
         "section": "Validation",
@@ -15482,20 +15440,6 @@
         "path": "validation/debugging.md"
       },
       {
-        "id": "platforms.matrix",
-        "title": "Platform matrix",
-        "section": "Platforms",
-        "order": 50,
-        "path": "platforms/matrix.md"
-      },
-      {
-        "id": "platforms.linux",
-        "title": "Linux development",
-        "section": "Platforms",
-        "order": 51,
-        "path": "platforms/linux.md"
-      },
-      {
         "id": "platforms.windows",
         "title": "Windows development",
         "section": "Platforms",
@@ -15510,13 +15454,6 @@
         "path": "platforms/msys2.md"
       },
       {
-        "id": "platforms.msvc",
-        "title": "MSVC and vcpkg",
-        "section": "Platforms",
-        "order": 54,
-        "path": "platforms/msvc.md"
-      },
-      {
         "id": "platforms.wsl",
         "title": "WSL development",
         "section": "Platforms",
@@ -15529,13 +15466,6 @@
         "section": "Platforms",
         "order": 56,
         "path": "platforms/android.md"
-      },
-      {
-        "id": "platforms.ui",
-        "title": "UI platform matrix",
-        "section": "Platforms",
-        "order": 57,
-        "path": "platforms/ui.md"
       },
       {
         "id": "compatibility.save",
@@ -16007,28 +15937,6 @@
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystems-deep-dive/",
         "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystems-deep-dive/"
-      }
-    },
-    {
-      "id": "build.overview",
-      "language": "en",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/",
-      "last_verified": "2026-09-05",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/"
-      }
-    },
-    {
-      "id": "build.overview",
-      "language": "zh_CN",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
-      "last_verified": "2026-09-05",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/"
       }
     },
     {
@@ -17066,72 +16974,6 @@
       }
     },
     {
-      "id": "platforms.linux",
-      "language": "en",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/",
-      "last_verified": "2026-08-02",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/"
-      }
-    },
-    {
-      "id": "platforms.linux",
-      "language": "zh_CN",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
-      "last_verified": "2026-08-02",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/"
-      }
-    },
-    {
-      "id": "platforms.matrix",
-      "language": "en",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/",
-      "last_verified": "2026-08-02",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/"
-      }
-    },
-    {
-      "id": "platforms.matrix",
-      "language": "zh_CN",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
-      "last_verified": "2026-08-02",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/"
-      }
-    },
-    {
-      "id": "platforms.msvc",
-      "language": "en",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/",
-      "last_verified": "2026-08-02",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/"
-      }
-    },
-    {
-      "id": "platforms.msvc",
-      "language": "zh_CN",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
-      "last_verified": "2026-08-02",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/"
-      }
-    },
-    {
       "id": "platforms.msys2",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/",
@@ -17151,28 +16993,6 @@
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
         "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/"
-      }
-    },
-    {
-      "id": "platforms.ui",
-      "language": "en",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/",
-      "last_verified": "2026-08-02",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/"
-      }
-    },
-    {
-      "id": "platforms.ui",
-      "language": "zh_CN",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
-      "last_verified": "2026-08-02",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/"
       }
     },
     {

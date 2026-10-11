@@ -3,7 +3,7 @@
 id: build.overview
 title: 构建 CCB
 language: zh_CN
-status: active
+status: draft
 doc_type: how-to
 audiences:
 - new-contributor
@@ -21,19 +21,20 @@ source_paths:
 - android/gradlew
 - android/build.gradle
 - .github/workflows/matrix.yml
+- CMakeLists.txt
 source_symbols: []
 source_queries: []
-source_fingerprint: caa96df9d4a464cf685a6bf610bef827c7c0a9a5900d7ff27b34fa3ab53d9098
+source_fingerprint: 4ea5d8a6d7e907ed3a54890d6b535f3c79a41f4b14043fafd6ddfc6f0bded1f4
 authority: build-config
-verified_commit: 3053bf160578e46c1692a89c60594aa1acc6a276
-verified_at: '2026-09-05'
+verified_commit: 7d65b4eff3d92393e659699a312b694f0e72d2cb
+verified_at: '2026-10-11'
 generated: false
 generated_by: null
-include_in_search: true
-include_in_ai_index: true
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 2100545da75d2202b5fc176a154e3d164c2fe77cac41ecdbc6f5d36c38e60f67
+translation_source_fingerprint: 00bfd096819317162b7d3953883dcfb276209505946d88ca83a81066fbadb21c
 prerequisites:
 - architecture.project-map
 depends_on:
@@ -55,7 +56,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: build
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/
 alternate_urls:
@@ -63,19 +64,23 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/3053bf160578e46c1692a89c60594aa1acc6a276
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/7d65b4eff3d92393e659699a312b694f0e72d2cb
 source_urls:
 - path: Makefile
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3053bf160578e46c1692a89c60594aa1acc6a276/Makefile
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/Makefile
 - path: CMakePresets.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3053bf160578e46c1692a89c60594aa1acc6a276/CMakePresets.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/CMakePresets.json
 - path: android/gradlew
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3053bf160578e46c1692a89c60594aa1acc6a276/android/gradlew
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/android/gradlew
 - path: android/build.gradle
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3053bf160578e46c1692a89c60594aa1acc6a276/android/build.gradle
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/android/build.gradle
 - path: .github/workflows/matrix.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3053bf160578e46c1692a89c60594aa1acc6a276/.github/workflows/matrix.yml
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28build.overview%29%3A+&body=Document+ID%3A+build.overview%0ALanguage%3A+zh_CN%0AVerified+commit%3A+3053bf160578e46c1692a89c60594aa1acc6a276%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/.github/workflows/matrix.yml
+- path: CMakeLists.txt
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/CMakeLists.txt
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28build.overview%29%3A+&body=Document+ID%3A+build.overview%0ALanguage%3A+zh_CN%0AVerified+commit%3A+7d65b4eff3d92393e659699a312b694f0e72d2cb%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
 # 构建 CCB
@@ -135,8 +140,8 @@ Android 在 `android/` 目录运行：
 ## 关键配置边界
 
 - `CATA_ENABLE_LUA_PLATFORM` 在 CCB 的 Make、CMake 和 Android 配置中默认启用。
-- Android 使用 SDL3；desktop 一般使用 SDL2，SDL3 CI 受
-  `CCB_DESKTOP_SDL3_ENABLED` 门控。不要从一个平台推断另一平台。
+- 桌面和 Android 的受维护图形构建统一使用 SDL3 >= 3.4.0。Curses 与 headless
+  仍不依赖 SDL；Linux 通过不能代替其他目标平台验收。
 - Tiles、sound、localization 与 Lua 会改变依赖或制品；PR 应说明使用的组合。
 - CMake 必须 out-of-tree；大型索引、Doxygen HTML、ctags 与编译数据库只作为
   本地/CI artifact，不提交仓库。
