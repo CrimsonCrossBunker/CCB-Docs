@@ -1188,28 +1188,6 @@
     }
   },
   {
-    "id": "platforms.msys2",
-    "language": "en",
-    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/",
-    "last_verified": "2026-08-02",
-    "status": "active",
-    "alternate": {
-      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
-      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/"
-    }
-  },
-  {
-    "id": "platforms.msys2",
-    "language": "zh_CN",
-    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
-    "last_verified": "2026-08-02",
-    "status": "active",
-    "alternate": {
-      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
-      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/"
-    }
-  },
-  {
     "id": "platforms.windows",
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/windows/",

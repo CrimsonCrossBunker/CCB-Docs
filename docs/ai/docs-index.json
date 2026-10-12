@@ -11112,7 +11112,7 @@
       "id": "platforms.msys2",
       "title": "MSYS2 and MinGW",
       "language": "en",
-      "status": "active",
+      "status": "draft",
       "doc_type": "how-to",
       "audiences": [
         "new-contributor",
@@ -11129,24 +11129,25 @@
       "last_human_reviewer": "Pending human review",
       "source_paths": [
         "CMakePresets.json",
-        "doc/c++/COMPILING-MSYS.md",
-        ".github/workflows/msvc-full-features.yml"
+        "Makefile",
+        "msvc-full-features/vcpkg.json",
+        "tools/build_shaders.py"
       ],
       "source_symbols": [],
       "source_queries": [
         "windows-x64"
       ],
-      "source_fingerprint": "bf6ba93c2336766ceda18c41f5a84d3a56c4a0799ff9c9dbd11484cf822b9773",
+      "source_fingerprint": "e0d575911300ee3881e0b77aa62a39685e5cf7524a82f55ae2a5088bb4ea7cd9",
       "authority": "build-config",
-      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
-      "verified_at": "2026-08-02",
+      "verified_commit": "75f90e0741588679986b2867923e8a500678cd86",
+      "verified_at": "2026-10-12",
       "generated": false,
       "generated_by": null,
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "bc3e58ed87ce480f2925aecac89f9313b9869c581272cfae45131748b7f4ae03",
+      "translation_source_fingerprint": "438403074a5c48398e9616f9de1eb24d61926e32f53d1b27425896490302d2dd",
       "prerequisites": [
         "platforms.windows"
       ],
@@ -11154,7 +11155,7 @@
       "redirect_from": [],
       "supersedes": [],
       "license": "CC-BY-SA-3.0",
-      "attribution": "CCB contributors; see source paths and Git history.",
+      "attribution": "CCB contributors; MSYS notes adapted from CDDA PR 88588 (Matthew Richmond) and PR 88664 (mqrause).",
       "example_validation_ids": [
         "cmake-configure",
         "cpp-tests"
@@ -11164,7 +11165,7 @@
       "deprecation_replacement": null,
       "risk_group": "platforms-windows",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
       "stale_reason": null,
       "path": "platforms/msys2.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/"
@@ -11173,7 +11174,7 @@
       "id": "platforms.msys2",
       "title": "MSYS2 与 MinGW",
       "language": "zh_CN",
-      "status": "active",
+      "status": "draft",
       "doc_type": "how-to",
       "audiences": [
         "new-contributor",
@@ -11190,24 +11191,25 @@
       "last_human_reviewer": "Pending human review",
       "source_paths": [
         "CMakePresets.json",
-        "doc/c++/COMPILING-MSYS.md",
-        ".github/workflows/msvc-full-features.yml"
+        "Makefile",
+        "msvc-full-features/vcpkg.json",
+        "tools/build_shaders.py"
       ],
       "source_symbols": [],
       "source_queries": [
         "windows-x64"
       ],
-      "source_fingerprint": "bf6ba93c2336766ceda18c41f5a84d3a56c4a0799ff9c9dbd11484cf822b9773",
+      "source_fingerprint": "e0d575911300ee3881e0b77aa62a39685e5cf7524a82f55ae2a5088bb4ea7cd9",
       "authority": "build-config",
-      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
-      "verified_at": "2026-08-02",
+      "verified_commit": "75f90e0741588679986b2867923e8a500678cd86",
+      "verified_at": "2026-10-12",
       "generated": false,
       "generated_by": null,
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "bc3e58ed87ce480f2925aecac89f9313b9869c581272cfae45131748b7f4ae03",
+      "translation_source_fingerprint": "438403074a5c48398e9616f9de1eb24d61926e32f53d1b27425896490302d2dd",
       "prerequisites": [
         "platforms.windows"
       ],
@@ -11215,7 +11217,7 @@
       "redirect_from": [],
       "supersedes": [],
       "license": "CC-BY-SA-3.0",
-      "attribution": "CCB contributors; see source paths and Git history.",
+      "attribution": "CCB contributors; MSYS notes adapted from CDDA PR 88588 (Matthew Richmond) and PR 88664 (mqrause).",
       "example_validation_ids": [
         "cmake-configure",
         "cpp-tests"
@@ -11225,7 +11227,7 @@
       "deprecation_replacement": null,
       "risk_group": "platforms-windows",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
       "stale_reason": null,
       "path": "platforms/msys2.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/"
@@ -14285,7 +14287,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/performance-profiling/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/android/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
@@ -14318,7 +14319,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/performance-profiling/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/android/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
@@ -14415,7 +14415,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/performance-profiling/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/android/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
@@ -14448,7 +14447,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/performance-profiling/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/android/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
@@ -14545,7 +14543,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/performance-profiling/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/android/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
@@ -14578,7 +14575,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/performance-profiling/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/android/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
@@ -14665,6 +14661,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/",
@@ -14675,6 +14672,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/",
@@ -14925,13 +14923,6 @@
         "section": "平台",
         "order": 52,
         "path": "platforms/windows.md"
-      },
-      {
-        "id": "platforms.msys2",
-        "title": "MSYS2 与 MinGW",
-        "section": "平台",
-        "order": 53,
-        "path": "platforms/msys2.md"
       },
       {
         "id": "platforms.wsl",
@@ -15445,13 +15436,6 @@
         "section": "Platforms",
         "order": 52,
         "path": "platforms/windows.md"
-      },
-      {
-        "id": "platforms.msys2",
-        "title": "MSYS2 and MinGW",
-        "section": "Platforms",
-        "order": 53,
-        "path": "platforms/msys2.md"
       },
       {
         "id": "platforms.wsl",
@@ -16971,28 +16955,6 @@
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/android/",
         "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/android/"
-      }
-    },
-    {
-      "id": "platforms.msys2",
-      "language": "en",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/",
-      "last_verified": "2026-08-02",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/"
-      }
-    },
-    {
-      "id": "platforms.msys2",
-      "language": "zh_CN",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
-      "last_verified": "2026-08-02",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/"
       }
     },
     {

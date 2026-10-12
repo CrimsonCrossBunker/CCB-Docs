@@ -183,13 +183,6 @@
       "path": "platforms/windows.md"
     },
     {
-      "id": "platforms.msys2",
-      "title": "MSYS2 与 MinGW",
-      "section": "平台",
-      "order": 53,
-      "path": "platforms/msys2.md"
-    },
-    {
       "id": "platforms.wsl",
       "title": "WSL 开发",
       "section": "平台",
@@ -701,13 +694,6 @@
       "section": "Platforms",
       "order": 52,
       "path": "platforms/windows.md"
-    },
-    {
-      "id": "platforms.msys2",
-      "title": "MSYS2 and MinGW",
-      "section": "Platforms",
-      "order": 53,
-      "path": "platforms/msys2.md"
     },
     {
       "id": "platforms.wsl",

@@ -3,7 +3,7 @@
 id: platforms.msys2
 title: MSYS2 and MinGW
 language: en
-status: active
+status: draft
 doc_type: how-to
 audiences:
 - new-contributor
@@ -17,29 +17,30 @@ review_interval_days: 90
 last_human_reviewer: Pending human review
 source_paths:
 - CMakePresets.json
-- doc/c++/COMPILING-MSYS.md
-- .github/workflows/msvc-full-features.yml
+- Makefile
+- msvc-full-features/vcpkg.json
+- tools/build_shaders.py
 source_symbols: []
 source_queries:
 - windows-x64
-source_fingerprint: bf6ba93c2336766ceda18c41f5a84d3a56c4a0799ff9c9dbd11484cf822b9773
+source_fingerprint: e0d575911300ee3881e0b77aa62a39685e5cf7524a82f55ae2a5088bb4ea7cd9
 authority: build-config
-verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-verified_at: '2026-08-02'
+verified_commit: 75f90e0741588679986b2867923e8a500678cd86
+verified_at: '2026-10-12'
 generated: false
 generated_by: null
-include_in_search: true
-include_in_ai_index: true
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: bc3e58ed87ce480f2925aecac89f9313b9869c581272cfae45131748b7f4ae03
+translation_source_fingerprint: 438403074a5c48398e9616f9de1eb24d61926e32f53d1b27425896490302d2dd
 prerequisites:
 - platforms.windows
 depends_on: []
 redirect_from: []
 supersedes: []
 license: CC-BY-SA-3.0
-attribution: CCB contributors; see source paths and Git history.
+attribution: CCB contributors; MSYS notes adapted from CDDA PR 88588 (Matthew Richmond) and PR 88664 (mqrause).
 example_validation_ids:
 - cmake-configure
 - cpp-tests
@@ -48,7 +49,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: platforms-windows
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/
 alternate_urls:
@@ -56,15 +57,19 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/d32b9cc880a85480840d82cfa05d256c78a16615
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/75f90e0741588679986b2867923e8a500678cd86
 source_urls:
 - path: CMakePresets.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/CMakePresets.json
-- path: doc/c++/COMPILING-MSYS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/doc/c++/COMPILING-MSYS.md
-- path: .github/workflows/msvc-full-features.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/.github/workflows/msvc-full-features.yml
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28platforms.msys2%29%3A+&body=Document+ID%3A+platforms.msys2%0ALanguage%3A+en%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/75f90e0741588679986b2867923e8a500678cd86/CMakePresets.json
+- path: Makefile
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/75f90e0741588679986b2867923e8a500678cd86/Makefile
+- path: msvc-full-features/vcpkg.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/75f90e0741588679986b2867923e8a500678cd86/msvc-full-features/vcpkg.json
+- path: tools/build_shaders.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/75f90e0741588679986b2867923e8a500678cd86/tools/build_shaders.py
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28platforms.msys2%29%3A+&body=Document+ID%3A+platforms.msys2%0ALanguage%3A+en%0AVerified+commit%3A+75f90e0741588679986b2867923e8a500678cd86%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
 # MSYS2 and MinGW
@@ -94,13 +99,23 @@ errors, and current CI decide the actual contract. Install dependencies for the 
 architecture. Run MinGW executables from the matching shell and inspect the packaged DLL set
 outside the development PATH.
 
+SDL3 tiles builds also require `glslangValidator` to compile shader artifacts. Install
+`mingw-w64-ucrt-x86_64-glslang` and check that the UCRT64 shell can find the tool.
+Use UCRT64 packages for SDL3 image, font and sound dependencies as well; curses
+builds do not need shader tools.
+
+```sh
+command -v gcc g++ glslangValidator
+cmake --preset windows-tiles-sounds-x64 -DUSE_SDL3=ON
+```
+
 ## Validation
 
 - Configure and build the exact preset.
 - Run the produced tests for the same configuration.
 - For tiles/sound, start from a clean shell and verify renderer, fonts, sound, translations, and
   shader artifacts where SDL3 is enabled.
-- Record shell (`MINGW64`), compiler/version, preset, and configuration in the PR.
+- Record shell (`UCRT64`), compiler/version, preset, and configuration in the PR.
 
 ## Common failures
 

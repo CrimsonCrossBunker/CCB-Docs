@@ -7888,7 +7888,7 @@ pages:
   title: MSYS2 与 MinGW
   language: zh_CN
   path: platforms/msys2.md
-  status: active
+  status: draft
   doc_type: how-to
   audiences: &id436
   - new-contributor
@@ -7900,30 +7900,31 @@ pages:
   last_human_reviewer: Pending human review
   source_paths: &id437
   - CMakePresets.json
-  - doc/c++/COMPILING-MSYS.md
-  - .github/workflows/msvc-full-features.yml
+  - Makefile
+  - msvc-full-features/vcpkg.json
+  - tools/build_shaders.py
   source_symbols: &id438 []
   source_queries: &id439
   - windows-x64
-  source_fingerprint: bf6ba93c2336766ceda18c41f5a84d3a56c4a0799ff9c9dbd11484cf822b9773
+  source_fingerprint: e0d575911300ee3881e0b77aa62a39685e5cf7524a82f55ae2a5088bb4ea7cd9
   authority: build-config
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 75f90e0741588679986b2867923e8a500678cd86
+  verified_at: '2026-10-12'
   generated: false
   generated_by: null
-  include_in_search: true
-  include_in_ai_index: true
+  include_in_search: false
+  include_in_ai_index: false
   translation_group: platforms.msys2
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: bc3e58ed87ce480f2925aecac89f9313b9869c581272cfae45131748b7f4ae03
+  translation_source_fingerprint: 438403074a5c48398e9616f9de1eb24d61926e32f53d1b27425896490302d2dd
   prerequisites: &id440
   - platforms.windows
   depends_on: &id441 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; see source paths and Git history.
+  attribution: CCB contributors; MSYS notes adapted from CDDA PR 88588 (Matthew Richmond) and PR 88664 (mqrause).
   example_validation_ids: &id442
   - cmake-configure
   - cpp-tests
@@ -7932,7 +7933,7 @@ pages:
   deprecation_replacement: null
   risk_group: platforms-windows
   risk_level: high
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987
   stale_reason: null
   nav:
     section: 平台
@@ -7941,7 +7942,7 @@ pages:
   title: MSYS2 and MinGW
   language: en
   path: platforms/msys2.md
-  status: active
+  status: draft
   doc_type: how-to
   audiences: *id436
   owners: *id001
@@ -7951,31 +7952,31 @@ pages:
   source_paths: *id437
   source_symbols: *id438
   source_queries: *id439
-  source_fingerprint: bf6ba93c2336766ceda18c41f5a84d3a56c4a0799ff9c9dbd11484cf822b9773
+  source_fingerprint: e0d575911300ee3881e0b77aa62a39685e5cf7524a82f55ae2a5088bb4ea7cd9
   authority: build-config
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 75f90e0741588679986b2867923e8a500678cd86
+  verified_at: '2026-10-12'
   generated: false
   generated_by: null
-  include_in_search: true
-  include_in_ai_index: true
+  include_in_search: false
+  include_in_ai_index: false
   translation_group: platforms.msys2
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: bc3e58ed87ce480f2925aecac89f9313b9869c581272cfae45131748b7f4ae03
+  translation_source_fingerprint: 438403074a5c48398e9616f9de1eb24d61926e32f53d1b27425896490302d2dd
   prerequisites: *id440
   depends_on: *id441
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; see source paths and Git history.
+  attribution: CCB contributors; MSYS notes adapted from CDDA PR 88588 (Matthew Richmond) and PR 88664 (mqrause).
   example_validation_ids: *id442
   api_version: null
   deprecated: false
   deprecation_replacement: null
   risk_group: platforms-windows
   risk_level: high
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987
   stale_reason: null
   nav:
     section: Platforms
