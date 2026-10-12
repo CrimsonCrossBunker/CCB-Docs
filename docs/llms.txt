@@ -103,8 +103,6 @@
 - [zh_CN] 发布操作: https://crimsoncrossbunker.github.io/CCB-Docs/operations/releases/
 - [en] Android development: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/android/
 - [zh_CN] Android 开发: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/android/
-- [en] MSYS2 and MinGW: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/
-- [zh_CN] MSYS2 与 MinGW: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/
 - [en] Windows development: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/windows/
 - [zh_CN] Windows 开发: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/windows/
 - [en] WSL development: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/
