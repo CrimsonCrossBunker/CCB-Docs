@@ -10495,7 +10495,7 @@ pages:
   deprecation_replacement: null
   risk_group: lua-api
   risk_level: high
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/998
   stale_reason: null
   nav:
     section: C++
@@ -10558,7 +10558,7 @@ pages:
   deprecation_replacement: null
   risk_group: lua-api
   risk_level: high
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/998
   stale_reason: null
   nav:
     section: C++
