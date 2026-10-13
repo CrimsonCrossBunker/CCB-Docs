@@ -267,6 +267,10 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/"
   },
+  "eoc.upstream-math-compatibility": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/upstream-math-compatibility/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/upstream-math-compatibility/"
+  },
   "eoc.variables-context": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/variables-context/"
