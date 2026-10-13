@@ -299,6 +299,10 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/"
   },
+  "json.upstream-authoring-notes": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/upstream-authoring-notes/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/upstream-authoring-notes/"
+  },
   "json.validation": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/"
