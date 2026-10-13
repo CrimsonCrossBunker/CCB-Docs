@@ -183,6 +183,10 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/crafting/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/crafting/"
   },
+  "cpp.crafting-reservations-sync": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/crafting-reservations-sync/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/crafting-reservations-sync/"
+  },
   "cpp.creatures": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/creatures/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/creatures/"
