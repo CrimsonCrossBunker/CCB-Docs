@@ -10437,3 +10437,129 @@ pages:
   nav:
     section: CCB Lua Platform v1
     order: 1
+- id: cpp.crafting-reservations-sync
+  title: 制作材料预留与临时库存同步草稿
+  language: zh_CN
+  path: cpp/crafting-reservations-sync.md
+  status: draft
+  doc_type: reference
+  audiences:
+  - experienced-contributor
+  - maintainer
+  - mod-author
+  - api-user
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 90
+  last_human_reviewer: Pending human review
+  source_paths:
+  - src/crafting.cpp
+  - src/craft_reservation_search.cpp
+  - src/temp_crafting_inventory.cpp
+  - src/lua_platform_crafting.cpp
+  - src/lua_platform_items.cpp
+  - src/veh_interact.cpp
+  - src/version.cmake
+  source_symbols:
+  - Character::crafting_inventory
+  - veh_interact::installation_requirement_availability
+  source_queries:
+  - independent_contents
+  - zero_move_dispatches
+  - CMAKE_MATCH_1
+  source_fingerprint: 2b68b6f557a1b5934dd6ce9719a7776f979f0e96ac481021c9f39d680105f052
+  authority: api-contract
+  verified_commit: 0a9822532c83189bc431631fd5e2b05a632460c6
+  verified_at: '2026-10-14'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: cpp.crafting-reservations-sync
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 16b662752793ebd42f81224f79c63633f078f476be19cf928de5097e8189e9ba
+  prerequisites:
+  - cpp.lua-bridge
+  depends_on: []
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; see source paths and Git history.
+  example_validation_ids:
+  - lua-contract
+  api_version: '1'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: C++
+    order: 188
+- id: cpp.crafting-reservations-sync
+  title: 'Draft: crafting reservations and temporary inventory'
+  language: en
+  path: cpp/crafting-reservations-sync.md
+  status: draft
+  doc_type: reference
+  audiences:
+  - experienced-contributor
+  - maintainer
+  - mod-author
+  - api-user
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 90
+  last_human_reviewer: Pending human review
+  source_paths:
+  - src/crafting.cpp
+  - src/craft_reservation_search.cpp
+  - src/temp_crafting_inventory.cpp
+  - src/lua_platform_crafting.cpp
+  - src/lua_platform_items.cpp
+  - src/veh_interact.cpp
+  - src/version.cmake
+  source_symbols:
+  - Character::crafting_inventory
+  - veh_interact::installation_requirement_availability
+  source_queries:
+  - independent_contents
+  - zero_move_dispatches
+  - CMAKE_MATCH_1
+  source_fingerprint: 2b68b6f557a1b5934dd6ce9719a7776f979f0e96ac481021c9f39d680105f052
+  authority: api-contract
+  verified_commit: 0a9822532c83189bc431631fd5e2b05a632460c6
+  verified_at: '2026-10-14'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: cpp.crafting-reservations-sync
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 16b662752793ebd42f81224f79c63633f078f476be19cf928de5097e8189e9ba
+  prerequisites:
+  - cpp.lua-bridge
+  depends_on: []
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; see source paths and Git history.
+  example_validation_ids:
+  - lua-contract
+  api_version: '1'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: C++
+    order: 189
