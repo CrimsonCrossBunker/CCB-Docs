@@ -247,9 +247,17 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/save/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/save/"
   },
+  "cpp.sdl3-render-sync": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/sdl3-render-sync/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/sdl3-render-sync/"
+  },
   "cpp.ui": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/ui/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/ui/"
+  },
+  "cpp.upstream-native-sync": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/upstream-native-sync/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/upstream-native-sync/"
   },
   "cpp.vehicles": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/vehicles/",
@@ -314,6 +322,10 @@
   "mods.complete-json-eoc-mod": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/"
+  },
+  "mods.upstream-content-sync": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/upstream-content-sync/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/upstream-content-sync/"
   },
   "operations.crash-reports": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/crash-reports/",

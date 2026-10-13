@@ -7881,6 +7881,134 @@
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/save/"
     },
     {
+      "id": "cpp.sdl3-render-sync",
+      "title": "Draft: SDL3 rendering synchronization",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "Pending human review",
+      "source_paths": [
+        "src/cata_tiles.cpp",
+        "src/cata_shader.cpp",
+        "src/pixel_minimap.cpp",
+        "src/sdl_font.cpp",
+        "src/sdltiles.cpp",
+        "src/level_cache.h",
+        "src/smooth_lighting.cpp",
+        "data/shaders/lit_sample.glsl",
+        "src/CMakeLists.txt",
+        "tools/agent/test_shader_cmake_graph.py"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "b6c9fb6600de97d5f52c1ceb26a11e7b1600e5bfb16dcc237b1591e91b8b71ed",
+      "authority": "api-contract",
+      "verified_commit": "eb8bfeabd8748176cc33aa2329b634d17bb61885",
+      "verified_at": "2026-10-14",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "a376cdd4479fcfbe8bec83cde870e045bd0e0178d79ff408bc63b358b25d1e89",
+      "prerequisites": [],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "lua-contract"
+      ],
+      "api_version": "1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1000",
+      "stale_reason": null,
+      "path": "cpp/sdl3-render-sync.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/sdl3-render-sync/"
+    },
+    {
+      "id": "cpp.sdl3-render-sync",
+      "title": "SDL3 渲染同步草稿",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "Pending human review",
+      "source_paths": [
+        "src/cata_tiles.cpp",
+        "src/cata_shader.cpp",
+        "src/pixel_minimap.cpp",
+        "src/sdl_font.cpp",
+        "src/sdltiles.cpp",
+        "src/level_cache.h",
+        "src/smooth_lighting.cpp",
+        "data/shaders/lit_sample.glsl",
+        "src/CMakeLists.txt",
+        "tools/agent/test_shader_cmake_graph.py"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "b6c9fb6600de97d5f52c1ceb26a11e7b1600e5bfb16dcc237b1591e91b8b71ed",
+      "authority": "api-contract",
+      "verified_commit": "eb8bfeabd8748176cc33aa2329b634d17bb61885",
+      "verified_at": "2026-10-14",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "a376cdd4479fcfbe8bec83cde870e045bd0e0178d79ff408bc63b358b25d1e89",
+      "prerequisites": [],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "lua-contract"
+      ],
+      "api_version": "1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1000",
+      "stale_reason": null,
+      "path": "cpp/sdl3-render-sync.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/sdl3-render-sync/"
+    },
+    {
       "id": "cpp.ui",
       "title": "Native UI subsystem",
       "language": "en",
@@ -8005,6 +8133,138 @@
       "stale_reason": null,
       "path": "cpp/ui.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/ui/"
+    },
+    {
+      "id": "cpp.upstream-native-sync",
+      "title": "Draft: native behavior synchronization",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "Pending human review",
+      "source_paths": [
+        "src/activity_actor.cpp",
+        "src/activity_actor_definitions.h",
+        "src/event.h",
+        "src/regional_settings.h",
+        "src/weather.cpp",
+        "src/main.cpp",
+        "src/lua_platform_runtime_services.cpp",
+        "src/veh_type.cpp",
+        "src/character_inventory.cpp",
+        "src/recipe_dictionary.cpp",
+        "tests/lua_platform_environment_predicate_test.cpp",
+        "tests/lua_platform_effects_test.cpp"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "a80d78267dc97036358b0302ad889a4043deaf8d31273adcb26ecbb070591d10",
+      "authority": "api-contract",
+      "verified_commit": "eb8bfeabd8748176cc33aa2329b634d17bb61885",
+      "verified_at": "2026-10-14",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "e8b0038844e89009ee18be20605c85e55b3a7694f20777597de133e4318495c8",
+      "prerequisites": [],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "lua-contract"
+      ],
+      "api_version": "1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1000",
+      "stale_reason": null,
+      "path": "cpp/upstream-native-sync.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/upstream-native-sync/"
+    },
+    {
+      "id": "cpp.upstream-native-sync",
+      "title": "原生行为同步草稿",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "Pending human review",
+      "source_paths": [
+        "src/activity_actor.cpp",
+        "src/activity_actor_definitions.h",
+        "src/event.h",
+        "src/regional_settings.h",
+        "src/weather.cpp",
+        "src/main.cpp",
+        "src/lua_platform_runtime_services.cpp",
+        "src/veh_type.cpp",
+        "src/character_inventory.cpp",
+        "src/recipe_dictionary.cpp",
+        "tests/lua_platform_environment_predicate_test.cpp",
+        "tests/lua_platform_effects_test.cpp"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "a80d78267dc97036358b0302ad889a4043deaf8d31273adcb26ecbb070591d10",
+      "authority": "api-contract",
+      "verified_commit": "eb8bfeabd8748176cc33aa2329b634d17bb61885",
+      "verified_at": "2026-10-14",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "e8b0038844e89009ee18be20605c85e55b3a7694f20777597de133e4318495c8",
+      "prerequisites": [],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "lua-contract"
+      ],
+      "api_version": "1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1000",
+      "stale_reason": null,
+      "path": "cpp/upstream-native-sync.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/upstream-native-sync/"
     },
     {
       "id": "cpp.vehicles",
@@ -10083,6 +10343,122 @@
       "stale_reason": null,
       "path": "mods/complete-json-eoc-mod.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/"
+    },
+    {
+      "id": "mods.upstream-content-sync",
+      "title": "Draft: core and bundled Mod content synchronization",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "Pending human review",
+      "source_paths": [
+        "data/json/mapgen/netherum/labyrinth_earth.json",
+        "data/json/region_settings/region_settings/regional_map_settings.json",
+        "data/mods/MindOverMatter/dimensions/shoggothed_world/region_settings.json",
+        "data/upstream-changelog-20260921-20260928.txt"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "529cab08c982dc2364c967e7c0b522069ff08879567eea35c94192ec07069d63",
+      "authority": "api-contract",
+      "verified_commit": "eb8bfeabd8748176cc33aa2329b634d17bb61885",
+      "verified_at": "2026-10-14",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "072e461e95c1d2fb3ed904f0b98c2469a8808ee67eab57fa90beeb9ac4b30326",
+      "prerequisites": [],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "lua-contract"
+      ],
+      "api_version": "1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1000",
+      "stale_reason": null,
+      "path": "mods/upstream-content-sync.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/upstream-content-sync/"
+    },
+    {
+      "id": "mods.upstream-content-sync",
+      "title": "核心与随附 Mod 数据同步草稿",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "Pending human review",
+      "source_paths": [
+        "data/json/mapgen/netherum/labyrinth_earth.json",
+        "data/json/region_settings/region_settings/regional_map_settings.json",
+        "data/mods/MindOverMatter/dimensions/shoggothed_world/region_settings.json",
+        "data/upstream-changelog-20260921-20260928.txt"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "529cab08c982dc2364c967e7c0b522069ff08879567eea35c94192ec07069d63",
+      "authority": "api-contract",
+      "verified_commit": "eb8bfeabd8748176cc33aa2329b634d17bb61885",
+      "verified_at": "2026-10-14",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "072e461e95c1d2fb3ed904f0b98c2469a8808ee67eab57fa90beeb9ac4b30326",
+      "prerequisites": [],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "lua-contract"
+      ],
+      "api_version": "1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1000",
+      "stale_reason": null,
+      "path": "mods/upstream-content-sync.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/upstream-content-sync/"
     },
     {
       "id": "operations.crash-reports",
@@ -13998,9 +14374,17 @@
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/save/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/save/"
     },
+    "cpp.sdl3-render-sync": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/sdl3-render-sync/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/sdl3-render-sync/"
+    },
     "cpp.ui": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/ui/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/ui/"
+    },
+    "cpp.upstream-native-sync": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/upstream-native-sync/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/upstream-native-sync/"
     },
     "cpp.vehicles": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/vehicles/",
@@ -14065,6 +14449,10 @@
     "mods.complete-json-eoc-mod": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/"
+    },
+    "mods.upstream-content-sync": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/upstream-content-sync/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/upstream-content-sync/"
     },
     "operations.crash-reports": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/crash-reports/",
@@ -14637,6 +15025,8 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/core-dev-guide/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/native-binding-guide/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/sdl3-render-sync/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/upstream-native-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/changelog/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/items/",
@@ -14670,12 +15060,16 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/core-dev-guide/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/native-binding-guide/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/sdl3-render-sync/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/upstream-native-sync/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/upstream-content-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/items/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/mods/upstream-content-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/",
