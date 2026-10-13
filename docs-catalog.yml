@@ -10469,9 +10469,9 @@ pages:
   - independent_contents
   - zero_move_dispatches
   - CMAKE_MATCH_1
-  source_fingerprint: 2b68b6f557a1b5934dd6ce9719a7776f979f0e96ac481021c9f39d680105f052
+  source_fingerprint: d6404d4fcf2fe778c5c1ec72fc691595e383450db00eade724b484f66663ad22
   authority: api-contract
-  verified_commit: 0a9822532c83189bc431631fd5e2b05a632460c6
+  verified_commit: 004e20314d65884869ba492a0524325c1dd9380f
   verified_at: '2026-10-14'
   generated: false
   generated_by: null
@@ -10532,9 +10532,9 @@ pages:
   - independent_contents
   - zero_move_dispatches
   - CMAKE_MATCH_1
-  source_fingerprint: 2b68b6f557a1b5934dd6ce9719a7776f979f0e96ac481021c9f39d680105f052
+  source_fingerprint: d6404d4fcf2fe778c5c1ec72fc691595e383450db00eade724b484f66663ad22
   authority: api-contract
-  verified_commit: 0a9822532c83189bc431631fd5e2b05a632460c6
+  verified_commit: 004e20314d65884869ba492a0524325c1dd9380f
   verified_at: '2026-10-14'
   generated: false
   generated_by: null
