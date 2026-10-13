@@ -10437,3 +10437,123 @@ pages:
   nav:
     section: CCB Lua Platform v1
     order: 1
+- id: eoc.upstream-math-compatibility
+  title: 饥饿与士气数学表达式兼容草稿
+  language: zh_CN
+  path: eoc/upstream-math-compatibility.md
+  status: draft
+  doc_type: reference
+  audiences:
+  - new-contributor
+  - experienced-contributor
+  - maintainer
+  - mod-author
+  - api-user
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths:
+  - src/math_parser_diag.cpp
+  - tests/upstream_math_compat_test.cpp
+  source_symbols:
+  - hunger_eval
+  - hunger_ass
+  - morale_eval
+  source_queries:
+  - hunger
+  - morale
+  - raw
+  source_fingerprint: d45f028fb15c07a442068ebbc2f8a6b63818d5ae12a4606171435f588853a573
+  authority: api-contract
+  verified_commit: 67a19e5b9687a7617ace7433b2d49d55850862b5
+  verified_at: '2026-10-14'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: eoc.upstream-math-compatibility
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 3fb01cbe28214e221cb3ade36edc0e1b7b6b544b0a575b51083cd1908b2dbc4b
+  prerequisites:
+  - eoc.overview
+  depends_on:
+  - eoc.talkers
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  example_validation_ids: []
+  api_version: contract-inventory-v1
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: eoc
+  risk_level: high
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/995
+  stale_reason: null
+  nav:
+    section: EOC
+    order: 154
+- id: eoc.upstream-math-compatibility
+  title: 'Draft: hunger and morale math compatibility'
+  language: en
+  path: eoc/upstream-math-compatibility.md
+  status: draft
+  doc_type: reference
+  audiences:
+  - new-contributor
+  - experienced-contributor
+  - maintainer
+  - mod-author
+  - api-user
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths:
+  - src/math_parser_diag.cpp
+  - tests/upstream_math_compat_test.cpp
+  source_symbols:
+  - hunger_eval
+  - hunger_ass
+  - morale_eval
+  source_queries:
+  - hunger
+  - morale
+  - raw
+  source_fingerprint: d45f028fb15c07a442068ebbc2f8a6b63818d5ae12a4606171435f588853a573
+  authority: api-contract
+  verified_commit: 67a19e5b9687a7617ace7433b2d49d55850862b5
+  verified_at: '2026-10-14'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: eoc.upstream-math-compatibility
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 3fb01cbe28214e221cb3ade36edc0e1b7b6b544b0a575b51083cd1908b2dbc4b
+  prerequisites:
+  - eoc.overview
+  depends_on:
+  - eoc.talkers
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  example_validation_ids: []
+  api_version: contract-inventory-v1
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: eoc
+  risk_level: high
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/995
+  stale_reason: null
+  nav:
+    section: EOC
+    order: 155
