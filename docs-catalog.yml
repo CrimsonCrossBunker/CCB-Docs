@@ -2173,8 +2173,7 @@ pages:
   supersedes: &id128
   - lua.v5.overview
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -2217,8 +2216,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -2242,7 +2240,7 @@ pages:
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
   source_paths: *id122
-  source_symbols: &id130
+  source_symbols: &id129
   - ccb.lifecycle.reload
   source_queries: *id124
   source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
@@ -2257,15 +2255,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 18d6c6edc467f5a8bcbe0d3b3a32e12fab948e37ff8a5dcaf104e8f9bc57db9e
-  prerequisites: &id131
+  prerequisites: &id130
   - api.lua.v5.overview
-  depends_on: &id132
+  depends_on: &id131
   - api.lua.v5.capabilities
   redirect_from: *id127
-  supersedes: &id133 []
+  supersedes: &id132 []
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -2274,7 +2271,7 @@ pages:
   risk_level: high
   pending_source_pr: null
   stale_reason: null
-  nav: &id134
+  nav: &id133
     section: CCB Lua 0.1
     order: 91
 - id: api.lua.v5.lifecycle
@@ -2289,7 +2286,7 @@ pages:
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
   source_paths: *id122
-  source_symbols: *id130
+  source_symbols: *id129
   source_queries: *id124
   source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
   authority: historical
@@ -2303,13 +2300,12 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 18d6c6edc467f5a8bcbe0d3b3a32e12fab948e37ff8a5dcaf104e8f9bc57db9e
-  prerequisites: *id131
-  depends_on: *id132
+  prerequisites: *id130
+  depends_on: *id131
   redirect_from: *id127
-  supersedes: *id133
+  supersedes: *id132
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -2318,7 +2314,7 @@ pages:
   risk_level: high
   pending_source_pr: null
   stale_reason: null
-  nav: *id134
+  nav: *id133
 - id: api.lua.v5.events
   title: 事件、Hook 与 Callback
   language: zh_CN
@@ -2331,7 +2327,7 @@ pages:
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
   source_paths: *id122
-  source_symbols: &id135
+  source_symbols: &id134
   - game.native_events
   source_queries: *id124
   source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
@@ -2346,17 +2342,16 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: bcba015902daab057c1ed121fd4c8a13496c595a0a0489d682aa82fa209f983a
-  prerequisites: &id136
+  prerequisites: &id135
   - api.lua.v5.lifecycle
-  depends_on: &id137
+  depends_on: &id136
   - api.lua.v5.reference.events
   - api.lua.v5.reference.hooks
   - api.lua.v5.reference.callbacks
   redirect_from: *id127
-  supersedes: &id138 []
+  supersedes: &id137 []
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -2365,7 +2360,7 @@ pages:
   risk_level: high
   pending_source_pr: null
   stale_reason: null
-  nav: &id139
+  nav: &id138
     section: CCB Lua 0.1
     order: 92
 - id: api.lua.v5.events
@@ -2380,7 +2375,7 @@ pages:
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
   source_paths: *id122
-  source_symbols: *id135
+  source_symbols: *id134
   source_queries: *id124
   source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
   authority: historical
@@ -2394,13 +2389,12 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: bcba015902daab057c1ed121fd4c8a13496c595a0a0489d682aa82fa209f983a
-  prerequisites: *id136
-  depends_on: *id137
+  prerequisites: *id135
+  depends_on: *id136
   redirect_from: *id127
-  supersedes: *id138
+  supersedes: *id137
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -2409,7 +2403,7 @@ pages:
   risk_level: high
   pending_source_pr: null
   stale_reason: null
-  nav: *id139
+  nav: *id138
 - id: api.lua.v5.capabilities
   title: Capability 声明
   language: zh_CN
@@ -2422,7 +2416,7 @@ pages:
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
   source_paths: *id122
-  source_symbols: &id140
+  source_symbols: &id139
   - game.actions.dangerous
   source_queries: *id124
   source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
@@ -2437,16 +2431,15 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 1fccbc0f78336579f9d52244ee7583b2ab54f040b1f607ad0834d5d89b902504
-  prerequisites: &id141
+  prerequisites: &id140
   - api.lua.v5.overview
-  depends_on: &id142
+  depends_on: &id141
   - api.lua.v5.permissions
   - api.lua.v5.reference.capabilities
   redirect_from: *id127
-  supersedes: &id143 []
+  supersedes: &id142 []
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -2455,7 +2448,7 @@ pages:
   risk_level: high
   pending_source_pr: null
   stale_reason: null
-  nav: &id144
+  nav: &id143
     section: CCB Lua 0.1
     order: 93
 - id: api.lua.v5.capabilities
@@ -2470,7 +2463,7 @@ pages:
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
   source_paths: *id122
-  source_symbols: *id140
+  source_symbols: *id139
   source_queries: *id124
   source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
   authority: historical
@@ -2484,13 +2477,12 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 1fccbc0f78336579f9d52244ee7583b2ab54f040b1f607ad0834d5d89b902504
-  prerequisites: *id141
-  depends_on: *id142
+  prerequisites: *id140
+  depends_on: *id141
   redirect_from: *id127
-  supersedes: *id143
+  supersedes: *id142
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -2499,7 +2491,7 @@ pages:
   risk_level: high
   pending_source_pr: null
   stale_reason: null
-  nav: *id144
+  nav: *id143
 - id: api.lua.v5.permissions
   title: 权限与信任模型
   language: zh_CN
@@ -2512,7 +2504,7 @@ pages:
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
   source_paths: *id122
-  source_symbols: &id145
+  source_symbols: &id144
   - capability-gating
   source_queries: *id124
   source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
@@ -2527,15 +2519,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: b71ac2b60780fbf1e19cf204014c7a19ceb59a28ad03ce658c8d39748bcd1031
-  prerequisites: &id146
+  prerequisites: &id145
   - api.lua.v5.capabilities
-  depends_on: &id147
+  depends_on: &id146
   - api.lua.v5.reference.permissions
   redirect_from: *id127
-  supersedes: &id148 []
+  supersedes: &id147 []
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -2544,7 +2535,7 @@ pages:
   risk_level: high
   pending_source_pr: null
   stale_reason: null
-  nav: &id149
+  nav: &id148
     section: CCB Lua 0.1
     order: 94
 - id: api.lua.v5.permissions
@@ -2559,7 +2550,7 @@ pages:
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
   source_paths: *id122
-  source_symbols: *id145
+  source_symbols: *id144
   source_queries: *id124
   source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
   authority: historical
@@ -2573,13 +2564,12 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: b71ac2b60780fbf1e19cf204014c7a19ceb59a28ad03ce658c8d39748bcd1031
-  prerequisites: *id146
-  depends_on: *id147
+  prerequisites: *id145
+  depends_on: *id146
   redirect_from: *id127
-  supersedes: *id148
+  supersedes: *id147
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -2588,7 +2578,7 @@ pages:
   risk_level: high
   pending_source_pr: null
   stale_reason: null
-  nav: *id149
+  nav: *id148
 - id: api.lua.v5.ui
   title: 跨平台 Lua UI
   language: zh_CN
@@ -2601,7 +2591,7 @@ pages:
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
   source_paths: *id122
-  source_symbols: &id150
+  source_symbols: &id149
   - ctx:environment()
   source_queries: *id124
   source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
@@ -2616,17 +2606,16 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 597a0943a36c0bc69650a11552f0a460b98ba37ecfe2134768c5a64109291e3b
-  prerequisites: &id151
+  prerequisites: &id150
   - api.lua.v5.lifecycle
   - api.lua.v5.capabilities
-  depends_on: &id152
+  depends_on: &id151
   - api.lua.v5.reference.classes
   - api.lua.v5.reference.methods
   redirect_from: *id127
-  supersedes: &id153 []
+  supersedes: &id152 []
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -2635,7 +2624,7 @@ pages:
   risk_level: high
   pending_source_pr: null
   stale_reason: null
-  nav: &id154
+  nav: &id153
     section: CCB Lua 0.1
     order: 95
 - id: api.lua.v5.ui
@@ -2650,7 +2639,7 @@ pages:
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
   source_paths: *id122
-  source_symbols: *id150
+  source_symbols: *id149
   source_queries: *id124
   source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
   authority: historical
@@ -2664,13 +2653,12 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 597a0943a36c0bc69650a11552f0a460b98ba37ecfe2134768c5a64109291e3b
-  prerequisites: *id151
-  depends_on: *id152
+  prerequisites: *id150
+  depends_on: *id151
   redirect_from: *id127
-  supersedes: *id153
+  supersedes: *id152
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -2679,7 +2667,7 @@ pages:
   risk_level: high
   pending_source_pr: null
   stale_reason: null
-  nav: *id154
+  nav: *id153
 - id: api.lua.v5.debugging
   title: Lua 调试与契约验证
   language: zh_CN
@@ -2692,7 +2680,7 @@ pages:
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
   source_paths: *id122
-  source_symbols: &id155
+  source_symbols: &id154
   - check_public_contract.py
   source_queries: *id124
   source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
@@ -2707,15 +2695,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: d94f4411b0f742eb9bd98ae0ebd5ebec800ffb9ed92eb204b9bd0610f2c95d78
-  prerequisites: &id156
+  prerequisites: &id155
   - api.lua.v5.overview
-  depends_on: &id157
+  depends_on: &id156
   - api.lua.v5.example-mod
   redirect_from: *id127
-  supersedes: &id158 []
+  supersedes: &id157 []
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -2724,7 +2711,7 @@ pages:
   risk_level: high
   pending_source_pr: null
   stale_reason: null
-  nav: &id160
+  nav: &id158
     section: CCB Lua 0.1
     order: 96
 - id: api.lua.v5.debugging
@@ -2739,7 +2726,7 @@ pages:
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
   source_paths: *id122
-  source_symbols: *id155
+  source_symbols: *id154
   source_queries: *id124
   source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
   authority: historical
@@ -2753,13 +2740,12 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: d94f4411b0f742eb9bd98ae0ebd5ebec800ffb9ed92eb204b9bd0610f2c95d78
-  prerequisites: *id156
-  depends_on: *id157
+  prerequisites: *id155
+  depends_on: *id156
   redirect_from: *id127
-  supersedes: *id158
+  supersedes: *id157
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -2768,7 +2754,7 @@ pages:
   risk_level: high
   pending_source_pr: null
   stale_reason: null
-  nav: *id160
+  nav: *id158
 - id: api.lua.v5.performance
   title: Lua 性能与资源边界
   language: zh_CN
@@ -2781,7 +2767,7 @@ pages:
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
   source_paths: *id122
-  source_symbols: &id161
+  source_symbols: &id159
   - callback_time_total_us
   source_queries: *id124
   source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
@@ -2796,16 +2782,15 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 06b3ec657d446ed43e9107741e33b696d42ff066c69540bc0f100f61d0e98942
-  prerequisites: &id162
+  prerequisites: &id160
   - api.lua.v5.ui
   - api.lua.v5.lifecycle
-  depends_on: &id163
+  depends_on: &id161
   - api.lua.v5.debugging
   redirect_from: *id127
-  supersedes: &id164 []
+  supersedes: &id162 []
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -2814,7 +2799,7 @@ pages:
   risk_level: high
   pending_source_pr: null
   stale_reason: null
-  nav: &id165
+  nav: &id163
     section: CCB Lua 0.1
     order: 97
 - id: api.lua.v5.performance
@@ -2829,7 +2814,7 @@ pages:
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
   source_paths: *id122
-  source_symbols: *id161
+  source_symbols: *id159
   source_queries: *id124
   source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
   authority: historical
@@ -2843,13 +2828,12 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 06b3ec657d446ed43e9107741e33b696d42ff066c69540bc0f100f61d0e98942
-  prerequisites: *id162
-  depends_on: *id163
+  prerequisites: *id160
+  depends_on: *id161
   redirect_from: *id127
-  supersedes: *id164
+  supersedes: *id162
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -2858,7 +2842,7 @@ pages:
   risk_level: high
   pending_source_pr: null
   stale_reason: null
-  nav: *id165
+  nav: *id163
 - id: api.lua.v5.migration
   title: 迁移到 Lua API v5
   language: zh_CN
@@ -2871,7 +2855,7 @@ pages:
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
   source_paths: *id122
-  source_symbols: &id166
+  source_symbols: &id164
   - game.state_get
   source_queries: *id124
   source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
@@ -2886,17 +2870,16 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: b69d0ea50beb9da0856e565202316b5e644b6b57f6e21c21237542593f67222b
-  prerequisites: &id167
+  prerequisites: &id165
   - api.lua.v5.overview
-  depends_on: &id168
+  depends_on: &id166
   - api.lua.v5.capabilities
   - api.lua.v5.lifecycle
   - api.lua.v5.ui
   redirect_from: *id127
-  supersedes: &id169 []
+  supersedes: &id167 []
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -2905,7 +2888,7 @@ pages:
   risk_level: high
   pending_source_pr: null
   stale_reason: null
-  nav: &id170
+  nav: &id168
     section: CCB Lua 0.1
     order: 98
 - id: api.lua.v5.migration
@@ -2920,7 +2903,7 @@ pages:
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
   source_paths: *id122
-  source_symbols: *id166
+  source_symbols: *id164
   source_queries: *id124
   source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
   authority: historical
@@ -2934,13 +2917,12 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: b69d0ea50beb9da0856e565202316b5e644b6b57f6e21c21237542593f67222b
-  prerequisites: *id167
-  depends_on: *id168
+  prerequisites: *id165
+  depends_on: *id166
   redirect_from: *id127
-  supersedes: *id169
+  supersedes: *id167
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -2949,7 +2931,7 @@ pages:
   risk_level: high
   pending_source_pr: null
   stale_reason: null
-  nav: *id170
+  nav: *id168
 - id: api.lua.v5.changelog
   title: Lua API 变更记录
   language: zh_CN
@@ -2962,7 +2944,7 @@ pages:
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
   source_paths: *id122
-  source_symbols: &id171
+  source_symbols: &id169
   - native_luals_callable_parity
   source_queries: *id124
   source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
@@ -2977,15 +2959,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: d34a0b3afc431fdee9c6bcfce1c86a36f2239e5651861aba1f498cc204939203
-  prerequisites: &id172
+  prerequisites: &id170
   - api.lua.v5.overview
-  depends_on: &id173
+  depends_on: &id171
   - api.lua.v5.migration
   redirect_from: *id127
-  supersedes: &id174 []
+  supersedes: &id172 []
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -2994,7 +2975,7 @@ pages:
   risk_level: high
   pending_source_pr: null
   stale_reason: null
-  nav: &id175
+  nav: &id173
     section: CCB Lua 0.1
     order: 99
 - id: api.lua.v5.changelog
@@ -3009,7 +2990,7 @@ pages:
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
   source_paths: *id122
-  source_symbols: *id171
+  source_symbols: *id169
   source_queries: *id124
   source_fingerprint: 30a19e6cbd8c6709ac5ccda80fe349e9459ddaccd8d3dc96507ee282c17f48cb
   authority: historical
@@ -3023,13 +3004,12 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: d34a0b3afc431fdee9c6bcfce1c86a36f2239e5651861aba1f498cc204939203
-  prerequisites: *id172
-  depends_on: *id173
+  prerequisites: *id170
+  depends_on: *id171
   redirect_from: *id127
-  supersedes: *id174
+  supersedes: *id172
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -3038,31 +3018,31 @@ pages:
   risk_level: high
   pending_source_pr: null
   stale_reason: null
-  nav: *id175
+  nav: *id173
 - id: api.lua.v5.reference.modules
   title: 模块入口参考
   language: zh_CN
   path: api/lua/v5/reference/modules.md
   status: archived
   doc_type: archive
-  audiences: &id176
+  audiences: &id174
   - mod-author
   - api-user
   - experienced-contributor
   - maintainer
-  owners: &id177
+  owners: &id175
   - CCB Lua API maintainers
-  reviewers: &id178
+  reviewers: &id176
   - Documentation reviewers
   - Lua API reviewers
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: &id179
+  source_paths: &id177
   - data/lua/reference/ccb_public_api_v5.json
   - data/lua/reference/ccb_public_api_v5_coverage.json
-  source_symbols: &id180
+  source_symbols: &id178
   - api.lua.v5.generated.module.require
-  source_queries: &id181 []
+  source_queries: &id179 []
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -3075,11 +3055,11 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 9101132ebda24433161a42a09636bf582c81e40fb96b19a79ce87eb5ad609679
-  prerequisites: &id182
+  prerequisites: &id180
   - api.lua.v5.overview
-  depends_on: &id183 []
-  redirect_from: &id184 []
-  supersedes: &id185 []
+  depends_on: &id181 []
+  redirect_from: &id182 []
+  supersedes: &id183 []
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -3099,14 +3079,14 @@ pages:
   path: api/lua/v5/reference/modules.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: *id180
-  source_queries: *id181
+  source_paths: *id177
+  source_symbols: *id178
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -3119,10 +3099,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 9101132ebda24433161a42a09636bf582c81e40fb96b19a79ce87eb5ad609679
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -3142,15 +3122,15 @@ pages:
   path: api/lua/v5/reference/namespaces.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: &id187
+  source_paths: *id177
+  source_symbols: &id184
   - api.lua.v5.generated.namespace.events
-  source_queries: *id181
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -3163,10 +3143,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: d68a42f99984929850f0f8dc62187c3e15d6991e7b9d902dc3391a939c5532cc
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -3186,14 +3166,14 @@ pages:
   path: api/lua/v5/reference/namespaces.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: *id187
-  source_queries: *id181
+  source_paths: *id177
+  source_symbols: *id184
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -3206,10 +3186,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: d68a42f99984929850f0f8dc62187c3e15d6991e7b9d902dc3391a939c5532cc
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -3229,15 +3209,15 @@ pages:
   path: api/lua/v5/reference/classes.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: &id188
+  source_paths: *id177
+  source_symbols: &id185
   - api.lua.v5.generated.class.CcbAchievementDefinition
-  source_queries: *id181
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -3250,10 +3230,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 2d071f8b37de530bf228552dfd3722076f820ccfbaeeb6497d83a7579ddbeca7
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -3273,14 +3253,14 @@ pages:
   path: api/lua/v5/reference/classes.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: *id188
-  source_queries: *id181
+  source_paths: *id177
+  source_symbols: *id185
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -3293,10 +3273,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 2d071f8b37de530bf228552dfd3722076f820ccfbaeeb6497d83a7579ddbeca7
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -3316,15 +3296,15 @@ pages:
   path: api/lua/v5/reference/functions.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: &id189
+  source_paths: *id177
+  source_symbols: &id186
   - api.lua.v5.generated.function.events.describe_native
-  source_queries: *id181
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -3337,10 +3317,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 67c74d1895de516d541002682bee80245cbf9b07aa5b3c5d677a189f3276481a
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -3360,14 +3340,14 @@ pages:
   path: api/lua/v5/reference/functions.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: *id189
-  source_queries: *id181
+  source_paths: *id177
+  source_symbols: *id186
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -3380,10 +3360,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 67c74d1895de516d541002682bee80245cbf9b07aa5b3c5d677a189f3276481a
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -3403,15 +3383,15 @@ pages:
   path: api/lua/v5/reference/methods.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: &id190
+  source_paths: *id177
+  source_symbols: &id187
   - api.lua.v5.generated.method.GameHandle.is_valid
-  source_queries: *id181
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -3424,10 +3404,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 509a4a22d426c9724319524ff1687d130a060ce88180366302598490733e6962
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -3447,14 +3427,14 @@ pages:
   path: api/lua/v5/reference/methods.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: *id190
-  source_queries: *id181
+  source_paths: *id177
+  source_symbols: *id187
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -3467,10 +3447,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 509a4a22d426c9724319524ff1687d130a060ce88180366302598490733e6962
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -3490,15 +3470,15 @@ pages:
   path: api/lua/v5/reference/properties.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: &id191
+  source_paths: *id177
+  source_symbols: &id188
   - api.lua.v5.generated.property.GameEnum.kind
-  source_queries: *id181
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -3511,10 +3491,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 7fcebafe93ed0411214e5a1714ee310b116e61e136d94205fac3d9f378a377cf
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -3534,14 +3514,14 @@ pages:
   path: api/lua/v5/reference/properties.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: *id191
-  source_queries: *id181
+  source_paths: *id177
+  source_symbols: *id188
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -3554,10 +3534,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 7fcebafe93ed0411214e5a1714ee310b116e61e136d94205fac3d9f378a377cf
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -3577,15 +3557,15 @@ pages:
   path: api/lua/v5/reference/operators.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: &id192
+  source_paths: *id177
+  source_symbols: &id189
   - api.lua.v5.generated.operator.GameEnum.__eq
-  source_queries: *id181
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -3598,10 +3578,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 5dcf284e3b1c177bad11bf24e946d1a9dfe5a75394722124e3911045604ec920
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -3621,14 +3601,14 @@ pages:
   path: api/lua/v5/reference/operators.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: *id192
-  source_queries: *id181
+  source_paths: *id177
+  source_symbols: *id189
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -3641,10 +3621,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 5dcf284e3b1c177bad11bf24e946d1a9dfe5a75394722124e3911045604ec920
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -3664,15 +3644,15 @@ pages:
   path: api/lua/v5/reference/enums.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: &id193
+  source_paths: *id177
+  source_symbols: &id190
   - api.lua.v5.generated.enum.ActionId
-  source_queries: *id181
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -3685,10 +3665,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 2b08571b70b3f971bf58fc73a6c115b007b5a24db52087d234881024d57e38d8
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -3708,14 +3688,14 @@ pages:
   path: api/lua/v5/reference/enums.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: *id193
-  source_queries: *id181
+  source_paths: *id177
+  source_symbols: *id190
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -3728,10 +3708,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 2b08571b70b3f971bf58fc73a6c115b007b5a24db52087d234881024d57e38d8
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -3751,15 +3731,15 @@ pages:
   path: api/lua/v5/reference/events.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: &id194
+  source_paths: *id177
+  source_symbols: &id191
   - api.lua.v5.generated.event.activates_artifact
-  source_queries: *id181
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -3772,10 +3752,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 42578bbffc32b8fa2bc5b2a1b213f9e5f163d2e7aa94103ca75b6de624aeb05c
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -3795,14 +3775,14 @@ pages:
   path: api/lua/v5/reference/events.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: *id194
-  source_queries: *id181
+  source_paths: *id177
+  source_symbols: *id191
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -3815,10 +3795,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 42578bbffc32b8fa2bc5b2a1b213f9e5f163d2e7aa94103ca75b6de624aeb05c
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -3838,15 +3818,15 @@ pages:
   path: api/lua/v5/reference/hooks.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: &id195
+  source_paths: *id177
+  source_symbols: &id192
   - api.lua.v5.generated.hook.on_character_death
-  source_queries: *id181
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -3859,10 +3839,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 1bfd41155351664ab8dd4f51af0d5fbcf7247923e24e267db6f3e982a6a76974
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -3882,14 +3862,14 @@ pages:
   path: api/lua/v5/reference/hooks.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: *id195
-  source_queries: *id181
+  source_paths: *id177
+  source_symbols: *id192
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -3902,10 +3882,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 1bfd41155351664ab8dd4f51af0d5fbcf7247923e24e267db6f3e982a6a76974
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -3925,15 +3905,15 @@ pages:
   path: api/lua/v5/reference/callbacks.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: &id196
+  source_paths: *id177
+  source_symbols: &id193
   - api.lua.v5.generated.callback.bionic.on_activate
-  source_queries: *id181
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -3946,10 +3926,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: aeb411d3ad379907555338d70e3e062ddb700e754fdb8b9397ef9dc033f0df9c
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -3969,14 +3949,14 @@ pages:
   path: api/lua/v5/reference/callbacks.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: *id196
-  source_queries: *id181
+  source_paths: *id177
+  source_symbols: *id193
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -3989,10 +3969,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: aeb411d3ad379907555338d70e3e062ddb700e754fdb8b9397ef9dc033f0df9c
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -4012,15 +3992,15 @@ pages:
   path: api/lua/v5/reference/capabilities.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: &id197
+  source_paths: *id177
+  source_symbols: &id194
   - api.lua.v5.generated.capability.events
-  source_queries: *id181
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -4033,10 +4013,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 06f8a2969e2bd9539b9cf20ce3c5e2dec8cbd3d4cb947f7d3aaf2dd875359a5c
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -4056,14 +4036,14 @@ pages:
   path: api/lua/v5/reference/capabilities.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: *id197
-  source_queries: *id181
+  source_paths: *id177
+  source_symbols: *id194
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -4076,10 +4056,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 06f8a2969e2bd9539b9cf20ce3c5e2dec8cbd3d4cb947f7d3aaf2dd875359a5c
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -4099,15 +4079,15 @@ pages:
   path: api/lua/v5/reference/permissions.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: &id198
+  source_paths: *id177
+  source_symbols: &id195
   - capability-gating
-  source_queries: *id181
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -4120,10 +4100,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 4a791d55da495881486cd161394c583d2466cbc554aa713b64dc37f29b03be78
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -4143,14 +4123,14 @@ pages:
   path: api/lua/v5/reference/permissions.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: *id198
-  source_queries: *id181
+  source_paths: *id177
+  source_symbols: *id195
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -4163,10 +4143,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 4a791d55da495881486cd161394c583d2466cbc554aa713b64dc37f29b03be78
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -4186,15 +4166,15 @@ pages:
   path: api/lua/v5/reference/manifest-fields.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: &id199
+  source_paths: *id177
+  source_symbols: &id196
   - api.lua.v5.generated.manifest-field.schema
-  source_queries: *id181
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -4207,10 +4187,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 916979e39a74d034bf3b43008bd363dd905828d17547e7778a598e8c6a2fbff1
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -4230,14 +4210,14 @@ pages:
   path: api/lua/v5/reference/manifest-fields.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id179
-  source_symbols: *id199
-  source_queries: *id181
+  source_paths: *id177
+  source_symbols: *id196
+  source_queries: *id179
   source_fingerprint: 3740d53acf09ffb81d544423e0039a0f918a84cb443af3e1c724263db7b16468
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -4250,10 +4230,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 916979e39a74d034bf3b43008bd363dd905828d17547e7778a598e8c6a2fbff1
-  prerequisites: *id182
-  depends_on: *id183
-  redirect_from: *id184
-  supersedes: *id185
+  prerequisites: *id180
+  depends_on: *id181
+  redirect_from: *id182
+  supersedes: *id183
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -4273,12 +4253,12 @@ pages:
   path: api/lua/v5/example-mod.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: &id200
+  source_paths: &id197
   - data/lua/manifest.schema.json
   - data/lua/reference/ccb_public_api_v5.json
   - data/lua/examples/api_v5_mod/README.md
@@ -4286,9 +4266,9 @@ pages:
   - data/lua/examples/api_v5_mod/lua/manifest.json
   - data/lua/examples/api_v5_mod/lua/main.lua
   - data/lua/examples/api_v5_mod/lua/lib/model.lua
-  source_symbols: &id201
+  source_symbols: &id198
   - ccb_lua_v5_example
-  source_queries: *id181
+  source_queries: *id179
   source_fingerprint: 2f3bbac91bbf29d5742761bf02d2cf8135179ef992ffe6f2af9781e34c3732e5
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -4301,14 +4281,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 04049979d9c37d704dc209092f188448f31d18221b34db206620918e56a7065d
-  prerequisites: &id202
+  prerequisites: &id199
   - api.lua.v5.overview
   - api.lua.v5.capabilities
-  depends_on: &id203
+  depends_on: &id200
   - api.lua.v5.ui
   - api.lua.v5.events
-  redirect_from: *id184
-  supersedes: &id204
+  redirect_from: *id182
+  supersedes: &id201
   - lua.v5.example-mod
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
@@ -4320,7 +4300,7 @@ pages:
   risk_level: high
   pending_source_pr: null
   stale_reason: null
-  nav: &id205
+  nav: &id202
     section: CCB Lua 0.1
     order: 100
 - id: api.lua.v5.example-mod
@@ -4329,14 +4309,14 @@ pages:
   path: api/lua/v5/example-mod.md
   status: archived
   doc_type: archive
-  audiences: *id176
-  owners: *id177
-  reviewers: *id178
+  audiences: *id174
+  owners: *id175
+  reviewers: *id176
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id200
-  source_symbols: *id201
-  source_queries: *id181
+  source_paths: *id197
+  source_symbols: *id198
+  source_queries: *id179
   source_fingerprint: 2f3bbac91bbf29d5742761bf02d2cf8135179ef992ffe6f2af9781e34c3732e5
   authority: historical
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -4349,10 +4329,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 04049979d9c37d704dc209092f188448f31d18221b34db206620918e56a7065d
-  prerequisites: *id202
-  depends_on: *id203
-  redirect_from: *id184
-  supersedes: *id204
+  prerequisites: *id199
+  depends_on: *id200
+  redirect_from: *id182
+  supersedes: *id201
   license: CC-BY-SA-3.0
   attribution: Generated from the CCB Lua v5 public contract at the verified commit.
   example_validation_ids: []
@@ -4363,25 +4343,25 @@ pages:
   risk_level: high
   pending_source_pr: null
   stale_reason: null
-  nav: *id205
+  nav: *id202
 - id: json.overview
   title: JSON 契约总览
   language: zh_CN
   path: json/overview.md
   status: active
   doc_type: explanation
-  audiences: &id206
+  audiences: &id203
   - new-contributor
   - experienced-contributor
   - maintainer
   - mod-author
-  owners: &id207
+  owners: &id204
   - CCB maintainers
-  reviewers: &id208
+  reviewers: &id205
   - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: &id209
+  source_paths: &id206
   - data/reference/json/ccb_json_object_types.json
   - tools/json_api/contract-inventory.schema.json
   - tools/json_api/generate_contracts.py
@@ -4391,8 +4371,8 @@ pages:
   - tests/json_load_test.cpp
   - doc/JSON/JSON_INHERITANCE.md
   - doc/JSON/JSON_STYLE.md
-  source_symbols: &id210 []
-  source_queries: &id211 []
+  source_symbols: &id207 []
+  source_queries: &id208 []
   source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
   authority: api-contract
   verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
@@ -4405,16 +4385,16 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c
-  prerequisites: &id212
+  prerequisites: &id209
   - architecture.project-map
-  depends_on: &id213
+  depends_on: &id210
   - reference.json-object-types
   - validation.testing
-  redirect_from: &id214 []
-  supersedes: &id215 []
+  redirect_from: &id211 []
+  supersedes: &id212 []
   license: CC-BY-SA-3.0
   attribution: CCB contributors; source contracts and Git history remain authoritative.
-  example_validation_ids: &id216 []
+  example_validation_ids: &id213 []
   api_version: contract-inventory-v1
   deprecated: false
   deprecation_replacement: null
@@ -4431,14 +4411,14 @@ pages:
   path: json/overview.md
   status: active
   doc_type: explanation
-  audiences: *id206
-  owners: *id207
-  reviewers: *id208
+  audiences: *id203
+  owners: *id204
+  reviewers: *id205
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id209
-  source_symbols: *id210
-  source_queries: *id211
+  source_paths: *id206
+  source_symbols: *id207
+  source_queries: *id208
   source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
   authority: api-contract
   verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
@@ -4451,13 +4431,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c
-  prerequisites: *id212
-  depends_on: *id213
-  redirect_from: *id214
-  supersedes: *id215
+  prerequisites: *id209
+  depends_on: *id210
+  redirect_from: *id211
+  supersedes: *id212
   license: CC-BY-SA-3.0
   attribution: CCB contributors; source contracts and Git history remain authoritative.
-  example_validation_ids: *id216
+  example_validation_ids: *id213
   api_version: contract-inventory-v1
   deprecated: false
   deprecation_replacement: null
@@ -4474,14 +4454,14 @@ pages:
   path: json/inheritance-copy-from.md
   status: active
   doc_type: explanation
-  audiences: *id206
-  owners: *id207
-  reviewers: *id208
+  audiences: *id203
+  owners: *id204
+  reviewers: *id205
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id209
-  source_symbols: *id210
-  source_queries: *id211
+  source_paths: *id206
+  source_symbols: *id207
+  source_queries: *id208
   source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
   authority: api-contract
   verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
@@ -4494,15 +4474,15 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 011b017522ac8f0fe674d25c2f3f6729ee36910b59b50abb94d54402ccefd8b1
-  prerequisites: &id217
+  prerequisites: &id214
   - json.overview
-  depends_on: &id218
+  depends_on: &id215
   - reference.json-object-types
-  redirect_from: *id214
-  supersedes: *id215
+  redirect_from: *id211
+  supersedes: *id212
   license: CC-BY-SA-3.0
   attribution: CCB contributors; source contracts and Git history remain authoritative.
-  example_validation_ids: *id216
+  example_validation_ids: *id213
   api_version: contract-inventory-v1
   deprecated: false
   deprecation_replacement: null
@@ -4519,14 +4499,14 @@ pages:
   path: json/inheritance-copy-from.md
   status: active
   doc_type: explanation
-  audiences: *id206
-  owners: *id207
-  reviewers: *id208
+  audiences: *id203
+  owners: *id204
+  reviewers: *id205
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id209
-  source_symbols: *id210
-  source_queries: *id211
+  source_paths: *id206
+  source_symbols: *id207
+  source_queries: *id208
   source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
   authority: api-contract
   verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
@@ -4539,13 +4519,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 011b017522ac8f0fe674d25c2f3f6729ee36910b59b50abb94d54402ccefd8b1
-  prerequisites: *id217
-  depends_on: *id218
-  redirect_from: *id214
-  supersedes: *id215
+  prerequisites: *id214
+  depends_on: *id215
+  redirect_from: *id211
+  supersedes: *id212
   license: CC-BY-SA-3.0
   attribution: CCB contributors; source contracts and Git history remain authoritative.
-  example_validation_ids: *id216
+  example_validation_ids: *id213
   api_version: contract-inventory-v1
   deprecated: false
   deprecation_replacement: null
@@ -4562,14 +4542,14 @@ pages:
   path: json/validation.md
   status: active
   doc_type: how-to
-  audiences: *id206
-  owners: *id207
-  reviewers: *id208
+  audiences: *id203
+  owners: *id204
+  reviewers: *id205
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id209
-  source_symbols: *id210
-  source_queries: *id211
+  source_paths: *id206
+  source_symbols: *id207
+  source_queries: *id208
   source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
   authority: api-contract
   verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
@@ -4582,16 +4562,16 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3
-  prerequisites: &id219
+  prerequisites: &id216
   - json.overview
-  depends_on: &id220
+  depends_on: &id217
   - reference.json-object-types
   - eoc.overview
-  redirect_from: *id214
-  supersedes: *id215
+  redirect_from: *id211
+  supersedes: *id212
   license: CC-BY-SA-3.0
   attribution: CCB contributors; source contracts and Git history remain authoritative.
-  example_validation_ids: &id221
+  example_validation_ids: &id218
   - json-contract
   - json-load
   api_version: contract-inventory-v1
@@ -4610,14 +4590,14 @@ pages:
   path: json/validation.md
   status: active
   doc_type: how-to
-  audiences: *id206
-  owners: *id207
-  reviewers: *id208
+  audiences: *id203
+  owners: *id204
+  reviewers: *id205
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id209
-  source_symbols: *id210
-  source_queries: *id211
+  source_paths: *id206
+  source_symbols: *id207
+  source_queries: *id208
   source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
   authority: api-contract
   verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
@@ -4630,13 +4610,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3
-  prerequisites: *id219
-  depends_on: *id220
-  redirect_from: *id214
-  supersedes: *id215
+  prerequisites: *id216
+  depends_on: *id217
+  redirect_from: *id211
+  supersedes: *id212
   license: CC-BY-SA-3.0
   attribution: CCB contributors; source contracts and Git history remain authoritative.
-  example_validation_ids: *id221
+  example_validation_ids: *id218
   api_version: contract-inventory-v1
   deprecated: false
   deprecation_replacement: null
@@ -4653,25 +4633,25 @@ pages:
   path: reference/json-object-types.md
   status: active
   doc_type: generated-api
-  audiences: &id222
+  audiences: &id219
   - experienced-contributor
   - maintainer
   - mod-author
   - api-user
-  owners: &id223
+  owners: &id220
   - CCB maintainers
-  reviewers: &id224
+  reviewers: &id221
   - Documentation reviewers
   review_interval_days: 30
   last_human_reviewer: LYHGLYTX
-  source_paths: &id225
+  source_paths: &id222
   - data/reference/json/ccb_json_object_types.json
   - tools/json_api/contract-inventory.schema.json
   - tools/json_api/generate_contracts.py
   - src/init.cpp
-  source_symbols: &id226
+  source_symbols: &id223
   - DynamicDataLoader::initialize
-  source_queries: &id227 []
+  source_queries: &id224 []
   source_fingerprint: 6fcd9eedee8650f4d8a84330e61eb679e2798363db415c80b83260285c974cda
   authority: api-contract
   verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
@@ -4684,15 +4664,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 093580aa01cee68d522f0ecc7d7249b4be0a0364912043fad42983125304c846
-  prerequisites: &id228
+  prerequisites: &id225
   - json.overview
-  depends_on: &id229 []
-  redirect_from: &id230 []
-  supersedes: &id231 []
+  depends_on: &id226 []
+  redirect_from: &id227 []
+  supersedes: &id228 []
   license: CC-BY-SA-3.0
-  attribution: Generated from CCB source inventories; CCB contributors retain source
-    attribution.
-  example_validation_ids: &id232 []
+  attribution: Generated from CCB source inventories; CCB contributors retain source attribution.
+  example_validation_ids: &id229 []
   api_version: contract-inventory-v1
   deprecated: false
   deprecation_replacement: null
@@ -4709,14 +4688,14 @@ pages:
   path: reference/json-object-types.md
   status: active
   doc_type: generated-api
-  audiences: *id222
-  owners: *id223
-  reviewers: *id224
+  audiences: *id219
+  owners: *id220
+  reviewers: *id221
   review_interval_days: 30
   last_human_reviewer: LYHGLYTX
-  source_paths: *id225
-  source_symbols: *id226
-  source_queries: *id227
+  source_paths: *id222
+  source_symbols: *id223
+  source_queries: *id224
   source_fingerprint: 6fcd9eedee8650f4d8a84330e61eb679e2798363db415c80b83260285c974cda
   authority: api-contract
   verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
@@ -4729,14 +4708,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 093580aa01cee68d522f0ecc7d7249b4be0a0364912043fad42983125304c846
-  prerequisites: *id228
-  depends_on: *id229
-  redirect_from: *id230
-  supersedes: *id231
+  prerequisites: *id225
+  depends_on: *id226
+  redirect_from: *id227
+  supersedes: *id228
   license: CC-BY-SA-3.0
-  attribution: Generated from CCB source inventories; CCB contributors retain source
-    attribution.
-  example_validation_ids: *id232
+  attribution: Generated from CCB source inventories; CCB contributors retain source attribution.
+  example_validation_ids: *id229
   api_version: contract-inventory-v1
   deprecated: false
   deprecation_replacement: null
@@ -4753,19 +4731,19 @@ pages:
   path: eoc/overview.md
   status: active
   doc_type: explanation
-  audiences: &id233
+  audiences: &id230
   - new-contributor
   - experienced-contributor
   - maintainer
   - mod-author
   - api-user
-  owners: &id234
+  owners: &id231
   - CCB maintainers
-  reviewers: &id235
+  reviewers: &id232
   - Documentation reviewers
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: &id236
+  source_paths: &id233
   - data/reference/json/ccb_eoc_conditions.json
   - data/reference/json/ccb_eoc_effects.json
   - tools/json_api/contract-inventory.schema.json
@@ -4777,8 +4755,8 @@ pages:
   - src/effect_on_condition.h
   - tests/eoc_test.cpp
   - doc/JSON/EFFECT_ON_CONDITION.md
-  source_symbols: &id237 []
-  source_queries: &id238 []
+  source_symbols: &id234 []
+  source_queries: &id235 []
   source_fingerprint: 222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e
   authority: api-contract
   verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
@@ -4791,17 +4769,16 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 6ade8b771f3f8e8fda9e53cded6b0c1893f6023f1cd6a65c7be38ffa2b8f1146
-  prerequisites: &id239
+  prerequisites: &id236
   - json.overview
-  depends_on: &id240
+  depends_on: &id237
   - reference.eoc-conditions
   - reference.eoc-effects
-  redirect_from: &id241 []
-  supersedes: &id242 []
+  redirect_from: &id238 []
+  supersedes: &id239 []
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; parser registrations, inventories, and tests remain
-    authoritative.
-  example_validation_ids: &id243 []
+  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  example_validation_ids: &id240 []
   api_version: contract-inventory-v1
   deprecated: false
   deprecation_replacement: null
@@ -4818,14 +4795,14 @@ pages:
   path: eoc/overview.md
   status: active
   doc_type: explanation
-  audiences: *id233
-  owners: *id234
-  reviewers: *id235
+  audiences: *id230
+  owners: *id231
+  reviewers: *id232
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id236
-  source_symbols: *id237
-  source_queries: *id238
+  source_paths: *id233
+  source_symbols: *id234
+  source_queries: *id235
   source_fingerprint: 222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e
   authority: api-contract
   verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
@@ -4838,14 +4815,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 6ade8b771f3f8e8fda9e53cded6b0c1893f6023f1cd6a65c7be38ffa2b8f1146
-  prerequisites: *id239
-  depends_on: *id240
-  redirect_from: *id241
-  supersedes: *id242
+  prerequisites: *id236
+  depends_on: *id237
+  redirect_from: *id238
+  supersedes: *id239
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; parser registrations, inventories, and tests remain
-    authoritative.
-  example_validation_ids: *id243
+  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  example_validation_ids: *id240
   api_version: contract-inventory-v1
   deprecated: false
   deprecation_replacement: null
@@ -4862,14 +4838,14 @@ pages:
   path: eoc/talkers.md
   status: active
   doc_type: explanation
-  audiences: *id233
-  owners: *id234
-  reviewers: *id235
+  audiences: *id230
+  owners: *id231
+  reviewers: *id232
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id236
-  source_symbols: *id237
-  source_queries: *id238
+  source_paths: *id233
+  source_symbols: *id234
+  source_queries: *id235
   source_fingerprint: 222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e
   authority: api-contract
   verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
@@ -4882,17 +4858,16 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 633c116b8ceb25994926cb0d914dc6f0b5623695fae7fddbefd46996ec0cf860
-  prerequisites: &id244
+  prerequisites: &id241
   - eoc.overview
-  depends_on: &id245
+  depends_on: &id242
   - reference.eoc-conditions
   - reference.eoc-effects
-  redirect_from: *id241
-  supersedes: *id242
+  redirect_from: *id238
+  supersedes: *id239
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; parser registrations, inventories, and tests remain
-    authoritative.
-  example_validation_ids: *id243
+  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  example_validation_ids: *id240
   api_version: contract-inventory-v1
   deprecated: false
   deprecation_replacement: null
@@ -4909,14 +4884,14 @@ pages:
   path: eoc/talkers.md
   status: active
   doc_type: explanation
-  audiences: *id233
-  owners: *id234
-  reviewers: *id235
+  audiences: *id230
+  owners: *id231
+  reviewers: *id232
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id236
-  source_symbols: *id237
-  source_queries: *id238
+  source_paths: *id233
+  source_symbols: *id234
+  source_queries: *id235
   source_fingerprint: 222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e
   authority: api-contract
   verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
@@ -4929,14 +4904,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 633c116b8ceb25994926cb0d914dc6f0b5623695fae7fddbefd46996ec0cf860
-  prerequisites: *id244
-  depends_on: *id245
-  redirect_from: *id241
-  supersedes: *id242
+  prerequisites: *id241
+  depends_on: *id242
+  redirect_from: *id238
+  supersedes: *id239
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; parser registrations, inventories, and tests remain
-    authoritative.
-  example_validation_ids: *id243
+  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  example_validation_ids: *id240
   api_version: contract-inventory-v1
   deprecated: false
   deprecation_replacement: null
@@ -4953,14 +4927,14 @@ pages:
   path: eoc/variables-context.md
   status: active
   doc_type: reference
-  audiences: *id233
-  owners: *id234
-  reviewers: *id235
+  audiences: *id230
+  owners: *id231
+  reviewers: *id232
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id236
-  source_symbols: *id237
-  source_queries: *id238
+  source_paths: *id233
+  source_symbols: *id234
+  source_queries: *id235
   source_fingerprint: 222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e
   authority: api-contract
   verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
@@ -4973,16 +4947,15 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 8e90cbae7e8c02b7eaa85d8151d686e20feb0dac08e769660feee6034b89c055
-  prerequisites: &id246
+  prerequisites: &id243
   - eoc.overview
-  depends_on: &id247
+  depends_on: &id244
   - eoc.talkers
-  redirect_from: *id241
-  supersedes: *id242
+  redirect_from: *id238
+  supersedes: *id239
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; parser registrations, inventories, and tests remain
-    authoritative.
-  example_validation_ids: *id243
+  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  example_validation_ids: *id240
   api_version: contract-inventory-v1
   deprecated: false
   deprecation_replacement: null
@@ -4999,14 +4972,14 @@ pages:
   path: eoc/variables-context.md
   status: active
   doc_type: reference
-  audiences: *id233
-  owners: *id234
-  reviewers: *id235
+  audiences: *id230
+  owners: *id231
+  reviewers: *id232
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id236
-  source_symbols: *id237
-  source_queries: *id238
+  source_paths: *id233
+  source_symbols: *id234
+  source_queries: *id235
   source_fingerprint: 222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e
   authority: api-contract
   verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
@@ -5019,14 +4992,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 8e90cbae7e8c02b7eaa85d8151d686e20feb0dac08e769660feee6034b89c055
-  prerequisites: *id246
-  depends_on: *id247
-  redirect_from: *id241
-  supersedes: *id242
+  prerequisites: *id243
+  depends_on: *id244
+  redirect_from: *id238
+  supersedes: *id239
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; parser registrations, inventories, and tests remain
-    authoritative.
-  example_validation_ids: *id243
+  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  example_validation_ids: *id240
   api_version: contract-inventory-v1
   deprecated: false
   deprecation_replacement: null
@@ -5043,14 +5015,14 @@ pages:
   path: eoc/nesting.md
   status: active
   doc_type: how-to
-  audiences: *id233
-  owners: *id234
-  reviewers: *id235
+  audiences: *id230
+  owners: *id231
+  reviewers: *id232
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id236
-  source_symbols: *id237
-  source_queries: *id238
+  source_paths: *id233
+  source_symbols: *id234
+  source_queries: *id235
   source_fingerprint: 222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e
   authority: api-contract
   verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
@@ -5063,16 +5035,15 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 4e8fdd81409a1c292a8d63686520b06e3357687cfa09c99965a731e0090d96d3
-  prerequisites: &id248
+  prerequisites: &id245
   - eoc.overview
-  depends_on: &id249
+  depends_on: &id246
   - eoc.variables-context
-  redirect_from: *id241
-  supersedes: *id242
+  redirect_from: *id238
+  supersedes: *id239
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; parser registrations, inventories, and tests remain
-    authoritative.
-  example_validation_ids: *id243
+  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  example_validation_ids: *id240
   api_version: contract-inventory-v1
   deprecated: false
   deprecation_replacement: null
@@ -5089,14 +5060,14 @@ pages:
   path: eoc/nesting.md
   status: active
   doc_type: how-to
-  audiences: *id233
-  owners: *id234
-  reviewers: *id235
+  audiences: *id230
+  owners: *id231
+  reviewers: *id232
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id236
-  source_symbols: *id237
-  source_queries: *id238
+  source_paths: *id233
+  source_symbols: *id234
+  source_queries: *id235
   source_fingerprint: 222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e
   authority: api-contract
   verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
@@ -5109,14 +5080,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 4e8fdd81409a1c292a8d63686520b06e3357687cfa09c99965a731e0090d96d3
-  prerequisites: *id248
-  depends_on: *id249
-  redirect_from: *id241
-  supersedes: *id242
+  prerequisites: *id245
+  depends_on: *id246
+  redirect_from: *id238
+  supersedes: *id239
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; parser registrations, inventories, and tests remain
-    authoritative.
-  example_validation_ids: *id243
+  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  example_validation_ids: *id240
   api_version: contract-inventory-v1
   deprecated: false
   deprecation_replacement: null
@@ -5133,25 +5103,25 @@ pages:
   path: reference/eoc-conditions.md
   status: active
   doc_type: generated-api
-  audiences: &id250
+  audiences: &id247
   - experienced-contributor
   - maintainer
   - mod-author
   - api-user
-  owners: &id251
+  owners: &id248
   - CCB maintainers
-  reviewers: &id252
+  reviewers: &id249
   - Documentation reviewers
   review_interval_days: 30
   last_human_reviewer: LYHGLYTX
-  source_paths: &id253
+  source_paths: &id250
   - data/reference/json/ccb_eoc_conditions.json
   - tools/json_api/contract-inventory.schema.json
   - tools/json_api/generate_contracts.py
   - src/condition.cpp
-  source_symbols: &id254
+  source_symbols: &id251
   - conditional_t::conditional_t
-  source_queries: &id255 []
+  source_queries: &id252 []
   source_fingerprint: 86703a8d02d00e3124d40ad05263ab9988f7739745c78bf0fde928f43bde63a8
   authority: api-contract
   verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
@@ -5164,15 +5134,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 23b8363116cec96c0c361fa3919ebac4c8f9f1596cd044b3330948cbbeced065
-  prerequisites: &id256
+  prerequisites: &id253
   - eoc.overview
-  depends_on: &id257 []
-  redirect_from: &id258 []
-  supersedes: &id259 []
+  depends_on: &id254 []
+  redirect_from: &id255 []
+  supersedes: &id256 []
   license: CC-BY-SA-3.0
-  attribution: Generated from CCB source inventories; CCB contributors retain source
-    attribution.
-  example_validation_ids: &id260 []
+  attribution: Generated from CCB source inventories; CCB contributors retain source attribution.
+  example_validation_ids: &id257 []
   api_version: contract-inventory-v1
   deprecated: false
   deprecation_replacement: null
@@ -5189,14 +5158,14 @@ pages:
   path: reference/eoc-conditions.md
   status: active
   doc_type: generated-api
-  audiences: *id250
-  owners: *id251
-  reviewers: *id252
+  audiences: *id247
+  owners: *id248
+  reviewers: *id249
   review_interval_days: 30
   last_human_reviewer: LYHGLYTX
-  source_paths: *id253
-  source_symbols: *id254
-  source_queries: *id255
+  source_paths: *id250
+  source_symbols: *id251
+  source_queries: *id252
   source_fingerprint: 86703a8d02d00e3124d40ad05263ab9988f7739745c78bf0fde928f43bde63a8
   authority: api-contract
   verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
@@ -5209,14 +5178,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 23b8363116cec96c0c361fa3919ebac4c8f9f1596cd044b3330948cbbeced065
-  prerequisites: *id256
-  depends_on: *id257
-  redirect_from: *id258
-  supersedes: *id259
+  prerequisites: *id253
+  depends_on: *id254
+  redirect_from: *id255
+  supersedes: *id256
   license: CC-BY-SA-3.0
-  attribution: Generated from CCB source inventories; CCB contributors retain source
-    attribution.
-  example_validation_ids: *id260
+  attribution: Generated from CCB source inventories; CCB contributors retain source attribution.
+  example_validation_ids: *id257
   api_version: contract-inventory-v1
   deprecated: false
   deprecation_replacement: null
@@ -5233,20 +5201,20 @@ pages:
   path: reference/eoc-effects.md
   status: active
   doc_type: generated-api
-  audiences: *id250
-  owners: *id251
-  reviewers: *id252
+  audiences: *id247
+  owners: *id248
+  reviewers: *id249
   review_interval_days: 30
   last_human_reviewer: LYHGLYTX
-  source_paths: &id261
+  source_paths: &id258
   - data/reference/json/ccb_eoc_effects.json
   - tools/json_api/contract-inventory.schema.json
   - tools/json_api/generate_contracts.py
   - src/npctalk.cpp
-  source_symbols: &id262
+  source_symbols: &id259
   - talk_effect_t::parse_sub_effect
   - talk_effect_t::parse_string_effect
-  source_queries: *id255
+  source_queries: *id252
   source_fingerprint: 663fff8aceec48e5f21eb548edbf5068c6ae3175094ad280a9f635375337db5f
   authority: api-contract
   verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
@@ -5259,14 +5227,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 0b0600c0494b57218f60c7346aa6a20a2a0e995fb71a330e374920c5e3d1e19a
-  prerequisites: *id256
-  depends_on: *id257
-  redirect_from: *id258
-  supersedes: *id259
+  prerequisites: *id253
+  depends_on: *id254
+  redirect_from: *id255
+  supersedes: *id256
   license: CC-BY-SA-3.0
-  attribution: Generated from CCB source inventories; CCB contributors retain source
-    attribution.
-  example_validation_ids: *id260
+  attribution: Generated from CCB source inventories; CCB contributors retain source attribution.
+  example_validation_ids: *id257
   api_version: contract-inventory-v1
   deprecated: false
   deprecation_replacement: null
@@ -5283,14 +5250,14 @@ pages:
   path: reference/eoc-effects.md
   status: active
   doc_type: generated-api
-  audiences: *id250
-  owners: *id251
-  reviewers: *id252
+  audiences: *id247
+  owners: *id248
+  reviewers: *id249
   review_interval_days: 30
   last_human_reviewer: LYHGLYTX
-  source_paths: *id261
-  source_symbols: *id262
-  source_queries: *id255
+  source_paths: *id258
+  source_symbols: *id259
+  source_queries: *id252
   source_fingerprint: 663fff8aceec48e5f21eb548edbf5068c6ae3175094ad280a9f635375337db5f
   authority: api-contract
   verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
@@ -5303,14 +5270,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 0b0600c0494b57218f60c7346aa6a20a2a0e995fb71a330e374920c5e3d1e19a
-  prerequisites: *id256
-  depends_on: *id257
-  redirect_from: *id258
-  supersedes: *id259
+  prerequisites: *id253
+  depends_on: *id254
+  redirect_from: *id255
+  supersedes: *id256
   license: CC-BY-SA-3.0
-  attribution: Generated from CCB source inventories; CCB contributors retain source
-    attribution.
-  example_validation_ids: *id260
+  attribution: Generated from CCB source inventories; CCB contributors retain source attribution.
+  example_validation_ids: *id257
   api_version: contract-inventory-v1
   deprecated: false
   deprecation_replacement: null
@@ -5327,17 +5293,17 @@ pages:
   path: mods/complete-json-eoc-mod.md
   status: active
   doc_type: tutorial
-  audiences: &id263
+  audiences: &id260
   - new-contributor
   - experienced-contributor
   - mod-author
-  owners: &id264
+  owners: &id261
   - CCB maintainers
-  reviewers: &id265
+  reviewers: &id262
   - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: &id266
+  source_paths: &id263
   - data/AGENTS.md
   - data/mods/AGENTS.md
   - doc/MODDING.md
@@ -5347,8 +5313,8 @@ pages:
   - data/reference/json/ccb_json_object_types.json
   - data/reference/json/ccb_eoc_conditions.json
   - data/reference/json/ccb_eoc_effects.json
-  source_symbols: &id267 []
-  source_queries: &id268 []
+  source_symbols: &id264 []
+  source_queries: &id265 []
   source_fingerprint: 07702c94c6abf44a4ce57494f396a161ccbd4e8a072625d8731c2d659ddd75b6
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -5361,17 +5327,17 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 6ded0b43085f4eef208e8256f7d9d497323f2dba7a085068a440d48be7a306c8
-  prerequisites: &id269
+  prerequisites: &id266
   - json.overview
   - eoc.overview
-  depends_on: &id270
+  depends_on: &id267
   - json.validation
   - eoc.nesting
-  redirect_from: &id271 []
-  supersedes: &id272 []
+  redirect_from: &id268 []
+  supersedes: &id269 []
   license: CC-BY-SA-3.0
   attribution: CCB contributors; tutorial example is maintained in CCB-Docs.
-  example_validation_ids: &id273
+  example_validation_ids: &id270
   - docs-json-eoc-example
   - json-load
   - json-mod-load
@@ -5391,14 +5357,14 @@ pages:
   path: mods/complete-json-eoc-mod.md
   status: active
   doc_type: tutorial
-  audiences: *id263
-  owners: *id264
-  reviewers: *id265
+  audiences: *id260
+  owners: *id261
+  reviewers: *id262
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id266
-  source_symbols: *id267
-  source_queries: *id268
+  source_paths: *id263
+  source_symbols: *id264
+  source_queries: *id265
   source_fingerprint: 07702c94c6abf44a4ce57494f396a161ccbd4e8a072625d8731c2d659ddd75b6
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -5411,13 +5377,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 6ded0b43085f4eef208e8256f7d9d497323f2dba7a085068a440d48be7a306c8
-  prerequisites: *id269
-  depends_on: *id270
-  redirect_from: *id271
-  supersedes: *id272
+  prerequisites: *id266
+  depends_on: *id267
+  redirect_from: *id268
+  supersedes: *id269
   license: CC-BY-SA-3.0
   attribution: CCB contributors; tutorial example is maintained in CCB-Docs.
-  example_validation_ids: *id273
+  example_validation_ids: *id270
   api_version: contract-inventory-v1
   deprecated: false
   deprecation_replacement: null
@@ -5434,7 +5400,7 @@ pages:
   path: cpp/character.md
   status: active
   doc_type: reference
-  audiences: &id274
+  audiences: &id271
   - experienced-contributor
   - maintainer
   - api-user
@@ -5442,14 +5408,14 @@ pages:
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id275
+  source_paths: &id272
   - src/character.h
   - src/character.cpp
   - src/savegame_json.cpp
   - tests/character_modifier_test.cpp
-  source_symbols: &id276
+  source_symbols: &id273
   - 'class Character : public Creature, public visitable'
-  source_queries: &id277 []
+  source_queries: &id274 []
   source_fingerprint: 26cdc71d8491575caf3196c2b7b47e83000f229c404aebf0c82f4ffd742a013a
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -5462,14 +5428,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 18981a2c728ee2086cc0f845397786036da299f213159c1a0587ff087c5379b4
-  prerequisites: &id278
+  prerequisites: &id275
   - architecture.overview
-  depends_on: &id279 []
+  depends_on: &id276 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id280
+  example_validation_ids: &id277
   - cpp-tests
   api_version: null
   deprecated: false
@@ -5487,14 +5453,14 @@ pages:
   path: cpp/character.md
   status: active
   doc_type: reference
-  audiences: *id274
+  audiences: *id271
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id275
-  source_symbols: *id276
-  source_queries: *id277
+  source_paths: *id272
+  source_symbols: *id273
+  source_queries: *id274
   source_fingerprint: 26cdc71d8491575caf3196c2b7b47e83000f229c404aebf0c82f4ffd742a013a
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -5507,13 +5473,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 18981a2c728ee2086cc0f845397786036da299f213159c1a0587ff087c5379b4
-  prerequisites: *id278
-  depends_on: *id279
+  prerequisites: *id275
+  depends_on: *id276
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id280
+  example_validation_ids: *id277
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -5530,21 +5496,21 @@ pages:
   path: cpp/avatar.md
   status: active
   doc_type: reference
-  audiences: &id281
+  audiences: &id278
   - experienced-contributor
   - maintainer
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id282
+  source_paths: &id279
   - src/avatar.h
   - src/avatar.cpp
   - src/savegame_json.cpp
   - tests/new_character_test.cpp
-  source_symbols: &id283
+  source_symbols: &id280
   - 'class avatar : public Character'
-  source_queries: &id284 []
+  source_queries: &id281 []
   source_fingerprint: baff9146ea4183f1cf2e0de2ace20b9a1fbd1c5d6f5ea61d8fb9247021285d12
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -5557,14 +5523,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: bb72d2a0ebdb8ba5fbd91491ebc59b2d83acd5be495cbf92ce2e24cf4e10897a
-  prerequisites: &id285
+  prerequisites: &id282
   - cpp.character
-  depends_on: &id286 []
+  depends_on: &id283 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id287
+  example_validation_ids: &id284
   - cpp-tests
   api_version: null
   deprecated: false
@@ -5582,14 +5548,14 @@ pages:
   path: cpp/avatar.md
   status: active
   doc_type: reference
-  audiences: *id281
+  audiences: *id278
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id282
-  source_symbols: *id283
-  source_queries: *id284
+  source_paths: *id279
+  source_symbols: *id280
+  source_queries: *id281
   source_fingerprint: baff9146ea4183f1cf2e0de2ace20b9a1fbd1c5d6f5ea61d8fb9247021285d12
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -5602,13 +5568,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: bb72d2a0ebdb8ba5fbd91491ebc59b2d83acd5be495cbf92ce2e24cf4e10897a
-  prerequisites: *id285
-  depends_on: *id286
+  prerequisites: *id282
+  depends_on: *id283
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id287
+  example_validation_ids: *id284
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -5625,7 +5591,7 @@ pages:
   path: cpp/items.md
   status: active
   doc_type: reference
-  audiences: &id288
+  audiences: &id285
   - experienced-contributor
   - maintainer
   - mod-author
@@ -5634,14 +5600,14 @@ pages:
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id289
+  source_paths: &id286
   - src/item.h
   - src/item.cpp
   - src/item_contents.cpp
   - tests/item_test.cpp
-  source_symbols: &id290
+  source_symbols: &id287
   - 'class item : public visitable'
-  source_queries: &id291 []
+  source_queries: &id288 []
   source_fingerprint: d6d1953d58c7bdcbcabe63f1ef7104c6ff3a8d3d10f70119bf957f7d0e6f0201
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -5654,14 +5620,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: db589b513ee116296c0ea65bf66e9e63ee7fcde871406c28f875881a0e2023d8
-  prerequisites: &id292
+  prerequisites: &id289
   - architecture.overview
-  depends_on: &id293 []
+  depends_on: &id290 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id294
+  example_validation_ids: &id291
   - cpp-tests
   api_version: null
   deprecated: false
@@ -5679,14 +5645,14 @@ pages:
   path: cpp/items.md
   status: active
   doc_type: reference
-  audiences: *id288
+  audiences: *id285
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id289
-  source_symbols: *id290
-  source_queries: *id291
+  source_paths: *id286
+  source_symbols: *id287
+  source_queries: *id288
   source_fingerprint: d6d1953d58c7bdcbcabe63f1ef7104c6ff3a8d3d10f70119bf957f7d0e6f0201
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -5699,13 +5665,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: db589b513ee116296c0ea65bf66e9e63ee7fcde871406c28f875881a0e2023d8
-  prerequisites: *id292
-  depends_on: *id293
+  prerequisites: *id289
+  depends_on: *id290
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id294
+  example_validation_ids: *id291
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -5722,7 +5688,7 @@ pages:
   path: cpp/inventory.md
   status: active
   doc_type: reference
-  audiences: &id295
+  audiences: &id292
   - experienced-contributor
   - maintainer
   - mod-author
@@ -5730,14 +5696,14 @@ pages:
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id296
+  source_paths: &id293
   - src/inventory.h
   - src/inventory.cpp
   - src/character_inventory.cpp
   - tests/advanced_inventory_test.cpp
-  source_symbols: &id297
+  source_symbols: &id294
   - 'class inventory : public visitable'
-  source_queries: &id298 []
+  source_queries: &id295 []
   source_fingerprint: 68795ccdc6d58516938058c3abd0f3746c8f3c53290b20d5361c4da21c5cc0ae
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -5750,14 +5716,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: ef01bd7cfd6865b84a58bc916ca97dc64bbc88ef325f2072cff48a4a8b24c3f5
-  prerequisites: &id299
+  prerequisites: &id296
   - cpp.items
-  depends_on: &id300 []
+  depends_on: &id297 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id301
+  example_validation_ids: &id298
   - cpp-tests
   api_version: null
   deprecated: false
@@ -5775,14 +5741,14 @@ pages:
   path: cpp/inventory.md
   status: active
   doc_type: reference
-  audiences: *id295
+  audiences: *id292
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id296
-  source_symbols: *id297
-  source_queries: *id298
+  source_paths: *id293
+  source_symbols: *id294
+  source_queries: *id295
   source_fingerprint: 68795ccdc6d58516938058c3abd0f3746c8f3c53290b20d5361c4da21c5cc0ae
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -5795,13 +5761,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: ef01bd7cfd6865b84a58bc916ca97dc64bbc88ef325f2072cff48a4a8b24c3f5
-  prerequisites: *id299
-  depends_on: *id300
+  prerequisites: *id296
+  depends_on: *id297
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id301
+  example_validation_ids: *id298
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -5818,7 +5784,7 @@ pages:
   path: cpp/pockets.md
   status: active
   doc_type: reference
-  audiences: &id302
+  audiences: &id299
   - experienced-contributor
   - maintainer
   - mod-author
@@ -5826,14 +5792,14 @@ pages:
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id303
+  source_paths: &id300
   - src/item_pocket.h
   - src/item_pocket.cpp
   - src/savegame_json.cpp
   - tests/item_pocket_test.cpp
-  source_symbols: &id304
+  source_symbols: &id301
   - class item_pocket
-  source_queries: &id305 []
+  source_queries: &id302 []
   source_fingerprint: 98aacfc7461dbd18a5fe0cd9f77e9c1af844e04a471e409a529f998891e695b1
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -5846,15 +5812,15 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 15058334dbe3ae0dbae6295a3e42f60413af03077ce74702b078e9eb348cd07f
-  prerequisites: &id306
+  prerequisites: &id303
   - cpp.items
-  depends_on: &id307
+  depends_on: &id304
   - cpp.inventory
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id308
+  example_validation_ids: &id305
   - cpp-tests
   api_version: null
   deprecated: false
@@ -5872,14 +5838,14 @@ pages:
   path: cpp/pockets.md
   status: active
   doc_type: reference
-  audiences: *id302
+  audiences: *id299
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id303
-  source_symbols: *id304
-  source_queries: *id305
+  source_paths: *id300
+  source_symbols: *id301
+  source_queries: *id302
   source_fingerprint: 98aacfc7461dbd18a5fe0cd9f77e9c1af844e04a471e409a529f998891e695b1
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -5892,13 +5858,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 15058334dbe3ae0dbae6295a3e42f60413af03077ce74702b078e9eb348cd07f
-  prerequisites: *id306
-  depends_on: *id307
+  prerequisites: *id303
+  depends_on: *id304
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id308
+  example_validation_ids: *id305
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -5915,7 +5881,7 @@ pages:
   path: cpp/creatures.md
   status: active
   doc_type: reference
-  audiences: &id309
+  audiences: &id306
   - experienced-contributor
   - maintainer
   - api-user
@@ -5923,14 +5889,14 @@ pages:
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id310
+  source_paths: &id307
   - src/creature.h
   - src/creature.cpp
   - src/creature_tracker.cpp
   - tests/creature_test.cpp
-  source_symbols: &id311
+  source_symbols: &id308
   - 'class Creature : public viewer'
-  source_queries: &id312 []
+  source_queries: &id309 []
   source_fingerprint: dfe4c194a3da180d38dbc01dccf160ef9f66900266cb4d9d89febec6d2925cdb
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -5943,14 +5909,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: f235b42e3c694abbbf01554bdb9d2fd81d66ffe74955f3b5e975dceb3716f395
-  prerequisites: &id313
+  prerequisites: &id310
   - architecture.overview
-  depends_on: &id314 []
+  depends_on: &id311 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id315
+  example_validation_ids: &id312
   - cpp-tests
   api_version: null
   deprecated: false
@@ -5968,14 +5934,14 @@ pages:
   path: cpp/creatures.md
   status: active
   doc_type: reference
-  audiences: *id309
+  audiences: *id306
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id310
-  source_symbols: *id311
-  source_queries: *id312
+  source_paths: *id307
+  source_symbols: *id308
+  source_queries: *id309
   source_fingerprint: dfe4c194a3da180d38dbc01dccf160ef9f66900266cb4d9d89febec6d2925cdb
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -5988,13 +5954,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: f235b42e3c694abbbf01554bdb9d2fd81d66ffe74955f3b5e975dceb3716f395
-  prerequisites: *id313
-  depends_on: *id314
+  prerequisites: *id310
+  depends_on: *id311
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id315
+  example_validation_ids: *id312
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -6011,7 +5977,7 @@ pages:
   path: cpp/monsters.md
   status: active
   doc_type: reference
-  audiences: &id316
+  audiences: &id313
   - experienced-contributor
   - maintainer
   - mod-author
@@ -6020,14 +5986,14 @@ pages:
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id317
+  source_paths: &id314
   - src/monster.h
   - src/monster.cpp
   - src/monstergenerator.cpp
   - tests/monster_test.cpp
-  source_symbols: &id318
+  source_symbols: &id315
   - 'class monster : public Creature'
-  source_queries: &id319 []
+  source_queries: &id316 []
   source_fingerprint: d32869f17e7e85b671a83a09a3b196638df5130c32eba07b8ced8fccce8118b1
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -6040,14 +6006,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 2b25c242a79a9761e70ba5092154a44fbbb3694bf164138f53376c512c37ca5b
-  prerequisites: &id320
+  prerequisites: &id317
   - cpp.creatures
-  depends_on: &id321 []
+  depends_on: &id318 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id322
+  example_validation_ids: &id319
   - cpp-tests
   api_version: null
   deprecated: false
@@ -6065,14 +6031,14 @@ pages:
   path: cpp/monsters.md
   status: active
   doc_type: reference
-  audiences: *id316
+  audiences: *id313
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id317
-  source_symbols: *id318
-  source_queries: *id319
+  source_paths: *id314
+  source_symbols: *id315
+  source_queries: *id316
   source_fingerprint: d32869f17e7e85b671a83a09a3b196638df5130c32eba07b8ced8fccce8118b1
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -6085,13 +6051,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 2b25c242a79a9761e70ba5092154a44fbbb3694bf164138f53376c512c37ca5b
-  prerequisites: *id320
-  depends_on: *id321
+  prerequisites: *id317
+  depends_on: *id318
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id322
+  example_validation_ids: *id319
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -6108,7 +6074,7 @@ pages:
   path: cpp/map.md
   status: active
   doc_type: reference
-  audiences: &id323
+  audiences: &id320
   - experienced-contributor
   - maintainer
   - mod-author
@@ -6117,14 +6083,14 @@ pages:
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id324
+  source_paths: &id321
   - src/map.h
   - src/map.cpp
   - src/map_iterator.h
   - tests/map_test.cpp
-  source_symbols: &id325
+  source_symbols: &id322
   - class map
-  source_queries: &id326 []
+  source_queries: &id323 []
   source_fingerprint: 549d7bfce1e4851b318b0573ee58374c0dc970e02d66474472a06e33bd986d52
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -6137,14 +6103,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 5a939fd0b50343c778cfd2e4cef27495b0cf33d2b38843ff5b0f21bf450f1639
-  prerequisites: &id327
+  prerequisites: &id324
   - architecture.overview
-  depends_on: &id328 []
+  depends_on: &id325 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id329
+  example_validation_ids: &id326
   - cpp-tests
   api_version: null
   deprecated: false
@@ -6162,14 +6128,14 @@ pages:
   path: cpp/map.md
   status: active
   doc_type: reference
-  audiences: *id323
+  audiences: *id320
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id324
-  source_symbols: *id325
-  source_queries: *id326
+  source_paths: *id321
+  source_symbols: *id322
+  source_queries: *id323
   source_fingerprint: 549d7bfce1e4851b318b0573ee58374c0dc970e02d66474472a06e33bd986d52
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -6182,13 +6148,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 5a939fd0b50343c778cfd2e4cef27495b0cf33d2b38843ff5b0f21bf450f1639
-  prerequisites: *id327
-  depends_on: *id328
+  prerequisites: *id324
+  depends_on: *id325
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id329
+  example_validation_ids: *id326
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -6205,7 +6171,7 @@ pages:
   path: cpp/overmap.md
   status: active
   doc_type: reference
-  audiences: &id330
+  audiences: &id327
   - experienced-contributor
   - maintainer
   - mod-author
@@ -6214,14 +6180,14 @@ pages:
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id331
+  source_paths: &id328
   - src/overmap.h
   - src/overmap.cpp
   - src/overmapbuffer.cpp
   - tests/overmap_test.cpp
-  source_symbols: &id332
+  source_symbols: &id329
   - class overmap
-  source_queries: &id333 []
+  source_queries: &id330 []
   source_fingerprint: 4f1c926269074f731ddaf35e690803968df3af0b87142ae1d011333e858511ef
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -6234,15 +6200,15 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: ee342328cb87cb48e7d7df8792b3ad573fb8d7b4a9057e89b21dd743436eb6d0
-  prerequisites: &id334
+  prerequisites: &id331
   - architecture.overview
-  depends_on: &id335
+  depends_on: &id332
   - cpp.map
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id336
+  example_validation_ids: &id333
   - cpp-tests
   api_version: null
   deprecated: false
@@ -6260,14 +6226,14 @@ pages:
   path: cpp/overmap.md
   status: active
   doc_type: reference
-  audiences: *id330
+  audiences: *id327
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id331
-  source_symbols: *id332
-  source_queries: *id333
+  source_paths: *id328
+  source_symbols: *id329
+  source_queries: *id330
   source_fingerprint: 4f1c926269074f731ddaf35e690803968df3af0b87142ae1d011333e858511ef
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -6280,13 +6246,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: ee342328cb87cb48e7d7df8792b3ad573fb8d7b4a9057e89b21dd743436eb6d0
-  prerequisites: *id334
-  depends_on: *id335
+  prerequisites: *id331
+  depends_on: *id332
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id336
+  example_validation_ids: *id333
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -6303,7 +6269,7 @@ pages:
   path: cpp/mapgen.md
   status: active
   doc_type: reference
-  audiences: &id337
+  audiences: &id334
   - experienced-contributor
   - maintainer
   - mod-author
@@ -6312,15 +6278,15 @@ pages:
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id338
+  source_paths: &id335
   - src/mapgen.h
   - src/mapgen.cpp
   - src/mapgendata.h
   - tests/mapgen_function_test.cpp
-  source_symbols: &id339
+  source_symbols: &id336
   - class mapgen_function
   - class mapgendata
-  source_queries: &id340 []
+  source_queries: &id337 []
   source_fingerprint: 0b3c8ae0393e04b93c3f693b6ff48eff6c2b478d5e88afd88c806b8d4afc08bb
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -6333,15 +6299,15 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 7dd843b71a513b99479857a00e50c756f7716a3ae595bfd1ce01960c03946165
-  prerequisites: &id341
+  prerequisites: &id338
   - cpp.map
   - cpp.overmap
-  depends_on: &id342 []
+  depends_on: &id339 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id343
+  example_validation_ids: &id340
   - cpp-tests
   - json-load
   api_version: null
@@ -6360,14 +6326,14 @@ pages:
   path: cpp/mapgen.md
   status: active
   doc_type: reference
-  audiences: *id337
+  audiences: *id334
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id338
-  source_symbols: *id339
-  source_queries: *id340
+  source_paths: *id335
+  source_symbols: *id336
+  source_queries: *id337
   source_fingerprint: 0b3c8ae0393e04b93c3f693b6ff48eff6c2b478d5e88afd88c806b8d4afc08bb
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -6380,13 +6346,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 7dd843b71a513b99479857a00e50c756f7716a3ae595bfd1ce01960c03946165
-  prerequisites: *id341
-  depends_on: *id342
+  prerequisites: *id338
+  depends_on: *id339
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id343
+  example_validation_ids: *id340
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -6403,7 +6369,7 @@ pages:
   path: cpp/vehicles.md
   status: active
   doc_type: reference
-  audiences: &id344
+  audiences: &id341
   - experienced-contributor
   - maintainer
   - mod-author
@@ -6412,14 +6378,14 @@ pages:
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id345
+  source_paths: &id342
   - src/vehicle.h
   - src/vehicle.cpp
   - src/savegame_json.cpp
   - tests/vehicle_test.cpp
-  source_symbols: &id346
+  source_symbols: &id343
   - class vehicle
-  source_queries: &id347 []
+  source_queries: &id344 []
   source_fingerprint: d74074095c884a900419468152311c7e2c9536aee794657a132b4c05f3c56edf
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -6432,15 +6398,15 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: b0b38134e343955da3d09ca77b6e62b9819375d152b69d0d817aa460767b177d
-  prerequisites: &id348
+  prerequisites: &id345
   - cpp.map
   - cpp.items
-  depends_on: &id349 []
+  depends_on: &id346 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id350
+  example_validation_ids: &id347
   - cpp-tests
   api_version: null
   deprecated: false
@@ -6458,14 +6424,14 @@ pages:
   path: cpp/vehicles.md
   status: active
   doc_type: reference
-  audiences: *id344
+  audiences: *id341
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id345
-  source_symbols: *id346
-  source_queries: *id347
+  source_paths: *id342
+  source_symbols: *id343
+  source_queries: *id344
   source_fingerprint: d74074095c884a900419468152311c7e2c9536aee794657a132b4c05f3c56edf
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -6478,13 +6444,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: b0b38134e343955da3d09ca77b6e62b9819375d152b69d0d817aa460767b177d
-  prerequisites: *id348
-  depends_on: *id349
+  prerequisites: *id345
+  depends_on: *id346
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id350
+  example_validation_ids: *id347
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -6501,7 +6467,7 @@ pages:
   path: cpp/crafting.md
   status: active
   doc_type: reference
-  audiences: &id351
+  audiences: &id348
   - experienced-contributor
   - maintainer
   - mod-author
@@ -6509,14 +6475,14 @@ pages:
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id352
+  source_paths: &id349
   - src/crafting.h
   - src/crafting.cpp
   - src/craft_command.h
   - tests/crafting_test.cpp
-  source_symbols: &id353
+  source_symbols: &id350
   - class craft_command
-  source_queries: &id354 []
+  source_queries: &id351 []
   source_fingerprint: 6a0103d0d82160158e816f25c0ecaa11fa3c7c84fdac85f214eca5538595d42f
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -6529,15 +6495,15 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 6c119fe070dc1bedf79c5cf26341ce81984e28e46e4732baf7f04c8e26ba9c24
-  prerequisites: &id355
+  prerequisites: &id352
   - cpp.character
   - cpp.inventory
-  depends_on: &id356 []
+  depends_on: &id353 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id357
+  example_validation_ids: &id354
   - cpp-tests
   - json-load
   api_version: null
@@ -6556,14 +6522,14 @@ pages:
   path: cpp/crafting.md
   status: active
   doc_type: reference
-  audiences: *id351
+  audiences: *id348
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id352
-  source_symbols: *id353
-  source_queries: *id354
+  source_paths: *id349
+  source_symbols: *id350
+  source_queries: *id351
   source_fingerprint: 6a0103d0d82160158e816f25c0ecaa11fa3c7c84fdac85f214eca5538595d42f
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -6576,13 +6542,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 6c119fe070dc1bedf79c5cf26341ce81984e28e46e4732baf7f04c8e26ba9c24
-  prerequisites: *id355
-  depends_on: *id356
+  prerequisites: *id352
+  depends_on: *id353
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id357
+  example_validation_ids: *id354
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -6599,7 +6565,7 @@ pages:
   path: cpp/mutations.md
   status: active
   doc_type: reference
-  audiences: &id358
+  audiences: &id355
   - experienced-contributor
   - maintainer
   - mod-author
@@ -6608,14 +6574,14 @@ pages:
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id359
+  source_paths: &id356
   - src/mutation.h
   - src/mutation.cpp
   - src/mutation_data.cpp
   - tests/mutation_test.cpp
-  source_symbols: &id360
+  source_symbols: &id357
   - struct mutation_branch
-  source_queries: &id361 []
+  source_queries: &id358 []
   source_fingerprint: eb2d2057e6b418e5c330673786e0225fd459e9ddbb88eed4f36fcbda0999a62f
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -6628,14 +6594,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 2aadbb74e5fdcf96f4c4b7ce41f07df7bd791454e4507658cdf854cd5b387e8e
-  prerequisites: &id362
+  prerequisites: &id359
   - cpp.character
-  depends_on: &id363 []
+  depends_on: &id360 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id364
+  example_validation_ids: &id361
   - cpp-tests
   - json-load
   api_version: null
@@ -6654,14 +6620,14 @@ pages:
   path: cpp/mutations.md
   status: active
   doc_type: reference
-  audiences: *id358
+  audiences: *id355
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id359
-  source_symbols: *id360
-  source_queries: *id361
+  source_paths: *id356
+  source_symbols: *id357
+  source_queries: *id358
   source_fingerprint: eb2d2057e6b418e5c330673786e0225fd459e9ddbb88eed4f36fcbda0999a62f
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -6674,13 +6640,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 2aadbb74e5fdcf96f4c4b7ce41f07df7bd791454e4507658cdf854cd5b387e8e
-  prerequisites: *id362
-  depends_on: *id363
+  prerequisites: *id359
+  depends_on: *id360
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id364
+  example_validation_ids: *id361
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -6697,7 +6663,7 @@ pages:
   path: cpp/effects.md
   status: active
   doc_type: reference
-  audiences: &id365
+  audiences: &id362
   - experienced-contributor
   - maintainer
   - mod-author
@@ -6706,14 +6672,14 @@ pages:
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id366
+  source_paths: &id363
   - src/effect.h
   - src/effect.cpp
   - src/effect_source.cpp
   - tests/effect_test.cpp
-  source_symbols: &id367
+  source_symbols: &id364
   - class effect_type
-  source_queries: &id368 []
+  source_queries: &id365 []
   source_fingerprint: 9583fe6bb89626c7369d25b1a4678344f8815cc1352d8dfbfa374ffa2b2d498b
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -6726,14 +6692,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 9a7e38d9eeb4f372357100947d6addddc2eaa4b17a718be5d562334f6ec65fdc
-  prerequisites: &id369
+  prerequisites: &id366
   - cpp.creatures
-  depends_on: &id370 []
+  depends_on: &id367 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id371
+  example_validation_ids: &id368
   - cpp-tests
   - json-load
   api_version: null
@@ -6752,14 +6718,14 @@ pages:
   path: cpp/effects.md
   status: active
   doc_type: reference
-  audiences: *id365
+  audiences: *id362
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id366
-  source_symbols: *id367
-  source_queries: *id368
+  source_paths: *id363
+  source_symbols: *id364
+  source_queries: *id365
   source_fingerprint: 9583fe6bb89626c7369d25b1a4678344f8815cc1352d8dfbfa374ffa2b2d498b
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -6772,13 +6738,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 9a7e38d9eeb4f372357100947d6addddc2eaa4b17a718be5d562334f6ec65fdc
-  prerequisites: *id369
-  depends_on: *id370
+  prerequisites: *id366
+  depends_on: *id367
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id371
+  example_validation_ids: *id368
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -6795,21 +6761,21 @@ pages:
   path: cpp/activities.md
   status: active
   doc_type: reference
-  audiences: &id372
+  audiences: &id369
   - experienced-contributor
   - maintainer
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id373
+  source_paths: &id370
   - src/player_activity.h
   - src/activity_actor.h
   - src/activity_actor.cpp
   - tests/activity_tracker_test.cpp
-  source_symbols: &id374
+  source_symbols: &id371
   - class activity_actor
-  source_queries: &id375 []
+  source_queries: &id372 []
   source_fingerprint: 8a0b60ebcca4a10e9695716c3962cd5192ef75b64eb2be044c6f323f6aa9e101
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -6822,15 +6788,15 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 17895565fe1a2250932afd4b8c8594f9f562f3e02c9d6aa4fa53eff5395b7355
-  prerequisites: &id376
+  prerequisites: &id373
   - cpp.character
-  depends_on: &id377 []
+  depends_on: &id374 []
   redirect_from: *id003
-  supersedes: &id378
+  supersedes: &id375
   - cpp-activities
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id379
+  example_validation_ids: &id376
   - cpp-tests
   api_version: null
   deprecated: false
@@ -6848,14 +6814,14 @@ pages:
   path: cpp/activities.md
   status: active
   doc_type: reference
-  audiences: *id372
+  audiences: *id369
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id373
-  source_symbols: *id374
-  source_queries: *id375
+  source_paths: *id370
+  source_symbols: *id371
+  source_queries: *id372
   source_fingerprint: 8a0b60ebcca4a10e9695716c3962cd5192ef75b64eb2be044c6f323f6aa9e101
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -6868,13 +6834,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 17895565fe1a2250932afd4b8c8594f9f562f3e02c9d6aa4fa53eff5395b7355
-  prerequisites: *id376
-  depends_on: *id377
+  prerequisites: *id373
+  depends_on: *id374
   redirect_from: *id003
-  supersedes: *id378
+  supersedes: *id375
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id379
+  example_validation_ids: *id376
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -6891,7 +6857,7 @@ pages:
   path: cpp/ui.md
   status: active
   doc_type: reference
-  audiences: &id380
+  audiences: &id377
   - experienced-contributor
   - maintainer
   - api-user
@@ -6899,14 +6865,14 @@ pages:
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id381
+  source_paths: &id378
   - src/ui_manager.h
   - src/ui_manager.cpp
   - src/ui_helpers.cpp
   - tests/ui_profile_test.cpp
-  source_symbols: &id382
+  source_symbols: &id379
   - class ui_adaptor
-  source_queries: &id383 []
+  source_queries: &id380 []
   source_fingerprint: 9bcfa9d914370ad89daf4deafe7ab4ea9b47210c646a04e8d33cc977ba378725
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -6919,15 +6885,15 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: f0818aa16ebac2c72fc3ea7c0401e2e6f8a7b9c2564202a66165e2d9d9c6e4bb
-  prerequisites: &id384
+  prerequisites: &id381
   - architecture.overview
-  depends_on: &id385
+  depends_on: &id382
   - cpp.input
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id386
+  example_validation_ids: &id383
   - cpp-tests
   api_version: null
   deprecated: false
@@ -6945,14 +6911,14 @@ pages:
   path: cpp/ui.md
   status: active
   doc_type: reference
-  audiences: *id380
+  audiences: *id377
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id381
-  source_symbols: *id382
-  source_queries: *id383
+  source_paths: *id378
+  source_symbols: *id379
+  source_queries: *id380
   source_fingerprint: 9bcfa9d914370ad89daf4deafe7ab4ea9b47210c646a04e8d33cc977ba378725
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -6965,13 +6931,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: f0818aa16ebac2c72fc3ea7c0401e2e6f8a7b9c2564202a66165e2d9d9c6e4bb
-  prerequisites: *id384
-  depends_on: *id385
+  prerequisites: *id381
+  depends_on: *id382
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id386
+  example_validation_ids: *id383
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -6988,22 +6954,22 @@ pages:
   path: cpp/input.md
   status: active
   doc_type: reference
-  audiences: &id387
+  audiences: &id384
   - experienced-contributor
   - maintainer
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id388
+  source_paths: &id385
   - src/input.h
   - src/input.cpp
   - src/input_context.h
   - src/input_context.cpp
-  source_symbols: &id389
+  source_symbols: &id386
   - class input_manager
   - class input_context
-  source_queries: &id390 []
+  source_queries: &id387 []
   source_fingerprint: 517e97772085ae0bdf4e750e8d5007318066d896a10d97db1bf19d1d0df6e8fb
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -7016,14 +6982,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 3bdd53fc0ad79269644357795cb27552b94730daf07b899cc3ef4cb450d7dd94
-  prerequisites: &id391
+  prerequisites: &id388
   - architecture.overview
-  depends_on: &id392 []
+  depends_on: &id389 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id393
+  example_validation_ids: &id390
   - cpp-tests
   api_version: null
   deprecated: false
@@ -7041,14 +7007,14 @@ pages:
   path: cpp/input.md
   status: active
   doc_type: reference
-  audiences: *id387
+  audiences: *id384
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id388
-  source_symbols: *id389
-  source_queries: *id390
+  source_paths: *id385
+  source_symbols: *id386
+  source_queries: *id387
   source_fingerprint: 517e97772085ae0bdf4e750e8d5007318066d896a10d97db1bf19d1d0df6e8fb
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -7061,13 +7027,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 3bdd53fc0ad79269644357795cb27552b94730daf07b899cc3ef4cb450d7dd94
-  prerequisites: *id391
-  depends_on: *id392
+  prerequisites: *id388
+  depends_on: *id389
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id393
+  example_validation_ids: *id390
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -7084,7 +7050,7 @@ pages:
   path: cpp/save.md
   status: active
   doc_type: reference
-  audiences: &id394
+  audiences: &id391
   - experienced-contributor
   - maintainer
   - mod-author
@@ -7092,14 +7058,14 @@ pages:
   reviewers: *id002
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: &id395
+  source_paths: &id392
   - src/savegame.cpp
   - src/savegame_json.cpp
   - src/savegame_legacy.cpp
   - tests/worldfactory_test.cpp
-  source_symbols: &id396
+  source_symbols: &id393
   - const int savegame_version = 39;
-  source_queries: &id397 []
+  source_queries: &id394 []
   source_fingerprint: b3b366942bd33a6fe6dae1d30fdd97a3839df5d7e1a2a7e9bdaffa5fa38c6313
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -7112,14 +7078,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 1539fd64a9a2b9434540c1e4f16a32720c008c1fdefe17c80a5cee834eae7a3a
-  prerequisites: &id398
+  prerequisites: &id395
   - compatibility.save
-  depends_on: &id399 []
+  depends_on: &id396 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id400
+  example_validation_ids: &id397
   - cpp-tests
   api_version: null
   deprecated: false
@@ -7137,14 +7103,14 @@ pages:
   path: cpp/save.md
   status: active
   doc_type: reference
-  audiences: *id394
+  audiences: *id391
   owners: *id001
   reviewers: *id002
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: *id395
-  source_symbols: *id396
-  source_queries: *id397
+  source_paths: *id392
+  source_symbols: *id393
+  source_queries: *id394
   source_fingerprint: b3b366942bd33a6fe6dae1d30fdd97a3839df5d7e1a2a7e9bdaffa5fa38c6313
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -7157,13 +7123,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 1539fd64a9a2b9434540c1e4f16a32720c008c1fdefe17c80a5cee834eae7a3a
-  prerequisites: *id398
-  depends_on: *id399
+  prerequisites: *id395
+  depends_on: *id396
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id400
+  example_validation_ids: *id397
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -7180,7 +7146,7 @@ pages:
   path: cpp/mod-loading.md
   status: active
   doc_type: reference
-  audiences: &id401
+  audiences: &id398
   - experienced-contributor
   - maintainer
   - mod-author
@@ -7189,14 +7155,14 @@ pages:
   reviewers: *id002
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: &id402
+  source_paths: &id399
   - src/mod_manager.h
   - src/mod_manager.cpp
   - src/worldfactory.cpp
   - tests/worldfactory_test.cpp
-  source_symbols: &id403
+  source_symbols: &id400
   - class mod_manager
-  source_queries: &id404 []
+  source_queries: &id401 []
   source_fingerprint: ff3eec7e585a12184cf37c37516cf7763596e38751f9ae58ff38a67f7106a9a7
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -7209,15 +7175,15 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 6a5379b1d791d0685dd13a81b84bff6f036d60fd00f92f78e1e3b782671038b8
-  prerequisites: &id405
+  prerequisites: &id402
   - compatibility.mods
-  depends_on: &id406
+  depends_on: &id403
   - cpp.save
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id407
+  example_validation_ids: &id404
   - cpp-tests
   - json-load
   - lua-contract
@@ -7237,14 +7203,14 @@ pages:
   path: cpp/mod-loading.md
   status: active
   doc_type: reference
-  audiences: *id401
+  audiences: *id398
   owners: *id001
   reviewers: *id002
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: *id402
-  source_symbols: *id403
-  source_queries: *id404
+  source_paths: *id399
+  source_symbols: *id400
+  source_queries: *id401
   source_fingerprint: ff3eec7e585a12184cf37c37516cf7763596e38751f9ae58ff38a67f7106a9a7
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -7257,13 +7223,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 6a5379b1d791d0685dd13a81b84bff6f036d60fd00f92f78e1e3b782671038b8
-  prerequisites: *id405
-  depends_on: *id406
+  prerequisites: *id402
+  depends_on: *id403
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id407
+  example_validation_ids: *id404
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -7532,7 +7498,7 @@ pages:
   path: cpp/localization.md
   status: active
   doc_type: reference
-  audiences: &id415
+  audiences: &id405
   - experienced-contributor
   - maintainer
   - mod-author
@@ -7540,15 +7506,15 @@ pages:
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id416
+  source_paths: &id406
   - src/translations.h
   - src/translations.cpp
   - src/translation_plural_evaluator.cpp
   - tests/translations_test.cpp
   - tests/translation_system_test.cpp
-  source_symbols: &id417
+  source_symbols: &id407
   - void set_language( const std::string &lang );
-  source_queries: &id418 []
+  source_queries: &id408 []
   source_fingerprint: 043f9ef3b03bd2c77c7d33fbc3aede4ec1dbf507413a97c4c2d5f47c2c942acd
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -7561,14 +7527,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: fbd5ad76270949591110b94bf2403fdedfc905c7fb3bf3f203be6d1583ad0a92
-  prerequisites: &id419
+  prerequisites: &id409
   - architecture.overview
-  depends_on: &id420 []
+  depends_on: &id410 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id421
+  example_validation_ids: &id411
   - cpp-tests
   api_version: null
   deprecated: false
@@ -7586,14 +7552,14 @@ pages:
   path: cpp/localization.md
   status: active
   doc_type: reference
-  audiences: *id415
+  audiences: *id405
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id416
-  source_symbols: *id417
-  source_queries: *id418
+  source_paths: *id406
+  source_symbols: *id407
+  source_queries: *id408
   source_fingerprint: 043f9ef3b03bd2c77c7d33fbc3aede4ec1dbf507413a97c4c2d5f47c2c942acd
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -7606,13 +7572,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: fbd5ad76270949591110b94bf2403fdedfc905c7fb3bf3f203be6d1583ad0a92
-  prerequisites: *id419
-  depends_on: *id420
+  prerequisites: *id409
+  depends_on: *id410
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id421
+  example_validation_ids: *id411
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -7629,7 +7595,7 @@ pages:
   path: platforms/linux.md
   status: active
   doc_type: how-to
-  audiences: &id422
+  audiences: &id412
   - new-contributor
   - experienced-contributor
   - maintainer
@@ -7637,13 +7603,13 @@ pages:
   reviewers: *id002
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: &id423
+  source_paths: &id413
   - Makefile
   - CMakePresets.json
   - .github/workflows/matrix.yml
   - doc/c++/COMPILING.md
-  source_symbols: &id424 []
-  source_queries: &id425
+  source_symbols: &id414 []
+  source_queries: &id415
   - linux-x64
   source_fingerprint: 2dba8fbfa2140a345e7ae382dda6be3b45598895eea9130a0a7f7e02c27158bf
   authority: build-config
@@ -7657,16 +7623,16 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 4e369a0d5512e76ab86eb50a35d7ef9d9bf57a9c01e655bdaa4c683411f050da
-  prerequisites: &id426
+  prerequisites: &id416
   - platforms.matrix
   - build.overview
-  depends_on: &id427
+  depends_on: &id417
   - validation.testing
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id428
+  example_validation_ids: &id418
   - cmake-configure
   - cpp-tests
   api_version: null
@@ -7685,14 +7651,14 @@ pages:
   path: platforms/linux.md
   status: active
   doc_type: how-to
-  audiences: *id422
+  audiences: *id412
   owners: *id001
   reviewers: *id002
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: *id423
-  source_symbols: *id424
-  source_queries: *id425
+  source_paths: *id413
+  source_symbols: *id414
+  source_queries: *id415
   source_fingerprint: 2dba8fbfa2140a345e7ae382dda6be3b45598895eea9130a0a7f7e02c27158bf
   authority: build-config
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -7705,13 +7671,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 4e369a0d5512e76ab86eb50a35d7ef9d9bf57a9c01e655bdaa4c683411f050da
-  prerequisites: *id426
-  depends_on: *id427
+  prerequisites: *id416
+  depends_on: *id417
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id428
+  example_validation_ids: *id418
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -7728,7 +7694,7 @@ pages:
   path: platforms/windows.md
   status: active
   doc_type: explanation
-  audiences: &id429
+  audiences: &id419
   - new-contributor
   - experienced-contributor
   - maintainer
@@ -7736,13 +7702,13 @@ pages:
   reviewers: *id002
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: &id430
+  source_paths: &id420
   - CMakePresets.json
   - .github/workflows/msvc-full-features.yml
   - doc/c++/COMPILING.md
   - build-scripts/MSVC.cmake
-  source_symbols: &id431 []
-  source_queries: &id432
+  source_symbols: &id421 []
+  source_queries: &id422
   - windows-x64
   source_fingerprint: 2bfa57d79840fe27622bf1d9d9c2fe5a47388ec0797adbb80ddc9a9a070f1e74
   authority: build-config
@@ -7756,15 +7722,15 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 0d041a17d3cafee4a5a57d3aa8a5ac7894acc2dba06bcfc7ae00d6c8479fbaa3
-  prerequisites: &id433
+  prerequisites: &id423
   - platforms.matrix
   - build.overview
-  depends_on: &id434 []
+  depends_on: &id424 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id435
+  example_validation_ids: &id425
   - cmake-configure
   - cpp-tests
   api_version: null
@@ -7783,14 +7749,14 @@ pages:
   path: platforms/windows.md
   status: active
   doc_type: explanation
-  audiences: *id429
+  audiences: *id419
   owners: *id001
   reviewers: *id002
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: *id430
-  source_symbols: *id431
-  source_queries: *id432
+  source_paths: *id420
+  source_symbols: *id421
+  source_queries: *id422
   source_fingerprint: 2bfa57d79840fe27622bf1d9d9c2fe5a47388ec0797adbb80ddc9a9a070f1e74
   authority: build-config
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -7803,13 +7769,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 0d041a17d3cafee4a5a57d3aa8a5ac7894acc2dba06bcfc7ae00d6c8479fbaa3
-  prerequisites: *id433
-  depends_on: *id434
+  prerequisites: *id423
+  depends_on: *id424
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id435
+  example_validation_ids: *id425
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -7826,7 +7792,7 @@ pages:
   path: platforms/msys2.md
   status: active
   doc_type: how-to
-  audiences: &id436
+  audiences: &id426
   - new-contributor
   - experienced-contributor
   - maintainer
@@ -7834,12 +7800,12 @@ pages:
   reviewers: *id002
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: &id437
+  source_paths: &id427
   - CMakePresets.json
   - doc/c++/COMPILING-MSYS.md
   - .github/workflows/msvc-full-features.yml
-  source_symbols: &id438 []
-  source_queries: &id439
+  source_symbols: &id428 []
+  source_queries: &id429
   - windows-x64
   source_fingerprint: bf6ba93c2336766ceda18c41f5a84d3a56c4a0799ff9c9dbd11484cf822b9773
   authority: build-config
@@ -7853,14 +7819,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: bc3e58ed87ce480f2925aecac89f9313b9869c581272cfae45131748b7f4ae03
-  prerequisites: &id440
+  prerequisites: &id430
   - platforms.windows
-  depends_on: &id441 []
+  depends_on: &id431 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id442
+  example_validation_ids: &id432
   - cmake-configure
   - cpp-tests
   api_version: null
@@ -7879,14 +7845,14 @@ pages:
   path: platforms/msys2.md
   status: active
   doc_type: how-to
-  audiences: *id436
+  audiences: *id426
   owners: *id001
   reviewers: *id002
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: *id437
-  source_symbols: *id438
-  source_queries: *id439
+  source_paths: *id427
+  source_symbols: *id428
+  source_queries: *id429
   source_fingerprint: bf6ba93c2336766ceda18c41f5a84d3a56c4a0799ff9c9dbd11484cf822b9773
   authority: build-config
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -7899,13 +7865,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: bc3e58ed87ce480f2925aecac89f9313b9869c581272cfae45131748b7f4ae03
-  prerequisites: *id440
-  depends_on: *id441
+  prerequisites: *id430
+  depends_on: *id431
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id442
+  example_validation_ids: *id432
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -7922,20 +7888,20 @@ pages:
   path: platforms/msvc.md
   status: active
   doc_type: how-to
-  audiences: &id443
+  audiences: &id433
   - experienced-contributor
   - maintainer
   owners: *id001
   reviewers: *id002
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: &id444
+  source_paths: &id434
   - CMakePresets.json
   - build-scripts/MSVC.cmake
   - build-scripts/windows-tiles-sounds-x64-msvc.cmake
   - .github/workflows/msvc-full-features.yml
-  source_symbols: &id445 []
-  source_queries: &id446
+  source_symbols: &id435 []
+  source_queries: &id436
   - windows-tiles-sounds-x64-msvc
   source_fingerprint: d2dbe858dd29b80612d853044debd594adb8e0ffeaf9d473becbc5dd3d2b0d74
   authority: build-config
@@ -7949,14 +7915,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: de436d260762856faafc61fcc6f466c2b2e07c1d6c8db41648cec2681eda5411
-  prerequisites: &id447
+  prerequisites: &id437
   - platforms.windows
-  depends_on: &id448 []
+  depends_on: &id438 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id449
+  example_validation_ids: &id439
   - cmake-configure
   - cpp-tests
   api_version: null
@@ -7975,14 +7941,14 @@ pages:
   path: platforms/msvc.md
   status: active
   doc_type: how-to
-  audiences: *id443
+  audiences: *id433
   owners: *id001
   reviewers: *id002
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: *id444
-  source_symbols: *id445
-  source_queries: *id446
+  source_paths: *id434
+  source_symbols: *id435
+  source_queries: *id436
   source_fingerprint: d2dbe858dd29b80612d853044debd594adb8e0ffeaf9d473becbc5dd3d2b0d74
   authority: build-config
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -7995,13 +7961,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: de436d260762856faafc61fcc6f466c2b2e07c1d6c8db41648cec2681eda5411
-  prerequisites: *id447
-  depends_on: *id448
+  prerequisites: *id437
+  depends_on: *id438
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id449
+  example_validation_ids: *id439
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -8018,19 +7984,19 @@ pages:
   path: platforms/wsl.md
   status: active
   doc_type: how-to
-  audiences: &id450
+  audiences: &id440
   - new-contributor
   - experienced-contributor
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id451
+  source_paths: &id441
   - Makefile
   - CMakePresets.json
   - doc/c++/COMPILING.md
-  source_symbols: &id452 []
-  source_queries: &id453
+  source_symbols: &id442 []
+  source_queries: &id443
   - linux-x64
   source_fingerprint: ada6f04a8e248ee800b02e4f94397dd19e49017d25ea40d794355688e032073a
   authority: build-config
@@ -8044,15 +8010,15 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 0a36c080292216c43bf7099099a3ef9650b42506f28e6cc3ead4c14cbaa6e1d9
-  prerequisites: &id454
+  prerequisites: &id444
   - platforms.linux
   - platforms.windows
-  depends_on: &id455 []
+  depends_on: &id445 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id456
+  example_validation_ids: &id446
   - cmake-configure
   - cpp-tests
   api_version: null
@@ -8071,14 +8037,14 @@ pages:
   path: platforms/wsl.md
   status: active
   doc_type: how-to
-  audiences: *id450
+  audiences: *id440
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id451
-  source_symbols: *id452
-  source_queries: *id453
+  source_paths: *id441
+  source_symbols: *id442
+  source_queries: *id443
   source_fingerprint: ada6f04a8e248ee800b02e4f94397dd19e49017d25ea40d794355688e032073a
   authority: build-config
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -8091,13 +8057,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 0a36c080292216c43bf7099099a3ef9650b42506f28e6cc3ead4c14cbaa6e1d9
-  prerequisites: *id454
-  depends_on: *id455
+  prerequisites: *id444
+  depends_on: *id445
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id456
+  example_validation_ids: *id446
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -8114,7 +8080,7 @@ pages:
   path: platforms/android.md
   status: active
   doc_type: how-to
-  audiences: &id457
+  audiences: &id447
   - new-contributor
   - experienced-contributor
   - maintainer
@@ -8122,15 +8088,15 @@ pages:
   reviewers: *id002
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: &id458
+  source_paths: &id448
   - android/AGENTS.md
   - android/app/build.gradle
   - android/app/jni/CMakeLists.txt
   - android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidHudModel.java
   - .github/workflows/release-android-bundle.yaml
-  source_symbols: &id459
+  source_symbols: &id449
   - final class AndroidHudModel
-  source_queries: &id460
+  source_queries: &id450
   - assembleDebug
   source_fingerprint: 2f89f749f203c15dc2918c940f0c1923bfe566f0eaaa848b2709462f8ef74065
   authority: build-config
@@ -8144,16 +8110,16 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 8d05bff99c389df2c85486565e015a054a5ea64cd84279790224aa9d7bd3575f
-  prerequisites: &id461
+  prerequisites: &id451
   - platforms.matrix
   - build.overview
-  depends_on: &id462
+  depends_on: &id452
   - platforms.ui
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id463
+  example_validation_ids: &id453
   - android-unit
   api_version: null
   deprecated: false
@@ -8171,14 +8137,14 @@ pages:
   path: platforms/android.md
   status: active
   doc_type: how-to
-  audiences: *id457
+  audiences: *id447
   owners: *id001
   reviewers: *id002
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: *id458
-  source_symbols: *id459
-  source_queries: *id460
+  source_paths: *id448
+  source_symbols: *id449
+  source_queries: *id450
   source_fingerprint: 2f89f749f203c15dc2918c940f0c1923bfe566f0eaaa848b2709462f8ef74065
   authority: build-config
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -8191,13 +8157,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 8d05bff99c389df2c85486565e015a054a5ea64cd84279790224aa9d7bd3575f
-  prerequisites: *id461
-  depends_on: *id462
+  prerequisites: *id451
+  depends_on: *id452
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id463
+  example_validation_ids: *id453
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -8214,7 +8180,7 @@ pages:
   path: platforms/ui.md
   status: active
   doc_type: reference
-  audiences: &id464
+  audiences: &id454
   - experienced-contributor
   - maintainer
   - api-user
@@ -8222,15 +8188,15 @@ pages:
   reviewers: *id002
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: &id465
+  source_paths: &id455
   - src/ui_manager.h
   - src/input_context.cpp
   - src/sdltiles.h
   - android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
-  source_symbols: &id466
+  source_symbols: &id456
   - class ui_adaptor
   - android_ui_mode::is_new_ui_build()
-  source_queries: &id467 []
+  source_queries: &id457 []
   source_fingerprint: 4f2ee856289cb1352882870efe2efd69335a90b9e51750df07c43205fa0b2c12
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -8243,15 +8209,15 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 8e5535d38d8ae267597a3fd6a545d71f480bcb4a173599d1ee3e5f4aee0c0ace
-  prerequisites: &id468
+  prerequisites: &id458
   - cpp.ui
   - cpp.input
-  depends_on: &id469 []
+  depends_on: &id459 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id470
+  example_validation_ids: &id460
   - cpp-tests
   - android-unit
   - lua-contract
@@ -8271,14 +8237,14 @@ pages:
   path: platforms/ui.md
   status: active
   doc_type: reference
-  audiences: *id464
+  audiences: *id454
   owners: *id001
   reviewers: *id002
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: *id465
-  source_symbols: *id466
-  source_queries: *id467
+  source_paths: *id455
+  source_symbols: *id456
+  source_queries: *id457
   source_fingerprint: 4f2ee856289cb1352882870efe2efd69335a90b9e51750df07c43205fa0b2c12
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -8291,13 +8257,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 8e5535d38d8ae267597a3fd6a545d71f480bcb4a173599d1ee3e5f4aee0c0ace
-  prerequisites: *id468
-  depends_on: *id469
+  prerequisites: *id458
+  depends_on: *id459
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id470
+  example_validation_ids: *id460
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -8314,7 +8280,7 @@ pages:
   path: resources/translation.md
   status: active
   doc_type: how-to
-  audiences: &id471
+  audiences: &id461
   - new-contributor
   - experienced-contributor
   - maintainer
@@ -8323,14 +8289,14 @@ pages:
   reviewers: *id002
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: &id472
+  source_paths: &id462
   - doc/TRANSLATING.md
   - .github/workflows/build-translations.yml
   - lang/Makefile
   - src/translations.h
-  source_symbols: &id473
+  source_symbols: &id463
   - void set_language( const std::string &lang );
-  source_queries: &id474
+  source_queries: &id464
   - Build translations
   source_fingerprint: e65370a18ee8854c2a3abf3f9b573f592a8412883f9e1822e17ca6c5eb589aa6
   authority: build-config
@@ -8344,14 +8310,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 0dcd4aa5a5b6b21e0a16bb655b6b37c976bb11b76c00a5b867d211cc459ee31b
-  prerequisites: &id475
+  prerequisites: &id465
   - cpp.localization
-  depends_on: &id476 []
+  depends_on: &id466 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id477
+  example_validation_ids: &id467
   - cpp-tests
   api_version: null
   deprecated: false
@@ -8369,14 +8335,14 @@ pages:
   path: resources/translation.md
   status: active
   doc_type: how-to
-  audiences: *id471
+  audiences: *id461
   owners: *id001
   reviewers: *id002
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: *id472
-  source_symbols: *id473
-  source_queries: *id474
+  source_paths: *id462
+  source_symbols: *id463
+  source_queries: *id464
   source_fingerprint: e65370a18ee8854c2a3abf3f9b573f592a8412883f9e1822e17ca6c5eb589aa6
   authority: build-config
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -8389,13 +8355,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 0dcd4aa5a5b6b21e0a16bb655b6b37c976bb11b76c00a5b867d211cc459ee31b
-  prerequisites: *id475
-  depends_on: *id476
+  prerequisites: *id465
+  depends_on: *id466
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id477
+  example_validation_ids: *id467
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -8412,7 +8378,7 @@ pages:
   path: resources/tiles.md
   status: active
   doc_type: reference
-  audiences: &id478
+  audiences: &id468
   - new-contributor
   - experienced-contributor
   - maintainer
@@ -8421,14 +8387,14 @@ pages:
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id479
+  source_paths: &id469
   - doc/TILESET.md
   - gfx/tile_config_template.json
   - src/sdltiles.h
   - .github/workflows/compose-tilesets.yml
-  source_symbols: &id480
+  source_symbols: &id470
   - void load_tileset()
-  source_queries: &id481
+  source_queries: &id471
   - TILESETS
   source_fingerprint: adba921f888965b61f7bca7ba55c952001bc463bf0d695c2acb80c6f9630b049
   authority: source-and-tests
@@ -8442,14 +8408,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 61061f9df4b9952d28240b82ab556c77960a44966a74848a439c9063fb89270b
-  prerequisites: &id482
+  prerequisites: &id472
   - platforms.ui
-  depends_on: &id483 []
+  depends_on: &id473 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id484
+  example_validation_ids: &id474
   - json-load
   api_version: null
   deprecated: false
@@ -8467,14 +8433,14 @@ pages:
   path: resources/tiles.md
   status: active
   doc_type: reference
-  audiences: *id478
+  audiences: *id468
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id479
-  source_symbols: *id480
-  source_queries: *id481
+  source_paths: *id469
+  source_symbols: *id470
+  source_queries: *id471
   source_fingerprint: adba921f888965b61f7bca7ba55c952001bc463bf0d695c2acb80c6f9630b049
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -8487,13 +8453,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 61061f9df4b9952d28240b82ab556c77960a44966a74848a439c9063fb89270b
-  prerequisites: *id482
-  depends_on: *id483
+  prerequisites: *id472
+  depends_on: *id473
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id484
+  example_validation_ids: *id474
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -8510,20 +8476,20 @@ pages:
   path: resources/fonts.md
   status: active
   doc_type: reference
-  audiences: &id485
+  audiences: &id475
   - experienced-contributor
   - maintainer
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id486
+  source_paths: &id476
   - doc/user-guides/FONT_OPTIONS.md
   - src/font_loader.cpp
   - src/sdl_font.h
-  source_symbols: &id487
+  source_symbols: &id477
   - class Font
-  source_queries: &id488
+  source_queries: &id478
   - gui_typeface
   source_fingerprint: 79981d08415e94a2469b032cd78f03d8ad9b3e66810ecd39e5524ea2d329f1c1
   authority: source-and-tests
@@ -8537,15 +8503,15 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 8922eb552ca0384525d024eece39f14ecebad1dd58fdc11c423803d33708d1e1
-  prerequisites: &id489
+  prerequisites: &id479
   - platforms.ui
-  depends_on: &id490
+  depends_on: &id480
   - resources.translation
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id491
+  example_validation_ids: &id481
   - cpp-tests
   api_version: null
   deprecated: false
@@ -8563,14 +8529,14 @@ pages:
   path: resources/fonts.md
   status: active
   doc_type: reference
-  audiences: *id485
+  audiences: *id475
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id486
-  source_symbols: *id487
-  source_queries: *id488
+  source_paths: *id476
+  source_symbols: *id477
+  source_queries: *id478
   source_fingerprint: 79981d08415e94a2469b032cd78f03d8ad9b3e66810ecd39e5524ea2d329f1c1
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -8583,13 +8549,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 8922eb552ca0384525d024eece39f14ecebad1dd58fdc11c423803d33708d1e1
-  prerequisites: *id489
-  depends_on: *id490
+  prerequisites: *id479
+  depends_on: *id480
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id491
+  example_validation_ids: *id481
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -8606,7 +8572,7 @@ pages:
   path: resources/sound.md
   status: active
   doc_type: reference
-  audiences: &id492
+  audiences: &id482
   - experienced-contributor
   - maintainer
   - mod-author
@@ -8614,15 +8580,15 @@ pages:
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id493
+  source_paths: &id483
   - doc/SOUNDPACKS.md
   - src/sound_backend.h
   - src/sdlsound.h
   - src/sounds.h
   - tests/sound_backend_test.cpp
-  source_symbols: &id494
+  source_symbols: &id484
   - namespace sounds
-  source_queries: &id495
+  source_queries: &id485
   - soundpack
   source_fingerprint: 59e489c2bde0bae0ad6c494826393cec0491a3ab7acc2ac5e2d4b3d8421725ca
   authority: source-and-tests
@@ -8636,14 +8602,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 42715b3663d7e72ab93813b14b8d1d37b2126d3889b073c471ed6d67477145c0
-  prerequisites: &id496
+  prerequisites: &id486
   - platforms.ui
-  depends_on: &id497 []
+  depends_on: &id487 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id498
+  example_validation_ids: &id488
   - cpp-tests
   - json-load
   api_version: null
@@ -8662,14 +8628,14 @@ pages:
   path: resources/sound.md
   status: active
   doc_type: reference
-  audiences: *id492
+  audiences: *id482
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id493
-  source_symbols: *id494
-  source_queries: *id495
+  source_paths: *id483
+  source_symbols: *id484
+  source_queries: *id485
   source_fingerprint: 59e489c2bde0bae0ad6c494826393cec0491a3ab7acc2ac5e2d4b3d8421725ca
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -8682,13 +8648,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 42715b3663d7e72ab93813b14b8d1d37b2126d3889b073c471ed6d67477145c0
-  prerequisites: *id496
-  depends_on: *id497
+  prerequisites: *id486
+  depends_on: *id487
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id498
+  example_validation_ids: *id488
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -8705,21 +8671,21 @@ pages:
   path: resources/shaders.md
   status: active
   doc_type: reference
-  audiences: &id499
+  audiences: &id489
   - experienced-contributor
   - maintainer
   owners: *id001
   reviewers: *id002
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: &id500
+  source_paths: &id490
   - tools/build_shaders.py
   - .github/actions/build-sdl3-shaders/action.yml
   - src/cata_shader.cpp
   - data/shaders/nightvision.frag
-  source_symbols: &id501
+  source_symbols: &id491
   - shader::load_fragment
-  source_queries: &id502
+  source_queries: &id492
   - spv,dxil,msl
   source_fingerprint: 50e239f54b8be3024a35dbc60dbec52870146f8f4f0e4f7b8dd0734f4e369f90
   authority: build-config
@@ -8733,14 +8699,14 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 6616d6bb941cc68640f4b48bfc40e9fbf57fd2aae91e0274f24bbdca417869d7
-  prerequisites: &id503
+  prerequisites: &id493
   - platforms.ui
-  depends_on: &id504 []
+  depends_on: &id494 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id505
+  example_validation_ids: &id495
   - cpp-tests
   api_version: null
   deprecated: false
@@ -8758,14 +8724,14 @@ pages:
   path: resources/shaders.md
   status: active
   doc_type: reference
-  audiences: *id499
+  audiences: *id489
   owners: *id001
   reviewers: *id002
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: *id500
-  source_symbols: *id501
-  source_queries: *id502
+  source_paths: *id490
+  source_symbols: *id491
+  source_queries: *id492
   source_fingerprint: 50e239f54b8be3024a35dbc60dbec52870146f8f4f0e4f7b8dd0734f4e369f90
   authority: build-config
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -8778,13 +8744,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 6616d6bb941cc68640f4b48bfc40e9fbf57fd2aae91e0274f24bbdca417869d7
-  prerequisites: *id503
-  depends_on: *id504
+  prerequisites: *id493
+  depends_on: *id494
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id505
+  example_validation_ids: *id495
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -8801,19 +8767,19 @@ pages:
   path: operations/packaging.md
   status: active
   doc_type: how-to
-  audiences: &id506
+  audiences: &id496
   - maintainer
   owners: *id001
   reviewers: *id002
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: &id507
+  source_paths: &id497
   - .github/workflows/release.yml
   - .github/workflows/release-android-bundle.yaml
   - build-scripts/windist.ps1
   - Makefile
-  source_symbols: &id508 []
-  source_queries: &id509
+  source_symbols: &id498 []
+  source_queries: &id499
   - Experimental Release
   source_fingerprint: 9b918f82112a662be47c58bb3000b480f8061242242ffbe820c702729ba5f321
   authority: build-config
@@ -8827,10 +8793,10 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: a517c91c633dea4acc9e1d492c333d8f5be8b148ab981b63ac2b46b1d72db68b
-  prerequisites: &id510
+  prerequisites: &id500
   - platforms.matrix
   - validation.testing
-  depends_on: &id511
+  depends_on: &id501
   - resources.translation
   - resources.tiles
   - resources.fonts
@@ -8840,7 +8806,7 @@ pages:
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id512 []
+  example_validation_ids: &id502 []
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -8857,14 +8823,14 @@ pages:
   path: operations/packaging.md
   status: active
   doc_type: how-to
-  audiences: *id506
+  audiences: *id496
   owners: *id001
   reviewers: *id002
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: *id507
-  source_symbols: *id508
-  source_queries: *id509
+  source_paths: *id497
+  source_symbols: *id498
+  source_queries: *id499
   source_fingerprint: 9b918f82112a662be47c58bb3000b480f8061242242ffbe820c702729ba5f321
   authority: build-config
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -8877,13 +8843,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: a517c91c633dea4acc9e1d492c333d8f5be8b148ab981b63ac2b46b1d72db68b
-  prerequisites: *id510
-  depends_on: *id511
+  prerequisites: *id500
+  depends_on: *id501
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id512
+  example_validation_ids: *id502
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -8900,19 +8866,19 @@ pages:
   path: operations/releases.md
   status: active
   doc_type: how-to
-  audiences: &id513
+  audiences: &id503
   - maintainer
   owners: *id001
   reviewers: *id002
   review_interval_days: 60
   last_human_reviewer: Pending human review
-  source_paths: &id514
+  source_paths: &id504
   - .github/workflows/release.yml
   - .github/workflows/release-android-bundle.yaml
   - doc/RELEASE_PROCESS.md
   - build-scripts/generate-release-notes.js
-  source_symbols: &id515 []
-  source_queries: &id516
+  source_symbols: &id505 []
+  source_queries: &id506
   - workflow_dispatch
   source_fingerprint: 32d32af9aa071d1e00b72fc6ee29147b1b8b86e358a627fd841fe6d5e8d5f877
   authority: build-config
@@ -8926,15 +8892,15 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 968e8122bf55cc278a9f3c5c45d8fbeedfea0f436185c719787a5f53e02533fc
-  prerequisites: &id517
+  prerequisites: &id507
   - operations.packaging
-  depends_on: &id518
+  depends_on: &id508
   - maintenance.releases
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id519 []
+  example_validation_ids: &id509 []
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -8951,14 +8917,14 @@ pages:
   path: operations/releases.md
   status: active
   doc_type: how-to
-  audiences: *id513
+  audiences: *id503
   owners: *id001
   reviewers: *id002
   review_interval_days: 60
   last_human_reviewer: Pending human review
-  source_paths: *id514
-  source_symbols: *id515
-  source_queries: *id516
+  source_paths: *id504
+  source_symbols: *id505
+  source_queries: *id506
   source_fingerprint: 32d32af9aa071d1e00b72fc6ee29147b1b8b86e358a627fd841fe6d5e8d5f877
   authority: build-config
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -8971,13 +8937,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 968e8122bf55cc278a9f3c5c45d8fbeedfea0f436185c719787a5f53e02533fc
-  prerequisites: *id517
-  depends_on: *id518
+  prerequisites: *id507
+  depends_on: *id508
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id519
+  example_validation_ids: *id509
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -8994,7 +8960,7 @@ pages:
   path: operations/crash-reports.md
   status: active
   doc_type: how-to
-  audiences: &id520
+  audiences: &id510
   - new-contributor
   - experienced-contributor
   - maintainer
@@ -9002,14 +8968,14 @@ pages:
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id521
+  source_paths: &id511
   - src/crash.h
   - src/crash.cpp
   - src/debug.cpp
   - .github/workflows/msvc-full-features.yml
-  source_symbols: &id522
+  source_symbols: &id512
   - void init_crash_handlers();
-  source_queries: &id523
+  source_queries: &id513
   - BACKTRACE
   source_fingerprint: 2a40215f0d7b28fc09dedd853eb265a4b909830b9e4ba1a1b00476454cfdcfa7
   authority: source-and-tests
@@ -9023,15 +8989,15 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 14e660250e730d64aebabb110fc3d1a74e23ae94c705bcb34374b794001e8ef1
-  prerequisites: &id524
+  prerequisites: &id514
   - validation.debugging
   - platforms.matrix
-  depends_on: &id525 []
+  depends_on: &id515 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id526 []
+  example_validation_ids: &id516 []
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -9048,14 +9014,14 @@ pages:
   path: operations/crash-reports.md
   status: active
   doc_type: how-to
-  audiences: *id520
+  audiences: *id510
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id521
-  source_symbols: *id522
-  source_queries: *id523
+  source_paths: *id511
+  source_symbols: *id512
+  source_queries: *id513
   source_fingerprint: 2a40215f0d7b28fc09dedd853eb265a4b909830b9e4ba1a1b00476454cfdcfa7
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -9068,13 +9034,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 14e660250e730d64aebabb110fc3d1a74e23ae94c705bcb34374b794001e8ef1
-  prerequisites: *id524
-  depends_on: *id525
+  prerequisites: *id514
+  depends_on: *id515
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id526
+  example_validation_ids: *id516
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -9091,21 +9057,21 @@ pages:
   path: operations/performance-profiling.md
   status: active
   doc_type: how-to
-  audiences: &id527
+  audiences: &id517
   - experienced-contributor
   - maintainer
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: &id528
+  source_paths: &id518
   - doc/c++/PERFORMANCE.md
   - src/profiling.h
   - CMakeLists.txt
   - tests/cata_catch.h
-  source_symbols: &id529
+  source_symbols: &id519
   - CATA_PROFILE_SCOPE()
-  source_queries: &id530
+  source_queries: &id520
   - option(TRACY
   source_fingerprint: dd3d2a998e43239a7273ff9f5d564607c28bf9b08c96eb37890eac1870aa3eff
   authority: source-and-tests
@@ -9119,15 +9085,15 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 8cb921c250a51e014a9c075ad0e2ae808c596ca752bfaa6e66a2beea3bd9e545
-  prerequisites: &id531
+  prerequisites: &id521
   - validation.testing
   - validation.debugging
-  depends_on: &id532 []
+  depends_on: &id522 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id533
+  example_validation_ids: &id523
   - cmake-configure
   - cpp-tests
   api_version: null
@@ -9146,14 +9112,14 @@ pages:
   path: operations/performance-profiling.md
   status: active
   doc_type: how-to
-  audiences: *id527
+  audiences: *id517
   owners: *id001
   reviewers: *id002
   review_interval_days: 120
   last_human_reviewer: Pending human review
-  source_paths: *id528
-  source_symbols: *id529
-  source_queries: *id530
+  source_paths: *id518
+  source_symbols: *id519
+  source_queries: *id520
   source_fingerprint: dd3d2a998e43239a7273ff9f5d564607c28bf9b08c96eb37890eac1870aa3eff
   authority: source-and-tests
   verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
@@ -9166,13 +9132,13 @@ pages:
   translation_status: current
   translation_stale_since: null
   translation_source_fingerprint: 8cb921c250a51e014a9c075ad0e2ae808c596ca752bfaa6e66a2beea3bd9e545
-  prerequisites: *id531
-  depends_on: *id532
+  prerequisites: *id521
+  depends_on: *id522
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id533
+  example_validation_ids: *id523
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -9214,8 +9180,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -9258,8 +9223,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -9302,8 +9266,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -9346,8 +9309,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -9390,8 +9352,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -9434,8 +9395,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: true
@@ -9478,8 +9438,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: false
@@ -9522,8 +9481,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: false
@@ -9566,8 +9524,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: false
@@ -9610,8 +9567,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: false
@@ -9654,8 +9610,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: false
@@ -9698,8 +9653,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: false
@@ -9742,8 +9696,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: false
@@ -9786,8 +9739,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: false
@@ -9830,8 +9782,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: false
@@ -9874,8 +9825,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: false
@@ -9918,8 +9868,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: false
@@ -9962,8 +9911,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: false
@@ -10006,8 +9954,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: false
@@ -10050,8 +9997,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: false
@@ -10094,8 +10040,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: false
@@ -10138,8 +10083,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: false
@@ -10182,8 +10126,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: false
@@ -10226,8 +10169,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: false
@@ -10270,8 +10212,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: false
@@ -10314,8 +10255,7 @@ pages:
   redirect_from: *id127
   supersedes: *id128
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; generated contract and source paths at the verified
-    commit.
+  attribution: CCB contributors; generated contract and source paths at the verified commit.
   example_validation_ids: []
   api_version: '5'
   deprecated: false
@@ -10437,3 +10377,107 @@ pages:
   nav:
     section: CCB Lua Platform v1
     order: 1
+- id: operations.release-assets-sync
+  title: Android 音效与翻译包发布草稿
+  language: zh_CN
+  path: operations/release-assets-sync.md
+  status: draft
+  doc_type: how-to
+  audiences:
+  - maintainer
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 60
+  last_human_reviewer: Pending human review
+  source_paths:
+  - .github/workflows/release.yml
+  source_symbols: []
+  source_queries:
+  - publish-translations
+  - Android x64 New UI
+  source_fingerprint: 4fa639b456b9891e4b9f50a601c47e9cb4c81220d20139062366d1507c1907bd
+  authority: build-config
+  verified_commit: b4342dc18797c4097f0dc275f61e420bb5887a4a
+  verified_at: '2026-10-13'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: operations.release-assets-sync
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 505a9971715fc641229ddff68985b6bacb6922f28d437e014c85af365be3f46b
+  prerequisites:
+  - operations.releases
+  - platforms.android
+  depends_on:
+  - maintenance.releases
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; see source paths and Git history.
+  example_validation_ids: []
+  api_version: null
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: release
+  risk_level: high
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/993
+  stale_reason: null
+  nav:
+    section: 运维
+    order: 306
+- id: operations.release-assets-sync
+  title: 'Draft: Android sound and translation release archive'
+  language: en
+  path: operations/release-assets-sync.md
+  status: draft
+  doc_type: how-to
+  audiences:
+  - maintainer
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 60
+  last_human_reviewer: Pending human review
+  source_paths:
+  - .github/workflows/release.yml
+  source_symbols: []
+  source_queries:
+  - publish-translations
+  - Android x64 New UI
+  source_fingerprint: 4fa639b456b9891e4b9f50a601c47e9cb4c81220d20139062366d1507c1907bd
+  authority: build-config
+  verified_commit: b4342dc18797c4097f0dc275f61e420bb5887a4a
+  verified_at: '2026-10-13'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: operations.release-assets-sync
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 505a9971715fc641229ddff68985b6bacb6922f28d437e014c85af365be3f46b
+  prerequisites:
+  - operations.releases
+  - platforms.android
+  depends_on:
+  - maintenance.releases
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; see source paths and Git history.
+  example_validation_ids: []
+  api_version: null
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: release
+  risk_level: high
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/993
+  stale_reason: null
+  nav:
+    section: Operations
+    order: 307
