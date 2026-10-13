@@ -15,21 +15,24 @@ review_interval_days: 60
 last_human_reviewer: Pending human review
 source_paths:
 - .github/workflows/release.yml
+- .github/workflows/matrix.yml
 source_symbols: []
 source_queries:
 - publish-translations
 - Android x64 New UI
-source_fingerprint: 4fa639b456b9891e4b9f50a601c47e9cb4c81220d20139062366d1507c1907bd
+- clang++-22
+- g++-16
+source_fingerprint: 33a8a6648f6fb9745c34252c74433f1087d636d63dcaabfb2bad58ce3174c95a
 authority: build-config
-verified_commit: b4342dc18797c4097f0dc275f61e420bb5887a4a
-verified_at: '2026-10-13'
+verified_commit: 8d1df6a4c632eeb23a54a9e0eac94bdc588d1f46
+verified_at: '2026-10-14'
 generated: false
 generated_by: null
 include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 505a9971715fc641229ddff68985b6bacb6922f28d437e014c85af365be3f46b
+translation_source_fingerprint: 8497bd1b60cba8035884218ba1d8419ee3e957510af3a44a392364776c347ebc
 prerequisites:
 - operations.releases
 - platforms.android
@@ -53,11 +56,13 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/release-assets-sync/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/operations/release-assets-sync/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/b4342dc18797c4097f0dc275f61e420bb5887a4a
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/8d1df6a4c632eeb23a54a9e0eac94bdc588d1f46
 source_urls:
 - path: .github/workflows/release.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/b4342dc18797c4097f0dc275f61e420bb5887a4a/.github/workflows/release.yml
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28operations.release-assets-sync%29%3A+&body=Document+ID%3A+operations.release-assets-sync%0ALanguage%3A+zh_CN%0AVerified+commit%3A+b4342dc18797c4097f0dc275f61e420bb5887a4a%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/8d1df6a4c632eeb23a54a9e0eac94bdc588d1f46/.github/workflows/release.yml
+- path: .github/workflows/matrix.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/8d1df6a4c632eeb23a54a9e0eac94bdc588d1f46/.github/workflows/matrix.yml
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28operations.release-assets-sync%29%3A+&body=Document+ID%3A+operations.release-assets-sync%0ALanguage%3A+zh_CN%0AVerified+commit%3A+8d1df6a4c632eeb23a54a9e0eac94bdc588d1f46%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---
@@ -75,3 +80,5 @@ Experimental Release 的 Android x64、Android x64 New UI、Android x32 均设�
 五项回归测试覆盖新增翻译字符串、macOS 别名占比累加、真实 tar 归档与三种渠道的模拟上传。模拟上传只记录命令；最终验收仍需核对源码 SHA、workflow run、全部安装包和实际 Release 文件。
 
 改动适配自 CDDA #88516、#88789、#88791、#88836，各来源提交保留原作者与出处。Responsible human: LYHGLYTX。
+
+CI 草稿矩阵把基本编译器改为 Clang 14，把新编译器检查改为 Ubuntu 26.04 上的 Clang 22 和 GCC 16。保留 Lua、铁路、高级物品管理专项检查和 GCC 单编译任务的内存限制，并显式安装所需包。矩阵已解析验证；实际 hosted CI 构建尚未证明。

@@ -10482,24 +10482,27 @@
       "review_interval_days": 60,
       "last_human_reviewer": "Pending human review",
       "source_paths": [
-        ".github/workflows/release.yml"
+        ".github/workflows/release.yml",
+        ".github/workflows/matrix.yml"
       ],
       "source_symbols": [],
       "source_queries": [
         "publish-translations",
-        "Android x64 New UI"
+        "Android x64 New UI",
+        "clang++-22",
+        "g++-16"
       ],
-      "source_fingerprint": "4fa639b456b9891e4b9f50a601c47e9cb4c81220d20139062366d1507c1907bd",
+      "source_fingerprint": "33a8a6648f6fb9745c34252c74433f1087d636d63dcaabfb2bad58ce3174c95a",
       "authority": "build-config",
-      "verified_commit": "b4342dc18797c4097f0dc275f61e420bb5887a4a",
-      "verified_at": "2026-10-13",
+      "verified_commit": "8d1df6a4c632eeb23a54a9e0eac94bdc588d1f46",
+      "verified_at": "2026-10-14",
       "generated": false,
       "generated_by": null,
       "include_in_search": false,
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "505a9971715fc641229ddff68985b6bacb6922f28d437e014c85af365be3f46b",
+      "translation_source_fingerprint": "8497bd1b60cba8035884218ba1d8419ee3e957510af3a44a392364776c347ebc",
       "prerequisites": [
         "operations.releases",
         "platforms.android"
@@ -10540,24 +10543,27 @@
       "review_interval_days": 60,
       "last_human_reviewer": "Pending human review",
       "source_paths": [
-        ".github/workflows/release.yml"
+        ".github/workflows/release.yml",
+        ".github/workflows/matrix.yml"
       ],
       "source_symbols": [],
       "source_queries": [
         "publish-translations",
-        "Android x64 New UI"
+        "Android x64 New UI",
+        "clang++-22",
+        "g++-16"
       ],
-      "source_fingerprint": "4fa639b456b9891e4b9f50a601c47e9cb4c81220d20139062366d1507c1907bd",
+      "source_fingerprint": "33a8a6648f6fb9745c34252c74433f1087d636d63dcaabfb2bad58ce3174c95a",
       "authority": "build-config",
-      "verified_commit": "b4342dc18797c4097f0dc275f61e420bb5887a4a",
-      "verified_at": "2026-10-13",
+      "verified_commit": "8d1df6a4c632eeb23a54a9e0eac94bdc588d1f46",
+      "verified_at": "2026-10-14",
       "generated": false,
       "generated_by": null,
       "include_in_search": false,
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "505a9971715fc641229ddff68985b6bacb6922f28d437e014c85af365be3f46b",
+      "translation_source_fingerprint": "8497bd1b60cba8035884218ba1d8419ee3e957510af3a44a392364776c347ebc",
       "prerequisites": [
         "operations.releases",
         "platforms.android"
