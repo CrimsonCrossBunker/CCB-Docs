@@ -10575,7 +10575,7 @@ pages:
   source_queries: []
   source_fingerprint: 529cab08c982dc2364c967e7c0b522069ff08879567eea35c94192ec07069d63
   authority: api-contract
-  verified_commit: 4ff8d9a6c64fc587a4dcf2f33082ca92c8945458
+  verified_commit: f7bc764f289d4f5d8cbb9a03a50033e4d94dfafb
   verified_at: '2026-10-14'
   generated: false
   generated_by: null
@@ -10584,7 +10584,7 @@ pages:
   translation_group: mods.upstream-content-sync
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: c3082b54d8a14af8ed8261f0abd6647619a93727151d8da0761e5ee268590945
+  translation_source_fingerprint: d77d1137690c9db73afe1256b1c64e6429d4b48d75dac8ef4129c764c284fbc2
   prerequisites: []
   depends_on: []
   redirect_from: []
@@ -10629,7 +10629,7 @@ pages:
   source_queries: []
   source_fingerprint: 529cab08c982dc2364c967e7c0b522069ff08879567eea35c94192ec07069d63
   authority: api-contract
-  verified_commit: 4ff8d9a6c64fc587a4dcf2f33082ca92c8945458
+  verified_commit: f7bc764f289d4f5d8cbb9a03a50033e4d94dfafb
   verified_at: '2026-10-14'
   generated: false
   generated_by: null
@@ -10638,7 +10638,7 @@ pages:
   translation_group: mods.upstream-content-sync
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: c3082b54d8a14af8ed8261f0abd6647619a93727151d8da0761e5ee268590945
+  translation_source_fingerprint: d77d1137690c9db73afe1256b1c64e6429d4b48d75dac8ef4129c764c284fbc2
   prerequisites: []
   depends_on: []
   redirect_from: []

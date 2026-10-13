@@ -25,7 +25,7 @@ source_symbols: []
 source_queries: []
 source_fingerprint: 529cab08c982dc2364c967e7c0b522069ff08879567eea35c94192ec07069d63
 authority: api-contract
-verified_commit: 4ff8d9a6c64fc587a4dcf2f33082ca92c8945458
+verified_commit: f7bc764f289d4f5d8cbb9a03a50033e4d94dfafb
 verified_at: '2026-10-14'
 generated: false
 generated_by: null
@@ -33,7 +33,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: c3082b54d8a14af8ed8261f0abd6647619a93727151d8da0761e5ee268590945
+translation_source_fingerprint: d77d1137690c9db73afe1256b1c64e6429d4b48d75dac8ef4129c764c284fbc2
 prerequisites: []
 depends_on: []
 redirect_from: []
@@ -55,24 +55,24 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/upstream-content-sync/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/mods/upstream-content-sync/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/4ff8d9a6c64fc587a4dcf2f33082ca92c8945458
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/f7bc764f289d4f5d8cbb9a03a50033e4d94dfafb
 source_urls:
 - path: data/json/mapgen/netherum/labyrinth_earth.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4ff8d9a6c64fc587a4dcf2f33082ca92c8945458/data/json/mapgen/netherum/labyrinth_earth.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f7bc764f289d4f5d8cbb9a03a50033e4d94dfafb/data/json/mapgen/netherum/labyrinth_earth.json
 - path: data/json/region_settings/region_settings/regional_map_settings.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4ff8d9a6c64fc587a4dcf2f33082ca92c8945458/data/json/region_settings/region_settings/regional_map_settings.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f7bc764f289d4f5d8cbb9a03a50033e4d94dfafb/data/json/region_settings/region_settings/regional_map_settings.json
 - path: data/mods/MindOverMatter/dimensions/shoggothed_world/region_settings.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4ff8d9a6c64fc587a4dcf2f33082ca92c8945458/data/mods/MindOverMatter/dimensions/shoggothed_world/region_settings.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f7bc764f289d4f5d8cbb9a03a50033e4d94dfafb/data/mods/MindOverMatter/dimensions/shoggothed_world/region_settings.json
 - path: data/upstream-changelog-20260921-20260928.txt
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/4ff8d9a6c64fc587a4dcf2f33082ca92c8945458/data/upstream-changelog-20260921-20260928.txt
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28mods.upstream-content-sync%29%3A+&body=Document+ID%3A+mods.upstream-content-sync%0ALanguage%3A+en%0AVerified+commit%3A+4ff8d9a6c64fc587a4dcf2f33082ca92c8945458%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f7bc764f289d4f5d8cbb9a03a50033e4d94dfafb/data/upstream-changelog-20260921-20260928.txt
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28mods.upstream-content-sync%29%3A+&body=Document+ID%3A+mods.upstream-content-sync%0ALanguage%3A+en%0AVerified+commit%3A+f7bc764f289d4f5d8cbb9a03a50033e4d94dfafb%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---
 
 # Draft: core and bundled Mod content synchronization
 
-This page accompanies CCB #997 and its data portions from 127 upstream PRs. Only explicitly rejected items are excluded from the frozen historical scope. A source PR may span native and data batches, so portion counts are not unique PR totals.
+This page accompanies CCB #997 and its data portions from 128 upstream PRs. Only explicitly rejected items are excluded from the frozen historical scope. A source PR may span native and data batches, so portion counts are not unique PR totals.
 
 ## Content and compatibility
 
