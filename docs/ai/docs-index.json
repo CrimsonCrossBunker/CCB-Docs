@@ -10465,6 +10465,128 @@
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/performance-profiling/"
     },
     {
+      "id": "operations.release-assets-sync",
+      "title": "Draft: Android sound and translation release archive",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "how-to",
+      "audiences": [
+        "maintainer"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Pending human review",
+      "source_paths": [
+        ".github/workflows/release.yml",
+        ".github/workflows/matrix.yml"
+      ],
+      "source_symbols": [],
+      "source_queries": [
+        "publish-translations",
+        "Android x64 New UI",
+        "clang++-22",
+        "g++-16"
+      ],
+      "source_fingerprint": "33a8a6648f6fb9745c34252c74433f1087d636d63dcaabfb2bad58ce3174c95a",
+      "authority": "build-config",
+      "verified_commit": "8d1df6a4c632eeb23a54a9e0eac94bdc588d1f46",
+      "verified_at": "2026-10-14",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "8497bd1b60cba8035884218ba1d8419ee3e957510af3a44a392364776c347ebc",
+      "prerequisites": [
+        "operations.releases",
+        "platforms.android"
+      ],
+      "depends_on": [
+        "maintenance.releases"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [],
+      "api_version": null,
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "release",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/993",
+      "stale_reason": null,
+      "path": "operations/release-assets-sync.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/release-assets-sync/"
+    },
+    {
+      "id": "operations.release-assets-sync",
+      "title": "Android 音效与翻译包发布草稿",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "how-to",
+      "audiences": [
+        "maintainer"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "Pending human review",
+      "source_paths": [
+        ".github/workflows/release.yml",
+        ".github/workflows/matrix.yml"
+      ],
+      "source_symbols": [],
+      "source_queries": [
+        "publish-translations",
+        "Android x64 New UI",
+        "clang++-22",
+        "g++-16"
+      ],
+      "source_fingerprint": "33a8a6648f6fb9745c34252c74433f1087d636d63dcaabfb2bad58ce3174c95a",
+      "authority": "build-config",
+      "verified_commit": "8d1df6a4c632eeb23a54a9e0eac94bdc588d1f46",
+      "verified_at": "2026-10-14",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "8497bd1b60cba8035884218ba1d8419ee3e957510af3a44a392364776c347ebc",
+      "prerequisites": [
+        "operations.releases",
+        "platforms.android"
+      ],
+      "depends_on": [
+        "maintenance.releases"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [],
+      "api_version": null,
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "release",
+      "risk_level": "high",
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/993",
+      "stale_reason": null,
+      "path": "operations/release-assets-sync.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/release-assets-sync/"
+    },
+    {
       "id": "operations.releases",
       "title": "Release operations",
       "language": "en",
@@ -14078,6 +14200,10 @@
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/performance-profiling/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/performance-profiling/"
     },
+    "operations.release-assets-sync": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/release-assets-sync/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/release-assets-sync/"
+    },
     "operations.releases": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/releases/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/releases/"
@@ -14670,12 +14796,14 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/core-dev-guide/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/native-binding-guide/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/release-assets-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/items/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/operations/release-assets-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/",

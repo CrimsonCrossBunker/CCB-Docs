@@ -327,6 +327,10 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/performance-profiling/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/performance-profiling/"
   },
+  "operations.release-assets-sync": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/release-assets-sync/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/release-assets-sync/"
+  },
   "operations.releases": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/releases/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/releases/"

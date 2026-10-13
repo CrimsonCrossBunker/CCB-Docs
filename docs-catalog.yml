@@ -10437,3 +10437,113 @@ pages:
   nav:
     section: CCB Lua Platform v1
     order: 1
+- id: operations.release-assets-sync
+  title: Android 音效与翻译包发布草稿
+  language: zh_CN
+  path: operations/release-assets-sync.md
+  status: draft
+  doc_type: how-to
+  audiences:
+  - maintainer
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 60
+  last_human_reviewer: Pending human review
+  source_paths:
+  - .github/workflows/release.yml
+  - .github/workflows/matrix.yml
+  source_symbols: []
+  source_queries:
+  - publish-translations
+  - Android x64 New UI
+  - clang++-22
+  - g++-16
+  source_fingerprint: 33a8a6648f6fb9745c34252c74433f1087d636d63dcaabfb2bad58ce3174c95a
+  authority: build-config
+  verified_commit: 8d1df6a4c632eeb23a54a9e0eac94bdc588d1f46
+  verified_at: '2026-10-14'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: operations.release-assets-sync
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 8497bd1b60cba8035884218ba1d8419ee3e957510af3a44a392364776c347ebc
+  prerequisites:
+  - operations.releases
+  - platforms.android
+  depends_on:
+  - maintenance.releases
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; see source paths and Git history.
+  example_validation_ids: []
+  api_version: null
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: release
+  risk_level: high
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/993
+  stale_reason: null
+  nav:
+    section: 运维
+    order: 306
+- id: operations.release-assets-sync
+  title: 'Draft: Android sound and translation release archive'
+  language: en
+  path: operations/release-assets-sync.md
+  status: draft
+  doc_type: how-to
+  audiences:
+  - maintainer
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 60
+  last_human_reviewer: Pending human review
+  source_paths:
+  - .github/workflows/release.yml
+  - .github/workflows/matrix.yml
+  source_symbols: []
+  source_queries:
+  - publish-translations
+  - Android x64 New UI
+  - clang++-22
+  - g++-16
+  source_fingerprint: 33a8a6648f6fb9745c34252c74433f1087d636d63dcaabfb2bad58ce3174c95a
+  authority: build-config
+  verified_commit: 8d1df6a4c632eeb23a54a9e0eac94bdc588d1f46
+  verified_at: '2026-10-14'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: operations.release-assets-sync
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 8497bd1b60cba8035884218ba1d8419ee3e957510af3a44a392364776c347ebc
+  prerequisites:
+  - operations.releases
+  - platforms.android
+  depends_on:
+  - maintenance.releases
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; see source paths and Git history.
+  example_validation_ids: []
+  api_version: null
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: release
+  risk_level: high
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/993
+  stale_reason: null
+  nav:
+    section: Operations
+    order: 307
