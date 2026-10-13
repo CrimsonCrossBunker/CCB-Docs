@@ -10437,3 +10437,123 @@ pages:
   nav:
     section: CCB Lua Platform v1
     order: 1
+- id: json.upstream-authoring-notes
+  title: 上游 JSON 文档勘误的 CCB 适配草稿
+  language: zh_CN
+  path: json/upstream-authoring-notes.md
+  status: draft
+  doc_type: reference
+  audiences:
+  - new-contributor
+  - experienced-contributor
+  - maintainer
+  - mod-author
+  - api-user
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths:
+  - src/iuse_actor.cpp
+  - src/recipe.cpp
+  - src/item_factory.cpp
+  source_symbols:
+  - molle_attach_actor::load
+  - molle_detach_actor::load
+  - batch_savings::deserialize
+  source_queries:
+  - ignore_sheet_thickness
+  - cover_melee
+  - batch_time_factors
+  source_fingerprint: b2484fe56acbc5d5ada896e3263c50e2ffd68595c3c2e31aec525a15f97ce116
+  authority: api-contract
+  verified_commit: 6a0c46788f43ef37269cd742e0a6147b4f55e96e
+  verified_at: '2026-10-14'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: json.upstream-authoring-notes
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 5affaa285f4be6bfb8755a893b375006ecbb0ccb1d90db51801a0124c6f2a220
+  prerequisites:
+  - reference.json-object-types
+  depends_on: []
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  example_validation_ids: []
+  api_version: contract-inventory-v1
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: eoc
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: JSON
+    order: 156
+- id: json.upstream-authoring-notes
+  title: 'Draft: upstream JSON documentation corrections'
+  language: en
+  path: json/upstream-authoring-notes.md
+  status: draft
+  doc_type: reference
+  audiences:
+  - new-contributor
+  - experienced-contributor
+  - maintainer
+  - mod-author
+  - api-user
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths:
+  - src/iuse_actor.cpp
+  - src/recipe.cpp
+  - src/item_factory.cpp
+  source_symbols:
+  - molle_attach_actor::load
+  - molle_detach_actor::load
+  - batch_savings::deserialize
+  source_queries:
+  - ignore_sheet_thickness
+  - cover_melee
+  - batch_time_factors
+  source_fingerprint: b2484fe56acbc5d5ada896e3263c50e2ffd68595c3c2e31aec525a15f97ce116
+  authority: api-contract
+  verified_commit: 6a0c46788f43ef37269cd742e0a6147b4f55e96e
+  verified_at: '2026-10-14'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: json.upstream-authoring-notes
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 5affaa285f4be6bfb8755a893b375006ecbb0ccb1d90db51801a0124c6f2a220
+  prerequisites:
+  - reference.json-object-types
+  depends_on: []
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  example_validation_ids: []
+  api_version: contract-inventory-v1
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: eoc
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: JSON
+    order: 157
