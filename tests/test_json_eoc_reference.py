@@ -27,7 +27,7 @@ class JsonEocReferenceTests(unittest.TestCase):
             (ROOT / "docs-catalog.yml").read_text(encoding="utf-8")
         )
 
-    def test_generated_pages_are_published_and_indexed(self) -> None:
+    def test_generated_pages_follow_source_publication_state(self) -> None:
         pages = [
             page
             for page in self.catalog["pages"]
@@ -36,10 +36,14 @@ class JsonEocReferenceTests(unittest.TestCase):
         self.assertEqual(len(pages), 6)
         for page in pages:
             self.assertTrue(page["generated"])
-            self.assertEqual(page["status"], "active")
-            self.assertTrue(page["include_in_search"])
-            self.assertTrue(page["include_in_ai_index"])
-            self.assertIsNone(page["pending_source_pr"])
+            if page["pending_source_pr"]:
+                self.assertEqual(page["status"], "draft")
+                self.assertFalse(page["include_in_search"])
+                self.assertFalse(page["include_in_ai_index"])
+            else:
+                self.assertEqual(page["status"], "active")
+                self.assertTrue(page["include_in_search"])
+                self.assertTrue(page["include_in_ai_index"])
 
     def test_reference_pages_index_every_inventory_entry(self) -> None:
         for spec in SPECS:
@@ -54,7 +58,7 @@ class JsonEocReferenceTests(unittest.TestCase):
     def test_generated_pages_share_exact_source_commit(self) -> None:
         self.assertEqual(
             catalog_source_commit(),
-            "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
+            "4ab33b06ce1e6906cf4c1454e640377dcb115d14",
         )
 
     def test_example_fixture_uses_registered_contract_keys(self) -> None:
