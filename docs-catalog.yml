@@ -4404,7 +4404,7 @@ pages:
   translation_group: json.overview
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c
+  translation_source_fingerprint: 71e86145c575a8e20611cd989ed5262f31e02afe487dee70986fdbb1b41064cf
   prerequisites: &id212
   - architecture.project-map
   depends_on: &id213
@@ -4420,7 +4420,7 @@ pages:
   deprecation_replacement: null
   risk_group: json
   risk_level: high
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1025
   stale_reason: null
   nav:
     section: JSON
@@ -4450,7 +4450,7 @@ pages:
   translation_group: json.overview
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c
+  translation_source_fingerprint: 71e86145c575a8e20611cd989ed5262f31e02afe487dee70986fdbb1b41064cf
   prerequisites: *id212
   depends_on: *id213
   redirect_from: *id214
@@ -4463,7 +4463,7 @@ pages:
   deprecation_replacement: null
   risk_group: json
   risk_level: high
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1025
   stale_reason: null
   nav:
     section: JSON

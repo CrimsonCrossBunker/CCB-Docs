@@ -38,7 +38,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c
+translation_source_fingerprint: 71e86145c575a8e20611cd989ed5262f31e02afe487dee70986fdbb1b41064cf
 prerequisites:
 - architecture.project-map
 depends_on:
@@ -54,7 +54,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1025
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/
 alternate_urls:
@@ -119,6 +119,31 @@ inheritance rule, or cross-ID reference has been classified.
 An occurrence in data is therefore only lexical instance evidence. A mention in legacy prose is
 also only `lexical_only` evidence. Confirm a field in the loader, tests, and validators named by
 the registry.
+
+## Pending mounted-equipment contract
+
+[CCB PR #1025](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1025)
+proposes additional fields for animal equipment. This section describes the proposed
+contract and remains pending until that source PR merges.
+
+An item with the `PET_EQUIPMENT` subtype declares compatible positions in
+`pet_slots`. The item loader accepts `pet_mount_threshold_delta` for mounting
+difficulty, `pet_melee_hit_multiplier` for mounted melee accuracy,
+`pet_spook_multiplier` for spook chance, and
+`pet_mounted_move_cost_multiplier` for mounted movement cost.
+`pet_install_qualities` is a list of `[quality ID, minimum level]` pairs
+checked by the generic pet equipment menu before installation.
+
+A `pet_slot` can provide `spook_multiplier` and
+`mounted_move_cost_multiplier` while occupied. Slot and item factors multiply;
+the final spook factor is clamped to 0.1–2.0 and the mounted movement factor
+to 0.5–2.0. The existing `pet_fear_multiplier` continues to affect spooking
+and falling for compatibility. The new spook field affects spooking only.
+
+The PR adds horse-only bridle and horseshoe positions and keeps existing slot
+IDs and save behavior. Its stable loot and installation rules are data-driven.
+Check the source PR's loaders, consumers, and tests before relying on these
+fields in released content.
 
 ## Where to start
 

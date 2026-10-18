@@ -4794,6 +4794,31 @@ An occurrence in data is therefore only lexical instance evidence. A mention in 
 also only `lexical_only` evidence. Confirm a field in the loader, tests, and validators named by
 the registry.
 
+## Pending mounted-equipment contract
+
+[CCB PR #1025](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1025)
+proposes additional fields for animal equipment. This section describes the proposed
+contract and remains pending until that source PR merges.
+
+An item with the `PET_EQUIPMENT` subtype declares compatible positions in
+`pet_slots`. The item loader accepts `pet_mount_threshold_delta` for mounting
+difficulty, `pet_melee_hit_multiplier` for mounted melee accuracy,
+`pet_spook_multiplier` for spook chance, and
+`pet_mounted_move_cost_multiplier` for mounted movement cost.
+`pet_install_qualities` is a list of `[quality ID, minimum level]` pairs
+checked by the generic pet equipment menu before installation.
+
+A `pet_slot` can provide `spook_multiplier` and
+`mounted_move_cost_multiplier` while occupied. Slot and item factors multiply;
+the final spook factor is clamped to 0.1–2.0 and the mounted movement factor
+to 0.5–2.0. The existing `pet_fear_multiplier` continues to affect spooking
+and falling for compatibility. The new spook field affects spooking only.
+
+The PR adds horse-only bridle and horseshoe positions and keeps existing slot
+IDs and save behavior. Its stable loot and installation rules are data-driven.
+Check the source PR's loaders, consumers, and tests before relying on these
+fields in released content.
+
 ## Where to start
 
 - To determine whether a `type` is registered, use the [generated registry](../reference/json-object-types.md).
@@ -4840,6 +4865,26 @@ CCB 的 JSON 契约不是由一份万能 Schema 定义的。运行时加载器�
 
 因此，“在数据中出现过”只说明存在词法实例；“旧文档提到过”也只是
 `lexical_only` 证据。要确认字段，必须回到注册表指出的 loader、测试和验证器。
+
+## 待合并的坐骑装备契约
+
+[CCB PR #1025](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1025)
+拟为动物装备增加 JSON 字段。本节说明待合并的契约；在源 PR 合并前，它不代表已发布的接口。
+
+带有 `PET_EQUIPMENT` 子类型的物品通过 `pet_slots` 声明兼容的装备位置。
+物品加载器读取 `pet_mount_threshold_delta` 以调整上马难度，
+`pet_melee_hit_multiplier` 以调整马上近战命中，
+`pet_spook_multiplier` 以调整受惊概率，以及
+`pet_mounted_move_cost_multiplier` 以调整骑乘移动消耗。
+`pet_install_qualities` 是 `[工具品质 ID, 最低等级]` 列表；通用宠物装备菜单在安装前检查这些要求。
+
+`pet_slot` 可在装有物品时提供 `spook_multiplier` 与
+`mounted_move_cost_multiplier`。槽位和物品的倍率相乘；最终受惊倍率限制在
+0.1–2.0，骑乘移动倍率限制在 0.5–2.0。为兼容既有内容，
+`pet_fear_multiplier` 仍同时影响受惊和跌落；新增受惊字段只影响受惊。
+
+该 PR 增加仅适用于马体型的笼头与蹄铁位置，并保留现有槽位 ID 和存档行为。
+马厩刷新与安装要求由数据定义。正式内容依赖这些字段前，应核对源 PR 的加载器、消费者与测试。
 
 ## 从哪里开始
 

@@ -38,7 +38,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c
+translation_source_fingerprint: 71e86145c575a8e20611cd989ed5262f31e02afe487dee70986fdbb1b41064cf
 prerequisites:
 - architecture.project-map
 depends_on:
@@ -54,7 +54,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1025
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/
 alternate_urls:
@@ -114,6 +114,26 @@ CCB 的 JSON 契约不是由一份万能 Schema 定义的。运行时加载器�
 
 因此，“在数据中出现过”只说明存在词法实例；“旧文档提到过”也只是
 `lexical_only` 证据。要确认字段，必须回到注册表指出的 loader、测试和验证器。
+
+## 待合并的坐骑装备契约
+
+[CCB PR #1025](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1025)
+拟为动物装备增加 JSON 字段。本节说明待合并的契约；在源 PR 合并前，它不代表已发布的接口。
+
+带有 `PET_EQUIPMENT` 子类型的物品通过 `pet_slots` 声明兼容的装备位置。
+物品加载器读取 `pet_mount_threshold_delta` 以调整上马难度，
+`pet_melee_hit_multiplier` 以调整马上近战命中，
+`pet_spook_multiplier` 以调整受惊概率，以及
+`pet_mounted_move_cost_multiplier` 以调整骑乘移动消耗。
+`pet_install_qualities` 是 `[工具品质 ID, 最低等级]` 列表；通用宠物装备菜单在安装前检查这些要求。
+
+`pet_slot` 可在装有物品时提供 `spook_multiplier` 与
+`mounted_move_cost_multiplier`。槽位和物品的倍率相乘；最终受惊倍率限制在
+0.1–2.0，骑乘移动倍率限制在 0.5–2.0。为兼容既有内容，
+`pet_fear_multiplier` 仍同时影响受惊和跌落；新增受惊字段只影响受惊。
+
+该 PR 增加仅适用于马体型的笼头与蹄铁位置，并保留现有槽位 ID 和存档行为。
+马厩刷新与安装要求由数据定义。正式内容依赖这些字段前，应核对源 PR 的加载器、消费者与测试。
 
 ## 从哪里开始
 
