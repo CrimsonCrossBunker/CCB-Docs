@@ -4672,10 +4672,10 @@ pages:
   source_symbols: &id226
   - DynamicDataLoader::initialize
   source_queries: &id227 []
-  source_fingerprint: 6fcd9eedee8650f4d8a84330e61eb679e2798363db415c80b83260285c974cda
+  source_fingerprint: 0dd9bd16578af3de768ce9594ba8bba7e05819658738aee13ae2629169af2fd3
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: f07bfb7044167eb33270346501135e3658e293bf
+  verified_at: '2026-10-18'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
   include_in_search: true
@@ -4683,7 +4683,7 @@ pages:
   translation_group: reference.json-object-types
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 093580aa01cee68d522f0ecc7d7249b4be0a0364912043fad42983125304c846
+  translation_source_fingerprint: b0d980fb2b5b9bf84a5f5cfe921101478132a937e8ec6fd8f9e863b8b0185b55
   prerequisites: &id228
   - json.overview
   depends_on: &id229 []
@@ -4717,10 +4717,10 @@ pages:
   source_paths: *id225
   source_symbols: *id226
   source_queries: *id227
-  source_fingerprint: 6fcd9eedee8650f4d8a84330e61eb679e2798363db415c80b83260285c974cda
+  source_fingerprint: 0dd9bd16578af3de768ce9594ba8bba7e05819658738aee13ae2629169af2fd3
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: f07bfb7044167eb33270346501135e3658e293bf
+  verified_at: '2026-10-18'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
   include_in_search: true
@@ -4728,7 +4728,7 @@ pages:
   translation_group: reference.json-object-types
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 093580aa01cee68d522f0ecc7d7249b4be0a0364912043fad42983125304c846
+  translation_source_fingerprint: b0d980fb2b5b9bf84a5f5cfe921101478132a937e8ec6fd8f9e863b8b0185b55
   prerequisites: *id228
   depends_on: *id229
   redirect_from: *id230
@@ -5152,10 +5152,10 @@ pages:
   source_symbols: &id254
   - conditional_t::conditional_t
   source_queries: &id255 []
-  source_fingerprint: 86703a8d02d00e3124d40ad05263ab9988f7739745c78bf0fde928f43bde63a8
+  source_fingerprint: db430b0ac378553f51bf432ddca0147bf658e8fe8c566848358eb055a1005393
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: f07bfb7044167eb33270346501135e3658e293bf
+  verified_at: '2026-10-18'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
   include_in_search: true
@@ -5163,7 +5163,7 @@ pages:
   translation_group: reference.eoc-conditions
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 23b8363116cec96c0c361fa3919ebac4c8f9f1596cd044b3330948cbbeced065
+  translation_source_fingerprint: 9ee21c2bef1be24800dc5079cfea8e6f0b9a050d1bad009924063fdc330f82c9
   prerequisites: &id256
   - eoc.overview
   depends_on: &id257 []
@@ -5197,10 +5197,10 @@ pages:
   source_paths: *id253
   source_symbols: *id254
   source_queries: *id255
-  source_fingerprint: 86703a8d02d00e3124d40ad05263ab9988f7739745c78bf0fde928f43bde63a8
+  source_fingerprint: db430b0ac378553f51bf432ddca0147bf658e8fe8c566848358eb055a1005393
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: f07bfb7044167eb33270346501135e3658e293bf
+  verified_at: '2026-10-18'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
   include_in_search: true
@@ -5208,7 +5208,7 @@ pages:
   translation_group: reference.eoc-conditions
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 23b8363116cec96c0c361fa3919ebac4c8f9f1596cd044b3330948cbbeced065
+  translation_source_fingerprint: 9ee21c2bef1be24800dc5079cfea8e6f0b9a050d1bad009924063fdc330f82c9
   prerequisites: *id256
   depends_on: *id257
   redirect_from: *id258
@@ -5247,10 +5247,10 @@ pages:
   - talk_effect_t::parse_sub_effect
   - talk_effect_t::parse_string_effect
   source_queries: *id255
-  source_fingerprint: 663fff8aceec48e5f21eb548edbf5068c6ae3175094ad280a9f635375337db5f
+  source_fingerprint: 5dd19b0b95eb3955ddb6aa57edf810106fc211bc43bd88bd4b6cfd2e99fa4e66
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: f07bfb7044167eb33270346501135e3658e293bf
+  verified_at: '2026-10-18'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
   include_in_search: true
@@ -5258,7 +5258,7 @@ pages:
   translation_group: reference.eoc-effects
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 0b0600c0494b57218f60c7346aa6a20a2a0e995fb71a330e374920c5e3d1e19a
+  translation_source_fingerprint: 787bfe09b9cf2528493af2100167197f7ac70dac979a0a4e8808db9fd78ea4a0
   prerequisites: *id256
   depends_on: *id257
   redirect_from: *id258
@@ -5291,10 +5291,10 @@ pages:
   source_paths: *id261
   source_symbols: *id262
   source_queries: *id255
-  source_fingerprint: 663fff8aceec48e5f21eb548edbf5068c6ae3175094ad280a9f635375337db5f
+  source_fingerprint: 5dd19b0b95eb3955ddb6aa57edf810106fc211bc43bd88bd4b6cfd2e99fa4e66
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: f07bfb7044167eb33270346501135e3658e293bf
+  verified_at: '2026-10-18'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
   include_in_search: true
@@ -5302,7 +5302,7 @@ pages:
   translation_group: reference.eoc-effects
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 0b0600c0494b57218f60c7346aa6a20a2a0e995fb71a330e374920c5e3d1e19a
+  translation_source_fingerprint: 787bfe09b9cf2528493af2100167197f7ac70dac979a0a4e8808db9fd78ea4a0
   prerequisites: *id256
   depends_on: *id257
   redirect_from: *id258
