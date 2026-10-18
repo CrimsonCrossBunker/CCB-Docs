@@ -435,6 +435,13 @@
       "path": "json/validation.md"
     },
     {
+      "id": "reference.json-object-types",
+      "title": "JSON 对象类型注册表",
+      "section": "生成参考",
+      "order": 133,
+      "path": "reference/json-object-types.md"
+    },
+    {
       "id": "eoc.overview",
       "title": "EOC 契约与生命周期",
       "section": "EOC",
@@ -461,6 +468,20 @@
       "section": "EOC",
       "order": 143,
       "path": "eoc/nesting.md"
+    },
+    {
+      "id": "reference.eoc-conditions",
+      "title": "EOC 条件注册表",
+      "section": "生成参考",
+      "order": 144,
+      "path": "reference/eoc-conditions.md"
+    },
+    {
+      "id": "reference.eoc-effects",
+      "title": "EOC 效果注册表",
+      "section": "生成参考",
+      "order": 145,
+      "path": "reference/eoc-effects.md"
     },
     {
       "id": "mods.complete-json-eoc-mod",
@@ -969,6 +990,13 @@
       "path": "json/validation.md"
     },
     {
+      "id": "reference.json-object-types",
+      "title": "JSON object-type registry",
+      "section": "Generated reference",
+      "order": 133,
+      "path": "reference/json-object-types.md"
+    },
+    {
       "id": "eoc.overview",
       "title": "EOC contracts and lifecycle",
       "section": "EOC",
@@ -995,6 +1023,20 @@
       "section": "EOC",
       "order": 143,
       "path": "eoc/nesting.md"
+    },
+    {
+      "id": "reference.eoc-conditions",
+      "title": "EOC condition registry",
+      "section": "Generated reference",
+      "order": 144,
+      "path": "reference/eoc-conditions.md"
+    },
+    {
+      "id": "reference.eoc-effects",
+      "title": "EOC effect registry",
+      "section": "Generated reference",
+      "order": 145,
+      "path": "reference/eoc-effects.md"
     },
     {
       "id": "mods.complete-json-eoc-mod",

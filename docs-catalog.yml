@@ -4651,7 +4651,7 @@ pages:
   title: JSON 对象类型注册表
   language: zh_CN
   path: reference/json-object-types.md
-  status: draft
+  status: active
   doc_type: generated-api
   audiences: &id222
   - experienced-contributor
@@ -4674,16 +4674,16 @@ pages:
   source_queries: &id227 []
   source_fingerprint: 0dd9bd16578af3de768ce9594ba8bba7e05819658738aee13ae2629169af2fd3
   authority: api-contract
-  verified_commit: 4ab33b06ce1e6906cf4c1454e640377dcb115d14
+  verified_commit: f07bfb7044167eb33270346501135e3658e293bf
   verified_at: '2026-10-18'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
-  include_in_search: false
-  include_in_ai_index: false
+  include_in_search: true
+  include_in_ai_index: true
   translation_group: reference.json-object-types
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 9fe1d09a62860a64b5cc6b23825466f13006b2113764d87d76b93394ad2e04a2
+  translation_source_fingerprint: b0d980fb2b5b9bf84a5f5cfe921101478132a937e8ec6fd8f9e863b8b0185b55
   prerequisites: &id228
   - json.overview
   depends_on: &id229 []
@@ -4698,7 +4698,7 @@ pages:
   deprecation_replacement: null
   risk_group: json
   risk_level: high
-  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1023
+  pending_source_pr: null
   stale_reason: null
   nav:
     section: 生成参考
@@ -4707,7 +4707,7 @@ pages:
   title: JSON object-type registry
   language: en
   path: reference/json-object-types.md
-  status: draft
+  status: active
   doc_type: generated-api
   audiences: *id222
   owners: *id223
@@ -4719,16 +4719,16 @@ pages:
   source_queries: *id227
   source_fingerprint: 0dd9bd16578af3de768ce9594ba8bba7e05819658738aee13ae2629169af2fd3
   authority: api-contract
-  verified_commit: 4ab33b06ce1e6906cf4c1454e640377dcb115d14
+  verified_commit: f07bfb7044167eb33270346501135e3658e293bf
   verified_at: '2026-10-18'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
-  include_in_search: false
-  include_in_ai_index: false
+  include_in_search: true
+  include_in_ai_index: true
   translation_group: reference.json-object-types
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 9fe1d09a62860a64b5cc6b23825466f13006b2113764d87d76b93394ad2e04a2
+  translation_source_fingerprint: b0d980fb2b5b9bf84a5f5cfe921101478132a937e8ec6fd8f9e863b8b0185b55
   prerequisites: *id228
   depends_on: *id229
   redirect_from: *id230
@@ -4742,7 +4742,7 @@ pages:
   deprecation_replacement: null
   risk_group: json
   risk_level: high
-  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1023
+  pending_source_pr: null
   stale_reason: null
   nav:
     section: Generated reference
@@ -5131,7 +5131,7 @@ pages:
   title: EOC 条件注册表
   language: zh_CN
   path: reference/eoc-conditions.md
-  status: draft
+  status: active
   doc_type: generated-api
   audiences: &id250
   - experienced-contributor
@@ -5154,16 +5154,16 @@ pages:
   source_queries: &id255 []
   source_fingerprint: db430b0ac378553f51bf432ddca0147bf658e8fe8c566848358eb055a1005393
   authority: api-contract
-  verified_commit: 4ab33b06ce1e6906cf4c1454e640377dcb115d14
+  verified_commit: f07bfb7044167eb33270346501135e3658e293bf
   verified_at: '2026-10-18'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
-  include_in_search: false
-  include_in_ai_index: false
+  include_in_search: true
+  include_in_ai_index: true
   translation_group: reference.eoc-conditions
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: bd7e083a82ffd0a05c5593c148b36928fcae164e6aff4fc9b6b68897fb7628f1
+  translation_source_fingerprint: 9ee21c2bef1be24800dc5079cfea8e6f0b9a050d1bad009924063fdc330f82c9
   prerequisites: &id256
   - eoc.overview
   depends_on: &id257 []
@@ -5178,7 +5178,7 @@ pages:
   deprecation_replacement: null
   risk_group: eoc
   risk_level: high
-  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1023
+  pending_source_pr: null
   stale_reason: null
   nav:
     section: 生成参考
@@ -5187,7 +5187,7 @@ pages:
   title: EOC condition registry
   language: en
   path: reference/eoc-conditions.md
-  status: draft
+  status: active
   doc_type: generated-api
   audiences: *id250
   owners: *id251
@@ -5199,16 +5199,16 @@ pages:
   source_queries: *id255
   source_fingerprint: db430b0ac378553f51bf432ddca0147bf658e8fe8c566848358eb055a1005393
   authority: api-contract
-  verified_commit: 4ab33b06ce1e6906cf4c1454e640377dcb115d14
+  verified_commit: f07bfb7044167eb33270346501135e3658e293bf
   verified_at: '2026-10-18'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
-  include_in_search: false
-  include_in_ai_index: false
+  include_in_search: true
+  include_in_ai_index: true
   translation_group: reference.eoc-conditions
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: bd7e083a82ffd0a05c5593c148b36928fcae164e6aff4fc9b6b68897fb7628f1
+  translation_source_fingerprint: 9ee21c2bef1be24800dc5079cfea8e6f0b9a050d1bad009924063fdc330f82c9
   prerequisites: *id256
   depends_on: *id257
   redirect_from: *id258
@@ -5222,7 +5222,7 @@ pages:
   deprecation_replacement: null
   risk_group: eoc
   risk_level: high
-  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1023
+  pending_source_pr: null
   stale_reason: null
   nav:
     section: Generated reference
@@ -5231,7 +5231,7 @@ pages:
   title: EOC 效果注册表
   language: zh_CN
   path: reference/eoc-effects.md
-  status: draft
+  status: active
   doc_type: generated-api
   audiences: *id250
   owners: *id251
@@ -5249,16 +5249,16 @@ pages:
   source_queries: *id255
   source_fingerprint: 5dd19b0b95eb3955ddb6aa57edf810106fc211bc43bd88bd4b6cfd2e99fa4e66
   authority: api-contract
-  verified_commit: 4ab33b06ce1e6906cf4c1454e640377dcb115d14
+  verified_commit: f07bfb7044167eb33270346501135e3658e293bf
   verified_at: '2026-10-18'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
-  include_in_search: false
-  include_in_ai_index: false
+  include_in_search: true
+  include_in_ai_index: true
   translation_group: reference.eoc-effects
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 6bc22054d9885f1401254f92ee511f650fd8524843c3925ff1e12b31e1fe21de
+  translation_source_fingerprint: 787bfe09b9cf2528493af2100167197f7ac70dac979a0a4e8808db9fd78ea4a0
   prerequisites: *id256
   depends_on: *id257
   redirect_from: *id258
@@ -5272,7 +5272,7 @@ pages:
   deprecation_replacement: null
   risk_group: eoc
   risk_level: high
-  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1023
+  pending_source_pr: null
   stale_reason: null
   nav:
     section: 生成参考
@@ -5281,7 +5281,7 @@ pages:
   title: EOC effect registry
   language: en
   path: reference/eoc-effects.md
-  status: draft
+  status: active
   doc_type: generated-api
   audiences: *id250
   owners: *id251
@@ -5293,16 +5293,16 @@ pages:
   source_queries: *id255
   source_fingerprint: 5dd19b0b95eb3955ddb6aa57edf810106fc211bc43bd88bd4b6cfd2e99fa4e66
   authority: api-contract
-  verified_commit: 4ab33b06ce1e6906cf4c1454e640377dcb115d14
+  verified_commit: f07bfb7044167eb33270346501135e3658e293bf
   verified_at: '2026-10-18'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
-  include_in_search: false
-  include_in_ai_index: false
+  include_in_search: true
+  include_in_ai_index: true
   translation_group: reference.eoc-effects
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 6bc22054d9885f1401254f92ee511f650fd8524843c3925ff1e12b31e1fe21de
+  translation_source_fingerprint: 787bfe09b9cf2528493af2100167197f7ac70dac979a0a4e8808db9fd78ea4a0
   prerequisites: *id256
   depends_on: *id257
   redirect_from: *id258
@@ -5316,7 +5316,7 @@ pages:
   deprecation_replacement: null
   risk_group: eoc
   risk_level: high
-  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1023
+  pending_source_pr: null
   stale_reason: null
   nav:
     section: Generated reference
