@@ -38,7 +38,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3
+translation_source_fingerprint: 894bf59b0d4817ec0038d2fc7234d09c02265e59d75e8ef6c6c715583bcc2b74
 prerequisites:
 - json.overview
 depends_on:
@@ -123,3 +123,14 @@ make -j2 json-check
 
 生成器只读取 `git ls-files` 返回的 tracked 路径，并固定 190/275/306 的覆盖计数。计数变化
 必须伴随注册/解析器变化和生成 diff；不得手改生成清单或生成参考页。
+
+
+## 投石杖专用弹药的验证示例
+
+投石杖的直接发射功能使用 `SLING_LAUNCHER` 标志；兼容弹药必须有 `SLING_AMMO`，并提供目标明确的 `transform` 使用动作。现有六种专用手雷和燃烧瓶保留物品 ID 与手动激活规则。手持投石杖使用开火操作，从身上取一发；有多个弹种时先选择。取消瞄准不会取出弹药、点燃引信或消耗行动点。
+
+确认发射后，原有转换动作负责火源、损坏导致的激活失败和引信。只免除发射时的“弹药必须手持”要求；已激活的弹药、其他角色或地面上的弹药、弹匣内及密封口袋内的弹药不能直接使用。普通专用手雷的耗时为 200 行动点准备时间，加现有投掷与取物耗时；燃烧瓶额外保留点火动作的耗时。
+
+`STOP_ON_CONTACT` 只用于直接发射的投射物：沿实际弹道遇到首个地面生物或不可通行障碍时落下。伤害仍走投射物命中判定，闪避伤害不让弹药穿到后排。手雷由落地后的活动物品按原引信爆炸，不复制弹药定义里的即时爆炸效果；燃烧瓶保留撞击起火。普通 `t` 手投不添加这个标志。
+
+验证应覆盖原生数据加载、一次只消耗一发、取消与无火源不消耗弹药、墙与前排怪物拦截、到期爆炸和保留手动激活。对应源码为 `src/sling.cpp`、`src/ballistics.cpp`、`src/ranged.cpp`，回归测试为 `tests/staff_sling_test.cpp`。生成清单仍以最终合并的 CCB 源码为准；配套文档合并前须核对最终提交。
