@@ -38,7 +38,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 011b017522ac8f0fe674d25c2f3f6729ee36910b59b50abb94d54402ccefd8b1
+translation_source_fingerprint: 238b9eff496fa1c4b1a4ce9a1049e38ef90386a249dd3bda537b20e7e9856349
 prerequisites:
 - json.overview
 depends_on:
@@ -53,7 +53,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1036
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/inheritance-copy-from/
 alternate_urls:
@@ -125,3 +125,22 @@ right testing layer: load data, then inspect the resolved object.
 Changing a parent may change every descendant. Renaming or deleting a parent ID, changing a
 default, or changing replacement into extension can affect mods and saves. List descendants, run
 data loading and focused tests, and record JSON/mod documentation impact in the pull request.
+
+## Compatibility checks when restoring removed items
+
+[CCB #1036](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1036)
+proposes reverting CDDA #88855 and #88871 to restore seven STANAG magazines with ranger plates.
+This example is pending the source PR merge and does not describe a published release. When
+restoring parent items and their `copy-from` descendants, also check gun compatibility lists,
+conversion recipes, item groups, and mod data. Remove the core `MIGRATION` entries that replace
+these IDs with plain magazines; retain Generic Guns' own generic-item migrations.
+
+Saves that still contain the old IDs can recognize the restored items. Once a removal build has
+converted an item into a plain magazine and saved it, there is insufficient information to recover
+its original identity automatically. Do not reverse-convert all plain magazines to guess what a
+player previously owned.
+
+This revert restores content only. Item, migration, recipe, and item-group instance counts and
+source fingerprints change in the generated inventories; JSON loading rules and EOC condition
+and effect semantics do not. Refresh the corresponding generated references to the final source
+commit after the source PR merges.

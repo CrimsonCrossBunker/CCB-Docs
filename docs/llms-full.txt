@@ -4709,6 +4709,25 @@ Changing a parent may change every descendant. Renaming or deleting a parent ID,
 default, or changing replacement into extension can affect mods and saves. List descendants, run
 data loading and focused tests, and record JSON/mod documentation impact in the pull request.
 
+## Compatibility checks when restoring removed items
+
+[CCB #1036](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1036)
+proposes reverting CDDA #88855 and #88871 to restore seven STANAG magazines with ranger plates.
+This example is pending the source PR merge and does not describe a published release. When
+restoring parent items and their `copy-from` descendants, also check gun compatibility lists,
+conversion recipes, item groups, and mod data. Remove the core `MIGRATION` entries that replace
+these IDs with plain magazines; retain Generic Guns' own generic-item migrations.
+
+Saves that still contain the old IDs can recognize the restored items. Once a removal build has
+converted an item into a plain magazine and saved it, there is insufficient information to recover
+its original identity automatically. Do not reverse-convert all plain magazines to guess what a
+player previously owned.
+
+This revert restores content only. Item, migration, recipe, and item-group instance counts and
+source fingerprints change in the generated inventories; JSON loading rules and EOC condition
+and effect semantics do not. Refresh the corresponding generated references to the final source
+commit after the source PR merges.
+
 ## json.inheritance-copy-from [zh_CN] — JSON 继承与 copy-from
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/
@@ -4752,6 +4771,20 @@ Sources: data/reference/json/ccb_json_object_types.json, tools/json_api/contract
 修改父对象可能改变所有后代。重命名/删除父 ID、改变默认值或把继承规则从替换改为
 扩展，都可能影响 Mod 和存档。此类改动应列出后代、执行数据加载和针对性测试，并在
 PR 中标记 JSON/Mod 文档影响。
+
+## 恢复已删除物品的兼容性检查
+
+[CCB #1036](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1036)
+提出撤回 CDDA #88855 和 #88871，恢复 7 种带 Ranger Plate 底板的 STANAG 弹匣。
+此例仍等待源代码 PR 合并，不代表已发布。恢复父物品及其 `copy-from` 子项时，应同步检查
+枪械兼容表、改装配方、物品组和 Mod 配置，并移除核心数据中将这些 ID 替换成普通弹匣的
+`MIGRATION`。Generic Guns 自身的泛化迁移仍需保留。
+
+保留旧 ID 的存档能重新识别这些物品；已在删除版本中转换成普通弹匣并保存的物品，
+没有足够信息自动恢复原身份。不要把所有普通弹匣反向转换来推测玩家原本拥有哪种物品。
+
+此撤回只恢复内容。生成清单中的物品、迁移、配方及物品组实例计数和源指纹随之变化，
+JSON 加载规则与 EOC 条件、效果语义均不改变。源 PR 合并后再将相关生成参考对齐最终提交。
 
 ## json.overview [en] — JSON contract overview
 
