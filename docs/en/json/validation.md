@@ -38,7 +38,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3
+translation_source_fingerprint: 894bf59b0d4817ec0038d2fc7234d09c02265e59d75e8ef6c6c715583bcc2b74
 prerequisites:
 - json.overview
 depends_on:
@@ -56,7 +56,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1038
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/
 alternate_urls:
@@ -125,3 +125,14 @@ make -j2 json-check
 The generator reads only tracked paths returned by `git ls-files` and pins coverage at
 190/275/306. Count changes must accompany registry/parser changes and a generated diff. Never edit
 the generated inventories or generated reference pages by hand.
+
+
+## Validation example: sling-ready ammunition
+
+Direct staff-sling launching uses the `SLING_LAUNCHER` flag. Compatible ammunition must have `SLING_AMMO` and a `transform` use action with a specific target. The six existing sling-ready grenades and Molotov cocktails retain their item IDs and manual activation rules. Wield the sling and use the fire action to retrieve one carried round; choose first when multiple ammunition types are available. Cancelling targeting does not retrieve ammunition, ignite a fuse, or spend moves.
+
+After confirmation, the existing transformation handles ignition resources, damaged-item activation failures, and the fuse. Only the requirement to wield the ammunition is waived for launching. Already active rounds, ammunition on the ground or carried by someone else, and rounds inside magazines or sealed pockets cannot be launched directly. The cost is 200 preparation moves plus the existing throwing and retrieval costs; Molotov cocktails retain their additional ignition cost.
+
+`STOP_ON_CONTACT` applies only to direct launches. The projectile falls at the first above-water creature or impassable obstacle on its actual trajectory. Projectile hit checks still determine impact damage; avoiding damage does not let the round pass through to the rear rank. Grenades detonate as dropped active items when their original fuse expires, without copying immediate ammunition explosion effects. Molotov cocktails retain ignition on impact. Ordinary hand throwing does not add this flag.
+
+Validation should cover native data loading, single-round consumption, cancellation and missing ignition resources, walls and intervening creatures, timed detonation, and manual activation. Sources are `src/sling.cpp`, `src/ballistics.cpp`, and `src/ranged.cpp`; regressions are in `tests/staff_sling_test.cpp`. Generated inventories remain tied to the final merged CCB source; refresh the companion documentation against that commit before merging it.

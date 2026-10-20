@@ -9605,7 +9605,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3",
+      "translation_source_fingerprint": "894bf59b0d4817ec0038d2fc7234d09c02265e59d75e8ef6c6c715583bcc2b74",
       "prerequisites": [
         "json.overview"
       ],
@@ -9626,7 +9626,7 @@
       "deprecation_replacement": null,
       "risk_group": "json",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1038",
       "stale_reason": null,
       "path": "json/validation.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/"
@@ -9674,7 +9674,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3",
+      "translation_source_fingerprint": "894bf59b0d4817ec0038d2fc7234d09c02265e59d75e8ef6c6c715583bcc2b74",
       "prerequisites": [
         "json.overview"
       ],
@@ -9695,7 +9695,7 @@
       "deprecation_replacement": null,
       "risk_group": "json",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1038",
       "stale_reason": null,
       "path": "json/validation.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/"
