@@ -9343,7 +9343,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "011b017522ac8f0fe674d25c2f3f6729ee36910b59b50abb94d54402ccefd8b1",
+      "translation_source_fingerprint": "238b9eff496fa1c4b1a4ce9a1049e38ef90386a249dd3bda537b20e7e9856349",
       "prerequisites": [
         "json.overview"
       ],
@@ -9360,7 +9360,7 @@
       "deprecation_replacement": null,
       "risk_group": "json",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1036",
       "stale_reason": null,
       "path": "json/inheritance-copy-from.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/inheritance-copy-from/"
@@ -9408,7 +9408,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "011b017522ac8f0fe674d25c2f3f6729ee36910b59b50abb94d54402ccefd8b1",
+      "translation_source_fingerprint": "238b9eff496fa1c4b1a4ce9a1049e38ef90386a249dd3bda537b20e7e9856349",
       "prerequisites": [
         "json.overview"
       ],
@@ -9425,7 +9425,7 @@
       "deprecation_replacement": null,
       "risk_group": "json",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1036",
       "stale_reason": null,
       "path": "json/inheritance-copy-from.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/"

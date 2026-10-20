@@ -38,7 +38,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 011b017522ac8f0fe674d25c2f3f6729ee36910b59b50abb94d54402ccefd8b1
+translation_source_fingerprint: 238b9eff496fa1c4b1a4ce9a1049e38ef90386a249dd3bda537b20e7e9856349
 prerequisites:
 - json.overview
 depends_on:
@@ -53,7 +53,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1036
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/
 alternate_urls:
@@ -121,3 +121,17 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 修改父对象可能改变所有后代。重命名/删除父 ID、改变默认值或把继承规则从替换改为
 扩展，都可能影响 Mod 和存档。此类改动应列出后代、执行数据加载和针对性测试，并在
 PR 中标记 JSON/Mod 文档影响。
+
+## 恢复已删除物品的兼容性检查
+
+[CCB #1036](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1036)
+提出撤回 CDDA #88855 和 #88871，恢复 7 种带 Ranger Plate 底板的 STANAG 弹匣。
+此例仍等待源代码 PR 合并，不代表已发布。恢复父物品及其 `copy-from` 子项时，应同步检查
+枪械兼容表、改装配方、物品组和 Mod 配置，并移除核心数据中将这些 ID 替换成普通弹匣的
+`MIGRATION`。Generic Guns 自身的泛化迁移仍需保留。
+
+保留旧 ID 的存档能重新识别这些物品；已在删除版本中转换成普通弹匣并保存的物品，
+没有足够信息自动恢复原身份。不要把所有普通弹匣反向转换来推测玩家原本拥有哪种物品。
+
+此撤回只恢复内容。生成清单中的物品、迁移、配方及物品组实例计数和源指纹随之变化，
+JSON 加载规则与 EOC 条件、效果语义均不改变。源 PR 合并后再将相关生成参考对齐最终提交。
