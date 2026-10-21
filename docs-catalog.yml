@@ -4581,7 +4581,7 @@ pages:
   translation_group: json.validation
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3
+  translation_source_fingerprint: 73aa0484eb20d1bbceefab7c0a59e912d8e575f295650618efffcd6933b5cb48
   prerequisites: &id219
   - json.overview
   depends_on: &id220
@@ -4629,7 +4629,7 @@ pages:
   translation_group: json.validation
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3
+  translation_source_fingerprint: 73aa0484eb20d1bbceefab7c0a59e912d8e575f295650618efffcd6933b5cb48
   prerequisites: *id219
   depends_on: *id220
   redirect_from: *id214

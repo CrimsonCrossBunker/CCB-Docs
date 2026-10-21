@@ -38,7 +38,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3
+translation_source_fingerprint: 73aa0484eb20d1bbceefab7c0a59e912d8e575f295650618efffcd6933b5cb48
 prerequisites:
 - json.overview
 depends_on:
@@ -123,3 +123,15 @@ make -j2 json-check
 
 生成器只读取 `git ls-files` 返回的 tracked 路径，并固定 190/275/306 的覆盖计数。计数变化
 必须伴随注册/解析器变化和生成 diff；不得手改生成清单或生成参考页。
+
+## 双弹仓和射击模式的回归验证
+
+KSG 的两条弹仓应分别由主枪和 `ksg_aux_shotgun` 管理，每条弹仓容量为 7 发。
+调整 `clip_size` 不足以改变实际容量，需检查 `pocket_data` 的弹药限制。
+恢复专用弹仓时还须移除将它替换成其他枪械的迁移，并验证生成、独立装填、切换弹种、
+开火扣弹和保存重载。已有第二弹仓不应重复添加；旧版合并弹仓的 14 发应保留为 7＋7。
+
+DP-12 的双发模式应通过实际 `fire_gun` 验证一次消耗两发，剩一发时只发射一发。
+这里的两连发使用通常的逐发后坐力；不要因有两根枪管就默认启用同时齐射的 `VOLLEY`。
+本次源代码中的 `[shotgun_tubes]` 聚焦测试覆盖这些行为。相关原生测试通过不等于
+Android 实机操作或完整安装包已经验收；源码合并后需按最终提交刷新证据。

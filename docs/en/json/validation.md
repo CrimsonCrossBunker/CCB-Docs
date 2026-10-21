@@ -38,7 +38,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3
+translation_source_fingerprint: 73aa0484eb20d1bbceefab7c0a59e912d8e575f295650618efffcd6933b5cb48
 prerequisites:
 - json.overview
 depends_on:
@@ -125,3 +125,18 @@ make -j2 json-check
 The generator reads only tracked paths returned by `git ls-files` and pins coverage at
 190/275/306. Count changes must accompany registry/parser changes and a generated diff. Never edit
 the generated inventories or generated reference pages by hand.
+
+## Regression checks for twin tubes and firing modes
+
+The KSG uses its main gun and `ksg_aux_shotgun` for two independently selected tubes,
+with seven shells in each. Changing `clip_size` alone does not change the effective
+capacity: inspect the ammunition limits in `pocket_data`. Restoring the auxiliary tube
+also requires removing its replacement migration and testing creation, independent reloads,
+ammunition selection, firing consumption, and save/reload. Do not duplicate an existing
+tube; preserve fourteen shells from the old combined magazine as seven plus seven.
+
+Exercise DP-12 double mode through `fire_gun`: consume two shells normally and fire only
+one when one remains. This sequential mode retains per-shot recoil; two barrels alone do
+not justify the simultaneous `VOLLEY` flag. The source `[shotgun_tubes]` tests cover these
+behaviors. Native focused acceptance does not establish Android interaction or a complete
+release build. Refresh the evidence against the final source commit after merge.
