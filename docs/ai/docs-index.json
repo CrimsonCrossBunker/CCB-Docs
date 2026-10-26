@@ -11838,7 +11838,7 @@
       "id": "reference.json-object-types",
       "title": "JSON object-type registry",
       "language": "en",
-      "status": "active",
+      "status": "draft",
       "doc_type": "generated-api",
       "audiences": [
         "experienced-contributor",
@@ -11870,8 +11870,8 @@
       "verified_at": "2026-08-12",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
       "translation_source_fingerprint": "093580aa01cee68d522f0ecc7d7249b4be0a0364912043fad42983125304c846",
@@ -11889,8 +11889,8 @@
       "deprecation_replacement": null,
       "risk_group": "json",
       "risk_level": "high",
-      "pending_source_pr": null,
-      "stale_reason": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1060",
+      "stale_reason": "CCB 1060 refreshes source inventory counts and fingerprints. Regenerate this reference from the final merged source commit before publishing.",
       "path": "reference/json-object-types.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/"
     },
@@ -11898,7 +11898,7 @@
       "id": "reference.json-object-types",
       "title": "JSON 对象类型注册表",
       "language": "zh_CN",
-      "status": "active",
+      "status": "draft",
       "doc_type": "generated-api",
       "audiences": [
         "experienced-contributor",
@@ -11930,8 +11930,8 @@
       "verified_at": "2026-08-12",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
       "translation_source_fingerprint": "093580aa01cee68d522f0ecc7d7249b4be0a0364912043fad42983125304c846",
@@ -11949,8 +11949,8 @@
       "deprecation_replacement": null,
       "risk_group": "json",
       "risk_level": "high",
-      "pending_source_pr": null,
-      "stale_reason": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1060",
+      "stale_reason": "CCB 1060 refreshes source inventory counts and fingerprints. Regenerate this reference from the final merged source commit before publishing.",
       "path": "reference/json-object-types.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/"
     },
@@ -14276,7 +14276,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/fonts/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/shaders/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/sound/",
@@ -14313,7 +14312,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/fonts/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/shaders/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/sound/",
@@ -14416,7 +14414,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/fonts/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/shaders/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/sound/",
@@ -14453,7 +14450,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/fonts/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/shaders/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/sound/",
@@ -14556,7 +14552,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/fonts/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/shaders/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/sound/",
@@ -14593,7 +14588,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/fonts/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/shaders/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/resources/sound/",
@@ -14670,12 +14664,14 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/core-dev-guide/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/native-binding-guide/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/items/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/",
@@ -15177,13 +15173,6 @@
         "section": "JSON",
         "order": 132,
         "path": "json/validation.md"
-      },
-      {
-        "id": "reference.json-object-types",
-        "title": "JSON 对象类型注册表",
-        "section": "生成参考",
-        "order": 133,
-        "path": "reference/json-object-types.md"
       },
       {
         "id": "eoc.overview",
@@ -15732,13 +15721,6 @@
         "section": "JSON",
         "order": 132,
         "path": "json/validation.md"
-      },
-      {
-        "id": "reference.json-object-types",
-        "title": "JSON object-type registry",
-        "section": "Generated reference",
-        "order": 133,
-        "path": "reference/json-object-types.md"
       },
       {
         "id": "eoc.overview",
@@ -17261,28 +17243,6 @@
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
         "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/"
-      }
-    },
-    {
-      "id": "reference.json-object-types",
-      "language": "en",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/",
-      "last_verified": "2026-08-12",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/"
-      }
-    },
-    {
-      "id": "reference.json-object-types",
-      "language": "zh_CN",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
-      "last_verified": "2026-08-12",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/"
       }
     },
     {

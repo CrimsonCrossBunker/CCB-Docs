@@ -435,13 +435,6 @@
       "path": "json/validation.md"
     },
     {
-      "id": "reference.json-object-types",
-      "title": "JSON 对象类型注册表",
-      "section": "生成参考",
-      "order": 133,
-      "path": "reference/json-object-types.md"
-    },
-    {
       "id": "eoc.overview",
       "title": "EOC 契约与生命周期",
       "section": "EOC",
@@ -988,13 +981,6 @@
       "section": "JSON",
       "order": 132,
       "path": "json/validation.md"
-    },
-    {
-      "id": "reference.json-object-types",
-      "title": "JSON object-type registry",
-      "section": "Generated reference",
-      "order": 133,
-      "path": "reference/json-object-types.md"
     },
     {
       "id": "eoc.overview",

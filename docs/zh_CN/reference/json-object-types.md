@@ -3,7 +3,7 @@
 id: reference.json-object-types
 title: JSON 对象类型注册表
 language: zh_CN
-status: active
+status: draft
 doc_type: generated-api
 audiences:
 - experienced-contributor
@@ -30,8 +30,8 @@ verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
 verified_at: '2026-08-12'
 generated: true
 generated_by: scripts/generate_json_eoc_reference.py
-include_in_search: true
-include_in_ai_index: true
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 093580aa01cee68d522f0ecc7d7249b4be0a0364912043fad42983125304c846
@@ -48,8 +48,9 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: null
-stale_reason: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1060
+stale_reason: CCB 1060 refreshes source inventory counts and fingerprints. Regenerate this reference from
+  the final merged source commit before publishing.
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/
@@ -67,6 +68,8 @@ source_urls:
 - path: src/init.cpp
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/init.cpp
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28reference.json-object-types%29%3A+&body=Document+ID%3A+reference.json-object-types%0ALanguage%3A+zh_CN%0AVerified+commit%3A+c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
 # JSON 对象类型注册表
