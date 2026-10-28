@@ -9591,21 +9591,23 @@
         "src/generic_factory.h",
         "tests/json_load_test.cpp",
         "doc/JSON/JSON_INHERITANCE.md",
-        "doc/JSON/JSON_STYLE.md"
+        "doc/JSON/JSON_STYLE.md",
+        "tools/agent/generate_lua_first_replacement_ledger.py",
+        "tools/agent/check_lua_first_replacement_ledger.py"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c",
+      "source_fingerprint": "be0cec4549bdc28a9da387ded44644be569fb32aef07b5801e43a2facd88c30e",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "c961002ea44c8d41372ce683fac2505f903e6eb6",
+      "verified_at": "2026-10-29",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3",
+      "translation_source_fingerprint": "0f7a263e0a5c1d706a2ef65f9540c275b000dce6a79fafee558b583202012a33",
       "prerequisites": [
         "json.overview"
       ],
@@ -9626,7 +9628,7 @@
       "deprecation_replacement": null,
       "risk_group": "json",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1067",
       "stale_reason": null,
       "path": "json/validation.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/"
@@ -9660,21 +9662,23 @@
         "src/generic_factory.h",
         "tests/json_load_test.cpp",
         "doc/JSON/JSON_INHERITANCE.md",
-        "doc/JSON/JSON_STYLE.md"
+        "doc/JSON/JSON_STYLE.md",
+        "tools/agent/generate_lua_first_replacement_ledger.py",
+        "tools/agent/check_lua_first_replacement_ledger.py"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c",
+      "source_fingerprint": "be0cec4549bdc28a9da387ded44644be569fb32aef07b5801e43a2facd88c30e",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "c961002ea44c8d41372ce683fac2505f903e6eb6",
+      "verified_at": "2026-10-29",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3",
+      "translation_source_fingerprint": "0f7a263e0a5c1d706a2ef65f9540c275b000dce6a79fafee558b583202012a33",
       "prerequisites": [
         "json.overview"
       ],
@@ -9695,7 +9699,7 @@
       "deprecation_replacement": null,
       "risk_group": "json",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1067",
       "stale_reason": null,
       "path": "json/validation.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/"
@@ -16871,7 +16875,7 @@
       "id": "json.validation",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-10-29",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
@@ -16882,7 +16886,7 @@
       "id": "json.validation",
       "language": "zh_CN",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-10-29",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
