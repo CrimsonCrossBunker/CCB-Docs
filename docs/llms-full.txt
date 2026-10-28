@@ -4855,8 +4855,8 @@ CCB 的 JSON 契约不是由一份万能 Schema 定义的。运行时加载器�
 ## json.validation [en] — JSON validation and evidence levels
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/
-Verified commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-Sources: data/reference/json/ccb_json_object_types.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/init.cpp, src/generic_factory.h, tests/json_load_test.cpp, doc/JSON/JSON_INHERITANCE.md, doc/JSON/JSON_STYLE.md
+Verified commit: c961002ea44c8d41372ce683fac2505f903e6eb6
+Sources: data/reference/json/ccb_json_object_types.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/init.cpp, src/generic_factory.h, tests/json_load_test.cpp, doc/JSON/JSON_INHERITANCE.md, doc/JSON/JSON_STYLE.md, tools/agent/generate_lua_first_replacement_ledger.py, tools/agent/check_lua_first_replacement_ledger.py
 
 # JSON validation and evidence levels
 
@@ -4893,15 +4893,24 @@ make -j2 json-check
 | `lexical_only` | Matching text exists in data or legacy prose | A minimal valid example, requiredness, or equal semantics |
 | `schema: none` | No general validator-backed Schema is recorded | That the loader performs no validation |
 
-The generator reads only tracked paths returned by `git ls-files` and pins coverage at
-190/275/306. Count changes must accompany registry/parser changes and a generated diff. Never edit
-the generated inventories or generated reference pages by hand.
+The generator reads only version-controlled paths returned by `git ls-files`. Inventories record registrations, source fingerprints, and observed data-instance counts. These changes have different meanings: item values, vehicle parts, and other JSON content can change a fingerprint or instance count without adding an object type or changing a field contract.
+
+After changing data or source read by the inventory, regenerate from the same revision, then run `--check` and the relevant tests. If the baseline inventory was already stale, distinguish the baseline census refresh from the behavior change in the PR. If the replacement ledger references those inventories, update its linked fingerprints through its generator afterward. Never edit generated inventories or reference pages by hand.
+
+```sh
+python3 tools/json_api/generate_contracts.py
+python3 tools/agent/generate_lua_first_replacement_ledger.py
+python3 tools/json_api/generate_contracts.py --check
+python3 tools/agent/check_lua_first_replacement_ledger.py
+```
+
+PRs that refresh inventories must still complete the documentation fields required by the current impact rules. Keep the companion documentation PR in draft until its source PR merges, then verify the final source commit. Generated checks do not establish gameplay acceptance.
 
 ## json.validation [zh_CN] — JSON 验证与证据等级
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/
-Verified commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-Sources: data/reference/json/ccb_json_object_types.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/init.cpp, src/generic_factory.h, tests/json_load_test.cpp, doc/JSON/JSON_INHERITANCE.md, doc/JSON/JSON_STYLE.md
+Verified commit: c961002ea44c8d41372ce683fac2505f903e6eb6
+Sources: data/reference/json/ccb_json_object_types.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/init.cpp, src/generic_factory.h, tests/json_load_test.cpp, doc/JSON/JSON_INHERITANCE.md, doc/JSON/JSON_STYLE.md, tools/agent/generate_lua_first_replacement_ledger.py, tools/agent/check_lua_first_replacement_ledger.py
 
 # JSON 验证与证据等级
 
@@ -4937,8 +4946,18 @@ make -j2 json-check
 | `lexical_only` | 数据或旧文档中有同名文本 | 最小示例有效、字段必填、语义相同 |
 | `schema: none` | 没有通用 validator-backed Schema | loader 不会验证 |
 
-生成器只读取 `git ls-files` 返回的 tracked 路径，并固定 190/275/306 的覆盖计数。计数变化
-必须伴随注册/解析器变化和生成 diff；不得手改生成清单或生成参考页。
+生成器只读取 `git ls-files` 返回的受版本控制路径。生成清单同时记录注册信息、源码指纹和数据实例统计；这些字段的变化并不等价。物品数值、载具部件或其他 JSON 内容修改也会改变指纹或实例计数，不应据此宣称新增了对象类型或改变了字段契约。
+
+修改数据或清单所读取的源码后，从同一份提交重新生成清单，再执行 `--check` 和相关测试。如果基线清单已经过期，应在 PR 中区分本次行为修改与基线统计刷新。若 replacement ledger 引用了这些清单，随后通过其生成器更新关联指纹。不得手改生成清单或生成参考页。
+
+```sh
+python3 tools/json_api/generate_contracts.py
+python3 tools/agent/generate_lua_first_replacement_ledger.py
+python3 tools/json_api/generate_contracts.py --check
+python3 tools/agent/check_lua_first_replacement_ledger.py
+```
+
+带有清单变化的 PR 仍需按当前文档影响规则填写关联文档。源码尚未合并时，关联文档 PR 保持草稿；源码合并后再核对最终提交，不能把生成检查通过当成游戏行为验收。
 
 ## maintenance.releases [en] — Release maintenance
 
