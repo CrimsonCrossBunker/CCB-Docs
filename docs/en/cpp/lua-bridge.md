@@ -104,7 +104,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396
+translation_source_fingerprint: ee942708a4d723b159e0b21a39a6fa7a84386aed5424cf2df55d1512bec0a975
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -842,3 +842,31 @@ The final combined working tree passes 511 migration-tool tests plus LuaLS, nati
 These checks do not replace native C++ execution, real JSON/EOC corpus acceptance or in-game interaction.
 The 586-entry ledger remains: one fully verified entry, 572 bounded implementations awaiting complete acceptance, and 13 reviewed as not applicable.
 This distribution is not a platform completion percentage and does not justify removing EOC.
+
+## Pending mounted-charge damage policy
+
+This draft section accompanies CCB source branch `feat/mounted-charge-lua-speed`.
+It must not be published as a released contract until the source PR merges and
+the page is refreshed to the final source commit.
+
+A Lua-authored `ccb.content.Technique` can select a mounted-charge damage policy
+with `charge_damage = "handler_id"` or `definition:charge_damage("handler_id")`.
+Register the handler with `ccb.runtime.handler` through `require("ccb")`.
+The handler receives a detached `CcbMountedChargeDamagePayload`: technique and
+weapon IDs, a typed rider handle, completed movement steps, current mount speed,
+the running-mode flag, and the weapon's damage type, per-step bonus and ceiling.
+Mount speed includes animal walk/trot modifiers; it is not measured tile velocity
+and does not include terrain, diagonal movement or movement-cost penalties.
+
+The core policy uses `min(5, completed_steps)` for run-up and `mount_speed / 300`
+for speed. Its multiplier is `min(max_multiplier, 1 + multiplier_per_step *
+min(5, completed_steps) * mount_speed / 300)`. Speed remains relevant after full
+run-up until the weapon ceiling is reached. Zero movement or nonpositive mount
+speed receives no bonus. Native code invokes the callback before the ordinary
+melee attack and scales only the weapon profile's configured damage type; Lua
+does not apply a separate post-hit damage event.
+
+The callback must return exactly one finite number. Native code clamps it to
+`1..max_multiplier`. Missing or unavailable handlers, callback errors, invalid
+results and Lua-disabled builds fall back to the same native speed-based formula.
+Movement, collision, armor, knockback, activity persistence and cleanup stay native.
