@@ -104,7 +104,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396
+translation_source_fingerprint: 2b1285f12ae20b237f874518f0a426c56f02771499566352dfd96d0387b08de9
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -119,8 +119,9 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
-pending_source_pr: null
-stale_reason: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1090
+stale_reason: Active technique cooldown additions await source PR 1090; keep draft until source merge
+  and verification refresh.
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/
@@ -259,6 +260,43 @@ search:
 ---
 
 # Native Lua bridge
+
+## 待合并：主动战技冷却
+
+本节对应源码 PR
+[CCB #1090](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1090)，
+不代表已合并版本的契约。配套文档 PR 必须保持草稿，等源码合并后再把本页的源码验证
+元数据刷新到最终提交。
+
+原生层在角色武术存档中按“角色＋战技 ID”保存下次可用时间，使用游戏日历计算剩余冷却，
+不按现实时间、按键次数或高速角色的行动次数倒计时。更换武术或武器不会重置冷却；
+不含冷却字段的旧存档仍兼容。普通攻击随机触发战技的机制不受影响。
+
+JSON 战技可声明 `"cooldown": "8 s"`。Lua `ccb.content.Technique` 可声明默认值为零的
+`cooldown_seconds`，以及可选的具名 `cooldown_duration` 处理器，也可通过
+`definition:cooldown_duration(handler_id)` 设置。处理器收到分离的
+`CcbTechniqueCooldownPayload`，其中包含类型化角色句柄、战技与武器 ID、基础冷却。
+处理器必须只返回一个位于 0..86400 游戏秒范围内的有限数值，向上取整到整秒；缺失、
+报错或返回非法结果时回退基础冷却。禁用 Lua 的构建使用原生基础值。
+时长处理器应无副作用，绘制菜单、说明或侧栏时不会调用它。
+
+普通战技在攻击实际执行后开始冷却，落空也计入；仅打开菜单或取消选目标不计入。
+骑乘冲锋在首次消耗移动点或执行攻击后开始冷却，此后取消不退款；继续或读档恢复同一次
+冲锋不会重新计时，也不会因为它自己的冷却而中止。原生数据与核心 Lua 替换均为骑乘冲锋
+配置了 10 游戏秒基础冷却。
+
+主动战技菜单保留暂不可用的项目，并显示原因或剩余时间。武器／武术布局中加入
+`technique_cooldowns` 组件：无冷却时隐藏，最多显示三个冷却中的战技，超出部分显示数量。
+终端与图形构建共用文字状态，不打断活动，也不弹出就绪提示。
+
+`ccb.services.martial_arts.technique_state(character, technique_id)` 返回 `CcbResult`，
+其分离快照包含 `available`、`reason`、`base_cooldown_seconds` 和 `remaining_seconds`。
+可用性描述能否启动动作，不替代目标合法性检查；修改快照不会改变原生冷却。
+战技定义快照另提供 `cooldown_seconds` 与 `dynamic_cooldown`。
+
+权威实现位于 `src/character_martial_arts.*`、`src/melee.cpp`、`src/activity_actor.cpp`、
+Platform v1 声明，以及 `[active_technique]`／`[mounted][charge]` 聚焦回归测试。
+只有完整测试套件构建后的 Linux 原生验收成功，才能宣称已完成玩法验证。
 
 ## 契约范围
 

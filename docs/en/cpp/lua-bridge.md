@@ -104,7 +104,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396
+translation_source_fingerprint: 2b1285f12ae20b237f874518f0a426c56f02771499566352dfd96d0387b08de9
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -119,8 +119,9 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
-pending_source_pr: null
-stale_reason: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1090
+stale_reason: Active technique cooldown additions await source PR 1090; keep draft until source merge
+  and verification refresh.
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/
 alternate_urls:
   zh: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/
@@ -259,6 +260,49 @@ search:
 ---
 
 # Native Lua bridge
+
+## Pending: active technique cooldowns
+
+This section describes source PR
+[CCB #1090](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1090),
+not a merged release contract. Keep the companion documentation PR draft until the source
+merges, then refresh this page's source verification to the final commit.
+
+Native code owns a per-character, per-technique ready-at timestamp in martial arts save data.
+Remaining recovery is derived from game calendar time, not real time, key presses, or the
+number of actions a fast character performs. Switching styles or weapons does not reset it;
+old saves without cooldown data remain compatible. Automatic technique procs are unaffected.
+
+JSON techniques accept `"cooldown": "8 s"`. Lua `ccb.content.Technique` definitions accept
+`cooldown_seconds` (default zero) and an optional named `cooldown_duration` handler, also
+available through `definition:cooldown_duration(handler_id)`. The handler receives a detached
+`CcbTechniqueCooldownPayload` with a typed character handle, technique/weapon IDs and the base
+duration. It returns exactly one finite number in 0..86400 game seconds, rounded up to whole
+seconds. Missing, invalid or erroring callbacks fall back to the base duration; Lua-disabled
+builds use the native base. Duration handlers should be side-effect-free and do not run when
+the menu, description or sidebar is drawn.
+
+Recovery starts after an attack actually executes, including a miss, not when the menu opens
+or target selection is cancelled. A mounted charge starts recovery on its first spent movement
+or executed attack; cancelling afterward does not refund it. Continuing or restoring that same
+charge does not reapply recovery or reject the activity because of its own cooldown. Mounted
+charge has a 10-second base cooldown in both native data and the core Lua replacement.
+
+The active-technique menu retains unavailable entries and displays their reason or remaining
+recovery. The `technique_cooldowns` widget is included in the weapon/style layout, hides when
+empty, and displays at most three recovering techniques plus an overflow count. Terminal and
+tile builds use the same text state. It does not interrupt activities or emit ready popups.
+
+`ccb.services.martial_arts.technique_state(character, technique_id)` returns a `CcbResult` whose
+detached value contains `available`, `reason`, `base_cooldown_seconds`, and `remaining_seconds`.
+Availability describes starting the action, not target-specific legality. Mutating the snapshot
+cannot change native recovery. Technique-definition snapshots additionally expose
+`cooldown_seconds` and `dynamic_cooldown`.
+
+Authoritative changes are in `src/character_martial_arts.*`, `src/melee.cpp`,
+`src/activity_actor.cpp`, the Platform v1 declarations, and the focused
+`[active_technique]` / `[mounted][charge]` regressions. A full-suite Linux native acceptance run
+is required before claiming gameplay validation.
 
 ## Contract boundary
 
