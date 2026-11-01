@@ -7380,7 +7380,7 @@ pages:
   translation_group: cpp.lua-bridge
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396
+  translation_source_fingerprint: 2b1285f12ae20b237f874518f0a426c56f02771499566352dfd96d0387b08de9
   prerequisites:
   - cpp.mod-loading
   depends_on: []
@@ -7395,8 +7395,8 @@ pages:
   deprecation_replacement: null
   risk_group: lua-api
   risk_level: high
-  pending_source_pr: null
-  stale_reason: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1090
+  stale_reason: Active technique cooldown additions await source PR 1090; keep draft until source merge and verification refresh.
   nav:
     section: C++ 子系统
     order: 119
@@ -7506,7 +7506,7 @@ pages:
   translation_group: cpp.lua-bridge
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396
+  translation_source_fingerprint: 2b1285f12ae20b237f874518f0a426c56f02771499566352dfd96d0387b08de9
   prerequisites:
   - cpp.mod-loading
   depends_on: []
@@ -7521,8 +7521,8 @@ pages:
   deprecation_replacement: null
   risk_group: lua-api
   risk_level: high
-  pending_source_pr: null
-  stale_reason: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1090
+  stale_reason: Active technique cooldown additions await source PR 1090; keep draft until source merge and verification refresh.
   nav:
     section: C++ subsystems
     order: 119
