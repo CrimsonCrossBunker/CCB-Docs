@@ -104,7 +104,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396
+translation_source_fingerprint: ee942708a4d723b159e0b21a39a6fa7a84386aed5424cf2df55d1512bec0a975
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -119,7 +119,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1086
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/
 alternate_urls:
@@ -746,3 +746,26 @@ JSON 冲突列表和用户默认 Mod 列表也解析旧 ID。它是同一核心�
 这些检查不替代 C++ 原生执行、真实 JSON/EOC 语料或游戏交互验收。
 586 项账本仍为：1 项完整验收、572 项限定范围实现但未完整验收、13 项已审查不适用。
 不得将该比例解释为平台完成百分比，也不得据此删除 EOC。
+
+## 待合并的骑乘冲锋伤害策略
+
+本草稿节对应 CCB 源码分支 `feat/mounted-charge-lua-speed`。源码 PR 合并前不得将其
+发布为已发行契约；合并后须刷新到最终源码提交。
+
+Lua 编写的 `ccb.content.Technique` 可通过 `charge_damage = "handler_id"` 或
+`definition:charge_damage("handler_id")` 选择骑乘冲锋伤害策略。行为入口仍仅为
+`require("ccb")`，使用 `ccb.runtime.handler` 注册处理器。处理器收到独立的
+`CcbMountedChargeDamagePayload` 快照：招式与武器 ID、带类型的骑手句柄、已完成的
+移动格数、当前坐骑速度、跑步模式标志，以及武器配置的伤害类型、每步加成和倍率上限。
+坐骑速度包含动物步行／小跑修正，但不是实测的格／秒，不包含地形、斜向移动和移动
+消耗惩罚。
+
+核心策略以 `min(5, completed_steps)` 表示助跑程度，以 `mount_speed / 300` 表示速度
+贡献；倍率为 `min(max_multiplier, 1 + multiplier_per_step * min(5, completed_steps)
+* mount_speed / 300)`。充分助跑后，速度仍影响加成，直到达到武器倍率上限。
+未移动或坐骑速度不为正时不加成。原生代码在正常近战攻击前调用处理器，只缩放武器
+冲锋配置指定的伤害类型；Lua 不会在命中后另扣一次血。
+
+处理器必须仅返回一个有限数值，原生代码将其限制在 `1..max_multiplier`。
+处理器缺失或不可用、脚本报错、返回值非法以及禁用 Lua 的构建，均回退到相同的原生
+速度公式。移动、碰撞、护甲、击退、活动存档和清理仍由原生代码负责。
