@@ -4581,7 +4581,7 @@ pages:
   translation_group: json.validation
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3
+  translation_source_fingerprint: bb47406138df23f9de3fc5e2fa2de55f1a2715eb3e1b7ef6264ba08183416aab
   prerequisites: &id219
   - json.overview
   depends_on: &id220
@@ -4629,7 +4629,7 @@ pages:
   translation_group: json.validation
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3
+  translation_source_fingerprint: bb47406138df23f9de3fc5e2fa2de55f1a2715eb3e1b7ef6264ba08183416aab
   prerequisites: *id219
   depends_on: *id220
   redirect_from: *id214
@@ -7395,7 +7395,7 @@ pages:
   deprecation_replacement: null
   risk_group: lua-api
   risk_level: high
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1115
   stale_reason: null
   nav:
     section: C++ 子系统
@@ -7521,7 +7521,7 @@ pages:
   deprecation_replacement: null
   risk_group: lua-api
   risk_level: high
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1115
   stale_reason: null
   nav:
     section: C++ subsystems
