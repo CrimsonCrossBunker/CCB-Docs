@@ -104,7 +104,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396
+translation_source_fingerprint: 8d26b93a352e0883efbc6a6cf017a83f2d9a7776463e4c3ad05a3633700122a0
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -450,6 +450,19 @@ Platform 表。加载原生模块要求匹配宿主的系统、架构与 Lua C A
 加载错误保留 Mod、阶段、文件与 Lua 原始错误。回调错误增加事件／钩子名称；任务错误增加
 任务 ID、作用域和到期回合，便于定位同一 handler 的不同调用实例。Platform 回滚不保证撤销
 可信 Lua 代码对用户文件、系统或外部服务造成的副作用。
+
+### 待合并：Windows 文件路径回归修复
+
+源码分支 `fix/broad-runtime-regressions` 的加载器修复尚待合并。它通过原生文件系统路径
+读取元数据、入口脚本和 Mod 本地 `require` 文件，再交给 Lua 编译，避免 Windows 的窄字符
+文件打开接口无法读取非 ASCII 路径。UTF-8 BOM 和首行 shebang 的处理保留原始错误行号；
+Lua 错误仍使用带原始路径的 `@` chunk 名。完整标准库和普通 package 搜索器保持开放，
+这不是沙箱或新的公共 API。
+
+随附回归使用临时 Mod 和新建测试世界，不读取玩家原存档。加载器路径／文件前导回归、
+压缩存档读写及维度切换需要分别验证；加载器测试通过不代表所有游戏平衡测试通过。
+本节为待合并说明，不提升本页既有 `verified_commit`；源码合并后，刷新来源与验证记录，
+再合并文档 PR。
 
 ### 游戏内脚本重载
 

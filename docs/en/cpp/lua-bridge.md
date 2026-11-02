@@ -104,7 +104,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396
+translation_source_fingerprint: 8d26b93a352e0883efbc6a6cf017a83f2d9a7776463e4c3ad05a3633700122a0
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -478,6 +478,22 @@ Load errors preserve owner, stage, source path and original Lua error. Callback
 errors name the triggering event/hook; task errors include task ID, scope and due
 turn, distinguishing uses of the same handler. Platform rollback cannot undo
 trusted Lua code's side effects on user files, the OS or external services.
+
+### Pending: Windows file-path regression fix
+
+The loader fix on source branch `fix/broad-runtime-regressions` is pending merge.
+It reads metadata, entry scripts and Mod-local `require` files through native
+filesystem paths before passing their contents to Lua, avoiding Windows narrow-character
+file-opening failures for non-ASCII paths. UTF-8 BOM and first-line shebang handling
+preserve original error line numbers; Lua errors retain the original path in an
+`@` chunk name. Full standard libraries and ordinary package searchers remain open;
+this is neither a sandbox nor a new public API.
+
+The regression fixtures use temporary Mods and newly created test worlds, not player
+saves. Loader path/preamble checks, compressed-save IO and dimension transitions need
+separate validation; passing loader tests does not imply passing every game-balance test.
+This pending section does not advance the page's existing `verified_commit`. Refresh
+sources and verification records after the source merges, before merging the docs PR.
 
 ### Reload scripts inside the game
 
