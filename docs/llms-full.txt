@@ -4766,6 +4766,17 @@ behaviour; `DynamicDataLoader` registrations define top-level `type` dispatch; s
 validators, and generated inventories record the subset that machines can prove. Legacy prose
 and data examples are leads, not overrides for those contracts.
 
+## Content contracts and save metadata
+
+The object-type inventory on this page covers content-loading entry points. JSON in world saves,
+character saves, and multiplayer messages belongs to the corresponding persistence or protocol
+format. Using JSON does not make it a top-level `type` that a Mod can place in its data directory,
+and does not imply support for `copy-from`.
+
+Changes to such internal metadata need save, load, legacy-data migration, and relevant multiplayer
+checks. Determine public JSON contract impact from content registrations and generated inventories,
+not just a file extension or source filename.
+
 ## Current machine coverage
 
 - The [JSON object-type registry](../reference/json-object-types.md) indexes 190 unique
@@ -4816,6 +4827,15 @@ Sources: data/reference/json/ccb_json_object_types.json, tools/json_api/contract
 CCB 的 JSON 契约不是由一份万能 Schema 定义的。运行时加载器和测试决定行为；
 `DynamicDataLoader` 注册决定顶层 `type` 的分派；Schema、验证器和生成清单记录能够
 被机器证明的部分。旧文档和数据样例可以提供线索，但不能覆盖这些契约。
+
+## 内容契约与存档元数据
+
+本页的对象类型清单覆盖内容加载入口。世界存档、角色存档和联机会话消息中的 JSON
+属于各自的持久化或协议格式；使用 JSON 不会使它们成为可放入 Mod 数据目录的顶层
+`type`，也不意味着它们支持 `copy-from`。
+
+调整这类内部元数据时，应验证保存、载入、旧数据迁移和相关联机边界。是否改变了公共
+JSON 契约，要检查内容注册和生成清单，不能仅凭文件扩展名或源码文件名判断。
 
 ## 当前机器覆盖
 

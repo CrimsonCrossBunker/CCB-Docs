@@ -9473,7 +9473,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c",
+      "translation_source_fingerprint": "92476b5dda72d4810454cdedb6e57e9801636a67cbb5f9e9f01166b1a427a135",
       "prerequisites": [
         "architecture.project-map"
       ],
@@ -9539,7 +9539,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c",
+      "translation_source_fingerprint": "92476b5dda72d4810454cdedb6e57e9801636a67cbb5f9e9f01166b1a427a135",
       "prerequisites": [
         "architecture.project-map"
       ],
