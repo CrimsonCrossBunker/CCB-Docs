@@ -46,6 +46,7 @@ class RetiredLuaPagesTests(unittest.TestCase):
             self.assertNotIn(page["id"], nav_ids)
             body = render_body(page)
             self.assertIn("v1/overview.md", body)
+            self.assertNotIn("\\", body)
             self.assertIn('/CCB-Docs/blob/', body)
             self.assertNotIn("```lua", body)
         self.assertEqual(synchronize(self.catalog, check=True), [])
@@ -115,7 +116,7 @@ class RetiredLuaPagesTests(unittest.TestCase):
                 (root / ".build/logs").mkdir(parents=True)
                 binary = root / "fake-ccb"
                 binary.write_text(
-                    f"#!{sys.executable}\n"
+                    f"#!{Path(sys.executable).as_posix()}\n"
                     "import os, pathlib, sys\n"
                     "main = pathlib.Path(os.environ['CCB_RUNTIME_USER_DIR']) / "
                     "'mods/ccb_docs_lua_example/main.lua'\n"
