@@ -4364,6 +4364,126 @@ pages:
   pending_source_pr: null
   stale_reason: null
   nav: *id205
+- id: json.martial-grappling
+  title: 主动武术擒抱战技
+  language: zh_CN
+  path: json/martial-grappling.md
+  status: draft
+  doc_type: reference
+  audiences:
+  - mod-author
+  - player
+  - maintainer
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 90
+  last_human_reviewer: Pending review
+  source_paths:
+  - data/json/martial_grappling.json
+  - data/json/martialarts.json
+  - src/martialarts.h
+  - src/martialarts.cpp
+  - src/melee.cpp
+  - src/monster.cpp
+  - src/avatar_action.cpp
+  - tests/martial_grappling_test.cpp
+  source_symbols:
+  - use_grapple_technique
+  - grapple_cooldown_effect
+  source_queries: []
+  source_fingerprint: 3fea3da996506b145f5a008d65da1c90ff8dbd01a936b76daf87150bfc734f2a
+  authority: source-and-tests
+  verified_commit: 603cd50217c18f1ba9b4fab50d25fb0d46216dd1
+  verified_at: '2026-11-04'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: json.martial-grappling
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: aa749873f5ff8e39ca1fec84deb1b60c6dfc454886c12480e9d23eff14fc830f
+  prerequisites:
+  - json.overview
+  depends_on:
+  - reference.json-object-types
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; gameplay design inspired by CTLG monster dragging.
+  example_validation_ids: []
+  api_version: null
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: martial-arts
+  risk_level: normal
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: JSON
+    order: 134
+- id: json.martial-grappling
+  title: Active martial-arts grappling
+  language: en
+  path: json/martial-grappling.md
+  status: draft
+  doc_type: reference
+  audiences:
+  - mod-author
+  - player
+  - maintainer
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 90
+  last_human_reviewer: Pending review
+  source_paths:
+  - data/json/martial_grappling.json
+  - data/json/martialarts.json
+  - src/martialarts.h
+  - src/martialarts.cpp
+  - src/melee.cpp
+  - src/monster.cpp
+  - src/avatar_action.cpp
+  - tests/martial_grappling_test.cpp
+  source_symbols:
+  - use_grapple_technique
+  - grapple_cooldown_effect
+  source_queries: []
+  source_fingerprint: 3fea3da996506b145f5a008d65da1c90ff8dbd01a936b76daf87150bfc734f2a
+  authority: source-and-tests
+  verified_commit: 603cd50217c18f1ba9b4fab50d25fb0d46216dd1
+  verified_at: '2026-11-04'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: json.martial-grappling
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: aa749873f5ff8e39ca1fec84deb1b60c6dfc454886c12480e9d23eff14fc830f
+  prerequisites:
+  - json.overview
+  depends_on:
+  - reference.json-object-types
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; gameplay design inspired by CTLG monster dragging.
+  example_validation_ids: []
+  api_version: null
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: martial-arts
+  risk_level: normal
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: JSON
+    order: 134
 - id: json.overview
   title: JSON 契约总览
   language: zh_CN
