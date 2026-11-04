@@ -4395,7 +4395,7 @@ pages:
   source_queries: []
   source_fingerprint: 3fea3da996506b145f5a008d65da1c90ff8dbd01a936b76daf87150bfc734f2a
   authority: source-and-tests
-  verified_commit: 603cd50217c18f1ba9b4fab50d25fb0d46216dd1
+  verified_commit: ea3f2261449fe04c994b2591ae0687a6fdb37c1d
   verified_at: '2026-11-04'
   generated: false
   generated_by: null
@@ -4455,7 +4455,7 @@ pages:
   source_queries: []
   source_fingerprint: 3fea3da996506b145f5a008d65da1c90ff8dbd01a936b76daf87150bfc734f2a
   authority: source-and-tests
-  verified_commit: 603cd50217c18f1ba9b4fab50d25fb0d46216dd1
+  verified_commit: ea3f2261449fe04c994b2591ae0687a6fdb37c1d
   verified_at: '2026-11-04'
   generated: false
   generated_by: null
