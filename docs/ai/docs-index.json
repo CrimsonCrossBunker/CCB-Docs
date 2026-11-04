@@ -9491,7 +9491,7 @@
       "deprecation_replacement": null,
       "risk_group": "martial-arts",
       "risk_level": "normal",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1166",
       "stale_reason": null,
       "path": "json/martial-grappling.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/martial-grappling/"
@@ -9557,7 +9557,7 @@
       "deprecation_replacement": null,
       "risk_group": "martial-arts",
       "risk_level": "normal",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1166",
       "stale_reason": null,
       "path": "json/martial-grappling.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/martial-grappling/"

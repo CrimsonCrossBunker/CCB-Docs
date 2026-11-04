@@ -4419,7 +4419,7 @@ pages:
   deprecation_replacement: null
   risk_group: martial-arts
   risk_level: normal
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1166
   stale_reason: null
   nav:
     section: JSON
@@ -4479,7 +4479,7 @@ pages:
   deprecation_replacement: null
   risk_group: martial-arts
   risk_level: normal
-  pending_source_pr: null
+  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1166
   stale_reason: null
   nav:
     section: JSON
