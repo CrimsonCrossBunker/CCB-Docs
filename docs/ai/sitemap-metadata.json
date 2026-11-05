@@ -1386,28 +1386,6 @@
     }
   },
   {
-    "id": "reference.eoc-effects",
-    "language": "en",
-    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/",
-    "last_verified": "2026-08-12",
-    "status": "active",
-    "alternate": {
-      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
-      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/"
-    }
-  },
-  {
-    "id": "reference.eoc-effects",
-    "language": "zh_CN",
-    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
-    "last_verified": "2026-08-12",
-    "status": "active",
-    "alternate": {
-      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
-      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/"
-    }
-  },
-  {
     "id": "reference.json-object-types",
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/",

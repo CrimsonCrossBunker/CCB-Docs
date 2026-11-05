@@ -3,7 +3,7 @@
 id: reference.eoc-effects
 title: EOC 效果注册表
 language: zh_CN
-status: active
+status: draft
 doc_type: generated-api
 audiences:
 - experienced-contributor
@@ -31,8 +31,8 @@ verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
 verified_at: '2026-08-12'
 generated: true
 generated_by: scripts/generate_json_eoc_reference.py
-include_in_search: true
-include_in_ai_index: true
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 0b0600c0494b57218f60c7346aa6a20a2a0e995fb71a330e374920c5e3d1e19a
@@ -49,7 +49,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: eoc
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1202
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/
 alternate_urls:
@@ -68,6 +68,8 @@ source_urls:
 - path: src/npctalk.cpp
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/npctalk.cpp
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28reference.eoc-effects%29%3A+&body=Document+ID%3A+reference.eoc-effects%0ALanguage%3A+zh_CN%0AVerified+commit%3A+c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
 # EOC 效果注册表
