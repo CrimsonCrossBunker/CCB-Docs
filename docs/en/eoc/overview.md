@@ -32,9 +32,9 @@ source_paths:
 - tests/dialogue_activity_test.cpp
 source_symbols: []
 source_queries: []
-source_fingerprint: b666e6cc29e52c9d14b07bb788654d0c0fa8132e4f186a73ce6971aa5d78bc39
+source_fingerprint: 407ced84a480cf772fe2a308d3143d4e7e255a8db409aa68768654bda977cf1c
 authority: api-contract
-verified_commit: f3effe4bdf2522e93543ef0bc71e9d39bc07f3cf
+verified_commit: 3839ccc812a4067571847c42b41d3eac7e68393a
 verified_at: '2026-11-06'
 generated: false
 generated_by: null
@@ -66,33 +66,33 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/f3effe4bdf2522e93543ef0bc71e9d39bc07f3cf
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/3839ccc812a4067571847c42b41d3eac7e68393a
 source_urls:
 - path: data/reference/json/ccb_eoc_conditions.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f3effe4bdf2522e93543ef0bc71e9d39bc07f3cf/data/reference/json/ccb_eoc_conditions.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3839ccc812a4067571847c42b41d3eac7e68393a/data/reference/json/ccb_eoc_conditions.json
 - path: data/reference/json/ccb_eoc_effects.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f3effe4bdf2522e93543ef0bc71e9d39bc07f3cf/data/reference/json/ccb_eoc_effects.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3839ccc812a4067571847c42b41d3eac7e68393a/data/reference/json/ccb_eoc_effects.json
 - path: tools/json_api/contract-inventory.schema.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f3effe4bdf2522e93543ef0bc71e9d39bc07f3cf/tools/json_api/contract-inventory.schema.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3839ccc812a4067571847c42b41d3eac7e68393a/tools/json_api/contract-inventory.schema.json
 - path: tools/json_api/generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f3effe4bdf2522e93543ef0bc71e9d39bc07f3cf/tools/json_api/generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3839ccc812a4067571847c42b41d3eac7e68393a/tools/json_api/generate_contracts.py
 - path: tools/json_api/test_generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f3effe4bdf2522e93543ef0bc71e9d39bc07f3cf/tools/json_api/test_generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3839ccc812a4067571847c42b41d3eac7e68393a/tools/json_api/test_generate_contracts.py
 - path: src/condition.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f3effe4bdf2522e93543ef0bc71e9d39bc07f3cf/src/condition.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3839ccc812a4067571847c42b41d3eac7e68393a/src/condition.cpp
 - path: src/npctalk.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f3effe4bdf2522e93543ef0bc71e9d39bc07f3cf/src/npctalk.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3839ccc812a4067571847c42b41d3eac7e68393a/src/npctalk.cpp
 - path: src/effect_on_condition.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f3effe4bdf2522e93543ef0bc71e9d39bc07f3cf/src/effect_on_condition.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3839ccc812a4067571847c42b41d3eac7e68393a/src/effect_on_condition.cpp
 - path: src/effect_on_condition.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f3effe4bdf2522e93543ef0bc71e9d39bc07f3cf/src/effect_on_condition.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3839ccc812a4067571847c42b41d3eac7e68393a/src/effect_on_condition.h
 - path: tests/eoc_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f3effe4bdf2522e93543ef0bc71e9d39bc07f3cf/tests/eoc_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3839ccc812a4067571847c42b41d3eac7e68393a/tests/eoc_test.cpp
 - path: doc/JSON/EFFECT_ON_CONDITION.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f3effe4bdf2522e93543ef0bc71e9d39bc07f3cf/doc/JSON/EFFECT_ON_CONDITION.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3839ccc812a4067571847c42b41d3eac7e68393a/doc/JSON/EFFECT_ON_CONDITION.md
 - path: tests/dialogue_activity_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f3effe4bdf2522e93543ef0bc71e9d39bc07f3cf/tests/dialogue_activity_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28eoc.overview%29%3A+&body=Document+ID%3A+eoc.overview%0ALanguage%3A+en%0AVerified+commit%3A+f3effe4bdf2522e93543ef0bc71e9d39bc07f3cf%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/3839ccc812a4067571847c42b41d3eac7e68393a/tests/dialogue_activity_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28eoc.overview%29%3A+&body=Document+ID%3A+eoc.overview%0ALanguage%3A+en%0AVerified+commit%3A+3839ccc812a4067571847c42b41d3eac7e68393a%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---
@@ -100,8 +100,8 @@ search:
 # EOC contracts and lifecycle
 
 An EOC (effect on condition) combines condition parsing, effect parsing, and a trigger lifecycle.
-The machine inventories currently index [275 condition keys](../reference/eoc-conditions.md) and
-[310 effect keys](../reference/eoc-effects.md). Registration coverage is complete while
+The machine inventories currently index [276 condition keys](../reference/eoc-conditions.md) and
+[329 effect keys](../reference/eoc-effects.md). Registration coverage is complete while
 handler-level parameter classification remains incomplete.
 
 ## The `effect_on_condition` object
@@ -126,9 +126,9 @@ different trigger paths, which must be checked in the corresponding source and t
   an unknown string condition becomes a predicate that returns false.
 - Effect containers accept a string, object, or array and also use first-match dispatch; an unknown
   effect throws `JsonError`.
-- Only the logical `and`, `or`, and `not` condition keys are fully classified; the other 272 are
+- Only the logical `and`, `or`, and `not` condition keys are fully classified; the other 273 are
   `partial`.
-- All 310 effect keys are `partial`. This does not mean they are unusable. It means parameters,
+- All 329 effect keys are `partial`. This does not mean they are unusable. It means parameters,
   defaults, nesting, talkers, variables, or context do not yet have complete source classification.
 
 Continue with [talker routing](talkers.md), [variables and context](variables-context.md), and

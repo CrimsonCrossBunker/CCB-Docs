@@ -4780,9 +4780,9 @@ pages:
   - tests/dialogue_activity_test.cpp
   source_symbols: &id237 []
   source_queries: &id238 []
-  source_fingerprint: b666e6cc29e52c9d14b07bb788654d0c0fa8132e4f186a73ce6971aa5d78bc39
+  source_fingerprint: 407ced84a480cf772fe2a308d3143d4e7e255a8db409aa68768654bda977cf1c
   authority: api-contract
-  verified_commit: f3effe4bdf2522e93543ef0bc71e9d39bc07f3cf
+  verified_commit: 3839ccc812a4067571847c42b41d3eac7e68393a
   verified_at: '2026-11-06'
   generated: false
   generated_by: null
@@ -4827,9 +4827,9 @@ pages:
   source_paths: *id236
   source_symbols: *id237
   source_queries: *id238
-  source_fingerprint: b666e6cc29e52c9d14b07bb788654d0c0fa8132e4f186a73ce6971aa5d78bc39
+  source_fingerprint: 407ced84a480cf772fe2a308d3143d4e7e255a8db409aa68768654bda977cf1c
   authority: api-contract
-  verified_commit: f3effe4bdf2522e93543ef0bc71e9d39bc07f3cf
+  verified_commit: 3839ccc812a4067571847c42b41d3eac7e68393a
   verified_at: '2026-11-06'
   generated: false
   generated_by: null
