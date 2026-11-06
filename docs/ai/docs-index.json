@@ -8164,7 +8164,8 @@
         "src/effect_on_condition.cpp",
         "src/effect_on_condition.h",
         "tests/eoc_test.cpp",
-        "doc/JSON/EFFECT_ON_CONDITION.md"
+        "doc/JSON/EFFECT_ON_CONDITION.md",
+        "tests/dialogue_activity_test.cpp"
       ],
       "source_symbols": [],
       "source_queries": [],
@@ -8232,7 +8233,8 @@
         "src/effect_on_condition.cpp",
         "src/effect_on_condition.h",
         "tests/eoc_test.cpp",
-        "doc/JSON/EFFECT_ON_CONDITION.md"
+        "doc/JSON/EFFECT_ON_CONDITION.md",
+        "tests/dialogue_activity_test.cpp"
       ],
       "source_symbols": [],
       "source_queries": [],
@@ -8272,7 +8274,7 @@
       "id": "eoc.overview",
       "title": "EOC contracts and lifecycle",
       "language": "en",
-      "status": "active",
+      "status": "draft",
       "doc_type": "explanation",
       "audiences": [
         "new-contributor",
@@ -8300,21 +8302,22 @@
         "src/effect_on_condition.cpp",
         "src/effect_on_condition.h",
         "tests/eoc_test.cpp",
-        "doc/JSON/EFFECT_ON_CONDITION.md"
+        "doc/JSON/EFFECT_ON_CONDITION.md",
+        "tests/dialogue_activity_test.cpp"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e",
+      "source_fingerprint": "b666e6cc29e52c9d14b07bb788654d0c0fa8132e4f186a73ce6971aa5d78bc39",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "f3effe4bdf2522e93543ef0bc71e9d39bc07f3cf",
+      "verified_at": "2026-11-06",
       "generated": false,
       "generated_by": null,
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "6ade8b771f3f8e8fda9e53cded6b0c1893f6023f1cd6a65c7be38ffa2b8f1146",
+      "translation_source_fingerprint": "a70a41453cb12a9f518263a2f24b31ea6d7762a0c73e821ee900746222e8a436",
       "prerequisites": [
         "json.overview"
       ],
@@ -8332,7 +8335,7 @@
       "deprecation_replacement": null,
       "risk_group": "eoc",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1210",
       "stale_reason": null,
       "path": "eoc/overview.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/"
@@ -8341,7 +8344,7 @@
       "id": "eoc.overview",
       "title": "EOC 契约与生命周期",
       "language": "zh_CN",
-      "status": "active",
+      "status": "draft",
       "doc_type": "explanation",
       "audiences": [
         "new-contributor",
@@ -8369,21 +8372,22 @@
         "src/effect_on_condition.cpp",
         "src/effect_on_condition.h",
         "tests/eoc_test.cpp",
-        "doc/JSON/EFFECT_ON_CONDITION.md"
+        "doc/JSON/EFFECT_ON_CONDITION.md",
+        "tests/dialogue_activity_test.cpp"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e",
+      "source_fingerprint": "b666e6cc29e52c9d14b07bb788654d0c0fa8132e4f186a73ce6971aa5d78bc39",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "f3effe4bdf2522e93543ef0bc71e9d39bc07f3cf",
+      "verified_at": "2026-11-06",
       "generated": false,
       "generated_by": null,
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "6ade8b771f3f8e8fda9e53cded6b0c1893f6023f1cd6a65c7be38ffa2b8f1146",
+      "translation_source_fingerprint": "a70a41453cb12a9f518263a2f24b31ea6d7762a0c73e821ee900746222e8a436",
       "prerequisites": [
         "json.overview"
       ],
@@ -8401,7 +8405,7 @@
       "deprecation_replacement": null,
       "risk_group": "eoc",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1210",
       "stale_reason": null,
       "path": "eoc/overview.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/"
@@ -8438,7 +8442,8 @@
         "src/effect_on_condition.cpp",
         "src/effect_on_condition.h",
         "tests/eoc_test.cpp",
-        "doc/JSON/EFFECT_ON_CONDITION.md"
+        "doc/JSON/EFFECT_ON_CONDITION.md",
+        "tests/dialogue_activity_test.cpp"
       ],
       "source_symbols": [],
       "source_queries": [],
@@ -8507,7 +8512,8 @@
         "src/effect_on_condition.cpp",
         "src/effect_on_condition.h",
         "tests/eoc_test.cpp",
-        "doc/JSON/EFFECT_ON_CONDITION.md"
+        "doc/JSON/EFFECT_ON_CONDITION.md",
+        "tests/dialogue_activity_test.cpp"
       ],
       "source_symbols": [],
       "source_queries": [],
@@ -8576,7 +8582,8 @@
         "src/effect_on_condition.cpp",
         "src/effect_on_condition.h",
         "tests/eoc_test.cpp",
-        "doc/JSON/EFFECT_ON_CONDITION.md"
+        "doc/JSON/EFFECT_ON_CONDITION.md",
+        "tests/dialogue_activity_test.cpp"
       ],
       "source_symbols": [],
       "source_queries": [],
@@ -8644,7 +8651,8 @@
         "src/effect_on_condition.cpp",
         "src/effect_on_condition.h",
         "tests/eoc_test.cpp",
-        "doc/JSON/EFFECT_ON_CONDITION.md"
+        "doc/JSON/EFFECT_ON_CONDITION.md",
+        "tests/dialogue_activity_test.cpp"
       ],
       "source_symbols": [],
       "source_queries": [],
@@ -14249,7 +14257,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/vehicles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/nesting/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/variables-context/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/common-tasks/",
@@ -14286,7 +14293,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/testing/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/nesting/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/common-tasks/",
@@ -14389,7 +14395,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/vehicles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/nesting/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/variables-context/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/common-tasks/",
@@ -14426,7 +14431,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/testing/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/nesting/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/common-tasks/",
@@ -14529,7 +14533,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/vehicles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/nesting/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/variables-context/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/common-tasks/",
@@ -14566,7 +14569,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/quickstart/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/testing/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/nesting/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/common-tasks/",
@@ -14670,12 +14672,14 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/core-dev-guide/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/native-binding-guide/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/items/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/",
@@ -15184,13 +15188,6 @@
         "section": "生成参考",
         "order": 133,
         "path": "reference/json-object-types.md"
-      },
-      {
-        "id": "eoc.overview",
-        "title": "EOC 契约与生命周期",
-        "section": "EOC",
-        "order": 140,
-        "path": "eoc/overview.md"
       },
       {
         "id": "eoc.talkers",
@@ -15739,13 +15736,6 @@
         "section": "Generated reference",
         "order": 133,
         "path": "reference/json-object-types.md"
-      },
-      {
-        "id": "eoc.overview",
-        "title": "EOC contracts and lifecycle",
-        "section": "EOC",
-        "order": 140,
-        "path": "eoc/overview.md"
       },
       {
         "id": "eoc.talkers",
@@ -16645,28 +16635,6 @@
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/nesting/",
         "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/nesting/"
-      }
-    },
-    {
-      "id": "eoc.overview",
-      "language": "en",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/",
-      "last_verified": "2026-08-12",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/"
-      }
-    },
-    {
-      "id": "eoc.overview",
-      "language": "zh_CN",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/",
-      "last_verified": "2026-08-12",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/"
       }
     },
     {
