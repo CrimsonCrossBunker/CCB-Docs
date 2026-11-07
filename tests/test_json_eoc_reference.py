@@ -54,7 +54,7 @@ class JsonEocReferenceTests(unittest.TestCase):
     def test_generated_pages_share_exact_source_commit(self) -> None:
         self.assertEqual(
             catalog_source_commit(),
-            "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
+            "7eec168e0177181990aaa9ebb5e774172d004522",
         )
 
     def test_example_fixture_uses_registered_contract_keys(self) -> None:
