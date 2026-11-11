@@ -3,7 +3,7 @@
 id: eoc.talkers
 title: EOC Talker 与 alpha/beta 路由
 language: zh_CN
-status: active
+status: draft
 doc_type: explanation
 audiences:
 - new-contributor
@@ -37,11 +37,11 @@ verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
 verified_at: '2026-08-12'
 generated: false
 generated_by: null
-include_in_search: true
-include_in_ai_index: true
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 633c116b8ceb25994926cb0d914dc6f0b5623695fae7fddbefd46996ec0cf860
+translation_source_fingerprint: 0492eb6aa2eed7152e6a193a75d8762bc8ca7197e9ac36a5836560a30dc78751
 prerequisites:
 - eoc.overview
 depends_on:
@@ -90,6 +90,8 @@ source_urls:
 - path: doc/JSON/EFFECT_ON_CONDITION.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/doc/JSON/EFFECT_ON_CONDITION.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28eoc.talkers%29%3A+&body=Document+ID%3A+eoc.talkers%0ALanguage%3A+zh_CN%0AVerified+commit%3A+c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
 # EOC Talker 与 alpha/beta 路由
@@ -111,6 +113,17 @@ EOC 条件和效果在 dialogue 上下文中操作 alpha/beta talker。历史键
 3. 阅读触发 EOC 的调用点，确认事件或父 EOC 怎样构造 dialogue。
 4. 如果发生 talker 交换或嵌套调用，分别测试两个方向。
 5. 不要仅凭 `u_`/`npc_` 名称写入“玩家专用”或“NPC 专用”文档。
+
+## 特性描述标签
+
+`<trait_description:ID>` 在 beta 是 Character 时使用 beta 的特性变体；否则，
+在 alpha 是 Character 时使用 alpha 的特性变体。两者都不是 Character 时使用特性
+的基础描述。选中的 Character 没有对应变体时也使用基础描述，不会继续查找另一方的
+变体。特性 ID 可以由嵌套标签提供。
+
+因此，仅提供话题的对话和怪物 talker 不需要 Character 接口也能渲染这个标签。
+实现位于 `src/npctalk.cpp` 的 `parse_tags`，参与者类型和变体选择由
+`tests/npc_talk_test.cpp` 的 `trait_description_tags_resolve_character_context` 验证。
 
 ## 失败模式
 

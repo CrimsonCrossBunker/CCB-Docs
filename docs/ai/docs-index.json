@@ -8410,7 +8410,7 @@
       "id": "eoc.talkers",
       "title": "EOC talkers and alpha/beta routing",
       "language": "en",
-      "status": "active",
+      "status": "draft",
       "doc_type": "explanation",
       "audiences": [
         "new-contributor",
@@ -8448,11 +8448,11 @@
       "verified_at": "2026-08-12",
       "generated": false,
       "generated_by": null,
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "633c116b8ceb25994926cb0d914dc6f0b5623695fae7fddbefd46996ec0cf860",
+      "translation_source_fingerprint": "0492eb6aa2eed7152e6a193a75d8762bc8ca7197e9ac36a5836560a30dc78751",
       "prerequisites": [
         "eoc.overview"
       ],
@@ -8479,7 +8479,7 @@
       "id": "eoc.talkers",
       "title": "EOC Talker 与 alpha/beta 路由",
       "language": "zh_CN",
-      "status": "active",
+      "status": "draft",
       "doc_type": "explanation",
       "audiences": [
         "new-contributor",
@@ -8517,11 +8517,11 @@
       "verified_at": "2026-08-12",
       "generated": false,
       "generated_by": null,
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "633c116b8ceb25994926cb0d914dc6f0b5623695fae7fddbefd46996ec0cf860",
+      "translation_source_fingerprint": "0492eb6aa2eed7152e6a193a75d8762bc8ca7197e9ac36a5836560a30dc78751",
       "prerequisites": [
         "eoc.overview"
       ],
@@ -14250,7 +14250,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/vehicles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/nesting/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/variables-context/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/common-tasks/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/experienced-index/",
@@ -14287,7 +14286,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/testing/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/nesting/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/common-tasks/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/experienced-index/",
@@ -14390,7 +14388,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/vehicles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/nesting/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/variables-context/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/common-tasks/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/experienced-index/",
@@ -14427,7 +14424,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/testing/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/nesting/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/common-tasks/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/experienced-index/",
@@ -14530,7 +14526,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/vehicles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/nesting/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/variables-context/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/common-tasks/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/experienced-index/",
@@ -14567,7 +14562,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/validation/testing/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/nesting/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/common-tasks/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/getting-started/experienced-index/",
@@ -14670,12 +14664,14 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/core-dev-guide/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/native-binding-guide/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/items/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/",
@@ -15191,13 +15187,6 @@
         "section": "EOC",
         "order": 140,
         "path": "eoc/overview.md"
-      },
-      {
-        "id": "eoc.talkers",
-        "title": "EOC Talker 与 alpha/beta 路由",
-        "section": "EOC",
-        "order": 141,
-        "path": "eoc/talkers.md"
       },
       {
         "id": "eoc.variables-context",
@@ -15746,13 +15735,6 @@
         "section": "EOC",
         "order": 140,
         "path": "eoc/overview.md"
-      },
-      {
-        "id": "eoc.talkers",
-        "title": "EOC talkers and alpha/beta routing",
-        "section": "EOC",
-        "order": 141,
-        "path": "eoc/talkers.md"
       },
       {
         "id": "eoc.variables-context",
@@ -16667,28 +16649,6 @@
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/",
         "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/"
-      }
-    },
-    {
-      "id": "eoc.talkers",
-      "language": "en",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/",
-      "last_verified": "2026-08-12",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/"
-      }
-    },
-    {
-      "id": "eoc.talkers",
-      "language": "zh_CN",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",
-      "last_verified": "2026-08-12",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/"
       }
     },
     {

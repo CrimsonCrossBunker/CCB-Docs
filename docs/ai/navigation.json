@@ -449,13 +449,6 @@
       "path": "eoc/overview.md"
     },
     {
-      "id": "eoc.talkers",
-      "title": "EOC Talker 与 alpha/beta 路由",
-      "section": "EOC",
-      "order": 141,
-      "path": "eoc/talkers.md"
-    },
-    {
       "id": "eoc.variables-context",
       "title": "EOC 变量与上下文",
       "section": "EOC",
@@ -1002,13 +995,6 @@
       "section": "EOC",
       "order": 140,
       "path": "eoc/overview.md"
-    },
-    {
-      "id": "eoc.talkers",
-      "title": "EOC talkers and alpha/beta routing",
-      "section": "EOC",
-      "order": 141,
-      "path": "eoc/talkers.md"
     },
     {
       "id": "eoc.variables-context",
