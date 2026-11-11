@@ -104,7 +104,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396
+translation_source_fingerprint: 78bcdbb1085eff3ee5f16cfa7fe7caab8e96be34ce5ede7e5e7e7eabc0264f8a
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -271,6 +271,13 @@ runtime.
 Platform is a trusted in-process extension boundary, not a process-level sandbox. The loader
 creates a separate Lua state and owner-specific `ccb` entry for each Mod. The engine continues to own native objects, registries, and lifetimes; Lua reaches them
 only through the values, snapshots, and generation-checked handles declared by Platform v1.
+
+### Vehicle prototype placement
+
+The Lua vehicle prototype placement contract uses an `x, y` pair on the base
+deck. A part on a higher deck from a native JSON prototype does not match a
+Lua extension or deletion at the same `x, y`. The Lua placement schema keeps
+its existing fields.
 
 ## Public entry and lifecycle
 

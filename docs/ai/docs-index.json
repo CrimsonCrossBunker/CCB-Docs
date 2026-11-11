@@ -6583,7 +6583,7 @@
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396",
+      "translation_source_fingerprint": "78bcdbb1085eff3ee5f16cfa7fe7caab8e96be34ce5ede7e5e7e7eabc0264f8a",
       "prerequisites": [
         "cpp.mod-loading"
       ],
@@ -6716,7 +6716,7 @@
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396",
+      "translation_source_fingerprint": "78bcdbb1085eff3ee5f16cfa7fe7caab8e96be34ce5ede7e5e7e7eabc0264f8a",
       "prerequisites": [
         "cpp.mod-loading"
       ],
@@ -8046,7 +8046,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "b0b38134e343955da3d09ca77b6e62b9819375d152b69d0d817aa460767b177d",
+      "translation_source_fingerprint": "e3f202c85dea3f4cb02c54b5d633acaf88f4ea220a58136ebe3e4a294594cf4d",
       "prerequisites": [
         "cpp.map",
         "cpp.items"
@@ -8109,7 +8109,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "b0b38134e343955da3d09ca77b6e62b9819375d152b69d0d817aa460767b177d",
+      "translation_source_fingerprint": "e3f202c85dea3f4cb02c54b5d633acaf88f4ea220a58136ebe3e4a294594cf4d",
       "prerequisites": [
         "cpp.map",
         "cpp.items"
