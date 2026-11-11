@@ -3,7 +3,7 @@
 id: eoc.overview
 title: EOC contracts and lifecycle
 language: en
-status: active
+status: draft
 doc_type: explanation
 audiences:
 - new-contributor
@@ -29,19 +29,20 @@ source_paths:
 - src/effect_on_condition.h
 - tests/eoc_test.cpp
 - doc/JSON/EFFECT_ON_CONDITION.md
+- tests/dialogue_activity_test.cpp
 source_symbols: []
 source_queries: []
-source_fingerprint: 222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e
+source_fingerprint: c8add6d501762f8e2e372f6fb7e229da79261a881358dbeb5df1bf62634c93c8
 authority: api-contract
-verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-verified_at: '2026-08-12'
+verified_commit: f640229a84c4679513a62730e796d30c2255a17a
+verified_at: '2026-11-11'
 generated: false
 generated_by: null
-include_in_search: true
-include_in_ai_index: true
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 6ade8b771f3f8e8fda9e53cded6b0c1893f6023f1cd6a65c7be38ffa2b8f1146
+translation_source_fingerprint: a70a41453cb12a9f518263a2f24b31ea6d7762a0c73e821ee900746222e8a436
 prerequisites:
 - json.overview
 depends_on:
@@ -65,38 +66,42 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/f640229a84c4679513a62730e796d30c2255a17a
 source_urls:
 - path: data/reference/json/ccb_eoc_conditions.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/data/reference/json/ccb_eoc_conditions.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f640229a84c4679513a62730e796d30c2255a17a/data/reference/json/ccb_eoc_conditions.json
 - path: data/reference/json/ccb_eoc_effects.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/data/reference/json/ccb_eoc_effects.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f640229a84c4679513a62730e796d30c2255a17a/data/reference/json/ccb_eoc_effects.json
 - path: tools/json_api/contract-inventory.schema.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tools/json_api/contract-inventory.schema.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f640229a84c4679513a62730e796d30c2255a17a/tools/json_api/contract-inventory.schema.json
 - path: tools/json_api/generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tools/json_api/generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f640229a84c4679513a62730e796d30c2255a17a/tools/json_api/generate_contracts.py
 - path: tools/json_api/test_generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tools/json_api/test_generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f640229a84c4679513a62730e796d30c2255a17a/tools/json_api/test_generate_contracts.py
 - path: src/condition.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/condition.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f640229a84c4679513a62730e796d30c2255a17a/src/condition.cpp
 - path: src/npctalk.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/npctalk.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f640229a84c4679513a62730e796d30c2255a17a/src/npctalk.cpp
 - path: src/effect_on_condition.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/effect_on_condition.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f640229a84c4679513a62730e796d30c2255a17a/src/effect_on_condition.cpp
 - path: src/effect_on_condition.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/effect_on_condition.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f640229a84c4679513a62730e796d30c2255a17a/src/effect_on_condition.h
 - path: tests/eoc_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tests/eoc_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f640229a84c4679513a62730e796d30c2255a17a/tests/eoc_test.cpp
 - path: doc/JSON/EFFECT_ON_CONDITION.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/doc/JSON/EFFECT_ON_CONDITION.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28eoc.overview%29%3A+&body=Document+ID%3A+eoc.overview%0ALanguage%3A+en%0AVerified+commit%3A+c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f640229a84c4679513a62730e796d30c2255a17a/doc/JSON/EFFECT_ON_CONDITION.md
+- path: tests/dialogue_activity_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/f640229a84c4679513a62730e796d30c2255a17a/tests/dialogue_activity_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28eoc.overview%29%3A+&body=Document+ID%3A+eoc.overview%0ALanguage%3A+en%0AVerified+commit%3A+f640229a84c4679513a62730e796d30c2255a17a%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
 # EOC contracts and lifecycle
 
 An EOC (effect on condition) combines condition parsing, effect parsing, and a trigger lifecycle.
-The machine inventories currently index [275 condition keys](../reference/eoc-conditions.md) and
-[310 effect keys](../reference/eoc-effects.md). Registration coverage is complete while
+The machine inventories currently index [276 condition keys](../reference/eoc-conditions.md) and
+[329 effect keys](../reference/eoc-effects.md). Registration coverage is complete while
 handler-level parameter classification remains incomplete.
 
 ## The `effect_on_condition` object
@@ -121,11 +126,26 @@ different trigger paths, which must be checked in the corresponding source and t
   an unknown string condition becomes a predicate that returns false.
 - Effect containers accept a string, object, or array and also use first-match dispatch; an unknown
   effect throws `JsonError`.
-- Only the logical `and`, `or`, and `not` condition keys are fully classified; the other 272 are
+- Only the logical `and`, `or`, and `not` condition keys are fully classified; the other 273 are
   `partial`.
-- All 310 effect keys are `partial`. This does not mean they are unusable. It means parameters,
+- All 329 effect keys are `partial`. This does not mean they are unusable. It means parameters,
   defaults, nesting, talkers, variables, or context do not yet have complete source classification.
 
 Continue with [talker routing](talkers.md), [variables and context](variables-context.md), and
 [nesting](nesting.md), then build a minimal validation chain with the
 [complete example mod](../mods/complete-json-eoc-mod.md).
+
+## Starting a tabletop activity
+
+Use `ACT_GENERIC_GAME` with `u_assign_activity` or `npc_assign_activity` for a tabletop
+game started from dialogue:
+
+```json
+{ "u_assign_activity": "ACT_GENERIC_GAME", "duration": "45 minutes" }
+```
+
+The assignment handler constructs the tabletop game activity actor with the requested
+duration and includes the other dialogue participant when it is a character. The actor
+controls time advancement, morale gains, and completion. `ACT_GAME` identifies the
+portable game activity and requires its own actor-specific setup.
+

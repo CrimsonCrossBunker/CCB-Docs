@@ -4751,7 +4751,7 @@ pages:
   title: EOC 契约与生命周期
   language: zh_CN
   path: eoc/overview.md
-  status: active
+  status: draft
   doc_type: explanation
   audiences: &id233
   - new-contributor
@@ -4765,7 +4765,7 @@ pages:
   - Documentation reviewers
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: &id236
+  source_paths: &dialogue_activity_sources
   - data/reference/json/ccb_eoc_conditions.json
   - data/reference/json/ccb_eoc_effects.json
   - tools/json_api/contract-inventory.schema.json
@@ -4777,20 +4777,21 @@ pages:
   - src/effect_on_condition.h
   - tests/eoc_test.cpp
   - doc/JSON/EFFECT_ON_CONDITION.md
+  - tests/dialogue_activity_test.cpp
   source_symbols: &id237 []
   source_queries: &id238 []
-  source_fingerprint: 222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e
+  source_fingerprint: c8add6d501762f8e2e372f6fb7e229da79261a881358dbeb5df1bf62634c93c8
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: f640229a84c4679513a62730e796d30c2255a17a
+  verified_at: '2026-11-11'
   generated: false
   generated_by: null
-  include_in_search: true
-  include_in_ai_index: true
+  include_in_search: false
+  include_in_ai_index: false
   translation_group: eoc.overview
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 6ade8b771f3f8e8fda9e53cded6b0c1893f6023f1cd6a65c7be38ffa2b8f1146
+  translation_source_fingerprint: a70a41453cb12a9f518263a2f24b31ea6d7762a0c73e821ee900746222e8a436
   prerequisites: &id239
   - json.overview
   depends_on: &id240
@@ -4816,28 +4817,28 @@ pages:
   title: EOC contracts and lifecycle
   language: en
   path: eoc/overview.md
-  status: active
+  status: draft
   doc_type: explanation
   audiences: *id233
   owners: *id234
   reviewers: *id235
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id236
+  source_paths: *dialogue_activity_sources
   source_symbols: *id237
   source_queries: *id238
-  source_fingerprint: 222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e
+  source_fingerprint: c8add6d501762f8e2e372f6fb7e229da79261a881358dbeb5df1bf62634c93c8
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: f640229a84c4679513a62730e796d30c2255a17a
+  verified_at: '2026-11-11'
   generated: false
   generated_by: null
-  include_in_search: true
-  include_in_ai_index: true
+  include_in_search: false
+  include_in_ai_index: false
   translation_group: eoc.overview
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 6ade8b771f3f8e8fda9e53cded6b0c1893f6023f1cd6a65c7be38ffa2b8f1146
+  translation_source_fingerprint: a70a41453cb12a9f518263a2f24b31ea6d7762a0c73e821ee900746222e8a436
   prerequisites: *id239
   depends_on: *id240
   redirect_from: *id241
@@ -4867,7 +4868,18 @@ pages:
   reviewers: *id235
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id236
+  source_paths: &id236
+  - data/reference/json/ccb_eoc_conditions.json
+  - data/reference/json/ccb_eoc_effects.json
+  - tools/json_api/contract-inventory.schema.json
+  - tools/json_api/generate_contracts.py
+  - tools/json_api/test_generate_contracts.py
+  - src/condition.cpp
+  - src/npctalk.cpp
+  - src/effect_on_condition.cpp
+  - src/effect_on_condition.h
+  - tests/eoc_test.cpp
+  - doc/JSON/EFFECT_ON_CONDITION.md
   source_symbols: *id237
   source_queries: *id238
   source_fingerprint: 222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e

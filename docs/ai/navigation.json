@@ -442,13 +442,6 @@
       "path": "reference/json-object-types.md"
     },
     {
-      "id": "eoc.overview",
-      "title": "EOC 契约与生命周期",
-      "section": "EOC",
-      "order": 140,
-      "path": "eoc/overview.md"
-    },
-    {
       "id": "eoc.talkers",
       "title": "EOC Talker 与 alpha/beta 路由",
       "section": "EOC",
@@ -995,13 +988,6 @@
       "section": "Generated reference",
       "order": 133,
       "path": "reference/json-object-types.md"
-    },
-    {
-      "id": "eoc.overview",
-      "title": "EOC contracts and lifecycle",
-      "section": "EOC",
-      "order": 140,
-      "path": "eoc/overview.md"
     },
     {
       "id": "eoc.talkers",
