@@ -3,7 +3,7 @@
 id: eoc.talkers
 title: EOC talkers and alpha/beta routing
 language: en
-status: active
+status: draft
 doc_type: explanation
 audiences:
 - new-contributor
@@ -37,11 +37,11 @@ verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
 verified_at: '2026-08-12'
 generated: false
 generated_by: null
-include_in_search: true
-include_in_ai_index: true
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 633c116b8ceb25994926cb0d914dc6f0b5623695fae7fddbefd46996ec0cf860
+translation_source_fingerprint: 0492eb6aa2eed7152e6a193a75d8762bc8ca7197e9ac36a5836560a30dc78751
 prerequisites:
 - eoc.overview
 depends_on:
@@ -90,6 +90,8 @@ source_urls:
 - path: doc/JSON/EFFECT_ON_CONDITION.md
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/doc/JSON/EFFECT_ON_CONDITION.md
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28eoc.talkers%29%3A+&body=Document+ID%3A+eoc.talkers%0ALanguage%3A+en%0AVerified+commit%3A+c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
 # EOC talkers and alpha/beta routing
@@ -112,6 +114,19 @@ Before using a key:
 3. Read the call site that triggers the EOC and constructs that dialogue.
 4. If a call swaps talkers or nests another EOC, test both routing directions.
 5. Do not document a key as “player-only” or “NPC-only” from its prefix alone.
+
+## Trait description tags
+
+`<trait_description:ID>` selects a Character's mutation variant from beta when beta
+is a Character. Otherwise it uses alpha when alpha is a Character. If neither
+participant is a Character, it uses the trait's base description. A selected
+Character without a variant also uses the base description; the tag does not
+search the other participant for a variant. Nested tags can supply the trait ID.
+
+Topic-only dialogues and monster talkers therefore do not require a Character
+interface just to render this tag. The implementation is in `parse_tags` in
+`src/npctalk.cpp`; `trait_description_tags_resolve_character_context` in
+`tests/npc_talk_test.cpp` covers the participant types and variant selection.
 
 ## Failure modes
 

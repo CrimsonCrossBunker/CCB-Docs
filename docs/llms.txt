@@ -69,8 +69,6 @@
 - [zh_CN] EOC 条件与效果嵌套: https://crimsoncrossbunker.github.io/CCB-Docs/eoc/nesting/
 - [en] EOC contracts and lifecycle: https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/
 - [zh_CN] EOC 契约与生命周期: https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/
-- [en] EOC talkers and alpha/beta routing: https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/
-- [zh_CN] EOC Talker 与 alpha/beta 路由: https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/
 - [en] EOC variables and context: https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/variables-context/
 - [zh_CN] EOC 变量与上下文: https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/
 - [en] Common contribution tasks: https://crimsoncrossbunker.github.io/CCB-Docs/en/getting-started/common-tasks/

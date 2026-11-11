@@ -4860,7 +4860,7 @@ pages:
   title: EOC Talker 与 alpha/beta 路由
   language: zh_CN
   path: eoc/talkers.md
-  status: active
+  status: draft
   doc_type: explanation
   audiences: *id233
   owners: *id234
@@ -4876,12 +4876,12 @@ pages:
   verified_at: '2026-08-12'
   generated: false
   generated_by: null
-  include_in_search: true
-  include_in_ai_index: true
+  include_in_search: false
+  include_in_ai_index: false
   translation_group: eoc.talkers
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 633c116b8ceb25994926cb0d914dc6f0b5623695fae7fddbefd46996ec0cf860
+  translation_source_fingerprint: 0492eb6aa2eed7152e6a193a75d8762bc8ca7197e9ac36a5836560a30dc78751
   prerequisites: &id244
   - eoc.overview
   depends_on: &id245
@@ -4907,7 +4907,7 @@ pages:
   title: EOC talkers and alpha/beta routing
   language: en
   path: eoc/talkers.md
-  status: active
+  status: draft
   doc_type: explanation
   audiences: *id233
   owners: *id234
@@ -4923,12 +4923,12 @@ pages:
   verified_at: '2026-08-12'
   generated: false
   generated_by: null
-  include_in_search: true
-  include_in_ai_index: true
+  include_in_search: false
+  include_in_ai_index: false
   translation_group: eoc.talkers
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 633c116b8ceb25994926cb0d914dc6f0b5623695fae7fddbefd46996ec0cf860
+  translation_source_fingerprint: 0492eb6aa2eed7152e6a193a75d8762bc8ca7197e9ac36a5836560a30dc78751
   prerequisites: *id244
   depends_on: *id245
   redirect_from: *id241
