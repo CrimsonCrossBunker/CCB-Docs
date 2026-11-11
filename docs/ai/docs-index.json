@@ -8164,8 +8164,7 @@
         "src/effect_on_condition.cpp",
         "src/effect_on_condition.h",
         "tests/eoc_test.cpp",
-        "doc/JSON/EFFECT_ON_CONDITION.md",
-        "tests/dialogue_activity_test.cpp"
+        "doc/JSON/EFFECT_ON_CONDITION.md"
       ],
       "source_symbols": [],
       "source_queries": [],
@@ -8233,8 +8232,7 @@
         "src/effect_on_condition.cpp",
         "src/effect_on_condition.h",
         "tests/eoc_test.cpp",
-        "doc/JSON/EFFECT_ON_CONDITION.md",
-        "tests/dialogue_activity_test.cpp"
+        "doc/JSON/EFFECT_ON_CONDITION.md"
       ],
       "source_symbols": [],
       "source_queries": [],
@@ -8307,10 +8305,10 @@
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "407ced84a480cf772fe2a308d3143d4e7e255a8db409aa68768654bda977cf1c",
+      "source_fingerprint": "c8add6d501762f8e2e372f6fb7e229da79261a881358dbeb5df1bf62634c93c8",
       "authority": "api-contract",
-      "verified_commit": "3839ccc812a4067571847c42b41d3eac7e68393a",
-      "verified_at": "2026-11-06",
+      "verified_commit": "f640229a84c4679513a62730e796d30c2255a17a",
+      "verified_at": "2026-11-11",
       "generated": false,
       "generated_by": null,
       "include_in_search": false,
@@ -8335,7 +8333,7 @@
       "deprecation_replacement": null,
       "risk_group": "eoc",
       "risk_level": "high",
-      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1210",
+      "pending_source_pr": null,
       "stale_reason": null,
       "path": "eoc/overview.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/overview/"
@@ -8377,10 +8375,10 @@
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "407ced84a480cf772fe2a308d3143d4e7e255a8db409aa68768654bda977cf1c",
+      "source_fingerprint": "c8add6d501762f8e2e372f6fb7e229da79261a881358dbeb5df1bf62634c93c8",
       "authority": "api-contract",
-      "verified_commit": "3839ccc812a4067571847c42b41d3eac7e68393a",
-      "verified_at": "2026-11-06",
+      "verified_commit": "f640229a84c4679513a62730e796d30c2255a17a",
+      "verified_at": "2026-11-11",
       "generated": false,
       "generated_by": null,
       "include_in_search": false,
@@ -8405,7 +8403,7 @@
       "deprecation_replacement": null,
       "risk_group": "eoc",
       "risk_level": "high",
-      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1210",
+      "pending_source_pr": null,
       "stale_reason": null,
       "path": "eoc/overview.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/overview/"
@@ -8442,8 +8440,7 @@
         "src/effect_on_condition.cpp",
         "src/effect_on_condition.h",
         "tests/eoc_test.cpp",
-        "doc/JSON/EFFECT_ON_CONDITION.md",
-        "tests/dialogue_activity_test.cpp"
+        "doc/JSON/EFFECT_ON_CONDITION.md"
       ],
       "source_symbols": [],
       "source_queries": [],
@@ -8512,8 +8509,7 @@
         "src/effect_on_condition.cpp",
         "src/effect_on_condition.h",
         "tests/eoc_test.cpp",
-        "doc/JSON/EFFECT_ON_CONDITION.md",
-        "tests/dialogue_activity_test.cpp"
+        "doc/JSON/EFFECT_ON_CONDITION.md"
       ],
       "source_symbols": [],
       "source_queries": [],
@@ -8582,8 +8578,7 @@
         "src/effect_on_condition.cpp",
         "src/effect_on_condition.h",
         "tests/eoc_test.cpp",
-        "doc/JSON/EFFECT_ON_CONDITION.md",
-        "tests/dialogue_activity_test.cpp"
+        "doc/JSON/EFFECT_ON_CONDITION.md"
       ],
       "source_symbols": [],
       "source_queries": [],
@@ -8651,8 +8646,7 @@
         "src/effect_on_condition.cpp",
         "src/effect_on_condition.h",
         "tests/eoc_test.cpp",
-        "doc/JSON/EFFECT_ON_CONDITION.md",
-        "tests/dialogue_activity_test.cpp"
+        "doc/JSON/EFFECT_ON_CONDITION.md"
       ],
       "source_symbols": [],
       "source_queries": [],

@@ -27,6 +27,19 @@ class CatalogTests(unittest.TestCase):
     def test_repository_and_generated_files_match_catalog(self) -> None:
         self.assertEqual(validate_repository(self.catalog), [])
 
+    def test_dialogue_activity_evidence_stays_with_overview(self) -> None:
+        related_ids = {"eoc.talkers", "eoc.variables-context", "eoc.nesting"}
+        for page in self.catalog["pages"]:
+            with self.subTest(page=page["id"], language=page["language"]):
+                if page["id"] == "eoc.overview":
+                    self.assertIn("tests/dialogue_activity_test.cpp", page["source_paths"])
+                elif page["id"] in related_ids:
+                    self.assertNotIn("tests/dialogue_activity_test.cpp", page["source_paths"])
+                    self.assertEqual(
+                        page["verified_commit"],
+                        "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
+                    )
+
     def test_drafts_are_excluded_from_production_indexes(self) -> None:
         catalog = copy.deepcopy(self.catalog)
         for page in catalog["pages"]:

@@ -4765,7 +4765,7 @@ pages:
   - Documentation reviewers
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: &id236
+  source_paths: &dialogue_activity_sources
   - data/reference/json/ccb_eoc_conditions.json
   - data/reference/json/ccb_eoc_effects.json
   - tools/json_api/contract-inventory.schema.json
@@ -4780,10 +4780,10 @@ pages:
   - tests/dialogue_activity_test.cpp
   source_symbols: &id237 []
   source_queries: &id238 []
-  source_fingerprint: 407ced84a480cf772fe2a308d3143d4e7e255a8db409aa68768654bda977cf1c
+  source_fingerprint: c8add6d501762f8e2e372f6fb7e229da79261a881358dbeb5df1bf62634c93c8
   authority: api-contract
-  verified_commit: 3839ccc812a4067571847c42b41d3eac7e68393a
-  verified_at: '2026-11-06'
+  verified_commit: f640229a84c4679513a62730e796d30c2255a17a
+  verified_at: '2026-11-11'
   generated: false
   generated_by: null
   include_in_search: false
@@ -4808,7 +4808,7 @@ pages:
   deprecation_replacement: null
   risk_group: eoc
   risk_level: high
-  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1210
+  pending_source_pr: null
   stale_reason: null
   nav:
     section: EOC
@@ -4824,13 +4824,13 @@ pages:
   reviewers: *id235
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id236
+  source_paths: *dialogue_activity_sources
   source_symbols: *id237
   source_queries: *id238
-  source_fingerprint: 407ced84a480cf772fe2a308d3143d4e7e255a8db409aa68768654bda977cf1c
+  source_fingerprint: c8add6d501762f8e2e372f6fb7e229da79261a881358dbeb5df1bf62634c93c8
   authority: api-contract
-  verified_commit: 3839ccc812a4067571847c42b41d3eac7e68393a
-  verified_at: '2026-11-06'
+  verified_commit: f640229a84c4679513a62730e796d30c2255a17a
+  verified_at: '2026-11-11'
   generated: false
   generated_by: null
   include_in_search: false
@@ -4852,7 +4852,7 @@ pages:
   deprecation_replacement: null
   risk_group: eoc
   risk_level: high
-  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1210
+  pending_source_pr: null
   stale_reason: null
   nav:
     section: EOC
@@ -4868,7 +4868,18 @@ pages:
   reviewers: *id235
   review_interval_days: 60
   last_human_reviewer: LYHGLYTX
-  source_paths: *id236
+  source_paths: &id236
+  - data/reference/json/ccb_eoc_conditions.json
+  - data/reference/json/ccb_eoc_effects.json
+  - tools/json_api/contract-inventory.schema.json
+  - tools/json_api/generate_contracts.py
+  - tools/json_api/test_generate_contracts.py
+  - src/condition.cpp
+  - src/npctalk.cpp
+  - src/effect_on_condition.cpp
+  - src/effect_on_condition.h
+  - tests/eoc_test.cpp
+  - doc/JSON/EFFECT_ON_CONDITION.md
   source_symbols: *id237
   source_queries: *id238
   source_fingerprint: 222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e
