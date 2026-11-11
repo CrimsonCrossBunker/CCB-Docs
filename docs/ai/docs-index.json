@@ -9431,6 +9431,138 @@
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/"
     },
     {
+      "id": "json.martial-grappling",
+      "title": "Active martial-arts grappling",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "mod-author",
+        "player",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "Pending review",
+      "source_paths": [
+        "data/json/martial_grappling.json",
+        "data/json/martialarts.json",
+        "src/martialarts.h",
+        "src/martialarts.cpp",
+        "src/melee.cpp",
+        "src/monster.cpp",
+        "src/avatar_action.cpp",
+        "tests/martial_grappling_test.cpp"
+      ],
+      "source_symbols": [
+        "use_grapple_technique",
+        "grapple_cooldown_effect"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "c3af8a1194d313d28308173159f338961c423d91bd3e00c4e06aac672e9d2cbb",
+      "authority": "source-and-tests",
+      "verified_commit": "c7c6c5b76035fb1a46474388cf3b35e99176311b",
+      "verified_at": "2026-11-11",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "aa749873f5ff8e39ca1fec84deb1b60c6dfc454886c12480e9d23eff14fc830f",
+      "prerequisites": [
+        "json.overview"
+      ],
+      "depends_on": [
+        "reference.json-object-types"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; gameplay design inspired by CTLG monster dragging.",
+      "example_validation_ids": [],
+      "api_version": null,
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "martial-arts",
+      "risk_level": "normal",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "json/martial-grappling.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/martial-grappling/"
+    },
+    {
+      "id": "json.martial-grappling",
+      "title": "主动武术擒抱战技",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "mod-author",
+        "player",
+        "maintainer"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "Pending review",
+      "source_paths": [
+        "data/json/martial_grappling.json",
+        "data/json/martialarts.json",
+        "src/martialarts.h",
+        "src/martialarts.cpp",
+        "src/melee.cpp",
+        "src/monster.cpp",
+        "src/avatar_action.cpp",
+        "tests/martial_grappling_test.cpp"
+      ],
+      "source_symbols": [
+        "use_grapple_technique",
+        "grapple_cooldown_effect"
+      ],
+      "source_queries": [],
+      "source_fingerprint": "c3af8a1194d313d28308173159f338961c423d91bd3e00c4e06aac672e9d2cbb",
+      "authority": "source-and-tests",
+      "verified_commit": "c7c6c5b76035fb1a46474388cf3b35e99176311b",
+      "verified_at": "2026-11-11",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "aa749873f5ff8e39ca1fec84deb1b60c6dfc454886c12480e9d23eff14fc830f",
+      "prerequisites": [
+        "json.overview"
+      ],
+      "depends_on": [
+        "reference.json-object-types"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; gameplay design inspired by CTLG monster dragging.",
+      "example_validation_ids": [],
+      "api_version": null,
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "martial-arts",
+      "risk_level": "normal",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "json/martial-grappling.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/martial-grappling/"
+    },
+    {
       "id": "json.overview",
       "title": "JSON contract overview",
       "language": "en",
@@ -14046,6 +14178,10 @@
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/inheritance-copy-from/"
     },
+    "json.martial-grappling": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/martial-grappling/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/martial-grappling/"
+    },
     "json.overview": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/"
@@ -14670,12 +14806,14 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/core-dev-guide/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/native-binding-guide/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/martial-grappling/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/items/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/json/martial-grappling/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/",
