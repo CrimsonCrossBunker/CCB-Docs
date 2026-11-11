@@ -27,7 +27,7 @@ class JsonEocReferenceTests(unittest.TestCase):
             (ROOT / "docs-catalog.yml").read_text(encoding="utf-8")
         )
 
-    def test_generated_pages_are_published_and_indexed(self) -> None:
+    def test_generated_pages_follow_merged_source(self) -> None:
         pages = [
             page
             for page in self.catalog["pages"]
@@ -54,7 +54,7 @@ class JsonEocReferenceTests(unittest.TestCase):
     def test_generated_pages_share_exact_source_commit(self) -> None:
         self.assertEqual(
             catalog_source_commit(),
-            "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
+            "f93d9113b717b6583076f8438683843c5934927a",
         )
 
     def test_example_fixture_uses_registered_contract_keys(self) -> None:
