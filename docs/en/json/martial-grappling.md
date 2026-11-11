@@ -28,10 +28,10 @@ source_symbols:
 - use_grapple_technique
 - grapple_cooldown_effect
 source_queries: []
-source_fingerprint: 3fea3da996506b145f5a008d65da1c90ff8dbd01a936b76daf87150bfc734f2a
+source_fingerprint: c3af8a1194d313d28308173159f338961c423d91bd3e00c4e06aac672e9d2cbb
 authority: source-and-tests
-verified_commit: ea3f2261449fe04c994b2591ae0687a6fdb37c1d
-verified_at: '2026-11-04'
+verified_commit: c7c6c5b76035fb1a46474388cf3b35e99176311b
+verified_at: '2026-11-11'
 generated: false
 generated_by: null
 include_in_search: false
@@ -53,7 +53,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: martial-arts
 risk_level: normal
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1166
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/martial-grappling/
 alternate_urls:
@@ -61,25 +61,25 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/martial-grappling/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/json/martial-grappling/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/ea3f2261449fe04c994b2591ae0687a6fdb37c1d
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c7c6c5b76035fb1a46474388cf3b35e99176311b
 source_urls:
 - path: data/json/martial_grappling.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/ea3f2261449fe04c994b2591ae0687a6fdb37c1d/data/json/martial_grappling.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c7c6c5b76035fb1a46474388cf3b35e99176311b/data/json/martial_grappling.json
 - path: data/json/martialarts.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/ea3f2261449fe04c994b2591ae0687a6fdb37c1d/data/json/martialarts.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c7c6c5b76035fb1a46474388cf3b35e99176311b/data/json/martialarts.json
 - path: src/martialarts.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/ea3f2261449fe04c994b2591ae0687a6fdb37c1d/src/martialarts.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c7c6c5b76035fb1a46474388cf3b35e99176311b/src/martialarts.h
 - path: src/martialarts.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/ea3f2261449fe04c994b2591ae0687a6fdb37c1d/src/martialarts.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c7c6c5b76035fb1a46474388cf3b35e99176311b/src/martialarts.cpp
 - path: src/melee.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/ea3f2261449fe04c994b2591ae0687a6fdb37c1d/src/melee.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c7c6c5b76035fb1a46474388cf3b35e99176311b/src/melee.cpp
 - path: src/monster.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/ea3f2261449fe04c994b2591ae0687a6fdb37c1d/src/monster.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c7c6c5b76035fb1a46474388cf3b35e99176311b/src/monster.cpp
 - path: src/avatar_action.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/ea3f2261449fe04c994b2591ae0687a6fdb37c1d/src/avatar_action.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c7c6c5b76035fb1a46474388cf3b35e99176311b/src/avatar_action.cpp
 - path: tests/martial_grappling_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/ea3f2261449fe04c994b2591ae0687a6fdb37c1d/tests/martial_grappling_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.martial-grappling%29%3A+&body=Document+ID%3A+json.martial-grappling%0ALanguage%3A+en%0AVerified+commit%3A+ea3f2261449fe04c994b2591ae0687a6fdb37c1d%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c7c6c5b76035fb1a46474388cf3b35e99176311b/tests/martial_grappling_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.martial-grappling%29%3A+&body=Document+ID%3A+json.martial-grappling%0ALanguage%3A+en%0AVerified+commit%3A+c7c6c5b76035fb1a46474388cf3b35e99176311b%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---
