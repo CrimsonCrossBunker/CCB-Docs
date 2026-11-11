@@ -38,7 +38,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3
+translation_source_fingerprint: bb47406138df23f9de3fc5e2fa2de55f1a2715eb3e1b7ef6264ba08183416aab
 prerequisites:
 - json.overview
 depends_on:
@@ -110,6 +110,21 @@ python3 -m unittest discover -s tools/json_api -p 'test_*.py'
 # validation: json-load
 make -j2 json-check
 ```
+
+## 隔离数据加载与存档回归
+
+独立运行游戏的数据加载检查时，先创建全新 user 目录及其空 `config/` 子目录，确保
+`debug.log` 可以打开。游戏参数是 `--userdir <路径>`；原生 Catch 测试程序使用不同的
+`--user-dir=<路径>`。核心与示例 Mod 应分别使用新目录，例如：
+
+```sh
+cataclysm-tiles --userdir check-core-user/ --check-mods ccb
+cataclysm-tiles --userdir check-example-user/ --check-mods Lua_First_Example
+```
+
+这不需要加载玩家原存档。Mod 加载成功不等于压缩存档重载、长路径文件读写或维度切换已经
+通过；应使用新建测试世界分别记录，并如实保留非零退出与数值失败。内部文件路径和世界
+目录清理的修复不改变 JSON 格式，也不允许跳过损坏 archive 的 metadata 校验。
 
 ## 证据等级
 

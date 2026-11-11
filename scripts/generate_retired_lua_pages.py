@@ -5,7 +5,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
-import os
+import posixpath
 import re
 from pathlib import Path
 
@@ -18,7 +18,7 @@ HISTORY_ROOT = "https://github.com/CrimsonCrossBunker/CCB-Docs/blob/" + HISTORY_
 
 
 def render_body(page: dict) -> str:
-    relative = os.path.relpath("api/lua/v1/overview.md", Path(page["path"]).parent)
+    relative = posixpath.relpath("api/lua/v1/overview.md", posixpath.dirname(page["path"]))
     history = f"{HISTORY_ROOT}/docs/{page['language']}/{page['path']}"
     if page["language"] == "zh_CN":
         return (

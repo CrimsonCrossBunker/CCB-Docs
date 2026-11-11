@@ -38,7 +38,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3
+translation_source_fingerprint: bb47406138df23f9de3fc5e2fa2de55f1a2715eb3e1b7ef6264ba08183416aab
 prerequisites:
 - json.overview
 depends_on:
@@ -111,6 +111,24 @@ python3 -m unittest discover -s tools/json_api -p 'test_*.py'
 # validation: json-load
 make -j2 json-check
 ```
+
+## Isolate data loading from save regressions
+
+Before standalone game data checks, create a fresh user directory and its empty
+`config/` subdirectory so `debug.log` can open. The game uses `--userdir <path>`;
+the native Catch test program instead uses `--user-dir=<path>`. Use separate new
+directories for core and example checks, for example:
+
+```sh
+cataclysm-tiles --userdir check-core-user/ --check-mods ccb
+cataclysm-tiles --userdir check-example-user/ --check-mods Lua_First_Example
+```
+
+No player save needs to be loaded. Successful Mod loading does not establish
+compressed-save reload, long-path IO or dimension-transition correctness; record
+those separately on newly created test worlds, including nonzero exits and numerical
+failures. Internal native-path and world-directory cleanup fixes do not change the
+JSON format or justify bypassing metadata validation for a damaged archive.
 
 ## Evidence levels
 
