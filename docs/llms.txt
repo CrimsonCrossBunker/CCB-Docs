@@ -119,6 +119,12 @@
 - [zh_CN] Windows 开发: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/windows/
 - [en] WSL development: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/
 - [zh_CN] WSL 开发: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/
+- [en] EOC condition registry: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/
+- [zh_CN] EOC 条件注册表: https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/
+- [en] EOC effect registry: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/
+- [zh_CN] EOC 效果注册表: https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/
+- [en] JSON object-type registry: https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/
+- [zh_CN] JSON 对象类型注册表: https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/
 - [en] Fonts: https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/fonts/
 - [zh_CN] 字体: https://crimsoncrossbunker.github.io/CCB-Docs/resources/fonts/
 - [en] SDL3 shaders: https://crimsoncrossbunker.github.io/CCB-Docs/en/resources/shaders/

@@ -27,7 +27,7 @@ class JsonEocReferenceTests(unittest.TestCase):
             (ROOT / "docs-catalog.yml").read_text(encoding="utf-8")
         )
 
-    def test_generated_pages_wait_for_source_merge(self) -> None:
+    def test_generated_pages_follow_merged_source(self) -> None:
         pages = [
             page
             for page in self.catalog["pages"]
@@ -36,14 +36,10 @@ class JsonEocReferenceTests(unittest.TestCase):
         self.assertEqual(len(pages), 6)
         for page in pages:
             self.assertTrue(page["generated"])
-            self.assertEqual(page["status"], "draft")
-            self.assertFalse(page["include_in_search"])
-            self.assertFalse(page["include_in_ai_index"])
-            self.assertEqual(
-                page["pending_source_pr"],
-                "https://github.com/CrimsonCrossBunker/"
-                "Cataclysm-Cleanwater-Bomb/pull/1219",
-            )
+            self.assertEqual(page["status"], "active")
+            self.assertTrue(page["include_in_search"])
+            self.assertTrue(page["include_in_ai_index"])
+            self.assertIsNone(page["pending_source_pr"])
 
     def test_reference_pages_index_every_inventory_entry(self) -> None:
         for spec in SPECS:
@@ -58,7 +54,7 @@ class JsonEocReferenceTests(unittest.TestCase):
     def test_generated_pages_share_exact_source_commit(self) -> None:
         self.assertEqual(
             catalog_source_commit(),
-            "914f2f7218b95af6fd09952cfceeff17965dd0ba",
+            "f93d9113b717b6583076f8438683843c5934927a",
         )
 
     def test_example_fixture_uses_registered_contract_keys(self) -> None:
