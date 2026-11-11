@@ -477,6 +477,13 @@
       "path": "reference/eoc-conditions.md"
     },
     {
+      "id": "reference.eoc-effects",
+      "title": "EOC 效果注册表",
+      "section": "生成参考",
+      "order": 145,
+      "path": "reference/eoc-effects.md"
+    },
+    {
       "id": "mods.complete-json-eoc-mod",
       "title": "完整 JSON/EOC Mod 教程",
       "section": "Mod",
@@ -1023,6 +1030,13 @@
       "section": "Generated reference",
       "order": 144,
       "path": "reference/eoc-conditions.md"
+    },
+    {
+      "id": "reference.eoc-effects",
+      "title": "EOC effect registry",
+      "section": "Generated reference",
+      "order": 145,
+      "path": "reference/eoc-effects.md"
     },
     {
       "id": "mods.complete-json-eoc-mod",

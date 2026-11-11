@@ -1367,7 +1367,7 @@
     "id": "reference.eoc-conditions",
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
-    "last_verified": "2026-08-12",
+    "last_verified": "2026-11-11",
     "status": "active",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
@@ -1378,7 +1378,7 @@
     "id": "reference.eoc-conditions",
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
-    "last_verified": "2026-08-12",
+    "last_verified": "2026-11-11",
     "status": "active",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
@@ -1386,10 +1386,32 @@
     }
   },
   {
+    "id": "reference.eoc-effects",
+    "language": "en",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/",
+    "last_verified": "2026-11-11",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/"
+    }
+  },
+  {
+    "id": "reference.eoc-effects",
+    "language": "zh_CN",
+    "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
+    "last_verified": "2026-11-11",
+    "status": "active",
+    "alternate": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/"
+    }
+  },
+  {
     "id": "reference.json-object-types",
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/",
-    "last_verified": "2026-08-12",
+    "last_verified": "2026-11-11",
     "status": "active",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
@@ -1400,7 +1422,7 @@
     "id": "reference.json-object-types",
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
-    "last_verified": "2026-08-12",
+    "last_verified": "2026-11-11",
     "status": "active",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
