@@ -104,7 +104,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396
+translation_source_fingerprint: 78bcdbb1085eff3ee5f16cfa7fe7caab8e96be34ce5ede7e5e7e7eabc0264f8a
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -269,6 +269,12 @@ CCB 只支持 Lua-first Platform v1。Mod 通过 `require("ccb")` 获得包内 `
 Platform 是受信任的进程内扩展边界，不是进程级沙箱。loader 为每个 Mod 创建独立 Lua
 state，维护所属 Mod 的 `ccb` 入口；引擎继续拥有原生对象、registries 和生命周期。
 Lua 侧只通过 Platform v1 声明的 value、snapshot 和代际检查 handle 访问这些对象。
+
+### 载具原型部件放置
+
+Lua 载具原型的部件坐标用 `x, y` 表示，作用于底层。Lua 扩展或移除部件时，
+同一 `x, y` 上由原生 JSON 原型定义的上层部件不会被匹配。
+Lua 的部件放置契约沿用现有字段。
 
 ## 公共入口与生命周期
 
