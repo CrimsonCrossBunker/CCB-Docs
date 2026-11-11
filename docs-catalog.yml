@@ -4393,10 +4393,10 @@ pages:
   - doc/JSON/JSON_STYLE.md
   source_symbols: &id210 []
   source_queries: &id211 []
-  source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
+  source_fingerprint: 74a4c0f8d8aa6935403c0d3ce89a40329de0b6dc6b7475a8b0369ce925776a09
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 977201502a0b1b7ecd3cd8dc7bc706d9e3076f20
+  verified_at: '2026-11-11'
   generated: false
   generated_by: null
   include_in_search: true
@@ -4404,7 +4404,7 @@ pages:
   translation_group: json.overview
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 71e86145c575a8e20611cd989ed5262f31e02afe487dee70986fdbb1b41064cf
+  translation_source_fingerprint: c6b1f47d6f3aafebe71ed60ded3a905572e4df62525a297fb02cff71eaf7b151
   prerequisites: &id212
   - architecture.project-map
   depends_on: &id213
@@ -4420,7 +4420,7 @@ pages:
   deprecation_replacement: null
   risk_group: json
   risk_level: high
-  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1025
+  pending_source_pr: null
   stale_reason: null
   nav:
     section: JSON
@@ -4439,10 +4439,10 @@ pages:
   source_paths: *id209
   source_symbols: *id210
   source_queries: *id211
-  source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
+  source_fingerprint: 74a4c0f8d8aa6935403c0d3ce89a40329de0b6dc6b7475a8b0369ce925776a09
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 977201502a0b1b7ecd3cd8dc7bc706d9e3076f20
+  verified_at: '2026-11-11'
   generated: false
   generated_by: null
   include_in_search: true
@@ -4450,7 +4450,7 @@ pages:
   translation_group: json.overview
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 71e86145c575a8e20611cd989ed5262f31e02afe487dee70986fdbb1b41064cf
+  translation_source_fingerprint: c6b1f47d6f3aafebe71ed60ded3a905572e4df62525a297fb02cff71eaf7b151
   prerequisites: *id212
   depends_on: *id213
   redirect_from: *id214
@@ -4463,7 +4463,7 @@ pages:
   deprecation_replacement: null
   risk_group: json
   risk_level: high
-  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1025
+  pending_source_pr: null
   stale_reason: null
   nav:
     section: JSON

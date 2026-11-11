@@ -4756,7 +4756,7 @@ PR 中标记 JSON/Mod 文档影响。
 ## json.overview [en] — JSON contract overview
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/
-Verified commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+Verified commit: 977201502a0b1b7ecd3cd8dc7bc706d9e3076f20
 Sources: data/reference/json/ccb_json_object_types.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/init.cpp, src/generic_factory.h, tests/json_load_test.cpp, doc/JSON/JSON_INHERITANCE.md, doc/JSON/JSON_STYLE.md
 
 # JSON contract overview
@@ -4794,11 +4794,11 @@ An occurrence in data is therefore only lexical instance evidence. A mention in 
 also only `lexical_only` evidence. Confirm a field in the loader, tests, and validators named by
 the registry.
 
-## Pending mounted-equipment contract
+## Mounted-equipment contract
 
 [CCB PR #1025](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1025)
-proposes additional fields for animal equipment. This section describes the proposed
-contract and remains pending until that source PR merges.
+is merged and defines additional fields for animal equipment. The source verification
+records identify its final merge commit.
 
 An item with the `PET_EQUIPMENT` subtype declares compatible positions in
 `pet_slots`. The item loader accepts `pet_mount_threshold_delta` for mounting
@@ -4833,7 +4833,7 @@ repair it. Do not change runtime contracts merely to match prose.
 ## json.overview [zh_CN] — JSON 契约总览
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/
-Verified commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+Verified commit: 977201502a0b1b7ecd3cd8dc7bc706d9e3076f20
 Sources: data/reference/json/ccb_json_object_types.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/init.cpp, src/generic_factory.h, tests/json_load_test.cpp, doc/JSON/JSON_INHERITANCE.md, doc/JSON/JSON_STYLE.md
 
 # JSON 契约总览
@@ -4866,10 +4866,10 @@ CCB 的 JSON 契约不是由一份万能 Schema 定义的。运行时加载器�
 因此，“在数据中出现过”只说明存在词法实例；“旧文档提到过”也只是
 `lexical_only` 证据。要确认字段，必须回到注册表指出的 loader、测试和验证器。
 
-## 待合并的坐骑装备契约
+## 坐骑装备契约
 
 [CCB PR #1025](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1025)
-拟为动物装备增加 JSON 字段。本节说明待合并的契约；在源 PR 合并前，它不代表已发布的接口。
+已合并，为动物装备定义额外的 JSON 字段；源码验证记录指向其最终合并提交。
 
 带有 `PET_EQUIPMENT` 子类型的物品通过 `pet_slots` 声明兼容的装备位置。
 物品加载器读取 `pet_mount_threshold_delta` 以调整上马难度，
