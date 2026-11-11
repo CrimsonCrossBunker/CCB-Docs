@@ -28,17 +28,17 @@ source_paths:
 - doc/JSON/JSON_STYLE.md
 source_symbols: []
 source_queries: []
-source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
+source_fingerprint: 74a4c0f8d8aa6935403c0d3ce89a40329de0b6dc6b7475a8b0369ce925776a09
 authority: api-contract
-verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-verified_at: '2026-08-12'
+verified_commit: 977201502a0b1b7ecd3cd8dc7bc706d9e3076f20
+verified_at: '2026-11-11'
 generated: false
 generated_by: null
 include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c
+translation_source_fingerprint: c6b1f47d6f3aafebe71ed60ded3a905572e4df62525a297fb02cff71eaf7b151
 prerequisites:
 - architecture.project-map
 depends_on:
@@ -62,27 +62,27 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/977201502a0b1b7ecd3cd8dc7bc706d9e3076f20
 source_urls:
 - path: data/reference/json/ccb_json_object_types.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/data/reference/json/ccb_json_object_types.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/977201502a0b1b7ecd3cd8dc7bc706d9e3076f20/data/reference/json/ccb_json_object_types.json
 - path: tools/json_api/contract-inventory.schema.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tools/json_api/contract-inventory.schema.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/977201502a0b1b7ecd3cd8dc7bc706d9e3076f20/tools/json_api/contract-inventory.schema.json
 - path: tools/json_api/generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tools/json_api/generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/977201502a0b1b7ecd3cd8dc7bc706d9e3076f20/tools/json_api/generate_contracts.py
 - path: tools/json_api/test_generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tools/json_api/test_generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/977201502a0b1b7ecd3cd8dc7bc706d9e3076f20/tools/json_api/test_generate_contracts.py
 - path: src/init.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/init.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/977201502a0b1b7ecd3cd8dc7bc706d9e3076f20/src/init.cpp
 - path: src/generic_factory.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/generic_factory.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/977201502a0b1b7ecd3cd8dc7bc706d9e3076f20/src/generic_factory.h
 - path: tests/json_load_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tests/json_load_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/977201502a0b1b7ecd3cd8dc7bc706d9e3076f20/tests/json_load_test.cpp
 - path: doc/JSON/JSON_INHERITANCE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/doc/JSON/JSON_INHERITANCE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/977201502a0b1b7ecd3cd8dc7bc706d9e3076f20/doc/JSON/JSON_INHERITANCE.md
 - path: doc/JSON/JSON_STYLE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/doc/JSON/JSON_STYLE.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.overview%29%3A+&body=Document+ID%3A+json.overview%0ALanguage%3A+en%0AVerified+commit%3A+c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/977201502a0b1b7ecd3cd8dc7bc706d9e3076f20/doc/JSON/JSON_STYLE.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.overview%29%3A+&body=Document+ID%3A+json.overview%0ALanguage%3A+en%0AVerified+commit%3A+977201502a0b1b7ecd3cd8dc7bc706d9e3076f20%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # JSON contract overview
@@ -119,6 +119,31 @@ inheritance rule, or cross-ID reference has been classified.
 An occurrence in data is therefore only lexical instance evidence. A mention in legacy prose is
 also only `lexical_only` evidence. Confirm a field in the loader, tests, and validators named by
 the registry.
+
+## Mounted-equipment contract
+
+[CCB PR #1025](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1025)
+is merged and defines additional fields for animal equipment. The source verification
+records identify its final merge commit.
+
+An item with the `PET_EQUIPMENT` subtype declares compatible positions in
+`pet_slots`. The item loader accepts `pet_mount_threshold_delta` for mounting
+difficulty, `pet_melee_hit_multiplier` for mounted melee accuracy,
+`pet_spook_multiplier` for spook chance, and
+`pet_mounted_move_cost_multiplier` for mounted movement cost.
+`pet_install_qualities` is a list of `[quality ID, minimum level]` pairs
+checked by the generic pet equipment menu before installation.
+
+A `pet_slot` can provide `spook_multiplier` and
+`mounted_move_cost_multiplier` while occupied. Slot and item factors multiply;
+the final spook factor is clamped to 0.1–2.0 and the mounted movement factor
+to 0.5–2.0. The existing `pet_fear_multiplier` continues to affect spooking
+and falling for compatibility. The new spook field affects spooking only.
+
+The PR adds horse-only bridle and horseshoe positions and keeps existing slot
+IDs and save behavior. Its stable loot and installation rules are data-driven.
+Check the source PR's loaders, consumers, and tests before relying on these
+fields in released content.
 
 ## Where to start
 
