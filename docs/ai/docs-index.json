@@ -6573,17 +6573,17 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "f6a3bb50ab96428a11c7c6361a3932f8a29fce97992e3e556fcd8955b5feaec6",
+      "source_fingerprint": "7a717d72a2d875998c56118ddc3e8e7f82a7298e4410434e413e80a4d80b82cb",
       "authority": "api-contract",
-      "verified_commit": "8ac305b649964acc877a86e7fc872a0a315f3ecf",
-      "verified_at": "2026-09-19",
+      "verified_commit": "11136df38ec2636f84925afd9649f52890296180",
+      "verified_at": "2026-11-11",
       "generated": false,
       "generated_by": null,
       "include_in_search": false,
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396",
+      "translation_source_fingerprint": "ec00bedf8b6c8458aa650afa761da0d34da78f9bec859aa39adcf91312493eca",
       "prerequisites": [
         "cpp.mod-loading"
       ],
@@ -6706,17 +6706,17 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "f6a3bb50ab96428a11c7c6361a3932f8a29fce97992e3e556fcd8955b5feaec6",
+      "source_fingerprint": "7a717d72a2d875998c56118ddc3e8e7f82a7298e4410434e413e80a4d80b82cb",
       "authority": "api-contract",
-      "verified_commit": "8ac305b649964acc877a86e7fc872a0a315f3ecf",
-      "verified_at": "2026-09-19",
+      "verified_commit": "11136df38ec2636f84925afd9649f52890296180",
+      "verified_at": "2026-11-11",
       "generated": false,
       "generated_by": null,
       "include_in_search": false,
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396",
+      "translation_source_fingerprint": "ec00bedf8b6c8458aa650afa761da0d34da78f9bec859aa39adcf91312493eca",
       "prerequisites": [
         "cpp.mod-loading"
       ],
