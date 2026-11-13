@@ -4381,7 +4381,7 @@ pages:
   - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: &id209
+  source_paths: &json_overview_sources
   - data/reference/json/ccb_json_object_types.json
   - tools/json_api/contract-inventory.schema.json
   - tools/json_api/generate_contracts.py
@@ -4391,12 +4391,15 @@ pages:
   - tests/json_load_test.cpp
   - doc/JSON/JSON_INHERITANCE.md
   - doc/JSON/JSON_STYLE.md
+  - src/item_factory.cpp
+  - src/ballistics.cpp
+  - doc/JSON/ITEM.md
   source_symbols: &id210 []
   source_queries: &id211 []
-  source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
+  source_fingerprint: 134be158bba0c4aa5e155cce4989db6397ddee95156090e86c2c6369dbc29c89
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 9626297348a55661ae1c37ffa3dee43060440c58
+  verified_at: '2026-11-13'
   generated: false
   generated_by: null
   include_in_search: true
@@ -4404,7 +4407,7 @@ pages:
   translation_group: json.overview
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c
+  translation_source_fingerprint: 4d2b63e68de829421f3108d1e868e85cd4e12361e2af479ad09c8daed8755bc3
   prerequisites: &id212
   - architecture.project-map
   depends_on: &id213
@@ -4436,13 +4439,13 @@ pages:
   reviewers: *id208
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id209
+  source_paths: *json_overview_sources
   source_symbols: *id210
   source_queries: *id211
-  source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
+  source_fingerprint: 134be158bba0c4aa5e155cce4989db6397ddee95156090e86c2c6369dbc29c89
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 9626297348a55661ae1c37ffa3dee43060440c58
+  verified_at: '2026-11-13'
   generated: false
   generated_by: null
   include_in_search: true
@@ -4450,7 +4453,7 @@ pages:
   translation_group: json.overview
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c
+  translation_source_fingerprint: 4d2b63e68de829421f3108d1e868e85cd4e12361e2af479ad09c8daed8755bc3
   prerequisites: *id212
   depends_on: *id213
   redirect_from: *id214
@@ -4479,7 +4482,16 @@ pages:
   reviewers: *id208
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id209
+  source_paths: &id209
+  - data/reference/json/ccb_json_object_types.json
+  - tools/json_api/contract-inventory.schema.json
+  - tools/json_api/generate_contracts.py
+  - tools/json_api/test_generate_contracts.py
+  - src/init.cpp
+  - src/generic_factory.h
+  - tests/json_load_test.cpp
+  - doc/JSON/JSON_INHERITANCE.md
+  - doc/JSON/JSON_STYLE.md
   source_symbols: *id210
   source_queries: *id211
   source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
