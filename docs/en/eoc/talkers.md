@@ -41,7 +41,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 633c116b8ceb25994926cb0d914dc6f0b5623695fae7fddbefd46996ec0cf860
+translation_source_fingerprint: f7a74b72ef767cf763d9777b6516e109a4cfab577e0ee6584765c65c06766472
 prerequisites:
 - eoc.overview
 depends_on:
@@ -98,6 +98,12 @@ EOC conditions and effects operate on alpha/beta talkers in a dialogue context. 
 names commonly use `u_` and `npc_` for those routing directions, but a prefix does not prove that
 the object is necessarily the player avatar or an ordinary NPC. Events, items, monsters, map
 locations, and nested calls can construct other talker combinations.
+
+When a guest starts a conversation in same-region co-op, alpha is the character
+bound to that guest by the host, and beta is the NPC they are speaking to.
+Native dialogue effects use these participants for item offers and radio contact
+discovery. When porting legacy content to Lua Platform v1, take the character
+handles from the dialogue context to preserve that ownership.
 
 ## How the inventory preserves unknowns
 

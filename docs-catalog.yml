@@ -4881,7 +4881,7 @@ pages:
   translation_group: eoc.talkers
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 633c116b8ceb25994926cb0d914dc6f0b5623695fae7fddbefd46996ec0cf860
+  translation_source_fingerprint: f7a74b72ef767cf763d9777b6516e109a4cfab577e0ee6584765c65c06766472
   prerequisites: &id244
   - eoc.overview
   depends_on: &id245
@@ -4928,7 +4928,7 @@ pages:
   translation_group: eoc.talkers
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 633c116b8ceb25994926cb0d914dc6f0b5623695fae7fddbefd46996ec0cf860
+  translation_source_fingerprint: f7a74b72ef767cf763d9777b6516e109a4cfab577e0ee6584765c65c06766472
   prerequisites: *id244
   depends_on: *id245
   redirect_from: *id241
