@@ -26,19 +26,22 @@ source_paths:
 - tests/json_load_test.cpp
 - doc/JSON/JSON_INHERITANCE.md
 - doc/JSON/JSON_STYLE.md
+- src/item_factory.cpp
+- src/ballistics.cpp
+- doc/JSON/ITEM.md
 source_symbols: []
 source_queries: []
-source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
+source_fingerprint: 134be158bba0c4aa5e155cce4989db6397ddee95156090e86c2c6369dbc29c89
 authority: api-contract
-verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-verified_at: '2026-08-12'
+verified_commit: 9626297348a55661ae1c37ffa3dee43060440c58
+verified_at: '2026-11-13'
 generated: false
 generated_by: null
 include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c
+translation_source_fingerprint: 4d2b63e68de829421f3108d1e868e85cd4e12361e2af479ad09c8daed8755bc3
 prerequisites:
 - architecture.project-map
 depends_on:
@@ -62,27 +65,33 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/9626297348a55661ae1c37ffa3dee43060440c58
 source_urls:
 - path: data/reference/json/ccb_json_object_types.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/data/reference/json/ccb_json_object_types.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9626297348a55661ae1c37ffa3dee43060440c58/data/reference/json/ccb_json_object_types.json
 - path: tools/json_api/contract-inventory.schema.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tools/json_api/contract-inventory.schema.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9626297348a55661ae1c37ffa3dee43060440c58/tools/json_api/contract-inventory.schema.json
 - path: tools/json_api/generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tools/json_api/generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9626297348a55661ae1c37ffa3dee43060440c58/tools/json_api/generate_contracts.py
 - path: tools/json_api/test_generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tools/json_api/test_generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9626297348a55661ae1c37ffa3dee43060440c58/tools/json_api/test_generate_contracts.py
 - path: src/init.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/init.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9626297348a55661ae1c37ffa3dee43060440c58/src/init.cpp
 - path: src/generic_factory.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/generic_factory.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9626297348a55661ae1c37ffa3dee43060440c58/src/generic_factory.h
 - path: tests/json_load_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tests/json_load_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9626297348a55661ae1c37ffa3dee43060440c58/tests/json_load_test.cpp
 - path: doc/JSON/JSON_INHERITANCE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/doc/JSON/JSON_INHERITANCE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9626297348a55661ae1c37ffa3dee43060440c58/doc/JSON/JSON_INHERITANCE.md
 - path: doc/JSON/JSON_STYLE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/doc/JSON/JSON_STYLE.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.overview%29%3A+&body=Document+ID%3A+json.overview%0ALanguage%3A+zh_CN%0AVerified+commit%3A+c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9626297348a55661ae1c37ffa3dee43060440c58/doc/JSON/JSON_STYLE.md
+- path: src/item_factory.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9626297348a55661ae1c37ffa3dee43060440c58/src/item_factory.cpp
+- path: src/ballistics.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9626297348a55661ae1c37ffa3dee43060440c58/src/ballistics.cpp
+- path: doc/JSON/ITEM.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9626297348a55661ae1c37ffa3dee43060440c58/doc/JSON/ITEM.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.overview%29%3A+&body=Document+ID%3A+json.overview%0ALanguage%3A+zh_CN%0AVerified+commit%3A+9626297348a55661ae1c37ffa3dee43060440c58%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # JSON 契约总览
@@ -116,6 +125,14 @@ CCB 的 JSON 契约不是由一份万能 Schema 定义的。运行时加载器�
 `lexical_only` 证据。要确认字段，必须回到注册表指出的 loader、测试和验证器。
 
 ## 从哪里开始
+
+### 投掷物品的字段
+
+`thrown_recovery_chance` 是物品投出后可掉落或嵌入目标的概率，取值 0 到 100，默认 100。回收判定失败时，物品销毁并掉出内容物。弹药的 `recovery_chance` 和玻璃破碎等投掷效果各自结算。
+
+`throw_correction_data` 定义持握该物品时的投掷修正。若配置了筛选条件，投射物满足 `required_flag` 或 `allow_ammotype` 之一即可进入物理限制检查，之后还需满足全部重量、体积和长度限制。按充能计数的物品使用单份重量和体积。完整字段、默认值和继承清除规则见[物品 JSON 定义](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9626297348a55661ae1c37ffa3dee43060440c58/doc/JSON/ITEM.md#throw-corrections)。
+
+### 相关页面
 
 - 查询 `type` 是否注册：使用[生成注册表](../reference/json-object-types.md)。
 - 修改继承对象：先阅读[继承与 copy-from](inheritance-copy-from.md)。

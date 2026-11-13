@@ -4756,8 +4756,8 @@ PR 中标记 JSON/Mod 文档影响。
 ## json.overview [en] — JSON contract overview
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/
-Verified commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-Sources: data/reference/json/ccb_json_object_types.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/init.cpp, src/generic_factory.h, tests/json_load_test.cpp, doc/JSON/JSON_INHERITANCE.md, doc/JSON/JSON_STYLE.md
+Verified commit: 9626297348a55661ae1c37ffa3dee43060440c58
+Sources: data/reference/json/ccb_json_object_types.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/init.cpp, src/generic_factory.h, tests/json_load_test.cpp, doc/JSON/JSON_INHERITANCE.md, doc/JSON/JSON_STYLE.md, src/item_factory.cpp, src/ballistics.cpp, doc/JSON/ITEM.md
 
 # JSON contract overview
 
@@ -4796,6 +4796,14 @@ the registry.
 
 ## Where to start
 
+### Thrown-item fields
+
+`thrown_recovery_chance` gives the percentage chance that a thrown item survives to drop or embed in its target. It accepts values from 0 to 100 and defaults to 100. A failed recovery check destroys the item and spills its contents. Ammunition's `recovery_chance` and effects such as glass shattering are resolved separately.
+
+`throw_correction_data` describes corrections applied while an item is wielded. When selectors are configured, a projectile qualifies by matching either `required_flag` or `allow_ammotype`. It must also meet every configured weight, volume, and length limit. Weight and volume use a single charge for items counted by charges. The [item JSON definition](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9626297348a55661ae1c37ffa3dee43060440c58/doc/JSON/ITEM.md#throw-corrections) lists the fields, defaults, and inheritance rules.
+
+### Related pages
+
 - To determine whether a `type` is registered, use the [generated registry](../reference/json-object-types.md).
 - Before changing inherited objects, read [inheritance and copy-from](inheritance-copy-from.md).
 - Before submitting, follow [JSON validation and evidence levels](validation.md).
@@ -4808,8 +4816,8 @@ repair it. Do not change runtime contracts merely to match prose.
 ## json.overview [zh_CN] — JSON 契约总览
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/
-Verified commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-Sources: data/reference/json/ccb_json_object_types.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/init.cpp, src/generic_factory.h, tests/json_load_test.cpp, doc/JSON/JSON_INHERITANCE.md, doc/JSON/JSON_STYLE.md
+Verified commit: 9626297348a55661ae1c37ffa3dee43060440c58
+Sources: data/reference/json/ccb_json_object_types.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/init.cpp, src/generic_factory.h, tests/json_load_test.cpp, doc/JSON/JSON_INHERITANCE.md, doc/JSON/JSON_STYLE.md, src/item_factory.cpp, src/ballistics.cpp, doc/JSON/ITEM.md
 
 # JSON 契约总览
 
@@ -4842,6 +4850,14 @@ CCB 的 JSON 契约不是由一份万能 Schema 定义的。运行时加载器�
 `lexical_only` 证据。要确认字段，必须回到注册表指出的 loader、测试和验证器。
 
 ## 从哪里开始
+
+### 投掷物品的字段
+
+`thrown_recovery_chance` 是物品投出后可掉落或嵌入目标的概率，取值 0 到 100，默认 100。回收判定失败时，物品销毁并掉出内容物。弹药的 `recovery_chance` 和玻璃破碎等投掷效果各自结算。
+
+`throw_correction_data` 定义持握该物品时的投掷修正。若配置了筛选条件，投射物满足 `required_flag` 或 `allow_ammotype` 之一即可进入物理限制检查，之后还需满足全部重量、体积和长度限制。按充能计数的物品使用单份重量和体积。完整字段、默认值和继承清除规则见[物品 JSON 定义](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/9626297348a55661ae1c37ffa3dee43060440c58/doc/JSON/ITEM.md#throw-corrections)。
+
+### 相关页面
 
 - 查询 `type` 是否注册：使用[生成注册表](../reference/json-object-types.md)。
 - 修改继承对象：先阅读[继承与 copy-from](inheritance-copy-from.md)。
