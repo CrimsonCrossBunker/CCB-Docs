@@ -41,7 +41,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 633c116b8ceb25994926cb0d914dc6f0b5623695fae7fddbefd46996ec0cf860
+translation_source_fingerprint: f7a74b72ef767cf763d9777b6516e109a4cfab577e0ee6584765c65c06766472
 prerequisites:
 - eoc.overview
 depends_on:
@@ -97,6 +97,10 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 EOC 条件和效果在 dialogue 上下文中操作 alpha/beta talker。历史键名通常用 `u_` 和
 `npc_` 表示这两个路由方向，但前缀本身不证明对象一定是玩家 avatar 或普通 NPC。
 事件、物品、怪物、地图位置和嵌套调用可以构造不同 talker 组合。
+
+在同区合作中，客机发起对话时，alpha 是服务端绑定的客机角色，beta 仍是实际交谈的
+NPC。提供物品和加入无线电联络名单的原生对话效果使用这两个参与者。将旧内容迁移到
+Lua Platform v1 时，从对话上下文取得角色句柄，保留这一归属。
 
 ## 清单如何表达未知
 

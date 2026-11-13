@@ -104,7 +104,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396
+translation_source_fingerprint: 84c0498891e53945b8406fafa94e12cb93cadfa503494e285bcd33d7d67d29f2
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -723,6 +723,20 @@ JSON 冲突列表和用户默认 Mod 列表也解析旧 ID。它是同一核心�
 
 这些操作要求世界就绪且位于运行时回调中，使用 Mod 独立随机流；
 不保证与旧引擎全局随机流抽出相同序列。其他随机操作的范围以各自声明为准。
+
+### 同区合作中的角色归属
+
+在可写对话回调中，将当前对话参与者的句柄传给支持联机的 NPC 任务和训练服务。
+服务端根据活动对话校验参与者、提供者和选中的任务或课程，再按原生规则结算。
+`ccb.services.characters.avatar()` 仍返回本进程的本地角色。客机发起的对话应使用
+对话上下文提供的参与者，避免操作房主的任务、物品或训练进度。
+
+给 NPC 提供物品时，客机的选择通过当前对话提交给服务端。回调在等待选择时返回
+空字符串，服务端结算后的结果会写入对话原因，然后才进入下一话题。选中的任务奖励
+只入账一次，远程对话可以随后打开交易界面。
+
+`on_player_try_move` 与 `on_npc_try_move` 分别通过载荷中的 `player` 与 `npc`
+确定移动者。回调中的角色作用域状态归该移动者所有。
 
 ### 2026-09 Lua 语义实现收尾
 
