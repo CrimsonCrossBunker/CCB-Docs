@@ -6583,7 +6583,7 @@
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396",
+      "translation_source_fingerprint": "84c0498891e53945b8406fafa94e12cb93cadfa503494e285bcd33d7d67d29f2",
       "prerequisites": [
         "cpp.mod-loading"
       ],
@@ -6716,7 +6716,7 @@
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396",
+      "translation_source_fingerprint": "84c0498891e53945b8406fafa94e12cb93cadfa503494e285bcd33d7d67d29f2",
       "prerequisites": [
         "cpp.mod-loading"
       ],

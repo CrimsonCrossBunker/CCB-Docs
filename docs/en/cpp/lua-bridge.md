@@ -104,7 +104,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396
+translation_source_fingerprint: 84c0498891e53945b8406fafa94e12cb93cadfa503494e285bcd33d7d67d29f2
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -819,6 +819,26 @@ endpoints are likewise truncated toward zero before being ordered.
 These operations require a ready world and an active runtime callback. They use
 the Mod's independent random stream and do not promise the same draws as the old
 engine-global stream. Other random operations retain their own declared ranges.
+
+### Character ownership in same-region co-op
+
+In a writable dialogue callback, pass the current participant's handle to NPC
+mission and training services that support co-op. The host validates the
+participant, provider, and selected mission or course against the active dialogue
+before applying native gameplay rules. `ccb.services.characters.avatar()`
+returns the local avatar of the running process. For guest dialogue, take the
+participant from the dialogue context so missions, items and training belong to
+the player who requested the action.
+
+For an item offer to an NPC, a guest submits their selection through the current
+dialogue. The callback returns an empty string while selection is pending. The
+host records the outcome in the dialogue reason before entering the next topic.
+A selected mission reward is credited once and remote dialogue can then open
+the trade interface.
+
+`on_player_try_move` and `on_npc_try_move` identify the mover with the payload's
+`player` and `npc` fields respectively. Character-scoped state in either
+callback belongs to that mover.
 
 ### September 2026 Lua semantic implementation closeout
 
