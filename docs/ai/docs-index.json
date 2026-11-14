@@ -9972,21 +9972,22 @@
         "Makefile",
         "data/reference/json/ccb_json_object_types.json",
         "data/reference/json/ccb_eoc_conditions.json",
-        "data/reference/json/ccb_eoc_effects.json"
+        "data/reference/json/ccb_eoc_effects.json",
+        "data/mods/railroads/README.md"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "07702c94c6abf44a4ce57494f396a161ccbd4e8a072625d8731c2d659ddd75b6",
+      "source_fingerprint": "b40ba2d158de84941b029fa19c214aef0dd1f40285cea5c18168ae14783ab192",
       "authority": "source-and-tests",
-      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
-      "verified_at": "2026-08-02",
+      "verified_commit": "964d6e96b53d896d46fb130014b93b9791c909d9",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "6ded0b43085f4eef208e8256f7d9d497323f2dba7a085068a440d48be7a306c8",
+      "translation_source_fingerprint": "38fb8761cb798c7e3358c1eba492907d2005f076be0902b1a1ee19ec7da509cb",
       "prerequisites": [
         "json.overview",
         "eoc.overview"
@@ -10042,21 +10043,22 @@
         "Makefile",
         "data/reference/json/ccb_json_object_types.json",
         "data/reference/json/ccb_eoc_conditions.json",
-        "data/reference/json/ccb_eoc_effects.json"
+        "data/reference/json/ccb_eoc_effects.json",
+        "data/mods/railroads/README.md"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "07702c94c6abf44a4ce57494f396a161ccbd4e8a072625d8731c2d659ddd75b6",
+      "source_fingerprint": "b40ba2d158de84941b029fa19c214aef0dd1f40285cea5c18168ae14783ab192",
       "authority": "source-and-tests",
-      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
-      "verified_at": "2026-08-02",
+      "verified_commit": "964d6e96b53d896d46fb130014b93b9791c909d9",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "6ded0b43085f4eef208e8256f7d9d497323f2dba7a085068a440d48be7a306c8",
+      "translation_source_fingerprint": "38fb8761cb798c7e3358c1eba492907d2005f076be0902b1a1ee19ec7da509cb",
       "prerequisites": [
         "json.overview",
         "eoc.overview"
@@ -16937,7 +16939,7 @@
       "id": "mods.complete-json-eoc-mod",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/",
-      "last_verified": "2026-08-02",
+      "last_verified": "2026-11-14",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
@@ -16948,7 +16950,7 @@
       "id": "mods.complete-json-eoc-mod",
       "language": "zh_CN",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
-      "last_verified": "2026-08-02",
+      "last_verified": "2026-11-14",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
