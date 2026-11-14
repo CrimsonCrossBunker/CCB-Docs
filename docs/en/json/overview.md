@@ -41,7 +41,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 4d2b63e68de829421f3108d1e868e85cd4e12361e2af479ad09c8daed8755bc3
+translation_source_fingerprint: 72fea1f5abae2802e936ffcb671612d807d92d803af9c964b7f67f5d3ffbfb7d
 prerequisites:
 - architecture.project-map
 depends_on:
@@ -100,6 +100,17 @@ CCB's JSON contract is not defined by one universal Schema. Runtime loaders and 
 behaviour; `DynamicDataLoader` registrations define top-level `type` dispatch; schemas,
 validators, and generated inventories record the subset that machines can prove. Legacy prose
 and data examples are leads, not overrides for those contracts.
+
+## Content contracts and save metadata
+
+The object-type inventory on this page covers content-loading entry points. JSON in world saves,
+character saves, and multiplayer messages belongs to the corresponding persistence or protocol
+format. Using JSON does not make it a top-level `type` that a Mod can place in its data directory,
+and does not imply support for `copy-from`.
+
+Changes to such internal metadata need save, load, legacy-data migration, and relevant multiplayer
+checks. Determine public JSON contract impact from content registrations and generated inventories,
+not just a file extension or source filename.
 
 ## Current machine coverage
 

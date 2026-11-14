@@ -9476,7 +9476,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "4d2b63e68de829421f3108d1e868e85cd4e12361e2af479ad09c8daed8755bc3",
+      "translation_source_fingerprint": "72fea1f5abae2802e936ffcb671612d807d92d803af9c964b7f67f5d3ffbfb7d",
       "prerequisites": [
         "architecture.project-map"
       ],
@@ -9545,7 +9545,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "4d2b63e68de829421f3108d1e868e85cd4e12361e2af479ad09c8daed8755bc3",
+      "translation_source_fingerprint": "72fea1f5abae2802e936ffcb671612d807d92d803af9c964b7f67f5d3ffbfb7d",
       "prerequisites": [
         "architecture.project-map"
       ],
