@@ -41,7 +41,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 98556c52c2794b8e3df9165ea60a0925a14f8d162127f5ceb4a09b9890013b24
+translation_source_fingerprint: 068478c7ef2b5a026e7667c2af44ab7f946ac30a7b5fca22c0fab1347fadbade
 prerequisites:
 - eoc.overview
 depends_on:
@@ -119,7 +119,7 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 `unclassified`。生成参考显示 `known_global_scopes` 是全局 parser 能力，不是每个键的
 逐项许可列表。
 
-## 与 Lua 共用的坐标和定时实现（PR #937 待合并）
+## 与 Lua 共用的坐标和定时实现（PR #937 已合并）
 
 [CCB #937](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/937)
 让 EOC 的 `mirror_coordinates` 复用原生坐标镜像方法，`place_override`、

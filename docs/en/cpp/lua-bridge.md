@@ -107,7 +107,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 0d14bda191911ca70a8c15a9680cde99a5394a533b6c17c54f2d6d5842fb6d62
+translation_source_fingerprint: c823c9a76e8e77b2980e04818ec23cc92528d67d58d97319550dc704f396fbb1
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -331,6 +331,25 @@ Complete a bridge change as one coherent batch:
 3. keep the Make, CMake, and Android Lua source sets and C ABI aligned;
 4. add or update focused behavior, parity, coverage, and disabled-build tests;
 5. update generated reference material only after source, declaration, inventory, and tests agree.
+
+### Variable mutation results and native string ranges
+
+In this Platform v1 batch, `ccb.services.variables.set`, `remove`,
+`set_global`, `remove_global`, and `set_resolved` accept optional
+`include_before = false`. The default still returns the prior value.
+Setting it to false omits `before` from the result and skips converting the
+prior value to Lua. This supports writes that only need their side effect when
+the old value exceeds structured conversion limits. Validation of the new
+value and callback-context key limits still apply.
+
+Runtime keys for native actor, item, vehicle, and global variables follow
+native string ranges; top-level native scalar strings preserve all bytes.
+Callback-context and indirect lookup entry keys retain their separate
+limits, and nested arrays remain subject to structured conversion limits.
+A native key containing NUL can work at runtime, but persistence across a
+save/load round trip is not established. The migrator uses these ranges only
+where native semantics support them. Passing these tests or exposing the API
+does not prove that every EOC entry has been semantically verified.
 
 ## Contract and build gates
 
