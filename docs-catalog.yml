@@ -5018,10 +5018,10 @@ pages:
   source_paths: *id236
   source_symbols: *id237
   source_queries: *id238
-  source_fingerprint: 222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e
+  source_fingerprint: 81648d78c697a464607987d0aa2cd8c8d85f06dfa6e9a97117cdae8581ca2b90
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 62e69a762a00ec6197ba6a829972de8dd344e9f2
+  verified_at: '2026-10-04'
   generated: false
   generated_by: null
   include_in_search: true
@@ -5029,7 +5029,7 @@ pages:
   translation_group: eoc.variables-context
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 8e90cbae7e8c02b7eaa85d8151d686e20feb0dac08e769660feee6034b89c055
+  translation_source_fingerprint: 068478c7ef2b5a026e7667c2af44ab7f946ac30a7b5fca22c0fab1347fadbade
   prerequisites: &id246
   - eoc.overview
   depends_on: &id247
@@ -5064,10 +5064,10 @@ pages:
   source_paths: *id236
   source_symbols: *id237
   source_queries: *id238
-  source_fingerprint: 222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e
+  source_fingerprint: 81648d78c697a464607987d0aa2cd8c8d85f06dfa6e9a97117cdae8581ca2b90
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 62e69a762a00ec6197ba6a829972de8dd344e9f2
+  verified_at: '2026-10-04'
   generated: false
   generated_by: null
   include_in_search: true
@@ -5075,7 +5075,7 @@ pages:
   translation_group: eoc.variables-context
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 8e90cbae7e8c02b7eaa85d8151d686e20feb0dac08e769660feee6034b89c055
+  translation_source_fingerprint: 068478c7ef2b5a026e7667c2af44ab7f946ac30a7b5fca22c0fab1347fadbade
   prerequisites: *id246
   depends_on: *id247
   redirect_from: *id241
@@ -7422,6 +7422,9 @@ pages:
   - src/lua_platform_trade.cpp
   - src/lua_platform_npc_services.cpp
   - src/lua_platform_mutations.cpp
+  - src/flexbuffer_json.cpp
+  - src/flexbuffer_json.h
+  - tests/lua_platform_persistent_integer_test.cpp
   source_symbols:
   - platform_version = 1
   - initialize_state(
@@ -7437,10 +7440,10 @@ pages:
   - 'lua_platform: 1'
   - -DCATA_ENABLE_LUA_PLATFORM="${CATA_ENABLE_LUA_PLATFORM:-1}"
   - -DCATA_ENABLE_LUA_PLATFORM=ON
-  source_fingerprint: 4121435197d42c6347ff9bda11bb79adb67a1f6a12175fc1f798a497c1a66da4
+  source_fingerprint: 5e91e0340ced65cb2530da6f382e49d923757c5c70379d3ad90fdb99c1378320
   authority: api-contract
-  verified_commit: cb1b95f0a0c569af8a1e8c216c2a1d1ca6e1be6e
-  verified_at: '2026-11-14'
+  verified_commit: 62e69a762a00ec6197ba6a829972de8dd344e9f2
+  verified_at: '2026-10-04'
   generated: false
   generated_by: null
   include_in_search: false
@@ -7448,7 +7451,7 @@ pages:
   translation_group: cpp.lua-bridge
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: d5abaa57dfdaab9ac09140a2caeb78da2219257fe9f841ee5c085991eae11508
+  translation_source_fingerprint: c823c9a76e8e77b2980e04818ec23cc92528d67d58d97319550dc704f396fbb1
   prerequisites:
   - cpp.mod-loading
   depends_on: []
@@ -7548,6 +7551,9 @@ pages:
   - src/lua_platform_trade.cpp
   - src/lua_platform_npc_services.cpp
   - src/lua_platform_mutations.cpp
+  - src/flexbuffer_json.cpp
+  - src/flexbuffer_json.h
+  - tests/lua_platform_persistent_integer_test.cpp
   source_symbols:
   - platform_version = 1
   - initialize_state(
@@ -7563,10 +7569,10 @@ pages:
   - 'lua_platform: 1'
   - -DCATA_ENABLE_LUA_PLATFORM="${CATA_ENABLE_LUA_PLATFORM:-1}"
   - -DCATA_ENABLE_LUA_PLATFORM=ON
-  source_fingerprint: 4121435197d42c6347ff9bda11bb79adb67a1f6a12175fc1f798a497c1a66da4
+  source_fingerprint: 5e91e0340ced65cb2530da6f382e49d923757c5c70379d3ad90fdb99c1378320
   authority: api-contract
-  verified_commit: cb1b95f0a0c569af8a1e8c216c2a1d1ca6e1be6e
-  verified_at: '2026-11-14'
+  verified_commit: 62e69a762a00ec6197ba6a829972de8dd344e9f2
+  verified_at: '2026-10-04'
   generated: false
   generated_by: null
   include_in_search: false
@@ -7574,7 +7580,7 @@ pages:
   translation_group: cpp.lua-bridge
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: d5abaa57dfdaab9ac09140a2caeb78da2219257fe9f841ee5c085991eae11508
+  translation_source_fingerprint: c823c9a76e8e77b2980e04818ec23cc92528d67d58d97319550dc704f396fbb1
   prerequisites:
   - cpp.mod-loading
   depends_on: []
