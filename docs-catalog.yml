@@ -7437,10 +7437,10 @@ pages:
   - 'lua_platform: 1'
   - -DCATA_ENABLE_LUA_PLATFORM="${CATA_ENABLE_LUA_PLATFORM:-1}"
   - -DCATA_ENABLE_LUA_PLATFORM=ON
-  source_fingerprint: f6a3bb50ab96428a11c7c6361a3932f8a29fce97992e3e556fcd8955b5feaec6
+  source_fingerprint: 4121435197d42c6347ff9bda11bb79adb67a1f6a12175fc1f798a497c1a66da4
   authority: api-contract
-  verified_commit: 8ac305b649964acc877a86e7fc872a0a315f3ecf
-  verified_at: '2026-09-19'
+  verified_commit: cb1b95f0a0c569af8a1e8c216c2a1d1ca6e1be6e
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: false
@@ -7448,7 +7448,7 @@ pages:
   translation_group: cpp.lua-bridge
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396
+  translation_source_fingerprint: d5abaa57dfdaab9ac09140a2caeb78da2219257fe9f841ee5c085991eae11508
   prerequisites:
   - cpp.mod-loading
   depends_on: []
@@ -7563,10 +7563,10 @@ pages:
   - 'lua_platform: 1'
   - -DCATA_ENABLE_LUA_PLATFORM="${CATA_ENABLE_LUA_PLATFORM:-1}"
   - -DCATA_ENABLE_LUA_PLATFORM=ON
-  source_fingerprint: f6a3bb50ab96428a11c7c6361a3932f8a29fce97992e3e556fcd8955b5feaec6
+  source_fingerprint: 4121435197d42c6347ff9bda11bb79adb67a1f6a12175fc1f798a497c1a66da4
   authority: api-contract
-  verified_commit: 8ac305b649964acc877a86e7fc872a0a315f3ecf
-  verified_at: '2026-09-19'
+  verified_commit: cb1b95f0a0c569af8a1e8c216c2a1d1ca6e1be6e
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: false
@@ -7574,7 +7574,7 @@ pages:
   translation_group: cpp.lua-bridge
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396
+  translation_source_fingerprint: d5abaa57dfdaab9ac09140a2caeb78da2219257fe9f841ee5c085991eae11508
   prerequisites:
   - cpp.mod-loading
   depends_on: []
