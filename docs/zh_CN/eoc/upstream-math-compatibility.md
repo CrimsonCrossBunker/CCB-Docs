@@ -28,17 +28,17 @@ source_queries:
 - hunger
 - morale
 - raw
-source_fingerprint: 63aa23636f78e390885922176617b76ce1872b96b4bf9d6ff98c47798b061ccf
+source_fingerprint: d1d0905fe2996375bb6944779fb44205f61432c2c5ce21c989bc09ec6fa4404c
 authority: api-contract
-verified_commit: e6d42fcd151236cc3b5824107986911b15969a65
-verified_at: '2026-10-13'
+verified_commit: 0719374e424bf1907dd7e9a9be2450c90aac5cfd
+verified_at: '2026-11-14'
 generated: false
 generated_by: null
 include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 3fb01cbe28214e221cb3ade36edc0e1b7b6b544b0a575b51083cd1908b2dbc4b
+translation_source_fingerprint: 52223f83f5ed3f55e8c755b07beeb35ca04aca687994aa33164ad868deffa475
 prerequisites:
 - eoc.overview
 depends_on:
@@ -53,7 +53,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: eoc
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/995
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/eoc/upstream-math-compatibility/
 alternate_urls:
@@ -61,20 +61,20 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/upstream-math-compatibility/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/eoc/upstream-math-compatibility/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/e6d42fcd151236cc3b5824107986911b15969a65
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/0719374e424bf1907dd7e9a9be2450c90aac5cfd
 source_urls:
 - path: src/math_parser_diag.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/e6d42fcd151236cc3b5824107986911b15969a65/src/math_parser_diag.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/0719374e424bf1907dd7e9a9be2450c90aac5cfd/src/math_parser_diag.cpp
 - path: tests/upstream_math_compat_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/e6d42fcd151236cc3b5824107986911b15969a65/tests/upstream_math_compat_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28eoc.upstream-math-compatibility%29%3A+&body=Document+ID%3A+eoc.upstream-math-compatibility%0ALanguage%3A+zh_CN%0AVerified+commit%3A+e6d42fcd151236cc3b5824107986911b15969a65%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/0719374e424bf1907dd7e9a9be2450c90aac5cfd/tests/upstream_math_compat_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28eoc.upstream-math-compatibility%29%3A+&body=Document+ID%3A+eoc.upstream-math-compatibility%0ALanguage%3A+zh_CN%0AVerified+commit%3A+0719374e424bf1907dd7e9a9be2450c90aac5cfd%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---
 
 # 饥饿与士气数学表达式兼容草稿
 
-本页跟随尚未合并的 CCB PR #995，依据该 PR 的源码与聚焦回归。完整同步数据需要这些注册函数；本页保持草稿，不进入正式搜索或 AI 索引。
+本页记录已合并的 CCB PR #995 的源码与聚焦回归。完整同步数据需要这些注册函数；本页保持草稿，不进入正式搜索或 AI 索引。
 
 `u_hunger()` 与 `n_hunger()` 读取对应 Character 的饥饿值；赋值调用原生 `Character::set_hunger`，按整数处理。非 Character 目标赋值会失败。旧的 `val('hunger')` 读取方式仍可用。
 
