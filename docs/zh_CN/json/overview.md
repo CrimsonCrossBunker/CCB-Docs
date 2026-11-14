@@ -38,7 +38,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c
+translation_source_fingerprint: 92476b5dda72d4810454cdedb6e57e9801636a67cbb5f9e9f01166b1a427a135
 prerequisites:
 - architecture.project-map
 depends_on:
@@ -90,6 +90,15 @@ documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/n
 CCB 的 JSON 契约不是由一份万能 Schema 定义的。运行时加载器和测试决定行为；
 `DynamicDataLoader` 注册决定顶层 `type` 的分派；Schema、验证器和生成清单记录能够
 被机器证明的部分。旧文档和数据样例可以提供线索，但不能覆盖这些契约。
+
+## 内容契约与存档元数据
+
+本页的对象类型清单覆盖内容加载入口。世界存档、角色存档和联机会话消息中的 JSON
+属于各自的持久化或协议格式；使用 JSON 不会使它们成为可放入 Mod 数据目录的顶层
+`type`，也不意味着它们支持 `copy-from`。
+
+调整这类内部元数据时，应验证保存、载入、旧数据迁移和相关联机边界。是否改变了公共
+JSON 契约，要检查内容注册和生成清单，不能仅凭文件扩展名或源码文件名判断。
 
 ## 当前机器覆盖
 

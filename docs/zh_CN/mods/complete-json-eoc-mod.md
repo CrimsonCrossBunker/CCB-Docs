@@ -25,19 +25,20 @@ source_paths:
 - data/reference/json/ccb_json_object_types.json
 - data/reference/json/ccb_eoc_conditions.json
 - data/reference/json/ccb_eoc_effects.json
+- data/mods/railroads/README.md
 source_symbols: []
 source_queries: []
-source_fingerprint: 07702c94c6abf44a4ce57494f396a161ccbd4e8a072625d8731c2d659ddd75b6
+source_fingerprint: b40ba2d158de84941b029fa19c214aef0dd1f40285cea5c18168ae14783ab192
 authority: source-and-tests
-verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-verified_at: '2026-08-02'
+verified_commit: 964d6e96b53d896d46fb130014b93b9791c909d9
+verified_at: '2026-11-14'
 generated: false
 generated_by: null
 include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 9bfbec4adf55ce95bbad4bf3b6d1b8755882c8d3c10366a7450446fd8f96feee
+translation_source_fingerprint: 38fb8761cb798c7e3358c1eba492907d2005f076be0902b1a1ee19ec7da509cb
 prerequisites:
 - json.overview
 - eoc.overview
@@ -57,7 +58,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: mods
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/968
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/
 alternate_urls:
@@ -65,27 +66,29 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/d32b9cc880a85480840d82cfa05d256c78a16615
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/964d6e96b53d896d46fb130014b93b9791c909d9
 source_urls:
 - path: data/AGENTS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/AGENTS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/964d6e96b53d896d46fb130014b93b9791c909d9/data/AGENTS.md
 - path: data/mods/AGENTS.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/mods/AGENTS.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/964d6e96b53d896d46fb130014b93b9791c909d9/data/mods/AGENTS.md
 - path: doc/MODDING.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/doc/MODDING.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/964d6e96b53d896d46fb130014b93b9791c909d9/doc/MODDING.md
 - path: data/mods/TEST_DATA/modinfo.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/mods/TEST_DATA/modinfo.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/964d6e96b53d896d46fb130014b93b9791c909d9/data/mods/TEST_DATA/modinfo.json
 - path: data/mods/TEST_DATA/effect_on_condition.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/mods/TEST_DATA/effect_on_condition.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/964d6e96b53d896d46fb130014b93b9791c909d9/data/mods/TEST_DATA/effect_on_condition.json
 - path: Makefile
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/Makefile
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/964d6e96b53d896d46fb130014b93b9791c909d9/Makefile
 - path: data/reference/json/ccb_json_object_types.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/reference/json/ccb_json_object_types.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/964d6e96b53d896d46fb130014b93b9791c909d9/data/reference/json/ccb_json_object_types.json
 - path: data/reference/json/ccb_eoc_conditions.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/reference/json/ccb_eoc_conditions.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/964d6e96b53d896d46fb130014b93b9791c909d9/data/reference/json/ccb_eoc_conditions.json
 - path: data/reference/json/ccb_eoc_effects.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/data/reference/json/ccb_eoc_effects.json
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28mods.complete-json-eoc-mod%29%3A+&body=Document+ID%3A+mods.complete-json-eoc-mod%0ALanguage%3A+zh_CN%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/964d6e96b53d896d46fb130014b93b9791c909d9/data/reference/json/ccb_eoc_effects.json
+- path: data/mods/railroads/README.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/964d6e96b53d896d46fb130014b93b9791c909d9/data/mods/railroads/README.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28mods.complete-json-eoc-mod%29%3A+&body=Document+ID%3A+mods.complete-json-eoc-mod%0ALanguage%3A+zh_CN%0AVerified+commit%3A+964d6e96b53d896d46fb130014b93b9791c909d9%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 完整 JSON/EOC Mod 教程
@@ -178,7 +181,7 @@ cp -R examples/complete-json-eoc-mod "$ccb_example_user/mods/ccb_docs_json_eoc_e
 
 铁路地图、车辆原型和车站入口可以使用静态 JSON。新增玩法行为遵循 Lua Platform v1（`require("ccb")`）；本节不引入另一个行为运行时。
 
-[CCB PR #968](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/968) 尚未合并。以下字段已经在该 PR 的源码和原生回归中验证，发布前应再次核对最终合并提交。固定 `city_building` 与固定 `overmap_special` 的 `connections` 使用相同格式：
+[CCB PR #968](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/968) 已合并。以下字段由合并后的源码和原生回归覆盖。固定 `city_building` 与固定 `overmap_special` 的 `connections` 使用相同格式：
 
 ```json
 "connections": [
@@ -191,4 +194,4 @@ cp -R examples/complete-json-eoc-mod "$ccb_example_user/mods/ccb_docs_json_eoc_e
 
 检查应同时包含真实加载、大地图双向连接及局部钢轨和车辆通行；生成清单中的内容指纹刷新不代表新增 JSON 类型或 EOC 能力，也不证明车辆能通过站口。旧存档中的已生成车站不会自动重建。具体数据和验收边界见源码仓库的 `data/mods/railroads/README.md`。
 
-后续内容与验收分别见 [PR #964](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/964)、[PR #969](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/969)、[PR #970](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/970) 和 [PR #971](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/971)。组合批次在固定种子 3404 下通过 12 个原生测试、29,865 条断言，覆盖车辆实际生成、进出站、曲线与道岔、桥梁和平交道、发动机启动与耗油及磁盘读档后继续行驶。验收复用了兼容的 Curses/Lua Platform v1 原生缓存；完整构建 CI 和人工 UI 驾驶仍待完成。这些源码 PR 合并前，文档保持草稿，发布前应同步最终提交及验收结果。
+后续内容与验收分别见 [PR #964](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/964)、[PR #969](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/969)、[PR #970](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/970) 和 [PR #971](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/971)。组合批次在固定种子 3404 下通过 12 个原生测试、29,865 条断言，覆盖车辆实际生成、进出站、曲线与道岔、桥梁和平交道、发动机启动与耗油及磁盘读档后继续行驶。验收复用了兼容的 Curses/Lua Platform v1 原生缓存；完整构建 CI 和人工 UI 驾驶仍待完成。
