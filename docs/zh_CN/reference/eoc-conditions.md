@@ -24,10 +24,10 @@ source_paths:
 source_symbols:
 - conditional_t::conditional_t
 source_queries: []
-source_fingerprint: 86703a8d02d00e3124d40ad05263ab9988f7739745c78bf0fde928f43bde63a8
+source_fingerprint: db430b0ac378553f51bf432ddca0147bf658e8fe8c566848358eb055a1005393
 authority: api-contract
 verified_commit: 7eec168e0177181990aaa9ebb5e774172d004522
-verified_at: '2026-08-12'
+verified_at: '2026-11-07'
 generated: true
 generated_by: scripts/generate_json_eoc_reference.py
 include_in_search: true

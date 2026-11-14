@@ -25,10 +25,10 @@ source_symbols:
 - talk_effect_t::parse_sub_effect
 - talk_effect_t::parse_string_effect
 source_queries: []
-source_fingerprint: 663fff8aceec48e5f21eb548edbf5068c6ae3175094ad280a9f635375337db5f
+source_fingerprint: 5dd19b0b95eb3955ddb6aa57edf810106fc211bc43bd88bd4b6cfd2e99fa4e66
 authority: api-contract
 verified_commit: 7eec168e0177181990aaa9ebb5e774172d004522
-verified_at: '2026-08-12'
+verified_at: '2026-11-07'
 generated: true
 generated_by: scripts/generate_json_eoc_reference.py
 include_in_search: true

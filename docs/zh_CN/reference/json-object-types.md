@@ -24,10 +24,10 @@ source_paths:
 source_symbols:
 - DynamicDataLoader::initialize
 source_queries: []
-source_fingerprint: 6fcd9eedee8650f4d8a84330e61eb679e2798363db415c80b83260285c974cda
+source_fingerprint: 0dd9bd16578af3de768ce9594ba8bba7e05819658738aee13ae2629169af2fd3
 authority: api-contract
 verified_commit: 7eec168e0177181990aaa9ebb5e774172d004522
-verified_at: '2026-08-12'
+verified_at: '2026-11-07'
 generated: true
 generated_by: scripts/generate_json_eoc_reference.py
 include_in_search: true

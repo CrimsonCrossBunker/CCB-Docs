@@ -9473,7 +9473,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c",
+      "translation_source_fingerprint": "92476b5dda72d4810454cdedb6e57e9801636a67cbb5f9e9f01166b1a427a135",
       "prerequisites": [
         "architecture.project-map"
       ],
@@ -9539,7 +9539,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c",
+      "translation_source_fingerprint": "92476b5dda72d4810454cdedb6e57e9801636a67cbb5f9e9f01166b1a427a135",
       "prerequisites": [
         "architecture.project-map"
       ],
@@ -11622,10 +11622,10 @@
         "conditional_t::conditional_t"
       ],
       "source_queries": [],
-      "source_fingerprint": "86703a8d02d00e3124d40ad05263ab9988f7739745c78bf0fde928f43bde63a8",
+      "source_fingerprint": "db430b0ac378553f51bf432ddca0147bf658e8fe8c566848358eb055a1005393",
       "authority": "api-contract",
       "verified_commit": "7eec168e0177181990aaa9ebb5e774172d004522",
-      "verified_at": "2026-08-12",
+      "verified_at": "2026-11-07",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
       "include_in_search": true,
@@ -11682,10 +11682,10 @@
         "conditional_t::conditional_t"
       ],
       "source_queries": [],
-      "source_fingerprint": "86703a8d02d00e3124d40ad05263ab9988f7739745c78bf0fde928f43bde63a8",
+      "source_fingerprint": "db430b0ac378553f51bf432ddca0147bf658e8fe8c566848358eb055a1005393",
       "authority": "api-contract",
       "verified_commit": "7eec168e0177181990aaa9ebb5e774172d004522",
-      "verified_at": "2026-08-12",
+      "verified_at": "2026-11-07",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
       "include_in_search": true,
@@ -11743,10 +11743,10 @@
         "talk_effect_t::parse_string_effect"
       ],
       "source_queries": [],
-      "source_fingerprint": "663fff8aceec48e5f21eb548edbf5068c6ae3175094ad280a9f635375337db5f",
+      "source_fingerprint": "5dd19b0b95eb3955ddb6aa57edf810106fc211bc43bd88bd4b6cfd2e99fa4e66",
       "authority": "api-contract",
       "verified_commit": "7eec168e0177181990aaa9ebb5e774172d004522",
-      "verified_at": "2026-08-12",
+      "verified_at": "2026-11-07",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
       "include_in_search": true,
@@ -11804,10 +11804,10 @@
         "talk_effect_t::parse_string_effect"
       ],
       "source_queries": [],
-      "source_fingerprint": "663fff8aceec48e5f21eb548edbf5068c6ae3175094ad280a9f635375337db5f",
+      "source_fingerprint": "5dd19b0b95eb3955ddb6aa57edf810106fc211bc43bd88bd4b6cfd2e99fa4e66",
       "authority": "api-contract",
       "verified_commit": "7eec168e0177181990aaa9ebb5e774172d004522",
-      "verified_at": "2026-08-12",
+      "verified_at": "2026-11-07",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
       "include_in_search": true,
@@ -11864,10 +11864,10 @@
         "DynamicDataLoader::initialize"
       ],
       "source_queries": [],
-      "source_fingerprint": "6fcd9eedee8650f4d8a84330e61eb679e2798363db415c80b83260285c974cda",
+      "source_fingerprint": "0dd9bd16578af3de768ce9594ba8bba7e05819658738aee13ae2629169af2fd3",
       "authority": "api-contract",
       "verified_commit": "7eec168e0177181990aaa9ebb5e774172d004522",
-      "verified_at": "2026-08-12",
+      "verified_at": "2026-11-07",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
       "include_in_search": true,
@@ -11924,10 +11924,10 @@
         "DynamicDataLoader::initialize"
       ],
       "source_queries": [],
-      "source_fingerprint": "6fcd9eedee8650f4d8a84330e61eb679e2798363db415c80b83260285c974cda",
+      "source_fingerprint": "0dd9bd16578af3de768ce9594ba8bba7e05819658738aee13ae2629169af2fd3",
       "authority": "api-contract",
       "verified_commit": "7eec168e0177181990aaa9ebb5e774172d004522",
-      "verified_at": "2026-08-12",
+      "verified_at": "2026-11-07",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
       "include_in_search": true,
@@ -17223,7 +17223,7 @@
       "id": "reference.eoc-conditions",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-11-07",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
@@ -17234,7 +17234,7 @@
       "id": "reference.eoc-conditions",
       "language": "zh_CN",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-11-07",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
@@ -17245,7 +17245,7 @@
       "id": "reference.eoc-effects",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-11-07",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
@@ -17256,7 +17256,7 @@
       "id": "reference.eoc-effects",
       "language": "zh_CN",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-11-07",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
@@ -17267,7 +17267,7 @@
       "id": "reference.json-object-types",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-11-07",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
@@ -17278,7 +17278,7 @@
       "id": "reference.json-object-types",
       "language": "zh_CN",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-11-07",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
