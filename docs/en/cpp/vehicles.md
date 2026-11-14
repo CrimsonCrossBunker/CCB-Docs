@@ -34,7 +34,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: b0b38134e343955da3d09ca77b6e62b9819375d152b69d0d817aa460767b177d
+translation_source_fingerprint: e3f202c85dea3f4cb02c54b5d633acaf88f4ea220a58136ebe3e4a294594cf4d
 prerequisites:
 - cpp.map
 - cpp.items
@@ -118,6 +118,14 @@ must update refresh/cache, interaction, serialization, and split rules together.
 `vehicle::serialize` / `deserialize` and vehicle-part persistence live in
 `savegame_json.cpp`. Derived physics and map caches rebuild; durable part state needs old-save
 defaults and migration handling.
+
+### Vehicle decks
+
+A JSON vehicle prototype part placement may specify a relative `z` deck
+alongside `x` and `y`. Deck `0` is the base and the default. Deck stairs
+connect adjacent decks of the same vehicle where both landings are boardable.
+Vehicle part saves record nonzero deck indices as `mount_level`. Older
+part saves without that field load on the base deck.
 
 ## Tests
 

@@ -34,7 +34,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: b0b38134e343955da3d09ca77b6e62b9819375d152b69d0d817aa460767b177d
+translation_source_fingerprint: e3f202c85dea3f4cb02c54b5d633acaf88f4ea220a58136ebe3e4a294594cf4d
 prerequisites:
 - cpp.map
 - cpp.items
@@ -112,6 +112,12 @@ interaction、serialization 和 split 规则。
 
 `vehicle::serialize` / `deserialize` 与 vehicle-part 持久化位于
 `savegame_json.cpp`。派生物理与 map 缓存重建；持久 part 字段需要旧存档默认与迁移。
+
+### 载具楼层
+
+JSON 载具原型的部件放置可在 `x` 和 `y` 之外指定相对楼层 `z`。`0` 是
+底层，也是省略时的默认值。车内楼梯连接同一载具上相邻的两层，且两端都须可登乘。
+存档用 `mount_level` 记录部件的非零楼层，旧存档缺少该字段时按底层读取。
 
 ## 测试
 
