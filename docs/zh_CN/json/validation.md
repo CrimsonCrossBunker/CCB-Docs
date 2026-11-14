@@ -26,21 +26,26 @@ source_paths:
 - tests/json_load_test.cpp
 - doc/JSON/JSON_INHERITANCE.md
 - doc/JSON/JSON_STYLE.md
+- src/sling.cpp
+- src/ballistics.cpp
+- src/ranged.cpp
+- tests/staff_sling_test.cpp
+- tests/shotgun_tubes_test.cpp
 - tools/agent/generate_lua_first_replacement_ledger.py
 - tools/agent/check_lua_first_replacement_ledger.py
 source_symbols: []
 source_queries: []
-source_fingerprint: be0cec4549bdc28a9da387ded44644be569fb32aef07b5801e43a2facd88c30e
+source_fingerprint: 784d00ad7b17d742d93df409e3157ea2e6caaa89b5961d07996f99b4163cbd24
 authority: api-contract
-verified_commit: c961002ea44c8d41372ce683fac2505f903e6eb6
-verified_at: '2026-10-29'
+verified_commit: 34200a2ffcdaaf925cf2381bf900d2c753cd1a6c
+verified_at: '2026-11-14'
 generated: false
 generated_by: null
 include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 0f7a263e0a5c1d706a2ef65f9540c275b000dce6a79fafee558b583202012a33
+translation_source_fingerprint: 54889c9b658a71a6f61db044ee1618de4612b6ecf0740401c1fac047c129eafc
 prerequisites:
 - json.overview
 depends_on:
@@ -58,7 +63,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1067
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/
 alternate_urls:
@@ -66,31 +71,41 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c961002ea44c8d41372ce683fac2505f903e6eb6
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c
 source_urls:
 - path: data/reference/json/ccb_json_object_types.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c961002ea44c8d41372ce683fac2505f903e6eb6/data/reference/json/ccb_json_object_types.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/data/reference/json/ccb_json_object_types.json
 - path: tools/json_api/contract-inventory.schema.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c961002ea44c8d41372ce683fac2505f903e6eb6/tools/json_api/contract-inventory.schema.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tools/json_api/contract-inventory.schema.json
 - path: tools/json_api/generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c961002ea44c8d41372ce683fac2505f903e6eb6/tools/json_api/generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tools/json_api/generate_contracts.py
 - path: tools/json_api/test_generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c961002ea44c8d41372ce683fac2505f903e6eb6/tools/json_api/test_generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tools/json_api/test_generate_contracts.py
 - path: src/init.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c961002ea44c8d41372ce683fac2505f903e6eb6/src/init.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/src/init.cpp
 - path: src/generic_factory.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c961002ea44c8d41372ce683fac2505f903e6eb6/src/generic_factory.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/src/generic_factory.h
 - path: tests/json_load_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c961002ea44c8d41372ce683fac2505f903e6eb6/tests/json_load_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tests/json_load_test.cpp
 - path: doc/JSON/JSON_INHERITANCE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c961002ea44c8d41372ce683fac2505f903e6eb6/doc/JSON/JSON_INHERITANCE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/doc/JSON/JSON_INHERITANCE.md
 - path: doc/JSON/JSON_STYLE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c961002ea44c8d41372ce683fac2505f903e6eb6/doc/JSON/JSON_STYLE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/doc/JSON/JSON_STYLE.md
+- path: src/sling.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/src/sling.cpp
+- path: src/ballistics.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/src/ballistics.cpp
+- path: src/ranged.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/src/ranged.cpp
+- path: tests/staff_sling_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tests/staff_sling_test.cpp
+- path: tests/shotgun_tubes_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tests/shotgun_tubes_test.cpp
 - path: tools/agent/generate_lua_first_replacement_ledger.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c961002ea44c8d41372ce683fac2505f903e6eb6/tools/agent/generate_lua_first_replacement_ledger.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tools/agent/generate_lua_first_replacement_ledger.py
 - path: tools/agent/check_lua_first_replacement_ledger.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c961002ea44c8d41372ce683fac2505f903e6eb6/tools/agent/check_lua_first_replacement_ledger.py
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.validation%29%3A+&body=Document+ID%3A+json.validation%0ALanguage%3A+zh_CN%0AVerified+commit%3A+c961002ea44c8d41372ce683fac2505f903e6eb6%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tools/agent/check_lua_first_replacement_ledger.py
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.validation%29%3A+&body=Document+ID%3A+json.validation%0ALanguage%3A+zh_CN%0AVerified+commit%3A+34200a2ffcdaaf925cf2381bf900d2c753cd1a6c%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # JSON 验证与证据等级
@@ -139,3 +154,26 @@ python3 tools/agent/check_lua_first_replacement_ledger.py
 ```
 
 带有清单变化的 PR 仍需按当前文档影响规则填写关联文档。源码尚未合并时，关联文档 PR 保持草稿；源码合并后再核对最终提交，不能把生成检查通过当成游戏行为验收。
+
+
+## 投石杖专用弹药的验证示例
+
+投石杖的直接发射功能使用 `SLING_LAUNCHER` 标志；兼容弹药必须有 `SLING_AMMO`，并提供目标明确的 `transform` 使用动作。现有六种专用手雷和燃烧瓶保留物品 ID 与手动激活规则。手持投石杖使用开火操作，从身上取一发；有多个弹种时先选择。取消瞄准不会取出弹药、点燃引信或消耗行动点。
+
+确认发射后，原有转换动作负责火源、损坏导致的激活失败和引信。只免除发射时的“弹药必须手持”要求；已激活的弹药、其他角色或地面上的弹药、弹匣内及密封口袋内的弹药不能直接使用。普通专用手雷的耗时为 200 行动点准备时间，加现有投掷与取物耗时；燃烧瓶额外保留点火动作的耗时。
+
+`STOP_ON_CONTACT` 只用于直接发射的投射物：沿实际弹道遇到首个地面生物或不可通行障碍时落下。伤害仍走投射物命中判定，闪避伤害不让弹药穿到后排。手雷由落地后的活动物品按原引信爆炸，不复制弹药定义里的即时爆炸效果；燃烧瓶保留撞击起火。普通 `t` 手投不添加这个标志。
+
+验证应覆盖原生数据加载、一次只消耗一发、取消与无火源不消耗弹药、墙与前排怪物拦截、到期爆炸和保留手动激活。对应源码为 `src/sling.cpp`、`src/ballistics.cpp`、`src/ranged.cpp`，回归测试为 `tests/staff_sling_test.cpp`。
+
+## 双弹仓和射击模式的回归验证
+
+KSG 的两条弹仓应分别由主枪和 `ksg_aux_shotgun` 管理，每条弹仓容量为 7 发。
+调整 `clip_size` 不足以改变实际容量，需检查 `pocket_data` 的弹药限制。
+恢复专用弹仓时还须移除将它替换成其他枪械的迁移，并验证生成、独立装填、切换弹种、
+开火扣弹和保存重载。已有第二弹仓不应重复添加；旧版合并弹仓的 14 发应保留为 7＋7。
+
+DP-12 的双发模式应通过实际 `fire_gun` 验证一次消耗两发，剩一发时只发射一发。
+这里的两连发使用通常的逐发后坐力；不要因有两根枪管就默认启用同时齐射的 `VOLLEY`。
+本次源代码中的 `[shotgun_tubes]` 聚焦测试覆盖这些行为。相关原生测试通过不等于
+Android 实机操作或完整安装包已经验收；源码

@@ -971,7 +971,7 @@
     "id": "json.inheritance-copy-from",
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/inheritance-copy-from/",
-    "last_verified": "2026-08-12",
+    "last_verified": "2026-11-14",
     "status": "active",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/",
@@ -982,7 +982,7 @@
     "id": "json.inheritance-copy-from",
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/",
-    "last_verified": "2026-08-12",
+    "last_verified": "2026-11-14",
     "status": "active",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/",
@@ -993,7 +993,7 @@
     "id": "json.overview",
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/",
-    "last_verified": "2026-08-12",
+    "last_verified": "2026-11-13",
     "status": "active",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/",
@@ -1004,7 +1004,7 @@
     "id": "json.overview",
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/",
-    "last_verified": "2026-08-12",
+    "last_verified": "2026-11-13",
     "status": "active",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/",
@@ -1015,7 +1015,7 @@
     "id": "json.validation",
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/",
-    "last_verified": "2026-10-29",
+    "last_verified": "2026-11-14",
     "status": "active",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
@@ -1026,7 +1026,7 @@
     "id": "json.validation",
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
-    "last_verified": "2026-10-29",
+    "last_verified": "2026-11-14",
     "status": "active",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
@@ -1081,7 +1081,7 @@
     "id": "mods.complete-json-eoc-mod",
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/",
-    "last_verified": "2026-08-02",
+    "last_verified": "2026-11-14",
     "status": "active",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
@@ -1092,7 +1092,7 @@
     "id": "mods.complete-json-eoc-mod",
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
-    "last_verified": "2026-08-02",
+    "last_verified": "2026-11-14",
     "status": "active",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
@@ -1367,7 +1367,7 @@
     "id": "reference.eoc-conditions",
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
-    "last_verified": "2026-08-12",
+    "last_verified": "2026-11-07",
     "status": "active",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
@@ -1378,7 +1378,7 @@
     "id": "reference.eoc-conditions",
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
-    "last_verified": "2026-08-12",
+    "last_verified": "2026-11-07",
     "status": "active",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
@@ -1389,7 +1389,7 @@
     "id": "reference.eoc-effects",
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/",
-    "last_verified": "2026-08-12",
+    "last_verified": "2026-11-07",
     "status": "active",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
@@ -1400,7 +1400,7 @@
     "id": "reference.eoc-effects",
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
-    "last_verified": "2026-08-12",
+    "last_verified": "2026-11-07",
     "status": "active",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
@@ -1411,7 +1411,7 @@
     "id": "reference.json-object-types",
     "language": "en",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/",
-    "last_verified": "2026-08-12",
+    "last_verified": "2026-11-07",
     "status": "active",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
@@ -1422,7 +1422,7 @@
     "id": "reference.json-object-types",
     "language": "zh_CN",
     "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
-    "last_verified": "2026-08-12",
+    "last_verified": "2026-11-07",
     "status": "active",
     "alternate": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
