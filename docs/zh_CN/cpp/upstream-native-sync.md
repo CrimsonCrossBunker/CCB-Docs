@@ -33,8 +33,8 @@ source_symbols: []
 source_queries: []
 source_fingerprint: a80d78267dc97036358b0302ad889a4043deaf8d31273adcb26ecbb070591d10
 authority: api-contract
-verified_commit: eb8bfeabd8748176cc33aa2329b634d17bb61885
-verified_at: '2026-10-14'
+verified_commit: 2c73fb184dc65321ffd1a10c8359949ac63e1205
+verified_at: '2026-11-14'
 generated: false
 generated_by: null
 include_in_search: false
@@ -55,7 +55,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1000
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/upstream-native-sync/
 alternate_urls:
@@ -63,33 +63,33 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/upstream-native-sync/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/upstream-native-sync/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/eb8bfeabd8748176cc33aa2329b634d17bb61885
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/2c73fb184dc65321ffd1a10c8359949ac63e1205
 source_urls:
 - path: src/activity_actor.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/src/activity_actor.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/src/activity_actor.cpp
 - path: src/activity_actor_definitions.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/src/activity_actor_definitions.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/src/activity_actor_definitions.h
 - path: src/event.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/src/event.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/src/event.h
 - path: src/regional_settings.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/src/regional_settings.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/src/regional_settings.h
 - path: src/weather.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/src/weather.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/src/weather.cpp
 - path: src/main.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/src/main.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/src/main.cpp
 - path: src/lua_platform_runtime_services.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/src/lua_platform_runtime_services.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/src/lua_platform_runtime_services.cpp
 - path: src/veh_type.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/src/veh_type.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/src/veh_type.cpp
 - path: src/character_inventory.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/src/character_inventory.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/src/character_inventory.cpp
 - path: src/recipe_dictionary.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/src/recipe_dictionary.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/src/recipe_dictionary.cpp
 - path: tests/lua_platform_environment_predicate_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/tests/lua_platform_environment_predicate_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/tests/lua_platform_environment_predicate_test.cpp
 - path: tests/lua_platform_effects_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/tests/lua_platform_effects_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28cpp.upstream-native-sync%29%3A+&body=Document+ID%3A+cpp.upstream-native-sync%0ALanguage%3A+zh_CN%0AVerified+commit%3A+eb8bfeabd8748176cc33aa2329b634d17bb61885%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/tests/lua_platform_effects_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28cpp.upstream-native-sync%29%3A+&body=Document+ID%3A+cpp.upstream-native-sync%0ALanguage%3A+zh_CN%0AVerified+commit%3A+2c73fb184dc65321ffd1a10c8359949ac63e1205%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---

@@ -31,8 +31,8 @@ source_symbols: []
 source_queries: []
 source_fingerprint: b6c9fb6600de97d5f52c1ceb26a11e7b1600e5bfb16dcc237b1591e91b8b71ed
 authority: api-contract
-verified_commit: eb8bfeabd8748176cc33aa2329b634d17bb61885
-verified_at: '2026-10-14'
+verified_commit: 2c73fb184dc65321ffd1a10c8359949ac63e1205
+verified_at: '2026-11-14'
 generated: false
 generated_by: null
 include_in_search: false
@@ -53,7 +53,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1000
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/sdl3-render-sync/
 alternate_urls:
@@ -61,36 +61,36 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/sdl3-render-sync/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/sdl3-render-sync/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/eb8bfeabd8748176cc33aa2329b634d17bb61885
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/2c73fb184dc65321ffd1a10c8359949ac63e1205
 source_urls:
 - path: src/cata_tiles.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/src/cata_tiles.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/src/cata_tiles.cpp
 - path: src/cata_shader.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/src/cata_shader.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/src/cata_shader.cpp
 - path: src/pixel_minimap.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/src/pixel_minimap.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/src/pixel_minimap.cpp
 - path: src/sdl_font.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/src/sdl_font.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/src/sdl_font.cpp
 - path: src/sdltiles.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/src/sdltiles.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/src/sdltiles.cpp
 - path: src/level_cache.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/src/level_cache.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/src/level_cache.h
 - path: src/smooth_lighting.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/src/smooth_lighting.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/src/smooth_lighting.cpp
 - path: data/shaders/lit_sample.glsl
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/data/shaders/lit_sample.glsl
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/data/shaders/lit_sample.glsl
 - path: src/CMakeLists.txt
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/src/CMakeLists.txt
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/src/CMakeLists.txt
 - path: tools/agent/test_shader_cmake_graph.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/tools/agent/test_shader_cmake_graph.py
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28cpp.sdl3-render-sync%29%3A+&body=Document+ID%3A+cpp.sdl3-render-sync%0ALanguage%3A+en%0AVerified+commit%3A+eb8bfeabd8748176cc33aa2329b634d17bb61885%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/tools/agent/test_shader_cmake_graph.py
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28cpp.sdl3-render-sync%29%3A+&body=Document+ID%3A+cpp.sdl3-render-sync%0ALanguage%3A+en%0AVerified+commit%3A+2c73fb184dc65321ffd1a10c8359949ac63e1205%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---
 
 # Draft: SDL3 rendering synchronization
 
-This page describes an unmerged rendering branch depending on CCB #987's SDL3 backend. Original authors and upstream #88716, #88880, #88720, #88318, #88754, #88873 and #88888 are retained.
+This page describes the merged rendering synchronization using CCB #987's SDL3 backend. Original authors and upstream #88716, #88880, #88720, #88318, #88754, #88873 and #88888 are retained.
 
 ## Preserved CCB behavior
 

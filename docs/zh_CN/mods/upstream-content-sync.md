@@ -25,8 +25,8 @@ source_symbols: []
 source_queries: []
 source_fingerprint: 529cab08c982dc2364c967e7c0b522069ff08879567eea35c94192ec07069d63
 authority: api-contract
-verified_commit: eb8bfeabd8748176cc33aa2329b634d17bb61885
-verified_at: '2026-10-14'
+verified_commit: 2c73fb184dc65321ffd1a10c8359949ac63e1205
+verified_at: '2026-11-14'
 generated: false
 generated_by: null
 include_in_search: false
@@ -47,7 +47,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: lua-api
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1000
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/mods/upstream-content-sync/
 alternate_urls:
@@ -55,17 +55,17 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/upstream-content-sync/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/mods/upstream-content-sync/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/eb8bfeabd8748176cc33aa2329b634d17bb61885
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/2c73fb184dc65321ffd1a10c8359949ac63e1205
 source_urls:
 - path: data/json/mapgen/netherum/labyrinth_earth.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/data/json/mapgen/netherum/labyrinth_earth.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/data/json/mapgen/netherum/labyrinth_earth.json
 - path: data/json/region_settings/region_settings/regional_map_settings.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/data/json/region_settings/region_settings/regional_map_settings.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/data/json/region_settings/region_settings/regional_map_settings.json
 - path: data/mods/MindOverMatter/dimensions/shoggothed_world/region_settings.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/data/mods/MindOverMatter/dimensions/shoggothed_world/region_settings.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/data/mods/MindOverMatter/dimensions/shoggothed_world/region_settings.json
 - path: data/upstream-changelog-20260921-20260928.txt
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/eb8bfeabd8748176cc33aa2329b634d17bb61885/data/upstream-changelog-20260921-20260928.txt
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28mods.upstream-content-sync%29%3A+&body=Document+ID%3A+mods.upstream-content-sync%0ALanguage%3A+zh_CN%0AVerified+commit%3A+eb8bfeabd8748176cc33aa2329b634d17bb61885%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/2c73fb184dc65321ffd1a10c8359949ac63e1205/data/upstream-changelog-20260921-20260928.txt
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28mods.upstream-content-sync%29%3A+&body=Document+ID%3A+mods.upstream-content-sync%0ALanguage%3A+zh_CN%0AVerified+commit%3A+2c73fb184dc65321ffd1a10c8359949ac63e1205%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---
