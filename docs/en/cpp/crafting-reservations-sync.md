@@ -24,6 +24,7 @@ source_paths:
 - src/lua_platform_items.cpp
 - src/veh_interact.cpp
 - src/version.cmake
+- src/activity_actor.cpp
 source_symbols:
 - Character::crafting_inventory
 - veh_interact::installation_requirement_availability
@@ -31,17 +32,17 @@ source_queries:
 - independent_contents
 - zero_move_dispatches
 - CMAKE_MATCH_1
-source_fingerprint: 2b68b6f557a1b5934dd6ce9719a7776f979f0e96ac481021c9f39d680105f052
+source_fingerprint: 0f5bdceaed57529203585c4a3974879562d58bc880b71ec16d6ce7d8dd5792b3
 authority: api-contract
-verified_commit: 0a9822532c83189bc431631fd5e2b05a632460c6
-verified_at: '2026-10-14'
+verified_commit: 5c786d383ebca5206607233fe1423dc9ae1c1a64
+verified_at: '2026-11-14'
 generated: false
 generated_by: null
 include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 16b662752793ebd42f81224f79c63633f078f476be19cf928de5097e8189e9ba
+translation_source_fingerprint: 8c0130ab6879a953718aacf0153dff5379d47cb9f012993d71f3efd39cfb91cd
 prerequisites:
 - cpp.lua-bridge
 depends_on: []
@@ -64,30 +65,32 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/crafting-reservations-sync/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/cpp/crafting-reservations-sync/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/0a9822532c83189bc431631fd5e2b05a632460c6
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/5c786d383ebca5206607233fe1423dc9ae1c1a64
 source_urls:
 - path: src/crafting.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/0a9822532c83189bc431631fd5e2b05a632460c6/src/crafting.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5c786d383ebca5206607233fe1423dc9ae1c1a64/src/crafting.cpp
 - path: src/craft_reservation_search.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/0a9822532c83189bc431631fd5e2b05a632460c6/src/craft_reservation_search.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5c786d383ebca5206607233fe1423dc9ae1c1a64/src/craft_reservation_search.cpp
 - path: src/temp_crafting_inventory.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/0a9822532c83189bc431631fd5e2b05a632460c6/src/temp_crafting_inventory.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5c786d383ebca5206607233fe1423dc9ae1c1a64/src/temp_crafting_inventory.cpp
 - path: src/lua_platform_crafting.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/0a9822532c83189bc431631fd5e2b05a632460c6/src/lua_platform_crafting.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5c786d383ebca5206607233fe1423dc9ae1c1a64/src/lua_platform_crafting.cpp
 - path: src/lua_platform_items.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/0a9822532c83189bc431631fd5e2b05a632460c6/src/lua_platform_items.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5c786d383ebca5206607233fe1423dc9ae1c1a64/src/lua_platform_items.cpp
 - path: src/veh_interact.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/0a9822532c83189bc431631fd5e2b05a632460c6/src/veh_interact.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5c786d383ebca5206607233fe1423dc9ae1c1a64/src/veh_interact.cpp
 - path: src/version.cmake
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/0a9822532c83189bc431631fd5e2b05a632460c6/src/version.cmake
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28cpp.crafting-reservations-sync%29%3A+&body=Document+ID%3A+cpp.crafting-reservations-sync%0ALanguage%3A+en%0AVerified+commit%3A+0a9822532c83189bc431631fd5e2b05a632460c6%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5c786d383ebca5206607233fe1423dc9ae1c1a64/src/version.cmake
+- path: src/activity_actor.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5c786d383ebca5206607233fe1423dc9ae1c1a64/src/activity_actor.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28cpp.crafting-reservations-sync%29%3A+&body=Document+ID%3A+cpp.crafting-reservations-sync%0ALanguage%3A+en%0AVerified+commit%3A+5c786d383ebca5206607233fe1423dc9ae1c1a64%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---
 
 # Draft: crafting reservations and temporary inventory synchronization
 
-This page describes an unmerged crafting branch and remains a draft. Source and tests define behavior. Compilation of the combined version, Mod loading and platform CI are still pending.
+This page records the crafting synchronization merged in CCB #998. Source and tests define behavior. Compilation of the combined version, Mod loading and platform CI are still pending.
 
 ## Reservation units
 
