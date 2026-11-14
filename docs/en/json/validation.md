@@ -26,19 +26,23 @@ source_paths:
 - tests/json_load_test.cpp
 - doc/JSON/JSON_INHERITANCE.md
 - doc/JSON/JSON_STYLE.md
+- src/sling.cpp
+- src/ballistics.cpp
+- src/ranged.cpp
+- tests/staff_sling_test.cpp
 source_symbols: []
 source_queries: []
-source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
+source_fingerprint: 11a521e008a84ae04b7ba6137e2031213f16347f27596e1848b95ed8d0e7c2bd
 authority: api-contract
-verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-verified_at: '2026-08-12'
+verified_commit: c85f291b766f113474e1e8393f116bd55289568a
+verified_at: '2026-11-14'
 generated: false
 generated_by: null
 include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 894bf59b0d4817ec0038d2fc7234d09c02265e59d75e8ef6c6c715583bcc2b74
+translation_source_fingerprint: 119a5abe43154db061c4bf552170cb04afe361bc1f1572bdacc4f4cdfb0d4865
 prerequisites:
 - json.overview
 depends_on:
@@ -56,7 +60,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1038
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/
 alternate_urls:
@@ -64,27 +68,35 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c85f291b766f113474e1e8393f116bd55289568a
 source_urls:
 - path: data/reference/json/ccb_json_object_types.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/data/reference/json/ccb_json_object_types.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/data/reference/json/ccb_json_object_types.json
 - path: tools/json_api/contract-inventory.schema.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tools/json_api/contract-inventory.schema.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/tools/json_api/contract-inventory.schema.json
 - path: tools/json_api/generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tools/json_api/generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/tools/json_api/generate_contracts.py
 - path: tools/json_api/test_generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tools/json_api/test_generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/tools/json_api/test_generate_contracts.py
 - path: src/init.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/init.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/src/init.cpp
 - path: src/generic_factory.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/generic_factory.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/src/generic_factory.h
 - path: tests/json_load_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tests/json_load_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/tests/json_load_test.cpp
 - path: doc/JSON/JSON_INHERITANCE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/doc/JSON/JSON_INHERITANCE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/doc/JSON/JSON_INHERITANCE.md
 - path: doc/JSON/JSON_STYLE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/doc/JSON/JSON_STYLE.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.validation%29%3A+&body=Document+ID%3A+json.validation%0ALanguage%3A+en%0AVerified+commit%3A+c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/doc/JSON/JSON_STYLE.md
+- path: src/sling.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/src/sling.cpp
+- path: src/ballistics.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/src/ballistics.cpp
+- path: src/ranged.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/src/ranged.cpp
+- path: tests/staff_sling_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/tests/staff_sling_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.validation%29%3A+&body=Document+ID%3A+json.validation%0ALanguage%3A+en%0AVerified+commit%3A+c85f291b766f113474e1e8393f116bd55289568a%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # JSON validation and evidence levels
@@ -135,4 +147,4 @@ After confirmation, the existing transformation handles ignition resources, dama
 
 `STOP_ON_CONTACT` applies only to direct launches. The projectile falls at the first above-water creature or impassable obstacle on its actual trajectory. Projectile hit checks still determine impact damage; avoiding damage does not let the round pass through to the rear rank. Grenades detonate as dropped active items when their original fuse expires, without copying immediate ammunition explosion effects. Molotov cocktails retain ignition on impact. Ordinary hand throwing does not add this flag.
 
-Validation should cover native data loading, single-round consumption, cancellation and missing ignition resources, walls and intervening creatures, timed detonation, and manual activation. Sources are `src/sling.cpp`, `src/ballistics.cpp`, and `src/ranged.cpp`; regressions are in `tests/staff_sling_test.cpp`. Generated inventories remain tied to the final merged CCB source; refresh the companion documentation against that commit before merging it.
+Validation should cover native data loading, single-round consumption, cancellation and missing ignition resources, walls and intervening creatures, timed detonation, and manual activation. Sources are `src/sling.cpp`, `src/ballistics.cpp`, and `src/ranged.cpp`; regressions are in `tests/staff_sling_test.cpp`.
