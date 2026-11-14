@@ -3,7 +3,7 @@
 id: platforms.msvc
 title: MSVC 与 vcpkg
 language: zh_CN
-status: draft
+status: active
 doc_type: how-to
 audiences:
 - experienced-contributor
@@ -27,12 +27,12 @@ source_queries:
 - windows-tiles-sounds-x64-msvc
 source_fingerprint: b5bd59ffe6061a3c7818da7be3ad88b95755843829de165a1801b5a2650c5ad0
 authority: build-config
-verified_commit: 7d65b4eff3d92393e659699a312b694f0e72d2cb
-verified_at: '2026-10-11'
+verified_commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+verified_at: '2026-11-14'
 generated: false
 generated_by: null
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: d759f841a8e8f174ae8a4820487c8073ccda3010120bb90a008ed86465bf2003
@@ -51,7 +51,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: platforms-windows
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/
 alternate_urls:
@@ -59,25 +59,23 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/7d65b4eff3d92393e659699a312b694f0e72d2cb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/27d8ba1776f0cda979048c562a2379d4393beb80
 source_urls:
 - path: CMakePresets.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/CMakePresets.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/CMakePresets.json
 - path: build-scripts/MSVC.cmake
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/build-scripts/MSVC.cmake
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/build-scripts/MSVC.cmake
 - path: build-scripts/windows-tiles-sounds-x64-msvc.cmake
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/build-scripts/windows-tiles-sounds-x64-msvc.cmake
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/build-scripts/windows-tiles-sounds-x64-msvc.cmake
 - path: .github/workflows/msvc-full-features.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/.github/workflows/msvc-full-features.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/.github/workflows/msvc-full-features.yml
 - path: msvc-full-features/Cataclysm.Cpp.props
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/msvc-full-features/Cataclysm.Cpp.props
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/msvc-full-features/Cataclysm.Cpp.props
 - path: msvc-full-features/vcpkg.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/msvc-full-features/vcpkg.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/msvc-full-features/vcpkg.json
 - path: build-scripts/windist.ps1
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/build-scripts/windist.ps1
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28platforms.msvc%29%3A+&body=Document+ID%3A+platforms.msvc%0ALanguage%3A+zh_CN%0AVerified+commit%3A+7d65b4eff3d92393e659699a312b694f0e72d2cb%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/build-scripts/windist.ps1
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28platforms.msvc%29%3A+&body=Document+ID%3A+platforms.msvc%0ALanguage%3A+zh_CN%0AVerified+commit%3A+27d8ba1776f0cda979048c562a2379d4393beb80%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # MSVC 与 vcpkg
