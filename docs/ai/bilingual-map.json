@@ -183,6 +183,10 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/crafting/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/crafting/"
   },
+  "cpp.crafting-reservations-sync": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/crafting-reservations-sync/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/crafting-reservations-sync/"
+  },
   "cpp.creatures": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/creatures/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/creatures/"
@@ -247,9 +251,17 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/save/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/save/"
   },
+  "cpp.sdl3-render-sync": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/sdl3-render-sync/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/sdl3-render-sync/"
+  },
   "cpp.ui": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/ui/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/ui/"
+  },
+  "cpp.upstream-native-sync": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/upstream-native-sync/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/upstream-native-sync/"
   },
   "cpp.vehicles": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/vehicles/",
@@ -266,6 +278,10 @@
   "eoc.talkers": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/"
+  },
+  "eoc.upstream-math-compatibility": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/upstream-math-compatibility/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/upstream-math-compatibility/"
   },
   "eoc.variables-context": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/",
@@ -299,6 +315,10 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/"
   },
+  "json.upstream-authoring-notes": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/upstream-authoring-notes/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/upstream-authoring-notes/"
+  },
   "json.validation": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/"
@@ -315,6 +335,10 @@
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/"
   },
+  "mods.upstream-content-sync": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/upstream-content-sync/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/upstream-content-sync/"
+  },
   "operations.crash-reports": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/crash-reports/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/crash-reports/"
@@ -326,6 +350,10 @@
   "operations.performance-profiling": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/performance-profiling/",
     "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/performance-profiling/"
+  },
+  "operations.release-assets-sync": {
+    "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/release-assets-sync/",
+    "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/release-assets-sync/"
   },
   "operations.releases": {
     "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/releases/",

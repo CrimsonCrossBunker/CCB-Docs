@@ -20,21 +20,23 @@ source_paths:
 - src/input_context.cpp
 - src/sdltiles.h
 - android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
+- src/sdltiles.cpp
+- data/lua/LUA_FIRST_PLATFORM.md
 source_symbols:
 - class ui_adaptor
 - android_ui_mode::is_new_ui_build()
 source_queries: []
-source_fingerprint: 4f2ee856289cb1352882870efe2efd69335a90b9e51750df07c43205fa0b2c12
+source_fingerprint: 8ff82f8da6559a83a43ed66a2f15903cfbda4407649fc32625f4c92975cbd4da
 authority: source-and-tests
-verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-verified_at: '2026-08-02'
+verified_commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+verified_at: '2026-11-14'
 generated: false
 generated_by: null
 include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 8e5535d38d8ae267597a3fd6a545d71f480bcb4a173599d1ee3e5f4aee0c0ace
+translation_source_fingerprint: 349a7f7b769231e70b9b2b7275982033c51fd515d3c2817558a56ceed1a2594f
 prerequisites:
 - cpp.ui
 - cpp.input
@@ -60,17 +62,21 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/d32b9cc880a85480840d82cfa05d256c78a16615
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/27d8ba1776f0cda979048c562a2379d4393beb80
 source_urls:
 - path: src/ui_manager.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/src/ui_manager.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/src/ui_manager.h
 - path: src/input_context.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/src/input_context.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/src/input_context.cpp
 - path: src/sdltiles.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/src/sdltiles.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/src/sdltiles.h
 - path: android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d32b9cc880a85480840d82cfa05d256c78a16615/android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28platforms.ui%29%3A+&body=Document+ID%3A+platforms.ui%0ALanguage%3A+zh_CN%0AVerified+commit%3A+d32b9cc880a85480840d82cfa05d256c78a16615%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
+- path: src/sdltiles.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/src/sdltiles.cpp
+- path: data/lua/LUA_FIRST_PLATFORM.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/data/lua/LUA_FIRST_PLATFORM.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28platforms.ui%29%3A+&body=Document+ID%3A+platforms.ui%0ALanguage%3A+zh_CN%0AVerified+commit%3A+27d8ba1776f0cda979048c562a2379d4393beb80%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # UI 平台矩阵
@@ -83,10 +89,9 @@ CCB 的 UI 由同一语义 action/view-model 层通过多条 renderer/input 路�
 | 路径 | 构建/运行边界 | 应收集证据 |
 | --- | --- | --- |
 | Curses | terminal cell、颜色与 keyboard | terminal 类型/尺寸、locale、key path |
-| SDL2 tiles | fallback desktop renderer 与 SDL2 input/audio | OS、renderer、scale、font、device |
 | SDL3 tiles | SDL3 renderer/GPU shader 与 recovery | GPU/backend、artifact format、recovery |
 | Native UI | `ui_adaptor`、`input_context`、curses-compatible window | resize/redraw 与 input action |
-| Lua UI/ImGui | capability-gated Lua page 与 native ImGui 集成 | manifest、API v5、native fallback |
+| Lua UI/ImGui | 唯一 Lua Platform v1 与 native ImGui 集成 | Platform v1 合同、action、native fallback |
 | Android | Java HUD/touch/text input 与 SDL3 native runtime | device/API、UI mode、orientation、touch |
 
 ## 共同不变量
@@ -98,8 +103,9 @@ byte/glyph width；新 UI 在窄尺寸仍可操作。
 ## 验证矩阵
 
 至少覆盖 keyboard navigation、cancel/confirm、resize、窄 viewport、translation 与直接
-修改路径。renderer/coordinate 修改在分支不同处需要 SDL2/SDL3 与 Android；Lua UI 还要
-验证 disabled/native fallback build。
+修改路径。renderer/coordinate 修改覆盖 SDL3 software、OpenGL、GPU，以及输入不同的
+Android 路径。记录 SDK、renderer、整数缩放与 viewport；链接 SDK 身份不能证明设备
+输入或可听音频已验收。Lua UI 仍需验证 disabled/native fallback build。
 
 ## 可访问性与失败证据
 
