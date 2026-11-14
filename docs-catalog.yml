@@ -4589,13 +4589,26 @@ pages:
   reviewers: *id208
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id209
+  source_paths:
+  - data/reference/json/ccb_json_object_types.json
+  - tools/json_api/contract-inventory.schema.json
+  - tools/json_api/generate_contracts.py
+  - tools/json_api/test_generate_contracts.py
+  - src/init.cpp
+  - src/generic_factory.h
+  - tests/json_load_test.cpp
+  - doc/JSON/JSON_INHERITANCE.md
+  - doc/JSON/JSON_STYLE.md
+  - src/sling.cpp
+  - src/ballistics.cpp
+  - src/ranged.cpp
+  - tests/staff_sling_test.cpp
   source_symbols: *id210
   source_queries: *id211
-  source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
+  source_fingerprint: 11a521e008a84ae04b7ba6137e2031213f16347f27596e1848b95ed8d0e7c2bd
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: c85f291b766f113474e1e8393f116bd55289568a
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -4603,7 +4616,7 @@ pages:
   translation_group: json.validation
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3
+  translation_source_fingerprint: 119a5abe43154db061c4bf552170cb04afe361bc1f1572bdacc4f4cdfb0d4865
   prerequisites: &id219
   - json.overview
   depends_on: &id220
@@ -4637,13 +4650,26 @@ pages:
   reviewers: *id208
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id209
+  source_paths:
+  - data/reference/json/ccb_json_object_types.json
+  - tools/json_api/contract-inventory.schema.json
+  - tools/json_api/generate_contracts.py
+  - tools/json_api/test_generate_contracts.py
+  - src/init.cpp
+  - src/generic_factory.h
+  - tests/json_load_test.cpp
+  - doc/JSON/JSON_INHERITANCE.md
+  - doc/JSON/JSON_STYLE.md
+  - src/sling.cpp
+  - src/ballistics.cpp
+  - src/ranged.cpp
+  - tests/staff_sling_test.cpp
   source_symbols: *id210
   source_queries: *id211
-  source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
+  source_fingerprint: 11a521e008a84ae04b7ba6137e2031213f16347f27596e1848b95ed8d0e7c2bd
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: c85f291b766f113474e1e8393f116bd55289568a
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -4651,7 +4677,7 @@ pages:
   translation_group: json.validation
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3
+  translation_source_fingerprint: 119a5abe43154db061c4bf552170cb04afe361bc1f1572bdacc4f4cdfb0d4865
   prerequisites: *id219
   depends_on: *id220
   redirect_from: *id214
