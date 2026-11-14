@@ -26,19 +26,21 @@ source_paths:
 - tests/json_load_test.cpp
 - doc/JSON/JSON_INHERITANCE.md
 - doc/JSON/JSON_STYLE.md
+- data/json/items/magazine/223.json
+- data/json/obsoletion_and_migration_0.J/migration_items.json
 source_symbols: []
 source_queries: []
-source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
+source_fingerprint: 5b67897003c0813837e0056fe74622b928c35fe00e209ce4a2a41edb5b7a0a23
 authority: api-contract
-verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-verified_at: '2026-08-12'
+verified_commit: 064b6baa1bada5f30ec70b61fba951446e14d965
+verified_at: '2026-11-14'
 generated: false
 generated_by: null
 include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 011b017522ac8f0fe674d25c2f3f6729ee36910b59b50abb94d54402ccefd8b1
+translation_source_fingerprint: a739a6a98b48c2c2f37ae6df1ce306295bf5f7a2751f423eb5abbfb9965b8c68
 prerequisites:
 - json.overview
 depends_on:
@@ -61,27 +63,31 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/inheritance-copy-from/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/064b6baa1bada5f30ec70b61fba951446e14d965
 source_urls:
 - path: data/reference/json/ccb_json_object_types.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/data/reference/json/ccb_json_object_types.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/064b6baa1bada5f30ec70b61fba951446e14d965/data/reference/json/ccb_json_object_types.json
 - path: tools/json_api/contract-inventory.schema.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tools/json_api/contract-inventory.schema.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/064b6baa1bada5f30ec70b61fba951446e14d965/tools/json_api/contract-inventory.schema.json
 - path: tools/json_api/generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tools/json_api/generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/064b6baa1bada5f30ec70b61fba951446e14d965/tools/json_api/generate_contracts.py
 - path: tools/json_api/test_generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tools/json_api/test_generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/064b6baa1bada5f30ec70b61fba951446e14d965/tools/json_api/test_generate_contracts.py
 - path: src/init.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/init.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/064b6baa1bada5f30ec70b61fba951446e14d965/src/init.cpp
 - path: src/generic_factory.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/generic_factory.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/064b6baa1bada5f30ec70b61fba951446e14d965/src/generic_factory.h
 - path: tests/json_load_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tests/json_load_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/064b6baa1bada5f30ec70b61fba951446e14d965/tests/json_load_test.cpp
 - path: doc/JSON/JSON_INHERITANCE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/doc/JSON/JSON_INHERITANCE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/064b6baa1bada5f30ec70b61fba951446e14d965/doc/JSON/JSON_INHERITANCE.md
 - path: doc/JSON/JSON_STYLE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/doc/JSON/JSON_STYLE.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.inheritance-copy-from%29%3A+&body=Document+ID%3A+json.inheritance-copy-from%0ALanguage%3A+en%0AVerified+commit%3A+c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/064b6baa1bada5f30ec70b61fba951446e14d965/doc/JSON/JSON_STYLE.md
+- path: data/json/items/magazine/223.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/064b6baa1bada5f30ec70b61fba951446e14d965/data/json/items/magazine/223.json
+- path: data/json/obsoletion_and_migration_0.J/migration_items.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/064b6baa1bada5f30ec70b61fba951446e14d965/data/json/obsoletion_and_migration_0.J/migration_items.json
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.inheritance-copy-from%29%3A+&body=Document+ID%3A+json.inheritance-copy-from%0ALanguage%3A+en%0AVerified+commit%3A+064b6baa1bada5f30ec70b61fba951446e14d965%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # JSON inheritance and `copy-from`
@@ -125,3 +131,21 @@ right testing layer: load data, then inspect the resolved object.
 Changing a parent may change every descendant. Renaming or deleting a parent ID, changing a
 default, or changing replacement into extension can affect mods and saves. List descendants, run
 data loading and focused tests, and record JSON/mod documentation impact in the pull request.
+
+## Compatibility checks when restoring removed items
+
+[CCB #1036](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1036)
+reverts CDDA #88855 and #88871 to restore seven STANAG magazines with ranger plates.
+When
+restoring parent items and their `copy-from` descendants, also check gun compatibility lists,
+conversion recipes, item groups, and mod data. Remove the core `MIGRATION` entries that replace
+these IDs with plain magazines; retain Generic Guns' own generic-item migrations.
+
+Saves that still contain the old IDs can recognize the restored items. Once a removal build has
+converted an item into a plain magazine and saved it, there is insufficient information to recover
+its original identity automatically. Do not reverse-convert all plain magazines to guess what a
+player previously owned.
+
+This revert restores content only. Item, migration, recipe, and item-group instance counts and
+source fingerprints change in the generated inventories; JSON loading rules and EOC condition
+and effect semantics do not.

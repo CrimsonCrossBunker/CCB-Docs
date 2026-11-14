@@ -46,7 +46,7 @@ SPECS = (
         kind="json_object_types",
         source_path="data/reference/json/ccb_json_object_types.json",
         count_key="registered_types",
-        expected_count=190,
+        expected_count=192,
         outputs={
             "zh_CN": ROOT / "docs/zh_CN/reference/json-object-types.md",
             "en": ROOT / "docs/en/reference/json-object-types.md",
@@ -56,7 +56,7 @@ SPECS = (
         kind="eoc_conditions",
         source_path="data/reference/json/ccb_eoc_conditions.json",
         count_key="public_keys",
-        expected_count=275,
+        expected_count=276,
         outputs={
             "zh_CN": ROOT / "docs/zh_CN/reference/eoc-conditions.md",
             "en": ROOT / "docs/en/reference/eoc-conditions.md",
@@ -66,7 +66,7 @@ SPECS = (
         kind="eoc_effects",
         source_path="data/reference/json/ccb_eoc_effects.json",
         count_key="public_keys",
-        expected_count=310,
+        expected_count=329,
         outputs={
             "zh_CN": ROOT / "docs/zh_CN/reference/eoc-effects.md",
             "en": ROOT / "docs/en/reference/eoc-effects.md",
@@ -88,13 +88,13 @@ TEXT = {
         "source": "机器来源",
         "json_title": "JSON 对象类型注册表",
         "json_intro": (
-            "下表覆盖当前清单中的全部 190 个已注册对象类型。191 次注册包含"
+            "下表覆盖当前清单中的全部 192 个已注册对象类型。193 次注册包含"
             "一个编译条件变体；类型数量按唯一 `type` 计算。"
         ),
         "condition_title": "EOC 条件注册表",
-        "condition_intro": "下表覆盖解析器清单中的全部 275 个公开条件键。",
+        "condition_intro": "下表覆盖解析器清单中的全部 276 个公开条件键。",
         "effect_title": "EOC 效果注册表",
-        "effect_intro": "下表覆盖解析器清单中的全部 310 个公开效果键。",
+        "effect_intro": "下表覆盖解析器清单中的全部 329 个公开效果键。",
         "json_headers": (
             "类型",
             "契约",
@@ -136,16 +136,16 @@ TEXT = {
         "source": "Machine source",
         "json_title": "JSON object-type registry",
         "json_intro": (
-            "This table indexes all 190 unique registered object types in the current "
-            "inventory. The 191 registration calls include one compile-conditional "
+            "This table indexes all 192 unique registered object types in the current "
+            "inventory. The 193 registration calls include one compile-conditional "
             "variant."
         ),
         "condition_title": "EOC condition registry",
         "condition_intro": (
-            "This table indexes all 275 public condition keys in the parser inventory."
+            "This table indexes all 276 public condition keys in the parser inventory."
         ),
         "effect_title": "EOC effect registry",
-        "effect_intro": "This table indexes all 310 public effect keys in the parser inventory.",
+        "effect_intro": "This table indexes all 329 public effect keys in the parser inventory.",
         "json_headers": (
             "Type",
             "Contract",
@@ -257,9 +257,9 @@ def validate_inventory(
     if spec.kind == "json_object_types":
         registrations = sum(len(entry["registrations"]) for entry in entries)
         declared = inventory["summary"].get("registration_calls")
-        if registrations != 191 or declared != 191:
+        if registrations != 193 or declared != 193:
             raise ReferenceError(
-                f"json_object_types: expected 191 registration calls, "
+                f"json_object_types: expected 193 registration calls, "
                 f"found {registrations} (summary {declared})"
             )
 

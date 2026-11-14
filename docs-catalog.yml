@@ -4381,7 +4381,7 @@ pages:
   - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: &id209
+  source_paths: &json_overview_sources
   - data/reference/json/ccb_json_object_types.json
   - tools/json_api/contract-inventory.schema.json
   - tools/json_api/generate_contracts.py
@@ -4391,12 +4391,15 @@ pages:
   - tests/json_load_test.cpp
   - doc/JSON/JSON_INHERITANCE.md
   - doc/JSON/JSON_STYLE.md
+  - src/item_factory.cpp
+  - src/ballistics.cpp
+  - doc/JSON/ITEM.md
   source_symbols: &id210 []
   source_queries: &id211 []
-  source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
+  source_fingerprint: 134be158bba0c4aa5e155cce4989db6397ddee95156090e86c2c6369dbc29c89
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 9626297348a55661ae1c37ffa3dee43060440c58
+  verified_at: '2026-11-13'
   generated: false
   generated_by: null
   include_in_search: true
@@ -4404,7 +4407,7 @@ pages:
   translation_group: json.overview
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c
+  translation_source_fingerprint: 72fea1f5abae2802e936ffcb671612d807d92d803af9c964b7f67f5d3ffbfb7d
   prerequisites: &id212
   - architecture.project-map
   depends_on: &id213
@@ -4436,13 +4439,13 @@ pages:
   reviewers: *id208
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id209
+  source_paths: *json_overview_sources
   source_symbols: *id210
   source_queries: *id211
-  source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
+  source_fingerprint: 134be158bba0c4aa5e155cce4989db6397ddee95156090e86c2c6369dbc29c89
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 9626297348a55661ae1c37ffa3dee43060440c58
+  verified_at: '2026-11-13'
   generated: false
   generated_by: null
   include_in_search: true
@@ -4450,7 +4453,7 @@ pages:
   translation_group: json.overview
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c
+  translation_source_fingerprint: 72fea1f5abae2802e936ffcb671612d807d92d803af9c964b7f67f5d3ffbfb7d
   prerequisites: *id212
   depends_on: *id213
   redirect_from: *id214
@@ -4479,13 +4482,24 @@ pages:
   reviewers: *id208
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id209
+  source_paths:
+  - data/reference/json/ccb_json_object_types.json
+  - tools/json_api/contract-inventory.schema.json
+  - tools/json_api/generate_contracts.py
+  - tools/json_api/test_generate_contracts.py
+  - src/init.cpp
+  - src/generic_factory.h
+  - tests/json_load_test.cpp
+  - doc/JSON/JSON_INHERITANCE.md
+  - doc/JSON/JSON_STYLE.md
+  - data/json/items/magazine/223.json
+  - data/json/obsoletion_and_migration_0.J/migration_items.json
   source_symbols: *id210
   source_queries: *id211
-  source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
+  source_fingerprint: 5b67897003c0813837e0056fe74622b928c35fe00e209ce4a2a41edb5b7a0a23
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 064b6baa1bada5f30ec70b61fba951446e14d965
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -4493,7 +4507,7 @@ pages:
   translation_group: json.inheritance-copy-from
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 011b017522ac8f0fe674d25c2f3f6729ee36910b59b50abb94d54402ccefd8b1
+  translation_source_fingerprint: a739a6a98b48c2c2f37ae6df1ce306295bf5f7a2751f423eb5abbfb9965b8c68
   prerequisites: &id217
   - json.overview
   depends_on: &id218
@@ -4524,13 +4538,24 @@ pages:
   reviewers: *id208
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id209
+  source_paths:
+  - data/reference/json/ccb_json_object_types.json
+  - tools/json_api/contract-inventory.schema.json
+  - tools/json_api/generate_contracts.py
+  - tools/json_api/test_generate_contracts.py
+  - src/init.cpp
+  - src/generic_factory.h
+  - tests/json_load_test.cpp
+  - doc/JSON/JSON_INHERITANCE.md
+  - doc/JSON/JSON_STYLE.md
+  - data/json/items/magazine/223.json
+  - data/json/obsoletion_and_migration_0.J/migration_items.json
   source_symbols: *id210
   source_queries: *id211
-  source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
+  source_fingerprint: 5b67897003c0813837e0056fe74622b928c35fe00e209ce4a2a41edb5b7a0a23
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 064b6baa1bada5f30ec70b61fba951446e14d965
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -4538,7 +4563,7 @@ pages:
   translation_group: json.inheritance-copy-from
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 011b017522ac8f0fe674d25c2f3f6729ee36910b59b50abb94d54402ccefd8b1
+  translation_source_fingerprint: a739a6a98b48c2c2f37ae6df1ce306295bf5f7a2751f423eb5abbfb9965b8c68
   prerequisites: *id217
   depends_on: *id218
   redirect_from: *id214
@@ -4567,13 +4592,27 @@ pages:
   reviewers: *id208
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id209
+  source_paths:
+  - data/reference/json/ccb_json_object_types.json
+  - tools/json_api/contract-inventory.schema.json
+  - tools/json_api/generate_contracts.py
+  - tools/json_api/test_generate_contracts.py
+  - src/init.cpp
+  - src/generic_factory.h
+  - tests/json_load_test.cpp
+  - doc/JSON/JSON_INHERITANCE.md
+  - doc/JSON/JSON_STYLE.md
+  - src/sling.cpp
+  - src/ballistics.cpp
+  - src/ranged.cpp
+  - tests/staff_sling_test.cpp
+  - tests/shotgun_tubes_test.cpp
   source_symbols: *id210
   source_queries: *id211
-  source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
+  source_fingerprint: 67b6e1bce40069c95e4c250940c0c6ffe8ebb6fcb9ea2d2d71b7dcbbca2b4df3
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 34200a2ffcdaaf925cf2381bf900d2c753cd1a6c
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -4581,7 +4620,7 @@ pages:
   translation_group: json.validation
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 73aa0484eb20d1bbceefab7c0a59e912d8e575f295650618efffcd6933b5cb48
+  translation_source_fingerprint: ab52a235a5dffa73b8d9427b539f98cecc42c8a0e1de467d61a87dc7208b70ba
   prerequisites: &id219
   - json.overview
   depends_on: &id220
@@ -4599,7 +4638,7 @@ pages:
   deprecation_replacement: null
   risk_group: json
   risk_level: high
-  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1039
+  pending_source_pr: null
   stale_reason: null
   nav:
     section: JSON
@@ -4615,13 +4654,27 @@ pages:
   reviewers: *id208
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id209
+  source_paths:
+  - data/reference/json/ccb_json_object_types.json
+  - tools/json_api/contract-inventory.schema.json
+  - tools/json_api/generate_contracts.py
+  - tools/json_api/test_generate_contracts.py
+  - src/init.cpp
+  - src/generic_factory.h
+  - tests/json_load_test.cpp
+  - doc/JSON/JSON_INHERITANCE.md
+  - doc/JSON/JSON_STYLE.md
+  - src/sling.cpp
+  - src/ballistics.cpp
+  - src/ranged.cpp
+  - tests/staff_sling_test.cpp
+  - tests/shotgun_tubes_test.cpp
   source_symbols: *id210
   source_queries: *id211
-  source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
+  source_fingerprint: 67b6e1bce40069c95e4c250940c0c6ffe8ebb6fcb9ea2d2d71b7dcbbca2b4df3
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 34200a2ffcdaaf925cf2381bf900d2c753cd1a6c
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -4629,7 +4682,7 @@ pages:
   translation_group: json.validation
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 73aa0484eb20d1bbceefab7c0a59e912d8e575f295650618efffcd6933b5cb48
+  translation_source_fingerprint: ab52a235a5dffa73b8d9427b539f98cecc42c8a0e1de467d61a87dc7208b70ba
   prerequisites: *id219
   depends_on: *id220
   redirect_from: *id214
@@ -4642,7 +4695,7 @@ pages:
   deprecation_replacement: null
   risk_group: json
   risk_level: high
-  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1039
+  pending_source_pr: null
   stale_reason: null
   nav:
     section: JSON
@@ -4672,10 +4725,10 @@ pages:
   source_symbols: &id226
   - DynamicDataLoader::initialize
   source_queries: &id227 []
-  source_fingerprint: 6fcd9eedee8650f4d8a84330e61eb679e2798363db415c80b83260285c974cda
+  source_fingerprint: 0dd9bd16578af3de768ce9594ba8bba7e05819658738aee13ae2629169af2fd3
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 7eec168e0177181990aaa9ebb5e774172d004522
+  verified_at: '2026-11-07'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
   include_in_search: true
@@ -4683,7 +4736,7 @@ pages:
   translation_group: reference.json-object-types
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 093580aa01cee68d522f0ecc7d7249b4be0a0364912043fad42983125304c846
+  translation_source_fingerprint: 20a220db6360049dee16decb45f79a7ae16eab0183b50559684f94560ced80c9
   prerequisites: &id228
   - json.overview
   depends_on: &id229 []
@@ -4717,10 +4770,10 @@ pages:
   source_paths: *id225
   source_symbols: *id226
   source_queries: *id227
-  source_fingerprint: 6fcd9eedee8650f4d8a84330e61eb679e2798363db415c80b83260285c974cda
+  source_fingerprint: 0dd9bd16578af3de768ce9594ba8bba7e05819658738aee13ae2629169af2fd3
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 7eec168e0177181990aaa9ebb5e774172d004522
+  verified_at: '2026-11-07'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
   include_in_search: true
@@ -4728,7 +4781,7 @@ pages:
   translation_group: reference.json-object-types
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 093580aa01cee68d522f0ecc7d7249b4be0a0364912043fad42983125304c846
+  translation_source_fingerprint: 20a220db6360049dee16decb45f79a7ae16eab0183b50559684f94560ced80c9
   prerequisites: *id228
   depends_on: *id229
   redirect_from: *id230
@@ -5152,10 +5205,10 @@ pages:
   source_symbols: &id254
   - conditional_t::conditional_t
   source_queries: &id255 []
-  source_fingerprint: 86703a8d02d00e3124d40ad05263ab9988f7739745c78bf0fde928f43bde63a8
+  source_fingerprint: db430b0ac378553f51bf432ddca0147bf658e8fe8c566848358eb055a1005393
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 7eec168e0177181990aaa9ebb5e774172d004522
+  verified_at: '2026-11-07'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
   include_in_search: true
@@ -5163,7 +5216,7 @@ pages:
   translation_group: reference.eoc-conditions
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 23b8363116cec96c0c361fa3919ebac4c8f9f1596cd044b3330948cbbeced065
+  translation_source_fingerprint: de637b42a9051280a69bc823cf81409668fbc7ad6969736b98246416940c468d
   prerequisites: &id256
   - eoc.overview
   depends_on: &id257 []
@@ -5197,10 +5250,10 @@ pages:
   source_paths: *id253
   source_symbols: *id254
   source_queries: *id255
-  source_fingerprint: 86703a8d02d00e3124d40ad05263ab9988f7739745c78bf0fde928f43bde63a8
+  source_fingerprint: db430b0ac378553f51bf432ddca0147bf658e8fe8c566848358eb055a1005393
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 7eec168e0177181990aaa9ebb5e774172d004522
+  verified_at: '2026-11-07'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
   include_in_search: true
@@ -5208,7 +5261,7 @@ pages:
   translation_group: reference.eoc-conditions
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 23b8363116cec96c0c361fa3919ebac4c8f9f1596cd044b3330948cbbeced065
+  translation_source_fingerprint: de637b42a9051280a69bc823cf81409668fbc7ad6969736b98246416940c468d
   prerequisites: *id256
   depends_on: *id257
   redirect_from: *id258
@@ -5247,10 +5300,10 @@ pages:
   - talk_effect_t::parse_sub_effect
   - talk_effect_t::parse_string_effect
   source_queries: *id255
-  source_fingerprint: 663fff8aceec48e5f21eb548edbf5068c6ae3175094ad280a9f635375337db5f
+  source_fingerprint: 5dd19b0b95eb3955ddb6aa57edf810106fc211bc43bd88bd4b6cfd2e99fa4e66
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 7eec168e0177181990aaa9ebb5e774172d004522
+  verified_at: '2026-11-07'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
   include_in_search: true
@@ -5258,7 +5311,7 @@ pages:
   translation_group: reference.eoc-effects
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 0b0600c0494b57218f60c7346aa6a20a2a0e995fb71a330e374920c5e3d1e19a
+  translation_source_fingerprint: 162aad057ee8e6ebf72b9a13d1a8ff3752102f183538bf29628881226f9e9ac2
   prerequisites: *id256
   depends_on: *id257
   redirect_from: *id258
@@ -5291,10 +5344,10 @@ pages:
   source_paths: *id261
   source_symbols: *id262
   source_queries: *id255
-  source_fingerprint: 663fff8aceec48e5f21eb548edbf5068c6ae3175094ad280a9f635375337db5f
+  source_fingerprint: 5dd19b0b95eb3955ddb6aa57edf810106fc211bc43bd88bd4b6cfd2e99fa4e66
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 7eec168e0177181990aaa9ebb5e774172d004522
+  verified_at: '2026-11-07'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
   include_in_search: true
@@ -5302,7 +5355,7 @@ pages:
   translation_group: reference.eoc-effects
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 0b0600c0494b57218f60c7346aa6a20a2a0e995fb71a330e374920c5e3d1e19a
+  translation_source_fingerprint: 162aad057ee8e6ebf72b9a13d1a8ff3752102f183538bf29628881226f9e9ac2
   prerequisites: *id256
   depends_on: *id257
   redirect_from: *id258
@@ -5337,7 +5390,7 @@ pages:
   - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: &id266
+  source_paths:
   - data/AGENTS.md
   - data/mods/AGENTS.md
   - doc/MODDING.md
@@ -5347,12 +5400,13 @@ pages:
   - data/reference/json/ccb_json_object_types.json
   - data/reference/json/ccb_eoc_conditions.json
   - data/reference/json/ccb_eoc_effects.json
+  - data/mods/railroads/README.md
   source_symbols: &id267 []
   source_queries: &id268 []
-  source_fingerprint: 07702c94c6abf44a4ce57494f396a161ccbd4e8a072625d8731c2d659ddd75b6
+  source_fingerprint: b40ba2d158de84941b029fa19c214aef0dd1f40285cea5c18168ae14783ab192
   authority: source-and-tests
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 964d6e96b53d896d46fb130014b93b9791c909d9
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -5360,7 +5414,7 @@ pages:
   translation_group: mods.complete-json-eoc-mod
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 6ded0b43085f4eef208e8256f7d9d497323f2dba7a085068a440d48be7a306c8
+  translation_source_fingerprint: 38fb8761cb798c7e3358c1eba492907d2005f076be0902b1a1ee19ec7da509cb
   prerequisites: &id269
   - json.overview
   - eoc.overview
@@ -5396,13 +5450,23 @@ pages:
   reviewers: *id265
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id266
+  source_paths:
+  - data/AGENTS.md
+  - data/mods/AGENTS.md
+  - doc/MODDING.md
+  - data/mods/TEST_DATA/modinfo.json
+  - data/mods/TEST_DATA/effect_on_condition.json
+  - Makefile
+  - data/reference/json/ccb_json_object_types.json
+  - data/reference/json/ccb_eoc_conditions.json
+  - data/reference/json/ccb_eoc_effects.json
+  - data/mods/railroads/README.md
   source_symbols: *id267
   source_queries: *id268
-  source_fingerprint: 07702c94c6abf44a4ce57494f396a161ccbd4e8a072625d8731c2d659ddd75b6
+  source_fingerprint: b40ba2d158de84941b029fa19c214aef0dd1f40285cea5c18168ae14783ab192
   authority: source-and-tests
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 964d6e96b53d896d46fb130014b93b9791c909d9
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -5410,7 +5474,7 @@ pages:
   translation_group: mods.complete-json-eoc-mod
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 6ded0b43085f4eef208e8256f7d9d497323f2dba7a085068a440d48be7a306c8
+  translation_source_fingerprint: 38fb8761cb798c7e3358c1eba492907d2005f076be0902b1a1ee19ec7da509cb
   prerequisites: *id269
   depends_on: *id270
   redirect_from: *id271
