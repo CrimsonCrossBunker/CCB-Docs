@@ -22,17 +22,17 @@ source_queries:
 - Android x64 New UI
 - clang++-22
 - g++-16
-source_fingerprint: 33a8a6648f6fb9745c34252c74433f1087d636d63dcaabfb2bad58ce3174c95a
+source_fingerprint: 654aa06af56cd828a6c7cbe22d369d4d481f5c289b43000be487cb4abd98de06
 authority: build-config
-verified_commit: 8d1df6a4c632eeb23a54a9e0eac94bdc588d1f46
-verified_at: '2026-10-14'
+verified_commit: 34200a2ffcdaaf925cf2381bf900d2c753cd1a6c
+verified_at: '2026-11-14'
 generated: false
 generated_by: null
 include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 8497bd1b60cba8035884218ba1d8419ee3e957510af3a44a392364776c347ebc
+translation_source_fingerprint: 8e73ee7a18624c5587638586e4f16ac31f8765fced8cfb51293ca51ea1ceb6ef
 prerequisites:
 - operations.releases
 - platforms.android
@@ -48,7 +48,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: release
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/993
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/operations/release-assets-sync/
 alternate_urls:
@@ -56,22 +56,22 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/release-assets-sync/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/operations/release-assets-sync/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/8d1df6a4c632eeb23a54a9e0eac94bdc588d1f46
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c
 source_urls:
 - path: .github/workflows/release.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/8d1df6a4c632eeb23a54a9e0eac94bdc588d1f46/.github/workflows/release.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/.github/workflows/release.yml
 - path: .github/workflows/matrix.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/8d1df6a4c632eeb23a54a9e0eac94bdc588d1f46/.github/workflows/matrix.yml
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28operations.release-assets-sync%29%3A+&body=Document+ID%3A+operations.release-assets-sync%0ALanguage%3A+zh_CN%0AVerified+commit%3A+8d1df6a4c632eeb23a54a9e0eac94bdc588d1f46%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/.github/workflows/matrix.yml
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28operations.release-assets-sync%29%3A+&body=Document+ID%3A+operations.release-assets-sync%0ALanguage%3A+zh_CN%0AVerified+commit%3A+34200a2ffcdaaf925cf2381bf900d2c753cd1a6c%0A%0ADescribe+the+documentation+problem%3A%0A
 search:
   exclude: true
 ---
 
 # Android 音效与翻译包发布草稿
 
-本页对应尚未合并的 CCB PR #993。本地工具验证覆盖矩阵和归档命令；Android 构建、设备播放及实际 Release 上传仍需发布验收。
+CCB #993 引入翻译归档及 Android 音效包配置。本地工具验证覆盖矩阵和归档命令；Android 构建、设备播放及实际 Release 上传仍需发布验收。
 
-Experimental Release 的 Android x64、Android x64 New UI、Android x32 均设置 `sound: 1`。矩阵标记不能证明设备播放或签名检查已经通过。
+后续 Android 打包变更移除了 Experimental Release 中 Android x64、Android x64 New UI 和 Android x32 的内置音效包配置。设备播放和签名需单独验收。
 
 翻译构建完成后，独立步骤把 `translations` artifact 打包为 `ccb-translations-<timestamp>.tar.gz`，上传到创建发布步骤输出的实际 `tag_name`。Experimental 使用时间戳标签；Candidate 和 Stable 保留版本标签。翻译归档是额外文件，不能替代平台安装包。
 
@@ -81,4 +81,4 @@ Experimental Release 的 Android x64、Android x64 New UI、Android x32 均设�
 
 改动适配自 CDDA #88516、#88789、#88791、#88836，各来源提交保留原作者与出处。Responsible human: LYHGLYTX。
 
-CI 草稿矩阵把基本编译器改为 Clang 14，把新编译器检查改为 Ubuntu 26.04 上的 Clang 22 和 GCC 16。保留 Lua、铁路、高级物品管理专项检查和 GCC 单编译任务的内存限制，并显式安装所需包。矩阵已解析验证；实际 hosted CI 构建尚未证明。
+CI 矩阵使用 Clang 14 作为基本编译器，在 Ubuntu 26.04 上检查 Clang 22 和 GCC 16。保留 Lua、铁路、高级物品管理专项检查和 GCC 单编译任务的内存限制，并显式安装所需包。已记录的矩阵检查覆盖配置解析。

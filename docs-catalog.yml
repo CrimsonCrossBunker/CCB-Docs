@@ -962,26 +962,29 @@ pages:
   path: build/overview.md
   status: active
   doc_type: how-to
-  audiences: &id033
+  audiences:
   - new-contributor
   - experienced-contributor
   - maintainer
-  owners: *id001
-  reviewers: *id002
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: &id034
+  source_paths:
   - Makefile
   - CMakePresets.json
   - android/gradlew
   - android/build.gradle
   - .github/workflows/matrix.yml
-  source_symbols: &id035 []
-  source_queries: &id036 []
-  source_fingerprint: caa96df9d4a464cf685a6bf610bef827c7c0a9a5900d7ff27b34fa3ab53d9098
+  - CMakeLists.txt
+  source_symbols: []
+  source_queries: []
+  source_fingerprint: 4ea5d8a6d7e907ed3a54890d6b535f3c79a41f4b14043fafd6ddfc6f0bded1f4
   authority: build-config
-  verified_commit: 3053bf160578e46c1692a89c60594aa1acc6a276
-  verified_at: '2026-09-05'
+  verified_commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -989,18 +992,18 @@ pages:
   translation_group: build.overview
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 2100545da75d2202b5fc176a154e3d164c2fe77cac41ecdbc6f5d36c38e60f67
-  prerequisites: &id037
+  translation_source_fingerprint: 00bfd096819317162b7d3953883dcfb276209505946d88ca83a81066fbadb21c
+  prerequisites:
   - architecture.project-map
-  depends_on: &id038
+  depends_on:
   - platforms.matrix
   - validation.quickstart
-  redirect_from: *id003
-  supersedes: &id039
+  redirect_from: []
+  supersedes:
   - build-overview
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id040
+  example_validation_ids:
   - cmake-configure
   - cpp-format
   - cpp-tests
@@ -1022,18 +1025,29 @@ pages:
   path: build/overview.md
   status: active
   doc_type: how-to
-  audiences: *id033
-  owners: *id001
-  reviewers: *id002
+  audiences:
+  - new-contributor
+  - experienced-contributor
+  - maintainer
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id034
-  source_symbols: *id035
-  source_queries: *id036
-  source_fingerprint: caa96df9d4a464cf685a6bf610bef827c7c0a9a5900d7ff27b34fa3ab53d9098
+  source_paths:
+  - Makefile
+  - CMakePresets.json
+  - android/gradlew
+  - android/build.gradle
+  - .github/workflows/matrix.yml
+  - CMakeLists.txt
+  source_symbols: []
+  source_queries: []
+  source_fingerprint: 4ea5d8a6d7e907ed3a54890d6b535f3c79a41f4b14043fafd6ddfc6f0bded1f4
   authority: build-config
-  verified_commit: 3053bf160578e46c1692a89c60594aa1acc6a276
-  verified_at: '2026-09-05'
+  verified_commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -1041,14 +1055,23 @@ pages:
   translation_group: build.overview
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 2100545da75d2202b5fc176a154e3d164c2fe77cac41ecdbc6f5d36c38e60f67
-  prerequisites: *id037
-  depends_on: *id038
-  redirect_from: *id003
-  supersedes: *id039
+  translation_source_fingerprint: 00bfd096819317162b7d3953883dcfb276209505946d88ca83a81066fbadb21c
+  prerequisites:
+  - architecture.project-map
+  depends_on:
+  - platforms.matrix
+  - validation.quickstart
+  redirect_from: []
+  supersedes:
+  - build-overview
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id040
+  example_validation_ids:
+  - cmake-configure
+  - cpp-format
+  - cpp-tests
+  - json-load
+  - android-unit
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -1259,27 +1282,31 @@ pages:
   path: platforms/matrix.md
   status: active
   doc_type: reference
-  audiences: &id055
+  audiences:
   - new-contributor
   - experienced-contributor
   - maintainer
-  owners: *id001
-  reviewers: *id002
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: &id056
+  source_paths:
   - Makefile
   - CMakePresets.json
   - android/app/build.gradle
   - .github/workflows/matrix.yml
   - .github/workflows/msvc-full-features.yml
   - .github/workflows/sdl3-matrix.yml
-  source_symbols: &id057 []
-  source_queries: &id058 []
-  source_fingerprint: 99e40d9f40038bf5e7decd52c09c777224ff262822fed80bda9cbc94e5c53b2d
+  - .github/workflows/release.yml
+  - .github/actions/setup-sdl3-stack-macos/action.yml
+  source_symbols: []
+  source_queries: []
+  source_fingerprint: 3af89901fb085d31b24e3b4ddf1bf2bbc90275acb78acafff4d1cce77922e6e2
   authority: build-config
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -1287,15 +1314,15 @@ pages:
   translation_group: platforms.matrix
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 8ae2dc2c8738c0cbf41d337f70d7c7796755182f4eea9bf39c0d40447c4a623f
-  prerequisites: &id059
+  translation_source_fingerprint: 479d980e5f008a8893ca4c1282505d3488c96fd9c25c4412bb29beb7bb85002f
+  prerequisites:
   - build.overview
-  depends_on: &id060 []
-  redirect_from: *id003
-  supersedes: *id004
+  depends_on: []
+  redirect_from: []
+  supersedes: []
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id061
+  example_validation_ids:
   - cmake-configure
   - android-unit
   api_version: null
@@ -1314,18 +1341,31 @@ pages:
   path: platforms/matrix.md
   status: active
   doc_type: reference
-  audiences: *id055
-  owners: *id001
-  reviewers: *id002
+  audiences:
+  - new-contributor
+  - experienced-contributor
+  - maintainer
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id056
-  source_symbols: *id057
-  source_queries: *id058
-  source_fingerprint: 99e40d9f40038bf5e7decd52c09c777224ff262822fed80bda9cbc94e5c53b2d
+  source_paths:
+  - Makefile
+  - CMakePresets.json
+  - android/app/build.gradle
+  - .github/workflows/matrix.yml
+  - .github/workflows/msvc-full-features.yml
+  - .github/workflows/sdl3-matrix.yml
+  - .github/workflows/release.yml
+  - .github/actions/setup-sdl3-stack-macos/action.yml
+  source_symbols: []
+  source_queries: []
+  source_fingerprint: 3af89901fb085d31b24e3b4ddf1bf2bbc90275acb78acafff4d1cce77922e6e2
   authority: build-config
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -1333,14 +1373,17 @@ pages:
   translation_group: platforms.matrix
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 8ae2dc2c8738c0cbf41d337f70d7c7796755182f4eea9bf39c0d40447c4a623f
-  prerequisites: *id059
-  depends_on: *id060
-  redirect_from: *id003
-  supersedes: *id004
+  translation_source_fingerprint: 479d980e5f008a8893ca4c1282505d3488c96fd9c25c4412bb29beb7bb85002f
+  prerequisites:
+  - build.overview
+  depends_on: []
+  redirect_from: []
+  supersedes: []
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id061
+  example_validation_ids:
+  - cmake-configure
+  - android-unit
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -4381,7 +4424,7 @@ pages:
   - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: &id209
+  source_paths: &json_overview_sources
   - data/reference/json/ccb_json_object_types.json
   - tools/json_api/contract-inventory.schema.json
   - tools/json_api/generate_contracts.py
@@ -4391,12 +4434,15 @@ pages:
   - tests/json_load_test.cpp
   - doc/JSON/JSON_INHERITANCE.md
   - doc/JSON/JSON_STYLE.md
+  - src/item_factory.cpp
+  - src/ballistics.cpp
+  - doc/JSON/ITEM.md
   source_symbols: &id210 []
   source_queries: &id211 []
-  source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
+  source_fingerprint: 134be158bba0c4aa5e155cce4989db6397ddee95156090e86c2c6369dbc29c89
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 9626297348a55661ae1c37ffa3dee43060440c58
+  verified_at: '2026-11-13'
   generated: false
   generated_by: null
   include_in_search: true
@@ -4404,7 +4450,7 @@ pages:
   translation_group: json.overview
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c
+  translation_source_fingerprint: 72fea1f5abae2802e936ffcb671612d807d92d803af9c964b7f67f5d3ffbfb7d
   prerequisites: &id212
   - architecture.project-map
   depends_on: &id213
@@ -4436,13 +4482,13 @@ pages:
   reviewers: *id208
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id209
+  source_paths: *json_overview_sources
   source_symbols: *id210
   source_queries: *id211
-  source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
+  source_fingerprint: 134be158bba0c4aa5e155cce4989db6397ddee95156090e86c2c6369dbc29c89
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 9626297348a55661ae1c37ffa3dee43060440c58
+  verified_at: '2026-11-13'
   generated: false
   generated_by: null
   include_in_search: true
@@ -4450,7 +4496,7 @@ pages:
   translation_group: json.overview
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c
+  translation_source_fingerprint: 72fea1f5abae2802e936ffcb671612d807d92d803af9c964b7f67f5d3ffbfb7d
   prerequisites: *id212
   depends_on: *id213
   redirect_from: *id214
@@ -4479,13 +4525,24 @@ pages:
   reviewers: *id208
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id209
+  source_paths:
+  - data/reference/json/ccb_json_object_types.json
+  - tools/json_api/contract-inventory.schema.json
+  - tools/json_api/generate_contracts.py
+  - tools/json_api/test_generate_contracts.py
+  - src/init.cpp
+  - src/generic_factory.h
+  - tests/json_load_test.cpp
+  - doc/JSON/JSON_INHERITANCE.md
+  - doc/JSON/JSON_STYLE.md
+  - data/json/items/magazine/223.json
+  - data/json/obsoletion_and_migration_0.J/migration_items.json
   source_symbols: *id210
   source_queries: *id211
-  source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
+  source_fingerprint: 5b67897003c0813837e0056fe74622b928c35fe00e209ce4a2a41edb5b7a0a23
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 064b6baa1bada5f30ec70b61fba951446e14d965
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -4493,7 +4550,7 @@ pages:
   translation_group: json.inheritance-copy-from
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 011b017522ac8f0fe674d25c2f3f6729ee36910b59b50abb94d54402ccefd8b1
+  translation_source_fingerprint: a739a6a98b48c2c2f37ae6df1ce306295bf5f7a2751f423eb5abbfb9965b8c68
   prerequisites: &id217
   - json.overview
   depends_on: &id218
@@ -4524,13 +4581,24 @@ pages:
   reviewers: *id208
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id209
+  source_paths:
+  - data/reference/json/ccb_json_object_types.json
+  - tools/json_api/contract-inventory.schema.json
+  - tools/json_api/generate_contracts.py
+  - tools/json_api/test_generate_contracts.py
+  - src/init.cpp
+  - src/generic_factory.h
+  - tests/json_load_test.cpp
+  - doc/JSON/JSON_INHERITANCE.md
+  - doc/JSON/JSON_STYLE.md
+  - data/json/items/magazine/223.json
+  - data/json/obsoletion_and_migration_0.J/migration_items.json
   source_symbols: *id210
   source_queries: *id211
-  source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
+  source_fingerprint: 5b67897003c0813837e0056fe74622b928c35fe00e209ce4a2a41edb5b7a0a23
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 064b6baa1bada5f30ec70b61fba951446e14d965
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -4538,7 +4606,7 @@ pages:
   translation_group: json.inheritance-copy-from
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 011b017522ac8f0fe674d25c2f3f6729ee36910b59b50abb94d54402ccefd8b1
+  translation_source_fingerprint: a739a6a98b48c2c2f37ae6df1ce306295bf5f7a2751f423eb5abbfb9965b8c68
   prerequisites: *id217
   depends_on: *id218
   redirect_from: *id214
@@ -4567,13 +4635,29 @@ pages:
   reviewers: *id208
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id209
+  source_paths:
+  - data/reference/json/ccb_json_object_types.json
+  - tools/json_api/contract-inventory.schema.json
+  - tools/json_api/generate_contracts.py
+  - tools/json_api/test_generate_contracts.py
+  - src/init.cpp
+  - src/generic_factory.h
+  - tests/json_load_test.cpp
+  - doc/JSON/JSON_INHERITANCE.md
+  - doc/JSON/JSON_STYLE.md
+  - src/sling.cpp
+  - src/ballistics.cpp
+  - src/ranged.cpp
+  - tests/staff_sling_test.cpp
+  - tests/shotgun_tubes_test.cpp
+  - tools/agent/generate_lua_first_replacement_ledger.py
+  - tools/agent/check_lua_first_replacement_ledger.py
   source_symbols: *id210
   source_queries: *id211
-  source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
+  source_fingerprint: 784d00ad7b17d742d93df409e3157ea2e6caaa89b5961d07996f99b4163cbd24
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 34200a2ffcdaaf925cf2381bf900d2c753cd1a6c
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -4581,7 +4665,7 @@ pages:
   translation_group: json.validation
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3
+  translation_source_fingerprint: 54889c9b658a71a6f61db044ee1618de4612b6ecf0740401c1fac047c129eafc
   prerequisites: &id219
   - json.overview
   depends_on: &id220
@@ -4615,13 +4699,29 @@ pages:
   reviewers: *id208
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id209
+  source_paths:
+  - data/reference/json/ccb_json_object_types.json
+  - tools/json_api/contract-inventory.schema.json
+  - tools/json_api/generate_contracts.py
+  - tools/json_api/test_generate_contracts.py
+  - src/init.cpp
+  - src/generic_factory.h
+  - tests/json_load_test.cpp
+  - doc/JSON/JSON_INHERITANCE.md
+  - doc/JSON/JSON_STYLE.md
+  - src/sling.cpp
+  - src/ballistics.cpp
+  - src/ranged.cpp
+  - tests/staff_sling_test.cpp
+  - tests/shotgun_tubes_test.cpp
+  - tools/agent/generate_lua_first_replacement_ledger.py
+  - tools/agent/check_lua_first_replacement_ledger.py
   source_symbols: *id210
   source_queries: *id211
-  source_fingerprint: d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c
+  source_fingerprint: 784d00ad7b17d742d93df409e3157ea2e6caaa89b5961d07996f99b4163cbd24
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 34200a2ffcdaaf925cf2381bf900d2c753cd1a6c
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -4629,7 +4729,7 @@ pages:
   translation_group: json.validation
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3
+  translation_source_fingerprint: 54889c9b658a71a6f61db044ee1618de4612b6ecf0740401c1fac047c129eafc
   prerequisites: *id219
   depends_on: *id220
   redirect_from: *id214
@@ -4672,10 +4772,10 @@ pages:
   source_symbols: &id226
   - DynamicDataLoader::initialize
   source_queries: &id227 []
-  source_fingerprint: 6fcd9eedee8650f4d8a84330e61eb679e2798363db415c80b83260285c974cda
+  source_fingerprint: 0dd9bd16578af3de768ce9594ba8bba7e05819658738aee13ae2629169af2fd3
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 7eec168e0177181990aaa9ebb5e774172d004522
+  verified_at: '2026-11-07'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
   include_in_search: true
@@ -4683,7 +4783,7 @@ pages:
   translation_group: reference.json-object-types
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 093580aa01cee68d522f0ecc7d7249b4be0a0364912043fad42983125304c846
+  translation_source_fingerprint: 20a220db6360049dee16decb45f79a7ae16eab0183b50559684f94560ced80c9
   prerequisites: &id228
   - json.overview
   depends_on: &id229 []
@@ -4717,10 +4817,10 @@ pages:
   source_paths: *id225
   source_symbols: *id226
   source_queries: *id227
-  source_fingerprint: 6fcd9eedee8650f4d8a84330e61eb679e2798363db415c80b83260285c974cda
+  source_fingerprint: 0dd9bd16578af3de768ce9594ba8bba7e05819658738aee13ae2629169af2fd3
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 7eec168e0177181990aaa9ebb5e774172d004522
+  verified_at: '2026-11-07'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
   include_in_search: true
@@ -4728,7 +4828,7 @@ pages:
   translation_group: reference.json-object-types
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 093580aa01cee68d522f0ecc7d7249b4be0a0364912043fad42983125304c846
+  translation_source_fingerprint: 20a220db6360049dee16decb45f79a7ae16eab0183b50559684f94560ced80c9
   prerequisites: *id228
   depends_on: *id229
   redirect_from: *id230
@@ -4961,10 +5061,10 @@ pages:
   source_paths: *id236
   source_symbols: *id237
   source_queries: *id238
-  source_fingerprint: 222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e
+  source_fingerprint: 81648d78c697a464607987d0aa2cd8c8d85f06dfa6e9a97117cdae8581ca2b90
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 62e69a762a00ec6197ba6a829972de8dd344e9f2
+  verified_at: '2026-10-04'
   generated: false
   generated_by: null
   include_in_search: true
@@ -4972,7 +5072,7 @@ pages:
   translation_group: eoc.variables-context
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 8e90cbae7e8c02b7eaa85d8151d686e20feb0dac08e769660feee6034b89c055
+  translation_source_fingerprint: 068478c7ef2b5a026e7667c2af44ab7f946ac30a7b5fca22c0fab1347fadbade
   prerequisites: &id246
   - eoc.overview
   depends_on: &id247
@@ -5007,10 +5107,10 @@ pages:
   source_paths: *id236
   source_symbols: *id237
   source_queries: *id238
-  source_fingerprint: 222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e
+  source_fingerprint: 81648d78c697a464607987d0aa2cd8c8d85f06dfa6e9a97117cdae8581ca2b90
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 62e69a762a00ec6197ba6a829972de8dd344e9f2
+  verified_at: '2026-10-04'
   generated: false
   generated_by: null
   include_in_search: true
@@ -5018,7 +5118,7 @@ pages:
   translation_group: eoc.variables-context
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 8e90cbae7e8c02b7eaa85d8151d686e20feb0dac08e769660feee6034b89c055
+  translation_source_fingerprint: 068478c7ef2b5a026e7667c2af44ab7f946ac30a7b5fca22c0fab1347fadbade
   prerequisites: *id246
   depends_on: *id247
   redirect_from: *id241
@@ -5152,10 +5252,10 @@ pages:
   source_symbols: &id254
   - conditional_t::conditional_t
   source_queries: &id255 []
-  source_fingerprint: 86703a8d02d00e3124d40ad05263ab9988f7739745c78bf0fde928f43bde63a8
+  source_fingerprint: db430b0ac378553f51bf432ddca0147bf658e8fe8c566848358eb055a1005393
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 7eec168e0177181990aaa9ebb5e774172d004522
+  verified_at: '2026-11-07'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
   include_in_search: true
@@ -5163,7 +5263,7 @@ pages:
   translation_group: reference.eoc-conditions
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 23b8363116cec96c0c361fa3919ebac4c8f9f1596cd044b3330948cbbeced065
+  translation_source_fingerprint: de637b42a9051280a69bc823cf81409668fbc7ad6969736b98246416940c468d
   prerequisites: &id256
   - eoc.overview
   depends_on: &id257 []
@@ -5197,10 +5297,10 @@ pages:
   source_paths: *id253
   source_symbols: *id254
   source_queries: *id255
-  source_fingerprint: 86703a8d02d00e3124d40ad05263ab9988f7739745c78bf0fde928f43bde63a8
+  source_fingerprint: db430b0ac378553f51bf432ddca0147bf658e8fe8c566848358eb055a1005393
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 7eec168e0177181990aaa9ebb5e774172d004522
+  verified_at: '2026-11-07'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
   include_in_search: true
@@ -5208,7 +5308,7 @@ pages:
   translation_group: reference.eoc-conditions
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 23b8363116cec96c0c361fa3919ebac4c8f9f1596cd044b3330948cbbeced065
+  translation_source_fingerprint: de637b42a9051280a69bc823cf81409668fbc7ad6969736b98246416940c468d
   prerequisites: *id256
   depends_on: *id257
   redirect_from: *id258
@@ -5247,10 +5347,10 @@ pages:
   - talk_effect_t::parse_sub_effect
   - talk_effect_t::parse_string_effect
   source_queries: *id255
-  source_fingerprint: 663fff8aceec48e5f21eb548edbf5068c6ae3175094ad280a9f635375337db5f
+  source_fingerprint: 5dd19b0b95eb3955ddb6aa57edf810106fc211bc43bd88bd4b6cfd2e99fa4e66
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 7eec168e0177181990aaa9ebb5e774172d004522
+  verified_at: '2026-11-07'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
   include_in_search: true
@@ -5258,7 +5358,7 @@ pages:
   translation_group: reference.eoc-effects
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 0b0600c0494b57218f60c7346aa6a20a2a0e995fb71a330e374920c5e3d1e19a
+  translation_source_fingerprint: 162aad057ee8e6ebf72b9a13d1a8ff3752102f183538bf29628881226f9e9ac2
   prerequisites: *id256
   depends_on: *id257
   redirect_from: *id258
@@ -5291,10 +5391,10 @@ pages:
   source_paths: *id261
   source_symbols: *id262
   source_queries: *id255
-  source_fingerprint: 663fff8aceec48e5f21eb548edbf5068c6ae3175094ad280a9f635375337db5f
+  source_fingerprint: 5dd19b0b95eb3955ddb6aa57edf810106fc211bc43bd88bd4b6cfd2e99fa4e66
   authority: api-contract
-  verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-  verified_at: '2026-08-12'
+  verified_commit: 7eec168e0177181990aaa9ebb5e774172d004522
+  verified_at: '2026-11-07'
   generated: true
   generated_by: scripts/generate_json_eoc_reference.py
   include_in_search: true
@@ -5302,7 +5402,7 @@ pages:
   translation_group: reference.eoc-effects
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 0b0600c0494b57218f60c7346aa6a20a2a0e995fb71a330e374920c5e3d1e19a
+  translation_source_fingerprint: 162aad057ee8e6ebf72b9a13d1a8ff3752102f183538bf29628881226f9e9ac2
   prerequisites: *id256
   depends_on: *id257
   redirect_from: *id258
@@ -5337,7 +5437,7 @@ pages:
   - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: &id266
+  source_paths:
   - data/AGENTS.md
   - data/mods/AGENTS.md
   - doc/MODDING.md
@@ -5347,12 +5447,13 @@ pages:
   - data/reference/json/ccb_json_object_types.json
   - data/reference/json/ccb_eoc_conditions.json
   - data/reference/json/ccb_eoc_effects.json
+  - data/mods/railroads/README.md
   source_symbols: &id267 []
   source_queries: &id268 []
-  source_fingerprint: 07702c94c6abf44a4ce57494f396a161ccbd4e8a072625d8731c2d659ddd75b6
+  source_fingerprint: b40ba2d158de84941b029fa19c214aef0dd1f40285cea5c18168ae14783ab192
   authority: source-and-tests
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 964d6e96b53d896d46fb130014b93b9791c909d9
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -5360,7 +5461,7 @@ pages:
   translation_group: mods.complete-json-eoc-mod
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 6ded0b43085f4eef208e8256f7d9d497323f2dba7a085068a440d48be7a306c8
+  translation_source_fingerprint: 38fb8761cb798c7e3358c1eba492907d2005f076be0902b1a1ee19ec7da509cb
   prerequisites: &id269
   - json.overview
   - eoc.overview
@@ -5396,13 +5497,23 @@ pages:
   reviewers: *id265
   review_interval_days: 90
   last_human_reviewer: LYHGLYTX
-  source_paths: *id266
+  source_paths:
+  - data/AGENTS.md
+  - data/mods/AGENTS.md
+  - doc/MODDING.md
+  - data/mods/TEST_DATA/modinfo.json
+  - data/mods/TEST_DATA/effect_on_condition.json
+  - Makefile
+  - data/reference/json/ccb_json_object_types.json
+  - data/reference/json/ccb_eoc_conditions.json
+  - data/reference/json/ccb_eoc_effects.json
+  - data/mods/railroads/README.md
   source_symbols: *id267
   source_queries: *id268
-  source_fingerprint: 07702c94c6abf44a4ce57494f396a161ccbd4e8a072625d8731c2d659ddd75b6
+  source_fingerprint: b40ba2d158de84941b029fa19c214aef0dd1f40285cea5c18168ae14783ab192
   authority: source-and-tests
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 964d6e96b53d896d46fb130014b93b9791c909d9
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -5410,7 +5521,7 @@ pages:
   translation_group: mods.complete-json-eoc-mod
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 6ded0b43085f4eef208e8256f7d9d497323f2dba7a085068a440d48be7a306c8
+  translation_source_fingerprint: 38fb8761cb798c7e3358c1eba492907d2005f076be0902b1a1ee19ec7da509cb
   prerequisites: *id269
   depends_on: *id270
   redirect_from: *id271
@@ -7354,6 +7465,9 @@ pages:
   - src/lua_platform_trade.cpp
   - src/lua_platform_npc_services.cpp
   - src/lua_platform_mutations.cpp
+  - src/flexbuffer_json.cpp
+  - src/flexbuffer_json.h
+  - tests/lua_platform_persistent_integer_test.cpp
   source_symbols:
   - platform_version = 1
   - initialize_state(
@@ -7369,10 +7483,10 @@ pages:
   - 'lua_platform: 1'
   - -DCATA_ENABLE_LUA_PLATFORM="${CATA_ENABLE_LUA_PLATFORM:-1}"
   - -DCATA_ENABLE_LUA_PLATFORM=ON
-  source_fingerprint: f6a3bb50ab96428a11c7c6361a3932f8a29fce97992e3e556fcd8955b5feaec6
+  source_fingerprint: 5e91e0340ced65cb2530da6f382e49d923757c5c70379d3ad90fdb99c1378320
   authority: api-contract
-  verified_commit: 8ac305b649964acc877a86e7fc872a0a315f3ecf
-  verified_at: '2026-09-19'
+  verified_commit: 62e69a762a00ec6197ba6a829972de8dd344e9f2
+  verified_at: '2026-10-04'
   generated: false
   generated_by: null
   include_in_search: false
@@ -7380,7 +7494,7 @@ pages:
   translation_group: cpp.lua-bridge
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396
+  translation_source_fingerprint: c823c9a76e8e77b2980e04818ec23cc92528d67d58d97319550dc704f396fbb1
   prerequisites:
   - cpp.mod-loading
   depends_on: []
@@ -7480,6 +7594,9 @@ pages:
   - src/lua_platform_trade.cpp
   - src/lua_platform_npc_services.cpp
   - src/lua_platform_mutations.cpp
+  - src/flexbuffer_json.cpp
+  - src/flexbuffer_json.h
+  - tests/lua_platform_persistent_integer_test.cpp
   source_symbols:
   - platform_version = 1
   - initialize_state(
@@ -7495,10 +7612,10 @@ pages:
   - 'lua_platform: 1'
   - -DCATA_ENABLE_LUA_PLATFORM="${CATA_ENABLE_LUA_PLATFORM:-1}"
   - -DCATA_ENABLE_LUA_PLATFORM=ON
-  source_fingerprint: f6a3bb50ab96428a11c7c6361a3932f8a29fce97992e3e556fcd8955b5feaec6
+  source_fingerprint: 5e91e0340ced65cb2530da6f382e49d923757c5c70379d3ad90fdb99c1378320
   authority: api-contract
-  verified_commit: 8ac305b649964acc877a86e7fc872a0a315f3ecf
-  verified_at: '2026-09-19'
+  verified_commit: 62e69a762a00ec6197ba6a829972de8dd344e9f2
+  verified_at: '2026-10-04'
   generated: false
   generated_by: null
   include_in_search: false
@@ -7506,7 +7623,7 @@ pages:
   translation_group: cpp.lua-bridge
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396
+  translation_source_fingerprint: c823c9a76e8e77b2980e04818ec23cc92528d67d58d97319550dc704f396fbb1
   prerequisites:
   - cpp.mod-loading
   depends_on: []
@@ -7629,26 +7746,30 @@ pages:
   path: platforms/linux.md
   status: active
   doc_type: how-to
-  audiences: &id422
+  audiences:
   - new-contributor
   - experienced-contributor
   - maintainer
-  owners: *id001
-  reviewers: *id002
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: &id423
+  source_paths:
   - Makefile
   - CMakePresets.json
   - .github/workflows/matrix.yml
   - doc/c++/COMPILING.md
-  source_symbols: &id424 []
-  source_queries: &id425
+  - CMakeLists.txt
+  - .github/actions/setup-sdl3-stack/action.yml
+  source_symbols: []
+  source_queries:
   - linux-x64
-  source_fingerprint: 2dba8fbfa2140a345e7ae382dda6be3b45598895eea9130a0a7f7e02c27158bf
+  source_fingerprint: abe5b45a8d3024027e643dd8b0797a20967055098488185be3475fbcb377962e
   authority: build-config
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -7656,17 +7777,17 @@ pages:
   translation_group: platforms.linux
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 4e369a0d5512e76ab86eb50a35d7ef9d9bf57a9c01e655bdaa4c683411f050da
-  prerequisites: &id426
+  translation_source_fingerprint: b35fb53e6d6883e1d78329e7096e78927b197bb182ae3e67c465c9066ce61458
+  prerequisites:
   - platforms.matrix
   - build.overview
-  depends_on: &id427
+  depends_on:
   - validation.testing
-  redirect_from: *id003
-  supersedes: *id004
+  redirect_from: []
+  supersedes: []
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id428
+  example_validation_ids:
   - cmake-configure
   - cpp-tests
   api_version: null
@@ -7685,18 +7806,30 @@ pages:
   path: platforms/linux.md
   status: active
   doc_type: how-to
-  audiences: *id422
-  owners: *id001
-  reviewers: *id002
+  audiences:
+  - new-contributor
+  - experienced-contributor
+  - maintainer
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: *id423
-  source_symbols: *id424
-  source_queries: *id425
-  source_fingerprint: 2dba8fbfa2140a345e7ae382dda6be3b45598895eea9130a0a7f7e02c27158bf
+  source_paths:
+  - Makefile
+  - CMakePresets.json
+  - .github/workflows/matrix.yml
+  - doc/c++/COMPILING.md
+  - CMakeLists.txt
+  - .github/actions/setup-sdl3-stack/action.yml
+  source_symbols: []
+  source_queries:
+  - linux-x64
+  source_fingerprint: abe5b45a8d3024027e643dd8b0797a20967055098488185be3475fbcb377962e
   authority: build-config
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -7704,14 +7837,19 @@ pages:
   translation_group: platforms.linux
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 4e369a0d5512e76ab86eb50a35d7ef9d9bf57a9c01e655bdaa4c683411f050da
-  prerequisites: *id426
-  depends_on: *id427
-  redirect_from: *id003
-  supersedes: *id004
+  translation_source_fingerprint: b35fb53e6d6883e1d78329e7096e78927b197bb182ae3e67c465c9066ce61458
+  prerequisites:
+  - platforms.matrix
+  - build.overview
+  depends_on:
+  - validation.testing
+  redirect_from: []
+  supersedes: []
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id428
+  example_validation_ids:
+  - cmake-configure
+  - cpp-tests
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -7836,15 +7974,16 @@ pages:
   last_human_reviewer: Pending human review
   source_paths: &id437
   - CMakePresets.json
-  - doc/c++/COMPILING-MSYS.md
-  - .github/workflows/msvc-full-features.yml
+  - Makefile
+  - msvc-full-features/vcpkg.json
+  - tools/build_shaders.py
   source_symbols: &id438 []
   source_queries: &id439
   - windows-x64
-  source_fingerprint: bf6ba93c2336766ceda18c41f5a84d3a56c4a0799ff9c9dbd11484cf822b9773
+  source_fingerprint: e32aff789fb32745f4430b0bf4cb82ac16c27b1498001f9fb4b77fc0122349f9
   authority: build-config
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 67f0d0e240aef6c127012a5ea945b70bdf473072
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -7852,14 +7991,14 @@ pages:
   translation_group: platforms.msys2
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: bc3e58ed87ce480f2925aecac89f9313b9869c581272cfae45131748b7f4ae03
+  translation_source_fingerprint: 438403074a5c48398e9616f9de1eb24d61926e32f53d1b27425896490302d2dd
   prerequisites: &id440
   - platforms.windows
   depends_on: &id441 []
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; see source paths and Git history.
+  attribution: CCB contributors; MSYS notes adapted from CDDA PR 88588 (Matthew Richmond) and PR 88664 (mqrause).
   example_validation_ids: &id442
   - cmake-configure
   - cpp-tests
@@ -7887,10 +8026,10 @@ pages:
   source_paths: *id437
   source_symbols: *id438
   source_queries: *id439
-  source_fingerprint: bf6ba93c2336766ceda18c41f5a84d3a56c4a0799ff9c9dbd11484cf822b9773
+  source_fingerprint: e32aff789fb32745f4430b0bf4cb82ac16c27b1498001f9fb4b77fc0122349f9
   authority: build-config
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 67f0d0e240aef6c127012a5ea945b70bdf473072
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -7898,13 +8037,13 @@ pages:
   translation_group: platforms.msys2
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: bc3e58ed87ce480f2925aecac89f9313b9869c581272cfae45131748b7f4ae03
+  translation_source_fingerprint: 438403074a5c48398e9616f9de1eb24d61926e32f53d1b27425896490302d2dd
   prerequisites: *id440
   depends_on: *id441
   redirect_from: *id003
   supersedes: *id004
   license: CC-BY-SA-3.0
-  attribution: CCB contributors; see source paths and Git history.
+  attribution: CCB contributors; MSYS notes adapted from CDDA PR 88588 (Matthew Richmond) and PR 88664 (mqrause).
   example_validation_ids: *id442
   api_version: null
   deprecated: false
@@ -7922,25 +8061,30 @@ pages:
   path: platforms/msvc.md
   status: active
   doc_type: how-to
-  audiences: &id443
+  audiences:
   - experienced-contributor
   - maintainer
-  owners: *id001
-  reviewers: *id002
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: &id444
+  source_paths:
   - CMakePresets.json
   - build-scripts/MSVC.cmake
   - build-scripts/windows-tiles-sounds-x64-msvc.cmake
   - .github/workflows/msvc-full-features.yml
-  source_symbols: &id445 []
-  source_queries: &id446
+  - msvc-full-features/Cataclysm.Cpp.props
+  - msvc-full-features/vcpkg.json
+  - build-scripts/windist.ps1
+  source_symbols: []
+  source_queries:
   - windows-tiles-sounds-x64-msvc
-  source_fingerprint: d2dbe858dd29b80612d853044debd594adb8e0ffeaf9d473becbc5dd3d2b0d74
+  source_fingerprint: b5bd59ffe6061a3c7818da7be3ad88b95755843829de165a1801b5a2650c5ad0
   authority: build-config
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -7948,15 +8092,15 @@ pages:
   translation_group: platforms.msvc
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: de436d260762856faafc61fcc6f466c2b2e07c1d6c8db41648cec2681eda5411
-  prerequisites: &id447
+  translation_source_fingerprint: d759f841a8e8f174ae8a4820487c8073ccda3010120bb90a008ed86465bf2003
+  prerequisites:
   - platforms.windows
-  depends_on: &id448 []
-  redirect_from: *id003
-  supersedes: *id004
+  depends_on: []
+  redirect_from: []
+  supersedes: []
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id449
+  example_validation_ids:
   - cmake-configure
   - cpp-tests
   api_version: null
@@ -7975,18 +8119,30 @@ pages:
   path: platforms/msvc.md
   status: active
   doc_type: how-to
-  audiences: *id443
-  owners: *id001
-  reviewers: *id002
+  audiences:
+  - experienced-contributor
+  - maintainer
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: *id444
-  source_symbols: *id445
-  source_queries: *id446
-  source_fingerprint: d2dbe858dd29b80612d853044debd594adb8e0ffeaf9d473becbc5dd3d2b0d74
+  source_paths:
+  - CMakePresets.json
+  - build-scripts/MSVC.cmake
+  - build-scripts/windows-tiles-sounds-x64-msvc.cmake
+  - .github/workflows/msvc-full-features.yml
+  - msvc-full-features/Cataclysm.Cpp.props
+  - msvc-full-features/vcpkg.json
+  - build-scripts/windist.ps1
+  source_symbols: []
+  source_queries:
+  - windows-tiles-sounds-x64-msvc
+  source_fingerprint: b5bd59ffe6061a3c7818da7be3ad88b95755843829de165a1801b5a2650c5ad0
   authority: build-config
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -7994,14 +8150,17 @@ pages:
   translation_group: platforms.msvc
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: de436d260762856faafc61fcc6f466c2b2e07c1d6c8db41648cec2681eda5411
-  prerequisites: *id447
-  depends_on: *id448
-  redirect_from: *id003
-  supersedes: *id004
+  translation_source_fingerprint: d759f841a8e8f174ae8a4820487c8073ccda3010120bb90a008ed86465bf2003
+  prerequisites:
+  - platforms.windows
+  depends_on: []
+  redirect_from: []
+  supersedes: []
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id449
+  example_validation_ids:
+  - cmake-configure
+  - cpp-tests
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -8214,27 +8373,31 @@ pages:
   path: platforms/ui.md
   status: active
   doc_type: reference
-  audiences: &id464
+  audiences:
   - experienced-contributor
   - maintainer
   - api-user
-  owners: *id001
-  reviewers: *id002
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: &id465
+  source_paths:
   - src/ui_manager.h
   - src/input_context.cpp
   - src/sdltiles.h
   - android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
-  source_symbols: &id466
+  - src/sdltiles.cpp
+  - data/lua/LUA_FIRST_PLATFORM.md
+  source_symbols:
   - class ui_adaptor
   - android_ui_mode::is_new_ui_build()
-  source_queries: &id467 []
-  source_fingerprint: 4f2ee856289cb1352882870efe2efd69335a90b9e51750df07c43205fa0b2c12
+  source_queries: []
+  source_fingerprint: 8ff82f8da6559a83a43ed66a2f15903cfbda4407649fc32625f4c92975cbd4da
   authority: source-and-tests
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -8242,16 +8405,16 @@ pages:
   translation_group: platforms.ui
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 8e5535d38d8ae267597a3fd6a545d71f480bcb4a173599d1ee3e5f4aee0c0ace
-  prerequisites: &id468
+  translation_source_fingerprint: 349a7f7b769231e70b9b2b7275982033c51fd515d3c2817558a56ceed1a2594f
+  prerequisites:
   - cpp.ui
   - cpp.input
-  depends_on: &id469 []
-  redirect_from: *id003
-  supersedes: *id004
+  depends_on: []
+  redirect_from: []
+  supersedes: []
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: &id470
+  example_validation_ids:
   - cpp-tests
   - android-unit
   - lua-contract
@@ -8271,18 +8434,31 @@ pages:
   path: platforms/ui.md
   status: active
   doc_type: reference
-  audiences: *id464
-  owners: *id001
-  reviewers: *id002
+  audiences:
+  - experienced-contributor
+  - maintainer
+  - api-user
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
   review_interval_days: 90
   last_human_reviewer: Pending human review
-  source_paths: *id465
-  source_symbols: *id466
-  source_queries: *id467
-  source_fingerprint: 4f2ee856289cb1352882870efe2efd69335a90b9e51750df07c43205fa0b2c12
+  source_paths:
+  - src/ui_manager.h
+  - src/input_context.cpp
+  - src/sdltiles.h
+  - android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
+  - src/sdltiles.cpp
+  - data/lua/LUA_FIRST_PLATFORM.md
+  source_symbols:
+  - class ui_adaptor
+  - android_ui_mode::is_new_ui_build()
+  source_queries: []
+  source_fingerprint: 8ff82f8da6559a83a43ed66a2f15903cfbda4407649fc32625f4c92975cbd4da
   authority: source-and-tests
-  verified_commit: d32b9cc880a85480840d82cfa05d256c78a16615
-  verified_at: '2026-08-02'
+  verified_commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: true
@@ -8290,14 +8466,19 @@ pages:
   translation_group: platforms.ui
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 8e5535d38d8ae267597a3fd6a545d71f480bcb4a173599d1ee3e5f4aee0c0ace
-  prerequisites: *id468
-  depends_on: *id469
-  redirect_from: *id003
-  supersedes: *id004
+  translation_source_fingerprint: 349a7f7b769231e70b9b2b7275982033c51fd515d3c2817558a56ceed1a2594f
+  prerequisites:
+  - cpp.ui
+  - cpp.input
+  depends_on: []
+  redirect_from: []
+  supersedes: []
   license: CC-BY-SA-3.0
   attribution: CCB contributors; see source paths and Git history.
-  example_validation_ids: *id470
+  example_validation_ids:
+  - cpp-tests
+  - android-unit
+  - lua-contract
   api_version: null
   deprecated: false
   deprecation_replacement: null
@@ -10437,6 +10618,726 @@ pages:
   nav:
     section: CCB Lua Platform v1
     order: 1
+- id: json.upstream-authoring-notes
+  title: 上游 JSON 文档勘误的 CCB 适配草稿
+  language: zh_CN
+  path: json/upstream-authoring-notes.md
+  status: draft
+  doc_type: reference
+  audiences:
+  - new-contributor
+  - experienced-contributor
+  - maintainer
+  - mod-author
+  - api-user
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths:
+  - src/iuse_actor.cpp
+  - src/recipe.cpp
+  - src/item_factory.cpp
+  source_symbols:
+  - molle_attach_actor::load
+  - molle_detach_actor::load
+  - batch_savings::deserialize
+  source_queries:
+  - ignore_sheet_thickness
+  - cover_melee
+  - batch_time_factors
+  source_fingerprint: b2484fe56acbc5d5ada896e3263c50e2ffd68595c3c2e31aec525a15f97ce116
+  authority: api-contract
+  verified_commit: 6a0c46788f43ef37269cd742e0a6147b4f55e96e
+  verified_at: '2026-10-14'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: json.upstream-authoring-notes
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 5affaa285f4be6bfb8755a893b375006ecbb0ccb1d90db51801a0124c6f2a220
+  prerequisites:
+  - reference.json-object-types
+  depends_on: []
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  example_validation_ids: []
+  api_version: contract-inventory-v1
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: eoc
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: JSON
+    order: 156
+- id: json.upstream-authoring-notes
+  title: 'Draft: upstream JSON documentation corrections'
+  language: en
+  path: json/upstream-authoring-notes.md
+  status: draft
+  doc_type: reference
+  audiences:
+  - new-contributor
+  - experienced-contributor
+  - maintainer
+  - mod-author
+  - api-user
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths:
+  - src/iuse_actor.cpp
+  - src/recipe.cpp
+  - src/item_factory.cpp
+  source_symbols:
+  - molle_attach_actor::load
+  - molle_detach_actor::load
+  - batch_savings::deserialize
+  source_queries:
+  - ignore_sheet_thickness
+  - cover_melee
+  - batch_time_factors
+  source_fingerprint: b2484fe56acbc5d5ada896e3263c50e2ffd68595c3c2e31aec525a15f97ce116
+  authority: api-contract
+  verified_commit: 6a0c46788f43ef37269cd742e0a6147b4f55e96e
+  verified_at: '2026-10-14'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: json.upstream-authoring-notes
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 5affaa285f4be6bfb8755a893b375006ecbb0ccb1d90db51801a0124c6f2a220
+  prerequisites:
+  - reference.json-object-types
+  depends_on: []
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  example_validation_ids: []
+  api_version: contract-inventory-v1
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: eoc
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: JSON
+    order: 157
+- id: eoc.upstream-math-compatibility
+  title: 饥饿与士气数学表达式兼容草稿
+  language: zh_CN
+  path: eoc/upstream-math-compatibility.md
+  status: draft
+  doc_type: reference
+  audiences:
+  - new-contributor
+  - experienced-contributor
+  - maintainer
+  - mod-author
+  - api-user
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths:
+  - src/math_parser_diag.cpp
+  - tests/upstream_math_compat_test.cpp
+  source_symbols:
+  - hunger_eval
+  - hunger_ass
+  - morale_eval
+  source_queries:
+  - hunger
+  - morale
+  - raw
+  source_fingerprint: d1d0905fe2996375bb6944779fb44205f61432c2c5ce21c989bc09ec6fa4404c
+  authority: api-contract
+  verified_commit: 0719374e424bf1907dd7e9a9be2450c90aac5cfd
+  verified_at: '2026-11-14'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: eoc.upstream-math-compatibility
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 52223f83f5ed3f55e8c755b07beeb35ca04aca687994aa33164ad868deffa475
+  prerequisites:
+  - eoc.overview
+  depends_on:
+  - eoc.talkers
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  example_validation_ids: []
+  api_version: contract-inventory-v1
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: eoc
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: EOC
+    order: 154
+- id: eoc.upstream-math-compatibility
+  title: 'Draft: hunger and morale math compatibility'
+  language: en
+  path: eoc/upstream-math-compatibility.md
+  status: draft
+  doc_type: reference
+  audiences:
+  - new-contributor
+  - experienced-contributor
+  - maintainer
+  - mod-author
+  - api-user
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 60
+  last_human_reviewer: LYHGLYTX
+  source_paths:
+  - src/math_parser_diag.cpp
+  - tests/upstream_math_compat_test.cpp
+  source_symbols:
+  - hunger_eval
+  - hunger_ass
+  - morale_eval
+  source_queries:
+  - hunger
+  - morale
+  - raw
+  source_fingerprint: d1d0905fe2996375bb6944779fb44205f61432c2c5ce21c989bc09ec6fa4404c
+  authority: api-contract
+  verified_commit: 0719374e424bf1907dd7e9a9be2450c90aac5cfd
+  verified_at: '2026-11-14'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: eoc.upstream-math-compatibility
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 52223f83f5ed3f55e8c755b07beeb35ca04aca687994aa33164ad868deffa475
+  prerequisites:
+  - eoc.overview
+  depends_on:
+  - eoc.talkers
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; parser registrations, inventories, and tests remain authoritative.
+  example_validation_ids: []
+  api_version: contract-inventory-v1
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: eoc
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: EOC
+    order: 155
+- id: cpp.crafting-reservations-sync
+  title: 制作材料预留与临时库存同步草稿
+  language: zh_CN
+  path: cpp/crafting-reservations-sync.md
+  status: draft
+  doc_type: reference
+  audiences:
+  - experienced-contributor
+  - maintainer
+  - mod-author
+  - api-user
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 90
+  last_human_reviewer: Pending human review
+  source_paths:
+  - src/crafting.cpp
+  - src/craft_reservation_search.cpp
+  - src/temp_crafting_inventory.cpp
+  - src/lua_platform_crafting.cpp
+  - src/lua_platform_items.cpp
+  - src/veh_interact.cpp
+  - src/version.cmake
+  - src/activity_actor.cpp
+  source_symbols:
+  - Character::crafting_inventory
+  - veh_interact::installation_requirement_availability
+  source_queries:
+  - independent_contents
+  - zero_move_dispatches
+  - CMAKE_MATCH_1
+  source_fingerprint: 0f5bdceaed57529203585c4a3974879562d58bc880b71ec16d6ce7d8dd5792b3
+  authority: api-contract
+  verified_commit: 5c786d383ebca5206607233fe1423dc9ae1c1a64
+  verified_at: '2026-11-14'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: cpp.crafting-reservations-sync
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 8c0130ab6879a953718aacf0153dff5379d47cb9f012993d71f3efd39cfb91cd
+  prerequisites:
+  - cpp.lua-bridge
+  depends_on: []
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; see source paths and Git history.
+  example_validation_ids:
+  - lua-contract
+  api_version: '1'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: C++
+    order: 188
+- id: cpp.crafting-reservations-sync
+  title: 'Draft: crafting reservations and temporary inventory'
+  language: en
+  path: cpp/crafting-reservations-sync.md
+  status: draft
+  doc_type: reference
+  audiences:
+  - experienced-contributor
+  - maintainer
+  - mod-author
+  - api-user
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 90
+  last_human_reviewer: Pending human review
+  source_paths:
+  - src/crafting.cpp
+  - src/craft_reservation_search.cpp
+  - src/temp_crafting_inventory.cpp
+  - src/lua_platform_crafting.cpp
+  - src/lua_platform_items.cpp
+  - src/veh_interact.cpp
+  - src/version.cmake
+  - src/activity_actor.cpp
+  source_symbols:
+  - Character::crafting_inventory
+  - veh_interact::installation_requirement_availability
+  source_queries:
+  - independent_contents
+  - zero_move_dispatches
+  - CMAKE_MATCH_1
+  source_fingerprint: 0f5bdceaed57529203585c4a3974879562d58bc880b71ec16d6ce7d8dd5792b3
+  authority: api-contract
+  verified_commit: 5c786d383ebca5206607233fe1423dc9ae1c1a64
+  verified_at: '2026-11-14'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: cpp.crafting-reservations-sync
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 8c0130ab6879a953718aacf0153dff5379d47cb9f012993d71f3efd39cfb91cd
+  prerequisites:
+  - cpp.lua-bridge
+  depends_on: []
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; see source paths and Git history.
+  example_validation_ids:
+  - lua-contract
+  api_version: '1'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: C++
+    order: 189
+- id: cpp.sdl3-render-sync
+  title: SDL3 渲染同步草稿
+  language: zh_CN
+  path: cpp/sdl3-render-sync.md
+  status: draft
+  doc_type: reference
+  audiences:
+  - experienced-contributor
+  - maintainer
+  - mod-author
+  - api-user
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 90
+  last_human_reviewer: Pending human review
+  source_paths:
+  - src/cata_tiles.cpp
+  - src/cata_shader.cpp
+  - src/pixel_minimap.cpp
+  - src/sdl_font.cpp
+  - src/sdltiles.cpp
+  - src/level_cache.h
+  - src/smooth_lighting.cpp
+  - data/shaders/lit_sample.glsl
+  - src/CMakeLists.txt
+  - tools/agent/test_shader_cmake_graph.py
+  source_symbols: []
+  source_queries: []
+  source_fingerprint: b6c9fb6600de97d5f52c1ceb26a11e7b1600e5bfb16dcc237b1591e91b8b71ed
+  authority: api-contract
+  verified_commit: 2c73fb184dc65321ffd1a10c8359949ac63e1205
+  verified_at: '2026-11-14'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: cpp.sdl3-render-sync
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: a376cdd4479fcfbe8bec83cde870e045bd0e0178d79ff408bc63b358b25d1e89
+  prerequisites: []
+  depends_on: []
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; see source paths and Git history.
+  example_validation_ids:
+  - lua-contract
+  api_version: '1'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: C++
+    order: 192
+- id: cpp.sdl3-render-sync
+  title: 'Draft: SDL3 rendering synchronization'
+  language: en
+  path: cpp/sdl3-render-sync.md
+  status: draft
+  doc_type: reference
+  audiences:
+  - experienced-contributor
+  - maintainer
+  - mod-author
+  - api-user
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 90
+  last_human_reviewer: Pending human review
+  source_paths:
+  - src/cata_tiles.cpp
+  - src/cata_shader.cpp
+  - src/pixel_minimap.cpp
+  - src/sdl_font.cpp
+  - src/sdltiles.cpp
+  - src/level_cache.h
+  - src/smooth_lighting.cpp
+  - data/shaders/lit_sample.glsl
+  - src/CMakeLists.txt
+  - tools/agent/test_shader_cmake_graph.py
+  source_symbols: []
+  source_queries: []
+  source_fingerprint: b6c9fb6600de97d5f52c1ceb26a11e7b1600e5bfb16dcc237b1591e91b8b71ed
+  authority: api-contract
+  verified_commit: 2c73fb184dc65321ffd1a10c8359949ac63e1205
+  verified_at: '2026-11-14'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: cpp.sdl3-render-sync
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: a376cdd4479fcfbe8bec83cde870e045bd0e0178d79ff408bc63b358b25d1e89
+  prerequisites: []
+  depends_on: []
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; see source paths and Git history.
+  example_validation_ids:
+  - lua-contract
+  api_version: '1'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: C++
+    order: 192
+- id: cpp.upstream-native-sync
+  title: 原生行为同步草稿
+  language: zh_CN
+  path: cpp/upstream-native-sync.md
+  status: draft
+  doc_type: reference
+  audiences:
+  - experienced-contributor
+  - maintainer
+  - mod-author
+  - api-user
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 90
+  last_human_reviewer: Pending human review
+  source_paths:
+  - src/activity_actor.cpp
+  - src/activity_actor_definitions.h
+  - src/event.h
+  - src/regional_settings.h
+  - src/weather.cpp
+  - src/main.cpp
+  - src/lua_platform_runtime_services.cpp
+  - src/veh_type.cpp
+  - src/character_inventory.cpp
+  - src/recipe_dictionary.cpp
+  - tests/lua_platform_environment_predicate_test.cpp
+  - tests/lua_platform_effects_test.cpp
+  source_symbols: []
+  source_queries: []
+  source_fingerprint: a80d78267dc97036358b0302ad889a4043deaf8d31273adcb26ecbb070591d10
+  authority: api-contract
+  verified_commit: 2c73fb184dc65321ffd1a10c8359949ac63e1205
+  verified_at: '2026-11-14'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: cpp.upstream-native-sync
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: e8b0038844e89009ee18be20605c85e55b3a7694f20777597de133e4318495c8
+  prerequisites: []
+  depends_on: []
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; see source paths and Git history.
+  example_validation_ids:
+  - lua-contract
+  api_version: '1'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: C++
+    order: 190
+- id: cpp.upstream-native-sync
+  title: 'Draft: native behavior synchronization'
+  language: en
+  path: cpp/upstream-native-sync.md
+  status: draft
+  doc_type: reference
+  audiences:
+  - experienced-contributor
+  - maintainer
+  - mod-author
+  - api-user
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 90
+  last_human_reviewer: Pending human review
+  source_paths:
+  - src/activity_actor.cpp
+  - src/activity_actor_definitions.h
+  - src/event.h
+  - src/regional_settings.h
+  - src/weather.cpp
+  - src/main.cpp
+  - src/lua_platform_runtime_services.cpp
+  - src/veh_type.cpp
+  - src/character_inventory.cpp
+  - src/recipe_dictionary.cpp
+  - tests/lua_platform_environment_predicate_test.cpp
+  - tests/lua_platform_effects_test.cpp
+  source_symbols: []
+  source_queries: []
+  source_fingerprint: a80d78267dc97036358b0302ad889a4043deaf8d31273adcb26ecbb070591d10
+  authority: api-contract
+  verified_commit: 2c73fb184dc65321ffd1a10c8359949ac63e1205
+  verified_at: '2026-11-14'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: cpp.upstream-native-sync
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: e8b0038844e89009ee18be20605c85e55b3a7694f20777597de133e4318495c8
+  prerequisites: []
+  depends_on: []
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; see source paths and Git history.
+  example_validation_ids:
+  - lua-contract
+  api_version: '1'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: C++
+    order: 190
+- id: mods.upstream-content-sync
+  title: 核心与随附 Mod 数据同步草稿
+  language: zh_CN
+  path: mods/upstream-content-sync.md
+  status: draft
+  doc_type: reference
+  audiences:
+  - experienced-contributor
+  - maintainer
+  - mod-author
+  - api-user
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 90
+  last_human_reviewer: Pending human review
+  source_paths:
+  - data/json/mapgen/netherum/labyrinth_earth.json
+  - data/json/region_settings/region_settings/regional_map_settings.json
+  - data/mods/MindOverMatter/dimensions/shoggothed_world/region_settings.json
+  - data/upstream-changelog-20260921-20260928.txt
+  source_symbols: []
+  source_queries: []
+  source_fingerprint: 529cab08c982dc2364c967e7c0b522069ff08879567eea35c94192ec07069d63
+  authority: api-contract
+  verified_commit: 2c73fb184dc65321ffd1a10c8359949ac63e1205
+  verified_at: '2026-11-14'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: mods.upstream-content-sync
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 072e461e95c1d2fb3ed904f0b98c2469a8808ee67eab57fa90beeb9ac4b30326
+  prerequisites: []
+  depends_on: []
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; see source paths and Git history.
+  example_validation_ids:
+  - lua-contract
+  api_version: '1'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: Mods
+    order: 191
+- id: mods.upstream-content-sync
+  title: 'Draft: core and bundled Mod content synchronization'
+  language: en
+  path: mods/upstream-content-sync.md
+  status: draft
+  doc_type: reference
+  audiences:
+  - experienced-contributor
+  - maintainer
+  - mod-author
+  - api-user
+  owners:
+  - CCB maintainers
+  reviewers:
+  - Documentation reviewers
+  review_interval_days: 90
+  last_human_reviewer: Pending human review
+  source_paths:
+  - data/json/mapgen/netherum/labyrinth_earth.json
+  - data/json/region_settings/region_settings/regional_map_settings.json
+  - data/mods/MindOverMatter/dimensions/shoggothed_world/region_settings.json
+  - data/upstream-changelog-20260921-20260928.txt
+  source_symbols: []
+  source_queries: []
+  source_fingerprint: 529cab08c982dc2364c967e7c0b522069ff08879567eea35c94192ec07069d63
+  authority: api-contract
+  verified_commit: 2c73fb184dc65321ffd1a10c8359949ac63e1205
+  verified_at: '2026-11-14'
+  generated: false
+  generated_by: null
+  include_in_search: false
+  include_in_ai_index: false
+  translation_group: mods.upstream-content-sync
+  translation_status: current
+  translation_stale_since: null
+  translation_source_fingerprint: 072e461e95c1d2fb3ed904f0b98c2469a8808ee67eab57fa90beeb9ac4b30326
+  prerequisites: []
+  depends_on: []
+  redirect_from: []
+  supersedes: []
+  license: CC-BY-SA-3.0
+  attribution: CCB contributors; see source paths and Git history.
+  example_validation_ids:
+  - lua-contract
+  api_version: '1'
+  deprecated: false
+  deprecation_replacement: null
+  risk_group: lua-api
+  risk_level: high
+  pending_source_pr: null
+  stale_reason: null
+  nav:
+    section: Mods
+    order: 191
 - id: operations.release-assets-sync
   title: Android 音效与翻译包发布草稿
   language: zh_CN
@@ -10460,10 +11361,10 @@ pages:
   - Android x64 New UI
   - clang++-22
   - g++-16
-  source_fingerprint: 33a8a6648f6fb9745c34252c74433f1087d636d63dcaabfb2bad58ce3174c95a
+  source_fingerprint: 654aa06af56cd828a6c7cbe22d369d4d481f5c289b43000be487cb4abd98de06
   authority: build-config
-  verified_commit: 8d1df6a4c632eeb23a54a9e0eac94bdc588d1f46
-  verified_at: '2026-10-14'
+  verified_commit: 34200a2ffcdaaf925cf2381bf900d2c753cd1a6c
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: false
@@ -10471,7 +11372,7 @@ pages:
   translation_group: operations.release-assets-sync
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 8497bd1b60cba8035884218ba1d8419ee3e957510af3a44a392364776c347ebc
+  translation_source_fingerprint: 8e73ee7a18624c5587638586e4f16ac31f8765fced8cfb51293ca51ea1ceb6ef
   prerequisites:
   - operations.releases
   - platforms.android
@@ -10487,7 +11388,7 @@ pages:
   deprecation_replacement: null
   risk_group: release
   risk_level: high
-  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/993
+  pending_source_pr: null
   stale_reason: null
   nav:
     section: 运维
@@ -10515,10 +11416,10 @@ pages:
   - Android x64 New UI
   - clang++-22
   - g++-16
-  source_fingerprint: 33a8a6648f6fb9745c34252c74433f1087d636d63dcaabfb2bad58ce3174c95a
+  source_fingerprint: 654aa06af56cd828a6c7cbe22d369d4d481f5c289b43000be487cb4abd98de06
   authority: build-config
-  verified_commit: 8d1df6a4c632eeb23a54a9e0eac94bdc588d1f46
-  verified_at: '2026-10-14'
+  verified_commit: 34200a2ffcdaaf925cf2381bf900d2c753cd1a6c
+  verified_at: '2026-11-14'
   generated: false
   generated_by: null
   include_in_search: false
@@ -10526,7 +11427,7 @@ pages:
   translation_group: operations.release-assets-sync
   translation_status: current
   translation_stale_since: null
-  translation_source_fingerprint: 8497bd1b60cba8035884218ba1d8419ee3e957510af3a44a392364776c347ebc
+  translation_source_fingerprint: 8e73ee7a18624c5587638586e4f16ac31f8765fced8cfb51293ca51ea1ceb6ef
   prerequisites:
   - operations.releases
   - platforms.android
@@ -10542,7 +11443,7 @@ pages:
   deprecation_replacement: null
   risk_group: release
   risk_level: high
-  pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/993
+  pending_source_pr: null
   stale_reason: null
   nav:
     section: Operations
