@@ -6269,8 +6269,8 @@ compiler/linker error 与 vcpkg log。
 ## platforms.msys2 [en] — MSYS2 and MinGW
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/
-Verified commit: d32b9cc880a85480840d82cfa05d256c78a16615
-Sources: CMakePresets.json, doc/c++/COMPILING-MSYS.md, .github/workflows/msvc-full-features.yml
+Verified commit: 67f0d0e240aef6c127012a5ea945b70bdf473072
+Sources: CMakePresets.json, Makefile, msvc-full-features/vcpkg.json, tools/build_shaders.py
 
 # MSYS2 and MinGW
 
@@ -6299,13 +6299,23 @@ errors, and current CI decide the actual contract. Install dependencies for the 
 architecture. Run MinGW executables from the matching shell and inspect the packaged DLL set
 outside the development PATH.
 
+SDL3 tiles builds also require `glslangValidator` to compile shader artifacts. Install
+`mingw-w64-ucrt-x86_64-glslang` and check that the UCRT64 shell can find the tool.
+Use UCRT64 packages for SDL3 image, font and sound dependencies as well; curses
+builds do not need shader tools.
+
+```sh
+command -v gcc g++ glslangValidator
+cmake --preset windows-tiles-sounds-x64 -DUSE_SDL3=ON
+```
+
 ## Validation
 
 - Configure and build the exact preset.
 - Run the produced tests for the same configuration.
 - For tiles/sound, start from a clean shell and verify renderer, fonts, sound, translations, and
   shader artifacts where SDL3 is enabled.
-- Record shell (`MINGW64`), compiler/version, preset, and configuration in the PR.
+- Record shell (`UCRT64`), compiler/version, preset, and configuration in the PR.
 
 ## Common failures
 
@@ -6316,8 +6326,8 @@ configure/link error and avoid “fixing” it by copying arbitrary DLLs into th
 ## platforms.msys2 [zh_CN] — MSYS2 与 MinGW
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/
-Verified commit: d32b9cc880a85480840d82cfa05d256c78a16615
-Sources: CMakePresets.json, doc/c++/COMPILING-MSYS.md, .github/workflows/msvc-full-features.yml
+Verified commit: 67f0d0e240aef6c127012a5ea945b70bdf473072
+Sources: CMakePresets.json, Makefile, msvc-full-features/vcpkg.json, tools/build_shaders.py
 
 # MSYS2 与 MinGW
 
@@ -6327,7 +6337,8 @@ compiler architecture、package set 与 shell 必须一致；混用 MSYS/MinGW l
 
 ## 契约路径
 
-打开匹配的 MinGW64 环境并检查仓库 preset：
+打开 **MSYS2 UCRT64** 环境并检查仓库 preset。依赖包使用 `mingw-w64-ucrt-x86_64-` 前缀，
+不要把其他 subsystem 的头文件、库或 DLL 混入此配置：
 
 ```sh
 cmake --list-presets
@@ -6345,13 +6356,22 @@ configuration。
 error 和当前 CI 决定。为选定 MinGW architecture 安装依赖，在匹配 shell 运行 MinGW
 binary，并在不依赖开发 `PATH` 的环境检查打包 DLL 集合。
 
+启用 SDL3 图形构建时，shader 编译还需要 `glslangValidator`。安装
+`mingw-w64-ucrt-x86_64-glslang`，并确认 UCRT64 shell 的 `PATH` 能找到该工具。
+SDL3 图片、字体和声音依赖同样来自 UCRT64 包；curses 配置不需要 shader 工具。
+
+```sh
+command -v gcc g++ glslangValidator
+cmake --preset windows-tiles-sounds-x64 -DUSE_SDL3=ON
+```
+
 ## 验证
 
 - configure/build 准确 preset；
 - 对相同 configuration 运行生成测试；
 - tiles/sound 从干净 shell 启动，验证 renderer、font、sound、translation，以及启用
   SDL3 时的 shader artifact；
-- PR 记录 shell（`MINGW64`）、compiler/version、preset 与 configuration。
+- PR 记录 shell（`UCRT64`）、compiler/version、preset 与 configuration。
 
 ## 常见失败
 
