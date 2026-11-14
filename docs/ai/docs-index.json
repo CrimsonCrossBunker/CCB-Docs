@@ -5733,6 +5733,148 @@
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/crafting/"
     },
     {
+      "id": "cpp.crafting-reservations-sync",
+      "title": "Draft: crafting reservations and temporary inventory",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "Pending human review",
+      "source_paths": [
+        "src/crafting.cpp",
+        "src/craft_reservation_search.cpp",
+        "src/temp_crafting_inventory.cpp",
+        "src/lua_platform_crafting.cpp",
+        "src/lua_platform_items.cpp",
+        "src/veh_interact.cpp",
+        "src/version.cmake",
+        "src/activity_actor.cpp"
+      ],
+      "source_symbols": [
+        "Character::crafting_inventory",
+        "veh_interact::installation_requirement_availability"
+      ],
+      "source_queries": [
+        "independent_contents",
+        "zero_move_dispatches",
+        "CMAKE_MATCH_1"
+      ],
+      "source_fingerprint": "0f5bdceaed57529203585c4a3974879562d58bc880b71ec16d6ce7d8dd5792b3",
+      "authority": "api-contract",
+      "verified_commit": "5c786d383ebca5206607233fe1423dc9ae1c1a64",
+      "verified_at": "2026-11-14",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "8c0130ab6879a953718aacf0153dff5379d47cb9f012993d71f3efd39cfb91cd",
+      "prerequisites": [
+        "cpp.lua-bridge"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "lua-contract"
+      ],
+      "api_version": "1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "cpp/crafting-reservations-sync.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/crafting-reservations-sync/"
+    },
+    {
+      "id": "cpp.crafting-reservations-sync",
+      "title": "制作材料预留与临时库存同步草稿",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "Pending human review",
+      "source_paths": [
+        "src/crafting.cpp",
+        "src/craft_reservation_search.cpp",
+        "src/temp_crafting_inventory.cpp",
+        "src/lua_platform_crafting.cpp",
+        "src/lua_platform_items.cpp",
+        "src/veh_interact.cpp",
+        "src/version.cmake",
+        "src/activity_actor.cpp"
+      ],
+      "source_symbols": [
+        "Character::crafting_inventory",
+        "veh_interact::installation_requirement_availability"
+      ],
+      "source_queries": [
+        "independent_contents",
+        "zero_move_dispatches",
+        "CMAKE_MATCH_1"
+      ],
+      "source_fingerprint": "0f5bdceaed57529203585c4a3974879562d58bc880b71ec16d6ce7d8dd5792b3",
+      "authority": "api-contract",
+      "verified_commit": "5c786d383ebca5206607233fe1423dc9ae1c1a64",
+      "verified_at": "2026-11-14",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "8c0130ab6879a953718aacf0153dff5379d47cb9f012993d71f3efd39cfb91cd",
+      "prerequisites": [
+        "cpp.lua-bridge"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "lua-contract"
+      ],
+      "api_version": "1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "cpp/crafting-reservations-sync.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/crafting-reservations-sync/"
+    },
+    {
       "id": "cpp.creatures",
       "title": "Creatures subsystem",
       "language": "en",
@@ -14232,6 +14374,10 @@
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/crafting/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/crafting/"
     },
+    "cpp.crafting-reservations-sync": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/crafting-reservations-sync/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/crafting-reservations-sync/"
+    },
     "cpp.creatures": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/creatures/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/creatures/"
@@ -14941,6 +15087,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/core-engine-lifecycle/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystems-deep-dive/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/core-dev-guide/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/crafting-reservations-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/native-binding-guide/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/",
@@ -14974,6 +15121,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/core-engine-lifecycle/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystems-deep-dive/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/core-dev-guide/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/crafting-reservations-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/native-binding-guide/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/upstream-math-compatibility/",
