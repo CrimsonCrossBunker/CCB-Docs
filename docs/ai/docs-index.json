@@ -9605,13 +9605,14 @@
         "src/sling.cpp",
         "src/ballistics.cpp",
         "src/ranged.cpp",
-        "tests/staff_sling_test.cpp"
+        "tests/staff_sling_test.cpp",
+        "tests/shotgun_tubes_test.cpp"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "11a521e008a84ae04b7ba6137e2031213f16347f27596e1848b95ed8d0e7c2bd",
+      "source_fingerprint": "67b6e1bce40069c95e4c250940c0c6ffe8ebb6fcb9ea2d2d71b7dcbbca2b4df3",
       "authority": "api-contract",
-      "verified_commit": "c85f291b766f113474e1e8393f116bd55289568a",
+      "verified_commit": "34200a2ffcdaaf925cf2381bf900d2c753cd1a6c",
       "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
@@ -9619,7 +9620,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "119a5abe43154db061c4bf552170cb04afe361bc1f1572bdacc4f4cdfb0d4865",
+      "translation_source_fingerprint": "ab52a235a5dffa73b8d9427b539f98cecc42c8a0e1de467d61a87dc7208b70ba",
       "prerequisites": [
         "json.overview"
       ],
@@ -9678,13 +9679,14 @@
         "src/sling.cpp",
         "src/ballistics.cpp",
         "src/ranged.cpp",
-        "tests/staff_sling_test.cpp"
+        "tests/staff_sling_test.cpp",
+        "tests/shotgun_tubes_test.cpp"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "11a521e008a84ae04b7ba6137e2031213f16347f27596e1848b95ed8d0e7c2bd",
+      "source_fingerprint": "67b6e1bce40069c95e4c250940c0c6ffe8ebb6fcb9ea2d2d71b7dcbbca2b4df3",
       "authority": "api-contract",
-      "verified_commit": "c85f291b766f113474e1e8393f116bd55289568a",
+      "verified_commit": "34200a2ffcdaaf925cf2381bf900d2c753cd1a6c",
       "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
@@ -9692,7 +9694,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "119a5abe43154db061c4bf552170cb04afe361bc1f1572bdacc4f4cdfb0d4865",
+      "translation_source_fingerprint": "ab52a235a5dffa73b8d9427b539f98cecc42c8a0e1de467d61a87dc7208b70ba",
       "prerequisites": [
         "json.overview"
       ],

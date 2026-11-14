@@ -30,11 +30,12 @@ source_paths:
 - src/ballistics.cpp
 - src/ranged.cpp
 - tests/staff_sling_test.cpp
+- tests/shotgun_tubes_test.cpp
 source_symbols: []
 source_queries: []
-source_fingerprint: 11a521e008a84ae04b7ba6137e2031213f16347f27596e1848b95ed8d0e7c2bd
+source_fingerprint: 67b6e1bce40069c95e4c250940c0c6ffe8ebb6fcb9ea2d2d71b7dcbbca2b4df3
 authority: api-contract
-verified_commit: c85f291b766f113474e1e8393f116bd55289568a
+verified_commit: 34200a2ffcdaaf925cf2381bf900d2c753cd1a6c
 verified_at: '2026-11-14'
 generated: false
 generated_by: null
@@ -42,7 +43,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 119a5abe43154db061c4bf552170cb04afe361bc1f1572bdacc4f4cdfb0d4865
+translation_source_fingerprint: ab52a235a5dffa73b8d9427b539f98cecc42c8a0e1de467d61a87dc7208b70ba
 prerequisites:
 - json.overview
 depends_on:
@@ -68,35 +69,37 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c85f291b766f113474e1e8393f116bd55289568a
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c
 source_urls:
 - path: data/reference/json/ccb_json_object_types.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/data/reference/json/ccb_json_object_types.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/data/reference/json/ccb_json_object_types.json
 - path: tools/json_api/contract-inventory.schema.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/tools/json_api/contract-inventory.schema.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tools/json_api/contract-inventory.schema.json
 - path: tools/json_api/generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/tools/json_api/generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tools/json_api/generate_contracts.py
 - path: tools/json_api/test_generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/tools/json_api/test_generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tools/json_api/test_generate_contracts.py
 - path: src/init.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/src/init.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/src/init.cpp
 - path: src/generic_factory.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/src/generic_factory.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/src/generic_factory.h
 - path: tests/json_load_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/tests/json_load_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tests/json_load_test.cpp
 - path: doc/JSON/JSON_INHERITANCE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/doc/JSON/JSON_INHERITANCE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/doc/JSON/JSON_INHERITANCE.md
 - path: doc/JSON/JSON_STYLE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/doc/JSON/JSON_STYLE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/doc/JSON/JSON_STYLE.md
 - path: src/sling.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/src/sling.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/src/sling.cpp
 - path: src/ballistics.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/src/ballistics.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/src/ballistics.cpp
 - path: src/ranged.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/src/ranged.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/src/ranged.cpp
 - path: tests/staff_sling_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c85f291b766f113474e1e8393f116bd55289568a/tests/staff_sling_test.cpp
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.validation%29%3A+&body=Document+ID%3A+json.validation%0ALanguage%3A+en%0AVerified+commit%3A+c85f291b766f113474e1e8393f116bd55289568a%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tests/staff_sling_test.cpp
+- path: tests/shotgun_tubes_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tests/shotgun_tubes_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.validation%29%3A+&body=Document+ID%3A+json.validation%0ALanguage%3A+en%0AVerified+commit%3A+34200a2ffcdaaf925cf2381bf900d2c753cd1a6c%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # JSON validation and evidence levels
@@ -148,3 +151,18 @@ After confirmation, the existing transformation handles ignition resources, dama
 `STOP_ON_CONTACT` applies only to direct launches. The projectile falls at the first above-water creature or impassable obstacle on its actual trajectory. Projectile hit checks still determine impact damage; avoiding damage does not let the round pass through to the rear rank. Grenades detonate as dropped active items when their original fuse expires, without copying immediate ammunition explosion effects. Molotov cocktails retain ignition on impact. Ordinary hand throwing does not add this flag.
 
 Validation should cover native data loading, single-round consumption, cancellation and missing ignition resources, walls and intervening creatures, timed detonation, and manual activation. Sources are `src/sling.cpp`, `src/ballistics.cpp`, and `src/ranged.cpp`; regressions are in `tests/staff_sling_test.cpp`.
+
+## Regression checks for twin tubes and firing modes
+
+The KSG uses its main gun and `ksg_aux_shotgun` for two independently selected tubes,
+with seven shells in each. Changing `clip_size` alone does not change the effective
+capacity: inspect the ammunition limits in `pocket_data`. Restoring the auxiliary tube
+also requires removing its replacement migration and testing creation, independent reloads,
+ammunition selection, firing consumption, and save/reload. Do not duplicate an existing
+tube; preserve fourteen shells from the old combined magazine as seven plus seven.
+
+Exercise DP-12 double mode through `fire_gun`: consume two shells normally and fire only
+one when one remains. This sequential mode retains per-shot recoil; two barrels alone do
+not justify the simultaneous `VOLLEY` flag. The source `[shotgun_tubes]` tests cover these
+behaviors. Native focused acceptance does not establish Android interaction or a complete
+release build.

@@ -4923,8 +4923,8 @@ JSON 契约，要检查内容注册和生成清单，不能仅凭文件扩展名
 ## json.validation [en] — JSON validation and evidence levels
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/
-Verified commit: c85f291b766f113474e1e8393f116bd55289568a
-Sources: data/reference/json/ccb_json_object_types.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/init.cpp, src/generic_factory.h, tests/json_load_test.cpp, doc/JSON/JSON_INHERITANCE.md, doc/JSON/JSON_STYLE.md, src/sling.cpp, src/ballistics.cpp, src/ranged.cpp, tests/staff_sling_test.cpp
+Verified commit: 34200a2ffcdaaf925cf2381bf900d2c753cd1a6c
+Sources: data/reference/json/ccb_json_object_types.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/init.cpp, src/generic_factory.h, tests/json_load_test.cpp, doc/JSON/JSON_INHERITANCE.md, doc/JSON/JSON_STYLE.md, src/sling.cpp, src/ballistics.cpp, src/ranged.cpp, tests/staff_sling_test.cpp, tests/shotgun_tubes_test.cpp
 
 # JSON validation and evidence levels
 
@@ -4976,11 +4976,26 @@ After confirmation, the existing transformation handles ignition resources, dama
 
 Validation should cover native data loading, single-round consumption, cancellation and missing ignition resources, walls and intervening creatures, timed detonation, and manual activation. Sources are `src/sling.cpp`, `src/ballistics.cpp`, and `src/ranged.cpp`; regressions are in `tests/staff_sling_test.cpp`.
 
+## Regression checks for twin tubes and firing modes
+
+The KSG uses its main gun and `ksg_aux_shotgun` for two independently selected tubes,
+with seven shells in each. Changing `clip_size` alone does not change the effective
+capacity: inspect the ammunition limits in `pocket_data`. Restoring the auxiliary tube
+also requires removing its replacement migration and testing creation, independent reloads,
+ammunition selection, firing consumption, and save/reload. Do not duplicate an existing
+tube; preserve fourteen shells from the old combined magazine as seven plus seven.
+
+Exercise DP-12 double mode through `fire_gun`: consume two shells normally and fire only
+one when one remains. This sequential mode retains per-shot recoil; two barrels alone do
+not justify the simultaneous `VOLLEY` flag. The source `[shotgun_tubes]` tests cover these
+behaviors. Native focused acceptance does not establish Android interaction or a complete
+release build.
+
 ## json.validation [zh_CN] — JSON 验证与证据等级
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/
-Verified commit: c85f291b766f113474e1e8393f116bd55289568a
-Sources: data/reference/json/ccb_json_object_types.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/init.cpp, src/generic_factory.h, tests/json_load_test.cpp, doc/JSON/JSON_INHERITANCE.md, doc/JSON/JSON_STYLE.md, src/sling.cpp, src/ballistics.cpp, src/ranged.cpp, tests/staff_sling_test.cpp
+Verified commit: 34200a2ffcdaaf925cf2381bf900d2c753cd1a6c
+Sources: data/reference/json/ccb_json_object_types.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/init.cpp, src/generic_factory.h, tests/json_load_test.cpp, doc/JSON/JSON_INHERITANCE.md, doc/JSON/JSON_STYLE.md, src/sling.cpp, src/ballistics.cpp, src/ranged.cpp, tests/staff_sling_test.cpp, tests/shotgun_tubes_test.cpp
 
 # JSON 验证与证据等级
 
@@ -5029,6 +5044,18 @@ make -j2 json-check
 `STOP_ON_CONTACT` 只用于直接发射的投射物：沿实际弹道遇到首个地面生物或不可通行障碍时落下。伤害仍走投射物命中判定，闪避伤害不让弹药穿到后排。手雷由落地后的活动物品按原引信爆炸，不复制弹药定义里的即时爆炸效果；燃烧瓶保留撞击起火。普通 `t` 手投不添加这个标志。
 
 验证应覆盖原生数据加载、一次只消耗一发、取消与无火源不消耗弹药、墙与前排怪物拦截、到期爆炸和保留手动激活。对应源码为 `src/sling.cpp`、`src/ballistics.cpp`、`src/ranged.cpp`，回归测试为 `tests/staff_sling_test.cpp`。
+
+## 双弹仓和射击模式的回归验证
+
+KSG 的两条弹仓应分别由主枪和 `ksg_aux_shotgun` 管理，每条弹仓容量为 7 发。
+调整 `clip_size` 不足以改变实际容量，需检查 `pocket_data` 的弹药限制。
+恢复专用弹仓时还须移除将它替换成其他枪械的迁移，并验证生成、独立装填、切换弹种、
+开火扣弹和保存重载。已有第二弹仓不应重复添加；旧版合并弹仓的 14 发应保留为 7＋7。
+
+DP-12 的双发模式应通过实际 `fire_gun` 验证一次消耗两发，剩一发时只发射一发。
+这里的两连发使用通常的逐发后坐力；不要因有两根枪管就默认启用同时齐射的 `VOLLEY`。
+本次源代码中的 `[shotgun_tubes]` 聚焦测试覆盖这些行为。相关原生测试通过不等于
+Android 实机操作或完整安装包已经验收；源码
 
 ## maintenance.releases [en] — Release maintenance
 
