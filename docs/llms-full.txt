@@ -488,8 +488,8 @@ Sources: AGENTS.md, ai/project-map.yml, src/AGENTS.md, data/AGENTS.md, tests/AGE
 ## build.overview [en] — Building CCB
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/
-Verified commit: 3053bf160578e46c1692a89c60594aa1acc6a276
-Sources: Makefile, CMakePresets.json, android/gradlew, android/build.gradle, .github/workflows/matrix.yml
+Verified commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+Sources: Makefile, CMakePresets.json, android/gradlew, android/build.gradle, .github/workflows/matrix.yml, CMakeLists.txt
 
 # Building CCB
 
@@ -551,8 +551,9 @@ does not substitute for real Windows, MSVC, or Android validation.
 
 - `CATA_ENABLE_LUA_PLATFORM` is enabled by default in CCB Make, CMake, and Android
   configuration.
-- Android uses SDL3. Desktop generally uses SDL2; desktop SDL3 CI is gated by
-  `CCB_DESKTOP_SDL3_ENABLED`. Do not infer one platform from another.
+- All maintained graphical builds use SDL3 >= 3.4.0, including desktop and Android.
+  Curses and headless remain independent of SDL; do not infer target-platform validation
+  from a Linux result.
 - Tiles, sound, localization, and Lua affect dependencies or artifacts. State
   the exact combination in the pull request.
 - CMake builds must be out-of-tree. Large indexes, Doxygen HTML, ctags, and
@@ -576,8 +577,8 @@ See the [platform matrix](../platforms/matrix.md) and
 ## build.overview [zh_CN] — 构建 CCB
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/
-Verified commit: 3053bf160578e46c1692a89c60594aa1acc6a276
-Sources: Makefile, CMakePresets.json, android/gradlew, android/build.gradle, .github/workflows/matrix.yml
+Verified commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+Sources: Makefile, CMakePresets.json, android/gradlew, android/build.gradle, .github/workflows/matrix.yml, CMakeLists.txt
 
 # 构建 CCB
 
@@ -636,8 +637,8 @@ Android 在 `android/` 目录运行：
 ## 关键配置边界
 
 - `CATA_ENABLE_LUA_PLATFORM` 在 CCB 的 Make、CMake 和 Android 配置中默认启用。
-- Android 使用 SDL3；desktop 一般使用 SDL2，SDL3 CI 受
-  `CCB_DESKTOP_SDL3_ENABLED` 门控。不要从一个平台推断另一平台。
+- 桌面和 Android 的受维护图形构建统一使用 SDL3 >= 3.4.0。Curses 与 headless
+  仍不依赖 SDL；Linux 通过不能代替其他目标平台验收。
 - Tiles、sound、localization 与 Lua 会改变依赖或制品；PR 应说明使用的组合。
 - CMake 必须 out-of-tree；大型索引、Doxygen HTML、ctags 与编译数据库只作为
   本地/CI artifact，不提交仓库。
@@ -5985,8 +5986,8 @@ copy、install/signature 与 storage-path 故障。
 ## platforms.linux [en] — Linux development
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/
-Verified commit: d32b9cc880a85480840d82cfa05d256c78a16615
-Sources: Makefile, CMakePresets.json, .github/workflows/matrix.yml, doc/c++/COMPILING.md
+Verified commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+Sources: Makefile, CMakePresets.json, .github/workflows/matrix.yml, doc/c++/COMPILING.md, CMakeLists.txt, .github/actions/setup-sdl3-stack/action.yml
 
 # Linux development
 
@@ -6025,21 +6026,22 @@ make -j2 tests
 ## Validation and artifacts
 
 Report distribution, architecture, compiler/version, Make or CMake, preset/flags, curses or
-tiles, SDL2/SDL3, sound, localization, sanitizer, and the exact test filter. Build directories,
+tiles, SDL3 SDK version, sound, localization, sanitizer, and the exact test filter. Build directories,
 `compile_commands.json`, profiler captures, and symbol databases are local or CI artifacts, not
 source files to commit.
 
 ## Boundaries and caveats
 
-Do not infer Windows or Android support from Linux. SDL3 requires compiled shader artifacts;
-SDL2 is still a distinct fallback lane. Package-manager commands in legacy prose age quickly,
-so diagnose against configure output and the verified build configuration.
+Do not infer Windows or Android acceptance from Linux. Every graphical build uses SDL3
+and requires compiled shader artifacts. `TILES=1 SDL3=0` and `TILES=ON USE_SDL3=OFF`
+are rejected; terminal builds and localization-only targets do not query SDL. Package-manager
+commands in legacy prose age quickly, so use configure output and the verified build configuration.
 
 ## platforms.linux [zh_CN] — Linux 开发
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/
-Verified commit: d32b9cc880a85480840d82cfa05d256c78a16615
-Sources: Makefile, CMakePresets.json, .github/workflows/matrix.yml, doc/c++/COMPILING.md
+Verified commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+Sources: Makefile, CMakePresets.json, .github/workflows/matrix.yml, doc/c++/COMPILING.md, CMakeLists.txt, .github/actions/setup-sdl3-stack/action.yml
 
 # Linux 开发
 
@@ -6075,21 +6077,22 @@ make -j2 tests
 ## 验证与产物
 
 报告 distribution、architecture、compiler/version、Make/CMake、preset/flag、curses/tiles、
-SDL2/SDL3、sound、localization、sanitizer 和准确 test filter。build directory、
+SDL3 SDK 版本、sound、localization、sanitizer 和准确 test filter。build directory、
 `compile_commands.json`、profiler capture 与 symbol database 是本地/CI artifact，不是要
 提交的源码。
 
 ## 边界与注意事项
 
-Linux 通过不能证明 Windows 或 Android 支持。SDL3 需要编译后的 shader artifact；SDL2
-仍是独立 fallback lane。旧文档中的包管理命令容易过时，应按 configure 输出与已验证
-构建配置诊断。
+Linux 通过不能证明 Windows 或 Android 已验收。图形构建统一使用 SDL3，并需要
+编译后的 shader artifact。`TILES=1 SDL3=0` 和 `TILES=ON USE_SDL3=OFF` 会报错；
+终端构建和仅本地化目标不查询 SDL 依赖。旧包管理命令容易过时，应按 configure 输出
+与已验证构建配置诊断。
 
 ## platforms.matrix [en] — Platform matrix
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/
-Verified commit: d32b9cc880a85480840d82cfa05d256c78a16615
-Sources: Makefile, CMakePresets.json, android/app/build.gradle, .github/workflows/matrix.yml, .github/workflows/msvc-full-features.yml, .github/workflows/sdl3-matrix.yml
+Verified commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+Sources: Makefile, CMakePresets.json, android/app/build.gradle, .github/workflows/matrix.yml, .github/workflows/msvc-full-features.yml, .github/workflows/sdl3-matrix.yml, .github/workflows/release.yml, .github/actions/setup-sdl3-stack-macos/action.yml
 
 # Platform matrix
 
@@ -6099,7 +6102,7 @@ Windows, MSVC, or Android.
 
 | Platform | Maintained entry point | Important boundary | Minimum useful evidence |
 | --- | --- | --- | --- |
-| Linux | Make or `linux-x64` CMake preset | Desktop uses SDL2 by default | Configure/build plus focused tests |
+| Linux | Make or `linux-x64` CMake preset | Graphical builds require SDL3 >= 3.4.0 | Configure/build plus focused tests |
 | WSL | Linux toolchain inside WSL | Filesystem and graphics integration differ from native Linux | Name WSL version and filesystem location |
 | Windows MSYS2 | Windows MSYS2 CMake presets | Package names, shell quoting, and DLL packaging | Preset configure/build on MSYS2 |
 | Windows MSVC | vcpkg/MSVC flow and MSVC CI | Compiler diagnostics and dependency model differ | MSVC workflow or equivalent local build |
@@ -6114,10 +6117,12 @@ cmake --list-presets
 
 ## Feature combinations
 
-Tiles, sound, localization, tests, Lua UI, compiler, and build type are part of
-the platform identity. Report them in a pull request. CCB's desktop SDL3 jobs
-are experimental and gated by `CCB_DESKTOP_SDL3_ENABLED`; Android's use of SDL3
-does not change the desktop default.
+Tiles, sound, localization, tests, Lua Platform v1, compiler, and build type are part of
+the platform identity. All graphical lanes use SDL3; the standard Linux and macOS
+matrix and MSVC workflow exercise this backend without an opt-in repository variable.
+The Release matrix retains ten packages: Windows 2, Linux 3, macOS 2, and Android 3.
+Manual matrix/MSVC runs with `package_artifacts=true` validate installable artifacts
+without publishing a Release; `run_tests` separately controls broad native test execution.
 
 ## What this page does not claim
 
@@ -6132,8 +6137,8 @@ See [Building CCB](../build/overview.md) for commands and
 ## platforms.matrix [zh_CN] — 平台矩阵
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/
-Verified commit: d32b9cc880a85480840d82cfa05d256c78a16615
-Sources: Makefile, CMakePresets.json, android/app/build.gradle, .github/workflows/matrix.yml, .github/workflows/msvc-full-features.yml, .github/workflows/sdl3-matrix.yml
+Verified commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+Sources: Makefile, CMakePresets.json, android/app/build.gradle, .github/workflows/matrix.yml, .github/workflows/msvc-full-features.yml, .github/workflows/sdl3-matrix.yml, .github/workflows/release.yml, .github/actions/setup-sdl3-stack-macos/action.yml
 
 # 平台矩阵
 
@@ -6142,7 +6147,7 @@ CCB 支持多种构建环境，但验证结论只对明确的工具链与功能�
 
 | 平台 | 维护中的入口 | 关键边界 | 最小有效证据 |
 | --- | --- | --- | --- |
-| Linux | Make 或 `linux-x64` CMake preset | 桌面默认使用 SDL2 | 配置/构建与聚焦测试 |
+| Linux | Make 或 `linux-x64` CMake preset | 图形构建要求 SDL3 >= 3.4.0 | 配置/构建与聚焦测试 |
 | WSL | WSL 内的 Linux 工具链 | 文件系统与图形集成不同于原生 Linux | 注明 WSL 版本和源码所在文件系统 |
 | Windows MSYS2 | Windows MSYS2 CMake presets | 包名、shell 引号和 DLL 打包不同 | 在 MSYS2 中完成 preset 配置/构建 |
 | Windows MSVC | vcpkg/MSVC 流程和 MSVC CI | 编译器诊断与依赖模型不同 | MSVC workflow 或等价本地构建 |
@@ -6157,9 +6162,11 @@ cmake --list-presets
 
 ## 功能组合
 
-Tiles、sound、本地化、tests、Lua UI、编译器和构建类型都是平台身份的一部分，PR
-中必须记录。CCB 的 desktop SDL3 job 是实验性的，并受
-`CCB_DESKTOP_SDL3_ENABLED` 门控；Android 使用 SDL3 不代表桌面默认值改变。
+Tiles、sound、本地化、tests、Lua Platform v1、编译器和构建类型都是平台身份的一部分，
+PR 中必须记录。所有图形路径统一使用 SDL3，常规 Linux/macOS 矩阵和 MSVC 工作流
+直接验证此后端，不需要可选仓库变量。Release 保留十个安装包：Windows 2、Linux 3、
+macOS 2、Android 3。手动 matrix/MSVC 的 `package_artifacts=true` 可验证并上传安装包，
+不会发布 Release；`run_tests` 单独控制宽范围原生测试。
 
 ## 本页没有声称什么
 
@@ -6173,8 +6180,8 @@ Tiles、sound、本地化、tests、Lua UI、编译器和构建类型都是平�
 ## platforms.msvc [en] — MSVC and vcpkg
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/
-Verified commit: d32b9cc880a85480840d82cfa05d256c78a16615
-Sources: CMakePresets.json, build-scripts/MSVC.cmake, build-scripts/windows-tiles-sounds-x64-msvc.cmake, .github/workflows/msvc-full-features.yml
+Verified commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+Sources: CMakePresets.json, build-scripts/MSVC.cmake, build-scripts/windows-tiles-sounds-x64-msvc.cmake, .github/workflows/msvc-full-features.yml, msvc-full-features/Cataclysm.Cpp.props, msvc-full-features/vcpkg.json, build-scripts/windist.ps1
 
 # MSVC and vcpkg
 
@@ -6204,9 +6211,10 @@ useful but is not CI parity.
 
 ## Feature and configuration boundaries
 
-Keep `Release`, `Debug`, and `RelWithDebInfo` artifacts separate. State whether `UseSDL3` is
-true or false; the same project can build distinct SDL2 and SDL3 release packages. PDBs must
-match the exact binary and commit used for a crash.
+Keep `Release`, `Debug`, and `RelWithDebInfo` artifacts separate. Graphical projects
+select the vcpkg SDL3 feature and `UseSDL3=true`; disabling this backend is rejected.
+Curses projects remain available. Windows archives include the required mpg123 DLLs
+and copyright alongside the binary. PDBs must match the exact binary and crash commit.
 
 ## Validation and hygiene
 
@@ -6217,8 +6225,8 @@ or signing material. Preserve the first compiler/linker error and the vcpkg logs
 ## platforms.msvc [zh_CN] — MSVC 与 vcpkg
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/
-Verified commit: d32b9cc880a85480840d82cfa05d256c78a16615
-Sources: CMakePresets.json, build-scripts/MSVC.cmake, build-scripts/windows-tiles-sounds-x64-msvc.cmake, .github/workflows/msvc-full-features.yml
+Verified commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+Sources: CMakePresets.json, build-scripts/MSVC.cmake, build-scripts/windows-tiles-sounds-x64-msvc.cmake, .github/workflows/msvc-full-features.yml, msvc-full-features/Cataclysm.Cpp.props, msvc-full-features/vcpkg.json, build-scripts/windist.ps1
 
 # MSVC 与 vcpkg
 
@@ -6247,8 +6255,9 @@ Studio 版本、vcpkg commit/triplet、translation artifact、ccache wrapper、s
 
 ## Feature 与 configuration 边界
 
-`Release`、`Debug`、`RelWithDebInfo` artifact 要分开。说明 `UseSDL3` 为 true/false；同一
-project 可构建不同 SDL2/SDL3 release package。PDB 必须与发生 crash 的准确 binary 与
+`Release`、`Debug`、`RelWithDebInfo` artifact 要分开。图形项目选择 vcpkg SDL3
+feature 和 `UseSDL3=true`，关闭此后端会报错；仍保留 curses 项目。Windows 安装包
+随主程序包含所需 mpg123 DLL 与 copyright。PDB 必须与发生 crash 的准确 binary 和
 commit 匹配。
 
 ## 验证与卫生
@@ -6353,8 +6362,8 @@ binary，并在不依赖开发 `PATH` 的环境检查打包 DLL 集合。
 ## platforms.ui [en] — UI platform matrix
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/
-Verified commit: d32b9cc880a85480840d82cfa05d256c78a16615
-Sources: src/ui_manager.h, src/input_context.cpp, src/sdltiles.h, android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
+Verified commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+Sources: src/ui_manager.h, src/input_context.cpp, src/sdltiles.h, android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java, src/sdltiles.cpp, data/lua/LUA_FIRST_PLATFORM.md
 
 # UI platform matrix
 
@@ -6366,10 +6375,9 @@ input routes. Every UI change must name which routes were exercised.
 | Route | Build/runtime boundary | Evidence to collect |
 | --- | --- | --- |
 | Curses | terminal cells, terminal colors and keyboard | terminal type/size, locale, key path |
-| SDL2 tiles | fallback desktop renderer and SDL2 input/audio | OS, renderer, scale, font, device |
 | SDL3 tiles | SDL3 renderer/GPU shader and recovery path | GPU/backend, artifact format, recovery |
 | Native UI | `ui_adaptor`, `input_context`, curses-compatible windows | resize/redraw and input actions |
-| Lua UI/ImGui | capability-gated Lua pages and native ImGui integration | manifest, API v5, native fallback |
+| Lua UI/ImGui | sole Lua Platform v1 and native ImGui integration | Platform v1 contract, actions, native fallback |
 | Android | Java HUD/touch/text input plus SDL3 native runtime | device/API, UI mode, orientation, touch |
 
 ## Shared invariants
@@ -6382,8 +6390,10 @@ new UI remains operable at narrow sizes.
 ## Validation matrix
 
 At minimum exercise keyboard navigation, cancel/confirm, resize, narrow viewport, translation,
-and the route directly changed. Renderer or coordinate changes need SDL2/SDL3 and Android where
-those branches differ. Lua UI work also validates the disabled/native fallback build.
+and the route directly changed. Renderer or coordinate changes cover SDL3 software, OpenGL,
+and GPU routes plus Android where platform input differs. Record the SDK, renderer, integer
+scale, and viewport; linked SDK identity does not prove device input or audible sound.
+Lua UI work also validates the disabled/native fallback build.
 
 ## Accessibility and failure evidence
 
@@ -6400,8 +6410,8 @@ layout state as project defaults without policy review.
 ## platforms.ui [zh_CN] — UI 平台矩阵
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/
-Verified commit: d32b9cc880a85480840d82cfa05d256c78a16615
-Sources: src/ui_manager.h, src/input_context.cpp, src/sdltiles.h, android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
+Verified commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+Sources: src/ui_manager.h, src/input_context.cpp, src/sdltiles.h, android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java, src/sdltiles.cpp, data/lua/LUA_FIRST_PLATFORM.md
 
 # UI 平台矩阵
 
@@ -6413,10 +6423,9 @@ CCB 的 UI 由同一语义 action/view-model 层通过多条 renderer/input 路�
 | 路径 | 构建/运行边界 | 应收集证据 |
 | --- | --- | --- |
 | Curses | terminal cell、颜色与 keyboard | terminal 类型/尺寸、locale、key path |
-| SDL2 tiles | fallback desktop renderer 与 SDL2 input/audio | OS、renderer、scale、font、device |
 | SDL3 tiles | SDL3 renderer/GPU shader 与 recovery | GPU/backend、artifact format、recovery |
 | Native UI | `ui_adaptor`、`input_context`、curses-compatible window | resize/redraw 与 input action |
-| Lua UI/ImGui | capability-gated Lua page 与 native ImGui 集成 | manifest、API v5、native fallback |
+| Lua UI/ImGui | 唯一 Lua Platform v1 与 native ImGui 集成 | Platform v1 合同、action、native fallback |
 | Android | Java HUD/touch/text input 与 SDL3 native runtime | device/API、UI mode、orientation、touch |
 
 ## 共同不变量
@@ -6428,8 +6437,9 @@ byte/glyph width；新 UI 在窄尺寸仍可操作。
 ## 验证矩阵
 
 至少覆盖 keyboard navigation、cancel/confirm、resize、窄 viewport、translation 与直接
-修改路径。renderer/coordinate 修改在分支不同处需要 SDL2/SDL3 与 Android；Lua UI 还要
-验证 disabled/native fallback build。
+修改路径。renderer/coordinate 修改覆盖 SDL3 software、OpenGL、GPU，以及输入不同的
+Android 路径。记录 SDK、renderer、整数缩放与 viewport；链接 SDK 身份不能证明设备
+输入或可听音频已验收。Lua UI 仍需验证 disabled/native fallback build。
 
 ## 可访问性与失败证据
 

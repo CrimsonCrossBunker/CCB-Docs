@@ -4392,21 +4392,22 @@
         "CMakePresets.json",
         "android/gradlew",
         "android/build.gradle",
-        ".github/workflows/matrix.yml"
+        ".github/workflows/matrix.yml",
+        "CMakeLists.txt"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "caa96df9d4a464cf685a6bf610bef827c7c0a9a5900d7ff27b34fa3ab53d9098",
+      "source_fingerprint": "4ea5d8a6d7e907ed3a54890d6b535f3c79a41f4b14043fafd6ddfc6f0bded1f4",
       "authority": "build-config",
-      "verified_commit": "3053bf160578e46c1692a89c60594aa1acc6a276",
-      "verified_at": "2026-09-05",
+      "verified_commit": "27d8ba1776f0cda979048c562a2379d4393beb80",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "2100545da75d2202b5fc176a154e3d164c2fe77cac41ecdbc6f5d36c38e60f67",
+      "translation_source_fingerprint": "00bfd096819317162b7d3953883dcfb276209505946d88ca83a81066fbadb21c",
       "prerequisites": [
         "architecture.project-map"
       ],
@@ -4461,21 +4462,22 @@
         "CMakePresets.json",
         "android/gradlew",
         "android/build.gradle",
-        ".github/workflows/matrix.yml"
+        ".github/workflows/matrix.yml",
+        "CMakeLists.txt"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "caa96df9d4a464cf685a6bf610bef827c7c0a9a5900d7ff27b34fa3ab53d9098",
+      "source_fingerprint": "4ea5d8a6d7e907ed3a54890d6b535f3c79a41f4b14043fafd6ddfc6f0bded1f4",
       "authority": "build-config",
-      "verified_commit": "3053bf160578e46c1692a89c60594aa1acc6a276",
-      "verified_at": "2026-09-05",
+      "verified_commit": "27d8ba1776f0cda979048c562a2379d4393beb80",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "2100545da75d2202b5fc176a154e3d164c2fe77cac41ecdbc6f5d36c38e60f67",
+      "translation_source_fingerprint": "00bfd096819317162b7d3953883dcfb276209505946d88ca83a81066fbadb21c",
       "prerequisites": [
         "architecture.project-map"
       ],
@@ -11555,23 +11557,25 @@
         "Makefile",
         "CMakePresets.json",
         ".github/workflows/matrix.yml",
-        "doc/c++/COMPILING.md"
+        "doc/c++/COMPILING.md",
+        "CMakeLists.txt",
+        ".github/actions/setup-sdl3-stack/action.yml"
       ],
       "source_symbols": [],
       "source_queries": [
         "linux-x64"
       ],
-      "source_fingerprint": "2dba8fbfa2140a345e7ae382dda6be3b45598895eea9130a0a7f7e02c27158bf",
+      "source_fingerprint": "abe5b45a8d3024027e643dd8b0797a20967055098488185be3475fbcb377962e",
       "authority": "build-config",
-      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
-      "verified_at": "2026-08-02",
+      "verified_commit": "27d8ba1776f0cda979048c562a2379d4393beb80",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "4e369a0d5512e76ab86eb50a35d7ef9d9bf57a9c01e655bdaa4c683411f050da",
+      "translation_source_fingerprint": "b35fb53e6d6883e1d78329e7096e78927b197bb182ae3e67c465c9066ce61458",
       "prerequisites": [
         "platforms.matrix",
         "build.overview"
@@ -11620,23 +11624,25 @@
         "Makefile",
         "CMakePresets.json",
         ".github/workflows/matrix.yml",
-        "doc/c++/COMPILING.md"
+        "doc/c++/COMPILING.md",
+        "CMakeLists.txt",
+        ".github/actions/setup-sdl3-stack/action.yml"
       ],
       "source_symbols": [],
       "source_queries": [
         "linux-x64"
       ],
-      "source_fingerprint": "2dba8fbfa2140a345e7ae382dda6be3b45598895eea9130a0a7f7e02c27158bf",
+      "source_fingerprint": "abe5b45a8d3024027e643dd8b0797a20967055098488185be3475fbcb377962e",
       "authority": "build-config",
-      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
-      "verified_at": "2026-08-02",
+      "verified_commit": "27d8ba1776f0cda979048c562a2379d4393beb80",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "4e369a0d5512e76ab86eb50a35d7ef9d9bf57a9c01e655bdaa4c683411f050da",
+      "translation_source_fingerprint": "b35fb53e6d6883e1d78329e7096e78927b197bb182ae3e67c465c9066ce61458",
       "prerequisites": [
         "platforms.matrix",
         "build.overview"
@@ -11687,21 +11693,23 @@
         "android/app/build.gradle",
         ".github/workflows/matrix.yml",
         ".github/workflows/msvc-full-features.yml",
-        ".github/workflows/sdl3-matrix.yml"
+        ".github/workflows/sdl3-matrix.yml",
+        ".github/workflows/release.yml",
+        ".github/actions/setup-sdl3-stack-macos/action.yml"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "99e40d9f40038bf5e7decd52c09c777224ff262822fed80bda9cbc94e5c53b2d",
+      "source_fingerprint": "3af89901fb085d31b24e3b4ddf1bf2bbc90275acb78acafff4d1cce77922e6e2",
       "authority": "build-config",
-      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
-      "verified_at": "2026-08-02",
+      "verified_commit": "27d8ba1776f0cda979048c562a2379d4393beb80",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "8ae2dc2c8738c0cbf41d337f70d7c7796755182f4eea9bf39c0d40447c4a623f",
+      "translation_source_fingerprint": "479d980e5f008a8893ca4c1282505d3488c96fd9c25c4412bb29beb7bb85002f",
       "prerequisites": [
         "build.overview"
       ],
@@ -11749,21 +11757,23 @@
         "android/app/build.gradle",
         ".github/workflows/matrix.yml",
         ".github/workflows/msvc-full-features.yml",
-        ".github/workflows/sdl3-matrix.yml"
+        ".github/workflows/sdl3-matrix.yml",
+        ".github/workflows/release.yml",
+        ".github/actions/setup-sdl3-stack-macos/action.yml"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "99e40d9f40038bf5e7decd52c09c777224ff262822fed80bda9cbc94e5c53b2d",
+      "source_fingerprint": "3af89901fb085d31b24e3b4ddf1bf2bbc90275acb78acafff4d1cce77922e6e2",
       "authority": "build-config",
-      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
-      "verified_at": "2026-08-02",
+      "verified_commit": "27d8ba1776f0cda979048c562a2379d4393beb80",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "8ae2dc2c8738c0cbf41d337f70d7c7796755182f4eea9bf39c0d40447c4a623f",
+      "translation_source_fingerprint": "479d980e5f008a8893ca4c1282505d3488c96fd9c25c4412bb29beb7bb85002f",
       "prerequisites": [
         "build.overview"
       ],
@@ -11808,23 +11818,26 @@
         "CMakePresets.json",
         "build-scripts/MSVC.cmake",
         "build-scripts/windows-tiles-sounds-x64-msvc.cmake",
-        ".github/workflows/msvc-full-features.yml"
+        ".github/workflows/msvc-full-features.yml",
+        "msvc-full-features/Cataclysm.Cpp.props",
+        "msvc-full-features/vcpkg.json",
+        "build-scripts/windist.ps1"
       ],
       "source_symbols": [],
       "source_queries": [
         "windows-tiles-sounds-x64-msvc"
       ],
-      "source_fingerprint": "d2dbe858dd29b80612d853044debd594adb8e0ffeaf9d473becbc5dd3d2b0d74",
+      "source_fingerprint": "b5bd59ffe6061a3c7818da7be3ad88b95755843829de165a1801b5a2650c5ad0",
       "authority": "build-config",
-      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
-      "verified_at": "2026-08-02",
+      "verified_commit": "27d8ba1776f0cda979048c562a2379d4393beb80",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "de436d260762856faafc61fcc6f466c2b2e07c1d6c8db41648cec2681eda5411",
+      "translation_source_fingerprint": "d759f841a8e8f174ae8a4820487c8073ccda3010120bb90a008ed86465bf2003",
       "prerequisites": [
         "platforms.windows"
       ],
@@ -11869,23 +11882,26 @@
         "CMakePresets.json",
         "build-scripts/MSVC.cmake",
         "build-scripts/windows-tiles-sounds-x64-msvc.cmake",
-        ".github/workflows/msvc-full-features.yml"
+        ".github/workflows/msvc-full-features.yml",
+        "msvc-full-features/Cataclysm.Cpp.props",
+        "msvc-full-features/vcpkg.json",
+        "build-scripts/windist.ps1"
       ],
       "source_symbols": [],
       "source_queries": [
         "windows-tiles-sounds-x64-msvc"
       ],
-      "source_fingerprint": "d2dbe858dd29b80612d853044debd594adb8e0ffeaf9d473becbc5dd3d2b0d74",
+      "source_fingerprint": "b5bd59ffe6061a3c7818da7be3ad88b95755843829de165a1801b5a2650c5ad0",
       "authority": "build-config",
-      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
-      "verified_at": "2026-08-02",
+      "verified_commit": "27d8ba1776f0cda979048c562a2379d4393beb80",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "de436d260762856faafc61fcc6f466c2b2e07c1d6c8db41648cec2681eda5411",
+      "translation_source_fingerprint": "d759f841a8e8f174ae8a4820487c8073ccda3010120bb90a008ed86465bf2003",
       "prerequisites": [
         "platforms.windows"
       ],
@@ -12053,24 +12069,26 @@
         "src/ui_manager.h",
         "src/input_context.cpp",
         "src/sdltiles.h",
-        "android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java"
+        "android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java",
+        "src/sdltiles.cpp",
+        "data/lua/LUA_FIRST_PLATFORM.md"
       ],
       "source_symbols": [
         "class ui_adaptor",
         "android_ui_mode::is_new_ui_build()"
       ],
       "source_queries": [],
-      "source_fingerprint": "4f2ee856289cb1352882870efe2efd69335a90b9e51750df07c43205fa0b2c12",
+      "source_fingerprint": "8ff82f8da6559a83a43ed66a2f15903cfbda4407649fc32625f4c92975cbd4da",
       "authority": "source-and-tests",
-      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
-      "verified_at": "2026-08-02",
+      "verified_commit": "27d8ba1776f0cda979048c562a2379d4393beb80",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "8e5535d38d8ae267597a3fd6a545d71f480bcb4a173599d1ee3e5f4aee0c0ace",
+      "translation_source_fingerprint": "349a7f7b769231e70b9b2b7275982033c51fd515d3c2817558a56ceed1a2594f",
       "prerequisites": [
         "cpp.ui",
         "cpp.input"
@@ -12118,24 +12136,26 @@
         "src/ui_manager.h",
         "src/input_context.cpp",
         "src/sdltiles.h",
-        "android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java"
+        "android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java",
+        "src/sdltiles.cpp",
+        "data/lua/LUA_FIRST_PLATFORM.md"
       ],
       "source_symbols": [
         "class ui_adaptor",
         "android_ui_mode::is_new_ui_build()"
       ],
       "source_queries": [],
-      "source_fingerprint": "4f2ee856289cb1352882870efe2efd69335a90b9e51750df07c43205fa0b2c12",
+      "source_fingerprint": "8ff82f8da6559a83a43ed66a2f15903cfbda4407649fc32625f4c92975cbd4da",
       "authority": "source-and-tests",
-      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
-      "verified_at": "2026-08-02",
+      "verified_commit": "27d8ba1776f0cda979048c562a2379d4393beb80",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "8e5535d38d8ae267597a3fd6a545d71f480bcb4a173599d1ee3e5f4aee0c0ace",
+      "translation_source_fingerprint": "349a7f7b769231e70b9b2b7275982033c51fd515d3c2817558a56ceed1a2594f",
       "prerequisites": [
         "cpp.ui",
         "cpp.input"
@@ -16865,7 +16885,7 @@
       "id": "build.overview",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/",
-      "last_verified": "2026-09-05",
+      "last_verified": "2026-11-14",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
@@ -16876,7 +16896,7 @@
       "id": "build.overview",
       "language": "zh_CN",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
-      "last_verified": "2026-09-05",
+      "last_verified": "2026-11-14",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
@@ -17921,7 +17941,7 @@
       "id": "platforms.linux",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/",
-      "last_verified": "2026-08-02",
+      "last_verified": "2026-11-14",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
@@ -17932,7 +17952,7 @@
       "id": "platforms.linux",
       "language": "zh_CN",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
-      "last_verified": "2026-08-02",
+      "last_verified": "2026-11-14",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
@@ -17943,7 +17963,7 @@
       "id": "platforms.matrix",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/",
-      "last_verified": "2026-08-02",
+      "last_verified": "2026-11-14",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
@@ -17954,7 +17974,7 @@
       "id": "platforms.matrix",
       "language": "zh_CN",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
-      "last_verified": "2026-08-02",
+      "last_verified": "2026-11-14",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
@@ -17965,7 +17985,7 @@
       "id": "platforms.msvc",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/",
-      "last_verified": "2026-08-02",
+      "last_verified": "2026-11-14",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
@@ -17976,7 +17996,7 @@
       "id": "platforms.msvc",
       "language": "zh_CN",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
-      "last_verified": "2026-08-02",
+      "last_verified": "2026-11-14",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
@@ -18009,7 +18029,7 @@
       "id": "platforms.ui",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/",
-      "last_verified": "2026-08-02",
+      "last_verified": "2026-11-14",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
@@ -18020,7 +18040,7 @@
       "id": "platforms.ui",
       "language": "zh_CN",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
-      "last_verified": "2026-08-02",
+      "last_verified": "2026-11-14",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
