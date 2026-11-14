@@ -3,7 +3,7 @@
 id: platforms.msys2
 title: MSYS2 and MinGW
 language: en
-status: draft
+status: active
 doc_type: how-to
 audiences:
 - new-contributor
@@ -23,14 +23,14 @@ source_paths:
 source_symbols: []
 source_queries:
 - windows-x64
-source_fingerprint: e0d575911300ee3881e0b77aa62a39685e5cf7524a82f55ae2a5088bb4ea7cd9
+source_fingerprint: e32aff789fb32745f4430b0bf4cb82ac16c27b1498001f9fb4b77fc0122349f9
 authority: build-config
-verified_commit: 75f90e0741588679986b2867923e8a500678cd86
-verified_at: '2026-10-12'
+verified_commit: 67f0d0e240aef6c127012a5ea945b70bdf473072
+verified_at: '2026-11-14'
 generated: false
 generated_by: null
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 438403074a5c48398e9616f9de1eb24d61926e32f53d1b27425896490302d2dd
@@ -49,7 +49,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: platforms-windows
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/
 alternate_urls:
@@ -57,19 +57,17 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/75f90e0741588679986b2867923e8a500678cd86
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/67f0d0e240aef6c127012a5ea945b70bdf473072
 source_urls:
 - path: CMakePresets.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/75f90e0741588679986b2867923e8a500678cd86/CMakePresets.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/67f0d0e240aef6c127012a5ea945b70bdf473072/CMakePresets.json
 - path: Makefile
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/75f90e0741588679986b2867923e8a500678cd86/Makefile
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/67f0d0e240aef6c127012a5ea945b70bdf473072/Makefile
 - path: msvc-full-features/vcpkg.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/75f90e0741588679986b2867923e8a500678cd86/msvc-full-features/vcpkg.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/67f0d0e240aef6c127012a5ea945b70bdf473072/msvc-full-features/vcpkg.json
 - path: tools/build_shaders.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/75f90e0741588679986b2867923e8a500678cd86/tools/build_shaders.py
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28platforms.msys2%29%3A+&body=Document+ID%3A+platforms.msys2%0ALanguage%3A+en%0AVerified+commit%3A+75f90e0741588679986b2867923e8a500678cd86%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/67f0d0e240aef6c127012a5ea945b70bdf473072/tools/build_shaders.py
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28platforms.msys2%29%3A+&body=Document+ID%3A+platforms.msys2%0ALanguage%3A+en%0AVerified+commit%3A+67f0d0e240aef6c127012a5ea945b70bdf473072%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # MSYS2 and MinGW

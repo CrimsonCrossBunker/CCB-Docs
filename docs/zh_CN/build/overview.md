@@ -3,7 +3,7 @@
 id: build.overview
 title: 构建 CCB
 language: zh_CN
-status: draft
+status: active
 doc_type: how-to
 audiences:
 - new-contributor
@@ -26,12 +26,12 @@ source_symbols: []
 source_queries: []
 source_fingerprint: 4ea5d8a6d7e907ed3a54890d6b535f3c79a41f4b14043fafd6ddfc6f0bded1f4
 authority: build-config
-verified_commit: 7d65b4eff3d92393e659699a312b694f0e72d2cb
-verified_at: '2026-10-11'
+verified_commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+verified_at: '2026-11-14'
 generated: false
 generated_by: null
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 00bfd096819317162b7d3953883dcfb276209505946d88ca83a81066fbadb21c
@@ -56,7 +56,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: build
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/
 alternate_urls:
@@ -64,23 +64,21 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/7d65b4eff3d92393e659699a312b694f0e72d2cb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/27d8ba1776f0cda979048c562a2379d4393beb80
 source_urls:
 - path: Makefile
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/Makefile
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/Makefile
 - path: CMakePresets.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/CMakePresets.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/CMakePresets.json
 - path: android/gradlew
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/android/gradlew
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/android/gradlew
 - path: android/build.gradle
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/android/build.gradle
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/android/build.gradle
 - path: .github/workflows/matrix.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/.github/workflows/matrix.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/.github/workflows/matrix.yml
 - path: CMakeLists.txt
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/CMakeLists.txt
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28build.overview%29%3A+&body=Document+ID%3A+build.overview%0ALanguage%3A+zh_CN%0AVerified+commit%3A+7d65b4eff3d92393e659699a312b694f0e72d2cb%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/CMakeLists.txt
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28build.overview%29%3A+&body=Document+ID%3A+build.overview%0ALanguage%3A+zh_CN%0AVerified+commit%3A+27d8ba1776f0cda979048c562a2379d4393beb80%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # 构建 CCB

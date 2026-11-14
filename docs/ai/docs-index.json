@@ -4372,7 +4372,7 @@
       "id": "build.overview",
       "title": "Building CCB",
       "language": "en",
-      "status": "draft",
+      "status": "active",
       "doc_type": "how-to",
       "audiences": [
         "new-contributor",
@@ -4399,12 +4399,12 @@
       "source_queries": [],
       "source_fingerprint": "4ea5d8a6d7e907ed3a54890d6b535f3c79a41f4b14043fafd6ddfc6f0bded1f4",
       "authority": "build-config",
-      "verified_commit": "7d65b4eff3d92393e659699a312b694f0e72d2cb",
-      "verified_at": "2026-10-11",
+      "verified_commit": "27d8ba1776f0cda979048c562a2379d4393beb80",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
-      "include_in_search": false,
-      "include_in_ai_index": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
       "translation_source_fingerprint": "00bfd096819317162b7d3953883dcfb276209505946d88ca83a81066fbadb21c",
@@ -4433,7 +4433,7 @@
       "deprecation_replacement": null,
       "risk_group": "build",
       "risk_level": "high",
-      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
+      "pending_source_pr": null,
       "stale_reason": null,
       "path": "build/overview.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/"
@@ -4442,7 +4442,7 @@
       "id": "build.overview",
       "title": "构建 CCB",
       "language": "zh_CN",
-      "status": "draft",
+      "status": "active",
       "doc_type": "how-to",
       "audiences": [
         "new-contributor",
@@ -4469,12 +4469,12 @@
       "source_queries": [],
       "source_fingerprint": "4ea5d8a6d7e907ed3a54890d6b535f3c79a41f4b14043fafd6ddfc6f0bded1f4",
       "authority": "build-config",
-      "verified_commit": "7d65b4eff3d92393e659699a312b694f0e72d2cb",
-      "verified_at": "2026-10-11",
+      "verified_commit": "27d8ba1776f0cda979048c562a2379d4393beb80",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
-      "include_in_search": false,
-      "include_in_ai_index": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
       "translation_source_fingerprint": "00bfd096819317162b7d3953883dcfb276209505946d88ca83a81066fbadb21c",
@@ -4503,7 +4503,7 @@
       "deprecation_replacement": null,
       "risk_group": "build",
       "risk_level": "high",
-      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
+      "pending_source_pr": null,
       "stale_reason": null,
       "path": "build/overview.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/"
@@ -5735,6 +5735,148 @@
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/crafting/"
     },
     {
+      "id": "cpp.crafting-reservations-sync",
+      "title": "Draft: crafting reservations and temporary inventory",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "Pending human review",
+      "source_paths": [
+        "src/crafting.cpp",
+        "src/craft_reservation_search.cpp",
+        "src/temp_crafting_inventory.cpp",
+        "src/lua_platform_crafting.cpp",
+        "src/lua_platform_items.cpp",
+        "src/veh_interact.cpp",
+        "src/version.cmake",
+        "src/activity_actor.cpp"
+      ],
+      "source_symbols": [
+        "Character::crafting_inventory",
+        "veh_interact::installation_requirement_availability"
+      ],
+      "source_queries": [
+        "independent_contents",
+        "zero_move_dispatches",
+        "CMAKE_MATCH_1"
+      ],
+      "source_fingerprint": "0f5bdceaed57529203585c4a3974879562d58bc880b71ec16d6ce7d8dd5792b3",
+      "authority": "api-contract",
+      "verified_commit": "5c786d383ebca5206607233fe1423dc9ae1c1a64",
+      "verified_at": "2026-11-14",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "8c0130ab6879a953718aacf0153dff5379d47cb9f012993d71f3efd39cfb91cd",
+      "prerequisites": [
+        "cpp.lua-bridge"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "lua-contract"
+      ],
+      "api_version": "1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "cpp/crafting-reservations-sync.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/crafting-reservations-sync/"
+    },
+    {
+      "id": "cpp.crafting-reservations-sync",
+      "title": "制作材料预留与临时库存同步草稿",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "Pending human review",
+      "source_paths": [
+        "src/crafting.cpp",
+        "src/craft_reservation_search.cpp",
+        "src/temp_crafting_inventory.cpp",
+        "src/lua_platform_crafting.cpp",
+        "src/lua_platform_items.cpp",
+        "src/veh_interact.cpp",
+        "src/version.cmake",
+        "src/activity_actor.cpp"
+      ],
+      "source_symbols": [
+        "Character::crafting_inventory",
+        "veh_interact::installation_requirement_availability"
+      ],
+      "source_queries": [
+        "independent_contents",
+        "zero_move_dispatches",
+        "CMAKE_MATCH_1"
+      ],
+      "source_fingerprint": "0f5bdceaed57529203585c4a3974879562d58bc880b71ec16d6ce7d8dd5792b3",
+      "authority": "api-contract",
+      "verified_commit": "5c786d383ebca5206607233fe1423dc9ae1c1a64",
+      "verified_at": "2026-11-14",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "8c0130ab6879a953718aacf0153dff5379d47cb9f012993d71f3efd39cfb91cd",
+      "prerequisites": [
+        "cpp.lua-bridge"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "lua-contract"
+      ],
+      "api_version": "1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "cpp/crafting-reservations-sync.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/crafting-reservations-sync/"
+    },
+    {
       "id": "cpp.creatures",
       "title": "Creatures subsystem",
       "language": "en",
@@ -6556,7 +6698,10 @@
         "ai/lua-first-replacement-ledger.yml",
         "src/lua_platform_trade.cpp",
         "src/lua_platform_npc_services.cpp",
-        "src/lua_platform_mutations.cpp"
+        "src/lua_platform_mutations.cpp",
+        "src/flexbuffer_json.cpp",
+        "src/flexbuffer_json.h",
+        "tests/lua_platform_persistent_integer_test.cpp"
       ],
       "source_symbols": [
         "platform_version = 1",
@@ -6575,17 +6720,17 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "f6a3bb50ab96428a11c7c6361a3932f8a29fce97992e3e556fcd8955b5feaec6",
+      "source_fingerprint": "5e91e0340ced65cb2530da6f382e49d923757c5c70379d3ad90fdb99c1378320",
       "authority": "api-contract",
-      "verified_commit": "8ac305b649964acc877a86e7fc872a0a315f3ecf",
-      "verified_at": "2026-09-19",
+      "verified_commit": "62e69a762a00ec6197ba6a829972de8dd344e9f2",
+      "verified_at": "2026-10-04",
       "generated": false,
       "generated_by": null,
       "include_in_search": false,
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396",
+      "translation_source_fingerprint": "c823c9a76e8e77b2980e04818ec23cc92528d67d58d97319550dc704f396fbb1",
       "prerequisites": [
         "cpp.mod-loading"
       ],
@@ -6689,7 +6834,10 @@
         "ai/lua-first-replacement-ledger.yml",
         "src/lua_platform_trade.cpp",
         "src/lua_platform_npc_services.cpp",
-        "src/lua_platform_mutations.cpp"
+        "src/lua_platform_mutations.cpp",
+        "src/flexbuffer_json.cpp",
+        "src/flexbuffer_json.h",
+        "tests/lua_platform_persistent_integer_test.cpp"
       ],
       "source_symbols": [
         "platform_version = 1",
@@ -6708,17 +6856,17 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "f6a3bb50ab96428a11c7c6361a3932f8a29fce97992e3e556fcd8955b5feaec6",
+      "source_fingerprint": "5e91e0340ced65cb2530da6f382e49d923757c5c70379d3ad90fdb99c1378320",
       "authority": "api-contract",
-      "verified_commit": "8ac305b649964acc877a86e7fc872a0a315f3ecf",
-      "verified_at": "2026-09-19",
+      "verified_commit": "62e69a762a00ec6197ba6a829972de8dd344e9f2",
+      "verified_at": "2026-10-04",
       "generated": false,
       "generated_by": null,
       "include_in_search": false,
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "789033a0b178a57e84b89d6be5c534ac1c0e8db3a2bf74a7e05fccf0951aa396",
+      "translation_source_fingerprint": "c823c9a76e8e77b2980e04818ec23cc92528d67d58d97319550dc704f396fbb1",
       "prerequisites": [
         "cpp.mod-loading"
       ],
@@ -7883,6 +8031,134 @@
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/save/"
     },
     {
+      "id": "cpp.sdl3-render-sync",
+      "title": "Draft: SDL3 rendering synchronization",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "Pending human review",
+      "source_paths": [
+        "src/cata_tiles.cpp",
+        "src/cata_shader.cpp",
+        "src/pixel_minimap.cpp",
+        "src/sdl_font.cpp",
+        "src/sdltiles.cpp",
+        "src/level_cache.h",
+        "src/smooth_lighting.cpp",
+        "data/shaders/lit_sample.glsl",
+        "src/CMakeLists.txt",
+        "tools/agent/test_shader_cmake_graph.py"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "b6c9fb6600de97d5f52c1ceb26a11e7b1600e5bfb16dcc237b1591e91b8b71ed",
+      "authority": "api-contract",
+      "verified_commit": "2c73fb184dc65321ffd1a10c8359949ac63e1205",
+      "verified_at": "2026-11-14",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "a376cdd4479fcfbe8bec83cde870e045bd0e0178d79ff408bc63b358b25d1e89",
+      "prerequisites": [],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "lua-contract"
+      ],
+      "api_version": "1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "cpp/sdl3-render-sync.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/sdl3-render-sync/"
+    },
+    {
+      "id": "cpp.sdl3-render-sync",
+      "title": "SDL3 渲染同步草稿",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "Pending human review",
+      "source_paths": [
+        "src/cata_tiles.cpp",
+        "src/cata_shader.cpp",
+        "src/pixel_minimap.cpp",
+        "src/sdl_font.cpp",
+        "src/sdltiles.cpp",
+        "src/level_cache.h",
+        "src/smooth_lighting.cpp",
+        "data/shaders/lit_sample.glsl",
+        "src/CMakeLists.txt",
+        "tools/agent/test_shader_cmake_graph.py"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "b6c9fb6600de97d5f52c1ceb26a11e7b1600e5bfb16dcc237b1591e91b8b71ed",
+      "authority": "api-contract",
+      "verified_commit": "2c73fb184dc65321ffd1a10c8359949ac63e1205",
+      "verified_at": "2026-11-14",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "a376cdd4479fcfbe8bec83cde870e045bd0e0178d79ff408bc63b358b25d1e89",
+      "prerequisites": [],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "lua-contract"
+      ],
+      "api_version": "1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "cpp/sdl3-render-sync.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/sdl3-render-sync/"
+    },
+    {
       "id": "cpp.ui",
       "title": "Native UI subsystem",
       "language": "en",
@@ -8007,6 +8283,138 @@
       "stale_reason": null,
       "path": "cpp/ui.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/ui/"
+    },
+    {
+      "id": "cpp.upstream-native-sync",
+      "title": "Draft: native behavior synchronization",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "Pending human review",
+      "source_paths": [
+        "src/activity_actor.cpp",
+        "src/activity_actor_definitions.h",
+        "src/event.h",
+        "src/regional_settings.h",
+        "src/weather.cpp",
+        "src/main.cpp",
+        "src/lua_platform_runtime_services.cpp",
+        "src/veh_type.cpp",
+        "src/character_inventory.cpp",
+        "src/recipe_dictionary.cpp",
+        "tests/lua_platform_environment_predicate_test.cpp",
+        "tests/lua_platform_effects_test.cpp"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "a80d78267dc97036358b0302ad889a4043deaf8d31273adcb26ecbb070591d10",
+      "authority": "api-contract",
+      "verified_commit": "2c73fb184dc65321ffd1a10c8359949ac63e1205",
+      "verified_at": "2026-11-14",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "e8b0038844e89009ee18be20605c85e55b3a7694f20777597de133e4318495c8",
+      "prerequisites": [],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "lua-contract"
+      ],
+      "api_version": "1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "cpp/upstream-native-sync.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/upstream-native-sync/"
+    },
+    {
+      "id": "cpp.upstream-native-sync",
+      "title": "原生行为同步草稿",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "Pending human review",
+      "source_paths": [
+        "src/activity_actor.cpp",
+        "src/activity_actor_definitions.h",
+        "src/event.h",
+        "src/regional_settings.h",
+        "src/weather.cpp",
+        "src/main.cpp",
+        "src/lua_platform_runtime_services.cpp",
+        "src/veh_type.cpp",
+        "src/character_inventory.cpp",
+        "src/recipe_dictionary.cpp",
+        "tests/lua_platform_environment_predicate_test.cpp",
+        "tests/lua_platform_effects_test.cpp"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "a80d78267dc97036358b0302ad889a4043deaf8d31273adcb26ecbb070591d10",
+      "authority": "api-contract",
+      "verified_commit": "2c73fb184dc65321ffd1a10c8359949ac63e1205",
+      "verified_at": "2026-11-14",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "e8b0038844e89009ee18be20605c85e55b3a7694f20777597de133e4318495c8",
+      "prerequisites": [],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "lua-contract"
+      ],
+      "api_version": "1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "cpp/upstream-native-sync.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/upstream-native-sync/"
     },
     {
       "id": "cpp.vehicles",
@@ -8547,6 +8955,140 @@
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/"
     },
     {
+      "id": "eoc.upstream-math-compatibility",
+      "title": "Draft: hunger and morale math compatibility",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "src/math_parser_diag.cpp",
+        "tests/upstream_math_compat_test.cpp"
+      ],
+      "source_symbols": [
+        "hunger_eval",
+        "hunger_ass",
+        "morale_eval"
+      ],
+      "source_queries": [
+        "hunger",
+        "morale",
+        "raw"
+      ],
+      "source_fingerprint": "d1d0905fe2996375bb6944779fb44205f61432c2c5ce21c989bc09ec6fa4404c",
+      "authority": "api-contract",
+      "verified_commit": "0719374e424bf1907dd7e9a9be2450c90aac5cfd",
+      "verified_at": "2026-11-14",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "52223f83f5ed3f55e8c755b07beeb35ca04aca687994aa33164ad868deffa475",
+      "prerequisites": [
+        "eoc.overview"
+      ],
+      "depends_on": [
+        "eoc.talkers"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; parser registrations, inventories, and tests remain authoritative.",
+      "example_validation_ids": [],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "eoc",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "eoc/upstream-math-compatibility.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/upstream-math-compatibility/"
+    },
+    {
+      "id": "eoc.upstream-math-compatibility",
+      "title": "饥饿与士气数学表达式兼容草稿",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "src/math_parser_diag.cpp",
+        "tests/upstream_math_compat_test.cpp"
+      ],
+      "source_symbols": [
+        "hunger_eval",
+        "hunger_ass",
+        "morale_eval"
+      ],
+      "source_queries": [
+        "hunger",
+        "morale",
+        "raw"
+      ],
+      "source_fingerprint": "d1d0905fe2996375bb6944779fb44205f61432c2c5ce21c989bc09ec6fa4404c",
+      "authority": "api-contract",
+      "verified_commit": "0719374e424bf1907dd7e9a9be2450c90aac5cfd",
+      "verified_at": "2026-11-14",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "52223f83f5ed3f55e8c755b07beeb35ca04aca687994aa33164ad868deffa475",
+      "prerequisites": [
+        "eoc.overview"
+      ],
+      "depends_on": [
+        "eoc.talkers"
+      ],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; parser registrations, inventories, and tests remain authoritative.",
+      "example_validation_ids": [],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "eoc",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "eoc/upstream-math-compatibility.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/upstream-math-compatibility/"
+    },
+    {
       "id": "eoc.variables-context",
       "title": "EOC variables and context",
       "language": "en",
@@ -8582,17 +9124,17 @@
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e",
+      "source_fingerprint": "81648d78c697a464607987d0aa2cd8c8d85f06dfa6e9a97117cdae8581ca2b90",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "62e69a762a00ec6197ba6a829972de8dd344e9f2",
+      "verified_at": "2026-10-04",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "8e90cbae7e8c02b7eaa85d8151d686e20feb0dac08e769660feee6034b89c055",
+      "translation_source_fingerprint": "068478c7ef2b5a026e7667c2af44ab7f946ac30a7b5fca22c0fab1347fadbade",
       "prerequisites": [
         "eoc.overview"
       ],
@@ -8650,17 +9192,17 @@
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e",
+      "source_fingerprint": "81648d78c697a464607987d0aa2cd8c8d85f06dfa6e9a97117cdae8581ca2b90",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "62e69a762a00ec6197ba6a829972de8dd344e9f2",
+      "verified_at": "2026-10-04",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "8e90cbae7e8c02b7eaa85d8151d686e20feb0dac08e769660feee6034b89c055",
+      "translation_source_fingerprint": "068478c7ef2b5a026e7667c2af44ab7f946ac30a7b5fca22c0fab1347fadbade",
       "prerequisites": [
         "eoc.overview"
       ],
@@ -9331,21 +9873,23 @@
         "src/generic_factory.h",
         "tests/json_load_test.cpp",
         "doc/JSON/JSON_INHERITANCE.md",
-        "doc/JSON/JSON_STYLE.md"
+        "doc/JSON/JSON_STYLE.md",
+        "data/json/items/magazine/223.json",
+        "data/json/obsoletion_and_migration_0.J/migration_items.json"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c",
+      "source_fingerprint": "5b67897003c0813837e0056fe74622b928c35fe00e209ce4a2a41edb5b7a0a23",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "064b6baa1bada5f30ec70b61fba951446e14d965",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "011b017522ac8f0fe674d25c2f3f6729ee36910b59b50abb94d54402ccefd8b1",
+      "translation_source_fingerprint": "a739a6a98b48c2c2f37ae6df1ce306295bf5f7a2751f423eb5abbfb9965b8c68",
       "prerequisites": [
         "json.overview"
       ],
@@ -9396,21 +9940,23 @@
         "src/generic_factory.h",
         "tests/json_load_test.cpp",
         "doc/JSON/JSON_INHERITANCE.md",
-        "doc/JSON/JSON_STYLE.md"
+        "doc/JSON/JSON_STYLE.md",
+        "data/json/items/magazine/223.json",
+        "data/json/obsoletion_and_migration_0.J/migration_items.json"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c",
+      "source_fingerprint": "5b67897003c0813837e0056fe74622b928c35fe00e209ce4a2a41edb5b7a0a23",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "064b6baa1bada5f30ec70b61fba951446e14d965",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "011b017522ac8f0fe674d25c2f3f6729ee36910b59b50abb94d54402ccefd8b1",
+      "translation_source_fingerprint": "a739a6a98b48c2c2f37ae6df1ce306295bf5f7a2751f423eb5abbfb9965b8c68",
       "prerequisites": [
         "json.overview"
       ],
@@ -9461,21 +10007,24 @@
         "src/generic_factory.h",
         "tests/json_load_test.cpp",
         "doc/JSON/JSON_INHERITANCE.md",
-        "doc/JSON/JSON_STYLE.md"
+        "doc/JSON/JSON_STYLE.md",
+        "src/item_factory.cpp",
+        "src/ballistics.cpp",
+        "doc/JSON/ITEM.md"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c",
+      "source_fingerprint": "134be158bba0c4aa5e155cce4989db6397ddee95156090e86c2c6369dbc29c89",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "9626297348a55661ae1c37ffa3dee43060440c58",
+      "verified_at": "2026-11-13",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c",
+      "translation_source_fingerprint": "72fea1f5abae2802e936ffcb671612d807d92d803af9c964b7f67f5d3ffbfb7d",
       "prerequisites": [
         "architecture.project-map"
       ],
@@ -9527,21 +10076,24 @@
         "src/generic_factory.h",
         "tests/json_load_test.cpp",
         "doc/JSON/JSON_INHERITANCE.md",
-        "doc/JSON/JSON_STYLE.md"
+        "doc/JSON/JSON_STYLE.md",
+        "src/item_factory.cpp",
+        "src/ballistics.cpp",
+        "doc/JSON/ITEM.md"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c",
+      "source_fingerprint": "134be158bba0c4aa5e155cce4989db6397ddee95156090e86c2c6369dbc29c89",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "9626297348a55661ae1c37ffa3dee43060440c58",
+      "verified_at": "2026-11-13",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "acd6ddc4533d3b9348f415bf68b73c99618943000d5e045eec4d1113a560ef7c",
+      "translation_source_fingerprint": "72fea1f5abae2802e936ffcb671612d807d92d803af9c964b7f67f5d3ffbfb7d",
       "prerequisites": [
         "architecture.project-map"
       ],
@@ -9563,6 +10115,138 @@
       "stale_reason": null,
       "path": "json/overview.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/"
+    },
+    {
+      "id": "json.upstream-authoring-notes",
+      "title": "Draft: upstream JSON documentation corrections",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "src/iuse_actor.cpp",
+        "src/recipe.cpp",
+        "src/item_factory.cpp"
+      ],
+      "source_symbols": [
+        "molle_attach_actor::load",
+        "molle_detach_actor::load",
+        "batch_savings::deserialize"
+      ],
+      "source_queries": [
+        "ignore_sheet_thickness",
+        "cover_melee",
+        "batch_time_factors"
+      ],
+      "source_fingerprint": "b2484fe56acbc5d5ada896e3263c50e2ffd68595c3c2e31aec525a15f97ce116",
+      "authority": "api-contract",
+      "verified_commit": "6a0c46788f43ef37269cd742e0a6147b4f55e96e",
+      "verified_at": "2026-10-14",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "5affaa285f4be6bfb8755a893b375006ecbb0ccb1d90db51801a0124c6f2a220",
+      "prerequisites": [
+        "reference.json-object-types"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; parser registrations, inventories, and tests remain authoritative.",
+      "example_validation_ids": [],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "eoc",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "json/upstream-authoring-notes.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/upstream-authoring-notes/"
+    },
+    {
+      "id": "json.upstream-authoring-notes",
+      "title": "上游 JSON 文档勘误的 CCB 适配草稿",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "new-contributor",
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 60,
+      "last_human_reviewer": "LYHGLYTX",
+      "source_paths": [
+        "src/iuse_actor.cpp",
+        "src/recipe.cpp",
+        "src/item_factory.cpp"
+      ],
+      "source_symbols": [
+        "molle_attach_actor::load",
+        "molle_detach_actor::load",
+        "batch_savings::deserialize"
+      ],
+      "source_queries": [
+        "ignore_sheet_thickness",
+        "cover_melee",
+        "batch_time_factors"
+      ],
+      "source_fingerprint": "b2484fe56acbc5d5ada896e3263c50e2ffd68595c3c2e31aec525a15f97ce116",
+      "authority": "api-contract",
+      "verified_commit": "6a0c46788f43ef37269cd742e0a6147b4f55e96e",
+      "verified_at": "2026-10-14",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "5affaa285f4be6bfb8755a893b375006ecbb0ccb1d90db51801a0124c6f2a220",
+      "prerequisites": [
+        "reference.json-object-types"
+      ],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; parser registrations, inventories, and tests remain authoritative.",
+      "example_validation_ids": [],
+      "api_version": "contract-inventory-v1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "eoc",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "json/upstream-authoring-notes.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/upstream-authoring-notes/"
     },
     {
       "id": "json.validation",
@@ -9593,21 +10277,28 @@
         "src/generic_factory.h",
         "tests/json_load_test.cpp",
         "doc/JSON/JSON_INHERITANCE.md",
-        "doc/JSON/JSON_STYLE.md"
+        "doc/JSON/JSON_STYLE.md",
+        "src/sling.cpp",
+        "src/ballistics.cpp",
+        "src/ranged.cpp",
+        "tests/staff_sling_test.cpp",
+        "tests/shotgun_tubes_test.cpp",
+        "tools/agent/generate_lua_first_replacement_ledger.py",
+        "tools/agent/check_lua_first_replacement_ledger.py"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c",
+      "source_fingerprint": "784d00ad7b17d742d93df409e3157ea2e6caaa89b5961d07996f99b4163cbd24",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "34200a2ffcdaaf925cf2381bf900d2c753cd1a6c",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3",
+      "translation_source_fingerprint": "54889c9b658a71a6f61db044ee1618de4612b6ecf0740401c1fac047c129eafc",
       "prerequisites": [
         "json.overview"
       ],
@@ -9662,21 +10353,28 @@
         "src/generic_factory.h",
         "tests/json_load_test.cpp",
         "doc/JSON/JSON_INHERITANCE.md",
-        "doc/JSON/JSON_STYLE.md"
+        "doc/JSON/JSON_STYLE.md",
+        "src/sling.cpp",
+        "src/ballistics.cpp",
+        "src/ranged.cpp",
+        "tests/staff_sling_test.cpp",
+        "tests/shotgun_tubes_test.cpp",
+        "tools/agent/generate_lua_first_replacement_ledger.py",
+        "tools/agent/check_lua_first_replacement_ledger.py"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "d4736958a65401eacd855859ce5668adf6b7de5ae4cbd2d5c85cd7b4c959994c",
+      "source_fingerprint": "784d00ad7b17d742d93df409e3157ea2e6caaa89b5961d07996f99b4163cbd24",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "34200a2ffcdaaf925cf2381bf900d2c753cd1a6c",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "54da0baf1d3372e2c1bcdb6e0daa5c2ba4dd324e840733ba6a4366f9a73283f3",
+      "translation_source_fingerprint": "54889c9b658a71a6f61db044ee1618de4612b6ecf0740401c1fac047c129eafc",
       "prerequisites": [
         "json.overview"
       ],
@@ -9974,21 +10672,22 @@
         "Makefile",
         "data/reference/json/ccb_json_object_types.json",
         "data/reference/json/ccb_eoc_conditions.json",
-        "data/reference/json/ccb_eoc_effects.json"
+        "data/reference/json/ccb_eoc_effects.json",
+        "data/mods/railroads/README.md"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "07702c94c6abf44a4ce57494f396a161ccbd4e8a072625d8731c2d659ddd75b6",
+      "source_fingerprint": "b40ba2d158de84941b029fa19c214aef0dd1f40285cea5c18168ae14783ab192",
       "authority": "source-and-tests",
-      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
-      "verified_at": "2026-08-02",
+      "verified_commit": "964d6e96b53d896d46fb130014b93b9791c909d9",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "6ded0b43085f4eef208e8256f7d9d497323f2dba7a085068a440d48be7a306c8",
+      "translation_source_fingerprint": "38fb8761cb798c7e3358c1eba492907d2005f076be0902b1a1ee19ec7da509cb",
       "prerequisites": [
         "json.overview",
         "eoc.overview"
@@ -10044,21 +10743,22 @@
         "Makefile",
         "data/reference/json/ccb_json_object_types.json",
         "data/reference/json/ccb_eoc_conditions.json",
-        "data/reference/json/ccb_eoc_effects.json"
+        "data/reference/json/ccb_eoc_effects.json",
+        "data/mods/railroads/README.md"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "07702c94c6abf44a4ce57494f396a161ccbd4e8a072625d8731c2d659ddd75b6",
+      "source_fingerprint": "b40ba2d158de84941b029fa19c214aef0dd1f40285cea5c18168ae14783ab192",
       "authority": "source-and-tests",
-      "verified_commit": "d32b9cc880a85480840d82cfa05d256c78a16615",
-      "verified_at": "2026-08-02",
+      "verified_commit": "964d6e96b53d896d46fb130014b93b9791c909d9",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "6ded0b43085f4eef208e8256f7d9d497323f2dba7a085068a440d48be7a306c8",
+      "translation_source_fingerprint": "38fb8761cb798c7e3358c1eba492907d2005f076be0902b1a1ee19ec7da509cb",
       "prerequisites": [
         "json.overview",
         "eoc.overview"
@@ -10085,6 +10785,122 @@
       "stale_reason": null,
       "path": "mods/complete-json-eoc-mod.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/"
+    },
+    {
+      "id": "mods.upstream-content-sync",
+      "title": "Draft: core and bundled Mod content synchronization",
+      "language": "en",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "Pending human review",
+      "source_paths": [
+        "data/json/mapgen/netherum/labyrinth_earth.json",
+        "data/json/region_settings/region_settings/regional_map_settings.json",
+        "data/mods/MindOverMatter/dimensions/shoggothed_world/region_settings.json",
+        "data/upstream-changelog-20260921-20260928.txt"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "529cab08c982dc2364c967e7c0b522069ff08879567eea35c94192ec07069d63",
+      "authority": "api-contract",
+      "verified_commit": "2c73fb184dc65321ffd1a10c8359949ac63e1205",
+      "verified_at": "2026-11-14",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "072e461e95c1d2fb3ed904f0b98c2469a8808ee67eab57fa90beeb9ac4b30326",
+      "prerequisites": [],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "lua-contract"
+      ],
+      "api_version": "1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "mods/upstream-content-sync.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/upstream-content-sync/"
+    },
+    {
+      "id": "mods.upstream-content-sync",
+      "title": "核心与随附 Mod 数据同步草稿",
+      "language": "zh_CN",
+      "status": "draft",
+      "doc_type": "reference",
+      "audiences": [
+        "experienced-contributor",
+        "maintainer",
+        "mod-author",
+        "api-user"
+      ],
+      "owners": [
+        "CCB maintainers"
+      ],
+      "reviewers": [
+        "Documentation reviewers"
+      ],
+      "review_interval_days": 90,
+      "last_human_reviewer": "Pending human review",
+      "source_paths": [
+        "data/json/mapgen/netherum/labyrinth_earth.json",
+        "data/json/region_settings/region_settings/regional_map_settings.json",
+        "data/mods/MindOverMatter/dimensions/shoggothed_world/region_settings.json",
+        "data/upstream-changelog-20260921-20260928.txt"
+      ],
+      "source_symbols": [],
+      "source_queries": [],
+      "source_fingerprint": "529cab08c982dc2364c967e7c0b522069ff08879567eea35c94192ec07069d63",
+      "authority": "api-contract",
+      "verified_commit": "2c73fb184dc65321ffd1a10c8359949ac63e1205",
+      "verified_at": "2026-11-14",
+      "generated": false,
+      "generated_by": null,
+      "include_in_search": false,
+      "include_in_ai_index": false,
+      "translation_status": "current",
+      "translation_stale_since": null,
+      "translation_source_fingerprint": "072e461e95c1d2fb3ed904f0b98c2469a8808ee67eab57fa90beeb9ac4b30326",
+      "prerequisites": [],
+      "depends_on": [],
+      "redirect_from": [],
+      "supersedes": [],
+      "license": "CC-BY-SA-3.0",
+      "attribution": "CCB contributors; see source paths and Git history.",
+      "example_validation_ids": [
+        "lua-contract"
+      ],
+      "api_version": "1",
+      "deprecated": false,
+      "deprecation_replacement": null,
+      "risk_group": "lua-api",
+      "risk_level": "high",
+      "pending_source_pr": null,
+      "stale_reason": null,
+      "path": "mods/upstream-content-sync.md",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/upstream-content-sync/"
     },
     {
       "id": "operations.crash-reports",
@@ -10722,7 +11538,7 @@
       "id": "platforms.linux",
       "title": "Linux development",
       "language": "en",
-      "status": "draft",
+      "status": "active",
       "doc_type": "how-to",
       "audiences": [
         "new-contributor",
@@ -10751,12 +11567,12 @@
       ],
       "source_fingerprint": "abe5b45a8d3024027e643dd8b0797a20967055098488185be3475fbcb377962e",
       "authority": "build-config",
-      "verified_commit": "7d65b4eff3d92393e659699a312b694f0e72d2cb",
-      "verified_at": "2026-10-11",
+      "verified_commit": "27d8ba1776f0cda979048c562a2379d4393beb80",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
-      "include_in_search": false,
-      "include_in_ai_index": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
       "translation_source_fingerprint": "b35fb53e6d6883e1d78329e7096e78927b197bb182ae3e67c465c9066ce61458",
@@ -10780,7 +11596,7 @@
       "deprecation_replacement": null,
       "risk_group": "platforms-linux",
       "risk_level": "normal",
-      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
+      "pending_source_pr": null,
       "stale_reason": null,
       "path": "platforms/linux.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/"
@@ -10789,7 +11605,7 @@
       "id": "platforms.linux",
       "title": "Linux 开发",
       "language": "zh_CN",
-      "status": "draft",
+      "status": "active",
       "doc_type": "how-to",
       "audiences": [
         "new-contributor",
@@ -10818,12 +11634,12 @@
       ],
       "source_fingerprint": "abe5b45a8d3024027e643dd8b0797a20967055098488185be3475fbcb377962e",
       "authority": "build-config",
-      "verified_commit": "7d65b4eff3d92393e659699a312b694f0e72d2cb",
-      "verified_at": "2026-10-11",
+      "verified_commit": "27d8ba1776f0cda979048c562a2379d4393beb80",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
-      "include_in_search": false,
-      "include_in_ai_index": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
       "translation_source_fingerprint": "b35fb53e6d6883e1d78329e7096e78927b197bb182ae3e67c465c9066ce61458",
@@ -10847,7 +11663,7 @@
       "deprecation_replacement": null,
       "risk_group": "platforms-linux",
       "risk_level": "normal",
-      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
+      "pending_source_pr": null,
       "stale_reason": null,
       "path": "platforms/linux.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/"
@@ -10856,7 +11672,7 @@
       "id": "platforms.matrix",
       "title": "Platform matrix",
       "language": "en",
-      "status": "draft",
+      "status": "active",
       "doc_type": "reference",
       "audiences": [
         "new-contributor",
@@ -10885,12 +11701,12 @@
       "source_queries": [],
       "source_fingerprint": "3af89901fb085d31b24e3b4ddf1bf2bbc90275acb78acafff4d1cce77922e6e2",
       "authority": "build-config",
-      "verified_commit": "7d65b4eff3d92393e659699a312b694f0e72d2cb",
-      "verified_at": "2026-10-11",
+      "verified_commit": "27d8ba1776f0cda979048c562a2379d4393beb80",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
-      "include_in_search": false,
-      "include_in_ai_index": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
       "translation_source_fingerprint": "479d980e5f008a8893ca4c1282505d3488c96fd9c25c4412bb29beb7bb85002f",
@@ -10911,7 +11727,7 @@
       "deprecation_replacement": null,
       "risk_group": "platforms",
       "risk_level": "high",
-      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
+      "pending_source_pr": null,
       "stale_reason": null,
       "path": "platforms/matrix.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/"
@@ -10920,7 +11736,7 @@
       "id": "platforms.matrix",
       "title": "平台矩阵",
       "language": "zh_CN",
-      "status": "draft",
+      "status": "active",
       "doc_type": "reference",
       "audiences": [
         "new-contributor",
@@ -10949,12 +11765,12 @@
       "source_queries": [],
       "source_fingerprint": "3af89901fb085d31b24e3b4ddf1bf2bbc90275acb78acafff4d1cce77922e6e2",
       "authority": "build-config",
-      "verified_commit": "7d65b4eff3d92393e659699a312b694f0e72d2cb",
-      "verified_at": "2026-10-11",
+      "verified_commit": "27d8ba1776f0cda979048c562a2379d4393beb80",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
-      "include_in_search": false,
-      "include_in_ai_index": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
       "translation_source_fingerprint": "479d980e5f008a8893ca4c1282505d3488c96fd9c25c4412bb29beb7bb85002f",
@@ -10975,7 +11791,7 @@
       "deprecation_replacement": null,
       "risk_group": "platforms",
       "risk_level": "high",
-      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
+      "pending_source_pr": null,
       "stale_reason": null,
       "path": "platforms/matrix.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/"
@@ -10984,7 +11800,7 @@
       "id": "platforms.msvc",
       "title": "MSVC and vcpkg",
       "language": "en",
-      "status": "draft",
+      "status": "active",
       "doc_type": "how-to",
       "audiences": [
         "experienced-contributor",
@@ -11013,12 +11829,12 @@
       ],
       "source_fingerprint": "b5bd59ffe6061a3c7818da7be3ad88b95755843829de165a1801b5a2650c5ad0",
       "authority": "build-config",
-      "verified_commit": "7d65b4eff3d92393e659699a312b694f0e72d2cb",
-      "verified_at": "2026-10-11",
+      "verified_commit": "27d8ba1776f0cda979048c562a2379d4393beb80",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
-      "include_in_search": false,
-      "include_in_ai_index": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
       "translation_source_fingerprint": "d759f841a8e8f174ae8a4820487c8073ccda3010120bb90a008ed86465bf2003",
@@ -11039,7 +11855,7 @@
       "deprecation_replacement": null,
       "risk_group": "platforms-windows",
       "risk_level": "high",
-      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
+      "pending_source_pr": null,
       "stale_reason": null,
       "path": "platforms/msvc.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/"
@@ -11048,7 +11864,7 @@
       "id": "platforms.msvc",
       "title": "MSVC 与 vcpkg",
       "language": "zh_CN",
-      "status": "draft",
+      "status": "active",
       "doc_type": "how-to",
       "audiences": [
         "experienced-contributor",
@@ -11077,12 +11893,12 @@
       ],
       "source_fingerprint": "b5bd59ffe6061a3c7818da7be3ad88b95755843829de165a1801b5a2650c5ad0",
       "authority": "build-config",
-      "verified_commit": "7d65b4eff3d92393e659699a312b694f0e72d2cb",
-      "verified_at": "2026-10-11",
+      "verified_commit": "27d8ba1776f0cda979048c562a2379d4393beb80",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
-      "include_in_search": false,
-      "include_in_ai_index": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
       "translation_source_fingerprint": "d759f841a8e8f174ae8a4820487c8073ccda3010120bb90a008ed86465bf2003",
@@ -11103,7 +11919,7 @@
       "deprecation_replacement": null,
       "risk_group": "platforms-windows",
       "risk_level": "high",
-      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
+      "pending_source_pr": null,
       "stale_reason": null,
       "path": "platforms/msvc.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/"
@@ -11112,7 +11928,7 @@
       "id": "platforms.msys2",
       "title": "MSYS2 and MinGW",
       "language": "en",
-      "status": "draft",
+      "status": "active",
       "doc_type": "how-to",
       "audiences": [
         "new-contributor",
@@ -11137,14 +11953,14 @@
       "source_queries": [
         "windows-x64"
       ],
-      "source_fingerprint": "e0d575911300ee3881e0b77aa62a39685e5cf7524a82f55ae2a5088bb4ea7cd9",
+      "source_fingerprint": "e32aff789fb32745f4430b0bf4cb82ac16c27b1498001f9fb4b77fc0122349f9",
       "authority": "build-config",
-      "verified_commit": "75f90e0741588679986b2867923e8a500678cd86",
-      "verified_at": "2026-10-12",
+      "verified_commit": "67f0d0e240aef6c127012a5ea945b70bdf473072",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
-      "include_in_search": false,
-      "include_in_ai_index": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
       "translation_source_fingerprint": "438403074a5c48398e9616f9de1eb24d61926e32f53d1b27425896490302d2dd",
@@ -11165,7 +11981,7 @@
       "deprecation_replacement": null,
       "risk_group": "platforms-windows",
       "risk_level": "high",
-      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
+      "pending_source_pr": null,
       "stale_reason": null,
       "path": "platforms/msys2.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/"
@@ -11174,7 +11990,7 @@
       "id": "platforms.msys2",
       "title": "MSYS2 与 MinGW",
       "language": "zh_CN",
-      "status": "draft",
+      "status": "active",
       "doc_type": "how-to",
       "audiences": [
         "new-contributor",
@@ -11199,14 +12015,14 @@
       "source_queries": [
         "windows-x64"
       ],
-      "source_fingerprint": "e0d575911300ee3881e0b77aa62a39685e5cf7524a82f55ae2a5088bb4ea7cd9",
+      "source_fingerprint": "e32aff789fb32745f4430b0bf4cb82ac16c27b1498001f9fb4b77fc0122349f9",
       "authority": "build-config",
-      "verified_commit": "75f90e0741588679986b2867923e8a500678cd86",
-      "verified_at": "2026-10-12",
+      "verified_commit": "67f0d0e240aef6c127012a5ea945b70bdf473072",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
-      "include_in_search": false,
-      "include_in_ai_index": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
       "translation_source_fingerprint": "438403074a5c48398e9616f9de1eb24d61926e32f53d1b27425896490302d2dd",
@@ -11227,7 +12043,7 @@
       "deprecation_replacement": null,
       "risk_group": "platforms-windows",
       "risk_level": "high",
-      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
+      "pending_source_pr": null,
       "stale_reason": null,
       "path": "platforms/msys2.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/"
@@ -11236,7 +12052,7 @@
       "id": "platforms.ui",
       "title": "UI platform matrix",
       "language": "en",
-      "status": "draft",
+      "status": "active",
       "doc_type": "reference",
       "audiences": [
         "experienced-contributor",
@@ -11266,12 +12082,12 @@
       "source_queries": [],
       "source_fingerprint": "8ff82f8da6559a83a43ed66a2f15903cfbda4407649fc32625f4c92975cbd4da",
       "authority": "source-and-tests",
-      "verified_commit": "d2a99d7a74b792ae953acc5ba98d93ab4de65e92",
-      "verified_at": "2026-10-11",
+      "verified_commit": "27d8ba1776f0cda979048c562a2379d4393beb80",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
-      "include_in_search": false,
-      "include_in_ai_index": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
       "translation_source_fingerprint": "349a7f7b769231e70b9b2b7275982033c51fd515d3c2817558a56ceed1a2594f",
@@ -11294,7 +12110,7 @@
       "deprecation_replacement": null,
       "risk_group": "platforms-ui",
       "risk_level": "high",
-      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
+      "pending_source_pr": null,
       "stale_reason": null,
       "path": "platforms/ui.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/"
@@ -11303,7 +12119,7 @@
       "id": "platforms.ui",
       "title": "UI 平台矩阵",
       "language": "zh_CN",
-      "status": "draft",
+      "status": "active",
       "doc_type": "reference",
       "audiences": [
         "experienced-contributor",
@@ -11333,12 +12149,12 @@
       "source_queries": [],
       "source_fingerprint": "8ff82f8da6559a83a43ed66a2f15903cfbda4407649fc32625f4c92975cbd4da",
       "authority": "source-and-tests",
-      "verified_commit": "d2a99d7a74b792ae953acc5ba98d93ab4de65e92",
-      "verified_at": "2026-10-11",
+      "verified_commit": "27d8ba1776f0cda979048c562a2379d4393beb80",
+      "verified_at": "2026-11-14",
       "generated": false,
       "generated_by": null,
-      "include_in_search": false,
-      "include_in_ai_index": false,
+      "include_in_search": true,
+      "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
       "translation_source_fingerprint": "349a7f7b769231e70b9b2b7275982033c51fd515d3c2817558a56ceed1a2594f",
@@ -11361,7 +12177,7 @@
       "deprecation_replacement": null,
       "risk_group": "platforms-ui",
       "risk_level": "high",
-      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987",
+      "pending_source_pr": null,
       "stale_reason": null,
       "path": "platforms/ui.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/"
@@ -11644,17 +12460,17 @@
         "conditional_t::conditional_t"
       ],
       "source_queries": [],
-      "source_fingerprint": "86703a8d02d00e3124d40ad05263ab9988f7739745c78bf0fde928f43bde63a8",
+      "source_fingerprint": "db430b0ac378553f51bf432ddca0147bf658e8fe8c566848358eb055a1005393",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "7eec168e0177181990aaa9ebb5e774172d004522",
+      "verified_at": "2026-11-07",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "23b8363116cec96c0c361fa3919ebac4c8f9f1596cd044b3330948cbbeced065",
+      "translation_source_fingerprint": "de637b42a9051280a69bc823cf81409668fbc7ad6969736b98246416940c468d",
       "prerequisites": [
         "eoc.overview"
       ],
@@ -11704,17 +12520,17 @@
         "conditional_t::conditional_t"
       ],
       "source_queries": [],
-      "source_fingerprint": "86703a8d02d00e3124d40ad05263ab9988f7739745c78bf0fde928f43bde63a8",
+      "source_fingerprint": "db430b0ac378553f51bf432ddca0147bf658e8fe8c566848358eb055a1005393",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "7eec168e0177181990aaa9ebb5e774172d004522",
+      "verified_at": "2026-11-07",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "23b8363116cec96c0c361fa3919ebac4c8f9f1596cd044b3330948cbbeced065",
+      "translation_source_fingerprint": "de637b42a9051280a69bc823cf81409668fbc7ad6969736b98246416940c468d",
       "prerequisites": [
         "eoc.overview"
       ],
@@ -11765,17 +12581,17 @@
         "talk_effect_t::parse_string_effect"
       ],
       "source_queries": [],
-      "source_fingerprint": "663fff8aceec48e5f21eb548edbf5068c6ae3175094ad280a9f635375337db5f",
+      "source_fingerprint": "5dd19b0b95eb3955ddb6aa57edf810106fc211bc43bd88bd4b6cfd2e99fa4e66",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "7eec168e0177181990aaa9ebb5e774172d004522",
+      "verified_at": "2026-11-07",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "0b0600c0494b57218f60c7346aa6a20a2a0e995fb71a330e374920c5e3d1e19a",
+      "translation_source_fingerprint": "162aad057ee8e6ebf72b9a13d1a8ff3752102f183538bf29628881226f9e9ac2",
       "prerequisites": [
         "eoc.overview"
       ],
@@ -11826,17 +12642,17 @@
         "talk_effect_t::parse_string_effect"
       ],
       "source_queries": [],
-      "source_fingerprint": "663fff8aceec48e5f21eb548edbf5068c6ae3175094ad280a9f635375337db5f",
+      "source_fingerprint": "5dd19b0b95eb3955ddb6aa57edf810106fc211bc43bd88bd4b6cfd2e99fa4e66",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "7eec168e0177181990aaa9ebb5e774172d004522",
+      "verified_at": "2026-11-07",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "0b0600c0494b57218f60c7346aa6a20a2a0e995fb71a330e374920c5e3d1e19a",
+      "translation_source_fingerprint": "162aad057ee8e6ebf72b9a13d1a8ff3752102f183538bf29628881226f9e9ac2",
       "prerequisites": [
         "eoc.overview"
       ],
@@ -11886,17 +12702,17 @@
         "DynamicDataLoader::initialize"
       ],
       "source_queries": [],
-      "source_fingerprint": "6fcd9eedee8650f4d8a84330e61eb679e2798363db415c80b83260285c974cda",
+      "source_fingerprint": "0dd9bd16578af3de768ce9594ba8bba7e05819658738aee13ae2629169af2fd3",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "7eec168e0177181990aaa9ebb5e774172d004522",
+      "verified_at": "2026-11-07",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "093580aa01cee68d522f0ecc7d7249b4be0a0364912043fad42983125304c846",
+      "translation_source_fingerprint": "20a220db6360049dee16decb45f79a7ae16eab0183b50559684f94560ced80c9",
       "prerequisites": [
         "json.overview"
       ],
@@ -11946,17 +12762,17 @@
         "DynamicDataLoader::initialize"
       ],
       "source_queries": [],
-      "source_fingerprint": "6fcd9eedee8650f4d8a84330e61eb679e2798363db415c80b83260285c974cda",
+      "source_fingerprint": "0dd9bd16578af3de768ce9594ba8bba7e05819658738aee13ae2629169af2fd3",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "7eec168e0177181990aaa9ebb5e774172d004522",
+      "verified_at": "2026-11-07",
       "generated": true,
       "generated_by": "scripts/generate_json_eoc_reference.py",
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "093580aa01cee68d522f0ecc7d7249b4be0a0364912043fad42983125304c846",
+      "translation_source_fingerprint": "20a220db6360049dee16decb45f79a7ae16eab0183b50559684f94560ced80c9",
       "prerequisites": [
         "json.overview"
       ],
@@ -13956,6 +14772,10 @@
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/crafting/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/crafting/"
     },
+    "cpp.crafting-reservations-sync": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/crafting-reservations-sync/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/crafting-reservations-sync/"
+    },
     "cpp.creatures": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/creatures/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/creatures/"
@@ -14020,9 +14840,17 @@
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/save/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/save/"
     },
+    "cpp.sdl3-render-sync": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/sdl3-render-sync/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/sdl3-render-sync/"
+    },
     "cpp.ui": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/ui/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/ui/"
+    },
+    "cpp.upstream-native-sync": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/upstream-native-sync/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/upstream-native-sync/"
     },
     "cpp.vehicles": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/vehicles/",
@@ -14039,6 +14867,10 @@
     "eoc.talkers": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/"
+    },
+    "eoc.upstream-math-compatibility": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/upstream-math-compatibility/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/upstream-math-compatibility/"
     },
     "eoc.variables-context": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/",
@@ -14072,6 +14904,10 @@
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/"
     },
+    "json.upstream-authoring-notes": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/upstream-authoring-notes/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/upstream-authoring-notes/"
+    },
     "json.validation": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/"
@@ -14087,6 +14923,10 @@
     "mods.complete-json-eoc-mod": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
       "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/"
+    },
+    "mods.upstream-content-sync": {
+      "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/upstream-content-sync/",
+      "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/upstream-content-sync/"
     },
     "operations.crash-reports": {
       "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/operations/crash-reports/",
@@ -14212,6 +15052,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystem-map/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/mods/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/save/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/ai-assisted-development/",
@@ -14243,6 +15084,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystem-map/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/mods/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/save/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/ai-assisted-development/",
@@ -14287,6 +15129,11 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/performance-profiling/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/android/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
@@ -14319,6 +15166,11 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/performance-profiling/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/android/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
@@ -14340,6 +15192,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystem-map/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/mods/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/save/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/ai-assisted-development/",
@@ -14371,6 +15224,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystem-map/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/mods/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/save/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/ai-assisted-development/",
@@ -14415,6 +15269,11 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/performance-profiling/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/android/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
@@ -14447,6 +15306,11 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/performance-profiling/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/android/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
@@ -14468,6 +15332,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/project-map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystem-map/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/mods/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/compatibility/save/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/ai-assisted-development/",
@@ -14499,6 +15364,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/project-map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystem-map/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/mods/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/compatibility/save/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/ai-assisted-development/",
@@ -14543,6 +15409,11 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/performance-profiling/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/android/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
@@ -14575,6 +15446,11 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/performance-profiling/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/android/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/windows/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/wsl/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
@@ -14620,10 +15496,12 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/api/lua/v5/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/core-engine-lifecycle/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystems-deep-dive/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/contributing/core-dev-guide/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/crafting-reservations-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/native-binding-guide/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/sdl3-render-sync/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/upstream-native-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/capabilities/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/changelog/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/cookbook/items/",
@@ -14654,26 +15532,24 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/api/lua/v5/ui/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/core-engine-lifecycle/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystems-deep-dive/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/contributing/core-dev-guide/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/crafting-reservations-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/native-binding-guide/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/sdl3-render-sync/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/upstream-native-sync/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/upstream-math-compatibility/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/upstream-authoring-notes/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/upstream-content-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/combat/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/items/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/map/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/vehicles/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/upstream-math-compatibility/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/json/upstream-authoring-notes/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/mods/upstream-content-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/combat/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/items/",
@@ -14897,6 +15773,13 @@
         "path": "contributing/documentation-policy.md"
       },
       {
+        "id": "build.overview",
+        "title": "构建 CCB",
+        "section": "构建",
+        "order": 40,
+        "path": "build/overview.md"
+      },
+      {
         "id": "validation.quickstart",
         "title": "验证快速入门",
         "section": "验证",
@@ -14918,11 +15801,39 @@
         "path": "validation/debugging.md"
       },
       {
+        "id": "platforms.matrix",
+        "title": "平台矩阵",
+        "section": "平台",
+        "order": 50,
+        "path": "platforms/matrix.md"
+      },
+      {
+        "id": "platforms.linux",
+        "title": "Linux 开发",
+        "section": "平台",
+        "order": 51,
+        "path": "platforms/linux.md"
+      },
+      {
         "id": "platforms.windows",
         "title": "Windows 开发",
         "section": "平台",
         "order": 52,
         "path": "platforms/windows.md"
+      },
+      {
+        "id": "platforms.msys2",
+        "title": "MSYS2 与 MinGW",
+        "section": "平台",
+        "order": 53,
+        "path": "platforms/msys2.md"
+      },
+      {
+        "id": "platforms.msvc",
+        "title": "MSVC 与 vcpkg",
+        "section": "平台",
+        "order": 54,
+        "path": "platforms/msvc.md"
       },
       {
         "id": "platforms.wsl",
@@ -14937,6 +15848,13 @@
         "section": "平台",
         "order": 56,
         "path": "platforms/android.md"
+      },
+      {
+        "id": "platforms.ui",
+        "title": "UI 平台矩阵",
+        "section": "平台",
+        "order": 57,
+        "path": "platforms/ui.md"
       },
       {
         "id": "compatibility.save",
@@ -15410,6 +16328,13 @@
         "path": "contributing/documentation-policy.md"
       },
       {
+        "id": "build.overview",
+        "title": "Building CCB",
+        "section": "Build",
+        "order": 40,
+        "path": "build/overview.md"
+      },
+      {
         "id": "validation.quickstart",
         "title": "Validation quickstart",
         "section": "Validation",
@@ -15431,11 +16356,39 @@
         "path": "validation/debugging.md"
       },
       {
+        "id": "platforms.matrix",
+        "title": "Platform matrix",
+        "section": "Platforms",
+        "order": 50,
+        "path": "platforms/matrix.md"
+      },
+      {
+        "id": "platforms.linux",
+        "title": "Linux development",
+        "section": "Platforms",
+        "order": 51,
+        "path": "platforms/linux.md"
+      },
+      {
         "id": "platforms.windows",
         "title": "Windows development",
         "section": "Platforms",
         "order": 52,
         "path": "platforms/windows.md"
+      },
+      {
+        "id": "platforms.msys2",
+        "title": "MSYS2 and MinGW",
+        "section": "Platforms",
+        "order": 53,
+        "path": "platforms/msys2.md"
+      },
+      {
+        "id": "platforms.msvc",
+        "title": "MSVC and vcpkg",
+        "section": "Platforms",
+        "order": 54,
+        "path": "platforms/msvc.md"
       },
       {
         "id": "platforms.wsl",
@@ -15450,6 +16403,13 @@
         "section": "Platforms",
         "order": 56,
         "path": "platforms/android.md"
+      },
+      {
+        "id": "platforms.ui",
+        "title": "UI platform matrix",
+        "section": "Platforms",
+        "order": 57,
+        "path": "platforms/ui.md"
       },
       {
         "id": "compatibility.save",
@@ -15921,6 +16881,28 @@
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/architecture/subsystems-deep-dive/",
         "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/architecture/subsystems-deep-dive/"
+      }
+    },
+    {
+      "id": "build.overview",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/",
+      "last_verified": "2026-11-14",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/"
+      }
+    },
+    {
+      "id": "build.overview",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
+      "last_verified": "2026-11-14",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/build/overview/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/build/overview/"
       }
     },
     {
@@ -16587,7 +17569,7 @@
       "id": "eoc.variables-context",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/variables-context/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-10-04",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/",
@@ -16598,7 +17580,7 @@
       "id": "eoc.variables-context",
       "language": "zh_CN",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-10-04",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/variables-context/",
@@ -16719,7 +17701,7 @@
       "id": "json.inheritance-copy-from",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/inheritance-copy-from/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-11-14",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/",
@@ -16730,7 +17712,7 @@
       "id": "json.inheritance-copy-from",
       "language": "zh_CN",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-11-14",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/",
@@ -16741,7 +17723,7 @@
       "id": "json.overview",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-11-13",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/",
@@ -16752,7 +17734,7 @@
       "id": "json.overview",
       "language": "zh_CN",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-11-13",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/",
@@ -16763,7 +17745,7 @@
       "id": "json.validation",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-11-14",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
@@ -16774,7 +17756,7 @@
       "id": "json.validation",
       "language": "zh_CN",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-11-14",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
@@ -16829,7 +17811,7 @@
       "id": "mods.complete-json-eoc-mod",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/",
-      "last_verified": "2026-08-02",
+      "last_verified": "2026-11-14",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
@@ -16840,7 +17822,7 @@
       "id": "mods.complete-json-eoc-mod",
       "language": "zh_CN",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
-      "last_verified": "2026-08-02",
+      "last_verified": "2026-11-14",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
@@ -16958,6 +17940,116 @@
       }
     },
     {
+      "id": "platforms.linux",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/",
+      "last_verified": "2026-11-14",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/"
+      }
+    },
+    {
+      "id": "platforms.linux",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
+      "last_verified": "2026-11-14",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/linux/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/linux/"
+      }
+    },
+    {
+      "id": "platforms.matrix",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/",
+      "last_verified": "2026-11-14",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/"
+      }
+    },
+    {
+      "id": "platforms.matrix",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
+      "last_verified": "2026-11-14",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/"
+      }
+    },
+    {
+      "id": "platforms.msvc",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/",
+      "last_verified": "2026-11-14",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/"
+      }
+    },
+    {
+      "id": "platforms.msvc",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
+      "last_verified": "2026-11-14",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msvc/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msvc/"
+      }
+    },
+    {
+      "id": "platforms.msys2",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/",
+      "last_verified": "2026-11-14",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/"
+      }
+    },
+    {
+      "id": "platforms.msys2",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
+      "last_verified": "2026-11-14",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/msys2/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/msys2/"
+      }
+    },
+    {
+      "id": "platforms.ui",
+      "language": "en",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/",
+      "last_verified": "2026-11-14",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/"
+      }
+    },
+    {
+      "id": "platforms.ui",
+      "language": "zh_CN",
+      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
+      "last_verified": "2026-11-14",
+      "status": "active",
+      "alternate": {
+        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/",
+        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/"
+      }
+    },
+    {
       "id": "platforms.windows",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/windows/",
@@ -17005,7 +18097,7 @@
       "id": "reference.eoc-conditions",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-conditions/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-11-07",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
@@ -17016,7 +18108,7 @@
       "id": "reference.eoc-conditions",
       "language": "zh_CN",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-11-07",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-conditions/",
@@ -17027,7 +18119,7 @@
       "id": "reference.eoc-effects",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/eoc-effects/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-11-07",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
@@ -17038,7 +18130,7 @@
       "id": "reference.eoc-effects",
       "language": "zh_CN",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-11-07",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/eoc-effects/",
@@ -17049,7 +18141,7 @@
       "id": "reference.json-object-types",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/reference/json-object-types/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-11-07",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
@@ -17060,7 +18152,7 @@
       "id": "reference.json-object-types",
       "language": "zh_CN",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-11-07",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/reference/json-object-types/",

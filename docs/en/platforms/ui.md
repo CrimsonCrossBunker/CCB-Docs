@@ -3,7 +3,7 @@
 id: platforms.ui
 title: UI platform matrix
 language: en
-status: draft
+status: active
 doc_type: reference
 audiences:
 - experienced-contributor
@@ -28,12 +28,12 @@ source_symbols:
 source_queries: []
 source_fingerprint: 8ff82f8da6559a83a43ed66a2f15903cfbda4407649fc32625f4c92975cbd4da
 authority: source-and-tests
-verified_commit: d2a99d7a74b792ae953acc5ba98d93ab4de65e92
-verified_at: '2026-10-11'
+verified_commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+verified_at: '2026-11-14'
 generated: false
 generated_by: null
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 349a7f7b769231e70b9b2b7275982033c51fd515d3c2817558a56ceed1a2594f
@@ -54,7 +54,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: platforms-ui
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/
 alternate_urls:
@@ -62,23 +62,21 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/ui/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/ui/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/d2a99d7a74b792ae953acc5ba98d93ab4de65e92
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/27d8ba1776f0cda979048c562a2379d4393beb80
 source_urls:
 - path: src/ui_manager.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d2a99d7a74b792ae953acc5ba98d93ab4de65e92/src/ui_manager.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/src/ui_manager.h
 - path: src/input_context.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d2a99d7a74b792ae953acc5ba98d93ab4de65e92/src/input_context.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/src/input_context.cpp
 - path: src/sdltiles.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d2a99d7a74b792ae953acc5ba98d93ab4de65e92/src/sdltiles.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/src/sdltiles.h
 - path: android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d2a99d7a74b792ae953acc5ba98d93ab4de65e92/android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/android/app/src/main/java/com/crimsoncrossbunker/cataclysmcb/AndroidUiMode.java
 - path: src/sdltiles.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d2a99d7a74b792ae953acc5ba98d93ab4de65e92/src/sdltiles.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/src/sdltiles.cpp
 - path: data/lua/LUA_FIRST_PLATFORM.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/d2a99d7a74b792ae953acc5ba98d93ab4de65e92/data/lua/LUA_FIRST_PLATFORM.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28platforms.ui%29%3A+&body=Document+ID%3A+platforms.ui%0ALanguage%3A+en%0AVerified+commit%3A+d2a99d7a74b792ae953acc5ba98d93ab4de65e92%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/data/lua/LUA_FIRST_PLATFORM.md
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28platforms.ui%29%3A+&body=Document+ID%3A+platforms.ui%0ALanguage%3A+en%0AVerified+commit%3A+27d8ba1776f0cda979048c562a2379d4393beb80%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # UI platform matrix

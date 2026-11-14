@@ -3,7 +3,7 @@
 id: platforms.matrix
 title: Platform matrix
 language: en
-status: draft
+status: active
 doc_type: reference
 audiences:
 - new-contributor
@@ -28,12 +28,12 @@ source_symbols: []
 source_queries: []
 source_fingerprint: 3af89901fb085d31b24e3b4ddf1bf2bbc90275acb78acafff4d1cce77922e6e2
 authority: build-config
-verified_commit: 7d65b4eff3d92393e659699a312b694f0e72d2cb
-verified_at: '2026-10-11'
+verified_commit: 27d8ba1776f0cda979048c562a2379d4393beb80
+verified_at: '2026-11-14'
 generated: false
 generated_by: null
-include_in_search: false
-include_in_ai_index: false
+include_in_search: true
+include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
 translation_source_fingerprint: 479d980e5f008a8893ca4c1282505d3488c96fd9c25c4412bb29beb7bb85002f
@@ -52,7 +52,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: platforms
 risk_level: high
-pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/987
+pending_source_pr: null
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/
 alternate_urls:
@@ -60,27 +60,25 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/platforms/matrix/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/platforms/matrix/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/7d65b4eff3d92393e659699a312b694f0e72d2cb
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/27d8ba1776f0cda979048c562a2379d4393beb80
 source_urls:
 - path: Makefile
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/Makefile
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/Makefile
 - path: CMakePresets.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/CMakePresets.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/CMakePresets.json
 - path: android/app/build.gradle
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/android/app/build.gradle
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/android/app/build.gradle
 - path: .github/workflows/matrix.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/.github/workflows/matrix.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/.github/workflows/matrix.yml
 - path: .github/workflows/msvc-full-features.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/.github/workflows/msvc-full-features.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/.github/workflows/msvc-full-features.yml
 - path: .github/workflows/sdl3-matrix.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/.github/workflows/sdl3-matrix.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/.github/workflows/sdl3-matrix.yml
 - path: .github/workflows/release.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/.github/workflows/release.yml
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/.github/workflows/release.yml
 - path: .github/actions/setup-sdl3-stack-macos/action.yml
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/7d65b4eff3d92393e659699a312b694f0e72d2cb/.github/actions/setup-sdl3-stack-macos/action.yml
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28platforms.matrix%29%3A+&body=Document+ID%3A+platforms.matrix%0ALanguage%3A+en%0AVerified+commit%3A+7d65b4eff3d92393e659699a312b694f0e72d2cb%0A%0ADescribe+the+documentation+problem%3A%0A
-search:
-  exclude: true
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/27d8ba1776f0cda979048c562a2379d4393beb80/.github/actions/setup-sdl3-stack-macos/action.yml
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28platforms.matrix%29%3A+&body=Document+ID%3A+platforms.matrix%0ALanguage%3A+en%0AVerified+commit%3A+27d8ba1776f0cda979048c562a2379d4393beb80%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # Platform matrix
