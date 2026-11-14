@@ -31,9 +31,11 @@ source_paths:
 - src/ranged.cpp
 - tests/staff_sling_test.cpp
 - tests/shotgun_tubes_test.cpp
+- tools/agent/generate_lua_first_replacement_ledger.py
+- tools/agent/check_lua_first_replacement_ledger.py
 source_symbols: []
 source_queries: []
-source_fingerprint: 67b6e1bce40069c95e4c250940c0c6ffe8ebb6fcb9ea2d2d71b7dcbbca2b4df3
+source_fingerprint: 784d00ad7b17d742d93df409e3157ea2e6caaa89b5961d07996f99b4163cbd24
 authority: api-contract
 verified_commit: 34200a2ffcdaaf925cf2381bf900d2c753cd1a6c
 verified_at: '2026-11-14'
@@ -43,7 +45,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: ab52a235a5dffa73b8d9427b539f98cecc42c8a0e1de467d61a87dc7208b70ba
+translation_source_fingerprint: 54889c9b658a71a6f61db044ee1618de4612b6ecf0740401c1fac047c129eafc
 prerequisites:
 - json.overview
 depends_on:
@@ -99,6 +101,10 @@ source_urls:
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tests/staff_sling_test.cpp
 - path: tests/shotgun_tubes_test.cpp
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tests/shotgun_tubes_test.cpp
+- path: tools/agent/generate_lua_first_replacement_ledger.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tools/agent/generate_lua_first_replacement_ledger.py
+- path: tools/agent/check_lua_first_replacement_ledger.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tools/agent/check_lua_first_replacement_ledger.py
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.validation%29%3A+&body=Document+ID%3A+json.validation%0ALanguage%3A+en%0AVerified+commit%3A+34200a2ffcdaaf925cf2381bf900d2c753cd1a6c%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
@@ -137,9 +143,18 @@ make -j2 json-check
 | `lexical_only` | Matching text exists in data or legacy prose | A minimal valid example, requiredness, or equal semantics |
 | `schema: none` | No general validator-backed Schema is recorded | That the loader performs no validation |
 
-The generator reads only tracked paths returned by `git ls-files` and pins coverage at
-190/275/306. Count changes must accompany registry/parser changes and a generated diff. Never edit
-the generated inventories or generated reference pages by hand.
+The generator reads only version-controlled paths returned by `git ls-files`. Inventories record registrations, source fingerprints, and observed data-instance counts. These changes have different meanings: item values, vehicle parts, and other JSON content can change a fingerprint or instance count without adding an object type or changing a field contract.
+
+After changing data or source read by the inventory, regenerate from the same revision, then run `--check` and the relevant tests. If the baseline inventory was already stale, distinguish the baseline census refresh from the behavior change in the PR. If the replacement ledger references those inventories, update its linked fingerprints through its generator afterward. Never edit generated inventories or reference pages by hand.
+
+```sh
+python3 tools/json_api/generate_contracts.py
+python3 tools/agent/generate_lua_first_replacement_ledger.py
+python3 tools/json_api/generate_contracts.py --check
+python3 tools/agent/check_lua_first_replacement_ledger.py
+```
+
+PRs that refresh inventories must still complete the documentation fields required by the current impact rules. Keep the companion documentation PR in draft until its source PR merges, then verify the final source commit. Generated checks do not establish gameplay acceptance.
 
 
 ## Validation example: sling-ready ammunition

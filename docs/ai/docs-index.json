@@ -9606,11 +9606,13 @@
         "src/ballistics.cpp",
         "src/ranged.cpp",
         "tests/staff_sling_test.cpp",
-        "tests/shotgun_tubes_test.cpp"
+        "tests/shotgun_tubes_test.cpp",
+        "tools/agent/generate_lua_first_replacement_ledger.py",
+        "tools/agent/check_lua_first_replacement_ledger.py"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "67b6e1bce40069c95e4c250940c0c6ffe8ebb6fcb9ea2d2d71b7dcbbca2b4df3",
+      "source_fingerprint": "784d00ad7b17d742d93df409e3157ea2e6caaa89b5961d07996f99b4163cbd24",
       "authority": "api-contract",
       "verified_commit": "34200a2ffcdaaf925cf2381bf900d2c753cd1a6c",
       "verified_at": "2026-11-14",
@@ -9620,7 +9622,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "ab52a235a5dffa73b8d9427b539f98cecc42c8a0e1de467d61a87dc7208b70ba",
+      "translation_source_fingerprint": "54889c9b658a71a6f61db044ee1618de4612b6ecf0740401c1fac047c129eafc",
       "prerequisites": [
         "json.overview"
       ],
@@ -9680,11 +9682,13 @@
         "src/ballistics.cpp",
         "src/ranged.cpp",
         "tests/staff_sling_test.cpp",
-        "tests/shotgun_tubes_test.cpp"
+        "tests/shotgun_tubes_test.cpp",
+        "tools/agent/generate_lua_first_replacement_ledger.py",
+        "tools/agent/check_lua_first_replacement_ledger.py"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "67b6e1bce40069c95e4c250940c0c6ffe8ebb6fcb9ea2d2d71b7dcbbca2b4df3",
+      "source_fingerprint": "784d00ad7b17d742d93df409e3157ea2e6caaa89b5961d07996f99b4163cbd24",
       "authority": "api-contract",
       "verified_commit": "34200a2ffcdaaf925cf2381bf900d2c753cd1a6c",
       "verified_at": "2026-11-14",
@@ -9694,7 +9698,7 @@
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "ab52a235a5dffa73b8d9427b539f98cecc42c8a0e1de467d61a87dc7208b70ba",
+      "translation_source_fingerprint": "54889c9b658a71a6f61db044ee1618de4612b6ecf0740401c1fac047c129eafc",
       "prerequisites": [
         "json.overview"
       ],

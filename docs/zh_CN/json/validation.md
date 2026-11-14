@@ -31,9 +31,11 @@ source_paths:
 - src/ranged.cpp
 - tests/staff_sling_test.cpp
 - tests/shotgun_tubes_test.cpp
+- tools/agent/generate_lua_first_replacement_ledger.py
+- tools/agent/check_lua_first_replacement_ledger.py
 source_symbols: []
 source_queries: []
-source_fingerprint: 67b6e1bce40069c95e4c250940c0c6ffe8ebb6fcb9ea2d2d71b7dcbbca2b4df3
+source_fingerprint: 784d00ad7b17d742d93df409e3157ea2e6caaa89b5961d07996f99b4163cbd24
 authority: api-contract
 verified_commit: 34200a2ffcdaaf925cf2381bf900d2c753cd1a6c
 verified_at: '2026-11-14'
@@ -43,7 +45,7 @@ include_in_search: true
 include_in_ai_index: true
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: ab52a235a5dffa73b8d9427b539f98cecc42c8a0e1de467d61a87dc7208b70ba
+translation_source_fingerprint: 54889c9b658a71a6f61db044ee1618de4612b6ecf0740401c1fac047c129eafc
 prerequisites:
 - json.overview
 depends_on:
@@ -99,6 +101,10 @@ source_urls:
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tests/staff_sling_test.cpp
 - path: tests/shotgun_tubes_test.cpp
   url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tests/shotgun_tubes_test.cpp
+- path: tools/agent/generate_lua_first_replacement_ledger.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tools/agent/generate_lua_first_replacement_ledger.py
+- path: tools/agent/check_lua_first_replacement_ledger.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tools/agent/check_lua_first_replacement_ledger.py
 documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.validation%29%3A+&body=Document+ID%3A+json.validation%0ALanguage%3A+zh_CN%0AVerified+commit%3A+34200a2ffcdaaf925cf2381bf900d2c753cd1a6c%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
@@ -136,8 +142,18 @@ make -j2 json-check
 | `lexical_only` | 数据或旧文档中有同名文本 | 最小示例有效、字段必填、语义相同 |
 | `schema: none` | 没有通用 validator-backed Schema | loader 不会验证 |
 
-生成器只读取 `git ls-files` 返回的 tracked 路径，并固定 190/275/306 的覆盖计数。计数变化
-必须伴随注册/解析器变化和生成 diff；不得手改生成清单或生成参考页。
+生成器只读取 `git ls-files` 返回的受版本控制路径。生成清单同时记录注册信息、源码指纹和数据实例统计；这些字段的变化并不等价。物品数值、载具部件或其他 JSON 内容修改也会改变指纹或实例计数，不应据此宣称新增了对象类型或改变了字段契约。
+
+修改数据或清单所读取的源码后，从同一份提交重新生成清单，再执行 `--check` 和相关测试。如果基线清单已经过期，应在 PR 中区分本次行为修改与基线统计刷新。若 replacement ledger 引用了这些清单，随后通过其生成器更新关联指纹。不得手改生成清单或生成参考页。
+
+```sh
+python3 tools/json_api/generate_contracts.py
+python3 tools/agent/generate_lua_first_replacement_ledger.py
+python3 tools/json_api/generate_contracts.py --check
+python3 tools/agent/check_lua_first_replacement_ledger.py
+```
+
+带有清单变化的 PR 仍需按当前文档影响规则填写关联文档。源码尚未合并时，关联文档 PR 保持草稿；源码合并后再核对最终提交，不能把生成检查通过当成游戏行为验收。
 
 
 ## 投石杖专用弹药的验证示例
