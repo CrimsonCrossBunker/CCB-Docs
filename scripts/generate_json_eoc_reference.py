@@ -46,7 +46,7 @@ SPECS = (
         kind="json_object_types",
         source_path="data/reference/json/ccb_json_object_types.json",
         count_key="registered_types",
-        expected_count=192,
+        expected_count=193,
         outputs={
             "zh_CN": ROOT / "docs/zh_CN/reference/json-object-types.md",
             "en": ROOT / "docs/en/reference/json-object-types.md",
@@ -88,7 +88,7 @@ TEXT = {
         "source": "机器来源",
         "json_title": "JSON 对象类型注册表",
         "json_intro": (
-            "下表覆盖当前清单中的全部 192 个已注册对象类型。193 次注册包含"
+            "下表覆盖当前清单中的全部 193 个已注册对象类型。194 次注册包含"
             "一个编译条件变体；类型数量按唯一 `type` 计算。"
         ),
         "condition_title": "EOC 条件注册表",
@@ -136,8 +136,8 @@ TEXT = {
         "source": "Machine source",
         "json_title": "JSON object-type registry",
         "json_intro": (
-            "This table indexes all 192 unique registered object types in the current "
-            "inventory. The 193 registration calls include one compile-conditional "
+            "This table indexes all 193 unique registered object types in the current "
+            "inventory. The 194 registration calls include one compile-conditional "
             "variant."
         ),
         "condition_title": "EOC condition registry",
@@ -257,9 +257,9 @@ def validate_inventory(
     if spec.kind == "json_object_types":
         registrations = sum(len(entry["registrations"]) for entry in entries)
         declared = inventory["summary"].get("registration_calls")
-        if registrations != 193 or declared != 193:
+        if registrations != 194 or declared != 194:
             raise ReferenceError(
-                f"json_object_types: expected 193 registration calls, "
+                f"json_object_types: expected 194 registration calls, "
                 f"found {registrations} (summary {declared})"
             )
 
