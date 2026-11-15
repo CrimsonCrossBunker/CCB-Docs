@@ -108,7 +108,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: cd22ebb8d46191bfad4ba6c425972374b181b41984b8b1ba0c4791187d777e8d
+translation_source_fingerprint: 3e8a811f7e1cf3293ed98c7211b7fc7bfcd793a32bc237bc807c400c1094a8fe
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -932,3 +932,23 @@ This batch refreshes source locations, example locations, and test-data occurren
 the generated JSON/EOC inventories. Registered JSON types, EOC condition/effect keys, and
 their parameter contracts remain unchanged. Refreshing an inventory does not provide new
 complete runtime acceptance evidence for those keys.
+
+## Monster motion batching compatibility (source change pending)
+
+The monster-motion optimization keeps the Lua creature snapshot's `friendly`
+field and the saved monster `friendly` field as integer values. Native C++
+friendliness bookkeeping must be explicitly converted to `int` at these
+boundaries; it does not introduce a new Lua value type or change the public
+Lua signatures.
+
+Native writes that cross between zero and nonzero friendliness invalidate the
+friendly target-candidate membership cache. Native monster faction assignments
+also invalidate reachability faction grouping. Lua creature mutations continue
+to use the owner-thread bridge, rather than modifying read-only worker snapshots.
+Path and scent workers consume captured values only; live world validation and
+monster actions remain on the owner thread.
+
+This section accompanies the pending monster-motion source PR. It does not
+claim native Lua integration acceptance; standalone compute-kernel tests and
+C++ syntax checks are separate evidence. Keep this page draft until the source
+change is merged and its final commit has been reviewed.

@@ -108,7 +108,7 @@ include_in_search: false
 include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: cd22ebb8d46191bfad4ba6c425972374b181b41984b8b1ba0c4791187d777e8d
+translation_source_fingerprint: 3e8a811f7e1cf3293ed98c7211b7fc7bfcd793a32bc237bc807c400c1094a8fe
 prerequisites:
 - cpp.mod-loading
 depends_on: []
@@ -817,3 +817,18 @@ Lua 关闭配置不能选择 `lua` 测试源码范围。两者复用游戏引擎
 生成的 JSON/EOC 清单在本批更新了源码位置、示例位置和测试数据实例计数。
 对比注册内容后，JSON 类型及 EOC 条件／效果键的集合与参数契约保持一致；
 清单刷新不代表新增了这些键的完整运行验收证据。
+
+## 怪物行动批处理兼容性（源码变更待合并）
+
+怪物行动优化保持 Lua 生物快照的 `friendly` 字段和怪物存档的
+`friendly` 字段为整数。C++ 内部友好状态记账类型在这两个边界显式转换为
+`int`，不新增 Lua 值类型，也不改变公开 Lua 函数签名。
+
+原生代码在友好状态零值与非零值之间切换时，使友好索敌候选成员缓存失效；
+怪物阵营赋值也会使可达生物的阵营分组失效。Lua 生物修改仍通过主线程桥接，
+不直接修改工作线程的只读快照。寻路和气味工作线程只读取已捕获的数据，
+实时世界校验和怪物行动仍在主线程执行。
+
+本节配套尚未合并的怪物行动源码 PR，不代表原生 Lua 集成验收通过；
+独立计算内核测试与 C++ 语法检查是不同层次的证据。源码合并并核对最终提交前，
+本页保持草稿状态。
