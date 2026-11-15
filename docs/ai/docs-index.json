@@ -6701,7 +6701,8 @@
         "src/lua_platform_mutations.cpp",
         "src/flexbuffer_json.cpp",
         "src/flexbuffer_json.h",
-        "tests/lua_platform_persistent_integer_test.cpp"
+        "tests/lua_platform_persistent_integer_test.cpp",
+        "src/mp_inventory_activity.cpp"
       ],
       "source_symbols": [
         "platform_version = 1",
@@ -6720,17 +6721,17 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "5e91e0340ced65cb2530da6f382e49d923757c5c70379d3ad90fdb99c1378320",
+      "source_fingerprint": "e1fc8e13186b8fa174b58f23fcb49de104e13f51d47daeca33a1c1f1077eecff",
       "authority": "api-contract",
-      "verified_commit": "62e69a762a00ec6197ba6a829972de8dd344e9f2",
-      "verified_at": "2026-10-04",
+      "verified_commit": "6093d0b60e8920c9f2c221203d662ea4e08c479d",
+      "verified_at": "2026-11-15",
       "generated": false,
       "generated_by": null,
       "include_in_search": false,
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "c823c9a76e8e77b2980e04818ec23cc92528d67d58d97319550dc704f396fbb1",
+      "translation_source_fingerprint": "cd22ebb8d46191bfad4ba6c425972374b181b41984b8b1ba0c4791187d777e8d",
       "prerequisites": [
         "cpp.mod-loading"
       ],
@@ -6837,7 +6838,8 @@
         "src/lua_platform_mutations.cpp",
         "src/flexbuffer_json.cpp",
         "src/flexbuffer_json.h",
-        "tests/lua_platform_persistent_integer_test.cpp"
+        "tests/lua_platform_persistent_integer_test.cpp",
+        "src/mp_inventory_activity.cpp"
       ],
       "source_symbols": [
         "platform_version = 1",
@@ -6856,17 +6858,17 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "5e91e0340ced65cb2530da6f382e49d923757c5c70379d3ad90fdb99c1378320",
+      "source_fingerprint": "e1fc8e13186b8fa174b58f23fcb49de104e13f51d47daeca33a1c1f1077eecff",
       "authority": "api-contract",
-      "verified_commit": "62e69a762a00ec6197ba6a829972de8dd344e9f2",
-      "verified_at": "2026-10-04",
+      "verified_commit": "6093d0b60e8920c9f2c221203d662ea4e08c479d",
+      "verified_at": "2026-11-15",
       "generated": false,
       "generated_by": null,
       "include_in_search": false,
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "c823c9a76e8e77b2980e04818ec23cc92528d67d58d97319550dc704f396fbb1",
+      "translation_source_fingerprint": "cd22ebb8d46191bfad4ba6c425972374b181b41984b8b1ba0c4791187d777e8d",
       "prerequisites": [
         "cpp.mod-loading"
       ],
@@ -8848,21 +8850,23 @@
         "src/effect_on_condition.cpp",
         "src/effect_on_condition.h",
         "tests/eoc_test.cpp",
-        "doc/JSON/EFFECT_ON_CONDITION.md"
+        "doc/JSON/EFFECT_ON_CONDITION.md",
+        "src/mp_inventory_activity.cpp",
+        "src/talker_npc.cpp"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e",
+      "source_fingerprint": "d0539e8eb52a31e60bb299231ec543804be52734a5fe544a2d5117ca01d8a007",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "6093d0b60e8920c9f2c221203d662ea4e08c479d",
+      "verified_at": "2026-11-15",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "633c116b8ceb25994926cb0d914dc6f0b5623695fae7fddbefd46996ec0cf860",
+      "translation_source_fingerprint": "f7a74b72ef767cf763d9777b6516e109a4cfab577e0ee6584765c65c06766472",
       "prerequisites": [
         "eoc.overview"
       ],
@@ -8917,21 +8921,23 @@
         "src/effect_on_condition.cpp",
         "src/effect_on_condition.h",
         "tests/eoc_test.cpp",
-        "doc/JSON/EFFECT_ON_CONDITION.md"
+        "doc/JSON/EFFECT_ON_CONDITION.md",
+        "src/mp_inventory_activity.cpp",
+        "src/talker_npc.cpp"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e",
+      "source_fingerprint": "d0539e8eb52a31e60bb299231ec543804be52734a5fe544a2d5117ca01d8a007",
       "authority": "api-contract",
-      "verified_commit": "c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd",
-      "verified_at": "2026-08-12",
+      "verified_commit": "6093d0b60e8920c9f2c221203d662ea4e08c479d",
+      "verified_at": "2026-11-15",
       "generated": false,
       "generated_by": null,
       "include_in_search": true,
       "include_in_ai_index": true,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "633c116b8ceb25994926cb0d914dc6f0b5623695fae7fddbefd46996ec0cf860",
+      "translation_source_fingerprint": "f7a74b72ef767cf763d9777b6516e109a4cfab577e0ee6584765c65c06766472",
       "prerequisites": [
         "eoc.overview"
       ],
@@ -17675,7 +17681,7 @@
       "id": "eoc.talkers",
       "language": "en",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-11-15",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",
@@ -17686,7 +17692,7 @@
       "id": "eoc.talkers",
       "language": "zh_CN",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-11-15",
       "status": "active",
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/",

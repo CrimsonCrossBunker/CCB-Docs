@@ -4079,8 +4079,8 @@ EOC（effect on condition）把条件解析、效果解析和触发生命周期�
 ## eoc.talkers [en] — EOC talkers and alpha/beta routing
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/
-Verified commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-Sources: data/reference/json/ccb_eoc_conditions.json, data/reference/json/ccb_eoc_effects.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/condition.cpp, src/npctalk.cpp, src/effect_on_condition.cpp, src/effect_on_condition.h, tests/eoc_test.cpp, doc/JSON/EFFECT_ON_CONDITION.md
+Verified commit: 6093d0b60e8920c9f2c221203d662ea4e08c479d
+Sources: data/reference/json/ccb_eoc_conditions.json, data/reference/json/ccb_eoc_effects.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/condition.cpp, src/npctalk.cpp, src/effect_on_condition.cpp, src/effect_on_condition.h, tests/eoc_test.cpp, doc/JSON/EFFECT_ON_CONDITION.md, src/mp_inventory_activity.cpp, src/talker_npc.cpp
 
 # EOC talkers and alpha/beta routing
 
@@ -4088,6 +4088,12 @@ EOC conditions and effects operate on alpha/beta talkers in a dialogue context. 
 names commonly use `u_` and `npc_` for those routing directions, but a prefix does not prove that
 the object is necessarily the player avatar or an ordinary NPC. Events, items, monsters, map
 locations, and nested calls can construct other talker combinations.
+
+When a guest starts a conversation in same-region co-op, alpha is the character
+bound to that guest by the host, and beta is the NPC they are speaking to.
+Native dialogue effects use these participants for item offers and radio contact
+discovery. When porting legacy content to Lua Platform v1, take the character
+handles from the dialogue context to preserve that ownership.
 
 ## How the inventory preserves unknowns
 
@@ -4116,14 +4122,18 @@ claim belongs in the contract only after the handler, call site, and tests prove
 ## eoc.talkers [zh_CN] — EOC Talker 与 alpha/beta 路由
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/
-Verified commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-Sources: data/reference/json/ccb_eoc_conditions.json, data/reference/json/ccb_eoc_effects.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/condition.cpp, src/npctalk.cpp, src/effect_on_condition.cpp, src/effect_on_condition.h, tests/eoc_test.cpp, doc/JSON/EFFECT_ON_CONDITION.md
+Verified commit: 6093d0b60e8920c9f2c221203d662ea4e08c479d
+Sources: data/reference/json/ccb_eoc_conditions.json, data/reference/json/ccb_eoc_effects.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/condition.cpp, src/npctalk.cpp, src/effect_on_condition.cpp, src/effect_on_condition.h, tests/eoc_test.cpp, doc/JSON/EFFECT_ON_CONDITION.md, src/mp_inventory_activity.cpp, src/talker_npc.cpp
 
 # EOC Talker 与 alpha/beta 路由
 
 EOC 条件和效果在 dialogue 上下文中操作 alpha/beta talker。历史键名通常用 `u_` 和
 `npc_` 表示这两个路由方向，但前缀本身不证明对象一定是玩家 avatar 或普通 NPC。
 事件、物品、怪物、地图位置和嵌套调用可以构造不同 talker 组合。
+
+在同区合作中，客机发起对话时，alpha 是服务端绑定的客机角色，beta 仍是实际交谈的
+NPC。提供物品和加入无线电联络名单的原生对话效果使用这两个参与者。将旧内容迁移到
+Lua Platform v1 时，从对话上下文取得角色句柄，保留这一归属。
 
 ## 清单如何表达未知
 
