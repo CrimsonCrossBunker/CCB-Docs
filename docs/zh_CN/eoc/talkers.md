@@ -29,12 +29,14 @@ source_paths:
 - src/effect_on_condition.h
 - tests/eoc_test.cpp
 - doc/JSON/EFFECT_ON_CONDITION.md
+- src/mp_inventory_activity.cpp
+- src/talker_npc.cpp
 source_symbols: []
 source_queries: []
-source_fingerprint: 222d5b2537b8fd48737895df0611cf77ec69bbfa156f29ea63fe1d7b17b21e5e
+source_fingerprint: d0539e8eb52a31e60bb299231ec543804be52734a5fe544a2d5117ca01d8a007
 authority: api-contract
-verified_commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-verified_at: '2026-08-12'
+verified_commit: 6093d0b60e8920c9f2c221203d662ea4e08c479d
+verified_at: '2026-11-15'
 generated: false
 generated_by: null
 include_in_search: true
@@ -65,31 +67,35 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/6093d0b60e8920c9f2c221203d662ea4e08c479d
 source_urls:
 - path: data/reference/json/ccb_eoc_conditions.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/data/reference/json/ccb_eoc_conditions.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/6093d0b60e8920c9f2c221203d662ea4e08c479d/data/reference/json/ccb_eoc_conditions.json
 - path: data/reference/json/ccb_eoc_effects.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/data/reference/json/ccb_eoc_effects.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/6093d0b60e8920c9f2c221203d662ea4e08c479d/data/reference/json/ccb_eoc_effects.json
 - path: tools/json_api/contract-inventory.schema.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tools/json_api/contract-inventory.schema.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/6093d0b60e8920c9f2c221203d662ea4e08c479d/tools/json_api/contract-inventory.schema.json
 - path: tools/json_api/generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tools/json_api/generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/6093d0b60e8920c9f2c221203d662ea4e08c479d/tools/json_api/generate_contracts.py
 - path: tools/json_api/test_generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tools/json_api/test_generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/6093d0b60e8920c9f2c221203d662ea4e08c479d/tools/json_api/test_generate_contracts.py
 - path: src/condition.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/condition.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/6093d0b60e8920c9f2c221203d662ea4e08c479d/src/condition.cpp
 - path: src/npctalk.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/npctalk.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/6093d0b60e8920c9f2c221203d662ea4e08c479d/src/npctalk.cpp
 - path: src/effect_on_condition.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/effect_on_condition.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/6093d0b60e8920c9f2c221203d662ea4e08c479d/src/effect_on_condition.cpp
 - path: src/effect_on_condition.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/src/effect_on_condition.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/6093d0b60e8920c9f2c221203d662ea4e08c479d/src/effect_on_condition.h
 - path: tests/eoc_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/tests/eoc_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/6093d0b60e8920c9f2c221203d662ea4e08c479d/tests/eoc_test.cpp
 - path: doc/JSON/EFFECT_ON_CONDITION.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd/doc/JSON/EFFECT_ON_CONDITION.md
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28eoc.talkers%29%3A+&body=Document+ID%3A+eoc.talkers%0ALanguage%3A+zh_CN%0AVerified+commit%3A+c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/6093d0b60e8920c9f2c221203d662ea4e08c479d/doc/JSON/EFFECT_ON_CONDITION.md
+- path: src/mp_inventory_activity.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/6093d0b60e8920c9f2c221203d662ea4e08c479d/src/mp_inventory_activity.cpp
+- path: src/talker_npc.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/6093d0b60e8920c9f2c221203d662ea4e08c479d/src/talker_npc.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28eoc.talkers%29%3A+&body=Document+ID%3A+eoc.talkers%0ALanguage%3A+zh_CN%0AVerified+commit%3A+6093d0b60e8920c9f2c221203d662ea4e08c479d%0A%0ADescribe+the+documentation+problem%3A%0A
 ---
 
 # EOC Talker 与 alpha/beta 路由

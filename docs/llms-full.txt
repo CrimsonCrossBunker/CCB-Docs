@@ -4079,8 +4079,8 @@ EOC（effect on condition）把条件解析、效果解析和触发生命周期�
 ## eoc.talkers [en] — EOC talkers and alpha/beta routing
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/talkers/
-Verified commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-Sources: data/reference/json/ccb_eoc_conditions.json, data/reference/json/ccb_eoc_effects.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/condition.cpp, src/npctalk.cpp, src/effect_on_condition.cpp, src/effect_on_condition.h, tests/eoc_test.cpp, doc/JSON/EFFECT_ON_CONDITION.md
+Verified commit: 6093d0b60e8920c9f2c221203d662ea4e08c479d
+Sources: data/reference/json/ccb_eoc_conditions.json, data/reference/json/ccb_eoc_effects.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/condition.cpp, src/npctalk.cpp, src/effect_on_condition.cpp, src/effect_on_condition.h, tests/eoc_test.cpp, doc/JSON/EFFECT_ON_CONDITION.md, src/mp_inventory_activity.cpp, src/talker_npc.cpp
 
 # EOC talkers and alpha/beta routing
 
@@ -4122,8 +4122,8 @@ claim belongs in the contract only after the handler, call site, and tests prove
 ## eoc.talkers [zh_CN] — EOC Talker 与 alpha/beta 路由
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/eoc/talkers/
-Verified commit: c663ceb2c1bd1f5b23ffc533c2e7944fd859b4bd
-Sources: data/reference/json/ccb_eoc_conditions.json, data/reference/json/ccb_eoc_effects.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/condition.cpp, src/npctalk.cpp, src/effect_on_condition.cpp, src/effect_on_condition.h, tests/eoc_test.cpp, doc/JSON/EFFECT_ON_CONDITION.md
+Verified commit: 6093d0b60e8920c9f2c221203d662ea4e08c479d
+Sources: data/reference/json/ccb_eoc_conditions.json, data/reference/json/ccb_eoc_effects.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/condition.cpp, src/npctalk.cpp, src/effect_on_condition.cpp, src/effect_on_condition.h, tests/eoc_test.cpp, doc/JSON/EFFECT_ON_CONDITION.md, src/mp_inventory_activity.cpp, src/talker_npc.cpp
 
 # EOC Talker 与 alpha/beta 路由
 
