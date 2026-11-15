@@ -5179,7 +5179,7 @@ pages:
   source_queries: *id238
   source_fingerprint: ed2668df14ba84b1117334ad7b24e79a0d8ffec619ea5fcbf8bf4a9da900e3c4
   authority: api-contract
-  verified_commit: 986462a8bdfae2ccdf2aa63b4e42e5c544125102
+  verified_commit: 2aecb126fd664cca71dd58b24685edaa7532e11c
   verified_at: '2026-11-15'
   generated: false
   generated_by: null
@@ -5225,7 +5225,7 @@ pages:
   source_queries: *id238
   source_fingerprint: ed2668df14ba84b1117334ad7b24e79a0d8ffec619ea5fcbf8bf4a9da900e3c4
   authority: api-contract
-  verified_commit: 986462a8bdfae2ccdf2aa63b4e42e5c544125102
+  verified_commit: 2aecb126fd664cca71dd58b24685edaa7532e11c
   verified_at: '2026-11-15'
   generated: false
   generated_by: null

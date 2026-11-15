@@ -3915,7 +3915,7 @@ part、cache、physics、power、UI 与 persistence 仍紧密耦合。重构应�
 ## eoc.nesting [en] — Nesting EOC conditions and effects
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/nesting/
-Verified commit: 986462a8bdfae2ccdf2aa63b4e42e5c544125102
+Verified commit: 2aecb126fd664cca71dd58b24685edaa7532e11c
 Sources: data/reference/json/ccb_eoc_conditions.json, data/reference/json/ccb_eoc_effects.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/condition.cpp, src/npctalk.cpp, src/effect_on_condition.cpp, src/effect_on_condition.h, tests/eoc_test.cpp, doc/JSON/EFFECT_ON_CONDITION.md
 
 # Nesting EOC conditions and effects
@@ -3964,7 +3964,7 @@ a minimal EOC that reproduces failures at each layer.
 ## eoc.nesting [zh_CN] — EOC 条件与效果嵌套
 
 Canonical: https://crimsoncrossbunker.github.io/CCB-Docs/eoc/nesting/
-Verified commit: 986462a8bdfae2ccdf2aa63b4e42e5c544125102
+Verified commit: 2aecb126fd664cca71dd58b24685edaa7532e11c
 Sources: data/reference/json/ccb_eoc_conditions.json, data/reference/json/ccb_eoc_effects.json, tools/json_api/contract-inventory.schema.json, tools/json_api/generate_contracts.py, tools/json_api/test_generate_contracts.py, src/condition.cpp, src/npctalk.cpp, src/effect_on_condition.cpp, src/effect_on_condition.h, tests/eoc_test.cpp, doc/JSON/EFFECT_ON_CONDITION.md
 
 # EOC 条件与效果嵌套
