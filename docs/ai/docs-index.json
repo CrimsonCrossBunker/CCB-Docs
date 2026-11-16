@@ -6721,17 +6721,17 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "e1fc8e13186b8fa174b58f23fcb49de104e13f51d47daeca33a1c1f1077eecff",
+      "source_fingerprint": "91b552dea50f3c4fcd1988ba8ee54d00a4426d77ff83b71b2727b2500850ab33",
       "authority": "api-contract",
-      "verified_commit": "6093d0b60e8920c9f2c221203d662ea4e08c479d",
-      "verified_at": "2026-11-15",
+      "verified_commit": "babf01e1f388cecbf78d23268ed27b8d31d764c0",
+      "verified_at": "2026-11-16",
       "generated": false,
       "generated_by": null,
       "include_in_search": false,
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "cd22ebb8d46191bfad4ba6c425972374b181b41984b8b1ba0c4791187d777e8d",
+      "translation_source_fingerprint": "da35b4aa6f7f2363cb8f64e91d75f98e1e4cf8f6dd22d1b9e8817619414b6bfa",
       "prerequisites": [
         "cpp.mod-loading"
       ],
@@ -6748,7 +6748,7 @@
       "deprecation_replacement": null,
       "risk_group": "lua-api",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1286",
       "stale_reason": null,
       "path": "cpp/lua-bridge.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/"
@@ -6858,17 +6858,17 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "e1fc8e13186b8fa174b58f23fcb49de104e13f51d47daeca33a1c1f1077eecff",
+      "source_fingerprint": "91b552dea50f3c4fcd1988ba8ee54d00a4426d77ff83b71b2727b2500850ab33",
       "authority": "api-contract",
-      "verified_commit": "6093d0b60e8920c9f2c221203d662ea4e08c479d",
-      "verified_at": "2026-11-15",
+      "verified_commit": "babf01e1f388cecbf78d23268ed27b8d31d764c0",
+      "verified_at": "2026-11-16",
       "generated": false,
       "generated_by": null,
       "include_in_search": false,
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "cd22ebb8d46191bfad4ba6c425972374b181b41984b8b1ba0c4791187d777e8d",
+      "translation_source_fingerprint": "da35b4aa6f7f2363cb8f64e91d75f98e1e4cf8f6dd22d1b9e8817619414b6bfa",
       "prerequisites": [
         "cpp.mod-loading"
       ],
@@ -6885,7 +6885,7 @@
       "deprecation_replacement": null,
       "risk_group": "lua-api",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1286",
       "stale_reason": null,
       "path": "cpp/lua-bridge.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/"
