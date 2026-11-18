@@ -3,7 +3,7 @@
 id: json.validation
 title: JSON 验证与证据等级
 language: zh_CN
-status: active
+status: draft
 doc_type: how-to
 audiences:
 - new-contributor
@@ -33,19 +33,25 @@ source_paths:
 - tests/shotgun_tubes_test.cpp
 - tools/agent/generate_lua_first_replacement_ledger.py
 - tools/agent/check_lua_first_replacement_ledger.py
+- src/game_io.cpp
+- src/worldfactory.cpp
+- src/savegame.cpp
+- src/zzip.cpp
+- tests/save_integrity_test.cpp
+- tests/zzip_test.cpp
 source_symbols: []
 source_queries: []
-source_fingerprint: 784d00ad7b17d742d93df409e3157ea2e6caaa89b5961d07996f99b4163cbd24
+source_fingerprint: 4670d9b5e9e194aee21c9d38d1b354137bdfc1247f03c82c11cf21157c37b281
 authority: api-contract
-verified_commit: 34200a2ffcdaaf925cf2381bf900d2c753cd1a6c
-verified_at: '2026-11-14'
+verified_commit: 5a3f9072d70788fdd541509d606642285df2b4a9
+verified_at: '2026-11-18'
 generated: false
 generated_by: null
-include_in_search: true
-include_in_ai_index: true
+include_in_search: false
+include_in_ai_index: false
 translation_status: current
 translation_stale_since: null
-translation_source_fingerprint: 54889c9b658a71a6f61db044ee1618de4612b6ecf0740401c1fac047c129eafc
+translation_source_fingerprint: 06961099bc9fceca7d2f189363121f33dee2682b33781baadfeee144effb72bb
 prerequisites:
 - json.overview
 depends_on:
@@ -63,7 +69,7 @@ deprecated: false
 deprecation_replacement: null
 risk_group: json
 risk_level: high
-pending_source_pr: null
+pending_source_pr: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1341
 stale_reason: null
 canonical_url: https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/
 alternate_urls:
@@ -71,41 +77,55 @@ alternate_urls:
   en: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/
   x-default: https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/
 source_repository: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb
-source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c
+source_commit_url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/commit/5a3f9072d70788fdd541509d606642285df2b4a9
 source_urls:
 - path: data/reference/json/ccb_json_object_types.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/data/reference/json/ccb_json_object_types.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5a3f9072d70788fdd541509d606642285df2b4a9/data/reference/json/ccb_json_object_types.json
 - path: tools/json_api/contract-inventory.schema.json
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tools/json_api/contract-inventory.schema.json
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5a3f9072d70788fdd541509d606642285df2b4a9/tools/json_api/contract-inventory.schema.json
 - path: tools/json_api/generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tools/json_api/generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5a3f9072d70788fdd541509d606642285df2b4a9/tools/json_api/generate_contracts.py
 - path: tools/json_api/test_generate_contracts.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tools/json_api/test_generate_contracts.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5a3f9072d70788fdd541509d606642285df2b4a9/tools/json_api/test_generate_contracts.py
 - path: src/init.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/src/init.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5a3f9072d70788fdd541509d606642285df2b4a9/src/init.cpp
 - path: src/generic_factory.h
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/src/generic_factory.h
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5a3f9072d70788fdd541509d606642285df2b4a9/src/generic_factory.h
 - path: tests/json_load_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tests/json_load_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5a3f9072d70788fdd541509d606642285df2b4a9/tests/json_load_test.cpp
 - path: doc/JSON/JSON_INHERITANCE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/doc/JSON/JSON_INHERITANCE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5a3f9072d70788fdd541509d606642285df2b4a9/doc/JSON/JSON_INHERITANCE.md
 - path: doc/JSON/JSON_STYLE.md
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/doc/JSON/JSON_STYLE.md
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5a3f9072d70788fdd541509d606642285df2b4a9/doc/JSON/JSON_STYLE.md
 - path: src/sling.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/src/sling.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5a3f9072d70788fdd541509d606642285df2b4a9/src/sling.cpp
 - path: src/ballistics.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/src/ballistics.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5a3f9072d70788fdd541509d606642285df2b4a9/src/ballistics.cpp
 - path: src/ranged.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/src/ranged.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5a3f9072d70788fdd541509d606642285df2b4a9/src/ranged.cpp
 - path: tests/staff_sling_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tests/staff_sling_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5a3f9072d70788fdd541509d606642285df2b4a9/tests/staff_sling_test.cpp
 - path: tests/shotgun_tubes_test.cpp
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tests/shotgun_tubes_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5a3f9072d70788fdd541509d606642285df2b4a9/tests/shotgun_tubes_test.cpp
 - path: tools/agent/generate_lua_first_replacement_ledger.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tools/agent/generate_lua_first_replacement_ledger.py
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5a3f9072d70788fdd541509d606642285df2b4a9/tools/agent/generate_lua_first_replacement_ledger.py
 - path: tools/agent/check_lua_first_replacement_ledger.py
-  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/34200a2ffcdaaf925cf2381bf900d2c753cd1a6c/tools/agent/check_lua_first_replacement_ledger.py
-documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.validation%29%3A+&body=Document+ID%3A+json.validation%0ALanguage%3A+zh_CN%0AVerified+commit%3A+34200a2ffcdaaf925cf2381bf900d2c753cd1a6c%0A%0ADescribe+the+documentation+problem%3A%0A
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5a3f9072d70788fdd541509d606642285df2b4a9/tools/agent/check_lua_first_replacement_ledger.py
+- path: src/game_io.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5a3f9072d70788fdd541509d606642285df2b4a9/src/game_io.cpp
+- path: src/worldfactory.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5a3f9072d70788fdd541509d606642285df2b4a9/src/worldfactory.cpp
+- path: src/savegame.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5a3f9072d70788fdd541509d606642285df2b4a9/src/savegame.cpp
+- path: src/zzip.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5a3f9072d70788fdd541509d606642285df2b4a9/src/zzip.cpp
+- path: tests/save_integrity_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5a3f9072d70788fdd541509d606642285df2b4a9/tests/save_integrity_test.cpp
+- path: tests/zzip_test.cpp
+  url: https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/blob/5a3f9072d70788fdd541509d606642285df2b4a9/tests/zzip_test.cpp
+documentation_issue_url: https://github.com/CrimsonCrossBunker/CCB-Docs/issues/new?title=docs%28json.validation%29%3A+&body=Document+ID%3A+json.validation%0ALanguage%3A+zh_CN%0AVerified+commit%3A+5a3f9072d70788fdd541509d606642285df2b4a9%0A%0ADescribe+the+documentation+problem%3A%0A
+search:
+  exclude: true
 ---
 
 # JSON 验证与证据等级
@@ -177,3 +197,23 @@ DP-12 的双发模式应通过实际 `fire_gun` 验证一次消耗两发，剩�
 这里的两连发使用通常的逐发后坐力；不要因有两根枪管就默认启用同时齐射的 `VOLLEY`。
 本次源代码中的 `[shotgun_tubes]` 聚焦测试覆盖这些行为。相关原生测试通过不等于
 Android 实机操作或完整安装包已经验收；源码
+
+## Save JSON and failed file operations
+
+Save loading needs separate acceptance from content loading. A syntactically valid JSON
+file can still lack required master, dimension, or character state. A failed critical
+load marks the session as unsafe to save; subsequent save attempts must preserve the
+existing files. A genuinely new world and the supported legacy dimension layout need
+their own successful-load cases so they are not mistaken for damaged saves.
+
+Use the `[save_integrity]` regressions for missing or invalid members, truncated
+compressed character data, failed critical loads, and valid round trips. Exercise
+player-save failures in both compressed and uncompressed worlds, including map-memory
+writes and dimension travel. Compare the dependent files after the failed operation,
+not just its return value.
+
+Compression conversion also needs failure-path checks. `WORLD::set_compression_enabled`
+returns failure if loading the destination archive or adding its save entry fails.
+Original saves are queued for cleanup only after their archive insertion succeeds.
+The archive tests in `tests/zzip_test.cpp` cover metadata and compressed save contents;
+content inventory checks alone cannot establish this file-preservation behavior.
