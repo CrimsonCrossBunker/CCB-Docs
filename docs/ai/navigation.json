@@ -428,13 +428,6 @@
       "path": "json/inheritance-copy-from.md"
     },
     {
-      "id": "json.validation",
-      "title": "JSON 验证与证据等级",
-      "section": "JSON",
-      "order": 132,
-      "path": "json/validation.md"
-    },
-    {
       "id": "reference.json-object-types",
       "title": "JSON 对象类型注册表",
       "section": "生成参考",
@@ -981,13 +974,6 @@
       "section": "JSON",
       "order": 131,
       "path": "json/inheritance-copy-from.md"
-    },
-    {
-      "id": "json.validation",
-      "title": "JSON validation and evidence levels",
-      "section": "JSON",
-      "order": 132,
-      "path": "json/validation.md"
     },
     {
       "id": "reference.json-object-types",

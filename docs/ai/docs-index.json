@@ -6721,17 +6721,17 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "e1fc8e13186b8fa174b58f23fcb49de104e13f51d47daeca33a1c1f1077eecff",
+      "source_fingerprint": "37d6ee929905aad7490416e2571aa6b8e3bc07bc75e7aee7fc8977399306b4ea",
       "authority": "api-contract",
-      "verified_commit": "6093d0b60e8920c9f2c221203d662ea4e08c479d",
-      "verified_at": "2026-11-15",
+      "verified_commit": "5a3f9072d70788fdd541509d606642285df2b4a9",
+      "verified_at": "2026-11-18",
       "generated": false,
       "generated_by": null,
       "include_in_search": false,
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "cd22ebb8d46191bfad4ba6c425972374b181b41984b8b1ba0c4791187d777e8d",
+      "translation_source_fingerprint": "0cee1e8d7d7089b4daa3449a8ae899eb069d58380fed6ec839ce5b7cbc17184e",
       "prerequisites": [
         "cpp.mod-loading"
       ],
@@ -6748,7 +6748,7 @@
       "deprecation_replacement": null,
       "risk_group": "lua-api",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1341",
       "stale_reason": null,
       "path": "cpp/lua-bridge.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/lua-bridge/"
@@ -6858,17 +6858,17 @@
         "-DCATA_ENABLE_LUA_PLATFORM=\"${CATA_ENABLE_LUA_PLATFORM:-1}\"",
         "-DCATA_ENABLE_LUA_PLATFORM=ON"
       ],
-      "source_fingerprint": "e1fc8e13186b8fa174b58f23fcb49de104e13f51d47daeca33a1c1f1077eecff",
+      "source_fingerprint": "37d6ee929905aad7490416e2571aa6b8e3bc07bc75e7aee7fc8977399306b4ea",
       "authority": "api-contract",
-      "verified_commit": "6093d0b60e8920c9f2c221203d662ea4e08c479d",
-      "verified_at": "2026-11-15",
+      "verified_commit": "5a3f9072d70788fdd541509d606642285df2b4a9",
+      "verified_at": "2026-11-18",
       "generated": false,
       "generated_by": null,
       "include_in_search": false,
       "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "cd22ebb8d46191bfad4ba6c425972374b181b41984b8b1ba0c4791187d777e8d",
+      "translation_source_fingerprint": "0cee1e8d7d7089b4daa3449a8ae899eb069d58380fed6ec839ce5b7cbc17184e",
       "prerequisites": [
         "cpp.mod-loading"
       ],
@@ -6885,7 +6885,7 @@
       "deprecation_replacement": null,
       "risk_group": "lua-api",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1341",
       "stale_reason": null,
       "path": "cpp/lua-bridge.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/cpp/lua-bridge/"
@@ -10258,7 +10258,7 @@
       "id": "json.validation",
       "title": "JSON validation and evidence levels",
       "language": "en",
-      "status": "active",
+      "status": "draft",
       "doc_type": "how-to",
       "audiences": [
         "new-contributor",
@@ -10290,21 +10290,27 @@
         "tests/staff_sling_test.cpp",
         "tests/shotgun_tubes_test.cpp",
         "tools/agent/generate_lua_first_replacement_ledger.py",
-        "tools/agent/check_lua_first_replacement_ledger.py"
+        "tools/agent/check_lua_first_replacement_ledger.py",
+        "src/game_io.cpp",
+        "src/worldfactory.cpp",
+        "src/savegame.cpp",
+        "src/zzip.cpp",
+        "tests/save_integrity_test.cpp",
+        "tests/zzip_test.cpp"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "784d00ad7b17d742d93df409e3157ea2e6caaa89b5961d07996f99b4163cbd24",
+      "source_fingerprint": "4670d9b5e9e194aee21c9d38d1b354137bdfc1247f03c82c11cf21157c37b281",
       "authority": "api-contract",
-      "verified_commit": "34200a2ffcdaaf925cf2381bf900d2c753cd1a6c",
-      "verified_at": "2026-11-14",
+      "verified_commit": "5a3f9072d70788fdd541509d606642285df2b4a9",
+      "verified_at": "2026-11-18",
       "generated": false,
       "generated_by": null,
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "54889c9b658a71a6f61db044ee1618de4612b6ecf0740401c1fac047c129eafc",
+      "translation_source_fingerprint": "06961099bc9fceca7d2f189363121f33dee2682b33781baadfeee144effb72bb",
       "prerequisites": [
         "json.overview"
       ],
@@ -10325,7 +10331,7 @@
       "deprecation_replacement": null,
       "risk_group": "json",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1341",
       "stale_reason": null,
       "path": "json/validation.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/"
@@ -10334,7 +10340,7 @@
       "id": "json.validation",
       "title": "JSON 验证与证据等级",
       "language": "zh_CN",
-      "status": "active",
+      "status": "draft",
       "doc_type": "how-to",
       "audiences": [
         "new-contributor",
@@ -10366,21 +10372,27 @@
         "tests/staff_sling_test.cpp",
         "tests/shotgun_tubes_test.cpp",
         "tools/agent/generate_lua_first_replacement_ledger.py",
-        "tools/agent/check_lua_first_replacement_ledger.py"
+        "tools/agent/check_lua_first_replacement_ledger.py",
+        "src/game_io.cpp",
+        "src/worldfactory.cpp",
+        "src/savegame.cpp",
+        "src/zzip.cpp",
+        "tests/save_integrity_test.cpp",
+        "tests/zzip_test.cpp"
       ],
       "source_symbols": [],
       "source_queries": [],
-      "source_fingerprint": "784d00ad7b17d742d93df409e3157ea2e6caaa89b5961d07996f99b4163cbd24",
+      "source_fingerprint": "4670d9b5e9e194aee21c9d38d1b354137bdfc1247f03c82c11cf21157c37b281",
       "authority": "api-contract",
-      "verified_commit": "34200a2ffcdaaf925cf2381bf900d2c753cd1a6c",
-      "verified_at": "2026-11-14",
+      "verified_commit": "5a3f9072d70788fdd541509d606642285df2b4a9",
+      "verified_at": "2026-11-18",
       "generated": false,
       "generated_by": null,
-      "include_in_search": true,
-      "include_in_ai_index": true,
+      "include_in_search": false,
+      "include_in_ai_index": false,
       "translation_status": "current",
       "translation_stale_since": null,
-      "translation_source_fingerprint": "54889c9b658a71a6f61db044ee1618de4612b6ecf0740401c1fac047c129eafc",
+      "translation_source_fingerprint": "06961099bc9fceca7d2f189363121f33dee2682b33781baadfeee144effb72bb",
       "prerequisites": [
         "json.overview"
       ],
@@ -10401,7 +10413,7 @@
       "deprecation_replacement": null,
       "risk_group": "json",
       "risk_level": "high",
-      "pending_source_pr": null,
+      "pending_source_pr": "https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb/pull/1341",
       "stale_reason": null,
       "path": "json/validation.md",
       "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/"
@@ -15252,7 +15264,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/governance/security-license/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/inheritance-copy-from/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/upstream-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/",
@@ -15289,7 +15300,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/governance/security-license/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/upstream-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
@@ -15392,7 +15402,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/governance/security-license/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/inheritance-copy-from/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/upstream-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/",
@@ -15429,7 +15438,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/governance/security-license/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/upstream-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
@@ -15532,7 +15540,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/governance/security-license/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/inheritance-copy-from/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/upstream-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/complete-json-eoc-mod/",
@@ -15569,7 +15576,6 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/governance/security-license/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/",
-    "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/releases/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/upstream-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/mods/complete-json-eoc-mod/",
@@ -15672,6 +15678,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/cpp/upstream-native-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/eoc/upstream-math-compatibility/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/upstream-authoring-notes/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/mods/upstream-content-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/operations/release-assets-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/character/",
@@ -15682,6 +15689,7 @@
     "https://crimsoncrossbunker.github.io/CCB-Docs/en/subsystems/water/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/eoc/upstream-math-compatibility/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/json/upstream-authoring-notes/",
+    "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/mods/upstream-content-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/operations/release-assets-sync/",
     "https://crimsoncrossbunker.github.io/CCB-Docs/subsystems/character/",
@@ -16178,13 +16186,6 @@
         "section": "JSON",
         "order": 131,
         "path": "json/inheritance-copy-from.md"
-      },
-      {
-        "id": "json.validation",
-        "title": "JSON 验证与证据等级",
-        "section": "JSON",
-        "order": 132,
-        "path": "json/validation.md"
       },
       {
         "id": "reference.json-object-types",
@@ -16733,13 +16734,6 @@
         "section": "JSON",
         "order": 131,
         "path": "json/inheritance-copy-from.md"
-      },
-      {
-        "id": "json.validation",
-        "title": "JSON validation and evidence levels",
-        "section": "JSON",
-        "order": 132,
-        "path": "json/validation.md"
       },
       {
         "id": "reference.json-object-types",
@@ -17873,28 +17867,6 @@
       "alternate": {
         "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/",
         "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/"
-      }
-    },
-    {
-      "id": "json.validation",
-      "language": "en",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/",
-      "last_verified": "2026-11-14",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/"
-      }
-    },
-    {
-      "id": "json.validation",
-      "language": "zh_CN",
-      "url": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
-      "last_verified": "2026-11-14",
-      "status": "active",
-      "alternate": {
-        "zh_CN": "https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/",
-        "en": "https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/"
       }
     },
     {

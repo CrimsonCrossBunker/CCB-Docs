@@ -87,8 +87,6 @@
 - [zh_CN] JSON 继承与 copy-from: https://crimsoncrossbunker.github.io/CCB-Docs/json/inheritance-copy-from/
 - [en] JSON contract overview: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/overview/
 - [zh_CN] JSON 契约总览: https://crimsoncrossbunker.github.io/CCB-Docs/json/overview/
-- [en] JSON validation and evidence levels: https://crimsoncrossbunker.github.io/CCB-Docs/en/json/validation/
-- [zh_CN] JSON 验证与证据等级: https://crimsoncrossbunker.github.io/CCB-Docs/json/validation/
 - [en] Release maintenance: https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/releases/
 - [zh_CN] 发布维护: https://crimsoncrossbunker.github.io/CCB-Docs/maintenance/releases/
 - [en] Upstream synchronization: https://crimsoncrossbunker.github.io/CCB-Docs/en/maintenance/upstream-sync/
