@@ -932,3 +932,21 @@ This batch refreshes source locations, example locations, and test-data occurren
 the generated JSON/EOC inventories. Registered JSON types, EOC condition/effect keys, and
 their parameter contracts remain unchanged. Refreshing an inventory does not provide new
 complete runtime acceptance evidence for those keys.
+
+## Earth–Moon space models
+
+`require("ccb").services.space` exposes read-only, on-demand models for Earth and Moon orbits. Use a shared simulation clock in seconds; axes stay parallel when recentering, and the simulation epoch is not UTC or J2000. Distances are in kilometers and speeds in kilometers per second.
+
+```lua
+local space = require("ccb").services.space
+local plan = space.plan_lunar_transfer(0, 300, 100)
+local entry = space.propagate(plan.earth_leg, plan.lunar_entry_s)
+local moon_frame = space.recenter(entry, "moon")
+local dose = space.radiation(moon_frame, {
+  shield_g_cm2 = 10,
+  solar_event_strength = 2,
+  duration_s = 3600,
+})
+```
+
+`moon_ephemeris` uses a fixed offline gameplay orbit. The transfer starts from a required coplanar circular parking state and ends at the lunar sphere of influence; its capture burn is a budget estimate, not a solved lunar approach. `observe` and `next_pass` report geometric visibility, not reception quality. `line_of_sight` and `sunlit` use spherical Earth and Moon occluders. Radiation separates galactic, trapped, and solar components; dose is calculated at a single sample point, not integrated along the trajectory. These queries do not change the map or apply damage.
