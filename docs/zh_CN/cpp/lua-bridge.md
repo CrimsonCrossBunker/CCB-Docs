@@ -817,3 +817,21 @@ Lua 关闭配置不能选择 `lua` 测试源码范围。两者复用游戏引擎
 生成的 JSON/EOC 清单在本批更新了源码位置、示例位置和测试数据实例计数。
 对比注册内容后，JSON 类型及 EOC 条件／效果键的集合与参数契约保持一致；
 清单刷新不代表新增了这些键的完整运行验收证据。
+
+## 地月太空模型
+
+`require("ccb").services.space` 提供地心与月心空间模型的按需只读查询。各接口共用以秒为单位的模拟时钟，切换中心天体不会旋转坐标轴。模拟历元不是 UTC 或 J2000；距离单位为千米，速度单位为千米每秒。
+
+```lua
+local space = require("ccb").services.space
+local plan = space.plan_lunar_transfer(0, 300, 100)
+local entry = space.propagate(plan.earth_leg, plan.lunar_entry_s)
+local moon_frame = space.recenter(entry, "moon")
+local dose = space.radiation(moon_frame, {
+  shield_g_cm2 = 10,
+  solar_event_strength = 2,
+  duration_s = 3600,
+})
+```
+
+`moon_ephemeris` 使用固定的离线游戏轨道。地月转移要求从指定的共面圆形停泊轨道出发，轨迹止于月球影响球边界；捕获点火只估算预算，不求解月心接近轨迹。`observe` 和 `next_pass` 查询的是几何可见性，不代表信号可接收。`line_of_sight` 和 `sunlit` 使用球形地球和月球判定遮挡。辐射查询分别给出银河宇宙射线、辐射带和太阳粒子事件分量，剂量只按采样点估算，不做沿航线积分。这些查询不会修改地图或施加伤害。
