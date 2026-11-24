@@ -293,6 +293,35 @@ Lua 侧只通过 Platform v1 声明的 value、snapshot 和代际检查 handle �
 公共 symbol 必须同时存在于原生 registration、LuaLS 声明和生成 inventory，并由 Platform
 contract/coverage tests 证明。说明性文档不能替代这些来源。
 
+## 环境模型
+
+`require("ccb").services.environment_models` 提供确定性的只读查询，不会修改世界，
+也不随回合自动更新。
+
+```lua
+local models = require("ccb").services.environment_models
+local ion = models.ionosphere(300, 45)
+local air = models.troposphere(1500)
+local orbit = models.near_earth_orbit({
+    perigee_altitude_km = 400, apogee_altitude_km = 450,
+    inclination_deg = 51.6, ascending_node_deg = 0,
+    argument_of_perigee_deg = 0, mean_anomaly_deg = 0,
+}, 600)
+```
+
+- 电离层：传入高度（60–1000 公里）和当地太阳高度角（-90–90 度）。返回 D/E/F 层及总
+  电子密度（电子数/立方米）和局地等离子体频率（Hz）。Chapman 剖面近似昼夜差异，
+  不用于预测无线电链路或空间天气。
+- 对流层：传入海拔（-500–11000 米）。可选参考表包含 `altitude_m`、`temperature_k`、
+  `pressure_pa`，默认值分别为 0 米、288.15 K、101325 Pa。以国际单位返回温度、气压、
+  干空气密度和声速，不考虑湿度或风。
+- 近地轨道：传入调用者指定历元的轨道要素和相对历元的秒数（可为负）。近地点和远地点
+  高度必须在 160–2000 公里内且顺序正确。位置和速度采用地心惯性坐标（+Z 指北，
+  +X 对应零升交点经度），单位为公里和公里/秒。高度以半径 6371 公里的球面为基准，
+  周期以秒计。两体模型不考虑阻力、进动或地球自转。
+
+无效参数会产生 Lua 错误。完整的参数范围和返回字段见 LuaLS 声明。
+
 ## 统一的 bundled Lua ABI
 
 Make、桌面 CMake 和 Android 都编译仓库内同一组 `src/lua/*.c`，并统一使用 Lua 的标准 C
