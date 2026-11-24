@@ -297,6 +297,39 @@ Every public symbol must agree across native registration, the LuaLS declaration
 generated inventory, with Platform contract and coverage tests proving parity. Explanatory prose
 cannot replace those sources.
 
+## Environment models
+
+`require("ccb").services.environment_models` provides deterministic, read-only
+queries. It does not update the world or run once per turn.
+
+```lua
+local models = require("ccb").services.environment_models
+local ion = models.ionosphere(300, 45)
+local air = models.troposphere(1500)
+local orbit = models.near_earth_orbit({
+    perigee_altitude_km = 400, apogee_altitude_km = 450,
+    inclination_deg = 51.6, ascending_node_deg = 0,
+    argument_of_perigee_deg = 0, mean_anomaly_deg = 0,
+}, 600)
+```
+
+- Ionosphere: pass altitude (60–1000 km) and local solar elevation (-90–90°).
+  Returns D/E/F and total electron densities (electrons/m³) and local plasma
+  frequency (Hz). The Chapman profiles approximate day and night; they do not
+  predict radio links or space weather.
+- Troposphere: pass altitude above mean sea level (-500–11000 m). An optional
+  reference table supplies `altitude_m`, `temperature_k`, and `pressure_pa`;
+  defaults are 0 m, 288.15 K, and 101325 Pa. Returns temperature, pressure,
+  dry-air density, and speed of sound in SI units. No humidity or wind is modeled.
+- Orbit: pass elements at the caller's epoch and elapsed seconds (negative is
+  valid). Perigee and apogee must be ordered within 160–2000 km. Position and
+  velocity use Earth-centered inertial axes (+Z north, +X at zero ascending-node
+  longitude), in km and km/s. Altitude is relative to a 6371 km sphere; the
+  period is in seconds. The two-body model omits drag, precession, and Earth rotation.
+
+Invalid inputs raise Lua errors. See the LuaLS declarations for parameter bounds
+and all result fields.
+
 ## One bundled Lua ABI
 
 Make, desktop CMake, and Android compile the same repository-owned `src/lua/*.c` sources and use
